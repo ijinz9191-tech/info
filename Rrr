@@ -1,0 +1,828 @@
+VOC 답변 Format Quality 학습 시스템 구축 요구사항
+
+사용할 XGBoost Skill:
+GitHub Repository: fbzz/xgboost-expert-skill
+
+위 XGBoost Expert Skill의 SKILL.md를 분석하고 현재 프로젝트에 적용하라.
+
+1. 최종 목적
+
+현재 VOC 시스템은 LLM이 생성하는 답변의 내용 자체는 대체로 정확하지만, 텍스트 출력 형식이 일정하지 않고 가독성이 떨어지는 문제가 있다.
+
+예:
+
+- 문단 구분이 없음
+- 문장이 지나치게 김
+- 번호 목록이 뒤섞임
+- 불필요한 줄바꿈
+- 동일 내용 반복
+- 원인/조치방법/참고사항이 섞임
+- Markdown 구조가 일관되지 않음
+- 답변마다 형식이 달라짐
+- 핵심 내용이 눈에 잘 들어오지 않음
+
+이 문제를 개선하기 위해 XGBoost 기반의 VOC 답변 Format Quality Scoring 시스템을 구축한다.
+
+중요:
+
+XGBoost가 직접 VOC 문장을 수정하게 만들지 않는다.
+
+역할을 반드시 다음과 같이 분리한다.
+
+XGBoost
+= 답변의 텍스트 형식 품질 판정 및 점수화
+
+GLM5.2
+= 실제 답변 내용 생성 및 텍스트 Formatter
+
+즉:
+
+VOC
+→ 검색/RAG
+→ GLM5.2 답변 생성
+→ Format Feature 추출
+→ XGBoost Format Quality 평가
+→ 품질이 낮으면 GLM5.2 Formatter 실행
+→ 재평가
+→ 최종 답변 반환
+→ 사용자/운영자 피드백 저장
+→ 추후 XGBoost 재학습
+
+형태로 구현한다.
+
+2. 절대 원칙
+
+답변 내용이 맞는 상황에서 문장 구조와 형식만 개선하는 것이 목적이다.
+
+Formatter는 다음을 절대 변경해서는 안 된다.
+
+- 사실관계
+- 숫자
+- 날짜
+- 이름
+- 서비스명
+- 시스템명
+- 장애 원인
+- 처리 결과
+- 고객 정보
+- 검색/RAG 결과
+- 기술적인 의미
+- 원문에 존재하지 않는 정보
+
+Formatter는 새로운 내용을 생성하는 역할이 아니다.
+
+Formatter의 역할은 오직:
+
+- 문단 분리
+- 제목 구성
+- 번호 목록 정리
+- 중복 표현 제거
+- 긴 문장 분리
+- 가독성 개선
+- Markdown 구조 통일
+
+이다.
+
+3. 전체 Architecture
+
+다음 구조로 구현하라.
+
+VOC Request
+↓
+RAG / Search
+↓
+GLM5.2
+↓
+Original Answer
+↓
+Format Feature Extractor
+↓
+XGBoost Format Scorer
+↓
+format_score
+↓
+┌────────────────────────────┐
+│ score >= HIGH_THRESHOLD    │
+│ → 원본 그대로 반환         │
+├────────────────────────────┤
+│ MID_THRESHOLD 이상         │
+│ → Formatter 실행           │
+├────────────────────────────┤
+│ 매우 낮은 Score            │
+│ → Formatter 또는 재생성    │
+└────────────────────────────┘
+↓
+GLM5.2 Formatter
+↓
+Formatted Answer
+↓
+Format Feature Extractor
+↓
+XGBoost 재평가
+↓
+최종 VOC Response
+↓
+Feedback 저장
+
+4. XGBoost 역할
+
+XGBoost를 Text Generator로 사용하지 마라.
+
+XGBoost는 구조화된 Feature를 입력받아 다음을 판단한다.
+
+format_quality_score
+
+초기에는 1~5 점으로 구성한다.
+
+1 = 매우 불량
+2 = 불량
+3 = 보통
+4 = 양호
+5 = 매우 양호
+
+XGBRegressor 사용을 기본 후보로 검토한다.
+
+단, 실제 데이터 분포 및 라벨 특성을 분석한 결과 Classification이 더 적합하면:
+
+BAD
+NORMAL
+GOOD
+
+또는
+
+BAD = 0
+GOOD = 1
+
+분류 구조도 비교 실험한다.
+
+XGBoost Skill의 지침에 따라 Validation 결과를 비교한 후 최종 방식을 선택한다.
+
+모델 선택 근거와 실험 결과를 반드시 기록한다.
+
+5. Feature Engineering
+
+LLM 답변 문자열 자체를 그대로 XGBoost에 입력하지 않는다.
+
+답변으로부터 구조적인 Feature를 추출한다.
+
+최소 다음 Feature를 구현한다.
+
+Length Feature
+
+answer_length
+character_count
+word_count
+sentence_count
+paragraph_count
+line_count
+
+avg_sentence_length
+max_sentence_length
+avg_paragraph_length
+
+Markdown / Structure Feature
+
+heading_count
+h1_count
+h2_count
+h3_count
+
+bullet_count
+numbered_list_count
+code_block_count
+
+empty_line_count
+newline_ratio
+
+has_heading
+has_summary
+has_cause
+has_solution
+has_action_item
+has_reference
+
+Readability Feature
+
+long_sentence_count
+long_sentence_ratio
+
+very_long_paragraph_count
+very_long_paragraph_ratio
+
+duplicate_sentence_count
+duplicate_sentence_ratio
+
+repeated_phrase_ratio
+
+special_char_ratio
+whitespace_ratio
+
+consecutive_newline_count
+
+VOC Semantic Structure Feature
+
+다음 항목의 존재 여부를 Feature로 만든다.
+
+has_inquiry
+has_result
+has_cause
+has_solution
+has_action
+has_warning
+has_reference
+
+필요하면 GLM 또는 Rule 기반 추출을 사용할 수 있다.
+
+RAG/LLM Feature
+
+현재 시스템에서 확보할 수 있다면 다음도 포함한다.
+
+retrieval_score
+similarity_score
+reranker_score
+
+answer_confidence
+
+retrieved_document_count
+context_length
+
+prompt_token_count
+completion_token_count
+
+latency_ms
+
+Skill / Model Feature
+
+model_name
+model_version
+
+used_skill
+skill_version
+
+prompt_version
+formatter_version
+feature_version
+
+6. Feature Versioning
+
+feature_version을 반드시 저장한다.
+
+예:
+
+feature_version = "format-v1"
+
+Feature 추가/삭제/계산식 변경 시:
+
+format-v2
+format-v3
+
+형태로 증가시킨다.
+
+서로 다른 Feature Version의 데이터를 무조건 섞어서 학습하지 않는다.
+
+7. 학습 데이터 저장
+
+원본 VOC 답변은 절대 삭제하거나 덮어쓰지 않는다.
+
+최소 다음 정보를 저장한다.
+
+voc_id
+
+question
+
+original_answer
+formatted_answer
+
+format_score_before
+format_score_after
+
+human_score
+human_approved
+
+format_label
+
+error_types
+
+model_name
+model_version
+
+used_skill
+skill_version
+
+retrieval_score
+similarity_score
+
+formatter_version
+prompt_version
+feature_version
+
+created_at
+updated_at
+
+8. Format Error Type
+
+단순 Score만 저장하지 말고 어떤 문제가 있었는지도 저장한다.
+
+지원할 Error Type 예:
+
+NO_PARAGRAPH
+
+LONG_SENTENCE
+
+LONG_PARAGRAPH
+
+DUPLICATE_CONTENT
+
+BAD_BULLET_FORMAT
+
+BAD_NUMBERING
+
+EXCESSIVE_NEWLINE
+
+INSUFFICIENT_NEWLINE
+
+MISSING_SECTION
+
+MIXED_STRUCTURE
+
+UNREADABLE_FORMAT
+
+INCONSISTENT_MARKDOWN
+
+REDUNDANT_EXPRESSION
+
+기타 유형이 발견되면 확장 가능하게 구현한다.
+
+다중 Error Type을 허용한다.
+
+9. PostgreSQL
+
+실시간 데이터는 PostgreSQL을 기준으로 설계한다.
+
+예를 들어 다음 개념의 테이블을 구성한다.
+
+voc_answer
+
+voc_format_feature
+
+voc_format_evaluation
+
+voc_format_feedback
+
+xgboost_model_registry
+
+training_dataset_snapshot
+
+원본 Answer와 Formatted Answer를 서로 다른 컬럼으로 보존한다.
+
+original_answer는 어떠한 경우에도 Formatter 결과로 UPDATE하여 덮어쓰지 않는다.
+
+10. Dataset Snapshot
+
+운영 DB 전체를 직접 학습에 사용하지 않는다.
+
+특정 시점의 학습 데이터를 Snapshot으로 생성한다.
+
+권장:
+
+PostgreSQL
+↓
+Training Dataset 생성
+↓
+Parquet
+↓
+Train / Validation / Test
+↓
+XGBoost Training
+
+Dataset마다 다음 정보를 기록한다.
+
+dataset_version
+feature_version
+created_at
+
+record_count
+
+positive_count
+negative_count
+
+training_period
+
+source_query_version
+
+11. Validation
+
+랜덤 Split 하나만 사용해서 성능이 좋다고 판단하지 않는다.
+
+VOC 데이터의 시간 순서를 고려하라.
+
+가능하면:
+
+과거 데이터
+→ Training
+
+최근 데이터
+→ Validation/Test
+
+구조로 구성한다.
+
+동일 VOC 또는 동일 질문에서 파생된 데이터가 Train/Test에 동시에 들어가 Leakage가 발생하지 않도록 한다.
+
+Duplicate/near-duplicate 데이터도 확인한다.
+
+12. Human Feedback
+
+운영자가 다음 피드백을 줄 수 있게 설계한다.
+
+GOOD
+BAD
+
+또는
+
+1
+2
+3
+4
+5
+
+추가로:
+
+FORMAT_GOOD
+FORMAT_BAD
+
+CONTENT_GOOD
+CONTENT_BAD
+
+를 분리할 수 있도록 한다.
+
+중요:
+
+CONTENT 품질과 FORMAT 품질은 반드시 분리한다.
+
+예를 들어:
+
+Content = GOOD
+Format = BAD
+
+상태가 가능해야 한다.
+
+현재 프로젝트의 핵심 대상은 이 케이스이다.
+
+13. Formatter
+
+GLM5.2 Formatter Prompt를 별도로 관리한다.
+
+Formatter 기본 출력 형태:
+
+문의 내용
+
+사용자의 핵심 문의를 간결하게 정리한다.
+
+확인 결과
+
+확인된 내용만 작성한다.
+
+원인
+
+원인이 명확하게 존재하는 경우에만 작성한다.
+
+조치 방법
+
+1. 첫 번째 조치
+2. 두 번째 조치
+3. 세 번째 조치
+
+참고 사항
+
+필요한 경우에만 작성한다.
+
+14. Formatter 절대 규칙
+
+원문의 의미를 변경하지 않는다.
+
+원문에 없는 정보를 추가하지 않는다.
+
+수치를 임의로 수정하지 않는다.
+
+날짜를 수정하지 않는다.
+
+제품/서비스/시스템 이름을 수정하지 않는다.
+
+사람 이름을 수정하지 않는다.
+
+기술적인 의미를 수정하지 않는다.
+
+원문에 없는 원인을 추론해서 작성하지 않는다.
+
+원문에 없는 해결 방법을 생성하지 않는다.
+
+정보가 없으면 해당 Section을 생략할 수 있다.
+
+답변을 예쁘게 만들기 위해 사실을 추가하는 행위를 금지한다.
+
+15. Scoring Flow
+
+초기 Threshold는 설정파일로 외부화한다.
+
+예:
+
+HIGH_THRESHOLD = 4.0
+MID_THRESHOLD = 2.5
+
+예시 동작:
+
+4.0 이상
+→ 원본 Answer 사용
+
+2.5 ~ 4.0
+→ Formatter 적용
+
+2.5 미만
+→ 강한 Formatter 또는 필요 시 Answer 재생성 검토
+
+Threshold는 하드코딩하지 않는다.
+
+추후 운영 데이터로 최적화할 수 있게 한다.
+
+16. Before / After 저장
+
+반드시 아래 데이터를 남긴다.
+
+original_answer
+
+format_score_before
+
+formatted_answer
+
+format_score_after
+
+formatter_applied
+
+formatter_version
+
+이를 이용하여:
+
+Formatter가 실제로 품질을 개선했는지
+
+측정할 수 있어야 한다.
+
+17. 잘못된 Formatter 방지
+
+다음 상황을 탐지한다.
+
+format_score_after < format_score_before
+
+이 경우:
+
+formatted_answer를 바로 사용하지 않는다.
+
+원본을 유지하거나 재Formatter하도록 한다.
+
+또한 Formatter 실행 전후 Semantic Similarity를 검사한다.
+
+원본과 정리된 답변의 의미가 지나치게 달라지면 Formatter 결과를 Reject한다.
+
+즉:
+
+Original Answer
+↓
+Formatter
+↓
+Semantic Similarity Check
+↓
+Format Score Check
+↓
+Accept / Reject
+
+18. 모델 저장
+
+XGBoost Model은 Version 관리한다.
+
+예:
+
+voc-format-xgb-v001.json
+voc-format-xgb-v002.json
+voc-format-xgb-v003.json
+
+Model Registry에 다음 정보를 기록한다.
+
+model_version
+dataset_version
+feature_version
+
+train_metric
+validation_metric
+test_metric
+
+created_at
+
+active
+previous_model_version
+
+19. 모델 교체
+
+새 모델이 생성됐다는 이유만으로 운영 모델을 자동 교체하지 않는다.
+
+Champion / Challenger 구조를 사용한다.
+
+Current Production Model
+↓
+Champion
+
+New Model
+↓
+Challenger
+
+동일 Test Dataset 및 최신 데이터로 비교한다.
+
+Challenger가 기준을 충족할 경우에만 Production Model로 승격한다.
+
+20. Explainability
+
+XGBoost의 Feature Importance를 저장한다.
+
+가능하면 SHAP도 적용한다.
+
+예:
+
+FORMAT_BAD 판단 주요 원인:
+
+duplicate_sentence_ratio  31%
+avg_sentence_length       22%
+paragraph_count           18%
+heading_count             12%
+
+운영자가 왜 BAD로 판단됐는지 확인할 수 있게 한다.
+
+21. 최종 목표 예
+
+다음과 같은 결과를 만들 수 있어야 한다.
+
+VOC #12345
+
+Content Quality:
+GOOD
+
+Original Format Score:
+2.1
+
+발견된 문제:
+
+- NO_PARAGRAPH
+- LONG_SENTENCE
+- DUPLICATE_CONTENT
+
+Formatter:
+APPLIED
+
+Formatted Score:
+4.6
+
+Semantic Similarity:
+0.97
+
+Result:
+ACCEPT
+
+22. 재학습
+
+새 Feedback이 계속 누적되도록 한다.
+
+VOC Response
+→ Human Feedback
+→ PostgreSQL
+→ Dataset Snapshot
+→ Validation
+→ XGBoost Retraining
+→ Challenger Model
+→ 검증
+→ Production 승격
+
+구조를 만든다.
+
+초기 단계에서는 자동 Production 배포까지 구현하지 않아도 된다.
+
+재학습과 모델 배포를 분리해서 설계한다.
+
+23. 중요한 설계 원칙
+
+이 프로젝트의 목적은
+
+"XGBoost로 자연어를 생성하는 것"
+
+이 아니다.
+
+목적은
+
+"VOC LLM 답변의 Format Quality를 데이터 기반으로 판별하고 지속적으로 개선하는 것"
+
+이다.
+
+따라서 반드시:
+
+GLM5.2 = 생성/정리
+
+XGBoost = 판정/점수화
+
+PostgreSQL = Feedback/운영 데이터
+
+Parquet = Training Snapshot
+
+Model Registry = 모델 버전 관리
+
+형태로 책임을 분리한다.
+
+24. 구현 작업
+
+현재 Repository 전체를 먼저 분석한 뒤 기존 구조를 최대한 활용해서 구현하라.
+
+불필요하게 새로운 Framework를 추가하지 않는다.
+
+다음 순서로 진행한다.
+
+1. 현재 VOC 처리 Flow 분석
+2. 현재 GLM5.2 호출 위치 파악
+3. 현재 RAG/Search 결과 구조 확인
+4. 기존 DB Schema 확인
+5. Feature Extractor 설계
+6. PostgreSQL Schema 설계
+7. Training Dataset Builder 구현
+8. XGBoost Training Pipeline 구현
+9. Format Scorer 구현
+10. GLM5.2 Formatter 구현
+11. Before/After Validation 구현
+12. Feedback 저장 구현
+13. Model Registry 구현
+14. 테스트 구현
+15. 운영 적용 방법 문서화
+
+25. 테스트
+
+최소 다음 Case를 테스트한다.
+
+Case 1
+내용 GOOD / 형식 GOOD
+→ Formatter 실행하지 않음
+
+Case 2
+내용 GOOD / 형식 BAD
+→ Formatter 실행
+
+Case 3
+Formatter 이후 Score 상승
+→ Formatted Answer 채택
+
+Case 4
+Formatter 이후 Score 하락
+→ Formatter 결과 Reject
+
+Case 5
+Formatter가 원문 의미 변경
+→ Semantic 검사에서 Reject
+
+Case 6
+긴 단일 문단
+→ BAD 판단
+
+Case 7
+중복 문장 다수
+→ BAD 판단
+
+Case 8
+Markdown 구조 정상
+→ GOOD 판단
+
+Case 9
+새 Feature Version
+→ 과거 모델과 혼용되지 않음
+
+Case 10
+새 XGBoost 모델 성능 저하
+→ Production 승격 금지
+
+26. 완료 조건
+
+단순 설계 문서만 작성하고 끝내지 마라.
+
+실제 현재 Repository에 적용 가능한 형태로:
+
+- DB Schema
+- Feature Extractor
+- Dataset Builder
+- XGBoost Training
+- XGBoost Prediction
+- Formatter
+- Feedback 저장
+- Model Versioning
+- Configuration
+- Unit Test
+- Integration Test
+- README/운영 문서
+
+까지 구현한다.
+
+작업 중 불필요한 질문은 하지 말고 현재 Repository와 코드에서 확인 가능한 사항은 직접 분석하여 결정한다.
+
+확실하지 않은 부분은 합리적인 기본값을 적용하되 Configuration으로 외부화한다.
+
+기존 VOC 답변 생성 로직을 깨뜨리지 않고 단계적으로 적용할 수 있도록 구현한다.
