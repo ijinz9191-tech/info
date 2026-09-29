@@ -13,7 +13,7 @@
 | 알고리즘·이벤트·장애·GitHub 코드 | 기존 주제별 문서와 [코드 읽기](github-code.md) | 분야별 사례와 커밋 고정 코드 분석 |
 | React·Spring Boot | [React 심화](react-deep-dive.md), [Spring Boot 심화](spring-boot-deep-dive.md)의 설계·진단 및 공개 이슈 | 버전별 API·실제 재현 프로젝트와 회귀 테스트 |
 | CNCF 전체 | [고정 Landscape](cncf-deep-dive.md)의 2,425개 항목 색인과 255개 프로젝트 목록 | 프로젝트별 공식 문서·운영 사례의 단계적 심화 |
-| VOC | [언어별 대표 사례](voc-languages.md) 55개, [CNCF 분야별 대표 사례](voc-cncf.md) 27개, [공개 사례집](voc-public.md)의 실제 이슈와 문서 기반 유형 | 각 언어의 추가 오류 유형과 CNCF 255개 프로젝트별 버전·재현·회귀 테스트 심화 |
+| VOC | **언어 130건**: [기존 55건](voc-languages.md)·[추가 55건](voc-languages-extra.md)·[추가 20건](voc-languages-more.md). **CNCF 120건**: [기존 27건](voc-cncf.md)·[분야 추가 27건](voc-cncf-extra.md)·[프로젝트 46건](voc-cncf-projects-extra.md)·[프로젝트 20건](voc-cncf-more.md). **프레임워크 120건**: [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[20건](voc-frameworks-deeper.md). 합계 370건이며 기존 [공개 사례집](voc-public.md)은 별도 | CNCF 255개 프로젝트와 언어·프레임워크의 버전별 재현·회귀 테스트를 계속 누적. 100건은 최소 점검선일 뿐 갱신을 중단하는 상한이 아님 |
 
 ## 다음 주제 선정 규칙
 

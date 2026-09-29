@@ -33,7 +33,8 @@ node C:\PRJ\apps\info\memory\sync-cncf.mjs --refresh
 7. [범위 장부](coverage.md)의 색인 항목 가운데 아직 가이드가 없는 분야를 하나 고른다. 개념·실패 사례·검증 절차를 채운 뒤 깊이 표시를 갱신한다. 단순 링크 추가를 완료로 세지 않는다.
 8. CNCF 원본 스냅샷을 갱신했다면 커밋·항목 수·프로젝트 성숙도 변화와 라이선스 표기를 확인하고 [CNCF 지도](cncf-deep-dive.md)의 수치를 업데이트한다. 원본 데이터 갱신을 개별 프로젝트 설명·VOC 해결 검증으로 간주하지 않는다.
 9. [VOC 사례집](voc-public.md)은 실제 공개 이슈와 문서 기반 증상 유형을 구별한다. 확인된 원인, 임시 완화, 해결 검증의 상태를 섞지 않는다.
-10. [언어별 VOC](voc-languages.md)와 [CNCF 분야별 VOC](voc-cncf.md)의 대표 사례 범위는 `check-voc-coverage.mjs`로 검사한다. 이 검사는 항목 누락만 찾는다. 가능한 모든 사고나 해결의 정확성을 증명하지 않는다.
+10. [언어별 VOC](voc-languages.md), [CNCF 분야별 VOC](voc-cncf.md), [언어 추가](voc-languages-extra.md)·[후속](voc-languages-more.md), [CNCF 분야 추가](voc-cncf-extra.md)·[프로젝트 추가](voc-cncf-projects-extra.md)·[후속](voc-cncf-more.md), [프레임워크 추가](voc-frameworks-extra.md)·[후속](voc-frameworks-more.md)·[심화](voc-frameworks-deeper.md)를 `check-voc-coverage.mjs`로 검사한다. 이 검사는 지도 항목별 누락, 영역별 최소 100건, ID 중복만 찾는다. 100건을 채운 뒤에도 새 사례를 중단하지 않는다. 가능한 모든 사고나 해결의 정확성을 증명하지 않는다.
+11. 매 갱신 주기에 CNCF 개별 프로젝트, 언어 표준/런타임, 프레임워크의 공식 문제 해결 문서와 공개 이슈를 순회한다. 기존 사례와 증상·원인·조치가 다른 항목만 추가하고, 실제 이슈는 재현 환경·이슈 링크·해결 상태를 별도로 적는다. 프로젝트 255개를 훑은 뒤에도 새로운 릴리스와 장애 유형을 계속 확인한다.
 
 ## 갱신 우선순위
 
