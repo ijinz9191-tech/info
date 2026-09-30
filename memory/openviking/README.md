@@ -22,13 +22,13 @@ node C:\PRJ\apps\info\memory\probe-openviking-sources.mjs --check
 ## 네이티브 OpenViking 연결 후
 
 1. 공식 [서버 설정](https://docs.openviking.ai/en/configuration/01-server)에 따라 `storage.workspace`를 의도한 로컬 저장소로 지정하고 임베딩 모델과 VLM의 실제 연결을 점검한다. 계정 키나 모델 설정은 이 Git 저장소에 넣지 않는다.
-2. 공식 [리소스 가져오기](https://github.com/volcengine/OpenViking/blob/main/docs/en/api/02-resources.md)의 로컬 디렉터리 import로 이 `resources/developer-knowledge/`를 `viking://resources/developer-knowledge/`에 가져온다. 디렉터리 구조를 보존하고 `parse_mode=no_split`을 사용해 사례 파일을 하나의 상세 문서로 유지한다.
+2. 공식 [리소스 가져오기](https://github.com/volcengine/OpenViking/blob/main/docs/en/api/02-resources.md)의 로컬 디렉터리 import로 이 `resources/developer-knowledge/`를 `viking://resources/developer-knowledge/`에 가져온다. 공식 Python SDK `openviking-sdk`가 연결된 환경에서는 [가져오기 스크립트](../import-openviking-native.py)를 실행한다. 이 스크립트는 전체 원본 해시를 먼저 확인하고, 디렉터리 구조 보존·`parse_mode=no_split`·정상 semantic/vector 처리를 요청한다. 서버·모델 상태에 따라 대량 처리는 오래 걸릴 수 있다.
 3. 반환된 task ID가 완료됐는지 확인한다. 리소스 트리의 사례 파일 하나와 CNCF 항목 하나를 `read`로 다시 읽고, 언어·CNCF·프레임워크 질의를 각각 `find`로 검색한다. 가져오기 실패 파일과 벡터 큐 실패를 별도로 기록한다.
 4. 원본이 달라지면 `--build`와 `--check` 후 해당 리소스를 다시 가져온다. OpenViking의 [Watch](https://github.com/volcengine/OpenViking/blob/main/docs/en/api/02-resources.md)는 URL·Git처럼 서버가 다시 읽을 수 있는 소스에 적용한다. 로컬 디렉터리를 업로드한 스냅샷은 재수집이 필요하다.
 
 파일의 L0/L1은 오프라인 탐색을 위해 준비한 요약이다. 네이티브 `semantic_and_vectors` 처리에서는 서버가 요약을 재생성할 수 있고, `vectors_only`에서는 새 요약을 생성하지 않는다. 서버 처리 결과를 읽어 확인하기 전에는 이 파일들이 네이티브 인덱스라고 간주하지 않는다.
 
-서버에 가져온 뒤에는 `OPENVIKING_URL`과 필요한 경우 `OPENVIKING_API_KEY`를 프로세스 환경 변수로 지정하고 아래 명령을 실행한다. [검증 스크립트](../verify-openviking-native.mjs)는 manifest에 연결된 대표 사례 3건의 원문과 영역별 검색을 확인한다. 성공 보고서 `native-verification.json`은 **표본 검증**이며 전체 3,380개 파일의 적재 완료를 뜻하지 않는다. 전체 적재 완료 여부는 import task와 실패 목록으로 별도로 확인해야 한다. 서버가 없거나 확인에 실패하면 성공 보고서를 새로 쓰지 않는다.
+서버에 가져온 뒤에는 `OPENVIKING_URL`과 필요한 경우 `OPENVIKING_API_KEY`를 프로세스 환경 변수로 지정하고 아래 명령을 실행한다. [검증 스크립트](../verify-openviking-native.mjs)는 manifest에 연결된 대표 사례 3건의 원문과 영역별 검색을 확인한다. 성공 보고서 `native-verification.json`은 **표본 검증**이며 전체 3,380개 파일의 적재 완료를 뜻하지 않는다. 전체 적재 완료 여부는 가져오기 결과의 실패 목록과 queue 오류로 별도로 확인해야 한다. 서버가 없거나 확인에 실패하면 성공 보고서를 새로 쓰지 않는다.
 
 ```powershell
 node C:\PRJ\apps\info\memory\verify-openviking-native.mjs
