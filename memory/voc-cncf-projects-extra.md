@@ -37,7 +37,7 @@
 | C3-031 | CloudNativePG | failover 뒤 클라이언트가 이전 primary에 붙음; 서비스 endpoint·연결 풀 확인 | 애플리케이션의 오래된 연결이 유지됨 → 서비스와 pool 재연결 전략 수정; failover 실험으로 쓰기 복구 시간 측정 | [CloudNativePG](https://cloudnative-pg.io/documentation/) |
 | C3-032 | Vitess | reshard 중 일부 키 범위만 실패; vreplication·routing 규칙 확인 | 복제 진도 또는 라우트 전환 불일치 → 전환 순서 조정; 키 범위별 읽기·쓰기 검증 | [Vitess](https://vitess.io/docs/) |
 | C3-033 | NATS | 재연결 뒤 소비 메시지가 중복 처리됨; ack·redelivery count 확인 | ack 전 장애로 재전송 → 소비자 멱등성/ack 전략 보강; 장애 주입 후 중복 부작용 검사 | [NATS JetStream](https://docs.nats.io/nats-concepts/jetstream) |
-| C3-034 | Strimzi | Kafka rolling update가 멈춤; operator reconcile·브로커/PDB 상태 확인 | 가용성 예산 또는 브로커 health가 교체를 막음 → health 복구 뒤 순차 재시도; 모든 브로커 버전과 ISR 확인 | [Strimzi](https://strimzi.io/docs/operators/latest/) |
+| C3-034 | Strimzi | Kafka rolling update가 멈춤; operator reconcile·브로커/PDB 상태 확인 | 가용성 예산 또는 브로커 health가 교체를 막음 → health 복구 뒤 순차 재시도; 모든 브로커 버전과 ISR 확인 | [Strimzi](https://strimzi.io/documentation/) |
 | C3-035 | CloudEvents | 이벤트 소비자가 필수 속성 누락으로 거부; specversion·id·source 확인 | producer가 envelope 필수 필드를 빠뜨림 → 스키마/직렬화 수정; 유효·무효 이벤트 계약 테스트 | [CloudEvents](https://github.com/cloudevents/spec) |
 | C3-036 | Helm | 업그레이드 후 값이 예상과 다름; 렌더된 manifest·values 병합 결과 확인 | 차트 기본값과 override 우선순위 착오 → `helm template` 결과 검토; 변경 전후 manifest diff 확인 | [Helm](https://helm.sh/docs/) |
 | C3-037 | Dapr | pub/sub 요청은 성공하지만 구독자에 도달하지 않음; component scope·topic·sidecar 로그 확인 | 컴포넌트 범위 또는 구독 경로 불일치 → scope/route 수정; 고유 이벤트 ID로 end-to-end 추적 | [Dapr](https://docs.dapr.io/developing-applications/building-blocks/pubsub/) |
@@ -45,10 +45,10 @@
 | C3-039 | Argo | Argo CD에서 Git 변경이 적용되지 않음; Application sync status·diff·repo 접근 확인 | 자동 동기화 비활성 또는 repo 인증 실패 → 접근과 sync 정책 수정; 지정 commit이 클러스터에 반영되는지 확인 | [Argo CD](https://argo-cd.readthedocs.io/en/stable/user-guide/sync-options/) |
 | C3-040 | Flux | GitRepository는 Ready인데 Kustomization만 실패; source artifact·조건·의존성 확인 | 순서/경로/health check 불일치 → 경로와 dependsOn 수정; reconcile 후 Ready 및 리소스 상태 확인 | [Flux](https://fluxcd.io/flux/cheatsheets/troubleshooting/) |
 | C3-041 | Tekton | PipelineRun이 Task를 시작하지 못함; workspace·service account·TaskRun 조건 확인 | workspace 바인딩 또는 권한 누락 → 바인딩/권한 수정; 동일 입력의 PipelineRun 완료 검증 | [Tekton](https://tekton.dev/docs/pipelines/) |
-| C3-042 | OpenFeature | flag provider 교체 뒤 기본값만 반환; provider status·evaluation reason 확인 | provider 초기화 전 평가 또는 키 불일치 → 초기화·키 설정 수정; 변형별 평가 결과 확인 | [OpenFeature](https://openfeature.dev/docs/) |
+| C3-042 | OpenFeature | flag provider 교체 뒤 기본값만 반환; provider status·evaluation reason 확인 | provider 초기화 전 평가 또는 키 불일치 → 초기화·키 설정 수정; 변형별 평가 결과 확인 | [OpenFeature](https://openfeature.dev/docs/reference/intro/) |
 | C3-043 | Chaos Mesh | 실험 종료 뒤에도 대상이 정상화되지 않음; experiment 상태·finalizer·대상 Pod 확인 | 복구 단계가 실패 또는 대상 리소스 변경 → controller 상태 복구; 원래 네트워크/프로세스 동작 확인 | [Chaos Mesh](https://chaos-mesh.org/docs/) |
 | C3-044 | OpenTelemetry | Collector는 정상인데 trace가 빠짐; receiver/exporter·queue·retry 지표 확인 | exporter 거부 또는 queue 포화 → 배치·재시도·용량 조정; 고유 trace ID의 종단 수신 확인 | [Collector troubleshooting](https://opentelemetry.io/docs/collector/troubleshooting/) |
 | C3-045 | Prometheus | target은 UP인데 메트릭이 없음; scrape sample·relabel 설정 확인 | metric relabel 규칙에서 샘플 제거 → 규칙 수정; 원본 target과 쿼리 결과의 시계열 비교 | [Prometheus configuration](https://prometheus.io/docs/prometheus/latest/configuration/configuration/) |
-| C3-046 | KServe | InferenceService가 Ready여도 예측 요청이 실패; predictor 로그·모델 저장소 접근 확인 | 모델 artifact 접근 또는 로딩 실패 → 스토리지 자격 증명·모델 형식 점검; 샘플 추론과 출력 shape 확인 | [KServe](https://kserve.github.io/website/latest/) |
+| C3-046 | KServe | InferenceService가 Ready여도 예측 요청이 실패; predictor 로그·모델 저장소 접근 확인 | 모델 artifact 접근 또는 로딩 실패 → 스토리지 자격 증명·모델 형식 점검; 샘플 추론과 출력 shape 확인 | [KServe](https://kserve.github.io/website/docs/intro) |
 
 프로젝트 상태와 문서 주소는 바뀔 수 있다. 프로젝트별 버전, 배포 형태, 원인 확정 여부를 실제 사고 기록에 덧붙인다.

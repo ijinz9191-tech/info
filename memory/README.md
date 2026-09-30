@@ -28,6 +28,7 @@
 | 유명 오픈소스의 코드를 어디부터 읽나? | [GitHub 코드 읽기](github-code.md) |
 | 오픈소스 설계 패턴을 오프라인에서 이해하려면? | [코드 패턴](code-patterns.md) |
 | 출처의 변경을 어떻게 확인하나? | [출처 목록](sources.json), [갱신 절차](maintenance.md) |
+| OpenViking 계층에서 사례와 CNCF 항목을 찾으려면? | [OpenViking 리소스](openviking/README.md), [생성 manifest](openviking/manifest.json) |
 | 지금 어느 범위까지 작성됐고 다음 확장은? | [범위 장부](coverage.md) |
 
 ## 사용 원칙

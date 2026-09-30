@@ -58,6 +58,6 @@
 | L2-052 | Solidity | 정상 거래가 가스 한도에서 실패; 입력 크기와 가스 사용량 확인 | 무한/큰 반복·저장소 쓰기 비용 → 작업을 나누고 비용 상한 검증; 큰 입력 테스트 | [Solidity 문서](https://docs.soliditylang.org/) |
 | L2-053 | Haxe | 의존 라이브러리 업그레이드 뒤 빌드 실패; haxelib/컴파일러 버전 확인 | 라이브러리와 컴파일 타깃의 버전 충돌 → 호환 버전 고정; 각 타깃 깨끗한 빌드 | [Haxe 문서](https://haxe.org/documentation/introduction/) |
 | L2-054 | ABAP | 업데이트가 성공처럼 보이나 DB에 반영되지 않음; update task와 commit 결과 확인 | 업무 트랜잭션 커밋/오류 처리 누락 → 갱신 결과와 트랜잭션 경계 명시; 롤백·재시도 테스트 | [SAP ABAP 문서](https://help.sap.com/docs/abap-cloud/abap-keyword/abap-syntax-elements-of-abap-program) |
-| L2-055 | Apex | 동시 수정에서 잠금 오류; 객체·트랜잭션·재시도 로그 확인 | 같은 레코드에 대한 동시 쓰기 경쟁 → 쓰기 순서/분할·제한 재시도; 동시 배치 테스트 | [Salesforce Apex](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/apex-overview.html) |
+| L2-055 | Apex | 동시 수정에서 잠금 오류; 객체·트랜잭션·재시도 로그 확인 | 같은 레코드에 대한 동시 쓰기 경쟁 → 쓰기 순서/분할·제한 재시도; 동시 배치 테스트 | [Salesforce Apex](https://developer.salesforce.com/docs/platform/aura-platform/guide/apex-intro.html) |
 
 **적용 순서:** 버전·최소 재현을 고정하고 표의 원인 후보를 반증할 증거를 먼저 찾는다. 원인이 확인되면 한 번에 하나의 조치를 적용하고 기존 성공 경로와 실패 경로를 회귀 테스트한다.

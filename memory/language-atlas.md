@@ -80,7 +80,7 @@
 | Solidity | 저장소·가스·외부 호출, 재진입과 권한 | [Solidity 문서](https://docs.soliditylang.org/) |
 | Haxe | 여러 타깃으로 컴파일, 타깃별 API와 조건부 코드 | [Haxe 문서](https://haxe.org/documentation/introduction/) |
 | ABAP | SAP 데이터·트랜잭션, 플랫폼 버전별 언어 범위 | [SAP ABAP 키워드 문서](https://help.sap.com/docs/abap-cloud/abap-keyword/abap-syntax-elements-of-abap-program) |
-| Apex | Salesforce 트랜잭션·실행 제한, 권한과 데이터 접근 | [Salesforce Apex 개발 안내](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/apex-overview.html) |
+| Apex | Salesforce 트랜잭션·실행 제한, 권한과 데이터 접근 | [Salesforce Apex 개발 안내](https://developer.salesforce.com/docs/platform/aura-platform/guide/apex-intro.html) |
 
 ## 어떤 언어든 먼저 확인할 8가지
 

@@ -19,7 +19,7 @@
 | C4-013 | Fluentd | 로그가 입력되지만 일부 필드가 사라짐; filter chain·buffer 오류 확인 | 파서/필터 순서 오류 → 단계별 이벤트 확인 후 순서 조정; 고유 로그 레코드의 필드 비교 | [Fluentd](https://docs.fluentd.org/) |
 | C4-014 | Cortex | 동일 PromQL이 인스턴스마다 다름; tenant header·ingester 상태 확인 | 테넌트 헤더 누락 또는 replication 지연 → 인증/replication 점검; 같은 tenant·시각의 결과 비교 | [Cortex](https://cortexmetrics.io/docs/) |
 | C4-015 | KubeArmor | 정책은 적용됐으나 차단이 없음; 노드 LSM 지원·policy selector 확인 | enforcement backend 또는 대상 선택 문제 → 노드 지원과 selector 정합화; 허용/차단 명령 시험 | [KubeArmor](https://docs.kubearmor.io/) |
-| C4-016 | Ratify | 서명한 이미지가 검증 거부됨; artifact reference·trust policy 확인 | 서명 referrer/신뢰 저장소 불일치 → digest와 검증 정책 정합화; 유효·위조 이미지 각각 시험 | [Ratify](https://ratify.dev/docs/) |
+| C4-016 | Ratify | 서명한 이미지가 검증 거부됨; artifact reference·trust policy 확인 | 서명 referrer/신뢰 저장소 불일치 → digest와 검증 정책 정합화; 유효·위조 이미지 각각 시험 | [Ratify](https://ratify.dev/docs/quick-start/) |
 | C4-017 | TiKV | 읽기 지연이 급증하고 region 이동이 많음; hot region·PD 상태 확인 | 키 분포 쏠림 → 키 설계와 region 분산 점검; hot region·P99 비교 | [TiKV](https://tikv.org/docs/) |
 | C4-018 | Buildpacks | 같은 소스인데 새 이미지가 다른 런타임을 사용; builder/run image·buildpack 탐지 기록 확인 | builder가 바뀌어 빌드팩 선택이 달라짐 → builder digest 고정; SBOM·실행 테스트 비교 | [Buildpacks](https://buildpacks.io/docs/) |
 | C4-019 | Backstage | 카탈로그 항목이 사라짐; location 등록·processor 로그 확인 | location 접근 실패 또는 엔터티 검증 오류 → 등록/스키마 수정; 재처리 후 항목 검색 확인 | [Backstage](https://backstage.io/docs/features/software-catalog/) |

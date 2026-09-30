@@ -15,7 +15,7 @@
 | L3-009 | CUDA C++ | kernel은 성공처럼 보이나 출력 일부가 이전 값; 비동기 오류와 stream 동기화 확인 → 동기화 지점에서 오류 검사; 반복 입력 결과 비교 | [CUDA runtime](https://docs.nvidia.com/cuda/cuda-runtime-api/) |
 | L3-010 | WebAssembly | 메모리 확장 뒤 호스트가 가진 view가 오래됨; `memory.grow` 전후 버퍼 확인 → 새 view 재생성; 확장 뒤 읽기·쓰기 시험 | [Wasm JS API](https://webassembly.github.io/spec/js-api/) |
 | L3-011 | Ada | 범위 검사 예외가 운영 입력에서 발생; subtype 제약과 입력 경계 확인 → 입력 검증/타입 범위 수정; 최소·최대·초과 값 시험 | [AdaCore](https://docs.adacore.com/live/wave/) |
-| L3-012 | Fortran | C 함수에 전달한 배열 결과가 뒤집힘; column-major·stride·인터페이스 확인 → 배열 레이아웃을 계약에 맞춤; 비대칭 행렬로 왕복 시험 | [Fortran interoperability](https://fortran-lang.org/learn/intrinsics/iso_c_binding/) |
+| L3-012 | Fortran | C 함수에 전달한 배열 결과가 뒤집힘; column-major·stride·인터페이스 확인 → 배열 레이아웃을 계약에 맞춤; 비대칭 행렬로 왕복 시험 | [Fortran](https://fortran-lang.org/learn/) |
 | L3-013 | Pascal / Object Pascal | DLL 호출 뒤 문자열이 깨짐; 컴파일러별 문자열 ABI·호출 규약 확인 → 명시적 길이/인코딩 경계 사용; 서로 다른 빌드로 왕복 시험 | [Free Pascal](https://www.freepascal.org/docs.html) |
 | L3-014 | VHDL | 시뮬레이션 파형은 정상인데 합성 회로가 다름; 합성 불가 구문·클럭 경계 확인 → 합성 가능 RTL로 표현; 합성 후 시뮬레이션 비교 | [GHDL](https://ghdl.github.io/ghdl/using/Synthesis.html) |
 | L3-015 | Java | 대량 객체 생성 뒤 응답 지연이 주기적으로 튐; GC pause·heap allocation 확인 → 할당 경로와 heap 설정 점검; 부하에서 P99·GC 시간 비교 | [Java GC](https://docs.oracle.com/en/java/javase/25/gctuning/) |
