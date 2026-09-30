@@ -35,28 +35,34 @@ def main():
 
     client = SyncHTTPClient(url=endpoint, api_key=os.environ.get("OPENVIKING_API_KEY"))
     client.initialize()
+    mode = os.environ.get("OPENVIKING_PROCESSING_MODE", "semantic_and_vectors")
+    if mode not in {"semantic_and_vectors", "vectors_only"}:
+        raise SystemExit(f"Unsupported processing mode: {mode}")
+    wait = os.environ.get("OPENVIKING_WAIT", "1") != "0"
     result = client.add_resource(
         path=str(SOURCE),
         to=manifest["virtualRoot"],
+        wait=wait,
+        timeout=3600 if wait else None,
         options={
-            "wait": True,
-            "timeout": 3600,
             "strict": True,
             "preserve_structure": True,
-            "processing_mode": "semantic_and_vectors",
+            "processing_mode": mode,
             "args": {"parse_mode": "no_split"},
         },
     )
     failed_files = result.get("meta", {}).get("failed_files", [])
+    skipped_files = result.get("meta", {}).get("skipped_files", [])
     queue_status = result.get("queue_status", {})
     queue_errors = sum(
         value.get("error_count", 0)
         for value in queue_status.values()
         if isinstance(value, dict)
     )
-    if (result.get("status") != "success" or
+    if (result.get("status") not in ({"success"} if wait else {"accepted", "success"}) or
             result.get("root_uri", "").rstrip("/") != manifest["virtualRoot"].rstrip("/") or
-            failed_files or queue_errors):
+            failed_files or queue_errors or
+            (not wait and not result.get("task_id"))):
         raise RuntimeError(
             f"Import incomplete: status={result.get('status')}, "
             f"root_uri={result.get('root_uri')}, "
@@ -64,10 +70,13 @@ def main():
         )
     report = {
         "checkedAt": datetime.now(timezone.utc).isoformat(),
-        "state": "IMPORT_COMPLETED_AWAITING_READBACK",
+        "state": "IMPORT_COMPLETED_AWAITING_READBACK" if wait else "IMPORT_QUEUED",
+        "submissionStatus": result.get("status"),
         "manifestSha256": hashlib.sha256(manifest_bytes).hexdigest(),
         "virtualRoot": manifest["virtualRoot"],
         "resourceFiles": len(manifest["files"]),
+        "processingMode": mode,
+        "skippedFiles": len(skipped_files),
         "taskId": result.get("task_id"),
         "queueStatus": queue_status,
         "failedFiles": [],

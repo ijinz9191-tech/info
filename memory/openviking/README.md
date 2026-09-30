@@ -6,7 +6,7 @@
 
 - [생성 manifest](manifest.json)에 사례 373건(언어 130, CNCF 121, 프레임워크 122), CNCF Landscape 항목 2,425개, 개념 가이드 18개, 사례 공식 URL 268개와 파일별 SHA-256이 기록된다.
 - 각 주제 디렉터리의 `.abstract.md`는 L0, `.overview.md`는 L1, 일반 Markdown은 L2 상세 자료다. 공식 OpenViking의 [계층 설명](https://github.com/volcengine/OpenViking/blob/main/docs/en/concepts/03-context-layers.md)을 따른다.
-- 이 폴더는 **서버의 AGFS·벡터 인덱스가 아니다**. 실제 OpenViking 저장 완료는 서버에 가져온 뒤 task 완료, `viking://` 원문 읽기, 검색 결과를 각각 확인해야 한다. 현재 서버·CLI·모델 설정이 확인되지 않아 네이티브 저장 상태는 `UNAVAILABLE`이다.
+- 이 폴더는 **서버의 AGFS·벡터 인덱스가 아니다**. 별도 `C:\PRJ\apps\info\.ov-runtime`에서 OpenViking 0.4.22와 로컬 Ollama 모델을 실행하고, 단일 사례와 디렉터리 표본의 벡터 처리·원문 읽기·검색을 확인했다. 전체 가져오기는 [작업 보고서](native-import-report.json)의 서버 task ID로 추적한다. task 완료와 대표 원문 읽기·검색이 모두 확인될 때까지 전체 네이티브 저장을 완료로 표시하지 않는다.
 - 사례는 진단 가설이고, Landscape 항목은 고정 스냅샷의 메타데이터다. URL 접근 성공은 원인·해결 검증이 아니다.
 
 ## 오프라인 재생성과 검증
@@ -21,12 +21,12 @@ node C:\PRJ\apps\info\memory\probe-openviking-sources.mjs --check
 
 ## 네이티브 OpenViking 연결 후
 
-1. 공식 [서버 설정](https://docs.openviking.ai/en/configuration/01-server)에 따라 `storage.workspace`를 의도한 로컬 저장소로 지정하고 임베딩 모델과 VLM의 실제 연결을 점검한다. 계정 키나 모델 설정은 이 Git 저장소에 넣지 않는다.
-2. 공식 [리소스 가져오기](https://github.com/volcengine/OpenViking/blob/main/docs/en/api/02-resources.md)의 로컬 디렉터리 import로 이 `resources/developer-knowledge/`를 `viking://resources/developer-knowledge/`에 가져온다. 공식 Python SDK `openviking-sdk`가 연결된 환경에서는 [가져오기 스크립트](../import-openviking-native.py)를 실행한다. 이 스크립트는 전체 원본 해시를 먼저 확인하고, 디렉터리 구조 보존·`parse_mode=no_split`·정상 semantic/vector 처리를 요청한다. 서버·모델 상태에 따라 대량 처리는 오래 걸릴 수 있다.
-3. 반환된 task ID가 완료됐는지 확인한다. 리소스 트리의 사례 파일 하나와 CNCF 항목 하나를 `read`로 다시 읽고, 언어·CNCF·프레임워크 질의를 각각 `find`로 검색한다. 가져오기 실패 파일과 벡터 큐 실패를 별도로 기록한다.
+1. [분리된 런타임](../../openviking/README.md)의 설정과 시작·상태 스크립트로 서버와 로컬 모델을 점검한다. 실제 모델·벡터 저장소·로그는 Git에 넣지 않는다.
+2. [동기화 스크립트](../../openviking/sync.ps1)는 전체 원본 해시를 검사하고, 공식 [리소스 가져오기](https://docs.openviking.ai/en/api/02-resources)의 로컬 디렉터리 import로 `viking://resources/developer-knowledge/`에 업로드한다. 현재 대량 초기 적재는 `vectors_only`로 시작한다. 원본은 이미 사람이 작성한 계층 설명을 포함하지만 네이티브 의미 요약 생성은 별도 단계다.
+3. [작업 확인 스크립트](../../openviking/monitor.mjs)로 반환된 task ID의 완료, 실패 파일과 큐 오류를 확인한다. 완료 뒤 사례 원문 3건을 `read`로 다시 읽고 언어·CNCF·프레임워크 질의를 각각 `find`로 검색한다.
 4. 원본이 달라지면 `--build`와 `--check` 후 해당 리소스를 다시 가져온다. OpenViking의 [Watch](https://github.com/volcengine/OpenViking/blob/main/docs/en/api/02-resources.md)는 URL·Git처럼 서버가 다시 읽을 수 있는 소스에 적용한다. 로컬 디렉터리를 업로드한 스냅샷은 재수집이 필요하다.
 
-파일의 L0/L1은 오프라인 탐색을 위해 준비한 요약이다. 네이티브 `semantic_and_vectors` 처리에서는 서버가 요약을 재생성할 수 있고, `vectors_only`에서는 새 요약을 생성하지 않는다. 서버 처리 결과를 읽어 확인하기 전에는 이 파일들이 네이티브 인덱스라고 간주하지 않는다.
+파일의 L0/L1은 오프라인 탐색을 위해 준비한 요약이다. 표본 가져오기에서 OpenViking은 `.abstract.md`와 `.overview.md`를 점 파일로 건너뛰었다. 현재 568개 보조 파일은 원본으로 보관되지만 `vectors_only` 적재만으로는 네이티브 L0/L1에 들어가지 않는다. 네이티브 요약 생성과 전체 계층 반영은 후속 처리로 검증해야 한다.
 
 서버에 가져온 뒤에는 `OPENVIKING_URL`과 필요한 경우 `OPENVIKING_API_KEY`를 프로세스 환경 변수로 지정하고 아래 명령을 실행한다. [검증 스크립트](../verify-openviking-native.mjs)는 manifest에 연결된 대표 사례 3건의 원문과 영역별 검색을 확인한다. 성공 보고서 `native-verification.json`은 **표본 검증**이며 전체 3,385개 파일의 적재 완료를 뜻하지 않는다. 전체 적재 완료 여부는 가져오기 결과의 실패 목록과 queue 오류로 별도로 확인해야 한다. 서버가 없거나 확인에 실패하면 성공 보고서를 새로 쓰지 않는다.
 

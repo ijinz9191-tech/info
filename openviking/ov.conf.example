@@ -1,0 +1,30 @@
+{
+  "storage": {
+    "workspace": "C:/PRJ/apps/info/.ov-runtime/data"
+  },
+  "embedding": {
+    "max_concurrent": 1,
+    "dense": {
+      "provider": "ollama",
+      "api_base": "http://127.0.0.1:11434/v1",
+      "model": "qwen3-embedding:0.6b",
+      "dimension": 1024,
+      "input": "text"
+    }
+  },
+  "vlm": {
+    "provider": "litellm",
+    "api_key": "ollama",
+    "api_base": "http://127.0.0.1:11434",
+    "model": "ollama/qwen3-vl:2b-instruct",
+    "max_concurrent": 1,
+    "timeout": 600,
+    "extra_request_body": {
+      "think": false
+    }
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 1933
+  }
+}

@@ -27,4 +27,4 @@
 
 ## OpenViking 저장 상태
 
-[OpenViking 리소스 원본](openviking/README.md)에 사례 373건과 CNCF Landscape 항목 2,425개를 L0/L1/L2 계층으로 재구성했다. 3,385개 파일의 해시와 누락 검사는 통과했지만, 네이티브 OpenViking 서버·CLI가 현재 확인되지 않아 AGFS 가져오기·벡터 검색 완료는 미검증이다. 이 차이를 유지한 채 서버 연결 후 readback과 검색을 확인한다.
+[OpenViking 리소스 원본](openviking/README.md)에 사례 373건과 CNCF Landscape 항목 2,425개를 L0/L1/L2 계층으로 재구성했다. 3,385개 파일의 해시·누락 검사는 통과했다. 별도 로컬 OpenViking 서버에서 소규모 표본의 저장·읽기·검색을 확인했고, 전체 가져오기는 서버 task ID로 추적 중이다. 전체 task 완료, 대표 원문 읽기, 검색 및 568개 점 파일의 네이티브 L0/L1 반영은 아직 검증이 필요하다.
