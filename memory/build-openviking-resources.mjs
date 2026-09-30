@@ -44,24 +44,31 @@ const landscape = JSON.parse(read('public-data/cncf-landscape-index.json'));
 const cncfCategories = new Set(landscape.items.filter((item) => item.project)
   .map((item) => item.category + ' / ' + item.subcategory));
 const cases = [];
+const upstreamFixedIssue = new Map([
+  ['F4-021', 'https://github.com/react/react/issues/35821'],
+  ['F4-022', 'https://github.com/spring-projects/spring-boot/issues/51365'],
+]);
 function addCase({ id, area, topic, symptom, diagnosis, sourceUrl, sourceFile, line }) {
   if (!sourceUrl?.startsWith('https://')) throw new Error('Missing HTTPS source for ' + id);
   const group = area === 'cncf-category' ? 'cncf/categories' :
     area === 'cncf-project' ? 'cncf/projects' : area;
   const relative = group + '/' + slug(topic) + '/' + id + '.md';
+  const issueUrl = upstreamFixedIssue.get(id);
   const body = [
     '---',
     'id: ' + quoted(id),
-    'kind: diagnostic-scenario',
-    'status: hypothesis',
+    'kind: ' + (issueUrl ? 'public-upstream-issue' : 'diagnostic-scenario'),
+    'status: ' + (issueUrl ? 'upstream-fix-documented-not-locally-reproduced' : 'hypothesis'),
     'topic: ' + quoted(topic),
     'source_url: ' + quoted(sourceUrl),
+    ...(issueUrl ? ['issue_url: ' + quoted(issueUrl)] : []),
     'source_access: not_rechecked_for_this_export',
     'origin: ' + quoted(sourceFile + ':' + line),
     '---',
     '# ' + id + ' · ' + topic,
     '',
-    '이 항목은 가능한 장애 시나리오다. 실제 접수나 해결 완료를 의미하지 않는다.',
+    issueUrl ? '공개 프로젝트 이슈와 릴리스에 수정 이력이 있다. 이 환경에서 재현·해결을 별도로 검증하지 않았다.' :
+      '이 항목은 가능한 장애 시나리오다. 실제 접수나 해결 완료를 의미하지 않는다.',
     '',
     '## 증상과 증거',
     '',

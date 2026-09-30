@@ -1,6 +1,6 @@
-# 프레임워크·런타임 추가 VOC 20건
+# 프레임워크·런타임 추가 VOC 22건
 
-확인일: 2026-09-30. [기본 33건](voc-frameworks-extra.md)과 [후속 67건](voc-frameworks-more.md)에 이어, 별도의 재현·관측 지점을 가진 사례를 적는다. 이 문서의 행은 실제 고객 접수가 아닌 **가능한 장애 가설**이다.
+확인일: 2026-09-30. [기본 33건](voc-frameworks-extra.md)과 [후속 67건](voc-frameworks-more.md)에 이어, 별도의 재현·관측 지점을 가진 사례를 적는다. F4-021·022는 공개 프로젝트 이슈·릴리스 노트의 수정 이력을 바탕으로 한 진단 경로다. 나머지 행은 실제 고객 접수가 아닌 **가능한 장애 가설**이다.
 
 | ID | 대상 | 증상·증거 → 가설·조치·검증 | 공식 확인 입구 |
 |---|---|---|---|
@@ -24,5 +24,7 @@
 | F4-018 | Flutter | 배포 뒤 플랫폼 채널 호출만 MissingPluginException; plugin 등록과 native 빌드 산출물 확인 → 플랫폼 빌드를 재생성/등록; 기기별 호출 시험 | [Platform channels](https://docs.flutter.dev/platform-integration/platform-channels) |
 | F4-019 | Android Jetpack | 앱 프로세스 종료 후 화면 상태가 복구되지 않음; saved state 기록 확인 → 보존해야 할 값만 SavedStateHandle에 저장; 프로세스 재생성 시험 | [SavedStateHandle](https://developer.android.com/topic/libraries/architecture/viewmodel/viewmodel-savedstate) |
 | F4-020 | SwiftUI | 동일 뷰를 조건 분기로 바꾸면 로컬 state가 초기화; view identity와 분기 위치 확인 → 상태 소유 위치 조정; 분기 왕복 뒤 입력 보존 시험 | [State](https://developer.apple.com/documentation/swiftui/state) |
+| F4-021 | React | React 19.3 이전 특정 Suspense/서버 액션 재현에서 `useDeferredValue`가 이전 값에 고착된 공개 이슈 #35821; 입력 값·deferred 값·재현 경로를 기록 → React 내부 lane 처리 버그의 [수정 PR #36134](https://github.com/react/react/pull/36134)과 19.3 릴리스를 대조하고 지원되는 19.3으로 업그레이드; 같은 재현에서 지연 값이 결국 최신 값으로 수렴하는지 확인 | [React 19.3 릴리스](https://react.dev/blog/2026/09/09/react-19-3)·[이슈 #35821](https://github.com/react/react/issues/35821) |
+| F4-022 | Spring Boot | Kafka `KafkaConnectionDetails`에서 소비자별 security protocol을 지정했는데 연결 실패; 소비자·생산자의 effective Kafka 설정과 Boot 버전을 비교 → Boot가 소비자 전용 값 대신 공통 값을 적용한 [공개 버그 #51365](https://github.com/spring-projects/spring-boot/issues/51365) 여부를 확인하고 4.0.8 또는 4.1.1 이상의 해당 유지보수 계열 수정판으로 갱신; 인증이 필요한 브로커에서 소비자 연결과 생산자 설정의 회귀를 각각 검증 | [Spring Boot 4.1.1 릴리스](https://github.com/spring-projects/spring-boot/releases/tag/v4.1.1)·[4.1.x 수정 이슈 #51369](https://github.com/spring-projects/spring-boot/issues/51369) |
 
 프레임워크 33개 항목 모두에 사례가 있으며, 목록 밖의 새 도구와 최신 릴리스도 갱신 때 탐색한다.

@@ -13,7 +13,7 @@
 | 알고리즘·이벤트·장애·GitHub 코드 | 기존 주제별 문서와 [코드 읽기](github-code.md) | 분야별 사례와 커밋 고정 코드 분석 |
 | React·Spring Boot | [React 심화](react-deep-dive.md), [Spring Boot 심화](spring-boot-deep-dive.md)의 설계·진단 및 공개 이슈 | 버전별 API·실제 재현 프로젝트와 회귀 테스트 |
 | CNCF 전체 | [고정 Landscape](cncf-deep-dive.md)의 2,425개 항목 색인과 255개 프로젝트 목록 | 프로젝트별 공식 문서·운영 사례의 단계적 심화 |
-| VOC | **언어 130건**: [기존 55건](voc-languages.md)·[추가 55건](voc-languages-extra.md)·[추가 20건](voc-languages-more.md). **CNCF 120건**: [기존 27건](voc-cncf.md)·[분야 추가 27건](voc-cncf-extra.md)·[프로젝트 46건](voc-cncf-projects-extra.md)·[프로젝트 20건](voc-cncf-more.md). **프레임워크 120건**: [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[20건](voc-frameworks-deeper.md). 합계 370건이며 기존 [공개 사례집](voc-public.md)은 별도 | CNCF 255개 프로젝트와 언어·프레임워크의 버전별 재현·회귀 테스트를 계속 누적. 100건은 최소 점검선일 뿐 갱신을 중단하는 상한이 아님 |
+| VOC | **언어 130건**: [기존 55건](voc-languages.md)·[추가 55건](voc-languages-extra.md)·[추가 20건](voc-languages-more.md). **CNCF 121건**: [기존 27건](voc-cncf.md)·[분야 추가 27건](voc-cncf-extra.md)·[프로젝트 46건](voc-cncf-projects-extra.md)·[프로젝트 21건](voc-cncf-more.md). **프레임워크 122건**: [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[22건](voc-frameworks-deeper.md). 합계 373건이며 기존 [공개 사례집](voc-public.md)은 별도 | CNCF 255개 프로젝트와 언어·프레임워크의 버전별 재현·회귀 테스트를 계속 누적. 100건은 최소 점검선일 뿐 갱신을 중단하는 상한이 아님 |
 
 ## 다음 주제 선정 규칙
 
@@ -27,4 +27,4 @@
 
 ## OpenViking 저장 상태
 
-[OpenViking 리소스 원본](openviking/README.md)에 사례 370건과 CNCF Landscape 항목 2,425개를 L0/L1/L2 계층으로 재구성했다. 3,380개 파일의 해시와 누락 검사는 통과했지만, 네이티브 OpenViking 서버·CLI가 현재 확인되지 않아 AGFS 가져오기·벡터 검색 완료는 미검증이다. 이 차이를 유지한 채 서버 연결 후 readback과 검색을 확인한다.
+[OpenViking 리소스 원본](openviking/README.md)에 사례 373건과 CNCF Landscape 항목 2,425개를 L0/L1/L2 계층으로 재구성했다. 3,385개 파일의 해시와 누락 검사는 통과했지만, 네이티브 OpenViking 서버·CLI가 현재 확인되지 않아 AGFS 가져오기·벡터 검색 완료는 미검증이다. 이 차이를 유지한 채 서버 연결 후 readback과 검색을 확인한다.

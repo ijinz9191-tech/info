@@ -4,7 +4,7 @@
 
 ## 현재 상태
 
-- [생성 manifest](manifest.json)에 사례 370건(언어 130, CNCF 120, 프레임워크 120), CNCF Landscape 항목 2,425개, 개념 가이드 18개, 사례 공식 URL 265개와 파일별 SHA-256이 기록된다.
+- [생성 manifest](manifest.json)에 사례 373건(언어 130, CNCF 121, 프레임워크 122), CNCF Landscape 항목 2,425개, 개념 가이드 18개, 사례 공식 URL 268개와 파일별 SHA-256이 기록된다.
 - 각 주제 디렉터리의 `.abstract.md`는 L0, `.overview.md`는 L1, 일반 Markdown은 L2 상세 자료다. 공식 OpenViking의 [계층 설명](https://github.com/volcengine/OpenViking/blob/main/docs/en/concepts/03-context-layers.md)을 따른다.
 - 이 폴더는 **서버의 AGFS·벡터 인덱스가 아니다**. 실제 OpenViking 저장 완료는 서버에 가져온 뒤 task 완료, `viking://` 원문 읽기, 검색 결과를 각각 확인해야 한다. 현재 서버·CLI·모델 설정이 확인되지 않아 네이티브 저장 상태는 `UNAVAILABLE`이다.
 - 사례는 진단 가설이고, Landscape 항목은 고정 스냅샷의 메타데이터다. URL 접근 성공은 원인·해결 검증이 아니다.
@@ -28,7 +28,7 @@ node C:\PRJ\apps\info\memory\probe-openviking-sources.mjs --check
 
 파일의 L0/L1은 오프라인 탐색을 위해 준비한 요약이다. 네이티브 `semantic_and_vectors` 처리에서는 서버가 요약을 재생성할 수 있고, `vectors_only`에서는 새 요약을 생성하지 않는다. 서버 처리 결과를 읽어 확인하기 전에는 이 파일들이 네이티브 인덱스라고 간주하지 않는다.
 
-서버에 가져온 뒤에는 `OPENVIKING_URL`과 필요한 경우 `OPENVIKING_API_KEY`를 프로세스 환경 변수로 지정하고 아래 명령을 실행한다. [검증 스크립트](../verify-openviking-native.mjs)는 manifest에 연결된 대표 사례 3건의 원문과 영역별 검색을 확인한다. 성공 보고서 `native-verification.json`은 **표본 검증**이며 전체 3,380개 파일의 적재 완료를 뜻하지 않는다. 전체 적재 완료 여부는 가져오기 결과의 실패 목록과 queue 오류로 별도로 확인해야 한다. 서버가 없거나 확인에 실패하면 성공 보고서를 새로 쓰지 않는다.
+서버에 가져온 뒤에는 `OPENVIKING_URL`과 필요한 경우 `OPENVIKING_API_KEY`를 프로세스 환경 변수로 지정하고 아래 명령을 실행한다. [검증 스크립트](../verify-openviking-native.mjs)는 manifest에 연결된 대표 사례 3건의 원문과 영역별 검색을 확인한다. 성공 보고서 `native-verification.json`은 **표본 검증**이며 전체 3,385개 파일의 적재 완료를 뜻하지 않는다. 전체 적재 완료 여부는 가져오기 결과의 실패 목록과 queue 오류로 별도로 확인해야 한다. 서버가 없거나 확인에 실패하면 성공 보고서를 새로 쓰지 않는다.
 
 ```powershell
 node C:\PRJ\apps\info\memory\verify-openviking-native.mjs

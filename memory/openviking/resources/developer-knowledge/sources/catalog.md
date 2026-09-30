@@ -117,6 +117,7 @@
 | https://ghdl.github.io/ghdl/using/Synthesis.html | L3-014 |
 | https://github.com/cloudevents/spec | C3-035 |
 | https://github.com/cncf/landscape | C1-001, C1-002, C1-003, C1-004, C1-005, C1-006, C1-007, C1-008, C1-009, C1-010, C1-011, C1-012, C1-013, C1-014, C1-015, C1-016, C1-017, C1-018, C1-019, C1-020, C1-021, C1-022, C1-023, C1-024, C1-025, C1-026, C1-027, C2-001, C2-004, C2-012, C2-014, C2-020, C2-021, C2-022, C2-023, C2-026, C2-027 |
+| https://github.com/spring-projects/spring-boot/releases/tag/v4.1.1 | F4-022 |
 | https://gleam.run/documentation/ | L1-045, L2-045 |
 | https://go.dev/doc/ | L1-004, L2-004 |
 | https://go.dev/ref/mem | L3-004 |
@@ -148,6 +149,7 @@
 | https://kotlinlang.org/docs/home.html | L1-016, L2-016 |
 | https://kserve.github.io/website/docs/intro | C3-046 |
 | https://kubeedge.io/docs/ | C3-003 |
+| https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/ | C4-021 |
 | https://kubernetes.io/docs/concepts/storage/persistent-volumes/ | C2-005 |
 | https://kubernetes.io/docs/concepts/workloads/controllers/deployment/ | C2-008 |
 | https://kubernetes.io/docs/setup/ | C2-019 |
@@ -206,6 +208,7 @@
 | https://pytorch.org/docs/stable/notes/autograd.html | F2-024 |
 | https://pytorch.org/docs/stable/notes/cuda.html | F3-047 |
 | https://ratify.dev/docs/quick-start/ | C4-016 |
+| https://react.dev/blog/2026/09/09/react-19-3 | F4-021 |
 | https://react.dev/learn/rendering-lists | F3-001 |
 | https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary | F3-002 |
 | https://react.dev/reference/react/StrictMode | F4-001 |

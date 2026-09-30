@@ -20,7 +20,7 @@
 | 공개 VOC 증상별 원인·조치·검증을 찾으려면? | [VOC 사례집](voc-public.md) |
 | 모든 수록 언어의 대표적인 장애 유형을 찾으려면? | [언어별 VOC](voc-languages.md) |
 | CNCF 프로젝트 분야별 대표 장애 유형을 찾으려면? | [CNCF 분야별 VOC](voc-cncf.md) |
-| 언어·CNCF·프레임워크의 추가 장애 사례를 찾으려면? | 언어 [55건](voc-languages-extra.md)·[20건](voc-languages-more.md), CNCF [27건](voc-cncf-extra.md)·[46건](voc-cncf-projects-extra.md)·[20건](voc-cncf-more.md), 프레임워크 [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[20건](voc-frameworks-deeper.md) |
+| 언어·CNCF·프레임워크의 추가 장애 사례를 찾으려면? | 언어 [55건](voc-languages-extra.md)·[20건](voc-languages-more.md), CNCF [27건](voc-cncf-extra.md)·[46건](voc-cncf-projects-extra.md)·[21건](voc-cncf-more.md), 프레임워크 [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[22건](voc-frameworks-deeper.md) |
 | 언어별 예외와 성능 오류는 어디서부터 찾나? | [디버깅](debugging.md) |
 | 네트워크·DB·동시성·테스트·보안의 공통 원칙은? | [시스템 기초](systems.md) |
 | 데이터베이스·스트림·분산 실패를 자세히 보려면? | [데이터와 분산 시스템](data-distributed.md) |

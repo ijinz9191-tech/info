@@ -1,4 +1,4 @@
-# CNCF 프로젝트 추가 VOC 20건
+# CNCF 프로젝트 추가 VOC 21건
 
 확인일: 2026-09-30. 분야별/개별 프로젝트 [기존 100건](voc-cncf-projects-extra.md)에서 다루지 않은 프로젝트와 실패 경로를 보강한다. 아래는 공식 프로젝트 자료에 따라 조사할 수 있는 **가상 운영 사례**이며, 원인 확정에는 제품 버전과 관측 증거가 필요하다.
 
@@ -24,5 +24,6 @@
 | C4-018 | Buildpacks | 같은 소스인데 새 이미지가 다른 런타임을 사용; builder/run image·buildpack 탐지 기록 확인 | builder가 바뀌어 빌드팩 선택이 달라짐 → builder digest 고정; SBOM·실행 테스트 비교 | [Buildpacks](https://buildpacks.io/docs/) |
 | C4-019 | Backstage | 카탈로그 항목이 사라짐; location 등록·processor 로그 확인 | location 접근 실패 또는 엔터티 검증 오류 → 등록/스키마 수정; 재처리 후 항목 검색 확인 | [Backstage](https://backstage.io/docs/features/software-catalog/) |
 | C4-020 | Telepresence | 로컬 intercept 후 특정 요청만 서비스에 닿지 않음; intercept 상태·namespace·헤더 매칭 확인 | 트래픽 매칭 조건 또는 라우팅 범위 불일치 → intercept 규칙 수정; 일치/불일치 요청의 목적지 검증 | [Telepresence](https://www.telepresence.io/docs/) |
+| C4-021 | Kubernetes | v1.35 이후 cgroup v1 노드에서 kubelet이 기동하지 않음; kubelet 로그의 `failCgroupV1`·호스트 cgroup 버전·설정 확인 | 기본 `failCgroupV1=true`가 구형 노드와 충돌할 가능성 → cgroup v2로 마이그레이션하고, 필요할 때만 v1.37에서도 제공되는 `failCgroupV1: false`를 임시 완화로 사용; kubelet 기동·Node Ready·테스트 Pod 실행을 확인 | [Kubernetes v1.37 릴리스의 지원 종료 안내](https://kubernetes.io/blog/2026/08/26/kubernetes-v1-37-release/) |
 
 새 사례는 중복을 피하고 공식 출처·관측 방법·조치 검증을 갖춰 이어서 추가한다.
