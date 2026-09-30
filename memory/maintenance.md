@@ -38,7 +38,7 @@ node C:\PRJ\apps\info\memory\probe-openviking-sources.mjs --probe --limit 50
 9. [VOC 사례집](voc-public.md)은 실제 공개 이슈와 문서 기반 증상 유형을 구별한다. 확인된 원인, 임시 완화, 해결 검증의 상태를 섞지 않는다.
 10. [언어별 VOC](voc-languages.md), [CNCF 분야별 VOC](voc-cncf.md), [언어 추가](voc-languages-extra.md)·[후속](voc-languages-more.md), [CNCF 분야 추가](voc-cncf-extra.md)·[프로젝트 추가](voc-cncf-projects-extra.md)·[후속](voc-cncf-more.md), [프레임워크 추가](voc-frameworks-extra.md)·[후속](voc-frameworks-more.md)·[심화](voc-frameworks-deeper.md)를 `check-voc-coverage.mjs`로 검사한다. 이 검사는 지도 항목별 누락, 영역별 최소 100건, ID 중복만 찾는다. 100건을 채운 뒤에도 새 사례를 중단하지 않는다. 가능한 모든 사고나 해결의 정확성을 증명하지 않는다.
 11. 매 갱신 주기에 CNCF 개별 프로젝트, 언어 표준/런타임, 프레임워크의 공식 문제 해결 문서와 공개 이슈를 순회한다. 기존 사례와 증상·원인·조치가 다른 항목만 추가하고, 실제 이슈는 재현 환경·이슈 링크·해결 상태를 별도로 적는다. 프로젝트 255개를 훑은 뒤에도 새로운 릴리스와 장애 유형을 계속 확인한다.
-12. 위키 본문이나 Landscape가 바뀌면 `build-openviking-resources.mjs --build`로 [OpenViking 리소스](openviking/README.md)를 갱신하고 `--check`로 누락·변조를 검사한다. URL 접근 점검은 상태 기록이고 내용 재검증이 아니다. 실제 OpenViking 서버가 연결되면 리소스를 다시 가져오고 task 완료·원문 readback·검색을 각각 확인한다. 연결이 없으면 `UNAVAILABLE`로 남긴다.
+12. 위키 본문이나 Landscape가 바뀌면 `build-openviking-resources.mjs --build`로 [OpenViking 리소스](openviking/README.md)를 갱신하고 `--check`로 누락·변조를 검사한다. URL 접근 점검은 상태 기록이고 내용 재검증이 아니다. 실제 OpenViking 서버가 연결되면 리소스를 다시 가져오고 task 완료를 확인한 뒤 `verify-openviking-native.mjs`로 표본 원문 readback·검색을 검사한다. 연결이 없으면 `UNAVAILABLE`로 남긴다.
 
 ## 갱신 우선순위
 

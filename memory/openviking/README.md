@@ -28,6 +28,12 @@ node C:\PRJ\apps\info\memory\probe-openviking-sources.mjs --check
 
 파일의 L0/L1은 오프라인 탐색을 위해 준비한 요약이다. 네이티브 `semantic_and_vectors` 처리에서는 서버가 요약을 재생성할 수 있고, `vectors_only`에서는 새 요약을 생성하지 않는다. 서버 처리 결과를 읽어 확인하기 전에는 이 파일들이 네이티브 인덱스라고 간주하지 않는다.
 
+서버에 가져온 뒤에는 `OPENVIKING_URL`과 필요한 경우 `OPENVIKING_API_KEY`를 프로세스 환경 변수로 지정하고 아래 명령을 실행한다. [검증 스크립트](../verify-openviking-native.mjs)는 manifest에 연결된 대표 사례 3건의 원문과 영역별 검색을 확인한다. 성공 보고서 `native-verification.json`은 **표본 검증**이며 전체 3,380개 파일의 적재 완료를 뜻하지 않는다. 전체 적재 완료 여부는 import task와 실패 목록으로 별도로 확인해야 한다. 서버가 없거나 확인에 실패하면 성공 보고서를 새로 쓰지 않는다.
+
+```powershell
+node C:\PRJ\apps\info\memory\verify-openviking-native.mjs
+```
+
 ## 재수집 범위와 출처
 
 기존 위키의 자체 설명과 VOC를 상세 리소스로 바꾸고, CNCF의 CC BY 4.0 고정 Landscape 색인을 항목별로 보존했다. `sources/catalog.md`는 사례에 연결된 공식 문서 URL을 모은 것이다. 외부 원문을 대량 복제하지 않으며, 새 자료는 출처·버전·실제 확인 상태를 분리해 추가한다. 사용자의 프로젝트, 회사 자료, 스킬 내용은 수집 대상이 아니다.
