@@ -46,6 +46,8 @@ report.state = 'IMPORT_COMPLETED_AWAITING_READBACK';
 report.completedAt = new Date().toISOString();
 report.queueStatus = result.queue_status || {};
 report.contextCount = result.context_count ?? null;
+report.skippedFiles = (result.meta?.skipped_files || []).length;
+report.failedFiles = [];
 writeFileSync(reportPath, JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify({ state: report.state, taskId: report.taskId,
   contextCount: report.contextCount }));

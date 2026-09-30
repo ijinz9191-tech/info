@@ -76,10 +76,10 @@ def main():
         "virtualRoot": manifest["virtualRoot"],
         "resourceFiles": len(manifest["files"]),
         "processingMode": mode,
-        "skippedFiles": len(skipped_files),
+        "skippedFiles": len(skipped_files) if wait else None,
         "taskId": result.get("task_id"),
         "queueStatus": queue_status,
-        "failedFiles": [],
+        "failedFiles": [] if wait else None,
     }
     REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))
