@@ -1,0 +1,2761 @@
+{
+  "schemaVersion": 1,
+  "repo": "istio/istio",
+  "commit": "97bef417aff5ed2b52fb75e9d0e9111fba18b4b8",
+  "retrievedAt": "2026-10-01T15:20:49.840320+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Service Mesh"
+  ],
+  "archiveUrl": "https://codeload.github.com/istio/istio/zip/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8",
+  "archiveSha256": "abf5bb804fcfe8a4f4b04e1fb7757f264d6bc623945fde7aec34e5e458f49bd9",
+  "archiveBytes": 12241367,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 62,
+    "code": 30,
+    "licenses": 250,
+    "bytes": 1954585
+  },
+  "files": [
+    {
+      "path": "BUGS-AND-FEATURE-REQUESTS.md",
+      "localPath": "raw/istio--istio/97bef417aff5/b0cf14a7f163372ddd02d9f5.md",
+      "kind": "official-document",
+      "bytes": 519,
+      "sha256": "90ff177c3d4eee1539a49abda21de0f2fb8d00ae9ef41e6fb43c483f592199f6",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/BUGS-AND-FEATURE-REQUESTS.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/istio--istio/97bef417aff5/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 214,
+      "sha256": "a9e73ddb46b762ee83e14139a901f95344c9e152dfe1f6f7bffd7edc1e1be243",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "9fa6e54dafda853bb3cdc01486b677a55102f0d488282a85ba6e426d9125f8c5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 7377,
+      "sha256": "9971928c4aa3cb3682c63e6073e1228022cd8208feae8f57313794429f2f961d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/README.md"
+    },
+    {
+      "path": "RELEASE_BRANCHES.md",
+      "localPath": "raw/istio--istio/97bef417aff5/6b765a4dce1580e66b68f407.md",
+      "kind": "official-document",
+      "bytes": 4351,
+      "sha256": "fd28badec29c5593007fdf9ac50b159108498ee161647e15c894ed3e0a4a7218",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/RELEASE_BRANCHES.md"
+    },
+    {
+      "path": "SUPPORT.md",
+      "localPath": "raw/istio--istio/97bef417aff5/c5fe610b0215b14447410625.md",
+      "kind": "official-document",
+      "bytes": 411,
+      "sha256": "d3373637d9a16cac082bb63753671dcc410b776ba4618a1dd28e8aa1d4d157c5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/SUPPORT.md"
+    },
+    {
+      "path": "cni/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/c47bafa83b8f473232d20b70.md",
+      "kind": "official-document",
+      "bytes": 11339,
+      "sha256": "8cf078be85861907432e545bc3df1c0c26d49491f7842a8c7577052efd5f24c2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/cni/README.md"
+    },
+    {
+      "path": "common/config/license-lint.yml",
+      "localPath": "raw/istio--istio/97bef417aff5/dae8ff7693a59d1165e44436.yml",
+      "kind": "license",
+      "bytes": 4487,
+      "sha256": "ca89563b114987ce5fdaee1858197e0d832077965c4d3ef3061ab8237d65df95",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/common/config/license-lint.yml"
+    },
+    {
+      "path": "common/scripts/copyright-banner-go.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/93d19d120484d5db9e9a2185.txt",
+      "kind": "license",
+      "bytes": 586,
+      "sha256": "d31c90aa66b174d874711ad9fdb130b09acee6ab6ba874dc08ccb8b5b5b8be39",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/common/scripts/copyright-banner-go.txt"
+    },
+    {
+      "path": "licenses/cel.dev/expr/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d9c8affabf551dba3f49fbb0.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/cel.dev/expr/LICENSE"
+    },
+    {
+      "path": "licenses/cloud.google.com/go/auth/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d114787b74319f74ab9ceb9a.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/cloud.google.com/go/auth/LICENSE"
+    },
+    {
+      "path": "licenses/cloud.google.com/go/compute/metadata/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/79609b71526e67c64078c3cd.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/cloud.google.com/go/compute/metadata/LICENSE"
+    },
+    {
+      "path": "licenses/dario.cat/mergo/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/cda66f25d566bc5c136762f4.txt",
+      "kind": "license",
+      "bytes": 1536,
+      "sha256": "cb7684632b729955293cab8a0bbf4134d53d9532a30761c33c8a4878302a7bd3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/dario.cat/mergo/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/AdaLogics/go-fuzz-headers/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/6310a89c6033a7269a6a792e.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/AdaLogics/go-fuzz-headers/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/BurntSushi/toml/COPYING",
+      "localPath": "raw/istio--istio/97bef417aff5/d3185c4ac86645211a030450.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "d21cb1c60785d6d3a84a7059323ccafc45c645b1bbda281c76a62d66ad2d7dc3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/BurntSushi/toml/COPYING"
+    },
+    {
+      "path": "licenses/github.com/BurntSushi/toml/cmd/toml-test-decoder/COPYING",
+      "localPath": "raw/istio--istio/97bef417aff5/9bd2e53eaba32713ffbcd30c.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "d21cb1c60785d6d3a84a7059323ccafc45c645b1bbda281c76a62d66ad2d7dc3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/BurntSushi/toml/cmd/toml-test-decoder/COPYING"
+    },
+    {
+      "path": "licenses/github.com/BurntSushi/toml/cmd/toml-test-encoder/COPYING",
+      "localPath": "raw/istio--istio/97bef417aff5/2eee351708daf5a16ff00fe1.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "d21cb1c60785d6d3a84a7059323ccafc45c645b1bbda281c76a62d66ad2d7dc3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/BurntSushi/toml/cmd/toml-test-encoder/COPYING"
+    },
+    {
+      "path": "licenses/github.com/BurntSushi/toml/cmd/tomlv/COPYING",
+      "localPath": "raw/istio--istio/97bef417aff5/41b7537a43774b6e15e7dc80.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "d21cb1c60785d6d3a84a7059323ccafc45c645b1bbda281c76a62d66ad2d7dc3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/BurntSushi/toml/cmd/tomlv/COPYING"
+    },
+    {
+      "path": "licenses/github.com/KimMachineGun/automemlimit/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ebbb8ba5a81215adbcd300c8.txt",
+      "kind": "license",
+      "bytes": 1065,
+      "sha256": "28576a98c02916f720f05aa4a9e30dabfb91cc153efeecd63d34616694d9ff60",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/KimMachineGun/automemlimit/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/MakeNowJust/heredoc/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/f168502483d89c2a433dedfa.txt",
+      "kind": "license",
+      "bytes": 1089,
+      "sha256": "3cf06d7751ecd37a2822b9fa6ca09510436c0abbfdf3c6261f59c0f0a7f92fe3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/MakeNowJust/heredoc/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/Masterminds/goutils/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/5852d1b684ed19bb98f54855.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/Masterminds/goutils/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/Masterminds/semver/v3/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/71b4365750e398bf43d143a1.txt",
+      "kind": "license",
+      "bytes": 1078,
+      "sha256": "2db9097f7b3750c1c9426996d21fe443d339131fb758c2167d2d5fabe8e6cbf9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/Masterminds/semver/v3/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/Masterminds/sprig/v3/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/929ff26ec028a5c6168307b8.txt",
+      "kind": "license",
+      "bytes": 1060,
+      "sha256": "dbad9a1f3fee465db42b92cb8a41ddaae028248fdcc54f46f1e72f7707d21dc2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/Masterminds/sprig/v3/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/VividCortex/ewma/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e2a5468997b1c692c20e7c25.txt",
+      "kind": "license",
+      "bytes": 1072,
+      "sha256": "9a6c3aa72d265f8f5fd6068d3de786741acb89edccf1c4011bc6a8b2ca64668c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/VividCortex/ewma/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/agentgateway/agentgateway/api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/176ce0c39172eaecd3d664b0.txt",
+      "kind": "license",
+      "bytes": 11310,
+      "sha256": "3b1ee5b1e14fda40515c18ec2f0796d632e65a20b2aca8f017c654bc26ca77bd",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/agentgateway/agentgateway/api/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/alecholmes/xfccparser/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/75514b0e99899f679ceda91c.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "686d9ddb6565775f1af2f6d99cb1a44c065f57bb18ffc96a005eb6e304a2041d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/alecholmes/xfccparser/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/alecthomas/participle/v2/COPYING",
+      "localPath": "raw/istio--istio/97bef417aff5/fbdf3dc8c7ee19b8c56564a7.txt",
+      "kind": "license",
+      "bytes": 1060,
+      "sha256": "5eaec17df0ef8b8b858942927bd3f17a04c86667fef7320a46714838441a0ef9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/alecthomas/participle/v2/COPYING"
+    },
+    {
+      "path": "licenses/github.com/antlr4-go/antlr/v4/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/70fdffa60f7699758a40ce4f.txt",
+      "kind": "license",
+      "bytes": 1480,
+      "sha256": "683fcd416d83b64781e229a3c2a598462fbf55c5c9fea54be244766b22c033cf",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/antlr4-go/antlr/v4/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/beorn7/perks/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4ac85b948a27a8394ec3fc69.txt",
+      "kind": "license",
+      "bytes": 1058,
+      "sha256": "0db7c9ebb3717e526f34f87dd1ee8bc77d36846e29cb0cec9246f7138fbe962b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/beorn7/perks/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/blang/semver/v4/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8b595d7f8b907a9457ce8d89.txt",
+      "kind": "license",
+      "bytes": 1103,
+      "sha256": "895d625d7bae6d50064367de0c9f283fbd4565da9cdeb103620fe357d80d52a1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/blang/semver/v4/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cbeuw/connutil/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/cf315615c9a3d40a25f4a71a.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cbeuw/connutil/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cenkalti/backoff/v4/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d3cf391df9cdc3a7f0106eb0.txt",
+      "kind": "license",
+      "bytes": 1077,
+      "sha256": "5c0476add4c38b55d0ed5ac11b85e00c38f26e1caee20dfe3ab58190103d1fbc",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cenkalti/backoff/v4/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cenkalti/backoff/v5/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e50e57613e525185398bbeb6.txt",
+      "kind": "license",
+      "bytes": 1077,
+      "sha256": "5c0476add4c38b55d0ed5ac11b85e00c38f26e1caee20dfe3ab58190103d1fbc",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cenkalti/backoff/v5/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cespare/xxhash/v2/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/828f05b2ac15b990be664424.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "f566a9f97bacdaf00d9f21dd991e81dc11201c4e016c86b470799429a1c9a79c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cespare/xxhash/v2/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/chai2010/gettext-go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/f19c6909589c8c35fc5cfaf3.txt",
+      "kind": "license",
+      "bytes": 1499,
+      "sha256": "b989f3bb73d2e033aa1bf21c5d95818009719e770a506421112e2836fa9e1a14",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/chai2010/gettext-go/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cheggaaa/pb/v3/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0f5c6433e628d2c039489540.txt",
+      "kind": "license",
+      "bytes": 1480,
+      "sha256": "398c0ea1c3ac6ae548f77b1f5c9217b2fe717de3ea19a57e025fb2f686b91025",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cheggaaa/pb/v3/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cncf/xds/go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ccb38d11dc04e381426054a7.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cncf/xds/go/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/containerd/typeurl/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/f694f49ecb92d939ed28550e.txt",
+      "kind": "license",
+      "bytes": 10765,
+      "sha256": "4bbe3b885e8cd1907ab4cf9a41e862e74e24b5422297a4f2fe524e6a30ada2b4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/containerd/typeurl/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/containernetworking/cni/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c878fa2b84ef13b3cc85c0dd.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/containernetworking/cni/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/containernetworking/plugins/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9c52633ed7f8cc77b1986a46.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/containernetworking/plugins/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/coreos/go-oidc/v3/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d0fd734b76727aa2dd254359.txt",
+      "kind": "license",
+      "bytes": 11325,
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/coreos/go-oidc/v3/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/cpuguy83/go-md2man/v2/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/ae4d8482dba6b92c8bf5dcfe.md",
+      "kind": "license",
+      "bytes": 1077,
+      "sha256": "a55959c4e3e8917bfa857359bb641115336276a6cc97408fd8197e079fb18470",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/cpuguy83/go-md2man/v2/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/davecgh/go-spew/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d9a5b4d9ea2f1369e29c623f.txt",
+      "kind": "license",
+      "bytes": 766,
+      "sha256": "1b93a317849ee09d3d7e4f1d20c2b78ddb230b4becb12d7c224c927b9d470251",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/davecgh/go-spew/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/docker/cli/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d005760e2cf4d8b48f116ce5.txt",
+      "kind": "license",
+      "bytes": 10765,
+      "sha256": "2d81ea060825006fc8f3fe28aa5dc0ffeb80faf325b612c955229157b8c10dc0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/docker/cli/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/docker/cli/cli/connhelper/internal/syntax/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/76510fd73ee95036dc2ca862.txt",
+      "kind": "license",
+      "bytes": 1488,
+      "sha256": "ce63850f77649f00d1394045e2794ffb09a5596beabac51c9548edd958845d7c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/docker/cli/cli/connhelper/internal/syntax/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/docker/docker-credential-helpers/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c6f6061e316a5485db1df7e6.txt",
+      "kind": "license",
+      "bytes": 1058,
+      "sha256": "a6c2a5fdf40879f644bdb0da9042f245e7e263237d623264aafcf2470610ad8c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/docker/docker-credential-helpers/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/emicklei/go-restful/v3/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ca7e887e7a3d09f406cb890c.txt",
+      "kind": "license",
+      "bytes": 1075,
+      "sha256": "bf4c2b4f64abc0b760f62c766f0dd5e735a8f1335d5cf2f83db5db65e01399ab",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/emicklei/go-restful/v3/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/envoyproxy/go-control-plane/contrib/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/352bae67ded5555e36d71214.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/envoyproxy/go-control-plane/contrib/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/envoyproxy/go-control-plane/envoy/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c90f4a0bb02177baec2e7532.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/envoyproxy/go-control-plane/envoy/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/envoyproxy/protoc-gen-validate/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/15d2f0a23e7da4a70df862bd.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/envoyproxy/protoc-gen-validate/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/evanphx/json-patch/v5/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/f54f5636f34df96c441c4e70.txt",
+      "kind": "license",
+      "bytes": 1495,
+      "sha256": "9cb8ce7ebecf456a156e04c999c32b2eeafb3f7d7e05b9435ac8829d6e0bf734",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/evanphx/json-patch/v5/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/exponent-io/jsonpath/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9a1826a9a38eea8c9fe0bdd3.txt",
+      "kind": "license",
+      "bytes": 1084,
+      "sha256": "2a2fc20c2cad52ae37954a7e8b552e04089b53fb8354f740b7ff183efb02278e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/exponent-io/jsonpath/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/fatih/camelcase/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/aad875180db312c18a3bbbac.md",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "b2ffbe485b8e503f07853fbdfa79a51b0d2902f9d44e18d913666b6ddde83b57",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/fatih/camelcase/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/fatih/color/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/a1d2f3851bf40c953eeb5dc2.md",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "de95ed802d2f90e3c72cb3c9a927cca5f2aec234a3ef1250232db0f8178b2d93",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/fatih/color/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/felixge/fgprof/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/074c76f6e5931f81fabcc2ae.txt",
+      "kind": "license",
+      "bytes": 1111,
+      "sha256": "5dbe91d8ef47ef84cc1272dbbed96acd483e592f15fff64afc8b035776a4a9d3",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/felixge/fgprof/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/felixge/httpsnoop/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/f345c6b1084bb38cdeb66597.txt",
+      "kind": "license",
+      "bytes": 1101,
+      "sha256": "8108e14b5cb2b6bcd51583d3849ef0c2b5c4de61758256c20308bc70d1775dbb",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/felixge/httpsnoop/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/fsnotify/fsnotify/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2ce79562fc4c81bbfe994ca9.txt",
+      "kind": "license",
+      "bytes": 1531,
+      "sha256": "2dfbe6d2b5eb18b55148f3805d88648a09e0d17e38428123259afb08c8996e37",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/fsnotify/fsnotify/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/fxamacker/cbor/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/07e810f114fad30865457b8d.txt",
+      "kind": "license",
+      "bytes": 1076,
+      "sha256": "78cad457d5ea7318230f3d969d4cdf29cef45524a1fc8ca3a97646da1ad7a841",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/fxamacker/cbor/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-errors/errors/NONE",
+      "localPath": "raw/istio--istio/97bef417aff5/a804bd018a02f924694590fd.txt",
+      "kind": "license",
+      "bytes": 17,
+      "sha256": "f44e5ea15414b2c5cdfc3c481bcafd2a20cdfc69f724b10561d2bfdc1f467c3c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-errors/errors/NONE"
+    },
+    {
+      "path": "licenses/github.com/go-jose/go-jose/v4/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7fc293e4bfffbbd16dcd9423.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-jose/go-jose/v4/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-jose/go-jose/v4/json/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/253467dd89d3c970c11818b6.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "dd26a7abddd02e2d0aba97805b31f248ef7835d9e10da289b22e3b8ab78b324d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-jose/go-jose/v4/json/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-logr/logr/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/039c1a20a95e564dae86c093.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-logr/logr/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-logr/stdr/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3591cf5bd1a4f506dc3eae07.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-logr/stdr/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/jsonpointer/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0203042a26a5e777f56bba0f.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/jsonpointer/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/jsonreference/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9e78318e09fc31727f5249e6.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/jsonreference/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/57c288c5319d16958de802a6.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/cmdutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/07c38056b0916f4f82fe5f37.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/cmdutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/conv/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4347411af46991f45d6c8ad2.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/conv/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/fileutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8d37819dc135885028dbc028.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/fileutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/jsonname/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b756580236f176d242c3cda0.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/jsonname/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/jsonutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/62f39e562649306ad574750d.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/jsonutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/loading/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9c38328055885bc5ec9c8e6b.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/loading/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/mangling/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/6a6fbce854aad6f3dee295c8.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/mangling/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/netutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c0bf0c04c5e1edd126d95018.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/netutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/stringutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/bd58fda5bf82ef1094917498.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/stringutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/typeutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/734c858334ee89c05cf5d56a.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/typeutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-openapi/swag/yamlutils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/fd6487fe8cd69cd5e02e1da7.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-openapi/swag/yamlutils/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/go-viper/mapstructure/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7133dbe34d741cdf57edaa55.txt",
+      "kind": "license",
+      "bytes": 1085,
+      "sha256": "22adc4abdece712a737573672f082fd61ac2b21df878efb87ffcff4354a07f26",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/go-viper/mapstructure/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/gobwas/glob/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/39faa30788a511415c646c7a.txt",
+      "kind": "license",
+      "bytes": 1081,
+      "sha256": "e4d63d6f9b65f053ce5beb8c5225a83c7be73010cef4fb849aca0c52d92b9236",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/gobwas/glob/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/gogo/protobuf/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e840a1ca05642f19588b0355.txt",
+      "kind": "license",
+      "bytes": 1681,
+      "sha256": "3f571768c0ba2f330e5fee90de89bfe5141f48c1939be8008fa61461c30ca07f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/gogo/protobuf/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/golang/protobuf/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ac0a71be2dfa4bf4c4383dcc.txt",
+      "kind": "license",
+      "bytes": 1480,
+      "sha256": "8778a9fc1eaffb03ab873caae251df2d224f6b5502be8777d3cd573a4dd43903",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/golang/protobuf/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/btree/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7c6c7f34b2eaad96c57f8981.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/btree/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/cel-go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8234b8d7f173bab6a72b563b.txt",
+      "kind": "license",
+      "bytes": 13053,
+      "sha256": "4cdb9af102dfbb0ca03d87d6f650a505df098646a4080f4665b389ad9c6caa02",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/cel-go/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/gnostic-models/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/363801dfc4b53bf5c683c91e.txt",
+      "kind": "license",
+      "bytes": 11359,
+      "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/gnostic-models/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/go-cmp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e1844b358b3506f3f379101d.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "17b5d209ba8f9684257ecfcff87df6ceda6194143a8fbd074f29727cff6f0c40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/go-cmp/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/go-containerregistry/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e4d95f20c5a974136968d63a.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/go-containerregistry/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/gofuzz/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4b4d6c7cc13a7698511020ea.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/gofuzz/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/pprof/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d3423ed9b7d4a5c3ca56bf22.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/pprof/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/google/s2a-go/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/ca807700a3f33f0dc706faa8.md",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/s2a-go/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/google/shlex/COPYING",
+      "localPath": "raw/istio--istio/97bef417aff5/77bc28b8711b03c4b31ae147.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/shlex/COPYING"
+    },
+    {
+      "path": "licenses/github.com/google/uuid/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3a5eb321f47ccedf5d21cffc.txt",
+      "kind": "license",
+      "bytes": 1480,
+      "sha256": "0a8d61ed3cbfd5312326e8126c31ce9c627a283adc99131b56896d29ada04b2d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/google/uuid/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/googleapis/enterprise-certificate-proxy/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/99211c3ff171caa0ea467688.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/googleapis/enterprise-certificate-proxy/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/googleapis/gax-go/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4903d98e81aff2f03446702f.txt",
+      "kind": "license",
+      "bytes": 1471,
+      "sha256": "b95218cd9607855a6536384c0262922b30a0c2bf56e4ced790240f3a3bac4722",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/googleapis/gax-go/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/gorilla/mux/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/74539161c371708fa495b21a.txt",
+      "kind": "license",
+      "bytes": 1481,
+      "sha256": "0b77fdea862f869ef4f201ac5649bdbd38ccb055c7f6454dffae9e2adb4941c1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/gorilla/mux/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/gorilla/websocket/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/176b26bd9147f24d2c8e5761.txt",
+      "kind": "license",
+      "bytes": 1312,
+      "sha256": "2be1b548b0387ca8948e1bb9434e709126904d15f622cc2d0d8e7f186e4d122d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/gorilla/websocket/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/grafana/regexp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5a07f763ed9c86691c8b69bc.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/grafana/regexp/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/grpc-ecosystem/go-grpc-middleware/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/05383cedf811a4378bf2a997.txt",
+      "kind": "license",
+      "bytes": 11340,
+      "sha256": "332c4f0a1a657a8937ad0caf7a335a31ec72343821481e364d8894f568c8b010",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/grpc-ecosystem/go-grpc-middleware/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/grpc-ecosystem/go-grpc-prometheus/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d24609d6328db1d6faa2015b.txt",
+      "kind": "license",
+      "bytes": 11340,
+      "sha256": "332c4f0a1a657a8937ad0caf7a335a31ec72343821481e364d8894f568c8b010",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/grpc-ecosystem/go-grpc-prometheus/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/grpc-ecosystem/grpc-gateway/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/bf456f9b586b11a548d649f9.txt",
+      "kind": "license",
+      "bytes": 1511,
+      "sha256": "a15b1d1b168954c92ff7fb1620382418f7c72f4f4d251ee791d1098ad68ab0c4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/grpc-ecosystem/grpc-gateway/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/grpc-ecosystem/grpc-gateway/v2/internal/casing/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/fe39ced5835062279f8b154d.md",
+      "kind": "license",
+      "bytes": 1486,
+      "sha256": "20873bd48d04a4e4075ee881ec2a5f3a3b14bf4920018b1131a7c52ec9b4a318",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/grpc-ecosystem/grpc-gateway/v2/internal/casing/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/hashicorp/errwrap/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/639487c13b5b3c055f136a3d.txt",
+      "kind": "license",
+      "bytes": 15977,
+      "sha256": "bef1747eda88b9ed46e94830b0d978c3499dad5dfe38d364971760881901dadd",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/hashicorp/errwrap/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/hashicorp/go-multierror/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4f23f0087e8fe0faf9b891e7.txt",
+      "kind": "license",
+      "bytes": 15976,
+      "sha256": "a830016911a348a54e89bd54f2f8b0d8fffdeac20aecfba8e36ebbf38a03f5ff",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/hashicorp/go-multierror/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/hashicorp/go-version/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c1aae19f8ef44f05af58ec58.txt",
+      "kind": "license",
+      "bytes": 16009,
+      "sha256": "b31266a0a4ade23e6c0cb5a6ae1c7933b390f30b80550a715579989639b4f55e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/hashicorp/go-version/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/hashicorp/golang-lru/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/59580dfdf5126fdc1be91aff.txt",
+      "kind": "license",
+      "bytes": 15957,
+      "sha256": "6c7088eb877b5d7e6e0e9d27e822ea25fcda2e83f9eba59bb5f1418a656796e0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/hashicorp/golang-lru/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/howardjohn/unshare-go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d56d7958ee6b8ca71dbbf405.txt",
+      "kind": "license",
+      "bytes": 11341,
+      "sha256": "73daa63f5bd0c18f0f335cdbfbfb710fd6bf0185c26d2ba03a5efae488e5a2bf",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/howardjohn/unshare-go/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/huandu/xstrings/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3bcc4e9d9d4bf807fe68c319.txt",
+      "kind": "license",
+      "bytes": 1075,
+      "sha256": "d298ca9d57c94e16547637f1d7122481ecdb83932c9b901fac349c4c382b82eb",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/huandu/xstrings/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/json-iterator/go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9e44584d03ab456100f3701c.txt",
+      "kind": "license",
+      "bytes": 1070,
+      "sha256": "3247931083f058b00760a3c32a9ca0962c05e4d562ad2ffcc1753451fa8d4486",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/json-iterator/go/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/cf9ff36b908203959cbbcf25.txt",
+      "kind": "license",
+      "bytes": 16733,
+      "sha256": "0d9e582ee4bff57bf1189c9e514e6da7ce277f9cd3bc2d488b22fbb39a6d87cf",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/gzhttp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9bf7dd595390ab3e7379175f.txt",
+      "kind": "license",
+      "bytes": 11361,
+      "sha256": "2252a5b1e2b1d3663b53ea77051b8ed065cb9270a3d1174d5d6ead8a2de051b6",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/gzhttp/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/internal/lz4ref/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/38d2eef972d986822e84e5b6.txt",
+      "kind": "license",
+      "bytes": 1477,
+      "sha256": "6a358d2540ca14048f02d366f23787c0a480157e58f058113f0e27168dd4e447",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/internal/lz4ref/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/internal/snapref/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b13246be74ff503bf1739f70.txt",
+      "kind": "license",
+      "bytes": 1486,
+      "sha256": "f69f157b0be75da373605dbc8bbf142e8924ee82d8f44f11bcaf351335bf98cf",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/internal/snapref/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/s2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/efae4f0ed8213cc778a67933.txt",
+      "kind": "license",
+      "bytes": 1538,
+      "sha256": "08683b14bda8ae3538abf19e1879e853a39e3b8276a8d673363b529d15a61c1a",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/s2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/s2/cmd/internal/filepathx/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/794dcdaca84a77acd9378371.txt",
+      "kind": "license",
+      "bytes": 1061,
+      "sha256": "8582c87d9a6baa28f7827c5205b7d16c3179bc794ebd4c7cc287c49a89b7eaa1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/s2/cmd/internal/filepathx/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/s2/cmd/internal/readahead/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c76a1d5291e1c98ee2613930.txt",
+      "kind": "license",
+      "bytes": 1100,
+      "sha256": "10fa24a602fde465db603cd5d546e37e33642a73cd24ddf5910be81724fec8b2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/s2/cmd/internal/readahead/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/snappy/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/fdc8c4eaae8185917edd4a25.txt",
+      "kind": "license",
+      "bytes": 1486,
+      "sha256": "f69f157b0be75da373605dbc8bbf142e8924ee82d8f44f11bcaf351335bf98cf",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/snappy/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/snappy/xerial/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/35ebcdb81598709f16f1a99e.txt",
+      "kind": "license",
+      "bytes": 1106,
+      "sha256": "d4ff111fa30ac75e28dca3868de957a3b73ff50b76bc4b8fe5c3a1f008d26703",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/snappy/xerial/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/klauspost/compress/zstd/internal/xxhash/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/266ccd146f90787f6bbf52aa.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "f566a9f97bacdaf00d9f21dd991e81dc11201c4e016c86b470799429a1c9a79c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/klauspost/compress/zstd/internal/xxhash/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/lestrrat-go/backoff/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d72d9d166e0819b2e8318e48.txt",
+      "kind": "license",
+      "bytes": 1065,
+      "sha256": "e148deed982672627e875fe0cb03b9aa0d3e315e0f59992973c3c34dbcf5f322",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/lestrrat-go/backoff/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/lestrrat-go/blackmagic/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ee3333122101eaf4fe6f0560.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "b9b5b03485eb7446da7ecad22178664a53c7fcecceb74d69f905819a807d710e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/lestrrat-go/blackmagic/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/lestrrat-go/httpcc/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/6fc4d56fc372910984979dc2.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "d5c8d4935994cfcfbc53d12fe756b28316858736d6e0a61acaff5fe4a84fca12",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/lestrrat-go/httpcc/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/lestrrat-go/iter/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0fadb65e207d5a5688664763.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "d5c8d4935994cfcfbc53d12fe756b28316858736d6e0a61acaff5fe4a84fca12",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/lestrrat-go/iter/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/lestrrat-go/jwx/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4de38a1cee30542fbc3bcd9a.txt",
+      "kind": "license",
+      "bytes": 1076,
+      "sha256": "0c4868a07b1c2dbb67c75767b4f1b2936c392d02ca2c7ee9827cac1a9d60ab1d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/lestrrat-go/jwx/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/lestrrat-go/option/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/237c6e91669b0d393aa369dd.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "b9b5b03485eb7446da7ecad22178664a53c7fcecceb74d69f905819a807d710e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/lestrrat-go/option/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/liggitt/tabwriter/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/219c97508360ceba79ce2c71.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/liggitt/tabwriter/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/mattn/go-colorable/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9d46c5c7b3cec7d023edeaee.txt",
+      "kind": "license",
+      "bytes": 1085,
+      "sha256": "88a2379b3ca34bf5c57127aff9dcb802bbb60ece0805cdbda65b3bd115f971d9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/mattn/go-colorable/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/mattn/go-isatty/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/413a5121ebc07d3f6b0fae51.txt",
+      "kind": "license",
+      "bytes": 1099,
+      "sha256": "08eab1118c80885fa1fa6a6dd7303f65a379fcb3733e063d20d1bbc2c76e6fa1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/mattn/go-isatty/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/mattn/go-runewidth/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5bd7cdf1b185bdf438d3d3d1.txt",
+      "kind": "license",
+      "bytes": 1085,
+      "sha256": "88a2379b3ca34bf5c57127aff9dcb802bbb60ece0805cdbda65b3bd115f971d9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/mattn/go-runewidth/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/miekg/dns/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/987613ee1173e0d1ad6a8c87.txt",
+      "kind": "license",
+      "bytes": 1568,
+      "sha256": "f200ff9bad73385db2ed81e23ee2c1fe069eb5776e17fae4ee85ad0a9e1361a5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/miekg/dns/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/mitchellh/copystructure/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/354f077492507f38a91fb5d1.txt",
+      "kind": "license",
+      "bytes": 1085,
+      "sha256": "3c377fad2e5ae1d7081c7c2f16da867a87cca1d1f5f1aa7ed0b8a16bb553142a",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/mitchellh/copystructure/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/mitchellh/go-wordwrap/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/c141fbe4cc5b742c8e0d1228.md",
+      "kind": "license",
+      "bytes": 1085,
+      "sha256": "3c377fad2e5ae1d7081c7c2f16da867a87cca1d1f5f1aa7ed0b8a16bb553142a",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/mitchellh/go-wordwrap/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/mitchellh/reflectwalk/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2539db5d4d034721cabfa085.txt",
+      "kind": "license",
+      "bytes": 1085,
+      "sha256": "22adc4abdece712a737573672f082fd61ac2b21df878efb87ffcff4354a07f26",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/mitchellh/reflectwalk/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/moby/buildkit/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0f9742879136527c3687a35e.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/moby/buildkit/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/moby/spdystream/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/237b66c4c38f39e3e4d5ac8e.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/moby/spdystream/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/moby/spdystream/spdy/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/acff971f5ada3fba91ac5bf7.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/moby/spdystream/spdy/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/moby/term/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/024e956900209c93450101d2.txt",
+      "kind": "license",
+      "bytes": 10765,
+      "sha256": "7c87873291f289713ac5df48b1f2010eb6963752bbd6b530416ab99fc37914a8",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/moby/term/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/modern-go/concurrent/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/39e6ec5c95de1ea12c8fd519.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/modern-go/concurrent/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/modern-go/reflect2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e2765213f544efa3156ac89b.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/modern-go/reflect2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/monochromegane/go-gitignore/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/eaaabc8cca7fbe7fd732b35e.txt",
+      "kind": "license",
+      "bytes": 1083,
+      "sha256": "5a1094b566b6363140fd907ec10aa99f1a5b435c318fa1f65ed52a5e80c67029",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/monochromegane/go-gitignore/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/munnerz/goautoneg/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/17477ff2b46349cbe929efdd.txt",
+      "kind": "license",
+      "bytes": 1546,
+      "sha256": "aa1376b9bc5dea6f30cdefde40c176a254f247d2814d0a9929395138631b2ae0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/munnerz/goautoneg/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/onsi/gomega/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ea372446def0f57557eaacc7.txt",
+      "kind": "license",
+      "bytes": 1062,
+      "sha256": "3da40f6328f42cbc970672f8129e0ecb6e2cc4f5117a072593ba247276354454",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/onsi/gomega/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/opencontainers/go-digest/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/53a51cfa3daedfa00562f3a1.txt",
+      "kind": "license",
+      "bytes": 10801,
+      "sha256": "aceb55133c41c50c2e170c5918e301fe74f592d0f28724bf2f7a7bfdcff1fc5f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/opencontainers/go-digest/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/opencontainers/image-spec/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/352a60dd52f9e8be66703f5c.txt",
+      "kind": "license",
+      "bytes": 10767,
+      "sha256": "b0a3f39513927db306adabea11d14c23f079d4febcea241d123a68d1a0d45418",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/opencontainers/image-spec/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/openshift/api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/63f886813349336c83bb9279.txt",
+      "kind": "license",
+      "bytes": 10759,
+      "sha256": "ea81dcff98532f22802f03eb0ad532407b9122c4c76aae32cbd58442485f3885",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/openshift/api/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/pbnjay/memory/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7099a5d17a6404cb3bd69e6f.txt",
+      "kind": "license",
+      "bytes": 1510,
+      "sha256": "f0e4a9d181cbbbc742355f1723a4273fff79d999fd4d65caa2dc92fbcc5937be",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/pbnjay/memory/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/pelletier/go-toml/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/bd3c9792d09bbcce59b9ec28.txt",
+      "kind": "license",
+      "bytes": 1101,
+      "sha256": "26844e4b53c5adec04e557fd7dfef281cc0205a7d355626b1c68b778b99e9e7b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/pelletier/go-toml/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/peterbourgon/diskv/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0ca9a2faa593b9378ca40190.txt",
+      "kind": "license",
+      "bytes": 1062,
+      "sha256": "6c17dd7c73f04de74ede2ff155f26d8de642e30e14e33bf9ecdb1a7f1662acd9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/peterbourgon/diskv/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/pires/go-proxyproto/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b89d048163a7e2c96f0cc928.txt",
+      "kind": "license",
+      "bytes": 11341,
+      "sha256": "666f1951be1d543e744818d232bb311a4a310fd1d344288642c796fca39af3c7",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/pires/go-proxyproto/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/pkg/errors/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d8cf48a0c0fdce9a093080bd.txt",
+      "kind": "license",
+      "bytes": 1312,
+      "sha256": "8d427fd87bc9579ea368fde3d49f9ca22eac857f91a9dec7e3004bdfab7dee86",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/pkg/errors/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/planetscale/vtprotobuf/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9e5589abef93503468330626.txt",
+      "kind": "license",
+      "bytes": 1596,
+      "sha256": "c108a2604f8958f647b56b83b11a31ae85648a77cb9aa0f093c0ab9ffffe2222",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/planetscale/vtprotobuf/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/planetscale/vtprotobuf/generator/pattern/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/6408268f515d3121ed4d9234.txt",
+      "kind": "license",
+      "bytes": 1077,
+      "sha256": "ab96c2158cd217f2152e9ebc03400993c5605044774254b48dd6be2e903963c0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/planetscale/vtprotobuf/generator/pattern/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/pmezard/go-difflib/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/655643d0e630e349ec8affb6.txt",
+      "kind": "license",
+      "bytes": 1445,
+      "sha256": "2eb550be6801c1ea434feba53bf6d12e7c71c90253e0a9de4a4f46cf88b56477",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/pmezard/go-difflib/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/client_golang/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/762e27ee12679eef0ceed487.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/client_golang/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/client_golang/internal/github.com/golang/gddo/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/df390f7c17edfe51306f95bb.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "dfffb9ec737eaba985243e95a549bd8c3a4d462032cfe603e2a6704c346427b6",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/client_golang/internal/github.com/golang/gddo/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/client_model/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8ef8d687500cf0beb60f6c9e.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/client_model/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/common/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/34eb07998e12153bd40cbca0.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/common/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/otlptranslator/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/db58b6873167cf00e1e136f9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/otlptranslator/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/procfs/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d444a8bb07ae423af69214a9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/procfs/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/prometheus/prometheus/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5d6c952f5820da5a81a88de5.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/prometheus/prometheus/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/quic-go/qpack/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/52d52abdd569aed856d53ce5.md",
+      "kind": "license",
+      "bytes": 1054,
+      "sha256": "1b6a897efd39b20b3cdce8cd306160d115dbded39d855ceeffe21dc11e4d53df",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/quic-go/qpack/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/quic-go/quic-go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8784c40cb580e164b4334276.txt",
+      "kind": "license",
+      "bytes": 1091,
+      "sha256": "77d0b7b53e8abb84cf4dd3f9945a7fdf27044240d2e8023966a721a9a46fe96e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/quic-go/quic-go/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/quic-go/quic-go/assets/LICENSE.md",
+      "localPath": "raw/istio--istio/97bef417aff5/0858b022dff11d5b72f8d364.md",
+      "kind": "license",
+      "bytes": 1413,
+      "sha256": "2c8d4ff4244edf09d99dcd428d278e47a059d24f0030b38c1ab38e93b1c8030c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/quic-go/quic-go/assets/LICENSE.md"
+    },
+    {
+      "path": "licenses/github.com/rivo/uniseg/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/fd4203f270fe8fcbfb0cab3c.txt",
+      "kind": "license",
+      "bytes": 1072,
+      "sha256": "a59885f5f0f3b3c07cf9444db5fe399b6f0791eac82055f7b85cc65500551039",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/rivo/uniseg/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/russross/blackfriday/v2/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/095e4cd00e5d0ac7dc1e324a.txt",
+      "kind": "license",
+      "bytes": 1416,
+      "sha256": "75e1ca97a84a9da6051dee0114333388216f2c4a5a028296b882ff3d57274735",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/russross/blackfriday/v2/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/ryanuber/go-glob/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e42390b61940967824509254.txt",
+      "kind": "license",
+      "bytes": 1076,
+      "sha256": "38049e50b486f5394e40b786388f4a006401996e46c7c1cd18925afe7c3b4e34",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/ryanuber/go-glob/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/sagikazarmark/locafero/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7798ea629904172c21f8c80d.txt",
+      "kind": "license",
+      "bytes": 1089,
+      "sha256": "c4129f2c2a5eb20e4ac7b2535dab899fde485865106a15189726e2db68ff3483",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/sagikazarmark/locafero/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/santhosh-tekuri/jsonschema/v6/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9d472f5dd999fe325c81bf53.txt",
+      "kind": "license",
+      "bytes": 10141,
+      "sha256": "c8858a5a76440bbca484e134cf7df46385d090dd18b2c58e650f939258802e5b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/santhosh-tekuri/jsonschema/v6/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/shopspring/decimal/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8c5821a50393fc7943534b49.txt",
+      "kind": "license",
+      "bytes": 2245,
+      "sha256": "b92ba0f6ee02f2309628bfdadb123668a17c016e475ba477b857d33470d9d625",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/shopspring/decimal/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/sirupsen/logrus/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ec03be7ec90f608cb1ffca7e.txt",
+      "kind": "license",
+      "bytes": 1082,
+      "sha256": "51a0c9ec7f8b7634181b8d4c03e5b5d204ac21d6e72f46c313973424664b2e6b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/sirupsen/logrus/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/sourcegraph/conc/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2ad069b85e56023b516c5e5c.txt",
+      "kind": "license",
+      "bytes": 1068,
+      "sha256": "e3dfc7ac698a5b64eefc720531595b9d6e3f6c5da7f741ef15e453709e173ee2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/sourcegraph/conc/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/spf13/afero/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/1ecd4a08519fc7b694a5746c.txt",
+      "kind": "license",
+      "bytes": 10140,
+      "sha256": "5e3400b93bbb099e83e52bab885e7441750673c21f97988ca3f1240639b63283",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/spf13/afero/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/spf13/cast/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/58300fec506ded0b9c5ea483.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "feb6d17a0e7a64e5ab0f7e2b0e0ee3e69c1a6396626fd554dc0cddaa06851b44",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/spf13/cast/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/spf13/cobra/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/317c6f35392982bbbf3870ad.txt",
+      "kind": "license",
+      "bytes": 10140,
+      "sha256": "5e3400b93bbb099e83e52bab885e7441750673c21f97988ca3f1240639b63283",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/spf13/cobra/LICENSE.txt"
+    },
+    {
+      "path": "licenses/github.com/spf13/pflag/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/f6fa6afdfe9c4142de62fc12.txt",
+      "kind": "license",
+      "bytes": 1531,
+      "sha256": "b8514c577c1c4b46cee454d5a882b15fa411e72c5bd7f801f241591789fce61a",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/spf13/pflag/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/spf13/viper/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/cbedb2332c2b0b8046325eaf.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "feb6d17a0e7a64e5ab0f7e2b0e0ee3e69c1a6396626fd554dc0cddaa06851b44",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/spf13/viper/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/spiffe/go-spiffe/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d4665540ba54b86fcdf95ca3.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/spiffe/go-spiffe/v2/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/stoewer/go-strcase/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/99b59fd003a03c0756909a4e.txt",
+      "kind": "license",
+      "bytes": 1113,
+      "sha256": "73524a55beda60fc1a5fcdb2a790652154a6d1e6a090e15f61c92e7dd9360438",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/stoewer/go-strcase/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/stretchr/objx/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/a1640a273fbc21ca1120f40c.txt",
+      "kind": "license",
+      "bytes": 1117,
+      "sha256": "b2663894033a05fd80261176cd8da1d72546e25842d5c1abcc852ca23b6b61b0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/stretchr/objx/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/stretchr/testify/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ce7d3dc3b9a80489e556bfb6.txt",
+      "kind": "license",
+      "bytes": 1103,
+      "sha256": "f8e536c1c7b695810427095dc85f5f80d44ff7c10535e8a9486cf393e2599189",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/stretchr/testify/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/stretchr/testify/internal/difflib/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c2807ab1d289fd7f53505d29.txt",
+      "kind": "license",
+      "bytes": 1444,
+      "sha256": "c615fb76b7891c9b36b0e352c111d5a2fe77c0111e4129a23659b25b26c3fdd2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/stretchr/testify/internal/difflib/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/stretchr/testify/internal/spew/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4fbd55ee133fbde8e64d62c9.txt",
+      "kind": "license",
+      "bytes": 766,
+      "sha256": "1b93a317849ee09d3d7e4f1d20c2b78ddb230b4becb12d7c224c927b9d470251",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/stretchr/testify/internal/spew/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/subosito/gotenv/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/96b4c1fde6ad215c87f597e7.txt",
+      "kind": "license",
+      "bytes": 1082,
+      "sha256": "1fd29c692f599736d92f7c02b7826836c0d2ccc838689b21822f4ce0253c39df",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/subosito/gotenv/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/vishvananda/netlink/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7203219c5aa78f86dcf38686.txt",
+      "kind": "license",
+      "bytes": 10796,
+      "sha256": "04cf148229e562c643203d1ee8c43aae2022e5130e95ceb8ba8357a27c1a9abe",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/vishvananda/netlink/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/vishvananda/netns/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/802f1e90a3d6a88655e67180.txt",
+      "kind": "license",
+      "bytes": 10796,
+      "sha256": "04cf148229e562c643203d1ee8c43aae2022e5130e95ceb8ba8357a27c1a9abe",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/vishvananda/netns/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/x448/float16/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/752a6c760e2b9a66b923a425.txt",
+      "kind": "license",
+      "bytes": 1102,
+      "sha256": "a555f1194fdac34da70fb416968f7e2217b02352c26c1eac2fa45fcb4290ae8d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/x448/float16/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/xlab/treeprint/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2defc12ab7bdab905d367488.txt",
+      "kind": "license",
+      "bytes": 1101,
+      "sha256": "52323e7c7c14ed38010ab5879499eb2afd4abcce543750d0c3faf28d83c8d862",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/xlab/treeprint/LICENSE"
+    },
+    {
+      "path": "licenses/github.com/yl2chen/cidranger/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/bc739d4e40cb4d43cc51d183.txt",
+      "kind": "license",
+      "bytes": 1062,
+      "sha256": "00364c787e5b510a6ea5b863092925d931a76464715c24129c2d01a3279ce6ef",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/github.com/yl2chen/cidranger/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/auto/sdk/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/629cf7f4d8f953ced26138f5.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/auto/sdk/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ad089b4e8981914a6f804a3b.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b73dbce0839723e92dadd303.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/exporters/otlp/otlptrace/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/412df9410ceceadb9f95a9d0.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/exporters/otlp/otlptrace/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/75677a827779885aee612bfa.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5937c31757d009e09e505562.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/exporters/prometheus/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3dedce32f18d02520bd3298f.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/exporters/prometheus/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/metric/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2752241398c3c2d8a8bd1d3c.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/metric/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/sdk/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5b4857838a2b72d0871f494f.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/sdk/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/sdk/metric/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/dbdd98160a9944ad94ca1b2c.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/sdk/metric/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/otel/trace/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3f2713b6b99c02499948898b.txt",
+      "kind": "license",
+      "bytes": 12892,
+      "sha256": "1ae07514be1d7bb33f0698f8d91fb51b8b9fe1463157ec1c72081a49b9bc6f40",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/otel/trace/LICENSE"
+    },
+    {
+      "path": "licenses/go.opentelemetry.io/proto/otlp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9f18b0aa286fd23a5acec1cb.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.opentelemetry.io/proto/otlp/LICENSE"
+    },
+    {
+      "path": "licenses/go.uber.org/atomic/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/6d5d6016a25bc88d8ab035aa.txt",
+      "kind": "license",
+      "bytes": 1067,
+      "sha256": "edbb5a4d165ac69376c765b551c0662ff42bea87e1f1eda85f42ac90c34b09d0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.uber.org/atomic/LICENSE.txt"
+    },
+    {
+      "path": "licenses/go.uber.org/multierr/LICENSE.txt",
+      "localPath": "raw/istio--istio/97bef417aff5/e152ca9a37771db95d73467e.txt",
+      "kind": "license",
+      "bytes": 1072,
+      "sha256": "dcdabe03bef2382a130640d1c3a4cd5ec42aba1035095c38272fde694eb72405",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.uber.org/multierr/LICENSE.txt"
+    },
+    {
+      "path": "licenses/go.uber.org/zap/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9b6f34a5655f8307b524cc1d.txt",
+      "kind": "license",
+      "bytes": 1072,
+      "sha256": "c2b97b3281be272711909076c8402499b4b5a3216196af47a25b1d3674d86152",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.uber.org/zap/LICENSE"
+    },
+    {
+      "path": "licenses/go.yaml.in/yaml/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/54c410568678d0a53ff7a37b.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.yaml.in/yaml/v2/LICENSE"
+    },
+    {
+      "path": "licenses/go.yaml.in/yaml/v3/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/bbda0133f0316dd350592425.txt",
+      "kind": "license",
+      "bytes": 2151,
+      "sha256": "d18f6323b71b0b768bb5e9616e36da390fbd39369a81807cca352de4e4e6aa0b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/go.yaml.in/yaml/v3/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/crypto/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/43d59bcf916cee080737ec88.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/crypto/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/exp/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/31b2308944bb6bab5cabe95b.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/exp/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/net/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b3de5621bb3db52710cf1597.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/net/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/oauth2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d17e9801fa5f3a776def87cf.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/oauth2/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/sync/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/60f01a94624e12f298b433f2.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/sync/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/sys/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/6e755a79aee600024a9ac546.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/sys/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/term/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/04281833f7d4ae70d387cb37.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/term/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/text/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/91fd1d6c2cc6b9be3ab9f172.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/text/LICENSE"
+    },
+    {
+      "path": "licenses/golang.org/x/time/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/17df92b2e175f2675469a038.txt",
+      "kind": "license",
+      "bytes": 1453,
+      "sha256": "911f8f5782931320f5b8d1160a76365b83aea6447ee6c04fa6d5591467db9dad",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/golang.org/x/time/LICENSE"
+    },
+    {
+      "path": "licenses/gomodules.xyz/jsonpatch/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/255902f260a6e553375ec1eb.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/gomodules.xyz/jsonpatch/v2/LICENSE"
+    },
+    {
+      "path": "licenses/google.golang.org/genproto/googleapis/api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0935fe18fe40b5c22142e05a.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/google.golang.org/genproto/googleapis/api/LICENSE"
+    },
+    {
+      "path": "licenses/google.golang.org/genproto/googleapis/rpc/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/667413c71c86347fe9b3bf9b.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/google.golang.org/genproto/googleapis/rpc/LICENSE"
+    },
+    {
+      "path": "licenses/google.golang.org/grpc/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/29a6d6cbcca677ffbe65cea3.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/google.golang.org/grpc/LICENSE"
+    },
+    {
+      "path": "licenses/google.golang.org/protobuf/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/1b093670e9f8c0a6308ef11e.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "4835612df0098ca95f8e7d9e3bffcb02358d435dbb38057c844c99d7f725eb20",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/google.golang.org/protobuf/LICENSE"
+    },
+    {
+      "path": "licenses/gopkg.in/evanphx/json-patch.v4/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/a4a276f354c251fec3beae4c.txt",
+      "kind": "license",
+      "bytes": 1495,
+      "sha256": "9cb8ce7ebecf456a156e04c999c32b2eeafb3f7d7e05b9435ac8829d6e0bf734",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/gopkg.in/evanphx/json-patch.v4/LICENSE"
+    },
+    {
+      "path": "licenses/gopkg.in/inf.v0/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7ef66f53ba8fc25b638b309f.txt",
+      "kind": "license",
+      "bytes": 1524,
+      "sha256": "050855d9ceedf916a9e9f30d20c6f61a484448d2c2ed5810934bc8aef43861b4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/gopkg.in/inf.v0/LICENSE"
+    },
+    {
+      "path": "licenses/gopkg.in/natefinch/lumberjack.v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e1dc59399f0edcaf060c708a.txt",
+      "kind": "license",
+      "bytes": 1077,
+      "sha256": "9622cbfd055d92991dcf523a256840424cc6356eab93beb4a93a973dec046492",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/gopkg.in/natefinch/lumberjack.v2/LICENSE"
+    },
+    {
+      "path": "licenses/gopkg.in/yaml.v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/bd5177c459d6430dace74c82.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/gopkg.in/yaml.v2/LICENSE"
+    },
+    {
+      "path": "licenses/gopkg.in/yaml.v3/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3848be0946b6c9af4397fa82.txt",
+      "kind": "license",
+      "bytes": 2151,
+      "sha256": "d18f6323b71b0b768bb5e9616e36da390fbd39369a81807cca352de4e4e6aa0b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/gopkg.in/yaml.v3/LICENSE"
+    },
+    {
+      "path": "licenses/helm.sh/helm/v4/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2bda9f9363ba0de6eb959dd2.txt",
+      "kind": "license",
+      "bytes": 11373,
+      "sha256": "881467e52efeb1807406134b0ec04b1c6f52dc9dc49382713ef9ac4e0cae42f8",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/helm.sh/helm/v4/LICENSE"
+    },
+    {
+      "path": "licenses/istio.io/api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3e21326e06ed6483bc8b0952.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "9fa6e54dafda853bb3cdc01486b677a55102f0d488282a85ba6e426d9125f8c5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/istio.io/api/LICENSE"
+    },
+    {
+      "path": "licenses/istio.io/client-go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3afad2cf62ec78e220a8d548.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "9fa6e54dafda853bb3cdc01486b677a55102f0d488282a85ba6e426d9125f8c5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/istio.io/client-go/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/279b5a06ef09da78515cf3c3.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/api/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/apiextensions-apiserver/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/6fca505963de4fd8c288ba3a.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/apiextensions-apiserver/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/apimachinery/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ca84047cb6f776eeab59e889.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/apimachinery/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/apiserver/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/0f360f280a7ac807e869eded.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/apiserver/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/cli-runtime/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c1d4adeae40866b99decb8fe.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/cli-runtime/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/client-go/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/dc7272c881e617f38814a46b.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/client-go/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/component-base/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/db3046b817e32e27a39c9eea.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/component-base/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/component-helpers/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/1149a41357efdfc779c93bfd.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/component-helpers/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/klog/v2/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/2ac8a56a78506622dbbfac64.txt",
+      "kind": "license",
+      "bytes": 10273,
+      "sha256": "73ba74dfaa520b49a401b5d21459a8523a146f3b7518a833eea5efa85130bf68",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/klog/v2/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/kube-openapi/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5edf5fb6e3f4051a8ba054d6.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/kube-openapi/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/kube-openapi/pkg/validation/errors/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/79480de3aa25e67b39aaa2e7.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/kube-openapi/pkg/validation/errors/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/kube-openapi/pkg/validation/spec/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c84a5a8eb5ab2851cba843cb.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/kube-openapi/pkg/validation/spec/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/kube-openapi/pkg/validation/strfmt/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/e1ccd5e2707badc0de3306a9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/kube-openapi/pkg/validation/strfmt/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/kube-openapi/pkg/validation/validate/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ba7f4d78f5c64c973c5bbafb.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/kube-openapi/pkg/validation/validate/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/kubectl/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/d49b2fe00c3e6c8952f1565e.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/kubectl/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/streaming/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/867c80716966623895f1ed1c.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/streaming/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/utils/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5e500017ee9a17ccf1353e43.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/utils/LICENSE"
+    },
+    {
+      "path": "licenses/k8s.io/utils/inotify/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/af08a836ac157289216c058b.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/k8s.io/utils/inotify/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/apiserver-network-proxy/konnectivity-client/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/4b8413fd7cd509fad7ea936e.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/apiserver-network-proxy/konnectivity-client/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/controller-runtime/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/5756d9b46dc7ff491d11df8d.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/controller-runtime/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/gateway-api-inference-extension/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b6c9865889f88bf49874737e.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/gateway-api-inference-extension/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/gateway-api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/cc9d2110ba913a902e97b023.txt",
+      "kind": "license",
+      "bytes": 11352,
+      "sha256": "20b6dde626f521dbb384f75e6d96c3d16789df3bf878b58bc2810614fb4db07c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/gateway-api/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/gateway-api/conformance/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/b6c160cde404b44bc3ff1a24.txt",
+      "kind": "license",
+      "bytes": 11352,
+      "sha256": "20b6dde626f521dbb384f75e6d96c3d16789df3bf878b58bc2810614fb4db07c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/gateway-api/conformance/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/json/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/9c9521ab6db11aeb83c4ba75.txt",
+      "kind": "license",
+      "bytes": 12953,
+      "sha256": "ef523ecf6292d4b80e02e6003dcbaf386e774efe70e8607ad762b1437d1f383b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/json/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/knftables/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/413166853e66f5ad9a6f8494.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/knftables/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/kustomize/api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/3fd7139f2bb95abd193ef400.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/kustomize/api/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/kustomize/kyaml/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/7fae1f19173ce653463a6e85.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/kustomize/kyaml/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/mcs-api/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/54d01e658c35810a9dbfcac6.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/mcs-api/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/randfill/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/ea48c8ed90f21a114673151a.txt",
+      "kind": "license",
+      "bytes": 11389,
+      "sha256": "fafd604c0c068855ab2ec82d6d962d21fb0d08e13085f01ac4a8463053fa1138",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/randfill/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/structured-merge-diff/v6/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/8d6ad1fc9805f1047d0482e0.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/structured-merge-diff/v6/LICENSE"
+    },
+    {
+      "path": "licenses/sigs.k8s.io/yaml/LICENSE",
+      "localPath": "raw/istio--istio/97bef417aff5/c84fd587fea994978846da6d.txt",
+      "kind": "license",
+      "bytes": 16189,
+      "sha256": "5dc79da695aea39a47245008a168e3f7d461b686da8bec299fd55fee0393cbcc",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/licenses/sigs.k8s.io/yaml/LICENSE"
+    },
+    {
+      "path": "manifests/addons/dashboards/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/f15bd656503d53bc18b8ba24.md",
+      "kind": "official-document",
+      "bytes": 1822,
+      "sha256": "fdb3311f56462c0733f49cec184597dcf46a806b1e156e9a5c9dda58d657f749",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/addons/dashboards/README.md"
+    },
+    {
+      "path": "manifests/charts/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/b503e4ee4cba0070284db15c.md",
+      "kind": "official-document",
+      "bytes": 7638,
+      "sha256": "9a773b70257bcb6f300bc605a9e1eb3b5beddc549d1bf4cf08cc6bca01c539f6",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/charts/README.md"
+    },
+    {
+      "path": "manifests/charts/base/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/3d63f79552efeff6a9a2b6ee.md",
+      "kind": "official-document",
+      "bytes": 1290,
+      "sha256": "b6f711b8998ef1ae17112a10bdef046838c1f1c99e0fddcf0c0131b730fc642d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/charts/base/README.md"
+    },
+    {
+      "path": "manifests/charts/gateway/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/e8c7a3c85b565aa5a008588a.md",
+      "kind": "official-document",
+      "bytes": 6788,
+      "sha256": "d28756828494691bf8e796001b774c08a205f42d5f9e47f81d6e7ad404b94aea",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/charts/gateway/README.md"
+    },
+    {
+      "path": "manifests/charts/istio-cni/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/60627272db987574c480eacb.md",
+      "kind": "official-document",
+      "bytes": 2516,
+      "sha256": "289cd4ceeadcb93f24cd570303c47a56d69a6dea85b1e9eb4b8edc03a8337eda",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/charts/istio-cni/README.md"
+    },
+    {
+      "path": "manifests/charts/istio-control/istio-discovery/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/312f3ca8a6fd531f1223176c.md",
+      "kind": "official-document",
+      "bytes": 2081,
+      "sha256": "1cdb91122b380de0abb3a089b31f56adb12c72eec85fdc6d37ceed51c0c06a25",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/charts/istio-control/istio-discovery/README.md"
+    },
+    {
+      "path": "manifests/charts/ztunnel/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/fb3fb232e5f45ad76efb435a.md",
+      "kind": "official-document",
+      "bytes": 1380,
+      "sha256": "60b1f92e18de8863c158438b2fbb3af919b9b708306601b11f9a0677f712af05",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/charts/ztunnel/README.md"
+    },
+    {
+      "path": "manifests/helm-profiles/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/5f679d30b8541b3cf7d7d2ef.md",
+      "kind": "official-document",
+      "bytes": 708,
+      "sha256": "bafdc25c33d70e8391b86894ca7cf70f36de701c1ee92ec072a3aa8649ac29de",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/manifests/helm-profiles/README.md"
+    },
+    {
+      "path": "operator/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/877dd4b55ed020309c24589c.md",
+      "kind": "official-document",
+      "bytes": 14660,
+      "sha256": "b5045d504884032c6300d73477c3e56e53f1537889c02f02e939d15bd45239c2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/operator/README.md"
+    },
+    {
+      "path": "pilot/pkg/leaderelection/k8sleaderelection/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/a95c52dcb03b28a25da0f5d3.md",
+      "kind": "official-document",
+      "bytes": 935,
+      "sha256": "33b2ce0c8a85da8be55c6f7c3c2423f33c8ad9114a81b386208a08e294ff19b8",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pilot/pkg/leaderelection/k8sleaderelection/README.md"
+    },
+    {
+      "path": "pkg/config/analysis/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/0b27b03fc1180c5b2966ea58.md",
+      "kind": "official-document",
+      "bytes": 9603,
+      "sha256": "2b69986654a28b7373c4652da190358d35c024a77e995d9100f6cef1b091a67e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pkg/config/analysis/README.md"
+    },
+    {
+      "path": "pkg/fuzz/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/1a11f2b60cce9051233d85d9.md",
+      "kind": "official-document",
+      "bytes": 1915,
+      "sha256": "1775a3fa76c2df6dd33a194881f02d10bef7a33b847596486fa5bd8852600ad5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pkg/fuzz/README.md"
+    },
+    {
+      "path": "pkg/hbone/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/e25697f13fb882efc49d4c89.md",
+      "kind": "official-document",
+      "bytes": 1659,
+      "sha256": "06e31fd63ecd7fcfd7110db5ef4e3979913f62a94ddd2909c2cb6bc5634a6537",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pkg/hbone/README.md"
+    },
+    {
+      "path": "pkg/kube/krt/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/38be14a7d9b8b57b8a3cbbca.md",
+      "kind": "official-document",
+      "bytes": 12085,
+      "sha256": "9000ad3d241533f4d8ccdcd5836d6ffc4db948e090aa2dc8589e1bd393e665bc",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pkg/kube/krt/README.md"
+    },
+    {
+      "path": "pkg/test/datasets/Readme.md",
+      "localPath": "raw/istio--istio/97bef417aff5/7608117c4dc36fdb38390a55.md",
+      "kind": "official-document",
+      "bytes": 2154,
+      "sha256": "db941a268f46738ee40ac1afe7201fba3856d56e384dc32879b197bc5efa3add",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pkg/test/datasets/Readme.md"
+    },
+    {
+      "path": "pkg/test/framework/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/d7056021981aac5e200da79f.md",
+      "kind": "official-document",
+      "bytes": 124,
+      "sha256": "7ba99e40528533773ebbc763ad3ef4850abfbdd9c23d6dcdd9fc68f9696974a5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/pkg/test/framework/README.md"
+    },
+    {
+      "path": "releasenotes/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/807463be27778f3617bed5b4.md",
+      "kind": "official-document",
+      "bytes": 5211,
+      "sha256": "2a0e87ac7be021c7197885a29d93cb7e194089bb25e7b760a553c5fc84dd018b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/releasenotes/README.md"
+    },
+    {
+      "path": "samples/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/d6b7b43e3875c86bc3d2c933.md",
+      "kind": "official-document",
+      "bytes": 98,
+      "sha256": "2013b239881482bf4ceabdf74159c534c8b9606733def3531101fc1062b3d1ba",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/README.md"
+    },
+    {
+      "path": "samples/addons/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/07f7e6ff0273b83043fbc154.md",
+      "kind": "official-document",
+      "bytes": 5441,
+      "sha256": "a220fb39dbd93d5c09c129ab486bff34110a04c26a57e24cb199d0e1395fd889",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/addons/README.md"
+    },
+    {
+      "path": "samples/ambient-argo/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/4352acfad816b0ac4fb10022.md",
+      "kind": "official-document",
+      "bytes": 8950,
+      "sha256": "b10f4feb4efc5466228fcd2bb034bf4961b9a3efbd1ebac3d95466156a5ab894",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/ambient-argo/README.md"
+    },
+    {
+      "path": "samples/bookinfo/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/080ff7e8261b65de4e0290dc.md",
+      "kind": "official-document",
+      "bytes": 16502,
+      "sha256": "5b70b21c9986204f734ca227865d7319898cf237a737b1bb3f96a46e85ba69c7",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/README.md"
+    },
+    {
+      "path": "samples/bookinfo/platform/kube/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/e19160745693db199ef7ebed.md",
+      "kind": "official-document",
+      "bytes": 137,
+      "sha256": "54a154fdb49bb99ec13854d99535f673251c029d550c3f1d912723343348f9fa",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/platform/kube/README.md"
+    },
+    {
+      "path": "samples/bookinfo/platform/kube/cleanup.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/82aa809fc8a9bf6894518037.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2539,
+      "sha256": "a420482a5f00400245b6983e15683e24c430a9cffe5e52ba3d53e5934052aabb",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/platform/kube/cleanup.sh"
+    },
+    {
+      "path": "samples/bookinfo/src/build-services.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/e068d6d762c02bbbab5c3aa0.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1538,
+      "sha256": "587bc7b017125248c5285a1704ae9c72204b09e213f9a107af74e3dceca76cf8",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/build-services.sh"
+    },
+    {
+      "path": "samples/bookinfo/src/details/details.rb",
+      "localPath": "raw/istio--istio/97bef417aff5/add68a8c9617d25c03a8d272.rb",
+      "kind": "upstream-example-code",
+      "bytes": 5986,
+      "sha256": "261b005d311b224e5126adbde016ac5c45af476af60f303c4cd62bca508c04e1",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/details/details.rb"
+    },
+    {
+      "path": "samples/bookinfo/src/mongodb/script.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/22a4502bc0c5fb17266997cb.sh",
+      "kind": "upstream-example-code",
+      "bytes": 692,
+      "sha256": "a3bb0d5c57c5baa7d97d83e2bc0330ae273c1dfa41b09b954d04029ec2381b7f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/mongodb/script.sh"
+    },
+    {
+      "path": "samples/bookinfo/src/mysql/mysqldb-init.sql",
+      "localPath": "raw/istio--istio/97bef417aff5/c7878395066c1fa580707cda.sql",
+      "kind": "upstream-example-code",
+      "bytes": 370,
+      "sha256": "27b0a5d60a35404f56438f5132497f900821381c6ebf1364e7a8f68fe2f1c6a2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/mysql/mysqldb-init.sql"
+    },
+    {
+      "path": "samples/bookinfo/src/productpage/productpage.py",
+      "localPath": "raw/istio--istio/97bef417aff5/f9c648a10370aa6bf3255fcd.py",
+      "kind": "upstream-example-code",
+      "bytes": 14915,
+      "sha256": "5c84beb2ce42e856f3214b9edd120d11165422c1948f49629c103447e6dd7332",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/productpage/productpage.py"
+    },
+    {
+      "path": "samples/bookinfo/src/productpage/tests/unit/test_productpage.py",
+      "localPath": "raw/istio--istio/97bef417aff5/788d2c30adf352eab55e083d.py",
+      "kind": "upstream-example-code",
+      "bytes": 3309,
+      "sha256": "4f23a1c9f9e927e34a8ef57927b02a30e5f696cf03dfde823c75a4769cccd349",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/productpage/tests/unit/test_productpage.py"
+    },
+    {
+      "path": "samples/bookinfo/src/ratings/ratings.js",
+      "localPath": "raw/istio--istio/97bef417aff5/df2a104d3d2d6498198ab100.js",
+      "kind": "upstream-example-code",
+      "bytes": 8995,
+      "sha256": "2efb138c784e9b5c64d218fe28a068d5051c731e8b129b41ceada3e1a02f419b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/ratings/ratings.js"
+    },
+    {
+      "path": "samples/bookinfo/src/reviews/reviews-application/src/main/java/application/ReviewsApplication.java",
+      "localPath": "raw/istio--istio/97bef417aff5/81e5a8ea9ac54b600ea3148f.java",
+      "kind": "upstream-example-code",
+      "bytes": 173,
+      "sha256": "550cb095434ed1a1acaeef2c871028f0c2ed8f2000ae84272db7cc3d8caf8e8b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/reviews/reviews-application/src/main/java/application/ReviewsApplication.java"
+    },
+    {
+      "path": "samples/bookinfo/src/reviews/reviews-application/src/main/java/application/rest/LibertyRestEndpoint.java",
+      "localPath": "raw/istio--istio/97bef417aff5/8d65efa1df7447aad9fcfcdb.java",
+      "kind": "upstream-example-code",
+      "bytes": 8665,
+      "sha256": "8f2b1fb5dadb2ec31a9775702b7b7d067adea5e87bd76183ed4b0061a9bc843f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/reviews/reviews-application/src/main/java/application/rest/LibertyRestEndpoint.java"
+    },
+    {
+      "path": "samples/bookinfo/src/reviews/reviews-application/src/test/java/test/TestApplication.java",
+      "localPath": "raw/istio--istio/97bef417aff5/7310c7468a8ff9d52abd6ca8.java",
+      "kind": "upstream-example-code",
+      "bytes": 806,
+      "sha256": "f1248e01acabf4fec61244d9c4e0201f57459163cbe7ac6ccfe7aed4971e6b2a",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/reviews/reviews-application/src/test/java/test/TestApplication.java"
+    },
+    {
+      "path": "samples/bookinfo/src/reviews/reviews-wlpcfg/src/test/java/it/EndpointTest.java",
+      "localPath": "raw/istio--istio/97bef417aff5/4ab1dab37738e8499c12c854.java",
+      "kind": "upstream-example-code",
+      "bytes": 2129,
+      "sha256": "864993a87f7046352669af1e2bfab206ee1c1149c9df258f779763fad5bad242",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/reviews/reviews-wlpcfg/src/test/java/it/EndpointTest.java"
+    },
+    {
+      "path": "samples/bookinfo/src/reviews/reviews-wlpcfg/src/test/java/it/TestApplication.java",
+      "localPath": "raw/istio--istio/97bef417aff5/e705ffdbb5dfe70e3d119e5f.java",
+      "kind": "upstream-example-code",
+      "bytes": 986,
+      "sha256": "284079e02846afe8c4658895abe5fdb7275864f40c78f0b616a7973b9281fff5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/reviews/reviews-wlpcfg/src/test/java/it/TestApplication.java"
+    },
+    {
+      "path": "samples/bookinfo/src/reviews/reviews-wlpcfg/src/test/java/it/rest/LibertyRestEndpointTest.java",
+      "localPath": "raw/istio--istio/97bef417aff5/e5608d6950dedf174f139f70.java",
+      "kind": "upstream-example-code",
+      "bytes": 1002,
+      "sha256": "b2e0f3afe8da23aeb6b986efa04f71137c3e586e7e28ab573b8808e6f3393648",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/bookinfo/src/reviews/reviews-wlpcfg/src/test/java/it/rest/LibertyRestEndpointTest.java"
+    },
+    {
+      "path": "samples/builder/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/5023727d18652dc63036bb47.md",
+      "kind": "official-document",
+      "bytes": 938,
+      "sha256": "be3a8a35e248c8f7770ca6f81f0955a9eb2db9ed6def86ffa953d3ef0a71aa9f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/builder/README.md"
+    },
+    {
+      "path": "samples/certs/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/ccb133a32de12f28eddcff0f.md",
+      "kind": "official-document",
+      "bytes": 2351,
+      "sha256": "78266a9a23ea9a7da3090e718877d0dd102d3bae916c05451c64e597370f90ed",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/certs/README.md"
+    },
+    {
+      "path": "samples/certs/generate-workload.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/c40112aa8ea04a0e2af61302.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3304,
+      "sha256": "ab16d34a93312f12c8f6e74643962be6337c15119f69c873a8f78eb21814c7ab",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/certs/generate-workload.sh"
+    },
+    {
+      "path": "samples/cicd/skaffold/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/65dd4af83f7f1df7ae9f57ae.md",
+      "kind": "official-document",
+      "bytes": 1074,
+      "sha256": "d55eaf86af5d637b9e55a68c0f7ff51691a8c01dc1c169cbfa8ac2fac3a14982",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/cicd/skaffold/README.md"
+    },
+    {
+      "path": "samples/curl/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/90a8e4f90cf6593dec6c234e.md",
+      "kind": "official-document",
+      "bytes": 1157,
+      "sha256": "8c131cf2293a9a05f591aed3be723e725a59305c2784fc7de184f9fef790fdc2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/curl/README.md"
+    },
+    {
+      "path": "samples/custom-bootstrap/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/553c16b0e4f2c74c159b70b4.md",
+      "kind": "official-document",
+      "bytes": 2121,
+      "sha256": "af45e2da168983d69e3339571d245df68cbb9e7627b3ade48c3bc362fed54a9d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/custom-bootstrap/README.md"
+    },
+    {
+      "path": "samples/extauthz/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/27aa27c7771dc9595d69c198.md",
+      "kind": "official-document",
+      "bytes": 4224,
+      "sha256": "2363e8e6bd5781147a0f82c9de8199e1654a7d3db32928ad9dd43c814098798f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/extauthz/README.md"
+    },
+    {
+      "path": "samples/extauthz/cmd/extauthz/main.go",
+      "localPath": "raw/istio--istio/97bef417aff5/00d711a09f6a64ca4c6b9afe.go",
+      "kind": "upstream-example-code",
+      "bytes": 10685,
+      "sha256": "195264ba75020c50151e311e884099313f019fcfb97e302529ba1be6321ec245",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/extauthz/cmd/extauthz/main.go"
+    },
+    {
+      "path": "samples/extauthz/cmd/extauthz/main_test.go",
+      "localPath": "raw/istio--istio/97bef417aff5/2e6dfbd6713af215460f7e53.go",
+      "kind": "upstream-example-code",
+      "bytes": 3702,
+      "sha256": "01499bbe0e925331c07478119214700e1c6c89545b1aa297bbf116397bd0b591",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/extauthz/cmd/extauthz/main_test.go"
+    },
+    {
+      "path": "samples/grpc-echo/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/d8dc240f3abb7504566c597f.md",
+      "kind": "official-document",
+      "bytes": 348,
+      "sha256": "79d5da083a5b1fa4910a941d2c80e489d00735b25f1889f035aab4a66d3565a2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/grpc-echo/README.md"
+    },
+    {
+      "path": "samples/health-check/server.go",
+      "localPath": "raw/istio--istio/97bef417aff5/42caabb7694c1e76ac85205c.go",
+      "kind": "upstream-example-code",
+      "bytes": 1439,
+      "sha256": "a92a718c16a5d8e9d81b11a87c5d5f48a8f86ac1b012893bcaa0d85959be62b0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/health-check/server.go"
+    },
+    {
+      "path": "samples/helloworld/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/ba36cb7cc4693b68e4fb4a75.md",
+      "kind": "official-document",
+      "bytes": 4178,
+      "sha256": "a12b24db5dcc4e7250f741a25dfdeb8d0f5aa751243d7b532de65c3501c00dbb",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/helloworld/README.md"
+    },
+    {
+      "path": "samples/helloworld/gateway-api/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/34a26562366a4c79795a9f77.md",
+      "kind": "official-document",
+      "bytes": 2500,
+      "sha256": "d9bc66eb25c47767be859fd45feafffa5f11d8203a118f4658c7c4cbbb7be915",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/helloworld/gateway-api/README.md"
+    },
+    {
+      "path": "samples/helloworld/gen-helloworld.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/47fb186990cd27c16f60fc8f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2933,
+      "sha256": "066493ba590653437eeb0b8def5103eb071b02840bb36a0a60cb2cf1ad40265d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/helloworld/gen-helloworld.sh"
+    },
+    {
+      "path": "samples/helloworld/loadgen.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/e878e0d7b2e4472df71901c7.sh",
+      "kind": "upstream-example-code",
+      "bytes": 675,
+      "sha256": "19d11293ac15e9e73bb39214401afb4f9232282a844213f61c3db2b666c6c536",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/helloworld/loadgen.sh"
+    },
+    {
+      "path": "samples/helloworld/src/app.py",
+      "localPath": "raw/istio--istio/97bef417aff5/a8325a080721b43791909cd4.py",
+      "kind": "upstream-example-code",
+      "bytes": 1122,
+      "sha256": "b580db78fba3384ea3b14ad19841e3cdb96394d4ded7ca19b14f90f7885da0f2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/helloworld/src/app.py"
+    },
+    {
+      "path": "samples/httpbin/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/c726c9b9cf8832535f484b98.md",
+      "kind": "official-document",
+      "bytes": 1897,
+      "sha256": "d1cafe370b5fc46b6dce5b3e40a6319a691674e7d2f1681bf73efe7f12721798",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/httpbin/README.md"
+    },
+    {
+      "path": "samples/jwt-server/src/main.go",
+      "localPath": "raw/istio--istio/97bef417aff5/c1c3a493d1bacf201f3e0086.go",
+      "kind": "upstream-example-code",
+      "bytes": 4553,
+      "sha256": "29c7dc475d63a6d7883c173157e953fe4e4c7a8e6ad5fa28d367196b81a8cc0b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/jwt-server/src/main.go"
+    },
+    {
+      "path": "samples/jwt-server/src/main_test.go",
+      "localPath": "raw/istio--istio/97bef417aff5/e67418463da3d4134a89902c.go",
+      "kind": "upstream-example-code",
+      "bytes": 2299,
+      "sha256": "ba493cc50c9282feaa774a08eca17ca8cd779f2cc645a43c3b6e6e63dcf73e47",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/jwt-server/src/main_test.go"
+    },
+    {
+      "path": "samples/kind-lb/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/65b1b8e433f6f526437fb3a6.md",
+      "kind": "official-document",
+      "bytes": 2780,
+      "sha256": "a8ce9cb700f4d908bd8b8b77eb771308c2dd87e8bb468a2537f398327b921e4b",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/kind-lb/README.md"
+    },
+    {
+      "path": "samples/kind-lb/setupkind.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/6a52b5217ba2838e7538bf0c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 8076,
+      "sha256": "d1a8f2d4815fb30a8e2d2bf7ba8cb1a7511dec24e0a3b7e116f4ac477c5bf92d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/kind-lb/setupkind.sh"
+    },
+    {
+      "path": "samples/mtls-echo/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/290aaf01f8d39625dcfbb084.md",
+      "kind": "official-document",
+      "bytes": 332,
+      "sha256": "d8e64f7606af519740853d6b25b063917c2f1daa8388f1078f321b0ae5a89c23",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/mtls-echo/README.md"
+    },
+    {
+      "path": "samples/multicluster/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/e5d12276896f0203909d2d48.md",
+      "kind": "official-document",
+      "bytes": 1467,
+      "sha256": "bb737cc05f522eb57a544166b50a724ca002d25e7e1f78ab73b8eea9f229d7f5",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/multicluster/README.md"
+    },
+    {
+      "path": "samples/multicluster/gen-eastwest-gateway.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/cba5935a204fe2c3865b059d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3847,
+      "sha256": "8d7f33d50568e84cbbb659974c67c9e283cea15f6884792bae9b65e60a011682",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/multicluster/gen-eastwest-gateway.sh"
+    },
+    {
+      "path": "samples/open-telemetry/als/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/93c9f2e8b4e04af01f97ebd2.md",
+      "kind": "official-document",
+      "bytes": 1743,
+      "sha256": "6095f113cfc0ec440e7a8d1c1f11427c96bf7e4d7ee4bd6f60244d1cd638c353",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/open-telemetry/als/README.md"
+    },
+    {
+      "path": "samples/open-telemetry/loki/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/2a067d576baccbd5c8174e36.md",
+      "kind": "official-document",
+      "bytes": 2421,
+      "sha256": "80d8bfed6b3056db269f2df861d99adaf8e2ac95ca8f5464b69c02e09cd3546c",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/open-telemetry/loki/README.md"
+    },
+    {
+      "path": "samples/open-telemetry/tracing/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/cd372d55afcf68d4b7205679.md",
+      "kind": "official-document",
+      "bytes": 4643,
+      "sha256": "a1ba9dff9ccd4742f27392e03fb31128fce851d66d79399addeff6cbc6913729",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/open-telemetry/tracing/README.md"
+    },
+    {
+      "path": "samples/proxy-coredump/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/6ab971d3450d03fe734da488.md",
+      "kind": "official-document",
+      "bytes": 742,
+      "sha256": "b2bb107d509408e8dea557104bf4b00077d82bceaf8bb1b9838dc94f05741bd0",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/proxy-coredump/README.md"
+    },
+    {
+      "path": "samples/security/spire-trust-domain-federation/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/6302038bf3e7a569e441af21.md",
+      "kind": "official-document",
+      "bytes": 8062,
+      "sha256": "2088bf6cd6bb7916907daf4a0118eb077c89d48ebfe9a116a6906a623782c070",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/security/spire-trust-domain-federation/README.md"
+    },
+    {
+      "path": "samples/security/spire/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/1e51adcd7f1c0aa365255014.md",
+      "kind": "official-document",
+      "bytes": 4148,
+      "sha256": "ae6eaa89009f6831b6a96c33ddf100d0fc32dde1b7cfd4e15681ff1da6945259",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/security/spire/README.md"
+    },
+    {
+      "path": "samples/sleep/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/d876e0255c537f7ce8f36e0c.md",
+      "kind": "official-document",
+      "bytes": 394,
+      "sha256": "62c69c006381067c1198f7f319ed35d5365598a5ed5f102d2f1b9a0117a99b22",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/sleep/README.md"
+    },
+    {
+      "path": "samples/tcp-echo/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/f9cc6c9331bf817c2e570dcc.md",
+      "kind": "official-document",
+      "bytes": 1187,
+      "sha256": "b8b3beb7be8b4c4a8991dc12e2b82b5fb5807134857b9a9fd454cf45874ca7f9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/tcp-echo/README.md"
+    },
+    {
+      "path": "samples/tcp-echo/src/main.go",
+      "localPath": "raw/istio--istio/97bef417aff5/4b4114d2daf2e88ad0c5ba5c.go",
+      "kind": "upstream-example-code",
+      "bytes": 2261,
+      "sha256": "cac0432acd3b8657a4a84a00104311b9383de052f8d6a37ca5db91ad5670df70",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/tcp-echo/src/main.go"
+    },
+    {
+      "path": "samples/tcp-echo/src/main_test.go",
+      "localPath": "raw/istio--istio/97bef417aff5/0d84649cbb2b54e4beea9e41.go",
+      "kind": "upstream-example-code",
+      "bytes": 1719,
+      "sha256": "8260f465e9caf0a8dbd121a61ca9830538f9c78b9594544ad73f9e9b8b93616e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/tcp-echo/src/main_test.go"
+    },
+    {
+      "path": "samples/wasm_modules/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/3707c8fc1eb712e8a76c0f44.md",
+      "kind": "official-document",
+      "bytes": 144,
+      "sha256": "cb1c6055d4fb738ee62003a6a428335bcaa08b69945927335eb3ecbc2f1b26dc",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/wasm_modules/README.md"
+    },
+    {
+      "path": "samples/wasm_modules/header_injector/plugin.h",
+      "localPath": "raw/istio--istio/97bef417aff5/fb7e0d70f3721cd8f1a9b7de.h",
+      "kind": "upstream-example-code",
+      "bytes": 1274,
+      "sha256": "e84fd4c0c80c80f93c39589e779ff6fab6928c235dc0fce3f40e6609872d79c7",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/wasm_modules/header_injector/plugin.h"
+    },
+    {
+      "path": "samples/websockets/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/478cdc976520ac1ef66d9e3d.md",
+      "kind": "official-document",
+      "bytes": 1855,
+      "sha256": "2d17a77323c1c0fe9f588535f394e1e42e13f6d04794a37cfc8caa2493502ba6",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/samples/websockets/README.md"
+    },
+    {
+      "path": "security/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/af4558684ed2efe44f656178.md",
+      "kind": "official-document",
+      "bytes": 91,
+      "sha256": "4e0192aefe7305922cd8d2acd330a6323bba1c6573210f65aa681f253367a726",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/security/README.md"
+    },
+    {
+      "path": "security/samples/plugin_ca_certs/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/af9fa6d9ef5e3a3feca5ba6c.md",
+      "kind": "official-document",
+      "bytes": 254,
+      "sha256": "4ef52b54be4d4af2db7378a4e49bd4f16244f0b413d270f8f925af4f01d04008",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/security/samples/plugin_ca_certs/README.md"
+    },
+    {
+      "path": "security/samples/plugin_ca_certs/gen_certs.sh",
+      "localPath": "raw/istio--istio/97bef417aff5/659b0e2a65e792983844ac3d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1305,
+      "sha256": "5631bb454964390a0f8168ddcd22556448763de05e587f1b505b2601c49a4240",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/security/samples/plugin_ca_certs/gen_certs.sh"
+    },
+    {
+      "path": "security/tools/jwt/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/f5b5add290160822721c9340.md",
+      "kind": "official-document",
+      "bytes": 1980,
+      "sha256": "c82a650c104cea96a6ec5678158b135265ba4ba2b6f8bf3f7733f35b9210b47f",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/security/tools/jwt/README.md"
+    },
+    {
+      "path": "security/tools/jwt/samples/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/6857aa631ef2810183593d8d.md",
+      "kind": "official-document",
+      "bytes": 1764,
+      "sha256": "4eaf36c2dcd7b7704b1befab7d57d15c866140731b3e963c29ade5298aa5032d",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/security/tools/jwt/samples/README.md"
+    },
+    {
+      "path": "security/tools/jwt/samples/gen-jwt.py",
+      "localPath": "raw/istio--istio/97bef417aff5/fe1342b24afe68652e1a18db.py",
+      "kind": "upstream-example-code",
+      "bytes": 4852,
+      "sha256": "b333047122eb31beb6e11a4b639070437fda80ad017fbc7063e810f4682cceb9",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/security/tools/jwt/samples/gen-jwt.py"
+    },
+    {
+      "path": "tests/fuzz/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/ce612dda90c796b253e77a40.md",
+      "kind": "official-document",
+      "bytes": 994,
+      "sha256": "c4f05c10646ff7dbf997bfb8effaf6d2c6daac5a4aafdd5c125f9c02f988e7ea",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tests/fuzz/README.md"
+    },
+    {
+      "path": "tests/integration/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/a3fdc939eba6bf3f6c810271.md",
+      "kind": "official-document",
+      "bytes": 32450,
+      "sha256": "1c6f5fc5f36b043fa361bb92a6e8ee4f539a01f643b0bc5e5c9c8990352082c6",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tests/integration/README.md"
+    },
+    {
+      "path": "tests/integration/pilot/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/0baa0e5f3b234378698f8c29.md",
+      "kind": "official-document",
+      "bytes": 3744,
+      "sha256": "c110959e21b1c5a73df5862a14e429b82cf7b2ef8927ddc25147154d151e948a",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tests/integration/pilot/README.md"
+    },
+    {
+      "path": "tests/integration/security/fuzz/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/65f9f0629b50e3a5720127bb.md",
+      "kind": "official-document",
+      "bytes": 2306,
+      "sha256": "826cfe95a31e8dddc9be08b1fd4ef4780d25574969e12fae4988e6d33de40444",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tests/integration/security/fuzz/README.md"
+    },
+    {
+      "path": "tools/certs/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/34a7e0b851e74e4e7a9658cf.md",
+      "kind": "official-document",
+      "bytes": 2817,
+      "sha256": "aeb5fb36b8018c320cb3b894edde4508b34a4f5b010e7e27a7fe5b7aa45dac4e",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tools/certs/README.md"
+    },
+    {
+      "path": "tools/istio-iptables/pkg/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/4970050bcf1ca4ed9dde4b16.md",
+      "kind": "official-document",
+      "bytes": 10053,
+      "sha256": "85034a0b129138ca5d039f88627aec157c2fa9a0742f378ac7b56bf001d1a097",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tools/istio-iptables/pkg/README.md"
+    },
+    {
+      "path": "tools/istio-nftables/pkg/README.md",
+      "localPath": "raw/istio--istio/97bef417aff5/de418b286a9b13f8d2868765.md",
+      "kind": "official-document",
+      "bytes": 7356,
+      "sha256": "0ad69a13635c340b420250988fbe1e9c2f3a4c9f2c3e32db537aefba48ed06f2",
+      "sourceUrl": "https://github.com/istio/istio/blob/97bef417aff5ed2b52fb75e9d0e9111fba18b4b8/tools/istio-nftables/pkg/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

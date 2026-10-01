@@ -1,0 +1,1993 @@
+{
+  "schemaVersion": 1,
+  "repo": "inspektor-gadget/inspektor-gadget",
+  "commit": "7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1",
+  "retrievedAt": "2026-10-01T15:20:38.761409+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Observability and Analysis/Observability"
+  ],
+  "archiveUrl": "https://codeload.github.com/inspektor-gadget/inspektor-gadget/zip/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1",
+  "archiveSha256": "d774a3547b933d0a862ed24172d3041d8c327faaef6dee1f6a9f10198d3209d9",
+  "archiveBytes": 6692653,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 237,
+    "code": 7,
+    "licenses": 2,
+    "bytes": 980699
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 2756,
+      "sha256": "dc65d2fe4f95dfd9e05482c5ed125c0f6b6e88131c6c1d58c11f88c841238a74",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/ADOPTERS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 174,
+      "sha256": "a42c95c8d5fa803de4451ede86b772f86c909d4430ac29a2a0ce8630f739469c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 225,
+      "sha256": "46787cea43a59a010d34f839caec35564a86b4b7ce76febad464fee5a4e15133",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/LICENSE"
+    },
+    {
+      "path": "LICENSE-bpf.txt",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ac3a5ff6aac05a91210fb0a4.txt",
+      "kind": "license",
+      "bytes": 18887,
+      "sha256": "7a83d7bd42c0c13bb77d9b4e76a08d3aa8b0ca71189573ddc8bb1d06d094abf0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/LICENSE-bpf.txt"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 657,
+      "sha256": "df31bbb00f5d358f717e2b99a680639e34ea473d18adf5b5db26ea312cc671a5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 13921,
+      "sha256": "bf2904657d77269d77253a0dfdcc197b489b55721ef6fbae81817bd583df6220",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/README.md"
+    },
+    {
+      "path": "charts/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/eb42cbabebf5c0ff17d5329a.md",
+      "kind": "official-document",
+      "bytes": 216,
+      "sha256": "6636b161b47fffb818dd7309294ab95532ea84358831e3208742403043daa9d4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/charts/README.md"
+    },
+    {
+      "path": "cmd/gpu-ebpf-bridge/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a77c1c36b4f5f67d7a389365.md",
+      "kind": "official-document",
+      "bytes": 730,
+      "sha256": "039f420fa94eb26d8cce2368bdf818342bcdb0cc953f0a2c346b7035aa5f9a12",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/cmd/gpu-ebpf-bridge/README.md"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2605206b7e64be69186fabc8.md",
+      "kind": "official-document",
+      "bytes": 3275,
+      "sha256": "bdaa0a605ebdb704125ffa8d6d3ff39a972b24ccbbe0ae5ab0b4fa7559f24dfe",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/SECURITY.md"
+    },
+    {
+      "path": "docs/api/golang.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f2beaff29fcd618e33781913.mdx",
+      "kind": "official-document",
+      "bytes": 12256,
+      "sha256": "27ee25d4518041c4b20a2a8a1510375f65cd35fba4d19b359d5f1f98bf862200",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/api/golang.mdx"
+    },
+    {
+      "path": "docs/api/grpc.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/087f808dc610e6163849c1d6.md",
+      "kind": "official-document",
+      "bytes": 276,
+      "sha256": "4432ce4dfee6542b96989aedefdd4b1ef6155f9fe683b44f69685b878e7f68fd",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/api/grpc.md"
+    },
+    {
+      "path": "docs/design/001-prometheus.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0ba7d130997bdd714cfa70fa.md",
+      "kind": "official-document",
+      "bytes": 15384,
+      "sha256": "f34849241569d5fb94dfc55744509e2373cb110c212cf67f577e3afcd3742b5b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/design/001-prometheus.md"
+    },
+    {
+      "path": "docs/design/002-containerized-gadgets.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7d05bb705525cefe414ac1b1.md",
+      "kind": "official-document",
+      "bytes": 26260,
+      "sha256": "5fe0724c57eeab284cce96f537d619bb84e320d9d6ea314050a079d2457c8c80",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/design/002-containerized-gadgets.md"
+    },
+    {
+      "path": "docs/design/003-wasm-support.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/08b00727f8a128ec23f11098.md",
+      "kind": "official-document",
+      "bytes": 3027,
+      "sha256": "6a97b844aabd2c01d8673bfd567fdea5592897fd0a37c4af36d935b83ff50ed7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/design/003-wasm-support.md"
+    },
+    {
+      "path": "docs/design/004-gpu-telemetry-enricher.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c7b6de361415cab737a71ced.md",
+      "kind": "official-document",
+      "bytes": 33556,
+      "sha256": "b4f168ce497cd1a3c425edd33f259b97e5afad5b4607e6ab81f09351307b3119",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/design/004-gpu-telemetry-enricher.md"
+    },
+    {
+      "path": "docs/devel/ci.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/34eedc74a87d83858cb538e6.md",
+      "kind": "official-document",
+      "bytes": 16103,
+      "sha256": "6e52220f12c25042176ab35be9bf54331094224dec238674424231fe1ef3d818",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/ci.md"
+    },
+    {
+      "path": "docs/devel/contributing.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c845ffb926872f871fb13af7.md",
+      "kind": "official-document",
+      "bytes": 13379,
+      "sha256": "25a7d223b87791b20e949f5cdb9580fac99edaa35ed41604be9af6fc951ccc8f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/contributing.md"
+    },
+    {
+      "path": "docs/devel/multitenancy.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/38e078f297b9bd5cbc920266.md",
+      "kind": "official-document",
+      "bytes": 8421,
+      "sha256": "dd04667a5aaff4b2830a275acc36c028aee9c4491190582e1dbf28dd7007673f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/multitenancy.md"
+    },
+    {
+      "path": "docs/devel/operator/UidGidResolver.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b48622e712ae62787cdd6b3a.md",
+      "kind": "official-document",
+      "bytes": 1251,
+      "sha256": "c5168e0201bd14e43fd2865e5d1dbb94f76fbdcff6c33482b20f9b789129826f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/operator/UidGidResolver.md"
+    },
+    {
+      "path": "docs/devel/operator/lifecycle.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/03c33fa75ad564dcce3f5aa9.md",
+      "kind": "official-document",
+      "bytes": 2298,
+      "sha256": "f56add0bf97899791697d0f340c504aaae767c740133830cbfbb4d5dac5c2fd2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/operator/lifecycle.md"
+    },
+    {
+      "path": "docs/devel/otel-ebpf-profiler-architecture.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/53168010bc7f979c3ac05f8c.md",
+      "kind": "official-document",
+      "bytes": 17830,
+      "sha256": "8d90899aff8f112748297eadea3b7e30fe3a707b6e99514b7b0eb8419863bc67",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/otel-ebpf-profiler-architecture.md"
+    },
+    {
+      "path": "docs/devel/release-process.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/02183c895e0cc06feb405f0b.md",
+      "kind": "official-document",
+      "bytes": 5038,
+      "sha256": "230b16ff04b33c7b2420e0bab653f6a16cbacfbafa2d45b37dddd7b480bac4a0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/devel/release-process.md"
+    },
+    {
+      "path": "docs/gadget-devel/btfgen.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/de5d2f680ac62335b35dfd92.md",
+      "kind": "official-document",
+      "bytes": 1308,
+      "sha256": "c38bfe7795b45c656ebb300b7042511b725058b860cf11a43148c02ae88a053a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/btfgen.md"
+    },
+    {
+      "path": "docs/gadget-devel/building.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b7b4e76d745ba1a35185111f.md",
+      "kind": "official-document",
+      "bytes": 5373,
+      "sha256": "82250c7a23e6eb7be985542ffc0aa6ade1f9923b9411427c6b47e81e142de602",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/building.md"
+    },
+    {
+      "path": "docs/gadget-devel/gadget-ebpf-api.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7ef4885bd10d40560a580874.md",
+      "kind": "official-document",
+      "bytes": 25152,
+      "sha256": "eafa8b480b8567bcf5bf5950ce24a2ffbeedae27fbebd833d98d57169688b366",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/gadget-ebpf-api.md"
+    },
+    {
+      "path": "docs/gadget-devel/gadget-intro.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0ab36a21b90517d83146776f.md",
+      "kind": "official-document",
+      "bytes": 3019,
+      "sha256": "dd6aea738cb52141abaf7bbba5f61f373cf81776af9ed20d29f4266c3d46508f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/gadget-intro.md"
+    },
+    {
+      "path": "docs/gadget-devel/gadget-wasm-api-go.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b16c44b7af420fc5e72de928.md",
+      "kind": "official-document",
+      "bytes": 322,
+      "sha256": "f5a77d38aef5bedf4c2f9ea457f048d3619eaf85d9c4d5c2d27d0a3e5c3f969b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/gadget-wasm-api-go.md"
+    },
+    {
+      "path": "docs/gadget-devel/gadget-wasm-api-raw.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f51cbf8082a6d715544423a5.md",
+      "kind": "official-document",
+      "bytes": 15222,
+      "sha256": "0893903d9c019f57dbe78197690f29f03d64490a69664da5c9b11e190b1b6e40",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/gadget-wasm-api-raw.md"
+    },
+    {
+      "path": "docs/gadget-devel/hello-world-gadget-wasm.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7c5ca02b289fcc3d5ba700b8.md",
+      "kind": "official-document",
+      "bytes": 7048,
+      "sha256": "207f507e49151637ab1c4a2919d44c09aad9c8204e277e8c2f9208273fb9153c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/hello-world-gadget-wasm.md"
+    },
+    {
+      "path": "docs/gadget-devel/hello-world-gadget.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/28562ff75ddff674bded5e07.mdx",
+      "kind": "official-document",
+      "bytes": 18121,
+      "sha256": "11e8474b68ea40cee2b5dd66b89bc5c0c1ce4443d73e7f19e551fe98559272f0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/hello-world-gadget.mdx"
+    },
+    {
+      "path": "docs/gadget-devel/index.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6ee3fc127f85b3ba844f2ae5.mdx",
+      "kind": "official-document",
+      "bytes": 436,
+      "sha256": "a64b00889f43c242e881594d71ecbd71ebea587562ef95c53052dc9c2c704605",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/index.mdx"
+    },
+    {
+      "path": "docs/gadget-devel/metadata.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/1396283fda834421e6347067.md",
+      "kind": "official-document",
+      "bytes": 4166,
+      "sha256": "19598c5ccb076853d32bb4c70ba86c60dda6925f26241b66d8c10f3350ec589b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/metadata.md"
+    },
+    {
+      "path": "docs/gadget-devel/metrics.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a36377b8e3152fdcbfc69263.md",
+      "kind": "official-document",
+      "bytes": 6802,
+      "sha256": "5cddb5ea9502a22d6ada5797a8f9a43fcd46808f870cff747b6d464f2960bc7b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/metrics.md"
+    },
+    {
+      "path": "docs/gadget-devel/output.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6c6cc5825d695f72cc412370.md",
+      "kind": "official-document",
+      "bytes": 3434,
+      "sha256": "97ea67cafad5fa9471618fa8de7a575a8c800abfc2e246e33b85817512d15c74",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/output.md"
+    },
+    {
+      "path": "docs/gadget-devel/parameters.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7a710a63e273571b783e26d8.md",
+      "kind": "official-document",
+      "bytes": 2909,
+      "sha256": "cf89a1b8ebe560c529ebcadd3808e523defea1e2bcf405b0e64085a79a014b8f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/parameters.md"
+    },
+    {
+      "path": "docs/gadget-devel/program-types.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/dec0b3eafc5e47abeb8bcc1d.md",
+      "kind": "official-document",
+      "bytes": 6095,
+      "sha256": "f9b80b73c9a7d182f10f3fa95d7b7f2f94d9d239c64eb4cd41e54114664e7b28",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/program-types.md"
+    },
+    {
+      "path": "docs/gadget-devel/publishing.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/fbec874a9e39f2f475fbb568.md",
+      "kind": "official-document",
+      "bytes": 2951,
+      "sha256": "9c5992ca658d5773ed203019ad89efcf3afb8fefbabc02a0703732d3979a2c78",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/publishing.md"
+    },
+    {
+      "path": "docs/gadget-devel/signing.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cfd31993f5323d4d225fe718.md",
+      "kind": "official-document",
+      "bytes": 827,
+      "sha256": "0a5d134ef84d6fda9224df665bcde6cae9bd1a0d3edea26d10cb2c04059841d3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/signing.md"
+    },
+    {
+      "path": "docs/gadget-devel/testing.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7bdc8fb2e7d5c7455063b303.md",
+      "kind": "official-document",
+      "bytes": 4393,
+      "sha256": "a4bad25a6ffb5b1537739610626f67cb7df88fdb9b85a0af9acbb79aeb723e2b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadget-devel/testing.md"
+    },
+    {
+      "path": "docs/gadgets/advise_networkpolicy.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ebb9ebf8e4fc32e26870b5aa.mdx",
+      "kind": "official-document",
+      "bytes": 45,
+      "sha256": "d1b69f970fd7cad34001de5eca7526f08435517fe7a4893d848edf5fb8e3e1bd",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/advise_networkpolicy.mdx"
+    },
+    {
+      "path": "docs/gadgets/advise_seccomp.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6ebb2453bae5accf32a6f125.mdx",
+      "kind": "official-document",
+      "bytes": 39,
+      "sha256": "ba7753878aa5a83bca80a794f75d1bb3bdfdbde57af299c59d55c63123962bf7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/advise_seccomp.mdx"
+    },
+    {
+      "path": "docs/gadgets/audit_seccomp.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c1f97930513a561a5d16bd47.mdx",
+      "kind": "official-document",
+      "bytes": 38,
+      "sha256": "86e5ca0cd2bb33ac139326b95ee899c89bfca1c18ec14bd9495a1ba9a45b6216",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/audit_seccomp.mdx"
+    },
+    {
+      "path": "docs/gadgets/bpfstats.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/47346c2dfd55f4ee6d0a4f13.mdx",
+      "kind": "official-document",
+      "bytes": 33,
+      "sha256": "6d824cd1787bff8c84ea77df22525f585e710bd10c10fd9426ead96ebaca41eb",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/bpfstats.mdx"
+    },
+    {
+      "path": "docs/gadgets/deadlock.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/877d6b1d88fd5e347825cb83.mdx",
+      "kind": "official-document",
+      "bytes": 33,
+      "sha256": "1b610c11d87e76fbf93265b91155b105e3472ad974bd51dc5708c3ea54cadf9d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/deadlock.mdx"
+    },
+    {
+      "path": "docs/gadgets/fdpass.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a5162568d53445d4245088d3.mdx",
+      "kind": "official-document",
+      "bytes": 31,
+      "sha256": "94ea0dcf6992865d3accb48c6833044d320fc5cdbf8edb8c283ec100c36766b0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/fdpass.mdx"
+    },
+    {
+      "path": "docs/gadgets/fsnotify.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ffdccf572673fad350218e7f.mdx",
+      "kind": "official-document",
+      "bytes": 33,
+      "sha256": "c9f258af9ca161ee479388e191bcbbf965882828af5b47efb8e211f1f1afb7d8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/fsnotify.mdx"
+    },
+    {
+      "path": "docs/gadgets/gadget_limitations.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e43598c8622f06f848015dce.mdx",
+      "kind": "official-document",
+      "bytes": 742,
+      "sha256": "8cf60c0f7746bd57440cffa2104263246fa552288aabd9d1cb1d4d27c9020c25",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/gadget_limitations.mdx"
+    },
+    {
+      "path": "docs/gadgets/gpu_top.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c8972225608c998c20816f03.mdx",
+      "kind": "official-document",
+      "bytes": 32,
+      "sha256": "3ae4e25d86ef6202781b03d14717caf6661eb5c3d55a3d82ddc26d3940ce500d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/gpu_top.mdx"
+    },
+    {
+      "path": "docs/gadgets/gpu_top_per_pid.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e31009889643c265888080ed.mdx",
+      "kind": "official-document",
+      "bytes": 40,
+      "sha256": "deb3e374f3142ff101930e0082d44869e88f9b852105d97fbcff8ebac9f2e18a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/gpu_top_per_pid.mdx"
+    },
+    {
+      "path": "docs/gadgets/index.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0cab5e2483f0b30f8c295aa2.mdx",
+      "kind": "official-document",
+      "bytes": 474,
+      "sha256": "4d2148ea66ed208dce00ee1bc561abdae63009d88a3fa001cfd90391bb5d7c8f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/index.mdx"
+    },
+    {
+      "path": "docs/gadgets/profile_blockio.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5e45691be222f25ac62702a9.mdx",
+      "kind": "official-document",
+      "bytes": 40,
+      "sha256": "bc2b1fbbd479a40421777e875058bba3e7e97631a4decd9ff0f840e390cc0953",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/profile_blockio.mdx"
+    },
+    {
+      "path": "docs/gadgets/profile_cpu.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/db1b8188cc34209ffc745e53.mdx",
+      "kind": "official-document",
+      "bytes": 36,
+      "sha256": "722eda7dcc22576aabac03201ebfa90c59990e7d58b04ded357c47db31d0c74b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/profile_cpu.mdx"
+    },
+    {
+      "path": "docs/gadgets/profile_cuda.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8bb4568016f26072f43b164c.mdx",
+      "kind": "official-document",
+      "bytes": 37,
+      "sha256": "0b48591fe5417f7249640aeaa0cfd6db5a40633cf98b154562a08bbb22a09539",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/profile_cuda.mdx"
+    },
+    {
+      "path": "docs/gadgets/profile_qdisc_latency.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/dc71444ba0475c44b36818bf.mdx",
+      "kind": "official-document",
+      "bytes": 46,
+      "sha256": "0389e5d536627cd1f722421b53e089eab74b47b47e16114c3cdc7e32412a971c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/profile_qdisc_latency.mdx"
+    },
+    {
+      "path": "docs/gadgets/profile_tcprtt.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5e702bbcd4e212844dd5c99e.mdx",
+      "kind": "official-document",
+      "bytes": 39,
+      "sha256": "0765c316468d35dc42535743ef10bcc93591dd35a38503eef3406cc9da2b0924",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/profile_tcprtt.mdx"
+    },
+    {
+      "path": "docs/gadgets/snapshot_file.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0eb05070aee62a6b148abf76.mdx",
+      "kind": "official-document",
+      "bytes": 38,
+      "sha256": "0abb64d4ae9bbcb10141fde7a9a568afd915f0306a5f0e32581425d2c32e8ab4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/snapshot_file.mdx"
+    },
+    {
+      "path": "docs/gadgets/snapshot_process.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/9a97b2b8fc1e55750432baf8.mdx",
+      "kind": "official-document",
+      "bytes": 41,
+      "sha256": "3aba7286e52bcd5cbbe442fae151ae2a5bb608ec7cec06c1b1623d14bf219b41",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/snapshot_process.mdx"
+    },
+    {
+      "path": "docs/gadgets/snapshot_socket.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0888c8e6bb27256c3a2851dc.mdx",
+      "kind": "official-document",
+      "bytes": 40,
+      "sha256": "17512d8c62adb7d628ecd4e55c3cbad42e64b82ea660084dfb82830b05ede5d5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/snapshot_socket.mdx"
+    },
+    {
+      "path": "docs/gadgets/switching_to_image_based_gadgets.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/234ace6678f3e66b68ba7f11.mdx",
+      "kind": "official-document",
+      "bytes": 10415,
+      "sha256": "a2f5603c91d1b9b54b7bc075d33e6328b7ca68ed62926d88c7f7e4e069f59d39",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/switching_to_image_based_gadgets.mdx"
+    },
+    {
+      "path": "docs/gadgets/tcpdump.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d6fd795a01a21db824e4b699.mdx",
+      "kind": "official-document",
+      "bytes": 32,
+      "sha256": "d066f5693da56ee7bd935ede2d84940c85f0c1636fdbd88cf49b119d5e64f874",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/tcpdump.mdx"
+    },
+    {
+      "path": "docs/gadgets/top_blockio.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e61d688d314df8089ba16214.mdx",
+      "kind": "official-document",
+      "bytes": 36,
+      "sha256": "0bbc32646bc175b681cfcbcb9082ee416f377220e89e824ba5252e7099689d07",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/top_blockio.mdx"
+    },
+    {
+      "path": "docs/gadgets/top_cpu_throttle.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/14c5c395ad23ca1df9ab6845.mdx",
+      "kind": "official-document",
+      "bytes": 41,
+      "sha256": "78a355f0e4b32d098c537c94773513c497b5c8e129b734492900670da3d6cc48",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/top_cpu_throttle.mdx"
+    },
+    {
+      "path": "docs/gadgets/top_cuda_memory.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c026809429f2061425bff2a4.mdx",
+      "kind": "official-document",
+      "bytes": 40,
+      "sha256": "0e746edbc9fb4e1834d9eca78656f4487605d46f3fd40f5a6bd573374e17f928",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/top_cuda_memory.mdx"
+    },
+    {
+      "path": "docs/gadgets/top_file.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ca2686751692a23681c53f8a.mdx",
+      "kind": "official-document",
+      "bytes": 33,
+      "sha256": "467d8fe3d26c91ec5a598b4f4e1927a855b880912efa5aa194be270db646f2ad",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/top_file.mdx"
+    },
+    {
+      "path": "docs/gadgets/top_process.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a1667a16b4fb6ead26a060eb.mdx",
+      "kind": "official-document",
+      "bytes": 36,
+      "sha256": "2382def284d2c86b2372b407caee67ee425dfb8d098148bec6e37ee5dc24632a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/top_process.mdx"
+    },
+    {
+      "path": "docs/gadgets/top_tcp.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ec6ebfae55a21b2cfb9425e2.mdx",
+      "kind": "official-document",
+      "bytes": 32,
+      "sha256": "a4ca520fc7128238052f760d3fcad4c1fcfb59108e185f0e3592cbef8acd244a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/top_tcp.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_bind.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f8605ed11a9a423adf71be13.mdx",
+      "kind": "official-document",
+      "bytes": 35,
+      "sha256": "e12ff16dc2dd7edb7b7164ff03e3afcbb426a0e8dfe91d606ff72007c8f4074b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_bind.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_capabilities.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d547cb2b8d1f51e07b6ce752.mdx",
+      "kind": "official-document",
+      "bytes": 43,
+      "sha256": "f553d253424f64f13bf7c0977b4ac40dff85ba3049f6ba236838782703089db5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_capabilities.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_dns.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cfb894063a2bd8b4041617fb.mdx",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "dc8dc15bceb41903d82e95e168f7123984e013917e2b0f980c1e86289ea66584",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_dns.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_exec.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4f7bf609f3b2f210870ba849.mdx",
+      "kind": "official-document",
+      "bytes": 35,
+      "sha256": "b801ce67ed83e612882056ff9a1390b9eab5d527f17d93c3842b4ed1b9cbf1c0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_exec.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_fsslower.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/90ee67ef1de88551fadd7e36.mdx",
+      "kind": "official-document",
+      "bytes": 39,
+      "sha256": "a69381c94dc58584913a279cffb2f250fac4f421aac3c42b882f9bfe062da064",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_fsslower.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_gpu_starvation.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5bf15efd503639e432194ea9.mdx",
+      "kind": "official-document",
+      "bytes": 45,
+      "sha256": "97a822b3b2886ba1196be9bc9bdeeb2aea846f6d68f5010dc21a1c033218023c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_gpu_starvation.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_init_module.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/af4a831ddb846b097e6c8337.mdx",
+      "kind": "official-document",
+      "bytes": 42,
+      "sha256": "ce1b27cb2bb87d9cecb84383511f16b662cdca53546c57dd886d868a795c49dc",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_init_module.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_link.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d5d83dbb14773f7dbea31e36.mdx",
+      "kind": "official-document",
+      "bytes": 35,
+      "sha256": "6b2b3fa497e9790579c52d2a7d23a30a42465d764e471582c345f78744ac597d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_link.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_lsm.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/19fe5c7c928ce99db1f7c0dc.mdx",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "d02da4b27343e133734daeafffcd790d074dd95a50e59a15395164bfd6daed42",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_lsm.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_malloc.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/3090557825724e8335c82c00.mdx",
+      "kind": "official-document",
+      "bytes": 37,
+      "sha256": "3cc3b5a65ff12db9ecea2aa63d82875e1fc9c4c58d8456eabc11ab8b7c149275",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_malloc.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_mount.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/9523f5ff7d452d5d8cc636a7.mdx",
+      "kind": "official-document",
+      "bytes": 36,
+      "sha256": "fbbbb9902b43ab827dca513f074de4bc6dd8ab07e02712abe9e8bda5a6de7397",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_mount.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_oomkill.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a28a34e2f84bec311994c3f2.mdx",
+      "kind": "official-document",
+      "bytes": 38,
+      "sha256": "0e4bb2a0d67b166cd7f8ed6ffef87b6063dcf88c7360feb025f72fe9a087683c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_oomkill.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_open.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c76357a47c8dc1d8bd6e4d4f.mdx",
+      "kind": "official-document",
+      "bytes": 35,
+      "sha256": "2a1d893629d6daba5777dae7d0507c8c9ea646c1c7f14b49f6523fa2b4fda2b8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_open.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_signal.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/53ccd79ad8cf97054e6c3e53.mdx",
+      "kind": "official-document",
+      "bytes": 37,
+      "sha256": "5886400f2599ff81c4164cd4e9e8d86dce095ee9f2d459fa272fa808ca659fa4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_signal.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_sni.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f4a3d03bd2f4d363b4bc9edd.mdx",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "a82a46242eb89f25141208bad96b2ce805ca3d248e532c26c75edbc66675b3dc",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_sni.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_ssl.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/666e9d518db87303efceb09d.mdx",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "4834dd9f5fc61d616f7d217a0a6ee4f398ec28487ca2706a1cdc55ffa2347851",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_ssl.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_tcp.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c0041125de2836f29e94b388.mdx",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "574730afa9a5c2dbc1fac80dd514ae310319883922a1215c231f3b14e79d69e5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_tcp.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_tcpdrop.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d601d14d6082c5fb6b575c40.mdx",
+      "kind": "official-document",
+      "bytes": 38,
+      "sha256": "bde3175ab5050ef75f447f5e38db4742bb0ea8e00b85680acca176c80ab28035",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_tcpdrop.mdx"
+    },
+    {
+      "path": "docs/gadgets/trace_tcpretrans.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b347a5e2433990caceb3ff87.mdx",
+      "kind": "official-document",
+      "bytes": 41,
+      "sha256": "8506a2d35f7c191b6b0ab55ea5fa4e9d5aca1c830d8e734f27bf464ad3d23637",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/trace_tcpretrans.mdx"
+    },
+    {
+      "path": "docs/gadgets/traceloop.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8f8da7bcfeef989acf13d560.mdx",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "5bc3b06b392db5b42ce6dbb0aebe53c4c5095c4209a0e3291963a5034e56752d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/traceloop.mdx"
+    },
+    {
+      "path": "docs/gadgets/ttysnoop.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b7b5d5333747292a0e5b505e.mdx",
+      "kind": "official-document",
+      "bytes": 33,
+      "sha256": "1699e06227da4d757f60dc46e62082097f09df099987e7fb0174f4aecb5f70f7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/gadgets/ttysnoop.mdx"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 3489,
+      "sha256": "66775639712efcb61afb8de060a65a06570525d0056395d2670f3262970aa737",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/index.md"
+    },
+    {
+      "path": "docs/quick-start.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2159ff2ecf187c0d5f4e9b10.md",
+      "kind": "official-document",
+      "bytes": 4276,
+      "sha256": "01b5282bc700ce50cc9137f8f2386481c065883b4ae84b24019803450d27f573",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/quick-start.md"
+    },
+    {
+      "path": "docs/reference/architecture.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c46a10526e5eab5e6c9167b1.md",
+      "kind": "official-document",
+      "bytes": 1250,
+      "sha256": "61789b57527fb9b44b341a3152722e20418c64d6540af07c00a0a0023af80ec7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/architecture.md"
+    },
+    {
+      "path": "docs/reference/configuration.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5812cf0d04ccaf9334dcc4dd.md",
+      "kind": "official-document",
+      "bytes": 2684,
+      "sha256": "576c5f143578e541db002de31e195e5232228bbc734eb2772427ae8e117eeb3e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/configuration.md"
+    },
+    {
+      "path": "docs/reference/disallow-pulling.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/dda4d4418e392ca6ceeee2cc.mdx",
+      "kind": "official-document",
+      "bytes": 3284,
+      "sha256": "d2f48a0d0d747760b429264c453422ec021ea14f8b84adad3fd90b820f7b665f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/disallow-pulling.mdx"
+    },
+    {
+      "path": "docs/reference/export-logs.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/061208e193b8f0240bada5ca.mdx",
+      "kind": "official-document",
+      "bytes": 1984,
+      "sha256": "388906162d6b7ed90862fab25ed0466b9739883df64d1d898d2b7ae1482f3b25",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/export-logs.mdx"
+    },
+    {
+      "path": "docs/reference/export-metrics.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c195d6406907bd21504c4835.mdx",
+      "kind": "official-document",
+      "bytes": 12166,
+      "sha256": "caee639e6dca5546d73e0c93a460fc499e27c73f0009b910fab9c376c4b971a6",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/export-metrics.mdx"
+    },
+    {
+      "path": "docs/reference/export-profiles.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/da4d73d71933e6f2ed8ed3d9.mdx",
+      "kind": "official-document",
+      "bytes": 5025,
+      "sha256": "48d02aadf9498199eabf9832dfeed92ac89b8eafa4381a02e1c704a81f937194",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/export-profiles.mdx"
+    },
+    {
+      "path": "docs/reference/gpu-ebpf-bridge-cli.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cadf7957dbeeee96342636d0.md",
+      "kind": "official-document",
+      "bytes": 7284,
+      "sha256": "2176182f851d5b28443620a4fc953cca0582904deb23121a7d1953a4fdd8beb0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/gpu-ebpf-bridge-cli.md"
+    },
+    {
+      "path": "docs/reference/gpu-ebpf-bridge.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/dcf7f68ff376a11abb295330.md",
+      "kind": "official-document",
+      "bytes": 9893,
+      "sha256": "36b34ff4affdff885e6a9eecd55ddb12cb86846fbc7633918375cb0ef0f433f2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/gpu-ebpf-bridge.md"
+    },
+    {
+      "path": "docs/reference/headless.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e685db3fbee5bdf6f05308f3.mdx",
+      "kind": "official-document",
+      "bytes": 8996,
+      "sha256": "f1475ee50e03284bb3c0e9dd91168c3dde694eacf7dc4e9ae4844701e08c4517",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/headless.mdx"
+    },
+    {
+      "path": "docs/reference/ig.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/467c6bb4488bbdcf21908b85.md",
+      "kind": "official-document",
+      "bytes": 14514,
+      "sha256": "54055c31f4944a8cdcae046c8e91a4bbd39eef7f6b36bd0d79874158ee738f07",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/ig.md"
+    },
+    {
+      "path": "docs/reference/images.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2988203d10e52b5313d72b2c.md",
+      "kind": "official-document",
+      "bytes": 18092,
+      "sha256": "83a572609d0992d3272374e2560a5788629fd4453c2cdfd1053fa6fd0876ce4c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/images.md"
+    },
+    {
+      "path": "docs/reference/insecure-registries.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/91556932fd2e328ac928f275.mdx",
+      "kind": "official-document",
+      "bytes": 1069,
+      "sha256": "0ff6a1445c652dbcc3f7849c3626fcf4457803c847e60d5ac86bdefc80c024d3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/insecure-registries.mdx"
+    },
+    {
+      "path": "docs/reference/install-kubernetes.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/936f94eb15bbaab3d534e51d.md",
+      "kind": "official-document",
+      "bytes": 23433,
+      "sha256": "35342742e59ec7a1ba9dca7965dd5d2ff1317f63efb25d6062202eb44052c709",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/install-kubernetes.md"
+    },
+    {
+      "path": "docs/reference/install-linux.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/9bfcf592301b1a13b33cdb42.md",
+      "kind": "official-document",
+      "bytes": 2115,
+      "sha256": "094d0adc8fee00c93679778bbf9f87f447e2b37b94af69d9d89631954c5ab54a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/install-linux.md"
+    },
+    {
+      "path": "docs/reference/kubernetes-flags.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4c9231cf6ad55d2e9d588fbf.md",
+      "kind": "official-document",
+      "bytes": 2198,
+      "sha256": "67d3a876bee7d071e2c6fff2976f580c103614f3611a9184c0c567d77ebb726e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/kubernetes-flags.md"
+    },
+    {
+      "path": "docs/reference/manifests.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f1fd46f7f7d2ebc4a8b7b440.mdx",
+      "kind": "official-document",
+      "bytes": 4487,
+      "sha256": "c0269ec018fc56a6d55689294d5ba66e26bb9adb58473c7cd71482e2e6d6af09",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/manifests.mdx"
+    },
+    {
+      "path": "docs/reference/requirements.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/21392c9286c3059ef01fb16d.md",
+      "kind": "official-document",
+      "bytes": 4137,
+      "sha256": "e6c4d79bd1070c5ce98eed377ac2e8e194e798c15a7d288179373d70f876b4d2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/requirements.md"
+    },
+    {
+      "path": "docs/reference/restricting-gadgets.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e1a00129a1b857474a3001f2.mdx",
+      "kind": "official-document",
+      "bytes": 17571,
+      "sha256": "9cce1f893d59e0440abd9974ab1d8bd679a705f4572a7e8dd1be7371e42097f4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/restricting-gadgets.mdx"
+    },
+    {
+      "path": "docs/reference/run.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/33d962375d61d198b9219f86.mdx",
+      "kind": "official-document",
+      "bytes": 24233,
+      "sha256": "2b469bf1d23d0111b08ab588575877fc6f66adebfb833e7894c8df1477f122fe",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/run.mdx"
+    },
+    {
+      "path": "docs/reference/stack-traces.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b77101cf2e2bdf35a33dbafe.mdx",
+      "kind": "official-document",
+      "bytes": 15823,
+      "sha256": "fda97d261f9b5ce72166b10eb2ba0e5e44ccab0883c625b127446424bfa4ad12",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/stack-traces.mdx"
+    },
+    {
+      "path": "docs/reference/verify-assets.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/47bbe5b8947254ab1432ea52.mdx",
+      "kind": "official-document",
+      "bytes": 8064,
+      "sha256": "c5bc198a6932bdf62e29e04101aabd0b86f245a32f5013068694efdbb7f88f78",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/verify-assets.mdx"
+    },
+    {
+      "path": "docs/reference/verify-gadgets.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/51d74748331db96876f1bb17.mdx",
+      "kind": "official-document",
+      "bytes": 16096,
+      "sha256": "5dc74217e977e4c8b14dd9d40f908a389c5e04bc4c2fd04f018d6c7cd72771f2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/reference/verify-gadgets.mdx"
+    },
+    {
+      "path": "docs/spec/oci.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0a815c5a88e3542d710971d9.md",
+      "kind": "official-document",
+      "bytes": 2655,
+      "sha256": "f49bb996949cc19c4a69832f8f784bbb7a44ce7d26181e3e09dbfc18d7a83aea",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/oci.md"
+    },
+    {
+      "path": "docs/spec/operators/btfgen.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6fe613130a4356a2a2824636.md",
+      "kind": "official-document",
+      "bytes": 482,
+      "sha256": "51ef0449147f59869d281c19ad802bc5bf0807e4cc95372d1d8062af835fc7be",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/btfgen.md"
+    },
+    {
+      "path": "docs/spec/operators/cli.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/aaf5f530f71043df934d2c7d.md",
+      "kind": "official-document",
+      "bytes": 3215,
+      "sha256": "d35c05d8e164f2ec50ca4112763289ac9b9e250547bb638975ce4107efa2ae12",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/cli.md"
+    },
+    {
+      "path": "docs/spec/operators/combiner.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4cfa29add347e53debee143d.md",
+      "kind": "official-document",
+      "bytes": 259,
+      "sha256": "a967a24124ba96289fc410e350a1eada7603d781947efffad92a00b6ce7c6636",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/combiner.md"
+    },
+    {
+      "path": "docs/spec/operators/ebpf.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e06d0b1ada06aacdb19aef1c.md",
+      "kind": "official-document",
+      "bytes": 1037,
+      "sha256": "739935a5ab1fe612444ea326d1e10f4840e870025b98e2d0b8f7831bf600cd2c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/ebpf.md"
+    },
+    {
+      "path": "docs/spec/operators/env.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/565b11eecd2d66a0442d0f9a.md",
+      "kind": "official-document",
+      "bytes": 1277,
+      "sha256": "c43c853692ee7789565137b3e0e9a01ad58f94e79e18d5a0b6cb3a69ddd1b459",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/env.md"
+    },
+    {
+      "path": "docs/spec/operators/filter.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/25308a6a852e411735953815.md",
+      "kind": "official-document",
+      "bytes": 2035,
+      "sha256": "381e9ad56e016caacf8c61cce3a7ba604907432d62af43bd36b43dae1b9a7ac0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/filter.md"
+    },
+    {
+      "path": "docs/spec/operators/formatters.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b917ccb7f3319ea3e1664cea.md",
+      "kind": "official-document",
+      "bytes": 1147,
+      "sha256": "a3f2a23a6e0f88b38275c71192e9cf19755a196ada646915020123a5f0837b18",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/formatters.md"
+    },
+    {
+      "path": "docs/spec/operators/index.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d8daf178232cb43fddd2650d.mdx",
+      "kind": "official-document",
+      "bytes": 2674,
+      "sha256": "b78542227707acf7546a5515da55eef163874de2a0d36ca719b065226b80b9d7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/index.mdx"
+    },
+    {
+      "path": "docs/spec/operators/kubeipresolver.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/1476f8993924cf91a78067b4.md",
+      "kind": "official-document",
+      "bytes": 1435,
+      "sha256": "cfc05d0708a1643ec785f5c77ebc78be27558ae6ce00ae947ccc4a3c39d31638",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/kubeipresolver.md"
+    },
+    {
+      "path": "docs/spec/operators/kubemanager.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e1d0b719ba63a8a7b59f8a7c.md",
+      "kind": "official-document",
+      "bytes": 2166,
+      "sha256": "376055906455b916af6200066aff5ba2030799f13b4367836d77f93efe74e857",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/kubemanager.md"
+    },
+    {
+      "path": "docs/spec/operators/kubenameresolver.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f9f8d49ff6f986fd2a14270b.md",
+      "kind": "official-document",
+      "bytes": 1338,
+      "sha256": "bf61d073255e4dff1e30e5e8b83002e1ed458df4da916541c6bb5aad0abd8155",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/kubenameresolver.md"
+    },
+    {
+      "path": "docs/spec/operators/limiter.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7f455d49da2bad36af25caf8.md",
+      "kind": "official-document",
+      "bytes": 730,
+      "sha256": "1025a41a15043a96a260ff97d2b6804ffb40e0c08409fad69848e751dc4290d3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/limiter.md"
+    },
+    {
+      "path": "docs/spec/operators/localmanager.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5c2d217baa48872b734b43eb.md",
+      "kind": "official-document",
+      "bytes": 3668,
+      "sha256": "7150d309a186150ec05afa30f9b3f3e2c01f34a9ba042906c34bb5e2b9bb4adc",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/localmanager.md"
+    },
+    {
+      "path": "docs/spec/operators/logs.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/73c56fb10c9e1346719ba70f.md",
+      "kind": "official-document",
+      "bytes": 7363,
+      "sha256": "f902cb5da12e2f933e60d388f4908d5fa091c0d501bc69c61c8de2c9cba2ced4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/logs.md"
+    },
+    {
+      "path": "docs/spec/operators/oci.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/fb09578d0ef740c150280ab4.md",
+      "kind": "official-document",
+      "bytes": 2587,
+      "sha256": "37cfd17d7bbb6fa91c13aa9a0318701f1cdc96b846b63557e85400ae8bbc50e8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/oci.md"
+    },
+    {
+      "path": "docs/spec/operators/otel-metrics.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a28a07d62de2962737c42b2b.md",
+      "kind": "official-document",
+      "bytes": 4328,
+      "sha256": "a5bb2ebf8407a1845ca3aba7ad58cd675e09fa21f0c3b1d8e80fa44771b894db",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/otel-metrics.md"
+    },
+    {
+      "path": "docs/spec/operators/process.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cd210d987432e16c798a5312.md",
+      "kind": "official-document",
+      "bytes": 5736,
+      "sha256": "8f5e543c34cbe7e0e3a6ac8964e10f4f9ef898dd3b9b4a5fc44049278cd576c3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/process.md"
+    },
+    {
+      "path": "docs/spec/operators/socketenricher.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6971da9c8d198ab8fd4d7f1e.md",
+      "kind": "official-document",
+      "bytes": 1025,
+      "sha256": "78e594ad2a006a10b1f00e2e34b30b02dc0d75839ea06d362602443b585feacc",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/socketenricher.md"
+    },
+    {
+      "path": "docs/spec/operators/sort.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/14d74031d2e53aa6c6c66f9f.md",
+      "kind": "official-document",
+      "bytes": 458,
+      "sha256": "2ff1fd53bee0922cb43e920ef097ee235c3ef63ad68fc9ca617419016b9028af",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/sort.md"
+    },
+    {
+      "path": "docs/spec/operators/uidgidresolver.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/97bb588ecffd33d82c3f2633.md",
+      "kind": "official-document",
+      "bytes": 515,
+      "sha256": "a664fcda2cebd30ccd627d85211bc006f4197b1ee6f6fc43d38eda12ec86005b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/uidgidresolver.md"
+    },
+    {
+      "path": "docs/spec/operators/wasm.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d24a0b70f4e9c2a4e373e7f6.md",
+      "kind": "official-document",
+      "bytes": 281,
+      "sha256": "af524b386d762d341dbcc8993d81ccef8e3fc0e3eae59561c0d5a9a06e9e8fd2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/docs/spec/operators/wasm.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 1079,
+      "sha256": "7c29d1f465936759c4b78c77cfb778113739adf7efb2f5a5fad0465b6115a58a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/README.md"
+    },
+    {
+      "path": "examples/container-collection/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2ed8c9783a5e5eda9f9b0d86.md",
+      "kind": "official-document",
+      "bytes": 974,
+      "sha256": "3367202df4efa3c2e2c275b6ce12a2d2e0fc8dbf157a46dbdf07ad4111690232",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/container-collection/README.md"
+    },
+    {
+      "path": "examples/container-collection/container-collection.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d983e7efea9db97985966229.go",
+      "kind": "upstream-example-code",
+      "bytes": 2655,
+      "sha256": "1fe2e8c185d4464a844fd7bb130dbcc9db286b067357bf81f341d7b9917d6dfd",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/container-collection/container-collection.go"
+    },
+    {
+      "path": "examples/container-hook/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/44bcd523e47f5f16c53c5771.md",
+      "kind": "official-document",
+      "bytes": 2416,
+      "sha256": "07d2b4eb613ccc50f4715fad65744369d35ed903d2bb1a0b41a308b33bdf96b3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/container-hook/README.md"
+    },
+    {
+      "path": "examples/container-hook/main.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/1b140151f7b5b358144c4648.go",
+      "kind": "upstream-example-code",
+      "bytes": 6916,
+      "sha256": "a94f8bf86b4295031d3da16c2f3c6e5d88cafb152660fe10a25c8ae8961ee4a0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/container-hook/main.go"
+    },
+    {
+      "path": "examples/gadgets/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/109fdf56f9db8f6b9805d886.md",
+      "kind": "official-document",
+      "bytes": 200,
+      "sha256": "16b485a2d8cf9dd28915b50e4f54c2ddbd30671748ea47fceca1e12f43708cba",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/README.md"
+    },
+    {
+      "path": "examples/gadgets/other/mutate/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b925c6b6ba63c010a46e3427.md",
+      "kind": "official-document",
+      "bytes": 1483,
+      "sha256": "9ebdb9ca3932188e7591099415af44248f8c2c3b57adf63453a36e4a1060a78a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/other/mutate/README.md"
+    },
+    {
+      "path": "examples/gadgets/other/mutate/main.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a0a08e6f2a2f18d257da933f.go",
+      "kind": "upstream-example-code",
+      "bytes": 2951,
+      "sha256": "8a06efb47ae1fc50641d6853db001d4caa1522f9a664d0a61bbb0bcc1c1ae400",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/other/mutate/main.go"
+    },
+    {
+      "path": "examples/gadgets/other/otel_metrics/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5d4ed02fadf0befd34a9cb51.md",
+      "kind": "official-document",
+      "bytes": 683,
+      "sha256": "ecd7b17ffee9f69406da4a3f9e0e3f580550b7188b5bb46840ed375c2e347f78",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/other/otel_metrics/README.md"
+    },
+    {
+      "path": "examples/gadgets/other/otel_metrics/main.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c32f5811113f71f4bfa519f4.go",
+      "kind": "upstream-example-code",
+      "bytes": 5332,
+      "sha256": "4c5b609deae139a53a2017f9be2b3caaae904dc7994f909a6714d309fd67e3db",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/other/otel_metrics/main.go"
+    },
+    {
+      "path": "examples/gadgets/trace_dns/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4802b9c548953dde9bd7c930.md",
+      "kind": "official-document",
+      "bytes": 3100,
+      "sha256": "1038ea3d0f7932cebe0156a1f22229544f5451cf2e39ff8ede6daeea6291a6e8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/trace_dns/README.md"
+    },
+    {
+      "path": "examples/gadgets/trace_dns/main.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/76ad2c26b4a8b9ac876b41f9.go",
+      "kind": "upstream-example-code",
+      "bytes": 3557,
+      "sha256": "1a9c3c995b0f7873f73974117b8f006dcc5ae9176ebc86b36e65e1c42e6ae68c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/gadgets/trace_dns/main.go"
+    },
+    {
+      "path": "examples/instance-manifests/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/93e897bd81d02ff06ad652de.md",
+      "kind": "official-document",
+      "bytes": 205,
+      "sha256": "3cb2659c4fd4153bcc2bfccf467f387c378fd762eee9950405fb8565031f368f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/instance-manifests/README.md"
+    },
+    {
+      "path": "examples/kube-container-collection/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2277ac40181f531b797ace40.md",
+      "kind": "official-document",
+      "bytes": 1992,
+      "sha256": "ad68898f3a233fbfb642cb215a350e1eb6f6a816c9b4eb7702176f96357a272d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/kube-container-collection/README.md"
+    },
+    {
+      "path": "examples/kube-container-collection/main.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/eaea668b01ba8d1c015ff4af.go",
+      "kind": "upstream-example-code",
+      "bytes": 4204,
+      "sha256": "40d5acf0406b24a36601c3f990a5c7bba9738c7506c5b591828f11e4565da7ca",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/examples/kube-container-collection/main.go"
+    },
+    {
+      "path": "gadgets/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/50974bf9db580c9670fb2981.md",
+      "kind": "official-document",
+      "bytes": 368,
+      "sha256": "190bb4bd4c83f937711eda9c30d61f0d6d45c2ff264db5a3ba7e6879d9dc0b9a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/README.md"
+    },
+    {
+      "path": "gadgets/advise_networkpolicy/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4edea101d30392ec9eafb1b3.md",
+      "kind": "official-document",
+      "bytes": 321,
+      "sha256": "c5b59305181751b76a2302360e8a887f02b3c749bfff8ff3cdbeca96b42b5999",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/advise_networkpolicy/README.md"
+    },
+    {
+      "path": "gadgets/advise_networkpolicy/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8751f22e06ad2f42b8901c6e.mdx",
+      "kind": "official-document",
+      "bytes": 4000,
+      "sha256": "867925ffcdd1811fd4b08d4e236fd91f502938930953390477d089d404d9f368",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/advise_networkpolicy/README.mdx"
+    },
+    {
+      "path": "gadgets/advise_seccomp/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0974f8bd306f63d80e755744.md",
+      "kind": "official-document",
+      "bytes": 286,
+      "sha256": "fcd75a91a832f50bc0aee12e7f4fb756ac1d60b5d26eaa4f846b05f6c698aafa",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/advise_seccomp/README.md"
+    },
+    {
+      "path": "gadgets/advise_seccomp/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b3716cf20292e2c8e7452107.mdx",
+      "kind": "official-document",
+      "bytes": 11606,
+      "sha256": "451ca5c870062bf2e5c853d6fdf868afb425260afbb2c13c18c64745b7a822cf",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/advise_seccomp/README.mdx"
+    },
+    {
+      "path": "gadgets/audit_seccomp/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e383d266d899b69ba664097a.md",
+      "kind": "official-document",
+      "bytes": 699,
+      "sha256": "c34388338d387bc66f294bb598b8743edc4eed756fa0acec347a1fcaeb85f508",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/audit_seccomp/README.md"
+    },
+    {
+      "path": "gadgets/audit_seccomp/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/58093103aff0e5c68d5cf186.mdx",
+      "kind": "official-document",
+      "bytes": 6511,
+      "sha256": "c82333154cb86f20f31b67cadb2871b754c42f135b7f2b857c36522890d777c1",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/audit_seccomp/README.mdx"
+    },
+    {
+      "path": "gadgets/bpfstats/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c9900825d506e6e81d0fc7a2.md",
+      "kind": "official-document",
+      "bytes": 221,
+      "sha256": "cb957fc932284d48b37aeb2726023dbe2ca6854dfe1f5b309be20c305caf49f8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/bpfstats/README.md"
+    },
+    {
+      "path": "gadgets/bpfstats/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/ca72ee9bbe1803958bf8a03b.mdx",
+      "kind": "official-document",
+      "bytes": 18663,
+      "sha256": "a45b3a7a26736406ff16b71dc8ee8f39993f596d37f9b14f2eaf00edb5129ffd",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/bpfstats/README.mdx"
+    },
+    {
+      "path": "gadgets/deadlock/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/1f02a4b7fad842148d8a8161.md",
+      "kind": "official-document",
+      "bytes": 209,
+      "sha256": "88e555310ab1a8fa7e80f2a4d75bebea56534a312b853f31b16ea8a2196f2da9",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/deadlock/README.md"
+    },
+    {
+      "path": "gadgets/deadlock/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/446a048eb26d96b97df80d05.mdx",
+      "kind": "official-document",
+      "bytes": 2005,
+      "sha256": "5745ba845caa5d6e2a5fe78d7ec51d673920d79c222ed05f0a4584cf004a11c6",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/deadlock/README.mdx"
+    },
+    {
+      "path": "gadgets/fdpass/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0d62eff5a10efbdb97dd7134.md",
+      "kind": "official-document",
+      "bytes": 181,
+      "sha256": "1f6874d41d4b615102a45af033be87af3895776f565785da8520205368f3f063",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/fdpass/README.md"
+    },
+    {
+      "path": "gadgets/fdpass/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/1dc01b2c6dee9d175d9b5207.mdx",
+      "kind": "official-document",
+      "bytes": 3937,
+      "sha256": "a10130fe0fc84b246496c5a501b77bd5f0687ee1ce4123f3764411773f2fbed7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/fdpass/README.mdx"
+    },
+    {
+      "path": "gadgets/fsnotify/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/9457589905927f3bb4731a10.md",
+      "kind": "official-document",
+      "bytes": 172,
+      "sha256": "c0d0ef4f31708f46f75ea70e74da7754a27637eb9f3ce84812e56189600652d6",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/fsnotify/README.md"
+    },
+    {
+      "path": "gadgets/fsnotify/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7f518dee9b9c2f2fee97c7cb.mdx",
+      "kind": "official-document",
+      "bytes": 7319,
+      "sha256": "63447cbf961ef04dcbbf7d7f4c329c4e118550c778ea86ec3b283653459a7951",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/fsnotify/README.mdx"
+    },
+    {
+      "path": "gadgets/gpu_top/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e9bc44d39b5576f406532235.md",
+      "kind": "official-document",
+      "bytes": 311,
+      "sha256": "008361ccd4f34886382c4fc36e149d101f8800efa9715b5d6dbc4ee5d866d811",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/gpu_top/README.md"
+    },
+    {
+      "path": "gadgets/gpu_top/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e08c2373215073baf786a04d.mdx",
+      "kind": "official-document",
+      "bytes": 3438,
+      "sha256": "da2d5a01c4ced94f3835bf167166f033fbae3ddb43529321126687102434de83",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/gpu_top/README.mdx"
+    },
+    {
+      "path": "gadgets/gpu_top_per_pid/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/65f53dd55ccc55103d4cd6a9.md",
+      "kind": "official-document",
+      "bytes": 446,
+      "sha256": "70431ed8a0cd50e6da735a9e835002ea06aca6ae686db9b94ad7a174edd88dd0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/gpu_top_per_pid/README.md"
+    },
+    {
+      "path": "gadgets/gpu_top_per_pid/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f3de7432b16be0504dfc5c18.mdx",
+      "kind": "official-document",
+      "bytes": 2131,
+      "sha256": "f871537e22975ba21ed947dd97ca4ddd15272a9df8fb8080ea533a9896e71407",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/gpu_top_per_pid/README.mdx"
+    },
+    {
+      "path": "gadgets/profile_blockio/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/40123ca6f92dca8d76d0686e.md",
+      "kind": "official-document",
+      "bytes": 184,
+      "sha256": "ed154d794193f15d66211f27995eecd1f538c84699088280f8cad8b9995354db",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_blockio/README.md"
+    },
+    {
+      "path": "gadgets/profile_blockio/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/583c95113b21328d3d5c2372.mdx",
+      "kind": "official-document",
+      "bytes": 18988,
+      "sha256": "6451707f0c484e69956b53c9768d83b3deb1039791cb42d6593925426a204d19",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_blockio/README.mdx"
+    },
+    {
+      "path": "gadgets/profile_cpu/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6acef85cc358948fc3e97afd.md",
+      "kind": "official-document",
+      "bytes": 151,
+      "sha256": "aea4627f36e3a7f10d6ba8a54f4c88e54bbd193058e33cc3fc3f943e61b27bc8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_cpu/README.md"
+    },
+    {
+      "path": "gadgets/profile_cpu/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/3928f1903d50a43df96aae74.mdx",
+      "kind": "official-document",
+      "bytes": 9956,
+      "sha256": "728482e7d4581c34d36fb99e947dc0b5ac0588c4a4f7e595f1afbdff2d55d496",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_cpu/README.mdx"
+    },
+    {
+      "path": "gadgets/profile_cuda/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/d09ed1ca7a76f437bbb5ff38.md",
+      "kind": "official-document",
+      "bytes": 170,
+      "sha256": "f4e588d2f80414b56425e324b186058de75f7a7ca012863312b47425d50519e4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_cuda/README.md"
+    },
+    {
+      "path": "gadgets/profile_cuda/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/775bc2fa841a60e76d449b3e.mdx",
+      "kind": "official-document",
+      "bytes": 1070,
+      "sha256": "bda16281badbb4e563a1ba62c3a5881a86f180c23aa300fb099f7a9265f6e6d5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_cuda/README.mdx"
+    },
+    {
+      "path": "gadgets/profile_qdisc_latency/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/79dc35222f9e9231f0d4acc9.md",
+      "kind": "official-document",
+      "bytes": 225,
+      "sha256": "c5567dffafdd7117434cd0ec142e2de99152250a29404f246af44885e7bea7d5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_qdisc_latency/README.md"
+    },
+    {
+      "path": "gadgets/profile_qdisc_latency/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/851dd44e70f783aa4b98d7f2.mdx",
+      "kind": "official-document",
+      "bytes": 19227,
+      "sha256": "60448c8751b34f7db7ddce6e2ee88038b8e720d9a54c1838ad50c6f2d2e41950",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_qdisc_latency/README.mdx"
+    },
+    {
+      "path": "gadgets/profile_tcprtt/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/366e9595063faa3fbacf97a6.md",
+      "kind": "official-document",
+      "bytes": 195,
+      "sha256": "e2074ec7600b3c4147f397ba9496db9f91244f60d903c3b1ff3aaa9af9281da2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_tcprtt/README.md"
+    },
+    {
+      "path": "gadgets/profile_tcprtt/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b912a1f41235c246a93d924e.mdx",
+      "kind": "official-document",
+      "bytes": 16648,
+      "sha256": "15051be7c30f308a59eeaa11bda018ed7c9c63b1832a39a4d4a866e0445930a1",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/profile_tcprtt/README.mdx"
+    },
+    {
+      "path": "gadgets/snapshot_file/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2d6505d152573efc4c7b2948.md",
+      "kind": "official-document",
+      "bytes": 221,
+      "sha256": "d81f8ccb569f7107c7ea0e1cafb26dda5618e57dd9e8d80783bfe2aa336866f2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/snapshot_file/README.md"
+    },
+    {
+      "path": "gadgets/snapshot_file/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/209cfb6f55c68ca41a374f8d.mdx",
+      "kind": "official-document",
+      "bytes": 2683,
+      "sha256": "a100a7ad3fe381b66a96d7cad7ae4e1bbb29f1cbd2b7d6ef68b93a7b66d12daa",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/snapshot_file/README.mdx"
+    },
+    {
+      "path": "gadgets/snapshot_process/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c4dcf3f849b5bb7a8670982a.md",
+      "kind": "official-document",
+      "bytes": 167,
+      "sha256": "ff4ee588ea9430aa1eae905ec491e230d5ed27eb4c7fbe22e832eda8c7cd7b1f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/snapshot_process/README.md"
+    },
+    {
+      "path": "gadgets/snapshot_process/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7ef5437bd86c2480efc09aa7.mdx",
+      "kind": "official-document",
+      "bytes": 2249,
+      "sha256": "6dab848a9e6542ecc96e6ca619df09c2c3727b832242b05ec149b03ef1b60a0e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/snapshot_process/README.mdx"
+    },
+    {
+      "path": "gadgets/snapshot_socket/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/81982286597266680999bb05.md",
+      "kind": "official-document",
+      "bytes": 191,
+      "sha256": "ee01587409737a98f27cdddb00ce09a1147f0d52e922c6cf5e37b57caa9207e5",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/snapshot_socket/README.md"
+    },
+    {
+      "path": "gadgets/snapshot_socket/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/9d9e68ab4d681c46340c8d6c.mdx",
+      "kind": "official-document",
+      "bytes": 2448,
+      "sha256": "ac356a77da58ac68bc18450a022cc92dd9090d8458748523a4a1de8e2eecded8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/snapshot_socket/README.mdx"
+    },
+    {
+      "path": "gadgets/tcpdump/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cbfa6ee3c5b2cc003e898b95.md",
+      "kind": "official-document",
+      "bytes": 330,
+      "sha256": "02e31cbd54bb69734a32a6669c070e0baaac155acef51b600f0b08812d0264e3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/tcpdump/README.md"
+    },
+    {
+      "path": "gadgets/tcpdump/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/5e766b235eb4e60b440d9bd7.mdx",
+      "kind": "official-document",
+      "bytes": 11513,
+      "sha256": "d0a3c754e43fb82e7a19c3dec107980d551b19df764ea00a9a194b2263d2f7e7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/tcpdump/README.mdx"
+    },
+    {
+      "path": "gadgets/top_blockio/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/70ff0581fd4370b31f34c484.md",
+      "kind": "official-document",
+      "bytes": 243,
+      "sha256": "194a4c5b14933040cb13ca9e44b138f5836813a776f7b8b68b39d2a7564ead5a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_blockio/README.md"
+    },
+    {
+      "path": "gadgets/top_blockio/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e2a8212abaea99e553319009.mdx",
+      "kind": "official-document",
+      "bytes": 3577,
+      "sha256": "81b5105ca2b1b7e2bc6e5c884f67fadc8f08ffd973206f66a22386052645a6ef",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_blockio/README.mdx"
+    },
+    {
+      "path": "gadgets/top_cpu_throttle/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8db8dfbc30d05ed721a2f0c7.md",
+      "kind": "official-document",
+      "bytes": 321,
+      "sha256": "15d6b9b46c83224eb9f2d6a96c6a8c05852a0c7565ae731d8d3999c9e243f6c7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_cpu_throttle/README.md"
+    },
+    {
+      "path": "gadgets/top_cpu_throttle/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8e438e9c9d87868d15800ae0.mdx",
+      "kind": "official-document",
+      "bytes": 4413,
+      "sha256": "09010c9c3ca5a438dfc14bcf1a72618f186a02314d3af1b1378b748bd389cda2",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_cpu_throttle/README.mdx"
+    },
+    {
+      "path": "gadgets/top_cuda_memory/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2d664bc495821e39ceda1acb.md",
+      "kind": "official-document",
+      "bytes": 220,
+      "sha256": "dc692618c8aa8e9994d5b7e109ca1f5c264c6bc405d263cbca77a0072c29b01b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_cuda_memory/README.md"
+    },
+    {
+      "path": "gadgets/top_cuda_memory/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/263a0edcadc789ec6da519e3.mdx",
+      "kind": "official-document",
+      "bytes": 5980,
+      "sha256": "f167d649f8be4ccda56d7c2386bcbb76d685b6eb181e15898b6dd8e72ff873c9",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_cuda_memory/README.mdx"
+    },
+    {
+      "path": "gadgets/top_file/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/82f49558b125a71f1cf7ff98.md",
+      "kind": "official-document",
+      "bytes": 171,
+      "sha256": "8ea84be8aa4864f3f17bd4f85e4ff8aecb4594a514222258c79dd4d0b31010d3",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_file/README.md"
+    },
+    {
+      "path": "gadgets/top_file/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/933def0f5801a221d67803dd.mdx",
+      "kind": "official-document",
+      "bytes": 13763,
+      "sha256": "7bb4badd2f163109c9b797be72ff531381c562e394c48826826ba63a60181dcc",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_file/README.mdx"
+    },
+    {
+      "path": "gadgets/top_process/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/793f3d3938eda8b4786aacc6.md",
+      "kind": "official-document",
+      "bytes": 239,
+      "sha256": "ca7e473663eba689662b8ce9314ec15edbc7a4718608b699174a41d33fe6612a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_process/README.md"
+    },
+    {
+      "path": "gadgets/top_process/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a76975524e201eeb132d3a50.mdx",
+      "kind": "official-document",
+      "bytes": 4385,
+      "sha256": "58bce41e671df7a008d0f1f0b2acc329324f2d659b98f2c2ca2317816c7e0363",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_process/README.mdx"
+    },
+    {
+      "path": "gadgets/top_tcp/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/c355472a8cda817927cfa5f1.md",
+      "kind": "official-document",
+      "bytes": 175,
+      "sha256": "c8b4fc763e4f6b453e995f06aa0bd02dd66f0aa4379683d397e3d36db1fcab3d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_tcp/README.md"
+    },
+    {
+      "path": "gadgets/top_tcp/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/fb311da6c0783e6a01b83a88.mdx",
+      "kind": "official-document",
+      "bytes": 5227,
+      "sha256": "a0843d8d431818176e43b76e4e3f5b0e91519e3ae7dbc6d5a57ed68b56c55b9e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/top_tcp/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_bind/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cb3cf49fd14503d2a7d61969.md",
+      "kind": "official-document",
+      "bytes": 173,
+      "sha256": "5a09c2e707caef19792970d16dd1358893af7213efa4c93809371c006b26dec9",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_bind/README.md"
+    },
+    {
+      "path": "gadgets/trace_bind/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/596772d3940b1351aa95e35a.mdx",
+      "kind": "official-document",
+      "bytes": 3659,
+      "sha256": "9c39e208ddd2cbbe044d9175b0ce3835598875efb403871d88ee6765d7ef7ee7",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_bind/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_capabilities/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4b8bf5ca8151fac1e58bf5bb.md",
+      "kind": "official-document",
+      "bytes": 234,
+      "sha256": "3b27273d7c0e5bc490a494d61294648b5a92cd1a3692d83552a0de9cdcae96e6",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_capabilities/README.md"
+    },
+    {
+      "path": "gadgets/trace_capabilities/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/0641ba6f53d840afb10cb7a5.mdx",
+      "kind": "official-document",
+      "bytes": 9073,
+      "sha256": "170c635b2ad51f1c88638337d2f453e1b9ff76588bceced4c4abf6994b70ec6b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_capabilities/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_dns/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/44f43d0dce294113b85a60d8.md",
+      "kind": "official-document",
+      "bytes": 171,
+      "sha256": "9ad2d806c7916361e1cf38915d1f4cab456ef1697fd998b292c53cb99fc78c5a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_dns/README.md"
+    },
+    {
+      "path": "gadgets/trace_dns/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f8366449340a71532670a71b.mdx",
+      "kind": "official-document",
+      "bytes": 10518,
+      "sha256": "c1c0628f49ad3699239b810c1a1971a5973b551b23fb9763899de9370b984e00",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_dns/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_exec/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/554de6a380d201576f7e3e9a.md",
+      "kind": "official-document",
+      "bytes": 172,
+      "sha256": "3ebca29a79281c6800d4070632f6ff8c44bf48a30e68fc3ece0bdb102920123a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_exec/README.md"
+    },
+    {
+      "path": "gadgets/trace_exec/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/76752672a5e70bb1c1c9ce97.mdx",
+      "kind": "official-document",
+      "bytes": 9918,
+      "sha256": "979d12e81dd05ddc53b41a7ed53d759fd274af5e484e53eb218a7fc6f2d76e95",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_exec/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_fsslower/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/88bc494301e091e4a65a68b0.md",
+      "kind": "official-document",
+      "bytes": 228,
+      "sha256": "ce8ded25c20be656f08c522b381f0957316c14869904124527b43be0b8da1351",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_fsslower/README.md"
+    },
+    {
+      "path": "gadgets/trace_fsslower/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/efc4457c9a10becf7d9b5ad7.mdx",
+      "kind": "official-document",
+      "bytes": 8760,
+      "sha256": "829c2a5b8329cd3a8585a5f6fc8c2a5ef87093de70840af90e52536a7a742d1d",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_fsslower/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_gpu_starvation/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/517cd6328cef9011aacdcc49.md",
+      "kind": "official-document",
+      "bytes": 688,
+      "sha256": "59e64dc5110203be3c9b93aea83a7a0c036f521b0104d471304c8646c05c439f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_gpu_starvation/README.md"
+    },
+    {
+      "path": "gadgets/trace_gpu_starvation/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/83bb11f51b6150a3aeb05206.mdx",
+      "kind": "official-document",
+      "bytes": 9196,
+      "sha256": "b0a758cbdc7d8c0557a14033dd923e7a379d6027df7f5873a06f7873ead95718",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_gpu_starvation/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_gpu_starvation/demo/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/bd55e028048d981a1f219890.md",
+      "kind": "official-document",
+      "bytes": 4143,
+      "sha256": "2441ec70082d5465723e1121668850201ad783fabdecaffdb7429fdc0bf50664",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_gpu_starvation/demo/README.md"
+    },
+    {
+      "path": "gadgets/trace_init_module/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e4350f3d69795c0f2272bb90.md",
+      "kind": "official-document",
+      "bytes": 1010,
+      "sha256": "bce24089af52677db16c23124c5bce97cbdda45ad48fb2a9f3a0f423201a40e0",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_init_module/README.md"
+    },
+    {
+      "path": "gadgets/trace_init_module/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/181dfd3e6bc0c761accd7181.mdx",
+      "kind": "official-document",
+      "bytes": 1564,
+      "sha256": "b6fbe1477e893315ee16032f1eeafd0b94af2fb8b696fc9c85fcb364bf66f37c",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_init_module/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_link/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e43c3e7db9758b3effbc2d97.md",
+      "kind": "official-document",
+      "bytes": 185,
+      "sha256": "c48d63b5589f85d8f676c9bd4af9283a6d16496613f3494119786db416701bde",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_link/README.md"
+    },
+    {
+      "path": "gadgets/trace_link/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/a37eba290dc528b2dbe2e091.mdx",
+      "kind": "official-document",
+      "bytes": 3696,
+      "sha256": "166868ccff4cc202934167736b729646bf808858759a194690de333a4406d1e8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_link/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_lsm/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/9505038d57ff4d6e15d969ea.md",
+      "kind": "official-document",
+      "bytes": 157,
+      "sha256": "1de38a94ee10d61703877857f73bc4aa05b20a212b9bb58a507c370a84a51bf1",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_lsm/README.md"
+    },
+    {
+      "path": "gadgets/trace_lsm/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/f50a21438e86d5331de48f28.mdx",
+      "kind": "official-document",
+      "bytes": 13945,
+      "sha256": "02249769aef3d5bba46e4094a7cd23efd002c2891b2bbe053e617f37efceffae",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_lsm/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_malloc/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/45e5f5d2d7b31f4aa659bb68.md",
+      "kind": "official-document",
+      "bytes": 157,
+      "sha256": "878068a4bbd88cefc3115a707b667d41e826dfedfe59e039942388597df7be97",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_malloc/README.md"
+    },
+    {
+      "path": "gadgets/trace_malloc/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8042e075d1d7b991daddd0ec.mdx",
+      "kind": "official-document",
+      "bytes": 710,
+      "sha256": "56ad4a8cee8bd17d4d3d78ef6a60dc8d4d5a8ab36762f3c4e77fc5db822f8bdf",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_malloc/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_mount/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8719fb9e44f01c23e4c93967.md",
+      "kind": "official-document",
+      "bytes": 166,
+      "sha256": "d14825f233aeecef044cd25ca4c0b51624e33d1cc6233f1ed24cdb7b16ee2521",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_mount/README.md"
+    },
+    {
+      "path": "gadgets/trace_mount/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/57b78911b599e7cf7803470d.mdx",
+      "kind": "official-document",
+      "bytes": 5733,
+      "sha256": "fe8d97480738de6b558b715ced7b956556c6016ed5740d3698be90d3041d624b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_mount/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_oomkill/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b31300ca9b730c564c7c7c27.md",
+      "kind": "official-document",
+      "bytes": 163,
+      "sha256": "27efef7ee1adc94f51aa67cfb33e5a635e46ed90966a87120da5e89f5479414e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_oomkill/README.md"
+    },
+    {
+      "path": "gadgets/trace_oomkill/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/3ea6c1dc49e01506416ad3ba.mdx",
+      "kind": "official-document",
+      "bytes": 6404,
+      "sha256": "5ee19f5e0e4888003c9e773b3458db4f78604d0b46bbc712fe279898d4752d3e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_oomkill/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_open/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/fc83e68aa2403748f677b745.md",
+      "kind": "official-document",
+      "bytes": 164,
+      "sha256": "d6d0f789c445745e25ea2084c9853872f1ab19bf54f1001092b7274401b70996",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_open/README.md"
+    },
+    {
+      "path": "gadgets/trace_open/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/defad3b6108af46af2e82b9f.mdx",
+      "kind": "official-document",
+      "bytes": 6863,
+      "sha256": "afa2c31ec812aa599e6ff393494fb94a8b7a25a66c40f7ced55e785bbc066dee",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_open/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_signal/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/7d2fb3809764a2f196a2d61e.md",
+      "kind": "official-document",
+      "bytes": 123,
+      "sha256": "e0942f86e4b8b34f460a35eb157be1c35e4d1b4fa0d72b2960a899194ddd2e5a",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_signal/README.md"
+    },
+    {
+      "path": "gadgets/trace_signal/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/18ab3d3576a155ebc77a667c.mdx",
+      "kind": "official-document",
+      "bytes": 3106,
+      "sha256": "7062009c49df335c191a24bbc18a64d3a58d876b29d6411c1c21ed260bc808bc",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_signal/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_sni/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/cbd18086e2e0fb7bccfae1af.md",
+      "kind": "official-document",
+      "bytes": 180,
+      "sha256": "6f81f43969ce8595b42e167b0c7d0d7b3e25357f3c484c989b7605da3a8f708b",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_sni/README.md"
+    },
+    {
+      "path": "gadgets/trace_sni/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/e8d608ee23477a0b1efb88b1.mdx",
+      "kind": "official-document",
+      "bytes": 3918,
+      "sha256": "c988f233df744385031537222b980d6daad516e17bb9660040d21d8677fbfbc9",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_sni/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_ssl/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8c425ffe4a3735e5af2de1d2.md",
+      "kind": "official-document",
+      "bytes": 193,
+      "sha256": "adb03ca5e50da5b67e8e69b331afb5258695aeffba4902b60b6244c55e2efcff",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_ssl/README.md"
+    },
+    {
+      "path": "gadgets/trace_ssl/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/93facea479eda39bc72d3ce5.mdx",
+      "kind": "official-document",
+      "bytes": 769,
+      "sha256": "64b53440dea5ddc5616f109089a504db9bddba6d15595a6661bf35c9f9c23921",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_ssl/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_tcp/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/adb19e7ac5bb0c5ad2f36914.md",
+      "kind": "official-document",
+      "bytes": 163,
+      "sha256": "501af4b14debc6697f5c205097564590610c515c9545ed2d363b5b14af590fa9",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_tcp/README.md"
+    },
+    {
+      "path": "gadgets/trace_tcp/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/b4bcd67de4853581d3e8c8dc.mdx",
+      "kind": "official-document",
+      "bytes": 6620,
+      "sha256": "3e93043fc51eb19f6d933f77f09226d868cfb50b0ec69ab7d99396a8a9c65fe8",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_tcp/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_tcpdrop/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/8041fcea10c73128ae2af8de.md",
+      "kind": "official-document",
+      "bytes": 161,
+      "sha256": "6132be9561b1ed1e3226d6da555b3e027d131d16df07969d1bb18140197d32e4",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_tcpdrop/README.md"
+    },
+    {
+      "path": "gadgets/trace_tcpdrop/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/92b026d11180e9e93626081e.mdx",
+      "kind": "official-document",
+      "bytes": 20991,
+      "sha256": "b7d1595097e34fb642d86ee5bdc86ce1f59e54ffaf15f8d0e2e0ba135fd28435",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_tcpdrop/README.mdx"
+    },
+    {
+      "path": "gadgets/trace_tcpretrans/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/bc8db270eb084a70b55d0a52.md",
+      "kind": "official-document",
+      "bytes": 174,
+      "sha256": "e1f0182280ee28fd1e86624856b8cf6ffe36355b9e27c54cb6bd4c3f7ec4dd2f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_tcpretrans/README.md"
+    },
+    {
+      "path": "gadgets/trace_tcpretrans/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/bf181546c48e5704e797a0d4.mdx",
+      "kind": "official-document",
+      "bytes": 5301,
+      "sha256": "14359bb06bb4d5bcee591125828375661504593f7fa3b4dd9719169b7caf7215",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/trace_tcpretrans/README.mdx"
+    },
+    {
+      "path": "gadgets/traceloop/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/64c175088fbbb6cc4655476b.md",
+      "kind": "official-document",
+      "bytes": 166,
+      "sha256": "1d852a4a6f4bb44b5779d15731e735e3b1ff5bd5d2ea7877f0caa012bc441b52",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/traceloop/README.md"
+    },
+    {
+      "path": "gadgets/traceloop/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/3bd4b76c4e596428dc0c4d33.mdx",
+      "kind": "official-document",
+      "bytes": 14027,
+      "sha256": "8e2501e6c88de854b64b044de4da52ad059d2eab95286712d965051ff152799f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/traceloop/README.mdx"
+    },
+    {
+      "path": "gadgets/ttysnoop/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/6c7e4904df65294f59d7e2ae.md",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "e7963c7d0fffdaba25ecb1daeecfb44ba45dc7884ed0787a478bda8277c90127",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/ttysnoop/README.md"
+    },
+    {
+      "path": "gadgets/ttysnoop/README.mdx",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/10e1ae27e54365a46619291f.mdx",
+      "kind": "official-document",
+      "bytes": 4624,
+      "sha256": "bb65a8835d81204924e9f88a6d1dd06de395042dfea5771106140fbc7c3ed391",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/gadgets/ttysnoop/README.mdx"
+    },
+    {
+      "path": "pkg/btfgen/btfs/arm64/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/34deb2578dcbd6fc6a27348c.md",
+      "kind": "official-document",
+      "bytes": 84,
+      "sha256": "50ccea2ba8dcf29e513cb78cd487dd47cb0262c2fdcf3265e3928df93b36df6f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/pkg/btfgen/btfs/arm64/README.md"
+    },
+    {
+      "path": "pkg/btfgen/btfs/x86/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/454f9099611fb1cbcbd7aeed.md",
+      "kind": "official-document",
+      "bytes": 84,
+      "sha256": "50ccea2ba8dcf29e513cb78cd487dd47cb0262c2fdcf3265e3928df93b36df6f",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/pkg/btfgen/btfs/x86/README.md"
+    },
+    {
+      "path": "pkg/columns/examples/gadget/gadget.go",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/53d87eaa5bfddabccebeaa30.go",
+      "kind": "upstream-example-code",
+      "bytes": 3309,
+      "sha256": "2d4133da0f5133abf8d493df492635e6f33dd974ca3c216706d6127fb137a687",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/pkg/columns/examples/gadget/gadget.go"
+    },
+    {
+      "path": "skills/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/4d647326e823e7202ff18d96.md",
+      "kind": "official-document",
+      "bytes": 4887,
+      "sha256": "1b35f83aae1f7a7c34ad8dc875a236964dc42f736c05c0e4fd1da30861d93f91",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/skills/README.md"
+    },
+    {
+      "path": "tools/monitoring/README.md",
+      "localPath": "raw/inspektor-gadget--inspektor-gadget/7e9a89b892b5/2e7c69731876cff68b33fe6d.md",
+      "kind": "official-document",
+      "bytes": 1176,
+      "sha256": "af7c08f43f5d8d06624e6a9fd4a2c618c71fb392543081f4d0d9c486f03ef60e",
+      "sourceUrl": "https://github.com/inspektor-gadget/inspektor-gadget/blob/7e9a89b892b5f60f63c335cd5aaa6c7eab8aa8e1/tools/monitoring/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

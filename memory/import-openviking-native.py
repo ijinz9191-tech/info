@@ -2,6 +2,7 @@
 """Import the public developer knowledge snapshot into a configured OpenViking server."""
 
 import hashlib
+import argparse
 import json
 import os
 from pathlib import Path
@@ -24,9 +25,33 @@ def verify_source(manifest):
 
 
 def main():
+    global MANIFEST_FILE, SOURCE, REPORT
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--official', action='store_true', help='Import the separately prepared public upstream corpus')
+    parser.add_argument('--verify-source-only', action='store_true', help='Check local resource hashes without connecting to a server')
+    args = parser.parse_args()
+    if args.official:
+        MANIFEST_FILE = ROOT / 'openviking' / 'official-corpus-manifest.json'
+        SOURCE = ROOT / 'openviking' / 'resources' / 'official-corpus'
+        REPORT = ROOT / 'openviking' / 'official-native-import-report.json'
     manifest_bytes = MANIFEST_FILE.read_bytes()
     manifest = json.loads(manifest_bytes)
+    if args.official:
+        files = []
+        for part in manifest['fileManifests']:
+            part_path = (ROOT / 'openviking' / part['path']).resolve()
+            if not part_path.is_relative_to((ROOT / 'openviking').resolve()):
+                raise RuntimeError('Manifest path escaped OpenViking directory')
+            if hashlib.sha256(part_path.read_bytes()).hexdigest() != part['sha256']:
+                raise RuntimeError('Changed file manifest: ' + part['path'])
+            files.extend(json.loads(part_path.read_text(encoding='utf-8'))['files'])
+        if len(files) != manifest['fileCount']:
+            raise RuntimeError('Official corpus file count mismatch')
+        manifest['files'] = files
     verify_source(manifest)
+    if args.verify_source_only:
+        print(json.dumps({'status': 'PASS', 'files': len(manifest['files']), 'nativeImportPerformed': False}))
+        return
     endpoint = os.environ.get("OPENVIKING_URL", "http://127.0.0.1:1933")
     try:
         from openviking_sdk import SyncHTTPClient
@@ -48,7 +73,7 @@ def main():
             "strict": True,
             "preserve_structure": True,
             "processing_mode": mode,
-            "args": {"parse_mode": "no_split"},
+            "args": {} if args.official else {"parse_mode": "no_split"},
         },
     )
     failed_files = result.get("meta", {}).get("failed_files", [])

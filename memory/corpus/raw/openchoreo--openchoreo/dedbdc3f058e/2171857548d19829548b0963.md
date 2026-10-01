@@ -1,0 +1,142 @@
+# Getting Started Resources
+
+Default resources for OpenChoreo. Apply these after installing the control plane to set up a working environment with projects, environments, component types, build workflows, and resource types.
+
+## Quick Start
+
+Apply all resources with a single command:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/getting-started/all.yaml
+```
+
+Or if you have cloned the repository:
+
+```bash
+kubectl apply -f samples/getting-started/all.yaml
+```
+
+## Verify Installation
+
+```bash
+kubectl get project,environment,deploymentpipeline,clustercomponenttype,clusterresourcetype,clusterworkflow,clustertrait
+```
+
+Expected output:
+
+```
+NAME                                   AGE
+project.openchoreo.dev/default         10s
+
+NAME                                       AGE
+environment.openchoreo.dev/development     10s
+environment.openchoreo.dev/production      10s
+environment.openchoreo.dev/staging         10s
+
+NAME                                           AGE
+deploymentpipeline.openchoreo.dev/default      10s
+
+NAME                                                    AGE
+clustercomponenttype.openchoreo.dev/scheduled-task      10s
+clustercomponenttype.openchoreo.dev/service             10s
+clustercomponenttype.openchoreo.dev/web-application     10s
+clustercomponenttype.openchoreo.dev/worker              10s
+
+NAME                                          AGE
+clusterresourcetype.openchoreo.dev/nats       10s
+clusterresourcetype.openchoreo.dev/postgres   10s
+clusterresourcetype.openchoreo.dev/valkey     10s
+
+NAME                                                       AGE
+clusterworkflow.openchoreo.dev/ballerina-buildpack          10s
+clusterworkflow.openchoreo.dev/docker                       10s
+clusterworkflow.openchoreo.dev/google-cloud-buildpacks      10s
+clusterworkflow.openchoreo.dev/react                        10s
+
+NAME                                                      AGE
+clustertrait.openchoreo.dev/observability-alert-rule      10s
+```
+
+## What Gets Created
+
+### Project and Pipeline
+
+- **default** project with a deployment pipeline that promotes through development -> staging -> production
+
+### Environments
+
+| Name | DNS Prefix | Production |
+|------|------------|------------|
+| development | dev | No |
+| staging | staging | No |
+| production | prod | Yes |
+
+### Component Types
+
+| Name | Workload Type | Build Workflows | Validation |
+|------|---------------|-----------------|------------|
+| worker | Deployment | docker, google-cloud-buildpacks | No endpoints |
+| service | Deployment | docker, google-cloud-buildpacks, ballerina-buildpack | At least 1 endpoint |
+| web-application | Deployment | react, docker | HTTP endpoint required |
+| scheduled-task | CronJob | docker, google-cloud-buildpacks | - |
+
+### Cluster Resource Types
+
+| Name | Description |
+|------|-------------|
+| postgres | PostgreSQL database backed by a StatefulSet |
+| valkey | Redis-protocol-compatible cache backed by a StatefulSet |
+| nats | NATS Core pub/sub server backed by a Deployment |
+
+### Workflows
+
+| Name | Description |
+|------|-------------|
+| docker | Build using Dockerfile |
+| react | Build React web applications |
+| ballerina-buildpack | Build Ballerina applications |
+| google-cloud-buildpacks | Build using Google Cloud Buildpacks |
+
+### Traits
+
+| Name | Description |
+|------|-------------|
+| observability-alert-rule | Define alert rules for log and metric monitoring |
+
+## Individual Files
+
+For applying resources selectively:
+
+```
+getting-started/
+├── all.yaml                    # Combined manifest
+├── project.yaml                # Default project
+├── environments.yaml           # Development, staging, production
+├── deployment-pipeline.yaml    # Promotion pipeline
+├── component-types/
+│   ├── worker.yaml
+│   ├── service.yaml
+│   ├── webapp.yaml
+│   └── scheduled-task.yaml
+├── cluster-resource-types/
+│   ├── postgres.yaml
+│   ├── valkey.yaml
+│   └── nats.yaml
+├── ci-workflows/
+│   ├── dockerfile-builder.yaml
+│   ├── paketo-buildpacks-builder.yaml
+│   ├── ballerina-buildpack-builder.yaml
+│   └── gcp-buildpacks-builder.yaml
+└── component-traits/
+    └── alert-rule-trait.yaml
+```
+
+## Customization
+
+These are default configurations. You can:
+
+1. Modify the YAML files before applying
+2. Apply individual files instead of `all.yaml`
+3. Create your own resources using these as templates
+
+See the [Platform Configuration](../platform-config/) samples for more customization examples.

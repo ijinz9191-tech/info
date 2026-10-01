@@ -1,0 +1,1377 @@
+{
+  "schemaVersion": 1,
+  "repo": "dart-lang/language",
+  "commit": "bebad8c4492a8800edf2d37adda1159b43d6ae82",
+  "retrievedAt": "2026-10-01T15:16:34.919080+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/dart"
+  ],
+  "archiveUrl": "https://codeload.github.com/dart-lang/language/zip/bebad8c4492a8800edf2d37adda1159b43d6ae82",
+  "archiveSha256": "de10c0f3af00d75561941f060f191045df1222c09e7e80e9af6f2a75f0207e09",
+  "archiveBytes": 1929074,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 168,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 2928774
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1674,
+      "sha256": "65f1a90deddcb8e55820e53ee46dc6861974bb099c4dbf6f682784b9417927a7",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 3034,
+      "sha256": "a0748cef0d415d27a9be911ead5aee26f5dbcab28ca54b00734b076d8e2c5c05",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/README.md"
+    },
+    {
+      "path": "accepted/2.0/sound-type-system.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/9b3f4ca789bfa02eb920b128.md",
+      "kind": "official-document",
+      "bytes": 192,
+      "sha256": "1d7ca0d78a62248a7a0d40590c0a4d3fa3652c2a39bf295be12ebb102333de59",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.0/sound-type-system.md"
+    },
+    {
+      "path": "accepted/2.1/int-literal-as-double-value/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/43d4438449acc9c6102ff527.md",
+      "kind": "official-document",
+      "bytes": 9384,
+      "sha256": "37d6756e40fcad6da196048193caab7c9fedb9e8496b1474361e42f682c76f4e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.1/int-literal-as-double-value/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.1/super-mixins/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d4101b6de6ca9de818bc2a53.md",
+      "kind": "official-document",
+      "bytes": 13750,
+      "sha256": "491571ecd3567df819872c3142f5e092675d66960c309940eca90803e22e0a76",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.1/super-mixins/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.1/super-mixins/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/7568e8dc89b9fedc5d9cccbb.md",
+      "kind": "official-document",
+      "bytes": 3338,
+      "sha256": "53338ccd43a55bbf4ccd3ae48f285912f4a9b9ab04b7fd8db885cea0e6f955b6",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.1/super-mixins/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.1/super-mixins/mixin-inference.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/03af1267ba17e406239791ae.md",
+      "kind": "official-document",
+      "bytes": 10412,
+      "sha256": "4fb09424c8b1f34b23207dbe22fa016ad596d96e94db3f45aefbeaffe76e4b1d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.1/super-mixins/mixin-inference.md"
+    },
+    {
+      "path": "accepted/2.12/abstract-external-fields/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/5974bd2448fa5739b32ee9aa.md",
+      "kind": "official-document",
+      "bytes": 9646,
+      "sha256": "92811c431ffa8c695771aa8bd2c99caf1ce09159459dfd8f5440d314d5f1bc7e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.12/abstract-external-fields/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.12/abstract-external-fields/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/29fa3901786babbd54333aae.md",
+      "kind": "official-document",
+      "bytes": 4842,
+      "sha256": "b2b3e3f0eb355771c86eed4fedf26e805cc0a9cb17534bfb76a3f5636a7df952",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.12/abstract-external-fields/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.12/nnbd/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/754e2470ed430da6a5e9db8b.md",
+      "kind": "official-document",
+      "bytes": 92951,
+      "sha256": "a1c93c03afb1c353a740e0deadb4a6d1c9e2e9cad57570ae79fc3c6d435acf59",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.12/nnbd/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.12/nnbd/number-operation-typing.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8930c0d8f7b51ed728ffb4eb.md",
+      "kind": "official-document",
+      "bytes": 13786,
+      "sha256": "b301846e350eeba6932eea2984928cf0e0b84ad9534debca2811ab9e6abc1ada",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.12/nnbd/number-operation-typing.md"
+    },
+    {
+      "path": "accepted/2.12/nnbd/roadmap.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/05a9adeb1e9c2b624c1e786d.md",
+      "kind": "official-document",
+      "bytes": 42136,
+      "sha256": "572936b206dd38159c46d3d6f56f2c418ead06a5b76530fba0b170dc97e6d58d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.12/nnbd/roadmap.md"
+    },
+    {
+      "path": "accepted/2.13/nonfunction-type-aliases/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e9f602afcf5831e0f32faed1.md",
+      "kind": "official-document",
+      "bytes": 9073,
+      "sha256": "b61380f21fbc656304ccae3abb6e23cf9f9995eb14a9916dd0f739aceb8faf18",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.13/nonfunction-type-aliases/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.13/nonfunction-type-aliases/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b0f64bfbeb2907d8953766e0.md",
+      "kind": "official-document",
+      "bytes": 3117,
+      "sha256": "c7c77ed31959def9fcdf9ed6db03f2d6e3e6b0427fc885098c64cb4e43136b97",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.13/nonfunction-type-aliases/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.14/small-features-21Q1/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a76b887a905dd2fe0b05ac0a.md",
+      "kind": "official-document",
+      "bytes": 8661,
+      "sha256": "b7a682866137f7bd8ca0c077589cd946b720ec3a1cef12aada05b97461ce8620",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.14/small-features-21Q1/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.14/small-features-21Q1/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/7c8831d87b3c8923ba52f4fc.md",
+      "kind": "official-document",
+      "bytes": 6116,
+      "sha256": "94b23dbc5c75a62c7be09007e806bae79e88399e218fe6eba9bb36cdeb29ac93",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.14/small-features-21Q1/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.14/triple-shift-operator/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b3194b99c7572fa12e8bd70e.md",
+      "kind": "official-document",
+      "bytes": 2345,
+      "sha256": "1e2c7fdf7a18d02996fcd0b809e71ac3d898b9074313aa789649114c9dd59cb0",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.14/triple-shift-operator/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.14/triple-shift-operator/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e2bd93aee27016874c81ddbc.md",
+      "kind": "official-document",
+      "bytes": 1989,
+      "sha256": "50286dc0cbe7a7dec4b47cb68f25b123746d8250e89e7624c2d891430d30f360",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.14/triple-shift-operator/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.15/constructor-tearoffs/faq.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/663c92a2551fc6c774bdb17f.md",
+      "kind": "official-document",
+      "bytes": 18591,
+      "sha256": "071fe8119f9a6968454ef5c00a1f831b9d15ef2e9149b5ddd9c1d4fd08125137",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.15/constructor-tearoffs/faq.md"
+    },
+    {
+      "path": "accepted/2.15/constructor-tearoffs/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1333af34cb922396bb7f7684.md",
+      "kind": "official-document",
+      "bytes": 53700,
+      "sha256": "a50ba177065c86db5581e1da99d59230eabd128b417f7eed6f62faaa47400bb6",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.15/constructor-tearoffs/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.15/constructor-tearoffs/test-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/77be7cdaef14fba377f952e5.md",
+      "kind": "official-document",
+      "bytes": 7723,
+      "sha256": "58737d22f6fc3395c0353581732a10cdc07476f0077447850e558111c9bdd342",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.15/constructor-tearoffs/test-plan.md"
+    },
+    {
+      "path": "accepted/2.17/1847-finalization-registry/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/fced71ae34239682bf76a3cc.md",
+      "kind": "official-document",
+      "bytes": 19367,
+      "sha256": "839506c8ddfcfe7d649d3113fe81c2e119f5d248878a81469bb2ed9b8f0847ee",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.17/1847-finalization-registry/proposal.md"
+    },
+    {
+      "path": "accepted/2.17/enhanced-enums/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d02e7cb58c652df7934c7bca.md",
+      "kind": "official-document",
+      "bytes": 29099,
+      "sha256": "88dc0eb23007232db37d204d6a037d3cb5481af603294b26bd179479bc78985c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.17/enhanced-enums/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.17/named-arguments-anywhere/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/ad77b48660c232f9c627f116.md",
+      "kind": "official-document",
+      "bytes": 9010,
+      "sha256": "225674a50b1fbf5f75fa62ed48db627f1c70fb74d62f5bd562ad6536bc9ee114",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.17/named-arguments-anywhere/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.17/super-parameters/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/69a96ecd50eb0353ca3fc9d4.md",
+      "kind": "official-document",
+      "bytes": 10924,
+      "sha256": "572ebda3cd7e1d2863425a4effe92718a96eb359db2baa7091ae463ea1c9aa0c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.17/super-parameters/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.18/horizontal-inference/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/160b923a99486645ae032352.md",
+      "kind": "official-document",
+      "bytes": 24732,
+      "sha256": "a64f90cc778508e7caaa96b384c1341a02afab67b27cae7bfe7113c9b1b5b46f",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.18/horizontal-inference/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.19/unnamed-libraries/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3ebef030c329244090976ff7.md",
+      "kind": "official-document",
+      "bytes": 2743,
+      "sha256": "7f518f991f09d8a4c270bdf1589598ba38af30df3e66d42d57f88e295b7264d0",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.19/unnamed-libraries/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.2/set-literals/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f4c877021a8078ac0214fe43.md",
+      "kind": "official-document",
+      "bytes": 19583,
+      "sha256": "aaeb46821083e68c1e6f2f2b6124b890cd2ac66719c36327edee5c5392ea390b",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.2/set-literals/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.2/set-literals/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8e0a633ed9d4e8fdf0966005.md",
+      "kind": "official-document",
+      "bytes": 2371,
+      "sha256": "d2c8cd6703f887362e975d33faf1c482355079d2c69406f3f6fb90658215a590",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.2/set-literals/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.3/control-flow-collections/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a234cf60500f1a6c83c9f3b6.md",
+      "kind": "official-document",
+      "bytes": 35767,
+      "sha256": "d3330707f4671a6dfa30316d5c66211cfe7c351c61469887d8ae5dcb1b4371bc",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.3/control-flow-collections/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.3/control-flow-collections/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/38063168e64f6fb21f006399.md",
+      "kind": "official-document",
+      "bytes": 5767,
+      "sha256": "f233d12cd6e59cae8076f7166d40e58fe9a80569187e56ed372d3762ea911c54",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.3/control-flow-collections/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.3/spread-collections/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/cfe1bb495c50639877fc610e.md",
+      "kind": "official-document",
+      "bytes": 24470,
+      "sha256": "0641dd96f5c7e4c5f032d6c1724a51f3235c4dda40031339dadc65d561aecfaf",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.3/spread-collections/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.3/spread-collections/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d99a7cbd1a061d4c4fd30ee4.md",
+      "kind": "official-document",
+      "bytes": 4393,
+      "sha256": "1890e43b5b8a384c7828f5f2d2c075bb09eb711ac8e7716e844c3abdd641cd4d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.3/spread-collections/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.3/spread-collections/performance.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1471f1efb4cd15265bd43c48.md",
+      "kind": "official-document",
+      "bytes": 15998,
+      "sha256": "99504d706c827cc74317905cc91978de17ff2bd0abace867747e53500c87c3df",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.3/spread-collections/performance.md"
+    },
+    {
+      "path": "accepted/2.3/unified-collections/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/13b2ad35a91037e31a2615f4.md",
+      "kind": "official-document",
+      "bytes": 38482,
+      "sha256": "6d08c75da3257b28cb19abca5f69a6d25c5b61bff31d5a9ecba8c6dfa567b15c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.3/unified-collections/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.5/constant-update-2018/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8396c77acb2b6687d988fa0a.md",
+      "kind": "official-document",
+      "bytes": 6790,
+      "sha256": "97e59e8be5baa695485c7070aba410e0c0fabcbe20512d6efb350aaca87015d4",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.5/constant-update-2018/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.5/constant-update-2018/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/100f0a7f88cfb8b396e0b1e4.md",
+      "kind": "official-document",
+      "bytes": 3429,
+      "sha256": "b76667d008de77ce67cd5a7e4e73c2800a166de9b926e92907d33fd78714a8a8",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.5/constant-update-2018/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.5/contravariant-superinterface-2018/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/03eb3446e217d088b3f96ffb.md",
+      "kind": "official-document",
+      "bytes": 3433,
+      "sha256": "ad880d0367c781c04dd957dbc22637c36af70121a71cea2d372dc7e8a151c4f1",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.5/contravariant-superinterface-2018/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.5/contravariant-superinterface-2018/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/53e920ae420a94f481483d7e.md",
+      "kind": "official-document",
+      "bytes": 1412,
+      "sha256": "abb8d032d88b203b12a4911835251e8f4341e3f6d7aea1425ed50c5e96f3ee8c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.5/contravariant-superinterface-2018/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.7/static-extension-methods/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/5d4b8a72ddd3f2f8377cf477.md",
+      "kind": "official-document",
+      "bytes": 48714,
+      "sha256": "10b42ae57c490d94645d35bbea7928dd23aa5adac299b820e28a6e9b9bc733cb",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.7/static-extension-methods/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.7/static-extension-methods/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2cf713a88c370119c9630277.md",
+      "kind": "official-document",
+      "bytes": 5123,
+      "sha256": "a4798cfcd0bade5b76a0973eb2c439ce5fb3b4179c43b31c5ad9527bf17261ec",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.7/static-extension-methods/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.7/static-extension-methods/old/feature-specification-draft14.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f12889ef0c710b2764d2c502.md",
+      "kind": "official-document",
+      "bytes": 48082,
+      "sha256": "6416c254643f2bb3b65b1069e5c6d67a963dfe929926caf5ba92d4f77d196b7b",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.7/static-extension-methods/old/feature-specification-draft14.md"
+    },
+    {
+      "path": "accepted/2.7/static-extension-methods/old/lrn-static-extension-survey.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/fe9c23f516eae134ee486470.md",
+      "kind": "official-document",
+      "bytes": 8364,
+      "sha256": "4e1b8d59728bbd05388d8c1dc097d70fae9a8e692d537308fd924a8556491255",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.7/static-extension-methods/old/lrn-static-extension-survey.md"
+    },
+    {
+      "path": "accepted/2.7/static-extension-methods/old/lrn-strawman.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/eb901bdd0de32c0227116274.md",
+      "kind": "official-document",
+      "bytes": 33740,
+      "sha256": "90553e75d09842db200ddcb497e25f74fc4d86629daf0f672c060279be117c02",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.7/static-extension-methods/old/lrn-strawman.md"
+    },
+    {
+      "path": "accepted/2.8/language-versioning/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/6be3712532c30aa1731c0822.md",
+      "kind": "official-document",
+      "bytes": 27415,
+      "sha256": "33aed3601562a61e3156167236a335b04282a165e440191e6821a279028c10f5",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.8/language-versioning/feature-specification.md"
+    },
+    {
+      "path": "accepted/2.8/language-versioning/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/c34077ec90449a9a0fa80f8c.md",
+      "kind": "official-document",
+      "bytes": 5217,
+      "sha256": "12020b154974e6e54553e342b96ce68805b91ad3c82f5b5dbdbf09eccc898c0b",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.8/language-versioning/implementation-plan.md"
+    },
+    {
+      "path": "accepted/2.8/language-versioning/package-config-file-v2.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/266c67a4ec6233387171ac27.md",
+      "kind": "official-document",
+      "bytes": 16635,
+      "sha256": "76e5561190d4ed94a02fb4cd24e29a3b18e916dfdb42b8bbd205ad1892c05129",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/2.8/language-versioning/package-config-file-v2.md"
+    },
+    {
+      "path": "accepted/3.0/class-modifiers/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/45ef1d850c5e44b82817aee6.md",
+      "kind": "official-document",
+      "bytes": 50230,
+      "sha256": "edb807d277fce1145ada62dae673839b8d3c82de8b271cb7bbc81690c8549330",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.0/class-modifiers/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.0/patterns/exhaustiveness.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/5986680f07f11f176738ae93.md",
+      "kind": "official-document",
+      "bytes": 46523,
+      "sha256": "5c77d0deec7f99817a42bd46fa79e84b4a9257ebb38f77f805dace79f77fcab6",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.0/patterns/exhaustiveness.md"
+    },
+    {
+      "path": "accepted/3.0/patterns/exhaustiveness_prototype/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a0ac99925a7c73994b5ca0bc.md",
+      "kind": "official-document",
+      "bytes": 77,
+      "sha256": "7464d205d7c03ff72c6c600779fe31e7696f2ab531ef4cc3ca87d6dfe529b7e1",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.0/patterns/exhaustiveness_prototype/README.md"
+    },
+    {
+      "path": "accepted/3.0/patterns/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2250f86de0da3222cf920148.md",
+      "kind": "official-document",
+      "bytes": 142936,
+      "sha256": "82b69d986be0d6c1f78c5c574cb5ced0164eab28a5545f242b3dc3a45f64ab91",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.0/patterns/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.0/records/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1919f9eb27fe64b19feda5ae.md",
+      "kind": "official-document",
+      "bytes": 37606,
+      "sha256": "3781e311d464b776999b18c8042781093f757347dbc7f539e824b2dde0be8167",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.0/records/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.10/dot-shorthands/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f8b2df2bee886a6a34b10252.md",
+      "kind": "official-document",
+      "bytes": 38486,
+      "sha256": "38238e4e8df5787c9763b47627ba5c9239fcb30b3bcd3b7844758e031019b818",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.10/dot-shorthands/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.12/private-named-parameters/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0e14b8499a14a185da5c02ef.md",
+      "kind": "official-document",
+      "bytes": 19516,
+      "sha256": "ed21e6f2a9faac20eeb5ef28c219c79002620bb52db70bdd5fe0dc2f91defdb1",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.12/private-named-parameters/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.13/primary-constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2293508b94edf5b5b6362ced.md",
+      "kind": "official-document",
+      "bytes": 46006,
+      "sha256": "0a0bf58eb7e705fdd45cf9263a138a14605affe57c47ecf352a1706b804b4d84",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.13/primary-constructors/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.3/extension-types/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/4b5f79234d2135d4f1abf849.md",
+      "kind": "official-document",
+      "bytes": 77036,
+      "sha256": "74e16fee0021efa51c885cb66806eb76af513041d8e738de37fa14d4488a66c4",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.3/extension-types/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.6/digit-separators/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8b1f22b2b5a447cbb9127065.md",
+      "kind": "official-document",
+      "bytes": 7214,
+      "sha256": "a36d4cd3649e1b519446a49cccdd1aee9d6e2e1187616e7c959c4d2514d97dc2",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.6/digit-separators/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.7/inference-using-bounds/design-document.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8c484326201fb61f9fd633f3.md",
+      "kind": "official-document",
+      "bytes": 21297,
+      "sha256": "6ef318d49ce1cb025f6a66207c5527174f253ceeb3420396f2e403feab16db69",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.7/inference-using-bounds/design-document.md"
+    },
+    {
+      "path": "accepted/3.7/wildcard-variables/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8bf6cc491952a44b2aa9a3b8.md",
+      "kind": "official-document",
+      "bytes": 14640,
+      "sha256": "33ebe7d19348618ef5e428d3cfa9c3c68383cadefd535698070f7e979e33a490",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.7/wildcard-variables/feature-specification.md"
+    },
+    {
+      "path": "accepted/3.8/null-aware-elements/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d1f2163788d17e6790b3d7f4.md",
+      "kind": "official-document",
+      "bytes": 21279,
+      "sha256": "5b84b1f49a46a27fb6bc7107342c8b15ed97ddb4abe7652d9a4aa030e2fd3608",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/3.8/null-aware-elements/feature-specification.md"
+    },
+    {
+      "path": "accepted/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0c7ffa95ba33132f00f87faf.md",
+      "kind": "official-document",
+      "bytes": 7749,
+      "sha256": "cbceca8046f1af0b59f6e525ebcf01410174ee9afeda89f2c91e625a63b0c86e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/README.md"
+    },
+    {
+      "path": "accepted/future-releases/0323-null-aware-elements/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/c2161b2a275deed36cb52cac.md",
+      "kind": "official-document",
+      "bytes": 224,
+      "sha256": "05d54ff82cde3e528c50d9fd1e3ac9d85db2507f98088d6968fae3336ec169b4",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/0323-null-aware-elements/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/0546-patterns/exhaustiveness.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1730aa40b2459144bb7a16e6.md",
+      "kind": "official-document",
+      "bytes": 129,
+      "sha256": "42e561954ccd70ca278ca74aed8cf9be7582a6132fe69376760c41dac8976b81",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/0546-patterns/exhaustiveness.md"
+    },
+    {
+      "path": "accepted/future-releases/0546-patterns/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/10c9d35e2513431f6e769fcd.md",
+      "kind": "official-document",
+      "bytes": 136,
+      "sha256": "5d6e6da8eee9550a7ad1753ad54c457d05d8eccdec8c431433eae793df9b419b",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/0546-patterns/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/0546-patterns/goals-and-constraints.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/47fc69dd4ce93aa7eb8ff81d.md",
+      "kind": "official-document",
+      "bytes": 18814,
+      "sha256": "37cf3bf6ed47b66b65659cc74baeacd166c955eac4cfd3ef361e6a41c025f337",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/0546-patterns/goals-and-constraints.md"
+    },
+    {
+      "path": "accepted/future-releases/0546-patterns/why-two-kinds-of-patterns.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b058c996d17ca0ae85cd5d14.md",
+      "kind": "official-document",
+      "bytes": 22641,
+      "sha256": "0f090f4fa467784e4961d17f9045bb6abcf7d5daa9f0fa58c6fdfd8fd4bff5be",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/0546-patterns/why-two-kinds-of-patterns.md"
+    },
+    {
+      "path": "accepted/future-releases/2509-private-named-parameters/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a582fea6e1fc7cdbb3de66fd.md",
+      "kind": "official-document",
+      "bytes": 153,
+      "sha256": "933305dc0abfe0f00c9f10db5c84410b0e3967aa3bec0d21a26cac9267d9eaba",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/2509-private-named-parameters/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/async-star-behavior/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/99f981e5ddf0d867113d9775.md",
+      "kind": "official-document",
+      "bytes": 6450,
+      "sha256": "77ea1230afea449d2d1cb753c86a90d6276fdc722bbe4384e596436cf4c4d9be",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/async-star-behavior/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/async-star-behavior/implementation-plan.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d6ca4c25ef34da5dad6a32fa.md",
+      "kind": "official-document",
+      "bytes": 1848,
+      "sha256": "0867a821934c2ecdd856ae7779c7102b52ad2b7265b1a901e3a41be4dadd2c2c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/async-star-behavior/implementation-plan.md"
+    },
+    {
+      "path": "accepted/future-releases/class-modifiers/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8c05fd6efcb96dabc6135bed.md",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "b7f84dbbd5c5fc9c024c7d99fa30d2505c1c25707f9178de8723db72c8bcec21",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/class-modifiers/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/digit-separators/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/36b7818d09aa32b4fe8b82ed.md",
+      "kind": "official-document",
+      "bytes": 144,
+      "sha256": "3fbc4e23195d8f23ffc3afe80e721f867dc94f4a41e78730af2ed05c9f6750e7",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/digit-separators/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/extension-types/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/6cef4003057a3f9c23897b5d.md",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "8c43ba7bec2cb52adc6cbb844c609e40b5af4a2702d9dcafa48629a01babfbd0",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/extension-types/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/parts-with-imports/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/5d10a098e7eabcb8b9d4437b.md",
+      "kind": "official-document",
+      "bytes": 42360,
+      "sha256": "e44f05f19768d1165f2cf26282949622973fa26859381e351be950424015a7bc",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/parts-with-imports/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/primary-constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3abad7729eead74616adb2d5.md",
+      "kind": "official-document",
+      "bytes": 149,
+      "sha256": "b1aad20967f51246589bd47cc1ba117f8c7245c543949fe00c20a2b578a4df5e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/primary-constructors/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/records/records-feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/154af97e50aa62f3d8946ef9.md",
+      "kind": "official-document",
+      "bytes": 135,
+      "sha256": "88eb681f551169b4c4404b57861af131edd6440f0e8392626a0a331af7f010e2",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/records/records-feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/unquoted-imports/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/7ef7332c75da21c48c151ed9.md",
+      "kind": "official-document",
+      "bytes": 24829,
+      "sha256": "b0e40e8a7739f86019961e95c03b0bd900f85003133a5a66ff086d2d38d74d08",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/unquoted-imports/feature-specification.md"
+    },
+    {
+      "path": "accepted/future-releases/wildcard-variables/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1734da996f14a30c6ef465f9.md",
+      "kind": "official-document",
+      "bytes": 146,
+      "sha256": "b70296f08c080060aab8d199d0c6942e3de668f8d30e1e62c2b0910b834a4c43",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/accepted/future-releases/wildcard-variables/feature-specification.md"
+    },
+    {
+      "path": "archive/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/92f96b37e66919d4365f2496.md",
+      "kind": "official-document",
+      "bytes": 1734,
+      "sha256": "d0e1125db31c6de2203f1c0df5f39ae72b72547eed5c6bea9142d818fc3ad511",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/archive/README.md"
+    },
+    {
+      "path": "archive/newsletter/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/6b62821047c0e28f1a50b160.md",
+      "kind": "official-document",
+      "bytes": 2897,
+      "sha256": "aa2bfe3d80f90eef0509ac35d4a3dfa2ae8ccf6c814bde7f623b749abfb7fc6a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/archive/newsletter/README.md"
+    },
+    {
+      "path": "doc/life_of_a_language_feature.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/767478b442360463b572538c.md",
+      "kind": "official-document",
+      "bytes": 19648,
+      "sha256": "e45f2bcb9eae375cfe3a05abad55278de28efbb88a44a31deed742138615905a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/doc/life_of_a_language_feature.md"
+    },
+    {
+      "path": "resources/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/056d3c1d53b6a7de6e316bb9.md",
+      "kind": "official-document",
+      "bytes": 156,
+      "sha256": "19d2aa97505f01c03d2eb34b37689861c34a9ca1d018ba155d993385351ae6ff",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/README.md"
+    },
+    {
+      "path": "resources/String Class Issues.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/07e47f17aab711eb289060f9.md",
+      "kind": "official-document",
+      "bytes": 22780,
+      "sha256": "623bf00572a9edac03d21225765576c8e96250ed285ecad498d4023e7a64c0a4",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/String Class Issues.md"
+    },
+    {
+      "path": "resources/backgroundhow-other-languages-manage-breakage.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/ad4e72054051b6b95df95845.md",
+      "kind": "official-document",
+      "bytes": 10712,
+      "sha256": "c59e8694cc6578fb9a05f9ff30f319b131f7b41c3367c5c0a60fe99bf5539ed1",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/backgroundhow-other-languages-manage-breakage.md"
+    },
+    {
+      "path": "resources/bazel/module-structure.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/c7b6cb050df242863d199f31.md",
+      "kind": "official-document",
+      "bytes": 7035,
+      "sha256": "14bd9a16627189ffb1e09cc1e926e1c6429676602395dd98573f782217a6c6ab",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/bazel/module-structure.md"
+    },
+    {
+      "path": "resources/class-capabilities/class-capabilities.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e6db9fc5e5bc057265825207.md",
+      "kind": "official-document",
+      "bytes": 7849,
+      "sha256": "f0bb63493d63f575bc4c6e404c0d0f3df054a9357854dfa93b7434672177b505",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/class-capabilities/class-capabilities.md"
+    },
+    {
+      "path": "resources/instance-initialization-analysis.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3f8842034b3f6f924441f20b.md",
+      "kind": "official-document",
+      "bytes": 7230,
+      "sha256": "8941a80a512f437394c538d8a4b0fe1dfeb21028041c23fd2a3d1ed2ec14db35",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/instance-initialization-analysis.md"
+    },
+    {
+      "path": "resources/old-non-nullable-types.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2cb30c6d66fa8801115b9e93.md",
+      "kind": "official-document",
+      "bytes": 34132,
+      "sha256": "5a141ad828152627b42233faab92e24c6ea99e998b23742f750f30165ed2cd8a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/old-non-nullable-types.md"
+    },
+    {
+      "path": "resources/optional-semicolons-prototype.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/6a1493e1c08adb9559db778c.md",
+      "kind": "official-document",
+      "bytes": 13541,
+      "sha256": "e03ce5cf6b20ec1c41c9820655071df508ea4602a2b38a6ed10546415d7c65f5",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/optional-semicolons-prototype.md"
+    },
+    {
+      "path": "resources/type-system/flow-analysis.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a1a4ae6002cebb2c33b000b0.md",
+      "kind": "official-document",
+      "bytes": 46275,
+      "sha256": "c5f299251cb3df4884befbb0582da16c3912a885ae38e54a61a3dec3e9d7da8d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/flow-analysis.md"
+    },
+    {
+      "path": "resources/type-system/inference.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b63d5bbee8f372d092f36b96.md",
+      "kind": "official-document",
+      "bytes": 82017,
+      "sha256": "b1dc1726155d802bfff10b1051943d624e698ce8e9aee81667735afc50233484",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/inference.md"
+    },
+    {
+      "path": "resources/type-system/normalization.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/ff4f3de26bd032f9a5ac22ce.md",
+      "kind": "official-document",
+      "bytes": 4046,
+      "sha256": "d86b97eb7c2a495500cfc886460ae081f28f6544b5b4f13e42ea606ea71b4d9e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/normalization.md"
+    },
+    {
+      "path": "resources/type-system/strict-casts.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b0ad8d9852773953691b34cd.md",
+      "kind": "official-document",
+      "bytes": 3131,
+      "sha256": "d5e129db317077d496aeddf26ec9d87e75f94f26f09aa51c46177e2c302b5171",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/strict-casts.md"
+    },
+    {
+      "path": "resources/type-system/strict-inference.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f82d85c323b0d26229235366.md",
+      "kind": "official-document",
+      "bytes": 13971,
+      "sha256": "25a77c3001d5c3ec98f0f9aa71d96118d86a63da760501480d98a7fe111a67a8",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/strict-inference.md"
+    },
+    {
+      "path": "resources/type-system/strict-raw-types.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2be13e14dc5ac5c0625e21da.md",
+      "kind": "official-document",
+      "bytes": 4005,
+      "sha256": "239412b1dc6d632cc9550eba3ceb57dd7e8f1b42ae34831e7f93e0a446125214",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/strict-raw-types.md"
+    },
+    {
+      "path": "resources/type-system/subtyping.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/b377f9d9825e86db361a7caa.md",
+      "kind": "official-document",
+      "bytes": 35840,
+      "sha256": "90d1ff5b238c2318e66424ea76871c0347e1092574ef9edf6acff69326261a81",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/subtyping.md"
+    },
+    {
+      "path": "resources/type-system/upper-lower-bounds.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e5a867153b34645cb6ebe548.md",
+      "kind": "official-document",
+      "bytes": 17006,
+      "sha256": "a14ee36eaefa51ffad88fb52ca29d06c90e677e0ac098d64d62959a768e2de67",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/type-system/upper-lower-bounds.md"
+    },
+    {
+      "path": "resources/warnings.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/858c3af97a4e5a0e5f941da2.md",
+      "kind": "official-document",
+      "bytes": 4797,
+      "sha256": "af61ed18fd382e389269422a6e80a6d76161fb8da97d9853755785993db1c096",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/resources/warnings.md"
+    },
+    {
+      "path": "tools/corpus/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0625ca00c8b3dd3ff8f619cf.md",
+      "kind": "official-document",
+      "bytes": 1420,
+      "sha256": "421e9809db1d69f382819621c149e198fa5f24205efcf4aa33a171ce2fe0339c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/tools/corpus/README.md"
+    },
+    {
+      "path": "working/0015-infer-required/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/ac916c94332010a23e43e65c.md",
+      "kind": "official-document",
+      "bytes": 8022,
+      "sha256": "13436ef8a1ca949c8f03b4febe987f522a1fac9a853c66be381637945a9ffcf7",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0015-infer-required/feature-specification.md"
+    },
+    {
+      "path": "working/0093 - Gradual Language Change Migration/0094 - Per Library Language Version Selection/strawman.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1187490a24f345298fa811e0.md",
+      "kind": "official-document",
+      "bytes": 21557,
+      "sha256": "9cabdea517ada5663e8f505d3039e43a60d5bdcfea7a140d61d474fe7a4c1ecd",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0093 - Gradual Language Change Migration/0094 - Per Library Language Version Selection/strawman.md"
+    },
+    {
+      "path": "working/0107 - implicit-constructors/feature-brainstorm.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/85d0f1c04cc4e23c424b3802.md",
+      "kind": "official-document",
+      "bytes": 2732,
+      "sha256": "7399bba61be9a14885f639ab9bc82a8ffa387ed45c7428103e183a7c19085c16",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0107 - implicit-constructors/feature-brainstorm.md"
+    },
+    {
+      "path": "working/0107 - implicit-constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/9501fc0eb2e1b9d6f1c8d79c.md",
+      "kind": "official-document",
+      "bytes": 27319,
+      "sha256": "9513bfd281cc9e903be3fceef977d895a10637654c8eb1161262310ce485afe9",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0107 - implicit-constructors/feature-specification.md"
+    },
+    {
+      "path": "working/0125-static-immutability/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2bb65535ba5be84be7dc86dc.md",
+      "kind": "official-document",
+      "bytes": 9042,
+      "sha256": "9ea6ac609191cb0458d20ec2c9f3ad7b3c10b1890a567cdc17cac31d34227ad4",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0125-static-immutability/feature-specification.md"
+    },
+    {
+      "path": "working/0158 - Enhanced Enum/feature_specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/647fa77b5ea830adb62a8049.md",
+      "kind": "official-document",
+      "bytes": 20927,
+      "sha256": "9e564f0407c416f3a9a21f3f024892cf7b12cddc350eeb1a46ff695fdc849b08",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0158 - Enhanced Enum/feature_specification.md"
+    },
+    {
+      "path": "working/0158 - Enhanced Enum/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3ec428f22a4dce680426df07.md",
+      "kind": "official-document",
+      "bytes": 9990,
+      "sha256": "e807c438b40dbbd029240b2abc5023f39e55ae3434dbbcfdb5808030521f0ac6",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0158 - Enhanced Enum/proposal.md"
+    },
+    {
+      "path": "working/0260-anonymous-methods/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/866ae2f4c7944f1db05e62d8.md",
+      "kind": "official-document",
+      "bytes": 17052,
+      "sha256": "80cc3dc1ef284b90e55be632abdc2c626b6c43a965103674a5f18d7cff9d685e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0260-anonymous-methods/feature-specification.md"
+    },
+    {
+      "path": "working/0323-null-aware-elements/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/7943bed07ef2ba64726c71e0.md",
+      "kind": "official-document",
+      "bytes": 188,
+      "sha256": "0a7aa220a7504cccaa6c1631da83b2bb50e40676d790ec0c734a53661999b814",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0323-null-aware-elements/feature-specification.md"
+    },
+    {
+      "path": "working/0524-variance/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/eb9b46552ecc6565f9c426aa.md",
+      "kind": "official-document",
+      "bytes": 20114,
+      "sha256": "87a67aa1d186812bbf195f41dc3f1f92815058a5c12f186c7d0759b830a55b36",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0524-variance/feature-specification.md"
+    },
+    {
+      "path": "working/0546-patterns/exhaustiveness.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3db2dbb0613595ea9e9a591f.md",
+      "kind": "official-document",
+      "bytes": 148,
+      "sha256": "608ef7146caca65131e1df4c30501da54d99265f5b4c020babaf29c38d126576",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0546-patterns/exhaustiveness.md"
+    },
+    {
+      "path": "working/0546-patterns/goals-and-constraints.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/55cf13bc5ebfb81892c9ebb8.md",
+      "kind": "official-document",
+      "bytes": 155,
+      "sha256": "3a0290743edf596f0cabbf73e49475aa94e69cc848e59854412e8cf339dd2ea3",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0546-patterns/goals-and-constraints.md"
+    },
+    {
+      "path": "working/0546-patterns/patterns-feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/4f7dd83d44f89cec4e2925d0.md",
+      "kind": "official-document",
+      "bytes": 155,
+      "sha256": "a0ebb54c89619e37d228cbfdfd5f6aea58c852ace09b895c0290b20c4eff6a18",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0546-patterns/patterns-feature-specification.md"
+    },
+    {
+      "path": "working/0546-patterns/why-two-kinds-of-patterns.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d7025438676f0a3b1d40dfc3.md",
+      "kind": "official-document",
+      "bytes": 159,
+      "sha256": "3a6d9a90e0bb9efc70feaca66ddb97870380a87330058fb46cf7033774c9a8b3",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0546-patterns/why-two-kinds-of-patterns.md"
+    },
+    {
+      "path": "working/0649 - Import shorthand/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a7fa5a2fd37f61616f80ac72.md",
+      "kind": "official-document",
+      "bytes": 377,
+      "sha256": "399f7a85feae3bcab2fc0a564cffbe3707d183ee209328e9690534744f6e45cc",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0649 - Import shorthand/proposal.md"
+    },
+    {
+      "path": "working/0698 - Enhanced Default Constructors/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1bfd59e1638bed41df802c4c.md",
+      "kind": "official-document",
+      "bytes": 23944,
+      "sha256": "5e99038bbfc1bded4c2e9c3f6552f69bfa04cc46bd558eb8e1b91f39421395ce",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0698 - Enhanced Default Constructors/proposal.md"
+    },
+    {
+      "path": "working/0723-static-extensions/feature-specification-variant1.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/4551afa0e020e5aa0a168ab5.md",
+      "kind": "official-document",
+      "bytes": 24338,
+      "sha256": "b4974ac92bd413615eeb9b7dc3ee38b872ea20de878e464a0c2879e62770c56e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0723-static-extensions/feature-specification-variant1.md"
+    },
+    {
+      "path": "working/0723-static-extensions/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8be83ba88055c90a60e35b63.md",
+      "kind": "official-document",
+      "bytes": 49599,
+      "sha256": "bfe07c0e0bb359e1f461a4fb42b02aeaf848f7ef475b17267ef23f78e19f6159",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0723-static-extensions/feature-specification.md"
+    },
+    {
+      "path": "working/0731 - horizontal inference/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e16c7624d4150eb0d4a85080.md",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "2045e3fa89db7fbc7476092a568d5eaeccd8a754252913c73809d61064b3d186",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0731 - horizontal inference/feature-specification.md"
+    },
+    {
+      "path": "working/0884/interface_default_methods_proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/15735455fd6fc458948f1f41.md",
+      "kind": "official-document",
+      "bytes": 6863,
+      "sha256": "ba15899c15edded21b266a9ab4118ee65c98a78667ea7de306bab4e672171d48",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/0884/interface_default_methods_proposal.md"
+    },
+    {
+      "path": "working/1113 - null-asserting compound assignment/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/03cdbd2ae22e24612ce5bec0.md",
+      "kind": "official-document",
+      "bytes": 5574,
+      "sha256": "af5b8c0248e3644b639f7b65e9b0acaf3ac0742c705a0705cf9d791898318bb6",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1113 - null-asserting compound assignment/proposal.md"
+    },
+    {
+      "path": "working/1426-extension-types/feature-specification-inline-classes.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d122a61ab7574ce795ab3f73.md",
+      "kind": "official-document",
+      "bytes": 47591,
+      "sha256": "0b116aeea64b16e69a29aac29edf87d5f9db24fac1a504b8c56bad4b6a5e5755",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1426-extension-types/feature-specification-inline-classes.md"
+    },
+    {
+      "path": "working/1426-extension-types/feature-specification-views.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/02a9062bfa4a1f578aa05113.md",
+      "kind": "official-document",
+      "bytes": 41573,
+      "sha256": "46a12a9713305a4c802e737c41954f7b37ca3b7410e4839c96fd4d4120ebea0a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1426-extension-types/feature-specification-views.md"
+    },
+    {
+      "path": "working/1426-extension-types/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e04a930917e00f2dc9138605.md",
+      "kind": "official-document",
+      "bytes": 45718,
+      "sha256": "bc3c84100d01fad0d73fd770dcedcaebd07cbb03f33df6542511f5936601ea4b",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1426-extension-types/feature-specification.md"
+    },
+    {
+      "path": "working/1610 - override/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/ba7abd499d848cdf9f1f3526.md",
+      "kind": "official-document",
+      "bytes": 12956,
+      "sha256": "408a9266b9522221bf2d34e02619b7bfa30f8085c463971667ee7de126cbc6fa",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1610 - override/proposal.md"
+    },
+    {
+      "path": "working/1661 - unawaited futures/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/77e623978c1b08f0b569da14.md",
+      "kind": "official-document",
+      "bytes": 14776,
+      "sha256": "63c8f0be38d6fe250c5cb27672a60dc968ccc2bc0ddb184c85e4bc837e8d6090",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1661 - unawaited futures/proposal.md"
+    },
+    {
+      "path": "working/1855 - super parameters/package_evaluation.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/4ae6ceff3c62ba409f23c938.md",
+      "kind": "official-document",
+      "bytes": 17633,
+      "sha256": "feab848e97d8848223d7b08d07797a56b7c07adac0364d53f2d4826851b50f9d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1855 - super parameters/package_evaluation.md"
+    },
+    {
+      "path": "working/1855 - super parameters/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e700291f77bb87bdf1d7d57e.md",
+      "kind": "official-document",
+      "bytes": 300,
+      "sha256": "c48243c9eafbe38970706f3d81fe965f48b62fe20bd26e63d6a887454b6fd353",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/1855 - super parameters/proposal.md"
+    },
+    {
+      "path": "working/2364 - primary constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f95951eca167638e987aca65.md",
+      "kind": "official-document",
+      "bytes": 225,
+      "sha256": "ac4e18954bdcf9cf5fee223ee582c6219c94a3363c73cae5329543fcf21d9adc",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/2364 - primary constructors/feature-specification.md"
+    },
+    {
+      "path": "working/2509-private-named-parameters/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/2282711790fbc4c9758a19ec.md",
+      "kind": "official-document",
+      "bytes": 155,
+      "sha256": "331b54b1d6020672de4dd302228fa26783ee2270e4eca935572a72ad8609f3c3",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/2509-private-named-parameters/feature-specification.md"
+    },
+    {
+      "path": "working/2936 - Unresolved constants/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/5eb141c863bb84212ac7fde8.md",
+      "kind": "official-document",
+      "bytes": 11690,
+      "sha256": "21a65c5d03dc20ea65aabf919284a0ce71346186f5ddc810e884e9e50dc46147",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/2936 - Unresolved constants/proposal.md"
+    },
+    {
+      "path": "working/3102 - implied-name/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/5b193b7af5e2a43565324771.md",
+      "kind": "official-document",
+      "bytes": 14048,
+      "sha256": "a7d89d1a16f74ed34d17f82a214c0ced1c5321181954fe66d929141f9f750d09",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/3102 - implied-name/feature-specification.md"
+    },
+    {
+      "path": "working/333 - shared memory multithreading/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/48a62b1b4c658f597b33c2a3.md",
+      "kind": "official-document",
+      "bytes": 58162,
+      "sha256": "34a8cfe7a0c855f4879c084a2d53cc013b15bf93fb07411bdc06cba06e4cc725",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/333 - shared memory multithreading/proposal.md"
+    },
+    {
+      "path": "working/333 - shared memory multithreading/shared_native_memory.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0e2ec8a393ebd3ec0fb32edd.md",
+      "kind": "official-document",
+      "bytes": 37224,
+      "sha256": "a9a1c66f522fd3afd89d96610de8c89cabc31d472d1a02d29f42b5f9114eea03",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/333 - shared memory multithreading/shared_native_memory.md"
+    },
+    {
+      "path": "working/3616 - enum value shorthand/proposal-lrhn.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/6cb476451dcf18080ee613d8.md",
+      "kind": "official-document",
+      "bytes": 23671,
+      "sha256": "7ddd3d314f0f437c8bef308428f404bceb750c0622133ac6ea26131111fbe6da",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/3616 - enum value shorthand/proposal-lrhn.md"
+    },
+    {
+      "path": "working/3616 - enum value shorthand/proposal-simple-lrhn.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/047e4537c932f16f50ec8dcb.md",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "218b8db3305e87c05cb600836fa752e1d8bd4d8fdfc1c9df57de78a10816ef7b",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/3616 - enum value shorthand/proposal-simple-lrhn.md"
+    },
+    {
+      "path": "working/4200-metaobjects/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/cc8997dd37e5e534ac8ce387.md",
+      "kind": "official-document",
+      "bytes": 29609,
+      "sha256": "79fdb916ae40ed277350ff5e91eeb29fc8154ec443f09c0147f7e9d07a4253f4",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/4200-metaobjects/feature-specification.md"
+    },
+    {
+      "path": "working/4213-generic-constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/16a6c7e0f31d2d19b879af01.md",
+      "kind": "official-document",
+      "bytes": 16666,
+      "sha256": "c68a5d5d9a0417b94a246dc72c48d6b4ebaf7acad5ad43b2a64966a1e2599ca8",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/4213-generic-constructors/feature-specification.md"
+    },
+    {
+      "path": "working/4271 - static enough metaprogramming/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d6bb9e0927149108d1019970.md",
+      "kind": "official-document",
+      "bytes": 50840,
+      "sha256": "ac51fc6a2bbcfe2d36b1128341953615dea0eaac6cc43487e4ed17364f041af0",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/4271 - static enough metaprogramming/proposal.md"
+    },
+    {
+      "path": "working/README.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/99be138151788c81b13f111a.md",
+      "kind": "official-document",
+      "bytes": 200,
+      "sha256": "bd0f6958284f49c8e2fe80eabed4ed2e37ff0a1eceeba12ef20de998ad303d3a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/README.md"
+    },
+    {
+      "path": "working/augmentation-libraries/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/163b9e368f5b01b786df0607.md",
+      "kind": "official-document",
+      "bytes": 102,
+      "sha256": "09561da572b6115cb26f4c9b58d227888e5de9414b938c069706aab12e09d491",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/augmentation-libraries/feature-specification.md"
+    },
+    {
+      "path": "working/augmentation-libraries/parts_with_imports.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/4d8166303d7f4bc1b982f77a.md",
+      "kind": "official-document",
+      "bytes": 129,
+      "sha256": "843a8965266fe1f1551cac54085422c0b8382d4dabdd74ee56e6cb2d23aa5ff5",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/augmentation-libraries/parts_with_imports.md"
+    },
+    {
+      "path": "working/augmentations/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/9088621b6c6f336cd95ca4c7.md",
+      "kind": "official-document",
+      "bytes": 73794,
+      "sha256": "82f8de97f7738a6c7408a0876db9334bf6d92d6d377a4d1dd3c052cca0d79681",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/augmentations/feature-specification.md"
+    },
+    {
+      "path": "working/base-interface-final/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/409256e699bbd5716639607a.md",
+      "kind": "official-document",
+      "bytes": 157,
+      "sha256": "e72d5ecc05336a2b985b4a45782d0ff83722086ee63f5eea151893aff1dacd5d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/base-interface-final/feature-specification.md"
+    },
+    {
+      "path": "working/declaring-constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/c135483316a7f6c2a742680a.md",
+      "kind": "official-document",
+      "bytes": 24596,
+      "sha256": "146df9aedc48846ae62f615b784d7246f56f903b81ff07df153849ad31c56a3c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/declaring-constructors/feature-specification.md"
+    },
+    {
+      "path": "working/deprecation_compatibility/proposal.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/86575c725fa45e27131d77dd.md",
+      "kind": "official-document",
+      "bytes": 5369,
+      "sha256": "b80b8d19cb2a847437261342235ab5a77a853dec37a2c99658551e98cbc59c3d",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/deprecation_compatibility/proposal.md"
+    },
+    {
+      "path": "working/digit-separators/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/64df826d224e5eb82355b59c.md",
+      "kind": "official-document",
+      "bytes": 166,
+      "sha256": "0d9c07f6e64c7c39061de1c2e5d9b06f65e9d75b3deaf8f76b965cf1cf220337",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/digit-separators/feature-specification.md"
+    },
+    {
+      "path": "working/enhanced-constructors/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f148ca04e9e980422b2b1ed9.md",
+      "kind": "official-document",
+      "bytes": 38844,
+      "sha256": "17dbd2b1d7c4bcba8bfb0a7d9fd43e619eecc7492d3b2e6852ffd7df59d650fe",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/enhanced-constructors/feature-specification.md"
+    },
+    {
+      "path": "working/extension_structs/overview.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/ca02287dfdfe1dee482df269.md",
+      "kind": "official-document",
+      "bytes": 36030,
+      "sha256": "e88246b123e446c3cfa15c58ca69c6aeaea36d007550871628199872eabcd255",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/extension_structs/overview.md"
+    },
+    {
+      "path": "working/field-promotion/proposals-overview.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3fc599c36bad7c524e047a8d.md",
+      "kind": "official-document",
+      "bytes": 20568,
+      "sha256": "ac43b2d214b71d9ef78c011e355334de202ce00169fee5bd0a19be39aa717167",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/field-promotion/proposals-overview.md"
+    },
+    {
+      "path": "working/macros/aspect-macros.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/e2cf2a998ea2e466bceeef9a.md",
+      "kind": "official-document",
+      "bytes": 7094,
+      "sha256": "19907872c64d3e197ddfca1921ae672ffffdd22096970db57776ebfecfc3487e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/macros/aspect-macros.md"
+    },
+    {
+      "path": "working/macros/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0d45d412a06ec2f758d89d3e.md",
+      "kind": "official-document",
+      "bytes": 73166,
+      "sha256": "5ed82b26807c3291218e207eab8f7e51c18c39335ef59ab9e89e4f561fe71256",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/macros/feature-specification.md"
+    },
+    {
+      "path": "working/macros/host-notes.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/bf949e09959b118bfae8ca4f.md",
+      "kind": "official-document",
+      "bytes": 2311,
+      "sha256": "ba37b9243849bb0f9ed94cdd0b6509050149cda3e963ec1c864d53931947fb2e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/macros/host-notes.md"
+    },
+    {
+      "path": "working/macros/motivation.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/d47bf399aed0ea323e0cb866.md",
+      "kind": "official-document",
+      "bytes": 19595,
+      "sha256": "9efeea34dd3852f32ddd7e27e94dcf94d4f612b59e4baf48cb657227f59da670",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/macros/motivation.md"
+    },
+    {
+      "path": "working/modules/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0e314a52a59b17589f1f51e1.md",
+      "kind": "official-document",
+      "bytes": 20556,
+      "sha256": "9539d5c6030dec94e7b7d35d5ec821de9681aa0f4547a2fc578956e913e34ab8",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/modules/feature-specification.md"
+    },
+    {
+      "path": "working/modules/motivation.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/300d14b8915e3b56b96fcf58.md",
+      "kind": "official-document",
+      "bytes": 12037,
+      "sha256": "72a1f2fab9f06668acff52082248ad41ccf261b9af1145902ba912aacd43d996",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/modules/motivation.md"
+    },
+    {
+      "path": "working/modules/private-imports.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1b384b578f88062d6f784bc5.md",
+      "kind": "official-document",
+      "bytes": 12687,
+      "sha256": "5313a38e70ee10684ff8c508012441ce854b63c9314bf384b5ccd3cacaebb877",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/modules/private-imports.md"
+    },
+    {
+      "path": "working/parts-with-imports/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/eecf74a8c0b5273e5725d3c1.md",
+      "kind": "official-document",
+      "bytes": 207,
+      "sha256": "7b84519218fbe5479c9b05c57a2fa03700ddde2266955b813c10c108c2ac3a4a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/parts-with-imports/feature-specification.md"
+    },
+    {
+      "path": "working/reflected-imports/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/149db829a7b381fd6fa37435.md",
+      "kind": "official-document",
+      "bytes": 13313,
+      "sha256": "17f028e352966d5755d7f802b5aa2731efb21340e41ded0831b4fd88b3fec7ae",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/reflected-imports/feature-specification.md"
+    },
+    {
+      "path": "working/remove-old-function-syntax/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/afab7adf5ab6101a7843ac4b.md",
+      "kind": "official-document",
+      "bytes": 14984,
+      "sha256": "65c9e5beed89428c94d7cb8289a3309086121677afa8948548baa09a6f711aac",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/remove-old-function-syntax/feature-specification.md"
+    },
+    {
+      "path": "working/sealed-types/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/f4d292e2f744e3a84daa4388.md",
+      "kind": "official-document",
+      "bytes": 137,
+      "sha256": "2362ef21debc4d93c824ec3a3845867ce8d19e2c8e2931bff0c2cd658a014766",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/sealed-types/feature-specification.md"
+    },
+    {
+      "path": "working/simpler-parameters/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1a1238d843deb4dd0dd178fc.md",
+      "kind": "official-document",
+      "bytes": 21203,
+      "sha256": "cdebf42cec03741cf60dd1bbb45ade5ec5b89a63161059f1d73f5e155118bb79",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/simpler-parameters/feature-specification.md"
+    },
+    {
+      "path": "working/single-combinators/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1d6dcb66198da14eeeaa3a25.md",
+      "kind": "official-document",
+      "bytes": 4401,
+      "sha256": "ac1ea7d5d32d7b967e8202bcb1303cfa0a40ae94caf64c3a1ff0255be132498e",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/single-combinators/feature-specification.md"
+    },
+    {
+      "path": "working/specification/compositional semantics.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/8b47bffdf4d63cf5ed0a632a.md",
+      "kind": "official-document",
+      "bytes": 30291,
+      "sha256": "189bc192b5e9cfb6e70d5caa15585fd77442d0929cbab57f7c1bee12d79548ca",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/specification/compositional semantics.md"
+    },
+    {
+      "path": "working/static wrapper types/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/1f669748e3ff99ce011427ff.md",
+      "kind": "official-document",
+      "bytes": 5902,
+      "sha256": "ffb7f5466d191a5faa7b9a089a12ddbfbd9ce9ea60da5a88f58508c1b48c34d7",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/static wrapper types/feature-specification.md"
+    },
+    {
+      "path": "working/tagged-strings/alternative-generalized-feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/51e517bfd0c232d10debef80.md",
+      "kind": "official-document",
+      "bytes": 11655,
+      "sha256": "64dafa08610f7c102f00ffe1dcbbfd20752c1356e9e6daca82b81848462185b7",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/tagged-strings/alternative-generalized-feature-specification.md"
+    },
+    {
+      "path": "working/tagged-strings/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/a1963ba12224e970244bd0aa.md",
+      "kind": "official-document",
+      "bytes": 11638,
+      "sha256": "e880dd3c151e613b26d863db9ae40fd9eecf61b49be34699be5855f6eba82920",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/tagged-strings/feature-specification.md"
+    },
+    {
+      "path": "working/union-types/nominative-union-types.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/3e4cf9f9141e46242f14cf73.md",
+      "kind": "official-document",
+      "bytes": 15573,
+      "sha256": "3b9becc4d16199b6302df10a20650675c95256ae1de0fa2acbd292dacc45665c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/union-types/nominative-union-types.md"
+    },
+    {
+      "path": "working/unquoted-imports/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/0e540a4a8d19e7643e952c51.md",
+      "kind": "official-document",
+      "bytes": 156,
+      "sha256": "597c6f8beec92c0ea6986c6ee38f01c2b950dabd4bcccb98f596d49f7569b1ef",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/unquoted-imports/feature-specification.md"
+    },
+    {
+      "path": "working/value-classes/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/fb3b4d808601e378755d05e0.md",
+      "kind": "official-document",
+      "bytes": 23536,
+      "sha256": "fabe70cf25e7c2d44e2cc1e7b7faf522b9a2e89aa6415f0a8f8f38d9b0e1ec4a",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/value-classes/feature-specification.md"
+    },
+    {
+      "path": "working/wildcards/feature-specification.md",
+      "localPath": "raw/dart-lang--language/bebad8c4492a/4e850423d5a90b96b5403fde.md",
+      "kind": "official-document",
+      "bytes": 193,
+      "sha256": "0031b5058261b9f442a34fd264e0c899c69a0a86f0bd9496c1c8127a364bc84c",
+      "sourceUrl": "https://github.com/dart-lang/language/blob/bebad8c4492a8800edf2d37adda1159b43d6ae82/working/wildcards/feature-specification.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

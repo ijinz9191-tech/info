@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "repo": "pravega/pravega",
+  "commit": "3142a01075bfae78d66588e46ff87e6e10225744",
+  "retrievedAt": "2026-10-01T15:26:38.697965+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/App Definition and Development/Streaming & Messaging"
+  ],
+  "archiveUrl": "https://codeload.github.com/pravega/pravega/zip/3142a01075bfae78d66588e46ff87e6e10225744",
+  "archiveSha256": "4fc92a076a2d4cfecffa012107dac91ae7c2c4dc11f2d5d2b0bf63e100728121",
+  "archiveBytes": 10578532,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 68,
+    "code": 2,
+    "licenses": 2,
+    "bytes": 712225
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 3481,
+      "sha256": "ebbb2bb737e31e7cad33b076c9d20356a444fc7e273d54dc175a0aab7c0c801c",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/pravega--pravega/3142a01075bf/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/pravega--pravega/3142a01075bf/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 303,
+      "sha256": "ba467fcddfecd05c212cb4abba348db7f3953c1c6ba6432fd5b1d1f0707775c3",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5875,
+      "sha256": "3b231b8c5e1ea7b356536c085415588d18e0c83c6b9bea161cdf290f050bcd18",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/README.md"
+    },
+    {
+      "path": "cli/admin/README.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/d0acf2fd5c34c6701d6bbfb3.md",
+      "kind": "official-document",
+      "bytes": 23291,
+      "sha256": "d3d60f34cbb4d052889ef7d08738aadf1c3a86d0d7d29c9f190c7d2ec72a1000",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/cli/admin/README.md"
+    },
+    {
+      "path": "cli/user/README.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/9792efef3de42330694b8f7a.md",
+      "kind": "official-document",
+      "bytes": 5871,
+      "sha256": "c6bb36f6d9b5d68f97771e03ba722012cc627408e035b4a5915ec4903db71323",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/cli/user/README.md"
+    },
+    {
+      "path": "client/src/test/java/io/pravega/client/state/examples/MembershipSynchronizer.java",
+      "localPath": "raw/pravega--pravega/3142a01075bf/aaf09da4148501da69f52328.java",
+      "kind": "upstream-example-code",
+      "bytes": 9281,
+      "sha256": "3f82dc54aa3167dff5c6a982c9d84638b113a247289164d24160e8abae47a456",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/client/src/test/java/io/pravega/client/state/examples/MembershipSynchronizer.java"
+    },
+    {
+      "path": "client/src/test/java/io/pravega/client/state/examples/SetSynchronizer.java",
+      "localPath": "raw/pravega--pravega/3142a01075bf/a6432a51f2a2136de022f105.java",
+      "kind": "upstream-example-code",
+      "bytes": 7537,
+      "sha256": "770382eb5463e34e4d61d586cd76211d9d3fe880ffb7774cf82860712fae878b",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/client/src/test/java/io/pravega/client/state/examples/SetSynchronizer.java"
+    },
+    {
+      "path": "deployment/aws-eks/README.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/7099ac34956dd8f138268b6a.md",
+      "kind": "official-document",
+      "bytes": 7995,
+      "sha256": "da098794d3d465887a5b8861295080544c6fb197e9d468ec1dbc0fe82b62440b",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/deployment/aws-eks/README.md"
+    },
+    {
+      "path": "docker/compose/Readme.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/5c026cc7c60f9008c18a5a6d.md",
+      "kind": "official-document",
+      "bytes": 1863,
+      "sha256": "8a52cc49ef5d203ad7a90fe3e8f28682d6adbf2b55bdb00e5ec13b6def7c54ea",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/docker/compose/Readme.md"
+    },
+    {
+      "path": "docker/compose/swarm/Readme.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/be91ed3b07cdf110daa80b7c.md",
+      "kind": "official-document",
+      "bytes": 660,
+      "sha256": "c48d461f04c5bb8c08990edd3ac00078c177fbaf60d92a2a71f780afa891660f",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/docker/compose/swarm/Readme.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/cluster-dependencies.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/cb58fb31a31980a65f7257e4.md",
+      "kind": "official-document",
+      "bytes": 5769,
+      "sha256": "ec9b25252d745b41b244882605dcfe0350b1690309e0a153869be22ab2492678",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/cluster-dependencies.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/data-recovery-tools.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/4ce503a7065ae2a1603b118b.md",
+      "kind": "official-document",
+      "bytes": 9253,
+      "sha256": "a91c911745b69e71fbdda21e4c41d50d92c381438310f6c868a577a984a3fb62",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/data-recovery-tools.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/deploying-small-bookkeeper-clusters.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/585730bf6b75e24326730a3b.md",
+      "kind": "official-document",
+      "bytes": 9005,
+      "sha256": "86e7e559c7a18c93ec8596c498fefd2b66945497480245f68087606d7c72af5b",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/deploying-small-bookkeeper-clusters.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/durable-log-config.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/c8fa86d099c1946a6ece5b86.md",
+      "kind": "official-document",
+      "bytes": 6948,
+      "sha256": "1445b402282645dfc4644e42bd07d83e3ce339e5f6858792ba0fe31b63cd14a5",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/durable-log-config.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/lts-sizing.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/a14ca928c6b2da6013afd1f4.md",
+      "kind": "official-document",
+      "bytes": 12484,
+      "sha256": "93ef720ca69219d456036ebe595eb42d8ca6ab037bd21892b711d4cd319fbf5a",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/lts-sizing.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/num-containers.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/feb2ba791978647cbd0f0a51.md",
+      "kind": "official-document",
+      "bytes": 7002,
+      "sha256": "6f38240ea66ac36a12b3840ba2ff46a5d0719bcc918f8b3d3ab7fb1c8146c831",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/num-containers.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/operators.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/f41864375984aa489bcdce2a.md",
+      "kind": "official-document",
+      "bytes": 1236,
+      "sha256": "194dbe950b85953be77d2ed049b2ade6717ced044779ccfbbb72da33b1c18ff5",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/operators.md"
+    },
+    {
+      "path": "documentation/src/docs/admin-guide/segmentstore-memory.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/40e2aaf005e6afd523b8d46e.md",
+      "kind": "official-document",
+      "bytes": 4674,
+      "sha256": "0b19800946c2822676ffa1771503f1d698198557d44dd4305435906690c266a2",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/admin-guide/segmentstore-memory.md"
+    },
+    {
+      "path": "documentation/src/docs/auth/auth-plugin.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/155fb23a2e773898af9f5da4.md",
+      "kind": "official-document",
+      "bytes": 1649,
+      "sha256": "622f9896a408962b02be274c895201e44987b09e90633c8254073d8ef00f0175",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/auth/auth-plugin.md"
+    },
+    {
+      "path": "documentation/src/docs/auth/client-auth.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/e55125ac4d34fc590042eef7.md",
+      "kind": "official-document",
+      "bytes": 2644,
+      "sha256": "c73b250bca1a4060054327bdc4bdb2aba0b7b5bc2b22efd23267fc7073fc6d13",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/auth/client-auth.md"
+    },
+    {
+      "path": "documentation/src/docs/basic-reader-and-writer.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/814a6a5d18f5c505dcb0db4f.md",
+      "kind": "official-document",
+      "bytes": 24933,
+      "sha256": "e075faba295b9aa4edab9d0426a6bf0775e1e1775decfa297c1e793a0436b158",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/basic-reader-and-writer.md"
+    },
+    {
+      "path": "documentation/src/docs/beginner_dev_guide.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/2d5620829d6db08692d0f3b5.md",
+      "kind": "official-document",
+      "bytes": 10718,
+      "sha256": "957866a96d1397e8d4d5514bba471d4a3eddba63b54af70c2f3f5491ca663e09",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/beginner_dev_guide.md"
+    },
+    {
+      "path": "documentation/src/docs/bindings.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/2e81950c2ce6528df0f670a3.md",
+      "kind": "official-document",
+      "bytes": 1346,
+      "sha256": "1a871f281c9964d1bfab6899a941281dd3b0bbde580573572158592e2a9da6de",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/bindings.md"
+    },
+    {
+      "path": "documentation/src/docs/clients-and-streams.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/ff46eeeb9b71fcf55602eb1f.md",
+      "kind": "official-document",
+      "bytes": 39820,
+      "sha256": "88e08c41f9d6ab1c5d5ff50d83d30d59774238f5c6d8ae6230e167c3a4162bd0",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/clients-and-streams.md"
+    },
+    {
+      "path": "documentation/src/docs/connectors.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/4ef1e0f44c8652f2c7456c8c.md",
+      "kind": "official-document",
+      "bytes": 4004,
+      "sha256": "73b425ed6ce58bc54890c2880a48444c9eb4c6fb31ad3e7f6901ccb4ad2f8447",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/connectors.md"
+    },
+    {
+      "path": "documentation/src/docs/contributing.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/9c128ecd3d89678bc003b991.md",
+      "kind": "official-document",
+      "bytes": 874,
+      "sha256": "158065ca48eb0c35850526579cb5302e2b8e90834c8ba20e487c452c11efe994",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/contributing.md"
+    },
+    {
+      "path": "documentation/src/docs/controller-service.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/79b1d5795c98d96988f720a3.md",
+      "kind": "official-document",
+      "bytes": 67009,
+      "sha256": "49dac32d5c82b9d4a9f4b6a5715d0d94878588b33b9148d33c749543fe793832",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/controller-service.md"
+    },
+    {
+      "path": "documentation/src/docs/deployment/deployment.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/8a2c71271998fc0a46f021d2.md",
+      "kind": "official-document",
+      "bytes": 2927,
+      "sha256": "50457ab3ce56773210ab962f43c509cf28a3198601ee78e5594171763e97d6cd",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/deployment/deployment.md"
+    },
+    {
+      "path": "documentation/src/docs/deployment/docker-swarm.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/2686921727ae25d3f2f90084.md",
+      "kind": "official-document",
+      "bytes": 4967,
+      "sha256": "18ec1063556e7dea9aeb8aec335a254594e52e8153ecb09939e27534741c64d6",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/deployment/docker-swarm.md"
+    },
+    {
+      "path": "documentation/src/docs/deployment/manual-install.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/e0790de0762af88ed72b25bc.md",
+      "kind": "official-document",
+      "bytes": 6641,
+      "sha256": "16046a8775fc705732f0713c96c74b01323a0c848b4aefa85837ffbe4f0f761f",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/deployment/manual-install.md"
+    },
+    {
+      "path": "documentation/src/docs/deployment/run-local.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/6e69e6e0566cdedecd627e74.md",
+      "kind": "official-document",
+      "bytes": 5781,
+      "sha256": "f5d0f32969e4858f4d5814dda7e38803fb4e44ed1f785ed2fba0161c52d410cb",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/deployment/run-local.md"
+    },
+    {
+      "path": "documentation/src/docs/faq.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/787b086c98577d2ffa5b7865.md",
+      "kind": "official-document",
+      "bytes": 6385,
+      "sha256": "a45aded1506e1f03c6115fa775867bca89f6eb40ec24d462887b50ab9365d94b",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/faq.md"
+    },
+    {
+      "path": "documentation/src/docs/gateways.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/47c4d35ba60e00ca9e4c9c38.md",
+      "kind": "official-document",
+      "bytes": 1317,
+      "sha256": "94afb242a7b0e80b5ac0576591d86ef5383812761c2141547b9628cd00b52fa7",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/gateways.md"
+    },
+    {
+      "path": "documentation/src/docs/getting-started.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/45076abaa0edfc5c331971a0.md",
+      "kind": "official-document",
+      "bytes": 4394,
+      "sha256": "79ce9738c412d141a88961e1d08fcc4a9b55932e6491dc42f5b94365cad924ac",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/getting-started.md"
+    },
+    {
+      "path": "documentation/src/docs/getting-started/pravega-on-kubernetes-101.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/39507df4cf1f9f69736470d1.md",
+      "kind": "official-document",
+      "bytes": 15680,
+      "sha256": "744c7cbb31ed6a92dfef262a182f9e03270daef1cfa89f732f8e28fb1ae53696",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/getting-started/pravega-on-kubernetes-101.md"
+    },
+    {
+      "path": "documentation/src/docs/getting-started/quick-start.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/43cd9e798788a9c304fb0414.md",
+      "kind": "official-document",
+      "bytes": 2086,
+      "sha256": "d75b6cffbe1f6008d1ab02e812f17daa30fffa39c4a467e5904a104b299ad979",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/getting-started/quick-start.md"
+    },
+    {
+      "path": "documentation/src/docs/index.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/0021d7c3a5edbb2ae6f66fb6.md",
+      "kind": "official-document",
+      "bytes": 4370,
+      "sha256": "57475f4feabbd83237148850e603c41eaf0fc6866e76350cfe293e669a667df5",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/index.md"
+    },
+    {
+      "path": "documentation/src/docs/javadoc.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/6a27d72136dc5e5a5da238e7.md",
+      "kind": "official-document",
+      "bytes": 5464,
+      "sha256": "be3205861eaca59a637fee9e56d11fbd8a0ee99b8ca86c8160e5d2150bd39e67",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/javadoc.md"
+    },
+    {
+      "path": "documentation/src/docs/join-community.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/a4557397b24f8590f5287b95.md",
+      "kind": "official-document",
+      "bytes": 858,
+      "sha256": "c16faf6c81532dd0a50f802c2e567260bb915468ef8da7f5e3c564360ff03606",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/join-community.md"
+    },
+    {
+      "path": "documentation/src/docs/key-features.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/1fefc21337df26b75333cb42.md",
+      "kind": "official-document",
+      "bytes": 19920,
+      "sha256": "ae08fd629ac4bf1196457f671306b712807cfea6ea5340c891828dd6dc3607d6",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/key-features.md"
+    },
+    {
+      "path": "documentation/src/docs/metrics.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/e248c943cedcef3f16f67d03.md",
+      "kind": "official-document",
+      "bytes": 27043,
+      "sha256": "4ee2448361dae62f58a3d05de4215e3afd2b1a0f4ef4fe7efb126e96c3ca40a8",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/metrics.md"
+    },
+    {
+      "path": "documentation/src/docs/pravega-concepts.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/f01f30b7f0cae88f783cd95f.md",
+      "kind": "official-document",
+      "bytes": 31010,
+      "sha256": "8f3f595abff9deb3e007575c776c6d7d8103d9ff68b5eb119bf0d15368935512",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/pravega-concepts.md"
+    },
+    {
+      "path": "documentation/src/docs/reader-group-design.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/c9d61754fd280f60f345104c.md",
+      "kind": "official-document",
+      "bytes": 8570,
+      "sha256": "f23c0c0f3af926d782c3e465f7735301397237a8ad8eb05a06bcb820888d6ef7",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/reader-group-design.md"
+    },
+    {
+      "path": "documentation/src/docs/reader-group-notifications.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/21df6fb84a8b6387c8a8a28c.md",
+      "kind": "official-document",
+      "bytes": 3676,
+      "sha256": "e6e7fab26c64317130c042b108dd419e022e467b3ee605be94002231c26ebe0e",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/reader-group-notifications.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/enable-durable-data-log.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/5f7bbaf453fe19ab1de4ee49.md",
+      "kind": "official-document",
+      "bytes": 3932,
+      "sha256": "006218294e25557493e0bb7c0be1d008c7e1f396c144327d936f190c74e283dc",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/enable-durable-data-log.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/lts-auto-recovery-steps.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/1b4a6816988a9316b47b3fc4.md",
+      "kind": "official-document",
+      "bytes": 2061,
+      "sha256": "cb4281511c76945adde859b18edd508047aa16ffb9e549ed9f210176feb10c3f",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/lts-auto-recovery-steps.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/lts-recovery-steps.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/854d7c66c9c98dd5f71981cc.md",
+      "kind": "official-document",
+      "bytes": 3523,
+      "sha256": "3fc6b62392fbb5c27105bb116b8771cab6cc9833b79a0e6690d5d22edc8306c6",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/lts-recovery-steps.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/metadata-table-segment-recovery.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/b399ee2da5baab34a710f1be.md",
+      "kind": "official-document",
+      "bytes": 7121,
+      "sha256": "9196fd078ca53845a86e12905175c5b3c31801c782c187dbc5fb91323377e7ea",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/metadata-table-segment-recovery.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/reattaching-lts.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/7c40693562b7a0d78d4a52e9.md",
+      "kind": "official-document",
+      "bytes": 5567,
+      "sha256": "2ffaa66bacc3730e670adabe80513adce22b74b403a55df42a0b05861636a4ee",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/reattaching-lts.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/table-segment-recover-pre-index-full.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/9cdfcbba69671158c491e137.md",
+      "kind": "official-document",
+      "bytes": 6734,
+      "sha256": "68093f731d942e52fb9cecee63fb685c37b2034e2371ed9e814d55998b41689e",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/table-segment-recover-pre-index-full.md"
+    },
+    {
+      "path": "documentation/src/docs/recovery-procedures/table-segment-recovery.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/df7f602c2dc201e279c70f55.md",
+      "kind": "official-document",
+      "bytes": 17356,
+      "sha256": "e82e43360c7650e551e3322a3fce0b0f96459265705c53a0192ec658bc8e6f4b",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/recovery-procedures/table-segment-recovery.md"
+    },
+    {
+      "path": "documentation/src/docs/releasenotes.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/8bd5a224b6229e02b0778e9f.md",
+      "kind": "official-document",
+      "bytes": 766,
+      "sha256": "6132790be414b2a0b536c119dbb06313754728c435048ecbfe379b3025f415c5",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/releasenotes.md"
+    },
+    {
+      "path": "documentation/src/docs/rest/restapis.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/352d95b3e4d09ebbe8137763.md",
+      "kind": "official-document",
+      "bytes": 30062,
+      "sha256": "8a7a141cb30d6e5e3fe46a7a6a13378c5ed5bcf6300b16f288c8df4d595e16e1",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/rest/restapis.md"
+    },
+    {
+      "path": "documentation/src/docs/retention.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/b97166fa6bb3798696a8869b.md",
+      "kind": "official-document",
+      "bytes": 14675,
+      "sha256": "112f0d8464f473f4d042a81e90b8353e2766a27ca74654c1c26a83847e83a8fd",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/retention.md"
+    },
+    {
+      "path": "documentation/src/docs/roadmap.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/e1b69635a137b260e36325fc.md",
+      "kind": "official-document",
+      "bytes": 1704,
+      "sha256": "b1560b784b8c442cf59603c7f0752bdb403324b4ce32324863bc0210f116c22a",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/roadmap.md"
+    },
+    {
+      "path": "documentation/src/docs/security/generating-tls-artifacts.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/e111c76acb9533c0722c60a6.md",
+      "kind": "official-document",
+      "bytes": 16578,
+      "sha256": "27f3c06e8fc3cd233de4d7829b278e91f80d29b2868a62a8deaad455ed32b260",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/security/generating-tls-artifacts.md"
+    },
+    {
+      "path": "documentation/src/docs/security/pravega-security-authorization-authentication.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/87d7252e7ee2fe976fd3d865.md",
+      "kind": "official-document",
+      "bytes": 1991,
+      "sha256": "d60ae49a0364298abf8e2108123bb3b24c69afb89b5892abff4320263919cf62",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/security/pravega-security-authorization-authentication.md"
+    },
+    {
+      "path": "documentation/src/docs/security/pravega-security-configurations.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/25afd4a334769556202b6f0c.md",
+      "kind": "official-document",
+      "bytes": 18303,
+      "sha256": "f724423641a825dca49d81531aae2ac258f907299f5acea4fec6e6a6a0c2f47a",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/security/pravega-security-configurations.md"
+    },
+    {
+      "path": "documentation/src/docs/security/pravega-security-encryption.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/2f2eadb6a0de854cc05ad11e.md",
+      "kind": "official-document",
+      "bytes": 3013,
+      "sha256": "4a137e0156fe061e160b680c8291a70ac7fbf511779cd34201659fb1439059a1",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/security/pravega-security-encryption.md"
+    },
+    {
+      "path": "documentation/src/docs/security/securing-distributed-mode-cluster.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/1e4f664d9bd49870867a6529.md",
+      "kind": "official-document",
+      "bytes": 12711,
+      "sha256": "434dcea6323967680caded8ae127e2d4f5ac0e9e738aa6bdfe2cac0197f3cab1",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/security/securing-distributed-mode-cluster.md"
+    },
+    {
+      "path": "documentation/src/docs/security/securing-standalone-mode-cluster.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/6441623f44ff981671becb82.md",
+      "kind": "official-document",
+      "bytes": 9439,
+      "sha256": "3ddc2ea8c13ded12b5d2be78a95a29af08ca61e1becb136f8136545ee3f75795",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/security/securing-standalone-mode-cluster.md"
+    },
+    {
+      "path": "documentation/src/docs/segment-containers.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/9fe54e995ddb8777fda6d8b4.md",
+      "kind": "official-document",
+      "bytes": 2898,
+      "sha256": "6ab81da8ceb16b70ecf4b4951431b75a898d4090e8de52a98762030db2e6e423",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/segment-containers.md"
+    },
+    {
+      "path": "documentation/src/docs/segment-store-service.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/9156990532f0af448ee08539.md",
+      "kind": "official-document",
+      "bytes": 33834,
+      "sha256": "b124009d2f9ced7fdcefdda37afa51b8369471a832b93fb5cec327242fbdde88",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/segment-store-service.md"
+    },
+    {
+      "path": "documentation/src/docs/state-synchronizer-design.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/3e89d54ea1e7fce179a0b1a6.md",
+      "kind": "official-document",
+      "bytes": 5220,
+      "sha256": "3694d84813bbbde48e3d5fe27d3cc4ac99d60ba8dc58675419d782373fd07cd8",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/state-synchronizer-design.md"
+    },
+    {
+      "path": "documentation/src/docs/state-synchronizer.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/c3e1cdf44413b63531853162.md",
+      "kind": "official-document",
+      "bytes": 23104,
+      "sha256": "55f530a556e30e3c51e827d9a7f6b8b9630f42b2783e5d73d1b63469b578b796",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/state-synchronizer.md"
+    },
+    {
+      "path": "documentation/src/docs/streamcuts.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/3dcf92a9dd66366bbd0bffdd.md",
+      "kind": "official-document",
+      "bytes": 6274,
+      "sha256": "1a5b3c4118e545533fe5d17172a37f1da71afb9cc795698f641f5522a029ecbc",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/streamcuts.md"
+    },
+    {
+      "path": "documentation/src/docs/terminology.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/88635d643095284bcbc2e492.md",
+      "kind": "official-document",
+      "bytes": 13209,
+      "sha256": "fb70f6cf4e6c7f1aaa3cd40750809582f08d9711402616a67017e0d83f9076a9",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/terminology.md"
+    },
+    {
+      "path": "documentation/src/docs/transactions.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/2bbdf1c2fbd82b97d1e6d6c7.md",
+      "kind": "official-document",
+      "bytes": 9368,
+      "sha256": "bbf669f8305fedd695d3a12a8ddfeedefbeb962fb7574e2c3ca0ddf89ded4eea",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/transactions.md"
+    },
+    {
+      "path": "documentation/src/docs/watermarking.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/d102be55f93ee9589c30f09a.md",
+      "kind": "official-document",
+      "bytes": 10952,
+      "sha256": "403756d3eb9dab7a9349d25257cea215822605b35fed84961234609e2f416e00",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/watermarking.md"
+    },
+    {
+      "path": "documentation/src/docs/wire-protocol.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/492a3d31222fdc2db9ef4522.md",
+      "kind": "official-document",
+      "bytes": 11138,
+      "sha256": "d060bc445d5baa6b4285942bd970e8c56c378999e41dc734f66e4881dba5225a",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/documentation/src/docs/wire-protocol.md"
+    },
+    {
+      "path": "shared/controller-api/src/main/swagger/README.md",
+      "localPath": "raw/pravega--pravega/3142a01075bf/3bc4230c8eff9abd13985997.md",
+      "kind": "official-document",
+      "bytes": 2721,
+      "sha256": "b7ad948e521142a62076e5e97e8d4af3b9a72ffb1ff35524266c795f1bc57c5c",
+      "sourceUrl": "https://github.com/pravega/pravega/blob/3142a01075bfae78d66588e46ff87e6e10225744/shared/controller-api/src/main/swagger/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

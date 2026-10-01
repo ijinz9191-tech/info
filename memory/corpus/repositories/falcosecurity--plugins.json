@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "repo": "falcosecurity/plugins",
+  "commit": "33cbeb904822c973bd4806c0c72f39860a7fa8e9",
+  "retrievedAt": "2026-10-01T15:50:01.646198+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/falco-plugins"
+  ],
+  "archiveUrl": "https://codeload.github.com/falcosecurity/plugins/zip/33cbeb904822c973bd4806c0c72f39860a7fa8e9",
+  "selectionSha256": "f801df7f67bc572d9c00db405e8f58496287fa558797f57dc9eb658e2524dda4",
+  "selection": {
+    "docRoots": [
+      "plugins"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "29c7aeea8a583166e3a68c5cabf233546e432d51fd63add287363ca48e745237",
+  "archiveBytes": 1339783,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 53,
+    "code": 0,
+    "licenses": 2,
+    "bytes": 656097
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 16662,
+      "sha256": "84d085f7612d3ffc262ab1c7d01191e0ee7f6159440a9d08e1734ce2f3d17509",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/README.md"
+    },
+    {
+      "path": "docs/best-practices.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/d8d30e2aacd3f61d943f48d6.md",
+      "kind": "official-document",
+      "bytes": 10833,
+      "sha256": "fbc06ba4e3d1fbb742ca8a26aa850e4e8190a6fbda5cfaa6e538146f8692de8c",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/docs/best-practices.md"
+    },
+    {
+      "path": "docs/plugin-ids.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/fb0e79fa7963eaaec9aea598.md",
+      "kind": "official-document",
+      "bytes": 3351,
+      "sha256": "061e692e9b9336a32ed7df27ce3d2c25d6b7a95244dc531a33353244abfd921d",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/docs/plugin-ids.md"
+    },
+    {
+      "path": "docs/registering-a-plugin.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/b1ad43c82e1867ad2fb12158.md",
+      "kind": "official-document",
+      "bytes": 2698,
+      "sha256": "430cf7d0dd1666c8679b4f5e490ac630582812f57ee44d990d4781f3c606ab34",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/docs/registering-a-plugin.md"
+    },
+    {
+      "path": "plugins/anomalydetection/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/95e3e81e5869782799885a55.md",
+      "kind": "official-document",
+      "bytes": 13,
+      "sha256": "2d68c5b88ac4872c603d66e65137074cfbf18827dfe756250942f8a213694071",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/anomalydetection/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/anomalydetection/CMakeLists.txt",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/8e779e0a5b33627564457d3d.txt",
+      "kind": "official-document",
+      "bytes": 2012,
+      "sha256": "10eddeddd3e05909e4095b568d57d3ebc5208b5a2c3f936c8da02fa04412c6dd",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/anomalydetection/CMakeLists.txt"
+    },
+    {
+      "path": "plugins/anomalydetection/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/a4b0475d14f42b9563fb1e6b.md",
+      "kind": "official-document",
+      "bytes": 27361,
+      "sha256": "45999887e2100cc237c79e369d75209381ffff45e103049d4398b74f6dd673ab",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/anomalydetection/README.md"
+    },
+    {
+      "path": "plugins/anomalydetection/test/CMakeLists.txt",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/b0dac7d3bfc9980bfc8d6fc6.txt",
+      "kind": "official-document",
+      "bytes": 2950,
+      "sha256": "96454791f5bc9e4bfc36325f17ebff7f2f39c83bd8419426d1343c8eaa74801d",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/anomalydetection/test/CMakeLists.txt"
+    },
+    {
+      "path": "plugins/anomalydetection/test/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/e55845c362d94b14db6566cd.md",
+      "kind": "official-document",
+      "bytes": 436,
+      "sha256": "00493a8930963fb85e82e3ee7feef2e25c50f8df2a09be43ed6683f382725ac0",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/anomalydetection/test/README.md"
+    },
+    {
+      "path": "plugins/cloudtrail/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/750d49caa52640899a04bc4d.md",
+      "kind": "official-document",
+      "bytes": 29292,
+      "sha256": "653d4d1dab02eed46a25893a20b312fec26712d9db5eade0958593cdbb6a6608",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/cloudtrail/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/cloudtrail/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/e821e47428b3a5b2180b448b.md",
+      "kind": "official-document",
+      "bytes": 30744,
+      "sha256": "9a7a703cc2eb2a1c6cd31a90f743ac7c46aa9e0707e3048aa1d691cd82412939",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/cloudtrail/README.md"
+    },
+    {
+      "path": "plugins/collector/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/6e599f6ef844ec4d26b5cc40.md",
+      "kind": "official-document",
+      "bytes": 751,
+      "sha256": "da53e1e084084c3f608ca3c5d11d6356e51800196f7fa962169c58752fabbbc7",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/collector/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/collector/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/995c7dc52f5e2eb75a54e655.md",
+      "kind": "official-document",
+      "bytes": 3319,
+      "sha256": "160d25d813c9c21510ba2c32cc18d24cedceb8732a6a675ce96e26738dd2ed67",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/collector/README.md"
+    },
+    {
+      "path": "plugins/container/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/f0aceda8601e0d393f347d16.md",
+      "kind": "official-document",
+      "bytes": 18491,
+      "sha256": "0752a96862327d8ef69568d5689c1cef4f6430525cc9978d8602eb47289ef325",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/container/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/container/CMakeLists.txt",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/3f253a41a632a81f757b2d8c.txt",
+      "kind": "official-document",
+      "bytes": 2439,
+      "sha256": "6cd8cc9770b7634919c96651478002403b7365f7a8134c2235d23d39e0410b91",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/container/CMakeLists.txt"
+    },
+    {
+      "path": "plugins/container/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/08aac7e025584add208ecd1a.md",
+      "kind": "official-document",
+      "bytes": 53348,
+      "sha256": "f3cb123c50e686fba83190d8b73a59bd57ec1318719ef59b99423c66d78b6842",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/container/README.md"
+    },
+    {
+      "path": "plugins/container/test/CMakeLists.txt",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/6e1cd01b553887431fdf0be2.txt",
+      "kind": "official-document",
+      "bytes": 868,
+      "sha256": "b7b60bebc762222293db9ae683e1f583e42caed508b9b224db7c923493c60951",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/container/test/CMakeLists.txt"
+    },
+    {
+      "path": "plugins/dummy/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/a787ea500e2d82ea96d16daf.md",
+      "kind": "official-document",
+      "bytes": 9208,
+      "sha256": "2090055a2ce3d50a2583598789a36077614bbf316bf5ec55d4cf3c536b3c6c05",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/dummy/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/dummy/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/390bb0ca0d9a95fef9a1f07f.md",
+      "kind": "official-document",
+      "bytes": 2500,
+      "sha256": "3b3f72ddee035e268618bc04d1230487e4ab0a9ac3660a97254a6a7e47aeda10",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/dummy/README.md"
+    },
+    {
+      "path": "plugins/dummy_c/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/bd83a81d8f2a06c2115eaca4.md",
+      "kind": "official-document",
+      "bytes": 3740,
+      "sha256": "2960e5b40ec56a2660d2609385054065d010d83841908239dd1d98f0ee94cc0a",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/dummy_c/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/dummy_c/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/d18e79b6feedac3598386cd9.md",
+      "kind": "official-document",
+      "bytes": 2565,
+      "sha256": "306a48bad2145a95d2e14a6f7a269ee1442019150792a9c3fbfdd7bd99c83f7e",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/dummy_c/README.md"
+    },
+    {
+      "path": "plugins/dummy_rs/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/60c3d8fd02a5f1e31e311b55.md",
+      "kind": "official-document",
+      "bytes": 5853,
+      "sha256": "52af2e0e80ef48f441a5cf5fb1decfdabd9c9e31835f4f06389a1beb4e20c492",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/dummy_rs/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/dummy_rs/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/7cc5604ff51cb89fc32cdd6b.md",
+      "kind": "official-document",
+      "bytes": 2275,
+      "sha256": "7014b724dde97f2964a45f8611b091fc525ac694e82f89537c72db44ce74a22b",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/dummy_rs/README.md"
+    },
+    {
+      "path": "plugins/gcpaudit/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/a11a8c756a088b3ef45ada35.md",
+      "kind": "official-document",
+      "bytes": 15206,
+      "sha256": "6e4a6ec3f2c7b6890bd323afd2f7fa11faf43712403c84d30a93a6bcb0d9e8bf",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/gcpaudit/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/gcpaudit/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/f3a29cc52af031dbd72c055e.md",
+      "kind": "official-document",
+      "bytes": 14382,
+      "sha256": "911fe3febab0140d4e6c5ceb1e4277fd23d360f4088e9e0d0f9bda66c278bdb4",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/gcpaudit/README.md"
+    },
+    {
+      "path": "plugins/gcpaudit/walkthrough.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/530c15619e9a1758e00e91c1.md",
+      "kind": "official-document",
+      "bytes": 13373,
+      "sha256": "b03698d1a9fcae70b2a44a2349fb40aec6b538e6c16824f8dacf3586a317fc51",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/gcpaudit/walkthrough.md"
+    },
+    {
+      "path": "plugins/github/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/f0ecf98076241e6d165ee083.md",
+      "kind": "official-document",
+      "bytes": 11035,
+      "sha256": "7f5f2405dad702bc686aafe6cc3a4614291f1f8375e8c77e8b77a2d787692d06",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/github/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/github/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/66e0d17ac940cbf6afc34f26.md",
+      "kind": "official-document",
+      "bytes": 12466,
+      "sha256": "e570fd2916c556a01a0ef01a3c509438b8ac587750df9f4b2a2467120d20eaf0",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/github/README.md"
+    },
+    {
+      "path": "plugins/json/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/00e082ff263d824f319592fc.md",
+      "kind": "official-document",
+      "bytes": 8762,
+      "sha256": "81e35412f3e62091984ab1b67a1a694b9c8fb7f58a553f938daa7d73291e914e",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/json/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/json/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/00c3373271a94af9355ba73d.md",
+      "kind": "official-document",
+      "bytes": 2851,
+      "sha256": "c514cd46be5461e46b93cc021dfea8d41fa7efa673f7f86b9e9abb09d9a0bcbd",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/json/README.md"
+    },
+    {
+      "path": "plugins/k8saudit-aks/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/bf60382bca7da73217bbc8a5.md",
+      "kind": "official-document",
+      "bytes": 5922,
+      "sha256": "0c7c05f9a71d0fa51cf92bca4514bf70f37f9cab7c4d1551398bd9b863f0ee58",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-aks/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/k8saudit-aks/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/cb0f493c64d23cc4506ab9be.md",
+      "kind": "official-document",
+      "bytes": 35398,
+      "sha256": "93c9ac9de7d39fe642339686ae69b42c320558948e1bf448b5798427ac4eff7a",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-aks/README.md"
+    },
+    {
+      "path": "plugins/k8saudit-eks/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/2328795bacd7609aaa761f63.md",
+      "kind": "official-document",
+      "bytes": 7158,
+      "sha256": "f3f382241deca1aa7093663737465a20f25d1842e16f81c4a163a535d529271d",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-eks/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/k8saudit-eks/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/a3dc2b1337e67f7279ec706d.md",
+      "kind": "official-document",
+      "bytes": 39081,
+      "sha256": "674ffbc5e9e4d866487a1e2ec87cad9b907cd0b4ae08b645b4559c14d5afb596",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-eks/README.md"
+    },
+    {
+      "path": "plugins/k8saudit-gke/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/1b6d204666af80d6dbac1a3e.md",
+      "kind": "official-document",
+      "bytes": 14239,
+      "sha256": "f5d0363ddc3683340d7bcc02b905e673763d62315dcb5f1a532b116654f55318",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-gke/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/k8saudit-gke/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/f4df17f101df0fe82d29c83c.md",
+      "kind": "official-document",
+      "bytes": 40857,
+      "sha256": "47c340cdc5839fa9c9e07fe9d7add926509421be7458f479008fb0ecb5d171d9",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-gke/README.md"
+    },
+    {
+      "path": "plugins/k8saudit-ovh/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/be0f9517434986ef26735041.md",
+      "kind": "official-document",
+      "bytes": 2786,
+      "sha256": "aac139e7a2fbe532b371fd67cf3512d2ccbc149a8c14132ac8256657df9c9b59",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-ovh/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/k8saudit-ovh/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/18c6ec820c33efd0a2ea6748.md",
+      "kind": "official-document",
+      "bytes": 37012,
+      "sha256": "277663d2de82f1a7c4ebf552920979d208e47927df8746ca51d02a24f85715e7",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit-ovh/README.md"
+    },
+    {
+      "path": "plugins/k8saudit/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/b55940620a4359434c7fcd98.md",
+      "kind": "official-document",
+      "bytes": 18403,
+      "sha256": "eb711c70c6c758f56ce3185433567eb9732f4d9b58de6d2ddc59b59f98b4b2b1",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/k8saudit/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/4a4c6eea4f6b2c2d559cd473.md",
+      "kind": "official-document",
+      "bytes": 36986,
+      "sha256": "ad3942fa3e12a43f1c7ca2842b22225f1f1f3d4780df61fbc2d9d451d44c80db",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8saudit/README.md"
+    },
+    {
+      "path": "plugins/k8smeta/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/99d8d23221186746a67dd184.md",
+      "kind": "official-document",
+      "bytes": 6848,
+      "sha256": "5640e7fb78ee64f62301eed5f53812eb4ded15c89e4440da65383e7148ad8118",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8smeta/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/k8smeta/CMakeLists.txt",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/519ec832e25eff64c379ee50.txt",
+      "kind": "official-document",
+      "bytes": 2482,
+      "sha256": "b9642df55f1d96457f07fbfc88a34bd52ee2bfcf1d05eb7870360488a95329e8",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8smeta/CMakeLists.txt"
+    },
+    {
+      "path": "plugins/k8smeta/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/4273df6d612294350b39bc14.md",
+      "kind": "official-document",
+      "bytes": 14804,
+      "sha256": "9946c13a0853b0f851d99f77bad854f4afd62bd76a9461026acbbb25db27ae6a",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8smeta/README.md"
+    },
+    {
+      "path": "plugins/k8smeta/test/CMakeLists.txt",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/d9502893718dcaf5324a2582.txt",
+      "kind": "official-document",
+      "bytes": 2738,
+      "sha256": "d2e8181d83704ead5590ca90ab1e81e5dc86d7b0d9eae6fef6d17836a2210974",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8smeta/test/CMakeLists.txt"
+    },
+    {
+      "path": "plugins/k8smeta/test/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/c824c56582ca451342b99862.md",
+      "kind": "official-document",
+      "bytes": 624,
+      "sha256": "19eadec05a6e8d03ff564e84d791b6eff5c9605bd34ce9afcb7a377a95fc9670",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/k8smeta/test/README.md"
+    },
+    {
+      "path": "plugins/kafka/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/dc2435b7b48747e7b6e44dc7.md",
+      "kind": "official-document",
+      "bytes": 4862,
+      "sha256": "de515017b4ff9fe895cf8f6e3c786e4d4dd2c9c2eabeb466fa5ebc6b27acc1ad",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/kafka/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/kafka/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/b6da313ecc5cb418e89d7f58.md",
+      "kind": "official-document",
+      "bytes": 1110,
+      "sha256": "1572b0ced80cf4e7ca53b370c4f7a7e3ed6335b1add13316947f686d45795349",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/kafka/README.md"
+    },
+    {
+      "path": "plugins/krsi/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/d5cc2ddf6011e3513051a5db.md",
+      "kind": "official-document",
+      "bytes": 19336,
+      "sha256": "e663896850f190b3900120d09eadf46f4164f7d38207ff836c90264b998cfa52",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/krsi/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/krsi/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/9176790fcdfa6367b0c3b7fb.md",
+      "kind": "official-document",
+      "bytes": 13220,
+      "sha256": "cfe24eee21bceba4147ba71b15149f730032d21ab78d14493aadf75592d8358a",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/krsi/README.md"
+    },
+    {
+      "path": "plugins/krsi/test/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/33a4f2134f3f9b33af7c7bfc.md",
+      "kind": "official-document",
+      "bytes": 1646,
+      "sha256": "c3d77955ea1949eff53d342fd76239e4cc5a1896da1c281b287c6bac9dffbc24",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/krsi/test/README.md"
+    },
+    {
+      "path": "plugins/okta/CHANGELOG.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/97721b72aa4665ec3bb99279.md",
+      "kind": "official-document",
+      "bytes": 6780,
+      "sha256": "6765d5f53922acc1be5920f174f4661d1f48caf0b860f8a48f379a5178e94417",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/okta/CHANGELOG.md"
+    },
+    {
+      "path": "plugins/okta/LICENSE",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/dd3c9f6ae18e226c7d772afa.txt",
+      "kind": "license",
+      "bytes": 11356,
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/okta/LICENSE"
+    },
+    {
+      "path": "plugins/okta/README.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/1a515e2e340f5b09da225328.md",
+      "kind": "official-document",
+      "bytes": 8848,
+      "sha256": "933f072b6ebccb6532b5a9bc8cdb50b7b883d4f3cb487033e654c753e5483de6",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/plugins/okta/README.md"
+    },
+    {
+      "path": "release.md",
+      "localPath": "raw/falcosecurity--plugins/33cbeb904822/8ea7e761f4431f97008201a3.md",
+      "kind": "official-document",
+      "bytes": 2460,
+      "sha256": "401a695b6d47056419d03a7e9d28a66a90ca48bace02c32eb62a4176156bda49",
+      "sourceUrl": "https://github.com/falcosecurity/plugins/blob/33cbeb904822c973bd4806c0c72f39860a7fa8e9/release.md"
+    }
+  ],
+  "omitted": [],
+  "recoveredInterruptedFiles": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,3233 @@
+{
+  "schemaVersion": 1,
+  "repo": "opentofu/opentofu",
+  "commit": "a2d03be4f5d013a407f77e3750002fad8cf849c8",
+  "retrievedAt": "2026-10-01T15:25:28.662922+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Provisioning/Automation & Configuration"
+  ],
+  "archiveUrl": "https://codeload.github.com/opentofu/opentofu/zip/a2d03be4f5d013a407f77e3750002fad8cf849c8",
+  "archiveSha256": "53fd721643b5cd78364ef348a52f6afabb350bd4306f9f537537a1f647f52e7c",
+  "archiveBytes": 8661944,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 371,
+    "code": 28,
+    "licenses": 2,
+    "bytes": 1822195
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 2037,
+      "sha256": "75254e2fd431ef6bfda0af5febd7bde36f787151cc8b3aefd3eeef21b5785321",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/AGENTS.md"
+    },
+    {
+      "path": "BUG_REPORTS.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2edf7757e2a718f1959dbfbe.md",
+      "kind": "official-document",
+      "bytes": 7947,
+      "sha256": "d8e42da5fb0ef7d31b4bdbaf92f26e2e2b9c9c0cf27efaa8176464b8da4473a2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/BUG_REPORTS.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 2605,
+      "sha256": "485ae28ce4db5bc5976f1cca8cb696d3b7c7936151925ce12d54f75d6430e5d9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/CHANGELOG.md"
+    },
+    {
+      "path": "CHARTER.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/91d16dd057bd39f6431e90a1.md",
+      "kind": "official-document",
+      "bytes": 80,
+      "sha256": "80915bbf90d45f0f0c2527dbbde1b5ed9c51c2ddce7c563679fb8e955ce026e0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/CHARTER.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 550,
+      "sha256": "35ee9324896f2251bf12b0ff2ac481f563459f3db303c03afe1cea6241f148d6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.RELEASE.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f3a80a44a166a40dd17304f6.md",
+      "kind": "official-document",
+      "bytes": 22612,
+      "sha256": "08944341006e4ff413d685451e8fac0bf5f8502e25d2863cba1b392a43f6307e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/CONTRIBUTING.RELEASE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4111,
+      "sha256": "9239820a981f529058bbf3139f043318c8a68db1a60560d3566c2ae49887f9ec",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 86,
+      "sha256": "b8f63cbbfa35282dbdf38ca5627f099c1091da84cf8d4a457c0655e88bd7a5fa",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 16048,
+      "sha256": "142b957651baf401646dd7f3d855cb7c4f6f0921d645faa27e7cb540bc33cf4c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 1426,
+      "sha256": "b7149097479970b5ca98de2431589ffb851a9ca372a70e520f7919d9211d81aa",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 4419,
+      "sha256": "60c539cfab196b4b39768781ee871f07b34aadcada2f4bef42393810e3dbfb92",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/README.md"
+    },
+    {
+      "path": "RELEASE.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2b1b69303b927a484e02c7fa.md",
+      "kind": "official-document",
+      "bytes": 1080,
+      "sha256": "735c676bd83ee33c08b6fe0672d226e96574d6d94bec62ca2697aa326209091c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/RELEASE.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 4861,
+      "sha256": "1123f82952c72fe8821fe51e07d6ff280d6470384a6bee4ab6fb16bea51d2a99",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/SECURITY.md"
+    },
+    {
+      "path": "contributing/FAQ.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9cca82c548ccdbbf64ce3a0f.md",
+      "kind": "official-document",
+      "bytes": 10050,
+      "sha256": "486c269cab0769f6796055e8485ce1d9a465bb074f2b31f6b0643f6c204ff1e0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/contributing/FAQ.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 2115,
+      "sha256": "d274f672098962aaa2a5a58e9a21a1b67f2f976187d7fb4b5537604dc462189c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/README.md"
+    },
+    {
+      "path": "docs/architecture.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/140eef3ba41bdcf401d50740.md",
+      "kind": "official-document",
+      "bytes": 20316,
+      "sha256": "480dcb9d476470b4f1408f1135dfbf5fa0fe1acb6ec8e6416349094b7925d57f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/architecture.md"
+    },
+    {
+      "path": "docs/destroying.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c17dd724d420aece8045a347.md",
+      "kind": "official-document",
+      "bytes": 10048,
+      "sha256": "7d5360cdd9d4ed5094aa8f69fefdf032dfae302cc02349b60d9d97f836c431fc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/destroying.md"
+    },
+    {
+      "path": "docs/diagnostics.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/abdd4aecb4ee880d8eaf160e.md",
+      "kind": "official-document",
+      "bytes": 26030,
+      "sha256": "14db4ac06acd1661c954a875f7ae28c8d05639ac64977fb5d678c9438922d8be",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/diagnostics.md"
+    },
+    {
+      "path": "docs/glossary.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c42a05dfff7873800ca86ea8.md",
+      "kind": "official-document",
+      "bytes": 5120,
+      "sha256": "83ceec28c674edde113fec5b9e15c81d0e6253aa49c8dfb42913503eb5836a9a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/glossary.md"
+    },
+    {
+      "path": "docs/planning-behaviors.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4f2095e54ca2b4262a6eb357.md",
+      "kind": "official-document",
+      "bytes": 16475,
+      "sha256": "0535cbb8bac2e50c06736e1d3aab95622b08109f6f12ce31ae7aba1b81c7890c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/planning-behaviors.md"
+    },
+    {
+      "path": "docs/plugin-protocol/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0b47984e7088cbb2c2f409c3.md",
+      "kind": "official-document",
+      "bytes": 10061,
+      "sha256": "a8ee5b9a037d7ec13abfdfe2c3f49b22baad236df1f34008ca281374ed44e977",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/plugin-protocol/README.md"
+    },
+    {
+      "path": "docs/plugin-protocol/object-wire-format.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/251eb6609df6aa726c178f55.md",
+      "kind": "official-document",
+      "bytes": 20313,
+      "sha256": "8e43d764ef8370311f860e530c5a091c07679814fa39bb9cd47c3104347ee56d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/plugin-protocol/object-wire-format.md"
+    },
+    {
+      "path": "docs/plugin-protocol/releasing-new-version.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b0e02a6368836e4f52dfa40d.md",
+      "kind": "official-document",
+      "bytes": 2621,
+      "sha256": "8481d77837027425d7c152210a5a76cd8699abadfe40481358c4ef033e1b29a1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/plugin-protocol/releasing-new-version.md"
+    },
+    {
+      "path": "docs/provider-references.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/beee48ead077fb4b09154c0b.md",
+      "kind": "official-document",
+      "bytes": 15746,
+      "sha256": "538c84e181d42247cd4905741945ab577ff2290edd5a973e1bf8c51fcda00f44",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/provider-references.md"
+    },
+    {
+      "path": "docs/resource-instance-change-lifecycle.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/52738ad79c1d9beebf87e566.md",
+      "kind": "official-document",
+      "bytes": 19260,
+      "sha256": "0b8d7ff93d83c28d49081b5e46a63f810ecbb2883597b3dbc812107c5b128ff8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/resource-instance-change-lifecycle.md"
+    },
+    {
+      "path": "docs/state_encryption.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/16da60cfb9195622e3a5c53c.md",
+      "kind": "official-document",
+      "bytes": 17403,
+      "sha256": "729028431f97434176f101e0a474bab7107e1eed9bc20ad97ce85c611a936ca1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/state_encryption.md"
+    },
+    {
+      "path": "docs/tracing.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4fe19a5aa6df7475c7b02436.md",
+      "kind": "official-document",
+      "bytes": 7641,
+      "sha256": "12f0fa66595328a54cb4d9423b2d759d61933e9b3b178549240373ee2266101f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/tracing.md"
+    },
+    {
+      "path": "docs/unicode.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cb027affbca1aa23ada3a087.md",
+      "kind": "official-document",
+      "bytes": 7887,
+      "sha256": "e8a13a469377f105f58ca91615ee6f4a3c6628ce16046e4b6e027fe08f5b7350",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/docs/unicode.md"
+    },
+    {
+      "path": "internal/backend/remote-state/azure/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3ce8b6a0e9a04a7fb54bf419.md",
+      "kind": "official-document",
+      "bytes": 9036,
+      "sha256": "1d6843754f93bdc760689dc1d59ef8b45ab1ed14098fc8a5c35c1d8b1f0f5e51",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/backend/remote-state/azure/README.md"
+    },
+    {
+      "path": "internal/backend/remote-state/azure/meta-test/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/33bc3b23ea610b2ca34baf80.md",
+      "kind": "official-document",
+      "bytes": 4520,
+      "sha256": "270e1747bc4f45d69551d769f7cacb7f9f59791871c4702b864e936cfc3bac4f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/backend/remote-state/azure/meta-test/README.md"
+    },
+    {
+      "path": "internal/backend/remote-state/pg/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f0106396dfae539cb7c0ee48.md",
+      "kind": "official-document",
+      "bytes": 350,
+      "sha256": "a10c9cb483f449f72fb426f11cad5bfddc048f72cd53fbb4d10747d46812290e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/backend/remote-state/pg/README.md"
+    },
+    {
+      "path": "internal/cloud/e2e/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/15b412fe412171fc6ea32490.md",
+      "kind": "official-document",
+      "bytes": 1140,
+      "sha256": "0d670ec85e8a2f11a0005a14e13b7a0b37ebc6f0dfbd8a317e9bbfa790efac53",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/cloud/e2e/README.md"
+    },
+    {
+      "path": "internal/command/jsonformat/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fa5c536a218af32f25562327.md",
+      "kind": "official-document",
+      "bytes": 11648,
+      "sha256": "99270319e6fcb26910e33d318caa7ce83083640ad96dfe3a3322bd0cfc931a30",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/command/jsonformat/README.md"
+    },
+    {
+      "path": "internal/encryption/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/76c4eb8e2ece11ef1f4af49b.md",
+      "kind": "official-document",
+      "bytes": 997,
+      "sha256": "9cc77197edbd2b209357839d7267771fafeb2064e4ee76276409efb9741aedf8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/README.md"
+    },
+    {
+      "path": "internal/encryption/keyprovider/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/306d2eb9dc9fc357716d9bdc.md",
+      "kind": "official-document",
+      "bytes": 4355,
+      "sha256": "367f7fcb9ff9ad4bdf34b3ad7a0e7aaae0a54992e93711f8bbd49a7e37f562ca",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/keyprovider/README.md"
+    },
+    {
+      "path": "internal/encryption/keyprovider/aws_kms/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/066dc7e93d4de9b207fdd7f1.md",
+      "kind": "official-document",
+      "bytes": 1680,
+      "sha256": "71623aed0b7f959098b00f3d4026edb8864755287ff8567fc7f12f5b0b73377b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/keyprovider/aws_kms/README.md"
+    },
+    {
+      "path": "internal/encryption/keyprovider/pbkdf2/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/566ed1852218765f2563ba14.md",
+      "kind": "official-document",
+      "bytes": 1525,
+      "sha256": "d5a6dd985c37bdaa7ada27b70102048fee1608f5c9bfb56043e670551e44a8a5",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/keyprovider/pbkdf2/README.md"
+    },
+    {
+      "path": "internal/encryption/keyprovider/static/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5386a0e7be03eb6b0f15340e.md",
+      "kind": "official-document",
+      "bytes": 526,
+      "sha256": "2d7f08597e4f4ff65311cd5415be69f3372fe0bf6dd68dd153b63284094e959d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/keyprovider/static/README.md"
+    },
+    {
+      "path": "internal/encryption/keyprovider/xor/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8bcd162584478252cd343d8b.md",
+      "kind": "official-document",
+      "bytes": 855,
+      "sha256": "a8db5d07ce650a649a16d008bfd4d0d2fa2f115f0fa132bb0bb28f797b566ce7",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/keyprovider/xor/README.md"
+    },
+    {
+      "path": "internal/encryption/method/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/93b8b2f3e5862fa81aab0519.md",
+      "kind": "official-document",
+      "bytes": 2331,
+      "sha256": "ec9ddf4ac3a48461a85c33304434095d2035fd98c8f17f1e5dc2d15fef719bab",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/method/README.md"
+    },
+    {
+      "path": "internal/encryption/method/aesgcm/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2131fe2f195d460c46b9d5f9.md",
+      "kind": "official-document",
+      "bytes": 3044,
+      "sha256": "52941fc66bdebeda48ebfb7b4345b3dfbc1038e3607446f131a7eac40737615f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/encryption/method/aesgcm/README.md"
+    },
+    {
+      "path": "internal/ipaddr/LICENSE",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b63c632c93d36c3b7cf9299b.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "dd26a7abddd02e2d0aba97805b31f248ef7835d9e10da289b22e3b8ab78b324d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/ipaddr/LICENSE"
+    },
+    {
+      "path": "internal/ipaddr/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0270a1b1a987bffa2dc4c59b.md",
+      "kind": "official-document",
+      "bytes": 1844,
+      "sha256": "f9fb625c0a2e0067713847df1411c12b0de2c8453a7420039f401574cf9f5c24",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/internal/ipaddr/README.md"
+    },
+    {
+      "path": "rfc/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a945f8d34c32e269997b0dda.md",
+      "kind": "official-document",
+      "bytes": 3915,
+      "sha256": "9982cd6caa0cd6f5d48027ce70a8352c66b1d415d7738df6d8273dc17c89fed3",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/rfc/README.md"
+    },
+    {
+      "path": "website/README.md",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0eb684c3ea7be1b3de6b0b15.md",
+      "kind": "official-document",
+      "bytes": 2135,
+      "sha256": "badc4d9aff9a418e897983a495e69065461ccef117ccfb735c2fafaf23da8be8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/README.md"
+    },
+    {
+      "path": "website/docs/cli/auth/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/84e60c01c35639273bb70121.mdx",
+      "kind": "official-document",
+      "bytes": 1141,
+      "sha256": "361e2290b2b98b329a3b575d80a08ab9da5a4c295cac140cc1b3920a5f40685a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/auth/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/cloud/command-line-arguments.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7a84953e42c4d8f8f954507d.mdx",
+      "kind": "official-document",
+      "bytes": 1004,
+      "sha256": "729ed6fee8d9d9654763bee9953e6ed8dd7720fa1b564a6bad20f1b4e1c12e66",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/cloud/command-line-arguments.mdx"
+    },
+    {
+      "path": "website/docs/cli/cloud/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/49308e6ad3725b637f671441.mdx",
+      "kind": "official-document",
+      "bytes": 1258,
+      "sha256": "aa20406e5ca0ccbcbcebfd5bcf2288069a6a6a8674eaa666ed4ac30ee327d46a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/cloud/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/cloud/migrating.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e4c2cec2818094f43719d080.mdx",
+      "kind": "official-document",
+      "bytes": 4550,
+      "sha256": "d65ea7a3dbdffa6e34330242d066be8f7087eeac0f98e4d4a6c6191a4f1a6fc4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/cloud/migrating.mdx"
+    },
+    {
+      "path": "website/docs/cli/cloud/settings.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/dc471bc861fd545fbea67f55.mdx",
+      "kind": "official-document",
+      "bytes": 6592,
+      "sha256": "f538cd97a93de8edd00fe4898469f9048dc230ad761159b2d4b064ed22fd9a34",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/cloud/settings.mdx"
+    },
+    {
+      "path": "website/docs/cli/code/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7b3580f03ac4651bf02b0dbd.mdx",
+      "kind": "official-document",
+      "bytes": 1589,
+      "sha256": "cf040cd00cc284213e86a7e8ee06fe0a25139fc118e610ee00ba5b9e0baea3a4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/code/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/apply.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/15768a1258d68df48e66319a.mdx",
+      "kind": "official-document",
+      "bytes": 7432,
+      "sha256": "3254e221be0770ebfd60865a0188a18aea59ecb51e53b44a2e6c8532819c181d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/apply.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/console.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0720230bfb61ae7d32363932.mdx",
+      "kind": "official-document",
+      "bytes": 4433,
+      "sha256": "cc4a843566b7b4e3d0bfea5d5b7099f5b8878bb024086320a52047d0d4e68556",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/console.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/destroy.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a4675195b53867c3eb1930c2.mdx",
+      "kind": "official-document",
+      "bytes": 2781,
+      "sha256": "146cacf75ec58ac34f10763643ae2136f7e37c602f685a11be9da1d91d7c8bba",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/destroy.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/env.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5f2010e563d2f2ba78c38652.mdx",
+      "kind": "official-document",
+      "bytes": 232,
+      "sha256": "1d8ab5e762395839cb401497deffd5d84073c0e8c294ec9b1689bc44d78a6f0f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/env.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/fmt.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cf59d91502d6df16ebe72b42.mdx",
+      "kind": "official-document",
+      "bytes": 4131,
+      "sha256": "fa2fef036d996cbbe727d867d3ea5694e6130a8cfe4425b591cbbe815630bc1b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/fmt.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/force-unlock.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3ed0b787620d747e5df244dc.mdx",
+      "kind": "official-document",
+      "bytes": 2517,
+      "sha256": "2e1af8d509cc95dec56e3a32c09427200fb0c4a88f80e852d7961f5268ff7621",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/force-unlock.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/get.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7391d3dbbed935f5640d4875.mdx",
+      "kind": "official-document",
+      "bytes": 2276,
+      "sha256": "aedaecb07d476cd1c2d0985d9cb814cbc713cb45a61388afe76733cf3f5fb9ad",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/get.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/graph.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/26167ebad6fe3a90792502f0.mdx",
+      "kind": "official-document",
+      "bytes": 3251,
+      "sha256": "b83acc295d3b10efe530bb641b4df1d9ccb88af0d6fbada7c61ae7845c8873f4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/graph.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/import.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/10b99b520a4ef5a9ee8bbb2b.mdx",
+      "kind": "official-document",
+      "bytes": 6960,
+      "sha256": "330c9e6ab018bb72cb67a4630ba19a545d2e077e0acc9403b7d9dabb5a7d1200",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/import.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/88d6e257f362f154d96d0b8d.mdx",
+      "kind": "official-document",
+      "bytes": 4896,
+      "sha256": "5d087af42a4a7d9c74ea4f7b9c53e953320625ec9c38ab57ddb9214417eed3b1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/init.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/098e54dde69e0c4c96e45183.mdx",
+      "kind": "official-document",
+      "bytes": 11131,
+      "sha256": "5c99b8bbccf148bc82060881374a74ee07a7073a2f8c476345f243d0d10600d1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/init.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/login.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/da167460444c60a23808386c.mdx",
+      "kind": "official-document",
+      "bytes": 1511,
+      "sha256": "5d5cfa7ea278a3037e3fd78d6de5936806b4a26a2af433db964ef8ed0f62dcf2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/login.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/logout.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bec261482951c0ccb583171c.mdx",
+      "kind": "official-document",
+      "bytes": 808,
+      "sha256": "1b25780f7b57926e660dbf48afdbcc78306fed603f4aeeabc87777754c7fa952",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/logout.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/metadata-functions.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bf395742abbc092141002348.mdx",
+      "kind": "official-document",
+      "bytes": 675,
+      "sha256": "b765e0161b985f3ec7603c4950ac8bf5cb355130f8e82ee2a63b55b8903e2870",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/metadata-functions.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/output.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/47c7d9cf3f640cc88ee128d5.mdx",
+      "kind": "official-document",
+      "bytes": 5720,
+      "sha256": "15d9e93eb634a8b70e4450e9e127b85775c141a2c9d3ae34f494e3d84311b5b0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/output.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/plan.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/69dc3bbadd0d392c5fa47262.mdx",
+      "kind": "official-document",
+      "bytes": 21817,
+      "sha256": "5dad63751a9a387a76dcde984127ef6ebc6a066a4153c772948804a3ed70568c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/plan.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/providers/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e0ad583ad8f1d1c6636e3794.mdx",
+      "kind": "official-document",
+      "bytes": 2315,
+      "sha256": "876b257a209a3703c85da18f633150894bf765265b35c03c8e63a51f6ee5da6a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/providers/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/providers/lock.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a690b50d92d867e7ae06658f.mdx",
+      "kind": "official-document",
+      "bytes": 9167,
+      "sha256": "200bcd546dee4021c0c1e6bc7afa312a23de7f2c6144e795f606a92160ab04b0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/providers/lock.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/providers/mirror.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bdebbdebb5e7913abcd1e357.mdx",
+      "kind": "official-document",
+      "bytes": 4478,
+      "sha256": "f8e810778b304c30049d75ab5908282e87293863d68c2a7731b1662c4832751d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/providers/mirror.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/providers/schema.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4ee7902fde5d950f6943b3fe.mdx",
+      "kind": "official-document",
+      "bytes": 9909,
+      "sha256": "209689f15c50b92929b33d32e97d70b03e3edcf44e580eba8f1f6894ae0c4918",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/providers/schema.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/refresh.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8f905f6ab2c3bf384d7a2731.mdx",
+      "kind": "official-document",
+      "bytes": 2581,
+      "sha256": "c10de5e57e05c7c21bd2e2beb57a7860c86def14692bb9af09e84a4f84979c0f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/refresh.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/show.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/aa1103238c3cf12c3a020db7.mdx",
+      "kind": "official-document",
+      "bytes": 4844,
+      "sha256": "abadfcdddbd5a839a63096b690e29c77baa56d8e0d0847dbb24dc0d45e4d6ceb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/show.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f815ee3843fd4fa4e559225b.mdx",
+      "kind": "official-document",
+      "bytes": 1866,
+      "sha256": "9e396d3eb9952cbfe7d79e4c0b69a4958b48b50bc804bb62ed85271363d00e10",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/list.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/291ea574335bb8133230a5a3.mdx",
+      "kind": "official-document",
+      "bytes": 3739,
+      "sha256": "b2bedd8d4e6c0b53b1bd7fa67453b0c10ccaa771df7c7506e5a40a36bc39c743",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/list.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/mv.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ac9efd4c522eafe06f3d2b56.mdx",
+      "kind": "official-document",
+      "bytes": 9787,
+      "sha256": "35fba8a8923f352eaf5e1d309e6d2317424a753466ad962df1567c97cf3965c2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/mv.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/pull.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/210c96350ffe4081f72a9f08.mdx",
+      "kind": "official-document",
+      "bytes": 2720,
+      "sha256": "b44ba2415322196ad86f2b50008ae9a990e889112663749a82ac5d30cbec5825",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/pull.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/push.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6ae76a882058f63dca86f5b5.mdx",
+      "kind": "official-document",
+      "bytes": 4462,
+      "sha256": "ea6b3de96163ab03e7b01273720fdb11caa0650628675c792d189b7aa37a16d5",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/push.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/replace-provider.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1170581ba44997600f434fa1.mdx",
+      "kind": "official-document",
+      "bytes": 3752,
+      "sha256": "cbf33f3833863107cb2ac4b0fde154fa1333dc555c33495a1bb813d20843db65",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/replace-provider.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/rm.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8192186d79433f15d82854cd.mdx",
+      "kind": "official-document",
+      "bytes": 6753,
+      "sha256": "d7a814f67c9cc0b9a9f75c04516dd29191f25d6412eaefd2cc7e0e7154b86f45",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/rm.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/state/show.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cd61fcbe0c2c190e1239a201.mdx",
+      "kind": "official-document",
+      "bytes": 4460,
+      "sha256": "3881506b1034da4704a17eeb545df6e513e7323f7f663c36ca03e9cffe1c5b45",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/state/show.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/taint.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/de6181ab1c86af9365475bf0.mdx",
+      "kind": "official-document",
+      "bytes": 4610,
+      "sha256": "159ca240d2b77be3a91b4e9f04a2d66a122960fda7d4481aaad163e05b7a7851",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/taint.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/test/examples/test.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8bb705576636b5427109bf68.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1234,
+      "sha256": "800e1a07e8db805c9ae3e9320955c307362b57611a10ba11f168e55b0c9ecfa9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/test/examples/test.sh"
+    },
+    {
+      "path": "website/docs/cli/commands/test/flat-layout-module.txt",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c8bbf15adb1e3e6dc0a799fe.txt",
+      "kind": "official-document",
+      "bytes": 235,
+      "sha256": "12646631802e08d52a975065d27cb1f57974fa12c5504d10074149583abadda0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/test/flat-layout-module.txt"
+    },
+    {
+      "path": "website/docs/cli/commands/test/flat-layout.txt",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8fde73bfab2ad13fde7cc3a9.txt",
+      "kind": "official-document",
+      "bytes": 135,
+      "sha256": "34cac9c49d7d24b7bd8ab83f264f0c89d352869ea45d8bbb208ce6051edb844e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/test/flat-layout.txt"
+    },
+    {
+      "path": "website/docs/cli/commands/test/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e05edf619b4f6afa5d85b0ac.mdx",
+      "kind": "official-document",
+      "bytes": 36297,
+      "sha256": "1a99622a9ac5692802cee524dd08dba7a5f784381fea2892bbe6589e8bd11702",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/test/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/test/nested-layout-module.txt",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/dd26fa8af792d917f6acac3a.txt",
+      "kind": "official-document",
+      "bytes": 274,
+      "sha256": "3fa26daec9d4067255c6e91291ea9d1753823dbe4d35533a41263c5a8994e52e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/test/nested-layout-module.txt"
+    },
+    {
+      "path": "website/docs/cli/commands/test/nested-layout.txt",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/05fad0cf4ef3b29227292dcf.txt",
+      "kind": "official-document",
+      "bytes": 167,
+      "sha256": "2dc190ec75dc879c3f0ad9d55419718533ece0a9602f76206500f69fd53310bb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/test/nested-layout.txt"
+    },
+    {
+      "path": "website/docs/cli/commands/untaint.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4f7e3183684b7d0783dad5ca.mdx",
+      "kind": "official-document",
+      "bytes": 4760,
+      "sha256": "abab75d0ee49d35ab8dfb66f9366ea09f19177f31a89379b004d79819828ae70",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/untaint.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/validate.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7776cb75ee20a9128276ae17.mdx",
+      "kind": "official-document",
+      "bytes": 11519,
+      "sha256": "aa20fc704ea905e59c4389a1b25036c989c716d63f0e831acad30b23e90db80a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/validate.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/version.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/81ec99ee6a03eb5900fb56ca.mdx",
+      "kind": "official-document",
+      "bytes": 1098,
+      "sha256": "1bc2107a02a1a011ab5ed575de5de955180313b5cd2fdeb085ddf2ecfa76303d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/version.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/workspace/delete.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1bfa02b219375d87bee62d2f.mdx",
+      "kind": "official-document",
+      "bytes": 3552,
+      "sha256": "5435515b0fcf9ccf42e6c7a30a33a0f023bceeb28963364cf7e09b2721808f98",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/workspace/delete.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/workspace/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/50042fcc5edd46299ab01396.mdx",
+      "kind": "official-document",
+      "bytes": 414,
+      "sha256": "97ddf9a5f61723a17b50bf4e34f2f7456710376cd144ad48407e664676b7550e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/workspace/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/workspace/list.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/94f2e4b9f04be1fd0a533bb0.mdx",
+      "kind": "official-document",
+      "bytes": 2249,
+      "sha256": "99e71b361ec15d22db8d7caed147e0f88dec1d67b902dccc2ac1dcd676ea39f1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/workspace/list.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/workspace/new.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c232a96f8e2f3b3c42064cd3.mdx",
+      "kind": "official-document",
+      "bytes": 3278,
+      "sha256": "6aea6c6f4ca98e022cbd6fbc8da02c0da5e408cb787e740fda4128d3236189af",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/workspace/new.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/workspace/select.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/88ce915092c847ce9102930c.mdx",
+      "kind": "official-document",
+      "bytes": 2401,
+      "sha256": "a5f49b4fe745aef430fa1fe3be4d276445ebb97580e4361564b32a581a575729",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/workspace/select.mdx"
+    },
+    {
+      "path": "website/docs/cli/commands/workspace/show.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/19681908505c8e4ab05f6363.mdx",
+      "kind": "official-document",
+      "bytes": 341,
+      "sha256": "4e4db750088b55d27a14828d64ca5d57ab425745fcd7a758a4c02c075a7170ce",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/commands/workspace/show.mdx"
+    },
+    {
+      "path": "website/docs/cli/config/config-file.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6f268008601a22f087ea567a.mdx",
+      "kind": "official-document",
+      "bytes": 28262,
+      "sha256": "848ffc975bc2ef04e30f7283726d19865d30650ef0b1d2b6a9623700bea9939f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/config/config-file.mdx"
+    },
+    {
+      "path": "website/docs/cli/config/environment-variables.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d2a22ec41d30a2fa883bbc7f.mdx",
+      "kind": "official-document",
+      "bytes": 9579,
+      "sha256": "3ba0fc920ad4dd367f60f589fdb5d8712dd24f09b9298aa861430d14a7b68abf",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/config/environment-variables.mdx"
+    },
+    {
+      "path": "website/docs/cli/config/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6cf3c696aa1eb9557ce0b063.mdx",
+      "kind": "official-document",
+      "bytes": 977,
+      "sha256": "117cc1b184f76b7456597a5f8a12855fc47ff162972349ae371ecaa633543115",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/config/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/import/importability.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/049fb91c4d431602246fe601.mdx",
+      "kind": "official-document",
+      "bytes": 734,
+      "sha256": "c812a2a897c7ebd0ba6ad67d091b73b8f0a714ac09f504cc0ab292015ac4771b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/import/importability.mdx"
+    },
+    {
+      "path": "website/docs/cli/import/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f352024d9551c50699f12d4b.mdx",
+      "kind": "official-document",
+      "bytes": 1818,
+      "sha256": "e47cabe956148216fdb5a97b0da775c26a907e14f23f12abf94baba2393c9e8a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/import/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/import/usage.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e315a59de1eb1acfe41bdc36.mdx",
+      "kind": "official-document",
+      "bytes": 3500,
+      "sha256": "7fd473caf70005039fb49bd33a76ac6e3f9f665a5ce261815a991a1f75cae54e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/import/usage.mdx"
+    },
+    {
+      "path": "website/docs/cli/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7e02a4d5f6c0869d589bdf6b.mdx",
+      "kind": "official-document",
+      "bytes": 663,
+      "sha256": "eead0e71075e96ff02cce8853741ebe5933c12a845d8f9fd604724df0001e71c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/init/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e623513cabce83d053cbe332.mdx",
+      "kind": "official-document",
+      "bytes": 3145,
+      "sha256": "07331bf73f7dad34fe76128cca93cd6c3e4fbc9f69c159ed654c8671d2d893ff",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/init/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/inspect/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fff3473d565b1c97307bd459.mdx",
+      "kind": "official-document",
+      "bytes": 1781,
+      "sha256": "e6a33f43ea52ce3e5fb2d2e69f3752e664b40e03bc8daa60238f4ae44e383e3e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/inspect/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/oci_registries/credentials.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cc32030fd81949010cc886d6.mdx",
+      "kind": "official-document",
+      "bytes": 6994,
+      "sha256": "7929d8cdc106372fe264a49b2fa75e8e6f428d587a6a2cb5097095f423cd0376",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/oci_registries/credentials.mdx"
+    },
+    {
+      "path": "website/docs/cli/oci_registries/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/45663f9872891a0bcd632956.mdx",
+      "kind": "official-document",
+      "bytes": 2219,
+      "sha256": "55329f12cb51a577c4927fd0f8517947125b5b32b48191dea4499dfa5b3fc944",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/oci_registries/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/oci_registries/module-package.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2f15ae38b9b37f7734236e98.mdx",
+      "kind": "official-document",
+      "bytes": 4902,
+      "sha256": "4f72cd90ad10f95fcac122878f4ffb57073a06aa4ebd40a82e1c81b98b1c1122",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/oci_registries/module-package.mdx"
+    },
+    {
+      "path": "website/docs/cli/oci_registries/provider-mirror.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/40dd6183846f8dfc6ce89f3b.mdx",
+      "kind": "official-document",
+      "bytes": 13469,
+      "sha256": "d31e9fbf4d71138b0485021fa63a395e0f5804864e45916c953dcc15b9b055ca",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/oci_registries/provider-mirror.mdx"
+    },
+    {
+      "path": "website/docs/cli/plugins/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e2aeac6c6276dc26a2e63f34.mdx",
+      "kind": "official-document",
+      "bytes": 2618,
+      "sha256": "68ce186cb92252ee94878aff0ef347a470375541761cb521cf80143dc6ce066f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/plugins/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/plugins/signing.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b1576b8e5887cd9a8660dd55.mdx",
+      "kind": "official-document",
+      "bytes": 2096,
+      "sha256": "4d6256e0cf5422e99f2992dd29724aa8a085683d3f2a330dae6be15d2f6276d1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/plugins/signing.mdx"
+    },
+    {
+      "path": "website/docs/cli/private_registry/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a8b91cd8fe4ab35c7251cf91.mdx",
+      "kind": "official-document",
+      "bytes": 1071,
+      "sha256": "dfbd20952b8614ce332a10144253d608cf57aa99fb488db7552bed13bc8bdc95",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/private_registry/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/run/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/44583b8e8f89f0fce9affd6e.mdx",
+      "kind": "official-document",
+      "bytes": 3433,
+      "sha256": "f5c95ee378a61860867f809212d4687c28cfd01850547c642365268fbab0e1d7",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/run/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/state/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fcda6b4b7b9923b778d5acf9.mdx",
+      "kind": "official-document",
+      "bytes": 1359,
+      "sha256": "34f90d78fd77d5888635970e5b7bffb3d0d90a292a8e762be25df76c93ee6d31",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/state/index.mdx"
+    },
+    {
+      "path": "website/docs/cli/state/inspect.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/da8fee5ec1ef9a51541e05c2.mdx",
+      "kind": "official-document",
+      "bytes": 749,
+      "sha256": "6605ba14aff9fe940df55607571d53a429ede5a274671b3abc9bfae3b55a0df0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/state/inspect.mdx"
+    },
+    {
+      "path": "website/docs/cli/state/move.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6ab70aaf49f5fee9e343c798.mdx",
+      "kind": "official-document",
+      "bytes": 2138,
+      "sha256": "49b916fb156347d1fbf07888e479447dd8855f3eb2c72d2980325225e68b8ea2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/state/move.mdx"
+    },
+    {
+      "path": "website/docs/cli/state/recover.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2ff3991e41b9ef972601f7d1.mdx",
+      "kind": "official-document",
+      "bytes": 1140,
+      "sha256": "6634ada30333671f410b25026bbe1ecc22cabaf858b6183f3f3a35caa2e2ce12",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/state/recover.mdx"
+    },
+    {
+      "path": "website/docs/cli/state/resource-addressing.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/81b1ba8b2ca8a27797097775.mdx",
+      "kind": "official-document",
+      "bytes": 7071,
+      "sha256": "fee4320058ec8fc12c50239a1aa2478f32434f46e2c3e296b132579e8e0690e3",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/state/resource-addressing.mdx"
+    },
+    {
+      "path": "website/docs/cli/state/taint.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fc630f2ee27fd90071ea99ae.mdx",
+      "kind": "official-document",
+      "bytes": 2622,
+      "sha256": "d17e3a51f899893d2340bfeb64a5a4a1d05e53a8733cad9aa3205bf2b7ac27f6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/state/taint.mdx"
+    },
+    {
+      "path": "website/docs/cli/workspaces/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/39a8f21e71c3284c8de09cc3.mdx",
+      "kind": "official-document",
+      "bytes": 8231,
+      "sha256": "7cc261eff46033273d3a8e0aedad4e53b0adce9556d792c73f52186714ecfe36",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/cli/workspaces/index.mdx"
+    },
+    {
+      "path": "website/docs/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2ea5bb8dadf2837f0192b452.mdx",
+      "kind": "official-document",
+      "bytes": 1632,
+      "sha256": "885904cc1f49079e16c33bc05415427a9fe77a73fa7f90724a01543ecfdff025",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/index.mdx"
+    },
+    {
+      "path": "website/docs/internals/credentials-helpers.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/85c4a83b3fa8a16679e3519c.mdx",
+      "kind": "official-document",
+      "bytes": 7172,
+      "sha256": "3535ec6f7e75fe66b0ab81f58a8b2652806c9c3310c551bf33cbd8d4e765e6cb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/credentials-helpers.mdx"
+    },
+    {
+      "path": "website/docs/internals/debugging.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3922bc9f3d80b44cf4fc9b31.mdx",
+      "kind": "official-document",
+      "bytes": 1652,
+      "sha256": "84d01272f7686d37f2a0bbf748698cf15320f51ee850d12c818e69432aeec28f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/debugging.mdx"
+    },
+    {
+      "path": "website/docs/internals/functions-meta.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c2914d641a08cfbd43277bdc.mdx",
+      "kind": "official-document",
+      "bytes": 3607,
+      "sha256": "d05ebf59002533df98363d91a1ffd6d766a2cb6c92a5415022137afbc376cf04",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/functions-meta.mdx"
+    },
+    {
+      "path": "website/docs/internals/graph.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/30417e10eed9337f2aa395eb.mdx",
+      "kind": "official-document",
+      "bytes": 5309,
+      "sha256": "af12ab33f909eea86b542d1618d97203ed3d9f6bcfecaaad9e90658e72ac440e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/graph.mdx"
+    },
+    {
+      "path": "website/docs/internals/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/408e39ef2f4d1a381ad8c00c.mdx",
+      "kind": "official-document",
+      "bytes": 644,
+      "sha256": "ee9f178632e469262562c4513ea16159fa28e860c1bde05070ad6c70e25b5bc9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/index.mdx"
+    },
+    {
+      "path": "website/docs/internals/json-format.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b9e432639570bd8c47cee6f3.mdx",
+      "kind": "official-document",
+      "bytes": 39306,
+      "sha256": "28656423a0c6c25afd31a4b1d8fdb9ebbe383dc06ca65069a8d00880b5c1c4e5",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/json-format.mdx"
+    },
+    {
+      "path": "website/docs/internals/login-protocol.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f64d76aaf3c5be22fc877d49.mdx",
+      "kind": "official-document",
+      "bytes": 4649,
+      "sha256": "ea5f0ad7e112692a4ee72bd5528ef12ab5670c0e18fdb2c30bee5fe92e513909",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/login-protocol.mdx"
+    },
+    {
+      "path": "website/docs/internals/machine-readable-ui.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/148adeebe4299efdb6825c87.mdx",
+      "kind": "official-document",
+      "bytes": 25418,
+      "sha256": "017ba7f738fdda7b7c725dcf1b31a504ed7e8cd3bb832695d36168cd3c310788",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/machine-readable-ui.mdx"
+    },
+    {
+      "path": "website/docs/internals/module-registry-protocol.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6370dd9779316823dc29cbcc.mdx",
+      "kind": "official-document",
+      "bytes": 8921,
+      "sha256": "d48a78df6c9206733d19a7209f78b920d90a05f89d78bef0a8be843f5bfb58f1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/module-registry-protocol.mdx"
+    },
+    {
+      "path": "website/docs/internals/provider-network-mirror-protocol.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b10bc6613f945e33f736d5d0.mdx",
+      "kind": "official-document",
+      "bytes": 11301,
+      "sha256": "94bdc84123edd4286b606d6fc5cb3aedcd400d692ab0603eb96a6d1dd9adcc26",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/provider-network-mirror-protocol.mdx"
+    },
+    {
+      "path": "website/docs/internals/provider-registry-protocol.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/672320df970b349ecab42e56.mdx",
+      "kind": "official-document",
+      "bytes": 17377,
+      "sha256": "09f7643b4d59f560822b6e0a4b7f7fde9d45bd58b48cf438430811158336f042",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/provider-registry-protocol.mdx"
+    },
+    {
+      "path": "website/docs/internals/remote-service-discovery.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/606fe0510f53521d9c12e5b2.mdx",
+      "kind": "official-document",
+      "bytes": 5005,
+      "sha256": "5559c5188d1535cd65401f4217f3b31a048496f7556037a7cc39b02241c44936",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/remote-service-discovery.mdx"
+    },
+    {
+      "path": "website/docs/internals/tracing.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/981f6c29c7c60573d92d2c0e.mdx",
+      "kind": "official-document",
+      "bytes": 4554,
+      "sha256": "533de1c51a0cdcb30931ff224f0a532c6691a606840d2dcf203df6e8e9423966",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/internals/tracing.mdx"
+    },
+    {
+      "path": "website/docs/intro/core-workflow.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/855c952fa6b4bd3cf281774b.mdx",
+      "kind": "official-document",
+      "bytes": 8213,
+      "sha256": "ed05574071b560c9b38c566d0afdd1e8cc45e07b0ffafb499913cfe37142de93",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/core-workflow.mdx"
+    },
+    {
+      "path": "website/docs/intro/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0fc9ac7e4db76d27a16dc6f9.mdx",
+      "kind": "official-document",
+      "bytes": 4739,
+      "sha256": "e6c0cb4e564439d9f0aba9d2a0885911ae67329db9bac93fae26f09efa78bab1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/index.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/alpine.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/15cc53a34e84b6a5839d0e35.mdx",
+      "kind": "official-document",
+      "bytes": 1324,
+      "sha256": "49618c8b6db7d7ed3ae645249dce3350a5db4a3fee9bf6c245688401e3d26319",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/alpine.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/bsd.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/be9f65e2ab5625c1475c09d9.mdx",
+      "kind": "official-document",
+      "bytes": 835,
+      "sha256": "48c4c6d7b839a8b717c11710a1b3b0504a36a84f8047ddd0cc407badab4b4323",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/bsd.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/deb.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5727272668f370ec991cd4c3.mdx",
+      "kind": "official-document",
+      "bytes": 1844,
+      "sha256": "e1514d7d088f33b94aa1fd246b377442db9b0b5408aef0588729886d17f4b219",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/deb.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/docker.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5efba064586df64e4c64b69c.mdx",
+      "kind": "official-document",
+      "bytes": 3826,
+      "sha256": "5cf73d8a9b16492326aa71d2c43e28213f4dcd75c9a53ebbf2ec22055f101d89",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/docker.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/examples/alpine-convenience.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/39b448b4c41e467e532c667f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 486,
+      "sha256": "e929e5c362bae5dc8f9e2ca56dc9e8656977bb3607a06d8c40e4e4316b42f737",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/alpine-convenience.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/alpine-manual.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3e3c30d54dfc4c55b680c803.sh",
+      "kind": "upstream-example-code",
+      "bytes": 123,
+      "sha256": "36c7d342ae0906fa44e7d4bb0bd7e2ea7346cce24d4da9dd2c796cd4125fddfc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/alpine-manual.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/brew-install.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e125fa7b88224bed6c706afc.sh",
+      "kind": "upstream-example-code",
+      "bytes": 33,
+      "sha256": "7cdeffe5a9c6b3400afab8f404a9bcd839793fc10221b75df7fed3053dfd6c30",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/brew-install.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/deb-convenience.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c48ac779b09f8ace7adf6571.sh",
+      "kind": "upstream-example-code",
+      "bytes": 486,
+      "sha256": "ad90ea3338ad932e7f89fb45ee2a936c928e87e2806fddbed384f926838cb1c4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/deb-convenience.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/deb-step1.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d766f922e8d858455eacc357.sh",
+      "kind": "upstream-example-code",
+      "bytes": 90,
+      "sha256": "67f1c63e6db3747e754a6baf8636fd8fe63f3a81f75a83abee7fac07040334ac",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/deb-step1.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/deb-step2.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/773beaf69c10a54905195bc3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 376,
+      "sha256": "13baee1738be291093bdb875a293a6e30ed765ebe77df71d71c72133524e260f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/deb-step2.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/deb-step3.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0d00efa0d81dc81298d19a4c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 415,
+      "sha256": "a58365081e5547a2dc4f60f4b62429d031cc15581c1683430374a43207a05e8c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/deb-step3.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/deb-step4.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6ddcc3594234ee3e3a5f5aee.sh",
+      "kind": "upstream-example-code",
+      "bytes": 48,
+      "sha256": "002f6f7480e6d2a3775abd90e38fb6a5501e8b3eba4cc15254818c50fdbc7cc0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/deb-step4.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/docker-pull.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/265aaac88e627d62f80d31c3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 45,
+      "sha256": "df515560877e28e8fac4c0a67ad15aa5c46780fb8b5e7d0519d987c1cd3412dc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/docker-pull.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/docker-run.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/61bb51919f444cb63eb1a277.sh",
+      "kind": "upstream-example-code",
+      "bytes": 552,
+      "sha256": "be0a0215717340ba76d32e85a7547f01613f9f237b6337060a699f99d56c4a28",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/docker-run.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/install-dnf.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0ec2d0c1a5ff19f86d3b5b30.sh",
+      "kind": "upstream-example-code",
+      "bytes": 25,
+      "sha256": "39e67974de1a2f5315be7804dc861516e79c2cbb2846ca403e235ef23472318c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/install-dnf.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/install-yum.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/aaccd201e6a02408b38d0441.sh",
+      "kind": "upstream-example-code",
+      "bytes": 24,
+      "sha256": "a6cdebd50266ba0ac6fb1dd264b3a9894db552d7899e71e2b9469bd0246e94bc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/install-yum.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/install-zypper.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d035ba24c7b7ef636e34eeb7.sh",
+      "kind": "upstream-example-code",
+      "bytes": 123,
+      "sha256": "6459b835c20e730309cd14a525b8bda48e7a81fdc9d8cb9f91a6566bb3e2b69e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/install-zypper.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/repo-yum.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/dffd88ef1761bd94f2a3bc7c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 693,
+      "sha256": "547d316fb168ec1c8d82964e3963b585694f6acae467b70df024278a39ed6753",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/repo-yum.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/repo-zypper.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2c27ba42c68d34025d2e612e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 694,
+      "sha256": "06eff4647ca80f3a645026f2128749d2c930a483f9e28e0d6a241bc82e4d9364",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/repo-zypper.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/rpm-convenience.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3c3757d6a004cda56bbbb732.sh",
+      "kind": "upstream-example-code",
+      "bytes": 486,
+      "sha256": "0701611a451092c52d544ef1ee96477ca9c5aef4c7a7911f434f267c70530e6f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/rpm-convenience.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/standalone-install.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d7485dd362fe30335f8eb145.sh",
+      "kind": "upstream-example-code",
+      "bytes": 506,
+      "sha256": "c6490b55e9bdba9b59df925b0ea3f9adcc799f9f5f5c6cd52b179e5f7ed9d8ee",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/standalone-install.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/verify-checksum-linux.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/47a2ecf76a6ccb60ffd61a1c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 240,
+      "sha256": "5e0c27c0ec0e8ab1199df96007c2fc6076cb51b215566e40070dad5d52709570",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/verify-checksum-linux.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/verify-checksum-macos.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7e4f180e1f7ec56ec1ea7dda.sh",
+      "kind": "upstream-example-code",
+      "bytes": 244,
+      "sha256": "12b4d1ef7d6f90b86ac778c3b461a5df4e538758cd61de4944f7aa1223eafc34",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/verify-checksum-macos.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/verify-cosign.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5e624f3081935f5b7328d4e1.sh",
+      "kind": "upstream-example-code",
+      "bytes": 466,
+      "sha256": "253319dd9e0bf0d484d805cf092422e07eb87a8974758e77be97d2440cc70eb0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/verify-cosign.sh"
+    },
+    {
+      "path": "website/docs/intro/install/examples/verify-installation.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c4a26881801fbfce19d2b610.sh",
+      "kind": "upstream-example-code",
+      "bytes": 13,
+      "sha256": "0c2f4fac693d54b7928ef4359931552cd67ed68b1b0e1070aabe55c19628f706",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/examples/verify-installation.sh"
+    },
+    {
+      "path": "website/docs/intro/install/fedora.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9a9f4df20dff5c3f527e9886.mdx",
+      "kind": "official-document",
+      "bytes": 425,
+      "sha256": "33a2b6dd7a01020f989c660849c1d60f5c065141a3cfad0b80c273decb99f45d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/fedora.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/homebrew.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8746adccbec584b38787fd89.mdx",
+      "kind": "official-document",
+      "bytes": 716,
+      "sha256": "01593393c48bc262d9d39baaff525f088225c4bf97d3df81fc3eb3960babf79d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/homebrew.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/413756c5388184d484bd0299.mdx",
+      "kind": "official-document",
+      "bytes": 2532,
+      "sha256": "828c601723397fa0187ae47e3ff76a241e5b01a02ba75595332d78c1a5945724",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/index.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/rpm.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/45a0f1c078130ae91583ab41.mdx",
+      "kind": "official-document",
+      "bytes": 2389,
+      "sha256": "d908f19572b2453f5c223f287a59bf60d9c80a9ba2539bccad80f2dc493c1478",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/rpm.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/snap.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5ef2faa2d4a15cd5877298c4.mdx",
+      "kind": "official-document",
+      "bytes": 442,
+      "sha256": "d64d32ea3951fe1b7587cdc60593fbfe8d40c4c0a32dd47010655da50a05268c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/snap.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/standalone.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f977ea159d36edff8791bee3.mdx",
+      "kind": "official-document",
+      "bytes": 3972,
+      "sha256": "a1bac376abbb9e26362306ab235ffc2d12fac00c781024fd0a988330ee79a6a9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/standalone.mdx"
+    },
+    {
+      "path": "website/docs/intro/install/windows.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7bbf33c1669d46cb46e4f6f4.mdx",
+      "kind": "official-document",
+      "bytes": 1505,
+      "sha256": "b592bdcd50f154faf4a25b0cac7e5d0761d72772f267560ac6af1b0585748186",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/install/windows.mdx"
+    },
+    {
+      "path": "website/docs/intro/migration/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0630f49d9fff2466a38fcc10.mdx",
+      "kind": "official-document",
+      "bytes": 1098,
+      "sha256": "bf39128ddd95d1ec2d041816701059cbb4a890bba88b30f0733d483a0cca3a5c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/migration/index.mdx"
+    },
+    {
+      "path": "website/docs/intro/migration/migration-guide.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ade0f81172a6f4adf7584ceb.mdx",
+      "kind": "official-document",
+      "bytes": 3278,
+      "sha256": "5f3e766f22ef2de8ed86d33cf626d9eac45731f840686fe0ba61035b451838f1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/migration/migration-guide.mdx"
+    },
+    {
+      "path": "website/docs/intro/migration/multiple-configurations.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/53219bcea7e83d1780153544.mdx",
+      "kind": "official-document",
+      "bytes": 8220,
+      "sha256": "5e87c8dba35514e72ff8c13069ed806d8019b53f4fcbd12138ba574ae77e03f0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/migration/multiple-configurations.mdx"
+    },
+    {
+      "path": "website/docs/intro/tacos.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3adccad42abe7b794031e9f9.mdx",
+      "kind": "official-document",
+      "bytes": 577,
+      "sha256": "f81b2f3be16cc1934c0486ea6003736f564e59c9ef674289857cf104da1269b0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/tacos.mdx"
+    },
+    {
+      "path": "website/docs/intro/upgrading.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/acef88b19d73dd6265438ccc.mdx",
+      "kind": "official-document",
+      "bytes": 3623,
+      "sha256": "e7b90713e020bd1031010736eafa65c9ae7ce176a2f6d445f2cd96c0b81e837b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/upgrading.mdx"
+    },
+    {
+      "path": "website/docs/intro/use-cases.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/264b2c7c6e827fefa09601b8.mdx",
+      "kind": "official-document",
+      "bytes": 5091,
+      "sha256": "df6bcaf31208ed8afb7e46c8d445f48b1a43e8a39c9258ca4a5963d2de163380",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/use-cases.mdx"
+    },
+    {
+      "path": "website/docs/intro/vs/boto.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/64d83af4ce3586dd72a721ea.mdx",
+      "kind": "official-document",
+      "bytes": 916,
+      "sha256": "5af01e58c66467b6ff95d272a72d431ea675f955479f508fbc7942539dbcd740",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/vs/boto.mdx"
+    },
+    {
+      "path": "website/docs/intro/vs/chef-puppet.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d2a2c9488c23d0a1cce8dec2.mdx",
+      "kind": "official-document",
+      "bytes": 906,
+      "sha256": "04d9be0f4609c5880abcdbbbd097b7a9279eb27a9cac1fb1b4c565ebb5e0ef00",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/vs/chef-puppet.mdx"
+    },
+    {
+      "path": "website/docs/intro/vs/cloudformation.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7eb4d5e1d4fe98d507491146.mdx",
+      "kind": "official-document",
+      "bytes": 2157,
+      "sha256": "d4b02a7fd7d7ca2c3bce53c04e2988300e1f121cc67b5c8b3f8c9d8846346f60",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/vs/cloudformation.mdx"
+    },
+    {
+      "path": "website/docs/intro/vs/custom.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a9bb1c0c747bc06a6b328ab6.mdx",
+      "kind": "official-document",
+      "bytes": 1730,
+      "sha256": "6a172c69ca642d4bf57690419744726c591615031027c7861f419f883941c7d4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/vs/custom.mdx"
+    },
+    {
+      "path": "website/docs/intro/vs/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/767ffeec62c6ef8817c5e201.mdx",
+      "kind": "official-document",
+      "bytes": 948,
+      "sha256": "09da512c41e86b5a4dcb1a8a55878ee7561a543eb79059d39316f699081a406a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/intro/vs/index.mdx"
+    },
+    {
+      "path": "website/docs/language/attr-as-blocks.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9316ff7a1daa65cd3c82c4c5.mdx",
+      "kind": "official-document",
+      "bytes": 5510,
+      "sha256": "402e4e49aeca2545945fc5b447ff4df068586e78deb59c4b86da3361f5934a43",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/attr-as-blocks.mdx"
+    },
+    {
+      "path": "website/docs/language/checks/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6e094cfd8cc06e0f25650c39.mdx",
+      "kind": "official-document",
+      "bytes": 9012,
+      "sha256": "b8b7fa90e48402f7e703abcbcdc9f46c9a9c78874b0c434ec06cddc5b2c91090",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/checks/index.mdx"
+    },
+    {
+      "path": "website/docs/language/data-sources/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cbbb7ae47bec561ef3e696cb.mdx",
+      "kind": "official-document",
+      "bytes": 9029,
+      "sha256": "2dee8c018181bc9530b665d7da3a0438078ea52cf248182e10320614d9fb9022",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/data-sources/index.mdx"
+    },
+    {
+      "path": "website/docs/language/ephemerality/ephemeral-resources.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9d67f29f46adfb77b8cc3960.mdx",
+      "kind": "official-document",
+      "bytes": 3668,
+      "sha256": "63f357c06fa57f008910375da4c3dc17bfcb20fa85af2cc1b3c10a7343c9759c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/ephemerality/ephemeral-resources.mdx"
+    },
+    {
+      "path": "website/docs/language/ephemerality/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c9102dc30ad46325291f5656.mdx",
+      "kind": "official-document",
+      "bytes": 9770,
+      "sha256": "90e48a7195cade4c1f04610f7de08258333188d32ba968d240e1fa48812f09b2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/ephemerality/index.mdx"
+    },
+    {
+      "path": "website/docs/language/ephemerality/write-only-attributes.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d9bcd1a34d830ccb956819e1.mdx",
+      "kind": "official-document",
+      "bytes": 2583,
+      "sha256": "01a94a867cab15ff69b3f62afc553bdab411592325e89051505e7b9ddf2e4e12",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/ephemerality/write-only-attributes.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/conditionals.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/caab4d9c00688d8b17b9af23.mdx",
+      "kind": "official-document",
+      "bytes": 2746,
+      "sha256": "a48cb60e168064c4c0cb40e9abcdcf23403cc9ae5dc87d311f305e164ff8c358",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/conditionals.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/custom-conditions.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f80555bc7a9dc4e93b788100.mdx",
+      "kind": "official-document",
+      "bytes": 23940,
+      "sha256": "feb7ab24221573316ae48f2611e0c12608fac434c4dab6c7bd253c02e43c28bb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/custom-conditions.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/dynamic-blocks.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ad91b00b14a6385ee1e44bee.mdx",
+      "kind": "official-document",
+      "bytes": 6143,
+      "sha256": "5eaf1e4918c5ebb8cccf50c7c8a31d211e829ad63b51bed957211c3d24feda46",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/dynamic-blocks.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/for.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5e2603351f58584ec91260a3.mdx",
+      "kind": "official-document",
+      "bytes": 6647,
+      "sha256": "f809ab1a8ddb2214ae82a908eadf5311dbe96f649de9d3949cb39cef82a4e886",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/for.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/function-calls.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2ef01660095bc06b27fd8001.mdx",
+      "kind": "official-document",
+      "bytes": 4485,
+      "sha256": "3b722c502f3e7a4b62c4d1500d2c73dde8fd841f76280173ad43c563d4e6a7f3",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/function-calls.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8202b1befdeded95dd1bdefb.mdx",
+      "kind": "official-document",
+      "bytes": 2819,
+      "sha256": "3c87026d669bf6d6d2a0b60f8ef9010556c109cfd5c63707cad294b20681e170",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/index.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/operators.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/79597ee589794f6689649dec.mdx",
+      "kind": "official-document",
+      "bytes": 4651,
+      "sha256": "3d6c4e4b26ac9700b1deae0d544ed296573b29b5ecc87f9b9ae0b5bedcb5b8e8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/operators.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/references.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/113b52dad4e0830da9e0b7dc.mdx",
+      "kind": "official-document",
+      "bytes": 16564,
+      "sha256": "cfb8e12811bae40834434cc868ca27c29e6269c3c9b8aeb8e716b4387feba11c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/references.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/splat.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bca7d85ff64bbb7809c13e3b.mdx",
+      "kind": "official-document",
+      "bytes": 4361,
+      "sha256": "177c3aaa1cdbc80e793a2c5f71e4ff3395cf6fc835fedabb9bd0fc7a873c4455",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/splat.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/strings.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ac89c7cb4f817c740bdd8a36.mdx",
+      "kind": "official-document",
+      "bytes": 7576,
+      "sha256": "121590dc1b861aeee8498b8dfb958ae3f665dbdc892984c160241956ba736bf9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/strings.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/type-constraints.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ef915b320316d83dc3153c20.mdx",
+      "kind": "official-document",
+      "bytes": 18652,
+      "sha256": "9ab86dbfdf2597c33fe936ecf42a2edba19c9909175182d32f76285adfb159a0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/type-constraints.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/types.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1a6a8d2af9f4554bdbc634a9.mdx",
+      "kind": "official-document",
+      "bytes": 5807,
+      "sha256": "2bbbccb5deedb327dbcc45a526b00333635282cbb68234eee94b6a78a75cf659",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/types.mdx"
+    },
+    {
+      "path": "website/docs/language/expressions/version-constraints.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1fac5b3965f0f0aa4f887430.mdx",
+      "kind": "official-document",
+      "bytes": 4401,
+      "sha256": "b673d71a12413e3a1b39c750a82421f8ec47bc74e7b835b335f050e3605fee07",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/expressions/version-constraints.mdx"
+    },
+    {
+      "path": "website/docs/language/files/dependency-lock.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/063ca7e4e16cb319d7510a82.mdx",
+      "kind": "official-document",
+      "bytes": 19926,
+      "sha256": "cbffa229f8c97cef734afb571246b00545753fd993068e9bbc90f01666254de7",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/files/dependency-lock.mdx"
+    },
+    {
+      "path": "website/docs/language/files/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/482973b109922904a78b2f70.mdx",
+      "kind": "official-document",
+      "bytes": 3011,
+      "sha256": "da989fa0f103cbd23b59852855e3cc8ee4006c9758001e948bba5ae3665544de",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/files/index.mdx"
+    },
+    {
+      "path": "website/docs/language/files/override.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cc676bdd44de80e63cb2bae3.mdx",
+      "kind": "official-document",
+      "bytes": 7128,
+      "sha256": "5cb3cda9dfcdd30db50eb15a055934a99633f117b6e079679950e2807a9ca480",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/files/override.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/abs.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8b9eaab2bb10c5a72f5d271c.mdx",
+      "kind": "official-document",
+      "bytes": 410,
+      "sha256": "05b99bf8d39c90b3599b8da9bae24161a159a9bc8ea67016195d4ffaaee7d181",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/abs.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/abspath.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/01ecf890f2513d7af3cdb40c.mdx",
+      "kind": "official-document",
+      "bytes": 798,
+      "sha256": "384fd389a0b6ceee6c7fed4e6c548b6575e0dbf7f995b0e7f33e50e18ae592c5",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/abspath.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/alltrue.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/de7cbe4d423aa6b435f7a755.mdx",
+      "kind": "official-document",
+      "bytes": 463,
+      "sha256": "b4f047baec2fca933c62823a7f5612af00fec3f4104a679ddf6ca8b9d14998b1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/alltrue.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/anytrue.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d96310ddd20f690ff08e797d.mdx",
+      "kind": "official-document",
+      "bytes": 497,
+      "sha256": "c6060292ada5d3f0b842319a0c0fcc9f12fee9ba4ecaea3ad0e2039906999541",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/anytrue.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/assume_family.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d183c613c07cf49dfc4ae45e.mdx",
+      "kind": "official-document",
+      "bytes": 10386,
+      "sha256": "24c6b7abf4fa4559d4c760a69d9996cfa3602020c8f98e3bda4b4104a574d48e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/assume_family.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/base64decode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bf2b855e8852bbc6882a3c8a.mdx",
+      "kind": "official-document",
+      "bytes": 1889,
+      "sha256": "752770cc074cfb6abd9d3f0842310863c0a98863b8ff4416d8548b8ffaedcecf",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/base64decode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/base64encode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e0aff327d5c696235d1aae50.mdx",
+      "kind": "official-document",
+      "bytes": 2011,
+      "sha256": "f742e66fa94d0be38577188f48f662a2ce0ccea01529eddc9b56932cc731a78c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/base64encode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/base64gunzip.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5059a51ec044e457946bf161.mdx",
+      "kind": "official-document",
+      "bytes": 553,
+      "sha256": "f4e20be9a0729b001968555c14a9ff5f464af87fb22916dd529443120e6281cd",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/base64gunzip.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/base64gzip.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0d1cccab421ad773fb76a762.mdx",
+      "kind": "official-document",
+      "bytes": 1881,
+      "sha256": "9d3feb67d37f3d07df9ffa1bee789330ace09a9f77950da097630a2fe6b4e18a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/base64gzip.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/base64sha256.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1cadfd54976edc56cd152268.mdx",
+      "kind": "official-document",
+      "bytes": 1130,
+      "sha256": "b4e34756caada6d0d148d99a3e493b5ae1dba74dcf5cb3dd4ec71216544dda88",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/base64sha256.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/base64sha512.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/82236ecca8e83a3d8bc0b91b.mdx",
+      "kind": "official-document",
+      "bytes": 1174,
+      "sha256": "83a5db665620a5d8f155cdb89d2ac11c638f8473c454f677af228b4c29fe1958",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/base64sha512.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/basename.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8676584beb53c5169f99ddd7.mdx",
+      "kind": "official-document",
+      "bytes": 1372,
+      "sha256": "4133091c6f39ad02972ec96a76c2bcc202bc88222793f05eeb1a11ad4a15a336",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/basename.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/bcrypt.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c0a16c6ec7cf53ef3d155d96.mdx",
+      "kind": "official-document",
+      "bytes": 1121,
+      "sha256": "34507e315521c6807fd4cdd2aed7419e8e57fc39188e5d2c83cffb88d230bfdf",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/bcrypt.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/can.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a09b9e5807616ad47c3f0628.mdx",
+      "kind": "official-document",
+      "bytes": 2395,
+      "sha256": "f5f11b7b3f10d2c0460aa523641f15ebdd130a19c7669118627caeaad9db3718",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/can.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/ceil.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0ed05fd5b218ffdce5e614d8.mdx",
+      "kind": "official-document",
+      "bytes": 461,
+      "sha256": "0016b05fb7483dcfa489fd7692c013946e7174aa2ebc1de15625b1967ddecfcc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/ceil.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/chomp.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ccb57c1f8f102c6d15f9d973.mdx",
+      "kind": "official-document",
+      "bytes": 568,
+      "sha256": "a6b63c4d0c3381bd86537069f3aec6522f6c89e5be7404e1f6ff6428854608c1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/chomp.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/chunklist.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/80553a678688822d180c7d3e.mdx",
+      "kind": "official-document",
+      "bytes": 573,
+      "sha256": "fb3b213c7c3b7a9290b58a4f3bed96036fff6f94a26382108351a5aab9b8e32b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/chunklist.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/cidrcontains.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/37c0fd64aa8ae22d5dc788bf.mdx",
+      "kind": "official-document",
+      "bytes": 838,
+      "sha256": "f577a9edab8380f96a4e8f2eff47e587dae6f7412416ab4cee1ad8a17a405d5d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/cidrcontains.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/cidrhost.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9ed1e7b90a5404f922fa8211.mdx",
+      "kind": "official-document",
+      "bytes": 1890,
+      "sha256": "d998ac199b9ce70d0d36f8af250d6be80a378eeea3205a7664838cc3a229a971",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/cidrhost.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/cidrnetmask.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bbff044060098bc6728d1bf1.mdx",
+      "kind": "official-document",
+      "bytes": 1076,
+      "sha256": "74cfed40e3bb11c209a61760e54b55b345a33e110ba3a0a2d730aa70d8a051ad",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/cidrnetmask.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/cidrsubnet.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f665179aacbb9e9de107a185.mdx",
+      "kind": "official-document",
+      "bytes": 7044,
+      "sha256": "427cd74f26cf02049da7b968bc3ad1b6f1ee0ac6f326f31fe6b3bec0506262b9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/cidrsubnet.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/cidrsubnets.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/eec56079f66bc7f0823e5ab3.mdx",
+      "kind": "official-document",
+      "bytes": 3532,
+      "sha256": "2d54e804a65a78a89c17b3e250151b835ec624a8bf49c0415ad21d48e104d334",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/cidrsubnets.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/coalesce.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5914a473da93b0991789d161.mdx",
+      "kind": "official-document",
+      "bytes": 1363,
+      "sha256": "5e1565a5dd1d7ca40d689217769fe486cf0c74ba719ff9db081658d76954e1c8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/coalesce.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/coalescelist.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/45f4e06006efebb226fc8cfe.mdx",
+      "kind": "official-document",
+      "bytes": 755,
+      "sha256": "8dfb7d7f6191351dbc0f5b646ee1ab5af4ec7e6b09152dd3b985ec445a32b8c1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/coalescelist.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/compact.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5eb3c6ad7c025ea94b80df05.mdx",
+      "kind": "official-document",
+      "bytes": 328,
+      "sha256": "eff6e3414a734b6285866c86c73ee7f4ef30f3290dd2e4cfd40cefe6b1969abe",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/compact.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/concat.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3ac67d0aa6a999b73c632deb.mdx",
+      "kind": "official-document",
+      "bytes": 288,
+      "sha256": "8d608054f1c521261d6bc3f90717e3a2c95d7b05bffc01ce426434e28133f836",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/concat.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/contains.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5dbefebf6600a5dcc01c2db5.mdx",
+      "kind": "official-document",
+      "bytes": 385,
+      "sha256": "21e80fcabfb9583b34bd80b36ae9c5ae1a97b764f9b14d01e2d7137f7c818435",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/contains.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/convert.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e85ca1ee6d239b234dec1c8c.mdx",
+      "kind": "official-document",
+      "bytes": 1866,
+      "sha256": "eb895f304db8c3c2d79c5df6268f488f7fde50ef8a4e315273bfa82f34cf0c5b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/convert.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/csvdecode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6dd50b83ed33e37134e22fc8.mdx",
+      "kind": "official-document",
+      "bytes": 3263,
+      "sha256": "c906cc8d1cb03157a2f29ff2bdc7b133480c858aa139b57a832979587915032f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/csvdecode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/dirname.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7dda43b9cbef3335f7c1c803.mdx",
+      "kind": "official-document",
+      "bytes": 1469,
+      "sha256": "306e7341df91c9e99cc88155f3528d72055b26bb084493da1e91bd2f57ecee88",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/dirname.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/distinct.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3cba587667ff0bc4125bc008.mdx",
+      "kind": "official-document",
+      "bytes": 418,
+      "sha256": "c1f52ac56632f1a82ed50b6f4a665bcc403dcab6a06626dd44182f76835a488e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/distinct.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/element.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e35775a00f8d07013005748d.mdx",
+      "kind": "official-document",
+      "bytes": 1464,
+      "sha256": "312524985fc38d8b7d82f6fa6e4e9aa6f91bd9d0430b84e0ccc7c14463df63fe",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/element.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/endswith.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7b46239ccb7e5611306a13ca.mdx",
+      "kind": "official-document",
+      "bytes": 711,
+      "sha256": "20af524b7b06fe4ecf359f3ab19a0457f4def1ab06f80cee3ba05c9d824cad4d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/endswith.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/ephemeralasnull.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/07ccf3b4eaae40d15ac0e391.mdx",
+      "kind": "official-document",
+      "bytes": 742,
+      "sha256": "3e045b1cc37a4d9ee1985cecf6cdf0123a074c762ec3157e1a5f728b489c1e0a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/ephemeralasnull.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/file.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bf2efde93d44499ce99ad231.mdx",
+      "kind": "official-document",
+      "bytes": 1640,
+      "sha256": "c7eea9e91b3942e904ea5da2f11a24d82daaac7956c1165b6ce882c74e9f2a2e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/file.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filebase64.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/92c7b8d2586646bc70fef179.mdx",
+      "kind": "official-document",
+      "bytes": 1685,
+      "sha256": "0130c82f1c062a2e08303c0740eaf95cd6991cfbdf3f5a763667b938f1d2af21",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filebase64.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filebase64sha256.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/713d1baafb8f8602014c2a72.mdx",
+      "kind": "official-document",
+      "bytes": 558,
+      "sha256": "8137bdd7acbef79e9e0adf4b479e111c015babaecabb50d6b476dc71ce3a89ac",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filebase64sha256.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filebase64sha512.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/17a790e19297f7bc0b3f9edb.mdx",
+      "kind": "official-document",
+      "bytes": 558,
+      "sha256": "df0a18adf5e6aea396e89ada128a4900973e9a75462403d91ace1483e156d045",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filebase64sha512.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/fileexists.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e6b39105e97b905475e57250.mdx",
+      "kind": "official-document",
+      "bytes": 837,
+      "sha256": "8a339e2c57fa2c927a1fd3fb7cea54db11fde0b36f3e7f49304a55a04ab88cf9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/fileexists.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filemd5.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fd71eb90b82cff638bca54ae.mdx",
+      "kind": "official-document",
+      "bytes": 754,
+      "sha256": "e77885f41ecc4ebc69e80fb7ee5c6f7a5dc3be81d55c61c40a62118e99b97341",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filemd5.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/fileset.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/31b1650c47dce31eb2c6ae82.mdx",
+      "kind": "official-document",
+      "bytes": 2227,
+      "sha256": "930b49d04ab7784bcbf05e09c1bcc0059aa33e4418eec5658db5bbc9b420770d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/fileset.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filesha1.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5cb531c593367717114cbd80.mdx",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "771891c46c67ea565811dbe417011600b83573c1b49c02e9f5345b19b6c6d37c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filesha1.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filesha256.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c42e6e19f2d53f676ff3acee.mdx",
+      "kind": "official-document",
+      "bytes": 511,
+      "sha256": "10a4a6ed1dc658f9d262ae4018eae8d8f5a06cd321bcf635278cff873c767854",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filesha256.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/filesha512.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9be870a964f3946c00530942.mdx",
+      "kind": "official-document",
+      "bytes": 511,
+      "sha256": "b9ad882d2476ac280dfedeaddadedd038579eaeba065c806d87964b0f1c2677b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/filesha512.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/flatten.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0333ff11f0c78f9aad79b153.mdx",
+      "kind": "official-document",
+      "bytes": 3165,
+      "sha256": "06ea7217c571e08c49f5bb9a9aa7196d02ce2a5d8618dd2974bd3c9cca7b2e38",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/flatten.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/floor.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bb536b6e7d3dd7a056588147.mdx",
+      "kind": "official-document",
+      "bytes": 462,
+      "sha256": "6c69538c84dfc5bc050accd34f13b5b1152b5dcf0cfcb898e3dae22940c499e3",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/floor.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/format.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/49cc9113e733bc76312ba24d.mdx",
+      "kind": "official-document",
+      "bytes": 6434,
+      "sha256": "4c9852dca74b1718fda691c2356380e14dbdd374a9c70d7e94dcaf2287d1bc56",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/format.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/formatdate.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b6fd2b1791f04e8c0a03fc26.mdx",
+      "kind": "official-document",
+      "bytes": 5172,
+      "sha256": "78c2c0f56fa6943bea9552a041361ce42f08b0431883dac2e8739b370df3f735",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/formatdate.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/formatlist.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a7375a23bf6812a6657bf177.mdx",
+      "kind": "official-document",
+      "bytes": 1374,
+      "sha256": "8bed1026567a4c50fd6bd5827fc61ef89192e4f0a746b024d65aaeecc221dd95",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/formatlist.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/indent.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/36ec61331586b88c27d96300.mdx",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "dd04811548c222ff8da55263258f11f21718214fe5e9559647f9e24f6b39cd3d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/indent.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fc864926b8e0b312bf513370.mdx",
+      "kind": "official-document",
+      "bytes": 2576,
+      "sha256": "e2d4c433bdd6bbd12791aaf0a501fc2f9332383f93d1b1e204ed6368a7ff24e6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/index.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/index_function.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ca84d7dcf94455fc4537243b.mdx",
+      "kind": "official-document",
+      "bytes": 532,
+      "sha256": "e3d504c7f5a63ebad0cbb4bfee6a123cc2cba56d13fca4d9487486bffef8448d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/index_function.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/issensitive.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/229a421fa9bd9f19820631b5.mdx",
+      "kind": "official-document",
+      "bytes": 1062,
+      "sha256": "8c9ac000fc08c6fdc5577ca23f01769caf03572a8190b8286eb08341f9393a00",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/issensitive.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/join.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7522f2168ea6bfd7d0db1867.mdx",
+      "kind": "official-document",
+      "bytes": 652,
+      "sha256": "70a033adad09097abdaaad83458ca2ac3f76346c127f62e4e62daa72df39b659",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/join.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/jsondecode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9f9968eec7127734b1121314.mdx",
+      "kind": "official-document",
+      "bytes": 1551,
+      "sha256": "f37f930fcc15a7709b34adb17c6bf97e38881d4d7c0954a5558f76a558ee30be",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/jsondecode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/jsonencode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0f2bdaa5b2a49563072645b1.mdx",
+      "kind": "official-document",
+      "bytes": 1524,
+      "sha256": "bfce4f2e6f099f39d6101fb114b2381c34a4737a9dbf1a1cb7b60bfc2c1016b4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/jsonencode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/keys.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/34d10fa9f8c5614cd26eb62e.mdx",
+      "kind": "official-document",
+      "bytes": 519,
+      "sha256": "b6cafcea0e0c6c7b2f0df9d61ac34e59fc2b6e05ed8bc5148028185314e8419b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/keys.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/length.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/78ff4f37a62c382360409b19.mdx",
+      "kind": "official-document",
+      "bytes": 1048,
+      "sha256": "60ddd5a7be806f81f9eb1761765743a17ff61f151fb6da3c9dd19ae113a507fd",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/length.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/log.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b7caf8ac691422db467d2db7.mdx",
+      "kind": "official-document",
+      "bytes": 508,
+      "sha256": "f2e66b6d9d1b072c1df86de6c9c2be716ddcb0472f12244ffd2d0a563a6fd970",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/log.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/lookup.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1c2dc184384c49d7196e0164.mdx",
+      "kind": "official-document",
+      "bytes": 782,
+      "sha256": "22f3019fd0ec76e07095b31eb280f1ce56dd8cca107a40802691ba50d3b767eb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/lookup.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/lower.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/566baabc974b9fda3d04be51.mdx",
+      "kind": "official-document",
+      "bytes": 605,
+      "sha256": "ae6a169bcf9ea7e57e29aa149719665fc1539806b8f0c872a3a57efdb6407ff1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/lower.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/matchkeys.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ee16ca1286474c58a67e2762.mdx",
+      "kind": "official-document",
+      "bytes": 1899,
+      "sha256": "1e329b2386f9a0265918e9a126152ec1bc88cf296f5477d8927a3e926bdedc60",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/matchkeys.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/max.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6c87b780193632b8e8eb43db.mdx",
+      "kind": "official-document",
+      "bytes": 509,
+      "sha256": "849666767e696b231e6001c5fed006634245fb36388e3ac9da3bf11912c5bdff",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/max.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/md5.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ee2139365edf3fc581c5574c.mdx",
+      "kind": "official-document",
+      "bytes": 979,
+      "sha256": "e0fbe435585807c223b41aa40ebf11e3eb27cd180a43e5ff03146a0d8122acb6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/md5.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/merge.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d4e0714cff08eb342af78652.mdx",
+      "kind": "official-document",
+      "bytes": 1217,
+      "sha256": "0d2f5b0a6a09b04d8b0bae3e663871cfe3a077a8e3bbf9500fa2bce55cead923",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/merge.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/min.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3552fce576e295b1c59f4217.mdx",
+      "kind": "official-document",
+      "bytes": 507,
+      "sha256": "921bea583c22b552a3eedcbbdbbb4be50a69c3354b865d9343fca71840d866a8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/min.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/nonsensitive.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9c5c428318de999119df8bc5.mdx",
+      "kind": "official-document",
+      "bytes": 4300,
+      "sha256": "0ec8e7e31c1f759b06bbfa0eaa97c2b3f4470e4a4de279a49ebe3250b71f4071",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/nonsensitive.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/one.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/061c74f7d2fab54ba315cfbb.mdx",
+      "kind": "official-document",
+      "bytes": 3258,
+      "sha256": "0fdfbbf61fe15a70133035f68d0fbd022f05b6c1183f6c8bc388621a46a547b6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/one.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/parseint.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d8521fe4e688c6db598a55db.mdx",
+      "kind": "official-document",
+      "bytes": 1187,
+      "sha256": "7640f642921c17eea37ca3e16e33bcdff04b70e405880fc697c61295cc603aaa",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/parseint.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/pathexpand.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3ee7acc22b92926fe5ebd239.mdx",
+      "kind": "official-document",
+      "bytes": 1822,
+      "sha256": "eed2a14cda172002ed7e903e37bedf16ce2288bf55521bee930d9cb108c00442",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/pathexpand.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/plantimestamp.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b9a1440cd036da72ca0c13c0.mdx",
+      "kind": "official-document",
+      "bytes": 1753,
+      "sha256": "2f03ac1050830535942fb25d463f5dc09b45b0a1194ae84d1ec4b1e285a88a17",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/plantimestamp.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/pow.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4d5d9e35b48c180fdbcf8c2a.mdx",
+      "kind": "official-document",
+      "bytes": 251,
+      "sha256": "b1006668730498575b147a07d1671144c126c5d5cb98bc71e504c6b31766a6f9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/pow.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/range.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9e3c84304b773c4583779db4.mdx",
+      "kind": "official-document",
+      "bytes": 2706,
+      "sha256": "8b5e5c0fe1fafaee6e57a9c938c74e9dfd1e689e46d19bdb8b990f7feebd9cb8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/range.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/regex.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/66e38aeda4aa711c050815bb.mdx",
+      "kind": "official-document",
+      "bytes": 11372,
+      "sha256": "d136a4d91bf9f94c0d307099c8767d8c4e6e83d8e86e00a82cbd6509a0dd8a34",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/regex.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/regexall.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9e077382659b5b791db2b16b.mdx",
+      "kind": "official-document",
+      "bytes": 1650,
+      "sha256": "ba9cbdb96800c10c0051e242805d9f335111760654a344e2e087e05cb5c75d96",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/regexall.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/replace.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/659737b84062c27a03a8b0ef.mdx",
+      "kind": "official-document",
+      "bytes": 1050,
+      "sha256": "905db8e8b3859986e19521fb0669122f0812a6102ebaa23c45f36b5af6309035",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/replace.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/reverse.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b8f6e7400bb5423792810ab5.mdx",
+      "kind": "official-document",
+      "bytes": 411,
+      "sha256": "01ef7f237ec3932ffa921a880c8b9208aba386d3e4c786a402ee99dacadce163",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/reverse.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/rsadecrypt.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a2e7d9e5ea837cbcd5ff0f3a.mdx",
+      "kind": "official-document",
+      "bytes": 882,
+      "sha256": "484cf662a4f02bff927bd99a3adce9237855f80e37fa923f955c7df299c4e9b8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/rsadecrypt.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/sensitive.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/49002f378af2923c1da4ccc1.mdx",
+      "kind": "official-document",
+      "bytes": 1355,
+      "sha256": "ad586c85829452cf388bbb1806f948498650e161d95199b5c94a15b48b05231b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/sensitive.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/setintersection.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f67b3f6ff11a99361dfa7b93.mdx",
+      "kind": "official-document",
+      "bytes": 1216,
+      "sha256": "8d86f292c8f85b529f25b474a4e4628866b234e01ab9c294a28d7283da79a479",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/setintersection.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/setproduct.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/5a416db3e4ce1f2897a02ce2.mdx",
+      "kind": "official-document",
+      "bytes": 7152,
+      "sha256": "843423b4c691cb9dd9898317dc5b9ab9fbd8ef12a9dc318d0ba82e65107ae343",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/setproduct.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/setsubtract.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/24a27df9a8f2aee2ceb9569a.mdx",
+      "kind": "official-document",
+      "bytes": 1122,
+      "sha256": "2de5855e4e2df336d043941de34b58f292b060a95061615f1f8329ab8d175093",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/setsubtract.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/setunion.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/54f1ff3a437d7705fbcdb803.mdx",
+      "kind": "official-document",
+      "bytes": 1157,
+      "sha256": "4d63955725b66d62d93e32cde9dc1e525c2540d53ea1effa810a024701aea950",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/setunion.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/sha1.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7eefb5b29e50328c578b3c12.mdx",
+      "kind": "official-document",
+      "bytes": 941,
+      "sha256": "d835f81ce6f079644a9bc749e8c06e9ce4e057ddc14e2bf9e77e7f07fa739bad",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/sha1.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/sha256.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/34c9b6161aa10f23a8a0dd33.mdx",
+      "kind": "official-document",
+      "bytes": 943,
+      "sha256": "f138407ae4ec291fd6fe9afeb71782df79c03c3028e4245898e70472d62eba25",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/sha256.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/sha512.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e92cde1b97c81183d9dfce66.mdx",
+      "kind": "official-document",
+      "bytes": 985,
+      "sha256": "5d8d75aabaf98fb1e01fb45a7d1deee0128129f91a2973183ff381d329b18950",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/sha512.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/signum.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/31b79d3267a6c4174ac119d7.mdx",
+      "kind": "official-document",
+      "bytes": 288,
+      "sha256": "bb6304140884b8603f79e2b19c16bcd72ef4efd1323f889427ce9f9c5e8c83a3",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/signum.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/slice.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/02a2263280359ceb513fbdc8.mdx",
+      "kind": "official-document",
+      "bytes": 669,
+      "sha256": "46de992b9c55e3e81339d3f122edf78e88764207f8d26cb7096636a8cd3823ed",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/slice.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/sort.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/20f9ec7e77b66f10b94a6c47.mdx",
+      "kind": "official-document",
+      "bytes": 470,
+      "sha256": "d8c7f8762424acd48b6cb00866b05c1a86d9b17f3f77f0de9e3c993ecddf286a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/sort.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/split.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9e850cbdacc2974604971e2f.mdx",
+      "kind": "official-document",
+      "bytes": 625,
+      "sha256": "82b0ecdf6c3c801b0b8888dcef277ff992ab5406bb7b8d6bc0470e74f2cb3420",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/split.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/startswith.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/066997eeda0a0ee8f4c52cd7.mdx",
+      "kind": "official-document",
+      "bytes": 718,
+      "sha256": "8d2df79895648c3078dee1ac968d9ce7ab7c877b54c9f18ac33d0b6d0bc514be",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/startswith.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/strcontains.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bbe2caabc95d47cbeb411696.mdx",
+      "kind": "official-document",
+      "bytes": 401,
+      "sha256": "ec2bf9ae5b997481586fdda3c1d570857f08a45714c38b17a17b90c223f62c9a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/strcontains.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/strrev.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/61ca3c1e00ece3211d35d1b0.mdx",
+      "kind": "official-document",
+      "bytes": 542,
+      "sha256": "c61c195480f321bc5c9f7aeebd91809a33bde4682fcb6741f04be17aff7a816e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/strrev.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/substr.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0de6ca333bdbbc4177007937.mdx",
+      "kind": "official-document",
+      "bytes": 875,
+      "sha256": "8e1d738f8d08872fa43332c619b96776d2e9976045992fc118203d6bfa0033ac",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/substr.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/sum.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/86641369896fc83bbe2d7562.mdx",
+      "kind": "official-document",
+      "bytes": 278,
+      "sha256": "f64de2f1acd77debc833d52c29a5223180b3280c0cf90531b3a1b2fdf5eba2cd",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/sum.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/templatefile.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2f512eb0fee0d8778203a362.mdx",
+      "kind": "official-document",
+      "bytes": 6081,
+      "sha256": "b1bf89561bc7c9a8012913123a7498ca713e38a7862ed74fdc3ed8aa237a7c72",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/templatefile.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/templatestring.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/aee9b5393e9f41542fb78b64.mdx",
+      "kind": "official-document",
+      "bytes": 4267,
+      "sha256": "33228ef2644a652595a0353921e9f20321d23114483e0f30a36055a4de50141b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/templatestring.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/textdecodebase64.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/96fb9205f9c42c303d8b83a8.mdx",
+      "kind": "official-document",
+      "bytes": 1517,
+      "sha256": "f53ddfc13c599fee8d213902c22517608ee3ceb65e6c61de5f9f5c7f0552f641",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/textdecodebase64.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/textencodebase64.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/69ef3b13f0fdd5a1562e1465.mdx",
+      "kind": "official-document",
+      "bytes": 1937,
+      "sha256": "cff9c67865910a6cad25a37192dbbcbbdc15974c17d9c5a11ce1b136714074aa",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/textencodebase64.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/timeadd.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/512af40cce08328c00465841.mdx",
+      "kind": "official-document",
+      "bytes": 1150,
+      "sha256": "c00e5f66345f3577ce2d5c30635c4e111bb0e022730025eb24bcd85c028699d5",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/timeadd.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/timecmp.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8471215cd994117889929185.mdx",
+      "kind": "official-document",
+      "bytes": 2318,
+      "sha256": "c9f1355965a8ed883af4c18397559c0613087d30b06f2c229bfdd63ad3f6a8f9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/timecmp.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/timestamp.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c3e2c212541221a750dd3d3d.mdx",
+      "kind": "official-document",
+      "bytes": 1601,
+      "sha256": "95a986a7ec8b22dc0964313b0b228ad07d61e46d429bb3190e24f429ee92eee9",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/timestamp.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/title.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/91beaf51783e558952a8c884.mdx",
+      "kind": "official-document",
+      "bytes": 594,
+      "sha256": "ce6a8358455895f4d124d32b2c4bb07377fd9cd3b2fc97ec68e7df65d67ec2c0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/title.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/tobool.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e8cca91b9c707d84364ce618.mdx",
+      "kind": "official-document",
+      "bytes": 979,
+      "sha256": "9a69aad3bd1b09f9927aba4401df915417765414f4177b5505d88dc3c88efc05",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/tobool.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/tolist.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/68c199dd987417836e9ca066.mdx",
+      "kind": "official-document",
+      "bytes": 1072,
+      "sha256": "12e7e84103a3f2bd2339076d9f44fa28510dacd57de42a6509f77ae159980b93",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/tolist.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/tomap.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/72088f717c3db4592e0de982.mdx",
+      "kind": "official-document",
+      "bytes": 883,
+      "sha256": "adbc8359c9f68d1fb64c59a895c846bae2235d29a0fd07a163e1ad760289ac62",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/tomap.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/tonumber.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/28b4236ef9846ba385afce67.mdx",
+      "kind": "official-document",
+      "bytes": 886,
+      "sha256": "1ad0d0692a23c8aaa4da2a4f8688cacecddd1d483ede6b0cc70242ce19b2f994",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/tonumber.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/toset.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8ff06115519b82629e51e774.mdx",
+      "kind": "official-document",
+      "bytes": 1209,
+      "sha256": "5cd60c813c51d95e96fd50dcf34a2ece0904caaa83b6181a85c6b970a9c6a870",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/toset.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/tostring.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0e05e487491ed29e539964b4.mdx",
+      "kind": "official-document",
+      "bytes": 916,
+      "sha256": "aa6f25ffc80eec7e06159be45aff6df55b6d8d02e66c3105f7f376ee0eb7ecca",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/tostring.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/transpose.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/255107825799eb10452011c4.mdx",
+      "kind": "official-document",
+      "bytes": 437,
+      "sha256": "055d248d760a16d26cd052e6a1c4a82c6089a3e2b4600e04beb400236ac63713",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/transpose.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/trim.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/29ae0461450bc14d8bd33d24.mdx",
+      "kind": "official-document",
+      "bytes": 941,
+      "sha256": "a6212712f98218d969e369a1efc7ffb99213dea40fb2fa7b59b3cf3dbaa00e1b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/trim.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/trimprefix.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4d70f76695753a3d8559e71b.mdx",
+      "kind": "official-document",
+      "bytes": 799,
+      "sha256": "3ffdc93419657e5d0c6e959714b8ac75a98116d4c3185f9bd7a9438795591641",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/trimprefix.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/trimspace.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7684e9b1fc9225ef1d5721ee.mdx",
+      "kind": "official-document",
+      "bytes": 601,
+      "sha256": "cbf87a9150301943bb32e177554b8e316b8d13d6df7989b05f140719e5bad366",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/trimspace.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/trimsuffix.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6bde4eb4ca87475310f897f3.mdx",
+      "kind": "official-document",
+      "bytes": 663,
+      "sha256": "c5ab004ee97a52c4c8be2826d52c631e707a88bc0e8969fa86c537b3ae06a319",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/trimsuffix.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/try.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c27613b655b93000c68817e1.mdx",
+      "kind": "official-document",
+      "bytes": 3929,
+      "sha256": "f3976edcc655418b194d795a1c143d41a50b26c211e2c73802ec262577bd9ccc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/try.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/type.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4df56205ac2fd2e0c3726a4f.mdx",
+      "kind": "official-document",
+      "bytes": 1894,
+      "sha256": "f16012d946858a11931f9abae3af0fac7873412b88b0e19dca8d35a27555ba56",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/type.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/upper.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e5c60ff6b008d9d950c9467e.mdx",
+      "kind": "official-document",
+      "bytes": 605,
+      "sha256": "975242f29461360f3806be13c4a0074bf952329f271173417e85241d3a63fada",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/upper.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/urldecode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b9189370b0750db57eac0044.mdx",
+      "kind": "official-document",
+      "bytes": 675,
+      "sha256": "783c545f1fb5f4a075de38540d32d074f08791113c7300e69ad41afe34121116",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/urldecode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/urlencode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/90fb44118ce91db2c3f1385d.mdx",
+      "kind": "official-document",
+      "bytes": 978,
+      "sha256": "a31d756a81787a06aeaa56b4b385c3933ff98bb058d7f72266538abcc3be5e55",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/urlencode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/uuid.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/99ea1ad334b100f6c9dd5129.mdx",
+      "kind": "official-document",
+      "bytes": 1741,
+      "sha256": "bcbc100dd9f546be7452a1098540b8fcf8ab741d52a80a0472dd2f76b70d40f2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/uuid.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/uuidv5.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b59c5c2a857f64b4a90cdfb8.mdx",
+      "kind": "official-document",
+      "bytes": 2999,
+      "sha256": "9ac75f87c0f85f6553e6a0a94db0a145674dc5dd4c6c11bc21eff9e3248e30d6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/uuidv5.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/values.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/95052dff6b8c9cf3e614d731.mdx",
+      "kind": "official-document",
+      "bytes": 618,
+      "sha256": "2f48668c7ae94fb2f48e135350e13bd8be9a3d45990b2ce95a6ad01761b2f784",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/values.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/yamldecode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/84ac4246cfa61b33aa0fbe28.mdx",
+      "kind": "official-document",
+      "bytes": 3418,
+      "sha256": "2dec31120cc4e7678b3595c5d4a2e4ae132ac1ca973fb168a6e629218b3bb22f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/yamldecode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/yamlencode.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d6f57e0703137c058880bfe0.mdx",
+      "kind": "official-document",
+      "bytes": 2575,
+      "sha256": "ccf337adc40a3089683fada0348b77fc03996ef85686dc4e0c72c17a92816350",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/yamlencode.mdx"
+    },
+    {
+      "path": "website/docs/language/functions/zipmap.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e4bdb09b480c25aba1f2b3ee.mdx",
+      "kind": "official-document",
+      "bytes": 764,
+      "sha256": "4171850a34dede1983ba5e134d457f218bf1e025f365611c2e5444f3bc1d8cdb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/functions/zipmap.mdx"
+    },
+    {
+      "path": "website/docs/language/import/generating-configuration.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ec82a2557202182dc5fe4d77.mdx",
+      "kind": "official-document",
+      "bytes": 7494,
+      "sha256": "16ad6852f99614c7853dacc9a45f78b8c1217f5f904d6dd3395ea5b924692a9e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/import/generating-configuration.mdx"
+    },
+    {
+      "path": "website/docs/language/import/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/cb47b8dac974f054f1c83d70.mdx",
+      "kind": "official-document",
+      "bytes": 8168,
+      "sha256": "f35b843e8cb456cb9296520886d3a81efeb53e4c60627c06939a3b4e3a58909f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/import/index.mdx"
+    },
+    {
+      "path": "website/docs/language/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/fd643597c170d153a7b5a920.mdx",
+      "kind": "official-document",
+      "bytes": 4211,
+      "sha256": "52cb3e335110f092b1cc42428115802a0e4319d3f8ae445c6cb00dcaf183d749",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/index.mdx"
+    },
+    {
+      "path": "website/docs/language/linting/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0d6485c6859c3f99f8fd70a7.mdx",
+      "kind": "official-document",
+      "bytes": 6877,
+      "sha256": "5914f5a23c0102368afc61e610f8fdf7fd8d807ca47302a7f8d656573bd2ed28",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/linting/index.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/count.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8e4b49b6e784ceee042ec4a8.mdx",
+      "kind": "official-document",
+      "bytes": 5254,
+      "sha256": "0db6782f7dd6d4cd01cd864412d0b5eb16918ffc0f4f19a0605a40461a5e5c3d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/count.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/depends_on.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/75bc55b2d37ceacf30e69f26.mdx",
+      "kind": "official-document",
+      "bytes": 3768,
+      "sha256": "44c9f3286adb971d7b6e9004166c824ef5dfd89097265c206556f96425ea8e12",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/depends_on.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/enabled.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d8c0b8c04ffbda5b657fce33.mdx",
+      "kind": "official-document",
+      "bytes": 4127,
+      "sha256": "2d63e16817608dec2f792a6a2eafefdcfbc2ec7c50a381f5c6c565f5c8d624ec",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/enabled.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/for_each.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/07f52899f5aad53abfe1c5da.mdx",
+      "kind": "official-document",
+      "bytes": 9896,
+      "sha256": "c00e39e2582558b198ca118f0620587d2c3152d3836255c71ff3f435defc5387",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/for_each.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/lifecycle.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1afff52fb408073fabc2dfed.mdx",
+      "kind": "official-document",
+      "bytes": 1259,
+      "sha256": "5c895d5233ec575d2073c33fb650db5661ba57612cf2d52aa79ec211d22d100f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/lifecycle.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/module-providers.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7d0b1ce32f560924aa3a9c04.mdx",
+      "kind": "official-document",
+      "bytes": 7970,
+      "sha256": "ddb64e9b4dc5764b32c57bc13beb71bbe93916de1dc653aadc3798f77ff346fd",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/module-providers.mdx"
+    },
+    {
+      "path": "website/docs/language/meta-arguments/resource-provider.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/42b816b7fccf8f210be5e142.mdx",
+      "kind": "official-document",
+      "bytes": 3321,
+      "sha256": "a02b5ae556007dac708014ffbe57292f4ee9b6077bee23bebfe8d41c6036e0c8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/meta-arguments/resource-provider.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/develop/composition.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b9771e2fceeb2d6bc2233e31.mdx",
+      "kind": "official-document",
+      "bytes": 13852,
+      "sha256": "20ed80f0abf3e71206243763c02ddffd2c96b47a6f98b5989a865b61a47f7281",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/develop/composition.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/develop/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9345ec9b38353c4d7e988fde.mdx",
+      "kind": "official-document",
+      "bytes": 5389,
+      "sha256": "61b2e929d5d05b2e7c746752fb4c4e7a3938c102b68afbbb840410b03900e75d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/develop/index.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/develop/providers.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/0c35ec27329d701dd39d6849.mdx",
+      "kind": "official-document",
+      "bytes": 9233,
+      "sha256": "05793b6eccbf07d17f5073e21fd2d44ce22e74a35543e841f5aecacad3c1009c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/develop/providers.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/develop/publish.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/6f64eeb998c963eb60a9bb76.mdx",
+      "kind": "official-document",
+      "bytes": 3629,
+      "sha256": "04641ae77bb893eb6b17486037a5195a78640c998c0baddbf6b986dd920338ba",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/develop/publish.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/develop/refactoring.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/09242dd4d0955dcfd34f5640.mdx",
+      "kind": "official-document",
+      "bytes": 16061,
+      "sha256": "083f99c3ec574e05883a965e7a5282f457597c3c3b685675c0c7c9a4d3a27030",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/develop/refactoring.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/develop/structure.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8f9c656a6d36c397b9ce560d.mdx",
+      "kind": "official-document",
+      "bytes": 6036,
+      "sha256": "939f4863ca186626e68443462d7c8b1315034e2b7b4dd38865881eb8f8997fed",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/develop/structure.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/262a55a7abda5e3b9cc61d90.mdx",
+      "kind": "official-document",
+      "bytes": 2795,
+      "sha256": "6740fe403809013256ac5a9a90d4d2746a3de231b0c39315737b4bf2cc7cbc69",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/index.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/sources.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d28c6b33ae5350325863e059.mdx",
+      "kind": "official-document",
+      "bytes": 20361,
+      "sha256": "c84eb3d3f2ae2fb5ffcb8cd4f5f515d59f4a628c60613d1cdca584a8ba6a2e74",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/sources.mdx"
+    },
+    {
+      "path": "website/docs/language/modules/syntax.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8a37bea3f349d4b704b0e43f.mdx",
+      "kind": "official-document",
+      "bytes": 9344,
+      "sha256": "d4408f153add0843cef3f298260b97727122920292c5ddbe2f5bb5bdbc075ebc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/modules/syntax.mdx"
+    },
+    {
+      "path": "website/docs/language/providers/builtin.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d0bf04750e5baaf4d9e791dc.mdx",
+      "kind": "official-document",
+      "bytes": 2288,
+      "sha256": "de932be9fc6d0ca79946387c846e9e1b2ef2496d1f27793e488d2818c0e08215",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/providers/builtin.mdx"
+    },
+    {
+      "path": "website/docs/language/providers/configuration.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c83f4b3fbfc4d55d9a3ed0f9.mdx",
+      "kind": "official-document",
+      "bytes": 20569,
+      "sha256": "d02989ea26a32d7ddd90be08ec73ff26fa38aaf9d90b8ee442d607fcd87a2443",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/providers/configuration.mdx"
+    },
+    {
+      "path": "website/docs/language/providers/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/066e03186e7d39ec6e96e983.mdx",
+      "kind": "official-document",
+      "bytes": 6776,
+      "sha256": "46786a01dd2fbbb9bcefbdf94363232176b54008ad5bb77b9b8e39ffacea0289",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/providers/index.mdx"
+    },
+    {
+      "path": "website/docs/language/providers/requirements.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/65182a1c19368a4821a97c9c.mdx",
+      "kind": "official-document",
+      "bytes": 12025,
+      "sha256": "f06122a0066eaffc9fb97362edfca38d65f7f4a9853e2b3f3a6ed777e36354a1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/providers/requirements.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/behavior.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2c8e6cd6e59606b93d6edbaf.mdx",
+      "kind": "official-document",
+      "bytes": 17563,
+      "sha256": "77180e2a508f50bd587c93fcaaae68981b3c8509a8b7d7594cef16f35475c44e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/behavior.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/485e3f72f3b8c8a16c812220.mdx",
+      "kind": "official-document",
+      "bytes": 2001,
+      "sha256": "6f50e779c35a479e7126f315e74cd14a4d63573c4cdd6486ef103b1c1c54b6b1",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/index.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/provisioners/connection.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c6f4b96950223444a5ef721f.mdx",
+      "kind": "official-document",
+      "bytes": 11287,
+      "sha256": "2395d165cd1dde47884898e198e5bf9dac819bba2064d938926c401ff61b0b3b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/provisioners/connection.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/provisioners/file.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a09341b580b3275ac1f9f8ff.mdx",
+      "kind": "official-document",
+      "bytes": 5256,
+      "sha256": "cbf8e6257b204669c34e6593522339e1a51ac2a3d3896a07af20d252679ddc1d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/provisioners/file.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/provisioners/local-exec.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/aa5743d0110d5c9b11cd7961.mdx",
+      "kind": "official-document",
+      "bytes": 4290,
+      "sha256": "6c2522f985b918761814b0362880625e758011a4ecc541755361868e3f274bf2",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/provisioners/local-exec.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/provisioners/null_resource.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/26f4a90fb33d8ab6d6c006a5.mdx",
+      "kind": "official-document",
+      "bytes": 1725,
+      "sha256": "9ce5e5e2b35e92cd7f9f6de6fcf7658681b95dd7f083bef65b0848f3d395480d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/provisioners/null_resource.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/provisioners/remote-exec.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/22ef92ccce7df29ce6d7dd77.mdx",
+      "kind": "official-document",
+      "bytes": 3212,
+      "sha256": "f98b3469b8afcb86174eab0c3b1142d486abf0a59e89c3f54f61088f3594049a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/provisioners/remote-exec.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/provisioners/syntax.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/22571f903992ab313f41479f.mdx",
+      "kind": "official-document",
+      "bytes": 15658,
+      "sha256": "11555cb646009d54dddb89dacb80c35f091e23585d4e506b9a5f7509dad6f7a6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/provisioners/syntax.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/syntax.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4a7ffb03f6565ec932b5986f.mdx",
+      "kind": "official-document",
+      "bytes": 12694,
+      "sha256": "f137c16204959e540249f8a45e48269e17d4fdd44240d544085eeb27b7b99724",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/syntax.mdx"
+    },
+    {
+      "path": "website/docs/language/resources/tf-data.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/ab9ea685895e25983f217813.mdx",
+      "kind": "official-document",
+      "bytes": 3103,
+      "sha256": "1f845d9a4794129620d74c3fea3aff3f401a65a37d4a3c5e7d9bbbc693a24ecd",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/resources/tf-data.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/azurerm.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/bc71c463774cdd3a8a1b8c21.mdx",
+      "kind": "official-document",
+      "bytes": 20073,
+      "sha256": "569fb8cfa809af906ec750c23c06828d54d9e7df0e2409bf31d3393b9becebbe",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/azurerm.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/configuration.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/aab6c8cdf0dda17305b8d854.mdx",
+      "kind": "official-document",
+      "bytes": 11427,
+      "sha256": "c8f55940a434150846e7a50aa9bc26bae05507264691f3d3cc449cb2a2d38d5d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/configuration.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/consul.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8eb3c2c303912da075db03e8.mdx",
+      "kind": "official-document",
+      "bytes": 2749,
+      "sha256": "98b7ba6bf694d23a0bb30b66544b3ba3c4afb93e25fc9ffdef2905f0fc3b38af",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/consul.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/cos.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/521b22230fe7877fb6134d9e.mdx",
+      "kind": "official-document",
+      "bytes": 5327,
+      "sha256": "8b7120301be30acd98d72472feb45ed10405f12c9584fa582d6638c9eeae8c2a",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/cos.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/gcs.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/30809c63712017e2f6010d7c.mdx",
+      "kind": "official-document",
+      "bytes": 11137,
+      "sha256": "c926d8e8e4ec88cf984590537ce4c7e9856585ed972de2e22742400f9db47948",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/gcs.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/http.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/8a6ac153d4a604a615be6c41.mdx",
+      "kind": "official-document",
+      "bytes": 3792,
+      "sha256": "2e8dd4ff5855c588923e2167ef340e5aa6cdf35d99feed646af2caeac2776597",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/http.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/kubernetes.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/773823d6bd7c341ce3f02ab3.mdx",
+      "kind": "official-document",
+      "bytes": 5413,
+      "sha256": "41fdf09bfb02ad224dc23ed6cc37d717f61a9b33c42b839bde877e267c5e1fd4",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/kubernetes.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/local.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/35a085de34fd293f8655a72e.mdx",
+      "kind": "official-document",
+      "bytes": 3673,
+      "sha256": "917004dda3b43ed512904b5f7277e54167505d2a9c98b83bf87bf62c8ebb3bf5",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/local.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/oss.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f0b9775a38f8f31cc5d3ef7a.mdx",
+      "kind": "official-document",
+      "bytes": 7947,
+      "sha256": "8970441365bf82b18913dd92323f60b93d6d63f958d11b66594adc7c14af588e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/oss.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/pg.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/edc0f9735d1bb9c473e9f631.mdx",
+      "kind": "official-document",
+      "bytes": 6253,
+      "sha256": "83b72de1f4d00ed192f549849da7dc3a0dab1a821fabc58593aae25a1320816e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/pg.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/remote.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c16505fdc3e393baa8080cdb.mdx",
+      "kind": "official-document",
+      "bytes": 9340,
+      "sha256": "27ab5d743639a417d02e8293ed9289de4b396149a9bbe19219a3aea61631ceba",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/remote.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/backends/s3.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/1477bba9710c7ea1c566da2d.mdx",
+      "kind": "official-document",
+      "bytes": 39190,
+      "sha256": "6e034c2c986d4861c0e0fae5fbb8773f57797c5a10433c79036e49b7658abbfa",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/backends/s3.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a70604256f0476c44e79e90d.mdx",
+      "kind": "official-document",
+      "bytes": 5364,
+      "sha256": "3f3ddc2e6bb057905e733164c14dc36f58bc7f9672fc024139a9bd2a9a240c1e",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/index.mdx"
+    },
+    {
+      "path": "website/docs/language/settings/tf-cloud.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f04b8820f2dbda08d041520f.mdx",
+      "kind": "official-document",
+      "bytes": 1279,
+      "sha256": "28f9ffc9dc98bd08cd3e9e9d5f9c36def341fe55749b4aab7378355cfe7e14d8",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/settings/tf-cloud.mdx"
+    },
+    {
+      "path": "website/docs/language/state/backends.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f5d722a8e9b1fcd19e5a2ee4.mdx",
+      "kind": "official-document",
+      "bytes": 3180,
+      "sha256": "462617b4169c57e545957b5b2f631b609fff471196d4d9b6cee8fcb8a661f8c0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/backends.mdx"
+    },
+    {
+      "path": "website/docs/language/state/encryption.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/9ad9cc4e6dfc3420f1934a00.mdx",
+      "kind": "official-document",
+      "bytes": 34461,
+      "sha256": "adc342d4fa3fadfc5b2e33376760f3dbe4208e96ac433c3fa207bb1f46fc456c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/encryption.mdx"
+    },
+    {
+      "path": "website/docs/language/state/examples/encryption/configuration.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/02fd93e192c27e863ec3f32a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 485,
+      "sha256": "cd04406388225dd1f1f7b88ff643e673ae772adad303ee24bca3e5c8aac6db5f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/examples/encryption/configuration.sh"
+    },
+    {
+      "path": "website/docs/language/state/examples/encryption/external-method/method-external-method.go",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/e93d90178ac6c8f89d1742fa.go",
+      "kind": "upstream-example-code",
+      "bytes": 1983,
+      "sha256": "ecd82e6433f822dde0ffde8f78f5421c5ca51b1a1f01c1c436cef6687d78ee90",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/examples/encryption/external-method/method-external-method.go"
+    },
+    {
+      "path": "website/docs/language/state/examples/encryption/external-method/method-external-method.py",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/11c178b862636d0d27104537.py",
+      "kind": "upstream-example-code",
+      "bytes": 1311,
+      "sha256": "9f353edd71c79a3bb2b3028249bd07d046cef833c2f74ee0d929515e10b73a31",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/examples/encryption/external-method/method-external-method.py"
+    },
+    {
+      "path": "website/docs/language/state/examples/encryption/keyprovider-external-provider.go",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/a86fa77bad2638f29cbd6bb2.go",
+      "kind": "upstream-example-code",
+      "bytes": 2121,
+      "sha256": "354f096c48cf45b5feafbc515fa86853693dab60c71b5c708b5c50c96e7e87f0",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/examples/encryption/keyprovider-external-provider.go"
+    },
+    {
+      "path": "website/docs/language/state/examples/encryption/keyprovider-external-provider.py",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/43818dd19b6867f836d1322f.py",
+      "kind": "upstream-example-code",
+      "bytes": 1483,
+      "sha256": "a3fa6bd2661d67addb5dd1b90ad97e88423e0b5517ecc282cf3df8080998aefc",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/examples/encryption/keyprovider-external-provider.py"
+    },
+    {
+      "path": "website/docs/language/state/examples/encryption/keyprovider-external-provider.sh",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d93299c03b2c06a62512dbc9.sh",
+      "kind": "upstream-example-code",
+      "bytes": 688,
+      "sha256": "f27eef573ef8e08bbcd0bb8c335c3f002c2066c6938bd2b1e6155ec638e3ae5d",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/examples/encryption/keyprovider-external-provider.sh"
+    },
+    {
+      "path": "website/docs/language/state/import.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/581b3b9d1da86df0145d9b70.mdx",
+      "kind": "official-document",
+      "bytes": 378,
+      "sha256": "b34c618e72f01076400337f434585b825d70fc445ee8a036307ea5eb102244bb",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/import.mdx"
+    },
+    {
+      "path": "website/docs/language/state/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/adead79124d43594dd7a1260.mdx",
+      "kind": "official-document",
+      "bytes": 4098,
+      "sha256": "2f8610dd193e05e5026c1ddd4f5ff295352d75047c2595dc15f6d4c7758d9a34",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/index.mdx"
+    },
+    {
+      "path": "website/docs/language/state/locking.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/f997d2b4b271cabd421982dc.mdx",
+      "kind": "official-document",
+      "bytes": 1680,
+      "sha256": "107dac1a173d56e8c30dd5f0da0c3dc08be219e7d508c50bad3bcd506486ab2f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/locking.mdx"
+    },
+    {
+      "path": "website/docs/language/state/purpose.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d80445833d4085d18ffca864.mdx",
+      "kind": "official-document",
+      "bytes": 5551,
+      "sha256": "d690f7e0f5bbe2beec688106bbe77e410a5b9c367606d59ee03ddf429d208fb6",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/purpose.mdx"
+    },
+    {
+      "path": "website/docs/language/state/remote-state-data.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/3304fc1feee55fa42526204d.mdx",
+      "kind": "official-document",
+      "bytes": 14291,
+      "sha256": "508fb0125e906c8c4cc69a45bb4ff889d9fc866380964015805f31a086d0d049",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/remote-state-data.mdx"
+    },
+    {
+      "path": "website/docs/language/state/remote.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c54f4ad56b331b9800fe76e3.mdx",
+      "kind": "official-document",
+      "bytes": 3159,
+      "sha256": "e518484bf07fcee7d69fc6a71ddd16d3b20778258f6d26fddf11a9d26027f8fa",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/remote.mdx"
+    },
+    {
+      "path": "website/docs/language/state/sensitive-data.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/33e7aead2e15e9778aea2bd0.mdx",
+      "kind": "official-document",
+      "bytes": 1188,
+      "sha256": "fd5c0c702eb29e51ad50c6bf5bac4f2b82fe8c530689b55193f3c0770b893118",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/sensitive-data.mdx"
+    },
+    {
+      "path": "website/docs/language/state/workspaces.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/60b27928f537f58a26d7aa50.mdx",
+      "kind": "official-document",
+      "bytes": 3148,
+      "sha256": "14c1b212f49f55b2ad00a6a7c0224e1e0578d721dc613c9d26a52f9d5ae85f49",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/state/workspaces.mdx"
+    },
+    {
+      "path": "website/docs/language/symbol-libraries/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2c2090bfa3826965b209390b.mdx",
+      "kind": "official-document",
+      "bytes": 3067,
+      "sha256": "12586abcb6e7b62597da95fe140f85be8e137a3aebe66f3a20ea732c8437b271",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/symbol-libraries/index.mdx"
+    },
+    {
+      "path": "website/docs/language/syntax/configuration.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/c0b398d7bf17c3782096b952.mdx",
+      "kind": "official-document",
+      "bytes": 5340,
+      "sha256": "0d1e281c3534f7b9760a50d54baff1285a23c92df9ba295545bf3f50e4431261",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/syntax/configuration.mdx"
+    },
+    {
+      "path": "website/docs/language/syntax/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/b08a071d60e397db74683ffe.mdx",
+      "kind": "official-document",
+      "bytes": 1094,
+      "sha256": "5dc7cd4f56434cd7a887fa342ea5ad0c1bc2be2b5bb53ea6a136b270f2dbc46f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/syntax/index.mdx"
+    },
+    {
+      "path": "website/docs/language/syntax/json.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/67ce8e2faac4b062c49256c1.mdx",
+      "kind": "official-document",
+      "bytes": 18691,
+      "sha256": "dcb4d8d6dee9879fe6a55a5e22a359c2b4a2c9a2df9849d3a269c9690f1cd123",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/syntax/json.mdx"
+    },
+    {
+      "path": "website/docs/language/syntax/style.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/d0bda1b52f42c8b367c53444.mdx",
+      "kind": "official-document",
+      "bytes": 2413,
+      "sha256": "97fcab5dcdb7e6fbd421b5129e3660fffddb55e4fb56109083a22bddcffdf41f",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/syntax/style.mdx"
+    },
+    {
+      "path": "website/docs/language/v1-compatibility-promises.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/2d8bc965dc08ca3b59e12871.mdx",
+      "kind": "official-document",
+      "bytes": 32197,
+      "sha256": "eb658822b730372dfa6faaba504c56ded1ba138a525a25aa2aebe1c72b394982",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/v1-compatibility-promises.mdx"
+    },
+    {
+      "path": "website/docs/language/values/index.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/31212a0d2c5dcd1b17b8692c.mdx",
+      "kind": "official-document",
+      "bytes": 606,
+      "sha256": "e7fcf6488be5932160dea4a629b6cb14e6aa86c33f3125742dd038ff40493777",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/values/index.mdx"
+    },
+    {
+      "path": "website/docs/language/values/locals.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/4f9d34401189656324453f10.mdx",
+      "kind": "official-document",
+      "bytes": 3813,
+      "sha256": "8567df4f8b03a79198b5c8079ab32cbb20405827efc8086712ef805e60a6dcfd",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/values/locals.mdx"
+    },
+    {
+      "path": "website/docs/language/values/outputs.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/711a5860d5bbc18082ee4f0e.mdx",
+      "kind": "official-document",
+      "bytes": 10423,
+      "sha256": "dc7ce431178d2e630d8e3c421c1aa0f6434ff8eaad620721f77aa14b5757f82c",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/values/outputs.mdx"
+    },
+    {
+      "path": "website/docs/language/values/variables.mdx",
+      "localPath": "raw/opentofu--opentofu/a2d03be4f5d0/7829f208bbe234b2213c84c5.mdx",
+      "kind": "official-document",
+      "bytes": 23129,
+      "sha256": "90bd9704fbfc1885d3bcb327855f21381606163c2dd9ba4f48e85664724f233b",
+      "sourceUrl": "https://github.com/opentofu/opentofu/blob/a2d03be4f5d013a407f77e3750002fad8cf849c8/website/docs/language/values/variables.mdx"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

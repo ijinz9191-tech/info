@@ -1,0 +1,1553 @@
+{
+  "schemaVersion": 1,
+  "repo": "karmada-io/karmada",
+  "commit": "6d07591528fa3101587ef534e490b7f1ae7fe1d1",
+  "retrievedAt": "2026-10-01T15:21:27.831547+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Scheduling & Orchestration"
+  ],
+  "archiveUrl": "https://codeload.github.com/karmada-io/karmada/zip/6d07591528fa3101587ef534e490b7f1ae7fe1d1",
+  "archiveSha256": "1c7b74da4b9e1ab770e192a0728c2a8a28284bdd5805303ca46f63dc8e069a1c",
+  "archiveBytes": 38187381,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 178,
+    "code": 12,
+    "licenses": 1,
+    "bytes": 2208666
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 428,
+      "sha256": "804c7733ada57c5462d48823a337188343b59c610e1098619532db04b04c7f38",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/ADOPTERS.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 45,
+      "sha256": "334ea4ecf6de701d169c3be128cfad3eef2d34386d178a375b9a3d535f128a25",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/CHANGELOG.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 164,
+      "sha256": "5744f1ce70ef5c9b0edb9bb5a01d6d5c4ff8bceadb5e65d1cf0cd939d3d9b59d",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4587,
+      "sha256": "e9a5371b60fd612b536b4ef1f87f75f4fe81a379ba91aa05047a00fce3a0d343",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 125,
+      "sha256": "e5ae0b557187c6d49c9953ed6892c68107760e0c9c4f3a099aa6f7116fdb791c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 12629,
+      "sha256": "db105938e17e898f727e29656f4350e2ce26d53202ac053a53362f1faeb115e3",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/README.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 196,
+      "sha256": "9fa0182cfd857f0bca844a2dc199a86e571212b65e2da445d218bc6a06525b15",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/ROADMAP.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 186,
+      "sha256": "577ee35066ae9040df9f3249a623547288df70f10cb88644773c7a6b082f3910",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/SECURITY.md"
+    },
+    {
+      "path": "charts/karmada-operator/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/562be9893f1333eb7476c239.md",
+      "kind": "official-document",
+      "bytes": 5358,
+      "sha256": "55d920d649dd143c4b9c4bcae377ed7574217be73c12ea2c3abe47fad474a782",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/charts/karmada-operator/README.md"
+    },
+    {
+      "path": "charts/karmada/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/1b513728d1317bc7e2dfedea.md",
+      "kind": "official-document",
+      "bytes": 110332,
+      "sha256": "85b3249b56450d2cce3c89e411b0a184e8db7662a0d9ed7d5e365c589df0d5c5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/charts/karmada/README.md"
+    },
+    {
+      "path": "cmd/service-name-resolution-detector-example/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/dea90f46c28e9f7615d4bb46.md",
+      "kind": "official-document",
+      "bytes": 4698,
+      "sha256": "f97be3327e47a10b3c91d337c372cfad8ae76dd436060905066295368d1f5e29",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/cmd/service-name-resolution-detector-example/README.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-0.10.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d768b9585f344a98d99fc576.md",
+      "kind": "official-document",
+      "bytes": 4131,
+      "sha256": "0126db95ae4af2358860df077361e37457051ff0518466390cfe8fbbc3d4941c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-0.10.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-0.9.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/90fb0655ad905bc0116b357c.md",
+      "kind": "official-document",
+      "bytes": 3942,
+      "sha256": "bfa34c58f9d7e6e5fa21ab65dfbed09c74d3c4a247040c5ffa443e7bfbb2e037",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-0.9.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.0.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/5e1c81f8c0b2965895652f54.md",
+      "kind": "official-document",
+      "bytes": 5675,
+      "sha256": "5471f6aaf69fdd95da6ac4c0c6ea9b35ccb189cc1438ded3de1ddc0253785c03",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.0.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.1.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/170e756635677948084413b3.md",
+      "kind": "official-document",
+      "bytes": 5357,
+      "sha256": "38e825794676a10e73364c7e552fbc93fd429598ef5160fdeaff5ae3407ee946",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.1.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.10.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/db50e61d4ee96c66fd494427.md",
+      "kind": "official-document",
+      "bytes": 23038,
+      "sha256": "75db9237414ead376484f29e05064cda50f6810adc0babdf1888e556a54a102a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.10.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.11.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/8cce2e85a05cc639c24c66f7.md",
+      "kind": "official-document",
+      "bytes": 35773,
+      "sha256": "0c844f6fd3085248b203a10058d1a373fc2e697d29c637d75e8980cf26b62019",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.11.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.12.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/fd744cf12e73b3997b0d8d6b.md",
+      "kind": "official-document",
+      "bytes": 44461,
+      "sha256": "6c8f33065e2826f1d47dc3872cdd6bcfb0d77efe0fcbceb1ca0e3f99e71da85b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.12.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.13.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b33f434d920f2a310cfa1221.md",
+      "kind": "official-document",
+      "bytes": 39277,
+      "sha256": "33106a0ad1a06ea4b4e167a0d32a98236341caca0368218a7186f3b0cb3c6aa6",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.13.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.14.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/e6ad68ec6facf0fb53c600a6.md",
+      "kind": "official-document",
+      "bytes": 49705,
+      "sha256": "2e924774f46f354a93fe551ba1f83ca6755e34057116f0645647ed6e88e19345",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.14.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.15.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2078faad604657336a0cf131.md",
+      "kind": "official-document",
+      "bytes": 44624,
+      "sha256": "29e8decc38ebb0d4c2a13afb9e6bddf45c20d759cd361956f5ae55268637d39b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.15.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.16.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d80ebdde085f06178ad4ceeb.md",
+      "kind": "official-document",
+      "bytes": 42709,
+      "sha256": "6a9a7d2069f088998831da530c400845066351d391f157790c71cd5701101c62",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.16.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.17.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/4ea53203147b49af50040a8c.md",
+      "kind": "official-document",
+      "bytes": 35079,
+      "sha256": "fbb276d1ccbdab5d03c1d5ac25b6c63dc80b58c38f530d92bbb7d64a0ec9e6a4",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.17.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.18.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/30fe4c09f0577990c61c3e67.md",
+      "kind": "official-document",
+      "bytes": 36501,
+      "sha256": "b020039301d50d28e36646c1f01377b77e267c23ff6df9ecc43fa6e20b09b4a4",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.18.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.19.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c0097c05479319f0a163f59a.md",
+      "kind": "official-document",
+      "bytes": 20245,
+      "sha256": "59fe4f5db0f4efc1436ebe88b11684bc5513cfde4697442d2a9b9a13e677b97e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.19.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.2.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/21c537095ed21bff28592e01.md",
+      "kind": "official-document",
+      "bytes": 12863,
+      "sha256": "1f5dcd55f04d4f8b4f3e10c1708cc85797db0c1015977e65a4dd51b5daf9c592",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.2.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.20.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/65a5d4d61b197ee32f926775.md",
+      "kind": "official-document",
+      "bytes": 1989,
+      "sha256": "a782ca57290c1a500994d2d98f72f4ed9ac3dcfeecc50d8ebf687d55b54eab0e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.20.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.3.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f0f7e0aa4280ab087a421e18.md",
+      "kind": "official-document",
+      "bytes": 14790,
+      "sha256": "d9470aff80fc20b25aa337e07f06f82a46b8e213efb3bf05230229d08af7f4e3",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.3.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.4.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/de98f6c14f7d1d286e1d6852.md",
+      "kind": "official-document",
+      "bytes": 21737,
+      "sha256": "7e599f9b9d332d71e9c545aa9c8c790cc5be0bb8c2380d69792e8535ff4be177",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.4.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.5.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f9f48e3a3b43657d2eadfbc8.md",
+      "kind": "official-document",
+      "bytes": 15672,
+      "sha256": "e5ee57ce2ba90d1c3f1360323a1386768214c0c9c27a0d74b8a087df04cf785b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.5.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.6.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c0b17bad22552875ebc88def.md",
+      "kind": "official-document",
+      "bytes": 17303,
+      "sha256": "c74652d6406753f4758c092bb610672b7ddb0149ded47c8c7f3f53354f2dc463",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.6.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.7.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/91706e063fdddfd633efd1f8.md",
+      "kind": "official-document",
+      "bytes": 18227,
+      "sha256": "e9b9c85d7d9303802d269ec42c24781895e8828ae69926a23642b0f77c94cf55",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.7.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.8.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/247402841e28f8a963e06197.md",
+      "kind": "official-document",
+      "bytes": 21065,
+      "sha256": "f51178c9e9f6b8d47b95ca1db328ae33b0b3db61516f7763cfd86927ae4917ed",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.8.md"
+    },
+    {
+      "path": "docs/CHANGELOG/CHANGELOG-1.9.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/72e2aa00299b5133e5bd5db5.md",
+      "kind": "official-document",
+      "bytes": 20342,
+      "sha256": "f4b5b3724a5acb2b8a02555bce6c472d745f0fa365245ab214d9079a9415d41e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/CHANGELOG/CHANGELOG-1.9.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 99,
+      "sha256": "1e8dd82a09ff8e1125874e319f5c9910b5a6135977adbc321e47de9e5f41da57",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/README.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-agent.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/52673d52562ae87c61f180a8.md",
+      "kind": "official-document",
+      "bytes": 13422,
+      "sha256": "c831df16a6c87ad9f6a91f8e9a3d7ddffc6a063ee2fdadf80af09f8559bd3769",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-agent.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-aggregated-apiserver.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2b7f54fd4fe4867931272177.md",
+      "kind": "official-document",
+      "bytes": 29162,
+      "sha256": "c789e9d2696d0b7954428c897b08fa1aa1a38596b6a7c63c6416b57e0797d4d5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-aggregated-apiserver.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-controller-manager.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/5641f9d7aff29cdba6142465.md",
+      "kind": "official-document",
+      "bytes": 18657,
+      "sha256": "8ccd60a776ff820a24ce94826597b8c3c4bc9f8f202348cf133a404b1c3d2105",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-controller-manager.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-descheduler.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/4d7b1ba945ae98109839358b.md",
+      "kind": "official-document",
+      "bytes": 7804,
+      "sha256": "43b126da7f6880c94d26cd45b6f2459bede107374c9890b489c3adba50173c6c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-descheduler.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-metrics-adapter.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c5f33d7592c9d14defd6b309.md",
+      "kind": "official-document",
+      "bytes": 19245,
+      "sha256": "4882585133e1b067c3f76fd7252414bae935325dffe3bc971f0ac7132ece476d",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-metrics-adapter.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-scheduler-estimator.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6c6f4c81ab7542b17467d35f.md",
+      "kind": "official-document",
+      "bytes": 7880,
+      "sha256": "4603ca5c38a5bc4790681bb9b2e50dd869c95d81c86233b8e487b1afd05e804f",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-scheduler-estimator.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-scheduler.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/25e19565c0f96c176a89d2f9.md",
+      "kind": "official-document",
+      "bytes": 11339,
+      "sha256": "9faf1dc87b774b08e682184baa162167cd2ed9470ba0dafdcb00c431d1f3f5ef",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-scheduler.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-search.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/fc283f9eb96c0d0164dea3f4.md",
+      "kind": "official-document",
+      "bytes": 37079,
+      "sha256": "1c022d336b3c9e82f06c44de9b1dbe645169ab773a523331c7811f879b502b18",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-search.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmada-webhook.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/73f85e47413e7719b2303439.md",
+      "kind": "official-document",
+      "bytes": 7857,
+      "sha256": "17a6fcc68b676cb5e4e7459f1bb21e5970a868e4b4c3684c1ea1f7825affee9b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmada-webhook.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/aa25dd1c51e3959402e2ada6.md",
+      "kind": "official-document",
+      "bytes": 5919,
+      "sha256": "560632756df7703878bd44cd71f9ff4ff9ac22fa2e4cb43a4f2a782f08552013",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_addons.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/26aee53eea0600a1a0521844.md",
+      "kind": "official-document",
+      "bytes": 3284,
+      "sha256": "59dcc67cfa411d5f48cf547db6bd579fd7e2d9e0ff534b15916923dd6d06cca7",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_addons.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_addons_disable.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/429c4e512c5f68d7c7d4bf16.md",
+      "kind": "official-document",
+      "bytes": 4352,
+      "sha256": "9fcf35c8bb88e3a870948df0ee581b2191476cd31608f22940789348ac0236f3",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_addons_disable.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_addons_enable.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/00c783ab3095372698113cc5.md",
+      "kind": "official-document",
+      "bytes": 6914,
+      "sha256": "60fb4247022412014f03c4cd464776bab6cc0cfc84c1c702d082780f8571e00a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_addons_enable.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_addons_list.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/e323ec7d5c6957360e6f9758.md",
+      "kind": "official-document",
+      "bytes": 3886,
+      "sha256": "72398557c4a126a87fadb00cf02c42ced1701aee67a7cf0a24197db42a2fdd04",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_addons_list.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_annotate.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/abffadb9f46d3bc2d5537a9f.md",
+      "kind": "official-document",
+      "bytes": 7630,
+      "sha256": "f40f87e7bcbd3b74267de6949d6691b5cf0f80d4bca2577db7dcb2f13c1e3310",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_annotate.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_api-resources.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b9b17b59c4706b6ae3f6b8f6.md",
+      "kind": "official-document",
+      "bytes": 5111,
+      "sha256": "2a6c18e16a437e0609d3ef9c2f3120abde338a225348d68dd0442a7b8cb179ba",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_api-resources.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_api-versions.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/bbb1a885048cad9a67e78072.md",
+      "kind": "official-document",
+      "bytes": 3546,
+      "sha256": "ecd71df22729207736794f3b2a403a35afd37018140a65e4a9dd04720baf8fd7",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_api-versions.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_apply.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/7975920057aeb7f55c699582.md",
+      "kind": "official-document",
+      "bytes": 9066,
+      "sha256": "5d4ad7b48f7dbb8ed95663d320aa0b82b0e977894b32f6a7a3daa7f7bca64c52",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_apply.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_attach.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/27b91c2a29019ddafc0e3768.md",
+      "kind": "official-document",
+      "bytes": 4743,
+      "sha256": "caa314fdc2133bad4fd512bb9ef4e5280a6c91f0a48c922cf799286648d8b1eb",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_attach.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_completion.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c6db19187f38004ca613482f.md",
+      "kind": "official-document",
+      "bytes": 4143,
+      "sha256": "7963f3d3e3aff48e9c0b2bb0a23cd44b042d8030cee38d09452f90e6d0f1626c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_completion.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_cordon.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/48fb6f62d6888521bb764cb8.md",
+      "kind": "official-document",
+      "bytes": 3004,
+      "sha256": "6de1c9b4cbedcefae33a19d0a4bda41cff4f40c360b74c89efc5b4c2025246c4",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_cordon.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6b2fa62737f0064df5a1d121.md",
+      "kind": "official-document",
+      "bytes": 8231,
+      "sha256": "5d0e98c168eff9ac5415a11513e2892952fd6bd6c2f950112a72a2eead9feace",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_clusterrole.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/e8eb4ea84c0b3d9fdd51b1b7.md",
+      "kind": "official-document",
+      "bytes": 6644,
+      "sha256": "41e44ff59cb753a266cf640b5dae084817d505f9259424528fe17edb2d1acbc7",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_clusterrole.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_clusterrolebinding.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/406d6654d3b8cd60fe56b68f.md",
+      "kind": "official-document",
+      "bytes": 5960,
+      "sha256": "a556d6e963a312cb2fdbd0e538eb179bb5e4442a24d936357d85b4834fba5eaf",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_clusterrolebinding.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_configmap.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f00fb5fc6d136f5d02b319b6.md",
+      "kind": "official-document",
+      "bytes": 7041,
+      "sha256": "db7cb993568d1972a2380d97dd95bc76b0ff6b68300eb823dc5e5677fc7e0727",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_configmap.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_cronjob.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a83eec0f4d563bf446563ca1.md",
+      "kind": "official-document",
+      "bytes": 5559,
+      "sha256": "fb2118d3edd32f9fb0ec13303191955471b95b84188b005056b8ad1efb2af705",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_cronjob.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_deployment.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/975f660d7aabf35836a0761c.md",
+      "kind": "official-document",
+      "bytes": 6079,
+      "sha256": "a785782b2f1df48c22bdeb3fe54dcbfd3da3c9e674e905a632ed4fb281c6c191",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_deployment.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_ingress.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/5031bc741a396b78360ee8c9.md",
+      "kind": "official-document",
+      "bytes": 7196,
+      "sha256": "8347e8135183633516d86943bf453e58a6099522aec541074d2f1742311f65f0",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_ingress.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_job.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/bab6b742eeb6327fb3f796ee.md",
+      "kind": "official-document",
+      "bytes": 5491,
+      "sha256": "b7048866f9db54d21e3f5c42cff27f0ef6a7021f25a062af1490db3d72b32d8b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_job.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_namespace.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/1dfb88d5266a53749952119c.md",
+      "kind": "official-document",
+      "bytes": 5144,
+      "sha256": "9a2d5c7cfaccefa4f6605144bdd9aedee89ad1f7f94b6383a98a69d30b64dc2f",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_namespace.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_poddisruptionbudget.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f2327adff16c73027d8a43d0.md",
+      "kind": "official-document",
+      "bytes": 6077,
+      "sha256": "a4f83064f190c16f88297f0df87b01fac40b3a96309c85ab6ee3640b34cd53a0",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_poddisruptionbudget.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_priorityclass.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/66477a57d0f3b777b654ac98.md",
+      "kind": "official-document",
+      "bytes": 6234,
+      "sha256": "f99e4d0fb385052b00d67f4f409e4de38293c817c00209c96b2bc21fe831ecc8",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_priorityclass.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_quota.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/54262a696bbc629e7cc35a15.md",
+      "kind": "official-document",
+      "bytes": 5709,
+      "sha256": "fcf37730d852a2c81633fea39afede99200c89e66273fee9eff741841fd3480e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_quota.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_role.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/08077cb2bfb0ede9a7966b7e.md",
+      "kind": "official-document",
+      "bytes": 6034,
+      "sha256": "23a4213585382edb65c4043ac877048c79f05048592e45a7d64080e5ca779659",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_role.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_rolebinding.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/8dfe1355d61cc37817c2c7a1.md",
+      "kind": "official-document",
+      "bytes": 6144,
+      "sha256": "ac559090d723396ec64fbfe5fe6a8e32cecf3fdf02756f48f4ecb5d7738f48e1",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_rolebinding.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_secret.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/1f8ef0563c66da95ba391ddd.md",
+      "kind": "official-document",
+      "bytes": 3544,
+      "sha256": "0059b262581bf0517c2e4814ca99bba44214ec5b7bf018c2759ea49778539cd5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_secret.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_secret_docker-registry.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b65224ed54866ed7c3500c7e.md",
+      "kind": "official-document",
+      "bytes": 7312,
+      "sha256": "6ba941a6c64246575968fe716102f6b3a091c93586486a8144592504695235f6",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_secret_docker-registry.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_secret_generic.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/e8866d321f9e3d71f798df61.md",
+      "kind": "official-document",
+      "bytes": 7380,
+      "sha256": "d896145707b887c5669c18bc7ded155b9f0ee6520d1c78dd4e43ac33bb15ff75",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_secret_generic.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_secret_tls.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/0d1e944ffc4a8ea7ead51424.md",
+      "kind": "official-document",
+      "bytes": 5654,
+      "sha256": "473e4f7794d27252c46722acd747825a3a66ff33ad3ee4df104d28a53dbc6043",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_secret_tls.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_service.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/cd2bb4cda063588400d8ade4.md",
+      "kind": "official-document",
+      "bytes": 3426,
+      "sha256": "d90e9af5a85ce7e373076c2cc49cd19768386d1f72b962c21f1e149f7c6cee85",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_service.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_service_clusterip.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/9bcaecdac317535ed88fab31.md",
+      "kind": "official-document",
+      "bytes": 5568,
+      "sha256": "982532fc3b85e965fac8dd8045fc5524cf966faf73af9ba6e10746365f72e1a1",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_service_clusterip.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_service_externalname.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/4fd4b85526f0c44d28c3b80c.md",
+      "kind": "official-document",
+      "bytes": 5604,
+      "sha256": "18113c9d959689c9f6f312de1d573cb81a72c40f1a3685938832e73f3dd2e6b2",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_service_externalname.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_service_loadbalancer.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2195334ea7a8bde8ce689a63.md",
+      "kind": "official-document",
+      "bytes": 5328,
+      "sha256": "c62c1d0910d88f59f6cc280290897e0495a8f199d265ac7606b2cdffd9225d27",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_service_loadbalancer.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_service_nodeport.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ba8e25eb657020a319d4aa75.md",
+      "kind": "official-document",
+      "bytes": 5396,
+      "sha256": "a1c6469ccb9b190f4a26ff206503b13bf3c86c26ea7a0facde21b951eeb0ea72",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_service_nodeport.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_serviceaccount.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/9b8a16bb37b34bc96a79fead.md",
+      "kind": "official-document",
+      "bytes": 5194,
+      "sha256": "8fb62105bf038c40389e48048e204111a86e7f135a76059d26e55076fd1daefc",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_serviceaccount.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_create_token.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/eabf6c64f790b34a8b1cfc8e.md",
+      "kind": "official-document",
+      "bytes": 5509,
+      "sha256": "97559a0db419d5da7009a53a76451c5236ce85d7203aca725f561fabde83e1e5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_create_token.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_deinit.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/0489113de248fe2348afe4f2.md",
+      "kind": "official-document",
+      "bytes": 3351,
+      "sha256": "51cba32d5f59943e7a3def5441ab963656c40a39c653673d90c788d6fc2d9ccb",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_deinit.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_delete.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2d335bafed38ad2e8748662b.md",
+      "kind": "official-document",
+      "bytes": 9277,
+      "sha256": "0a84c9d00de2fa3894a0b82407102e8225711882d1dbd0c57902f8e877418839",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_delete.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_describe.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c7ef616e6eeb4e91aca85355.md",
+      "kind": "official-document",
+      "bytes": 6096,
+      "sha256": "ed50a2d346aa02067c69cc023dce1babc6a8d2043c3f3169f73aca1e4cc0360b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_describe.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_edit.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/4fb6c439e800ac009c96ed48.md",
+      "kind": "official-document",
+      "bytes": 7435,
+      "sha256": "d68ed0fba93c7889cd127b7e54b9351e19243ecbbd00c7c1b94195d442f5c97c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_edit.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_exec.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/afd3c12d974a23b1e22e09be.md",
+      "kind": "official-document",
+      "bytes": 5481,
+      "sha256": "09e74bbd639de675d909a7b624cca9e16cf4ae10935a2154a8fd91c2ed44f77d",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_exec.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_explain.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/bf2901654a0ae02307436bfc.md",
+      "kind": "official-document",
+      "bytes": 4916,
+      "sha256": "e494414a6aabf2825437fbfe1098f97a8298fdaee45c9941065c5057940a899e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_explain.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_get.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/bf24166bee8aeff0e147d208.md",
+      "kind": "official-document",
+      "bytes": 7814,
+      "sha256": "92fef18ea6e17bf34280a19cc3a4df9906dc7766d9c443d8d685a310f6c4f5d5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_get.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_index.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a99b0a9ba964e1d6e69afcc4.md",
+      "kind": "official-document",
+      "bytes": 13010,
+      "sha256": "f4fd5b25c0d21f4abd5751063b8128328e22f95d2f2e58e3f717af3093d2616a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_index.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_init.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/92049daa80833e31968b2437.md",
+      "kind": "official-document",
+      "bytes": 17107,
+      "sha256": "73d15ff2976625e914ed6eb7a5abf88d815f868cf2e34872384c7e8fc7da8fa1",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_init.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_interpret.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/7376fd319c17588c0610cd5d.md",
+      "kind": "official-document",
+      "bytes": 6978,
+      "sha256": "015ef634eab7cd256ba1e98710ae82653f74139f3a46808e9fb715a3d8412410",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_interpret.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_join.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/4b3e7f5cb9cd82efdac70a55.md",
+      "kind": "official-document",
+      "bytes": 4542,
+      "sha256": "7dde3524a3b029dcb0139d10cc4d9405b8dc7f37077a89b12e34da6fab92db00",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_join.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_label.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/9e54cb4385d4343ccd624939.md",
+      "kind": "official-document",
+      "bytes": 7375,
+      "sha256": "3d9fd4af974a5aa4e320561a3e4ba5fff3bc3474ab36f765667134b315379e48",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_label.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_logs.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/0ea8aabd8551456b9c3ef1d3.md",
+      "kind": "official-document",
+      "bytes": 6583,
+      "sha256": "b76ed6e189a6afd5567c46f4422cdfd77e0847edd298bbb18cc6cbae69e5ff95",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_logs.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_options.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/53acd79bd128981f816dfb32.md",
+      "kind": "official-document",
+      "bytes": 2863,
+      "sha256": "3f660b4a1e633ca781107bfca774ac9a0dbc1667bfe1ade189673a26874a633e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_options.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_patch.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/22b339d69788b75e46e3fa3a.md",
+      "kind": "official-document",
+      "bytes": 6198,
+      "sha256": "50c5a35cd8e3b7cfb2d0b594ed2ec3dc66ed7d970cd8b262ec021700fa8b98d1",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_patch.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_promote.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/479b614a662807e9acf45a45.md",
+      "kind": "official-document",
+      "bytes": 5505,
+      "sha256": "8998a652574f4508c0ad177d6121aa04bd6834f9cda477a0998a28d274b73dea",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_promote.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_register.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/215f699540a33486e372f9c2.md",
+      "kind": "official-document",
+      "bytes": 6290,
+      "sha256": "65148f67fed8e467a227bc45231e339be27049c4f528c2d9fd9acb03492df937",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_register.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_taint.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/caecbf2db4b0a4f6f6a11961.md",
+      "kind": "official-document",
+      "bytes": 4437,
+      "sha256": "41f8a2dad6712ac68be6752b58288a9360aab1808a007b86be7c6096af577dad",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_taint.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_token.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6dd6f8a7e69877dce86f0fe5.md",
+      "kind": "official-document",
+      "bytes": 4287,
+      "sha256": "16d47425181858693edd349672e80579e358c52c95c79c845e005b0c02c8b76e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_token.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_token_create.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f07269ce1488b3e428242563.md",
+      "kind": "official-document",
+      "bytes": 3974,
+      "sha256": "d41cb6c48bd3b64d231181bc921ff080db952885288ab8300a52fd8185778b61",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_token_create.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_token_delete.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d3a3d283b21c594d879e7c04.md",
+      "kind": "official-document",
+      "bytes": 3026,
+      "sha256": "c24c4b6c8218620da7c219a4680ce6b07c1d07d42f82ade561283d48245f1466",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_token_delete.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_token_list.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a9351202291b08051cea598e.md",
+      "kind": "official-document",
+      "bytes": 2870,
+      "sha256": "877bc32cc09cd9b89c37c35e75d713f3161a8ce6f401164a9f8806ccf7390615",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_token_list.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_top.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2ede8d0c1edac275c0c67a66.md",
+      "kind": "official-document",
+      "bytes": 3272,
+      "sha256": "f0a1c1edf1d9986d77464cfb13b5addcd994b9c90d5e79da9bc20150a8eea176",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_top.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_top_node.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ac64a35de28662961f15cb7e.md",
+      "kind": "official-document",
+      "bytes": 4291,
+      "sha256": "e1b5973a2af49e685c41daf12096d2aea7cc58b9b7cb1661826410cebccd235c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_top_node.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_top_pod.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/60e0173890253fd04ff93c09.md",
+      "kind": "official-document",
+      "bytes": 4944,
+      "sha256": "52da970c029328a8a79d053936f3420f7d71132c5dc1936938194ade17d88233",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_top_pod.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_uncordon.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/19a6b1a25d6bdb660acb4bf0.md",
+      "kind": "official-document",
+      "bytes": 3006,
+      "sha256": "d3f7fee0bb647fea7caf6fce3dcf818a16dfbb3b4720f436790bf6337d78c0cb",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_uncordon.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_unjoin.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/edd39d81aa4356765a516f1e.md",
+      "kind": "official-document",
+      "bytes": 4336,
+      "sha256": "64f46f31b764ee8c3267552f25edbf0ab55f59fd400108ba5066efd31dd616fe",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_unjoin.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_unregister.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/37afba98bd29a9595983ac64.md",
+      "kind": "official-document",
+      "bytes": 4739,
+      "sha256": "d0ac928c8198c0775f23eb4c6de86ecb25bc3892d1c3e9b9f718b94bd6aa93e6",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_unregister.md"
+    },
+    {
+      "path": "docs/command-line-flags/karmadactl_version.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ebd82b667e78d81f588eb8b2.md",
+      "kind": "official-document",
+      "bytes": 2819,
+      "sha256": "c911e094bedc91ea4d83bea9d4aa0988c6d2b113755297a5628ae8bf0b961be2",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/command-line-flags/karmadactl_version.md"
+    },
+    {
+      "path": "docs/proposals/caching/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/9fb56d6cf0cb3c57d8639b3f.md",
+      "kind": "official-document",
+      "bytes": 7616,
+      "sha256": "24599ebcb274eef6f24adb926360c80bab54d33de16067873de382fa380cfa88",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/caching/README.md"
+    },
+    {
+      "path": "docs/proposals/cert/Self-Signed_Certificate_Content_Standardization.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b3b121b972227875b97044d4.md",
+      "kind": "official-document",
+      "bytes": 31596,
+      "sha256": "13edbe13150f3cf40f27a1990891bc16424f3d87e717b06b4a13e4509c0bc180",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/cert/Self-Signed_Certificate_Content_Standardization.md"
+    },
+    {
+      "path": "docs/proposals/cleanup-propagated-resources/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/95dec1985cfc31f3798d0fe5.md",
+      "kind": "official-document",
+      "bytes": 4601,
+      "sha256": "f1faf0f9a30cb90a2a5873d2e209d2c98ead012ecf1a6c83749d34c2a8306a08",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/cleanup-propagated-resources/README.md"
+    },
+    {
+      "path": "docs/proposals/clusterid/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a07be193e497f8191c641bd9.md",
+      "kind": "official-document",
+      "bytes": 5598,
+      "sha256": "61eecd10ea412e7a6bc1aa8e5af49ee281abfd134d120a0c9fde14372966a41b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/clusterid/README.md"
+    },
+    {
+      "path": "docs/proposals/configurable-local-value-retention/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/203ed7c517dabbc8ff1860d8.md",
+      "kind": "official-document",
+      "bytes": 6201,
+      "sha256": "f588ec846ef8a6b238313b73a7e354e0c4278ad2e1347995445c048e7ddf0930",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/configurable-local-value-retention/README.md"
+    },
+    {
+      "path": "docs/proposals/dependencies-automatically-propagation/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c396e7c32a2eb3c3b4e9c6ca.md",
+      "kind": "official-document",
+      "bytes": 7966,
+      "sha256": "9fe8d377108bf35b7ae1bdb339fd535e82a2a6a2b408134b259175e37131b403",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/dependencies-automatically-propagation/README.md"
+    },
+    {
+      "path": "docs/proposals/dependency-policy-conflict-resolution/dependency-policy-conflict-resolution.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/0f518fac897721e305d74061.md",
+      "kind": "official-document",
+      "bytes": 13591,
+      "sha256": "5460f0df1032ca00035957034af85b92186983cec77de2b4ff24105e6d652235",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/dependency-policy-conflict-resolution/dependency-policy-conflict-resolution.md"
+    },
+    {
+      "path": "docs/proposals/dispatch-suspension/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/46662ca8fa9692689427bb8d.md",
+      "kind": "official-document",
+      "bytes": 18318,
+      "sha256": "f2d2f16bb5ed0362d7400a0db49eec5ee9fa1d91f3fad0f6a1d4d1f579fa96fe",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/dispatch-suspension/README.md"
+    },
+    {
+      "path": "docs/proposals/failover/application-failover.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c5024bacac3550cbd78d1d23.md",
+      "kind": "official-document",
+      "bytes": 26679,
+      "sha256": "981fc93638bdff2fa655fd28743dffb61010af11f149d405901f24ef797736d9",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/failover/application-failover.md"
+    },
+    {
+      "path": "docs/proposals/failover/eviction-queue-dynamic-rate-limiting.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f20af95a18641e8a8e36c430.md",
+      "kind": "official-document",
+      "bytes": 6890,
+      "sha256": "d21328efc64799d92f6864f8ee5fc61a56f84d16f8e32a00abe05d488f0b0e22",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/failover/eviction-queue-dynamic-rate-limiting.md"
+    },
+    {
+      "path": "docs/proposals/failover/stateful-workload-cluster-failover.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ad99e1604ded4c12b04b883f.md",
+      "kind": "official-document",
+      "bytes": 21809,
+      "sha256": "42d5f9b8583bf998fa43344b8b42716d67f9ba138124925f814c7f2466f222d2",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/failover/stateful-workload-cluster-failover.md"
+    },
+    {
+      "path": "docs/proposals/federated-resource-quota-enhancement/federated-resource-quota-enhancement.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a58ec4394e03978194176a06.md",
+      "kind": "official-document",
+      "bytes": 11185,
+      "sha256": "c422638c3f5431ffea64fd42a96be6f58125a62a8d7bd35de42f2a01bc6477cd",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/federated-resource-quota-enhancement/federated-resource-quota-enhancement.md"
+    },
+    {
+      "path": "docs/proposals/hpa/cronfederatedhpa.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/1a62cacb84248b5c75715f20.md",
+      "kind": "official-document",
+      "bytes": 18445,
+      "sha256": "854ef9fe4fd11856dc0fa1a884c9540bb0c6c20872f5bf8f799cd54be02881d0",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/hpa/cronfederatedhpa.md"
+    },
+    {
+      "path": "docs/proposals/hpa/federated-hpa.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/3e559865def1f5c050e954b6.md",
+      "kind": "official-document",
+      "bytes": 14313,
+      "sha256": "bab9358fa53c2f11d4327fa2e5d454c07ca93a80471289e5340433d8470be51f",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/hpa/federated-hpa.md"
+    },
+    {
+      "path": "docs/proposals/hpa/federatedhpa-v2.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2d53e0bf152b6d2ee482f5e4.md",
+      "kind": "official-document",
+      "bytes": 23920,
+      "sha256": "4b7ad7cf602698c50eb8f0746569cd90b132840f2d7c7095edc0eab22d77cdc4",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/hpa/federatedhpa-v2.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/api-server-extra-volumes-volume-mounts/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/f33175abc51017aafb447d90.md",
+      "kind": "official-document",
+      "bytes": 4144,
+      "sha256": "9d9453f2cfde1e96682a33cf315fb8290218ed1ec08f53dda6a56a432b0c0261",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/api-server-extra-volumes-volume-mounts/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/api-server-service-status/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2aa28d86eba99e79b1db0f16.md",
+      "kind": "official-document",
+      "bytes": 4243,
+      "sha256": "544d3d1ed8d82e0cbfde61d754d3fa16045f133e53d2d72e9e43a43e3cd10410",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/api-server-service-status/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/api-server-sidecard-containers/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/cb99bbdbac151d5f78b3dbc2.md",
+      "kind": "official-document",
+      "bytes": 4656,
+      "sha256": "8a66feed7dd447444deb097b048b6ff470a08f207e71ef2199cc7718a7f4c99a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/api-server-sidecard-containers/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/component-priority-class-name/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c3badac781e1c36e7888c5f4.md",
+      "kind": "official-document",
+      "bytes": 3536,
+      "sha256": "9314650ae8d5e9f6788965195c9fe516e09d2b806f7857f52cb973c006d9e45e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/component-priority-class-name/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/crd-http-source-proxy/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6c82905a2512ae2300f4da6f.md",
+      "kind": "official-document",
+      "bytes": 4688,
+      "sha256": "dfb102bd92a30541a3a57fed5a9212117cb50f2440b0c2ef31cdf706757db1bf",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/crd-http-source-proxy/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/custom-leaf-cert-validity/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/93a1496b0a6157e50a09d6b6.md",
+      "kind": "official-document",
+      "bytes": 3448,
+      "sha256": "5f18d846f4ff7091f15035da56f4a9ae0d4de55facb3636ecb1fc6c849c4ae0a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/custom-leaf-cert-validity/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/custom_ca_cert/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/36218a75663fc21d58924736.md",
+      "kind": "official-document",
+      "bytes": 5865,
+      "sha256": "669fd08ad6c9e2afa5bd943dcacb723c679c9836e94d01672b20d642ee6ed792",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/custom_ca_cert/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/external-etcd-credentials-ref/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/8541fda4deaabc0bc6448a11.md",
+      "kind": "official-document",
+      "bytes": 3828,
+      "sha256": "a16a9687d3d5eb04e377c41883b3c69192a29df6fd03dc56d6bc4117948034c7",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/external-etcd-credentials-ref/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/node-selector/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a7a135d748fb685024966538.md",
+      "kind": "official-document",
+      "bytes": 4565,
+      "sha256": "f1118f6adfc515058b2efbf8f4f1cf3467065b6757f2943e7d1eb64475475b3c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/node-selector/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/operator-custom-crd-download-strategy/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/12e5108cbea3fb2b7801af99.md",
+      "kind": "official-document",
+      "bytes": 7549,
+      "sha256": "f70d928ebed6c1834405b52a601e5e59a0b309b2b4bd2d9cc92a68f5080e5a68",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/operator-custom-crd-download-strategy/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/pod-disruption-budget/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b197557f9ea88f9d0826bf69.md",
+      "kind": "official-document",
+      "bytes": 9142,
+      "sha256": "4e13c1fadd1cff00d9d192c4a1b698102f06c695bce4629c01e7326abd63f80e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/pod-disruption-budget/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/reconciliation-suspension/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/09983e39710b9e0a0e1a376a.md",
+      "kind": "official-document",
+      "bytes": 3171,
+      "sha256": "ac1c9ffc52d36a2ed54ebf2d8055208e596841ca407b0a0e8a174d07f382118d",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/reconciliation-suspension/README.md"
+    },
+    {
+      "path": "docs/proposals/karmada-operator/topology-spread-constraints/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d634bd4ac9a08ffd75a2e690.md",
+      "kind": "official-document",
+      "bytes": 7191,
+      "sha256": "325da3f93d5bc303926488ffda4f16d0c9936d62fd30e5db71a534ab987d04e9",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmada-operator/topology-spread-constraints/README.md"
+    },
+    {
+      "path": "docs/proposals/karmadactl/enhance_karmadactl_maintenance_experience.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/38926b6d18a5038b81298feb.md",
+      "kind": "official-document",
+      "bytes": 21192,
+      "sha256": "04237c91fed6a00be472c83c1cd9d3eb623d396a3109d0d34f2d73d7f2795b8f",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmadactl/enhance_karmadactl_maintenance_experience.md"
+    },
+    {
+      "path": "docs/proposals/karmadactl/init-configuration-file.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/843491a5dfe5ced7fcd331d4.md",
+      "kind": "official-document",
+      "bytes": 23435,
+      "sha256": "57af59873e5d5056cededd24134d268365b5a76a719902164a2362b994a54c9a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/karmadactl/init-configuration-file.md"
+    },
+    {
+      "path": "docs/proposals/mcs/remove-derived-mcs.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/cb566f6fbeab4c3ef94c2c56.md",
+      "kind": "official-document",
+      "bytes": 13617,
+      "sha256": "4a54e53aa40c9c0bd7f967db9b22bc9d89a30e1584f82a24fbdebbfc9a253804",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/mcs/remove-derived-mcs.md"
+    },
+    {
+      "path": "docs/proposals/migration-rollback-protection/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/8d4ffa3afa3d227e526db48e.md",
+      "kind": "official-document",
+      "bytes": 13238,
+      "sha256": "0d71f0d1f5394dc09712bcb3444eb773df5f73b1bcbf2f640d8db5d04cd08c24",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/migration-rollback-protection/README.md"
+    },
+    {
+      "path": "docs/proposals/migration/design-of-seamless-cluster-migration-scheme.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/68fd8fe1b7c4f898ff7835fd.md",
+      "kind": "official-document",
+      "bytes": 13930,
+      "sha256": "38e9d9d0d31979d1437bdf0be392b1f1fa01035a3c7121c6ab9a5224c312879b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/migration/design-of-seamless-cluster-migration-scheme.md"
+    },
+    {
+      "path": "docs/proposals/migration/statics/karmada-seamless migration.drawio.xml",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/3c120a7db0664bbb80c81052.xml",
+      "kind": "official-document",
+      "bytes": 114073,
+      "sha256": "59c602b9096943e8b824508f069e126087e3984f763c71333584ef753b0dc49b",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/migration/statics/karmada-seamless migration.drawio.xml"
+    },
+    {
+      "path": "docs/proposals/networking/multiclusterservice.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/7d4db7593fa331cc9bc0ccc8.md",
+      "kind": "official-document",
+      "bytes": 10550,
+      "sha256": "2004b027a694278b9e71f8314ef9527fe0cfc982c4e01b5570331464d33b548d",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/networking/multiclusterservice.md"
+    },
+    {
+      "path": "docs/proposals/promote-dependencies-automatically/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/a400bb381eb80be84fda7e26.md",
+      "kind": "official-document",
+      "bytes": 12183,
+      "sha256": "91c95f51e6a56bd226fd5f05e605ffdd2b27c4faf17dbec7f6b51b27baa3805e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/promote-dependencies-automatically/README.md"
+    },
+    {
+      "path": "docs/proposals/proposal-template/proposal-template.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/8ff53903aec511388b385568.md",
+      "kind": "official-document",
+      "bytes": 3501,
+      "sha256": "4647063c435d29c6df8ae644eb44e16b1652aa02e5604e90b2b557aea0e27c94",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/proposal-template/proposal-template.md"
+    },
+    {
+      "path": "docs/proposals/remediation/cluster-status-based-remedy.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/46edc676dd013ee73feaf9d4.md",
+      "kind": "official-document",
+      "bytes": 21239,
+      "sha256": "17e3244b3fc78ad74ad3d51721c8029f4a826842fe42d7bbd891ccc6c489bfa3",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/remediation/cluster-status-based-remedy.md"
+    },
+    {
+      "path": "docs/proposals/resource-aggregation-proxy/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/3703a3f36c720c88adb1859a.md",
+      "kind": "official-document",
+      "bytes": 15350,
+      "sha256": "d2fe472392dd4ef9eb4fe738f88996a669024a64672079f75b7e40feffdfc124",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/resource-aggregation-proxy/README.md"
+    },
+    {
+      "path": "docs/proposals/resource-deletion-protection/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/415598fd4a7413216d0b5aa9.md",
+      "kind": "official-document",
+      "bytes": 7260,
+      "sha256": "cf71ef06ea53ba2b3aefc1dd0fa20d2cdf99389b9e74829b534ee611aa032ae5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/resource-deletion-protection/README.md"
+    },
+    {
+      "path": "docs/proposals/resource-interpreter-webhook/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/eddf9c93d8d16fee1222ee37.md",
+      "kind": "official-document",
+      "bytes": 16931,
+      "sha256": "06537711202316ea05bd3574fd7747aa7e92aec0995cba756f62866c55c07960",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/resource-interpreter-webhook/README.md"
+    },
+    {
+      "path": "docs/proposals/resource-quota/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ad1613e055f7585c19910767.md",
+      "kind": "official-document",
+      "bytes": 11332,
+      "sha256": "a7e0de30ce3898ce36b17343ef6131f04763910032af66499ae09dc2f52177d8",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/resource-quota/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling-suspension/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/fbb9ad47518f4113c21bef95.md",
+      "kind": "official-document",
+      "bytes": 7962,
+      "sha256": "469604771f1a348cb30e5707d33b4d7ae6a6083100f19499247c8837ace86b20",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling-suspension/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/521-scheduler-estimator/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/1e2926c26a554f77f6e965be.md",
+      "kind": "official-document",
+      "bytes": 9630,
+      "sha256": "59247fe6cc9a109b0d955a4355cb1e1416be674f90e0756699816f791636ad37",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/521-scheduler-estimator/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/697-descheduler/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/e21de88dfa6964ddac06c7a5.md",
+      "kind": "official-document",
+      "bytes": 9022,
+      "sha256": "8aac166c2eadc1c04ac3d4adcf36867334f287f118e44eb44dd5bb147542a9f2",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/697-descheduler/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/activation-preference/lazy-activation-preference.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/beb8a057568fc76ec75a021d.md",
+      "kind": "official-document",
+      "bytes": 17798,
+      "sha256": "d8ef222b23f254b18012b9293a55f655cb9ca6db4c8ad3a89e7e58f83a2d7182",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/activation-preference/lazy-activation-preference.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/anti-affinity-scheduling-support/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/dd49cd7489615634a312daf2.md",
+      "kind": "official-document",
+      "bytes": 19646,
+      "sha256": "37fa68190d327248a168874aa93e554ec02c5675e16d80ad2e58a087bfd464f7",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/anti-affinity-scheduling-support/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/binding-preemption/binding-preemption.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/17a548d13a2606177b2540c5.md",
+      "kind": "official-document",
+      "bytes": 44983,
+      "sha256": "9cec182e85dca2e01b4e2497b39a1bb777c0ef9d36e7fe105ecc7f9bfb490ae5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/binding-preemption/binding-preemption.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/binding-priority-preemption/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d6b5b33f060323fb56c06120.md",
+      "kind": "official-document",
+      "bytes": 19204,
+      "sha256": "1b83e8a47735344c3c785d578b022ad6e479c08461a046cc25c57802cf3a3757",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/binding-priority-preemption/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/estimator-reservation/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/10773c14908650c1f285a5ad.md",
+      "kind": "official-document",
+      "bytes": 37356,
+      "sha256": "51b5d972ceae7ab0aa82de0f0c9a640ee97089d7fcb62f736a56cc5db9316b05",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/estimator-reservation/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/multi-podtemplate-support/multiple-pod-template-support.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/5a2cc3ff58bf5394fffdf2c4.md",
+      "kind": "official-document",
+      "bytes": 45711,
+      "sha256": "7a97072af181f1144b126d0a723bfee23ffe09f864bac5959382ce4db78503d9",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/multi-podtemplate-support/multiple-pod-template-support.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/multi-scheduling-group/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/68c1c7f70198a8f2e184d9cf.md",
+      "kind": "official-document",
+      "bytes": 14044,
+      "sha256": "674d50f6e160b16a7c0f50e9c6bf2e52a014617c2f71e097d18d75e78b065114",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/multi-scheduling-group/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/multi-scheduling-group/overflow-affinities/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/1a292a69da7f6d6fefb72333.md",
+      "kind": "official-document",
+      "bytes": 17278,
+      "sha256": "16cb28e4b894a81a03cc5bb9a81773854dc06b8f2d00a10a6b0c0f6e3c15b6d5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/multi-scheduling-group/overflow-affinities/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/policy-preemption/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/817136c7527f70bcace121c4.md",
+      "kind": "official-document",
+      "bytes": 12528,
+      "sha256": "2512d242ec291167b4d4eae0460610c70e33029b1d42de8157ab30454a737317",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/policy-preemption/README.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/replicas-assign/divide-replicas-by-static-weight-evenly.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ac710bbb5448b09bf21713a6.md",
+      "kind": "official-document",
+      "bytes": 9270,
+      "sha256": "578de5ba365225ef3a178eac883c7a7b22dfec5d564cab479280b524dca953d9",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/replicas-assign/divide-replicas-by-static-weight-evenly.md"
+    },
+    {
+      "path": "docs/proposals/scheduling/workload-rebalancer/workload-rebalancer.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/ccbb8a87161009b7f74b51ba.md",
+      "kind": "official-document",
+      "bytes": 20246,
+      "sha256": "a4500da3d5af44f1bec91d7afa06100b02c38c83ed16143e1df00aba2af32053",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/scheduling/workload-rebalancer/workload-rebalancer.md"
+    },
+    {
+      "path": "docs/proposals/service-discovery/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/9a79bf0804b6d67b0ce95b58.md",
+      "kind": "official-document",
+      "bytes": 16819,
+      "sha256": "818f185199165337ba457b1832bd3c7e9879788ca2d800ee8db8280819efdc75",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/service-discovery/README.md"
+    },
+    {
+      "path": "docs/proposals/structured-configuration/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/9d946cb2cbf40fb7b475fdc5.md",
+      "kind": "official-document",
+      "bytes": 18571,
+      "sha256": "a7ac4f684d289730ca0ddc7961fdac1b17ee62011d9903c52b1e97d49bdf079e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/docs/proposals/structured-configuration/README.md"
+    },
+    {
+      "path": "examples/customresourceinterpreter/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6e08d67fe4fb8e1f59a2fc62.md",
+      "kind": "official-document",
+      "bytes": 16187,
+      "sha256": "9c925e1c7df30f7d0857cf45e7b92045f3c2c38e01bfb698d76965ddf7861899",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/README.md"
+    },
+    {
+      "path": "examples/customresourceinterpreter/apis/workload/v1alpha1/doc.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b294ff79724a52b18392b100.go",
+      "kind": "upstream-example-code",
+      "bytes": 713,
+      "sha256": "288fa0526a0b1189865b82bc8e4d20f3f68abd6db9b493b0969cc99a2c25fd68",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/apis/workload/v1alpha1/doc.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/apis/workload/v1alpha1/workload_types.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/3aa9a0c6e7ee231f6ad10c00.go",
+      "kind": "upstream-example-code",
+      "bytes": 2175,
+      "sha256": "edaea30dfed1fe692a7ff93f168ac4f1f96ed96742bc92b9ba03177d11cd7e09",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/apis/workload/v1alpha1/workload_types.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/apis/workload/v1alpha1/zz_generated.deepcopy.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/533ceac1e7a17a73a2f7b715.go",
+      "kind": "upstream-example-code",
+      "bytes": 2808,
+      "sha256": "57a217e966eb3460ea28566cf71166393f40e714726e8390dc895148d3ffe8d3",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/apis/workload/v1alpha1/zz_generated.deepcopy.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/apis/workload/v1alpha1/zz_generated.register.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/0f3866b4060b3336f2d2f84b.go",
+      "kind": "upstream-example-code",
+      "bytes": 2387,
+      "sha256": "e613d15fa233face380c17235381187e58ee33c16cab692c8a93abae9d5834e7",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/apis/workload/v1alpha1/zz_generated.register.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/options/options.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6f60328aa8c930a447d8de4a.go",
+      "kind": "upstream-example-code",
+      "bytes": 1489,
+      "sha256": "9c912a382a0c3af3689c56fbf0b648502256d44445152c2cc313afc63339f8d8",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/options/options.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/options/validation.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d913865fdaf66f21251aed5e.go",
+      "kind": "upstream-example-code",
+      "bytes": 1211,
+      "sha256": "c3ce709409ccdd305dca19c9bb1adfa56e379890a5bb21fdc3cd5625510a2381",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/options/validation.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/options/validation_test.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/cc837eb6df2d5dbe136ea1cb.go",
+      "kind": "upstream-example-code",
+      "bytes": 1733,
+      "sha256": "2ba3caa32174d39fd16aa8b66d291f5ec57c0adb5e45f450b1c73969b50bfe5a",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/options/validation_test.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/webhook.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/10fb994aef2440e25c9382ec.go",
+      "kind": "upstream-example-code",
+      "bytes": 3460,
+      "sha256": "6b6d86f81d36749a266e6d6e4afade05f187b1d756da19c368461a8cc8fff080",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/webhook.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/webhook_test.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/2826722a9fbc762818596627.go",
+      "kind": "upstream-example-code",
+      "bytes": 1229,
+      "sha256": "0299d11739b5f072fa27be793f597fbf9f31430da224eec3f9fb885e57778367",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/webhook_test.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/workloadwebhook.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/b7772be84d6bbe0d949ba63b.go",
+      "kind": "upstream-example-code",
+      "bytes": 7099,
+      "sha256": "de2d47e7d86843e95d7b5e9034f72ff627f6843241dc9871e458649f68e86239",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/workloadwebhook.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/app/workloadwebhook_test.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/3d84295d47a03dcd71bd38e7.go",
+      "kind": "upstream-example-code",
+      "bytes": 6642,
+      "sha256": "b6ab9ea7f3031e72905cf6d5264f9f6948f926ea15ae06d4f72dcabcf2d6f32e",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/app/workloadwebhook_test.go"
+    },
+    {
+      "path": "examples/customresourceinterpreter/webhook/main.go",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/d04d09cbeca73af68c571d79.go",
+      "kind": "upstream-example-code",
+      "bytes": 1515,
+      "sha256": "2bdeedf734e59600e72586fdc547723ec5d0b001f702ebb8ee94b374eb6d7722",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/customresourceinterpreter/webhook/main.go"
+    },
+    {
+      "path": "examples/karmadactlinterpret/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6e14bacb93c04fd889617d47.md",
+      "kind": "official-document",
+      "bytes": 1622,
+      "sha256": "a9df030cb3bdc4f34f16732fc9eabc4b3683fa27a488a7b1523d483e249fd289",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/examples/karmadactlinterpret/README.md"
+    },
+    {
+      "path": "hack/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/6a33146cb453cc624d7fa8eb.md",
+      "kind": "official-document",
+      "bytes": 3826,
+      "sha256": "f6a8412369e154a03504919b03ec11d8d1e9d68ab989ce86260a8d9a32834718",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/hack/README.md"
+    },
+    {
+      "path": "hack/performance/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/70e1a8a48c9ab9b752139b73.md",
+      "kind": "official-document",
+      "bytes": 10557,
+      "sha256": "81f55eba02718681467a24e9ccc4e883974347dbca4c1bccae4a7d8f099862a5",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/hack/performance/README.md"
+    },
+    {
+      "path": "operator/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/877dd4b55ed020309c24589c.md",
+      "kind": "official-document",
+      "bytes": 14655,
+      "sha256": "1f0097a9b21351728517d20afef1dafa77dc1913811a3c65a250d0309b793a00",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/operator/README.md"
+    },
+    {
+      "path": "pkg/resourceinterpreter/default/thirdparty/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/c51ef55abc3fce083e7ef745.md",
+      "kind": "official-document",
+      "bytes": 5815,
+      "sha256": "a9f1d018c089f67096a35765bf1f361bd5fb6db6cdcf05ff42ae2e8073fd7896",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/pkg/resourceinterpreter/default/thirdparty/README.md"
+    },
+    {
+      "path": "samples/guestbook/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/59a5eea1290655796745a362.md",
+      "kind": "official-document",
+      "bytes": 1873,
+      "sha256": "e6292e188a129b7e39a9b673f86011da17a247493c2e8eed0fa44f0a363dbc9c",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/samples/guestbook/README.md"
+    },
+    {
+      "path": "samples/nginx/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/73b12abac667076a94bb7990.md",
+      "kind": "official-document",
+      "bytes": 2363,
+      "sha256": "992b670ead87f1b0f8658ce57535af5d613ee1895442d98a0e16e7c2a7809c61",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/samples/nginx/README.md"
+    },
+    {
+      "path": "test/e2e/suites/base/manifest/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/895bb37c0c5294c3a363a8e5.md",
+      "kind": "official-document",
+      "bytes": 2284,
+      "sha256": "587c8ef5c7e97013fa6e053d33948b7328670519dc665da4e754098f47273e21",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/test/e2e/suites/base/manifest/README.md"
+    },
+    {
+      "path": "test/e2e/suites/init/README.md",
+      "localPath": "raw/karmada-io--karmada/6d07591528fa/485a834dc568972da8a30b59.md",
+      "kind": "official-document",
+      "bytes": 1338,
+      "sha256": "bf45cbc3e4d6b32e727f79de747c6abb1dc484706c4c77262f18feb9f81423d0",
+      "sourceUrl": "https://github.com/karmada-io/karmada/blob/6d07591528fa3101587ef534e490b7f1ae7fe1d1/test/e2e/suites/init/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

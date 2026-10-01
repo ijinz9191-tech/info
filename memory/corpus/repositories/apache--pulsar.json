@@ -1,0 +1,1122 @@
+{
+  "schemaVersion": 1,
+  "repo": "apache/pulsar",
+  "commit": "f175a6c1804ac87dba1bee35638eabd07778c453",
+  "retrievedAt": "2026-10-01T15:35:40.617432+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "data/pulsar"
+  ],
+  "archiveUrl": "https://codeload.github.com/apache/pulsar/zip/f175a6c1804ac87dba1bee35638eabd07778c453",
+  "selectionSha256": "522fb92293c57ea3a11e64c6cc3a80dc043ab39d16644d450dc018c080b77970",
+  "selection": {
+    "docRoots": [
+      "site2/docs"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "ce1eb85ec51c7d38c06e2b26e5ba45bbd446a68137192c065c28dde744368e48",
+  "archiveBytes": 16339056,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 41,
+    "code": 66,
+    "licenses": 29,
+    "bytes": 688635
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 6999,
+      "sha256": "a1b666df8fc9d439d95bf3fe2e1a252735d7dd4e2c79c4d3a0a2408c1db71857",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/AGENTS.md"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8f6366fd8e7a5fa30f7f0587.md",
+      "kind": "official-document",
+      "bytes": 11756,
+      "sha256": "133a50b12e20e01966a28310f3d487637eca556f0990df473bca73ebdff94285",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/ARCHITECTURE.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/CLAUDE.md"
+    },
+    {
+      "path": "CODING.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b2e84a8ae358edf86aba4073.md",
+      "kind": "official-document",
+      "bytes": 20550,
+      "sha256": "9c7b9bf5cec8ae90d450ba85b7d0829d448349e5fb6eaa4fec656df2ac32bd96",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/CODING.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 25496,
+      "sha256": "7bb65c772880308718d91850f9590db32153529c4df4863fb380260c8120792a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/CONTRIBUTING.md"
+    },
+    {
+      "path": "CONTRIBUTORS.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c0f86987c556ec52d97b9acf.md",
+      "kind": "official-document",
+      "bytes": 1382,
+      "sha256": "5905a08eee8a0f0ceb2ed84ce65bb0c1999bfe930b465b54a786900aab6c1ac9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/CONTRIBUTORS.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 13300,
+      "sha256": "8ba56c6b25c502a185d6f7059946e2f517774452c8ea7f621e05cefeff2c3cc2",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 167,
+      "sha256": "27251af95a3b4187ef779287e13b6ac5779b082289480c22c8675bd7400f0827",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 15228,
+      "sha256": "1dcfc6f78e855858f7b0433cfc7e7f9386d966992c59d6effb8c658a40df0d7a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 6374,
+      "sha256": "57b89a626aa5d3d66de2685e2f60f9cbac72e00cf44afe2e4d618d41f1c43b06",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/SECURITY.md"
+    },
+    {
+      "path": "deployment/kubernetes/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/99788240b8099a3f70fcdd66.md",
+      "kind": "official-document",
+      "bytes": 1103,
+      "sha256": "957c50298f3350c95fa859e671a90c438286e491dc429cb039ea4f0bc3c1f5d1",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/deployment/kubernetes/README.md"
+    },
+    {
+      "path": "deployment/kubernetes/helm/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/dc59828edfb6d6e54ab25199.md",
+      "kind": "official-document",
+      "bytes": 1026,
+      "sha256": "c7ce2839e6248d722d41d65a8191d96bcf09f3d7e40ef1ed5eb6e8c8b12fd260",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/deployment/kubernetes/helm/README.md"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-CC0.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/5a58dc94005087fe1170882d.txt",
+      "kind": "license",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-CC0.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-CDDL-1.1.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/aee7e3b849b32a3b5e62c387.txt",
+      "kind": "license",
+      "bytes": 17290,
+      "sha256": "2dcc670fa9a0d47a7ad488552d55e1113c57fe9ddd862f92c9bac53ef3c23aa4",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-CDDL-1.1.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-EDL-1.0.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/01e3045a7cd9c5e2a411137e.txt",
+      "kind": "license",
+      "bytes": 1545,
+      "sha256": "2a547e1d9b8b513957cb2aa4275291cb29d8c1921d15dfcab6eff3069a52af55",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-EDL-1.0.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-EPL-1.0.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/264f6f738d009b0e51be707d.txt",
+      "kind": "license",
+      "bytes": 11624,
+      "sha256": "0dba9cd5bc833d6a40f5f5a34db70e37b6ce1cd337dbc2f06ccf1dbc521d2079",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-EPL-1.0.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-EPL-2.0.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/48f0befc55385ed425b43245.txt",
+      "kind": "license",
+      "bytes": 14198,
+      "sha256": "0becf16567beb77fa252b7664631dd177c8f9a1889e48995b45379c7130e5303",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-EPL-2.0.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-HdrHistogram.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/260ce9038ee8450df4d41bd9.txt",
+      "kind": "license",
+      "bytes": 2173,
+      "sha256": "ba550515c77c9e6f8b6a400381eacd3c47569297f8f27884801a95dff5309483",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-HdrHistogram.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-HdrHistogram0.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/811f0ec9027f00085445d6b8.txt",
+      "kind": "license",
+      "bytes": 2173,
+      "sha256": "ba550515c77c9e6f8b6a400381eacd3c47569297f8f27884801a95dff5309483",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-HdrHistogram0.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-JLine.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/dad6987310504e6d6d290484.txt",
+      "kind": "license",
+      "bytes": 1403,
+      "sha256": "93afe99744d6177e160454e6309dddf3693ed66bd892b181a93053d1b23d50d5",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-JLine.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-JSR305.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/1537d901dfb886e3f393f391.txt",
+      "kind": "license",
+      "bytes": 1586,
+      "sha256": "8036a9c5b09797c95afc2a86459b00448bae7b8a89bac6fd1dd0e241a56efda8",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-JSR305.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-LevelDB.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8a3fd40d7efe9d8a18b69b39.txt",
+      "kind": "license",
+      "bytes": 1572,
+      "sha256": "b568f1f37a5a1d37a3e981e7c8b7fc4856ca33b2ca0a45bc8e847aaaf7afe485",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-LevelDB.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-SLF4J.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/123df0f680287a1f0abd7e17.txt",
+      "kind": "license",
+      "bytes": 1149,
+      "sha256": "23b0a748cdeea949765a86012e7d5422fc291d7af10de626fc87eff6c067325a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-SLF4J.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-SemVer.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9b6a42e8da5227aecf4f511e.txt",
+      "kind": "license",
+      "bytes": 1097,
+      "sha256": "55be967e08f74a1f58e45e421097cf4d5b75e980d85f8bcc13be5e30356b6cd7",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-SemVer.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-Spotbugs.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/174473bd79989d7877fae9ee.txt",
+      "kind": "license",
+      "bytes": 26428,
+      "sha256": "e45f1f8522cf1ed0eaa81b786b33f93f1393e5f32a715a728fcfc44d38caeb63",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-Spotbugs.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-Webbit.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/77b2bafacd2a13f6065f3099.txt",
+      "kind": "license",
+      "bytes": 1581,
+      "sha256": "768273bd635ad720bcbbfafaea08ff180839a204020f5dfa5234d96df131e81d",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-Webbit.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-bouncycastle.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/77938cda03b4e251a3533323.txt",
+      "kind": "license",
+      "bytes": 1117,
+      "sha256": "ccb5201373895a8f84f3165363b5e15d0ea41b3b10be5769cd1060a23b31142a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-bouncycastle.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-golang.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/97755809619b6a805ab3cf52.txt",
+      "kind": "license",
+      "bytes": 1478,
+      "sha256": "4214d8afcc3620b7fb7aa9c7695e8f659a90011a830caf0e0c72a385d7d3b2a5",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-golang.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-google-auth-library.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/3b6262d2a37fa87fc9c64b73.txt",
+      "kind": "license",
+      "bytes": 1473,
+      "sha256": "89e0454651f68a5616ce0cfd251f75460a5ba81b8b621848f69fdf32cec7f48a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-google-auth-library.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-jbzip2.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/82bbe5413f44aa12b7d49ce5.txt",
+      "kind": "license",
+      "bytes": 1106,
+      "sha256": "77edfb9953d4a58f573c40280f9703df301b1f28e68b556914a561b03559c5e9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-jbzip2.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-jfastlz.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c0c562f17a04ee9d8a908e50.txt",
+      "kind": "license",
+      "bytes": 1075,
+      "sha256": "06c1bf4cd5304c64bb72a6e03b461c389c35af26d623e3add7d828c398482e1d",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-jfastlz.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-libdivsufsort.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b6cea33073f314ab4a61381b.txt",
+      "kind": "license",
+      "bytes": 1079,
+      "sha256": "a801f489b279d91b8afc67d41e3769ec4df476fda218d63f4326c005db881541",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-libdivsufsort.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-protobuf.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/896aa7504663ac275c8e4009.txt",
+      "kind": "license",
+      "bytes": 2133,
+      "sha256": "af67c58de2e18677a0b8cb5fffbe2232aabb8eb2930e8cd684769cef3d74a262",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-protobuf.txt"
+    },
+    {
+      "path": "distribution/licenses/LICENSE-xz.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/7fb8fd0b32b969f2456e9da2.txt",
+      "kind": "license",
+      "bytes": 254,
+      "sha256": "6691d62c330a462ac3d822d94f93f5155c5c9fc2b6f4d90234ff53e71e4cd8c0",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/licenses/LICENSE-xz.txt"
+    },
+    {
+      "path": "distribution/server/src/assemble/LICENSE.bin.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/bb4f785a0ef1a84ee4c769f4.txt",
+      "kind": "license",
+      "bytes": 34743,
+      "sha256": "f9dbba6a8189b61b14679ad2dfca5a20af15f68555db1a610f849d9e65897f12",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/server/src/assemble/LICENSE.bin.txt"
+    },
+    {
+      "path": "distribution/server/src/assemble/NOTICE.bin.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/27ff23e9949896cd611fed56.txt",
+      "kind": "license",
+      "bytes": 6561,
+      "sha256": "240218b30537aec2f940d632812e26604dfedaea614dc684c618e6bb63576e6d",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/server/src/assemble/NOTICE.bin.txt"
+    },
+    {
+      "path": "distribution/server/src/assemble/README.bin.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/bb0ad2dc59db36c99cef61fc.txt",
+      "kind": "official-document",
+      "bytes": 1269,
+      "sha256": "360c7347755c3275c5b3e538b70ea6807c8a5ce8ca3b76d117a74a1f02a47a73",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/server/src/assemble/README.bin.txt"
+    },
+    {
+      "path": "distribution/shell/src/assemble/LICENSE.bin.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8c5347ef53f7dbc1aa8ba17b.txt",
+      "kind": "license",
+      "bytes": 24281,
+      "sha256": "f02edd280990eba95ddfabc4350f8f4cc552b4d4d9afd9193a6f2562eebc5696",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/shell/src/assemble/LICENSE.bin.txt"
+    },
+    {
+      "path": "distribution/shell/src/assemble/NOTICE.bin.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/df6010afb07b83263d6a5411.txt",
+      "kind": "license",
+      "bytes": 6618,
+      "sha256": "f3b18fc356a03958d4e69c1be0b6d9381b6b58b8a2400a0ae2473e1eb1b87677",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/distribution/shell/src/assemble/NOTICE.bin.txt"
+    },
+    {
+      "path": "docker-compose/kitchen-sink/README.MD",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/5b24f6d181df279f625e7358.md",
+      "kind": "official-document",
+      "bytes": 2341,
+      "sha256": "2685e9f848f1e9d36bd017e0a212309b099b65efa9b9ebde1aed596f369586b8",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/docker-compose/kitchen-sink/README.MD"
+    },
+    {
+      "path": "docker/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/da8fcbe728a9172b578e5d75.md",
+      "kind": "official-document",
+      "bytes": 3104,
+      "sha256": "11cd83924bc6ea305a09e8ae4bb0569cc56acaf6a121eca7e229343014abcfb9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/docker/README.md"
+    },
+    {
+      "path": "faq.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/08c93eef774739f8dd683248.md",
+      "kind": "official-document",
+      "bytes": 23883,
+      "sha256": "2cee1b679c5a970ddfdee79dc00c6000a3d90291cff3ee197a17f5d92b26b829",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/faq.md"
+    },
+    {
+      "path": "grafana/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/5384f4b092e0ef3e8746c1b7.md",
+      "kind": "official-document",
+      "bytes": 960,
+      "sha256": "8f91b5b142c1d2eac78ec161c59eb563c1e20e98d870f85f15cbef5879ebfbdf",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/grafana/README.md"
+    },
+    {
+      "path": "microbench/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/6d60eb831684faa8290b082d.md",
+      "kind": "official-document",
+      "bytes": 6918,
+      "sha256": "050b0a03400b937aa02d2ed5050cc768414680a0fb86ed8fb6d439c6a840b0d1",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/microbench/README.md"
+    },
+    {
+      "path": "pip/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/62719e737255aeb16b5686a5.md",
+      "kind": "official-document",
+      "bytes": 29202,
+      "sha256": "e577b1e726ca99693ad9c0ec94304914a2e1303473a2195369c085e463d1da71",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pip/README.md"
+    },
+    {
+      "path": "pulsar-client-cpp/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b45ca76846f80cd09065c572.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "bf84c56e1aad8b83030168f5b6edd38d4e9e7dcfd63557c3de1f51e8c1882d88",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-client-cpp/README.md"
+    },
+    {
+      "path": "pulsar-client-cpp/python/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/329fed7b47b2069ecaed236f.md",
+      "kind": "official-document",
+      "bytes": 110,
+      "sha256": "1aa0e5697a08918aad54b9ec98d9f7d9f15f9d819b324faab60581b1d716f27c",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-client-cpp/python/README.md"
+    },
+    {
+      "path": "pulsar-client-tools-customcommand-example/src/main/java/org/apache/pulsar/admin/cli/examples/MyCommandFactory.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/3f8a96d37e86fd25474724be.java",
+      "kind": "upstream-example-code",
+      "bytes": 5946,
+      "sha256": "f90ef222e944814de3ee0b8974e1591a33dc766e0bccf6e31361f5a2798e4ed5",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-client-tools-customcommand-example/src/main/java/org/apache/pulsar/admin/cli/examples/MyCommandFactory.java"
+    },
+    {
+      "path": "pulsar-client-v5-all/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9227e280021b501e0be8a8ba.md",
+      "kind": "official-document",
+      "bytes": 5064,
+      "sha256": "4451c29b0086990a11122d6b33a9fe90b5b7995d2b33a175d3dd0a82f8daefff",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-client-v5-all/README.md"
+    },
+    {
+      "path": "pulsar-client/src/main/java/org/apache/pulsar/client/impl/auth/oauth2/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/adc359909f778a7d94cde8c5.md",
+      "kind": "official-document",
+      "bytes": 4993,
+      "sha256": "08dd576b53053178365e1139fa3b3202a70667e6a9ae2d3e259593c5623c0715",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-client/src/main/java/org/apache/pulsar/client/impl/auth/oauth2/README.md"
+    },
+    {
+      "path": "pulsar-client/src/test/java/org/apache/pulsar/client/examples/TransactionExample.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/31cff38b25db70f3068be84c.java",
+      "kind": "upstream-example-code",
+      "bytes": 3572,
+      "sha256": "cad294f97893f559010716abdef54c81178dc801dadb05ec94d381996eda1576",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-client/src/test/java/org/apache/pulsar/client/examples/TransactionExample.java"
+    },
+    {
+      "path": "pulsar-function-go/examples/contextFunc/contextFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/79898cd0f5a977acaed762b3.go",
+      "kind": "upstream-example-code",
+      "bytes": 1233,
+      "sha256": "fa70ac2bccf7e9c3a739f5761379555f5364e5771d70367689bf2aede95913bf",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/contextFunc/contextFunc.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/exclamationFunc/exclamationFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/6116b791d594f3f40c5304cc.go",
+      "kind": "upstream-example-code",
+      "bytes": 1055,
+      "sha256": "463c793328a1ab128461ea00a8c832aaf5cae5a1a4bebb4eb4ac2e97de27596a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/exclamationFunc/exclamationFunc.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/hello/hello.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/6df7f9309e4de233ab51f5cf.go",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "930f6427961d1c4daa2643ac4c3656b9e97c3f9b4b2fb6abbe47e94a100ac0e3",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/hello/hello.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/inputFunc/inputFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/d6447238e1be812b75b5ac9d.go",
+      "kind": "upstream-example-code",
+      "bytes": 1049,
+      "sha256": "a143b59b9180804f7e790da0b0b12de7372c3dd811ee7c609c0e6f3e541dcdce",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/inputFunc/inputFunc.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/logFunc/logFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/d12336e6363327a3bf8165bf.go",
+      "kind": "upstream-example-code",
+      "bytes": 1227,
+      "sha256": "6847c9a9105f1c87de1f4cff338e2652e249f84ac0349aa6363e273d7cba85fb",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/logFunc/logFunc.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/outputFunc/outputFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/2cb78c0807b408ca38148acb.go",
+      "kind": "upstream-example-code",
+      "bytes": 1052,
+      "sha256": "0a4bf41a0411618e722b0fd6b61b1e8aa26f75af7d2bbb19b9db42a7aeb186f3",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/outputFunc/outputFunc.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/publishFunc/publishFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8fa7205fcabb5796aace3356.go",
+      "kind": "upstream-example-code",
+      "bytes": 1451,
+      "sha256": "ce870abe6d0ed89457b48b3b1c9f7399f972a98d7149e6d61b4a1794f5e22797",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/publishFunc/publishFunc.go"
+    },
+    {
+      "path": "pulsar-function-go/examples/userMetricsFunc/userMetricsFunc.go",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/d716ba747d97429efaf36288.go",
+      "kind": "upstream-example-code",
+      "bytes": 1268,
+      "sha256": "6741dbc1056aa9bd04a203798479a359b3f2a1df99cf5a89b640bbbc8afdf57f",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-function-go/examples/userMetricsFunc/userMetricsFunc.go"
+    },
+    {
+      "path": "pulsar-functions/instance/src/main/python/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/bff5c715dd90869be2433f69.md",
+      "kind": "official-document",
+      "bytes": 4288,
+      "sha256": "6c62ae2d3428fa0fda47b63e3c00bc46cadda695a14a945888a64df230f21bed",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/instance/src/main/python/README.md"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AddWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/ad30c844c94ddc3894c21a9b.java",
+      "kind": "upstream-example-code",
+      "bytes": 1283,
+      "sha256": "b9cb3d9c639e1a2584bee7b46feac908c3a1da79e305404f36417e70e658e02d",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AddWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AsyncContextFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/cc7ecb9a872981965d99b6a3.java",
+      "kind": "upstream-example-code",
+      "bytes": 2307,
+      "sha256": "2e849d97911ddfe58a50884a75ff0920e97155dd995f046c30df1434cfc6daa0",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AsyncContextFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AutoSchemaFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/ab6d35f1d5843c74076272a2.java",
+      "kind": "upstream-example-code",
+      "bytes": 1280,
+      "sha256": "e86b08880b91f020344ce734a8dc3d8799f716288fb44504152f6a98d15df2a9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AutoSchemaFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AvroSchemaTestFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/64b4040bc991b0c2c8cff37b.java",
+      "kind": "upstream-example-code",
+      "bytes": 1427,
+      "sha256": "7a43eaec7f347e29533dc3d541fcf297cca8afdeb52e73e33494fdb2a11ce68c",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/AvroSchemaTestFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ByteBufferSerDe.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/351ca7161194c50f9a7a57f6.java",
+      "kind": "upstream-example-code",
+      "bytes": 1298,
+      "sha256": "dbe86a119859a2cf05da5783c3c560c73f726a57901fba3dc962253b55f72dd4",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ByteBufferSerDe.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CommaWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8b9852683e8536eba0ba254d.java",
+      "kind": "upstream-example-code",
+      "bytes": 1171,
+      "sha256": "51802ab799da18eb5c9a94cbca3c60a2911cf7b62739afbe069e2eed3bef664b",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CommaWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ConfigBasedAppendFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/5a9eb2522a9d5519ee3f97e8.java",
+      "kind": "upstream-example-code",
+      "bytes": 1423,
+      "sha256": "88bf1c2ab69a45db016ee1e4c95d10ce223510fb1866dbcd963abeb352d9ee2b",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ConfigBasedAppendFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ConsistentlyFailingFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/bb94a1d507ec7fbc73f4978c.java",
+      "kind": "upstream-example-code",
+      "bytes": 1361,
+      "sha256": "3f8d0ea5f32a34cc972b623985f87ab28d9e190d362a687f351aa7b7cd884369",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ConsistentlyFailingFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ContextFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/cde6de9f49358e9eec195055.java",
+      "kind": "upstream-example-code",
+      "bytes": 1719,
+      "sha256": "19760a30829e9a9bb1a43964d83715d4f1adb4d8d4484048a68c62df81c84fc6",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ContextFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CursorManagementFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/de442358dcd8eaf2c70bd6b2.java",
+      "kind": "upstream-example-code",
+      "bytes": 2077,
+      "sha256": "f581e24f33eb63a80eabdbcc5fcce30ad76c6eb294ac726a627e68a7f3817bd5",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CursorManagementFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseObject.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/04da4d1dd0f911f9ecaf5dae.java",
+      "kind": "upstream-example-code",
+      "bytes": 1090,
+      "sha256": "0313fff8e7766c2411bd99849582863e8c1efeb69a52392bae875d64eb45863b",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseObject.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseSerde.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/531da4689394d03e3710afd8.java",
+      "kind": "upstream-example-code",
+      "bytes": 1467,
+      "sha256": "348dc9c32c3f67ee91bb68fce9e6feb52b654cd2865bf9528f35d380d87895ae",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseSerde.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseToBaseFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b966a6285f8e8141e0b40760.java",
+      "kind": "upstream-example-code",
+      "bytes": 1288,
+      "sha256": "e941a4830bd73e710c5025c0c155a43d898ea0418e358a1373ae5b8bfbb874d3",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseToBaseFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseToDerivedFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/a3a4e946159d8a8f648f73b3.java",
+      "kind": "upstream-example-code",
+      "bytes": 1375,
+      "sha256": "f24d6b14cc09df0b65f2603550407d798ba9730809fda6889d967cd3a8f7c975",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomBaseToDerivedFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedObject.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/19c2461881b2d18d356eb06e.java",
+      "kind": "upstream-example-code",
+      "bytes": 1261,
+      "sha256": "2f5a9c256e14a730a1ab5dcb10463dab0f17165fb7f4140af9e641e88fd5b964",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedObject.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedSerde.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/ad43b4871057f589038b13ef.java",
+      "kind": "upstream-example-code",
+      "bytes": 1527,
+      "sha256": "42c414e073a3165b00eaf71eea5c2663771298281d5f4fbcb99d250a5b16a26d",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedSerde.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedToBaseFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/83f41c56b5269c666f7bce8c.java",
+      "kind": "upstream-example-code",
+      "bytes": 1307,
+      "sha256": "ca2b16d3d962f1bab49389d908a159ae5d297c2bf4b78bc3674f1a79b9205667",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedToBaseFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedToDerivedFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9cc9013bd3cdb334d4cd0c63.java",
+      "kind": "upstream-example-code",
+      "bytes": 1362,
+      "sha256": "0e85b38151ad8b620ce15fced6dc9bc94e4b9950fe8c4d949faaf1e5e0f068a9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomDerivedToDerivedFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomObjectFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/ef14c0f68770b7545775597f.java",
+      "kind": "upstream-example-code",
+      "bytes": 1312,
+      "sha256": "1933eda7f1bec53488544688bf825496ced11fc0d250f8d2775356ac460c044e",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/CustomObjectFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ExclamationFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9e04b21bfe180d38456d0811.java",
+      "kind": "upstream-example-code",
+      "bytes": 1253,
+      "sha256": "42819168571a17dc648c42c59e9339d8fb4cb0080405195ceeb8328058458ad4",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/ExclamationFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/HostAppenderFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/781cdcf86f5ffe81d260dbd9.java",
+      "kind": "upstream-example-code",
+      "bytes": 1411,
+      "sha256": "de71b25304ed7a1eb800d0377f6ff46e098639c491b8bfcce128db24dfbf1816",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/HostAppenderFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/InitializableFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9d2082ccb10cae2cfbe5bf24.java",
+      "kind": "upstream-example-code",
+      "bytes": 1623,
+      "sha256": "f0e84055dc73b60e06d149178dd31ff329604ce6d607635f8894b153f9c0609c",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/InitializableFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/InstanceIdAppenderFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/0d6cb19b41262bd3fa0e5b18.java",
+      "kind": "upstream-example-code",
+      "bytes": 1239,
+      "sha256": "b8f4141ad2345884dbd9c35036c1f89d5aa16d06da9d4978c17f74f0e545d598",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/InstanceIdAppenderFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/IntegerAdditionFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/be42f2537cd5a09b6bf81a53.java",
+      "kind": "upstream-example-code",
+      "bytes": 1233,
+      "sha256": "3f08b8d05075036b88113741abbf80909f36980d6125998d6dee44788ef847df",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/IntegerAdditionFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/JavaNativeAsyncExclamationFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/0c6cf69f241939720b2a4d90.java",
+      "kind": "upstream-example-code",
+      "bytes": 1546,
+      "sha256": "f33b57055574e917c6ddf309a10272f2a5e3f8a4e4a226665263d57eee5c26b0",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/JavaNativeAsyncExclamationFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/JavaNativeExclamationFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c1bfe34ed0408549623d1ee9.java",
+      "kind": "upstream-example-code",
+      "bytes": 1083,
+      "sha256": "3086c6c985bdd2baa890737cb3d602cd1b0b066f15271be5daf3854051001f63",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/JavaNativeExclamationFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/LoggingFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/48faa44a15a002cba0ca26e6.java",
+      "kind": "upstream-example-code",
+      "bytes": 1464,
+      "sha256": "94c878ce369687aac4a6b1457c9bbeb951db6ed50d51293158788346ff25e52f",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/LoggingFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/MergeTopicFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/1539ab63274dad067f3687ef.java",
+      "kind": "upstream-example-code",
+      "bytes": 3044,
+      "sha256": "a4cdcc7de4588a086bd216c7de05ecfdb4637df7c6ecda895dcd6df47ecef5fa",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/MergeTopicFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/PublishFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8bb4a575d02568592aa03c94.java",
+      "kind": "upstream-example-code",
+      "bytes": 1734,
+      "sha256": "42e3777089779459a8c8e45eafa3aeee12d28d456ee38f3cda7a170852b56378",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/PublishFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/RawFileKeyReader.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/84a7804fdb35add939cb727f.java",
+      "kind": "upstream-example-code",
+      "bytes": 2688,
+      "sha256": "30031763566ca78b0fea50ee722dd71285c9467b0f424715fa1e18ad95a9d86e",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/RawFileKeyReader.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/RecordFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/824ab27bfbb378c51a06cb1c.java",
+      "kind": "upstream-example-code",
+      "bytes": 1855,
+      "sha256": "6f722a2d3e4902d52913647fd3e1f849736537a41990b674b095da4474850db0",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/RecordFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/TestPayloadProcessor.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/bfd2c65db6f50e33d8d0c589.java",
+      "kind": "upstream-example-code",
+      "bytes": 2402,
+      "sha256": "65d729666347ef5a6333e8f574b5eb9cf22f84d87428f15910af20b04685fa9c",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/TestPayloadProcessor.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/TypedMessageBuilderPublish.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/afb281aff896ebf2989b75eb.java",
+      "kind": "upstream-example-code",
+      "bytes": 2449,
+      "sha256": "be20cb873785a61449bf7e5439e06f6bcc0dd04c430ea2646bd6f321c3cd212e",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/TypedMessageBuilderPublish.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserConfigFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/70ebfd08e4ed04e3208d3790.java",
+      "kind": "upstream-example-code",
+      "bytes": 1279,
+      "sha256": "5ebfbd4299118ec3d2ff42f2ce0368657380162c6aebbd5335703bca8e6e4724",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserConfigFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserExceptionFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8ea1e652693cb5a7e2eea445.java",
+      "kind": "upstream-example-code",
+      "bytes": 1249,
+      "sha256": "86107ec3619579ae26023b790dfb92423940b364d3c66c15364f48f335bdb087",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserExceptionFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserMetricFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/779dcdba852ef9c94ee6ac39.java",
+      "kind": "upstream-example-code",
+      "bytes": 1280,
+      "sha256": "b75c9df815faa6995bb6fec853db06d16708609cbcf5daebe348780fe716864a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserMetricFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserPublishFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/fa470ce3485b89f10c8942c9.java",
+      "kind": "upstream-example-code",
+      "bytes": 1684,
+      "sha256": "263b9e79865066f4908173e00bf665bf64285059bdb237f360675be17434778b",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/UserPublishFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/VoidFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c7d87f6e30c1d2aeefaa7d7e.java",
+      "kind": "upstream-example-code",
+      "bytes": 1179,
+      "sha256": "e42456afd5f9c385db076475fb1ea371ea46816aef7310c34f0ae0fff7c72ab2",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/VoidFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/WindowDurationFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/baa40a181dc64091e8c63e88.java",
+      "kind": "upstream-example-code",
+      "bytes": 1271,
+      "sha256": "bab43499bfb890d1c28b302e5fd3a47a59d554bbdef959cd91c8d1eb8ac18eb7",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/WindowDurationFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/WordCountFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8a933848c06d3723b9984d0d.java",
+      "kind": "upstream-example-code",
+      "bytes": 1502,
+      "sha256": "2f3aeb377f87a1cf926c1108ab9ff97fab7c56729944fe51f862dff975b53f7f",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/WordCountFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/package-info.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/f13bec82879f380208c0aa4b.java",
+      "kind": "upstream-example-code",
+      "bytes": 858,
+      "sha256": "41808b723265b423dc40f824d71b9fca56f33bbfd6b23ba4b700f5ea4c38f116",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/package-info.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/AvroTestObject.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/eab0ae69b390ffcf3dff1b37.java",
+      "kind": "upstream-example-code",
+      "bytes": 1018,
+      "sha256": "78a1db2fe97718a412fc10b3bf016ea20991a67ba574ea7e6ad6fcccf3486b11",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/AvroTestObject.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/Tick.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/13207d9998f7cbdfa612d11e.java",
+      "kind": "upstream-example-code",
+      "bytes": 1297,
+      "sha256": "8c57341e22bd9cc83c436bc994cb7ce25e9c640bed34a0e15a0e2b91b008a097",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/Tick.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/Users.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/ad750883e6229002ebbc9bb2.java",
+      "kind": "upstream-example-code",
+      "bytes": 1363,
+      "sha256": "bb9ba63509855da8cde4217e66c7d518996fb3c4b3ec24bc10ee8342307082b3",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/Users.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/package-info.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c2ba00edb7cadf32ca16da58.java",
+      "kind": "upstream-example-code",
+      "bytes": 863,
+      "sha256": "cafcb8c63e4deb620a58bd7569a4effd0f4f26af46dfa5b4fc687ea2b676ed74",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/pojo/package-info.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/serde/CustomObject.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/ce2550cfca8483b63467d09c.java",
+      "kind": "upstream-example-code",
+      "bytes": 1139,
+      "sha256": "2078946516aae4e3b72bdf898016c94a5abe00fa4a891195a5dba021435495ec",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/serde/CustomObject.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/serde/CustomObjectSerde.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/89e6ce709146249498afd134.java",
+      "kind": "upstream-example-code",
+      "bytes": 1455,
+      "sha256": "9bec1338de0e2c0e980621b710628ae6d6794f8417f8612ba9903cfefed3cd94",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/serde/CustomObjectSerde.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/serde/package-info.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/57c82bd308dada857de06fdd.java",
+      "kind": "upstream-example-code",
+      "bytes": 864,
+      "sha256": "32deb8ad7fd8dc835e403db17515ceb057b006978bfbb8af17974c66dc66203a",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/serde/package-info.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/ContextWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/42de81cae99722c1eac8df0b.java",
+      "kind": "upstream-example-code",
+      "bytes": 1532,
+      "sha256": "ad87a3a866e47b1c1f480e6c30edabf162575cd0f3341a9a338562ff826f5b78",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/ContextWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/LoggingWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b1fc92739d5c7704336c8ee8.java",
+      "kind": "upstream-example-code",
+      "bytes": 1707,
+      "sha256": "cedc69f04d14e3123d41554cfd57623347559c74ce549b62b991e8ddf9fdc847",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/LoggingWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/PublishWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/300ea59530e5ded686c2620c.java",
+      "kind": "upstream-example-code",
+      "bytes": 1615,
+      "sha256": "e0d6dbf33efab79ace81af2810b103d0eac66b52aa0ea5f333ebcb24fc1bdd55",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/PublishWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/UserConfigWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/05b537f3d39cbca20686e7e6.java",
+      "kind": "upstream-example-code",
+      "bytes": 1427,
+      "sha256": "e01bf4b2d4a6805995706ff3adb7716ae3dc667a4665366bb72ef58b55e178a9",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/UserConfigWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/UserExceptionWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/046af0178044dae2ae551b52.java",
+      "kind": "upstream-example-code",
+      "bytes": 1399,
+      "sha256": "987a7e99f4bb76cfb0667f4ec56489108678715a7d9443c28586a824ae625b7e",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/UserExceptionWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/UserMetricWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/8036ab7df6789808490772a7.java",
+      "kind": "upstream-example-code",
+      "bytes": 1600,
+      "sha256": "8d232d60763bd09e6a1fa5973dddcaf65434d393e8a631b42476f77618d5ebf2",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/UserMetricWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/WordCountWindowFunction.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/674ea90078ae1ff7013bfadd.java",
+      "kind": "upstream-example-code",
+      "bytes": 1724,
+      "sha256": "c2adefafe4779d8a72d5a3677d39253ac2e2c1f61028a0204416dbf734ce2244",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/WordCountWindowFunction.java"
+    },
+    {
+      "path": "pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/package-info.java",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/62705e56dfc5c93fa265d75c.java",
+      "kind": "upstream-example-code",
+      "bytes": 865,
+      "sha256": "efe8ee7da284705368b580311fda8ab41ec583240fc67290bd20ce67b7339933",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/java-examples/src/main/java/org/apache/pulsar/functions/api/examples/window/package-info.java"
+    },
+    {
+      "path": "pulsar-functions/scripts/python/README.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/1d31c11b2e4971b5fdbeb415.txt",
+      "kind": "official-document",
+      "bytes": 54,
+      "sha256": "657f2e628a7089f7fe85e882de3e1a3ec1df59e42fd45add6013e99dd6cdc9ef",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/pulsar-functions/scripts/python/README.txt"
+    },
+    {
+      "path": "src/license-header.txt",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/6ec1cd567c540c418432232f.txt",
+      "kind": "license",
+      "bytes": 755,
+      "sha256": "f2f3780765d50cb74f35c8538fa1e8c062952e3ebd68ea98aa225cbccb4382f3",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/src/license-header.txt"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 8044,
+      "sha256": "4806b8e8243a5c8af4236f0f1a6b3ca1cefe705efc7b3f24aa257662f4cc55f3",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/README.md"
+    },
+    {
+      "path": "tests/certificate-authority/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/64fa99e692b36e2e96917cae.md",
+      "kind": "official-document",
+      "bytes": 3117,
+      "sha256": "3112ee315b6a2ab57f2a760ba3ce28dd2ac87ccfeec8fa579cab07efc3842610",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/certificate-authority/README.md"
+    },
+    {
+      "path": "tests/compose/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/c77ad34e154df9e001e34124.md",
+      "kind": "official-document",
+      "bytes": 1159,
+      "sha256": "1223bb38cb74a5e2f705bb059f65044b4fd3f4c1e82f8b6a990e793b67c6bb4d",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/compose/README.md"
+    },
+    {
+      "path": "tests/performance/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/cf5d29e1a795746315acacd5.md",
+      "kind": "official-document",
+      "bytes": 31723,
+      "sha256": "00af4e10ac772759910e8cde2562483f1d0458f5ce4442a05093a206052bec88",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/README.md"
+    },
+    {
+      "path": "tests/performance/docs/analyzing-profiles.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/74e5af4b7c85a5f5a1bcadee.md",
+      "kind": "official-document",
+      "bytes": 26334,
+      "sha256": "78ba9fcdcd31ba55a854c3c5b524b07f5f49e3ac3e99b4d32ea096636ea01153",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/analyzing-profiles.md"
+    },
+    {
+      "path": "tests/performance/docs/comparing-revisions.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/20d312a97f2b9e8f644d8b01.md",
+      "kind": "official-document",
+      "bytes": 7820,
+      "sha256": "75dfe5a80d5f052bc5b5fae7e165ce579e81b9e94fd1140e577ca8d55059ca8b",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/comparing-revisions.md"
+    },
+    {
+      "path": "tests/performance/docs/heap-dumps.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/095e9a0f2bc87968aae34c06.md",
+      "kind": "official-document",
+      "bytes": 6313,
+      "sha256": "cb7a5b2893f3d21cd5eb6c6afb5ab2f8bd8de652ec740659213cd7b2be09466f",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/heap-dumps.md"
+    },
+    {
+      "path": "tests/performance/docs/legacy-testng-runner/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/13c71cf57f059405e6858c0f.md",
+      "kind": "official-document",
+      "bytes": 9020,
+      "sha256": "1c996ef2bd0d3e7977de6375bdb2d4e0e446114353cb82595435b5a73c7c5194",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/legacy-testng-runner/README.md"
+    },
+    {
+      "path": "tests/performance/docs/legacy-testng-runner/read-completion-isolation.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9fdc73d9491272e40d56ea0b.md",
+      "kind": "official-document",
+      "bytes": 6943,
+      "sha256": "e55defaa5649d653009496b94d1185ba1c37befc1bddc42f837c503307efe492",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/legacy-testng-runner/read-completion-isolation.md"
+    },
+    {
+      "path": "tests/performance/docs/metrics.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/b2e503fdb7c7a7fb82941440.md",
+      "kind": "official-document",
+      "bytes": 14146,
+      "sha256": "2b9d4011acedf2998b09d5079e3ea5a027118a046ce8d365a6b2d250bd274a8c",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/metrics.md"
+    },
+    {
+      "path": "tests/performance/docs/profiling.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/7e145893e120799b2783b9d3.md",
+      "kind": "official-document",
+      "bytes": 22711,
+      "sha256": "9e3ff8c0e98df376b6328d38c7358eff24652474d72fa83ecac859f60b87fd57",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/profiling.md"
+    },
+    {
+      "path": "tests/performance/docs/run-reports.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/06529b6b04ff4c9815862f3e.md",
+      "kind": "official-document",
+      "bytes": 25608,
+      "sha256": "cac2efd22b99143295ab1b0150ce13ee454ef75e12f828b0e60a0cbd427413df",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/run-reports.md"
+    },
+    {
+      "path": "tests/performance/docs/running-scenarios.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/6df39a51e561e660fd66dbc6.md",
+      "kind": "official-document",
+      "bytes": 16696,
+      "sha256": "3f973a8f49ade00bbf09e24d31e19df8805d07191a57c893810bdb5491b7b93b",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/docs/running-scenarios.md"
+    },
+    {
+      "path": "tests/performance/environment/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/310e3bbd1f89d157b0ad13db.md",
+      "kind": "official-document",
+      "bytes": 10059,
+      "sha256": "ec0d2467f233d81365c28edb07445c02ede2e3baad7898a636bcea4004811fed",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/environment/README.md"
+    },
+    {
+      "path": "tests/performance/scenarios/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/9c31afec670663c0e84a30ce.md",
+      "kind": "official-document",
+      "bytes": 9187,
+      "sha256": "9e5e08a8f2e976b18cf4ca0e4138190f71085451663c54dd51ba25640ec7f5ff",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/scenarios/README.md"
+    },
+    {
+      "path": "tests/performance/scenarios/docs/iot-telemetry.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/67d2f8749c32ee93c1c25999.md",
+      "kind": "official-document",
+      "bytes": 17728,
+      "sha256": "1f085ccd8a35617576f910621b4f5c325d1005572e6dfa91a1bd21566e85d6a1",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/scenarios/docs/iot-telemetry.md"
+    },
+    {
+      "path": "tests/performance/scenarios/docs/scenario-format.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/d9aa48a87893da40eec7b512.md",
+      "kind": "official-document",
+      "bytes": 9520,
+      "sha256": "9e39e077c21f85cf3da40483afd9a38248f1506b3d314a4b6d17e3263bd52e3c",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/tests/performance/scenarios/docs/scenario-format.md"
+    },
+    {
+      "path": "wireshark/README.md",
+      "localPath": "raw/apache--pulsar/f175a6c1804a/aa7130503f9cebb33b8dce6b.md",
+      "kind": "official-document",
+      "bytes": 1924,
+      "sha256": "0a653005d81aaa0c4a19b1ddbb40e9ae6b0cec64a98f170953c6d30fe1dc32cf",
+      "sourceUrl": "https://github.com/apache/pulsar/blob/f175a6c1804ac87dba1bee35638eabd07778c453/wireshark/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

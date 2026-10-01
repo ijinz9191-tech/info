@@ -1,0 +1,2585 @@
+{
+  "schemaVersion": 1,
+  "repo": "fortran-lang/webpage",
+  "commit": "030a027e7e64216b2fdaeb182bc8763fc74847a5",
+  "retrievedAt": "2026-10-01T15:19:14.362119+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/fortran"
+  ],
+  "archiveUrl": "https://codeload.github.com/fortran-lang/webpage/zip/030a027e7e64216b2fdaeb182bc8763fc74847a5",
+  "archiveSha256": "70fa3486590f33d9aca78b3616b82b0f28d3745eb4d6b6d4e2c970c88d8cf66b",
+  "archiveBytes": 4630367,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 319,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 1428060
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1078,
+      "sha256": "dccb6976fcad5667effe6b3f7eb72e38145d90e407082fc8b7ee2bc9287358c5",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 4738,
+      "sha256": "a60df1bd2018c461b2be368e34cbcea796422ad4416b1e3ed46d72a50a90f2b3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/README.md"
+    },
+    {
+      "path": "source/_templates/category_pages.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7af764b33fd7a27855383af9.md",
+      "kind": "official-document",
+      "bytes": 275,
+      "sha256": "f577b0da0af3dce1ca9778c0a95b825e2353324c95d49db195c1a1e978d42b9e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/_templates/category_pages.md"
+    },
+    {
+      "path": "source/_templates/package.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d4d0835dc3fd846660419b7d.md",
+      "kind": "official-document",
+      "bytes": 214,
+      "sha256": "6329ca3b8c33278e6b5fcf6ba9fad340c78f0cd3b59c67acfcc6203bde8609d4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/_templates/package.md"
+    },
+    {
+      "path": "source/community.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6e108eebefe3bc541b85f038.md",
+      "kind": "official-document",
+      "bytes": 7945,
+      "sha256": "9af5c4e238a659428d80400c07b7cea79c3780193c1bf3c5cc91200a2b776316",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/community.md"
+    },
+    {
+      "path": "source/community/contributing.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b1d4a8719ca173a7133e5afd.md",
+      "kind": "official-document",
+      "bytes": 11693,
+      "sha256": "9bc6635b0cc70175e41dd44ba8359577609243925beb65ab29f8a9298cbe4895",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/community/contributing.md"
+    },
+    {
+      "path": "source/community/governance.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5bac17473da8689b9b62a7fa.md",
+      "kind": "official-document",
+      "bytes": 3816,
+      "sha256": "1704c5db2a3a5c093bbd4c651ecdb92ace99cdcc781cc111d097a08189f89541",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/community/governance.md"
+    },
+    {
+      "path": "source/community/history.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/148a476092a9f68d8cba88af.md",
+      "kind": "official-document",
+      "bytes": 4779,
+      "sha256": "0724ae92f581d3db5e6a950811d790f29ab612585000ee07fe692804e9836fe7",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/community/history.md"
+    },
+    {
+      "path": "source/community/minibooks.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/df4a04ee37790a1d5fd91963.md",
+      "kind": "official-document",
+      "bytes": 9299,
+      "sha256": "cfcb91ecf0df074031bcff8ad0d854e4eef2c94ad45a4c49558f2bd74877b301",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/community/minibooks.md"
+    },
+    {
+      "path": "source/community/packages.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/debefd5bfbeb944a44429c21.md",
+      "kind": "official-document",
+      "bytes": 6218,
+      "sha256": "9500050dda885275846e7837bbd9515eecfeb6b95af73aa9236ac5fd47f7cdbe",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/community/packages.md"
+    },
+    {
+      "path": "source/compilers.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1cd986c42d890340554d569c.md",
+      "kind": "official-document",
+      "bytes": 9397,
+      "sha256": "d1723f8b7b1fb02368401b71be1ac95aaeb3253b249c22bef6c6be99c0b0fd4f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/compilers.md"
+    },
+    {
+      "path": "source/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/179fdb97635e27b1c3e57842.md",
+      "kind": "official-document",
+      "bytes": 5732,
+      "sha256": "7fc351120e078a6a7744cdc3931882dcf381a220f5373239c68f9c139d374c36",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/index.md"
+    },
+    {
+      "path": "source/learn.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2d3cacaae01e7b6aaa19773c.md",
+      "kind": "official-document",
+      "bytes": 4281,
+      "sha256": "ee39a6721ffdbcdaff1fecf87f19adda2fdf70d09b47fbb47742c24565c31bb3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn.md"
+    },
+    {
+      "path": "source/learn/Floating_Point_Numbers_comparison.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/8ae11453e2df5e6ba37e6790.md",
+      "kind": "official-document",
+      "bytes": 2115,
+      "sha256": "015a6b8a1fd8f8970e351479e764402c0485dd2f88a8321fab630c4be41dad48",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/Floating_Point_Numbers_comparison.md"
+    },
+    {
+      "path": "source/learn/best_practices/allocatable_arrays.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3e4e21612060e5307725f29d.md",
+      "kind": "official-document",
+      "bytes": 3433,
+      "sha256": "f86469cc72672a774ebc6c1ac51c49f8779e6909be20c0cd451514c66dc20d48",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/allocatable_arrays.md"
+    },
+    {
+      "path": "source/learn/best_practices/arrays.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/63a34fd591d33913797483ea.md",
+      "kind": "official-document",
+      "bytes": 4988,
+      "sha256": "deee84c529ac2bd4ccc5e0c4e6cec730405f6bf0ce4a58552049dd3bf976d1f9",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/arrays.md"
+    },
+    {
+      "path": "source/learn/best_practices/callbacks.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d0b0411fc4c7c661d6d45a45.md",
+      "kind": "official-document",
+      "bytes": 1986,
+      "sha256": "43e5994d620c2cb9bd244c939247b61b025029eeee2df69e2bfc64475e0f928a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/callbacks.md"
+    },
+    {
+      "path": "source/learn/best_practices/element_operations.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dacf5979564ffe0d2cfd6627.md",
+      "kind": "official-document",
+      "bytes": 3871,
+      "sha256": "8510e23ec1e104df114869f7333ba2a93a5d7ccfdd2a71aea8b18dedfb9849f2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/element_operations.md"
+    },
+    {
+      "path": "source/learn/best_practices/file_io.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b241b76724e463be525feea6.md",
+      "kind": "official-document",
+      "bytes": 2777,
+      "sha256": "4d98b694cf195038bb4d1607a80bda63e0a30c14317c8739c531a3572282cb08",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/file_io.md"
+    },
+    {
+      "path": "source/learn/best_practices/floating_point.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dd0ed54ed92aad5ffe3c2cdf.md",
+      "kind": "official-document",
+      "bytes": 2997,
+      "sha256": "a01f8e54d2f304b67e417df0fa4583a6fe8a28102b2e753dc794a5a34feac7c6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/floating_point.md"
+    },
+    {
+      "path": "source/learn/best_practices/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1fd51f0d5f892585bff87b69.md",
+      "kind": "official-document",
+      "bytes": 1011,
+      "sha256": "9c0d9c482ee1c5e74a1dc190c3ee77d73827518cdd27ef1d5d14337b722f7374",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/index.md"
+    },
+    {
+      "path": "source/learn/best_practices/integer_division.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/79da03063c72eee9d185bf97.md",
+      "kind": "official-document",
+      "bytes": 1129,
+      "sha256": "1bd5f3018b82e3362d4e821b0f5e88e2a48d03fd2220800da998c4a159406438",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/integer_division.md"
+    },
+    {
+      "path": "source/learn/best_practices/modules_programs.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/91a607236407d71edaf8f742.md",
+      "kind": "official-document",
+      "bytes": 5000,
+      "sha256": "d2ad8459b230508516dc1618cc8b399d818075c0e1d51c1100d3c95f80320321",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/modules_programs.md"
+    },
+    {
+      "path": "source/learn/best_practices/multidim_arrays.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e7e6c856a40ac2e28a90fbe2.md",
+      "kind": "official-document",
+      "bytes": 2214,
+      "sha256": "feee1667b1d3b7b3ff5ac16c198fb4dceac388e5c081bcea07bc4a67d8a419cf",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/multidim_arrays.md"
+    },
+    {
+      "path": "source/learn/best_practices/style_guide.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9adcae2ef1cd98119b228e3c.md",
+      "kind": "official-document",
+      "bytes": 2517,
+      "sha256": "4eb86d1f49904bf25af886fdbdbc61d536a6a75f0a766102c408fd437b38fb9a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/style_guide.md"
+    },
+    {
+      "path": "source/learn/best_practices/type_casting.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/407a3b8950fb6f38888f59e7.md",
+      "kind": "official-document",
+      "bytes": 10851,
+      "sha256": "decd530e1cdf284f45493ba7dc32d8a5d5c9dfff7396f096ba3fcc38443aba99",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/best_practices/type_casting.md"
+    },
+    {
+      "path": "source/learn/building_programs/build_tools.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9ac0c879553f1dfc478590fb.md",
+      "kind": "official-document",
+      "bytes": 27104,
+      "sha256": "7813c603d4f7217bdbb6c8a60afda7690b2c9085396a79faaac142f36baa37f6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/build_tools.md"
+    },
+    {
+      "path": "source/learn/building_programs/compiling_source.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/eff86a6f2a453f09d7b6891b.md",
+      "kind": "official-document",
+      "bytes": 3887,
+      "sha256": "e4a5e7beb9a5b60c4a0b48e08668a6359451b94c41cef08b5deb18e32b6c435d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/compiling_source.md"
+    },
+    {
+      "path": "source/learn/building_programs/distributing.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5bcad54dc1777200b8e3e1ce.md",
+      "kind": "official-document",
+      "bytes": 4022,
+      "sha256": "3f3a2b5c693060353eca329d367fc16e28329024133e6e7923694b343c8f49cb",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/distributing.md"
+    },
+    {
+      "path": "source/learn/building_programs/include_files.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0afb6e7098b72fb14e8cb4f4.md",
+      "kind": "official-document",
+      "bytes": 3055,
+      "sha256": "3b4bcd61d0886bcd25e931782e2215568cdd799ecd2a6ac710f1da642de3ae01",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/include_files.md"
+    },
+    {
+      "path": "source/learn/building_programs/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ccf8db00c9fd27864e82a018.md",
+      "kind": "official-document",
+      "bytes": 2284,
+      "sha256": "f81e08481fd8c938197e317484d55ec44aa0ad1645caf7365c2fe668ce31dc4d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/index.md"
+    },
+    {
+      "path": "source/learn/building_programs/linking_pieces.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1834a6d4f642c18b699ec081.md",
+      "kind": "official-document",
+      "bytes": 3378,
+      "sha256": "b698da762d38296d005a4effc3bf601c61f5241093d42ff0b9046bf2b64ff2ea",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/linking_pieces.md"
+    },
+    {
+      "path": "source/learn/building_programs/managing_libraries.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/65491a39fbf03b4dc5854c14.md",
+      "kind": "official-document",
+      "bytes": 7626,
+      "sha256": "49ef7f236a2f8164f6a48d8058cb1d7105a1846abd083602dbc3967ee2962055",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/managing_libraries.md"
+    },
+    {
+      "path": "source/learn/building_programs/project_make.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2242dca84368c333a1ff21ad.md",
+      "kind": "official-document",
+      "bytes": 19160,
+      "sha256": "c19956e4f49b4429d1be6548bbfe0a68aa34a6abd9b8256c932483fb35f7dddb",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/project_make.md"
+    },
+    {
+      "path": "source/learn/building_programs/runtime_libraries.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/75633db3fc8c5c398259437d.md",
+      "kind": "official-document",
+      "bytes": 2815,
+      "sha256": "5fdbbc488ed986f3ae04df7a4223d5cbfea8c8b6be75a74b106ab01f7b13a1e1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/building_programs/runtime_libraries.md"
+    },
+    {
+      "path": "source/learn/f95_features/array_handling.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f594153c1e399376a18de4e5.md",
+      "kind": "official-document",
+      "bytes": 10839,
+      "sha256": "e5287a163c97450a64bc05cf29cc49ddb4777a5cd5e6453fc847abf3591af934",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/array_handling.md"
+    },
+    {
+      "path": "source/learn/f95_features/bibliography.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/21844b1e0a01e564c6179468.md",
+      "kind": "official-document",
+      "bytes": 1145,
+      "sha256": "13569be24ce0c90fbdc90ba4cff74271e252d5d5141fb819c672cae145fa9228",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/bibliography.md"
+    },
+    {
+      "path": "source/learn/f95_features/control_statements.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a90c8682764b69133a3b03c5.md",
+      "kind": "official-document",
+      "bytes": 1764,
+      "sha256": "7c6a3ea5141772f1ecca22e628f5565755af0e1e4e72425c30a9a45dd0493f12",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/control_statements.md"
+    },
+    {
+      "path": "source/learn/f95_features/data_transfer.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1badb87444276694d917e397.md",
+      "kind": "official-document",
+      "bytes": 7855,
+      "sha256": "3e23dd1e41035c6fb82c94c90caba110c64bb35e0be5d8564c8bcf2bbdc02083",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/data_transfer.md"
+    },
+    {
+      "path": "source/learn/f95_features/expressions_and_assignments.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b015aa00d5a2cea075e5f152.md",
+      "kind": "official-document",
+      "bytes": 7761,
+      "sha256": "22002ea64328828ed609f18015fd240231e9f84c1b6441739c94cbe7fc6001c8",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/expressions_and_assignments.md"
+    },
+    {
+      "path": "source/learn/f95_features/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/34ba76da1120a3ebd1a70834.md",
+      "kind": "official-document",
+      "bytes": 3106,
+      "sha256": "7a3b3a3ab78585e50a0dfbecc773c20866be9b0c7b077323ec9989cb9c020abf",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/index.md"
+    },
+    {
+      "path": "source/learn/f95_features/intrinsic_procedures.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dd0b366b871ad25671be29da.md",
+      "kind": "official-document",
+      "bytes": 1438,
+      "sha256": "3238cec8b5778be415914c365980376f820137b19572b944c8a6494037bc2d14",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/intrinsic_procedures.md"
+    },
+    {
+      "path": "source/learn/f95_features/language_elements.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/290868326a536fc807aa8cf0.md",
+      "kind": "official-document",
+      "bytes": 14323,
+      "sha256": "6be473e44dd3879cc873650d1115cdcd9a2a23021c4e658ff510450acfc79b87",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/language_elements.md"
+    },
+    {
+      "path": "source/learn/f95_features/operations_on_external_files.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a6ee0b76393b3e16e020c978.md",
+      "kind": "official-document",
+      "bytes": 1980,
+      "sha256": "a0afe44554f68c37c679f033f4f7ed87b769f384f0a006b120eef6cd358097d1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/operations_on_external_files.md"
+    },
+    {
+      "path": "source/learn/f95_features/pointers.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2d7ced73b669137d0a6836ac.md",
+      "kind": "official-document",
+      "bytes": 7790,
+      "sha256": "2a8bd51b404728369d0a1a9f42c68bf741ddf4003d3ab36700ea457ace8bf7d1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/pointers.md"
+    },
+    {
+      "path": "source/learn/f95_features/program_units_and_procedures.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/da176c5fe55bb0a8d74f7dd3.md",
+      "kind": "official-document",
+      "bytes": 9116,
+      "sha256": "61ccb888de28934dbc4b76ca6fe91f1dc5774f31786e97bc816741d66fa8d0d4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/f95_features/program_units_and_procedures.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ABS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/06c29cec25598785dd98b365.md",
+      "kind": "official-document",
+      "bytes": 4640,
+      "sha256": "91ef53415afafa122c6b2106cbcdd5d2c27fc296a88a02d24ece6d80b06a3bf2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ABS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ACHAR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f71ee2d729dc424e98d90eb8.md",
+      "kind": "official-document",
+      "bytes": 5510,
+      "sha256": "19300cd2d37dbb67daee50641c452b71f8c8573ea0cb69e898aabe9ccc13754f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ACHAR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ACOS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3d27f34fb9ac7fe246c9eacb.md",
+      "kind": "official-document",
+      "bytes": 2495,
+      "sha256": "3b961dcb6eede079ede9685c4454862a332bb2f2eb444f7c46d10d3e43e0b670",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ACOS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ACOSH.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a05f400b0f63a9c8f93a00ee.md",
+      "kind": "official-document",
+      "bytes": 1512,
+      "sha256": "0ab8ae7458d31da8b67f4a046edb69a2e404d705f62e30109882b35eb46d9fb5",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ACOSH.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ADJUSTL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dfcb0d5c150afd2ab1aea5ab.md",
+      "kind": "official-document",
+      "bytes": 2211,
+      "sha256": "c4d2e815f8fe7b3f8ddf2c5dd369a7dc564a41fe9be6f37bfadebf70cf051395",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ADJUSTL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ADJUSTR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f23a0f85b5440ec864fe2466.md",
+      "kind": "official-document",
+      "bytes": 1898,
+      "sha256": "851c7e4288893e339c5e40cd2ebe19295bf43e3e8413bc1a965994c197d88f81",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ADJUSTR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/AIMAG.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/62c4405af7b649ae48381ca6.md",
+      "kind": "official-document",
+      "bytes": 3380,
+      "sha256": "77a48f7a25c391f8ab5b5b00969b963be163ae3a45ca85b035a0e8dbb3b77edb",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/AIMAG.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/AINT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/14d35084f40b3c194c0f0ceb.md",
+      "kind": "official-document",
+      "bytes": 2518,
+      "sha256": "f78363725b66122dcbc2d132b43698d8923e43f17021c69ec5da1b02d3110b59",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/AINT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ALL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/26fd7d829093e5dae2798260.md",
+      "kind": "official-document",
+      "bytes": 2927,
+      "sha256": "92c3164461590c5e19e961451dadfa650b186e6f36c670c80e1f1bd6e526eee4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ALL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ALLOCATED.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/54b5566cd9b3d258e62208dd.md",
+      "kind": "official-document",
+      "bytes": 2360,
+      "sha256": "0843bbc5e5cf1432fd61dac0ba15d8063e475cf8a05177de18ba630ffc727e1a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ALLOCATED.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ANINT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/71b576a790551b3bd1a35353.md",
+      "kind": "official-document",
+      "bytes": 3732,
+      "sha256": "12903b307878ea71f0fe9b97854f182d35b15e1a1e3ac8cd5f23a8adb735328c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ANINT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ANY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/25609a93777dcc2251670b2b.md",
+      "kind": "official-document",
+      "bytes": 4375,
+      "sha256": "8444f30782823c0f993fd5792d65556bbb24791ed64a607488a6e193681f4c8c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ANY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ASIN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0e84c042715b669822c3eb9f.md",
+      "kind": "official-document",
+      "bytes": 3535,
+      "sha256": "8b85d188b37e0be7863f76e6cbabf0ce5253013541c27265a1ecf56198adf70d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ASIN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ASINH.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/08c90965181002b815f8c05a.md",
+      "kind": "official-document",
+      "bytes": 1516,
+      "sha256": "de6626810bc5fe77c160a3051ef3f60922dad540859cc98e8ade3f1c16046bce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ASINH.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ASSOCIATED.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3c7c1c2f777c8c17f69b1e57.md",
+      "kind": "official-document",
+      "bytes": 3824,
+      "sha256": "edb18abdc5b1f6bf35a79aa8d0f208b3d548085614e2dabfabc53478cf30dfc6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ASSOCIATED.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATAN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e232ede3ee523cd11d624296.md",
+      "kind": "official-document",
+      "bytes": 2345,
+      "sha256": "2cd6043a5caa7381c1936c05e82e5f9d088be412f415d370eda3fe31234bb7e1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATAN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATAN2.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f7dee93f1ad6d6e391c22b3e.md",
+      "kind": "official-document",
+      "bytes": 5273,
+      "sha256": "14be1addefaad48b9de44131584dcb548591f4f2fc10247d55304ca0515b122f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATAN2.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATANH.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5d0142edf816a067344c97aa.md",
+      "kind": "official-document",
+      "bytes": 1311,
+      "sha256": "6616b115e730d8176f352e4511c575e6e1f2b167c666a76ee5c3e7b4e7326be3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATANH.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_ADD.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/26e939008d75e427318aae72.md",
+      "kind": "official-document",
+      "bytes": 1982,
+      "sha256": "8300f3d9b654acb9504b37f1c5d0206fa5814fca7b415d4fb53f252b42602e8d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_ADD.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_AND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/c49b9db380525827e0e60c15.md",
+      "kind": "official-document",
+      "bytes": 2127,
+      "sha256": "a640e6667ffc0c3fca9b52700b53d6f779757f05bde2b7b4321367603d6be395",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_AND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_CAS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3087ddb74b4a9ef70d15acf1.md",
+      "kind": "official-document",
+      "bytes": 1842,
+      "sha256": "7591f3b916af1b9ca635998df32aedda4b68dd7b1f4bdb4d99c41937bfc0e072",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_CAS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_DEFINE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/8041fbbe0b102f039d52fc29.md",
+      "kind": "official-document",
+      "bytes": 2000,
+      "sha256": "4afb3b1686525208cda9f716718f93f49233b88faeae28350d263dbc15f24537",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_DEFINE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_FETCH_ADD.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/75442fbca3991b5f02c580f0.md",
+      "kind": "official-document",
+      "bytes": 1800,
+      "sha256": "223ca22b37148adc72f422a0385a44ebbe2ddbbd9630063599469b1c67d15017",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_FETCH_ADD.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_FETCH_AND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/86c519a038f6a6b50f176bcf.md",
+      "kind": "official-document",
+      "bytes": 1850,
+      "sha256": "019d7490419c42f1332ae7ec8f496c8a5588029d8f5cb386b6ee25593414ddd7",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_FETCH_AND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_FETCH_OR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/34db4eccd7aacb8f51dcb19b.md",
+      "kind": "official-document",
+      "bytes": 1838,
+      "sha256": "781b7e94462f86796b15640adf94baa3fe0d36008eed27273f3d60582ecdf47e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_FETCH_OR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_FETCH_XOR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ad1ba6e144cf42b87b5f4bb9.md",
+      "kind": "official-document",
+      "bytes": 1856,
+      "sha256": "87ce9509b6b37607e735804e052449e409cb505f388f4bf0689922959e35f98e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_FETCH_XOR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_OR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/115e6cf206952399bfddaeb4.md",
+      "kind": "official-document",
+      "bytes": 2055,
+      "sha256": "17f96401f95cc11bf2f1e4f5b286e085d54461afb5edd9a9544adc4ecfc924ef",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_OR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_REF.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5cf6fd59ec3f27f47051a84f.md",
+      "kind": "official-document",
+      "bytes": 2286,
+      "sha256": "811f933e4977e9134882c91d8ff31d1044541d261fd6f38b9ba855e48d02c83e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_REF.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ATOMIC_XOR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d71d2acf94fcf4cbbb5295e4.md",
+      "kind": "official-document",
+      "bytes": 2089,
+      "sha256": "975352068d161f4962784fc99e7321918029f3f936b2642cc83610e36b9362c8",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ATOMIC_XOR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BESSEL_J0.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/20dbd353e71990c603d4206c.md",
+      "kind": "official-document",
+      "bytes": 1303,
+      "sha256": "417252f950122536d47eb84ab07edaa261d9ada5cde1024700e812e40414a8f5",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BESSEL_J0.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BESSEL_J1.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dbe3a680163482cc0d775e0e.md",
+      "kind": "official-document",
+      "bytes": 1286,
+      "sha256": "cdce2b579a9fbf61afb3a420dc72d1bbe3fff6f3c842bf86d9ae923717a7f902",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BESSEL_J1.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BESSEL_JN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0eccd6801346fa4e9951fb80.md",
+      "kind": "official-document",
+      "bytes": 2276,
+      "sha256": "9ad62933888a835d018e9b12074fc17f48fd455a62e430a77b3a05d37c88abeb",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BESSEL_JN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BESSEL_Y0.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/8c72c8d8ef583d38ea0fbd84.md",
+      "kind": "official-document",
+      "bytes": 1279,
+      "sha256": "b380a485cc83cf91f031a52c7921b77f896bc4266650b9dd5ae05beea2966b4c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BESSEL_Y0.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BESSEL_Y1.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1b1cd43ba3eb2c6ca1a9d1d7.md",
+      "kind": "official-document",
+      "bytes": 1290,
+      "sha256": "383c35f7865b0a54d56465c29e1f6b838c5e21c39cd1ad331135c85fba1ba4af",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BESSEL_Y1.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BESSEL_YN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/03035aa8ce8b3d23f588a312.md",
+      "kind": "official-document",
+      "bytes": 2429,
+      "sha256": "9dff9f41e10466430e0d4f63ed89707dec1ec268260f545bb884a4ac2791637c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BESSEL_YN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/38646b39f877ca33fc6590ce.md",
+      "kind": "official-document",
+      "bytes": 4842,
+      "sha256": "7b913a4c6e81e1df95a7e590d0d8c203f5aa048886701d598579501985bbff14",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BGT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9117fcdf0b300a2d19cb6ccd.md",
+      "kind": "official-document",
+      "bytes": 2787,
+      "sha256": "fb4e32bf4040f0ca42f0786bbfaf034487f48ac7a518730f7a3c628ccf380ca2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BGT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BIT_SIZE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b3cf6cc5bb2ec5f5523b0aec.md",
+      "kind": "official-document",
+      "bytes": 2399,
+      "sha256": "a3ffe3aa622d2d3c00d632855ff3f35326f4ea940a527b4474a3e2b204704bb3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BIT_SIZE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BIT_index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/669ad0a534309c0328d60554.md",
+      "kind": "official-document",
+      "bytes": 5153,
+      "sha256": "45ae4ebcd7a4b983440dded4d15dedb2af3c7dbf5f2c2a29fe7c1ff6da29832c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BIT_index.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BLE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/4dd2936c707ca4dcdb316204.md",
+      "kind": "official-document",
+      "bytes": 2269,
+      "sha256": "0517c4e5980e46780de5fa81c818d0783823c653f1d627e3e01f2b732945bfd2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BLE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BLT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/224e0d33ac290316e910726b.md",
+      "kind": "official-document",
+      "bytes": 1965,
+      "sha256": "989ce4863d3f6175e396194971e0cfc0e58daa4f74e361733571bfa19575d424",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BLT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/BTEST.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/64c19388845b49170633fc8b.md",
+      "kind": "official-document",
+      "bytes": 3490,
+      "sha256": "fed7453aa8e49ce7b1d15d0b8ebf15c8e62af03b4293b358861fc6cf1cf05fab",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/BTEST.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CEILING.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a075d014e64c506a6c4fe5da.md",
+      "kind": "official-document",
+      "bytes": 2314,
+      "sha256": "61faf5f62680c931674579a12c3993fe53cc5bdd6dc723e4be9d8046dfb4425a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CEILING.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CHAR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/780a2e394edfd38eefd97e9b.md",
+      "kind": "official-document",
+      "bytes": 3545,
+      "sha256": "bef63ed40eabb870823155752438c9fa19bd55c42ada955c9f223154521ff0a6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CHAR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CMPLX.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1a63202ee50b587968113ac1.md",
+      "kind": "official-document",
+      "bytes": 9672,
+      "sha256": "55f97f1aa3a9bd3ac62e3fc410840c546cb053e144a62df59d18e4e5d29012cd",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CMPLX.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/COMMAND_ARGUMENT_COUNT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e4acc7bdda99f6369a868417.md",
+      "kind": "official-document",
+      "bytes": 1635,
+      "sha256": "0a8238321d9963fcdb6983d8a1ce0493a6a1f19f909b0ddaa776ac9e22175c71",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/COMMAND_ARGUMENT_COUNT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/COMPILER_OPTIONS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/02ecf4ad9c6c9912ff7f43fe.md",
+      "kind": "official-document",
+      "bytes": 2337,
+      "sha256": "0d4d0324cac64af78c37242a2880f52617b8202d6da0c3d8b409eb725c6aff99",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/COMPILER_OPTIONS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/COMPILER_VERSION.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a0147a786f8d82abd27e4b61.md",
+      "kind": "official-document",
+      "bytes": 1395,
+      "sha256": "7c73fbaee2312d5aaffee0fe1034c18a41024ea2da87d416fb56380a2fdbcc0c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/COMPILER_VERSION.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CONJG.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7e259d9f37bff583b8b6ba91.md",
+      "kind": "official-document",
+      "bytes": 3967,
+      "sha256": "e1e583e1cdadea8b6f27096663b4903df7a251c26c8f837ea8ce85177fe4f456",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CONJG.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/COS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/668ab64daadc8480b0cca1dd.md",
+      "kind": "official-document",
+      "bytes": 2138,
+      "sha256": "ed49aed74139b9013e1db12206bf272fe76c73193d7a2b4f62ecca2a0a92caae",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/COS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/COSH.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/198abe6b2cc09f782a0fb2bc.md",
+      "kind": "official-document",
+      "bytes": 1436,
+      "sha256": "5e4cc165c0eea6c60b7cff4595082130568a7d04203f58e4686e865e016eec09",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/COSH.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/COUNT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/82c250ed9f81fd5505f8c088.md",
+      "kind": "official-document",
+      "bytes": 7614,
+      "sha256": "b42b83e30ebca593344a0bbcaa600032206eb31ccc68aa9da3ceffcb4fad3af8",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/COUNT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_BROADCAST.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/86230363745265afd1482def.md",
+      "kind": "official-document",
+      "bytes": 1661,
+      "sha256": "2edcd4085b8bc39aea4d17a69f453a4ebc44d49ca04af4b1eae40f44c3899b0e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_BROADCAST.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_LBOUND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/cc4f7771a8c5e06a35dd86f2.md",
+      "kind": "official-document",
+      "bytes": 1102,
+      "sha256": "fdc97bc1729cb6f9392f05c3b667bd5a6415ec36b8355af86a008c1dc594798a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_LBOUND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_MAX.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e7a85489ccac163abb0e68a5.md",
+      "kind": "official-document",
+      "bytes": 1799,
+      "sha256": "f54e4572fabd417c67ae4425e1b11a3e56bd3b71bcd0acb34aed636563aef558",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_MAX.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_MIN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/df2a845da60296740f598872.md",
+      "kind": "official-document",
+      "bytes": 1735,
+      "sha256": "4f86276fb27a4cc9cbec830c6822735b3e851b50e5d3558938a864402a741dda",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_MIN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_REDUCE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/8e131cadbccc28c7b482cb13.md",
+      "kind": "official-document",
+      "bytes": 3073,
+      "sha256": "fa91b6cea84ce8712d99a1f4a23320a168345c318b836f5202243fbe076ea4ec",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_REDUCE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_SUM.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/53a3e4f050f5e28ff74de418.md",
+      "kind": "official-document",
+      "bytes": 1818,
+      "sha256": "9e8f2499c34dca4a680db06459883e525ae2317d17fa5121f6184ed908f2ad75",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_SUM.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CO_UBOUND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9a0c6ad70bbb2e70284b5f76.md",
+      "kind": "official-document",
+      "bytes": 1128,
+      "sha256": "64b0e441eff7c9e0b40a5a0cbb688fab15fbd30548b97ba61c6682c9a6aa4ef2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CO_UBOUND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CPU_TIME.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f0660bcb96e2c1414b8add86.md",
+      "kind": "official-document",
+      "bytes": 3176,
+      "sha256": "ef9ba055a5db5275820784f7624669be93545df9b6cd694a9f3c996c51c44e86",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CPU_TIME.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/CSHIFT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ee4fd0ce00c4a2a1357d7b5b.md",
+      "kind": "official-document",
+      "bytes": 3691,
+      "sha256": "7fbd61b835f2701f255819e8db213e330c122add2a5fb22967d8e46b324e1fde",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/CSHIFT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/C_ASSOCIATED.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/891a61f75843f28840d6f359.md",
+      "kind": "official-document",
+      "bytes": 1589,
+      "sha256": "65d90389d32de27ba0a18a93a1a21aa6703351209dfed0f016a9bda138f9cc8d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/C_ASSOCIATED.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/C_FUNLOC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e1c2734b7e090d697e50144d.md",
+      "kind": "official-document",
+      "bytes": 1237,
+      "sha256": "ba1739c4495679db56d1f1ec5b37c975668150489354fe53ec0eab46e8bf1bc0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/C_FUNLOC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/C_F_POINTER.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3533bf8a52e0cc571f4ae65f.md",
+      "kind": "official-document",
+      "bytes": 1621,
+      "sha256": "67a58486c33e23ab06f8ca2bd638ea6334b4dcb4dc9044d3d360ad29f0a5b4c6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/C_F_POINTER.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/C_F_PROCPOINTER.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3e2bd9648b9ecb3f901be0c2.md",
+      "kind": "official-document",
+      "bytes": 1434,
+      "sha256": "5b54b4802bf273005015c66d4a1723a595556c477f7dae0532803b4ae3417c00",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/C_F_PROCPOINTER.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/C_LOC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/4258dc78ba77e56ba37e1035.md",
+      "kind": "official-document",
+      "bytes": 1233,
+      "sha256": "bd70a4ed1d8c4a1c46c6b496604b7eba0a51f8925997ecdc086ee4ddb4719583",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/C_LOC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/C_SIZEOF.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/23bc078c4ccee52ebb81b76a.md",
+      "kind": "official-document",
+      "bytes": 1343,
+      "sha256": "ff8a5a9eb497b9cf4f027915e95cec0de6e14d83ac8595eee35b588b583efa00",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/C_SIZEOF.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DATE_AND_TIME.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/67ea7ff34cfd04ed04e99122.md",
+      "kind": "official-document",
+      "bytes": 5158,
+      "sha256": "1639bdf54e7d9b062a12bed3a30616487c4d191c881f6122a39b934beb2588a9",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DATE_AND_TIME.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DBLE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2118cd9c71b47e48946d872e.md",
+      "kind": "official-document",
+      "bytes": 1525,
+      "sha256": "cc72843c561cf640055da41c0d2daef7544f7f8148cf6d52cdeb42102614a677",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DBLE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DIGITS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ec4e8303394767c147cdee48.md",
+      "kind": "official-document",
+      "bytes": 1774,
+      "sha256": "a31d68009ab6d22dee13034d47c00bd63146de3ba440ea81626c69cc672a0327",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DIGITS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DIM.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/796719344d06d256b5cc188b.md",
+      "kind": "official-document",
+      "bytes": 1593,
+      "sha256": "3d2406285fbd8724d4c03835264b352998917cb6d15ae5ff9cf080b8f792f136",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DIM.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DOT_PRODUCT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/17406e48f481948f8f5057ba.md",
+      "kind": "official-document",
+      "bytes": 2231,
+      "sha256": "6e6c492cc0d69465f7ed06578997d6aff68f8d0120f80c930dfe0f90a40f8dd1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DOT_PRODUCT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DPROD.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/c3cafed3031c459730899caa.md",
+      "kind": "official-document",
+      "bytes": 2775,
+      "sha256": "258e2d1bbd50a95bc7ca74c38c02f2fb708ba920dcebdc39b5ca05d46846ee67",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DPROD.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DSHIFTL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0bab4a235d43d825dd7ea5bf.md",
+      "kind": "official-document",
+      "bytes": 4153,
+      "sha256": "e42ce82d3205e68fa1fbdadedde126ace4479b20bb4b81419d9d4786984a6322",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DSHIFTL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/DSHIFTR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/58a217f340a4f973f6e9ab30.md",
+      "kind": "official-document",
+      "bytes": 4186,
+      "sha256": "6de1ba31b6a0ba7d5ca7b73cd57d37d58f9b9d14299df9d02dde290aedac61c4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/DSHIFTR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EOSHIFT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/be9fbddd0fdff81be2536d29.md",
+      "kind": "official-document",
+      "bytes": 3727,
+      "sha256": "0d99c6af90d64482c367b08fe0c806c45a71638591f58128e59dc5d76e2ea252",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EOSHIFT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EPSILON.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6a12d83bbdc73dcb566f9ebd.md",
+      "kind": "official-document",
+      "bytes": 3371,
+      "sha256": "73be97c1df0ad16a147e1656261edbb3be747e913931e56c7254473632c31d9e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EPSILON.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ERF.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d57629a056c803803b86f62d.md",
+      "kind": "official-document",
+      "bytes": 1234,
+      "sha256": "604e84b0680ea48d2f239b934e096963eea098958a8dde81b68123c60e3ea8e5",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ERF.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ERFC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/28388a77e588385941afa005.md",
+      "kind": "official-document",
+      "bytes": 1948,
+      "sha256": "d0082a7c713a61015ba3ddea94b7ba1ac341e207ae2685f2da595dbbc9c45327",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ERFC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ERFC_SCALED.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e7bd517733ee7fe216b45950.md",
+      "kind": "official-document",
+      "bytes": 1580,
+      "sha256": "5f18f57b04a4bc29b20375b0bd9e115a57f7c268d69062f00738142b22fa2f64",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ERFC_SCALED.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EVENT_QUERY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e540cca084b12bb6541cbb36.md",
+      "kind": "official-document",
+      "bytes": 1467,
+      "sha256": "9cf8c50e9aef4716ebc66985dc9f0de08c0a0900c400b140eea99e4dbdcfb884",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EVENT_QUERY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EXECUTE_COMMAND_LINE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d961a8d53baa28963bda3d59.md",
+      "kind": "official-document",
+      "bytes": 4402,
+      "sha256": "b9ddeee365ad6a7ad09ab4bbb56ac24cc2bd3275b49b75fadaeac1f58fffa82d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EXECUTE_COMMAND_LINE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EXP.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dd7a4d4fc723b2618d82f307.md",
+      "kind": "official-document",
+      "bytes": 2655,
+      "sha256": "da6fa105b00265c8766092deffc65000abbe114e73861ed36405e8597af987a6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EXP.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EXPONENT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/37b2e7f67cc0239810c5b6d5.md",
+      "kind": "official-document",
+      "bytes": 1785,
+      "sha256": "17741b534a8162d4caf570b4795196c9174dac3479c2e07aa885681b8538a364",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EXPONENT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/EXTENDS_TYPE_OF.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/12896cd3670288f78d670955.md",
+      "kind": "official-document",
+      "bytes": 4869,
+      "sha256": "f4d15b475b7c8bb766cdcdd75656f8a76da99058d0680ccf6beff7a332edce3b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/EXTENDS_TYPE_OF.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/FINDLOC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/19ab5c953e6ab05c93d07d0d.md",
+      "kind": "official-document",
+      "bytes": 9701,
+      "sha256": "d75f8bc10f5cb29795edb83d7e86f96cc2abc2b60ff9a392dec1bf15721a8600",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/FINDLOC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/FLOOR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a2f40f4fa397a401bfa75e7e.md",
+      "kind": "official-document",
+      "bytes": 3339,
+      "sha256": "a1b8a60597f92e45f719882556cde5b214f3e4bdac295d13933ee07144080fb0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/FLOOR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/FRACTION.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9e41c4b321b2056f3fa5086e.md",
+      "kind": "official-document",
+      "bytes": 1619,
+      "sha256": "a14d539403785358fcdabc569a6665d4954301b3c6fda223998d5b0ccec3a4d7",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/FRACTION.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/GAMMA.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/316e38db28791abf5848c322.md",
+      "kind": "official-document",
+      "bytes": 3665,
+      "sha256": "80e009dee611dc462339f28f6c014d7ba30a7008172248b2ec8468071d70dcb7",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/GAMMA.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/GET_COMMAND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a070481550f61f251c368a19.md",
+      "kind": "official-document",
+      "bytes": 3341,
+      "sha256": "8a2c1989c0e647d1c561aa098d920b02b36dbde1c5f46692b7aeeb378874ac3f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/GET_COMMAND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/GET_COMMAND_ARGUMENT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/08b4c663cd182180540e1fd6.md",
+      "kind": "official-document",
+      "bytes": 4767,
+      "sha256": "acd57d785fbd5f3cf6fec4d827605f58a6cae0e615da08654da10a55b9710742",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/GET_COMMAND_ARGUMENT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/GET_ENVIRONMENT_VARIABLE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ec883026aa70897139baf6ff.md",
+      "kind": "official-document",
+      "bytes": 4474,
+      "sha256": "c150950e08ca50493d2be288225fbf2bd32bcfb7b737354ddd10733a98238649",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/GET_ENVIRONMENT_VARIABLE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/HUGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e88bcbf3f718057d5dcf7221.md",
+      "kind": "official-document",
+      "bytes": 3249,
+      "sha256": "35ceac1dbe612072f70fa63d7fac75cf575451e043b530380558ddf05f5af0b3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/HUGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/HYPOT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/85964d1fbba83055b0204bb2.md",
+      "kind": "official-document",
+      "bytes": 2496,
+      "sha256": "634493b64a0c1f62e21770860c2393c1bcb9fa34faf2c3664c71fe24fc846145",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/HYPOT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IACHAR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d48d4b0c854e75822cc247a5.md",
+      "kind": "official-document",
+      "bytes": 3349,
+      "sha256": "3986cb007671751623743171947a62b19e4e4f317c4388027fa18168ecef3a84",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IACHAR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IALL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5d4ab8c18565777ba4a52e7a.md",
+      "kind": "official-document",
+      "bytes": 2091,
+      "sha256": "dd84ddd6f515ea93e7606324351a4cd202d8f640e2c6177134e984fc49c34024",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IALL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IAND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/990f118785e567fed7245333.md",
+      "kind": "official-document",
+      "bytes": 2076,
+      "sha256": "eccb5047150408a2a9b6cc66e4843f641196b3eb0b4d0cbc52bf0de4e023c1c0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IAND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IANY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/411cf62df586861bf2396405.md",
+      "kind": "official-document",
+      "bytes": 2710,
+      "sha256": "24b7fedfbfd071ffe536352b5b16de517448aef240e74080a2c7f528d32cd913",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IANY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IBCLR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ca863810598d3e18571bace9.md",
+      "kind": "official-document",
+      "bytes": 2714,
+      "sha256": "b0a536718f76e523a6b83fd0632be2c79e791b24ac81342ae723c1fb481c4af3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IBCLR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IBITS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dd5efd9a326127c41bf7acb0.md",
+      "kind": "official-document",
+      "bytes": 2730,
+      "sha256": "6682cdc6bc3e6e9239d6c20fae51c2afd92d207f26f1e57d21aabd261f546776",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IBITS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IBSET.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2dd144e91b98d6b4bda3d917.md",
+      "kind": "official-document",
+      "bytes": 2700,
+      "sha256": "cb5ea92fab99853036dff8b7fd3b5d8ecd73eeea70880266158021547968e59f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IBSET.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ICHAR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/02d0bae30affdfafc62546a1.md",
+      "kind": "official-document",
+      "bytes": 2812,
+      "sha256": "77ab8deebac89fb4d51647257179849b710b834138471a1f83e1207af9b2fc2d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ICHAR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IEOR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d367523dfff1f2b2e3077636.md",
+      "kind": "official-document",
+      "bytes": 2935,
+      "sha256": "456c28b1eaf0d225e26207eee266e80ebddc29ac207bec7a9eb7e1edabd5e90f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IEOR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IMAGE_INDEX.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5af8ebb2d1c2686f781a512a.md",
+      "kind": "official-document",
+      "bytes": 1033,
+      "sha256": "735bcb9f9c5eae01af7e2efeeaa83c42342b0b9c26df4ab3d18d951d5575c50a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IMAGE_INDEX.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/INDEX.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a9329c8ae75422b6a1e732a8.md",
+      "kind": "official-document",
+      "bytes": 3058,
+      "sha256": "bc757d6e5952011433ab8380c073a0734663f0d90413b133deac5933c0286e04",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/INDEX.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/INT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9c87b3c0fffabf342a39309e.md",
+      "kind": "official-document",
+      "bytes": 3323,
+      "sha256": "f6c9932ee57434b9da9f30cd106935aba0305c227791ee12fadd316d28ca6206",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/INT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IOR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/071066bf48450e5e8eae9e25.md",
+      "kind": "official-document",
+      "bytes": 2091,
+      "sha256": "5da0a5121a4f63783b2644cb8a9b8b174437b65a8958dbf8389798116b6c68f1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IOR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IPARITY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/991cebfe5448098934ae0cfd.md",
+      "kind": "official-document",
+      "bytes": 2315,
+      "sha256": "d4fca449b14b68c8220f076608fd7a3c686cd903d3aa96d549d9ac13cce595cb",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IPARITY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ISHFT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/73b658aedb86b2048504911f.md",
+      "kind": "official-document",
+      "bytes": 2412,
+      "sha256": "f805bcd3c8a97571177bb24cb4be3c83dcae181c2f7104e790128e8d2333ff9b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ISHFT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/ISHFTC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/c398f37114b23ffad7c02107.md",
+      "kind": "official-document",
+      "bytes": 4227,
+      "sha256": "3907284cbbbfaf640fae27f1340c97edf7fd116f49fbef67e851f64bb1ad8544",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/ISHFTC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IS_CONTIGUOUS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/8b2a0d11d9f7ea36f53b65a7.md",
+      "kind": "official-document",
+      "bytes": 2975,
+      "sha256": "ec843ab9a75684c07851e33b7c40afe0a72c2b190ccf0a64ab8f2369216a0888",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IS_CONTIGUOUS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IS_IOSTAT_END.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/4cd3d4315bbb2bfba95437f2.md",
+      "kind": "official-document",
+      "bytes": 1601,
+      "sha256": "851d34a389432dda7c7e5e137c8c516df2f5ef5b96bc816b0c0b90e10bd942f4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IS_IOSTAT_END.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/IS_IOSTAT_EOR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/251996fcdc39c1340ddb9500.md",
+      "kind": "official-document",
+      "bytes": 1859,
+      "sha256": "402c349d06b7d01e21887132679bc4918527562ed3d1f6e3aa9bafb4aef7cb66",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/IS_IOSTAT_EOR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/KIND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f986b7b39b54717fc565aaf2.md",
+      "kind": "official-document",
+      "bytes": 1730,
+      "sha256": "cd3b856687a2ee16cc1e16aab043d1044a72e815a756755489937dbf5c3c0f59",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/KIND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LBOUND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/eef048d940b1f070f2181778.md",
+      "kind": "official-document",
+      "bytes": 4724,
+      "sha256": "e8e3dcf91b937500517aed2b583f9ed7a66a7e284ccbdab4105eca28fc6537ce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LBOUND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LEADZ.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/967532985ecf1eb8ca2d5b4c.md",
+      "kind": "official-document",
+      "bytes": 2453,
+      "sha256": "2cdaedd33818be811e5268e46a12caf446286f41313e2e7b99e9ebf832eb842c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LEADZ.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LEN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b69b0bf688e84e3bcf1ff2a4.md",
+      "kind": "official-document",
+      "bytes": 4573,
+      "sha256": "be01fdc9f2df368374db0bc0d80285d5c11370beda136521603ad82d02233a7c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LEN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LEN_TRIM.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/df30321dce2f649c74a6c478.md",
+      "kind": "official-document",
+      "bytes": 2847,
+      "sha256": "c09f3196bf932ee789c5761bfe10b72d581615f3707c8d824622798b7a278371",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LEN_TRIM.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e36a6e88e917c5fc59e81c93.md",
+      "kind": "official-document",
+      "bytes": 3226,
+      "sha256": "eb8394e240d8b57240730bcc115c547da4eb2bfbb4888d36f8a4521964f11490",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LGT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/92df548b39e2a178a5917787.md",
+      "kind": "official-document",
+      "bytes": 3166,
+      "sha256": "508c07530dd5446e84b8d90d83e5b1fd0dd54f0a9e88d979bd44c7a087121ce9",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LGT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LLE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/fd5aa2418cc70b307117e22a.md",
+      "kind": "official-document",
+      "bytes": 3921,
+      "sha256": "34eb8422daeb6d7a86a9e7cf835b41e1e1700d5bd0dd71f725bbcef4a2960bca",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LLE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LLT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/c2c286627a3c3cfa2e021fb7.md",
+      "kind": "official-document",
+      "bytes": 3285,
+      "sha256": "dd482a1682bd08129a919da705ae3bf9d4076c6eaad706333532ff3193a65045",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LLT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LOG.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/06f8d0ba628caf488fa3d385.md",
+      "kind": "official-document",
+      "bytes": 1695,
+      "sha256": "2dd7ca1368ab6417f1575dbd17f92097c382a279fe140ff501ed74c33597532a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LOG.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LOG10.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d0e207aa300a5e437482f707.md",
+      "kind": "official-document",
+      "bytes": 1344,
+      "sha256": "f43c7ff1c0a567cfceffae6e108bde1d77e252d1b834c943e292e1fdcfafdb87",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LOG10.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LOGICAL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ba8562a20184e43f18225c84.md",
+      "kind": "official-document",
+      "bytes": 2130,
+      "sha256": "52a3198cd584c00438228b292d9a121743ed964b693ea184298f5e5402223f6c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LOGICAL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/LOG_GAMMA.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ed61382fb5c8376873eba0ef.md",
+      "kind": "official-document",
+      "bytes": 1227,
+      "sha256": "a6a1f8054c0278b85507d04413ce0bd691bb152b198ca7bb33dc554bce5b58ce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/LOG_GAMMA.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MASKL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/329ed2530500e1b60542a303.md",
+      "kind": "official-document",
+      "bytes": 2324,
+      "sha256": "2e34b37d10a18846a5e11ffb176b236af057b6bbfc7a2b2579d674be0205142d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MASKL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MASKR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/72320f557fc361a5a47b7796.md",
+      "kind": "official-document",
+      "bytes": 3142,
+      "sha256": "790a865741daac68ead33253b8865eb99e8d9d0e876589ad9a829c972df0a734",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MASKR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MATMUL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/de991413ebb2ae4a2ffe6d11.md",
+      "kind": "official-document",
+      "bytes": 7100,
+      "sha256": "b26fca75a11814d021494c2cbf2a6128e5de7f108d6375fe12a6d4734996a51d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MATMUL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MAX.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0a625ebca7121aa5954a90d2.md",
+      "kind": "official-document",
+      "bytes": 5313,
+      "sha256": "25323b014d8071d1e28fab4790004f2dbedf7a15a1c2cbe72fac23e766f97d1e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MAX.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MAXEXPONENT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2950b0a1790b9d5c45e464c4.md",
+      "kind": "official-document",
+      "bytes": 1725,
+      "sha256": "b31528a3d97ffca30e5fb8e84eea50e2900c6b8b1e310b924bb6f3bb725240ce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MAXEXPONENT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MAXLOC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0fefc180be2287ee2818e8a8.md",
+      "kind": "official-document",
+      "bytes": 3778,
+      "sha256": "481635627fe6239a5c78c7b342d3d803b720f33dc3dbaf2597027f124272177f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MAXLOC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MAXVAL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b36af0b85b0a5c03b71df829.md",
+      "kind": "official-document",
+      "bytes": 2558,
+      "sha256": "fbd8a19d5516e2b9740682b04489a948c75018ce4eec648203dd24d13d03b187",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MAXVAL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MERGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/32335f57b0d12a930b8457d6.md",
+      "kind": "official-document",
+      "bytes": 4692,
+      "sha256": "48e52fb951d044ba7792fcad8b0c28155f219a69e2377d41687e3dcf2183a7d2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MERGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MERGE_BITS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d7fd83d2da11c47ad4ecb080.md",
+      "kind": "official-document",
+      "bytes": 3853,
+      "sha256": "1db40378d939e6f63e77bd7ac1467236d04c6589cc54ffc25a766aad8ee38a04",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MERGE_BITS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MIN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/486e51a5757b25fb1f350fe6.md",
+      "kind": "official-document",
+      "bytes": 1435,
+      "sha256": "c7d8d9d880fdc6a91095fb43ad95462bb391f69bf3aa8b807309c59aadc21638",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MIN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MINEXPONENT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/502bda0225ecb55ff482ac2c.md",
+      "kind": "official-document",
+      "bytes": 1647,
+      "sha256": "9ce23969cd3fc989091c2dd54b9d54acb209f6508cb130a8c219e396dab49091",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MINEXPONENT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MINLOC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6e3d7473575d45561ffd6cfc.md",
+      "kind": "official-document",
+      "bytes": 3302,
+      "sha256": "290799354351c82ab2ec9d03d5097d6aa4997397b7455ac2ef719e91aa59e6dc",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MINLOC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MINVAL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ef7acded240996997ca82bb2.md",
+      "kind": "official-document",
+      "bytes": 4615,
+      "sha256": "2976ae138b339324374c598f3581da6ad796f7797acdf95b3e64b5e3446bdb6f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MINVAL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MOD.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/292a1894d0e81fa1c9339e60.md",
+      "kind": "official-document",
+      "bytes": 3038,
+      "sha256": "16d3de1d8fbf5876d82f166d5fae64f78e46a50ac57ebddb365b9414c7a1d123",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MOD.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MODULO.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f520ece1d602ba9104d95e89.md",
+      "kind": "official-document",
+      "bytes": 1707,
+      "sha256": "18e85b57c7b648d93b2951abc77b2199f192a66e1fd647fbf3b505ee0d213dce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MODULO.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MOVE_ALLOC.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b300786fc029663569dcd614.md",
+      "kind": "official-document",
+      "bytes": 6937,
+      "sha256": "cd2fc9529c58837fa0838e96767964cc7d1692be27376a55f5e865a6976a8629",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MOVE_ALLOC.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/MVBITS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9ca3d0d3d06e3ed44925c54f.md",
+      "kind": "official-document",
+      "bytes": 5430,
+      "sha256": "f61d7774f38fac4b3c9ec3775f12eac722ecef4974749992d27443c81051044b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/MVBITS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NEAREST.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ed3f9f4236cde79de56d8550.md",
+      "kind": "official-document",
+      "bytes": 2558,
+      "sha256": "b50556d6f8c844dc9c99bd6771083c317f203d3a113fdd27c23fbec203160b60",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NEAREST.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NEW_LINE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/fa56a480c64fe120a2cc91f9.md",
+      "kind": "official-document",
+      "bytes": 4915,
+      "sha256": "2657e317cd0a6b5c957811511b4fcb5218692957f50f00f86d75547883a2622d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NEW_LINE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NINT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3270144bda797b532ff93497.md",
+      "kind": "official-document",
+      "bytes": 4193,
+      "sha256": "ac86f81cba9275d41ae67145270b2dc341dff9c3f497faff774450c553c29329",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NINT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NORM2.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a4bcb776e026552d9ca1936d.md",
+      "kind": "official-document",
+      "bytes": 3413,
+      "sha256": "4fa6a2a11e35351c5d3488c951953afa9d7ea173b302371ad927e889c8e4e139",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NORM2.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NOT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/96bff891d07a21c714a00830.md",
+      "kind": "official-document",
+      "bytes": 2268,
+      "sha256": "31f706bdc7daf00733060858101f29f56e163d89537e2e2eb8d83bec4bf6eb38",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NOT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NULL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0c0692d58cf7b2f53d9a8563.md",
+      "kind": "official-document",
+      "bytes": 2746,
+      "sha256": "1e3d4552cd5d8fe9896966ceda00308f5fff2e01b42fc853537809c18223513b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NULL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/NUM_IMAGES.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5da56244f68e989eb8646091.md",
+      "kind": "official-document",
+      "bytes": 1871,
+      "sha256": "c71151cef28a470e4793a4a35b14556f3dcce8036426c2f87d03677ab32c5c54",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/NUM_IMAGES.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/OUT_OF_RANGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/877db95bd7a66ee7bf6e28a9.md",
+      "kind": "official-document",
+      "bytes": 4873,
+      "sha256": "4b652a07bf16437df93eae20c3d3685184f28752be80377c3328686815a51d76",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/OUT_OF_RANGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/PACK.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/95d2bd6630857e039b374494.md",
+      "kind": "official-document",
+      "bytes": 2863,
+      "sha256": "f7d6cbebdd7652327257c06bd63fc0f8390eb5c219129a3535cebb3cde33190f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/PACK.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/PARITY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/da1fc1eec8052b93fd0b71bd.md",
+      "kind": "official-document",
+      "bytes": 2702,
+      "sha256": "2bf690cb8f9126fc44ef2f2241b874b71d09e77a3717ea27f072b89af40f6dc0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/PARITY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/POPCNT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/93b9fe9bc334e12ba692951b.md",
+      "kind": "official-document",
+      "bytes": 3078,
+      "sha256": "1a32310f50f3870f61ca2fabb0c3d5c766c29db530c1199e429cfd4b6a63b476",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/POPCNT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/POPPAR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/96da4088aba96515abf7c075.md",
+      "kind": "official-document",
+      "bytes": 3293,
+      "sha256": "731fd256d37a6fac6395c9d62ed79c98db0f11aacb431c34ec0d894855bc2c03",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/POPPAR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/PRECISION.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f2e8f41fe76f6f9800128e81.md",
+      "kind": "official-document",
+      "bytes": 1972,
+      "sha256": "67354701fa5e6d1cbeafcd0766f8985e32a13aa38d65c56e426db80247b5d937",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/PRECISION.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/PRESENT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f20000882a794bd70f23396e.md",
+      "kind": "official-document",
+      "bytes": 3171,
+      "sha256": "6fae0558b4423e2f4a5acec958150d5c2cbd5273e7901da997c02847ad27b3da",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/PRESENT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/PRODUCT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/bf1756eac08287849fddc023.md",
+      "kind": "official-document",
+      "bytes": 6414,
+      "sha256": "5410050a4cdff88cc3db3a8b0476326cae964a8a26be5f1c52ae522f0f5856cf",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/PRODUCT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RADIX.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/78823bfe90711f32b0a010f4.md",
+      "kind": "official-document",
+      "bytes": 2058,
+      "sha256": "f49878646c88697dabf7a11a02786603184640b252a9a6fec9bba84b3a0e4aa6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RADIX.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RANDOM_NUMBER.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ba8f39b38efc1c5f26bb71cd.md",
+      "kind": "official-document",
+      "bytes": 2353,
+      "sha256": "0ec3c6215e82bf9b5c9a189505089dd4bbf75ffbad6761306e2d388c87a8a36e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RANDOM_NUMBER.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RANDOM_SEED.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f25673dda691cf977dda4d0a.md",
+      "kind": "official-document",
+      "bytes": 1715,
+      "sha256": "09b4e4662548a91f1cdb7826effff4235db4a1457f9848f9fb46b6bb8defa7ac",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RANDOM_SEED.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RANGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/8bdc00d1cada089544cb8fd0.md",
+      "kind": "official-document",
+      "bytes": 2018,
+      "sha256": "b3e576588fd4513af73b68217dabd1547d2a947f1dbcdd55674c91035e0f685a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RANGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RANK.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e3078f94b5c96845f76e5928.md",
+      "kind": "official-document",
+      "bytes": 4260,
+      "sha256": "52ac1a5c8b67e1542de8a159827fe0d9668c14fc4de648c43075a06785e545a7",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RANK.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/REAL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b63d7f45bd611bd7d0564a76.md",
+      "kind": "official-document",
+      "bytes": 3595,
+      "sha256": "c5817e2bf00ff3eb4b13413b674cc7a5e4c18c864a3600ffe45ce5e57f12ab0c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/REAL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/REDUCE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/c0b0b903b4dfd4b8dec2581f.md",
+      "kind": "official-document",
+      "bytes": 6844,
+      "sha256": "8320b261ededb1af58cb377512955d4e7a8456592422aaa126993245000d7b5c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/REDUCE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/REPEAT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/96e2e5cd1c2b6290479e54f7.md",
+      "kind": "official-document",
+      "bytes": 2004,
+      "sha256": "413f2a6e5fd7ba9eebf34f71d60e918c17c48ef6b43115ab3ef5222de8f6dfce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/REPEAT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RESHAPE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f10a83c9216ececb3a5a1351.md",
+      "kind": "official-document",
+      "bytes": 6992,
+      "sha256": "6e8045ad6ce08cf702056503cd7da3d46681eae4e5aaae4f3e2d5f5958d1ae89",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RESHAPE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/RRSPACING.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/96cd34e8f5dbde67f45864d5.md",
+      "kind": "official-document",
+      "bytes": 1799,
+      "sha256": "0ffa93034f151af7fa83c1e53c164703ded41e93c8d6a0e1bf2c9c3c6f915874",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/RRSPACING.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SAME_TYPE_AS.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9a37f1c40fac1e81657dfb5d.md",
+      "kind": "official-document",
+      "bytes": 3213,
+      "sha256": "44decaea932b5a6636b55b21d9c4c530ec5e413394d68675a9051e0eea87ed40",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SAME_TYPE_AS.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SCALE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/4fd3ba77a7ab05e8cedfc9b6.md",
+      "kind": "official-document",
+      "bytes": 1967,
+      "sha256": "47f50c2f4ed6b1dc6d3a1acc8a7f7aa22eb4acdaed44ace5db05b825762d7bf4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SCALE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SCAN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6c6f830d15ea317bd597175a.md",
+      "kind": "official-document",
+      "bytes": 3038,
+      "sha256": "d50642c458812346b7fa1a052096123357293a48fecb86410b1c308ae414fb88",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SCAN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SELECTED_CHAR_KIND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/cd613096fdcec2553d756247.md",
+      "kind": "official-document",
+      "bytes": 4873,
+      "sha256": "c0ff0bbbe7157c0b23643437f2adc63337e58c208b89155882a825946c4895de",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SELECTED_CHAR_KIND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SELECTED_INT_KIND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/38e4d4614b138af86206a5dc.md",
+      "kind": "official-document",
+      "bytes": 2038,
+      "sha256": "b2cddf3921c4b1cb2776beebca32686693d915e4de52b3adca99a5f84d2aae02",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SELECTED_INT_KIND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SELECTED_REAL_KIND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6d1a3436333c635bfacc1cad.md",
+      "kind": "official-document",
+      "bytes": 3459,
+      "sha256": "5093954d01f9cd5925530a7a72ee9ee7ea0de563ea2345af5f6674e0d088cd0f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SELECTED_REAL_KIND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SET_EXPONENT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/04fdc80dbb838a7ecdc94048.md",
+      "kind": "official-document",
+      "bytes": 1950,
+      "sha256": "00779b217e713ea1e0e2faa098cabff955ae7dd08f1c73b3b1f3858974eb6fb3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SET_EXPONENT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SHAPE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0e2dff80835286cab186314b.md",
+      "kind": "official-document",
+      "bytes": 2870,
+      "sha256": "220bbe2486f430d22d25180125efb8c076211c99282166f462424eaa4098ca7d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SHAPE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SHIFTA.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/bf36724874a1321a1679ed17.md",
+      "kind": "official-document",
+      "bytes": 3745,
+      "sha256": "4b4f2aed8aa342adfd32a2a5c534806c51f680cf170e1dedb8b92f1863d0073f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SHIFTA.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SHIFTL.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f6864f99485e435e71e2b17d.md",
+      "kind": "official-document",
+      "bytes": 3616,
+      "sha256": "5b732853a7709aea80c4452cdf35b63718afae568a89926c754c8f9187b63460",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SHIFTL.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SHIFTR.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/426d6f837091aebd1e16c5d7.md",
+      "kind": "official-document",
+      "bytes": 3613,
+      "sha256": "f9d45522418d5696a224c85021958dbc48b9ee050b0eb91dd0ec5a5a945fa19b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SHIFTR.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SIGN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/95b8a65a0eb5bfc11fcb33b3.md",
+      "kind": "official-document",
+      "bytes": 2027,
+      "sha256": "67a85f63b3187519ec41e4f840979198e9d1f2ab6d48a0bec97e4a80cee4c8fa",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SIGN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SIN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a5b7cb6e5a48eb22e5c49b1d.md",
+      "kind": "official-document",
+      "bytes": 3607,
+      "sha256": "391d274f8169b3bbd51b95ea7332f071e5a44349160d260e5cbc7e943b4b87a1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SIN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SINH.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/11ee475d5c5c555226749c7e.md",
+      "kind": "official-document",
+      "bytes": 2060,
+      "sha256": "9b7eccdda2f43d4e58042dcd7c75556cb361f60d2fe2b1ba21fb3a7206b345a6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SINH.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SIZE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/92722eba04550a8787708f2c.md",
+      "kind": "official-document",
+      "bytes": 4988,
+      "sha256": "2819fe35cd65de8c9aa30ebaf190180106ab5b9e65364204c2d75d704bd2ab98",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SIZE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SPACING.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5bb931f7f78eaddf1cac2c6b.md",
+      "kind": "official-document",
+      "bytes": 2211,
+      "sha256": "51bd23f31b07c21e83559a4e2a57189716046ccd1c1b53feea773d6605ab301b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SPACING.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SPREAD.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/da2aab6757072144b1fa46dd.md",
+      "kind": "official-document",
+      "bytes": 5270,
+      "sha256": "2030ad5225add68cd57474aef1cfa02d7bc7fc813a777822bd977478b94bef72",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SPREAD.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SQRT.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/77f0087678bb1f2f0617cc2d.md",
+      "kind": "official-document",
+      "bytes": 2510,
+      "sha256": "6fec6f0570cd40b6142f9bd88c4093cd7e48f02cf99db3a4b3b772c942ab863d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SQRT.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/STORAGE_SIZE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7dea55c3d95d96c6274b7465.md",
+      "kind": "official-document",
+      "bytes": 3097,
+      "sha256": "2420b1988c8bbdf077b48d112589ca0b4c05ce3770c1c4418dbb196663ba2c97",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/STORAGE_SIZE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SUM.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1cfa0c9df5b377087c86d0fb.md",
+      "kind": "official-document",
+      "bytes": 6822,
+      "sha256": "dff9c77a71cf1349bd1e3829c27bacb920c18cdfaac9e5b0519da8ae86286900",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SUM.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/SYSTEM_CLOCK.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7f31dd7ddc96f17244fa83f7.md",
+      "kind": "official-document",
+      "bytes": 4815,
+      "sha256": "edf04f34e9c3cb8d96e371920e52a14f7242fd6274921b0413ca80b946b93230",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/SYSTEM_CLOCK.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TAN.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/940b3e4a0635a5a4aa7f8874.md",
+      "kind": "official-document",
+      "bytes": 1287,
+      "sha256": "d7057272840d89fb6cae53f84e375e9af117da5de0e1bc9432ddc6df7dbae81d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TAN.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TANH.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ef5fec898213bcdd8182cf3b.md",
+      "kind": "official-document",
+      "bytes": 1416,
+      "sha256": "61778b0ec0a4e0fcf09f8af2aa8f193a07637d93f32069281daa9cba267c6d7b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TANH.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/THIS_IMAGE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3db442ff49f5960606526d31.md",
+      "kind": "official-document",
+      "bytes": 2368,
+      "sha256": "d092d20081cc6214dc9d60025774571c37e4c658f442161f28e5dacf1daf04a9",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/THIS_IMAGE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TINY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0c2e8572fd4d26b3fcd84873.md",
+      "kind": "official-document",
+      "bytes": 1666,
+      "sha256": "f265026721ab5d5a0589c838569b881c01ab3aacbdc27a65557177c826464adc",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TINY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TRAILZ.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/61e8eacc3fdcc92bbde5eabf.md",
+      "kind": "official-document",
+      "bytes": 2737,
+      "sha256": "32d313511463529c34f48cd7b94c4ca54c43b873b6e30de817e86e54a1ec166b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TRAILZ.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TRANSFER.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/48dde108c6f7e32c0da612b9.md",
+      "kind": "official-document",
+      "bytes": 4006,
+      "sha256": "53b4fcc00d78c13da60672a2a6c979bae4eb58e212d657e4aa024d13f308ecd3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TRANSFER.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TRANSPOSE.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/47307878eca367a1e36d0d01.md",
+      "kind": "official-document",
+      "bytes": 2788,
+      "sha256": "5c1aa4d67dafc42895b566aab0b71f6fdbdd4fc99e678ba0738dd7644a4d0c1f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TRANSPOSE.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/TRIM.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/bf9685f254e88f6444504e0a.md",
+      "kind": "official-document",
+      "bytes": 2624,
+      "sha256": "7b6c6991acb25651f53e5ca678a3b5d84b89a1f8901affdbc459a8f83f506588",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/TRIM.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/UBOUND.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/73c45385ea4d9409cd451d94.md",
+      "kind": "official-document",
+      "bytes": 5186,
+      "sha256": "e4040b033d31a17f30c531e1b9f967e9baff4136598f3051c87167f420dc88a0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/UBOUND.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/UNPACK.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0fd66d71bd31cbfd94fdb44d.md",
+      "kind": "official-document",
+      "bytes": 4591,
+      "sha256": "399789d38e11cec545dd54acb48a8229bc2a1693cfc36edab53c88faa766611d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/UNPACK.md"
+    },
+    {
+      "path": "source/learn/intrinsics/_pages/VERIFY.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2f0e0f667ecffdb583ced32e.md",
+      "kind": "official-document",
+      "bytes": 12323,
+      "sha256": "9ba8090cda5fb77afcbb9780564a89814054a58bbce657ef92ee8ec368595e5e",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/_pages/VERIFY.md"
+    },
+    {
+      "path": "source/learn/intrinsics/array.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2f621f1ab4f0f0f18a5f2823.md",
+      "kind": "official-document",
+      "bytes": 142,
+      "sha256": "0f621685a89a241366d1b239fb19b510e8d214e7e09cf408d78e7817090b9be2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/array.md"
+    },
+    {
+      "path": "source/learn/intrinsics/bit.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a8a1638522486d6d1371475d.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "b847cedc987a234c32c13db548c53b198a5d8d775e817b4c5d322dc66c263ed2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/bit.md"
+    },
+    {
+      "path": "source/learn/intrinsics/cfi.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1117a099f404237d1df94d59.md",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "a58a70c65d98c0b918ac0e8ad0442e9bd9b47c6f720a3ee317c253117dfa3d3d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/cfi.md"
+    },
+    {
+      "path": "source/learn/intrinsics/character.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ef5bcb476a812bcbd9502b06.md",
+      "kind": "official-document",
+      "bytes": 166,
+      "sha256": "a4108de76080d2dd82c101c698147ab173d03832db0cffd34539a1fa2bb9e6a6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/character.md"
+    },
+    {
+      "path": "source/learn/intrinsics/compiler.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/575f3566332252880d38c385.md",
+      "kind": "official-document",
+      "bytes": 175,
+      "sha256": "3219c78eb8960cc8284a66a65b83e5f60896d495577adc2ee75e1723e9d621eb",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/compiler.md"
+    },
+    {
+      "path": "source/learn/intrinsics/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6006488b15eef48d63d781b4.md",
+      "kind": "official-document",
+      "bytes": 2955,
+      "sha256": "89709e9108d74a9186f5703582bb87ddb14858a4c028eddbbb6f34fc53512b16",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/index.md"
+    },
+    {
+      "path": "source/learn/intrinsics/math.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6cfa84f3864221ee4954d0e0.md",
+      "kind": "official-document",
+      "bytes": 136,
+      "sha256": "85f3ea340f3d3faa0af4fab9a181fdd541a8b6a03f1cd35744ac2297ba38e8a2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/math.md"
+    },
+    {
+      "path": "source/learn/intrinsics/model.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/28765a560feb15160fa4313f.md",
+      "kind": "official-document",
+      "bytes": 157,
+      "sha256": "c7cd3abf19d881d636c982b19e64cd7022cfb8b2b8c52e4a4229a37c26ff24bc",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/model.md"
+    },
+    {
+      "path": "source/learn/intrinsics/numeric.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e80620b4a2683c56244af271.md",
+      "kind": "official-document",
+      "bytes": 154,
+      "sha256": "f412e110a4b4f41aa6f00cf9268e0fb9851b2dfc2c7c5c9e7fb8c5fc1e1471e5",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/numeric.md"
+    },
+    {
+      "path": "source/learn/intrinsics/parallel.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ebab0ca1e1fe3b9c64b8c8dc.md",
+      "kind": "official-document",
+      "bytes": 170,
+      "sha256": "d19d54693366ce4237b41fe92dc8e852390cab3a243a4d9c2e7fd7cb6f7b65e0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/parallel.md"
+    },
+    {
+      "path": "source/learn/intrinsics/state.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/44a55ba059ed47eb42ed30ef.md",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "d61ba710f69d544fa7970e07dc30cce88bfee652d9b40dd715a26dc256bbe88f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/state.md"
+    },
+    {
+      "path": "source/learn/intrinsics/system.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5ba32a9ce76d60b6e81b312b.md",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "e6ebf8fb3c43d7dc3d4ffa2463dc0903d8043733697a12f8763e3807f150a5d6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/system.md"
+    },
+    {
+      "path": "source/learn/intrinsics/transform.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/399dfe50958ea1822a8c384d.md",
+      "kind": "official-document",
+      "bytes": 163,
+      "sha256": "4f1636ff0805b2215bf884ec3e286f0f55d5f3b38ce54fd63b4a44e6972b5902",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/transform.md"
+    },
+    {
+      "path": "source/learn/intrinsics/type.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/453e37f10228c777f54735f2.md",
+      "kind": "official-document",
+      "bytes": 2018,
+      "sha256": "9d72b8c943b92032a7341fdd02beea4d726b04075b8f5fa14b647a1615f65a02",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/intrinsics/type.md"
+    },
+    {
+      "path": "source/learn/oop_features_in_fortran/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/adf3af561db52421c4ba436b.md",
+      "kind": "official-document",
+      "bytes": 1781,
+      "sha256": "a0eeb1ed16279221d20da73b34bb62ddcd8d8a00edb25d5727af3b0ff2078de0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/oop_features_in_fortran/index.md"
+    },
+    {
+      "path": "source/learn/oop_features_in_fortran/object_based_programming_techniques.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5cb85ac3b9081273695d2e6c.md",
+      "kind": "official-document",
+      "bytes": 28453,
+      "sha256": "12e20f25db69edeb4d179c1db8abbe7418631fe5888a6c4d8d98386a3eb9bd3f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/oop_features_in_fortran/object_based_programming_techniques.md"
+    },
+    {
+      "path": "source/learn/oop_features_in_fortran/object_oriented_programming_techniques.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ef8bed3aab01449633a367b1.md",
+      "kind": "official-document",
+      "bytes": 29393,
+      "sha256": "e5f6f7ee47d625a01b4728dfc141b703855759a550b4cca6d1599e0e4f766ac3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/oop_features_in_fortran/object_oriented_programming_techniques.md"
+    },
+    {
+      "path": "source/learn/oop_features_in_fortran/performance_and_ease_of_use.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/584108a5bd7fc5ecea8c874c.md",
+      "kind": "official-document",
+      "bytes": 10874,
+      "sha256": "ad35247a5ae1815c647388f1af52f6625af97a8d478501c186f26eace3618d21",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/oop_features_in_fortran/performance_and_ease_of_use.md"
+    },
+    {
+      "path": "source/learn/os_setup/choose_compiler.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/dddaba2fa01035cec2ef6312.md",
+      "kind": "official-document",
+      "bytes": 809,
+      "sha256": "3894e5f3671b217ebde284557049ecd4020159f61d5001f3d82e6b8c428053c6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/os_setup/choose_compiler.md"
+    },
+    {
+      "path": "source/learn/os_setup/ides.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3a0effb1b3a253e6715ed364.md",
+      "kind": "official-document",
+      "bytes": 2564,
+      "sha256": "1e1c12c2acc40386eb3265686495e1415310615fc49749140a7f685afff00b1f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/os_setup/ides.md"
+    },
+    {
+      "path": "source/learn/os_setup/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/123a04382949cdfe834d97d3.md",
+      "kind": "official-document",
+      "bytes": 1924,
+      "sha256": "251fb8e416b2da11c55e9f659e3add874810ea3139988f53467cb156e7bf3126",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/os_setup/index.md"
+    },
+    {
+      "path": "source/learn/os_setup/install_gfortran.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d14c22c0477acd8822db903c.md",
+      "kind": "official-document",
+      "bytes": 5294,
+      "sha256": "b8a590236b287fd927f28e3c271d4b037c2f95aa573424be019c4c582c5ba303",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/os_setup/install_gfortran.md"
+    },
+    {
+      "path": "source/learn/os_setup/text_editors.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f3c293f78385f74f2b3e5fee.md",
+      "kind": "official-document",
+      "bytes": 4753,
+      "sha256": "af26ad611e2d1637e1cb40bd0de6f0c6177b22eb6fe96bc2455ac9b494661436",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/os_setup/text_editors.md"
+    },
+    {
+      "path": "source/learn/os_setup/tips.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/e9f119060629caeb6e9ae890.md",
+      "kind": "official-document",
+      "bytes": 1950,
+      "sha256": "b8cc7f50902ab4104073669bab7ed09c0091ea04104c75c423e4d90f323a5c03",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/os_setup/tips.md"
+    },
+    {
+      "path": "source/learn/quickstart/arrays_strings.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a09441fe74de201a51c66533.md",
+      "kind": "official-document",
+      "bytes": 5271,
+      "sha256": "eed1fb0292d8ceab3590a8752940bde94d682d068b1d51db4c687c1019cb2a62",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/arrays_strings.md"
+    },
+    {
+      "path": "source/learn/quickstart/derived_types.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7ee0f5e0f12bd85d428c22b7.md",
+      "kind": "official-document",
+      "bytes": 11158,
+      "sha256": "19d6ac23fc60e3deff2a20f0f074fef8187b9feb9cd17f6171131a9a668da23b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/derived_types.md"
+    },
+    {
+      "path": "source/learn/quickstart/gotchas.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9409abb4ba8cc5f02c63bd51.md",
+      "kind": "official-document",
+      "bytes": 9774,
+      "sha256": "d32999ea16d6920067f5524eb8c6f7a2ef0289f322f826be3033ed2def99aec3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/gotchas.md"
+    },
+    {
+      "path": "source/learn/quickstart/hello_world.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b8ed0c99240e170a0182725b.md",
+      "kind": "official-document",
+      "bytes": 2129,
+      "sha256": "d578ea948ec9f61642947e99addc3e2e5846a45fcb104b2d1f202e186b97a62c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/hello_world.md"
+    },
+    {
+      "path": "source/learn/quickstart/index.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/ebb20e52226214b597415042.md",
+      "kind": "official-document",
+      "bytes": 608,
+      "sha256": "ae12f8e5d6dc408f825a465559b54a11c3de1e698be1cf16ae93073a40d9b85d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/index.md"
+    },
+    {
+      "path": "source/learn/quickstart/operators_control_flow.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/eea62562c00432fc7a414902.md",
+      "kind": "official-document",
+      "bytes": 7830,
+      "sha256": "3d84ec497459c81f9ca135b4bb77ddcb7ac2e40d4dff6be9b383a19a951b9e24",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/operators_control_flow.md"
+    },
+    {
+      "path": "source/learn/quickstart/organising_code.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0aa0fe59893e76f24dd657b8.md",
+      "kind": "official-document",
+      "bytes": 5860,
+      "sha256": "8f4fdea532bbf67493e9d1b8563dcc24c569f62ab9d40d542532942410666926",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/organising_code.md"
+    },
+    {
+      "path": "source/learn/quickstart/variables.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/3473e2080207d16f6f1f0c89.md",
+      "kind": "official-document",
+      "bytes": 6391,
+      "sha256": "24b4a25d572be53e2088ee7f82a7d566c3123830147bdd1938c6b9887b59b006",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/quickstart/variables.md"
+    },
+    {
+      "path": "source/learn/rosetta_stone.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/90ebdf3a592f8e6243b220a5.md",
+      "kind": "official-document",
+      "bytes": 32133,
+      "sha256": "8205a2974221c8c2579b0f61b8dc0ae924faffe2c9045896ad77bd8e742cd74c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/learn/rosetta_stone.md"
+    },
+    {
+      "path": "source/news.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/08af1ac2ac6c4475b686ca85.md",
+      "kind": "official-document",
+      "bytes": 8,
+      "sha256": "163caf31c4d6484eb6e932a7b4d839465c86b80b17cebf7fb714f86416a946f3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news.md"
+    },
+    {
+      "path": "source/news/2020/02-28-J3-february-meeting.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b828c8c16ab3b829ef91b76e.md",
+      "kind": "official-document",
+      "bytes": 4409,
+      "sha256": "d3ee03374a31febb87cd052d5e9721df6f893a32ca3a2ad56cf332b525d1df9a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/02-28-J3-february-meeting.md"
+    },
+    {
+      "path": "source/news/2020/04-06-Announcing-FortranCon-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a94cfb2b28d45a46fe1c3ecb.md",
+      "kind": "official-document",
+      "bytes": 2224,
+      "sha256": "676b21986232f435e466690def7cc9f5a602b48ee9be07fc23f04793d86a7632",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/04-06-Announcing-FortranCon-2020.md"
+    },
+    {
+      "path": "source/news/2020/04-18-Fortran-Webinar.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/fa0697dadb2b10f7f9ba9042.md",
+      "kind": "official-document",
+      "bytes": 1174,
+      "sha256": "280b5337f3cc26102f7d8ff18ef7340027dc12eb75e6aad402f615d713419ac1",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/04-18-Fortran-Webinar.md"
+    },
+    {
+      "path": "source/news/2020/05-01-Fortran-Newsletter-May-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9bfd7977b4d1f9b4d47fa3b3.md",
+      "kind": "official-document",
+      "bytes": 5509,
+      "sha256": "016acc63377353bf0b3f4cbd97f74054c5727bd38569580e87de5e1e1b4dd810",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/05-01-Fortran-Newsletter-May-2020.md"
+    },
+    {
+      "path": "source/news/2020/06-01-Fortran-Newsletter-June-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/656b75bb5e30e0ccf4534cb9.md",
+      "kind": "official-document",
+      "bytes": 8887,
+      "sha256": "af8e76ba8bc3cb8a52bfa29788425b0ffd8f20181441f011934fd37058d04ded",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/06-01-Fortran-Newsletter-June-2020.md"
+    },
+    {
+      "path": "source/news/2020/07-01-Fortran-Newsletter-July-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/a37320cf8109040f1fc4d604.md",
+      "kind": "official-document",
+      "bytes": 5919,
+      "sha256": "9db17a15dae4b250816a7cb6b4ce796c35f5e9a0815c968d39fa017b8b7c90ba",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/07-01-Fortran-Newsletter-July-2020.md"
+    },
+    {
+      "path": "source/news/2020/08-01-Fortran-Newsletter-August-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b2871c0c2ee40708d8aae66f.md",
+      "kind": "official-document",
+      "bytes": 10017,
+      "sha256": "a83099b1cb08cfedaba6d224ec3cdea8cb096bcab9864858cad882dae6a6f8b6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/08-01-Fortran-Newsletter-August-2020.md"
+    },
+    {
+      "path": "source/news/2020/09-01-Fortran-Newsletter-September-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/db282a83e515d82b514c13db.md",
+      "kind": "official-document",
+      "bytes": 8172,
+      "sha256": "839cd833e1885803904c1404a1d7979bdfd904cf1fa52ccef36af940c15d9f94",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/09-01-Fortran-Newsletter-September-2020.md"
+    },
+    {
+      "path": "source/news/2020/10-01-Fortran-Newsletter-October-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1becfa70b5d15eb5721ef7f3.md",
+      "kind": "official-document",
+      "bytes": 10532,
+      "sha256": "e89fcf19e53426cdd6bd1d5111d3c94f6325ed2e5886533f949cd8535cc2dc95",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/10-01-Fortran-Newsletter-October-2020.md"
+    },
+    {
+      "path": "source/news/2020/11-01-Fortran-Newsletter-November-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b1870d396892981f3b42542d.md",
+      "kind": "official-document",
+      "bytes": 10457,
+      "sha256": "67d5b9fdb9b2092f1e424b25c71d501854f9072b959c6eaecdbff0f0949bedb3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/11-01-Fortran-Newsletter-November-2020.md"
+    },
+    {
+      "path": "source/news/2020/12-01-Fortran-Newsletter-December-2020.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0ba8d79073a8bb31de5ffab3.md",
+      "kind": "official-document",
+      "bytes": 12080,
+      "sha256": "53ca757ebfe0e5f174e186ffbb60e4d4d3ed3dc8b09c2c3e90709a3f81fd90d4",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2020/12-01-Fortran-Newsletter-December-2020.md"
+    },
+    {
+      "path": "source/news/2021/01-01-Fortran-Newsletter-January-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/2ac0836d7b8e19532d53cec8.md",
+      "kind": "official-document",
+      "bytes": 13022,
+      "sha256": "70384e3f7e80bd3c0d92ccb43ff8479fb5454e08a7c501ef98d14eabbc59c978",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/01-01-Fortran-Newsletter-January-2021.md"
+    },
+    {
+      "path": "source/news/2021/02-01-Fortran-Newsletter-February-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9333115b640c98709a5c0e24.md",
+      "kind": "official-document",
+      "bytes": 11208,
+      "sha256": "83e0d4b2e8f1c8651af17b1ea225539c20bad26fe022b1cf3e201bb2b70462db",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/02-01-Fortran-Newsletter-February-2021.md"
+    },
+    {
+      "path": "source/news/2021/03-01-Fortran-Newsletter-March-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/4d062a2c7b285bc36ba14784.md",
+      "kind": "official-document",
+      "bytes": 10439,
+      "sha256": "678da672038c7f0f8aea57ec062a33a66b337b806a1921db41b355078c72d62d",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/03-01-Fortran-Newsletter-March-2021.md"
+    },
+    {
+      "path": "source/news/2021/03-09-fortran-lang-accepted-for-google-summer-of-code-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d835f93812b1d8832f1ff85d.md",
+      "kind": "official-document",
+      "bytes": 1150,
+      "sha256": "05cb8d1072937f59ab9cb413c8721bb1b398a047a1462ace91fc0a40f12f5902",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/03-09-fortran-lang-accepted-for-google-summer-of-code-2021.md"
+    },
+    {
+      "path": "source/news/2021/04-01-Fortran-Newsletter-April-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f6ff055ae20f0207d0cb05c7.md",
+      "kind": "official-document",
+      "bytes": 16792,
+      "sha256": "302b7a7e5474aba79eec92c42ed4ff9383e66fe4677cf98314ffab9cc2d1f15b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/04-01-Fortran-Newsletter-April-2021.md"
+    },
+    {
+      "path": "source/news/2021/04-20-First-Year.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/31094a45b960d3532e51b36a.md",
+      "kind": "official-document",
+      "bytes": 1470,
+      "sha256": "0347e2e753ea5446b2463d27557b58f8d4ef399eaf9863a606e6e9857f7b506f",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/04-20-First-Year.md"
+    },
+    {
+      "path": "source/news/2021/05-01-Fortran-Newsletter-May-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/792823b88e5a99c91070fff5.md",
+      "kind": "official-document",
+      "bytes": 12163,
+      "sha256": "38e9df8737c7ec4d04199b88ad21af1b53b7ef52452bcbbc2e0f33f8f4835ea0",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/05-01-Fortran-Newsletter-May-2021.md"
+    },
+    {
+      "path": "source/news/2021/05-18-Welcome-GSoC-students.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1a5ef575f1557e7cc3b27ddb.md",
+      "kind": "official-document",
+      "bytes": 2365,
+      "sha256": "ee9fb86f4ed55f4922f42fac93df582c958d20f7bcdc7452bfed6e660e8498f2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/05-18-Welcome-GSoC-students.md"
+    },
+    {
+      "path": "source/news/2021/06-01-Fortran-Newsletter-June-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7eea7fd3f5e7705ce1f5534c.md",
+      "kind": "official-document",
+      "bytes": 9661,
+      "sha256": "d36a4859e3c9d49a8df7e72c172c04817269318346013e37f7d76ec16135177b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/06-01-Fortran-Newsletter-June-2021.md"
+    },
+    {
+      "path": "source/news/2021/07-01-Fortran-Newsletter-July-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/17b29802e9751dcad50472c5.md",
+      "kind": "official-document",
+      "bytes": 11562,
+      "sha256": "8d67fc93b99d6c569e64c6f65a7e671567e5f49754b05ecf346465b72246ba8b",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/07-01-Fortran-Newsletter-July-2021.md"
+    },
+    {
+      "path": "source/news/2021/08-01-Fortran-Newsletter-August-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/eb0d18bc258f3a3036d9ee4e.md",
+      "kind": "official-document",
+      "bytes": 11937,
+      "sha256": "e22f2246cb05744061e68c4812657fa9d25688763a7ea720292bbefe269f0ce8",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/08-01-Fortran-Newsletter-August-2021.md"
+    },
+    {
+      "path": "source/news/2021/09-01-Fortran-Newsletter-September-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d68156cd58790f678ad94ab3.md",
+      "kind": "official-document",
+      "bytes": 14951,
+      "sha256": "e1898f8ff647fd57e51145d13613915cb5ebe3b8acc1c006703b5ce5b5672a15",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/09-01-Fortran-Newsletter-September-2021.md"
+    },
+    {
+      "path": "source/news/2021/10-01-Fortran-Newsletter-October-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/763a27512a86f7c3dedc2cba.md",
+      "kind": "official-document",
+      "bytes": 15756,
+      "sha256": "6eb2294b37ecca809129c022b6e2c8aebcb1b946c83047012bdcf8b6db90f4e2",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/10-01-Fortran-Newsletter-October-2021.md"
+    },
+    {
+      "path": "source/news/2021/11-01-Fortran-Newsletter-November-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/5f9818497a388f3a012dba3c.md",
+      "kind": "official-document",
+      "bytes": 13358,
+      "sha256": "5810ba0415202f17f5ab629dca2a7afd2cd3a2f9df75106b949978571bfa0954",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/11-01-Fortran-Newsletter-November-2021.md"
+    },
+    {
+      "path": "source/news/2021/12-01-Fortran-Newsletter-December-2021.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/7e29097f3a1cb32119310390.md",
+      "kind": "official-document",
+      "bytes": 12753,
+      "sha256": "f28678b16dc9b16f9c9a35bb4036f0b3ec4513d28e051a149a54971bd90b4e9a",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/12-01-Fortran-Newsletter-December-2021.md"
+    },
+    {
+      "path": "source/news/2021/12-29-Fortran-lang-2021-in-review.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/0eae66077fc6e81a02c952ea.md",
+      "kind": "official-document",
+      "bytes": 17045,
+      "sha256": "29d234ed563e2916fe21de607bee213944df87e0372d3d97d526a99ef92728b5",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2021/12-29-Fortran-lang-2021-in-review.md"
+    },
+    {
+      "path": "source/news/2022/01-01-Fortran-Newsletter-January-2022.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/4e342df707d3169479f3906a.md",
+      "kind": "official-document",
+      "bytes": 15537,
+      "sha256": "b104cbfb3101bf78982b66ffb1f31bf53eeac7f92abb8e926718a5bd26d0a891",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2022/01-01-Fortran-Newsletter-January-2022.md"
+    },
+    {
+      "path": "source/news/2022/02-01-Fortran-Newsletter-February-2022.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6b165e0bcb5be9dfb05b55b1.md",
+      "kind": "official-document",
+      "bytes": 14992,
+      "sha256": "fe636ebb31508d01ebbef1b45faf0698b0402e950edf70fdeb9a2eb298106607",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2022/02-01-Fortran-Newsletter-February-2022.md"
+    },
+    {
+      "path": "source/news/2022/03-09-Fortran-Newsletter-March-2022.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/d111093c74a2199578cb3429.md",
+      "kind": "official-document",
+      "bytes": 14966,
+      "sha256": "f5da5b8caa2e85773ff15299e2cf1d9aacbb356709100418d7fd311a05d527f6",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2022/03-09-Fortran-Newsletter-March-2022.md"
+    },
+    {
+      "path": "source/news/2022/04-07-Fortran-Newsletter-April-2022.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/367cb37069c36fe133fc3055.md",
+      "kind": "official-document",
+      "bytes": 13392,
+      "sha256": "546b38194a59c13f5f51c488ed833fc2db92e0f48d87a951eb241328b66605bd",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2022/04-07-Fortran-Newsletter-April-2022.md"
+    },
+    {
+      "path": "source/news/2022/05-05-Fortran-Newsletter-May-2022.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1f2fdecf0a232effb5b15019.md",
+      "kind": "official-document",
+      "bytes": 20355,
+      "sha256": "a2f7b6e8d74a221b75bca6c54a68c1d39c3eff6c79bdfe85144594bb9a28a7ce",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2022/05-05-Fortran-Newsletter-May-2022.md"
+    },
+    {
+      "path": "source/news/2022/06-09-Fortran-Newsletter-June-2022.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/be94550af641cfb2f58e6106.md",
+      "kind": "official-document",
+      "bytes": 22933,
+      "sha256": "e15caa2cbd3a2661f8b74d19639b4f218627baf52153ef0850b93168e0befe09",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2022/06-09-Fortran-Newsletter-June-2022.md"
+    },
+    {
+      "path": "source/news/2026/01-02-Fortran-Newsletter-February-2026.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/445540ab873856318faeb19a.md",
+      "kind": "official-document",
+      "bytes": 5505,
+      "sha256": "713f5db99677fd29b95df51135cceaf7a79610fd5d56bbba198eea4b767176ef",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2026/01-02-Fortran-Newsletter-February-2026.md"
+    },
+    {
+      "path": "source/news/2026/01-23-Fortran-index-blogpost.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/6bf898093cc16a8dd3ebcbc9.md",
+      "kind": "official-document",
+      "bytes": 2733,
+      "sha256": "85c94fffefa9c4f6ad1cca13e439b9a31e34d5d01be76799ff463d79c51e9f95",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2026/01-23-Fortran-index-blogpost.md"
+    },
+    {
+      "path": "source/news/2026/05-05-Back-to-the-Fortran-Future-3.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9552e29e3928c5c8e1367b9d.md",
+      "kind": "official-document",
+      "bytes": 6206,
+      "sha256": "90889ab397025339d16322dda5e46f8d90248cd91ea67039740bd721e90e6664",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2026/05-05-Back-to-the-Fortran-Future-3.md"
+    },
+    {
+      "path": "source/news/2026/09-15-Fortran-birthday.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/1a9c679a58ab30cd44b7db7a.md",
+      "kind": "official-document",
+      "bytes": 3032,
+      "sha256": "58fa9564f78e981a7ebdb2c0ba3e1c2e026763ca0b09db9faa5b619f1dd51e1c",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2026/09-15-Fortran-birthday.md"
+    },
+    {
+      "path": "source/news/2026/09-21-legacy-code-confessions.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/f5774e0e7a2be5337654cb4d.md",
+      "kind": "official-document",
+      "bytes": 6447,
+      "sha256": "7ede0bb285ea449be9a8a50241b0e72585976b506b4da0d5fe678147a48bd4da",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/news/2026/09-21-legacy-code-confessions.md"
+    },
+    {
+      "path": "source/packages.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/b8f0267a93d0c568ac99862f.md",
+      "kind": "official-document",
+      "bytes": 1683,
+      "sha256": "98c436a3fa4fe47130783f86a65b6a44f543e04d2923c5b977d949ba225bfa44",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/packages.md"
+    },
+    {
+      "path": "source/roadmap.md",
+      "localPath": "raw/fortran-lang--webpage/030a027e7e64/9b93ab43cd66556f0c38e0c6.md",
+      "kind": "official-document",
+      "bytes": 9393,
+      "sha256": "55144bc73b4f7b7c8ed139baaa2fe9463d0df5064e589a55dcff372f4c7aeef3",
+      "sourceUrl": "https://github.com/fortran-lang/webpage/blob/030a027e7e64216b2fdaeb182bc8763fc74847a5/source/roadmap.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

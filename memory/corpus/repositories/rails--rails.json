@@ -1,0 +1,881 @@
+{
+  "schemaVersion": 1,
+  "repo": "rails/rails",
+  "commit": "2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6",
+  "retrievedAt": "2026-10-01T15:27:27.422575+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/ruby"
+  ],
+  "archiveUrl": "https://codeload.github.com/rails/rails/zip/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6",
+  "archiveSha256": "45e832c2bad7883bd3f32b8c9be1b48e0dfa8ea9b68736f3c2ad7a6fe5d2441d",
+  "archiveBytes": 20921636,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 103,
+    "code": 2,
+    "licenses": 2,
+    "bytes": 3363790
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 6905,
+      "sha256": "5be0ca7612ee8198e6c73a01fe47a1f42d1c0ec463d5d8b4e8e7597df8bb1586",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/AGENTS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 293,
+      "sha256": "aecf71963dc405e28aecada1860b933aa259cdfd21cce698bd2898044ef4a233",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4738,
+      "sha256": "45f7b52bb76ab2be21c8f7ddc80d556adca548f306c4fecc3ed4b274864a64ac",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/CONTRIBUTING.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 4798,
+      "sha256": "49381409f34ee342af506ef1bec6364ec69fb139f932484d19ead0a0d05ed7e4",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/README.md"
+    },
+    {
+      "path": "RELEASING_RAILS.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/b7822651022f149b018fb617.md",
+      "kind": "official-document",
+      "bytes": 5628,
+      "sha256": "9cc7754cddd9be44c22da4f257ee7e0306e62ee7d3bc235c4fe53f33953c8b07",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/RELEASING_RAILS.md"
+    },
+    {
+      "path": "actioncable/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6518f148eff24355453077ec.md",
+      "kind": "official-document",
+      "bytes": 1424,
+      "sha256": "f0d54793cc37cddbf55bc9392872170dc671d1b0bd8503793eb830aad023fb54",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actioncable/CHANGELOG.md"
+    },
+    {
+      "path": "actioncable/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/621980a47c2849340bacc9a6.md",
+      "kind": "official-document",
+      "bytes": 949,
+      "sha256": "36cc80635b46f6c9cf5badcc137f8e5ce8d778d6437e5bfc7f5493310ca1e787",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actioncable/README.md"
+    },
+    {
+      "path": "actionmailbox/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d1145f9cfc2ddb7eab111890.md",
+      "kind": "official-document",
+      "bytes": 1152,
+      "sha256": "0b7c05f060e860f7d45e2742030b25b1a4733ccb43e3f9c9ae0332a770bea2e4",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actionmailbox/CHANGELOG.md"
+    },
+    {
+      "path": "actionmailbox/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/1dfcfc19aed79d09d80f1ff7.md",
+      "kind": "official-document",
+      "bytes": 940,
+      "sha256": "cdd083d8b9456740da79034585989601e7ffa7bb487ebfe3a501a20865d075ac",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actionmailbox/README.md"
+    },
+    {
+      "path": "actionmailer/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/614a0b9e89499dcd4783283b.md",
+      "kind": "official-document",
+      "bytes": 707,
+      "sha256": "d75cdcbdc0096c93d8d263d512fe69fb5595595f5af30dd623b13807442bd307",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actionmailer/CHANGELOG.md"
+    },
+    {
+      "path": "actionpack/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6617298c89de9a6367092e0e.md",
+      "kind": "official-document",
+      "bytes": 24583,
+      "sha256": "82bd27acaf5acfc094764442ccf4562e8a5b4434ab6dc83aac2202f67afd2508",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actionpack/CHANGELOG.md"
+    },
+    {
+      "path": "actiontext/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6fb3a2cef284fb60add9fe7b.md",
+      "kind": "official-document",
+      "bytes": 4429,
+      "sha256": "128f853382153be8bf2db016885eebd74d6c36695f414e93e9fb5cfe2e420648",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actiontext/CHANGELOG.md"
+    },
+    {
+      "path": "actiontext/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/923396739156b29ecf3e16a9.md",
+      "kind": "official-document",
+      "bytes": 1186,
+      "sha256": "d5b0d01654a91ba8034a0a69d8c90f63550ebcddaa611cf8d3d06fd55184ad35",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actiontext/README.md"
+    },
+    {
+      "path": "actionview/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/5337574dfb11b221d0eff970.md",
+      "kind": "official-document",
+      "bytes": 8439,
+      "sha256": "3d3498508b2c3f79117c1bf6f445f85d9e23e0de474f60e4af4f9104bc79c843",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/actionview/CHANGELOG.md"
+    },
+    {
+      "path": "activejob/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/5cbb8151952b4a1a08f011ec.md",
+      "kind": "official-document",
+      "bytes": 5901,
+      "sha256": "8299c9f8f46ee4400a6fed8faa42a198ab062ed6da18e4820d115c6ab73c4480",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activejob/CHANGELOG.md"
+    },
+    {
+      "path": "activejob/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/f0c7c5396919fb80074d29a7.md",
+      "kind": "official-document",
+      "bytes": 3957,
+      "sha256": "8f2f830ada34a2f3aa421ffc473d15e73390df3fce3756583351cf45e8a32540",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activejob/README.md"
+    },
+    {
+      "path": "activemodel/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d1ab2d1ff15b593810798918.md",
+      "kind": "official-document",
+      "bytes": 7212,
+      "sha256": "3ff1a4c44d79ce2c80531d8c400260838b70697c89f5097f2ec573c15b32b830",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activemodel/CHANGELOG.md"
+    },
+    {
+      "path": "activerecord/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/353f4f101b1bb04938d761b6.md",
+      "kind": "official-document",
+      "bytes": 57541,
+      "sha256": "77fe2bd0a0efa8379157dcbac730a0746cf3ce3ce8047c85ed15ae15020a1e6b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activerecord/CHANGELOG.md"
+    },
+    {
+      "path": "activerecord/examples/performance.rb",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/4feeb5387134820ef66877c9.rb",
+      "kind": "upstream-example-code",
+      "bytes": 4781,
+      "sha256": "c75386c40018d5915d3b02094b4221f81b9a1ab2bb761b6ec41e494a6a0f704a",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activerecord/examples/performance.rb"
+    },
+    {
+      "path": "activerecord/examples/simple.rb",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d21185ccfc93cc50f9844c6b.rb",
+      "kind": "upstream-example-code",
+      "bytes": 336,
+      "sha256": "7f2fecd1f7d8a3553e09601e3a5033ff58a36b9a81c9f244822051875a3e50f1",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activerecord/examples/simple.rb"
+    },
+    {
+      "path": "activestorage/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/9b9d88e810eebaae9a2b7c2a.md",
+      "kind": "official-document",
+      "bytes": 16177,
+      "sha256": "f4d52f6721b2864f779ccb9d55e74dfaeb1750419559004eb0ad05ac68184e97",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activestorage/CHANGELOG.md"
+    },
+    {
+      "path": "activestorage/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6d57479f3b0a37809da807fc.md",
+      "kind": "official-document",
+      "bytes": 8672,
+      "sha256": "02a1674291efae9d3be195d5d6148fc7d4f59e5bdf2d200d3a39fb3ee88aa407",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activestorage/README.md"
+    },
+    {
+      "path": "activesupport/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/2bf9f348945534785fefa2d4.md",
+      "kind": "official-document",
+      "bytes": 19262,
+      "sha256": "db6ab640ac4e985af80d48c7f6762bc46bd15849cde298a79fe4dad6e4864e0e",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/activesupport/CHANGELOG.md"
+    },
+    {
+      "path": "guides/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/1c420a018a7fdbf08d264deb.md",
+      "kind": "official-document",
+      "bytes": 116,
+      "sha256": "d9f8fd1209242e88ca418edbaff62dbc8fde5b378692b10140865cd1e7f654d8",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/CHANGELOG.md"
+    },
+    {
+      "path": "guides/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/649d189a8231566360ee2e0c.md",
+      "kind": "official-document",
+      "bytes": 1914,
+      "sha256": "735a17b33c621a36d314aea9ea45169b528e3ba51263559b428d94b989420a30",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/README.md"
+    },
+    {
+      "path": "guides/assets/robots.txt",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/cf3274e090e6b26997d0a4f9.txt",
+      "kind": "official-document",
+      "bytes": 56,
+      "sha256": "80aa45233a3b75c756f9d2161a8b3b8e5b1003b1c1b1e77aee1c54473c26c9f2",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/assets/robots.txt"
+    },
+    {
+      "path": "guides/source/2_2_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d8b39342f9d191085961f1a0.md",
+      "kind": "official-document",
+      "bytes": 23177,
+      "sha256": "07aa5509cf6d081b1a271b83dbe405a0acb63f4f9f12aabf0fb94c15e90c4742",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/2_2_release_notes.md"
+    },
+    {
+      "path": "guides/source/2_3_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/62cce0081abf3800535a6f9c.md",
+      "kind": "official-document",
+      "bytes": 41965,
+      "sha256": "676afe3ee4fdd3f04447cc7b40c0fc38ba3744b6e92de4b69c2a31145abeb8a1",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/2_3_release_notes.md"
+    },
+    {
+      "path": "guides/source/3_0_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/1b9333a45dbdbafa8b5ec709.md",
+      "kind": "official-document",
+      "bytes": 34831,
+      "sha256": "db8eb297e63d36668648c4e752fc3fd7638b999b44ba9b152772721638ab790e",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/3_0_release_notes.md"
+    },
+    {
+      "path": "guides/source/3_1_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/956cd6aa4065caa3712c5b20.md",
+      "kind": "official-document",
+      "bytes": 25375,
+      "sha256": "7b5f59c08e39cd786e82aed4fdc61ffee934defcb3486c3e08470aaf70e251c8",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/3_1_release_notes.md"
+    },
+    {
+      "path": "guides/source/3_2_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/ebc2560a8ed5f2644d4d9100.md",
+      "kind": "official-document",
+      "bytes": 25001,
+      "sha256": "b96374f32b30fd873ad7dc354bd6eef182165cbc26bc7a1dc07d553e6591a81b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/3_2_release_notes.md"
+    },
+    {
+      "path": "guides/source/4_0_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/1177369cf19999aa7bd4ea71.md",
+      "kind": "official-document",
+      "bytes": 17672,
+      "sha256": "84502ec8b71e6519d4b015706b5c991bc7a99f73247de554e10654b3d645bb30",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/4_0_release_notes.md"
+    },
+    {
+      "path": "guides/source/4_1_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/e1f6018a82bb7c506a4abe9b.md",
+      "kind": "official-document",
+      "bytes": 28000,
+      "sha256": "d43ee2d6f07c78edcc97de2aec07ed8d6a835aea5d484cb722ff2c9c8b49eb83",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/4_1_release_notes.md"
+    },
+    {
+      "path": "guides/source/4_2_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/55db791469f2abb7c04b94d4.md",
+      "kind": "official-document",
+      "bytes": 34921,
+      "sha256": "f87c413df81da00a0072ab7f4ddfa1299fa1b75b6500092c032e7f3f39a50456",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/4_2_release_notes.md"
+    },
+    {
+      "path": "guides/source/5_0_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/33e557b94b12bb3d807c8ca5.md",
+      "kind": "official-document",
+      "bytes": 49024,
+      "sha256": "fdc86fff01872d7e5a5c94ca8bb379bb8a5698c0d9a2b03d09c23b7ed9e6da78",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/5_0_release_notes.md"
+    },
+    {
+      "path": "guides/source/5_1_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/1506ea61f53afd4a69915398.md",
+      "kind": "official-document",
+      "bytes": 25240,
+      "sha256": "228a07eca6f9195950c254fa52223fc4f74afac528e41e3862df7ae7f53daf33",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/5_1_release_notes.md"
+    },
+    {
+      "path": "guides/source/5_2_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/0cb81a7cb61fc38e76ebd238.md",
+      "kind": "official-document",
+      "bytes": 37355,
+      "sha256": "dffba2991b0f31b3d7e6e2a62cc3209bec0f55d110da908850f1cd65904d0882",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/5_2_release_notes.md"
+    },
+    {
+      "path": "guides/source/6_0_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/065011588f98e88a1323e04a.md",
+      "kind": "official-document",
+      "bytes": 44802,
+      "sha256": "e6d7c0a353c73727572a0a22c3fcaa9b4d9c933ddfbe0adc455c28b05c66e6fe",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/6_0_release_notes.md"
+    },
+    {
+      "path": "guides/source/6_1_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/9b07fa8d893625a87f839a24.md",
+      "kind": "official-document",
+      "bytes": 15810,
+      "sha256": "685fce1613451bc8aeeb155c8f77d4900832a9d717db1f06823e5539fa0a64a3",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/6_1_release_notes.md"
+    },
+    {
+      "path": "guides/source/7_0_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/c18e5128134777dc2a0cbdf0.md",
+      "kind": "official-document",
+      "bytes": 11218,
+      "sha256": "6f5f1cf9ad49b509a1a61568c8efbfb09cedb001e728f61d5037f301c8127cf8",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/7_0_release_notes.md"
+    },
+    {
+      "path": "guides/source/7_1_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/9affef13810265425a2ff9b2.md",
+      "kind": "official-document",
+      "bytes": 32993,
+      "sha256": "8bbb6773d74978ee8b7bce492f801ff1839270225855fc7d568a108333872823",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/7_1_release_notes.md"
+    },
+    {
+      "path": "guides/source/7_2_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/8c2b67df0869f21e395ebc57.md",
+      "kind": "official-document",
+      "bytes": 23320,
+      "sha256": "5a1751fe6e29ba16e9101b43435cf4888f405268dfcf207cef02b0cae2cbe79c",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/7_2_release_notes.md"
+    },
+    {
+      "path": "guides/source/8_0_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/69d143aa5af5d45c4678712c.md",
+      "kind": "official-document",
+      "bytes": 9312,
+      "sha256": "31be0e53bdfe97544e22dac73b39c63005d4c8995973919980b2b5919451cabc",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/8_0_release_notes.md"
+    },
+    {
+      "path": "guides/source/8_1_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/402eed1d1c0e29d636b842ab.md",
+      "kind": "official-document",
+      "bytes": 13438,
+      "sha256": "d1ee921bf82e418c244832e894061d742b2bb60f4841950a32ee6dfb0813f63c",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/8_1_release_notes.md"
+    },
+    {
+      "path": "guides/source/8_2_release_notes.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/c09e1d6c7c6b5854cb64b069.md",
+      "kind": "official-document",
+      "bytes": 8771,
+      "sha256": "2a6568fa71e8443cf1a6ee1a71a90aeeb3b976114b6448ad769bfe6563ebe1a4",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/8_2_release_notes.md"
+    },
+    {
+      "path": "guides/source/action_cable_overview.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d981f793ab8e2f7c08b3d492.md",
+      "kind": "official-document",
+      "bytes": 33541,
+      "sha256": "7f58a088609319f4bf944f8a4af59bdc2066eb89123b97295da2b042b8db7498",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_cable_overview.md"
+    },
+    {
+      "path": "guides/source/action_controller_advanced_topics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6f2077034285da0bcc0605f9.md",
+      "kind": "official-document",
+      "bytes": 25672,
+      "sha256": "96cadc7b147297a7426896295c4cad7093976ebc0da39c1ce5683dc3d63253be",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_controller_advanced_topics.md"
+    },
+    {
+      "path": "guides/source/action_controller_overview.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/7cca3eec1b3bb1724cff0a65.md",
+      "kind": "official-document",
+      "bytes": 53946,
+      "sha256": "bf4da55a4a82e6381266774b26effe718efea2d0c8595b4ad902879dee767ca3",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_controller_overview.md"
+    },
+    {
+      "path": "guides/source/action_mailbox_basics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/c89bdb2c750e3134cd777bed.md",
+      "kind": "official-document",
+      "bytes": 18826,
+      "sha256": "3a2d8444ec130c8240ea9790151a3698054405812bf02fc5a7c45ca7d040e6ed",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_mailbox_basics.md"
+    },
+    {
+      "path": "guides/source/action_mailer_basics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/5c1558f5dce717a4f76157cb.md",
+      "kind": "official-document",
+      "bytes": 37132,
+      "sha256": "ffde63709b5606d2e7e0161cb052d71632e6090fe3c19ec77a78ef1e7a650a22",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_mailer_basics.md"
+    },
+    {
+      "path": "guides/source/action_text_overview.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/627421de6945a9b1a34361cb.md",
+      "kind": "official-document",
+      "bytes": 18636,
+      "sha256": "3e0bc3d9d635e467f05a18d9ab699d3443d2f47e88a88f0b3a99949cff7e4d50",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_text_overview.md"
+    },
+    {
+      "path": "guides/source/action_view_helpers.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/b260bd5cf4c2991532339425.md",
+      "kind": "official-document",
+      "bytes": 31764,
+      "sha256": "113033126914f7201003bef1148024be22defd05612ecad9665577a034100b6b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_view_helpers.md"
+    },
+    {
+      "path": "guides/source/action_view_overview.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/78bdc4f7c9d00491b2d8b66e.md",
+      "kind": "official-document",
+      "bytes": 33440,
+      "sha256": "af72532a0c8a89f7450145f8ee584b3694a5219e73862d01fdbac62dfe8c2a24",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/action_view_overview.md"
+    },
+    {
+      "path": "guides/source/active_job_basics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6ca0c331944ea1d717d53901.md",
+      "kind": "official-document",
+      "bytes": 49958,
+      "sha256": "6b919ba4975cc9176d3c4f11fd58bb5d218c3f50a2ea4a3027fb38c58f54aa6a",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_job_basics.md"
+    },
+    {
+      "path": "guides/source/active_model_basics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/23eed04d38aa8b5f2fbe27d6.md",
+      "kind": "official-document",
+      "bytes": 43704,
+      "sha256": "a4a94e2fa9cf13f2c2bc4f674d0d7027f22cdebd15859563b2d1aa2a976ebce6",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_model_basics.md"
+    },
+    {
+      "path": "guides/source/active_record_basics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/45b1223961cce7fb64ee9bb1.md",
+      "kind": "official-document",
+      "bytes": 25490,
+      "sha256": "09b814a8e69fa2d387af8629ec443fb2f3ed6c815fdf24aea38bf77e0002aa05",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_basics.md"
+    },
+    {
+      "path": "guides/source/active_record_callbacks.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/f23a729d01f02c677cb61f60.md",
+      "kind": "official-document",
+      "bytes": 45034,
+      "sha256": "8f381a65f5d86955f7b2ca5b3bc607d97d64afb9407c2a506cfa5270504840df",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_callbacks.md"
+    },
+    {
+      "path": "guides/source/active_record_composite_primary_keys.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6eb25856d3fb52de85335567.md",
+      "kind": "official-document",
+      "bytes": 15830,
+      "sha256": "110388f8cc8462082dd5b2db4c3161eab751561d852892f3638e36f8352e2593",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_composite_primary_keys.md"
+    },
+    {
+      "path": "guides/source/active_record_encryption.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d7d83dbb833c5ba53e97be83.md",
+      "kind": "official-document",
+      "bytes": 31295,
+      "sha256": "e9f78bfde1de55edf4c42c509e56740f6e979bdd606b4e3c070a159455c74066",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_encryption.md"
+    },
+    {
+      "path": "guides/source/active_record_migrations.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/2c180fd99974672183e98de5.md",
+      "kind": "official-document",
+      "bytes": 72518,
+      "sha256": "94ea9313f57532bdb5b79d0291cfb32c237a351322e384c064ed9881ae78a407",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_migrations.md"
+    },
+    {
+      "path": "guides/source/active_record_multiple_databases.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/a76e37fa9848d683960604d1.md",
+      "kind": "official-document",
+      "bytes": 26078,
+      "sha256": "12232c3e2151add0f03a2d4453c355041973d65132f19dc9e49716300634aefa",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_multiple_databases.md"
+    },
+    {
+      "path": "guides/source/active_record_postgresql.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/09850737f2fd10e7595b116a.md",
+      "kind": "official-document",
+      "bytes": 24243,
+      "sha256": "3b20b7d021011795849a6bedcca97ef8c9d4ce1f2070ed375027dc6aa10928a2",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_postgresql.md"
+    },
+    {
+      "path": "guides/source/active_record_querying.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/77236751c3ab97b753f641ae.md",
+      "kind": "official-document",
+      "bytes": 108252,
+      "sha256": "b72967fcca7d0f491cb0df0dc79fe8e2be5c200343cfc20e2ad61b0e18d4675b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_querying.md"
+    },
+    {
+      "path": "guides/source/active_record_validations.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/bff040ed11b098b6f1b52ee2.md",
+      "kind": "official-document",
+      "bytes": 66323,
+      "sha256": "8a5f3b022518985c4b78cc57e6f83a9fa7f4ba1cbc4de0d028e385e6388ead89",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_record_validations.md"
+    },
+    {
+      "path": "guides/source/active_storage_overview.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/e61fcdded4b6112b041ff388.md",
+      "kind": "official-document",
+      "bytes": 66962,
+      "sha256": "5b97c51074f644ee6a589f647cf8ed1f687837c701fcfd92a6f195109aa6e4c6",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_storage_overview.md"
+    },
+    {
+      "path": "guides/source/active_support_core_extensions.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/69e4fa602a1f47160db00390.md",
+      "kind": "official-document",
+      "bytes": 144289,
+      "sha256": "3548dcbab7b28fea61456a943b40dd224eb2f50cee127f463bf866d4377ef283",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_support_core_extensions.md"
+    },
+    {
+      "path": "guides/source/active_support_instrumentation.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/a40582955b0405cde19f6f2d.md",
+      "kind": "official-document",
+      "bytes": 40105,
+      "sha256": "2641d9cb3fa76949d4eded90ae44cbd9f5867fc5b7e8cffdaf3b00fcc9e51ce9",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/active_support_instrumentation.md"
+    },
+    {
+      "path": "guides/source/api_app.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/cc07bd6ff04b8693d9e8537c.md",
+      "kind": "official-document",
+      "bytes": 19392,
+      "sha256": "1aa2e5fada05e01d04f6795859af7dd3e80442fd4cbbd775222311d486cbaf59",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/api_app.md"
+    },
+    {
+      "path": "guides/source/api_documentation_guidelines.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/cb1bc145d1ba27f6a66b135b.md",
+      "kind": "official-document",
+      "bytes": 15131,
+      "sha256": "85c0f6799254584ba28397d4d9990db931d43261cc7b38fc82e11f2f4809d7fe",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/api_documentation_guidelines.md"
+    },
+    {
+      "path": "guides/source/asset_pipeline.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/4b11ca47392b95249afbbf33.md",
+      "kind": "official-document",
+      "bytes": 30655,
+      "sha256": "6ce690403d7f9d69b6d0077d3bef846f5b35f9b745c1d08992003e23d877bc8a",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/asset_pipeline.md"
+    },
+    {
+      "path": "guides/source/association_basics.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d977574b785ce95fe656c582.md",
+      "kind": "official-document",
+      "bytes": 108062,
+      "sha256": "816b94e06f5a33f4a25a3bfb2edd30c072b9883a370b36b010737207781c0eaa",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/association_basics.md"
+    },
+    {
+      "path": "guides/source/autoloading_and_reloading_constants.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/53bdab43815751cd3f06991b.md",
+      "kind": "official-document",
+      "bytes": 30660,
+      "sha256": "7c40e36a38924a396c6467c291bbd3e67cc9e93a6fce2d04c0651e335c6d523a",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/autoloading_and_reloading_constants.md"
+    },
+    {
+      "path": "guides/source/caching_with_rails.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/3673de0675cbb963764640c2.md",
+      "kind": "official-document",
+      "bytes": 40448,
+      "sha256": "485e8131e22d17067c3de3a068e011efb5a35a63c4524dbb94b9e1fd8e59fb2b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/caching_with_rails.md"
+    },
+    {
+      "path": "guides/source/command_line.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/b4b67b1360c6975adfaef28a.md",
+      "kind": "official-document",
+      "bytes": 50363,
+      "sha256": "26e641d6e145a6d86cb486086973a9afebcbca40c2510e6de2d6bcf63fa8a36f",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/command_line.md"
+    },
+    {
+      "path": "guides/source/configuring.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/210d0f245e618b7f8c6fcb53.md",
+      "kind": "official-document",
+      "bytes": 222120,
+      "sha256": "f02556da61c77c9b93a7450be9ac32315b0d625275bd1efb5aba525e0ba59c9c",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/configuring.md"
+    },
+    {
+      "path": "guides/source/contributing_to_ruby_on_rails.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/964f5316749431d5955a3392.md",
+      "kind": "official-document",
+      "bytes": 41098,
+      "sha256": "26347d382e5302cef758e7289012df551bbe1e6b926dd399023c27cfdfdbc60a",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/contributing_to_ruby_on_rails.md"
+    },
+    {
+      "path": "guides/source/debugging_rails_applications.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/63fbda6d82a465529d5a3371.md",
+      "kind": "official-document",
+      "bytes": 30074,
+      "sha256": "d9f4c98d8f498c0fda049fda3efbba3a3b56e10e98e5d49bf508364c89c096b5",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/debugging_rails_applications.md"
+    },
+    {
+      "path": "guides/source/development_dependencies_install.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/43cbcdc6c0a3e2d5651c6ecd.md",
+      "kind": "official-document",
+      "bytes": 8449,
+      "sha256": "0d5c73d4c29928770f508a149d72f6a06970f9d84e3663537cf15b0f1f20c6dc",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/development_dependencies_install.md"
+    },
+    {
+      "path": "guides/source/engines.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/24b59a376ac3c6c642dc2044.md",
+      "kind": "official-document",
+      "bytes": 63411,
+      "sha256": "bb2b8933a575a144f984c0dc9b576e913462e2533c7602dbef77b3c7fccc0cef",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/engines.md"
+    },
+    {
+      "path": "guides/source/epub/copyright.html.erb",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/2aec2e9ae6043b1e0dca1433.erb",
+      "kind": "license",
+      "bytes": 23,
+      "sha256": "e95dc4bae5013406cee38674be11aa178868159c0881f205827660e3056ae5f9",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/epub/copyright.html.erb"
+    },
+    {
+      "path": "guides/source/error_reporting.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/dd6305f8975f9fd7c841a229.md",
+      "kind": "official-document",
+      "bytes": 11873,
+      "sha256": "541776da10b3c18fe4475427d67077d68f3cc014bee69f471e1be13f313dc09e",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/error_reporting.md"
+    },
+    {
+      "path": "guides/source/form_helpers.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/408c6c60781172cff6089142.md",
+      "kind": "official-document",
+      "bytes": 55550,
+      "sha256": "be0553ca5178ddead9dbab644741a077411846b0df53ee2862b56f1118629305",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/form_helpers.md"
+    },
+    {
+      "path": "guides/source/generators.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/35420b0ec9d9ea5df03a3502.md",
+      "kind": "official-document",
+      "bytes": 33968,
+      "sha256": "b3a77f11f72a4f2ac09ad6179cc87a0f2fd25dfae3192da41c36c9357fe51702",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/generators.md"
+    },
+    {
+      "path": "guides/source/getting_started.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/b0908447c00d5a7a884e8b43.md",
+      "kind": "official-document",
+      "bytes": 105436,
+      "sha256": "140bf66bda8c6226730f68fae7f2cbcaf1bb5b028ca25dd0d416135949e4037c",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/getting_started.md"
+    },
+    {
+      "path": "guides/source/getting_started_with_devcontainer.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/f4fc858f7a6bd11b681aacc8.md",
+      "kind": "official-document",
+      "bytes": 5681,
+      "sha256": "85a7a0fc35341de9ea693a2bd48292737bc843e2c38776a9812b9035e6722a39",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/getting_started_with_devcontainer.md"
+    },
+    {
+      "path": "guides/source/i18n.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/67f722d60df3d44c81af8870.md",
+      "kind": "official-document",
+      "bytes": 59141,
+      "sha256": "5158a0e7597f205b2b9e6f9d1661dbc6150900aa815f1e01642d0718ae7c56c8",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/i18n.md"
+    },
+    {
+      "path": "guides/source/initialization.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d3c146b35a29b2f81757be28.md",
+      "kind": "official-document",
+      "bytes": 19611,
+      "sha256": "d14a0e27acdab72488682d09c724f375c34262ab6cff6d2c7ae828fc03f15813",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/initialization.md"
+    },
+    {
+      "path": "guides/source/install_ruby_on_rails.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/4792d3513e53046c591f87ce.md",
+      "kind": "official-document",
+      "bytes": 3622,
+      "sha256": "910e7e2c0d0c7a8e5b1e696e601c26ea8f654a4fad26968d86c642f2171df3d2",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/install_ruby_on_rails.md"
+    },
+    {
+      "path": "guides/source/layouts_and_rendering.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/85d447dbd06f53f8af852ba8.md",
+      "kind": "official-document",
+      "bytes": 34820,
+      "sha256": "157734211c27ca16d5d7fe34a094b933804086c713240e53c2bed78ade3e70e6",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/layouts_and_rendering.md"
+    },
+    {
+      "path": "guides/source/maintenance_policy.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/fe194f71e9d00ab5cc75960c.md",
+      "kind": "official-document",
+      "bytes": 4339,
+      "sha256": "0cf16e64a8daed5640e31f9ecfdd3bcd6200e80ff27c1861fff2a7724cdabebd",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/maintenance_policy.md"
+    },
+    {
+      "path": "guides/source/plugins.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/1f25075453117e7b904e183a.md",
+      "kind": "official-document",
+      "bytes": 23794,
+      "sha256": "d0fa0c62fc8add3260034a610f82d34d35cb0fb29164a8d2a5ebd016143b3d8c",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/plugins.md"
+    },
+    {
+      "path": "guides/source/product_reviews.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/f9e5f85a6646c76b794a3684.md",
+      "kind": "official-document",
+      "bytes": 36542,
+      "sha256": "c3b1d4cc1f0e9d7b138763588469adf040a37b130d9bd4c47e49e8f4c33e07fe",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/product_reviews.md"
+    },
+    {
+      "path": "guides/source/rails_on_rack.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d78760bde1821d4d40bea82a.md",
+      "kind": "official-document",
+      "bytes": 20672,
+      "sha256": "8bb8ee271b05a71b4fa331d0c0c85e8450d68ea1a829a57c397056612c72d4b8",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/rails_on_rack.md"
+    },
+    {
+      "path": "guides/source/routing.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/42e915ace4a21890e4d38f5b.md",
+      "kind": "official-document",
+      "bytes": 67334,
+      "sha256": "644d2d74540d06a735542fab8650156e356a0ea71c9148e98e346bebe9d28464",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/routing.md"
+    },
+    {
+      "path": "guides/source/ruby_on_rails_guides_guidelines.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6593940740ab87cb7ac3e9e9.md",
+      "kind": "official-document",
+      "bytes": 9594,
+      "sha256": "a42f5aadc389d11b64b91709fd26767e534296dce9977061ccb0521ad6ba382c",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/ruby_on_rails_guides_guidelines.md"
+    },
+    {
+      "path": "guides/source/security.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/c0f0426bb88e0814669f4262.md",
+      "kind": "official-document",
+      "bytes": 103647,
+      "sha256": "e32f19ac26f57e8ac9d11965a823b981c614c5b42076de843b3e397ded55308b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/security.md"
+    },
+    {
+      "path": "guides/source/sign_up_and_settings.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/d579f4d27c80e4b7240535da.md",
+      "kind": "official-document",
+      "bytes": 54736,
+      "sha256": "07f162ce9af2b9ed44792ea5e47d8ff217764104f75a45d4fdbe206c555da572",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/sign_up_and_settings.md"
+    },
+    {
+      "path": "guides/source/testing.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/728c9dc4a16983e1b88d4d3c.md",
+      "kind": "official-document",
+      "bytes": 108215,
+      "sha256": "d52527849cea51032d8d8ec9087dd02cf5973556a5d5fafe35d5d9c822a808c1",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/testing.md"
+    },
+    {
+      "path": "guides/source/threading_and_code_execution.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/e28699f1b6beb9201b8e9aa7.md",
+      "kind": "official-document",
+      "bytes": 13099,
+      "sha256": "e962c6b271df360c3d2605d68b031fbac9debd950f74655d8635bdced863ef0a",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/threading_and_code_execution.md"
+    },
+    {
+      "path": "guides/source/tuning_performance_for_deployment.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/e817e940c5ce65aa2bfdf364.md",
+      "kind": "official-document",
+      "bytes": 14858,
+      "sha256": "fc24fea559afd0e9c3d240c31e0ee0bc05d3bce55bac7bc3e2d89743840bbfe0",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/tuning_performance_for_deployment.md"
+    },
+    {
+      "path": "guides/source/upgrading_ruby_on_rails.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/f5ff9aa07f44111a79d56c09.md",
+      "kind": "official-document",
+      "bytes": 120904,
+      "sha256": "f5461c368a1b15fd66376b3b39efa24dfa70ae5c7dd32b547ba86822eb0d9d1b",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/upgrading_ruby_on_rails.md"
+    },
+    {
+      "path": "guides/source/wishlists.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/8d02ac89b5abb3d31aaf90b9.md",
+      "kind": "official-document",
+      "bytes": 48302,
+      "sha256": "e1997bc93efc714fa19df443a542a41fa95e202cca826f71b4ebc967b0fa3820",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/wishlists.md"
+    },
+    {
+      "path": "guides/source/working_with_javascript_in_rails.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/6b3e3b02aafa409bc512b44a.md",
+      "kind": "official-document",
+      "bytes": 26438,
+      "sha256": "f2d0eef070c9d8bf1b885787d6b3411238582c0ae4b97b35069f1e71e5e03379",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/guides/source/working_with_javascript_in_rails.md"
+    },
+    {
+      "path": "railties/CHANGELOG.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/03ca133f807c35460f17fad4.md",
+      "kind": "official-document",
+      "bytes": 12742,
+      "sha256": "066f8bfcec068796fdba3a8cae813a491b7b682453c85cd198eb064e6e054820",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/railties/CHANGELOG.md"
+    },
+    {
+      "path": "tools/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/9cea6a1607559a2e7aefc9e3.md",
+      "kind": "official-document",
+      "bytes": 508,
+      "sha256": "78bb2cfe31c7e5ef6fd4141c34eba7b62cc62248592665146e0e43bae3137d01",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/tools/README.md"
+    },
+    {
+      "path": "tools/rail_inspector/LICENSE",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/fad570d9ecda59a75fd14f07.txt",
+      "kind": "license",
+      "bytes": 1067,
+      "sha256": "561e7832dcd330675357ed620eac476286833e330580553fdff25d6456e94ae1",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/tools/rail_inspector/LICENSE"
+    },
+    {
+      "path": "tools/releaser/README.md",
+      "localPath": "raw/rails--rails/2fe713e2e0ae/e6c0e45190b73a2d877ce54a.md",
+      "kind": "official-document",
+      "bytes": 52,
+      "sha256": "1311dbae3823a166cbb5cca238673303107d5a445761d83cdf0b31a47a8c012d",
+      "sourceUrl": "https://github.com/rails/rails/blob/2fe713e2e0ae74d3fa44d10eec03ee045d8e30a6/tools/releaser/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

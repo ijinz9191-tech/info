@@ -1,0 +1,547 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+
+= Groovy Contracts – design by contract support for Groovy
+
+This module provides contract annotations that support the specification of class-invariants,
+pre- and post-conditions on Groovy classes and interfaces, loop invariants on
+`for`, `while`, and `do-while` loops, and frame conditions declaring which fields a method may modify.
+Special support is provided so that post-conditions may refer to the old value of variables
+or to the result value associated with calling a method.
+
+== Applying @Invariant, @Requires and @Ensures
+
+With Groovy contracts in your classpath, contracts can be applied on a Groovy
+class or interface by using one of the annotations found in the `groovy.contracts`
+package.
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=basic_example,indent=0]
+----
+
+== Enabling contracts with @Contracted
+
+Contract processing is opt-in. By default, classes that simply mention the contract annotations
+will have them processed; the `@Contracted` marker is used when you want to make the opt-in
+explicit at the package level, or when you want to apply contract processing to a type that
+doesn't itself carry any contract annotations (for example, an empty class whose contract
+comes entirely from inherited interfaces).
+
+`@Contracted` may be placed on a package declaration (in a `package-info.groovy` /
+`package-info.java`) to enable contract processing across every type in that package:
+
+[source,groovy]
+----
+@Contracted
+package com.acme.banking
+
+import groovy.contracts.*
+----
+
+or on an individual type:
+
+[source,groovy]
+----
+@Contracted
+class Account { /* ... */ }
+----
+
+Once enabled, runtime assertion checking still honours the JVM's `-ea` / `-da` flags;
+`@Contracted` controls whether the AST transforms generate assertion code at compile time,
+not whether the resulting assertions execute at run time.
+
+== More Features
+
+Groovy contracts supports the following feature set:
+
+* definition of class invariants, pre- and post-conditions via @Invariant, @Requires and @Ensures
+* definition of loop invariants on `for`, `while`, and `do-while` loops via @Invariant
+* declaration of frame conditions (which fields a method may modify) via @Modifies
+* declaration of loop and recursion termination measures via @Decreases
+* inheritance of class invariants, pre- and post-conditions of concrete predecessor classes
+* inheritance of class invariants, pre- and post-conditions in implemented interfaces
+* usage of old and result variable in post-condition assertions
+* assertion injection in Plain Old Groovy Objects (POGOs)
+* human-readable assertion messages, based on Groovy power asserts
+* enabling contracts at package- or class-level with @Contracted
+* enable or disable contract checking with Java's -ea and -da VM parameters
+* annotation contracts: a way to reuse reappearing contract elements in a project domain model
+* detection of circular assertion method calls
+
+== The Stack Example
+
+Currently, Groovy contracts supports 3 annotations: @Invariant, @Requires and @Ensures – all of them work
+as annotations with closures, where closures allow you to specify arbitrary code pieces as annotation parameters:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=stack_example,indent=0]
+----
+
+The example above specifies a class-invariant and methods with pre- and post-conditions.
+Note, that preconditions may reference method arguments and post-conditions have access
+to the method’s result with the result variable and old instance variables values with old.
+
+Indeed, Groovy AST transformations change these assertion annotations into Java assertion
+statements (can be turned on and off with a JVM param) and inject them at appropriate places,
+e.g. class-invariants are used to check an object's state before and after each method call.
+
+== Annotation closure rules
+
+* Invariants should reference class fields only.
+* Preconditions may reference class fields and arguments.
+* Postconditions may reference class fields, arguments, the `result` and
+the old value of class fields using the syntax `old.fieldname`.
+
+Old values of class fields will only be stored where Groovy
+contracts knows how to make a copy. Currently, this means
+fields with a `Cloneable` class type, primitives, the primitive
+wrapper types, `BigInteger`, `BigDecimal`, and G/Strings.
+
+== Use within scripts
+
+Currently, Groovy contracts intentionally doesn't support scripts,
+but you can use them with JEP-445 compatible scripts from Groovy 5
+as shown in this example:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=jep445_example,indent=0]
+----
+
+You could even place an `@Invariant` annotation on the `main` method
+and it will be moved to the generated script class.
+
+== Loop Invariants
+
+In addition to class-level invariants, `@Invariant` can be placed directly on
+`for`, `while`, and `do-while` loops. A loop invariant is a condition that must
+hold at the start of each iteration. If the condition is violated, a
+`LoopInvariantViolation` (a subclass of `AssertionError`) is thrown.
+
+This is inspired by design-by-contract constructs found in languages like Dafny
+and Eiffel.
+
+=== For loop
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=loop_invariant_for_example,indent=0]
+----
+
+=== While loop
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=loop_invariant_while_example,indent=0]
+----
+
+=== Multiple invariants
+
+Multiple `@Invariant` annotations can be stacked on a single loop, and each
+condition is checked independently at the start of every iteration:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=loop_invariant_multiple_example,indent=0]
+----
+
+=== Rules for loop invariant closures
+
+* The closure should be a boolean expression (or multiple expressions).
+* The closure may reference any variables visible in the enclosing scope,
+  including the loop variable.
+* Assignment operators and state-changing postfix/prefix operators are
+  not supported inside the closure.
+
+== Termination with @Decreases
+
+`@Decreases` declares a _termination measure_ (a _variant_): a value that must
+strictly decrease through a well-founded sequence, guaranteeing progress towards
+termination. It applies in two places:
+
+* on a *loop* (`for`/`while`/`do-while`) &#8212; the measure must decrease on every
+  iteration; and
+* on a *method* &#8212; the measure must decrease on every _recursive_ re-entry.
+
+In both cases the closure must yield a value whose successive values form a strictly
+decreasing, well-founded sequence. Two value shapes are supported:
+
+* A single `Comparable` value &#8212; usually numeric &#8212; that strictly decreases
+  on every iteration. If the value is also a `Number`, it must additionally remain
+  non-negative.
+* A `List` of `Comparable` elements, compared lexicographically: the first position
+  at which consecutive values differ must show a strict decrease, and earlier
+  positions must be equal. This is the natural way to express termination for
+  nested loops (e.g.&nbsp;`[i, j]`).
+
+If the variant fails to decrease (or a numeric scalar variant becomes negative),
+a `LoopVariantViolation` is thrown for a loop and a `RecursionVariantViolation`
+for a method (both subclasses of `AssertionError`).
+
+This is inspired by similar constructs in design-by-contract languages such as
+Dafny and Eiffel.
+
+NOTE: `@Decreases` is incubating in Groovy 6.0.0. The contract&nbsp;&#8212; in particular
+the scalar non-negativity rule and the lexicographic shape for `List` variants&nbsp;&#8212;
+may be relaxed or extended in a future release based on usage feedback.
+
+=== While loop
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=decreases_while_example,indent=0]
+----
+
+=== For loop
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=decreases_for_example,indent=0]
+----
+
+=== Lexicographic (tuple) variants
+
+For nested loops where no single counter strictly decreases on every iteration,
+return a `List` whose elements form a tuple compared lexicographically. In the
+example below the outer counter stays equal while the inner one decreases, then
+the outer one decreases and the inner one is allowed to reset:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=decreases_lexicographic_example,indent=0]
+----
+
+=== Recursive methods
+
+On a method, the measure is a function of the method's *parameters* and must strictly
+decrease on every _recursive_ re-entry &#8212; the recursion analogue of a loop variant.
+At runtime the value is captured on entry and compared against the nearest enclosing
+invocation of the same method (per thread); a non-decreasing or negative measure throws
+a `RecursionVariantViolation`, turning a non-terminating recursion into an immediate,
+localised error rather than a `StackOverflowError`:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=decreases_recursion_example,indent=0]
+----
+
+The bookkeeping is per method and per thread, so it also handles _mutual_ recursion
+(each participant must decrease its own measure on its own re-entry) and recursion
+through callbacks. Like `@Requires`/`@Ensures`, a method `@Decreases` is *inherited*:
+an override that does not redeclare it inherits its parent's measure (with the parent's
+parameter names re-mapped to the override's); an override may declare its own
+`@Decreases` to refine it.
+
+=== Rules for @Decreases closures
+
+* The closure must return a `Comparable` value or a `List` of `Comparable` elements.
+* For a loop, the value is evaluated at the start and end of each iteration; for a
+  method, on each entry. The new value must be strictly less than the previous one
+  (lexicographically, for `List` variants).
+* For numeric scalar variants, the value must also remain `>= 0`.
+  This non-negativity rule does _not_ apply to non-`Number` `Comparable` values
+  (e.g.&nbsp;`String`) or to `List` variants.
+* A loop measure may reference any variable visible in the enclosing scope; a method
+  measure is over the method's parameters (it is evaluated on entry, so it cannot
+  reference the method's `result`).
+* Checks honour the JVM's `-ea`/`-da` assertion configuration for the enclosing class,
+  as preconditions and postconditions do.
+* Recursion measure inheritance currently requires the parent to be compiled in the
+  same unit; an override of a method from a precompiled (binary) supertype is not yet
+  instrumented.
+
+== Unwoven preconditions
+
+By default `@Requires` _weaves_ its assertion: a violating caller observes a
+`PreconditionViolation`. Real methods often already enforce their obligations
+&#8212; a hand-written guard, an `Objects.requireNonNull`, Guava's
+`Preconditions` &#8212; and adding a woven `@Requires` on top would double the
+check and change the exception a violating caller observes. Two members, shared
+with `@ThrowsIf`, cover this:
+
+* `woven = false` &#8212; no assertion is generated. The annotation remains the
+  caller's _documented obligation_, consumable by readers and tools (a verifier
+  discharges it at call sites regardless of where enforcement lives); a violating
+  caller observes whatever the existing enforcement does. An unwoven precondition
+  never contributes to generated assertions, including the inherited precondition
+  weaving of overriding methods.
+* `direct` &#8212; pure information, no effect on bytecode, ignored (implicitly
+  `true`) for woven preconditions: `true` (default) says a hand-written check
+  enforces the obligation in this body; `false` says the enforcement lives in
+  code the method _executes_ (a validator call, possibly transitive), so there is
+  no check to find in this body. Most users never set it.
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=requires_unwoven_example,indent=0]
+----
+
+The members are per-annotation, so repeated preconditions mix modes &#8212; woven
+arms are asserted, unwoven arms are left to their existing enforcement:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=requires_mixed_example,indent=0]
+----
+
+Choosing between an unwoven `@Requires` and a `@ThrowsIf` over the same guard is
+a statement of intent: `@Requires` says a violating call is the _caller's bug_
+(callers may not rely on the violation behaviour); `@ThrowsIf` says the throw is
+_defined behaviour_ callers may rely on and catch. Both are spellable over the
+identical `requireNonNull` body &#8212; they are different claims.
+
+NOTE: The `woven` and `direct` members of `@Requires` are incubating in
+Groovy 6.0.0 and may be refined in a future release based on usage feedback.
+
+== Exceptional contracts with @ThrowsIf
+
+`@ThrowsIf` declares a method's _exceptional contract_: the method throws the given
+exception when the given condition holds on entry. It is the exceptional counterpart
+of `@Requires` &#8212; a precondition says _the caller must not do this_ (violating it
+is the caller's bug), whereas a `@ThrowsIf` arm says _this input is handled, by
+throwing_: it is *defined behaviour*, part of the contract, that callers may rely on
+(and catch). Guard clauses of this shape are among the most common contract-shaped
+code written by hand (`if (b == 0) throw ...`, `Objects.requireNonNull(y)`,
+Guava's `Preconditions`); `@ThrowsIf` makes that behaviour a first-class,
+machine-readable annotation. The condition is a closure over the method's
+parameters, using the same conventions as `@Requires`, and the annotation is
+repeatable &#8212; each _arm_ pairs one condition with one exception type.
+
+The contract is read as an _iff_: the method throws a matching exception _exactly
+when_ some arm's condition holds. Two attributes generate code; the others are
+runtime-retained metadata for readers and tools (documentation generators, static
+analysers, verifiers, AI coding agents):
+
+[cols="1,4"]
+|===
+|Member |Effect on generated code
+
+|`woven`
+|`true` (default): the guard &#8212; `if (cond) throw new E(...)` &#8212; is inserted at
+method entry (the general form of the pattern `groovy.transform.NullCheck` provides
+for the null-check special case). `false`: nothing is generated &#8212; the throw
+already exists.
+
+|`checked`
+|`true`: a verification wrapper is generated (see below). `false` (default): nothing.
+
+|`exception`
+|The type the woven guard constructs (it should provide a `(String)` constructor, as
+the standard exceptions do), and the type the checked wrapper matches escaping throws
+against.
+
+|`exhaustive`
+|Nothing on its own. Under `checked = true` it gates the escaping-throw check:
+`false` says the method may throw the same exception for other, unlisted reasons, so
+escaping throws are never judged.
+
+|`direct`
+|Nothing, ever &#8212; pure information: `true` (default) says a hand-written `throw`
+statement lives in this body; `false` says the exception arises from code the method
+_executes_ (a call, possibly transitive, or a runtime operation), so there is no
+throw statement in this body to find. Ignored (implicitly `true`) for woven arms.
+This is documentation for a human reader but exists primarily for tools - if you
+are not using a tool that needs it, you can safely ignore it.
+|===
+
+=== Woven guards
+
+With the defaults, the annotation _is_ the guard:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=throwsif_woven_example,indent=0]
+----
+
+On a constructor whose first statement is an explicit `super(...)` or `this(...)`
+call, the guard is inserted immediately _after_ that call, which must stay first
+&#8212; a (current) language constraint.
+
+=== Documenting an existing throw
+
+With `woven = false` nothing is generated; the annotation is checkable documentation
+of a guard that is already there:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=throwsif_body_example,indent=0]
+----
+
+When the throw originates in code the method merely _calls_ (a third-party library),
+add `direct = false` &#8212; there is no throw statement in this body to find, and
+weaving a wrong claim about invoked code would silently change behaviour, which is
+why such arms are never woven:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=throwsif_indirect_example,indent=0]
+----
+
+Most users never set `direct`: the defaults are right for woven arms and hand-written
+guards alike, and the usual prompt to add `direct = false` is a verification or
+analysis tool reporting that it cannot find the promised throw in the body.
+
+=== Runtime checking
+
+Weaving _implements_ the contract; `checked = true` additionally _verifies_ it at
+runtime, in the same assertion style as `@Ensures`: on a normal return, no non-woven
+arm's condition may have held on entry (_must-throw_), and an escaping exception
+matching some arm's type must be justified by a matching arm's condition having held
+(_only-when_ &#8212; checked only for `exhaustive` arm-sets). A broken implementation
+raises `ThrowsIfViolation` &#8212; never the declared exception, which is defined
+behaviour delivered at entry; a justified throw always propagates untouched:
+
+[source,groovy]
+----
+include::../test/ContractsTest.groovy[tags=throwsif_checked_example,indent=0]
+----
+
+`checked` is _set-level_: if any arm is `checked`, the whole arm-set is checked
+&#8212; every non-woven arm is must-throw checked, and every arm serves as an
+only-when justifier.
+
+=== Rules for @ThrowsIf closures
+
+* The closure is a boolean expression over the method's parameters (the same
+  conventions as `@Requires`; it cannot reference `result` or `old`).
+* Multiple arms are independent must-throws; the only-when direction is a property
+  of the whole arm-set. One `exhaustive = false` arm disclaims it for the set.
+* Exhaustiveness is (at most) over the _conditions for the exception types
+  mentioned_, never over exception _types_: declaring an `ArithmeticException` arm
+  says nothing about whether the method can throw anything else.
+* No claim, however `exhaustive`, reasons about VM resource conditions: an
+  `OutOfMemoryError` or `StackOverflowError` is outside contract semantics, and the
+  checked wrapper passes any `VirtualMachineError` through unjudged.
+* When both apply on the same input, a `@Requires` violation is reported first
+  (`PreconditionViolation`): the caller's obligation is judged before the method's
+  defined behaviour.
+
+NOTE: `@ThrowsIf` is incubating in Groovy 6.0.0. The attribute set &#8212; in
+particular the `direct` metadata member and the set-level `checked` rule &#8212; may
+be refined in a future release based on usage feedback.
+
+== Frame Conditions with @Modifies
+
+The `@Modifies` annotation declares which fields or parameters a method is allowed to modify.
+All other state is implicitly declared unchanged. This is known as a _frame condition_ in
+design-by-contract terminology, inspired by similar constructs in Dafny and JML.
+
+`@Modifies` does not generate runtime assertion code — it serves as a specification
+for humans and tools (including AI) to reason about what a method changes.
+
+=== Basic usage
+
+Use `this.fieldName` to declare that a field may be modified:
+
+[source,groovy]
+----
+@Modifies({ this.items })
+void addItem(String item) {
+    items.add(item)
+}
+----
+
+For multiple fields, use a list expression:
+
+[source,groovy]
+----
+@Modifies({ [this.items, this.count] })
+void addAndCount(String item) {
+    items.add(item)
+    count++
+}
+----
+
+Or use multiple `@Modifies` annotations (via `@Repeatable`):
+
+[source,groovy]
+----
+@Modifies({ this.items })
+@Modifies({ this.count })
+void addAndCount(String item) { ... }
+----
+
+=== Parameter references
+
+Method parameters can also be declared as modifiable:
+
+[source,groovy]
+----
+@Modifies({ arr })
+void fillArray(int[] arr) {
+    for (int i = 0; i < arr.length; i++) {
+        arr[i] = i
+    }
+}
+----
+
+=== Interaction with @Ensures
+
+When both `@Modifies` and `@Ensures` are present on a method, a compile-time check
+ensures that the `old` variable in the postcondition only references fields declared
+in `@Modifies`. Referencing a field via `old` that is not in the modification set
+produces a compile error:
+
+[source,groovy]
+----
+@Modifies({ this.items })
+@Ensures({ old -> old.items.size() < items.size() })  // OK: items is declared
+void addItem(String item) { ... }
+
+@Modifies({ this.items })
+@Ensures({ old -> old.count == count })  // ERROR: count not declared in @Modifies
+void addItem(String item) { ... }
+----
+
+=== Compile-time validation
+
+The `@Modifies` annotation validates at compile time that:
+
+* Field references (`this.fieldName`) refer to fields that exist on the class.
+* Parameter references refer to actual parameters of the method.
+* If `@Ensures` is also present, `old.fieldName` references only access fields
+  declared in `@Modifies`.
+
+=== Rules for @Modifies closures
+
+* The closure must contain a single field reference (`this.field`), parameter
+  reference (`param`), or a list of such references.
+* Field references use the `this.fieldName` syntax.
+* Parameter references use the bare parameter name.
+* The closure is not executed at runtime — it is only analyzed at compile time.
+
+=== Verifying method bodies with ModifiesChecker
+
+While `@Modifies` alone is a compile-time-checked specification (validating field/parameter
+existence and `@Ensures` consistency), it does not verify the method body itself. For that,
+the `groovy-typecheckers` module provides the `ModifiesChecker` type checking extension:
+
+[source,groovy]
+----
+@TypeChecked(extensions = 'groovy.typecheckers.ModifiesChecker')
+----
+
+When enabled, the checker verifies that method bodies only modify fields declared in
+`@Modifies`, and that method calls on non-modifiable receivers use only non-mutating
+operations. See the _Type Checkers_ documentation for details.
+

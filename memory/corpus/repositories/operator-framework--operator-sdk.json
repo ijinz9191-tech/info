@@ -1,0 +1,1593 @@
+{
+  "schemaVersion": 1,
+  "repo": "operator-framework/operator-sdk",
+  "commit": "299157a814e674f8f40d1b91ee77d64a90e850de",
+  "retrievedAt": "2026-10-01T15:25:33.966463+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/App Definition and Development/Application Definition & Image Build"
+  ],
+  "archiveUrl": "https://codeload.github.com/operator-framework/operator-sdk/zip/299157a814e674f8f40d1b91ee77d64a90e850de",
+  "archiveSha256": "af33776077c0a35a71308a25f76c173f9d178c2d25cbb29dfaabcfe11d8cf5ff",
+  "archiveBytes": 3239269,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 185,
+    "code": 10,
+    "licenses": 1,
+    "bytes": 1029527
+  },
+  "files": [
+    {
+      "path": ".ci/gpg/README.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/62143dff9ebeb94086db20c5.md",
+      "kind": "official-document",
+      "bytes": 3840,
+      "sha256": "4404e76d925448a605a00be8519e8c8db44c6c13b5078e1baad3f1a168404f56",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/.ci/gpg/README.md"
+    },
+    {
+      "path": "CONTRIBUTING.MD",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c358316cc7791c98cffda448.md",
+      "kind": "official-document",
+      "bytes": 3258,
+      "sha256": "24c83a3ab38864f15d0c31ce168d4f4334a77e2e2bf76ec7e4a3371f78d04b5f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/CONTRIBUTING.MD"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 4070,
+      "sha256": "11df14a3a17f3c5714c55171950ff8fe4652f2a5c06dbd872569c13f09a54ef8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 348,
+      "sha256": "eb17f5503dd7a99721c0f320e7f7046bf9ab1d1995f8f1aba213e543650f23d1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/SECURITY.md"
+    },
+    {
+      "path": "code-of-conduct.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f1a69a41a835b5265e1c58e1.md",
+      "kind": "official-document",
+      "bytes": 2979,
+      "sha256": "bad9b68af2acfea25ec910982576d511e537f3ea702b6ce0de673f37b91c8574",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/code-of-conduct.md"
+    },
+    {
+      "path": "hack/generate/samples/generate_testdata.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/9612540744a6f4c1da624610.go",
+      "kind": "upstream-example-code",
+      "bytes": 1930,
+      "sha256": "c5800a5f05f31a50194525fffd633f0bddd9b2ad7f1598a5ed622fddec3e3eb7",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/generate_testdata.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/go/generate.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/31565057f323ac0c77ee3063.go",
+      "kind": "upstream-example-code",
+      "bytes": 1284,
+      "sha256": "b23a53767937a8f8a35ac08a9a904243e82181dee858607cf433e74ccdee46c7",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/go/generate.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/go/memcached-with-customization/e2e_test_code.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e19a7fcec2a8b5a3c8f5b74b.go",
+      "kind": "upstream-example-code",
+      "bytes": 30429,
+      "sha256": "41d69d776e68a6edcf8e5c8dea15ff432e5b0c82966c3fa9ef6229dad15ea5d4",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/go/memcached-with-customization/e2e_test_code.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/go/memcached-with-customization/memcached_with_customization.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/777ff902a90a77041f2ca74d.go",
+      "kind": "upstream-example-code",
+      "bytes": 45002,
+      "sha256": "84086a09c1fd5c76f41d86db9a8710e6f70217650adcaed2f2b06ad40c18fa5f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/go/memcached-with-customization/memcached_with_customization.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/helm/generate.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8e67720c9bd810879543f64d.go",
+      "kind": "upstream-example-code",
+      "bytes": 778,
+      "sha256": "015f386bebf1602348ab4361d278f94f23c160026f5cff867b466abf11695e80",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/helm/generate.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/helm/memcached.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/db8423fd73bbc1e9c59a42e2.go",
+      "kind": "upstream-example-code",
+      "bytes": 6321,
+      "sha256": "1bb19a2c5f8f3d78470a60b0e1d1c6f2b5cd416720bcb595e6833b27763e1911",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/helm/memcached.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/pkg/context.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/405df888af05ad7b5e415b88.go",
+      "kind": "upstream-example-code",
+      "bytes": 1090,
+      "sha256": "163e99f6534b7bf71b9b14c4accc981e87039626bb62adffac050b7afb48d9e3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/pkg/context.go"
+    },
+    {
+      "path": "hack/generate/samples/internal/pkg/utils.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/acede6d0c7ff9e064d81e8fe.go",
+      "kind": "upstream-example-code",
+      "bytes": 2799,
+      "sha256": "fe9e7706977bda8dc57ed677435a8fb9ff4b367d3459899ce0281adc2c99ace5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/hack/generate/samples/internal/pkg/utils.go"
+    },
+    {
+      "path": "internal/plugins/helm/v1/scaffolds/internal/templates/config/samples/custom_resource.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5da1f76b2b2266596d97397c.go",
+      "kind": "upstream-example-code",
+      "bytes": 2487,
+      "sha256": "32e88fb7c8566b436989cb959370fdfb28163e78edb6471dacaf4d48e6ff2f66",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/internal/plugins/helm/v1/scaffolds/internal/templates/config/samples/custom_resource.go"
+    },
+    {
+      "path": "internal/plugins/manifests/v2/templates/config/samples/kustomization.go",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4c8c73fac1d103001becc347.go",
+      "kind": "upstream-example-code",
+      "bytes": 2225,
+      "sha256": "da621ab28c255e49aba79c341442f35803ddda38112568ebcb9049df1ad93852",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/internal/plugins/manifests/v2/templates/config/samples/kustomization.go"
+    },
+    {
+      "path": "proposals/README.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/38d0e78b0aa3c1b0361bb75e.md",
+      "kind": "official-document",
+      "bytes": 379,
+      "sha256": "63769ea660ecbf2118b754bba112c06a1210852a6054b6975c63432c062bbcb5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/proposals/README.md"
+    },
+    {
+      "path": "website/content/en/docs/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d747bd8b6823ce4a9ca5dbc8.md",
+      "kind": "official-document",
+      "bytes": 96,
+      "sha256": "fca21f10987e6faafb3b1567ab9888b7d080e95c196cdc425dedc3dfd81da313",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/advanced-topics/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e451d4666dc382aef06fcc6f.md",
+      "kind": "official-document",
+      "bytes": 123,
+      "sha256": "b1221d0a06031e8ac75c077a4a86182b47c40da860a47ac132e5e8a630be1b31",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/advanced-topics/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/advanced-topics/custom-bundle-validation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/921c84e16a264fb65ea7d53d.md",
+      "kind": "official-document",
+      "bytes": 9913,
+      "sha256": "4981cf25e151afc1b49b34352be6cbef3802eae6b37a5dcfa3965820048f9ba8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/advanced-topics/custom-bundle-validation.md"
+    },
+    {
+      "path": "website/content/en/docs/advanced-topics/multi-arch.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/b32cce2e5f36cf5524396f62.md",
+      "kind": "official-document",
+      "bytes": 15017,
+      "sha256": "92caa254abad2ff49195418f2fa8993b106cf10b6318e696125f704cfd654c85",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/advanced-topics/multi-arch.md"
+    },
+    {
+      "path": "website/content/en/docs/advanced-topics/multi-sa.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4f6dd2f24c02a6ac8ff869b1.md",
+      "kind": "official-document",
+      "bytes": 3337,
+      "sha256": "9be7debaba44da57b4e5aad2b5956fceea5a1bf45b1a137885d2c24fc9cabdba",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/advanced-topics/multi-sa.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/66b5f079f1b83a45e0937520.md",
+      "kind": "official-document",
+      "bytes": 155,
+      "sha256": "82b793d6a8b3002b6a32c652d334269cd74fa6c0f235a83e924d1324b8a53b32",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/best-practices.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/87fc49e62f248298cc01d5b8.md",
+      "kind": "official-document",
+      "bytes": 8118,
+      "sha256": "ed81106918541d9babf8c1b9484e1f22c6cc7ca5bcd1f1857685b15e62a1528b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/best-practices.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/common-recommendation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4c8d6f019647369b0a06a2e7.md",
+      "kind": "official-document",
+      "bytes": 8236,
+      "sha256": "aa1cb00a387a2edc32dfc79380c5af8cd1878f70ff535278928fe3dbd5e881eb",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/common-recommendation.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/designing-lean-operators.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6b059eb92c6390a1340533be.md",
+      "kind": "official-document",
+      "bytes": 2049,
+      "sha256": "9d6a0c20662809887d2de1c295a83a28a0a0c9f5d75f9e829a03163e268310ad",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/designing-lean-operators.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/managing-resources.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/67645db4c61b429a0d1a4421.md",
+      "kind": "official-document",
+      "bytes": 13275,
+      "sha256": "101db3f34c7cfbc45a33b8aea19887d978c60309772aa62dfb8ff86cb1370000",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/managing-resources.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/multi-tenancy.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6b4e778e2f5bbf2bc93e8202.md",
+      "kind": "official-document",
+      "bytes": 4109,
+      "sha256": "bb3a99e6987dcb93897ecb74041a394f3c0b2b20a8846d3eafed7921a5487326",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/multi-tenancy.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/observability-best-practices.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ce07974f5ee8cd9dd71866ac.md",
+      "kind": "official-document",
+      "bytes": 18956,
+      "sha256": "a81fe6a05f1f25be9760a7e3e1a4a64b50e1d81a9855c41a0285478541bfdb1f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/observability-best-practices.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/pod-security-standards.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/bb6442409368badca793e81d.md",
+      "kind": "official-document",
+      "bytes": 19562,
+      "sha256": "1e3aea9c8a721638441d53ddc17f66b2af7dc2a6844b55e18b2b29471259f598",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/pod-security-standards.md"
+    },
+    {
+      "path": "website/content/en/docs/best-practices/resource-pruning.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/82d678e71293b0e9c92d26e8.md",
+      "kind": "official-document",
+      "bytes": 7494,
+      "sha256": "350b1e21faf13f836af3ff82839d4462b88222a027561ca19009667dc872f209",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/best-practices/resource-pruning.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5a41b7374b171636bcf3f07e.md",
+      "kind": "official-document",
+      "bytes": 150,
+      "sha256": "32924433e564b8b6d32ce51be9f736795facec0e10d1b84086c787719f66b769",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d40cdb2100696b3f45568c32.md",
+      "kind": "official-document",
+      "bytes": 108,
+      "sha256": "b156f6f7ee1d1c97788db543fc53ade01769962d22a224124b6293ed597ae30f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/development-tips.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e5461ece8fb5a955c9dcb7d2.md",
+      "kind": "official-document",
+      "bytes": 18058,
+      "sha256": "4b84ee6adc8561b9e378c9f9f26fb12c2e546504a3c0016ad6f11632b3b91aeb",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/development-tips.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/installation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/24519fb45c2031f9dc062ec2.md",
+      "kind": "official-document",
+      "bytes": 1161,
+      "sha256": "614c4ca7dd52b9590e7b9d9aaa2381939b9aaf8e68caa7ac4ee17aa5fb124023",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/installation.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/migration.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d9b8354d35dd8db34cbc8273.md",
+      "kind": "official-document",
+      "bytes": 12816,
+      "sha256": "9e2d2669ce143d08bf6791e32d2142df104b62657fa8f23dba59b011f5cb30b8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/migration.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/quickstart.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/605aa997f282fac9a097aa68.md",
+      "kind": "official-document",
+      "bytes": 3081,
+      "sha256": "8b50134a4a477a8f84fb19ffec754521364c83b0a0de67e260e803ea522cf93d",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/quickstart.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c140967dea974e26121ea784.md",
+      "kind": "official-document",
+      "bytes": 81,
+      "sha256": "3160730cdae286bae31112a37ea13dc8da1f9ed0a6379b0b0422c9711698b8ae",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/advanced_options.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e593ac7fb313ed3b0b8dde41.md",
+      "kind": "official-document",
+      "bytes": 12643,
+      "sha256": "0bd3937e9ed791c961d36d98648a8fa925c6d40d8600125fb037e3485ce8f97a",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/advanced_options.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/ansible-base-images.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d1c34560ff4ad046e9816eac.md",
+      "kind": "official-document",
+      "bytes": 1835,
+      "sha256": "c8a11a48e2b12ffaf3926156266b2be2d7b49ddf7158cd28ec39105d51b2ca07",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/ansible-base-images.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/dependent-watches.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d586d3c6fbdc18e673d0db72.md",
+      "kind": "official-document",
+      "bytes": 2638,
+      "sha256": "f471d0b16440c6fe09f2da3a5f92e8a73248d613d209ddcba15d014aa4fa4d79",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/dependent-watches.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/finalizers.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2f39d981a395ea1687f8e530.md",
+      "kind": "official-document",
+      "bytes": 5982,
+      "sha256": "ce0bc2ff175c0be7282cc0aa92887155ab28641445864ee920512c2f82298041",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/finalizers.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/information-flow-ansible-operator.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4294e7b1edc004740b01b84b.md",
+      "kind": "official-document",
+      "bytes": 2409,
+      "sha256": "e9e4cb5e5cb9e6c18a939524ec2339efbaedbde6f6c91da0adcc255e04239ef9",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/information-flow-ansible-operator.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/internal_metrics.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/fa6d082ef718447bea92d2da.md",
+      "kind": "official-document",
+      "bytes": 1418,
+      "sha256": "e682c1c1adf8547af06be9680539bcda339b87f41ec7c2ecc3f752a0a1d44f18",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/internal_metrics.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/proxy-vars.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/51dee85d8fc7ef4a29a72671.md",
+      "kind": "official-document",
+      "bytes": 1392,
+      "sha256": "4980ec622e5c20643ebb7c9c1592f5e4e2de8c75e80e2d77ead301263f96fd45",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/proxy-vars.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/retroactively-owned-resources.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/608b474b6e58c8aa38088555.md",
+      "kind": "official-document",
+      "bytes": 5932,
+      "sha256": "eb1ed0d069f6459e25292434333f698d6e83d06349de28f6d0dd9f4cc7315f0f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/retroactively-owned-resources.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/scaffolding.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c0eff580a11f3b60ff309a6a.md",
+      "kind": "official-document",
+      "bytes": 5177,
+      "sha256": "206a2fdb117788a0316378c5a0c9aef11f397357d075e0ebc4cd41f1f309eba3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/scaffolding.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/watches.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/74708484b5a126da4e8cc0c9.md",
+      "kind": "official-document",
+      "bytes": 7587,
+      "sha256": "4d759b78ad30e7ab52e697c0a12428af2dff303bd248383813419d93e5bd9c60",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/watches.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/reference/webhooks.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/1ad4ea867c3bad25d010c0af.md",
+      "kind": "official-document",
+      "bytes": 6930,
+      "sha256": "bdbe302676a4ad9afa03b553954a241c00be3d6fbf8b2800dfa82456b048c607",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/reference/webhooks.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/testing-guide.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f07c648d4ade46b056f0281d.md",
+      "kind": "official-document",
+      "bytes": 12299,
+      "sha256": "5ada1ff1a3869e12e843f1cfb7f5324b67e7f0b84cbc4d2ce13097cdb54e83e3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/testing-guide.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/ansible/tutorial.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/904511a83c884e3a04cbd118.md",
+      "kind": "official-document",
+      "bytes": 12465,
+      "sha256": "ddb9cb76d1838e925140602a6700c7ad337d811ba4c05bbdd981abcb48d7f41f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/ansible/tutorial.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a82f5d2b8b1c0c761b4f177d.md",
+      "kind": "official-document",
+      "bytes": 98,
+      "sha256": "2b5bfc80f859954614961742f776165776d9721422bde9f0734b517e13a502a9",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/advanced-topics.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/962b5dd22198f3d96e2b42df.md",
+      "kind": "official-document",
+      "bytes": 26236,
+      "sha256": "7059b54aacb5d659102a83aca6f36a9d2972e528645fb42493c73dba9176f564",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/advanced-topics.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/crds-scope.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a9d1f8f8996885ed9df4b049.md",
+      "kind": "official-document",
+      "bytes": 3980,
+      "sha256": "4184553dee09de4d8ec66790b63f17511c2f0529a8ca091f87bf5c241b93b83d",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/crds-scope.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/installation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ed4ae522b378054b142772be.md",
+      "kind": "official-document",
+      "bytes": 733,
+      "sha256": "f7f8c35e051572b164a483fd64ddce8daf049d0890f00b57d793e699e776dcb1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/installation.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/migration.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6361aec5d88aa0231cd588b0.md",
+      "kind": "official-document",
+      "bytes": 23982,
+      "sha256": "d0a54e46d065d950d23a7cc34c2cb22a2a68f428f6440dd51a8f5ed70c94cbe9",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/migration.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/operator-scope.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/da325ef4dc9e54e746e200a8.md",
+      "kind": "official-document",
+      "bytes": 11961,
+      "sha256": "5c3f6d899bf413a744c9ebd9c2590bd07b9bcc98563c214e0e081e629c5e9adc",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/operator-scope.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/quickstart.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/144ee4fe7c63a792e842fe88.md",
+      "kind": "official-document",
+      "bytes": 3739,
+      "sha256": "2d20592222ac19a265fb5c468b43c6243aa8bba34dca80ea4842f9e14be4532e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/quickstart.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/657c513b5ab4cd4c49e1c0d4.md",
+      "kind": "official-document",
+      "bytes": 75,
+      "sha256": "bce8b0367347cc99240068392f4d4a7315837efc42808983a004414b58ab02f4",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/client.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8ba5c129826f8db78fb42406.md",
+      "kind": "official-document",
+      "bytes": 21213,
+      "sha256": "0a2fa5f04dc02f1b536743ec5241cd3dd440ce117b15952e2acbc52bcb93632d",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/client.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/event-filtering.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5fad6434802fae72f263f2de.md",
+      "kind": "official-document",
+      "bytes": 4404,
+      "sha256": "05e18aaf9540a3ada3c9930274e71a4bddebeb41218d0ec87d81e6ac65d1738b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/event-filtering.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/logging.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d614619b7488e4ec363ecc00.md",
+      "kind": "official-document",
+      "bytes": 10005,
+      "sha256": "f8904a744b43bce395f1b06b798ed2e82a8bf1461c1bfd883782f55a58f4cf72",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/logging.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/markers.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6e3609cd1088cc547e293fde.md",
+      "kind": "official-document",
+      "bytes": 7216,
+      "sha256": "ba3403ac9bbffbcd36da0bd26054385f1f239612128ab83ae3baad4e7a568185",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/markers.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/openapi-validation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/891ac1e1e10452cbe0598383.md",
+      "kind": "official-document",
+      "bytes": 1178,
+      "sha256": "48babe675b285b1e1c2b95343caff9c6d4280ae1b59c1f00f48a83dd9bbe1dd2",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/openapi-validation.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/references/proxy-vars.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/75b54f68c8f11fb9361821b0.md",
+      "kind": "official-document",
+      "bytes": 1122,
+      "sha256": "13f7947ed2cc34f4017d7ba6904d39f32289dbad634fb5e6c0f0e4049e401b49",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/references/proxy-vars.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/testing.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/35e3e2d72a6dbd2812e64849.md",
+      "kind": "official-document",
+      "bytes": 4791,
+      "sha256": "876cd0017c435daad3fb8d01ec3efb7a9b5ddea88845c86eadaa4ac6f26fad98",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/testing.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/tutorial.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c6d77e2b8138b3ff32cb4bba.md",
+      "kind": "official-document",
+      "bytes": 27057,
+      "sha256": "070bfd445f16c285425960008e1390c0e8c317d2022aa486901c9828a4f3afc5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/tutorial.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/golang/webhook.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/386118fc108e2479e4ebd17c.md",
+      "kind": "official-document",
+      "bytes": 5572,
+      "sha256": "69fff4bf041c9175bbde562d7eb05de623c5643e28d6f5f2333a15852f235fee",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/golang/webhook.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ed59aeb68d51ccb8ef32f14c.md",
+      "kind": "official-document",
+      "bytes": 102,
+      "sha256": "e37f3988b7e6185bb9d91f358bcfdca60db1a10bd298bf35f1b3412bfaa6012b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/installation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/853bec706ada6ee3e7534380.md",
+      "kind": "official-document",
+      "bytes": 613,
+      "sha256": "4a946cf306a4c938bf42bbd70e717afa997bff0605a026fad2d74eed6930c25f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/installation.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/migration.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/28650213a6ccb3b8b1519928.md",
+      "kind": "official-document",
+      "bytes": 9476,
+      "sha256": "2ca415fd70ee9f97643ee0c4d0ca02b7fce44883f4a2e5fb36052f309bf3e01e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/migration.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/quickstart.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6724dd3e952154394375bba9.md",
+      "kind": "official-document",
+      "bytes": 3058,
+      "sha256": "b8f2452542b2bcce803a617952944078db5fb4cca3ee373850cd2a2d165f5183",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/quickstart.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2532ebce618fca85e45df548.md",
+      "kind": "official-document",
+      "bytes": 144,
+      "sha256": "53f8910b10f8382bcdcd24a7f629c0d8336a9f90e6d1a98523e0342a7183d5d5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/advanced_features/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a682607b1ab2b455187f19b0.md",
+      "kind": "official-document",
+      "bytes": 173,
+      "sha256": "e1d9167d361cb968a0356e6b80dfda54ad799ef6b0f1b23699284254802001e8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/advanced_features/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/advanced_features/annotations.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/34cc2e09d243b689528282e1.md",
+      "kind": "official-document",
+      "bytes": 6854,
+      "sha256": "a8c10f6fcb24025ca721c2242f97bd32c316a8ac26cd9864b305d42d3e07bbfe",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/advanced_features/annotations.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/advanced_features/max_concurrent_reconciles.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/996498ee069329cd850bf071.md",
+      "kind": "official-document",
+      "bytes": 1374,
+      "sha256": "37fb454ca15dd7cb4dcba60bbb54541175769c375581d2857ef0a2d249cb6b3c",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/advanced_features/max_concurrent_reconciles.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/advanced_features/override_values.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2c4f0966019af61c80cb3ef9.md",
+      "kind": "official-document",
+      "bytes": 4781,
+      "sha256": "8a28bd3ed34d681eab34b2d3e0e689ebcb33c25ef4add46256d7a4b635c1c9f6",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/advanced_features/override_values.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/proxy-vars.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2cc2c8a941069017dfcf0c41.md",
+      "kind": "official-document",
+      "bytes": 3206,
+      "sha256": "fa7ea15c5030492b67be313e8c5ea18b5ea773392dd748e6876b5e3319254022",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/proxy-vars.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/reference/watches.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8655b8df7b8865b1e15f4097.md",
+      "kind": "official-document",
+      "bytes": 2163,
+      "sha256": "eba95894226334b92393c9f94b476770f19807141b8f525aa3151cf1bef1a8c2",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/reference/watches.md"
+    },
+    {
+      "path": "website/content/en/docs/building-operators/helm/tutorial.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/1765182f58d635ca332f41d1.md",
+      "kind": "official-document",
+      "bytes": 12979,
+      "sha256": "351182f8b14dee047668070bd9a64f30fe58073ab89f3b865b97010c9740ecef",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/building-operators/helm/tutorial.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/bb6f2102a76464c7789e01f6.md",
+      "kind": "official-document",
+      "bytes": 115,
+      "sha256": "0d2da56dce3f89aa346d48c3b05079cbbc3594ee160d56d0b968cfb40311597f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/006aaffcaf17827416a64f58.md",
+      "kind": "official-document",
+      "bytes": 2677,
+      "sha256": "9b42e0fc02efdc78f9429c169e0851b8dbcf405438f762b580a89d07a4cafbe5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_alpha.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ef5752b5d3bb464669f79385.md",
+      "kind": "official-document",
+      "bytes": 829,
+      "sha256": "10c4002872fd657b155b9de5709279f590838f1b2f5d0cee999611cfc70cc94c",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_alpha.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_alpha_config-3alpha-to-3.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/544a3e6c32c936238a5a361b.md",
+      "kind": "official-document",
+      "bytes": 1029,
+      "sha256": "62621b9bde7348c21213a382e413457956b2bb5f5c5113f1cab45a4c6cddba4e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_alpha_config-3alpha-to-3.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_alpha_generate.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/9087b67e20bab2a6582d72a5.md",
+      "kind": "official-document",
+      "bytes": 1254,
+      "sha256": "4a636445133a9bed005bb2e70ba3f229a1c161f492ebf0eba1e41384c8c83fc1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_alpha_generate.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_bundle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6c388eafeaaef6f037891617.md",
+      "kind": "official-document",
+      "bytes": 971,
+      "sha256": "70d933857a72af5bd95548b1580781e487dead5f33d272926bd6f84e36cd64e3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_bundle.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_bundle_validate.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3899389841263d6552fefa0d.md",
+      "kind": "official-document",
+      "bytes": 6390,
+      "sha256": "243fdee61d179e61de28969896906713e950bc3e6b3d95fa129e9cd043dd6b05",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_bundle_validate.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_cleanup.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c659f6c94537d2e9c1a29578.md",
+      "kind": "official-document",
+      "bytes": 1125,
+      "sha256": "9cb53ffe3c205bd5af296b1b30e780aff7b4f290a14e9bc97d539b733a69f9ef",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_cleanup.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_completion.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/40acac54152f0fc1e7f7a68c.md",
+      "kind": "official-document",
+      "bytes": 1035,
+      "sha256": "c704b10303fab891543c0c4e6bf1f88a8ede05882d8825ef9fbbebfe679828ad",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_completion.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_completion_bash.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6b912d73eb0a183dd1c219a7.md",
+      "kind": "official-document",
+      "bytes": 829,
+      "sha256": "2cfb11e013e2573bc28f028ee95a74a0ddda65bfb72a34be828c25633d9aab6e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_completion_bash.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_completion_fish.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4a008b4738967c20e80337fd.md",
+      "kind": "official-document",
+      "bytes": 740,
+      "sha256": "a8663a8921925da749c39e52f2bd06699a1262d3969bf60756ef52abb2216ef7",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_completion_fish.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_completion_powershell.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/bc3d3ed02e079288c510b0f1.md",
+      "kind": "official-document",
+      "bytes": 525,
+      "sha256": "b68858f94354ede82719b71e9f3814ee3ba2a6f5c322983b3ab76bc959c1e4c1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_completion_powershell.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_completion_zsh.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e2bebfc42b2abdf52fdb1a6d.md",
+      "kind": "official-document",
+      "bytes": 881,
+      "sha256": "00a704ccd24d12e448afce8513d24f0b33caaab6e4ec45071f7a690e217f3c02",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_completion_zsh.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_create.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5fbe565b079aa2d580dff04d.md",
+      "kind": "official-document",
+      "bytes": 630,
+      "sha256": "a555241e1896a653f3665f3d6959b4f2da20f323c599235ed3a9ec85575e56bd",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_create.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_create_api.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4ce2dd530a634f04c1e77732.md",
+      "kind": "official-document",
+      "bytes": 2634,
+      "sha256": "c8ec98bc8c04eab17def34d315fbfdb0b1dfe322b832bbd445b8f62c5965b3f5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_create_api.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_create_webhook.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/dd03b69150b0db8a11846558.md",
+      "kind": "official-document",
+      "bytes": 2482,
+      "sha256": "75b842a8f9924b09200a5d0ed2f46a0ec2a8b8a603554dd6616ab4bc3b7fc02c",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_create_webhook.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_edit.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/32827939ea74f3fef3e3a4f2.md",
+      "kind": "official-document",
+      "bytes": 775,
+      "sha256": "73eef91c36e4ba94941ab8ae313d9d8fbb44537e1be9f87220cdc78c1bde63ed",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_edit.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_generate.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2290356e363f688760fc5a3c.md",
+      "kind": "official-document",
+      "bytes": 764,
+      "sha256": "ea52628c5286813082162a7b5d0f7b5c8591e005694932c995e02a83414fa65b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_generate.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_generate_bundle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2adcaf03b7db65fe8f0d1319.md",
+      "kind": "official-document",
+      "bytes": 5934,
+      "sha256": "a7f09a8e7c29c4e4b3dc1da62fc6716898f285860e38d93f2b5d43741e605585",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_generate_bundle.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_generate_kustomize.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d358998dcfcc2e3d564114ee.md",
+      "kind": "official-document",
+      "bytes": 687,
+      "sha256": "8af3120c32aa77119b2467657bc9ab40d5cfd76bd8bc3f49441a94ccee872add",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_generate_kustomize.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_generate_kustomize_manifests.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/d10a56f09299dcd5b311655d.md",
+      "kind": "official-document",
+      "bytes": 2175,
+      "sha256": "0a32669e5b7a15f79819ca0d7f5ecf6f3dcd79f0971846684b2da43e25ab5ed3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_generate_kustomize_manifests.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_init.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3c5a633a166369aedac0fa5e.md",
+      "kind": "official-document",
+      "bytes": 1787,
+      "sha256": "b1cebd9d8f48e7245f49c5df9cfa3c3129a99b6f8604d687338fc97036ec5e05",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_init.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_olm.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c17c36757e5639ffdc624e28.md",
+      "kind": "official-document",
+      "bytes": 776,
+      "sha256": "75e78e83df0bdb90c941ca700755a98a921ae7160c90116b2939c58d6caf96f3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_olm.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_olm_install.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3194b7d1d87d0ac8d890d642.md",
+      "kind": "official-document",
+      "bytes": 719,
+      "sha256": "dfdbc83e030908c709b1142973b9125b6c1b55f09ab9413f066112136df7996b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_olm_install.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_olm_status.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/096778afa38a8a64e20657d5.md",
+      "kind": "official-document",
+      "bytes": 875,
+      "sha256": "09fb1d0365979c1ac9dd83b0e3dc40bc54012a83a262ae68dd8867b03c58c92d",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_olm_status.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_olm_uninstall.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/76096b4b2f575bdab09c25d0.md",
+      "kind": "official-document",
+      "bytes": 821,
+      "sha256": "c35598cb89adc16a3becd761255cbbbc680ffb4ad8825df8cc8d5f7653bc6770",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_olm_uninstall.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_pkgman-to-bundle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/6f8c20dca6ed67f823601988.md",
+      "kind": "official-document",
+      "bytes": 4403,
+      "sha256": "e77fc1dffbdea5a3c15df62c8462ed62b2cd20753ca2bbc9366477d1d338927a",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_pkgman-to-bundle.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_run.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8157f91f880af7b4514ffc28.md",
+      "kind": "official-document",
+      "bytes": 724,
+      "sha256": "58191f4b60fcbde3cf7b5670e13cfad660ea8b24425b0aeba97e1d2187539bc1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_run.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_run_bundle-upgrade.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/166e1d8ffc4442c03f36c0d5.md",
+      "kind": "official-document",
+      "bytes": 2826,
+      "sha256": "263b20b3cef00d6e71675b8c096225295026f61949e7721defc404eaa36c41f0",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_run_bundle-upgrade.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_run_bundle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/1d244aaa5b7abf592641d7b3.md",
+      "kind": "official-document",
+      "bytes": 3960,
+      "sha256": "e65c10776256b5890a01ac723ce664eeec97ba5033f7dfae45f821c85f08b7e3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_run_bundle.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_scorecard.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/61f544ab83ca46d4a986b98b.md",
+      "kind": "official-document",
+      "bytes": 1977,
+      "sha256": "dddc6cf59114ea244f810ee0c14065018c7aa3d0107176eaffd0781c754ab442",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_scorecard.md"
+    },
+    {
+      "path": "website/content/en/docs/cli/operator-sdk_version.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/0da825c6deddd6572b6f93ce.md",
+      "kind": "official-document",
+      "bytes": 511,
+      "sha256": "28268703fba80b793a77df77784a59f682da39257d47289273c4844097a72546",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/cli/operator-sdk_version.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2f7b61e1d372af19e7479ba3.md",
+      "kind": "official-document",
+      "bytes": 114,
+      "sha256": "5f647eab3e30c00370d848e1c6f29a52703238c477a3e725885fc8e64c4570e3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/changelog.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/009ca5003d2252b504f438ae.md",
+      "kind": "official-document",
+      "bytes": 763,
+      "sha256": "d81f4ff2453a2b475ee4db84e3f47f1b8a68852323244ad699b8e492a52daa9f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/changelog.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/developer-guide.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/03bcf4e90cc70a3cf388d131.md",
+      "kind": "official-document",
+      "bytes": 2188,
+      "sha256": "33ac98e937503e635300c873c4f4d633c096d4eefd4b569c0b80a07b08d2ddc8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/developer-guide.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/documentation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f20a858d26eadb0534755665.md",
+      "kind": "official-document",
+      "bytes": 1907,
+      "sha256": "5713349e17e1dfe27d17ae42f7d825c534d1d7d170c3af83b9c32568e5d4bd17",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/documentation.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/faq.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/883625498958017e34bd581f.md",
+      "kind": "official-document",
+      "bytes": 422,
+      "sha256": "f6833470e7c169be1fa3eb22847d6ebccac8786f3d406f8bc45d357dfffce13e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/faq.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/issue-lifecycle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/dbea30ec5458fcc4cd44d078.md",
+      "kind": "official-document",
+      "bytes": 1143,
+      "sha256": "7116421e27431276253c438f8d67bfc7e319d19bc8deb6a925608bb7c3160139",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/issue-lifecycle.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/opening-pull-requests.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/826b1143a9948a481e1563b6.md",
+      "kind": "official-document",
+      "bytes": 2067,
+      "sha256": "87c35ee577d94346dde0b9afb3d210e5bb36e81f66c845320d1ebd1385f970c4",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/opening-pull-requests.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/plugins.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3764729770e3eb85afb67bbe.md",
+      "kind": "official-document",
+      "bytes": 5585,
+      "sha256": "18378c971b18400b2a61266cb5a0293e8d6c04dc4ad9d470c7eed98d05cce318",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/plugins.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/releasing.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/91f81ae6ca40bd262f4f7b9a.md",
+      "kind": "official-document",
+      "bytes": 16625,
+      "sha256": "2efdb95d958338ec08dbbc17f5a0c678f3473181ab15b1752c4ff15dc46fae2c",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/releasing.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/reporting-issues.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/015cc323439390fb1db454dc.md",
+      "kind": "official-document",
+      "bytes": 1666,
+      "sha256": "39b709a549e5d9dfff4030244fddc16c5545822e4b3e4aa8f4b2a063d9cb0531",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/reporting-issues.md"
+    },
+    {
+      "path": "website/content/en/docs/contribution-guidelines/testing.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a72e06d02b85361ecb410d24.md",
+      "kind": "official-document",
+      "bytes": 1939,
+      "sha256": "55793c81f1f9890d740bab3d1c532aab7e7dbd079b7f4fa4fa2af20218a3e68d",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/contribution-guidelines/testing.md"
+    },
+    {
+      "path": "website/content/en/docs/faqs/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5c64a6e094436aa1fd126046.md",
+      "kind": "official-document",
+      "bytes": 20542,
+      "sha256": "cef7a48d808aa143809a2555207f40678223ebd78d04224b611163db78189dd4",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/faqs/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/installation/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/67f7d617c6c3b9946e5191cd.md",
+      "kind": "official-document",
+      "bytes": 2615,
+      "sha256": "891f86f8055f6e5cdacbae102615bc35f787c1da17e367a1adf863390a8edbe2",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/installation/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a88e02daef6c71570c23dfc1.md",
+      "kind": "official-document",
+      "bytes": 221,
+      "sha256": "c72d631487417d5c642629261b98dbf174d4f1f78cd3239351139563a6401e40",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/cli-overview.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/351fa493fe09918641d59ac4.md",
+      "kind": "official-document",
+      "bytes": 6496,
+      "sha256": "e8ce76fb74ee81cbb9f3e9bc94207f867d92db8c0a11dd8cdd8edf140931e54f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/cli-overview.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/generation.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/39a0b4d2be897a2313ba42fc.md",
+      "kind": "official-document",
+      "bytes": 24080,
+      "sha256": "fe832ed06d67e2cc0f2932d4515f91773ba1f8a80ca44f1e31118bd994238bf5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/generation.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/quickstart-bundle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f4c30e44bd16c6881145ee8b.md",
+      "kind": "official-document",
+      "bytes": 2282,
+      "sha256": "a7194a82ec6f15e1a0aff4ed01da2b0fee7415f344fc076bcc03280cb37a9490",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/quickstart-bundle.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/testing-deployment.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/9a8457fbd1b23d68ceb2ba5a.md",
+      "kind": "official-document",
+      "bytes": 10055,
+      "sha256": "45a6bd3e9127ed023cdf4d94fdacf1b4c848f7df0150704d03dd1364a47bfacf",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/testing-deployment.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/tutorial-bundle.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4f9058132e20f5ec9c9bd3fa.md",
+      "kind": "official-document",
+      "bytes": 16987,
+      "sha256": "db7671a1f181ba2c65226d8e895d95176e4fb9682fc3f9020d35a87ae259591f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/tutorial-bundle.md"
+    },
+    {
+      "path": "website/content/en/docs/olm-integration/tutorial-package-manifests.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c37e481a11b64db0dfa40a6d.md",
+      "kind": "official-document",
+      "bytes": 9524,
+      "sha256": "d9d1a60b6f5380fa9f53456917668fe40247039d809af96b5953c3d79e23f512",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/olm-integration/tutorial-package-manifests.md"
+    },
+    {
+      "path": "website/content/en/docs/overview/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/169b317ae220be1e799f94b5.md",
+      "kind": "official-document",
+      "bytes": 8801,
+      "sha256": "14dd983221ff48aaf1cb200979c7d803ba91287d1d5f994246643252f94d9049",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/overview/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/overview/cheat-sheet.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/86926108e056eea8d40863c7.md",
+      "kind": "official-document",
+      "bytes": 6111,
+      "sha256": "6f4395eac5c8513a3175e6e7e717d934f95c91e5647ec47761ef0705f43a6b7a",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/overview/cheat-sheet.md"
+    },
+    {
+      "path": "website/content/en/docs/overview/operator-capabilities.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/da48388e7c49cbf788ac23d3.md",
+      "kind": "official-document",
+      "bytes": 14953,
+      "sha256": "6333dd90b74a65a729c60ce2400d567763f88370dd3632c40cd724f4b63ddc93",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/overview/operator-capabilities.md"
+    },
+    {
+      "path": "website/content/en/docs/overview/project-layout.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8b4f44bf72a0d3203bef828a.md",
+      "kind": "official-document",
+      "bytes": 6533,
+      "sha256": "7923f9840bdb2a871fe9e345fa195c691fe5526d1ab452780816ed897ace5379",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/overview/project-layout.md"
+    },
+    {
+      "path": "website/content/en/docs/testing-operators/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f4d6b1445d453c665e23e75d.md",
+      "kind": "official-document",
+      "bytes": 83,
+      "sha256": "ccbfac341fa3b582bd2dfbe675d2bcd4b4a7491779db9116e71ff1b7c00be9b0",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/testing-operators/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/testing-operators/scorecard/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8f72dfc04b763b31b2927b72.md",
+      "kind": "official-document",
+      "bytes": 13195,
+      "sha256": "d3afbd4c081a830ce5ea0fb884156f4a63b94c4f7e979e0f584d0fff42726263",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/testing-operators/scorecard/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/testing-operators/scorecard/custom-tests.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8b7cca34fc3cbca0bb894927.md",
+      "kind": "official-document",
+      "bytes": 13432,
+      "sha256": "c1e98657a84994cf3eb336762b2efa5181270b846ae9d0c866c7fe41f2575875",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/testing-operators/scorecard/custom-tests.md"
+    },
+    {
+      "path": "website/content/en/docs/testing-operators/scorecard/kuttl-tests.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/cf7f38e87c59af93fca48eb9.md",
+      "kind": "official-document",
+      "bytes": 6343,
+      "sha256": "2996eeb3f367ce976023ad68b197175c8cbc6d3fd8d1e1c3542530d16c52e3ea",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/testing-operators/scorecard/kuttl-tests.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/_index.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/61de73d123079b61f0b3c781.md",
+      "kind": "official-document",
+      "bytes": 638,
+      "sha256": "4b45c3e3d7ccd8f5f19db7f96ecf89f6e1dc7b61823170fd628ad7ba2bdc4c40",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/_index.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/backport-policy.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/0031e4ad7bc5a5e1ab752666.md",
+      "kind": "official-document",
+      "bytes": 954,
+      "sha256": "7eb6922ad6aa6edeccdf63093fe833c580e6505ffafc810c48883875bd328fcb",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/backport-policy.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v0.1.0-migration-guide.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/696405da3206512521e47942.md",
+      "kind": "official-document",
+      "bytes": 14070,
+      "sha256": "e92b234c7b4aed4f236a20fa055370aa8f80e96b3d0aa38b33d945d1d01693e2",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v0.1.0-migration-guide.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v0.18.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/bc73844dbb3a7cb381698a35.md",
+      "kind": "official-document",
+      "bytes": 5858,
+      "sha256": "ecdc3acb21ef60c82bab885bda3e66c706631d34bf48493b2eb40f808a1befc0",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v0.18.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v0.19.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/7f7f18ff3dd74b259f376d38.md",
+      "kind": "official-document",
+      "bytes": 2702,
+      "sha256": "5f9084990d0091d23d752447149b3346d385dee24c9d803e737ae1f8d5e80361",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v0.19.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.0.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/82c6b96d19360e94f42e369e.md",
+      "kind": "official-document",
+      "bytes": 20298,
+      "sha256": "262903d3d4da45f183a8322d6b0f01c4a9857231d52ec16423fbbcc43795c52a",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.0.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.1.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/94bb64cd9126567394b107a0.md",
+      "kind": "official-document",
+      "bytes": 688,
+      "sha256": "678d49ada2db04949d2d248a05557a5aa24d0dfedeea75d86fdb421dd2023db6",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.1.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.10.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/1eadb122881159aa330166ad.md",
+      "kind": "official-document",
+      "bytes": 763,
+      "sha256": "351269035fd55317d126717f049ed650d6463005c3663ccc021bd341f3da9cbd",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.10.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.11.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5caaa37b9767a2a899297aab.md",
+      "kind": "official-document",
+      "bytes": 2163,
+      "sha256": "b04bcd6e02a261a0957f9c115a26b90c8437e562fee54603c117b888fb136a5e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.11.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.12.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/abb17985ba3698f3174b2f3f.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "ad4fa82bd31da693779fbe0ad227a5274404f77ccc4ddd1b4a8a71b559f5a762",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.12.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.13.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/b05c77fd702b27372ccb6522.md",
+      "kind": "official-document",
+      "bytes": 419,
+      "sha256": "19d751e117fda6d320c144b06a7ba824b43bdf76c8568e1b1adbc88551165ef2",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.13.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.14.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/bf4ff60e35111d431a34ef75.md",
+      "kind": "official-document",
+      "bytes": 2089,
+      "sha256": "7d269a5d4add63ef201ceb11c74d8f1d6ec9a06c764303a41aa0b18f68e7016f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.14.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.15.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/eaa73feeb95c41bc7ef66e8f.md",
+      "kind": "official-document",
+      "bytes": 336,
+      "sha256": "d2fd5a888ab4a6881fa1823e65e8c8b63d4a61c4d1efc42157a55edb77bbfe36",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.15.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.16.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/7de647770a02a19da5263107.md",
+      "kind": "official-document",
+      "bytes": 2387,
+      "sha256": "8b5f8279bd5852869856f40cc70f9bcfe1d1f0368d83eb63e9d687c1f75993bf",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.16.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.17.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/c9deacd7cc8b2debd752d8e6.md",
+      "kind": "official-document",
+      "bytes": 1698,
+      "sha256": "916ab09d99580ca4199761e75f8bde38bd0db4fc58b0a375c58a3f7faba9afa8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.17.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.18.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/dd24d13fac38763416e7a3e2.md",
+      "kind": "official-document",
+      "bytes": 2309,
+      "sha256": "9fb16e81ab0031359b8f00e8fbe7735ce34966215390e930ad289a04cc5077b1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.18.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.19.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ac418ecdba81debea2a093ea.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "066da362643d81eee4485dea97b25f231fabe49c264acc77b7e573340158adee",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.19.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.2.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ddf3902937299b6a38c29cb6.md",
+      "kind": "official-document",
+      "bytes": 1361,
+      "sha256": "b70a235c909b62d0e7e89aa7b8eaa124538614939ab2b7bb7c9b035e633a28c7",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.2.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.20.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/2898d68ef3f2ff5545c1ddf7.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "4731de1a29470009cac48b121af465e7223c1cced9d28c9c245c3806eb1d2607",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.20.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.21.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/bb3943e11f05c84e75429882.md",
+      "kind": "official-document",
+      "bytes": 4693,
+      "sha256": "b5f024bcbab51af8e63f623a8a11f5e96a42d952a9fd7c0caa1360455256e5ca",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.21.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.22.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e2a6d9de56077855abb5a8f9.md",
+      "kind": "official-document",
+      "bytes": 4175,
+      "sha256": "af1599433c7225fcfb91aadf89b6daca9125bcdc9271d093b8d0a514efac00db",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.22.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.23.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a4d42a2ac0d16ce44774f079.md",
+      "kind": "official-document",
+      "bytes": 3682,
+      "sha256": "1edfdcec0fe45a2ef17ec0da7b283b8d513650b34152ec1e7ea56e6a8933a43b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.23.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.24.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3e48ceac1e693e990d612431.md",
+      "kind": "official-document",
+      "bytes": 475,
+      "sha256": "d74cae979c3b693ca7bd304f4e2528a8c05366bc47ab5be14808f3847cfb98c5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.24.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.25.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a1355b4bf5ef677a873c0765.md",
+      "kind": "official-document",
+      "bytes": 4167,
+      "sha256": "2c31d69fe40c9e905ddb30c5c455faa684f4afa509ff877d23c26987e1eb5fc0",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.25.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.26.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/173ec3c2856c2d163d9210ce.md",
+      "kind": "official-document",
+      "bytes": 477,
+      "sha256": "9fe2367dca4172671f81b6f678502e4593b4094ea8aa687552190eed3a9d8d2f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.26.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.27.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a1cf7eee2e8e45c528458c66.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "246ef625135d2895240a8e1cbcaa91f59100f3a92a067f4caad8d948fa69841e",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.27.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.28.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3b44fb2919fab7a846a2c469.md",
+      "kind": "official-document",
+      "bytes": 3440,
+      "sha256": "cfcb8aa4a61e6e22ef4e4428eb2b88271727518d0cbe7d385cbe9eff8bb7a7ed",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.28.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.29.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/95a1f0a039be46d6766240c3.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "51d5d58618d798cfd37dc3991000e71048caf06d73742db4ccb86d528b8b56c0",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.29.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.3.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/3db12a5cd1a0f799c6a2259a.md",
+      "kind": "official-document",
+      "bytes": 1513,
+      "sha256": "aa0fda66e53c96380ce638248fb4ef8f1cf2cc2985ad33ee7cef343e0e3062e3",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.3.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.30.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4cbc60dcc09d1a103fa05243.md",
+      "kind": "official-document",
+      "bytes": 418,
+      "sha256": "8ed926a71161424deb6b1af8a164b4f15b93374bb8be9b7f386feb36fa4be797",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.30.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.31.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/84fbae5fc5c5323902183f62.md",
+      "kind": "official-document",
+      "bytes": 1910,
+      "sha256": "240c69757ee745006661d5631ea334882d020e1de09313dde3cfa273b051c781",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.31.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.32.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/fecb9f4c9a2269eebd019742.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "03d7b0c83ee185d18869210319d3b945425f36298203985c37d756245029feb8",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.32.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.33.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/05bf0c82dce7f74f6a53ba2d.md",
+      "kind": "official-document",
+      "bytes": 1196,
+      "sha256": "76067d69fda6678d50df450c442c8bb97ab80c3a7292e3e2066362b8a88d8116",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.33.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.34.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/8e70b5a05ce075b27460f66f.md",
+      "kind": "official-document",
+      "bytes": 621,
+      "sha256": "c9d0bf62dc4b3fec617338fe6f55848db82d0a5fb25c0eb6de6cb3e8e4e55810",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.34.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.35.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/1e1e93a3d15c5a060c4684ce.md",
+      "kind": "official-document",
+      "bytes": 376,
+      "sha256": "ada3ee1eda46a1c9eccfb75518b1519bc5b096ae1c360a0584d1852d7200ca49",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.35.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.36.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/1d391c24e7f4e68f2bb6d343.md",
+      "kind": "official-document",
+      "bytes": 6185,
+      "sha256": "e71f00c2b995c49ea5692ecbcad344726f4b764a27d4f5a73116fbeeebbe5c84",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.36.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.37.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f6691122a36258afc2c7aca4.md",
+      "kind": "official-document",
+      "bytes": 626,
+      "sha256": "da080ed248e2ca7f472360a4b9e3f3f72f1ce396655dd863a867ba67707346c2",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.37.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.38.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/5021022ed0f0470016afe84c.md",
+      "kind": "official-document",
+      "bytes": 12768,
+      "sha256": "7d0425ae50d05629d11860e15952dfe303731c25cbccb79e17b492c3d794aee0",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.38.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.39.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/4fbff2cd849925692c5c717c.md",
+      "kind": "official-document",
+      "bytes": 5222,
+      "sha256": "e07c1e4f43cc78916f5d7d4e2b92b128a0ae998fd04efafb383423f35b6307ad",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.39.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.39.1.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/a91c4f25c86053c64dbf40da.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "64dc49b20eee19a635a0dadfba9eed425f724b6a8a471a3de3d431af62c61f35",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.39.1.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.39.2.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/ad1e83fb829fc4402e415bd4.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "1e7d1e09e67d48bde7fc7092d4f7c9e066eec6e60b4f16b755555a950dc1ec77",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.39.2.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.4.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/097203fae623e176f6a9cd20.md",
+      "kind": "official-document",
+      "bytes": 5432,
+      "sha256": "c12ce8cd55de56a4d44fc98e40b26a37c4f5e28e944904ca9d561bf5304ad4fe",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.4.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.40.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/0d978019b0a38e2f6b4c4c9e.md",
+      "kind": "official-document",
+      "bytes": 20248,
+      "sha256": "ecdfc534575b08b3b4d30a0e0c3bd5d220b5ce47e61f1af56b6cc962cb4b20fc",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.40.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.41.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/543c8c6989697eb2ed6f400c.md",
+      "kind": "official-document",
+      "bytes": 3202,
+      "sha256": "295e6efa8f3810f1f4cb1514b57c71090f446db1dec4a6bd2127b358f33c9957",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.41.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.42.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/e8cfd96353b27ffdd5b734f6.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "1c1c2a6794e0c0ea3d0dc2fc494eda10398d3bfe23d67adfbf6c9f07c3d98a45",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.42.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.42.1.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/596efe0fef498cef09ea7c25.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "5e0831a54e4c766eb8580d6723ebaa36d9d5f9b71e8956c0f7175059cacf5227",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.42.1.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.42.2.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/90f3388d775f3fe28e812716.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "52ac90418b5bfa0444ba90a36b870e055e1ee1142e28506ddbaea286c76f05c1",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.42.2.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.42.3.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f3a0fc59d9654053fb7ff4a1.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "4adb51ca3ab7ea7f7032d4a7df3a953c8128bf93bcea9238ebe5b70aa34ab53f",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.42.3.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.5.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/548ffc2f28ff4969bafb5b54.md",
+      "kind": "official-document",
+      "bytes": 4789,
+      "sha256": "413e7adb7b6cbe34a83df87d11d64de2246b70a166912c35e1ec88c6c2018535",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.5.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.6.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/80a685d1e29eca50137bb872.md",
+      "kind": "official-document",
+      "bytes": 10946,
+      "sha256": "2e2ffba286de4d939975ab10c66765d52f500e6400dbbba0fde40869fbf74fd5",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.6.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.6.1.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/9c16e303afa36f650903aedf.md",
+      "kind": "official-document",
+      "bytes": 10947,
+      "sha256": "668984c21c1077aa4c96d5e52868117a40a4aec555ae4cf695c005340d9ed43d",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.6.1.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.7.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/573c3990a73259ec102f5671.md",
+      "kind": "official-document",
+      "bytes": 2876,
+      "sha256": "3125f723e3ada85ef222fc75c4e062a3905239aadfbee9ad55c718fbc1ab1eb4",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.7.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.7.1.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/f72337c274a9c5b031045fc9.md",
+      "kind": "official-document",
+      "bytes": 3736,
+      "sha256": "2e7018d7ba9aefc5b40e41e3c02fd12e8acb788c1174181e277dec252625f65b",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.7.1.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.8.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/0acd22d4af028e6483e93873.md",
+      "kind": "official-document",
+      "bytes": 88,
+      "sha256": "1355a5818e39b8213ebfc3ea1c19eb9a9eb86d57bf8806502353c97cc41e2afb",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.8.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/v1.9.0.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/cfbaaf99f4e4266be8c9fad4.md",
+      "kind": "official-document",
+      "bytes": 644,
+      "sha256": "b4141c7060eb9c78235a7764dff745c3d1720faf6a6137e71210d16b8f1dee82",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/v1.9.0.md"
+    },
+    {
+      "path": "website/content/en/docs/upgrading-sdk-version/version-upgrade-guide.md",
+      "localPath": "raw/operator-framework--operator-sdk/299157a814e6/283dc5949d127596be282e3d.md",
+      "kind": "official-document",
+      "bytes": 60879,
+      "sha256": "b2b585cb97751bc005aad60b8ad6dc3a5c04416435fb103871ebc15143538b9a",
+      "sourceUrl": "https://github.com/operator-framework/operator-sdk/blob/299157a814e674f8f40d1b91ee77d64a90e850de/website/content/en/docs/upgrading-sdk-version/version-upgrade-guide.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

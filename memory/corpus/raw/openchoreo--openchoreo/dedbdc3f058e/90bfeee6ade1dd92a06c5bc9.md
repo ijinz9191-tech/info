@@ -1,0 +1,177 @@
+# Google Microservices Demo Sample
+
+This sample demonstrates how to deploy Google's microservices demo application using OpenChoreo.
+
+## Overview
+
+This sample demonstrates a complete microservices architecture deployment using the Google Cloud Platform's microservices demo application. It showcases multiple services working together using OpenChoreo.
+
+## Pre-requisites
+
+- Kubernetes cluster with OpenChoreo installed
+- The `kubectl` CLI tool installed
+- Docker runtime capable of running AMD64 images (see note below)
+
+> [!NOTE]
+> #### Architecture Compatibility
+> This sample uses official Google Container Registry images built for AMD64 architecture. 
+> If you're on Apple Silicon (M1/M2) or ARM-based systems, your container runtime may need 
+> to emulate AMD64. To verify your setup can run AMD64 images:
+> ```bash
+> docker run --rm --platform linux/amd64 hello-world
+> ```
+> If this command fails, you may need to enable emulation support in your container runtime.
+
+## File Structure
+
+```
+gcp-microservices-demo/
+├── gcp-microservice-demo-project.yaml    # Project definition
+├── resources/
+│   └── redis.yaml                        # Valkey/Redis cache: Resource + development binding (consumed by cart)
+├── components/                           # Component definitions
+│   ├── ad-component.yaml                 # Ad service component
+│   ├── cart-component.yaml               # Cart service component
+│   ├── checkout-component.yaml           # Checkout service component
+│   ├── currency-component.yaml           # Currency service component
+│   ├── email-component.yaml              # Email service component
+│   ├── frontend-component.yaml           # Frontend web application
+│   ├── payment-component.yaml            # Payment service component
+│   ├── productcatalog-component.yaml     # Product catalog service component
+│   ├── recommendation-component.yaml     # Recommendation service component
+│   └── shipping-component.yaml           # Shipping service component
+└── README.md                             # This guide
+```
+
+## Step 1: Create the Project
+
+First, create the project that will contain all the microservices:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/gcp-microservice-demo-project.yaml
+```
+
+## Step 2: Provision the Redis cache
+
+The cart service depends on a Valkey/Redis cache. Provision it as a `Resource` from the
+shipped `valkey` `ClusterResourceType`. The same file also declares a
+`ResourceReleaseBinding` for the development environment:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/resources/redis.yaml
+```
+
+The binding ships with `spec.resourceRelease` unset. Pin it to the resource's latest
+release (waits for the Resource controller to cut the release first):
+
+```bash
+until release=$(kubectl get resource redis -n default -o jsonpath='{.status.latestRelease.name}') && [ -n "$release" ]; do sleep 2; done
+kubectl patch resourcereleasebinding redis-development -n default \
+  --type=merge -p "{\"spec\":{\"resourceRelease\":\"$release\"}}"
+```
+
+Wait for the binding to reach `Ready=True`:
+
+```bash
+kubectl get resourcereleasebinding redis-development -n default
+```
+
+## Step 3: Deploy the Components
+
+Deploy the microservices. Cart consumes the Redis resource via
+`workload.spec.dependencies.resources[]`; the connection string is injected into
+`REDIS_ADDR` as a `valueFrom.secretKeyRef`:
+
+```bash
+kubectl apply \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/ad-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/cart-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/checkout-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/currency-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/email-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/frontend-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/payment-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/productcatalog-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/recommendation-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/shipping-component.yaml
+```
+
+This will deploy all the microservices using official Google Container Registry images.
+
+## (Optional) Enable Distributed Tracing
+
+Most services in this demo are pre-instrumented with OpenTelemetry. You can enable trace collection by pointing them to OpenChoreo's OpenTelemetry Collector.
+
+> [!NOTE]
+> #### Per-service tracing support
+> | Service | Language | Tracing support |
+> |---|---|---|
+> | frontend, checkout, productcatalog | Go | Full — via `COLLECTOR_SERVICE_ADDR` + `ENABLE_TRACING=1` |
+> | currency, payment | Node.js | Full — via `COLLECTOR_SERVICE_ADDR` + `ENABLE_TRACING=1` |
+> | email, recommendation | Python | Full — via `COLLECTOR_SERVICE_ADDR` + `ENABLE_TRACING=1` |
+> | shipping | Go | Not implemented (TODO in source) |
+> | ad | Java | Not implemented (TODO in source) |
+> | cart | .NET | Not implemented |
+
+Patch the workloads to add the collector address:
+
+```bash
+COLLECTOR_ADDR="opentelemetry-collector.openchoreo-observability-plane.svc.cluster.local:4317"
+# frontend, checkout, productcatalog, currency, payment, email, recommendation
+for svc in checkout currency email frontend payment productcatalog recommendation; do
+  kubectl patch workload "$svc" -n default --type='json' -p='[
+    {"op": "add", "path": "/spec/container/env/-", "value": {"key": "COLLECTOR_SERVICE_ADDR", "value": "'"$COLLECTOR_ADDR"'"}},
+    {"op": "add", "path": "/spec/container/env/-", "value": {"key": "ENABLE_TRACING", "value": "1"}}
+  ]'
+done
+```
+
+> [!NOTE]
+> `shipping` (Go), `ad` (Java), and `cart` (C#/.NET) do not have OpenTelemetry tracing implemented in the current upstream source and will not emit traces regardless of configuration.
+
+For more details on traces, see the [Observability & Alerting guide](https://openchoreo.dev/docs/platform-engineer-guide/observability-alerting/#traces).
+
+## Step 4: Test the Application
+
+Access the frontend application in your browser:
+
+```
+http://http-frontend-development-default-4cc7110c.openchoreoapis.localhost:19080
+```
+
+> [!TIP]
+> #### Verification
+>
+> You should see the Google Cloud Platform microservices demo store frontend with:
+> - Product catalog
+> - Shopping cart functionality
+> - Checkout process
+
+> [!NOTE]
+> #### Startup Time
+> All services may take 5-10 minutes to become fully operational. The URL will return errors or be unreachable until everything is ready.
+
+## Clean Up
+
+Remove all resources:
+
+```bash
+# Remove components
+kubectl delete \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/ad-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/cart-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/checkout-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/currency-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/email-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/frontend-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/payment-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/productcatalog-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/recommendation-component.yaml \
+-f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/components/shipping-component.yaml
+
+# Remove the redis Resource and binding (cascades to the StatefulSet + Secret on the data plane)
+kubectl delete -f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/resources/redis.yaml
+
+# Remove project
+kubectl delete -f https://raw.githubusercontent.com/openchoreo/openchoreo/main/samples/gcp-microservices-demo/gcp-microservice-demo-project.yaml
+```

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "repo": "netwide-assembler/nasm",
+  "commit": "fbdc88565ccccfa0e8c69b21b1953d1eded02e89",
+  "retrievedAt": "2026-10-01T15:50:16.523771+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/assembly"
+  ],
+  "archiveUrl": "https://codeload.github.com/netwide-assembler/nasm/zip/fbdc88565ccccfa0e8c69b21b1953d1eded02e89",
+  "selectionSha256": "000fa1a52417f2fe4be9f09353b64997a37afdd72718ea0836925f483d343551",
+  "selection": {
+    "docRoots": [
+      "doc"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "80ba3a988dfe4440c1c12194166c9e96b57e1e3981d71e9728fb11c3758a6f95",
+  "archiveBytes": 10255306,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 27,
+    "code": 0,
+    "licenses": 2,
+    "bytes": 574743
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1554,
+      "sha256": "7436a7c46b6e4d969b41e1ce387885ae4ced25710662189ff2983665253729ac",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 760,
+      "sha256": "fe2c57ae95ae47966caaebb361cc9db9867ca467f0fb51209871da87391b0c66",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/README.md"
+    },
+    {
+      "path": "doc/16bit.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/539b8c7ed4f5f52868e3a7ca.src",
+      "kind": "official-document",
+      "bytes": 34747,
+      "sha256": "2341e2597d5d31fe0dd5dca60110760e8a77f19749140150c478c10ab9687ab1",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/16bit.src"
+    },
+    {
+      "path": "doc/32bit.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/bdb9031aa5a341da16fddf4a.src",
+      "kind": "official-document",
+      "bytes": 20893,
+      "sha256": "8b48870eaf3b3159a5410bb1d918cfe61cb3f2da2e81295eb519872259b8457d",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/32bit.src"
+    },
+    {
+      "path": "doc/64bit.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/41aa0f93ed37243581b5493f.src",
+      "kind": "official-document",
+      "bytes": 8736,
+      "sha256": "a5282750b810b474ecf993105a655cd1ab71fce2467bfa93762cb443b1b4c383",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/64bit.src"
+    },
+    {
+      "path": "doc/changelog.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/8815163afd766b7a4e69610f.src",
+      "kind": "official-document",
+      "bytes": 56,
+      "sha256": "0459c4058debbd1cfc370f7f816c8da01e08e97efe66752add5ef6199e69998a",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/changelog.src"
+    },
+    {
+      "path": "doc/changes.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/4a34a7eaa593b192f320369a.src",
+      "kind": "official-document",
+      "bytes": 112948,
+      "sha256": "6c5ad5d2ccde934946f0bd179d484547fefc7000bf8cc582740759cf59d811cc",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/changes.src"
+    },
+    {
+      "path": "doc/contact.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/49eccda367a021edbbf457dc.src",
+      "kind": "official-document",
+      "bytes": 5013,
+      "sha256": "e2b1a33c5f8da5162f7534c0ca5e5ce8b61054a0418e5481c1f64f0ef8d2262d",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/contact.src"
+    },
+    {
+      "path": "doc/directiv.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/cd273b0594c1638424915ed1.src",
+      "kind": "official-document",
+      "bytes": 24044,
+      "sha256": "1b49ba3bdb1edae7e0477ef8da4e03ddade79887c9a8571039b331cf32b5a77b",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/directiv.src"
+    },
+    {
+      "path": "doc/index.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/178f8846d163bc9bf8da01bc.src",
+      "kind": "official-document",
+      "bytes": 11768,
+      "sha256": "272063016aa980b1186ac1d52ce5a9c104e8149a2a4b5310fbd2cdc0ab6cc19a",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/index.src"
+    },
+    {
+      "path": "doc/inslist.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/a8e54426697031de0e6bd735.src",
+      "kind": "official-document",
+      "bytes": 370,
+      "sha256": "a2686c01b593688cdd1f70c3ab9dafc012bef843943813997652bf88917650df",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/inslist.src"
+    },
+    {
+      "path": "doc/intro.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/3150d3cb5294ed72b02381d6.src",
+      "kind": "official-document",
+      "bytes": 2079,
+      "sha256": "7806bbb660830af3a83dc7d49494cb96116f1c93d26fa03a2213d2b1268cffe5",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/intro.src"
+    },
+    {
+      "path": "doc/lang.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/75ac79ed6f10b31edf8ac3fc.src",
+      "kind": "official-document",
+      "bytes": 41041,
+      "sha256": "d32f4072ae6470caa860d3b090a318f027465aaa89e0f70ec8331359bfc96755",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/lang.src"
+    },
+    {
+      "path": "doc/macropkg.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/1ddcc617dbb26f04921c830f.src",
+      "kind": "official-document",
+      "bytes": 7492,
+      "sha256": "10a6408eca165a484d374dd088cf5331b0befdd926f0cce043be38984114a19d",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/macropkg.src"
+    },
+    {
+      "path": "doc/mixsize.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/f696335529a8e538e4dbac19.src",
+      "kind": "official-document",
+      "bytes": 7295,
+      "sha256": "61d87dfb166d58022ba32517b4e7a8761bf06aeaa200834744a913755ee03186",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/mixsize.src"
+    },
+    {
+      "path": "doc/nasmdoc.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/7323798cad60cbacf41b2f25.src",
+      "kind": "official-document",
+      "bytes": 1707,
+      "sha256": "30cb3398e7d96f62f3ad19ecde2fae3c16d5d9f640c628e99dbf55155aee7540",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/nasmdoc.src"
+    },
+    {
+      "path": "doc/ndisasm.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/b5f2e1f41f5ac9edcaca9114.src",
+      "kind": "official-document",
+      "bytes": 7315,
+      "sha256": "1a551e1aca314431a8ddcbb40584e282f522f936c2bb82718b42ae03f439b9aa",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/ndisasm.src"
+    },
+    {
+      "path": "doc/opt_var.txt",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/6c6831b63d8e9d6286c52dc4.txt",
+      "kind": "official-document",
+      "bytes": 4500,
+      "sha256": "0a758758700c233d24ba6538afca144dde50b842a1954d0d92a3545fce7c870e",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/opt_var.txt"
+    },
+    {
+      "path": "doc/outfmt.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/6e7fa16958c007ec81eb67d4.src",
+      "kind": "official-document",
+      "bytes": 68014,
+      "sha256": "3833e757be03c4d6bd55433fa90c334ab50cac4ab468926b1b5cb6b17d8cb270",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/outfmt.src"
+    },
+    {
+      "path": "doc/preproc.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/36a472ee8de6400870f57739.src",
+      "kind": "official-document",
+      "bytes": 98549,
+      "sha256": "9fab74fc053f77cd343b9ebf8306693a5b4002276c25511003ea26dab9e8623e",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/preproc.src"
+    },
+    {
+      "path": "doc/running.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/bcb287f24ff96e785064cb5c.src",
+      "kind": "official-document",
+      "bytes": 33922,
+      "sha256": "18daf248555c182fd44b721e239e73093f982e1a970fb7d4ece5c3c18c7e9e97",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/running.src"
+    },
+    {
+      "path": "doc/source.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/1338b48e629220b8c916c120.src",
+      "kind": "official-document",
+      "bytes": 4154,
+      "sha256": "b0a97e48ba57e7a0685de8143d0a69e9c441af50d757820745d49e261c1467ea",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/source.src"
+    },
+    {
+      "path": "doc/stdmac.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/be08d6214a3cd2cd6f196031.src",
+      "kind": "official-document",
+      "bytes": 17531,
+      "sha256": "86e6321caff32b421a8afae9171c24607889130c6da954e1687de87014a79f19",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/stdmac.src"
+    },
+    {
+      "path": "doc/syntax.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/57755ec6cb4f5cb6100f51e3.src",
+      "kind": "official-document",
+      "bytes": 17048,
+      "sha256": "8b40f03281f8fb2b76bf5b66b2641b81057f6809205b4afeea63c3b6f735cd1f",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/syntax.src"
+    },
+    {
+      "path": "doc/trouble.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/5262dbbb0d953f90d78013ca.src",
+      "kind": "official-document",
+      "bytes": 4229,
+      "sha256": "cd7786a8bb9cf602f8b54f2d1196c5df4f7dba9116a22d71b523a6dab30992d4",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/trouble.src"
+    },
+    {
+      "path": "doc/warn.src",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/8b540d016b09843240730dd4.src",
+      "kind": "official-document",
+      "bytes": 259,
+      "sha256": "2d0cd48fc7e53e285cbe984caf94ef1f707bff16a05de531e98f65a8d66dc9a1",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/doc/warn.src"
+    },
+    {
+      "path": "tools/testgen/README.md",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/474f10aad648e2cdfa6a400e.md",
+      "kind": "official-document",
+      "bytes": 30266,
+      "sha256": "1cd6db71078ab9364724bf09291921d2680a00f27258ad0d6b14ffbaa953d388",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/tools/testgen/README.md"
+    },
+    {
+      "path": "tools/travis/README.md",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/0e307e688a59890c062fe716.md",
+      "kind": "official-document",
+      "bytes": 7451,
+      "sha256": "86a21982597d7c716cba137de67b9749347c090b6c68d8df878ad7e874ffbe5f",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/tools/travis/README.md"
+    },
+    {
+      "path": "zlib/LICENSE",
+      "localPath": "raw/netwide-assembler--nasm/fbdc88565ccc/bf0f3872e0dc369b2450910d.txt",
+      "kind": "license",
+      "bytes": 1002,
+      "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+      "sourceUrl": "https://github.com/netwide-assembler/nasm/blob/fbdc88565ccccfa0e8c69b21b1953d1eded02e89/zlib/LICENSE"
+    }
+  ],
+  "omitted": [],
+  "recoveredInterruptedFiles": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

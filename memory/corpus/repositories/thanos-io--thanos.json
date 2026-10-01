@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "repo": "thanos-io/thanos",
+  "commit": "a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3",
+  "retrievedAt": "2026-10-01T15:34:30.645206+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Observability and Analysis/Observability"
+  ],
+  "archiveUrl": "https://codeload.github.com/thanos-io/thanos/zip/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3",
+  "archiveSha256": "b56f547739493e3c60be4621f6730960ed7ccc44cd9c63c950ba077f9971ffa1",
+  "archiveBytes": 30989297,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 95,
+    "code": 1,
+    "licenses": 2,
+    "bytes": 1224246
+  },
+  "files": [
+    {
+      "path": ".bingo/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/36729d62d2e8bc576d5865ba.md",
+      "kind": "official-document",
+      "bytes": 782,
+      "sha256": "b9ed7189a7978a170952657381062a6cacf6abef46d1767dd00dab1f94023b3c",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/.bingo/README.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 201837,
+      "sha256": "a137300e017bf0ae0ca9bc8d60c628aa41053b54b750f5c7ca17813f14057375",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/CHANGELOG.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 1201,
+      "sha256": "0195006e460ecd1365c9d2ccad8155bc6b9de6446c89faff0a52780c93133375",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 17070,
+      "sha256": "9cf293d90e898a679390662cf2d00581a3781c3c9cb805b5551d4da496f017d1",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 7195,
+      "sha256": "c608482a9457a6a2d9671c455fd818522c7e541317f20b6204eaac87ce1b124c",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5759,
+      "sha256": "869c20385ec53e454d1e56441b5690e9cb74a262289d3c6b29b1cf2e4cfeeac1",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1723,
+      "sha256": "2fd18964d7f25e0a6716c3a966fdccb50ccf4fd840edad12dd9d7670d806ee42",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/SECURITY.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 28,
+      "sha256": "c9dbc3f94f2697b554c14ab43cf3cccc253d57c9d7f7c5de33f3d51eae85563d",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/README.md"
+    },
+    {
+      "path": "docs/blog/2022-09-08-thanos-at-medallia.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/c645f3e5eabd3c441d6d4208.md",
+      "kind": "official-document",
+      "bytes": 17220,
+      "sha256": "7c01172dbc422675625a1f506118bb7ff98e77e7dae1d4882334168fd0ff49d1",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2022-09-08-thanos-at-medallia.md"
+    },
+    {
+      "path": "docs/blog/2023-06-02-lfx-mentorship-query-observability.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/498b22058b5e57a026d14d5a.md",
+      "kind": "official-document",
+      "bytes": 5177,
+      "sha256": "ba42bae2f39e7f693a6de27e4a4ad497443cae04c54f464ea50c5729fd127768",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2023-06-02-lfx-mentorship-query-observability.md"
+    },
+    {
+      "path": "docs/blog/2023-06-08-thanos-at-aiven.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/ebd10feee1b589b1f39b62f6.md",
+      "kind": "official-document",
+      "bytes": 14037,
+      "sha256": "eba301c66b0b0af03cb21b71e37d222111ba82723491b3fc61df12233bd6ba14",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2023-06-08-thanos-at-aiven.md"
+    },
+    {
+      "path": "docs/blog/2023-11-20-life-of-a-sample-part-1.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/c7e5c05d948555c22e7e10ad.md",
+      "kind": "official-document",
+      "bytes": 24684,
+      "sha256": "5a438ba64c9000b405541ae3759a5fc5b6df3af9e46e080827236f15baba737a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2023-11-20-life-of-a-sample-part-1.md"
+    },
+    {
+      "path": "docs/blog/2023-11-20-life-of-a-sample-part-2.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/0ec127236b0c4a4a348a319f.md",
+      "kind": "official-document",
+      "bytes": 26475,
+      "sha256": "a0f1adbb19784c4bb79d8b870f9ea3a5227f0eb75becb002b5622f0e6e9e66c0",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2023-11-20-life-of-a-sample-part-2.md"
+    },
+    {
+      "path": "docs/blog/2023-20-11-thanoscon.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/4a57e04609fd989e3629cfce.md",
+      "kind": "official-document",
+      "bytes": 5030,
+      "sha256": "ed0f3a601120fb447a701a0bd09e86d3b826fcd1ba6adfd1eea9514c2de56c2f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2023-20-11-thanoscon.md"
+    },
+    {
+      "path": "docs/blog/2026-02-19-thanos-project-updates.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/e36ce0d14a205e2d21ef61a9.md",
+      "kind": "official-document",
+      "bytes": 3016,
+      "sha256": "e2485bc25a396603c48263042cb04a1ce9556d8490c68388902638a4d33b1cf7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/2026-02-19-thanos-project-updates.md"
+    },
+    {
+      "path": "docs/blog/welcome.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/c9be2ee140d36639a0f73cfa.md",
+      "kind": "official-document",
+      "bytes": 632,
+      "sha256": "e27fd3af4038094bbddf18c4ff84baaeebbf1b65894be261525c04297aea57df",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/blog/welcome.md"
+    },
+    {
+      "path": "docs/components/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/2f6cc469fae8e48f5cba981e.md",
+      "kind": "official-document",
+      "bytes": 14,
+      "sha256": "9b930ba1a24439a8cff8b68f72a53f86bf280b375177518807b80c4f88e01b06",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/README.md"
+    },
+    {
+      "path": "docs/components/compact.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/59764a4da653d4464eac2046.md",
+      "kind": "official-document",
+      "bytes": 36357,
+      "sha256": "330863d34dfbbe2baee0e299b01ef757027ba7429ab4a7a6df4cd440061f4d2f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/compact.md"
+    },
+    {
+      "path": "docs/components/query-frontend.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/5eda42a203cd5482ffbcfffd.md",
+      "kind": "official-document",
+      "bytes": 21170,
+      "sha256": "b4851d15ea0a8ba6e39dfd820383cfb5de836bad68dbabb8fd916f3fd628ba4e",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/query-frontend.md"
+    },
+    {
+      "path": "docs/components/query.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/04f662ee00835250889473f4.md",
+      "kind": "official-document",
+      "bytes": 44678,
+      "sha256": "a0da10cdf62cc31565a842666aa7dfddbe76260f5108fef65dba5d9054cb8a3d",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/query.md"
+    },
+    {
+      "path": "docs/components/receive.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/823cddf08abbb258fcde2989.md",
+      "kind": "official-document",
+      "bytes": 42291,
+      "sha256": "c51009a0c33f79281ce0379a0f83468f1fcdb936b1a9b15a068e8dfa9e9b7094",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/receive.md"
+    },
+    {
+      "path": "docs/components/rule.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/2253e36b0badc36966472d6b.md",
+      "kind": "official-document",
+      "bytes": 35375,
+      "sha256": "ce6d91c42dbc65979faff7bc60837cfaa8a2608b57d98f702301125cc34d922e",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/rule.md"
+    },
+    {
+      "path": "docs/components/sidecar.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/f643e37045c53e342bf186ea.md",
+      "kind": "official-document",
+      "bytes": 17127,
+      "sha256": "2b164438a6090c7bdfc1454333630636e0bc62812da722da149d4a4522a5927f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/sidecar.md"
+    },
+    {
+      "path": "docs/components/store.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/3750e2beab2a47b781819ff1.md",
+      "kind": "official-document",
+      "bytes": 51562,
+      "sha256": "3af885faf622863a85889933a1a8ff7bc4605cdc4b443430448e277f7742af78",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/store.md"
+    },
+    {
+      "path": "docs/components/tools.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/89840bcebb29ac15c25fad73.md",
+      "kind": "official-document",
+      "bytes": 54989,
+      "sha256": "7365a412efac627e3ed870bcb34cbb556953ea742558b48b1c2b9faedec6970a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/components/tools.md"
+    },
+    {
+      "path": "docs/contributing/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/e4d68744e84a25d691d8d19c.md",
+      "kind": "official-document",
+      "bytes": 16,
+      "sha256": "b2ffc5272c4233143e8c8c88f6ddbe5fef62d43afdd6907407ee086344f2acd7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/README.md"
+    },
+    {
+      "path": "docs/contributing/coding-style-guide.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/4e4fdfd6da93684260dac968.md",
+      "kind": "official-document",
+      "bytes": 31211,
+      "sha256": "8de078569d29595f9d08c7b53a7888f2d317c5ce8721c0f502b17e39b3c455fc",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/coding-style-guide.md"
+    },
+    {
+      "path": "docs/contributing/committing.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/4efcfe88b2eb96cd5b0e31fd.md",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "d9218a7bbcaafc7573ef548ee3a2bff0f8176d26a55db25506942142eb0eb2be",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/committing.md"
+    },
+    {
+      "path": "docs/contributing/community.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/60a3a5c6c6c538ae520590fe.md",
+      "kind": "official-document",
+      "bytes": 6113,
+      "sha256": "bcb13135613e66a0298341c5fc7959c39aaa4d9a71e5feef50db5bfe21d9daee",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/community.md"
+    },
+    {
+      "path": "docs/contributing/how-to-change-go-version.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/8557fc25cf25a70576668642.md",
+      "kind": "official-document",
+      "bytes": 1013,
+      "sha256": "6b388b71a1adcd40b71e3b08f566bd8485981e5322e18e6873e646b93ae8bb81",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/how-to-change-go-version.md"
+    },
+    {
+      "path": "docs/contributing/how-to-contribute-to-docs.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/f6b2b78dc2602a2758111f80.md",
+      "kind": "official-document",
+      "bytes": 3615,
+      "sha256": "b4cd04bff319dcc4f311534367a7a6f5cdc965b6ba38eb072322fb6aafeff3de",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/how-to-contribute-to-docs.md"
+    },
+    {
+      "path": "docs/contributing/mentorship.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/af27fcb394366bfadd247aa7.md",
+      "kind": "official-document",
+      "bytes": 16438,
+      "sha256": "ee1fcec050830f13c45baefe964de7d3bf5191e28256c7c0e78e1d413ffb687c",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/mentorship.md"
+    },
+    {
+      "path": "docs/contributing/proposal-process.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/cf026b017288cd3442a1571d.md",
+      "kind": "official-document",
+      "bytes": 4075,
+      "sha256": "ed74f11969d79ff3d1656db7eac6a54bd1997151981a7f7ab4b2c4d45aff87d2",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/contributing/proposal-process.md"
+    },
+    {
+      "path": "docs/design.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/b0929dacd4f1fc192cd308c1.md",
+      "kind": "official-document",
+      "bytes": 13717,
+      "sha256": "0bba3adfd5dc872d6f502a15c4177cd806cb239f91d86f32dfc751bed42088b1",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/design.md"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/31bcba2ccafa41d46fbbd6d1.md",
+      "kind": "official-document",
+      "bytes": 12209,
+      "sha256": "11af27b6b2ce71a9afdd4de12a7185f49bc08909f47ecfa3c955170acc621004",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/getting-started.md"
+    },
+    {
+      "path": "docs/governance.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/442a305800ee0a9de2e57a12.md",
+      "kind": "official-document",
+      "bytes": 13532,
+      "sha256": "d565242cdc9c82d1f4812614fd9d4627c0e35d47638c800d305e0029e17bbab6",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/governance.md"
+    },
+    {
+      "path": "docs/integrations.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/9842380514bae86cfdaa0465.md",
+      "kind": "official-document",
+      "bytes": 1724,
+      "sha256": "676bedc7231559445840124cb1a4b107183eb17e10094b9160c14034ea7788a4",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/integrations.md"
+    },
+    {
+      "path": "docs/internals/buffers-guide.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/9dd52bf91b8aab1f0e3c147a.md",
+      "kind": "official-document",
+      "bytes": 3929,
+      "sha256": "df473e1f031d3dcc978b91ec48910c9da7df563e6b9fef429679a69f2fb50435",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/internals/buffers-guide.md"
+    },
+    {
+      "path": "docs/logging.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/1a5e57d66b08bec5a71860d6.md",
+      "kind": "official-document",
+      "bytes": 3447,
+      "sha256": "c02fc45d69d63f375b2dfea99541c50874ba2e30a78f4fe31bf558cf9efad6bc",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/logging.md"
+    },
+    {
+      "path": "docs/operating/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/28df7af8d8be31e93cd844f9.md",
+      "kind": "official-document",
+      "bytes": 20,
+      "sha256": "f4150799c6681cbdd5d04693c03f70feb0ba4e8c634b3c2a11a2e2bd26ea6749",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/README.md"
+    },
+    {
+      "path": "docs/operating/binary-index-header.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/a125bbc230ecd2a6e8756166.md",
+      "kind": "official-document",
+      "bytes": 6375,
+      "sha256": "8f913f8058ff10b6786ec253a2eadc58b52ca04702694615b255775991ba07c7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/binary-index-header.md"
+    },
+    {
+      "path": "docs/operating/compactor-backlog.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/ab28bdd47617c75fa62a8293.md",
+      "kind": "official-document",
+      "bytes": 5926,
+      "sha256": "d5eafc443b58ae316fe7dc37b0926d61fcb75ea86048e91309c9a6fce8659a58",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/compactor-backlog.md"
+    },
+    {
+      "path": "docs/operating/cross-cluster-tls-communication.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/53a6b4ec727d6a608eba9463.md",
+      "kind": "official-document",
+      "bytes": 15731,
+      "sha256": "60f66aef926a98242c753ea624d797ee0928378a191449f59d0a56584489ba65",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/cross-cluster-tls-communication.md"
+    },
+    {
+      "path": "docs/operating/https.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/29a4e58ece6edbf2d5ffbc0f.md",
+      "kind": "official-document",
+      "bytes": 3246,
+      "sha256": "e76b5907bf99ab64edf5d0c357d4648c545e3bb3dc453810a9bdcf5f4ec260f0",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/https.md"
+    },
+    {
+      "path": "docs/operating/modify-objstore-data.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/3390502639e081a1faef1c6b.md",
+      "kind": "official-document",
+      "bytes": 15263,
+      "sha256": "1bc6081e38f4b88f53d36f1298b9f16511a6e77e6edf6e769fd0cfc08f789f2a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/modify-objstore-data.md"
+    },
+    {
+      "path": "docs/operating/multi-tenancy.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/3873a65a932516b4d85afea7.md",
+      "kind": "official-document",
+      "bytes": 722,
+      "sha256": "12e13e8adad58d04612433175516bf02116708387e650f388158a5a18dbe2fe4",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/multi-tenancy.md"
+    },
+    {
+      "path": "docs/operating/reverse-proxy.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/ff29964b5f3c9c475aee5204.md",
+      "kind": "official-document",
+      "bytes": 3740,
+      "sha256": "a2f7b857a8cc0af986ab6f794c83055fbb34694c3bdef0c3cfebd674351b58cc",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/reverse-proxy.md"
+    },
+    {
+      "path": "docs/operating/troubleshooting.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/262894c67f2564040b987ccf.md",
+      "kind": "official-document",
+      "bytes": 9051,
+      "sha256": "780857517b933029d5df2dc8427cd3f247eebfa7a46b36e58f2a7efc966a59c2",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/troubleshooting.md"
+    },
+    {
+      "path": "docs/operating/use-cases.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/71141ade43c3409b88bc62cd.md",
+      "kind": "official-document",
+      "bytes": 1366,
+      "sha256": "4f0b8d9406f8631b1d1884d049d454c1c3c1c770530f65510dfd760e7b1251cf",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/operating/use-cases.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202012-deletions-object-storage.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/94c52f48de37537f04b74a7c.md",
+      "kind": "official-document",
+      "bytes": 6634,
+      "sha256": "d54cb96f279c325e856345f28bcf1bb59582177d62b92cea7843b3371719938a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202012-deletions-object-storage.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202012-receive-split.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/9b8f7d29af6532f292a06683.md",
+      "kind": "official-document",
+      "bytes": 5840,
+      "sha256": "5375b7b3abf123fcfcbeb1dd9ca8cdd29b7bf65e0581fa8fa3efa8e23851e0dc",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202012-receive-split.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202101-endpoint-discovery.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/f07cf67abe496c3e7a67d94d.md",
+      "kind": "official-document",
+      "bytes": 4292,
+      "sha256": "2d2e1105d2225ca6e98111f97addeb3b75075b30037713c6dd65f8da4627d563",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202101-endpoint-discovery.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202106-automated-per-endpoint-mTLS.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/53b4dd652e0c2c941d48434c.md",
+      "kind": "official-document",
+      "bytes": 5564,
+      "sha256": "93f67ad37a5feb1a8a6a1eed59b379d8c2e260357a05c50cae78ddc24dde438c",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202106-automated-per-endpoint-mTLS.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202107-protobuf-openapi-httpapi.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/60f696fa45ae84914e069f78.md",
+      "kind": "official-document",
+      "bytes": 4252,
+      "sha256": "f3125b797ae9e56b54173ea113346484a195f934fb43fbed48b0dabe948a589a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202107-protobuf-openapi-httpapi.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202108-more-granular-query-performance-metrics.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/05ee4fb59912dab234cffeb0.md",
+      "kind": "official-document",
+      "bytes": 15238,
+      "sha256": "4607d4e912929593cefca51f370cf10b6150d06bfc9efd6faba9fcf9cac24f63",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202108-more-granular-query-performance-metrics.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202205-vertical-query-sharding.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/3fa947c01fc2e9cdedd17de1.md",
+      "kind": "official-document",
+      "bytes": 13139,
+      "sha256": "6e31b670934cdb2a18f4fb1ef87fe71fb19c57a2ef69c6b0e668fb90cf4225a7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202205-vertical-query-sharding.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202206-active-series-limiting-hashring.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/4e9ab2bc3e920b30d29578ac.md",
+      "kind": "official-document",
+      "bytes": 17846,
+      "sha256": "3162042af6ad0a116d1d3e84a8dc0b36bf5199ac4875c06aac8639cb4c304e86",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202206-active-series-limiting-hashring.md"
+    },
+    {
+      "path": "docs/proposals-accepted/202209-receive-tenant-external-labels.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/e349d1e87f415a2460704b55.md",
+      "kind": "official-document",
+      "bytes": 5220,
+      "sha256": "3f4d3960e44863aaa09f733ca5e438c78d0d28ef5c67d4855287500ad5e2dc96",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/202209-receive-tenant-external-labels.md"
+    },
+    {
+      "path": "docs/proposals-accepted/20221129-avoid-global-sort.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/2ba96ed3816c737f4a92002b.md",
+      "kind": "official-document",
+      "bytes": 10792,
+      "sha256": "55d290d8e94977d2fbfd444210676a4c2acac1d71b03dc872b45a367184bc4cd",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/20221129-avoid-global-sort.md"
+    },
+    {
+      "path": "docs/proposals-accepted/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/f50ee359c5dfce7a94306504.md",
+      "kind": "official-document",
+      "bytes": 76,
+      "sha256": "64c47bfe137cb9452b90e15f1e7604600825ba4695ec32304f50a3b2d2f8d193",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-accepted/README.md"
+    },
+    {
+      "path": "docs/proposals-done/201809-gossip-removal.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/768e4151370d2bb9bb3d034c.md",
+      "kind": "official-document",
+      "bytes": 4885,
+      "sha256": "baf3a69508300fcb81d15d91bf31a9dd6b8aeb231e32c2f489f2dec58e9a1e7f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/201809-gossip-removal.md"
+    },
+    {
+      "path": "docs/proposals-done/201812-thanos-remote-receive.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/0c57e95182aa51dd76a11429.md",
+      "kind": "official-document",
+      "bytes": 19057,
+      "sha256": "f6d7e1081f2fe8d4465f02571067307fbea506d757dc7995c37732c3d9c5ba5d",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/201812-thanos-remote-receive.md"
+    },
+    {
+      "path": "docs/proposals-done/201901-read-write-operations-bucket.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/e1c8742760e85ad62446b6b0.md",
+      "kind": "official-document",
+      "bytes": 20364,
+      "sha256": "71ea2c5f740efc2c6ad711dfb5089752103d09d11de00c2da99620d92df49da7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/201901-read-write-operations-bucket.md"
+    },
+    {
+      "path": "docs/proposals-done/201909-thanos-sharding.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/e862d12a821106fc6dde98b7.md",
+      "kind": "official-document",
+      "bytes": 8200,
+      "sha256": "131d1842984c026eb9d90bfed863850a055aeb6f9fdf9193b60212d6a8bf951a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/201909-thanos-sharding.md"
+    },
+    {
+      "path": "docs/proposals-done/201912-thanos-binary-index-header.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/1511cf4534bd49d2ec3e697d.md",
+      "kind": "official-document",
+      "bytes": 12197,
+      "sha256": "3c5944f91bffc0b29c8f88e91b2e45df5cb72a0a4fbdd2632e89d0dcac54f1e9",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/201912-thanos-binary-index-header.md"
+    },
+    {
+      "path": "docs/proposals-done/202001-thanos-query-health-handling.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/0c0359c7226a5d7336538d30.md",
+      "kind": "official-document",
+      "bytes": 6878,
+      "sha256": "c60752ce2ee25d50d18a31216c70b9be33620a4a66529c0ea7151207d11bf5ef",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202001-thanos-query-health-handling.md"
+    },
+    {
+      "path": "docs/proposals-done/202003-thanos-rules-federation.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/8c3b800246114b47b66f0eb6.md",
+      "kind": "official-document",
+      "bytes": 10244,
+      "sha256": "4f1d89d48a4a7639f57d7185e7bc9c50492089d987dd36394ff71fd4da0923a7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202003-thanos-rules-federation.md"
+    },
+    {
+      "path": "docs/proposals-done/202004-embedd-cortex-frontend.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/450483dddeee26af13d75464.md",
+      "kind": "official-document",
+      "bytes": 6947,
+      "sha256": "0d27d19f870886d2458c21615be96e80454c9ae506474397b2e18db595a5791a",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202004-embedd-cortex-frontend.md"
+    },
+    {
+      "path": "docs/proposals-done/202005-query-logging.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/7627c8b6afdd915f67acf5be.md",
+      "kind": "official-document",
+      "bytes": 15439,
+      "sha256": "ee165f406e8c232243815ca3a5f35b2bd0057343880e23146a25adb177d8894c",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202005-query-logging.md"
+    },
+    {
+      "path": "docs/proposals-done/202005-scalable-rule-storage.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/24e427bd6cfd4ac3d2e5256a.md",
+      "kind": "official-document",
+      "bytes": 2883,
+      "sha256": "51441f81054037a75fcdbddd521d4426d84c4b95f80cd8291777752251b84fa6",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202005-scalable-rule-storage.md"
+    },
+    {
+      "path": "docs/proposals-done/202005-version-documentation.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/a6bea506aae1e39c1d38d445.md",
+      "kind": "official-document",
+      "bytes": 7143,
+      "sha256": "c85d4b58939536670d59901e97949429847412910894c712273454a5ab7d384b",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202005-version-documentation.md"
+    },
+    {
+      "path": "docs/proposals-done/202106-proposals-process.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/d85972984476ce72dc114b4e.md",
+      "kind": "official-document",
+      "bytes": 2529,
+      "sha256": "dca30620cd1e8b9fa79d9ff603bff4920c24117fa8c822a6ae6fa03f2a35ebd1",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202106-proposals-process.md"
+    },
+    {
+      "path": "docs/proposals-done/202203-grpc-query-api.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/28e335de7303c7baba9a1492.md",
+      "kind": "official-document",
+      "bytes": 5388,
+      "sha256": "38c06530c1f9ecb9e6a63a810ba70c0c51e87cbb56c995aa4481628e243ae812",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202203-grpc-query-api.md"
+    },
+    {
+      "path": "docs/proposals-done/202301-distributed-query-execution.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/ebea7c2ca82dc89ad746e452.md",
+      "kind": "official-document",
+      "bytes": 11725,
+      "sha256": "eeab2e1d12a9ac2ed6463dd8f9e99ef36e7fb54f98459d86031706de85cc5e14",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202301-distributed-query-execution.md"
+    },
+    {
+      "path": "docs/proposals-done/202304-query-path-tenancy.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/d27c7bab9a2044f9602b3c29.md",
+      "kind": "official-document",
+      "bytes": 10635,
+      "sha256": "a0ada3df04080cfa7f25150192d437783f3f6bafae123dbf92a5aaaf8dade279",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/202304-query-path-tenancy.md"
+    },
+    {
+      "path": "docs/proposals-done/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/7ba4aa60f36eb5793ea20ee2.md",
+      "kind": "official-document",
+      "bytes": 50,
+      "sha256": "ecd31cd639955680028f5c03d0b2a076cca5c69300b8e40e5f4dcb4523512ce3",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-done/README.md"
+    },
+    {
+      "path": "docs/proposals-rejected/201807-config.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/6d108e836995b2ad681378aa.md",
+      "kind": "official-document",
+      "bytes": 12972,
+      "sha256": "b8ad827ba36ce6a264c2507ab4d54c7f33fd493ccde737aee350f4122307b5f7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-rejected/201807-config.md"
+    },
+    {
+      "path": "docs/proposals-rejected/201807-store-instance-high-availability.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/719b88ffdf2651a51b6fd39a.md",
+      "kind": "official-document",
+      "bytes": 6703,
+      "sha256": "37ed4c28c2460ef7e7eea12f7777790bc798aec317d8c4573dcb15059d2c5995",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-rejected/201807-store-instance-high-availability.md"
+    },
+    {
+      "path": "docs/proposals-rejected/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/112d61908aa0f63d6fac4bb1.md",
+      "kind": "official-document",
+      "bytes": 51,
+      "sha256": "6d8e6c9e3902f30f091a438286d87871fb9dfaeebc5c3ad3a23af90d8bba9875",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/proposals-rejected/README.md"
+    },
+    {
+      "path": "docs/quick-tutorial.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/52325d1d627a04930d3c2b83.md",
+      "kind": "official-document",
+      "bytes": 14134,
+      "sha256": "d39d238a9c87de2c54f26bd8bbb654e87bce1dc1a6527659451b855542b6a5bc",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/quick-tutorial.md"
+    },
+    {
+      "path": "docs/release-process.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/0dcedaa4ee53dc5c04ab85c5.md",
+      "kind": "official-document",
+      "bytes": 11723,
+      "sha256": "6a5a24a5d6e791f427f07a6c1f11c90beb38ed1076fa378d2dda55505af52465",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/release-process.md"
+    },
+    {
+      "path": "docs/service-discovery.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/79556db653229ae808bd3525.md",
+      "kind": "official-document",
+      "bytes": 5722,
+      "sha256": "91acb335577fab34626bf3a5cf8572aa54cc51172276346013bfa44ffcd6491f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/service-discovery.md"
+    },
+    {
+      "path": "docs/sharding.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/f22d9c67514cc36b39c8e209.md",
+      "kind": "official-document",
+      "bytes": 2498,
+      "sha256": "2ab6971d0a434e22dcfd7bf8464b139c270365d4b6220b5da6884e3404d38c57",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/sharding.md"
+    },
+    {
+      "path": "docs/storage.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/1e47e7218df597c79a882aa1.md",
+      "kind": "official-document",
+      "bytes": 64862,
+      "sha256": "2d08c6ecbf19da0053cb99cb92aab02a2cc53d44212491272422a92fbe331af7",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/storage.md"
+    },
+    {
+      "path": "docs/support/welcome.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/a7b48553248423fac3e7f2ee.md",
+      "kind": "official-document",
+      "bytes": 217,
+      "sha256": "ccf95413b380ffad6271bb4cc8c8535b1e43cb54bcab5dcc168ffaae34e5d2c9",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/support/welcome.md"
+    },
+    {
+      "path": "docs/tracing.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/4fe19a5aa6df7475c7b02436.md",
+      "kind": "official-document",
+      "bytes": 7178,
+      "sha256": "e6e4e5e6ac1d7291afafa5118c85b9a1383c04a8f72e821371ec7b238f4b2b15",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/docs/tracing.md"
+    },
+    {
+      "path": "examples/interactive/interactive_test.go",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/26fabc40ee87c1f167c51025.go",
+      "kind": "upstream-example-code",
+      "bytes": 20625,
+      "sha256": "a3088e009419e91dc736d615db9aee7a588e376b941e5711baca53d391a317a8",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/examples/interactive/interactive_test.go"
+    },
+    {
+      "path": "mixin/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/439429d0ab20e860072c6199.md",
+      "kind": "official-document",
+      "bytes": 7708,
+      "sha256": "0440d9c62f25a8e6fa02b87e2f032b60d5cc7022891d8ade2f86fa6149a77f9b",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/mixin/README.md"
+    },
+    {
+      "path": "mixin/lib/thanos-grafana-builder/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/a9bed496d27516373cde383c.md",
+      "kind": "official-document",
+      "bytes": 198,
+      "sha256": "dbfc13782845ca325d7859d06ab3b725c5c9e48f4a0a6de0a640e794206dad9f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/mixin/lib/thanos-grafana-builder/README.md"
+    },
+    {
+      "path": "pkg/store/storepb/prompb/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/52e259482e2954864d988e1c.md",
+      "kind": "official-document",
+      "bytes": 174,
+      "sha256": "41c4c5a3ceadfb63f0b5d727169b88a5118cb0bf830d4d94e47d3c4aef42fd1f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/pkg/store/storepb/prompb/README.md"
+    },
+    {
+      "path": "pkg/ui/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/db3e7f1a30ec506aef2ddf63.md",
+      "kind": "official-document",
+      "bytes": 512,
+      "sha256": "967d3cfece740928cea82953378538f3fc2eb767c3a6a156ff1ed0274eb2780f",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/pkg/ui/README.md"
+    },
+    {
+      "path": "pkg/ui/react-app/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/28a2afaa1f235d3e24232693.md",
+      "kind": "official-document",
+      "bytes": 4563,
+      "sha256": "e70879635596534a9aa0b3b40079c9d7fb92139df08da55a0d4106f6ec364b77",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/pkg/ui/react-app/README.md"
+    },
+    {
+      "path": "scripts/copyright/copyright.go",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/d5bb3d1268103a782201b606.go",
+      "kind": "license",
+      "bytes": 1879,
+      "sha256": "16d67f3c92d361aca642d271a9de9e41a488720bbd0071bb075a5cbabbdafa74",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/scripts/copyright/copyright.go"
+    },
+    {
+      "path": "tutorials/interactive-example/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/2d82bc0be9e9e3f1a7301e9d.md",
+      "kind": "official-document",
+      "bytes": 1576,
+      "sha256": "6edadbfd41c48a47c58c905883d6ad548ee7398b0c9bb100b6f9f0d2f4681d2b",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/tutorials/interactive-example/README.md"
+    },
+    {
+      "path": "tutorials/killercoda/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/1a5f7916607b63f7bc9cf7ef.md",
+      "kind": "official-document",
+      "bytes": 941,
+      "sha256": "35022b98ff87c24cf1d1baab225febacb00057405e4e87bfc6e15c1f6684e230",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/tutorials/killercoda/README.md"
+    },
+    {
+      "path": "tutorials/kubernetes-helm/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/1e590ea0e32333e704993ecb.md",
+      "kind": "official-document",
+      "bytes": 3916,
+      "sha256": "e82a5b9c6ab01c99af38c375ddc6e7481e18dd32d9cbe2e5d413a285c5c1aacc",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/tutorials/kubernetes-helm/README.md"
+    },
+    {
+      "path": "tutorials/thanos-with-cilium/README.md",
+      "localPath": "raw/thanos-io--thanos/a7c9f1e0aa57/73c156e4de3259f644d9a5d5.md",
+      "kind": "official-document",
+      "bytes": 2634,
+      "sha256": "82d9e4d3faaad5e778ffbe694445cd5039ed39a95fc69359792d0e788fcd6f8d",
+      "sourceUrl": "https://github.com/thanos-io/thanos/blob/a7c9f1e0aa57056027ea9fd5028e2a99fbac11f3/tutorials/thanos-with-cilium/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

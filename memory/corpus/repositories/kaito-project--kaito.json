@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "repo": "kaito-project/kaito",
+  "commit": "fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90",
+  "retrievedAt": "2026-10-01T15:21:22.778105+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Inference/Framework"
+  ],
+  "archiveUrl": "https://codeload.github.com/kaito-project/kaito/zip/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90",
+  "archiveSha256": "70b776d253d06eee7824c0342a152142db68d67f95ff11a9027c365da649c4b7",
+  "archiveBytes": 60400878,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 103,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 874055
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 6355,
+      "sha256": "78489d9d22446f571173d2fb2894e33204d9d945a9392216b228a68dbcccab50",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/AGENTS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 991,
+      "sha256": "80d083bd668d71b34791ef1d3b980efdbfe5333046330da30cbf855ce6eddb3a",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 2648,
+      "sha256": "1f084f6852cdf78ddaf794d5a6b29f2c4b6338c631703a522b9f5f36ad790ed9",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 12094,
+      "sha256": "5f8a48d0be55a0309a655146d275c2d7b9231d19edb41735e5025bff2b0c9855",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 1455,
+      "sha256": "d30cee7bcf9a4fee15b4d942871d761b5fe55551a16f833122cde0d489dbb0fd",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 9772,
+      "sha256": "c2f8d1325c6d1e38bb5495ba1da0862507fb1726aca20fe7e7dc647497bff0aa",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 2727,
+      "sha256": "695d8692ae3da4177fd578602fd7c9d72dc2182e645c33e0a2deb2f8bc4cf2c6",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/SECURITY.md"
+    },
+    {
+      "path": "SUPPORT.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/c5fe610b0215b14447410625.md",
+      "kind": "official-document",
+      "bytes": 498,
+      "sha256": "f0c0e587154ee8421d65dfe68498ec50cac097e9d56e67804deb9679ba8eea1d",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/SUPPORT.md"
+    },
+    {
+      "path": "benchmarks/mt_bench/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/a7c3c97eb412b263e0f343e2.md",
+      "kind": "official-document",
+      "bytes": 4150,
+      "sha256": "faf0a80b676e33a1d482a03952ca497adaf00e2d3f418ca9d0250dc3e635b9cb",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/benchmarks/mt_bench/README.md"
+    },
+    {
+      "path": "benchmarks/rag/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4963a94cedac318f2ea891f0.md",
+      "kind": "official-document",
+      "bytes": 858,
+      "sha256": "ecb13ece7ea1eae9bfbf316b1dc1d1ea0a7f34da7da341c49d60d12312fdf8e1",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/benchmarks/rag/README.md"
+    },
+    {
+      "path": "charts/DemoUI/inference/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/b38d15aa440cdf076168cb41.md",
+      "kind": "official-document",
+      "bytes": 3709,
+      "sha256": "3e9933ebcedecab799d89f8e37767f44fa6d66ac4fe27b7c4f5aab382b89d922",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/charts/DemoUI/inference/README.md"
+    },
+    {
+      "path": "charts/kaito/ragengine/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/e2f0f62888fd315f3a6693dc.md",
+      "kind": "official-document",
+      "bytes": 5740,
+      "sha256": "05ce2f4d9c0f1df63ed0bc3933cac71e58c84a9124a6eeb0c68bda4aa329b982",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/charts/kaito/ragengine/README.md"
+    },
+    {
+      "path": "charts/kaito/workspace/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/87f0b8f044036a177edac65a.md",
+      "kind": "official-document",
+      "bytes": 12079,
+      "sha256": "aa1c25cfb9901a4096ec512ddef4cc1f653d1ffa1e985b010d21d29ac09307e0",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/charts/kaito/workspace/README.md"
+    },
+    {
+      "path": "docker/adapters/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/64f377ce32dfab3862b2e095.md",
+      "kind": "official-document",
+      "bytes": 916,
+      "sha256": "44f6f29d1e82db444ce81d533c51d60ecee8dc2cc3d42334983373abcb271e86",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docker/adapters/README.md"
+    },
+    {
+      "path": "docker/datasets/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/0961b378bdd5df32753b9a9d.md",
+      "kind": "official-document",
+      "bytes": 937,
+      "sha256": "26fa427cdf7f477c07128a90e9e16ba9d417d3c5ad5391230f425b393800de10",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docker/datasets/README.md"
+    },
+    {
+      "path": "docker/presets/models/tfs/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/b68477e2c8128b5b1468d4de.md",
+      "kind": "official-document",
+      "bytes": 1124,
+      "sha256": "e568c12f6a5ed10f96989a7045295c1e173740b72434f000c4eccd3d63d9bf30",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docker/presets/models/tfs/README.md"
+    },
+    {
+      "path": "docs/Release_Management.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/576085d65ae4bde44b9f65ae.md",
+      "kind": "official-document",
+      "bytes": 4158,
+      "sha256": "41681a74d6f678d52afbc88151a21cd587ca1a9bf817dec1b886f903ae90a780",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/Release_Management.md"
+    },
+    {
+      "path": "docs/documentation-versioning.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/107d2f420af7b658e7cc94a3.md",
+      "kind": "official-document",
+      "bytes": 4354,
+      "sha256": "b2ca29c2fe7d207ea7f7a28c2c66633e1e7670799686f384e13d841f5369b342",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/documentation-versioning.md"
+    },
+    {
+      "path": "docs/dynamo-vs-llm-d-comparison.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/548209c65cfe5dea41ed6349.md",
+      "kind": "official-document",
+      "bytes": 14863,
+      "sha256": "28e2f16d00c526525fdf0796f3411e3966c0aec032dd87f1b0bcf59ab081f055",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/dynamo-vs-llm-d-comparison.md"
+    },
+    {
+      "path": "docs/preset-image-building-process.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/eec0a9ffc24e07a355c52c24.md",
+      "kind": "official-document",
+      "bytes": 1822,
+      "sha256": "71e6211344a027eb610270f1f413f00b97f3b402ad6a5b50c1411235240f9caf",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/preset-image-building-process.md"
+    },
+    {
+      "path": "docs/proposals/20240205-mistral-instruct.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/1e26c024f9eaeafa3efaf197.md",
+      "kind": "official-document",
+      "bytes": 2464,
+      "sha256": "44c2270dbe84d20c1a6e09c7b09936cd29232fdbb5837272741b0fad5a4448e3",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20240205-mistral-instruct.md"
+    },
+    {
+      "path": "docs/proposals/20240205-mistral.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/2079b0427f841e5f21cf4254.md",
+      "kind": "official-document",
+      "bytes": 2112,
+      "sha256": "6b906a00354d61bd1c26011a2cdacb3ae4017cb9a15d1c41144dbc17fbfc4efe",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20240205-mistral.md"
+    },
+    {
+      "path": "docs/proposals/20240206-phi-2.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/68dde7906b4540cee8da4f45.md",
+      "kind": "official-document",
+      "bytes": 1714,
+      "sha256": "fc2df019feac6fcb5818cafee990185c15963a29364f40ab2e12c0101a1ff80b",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20240206-phi-2.md"
+    },
+    {
+      "path": "docs/proposals/20240527-phi3-instruct.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/eca517dfe84c97ff38b1d3c3.md",
+      "kind": "official-document",
+      "bytes": 1794,
+      "sha256": "129c2cae472607f2bcd65c1fbffacd5aa6be6879c7f77620956293c15a794228",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20240527-phi3-instruct.md"
+    },
+    {
+      "path": "docs/proposals/20241212-phi4-instruct.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/82ef025b0f76eda7065e2ec4.md",
+      "kind": "official-document",
+      "bytes": 2587,
+      "sha256": "fc938713f9ef2964f7ce888aa36ff834786899f14799473f397bd41142372fb4",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20241212-phi4-instruct.md"
+    },
+    {
+      "path": "docs/proposals/20250103-qwen2.5-coder.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/a6ec474f461f4e2f7a8cb76b.md",
+      "kind": "official-document",
+      "bytes": 2054,
+      "sha256": "2998b43e35f2ca468384416088dcfdc61bc9ec909898d1325a1e30f8bdf7007a",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250103-qwen2.5-coder.md"
+    },
+    {
+      "path": "docs/proposals/20250325-distributed-inference.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4c72c3772ab0e1c9d619b754.md",
+      "kind": "official-document",
+      "bytes": 16235,
+      "sha256": "da7185856993219bd3264978971e8ff8f357d004650f3e5db6d8c34265955934",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250325-distributed-inference.md"
+    },
+    {
+      "path": "docs/proposals/20250529-llama-3.3-70b-instruct.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/6cea1a15a7c7c0046d993846.md",
+      "kind": "official-document",
+      "bytes": 5412,
+      "sha256": "ffdf0cac6933ff38e5d0fc592346075a77c99a7627d6b7370005324e276fc612",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250529-llama-3.3-70b-instruct.md"
+    },
+    {
+      "path": "docs/proposals/20250609-model-as-oci-artifacts.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/39d401ebd920e8adb6318a46.md",
+      "kind": "official-document",
+      "bytes": 12656,
+      "sha256": "9c4943c78c9f31a70d53511a7a62d3039b27cbc18971272b770fa073366c8d84",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250609-model-as-oci-artifacts.md"
+    },
+    {
+      "path": "docs/proposals/20250611-workspace-subresource-scale-api.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/603fa4fb4a14d45d6ff63801.md",
+      "kind": "official-document",
+      "bytes": 8049,
+      "sha256": "e20726cfa151e732b00825bd7945bccd704cdaab4edf7bd8f9f645cc3d2c7cd9",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250611-workspace-subresource-scale-api.md"
+    },
+    {
+      "path": "docs/proposals/20250630-kaito-cli.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/c4b13729686a1f9e96f33b91.md",
+      "kind": "official-document",
+      "bytes": 14643,
+      "sha256": "e40b5230ef6eb26a0eb3983bea6392d80877cd4258dacd987a5222e20204cc67",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250630-kaito-cli.md"
+    },
+    {
+      "path": "docs/proposals/20250704-keda-scaler-for-inference-workloads.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/005a85f4f0d0e5fe2e217261.md",
+      "kind": "official-document",
+      "bytes": 38050,
+      "sha256": "5d26cfb2daee6e216071b24873b1c6c3980f658176983f4ae2d1d22e6ba3cef2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250704-keda-scaler-for-inference-workloads.md"
+    },
+    {
+      "path": "docs/proposals/20250715-inference-aware-routing-layer.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/fea3f506e5e82a948cbc58cb.md",
+      "kind": "official-document",
+      "bytes": 10164,
+      "sha256": "1c8ad441a7301af1a9135321659031c1ff2d79b16711af703fc0b083c1a65b52",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250715-inference-aware-routing-layer.md"
+    },
+    {
+      "path": "docs/proposals/20250808-gpt-oss-20b.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/2cd65fae92bdb715f16c4202.md",
+      "kind": "official-document",
+      "bytes": 3263,
+      "sha256": "c153bd0c4081607127f580539cbdeaecc7a5ab8544124b1994eb6869248f9a78",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250808-gpt-oss-20b.md"
+    },
+    {
+      "path": "docs/proposals/20250820-byo-nodes.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/eb5f60bdbaa95750264e6661.md",
+      "kind": "official-document",
+      "bytes": 6264,
+      "sha256": "9dcd14a1c89baaf51433ddf4df2c48337aae7184765a004e55cfc85ccb417d2e",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250820-byo-nodes.md"
+    },
+    {
+      "path": "docs/proposals/20250902-cloud-provider-agnostic-scheduling.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/45840501b8a18707e8ad2a01.md",
+      "kind": "official-document",
+      "bytes": 8782,
+      "sha256": "bd1a008864c992b1c1d3b3ce9c71c46e7baf98b9c7c4b33a52ff8d18f36888bf",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250902-cloud-provider-agnostic-scheduling.md"
+    },
+    {
+      "path": "docs/proposals/20250918-introduce_inferenceset_autoscaling.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/217c87b552a45361e13ce16d.md",
+      "kind": "official-document",
+      "bytes": 9724,
+      "sha256": "7a995ef2e9b2dfc8d03a2833663ef770785d098e74e0e1df5553628c300284b8",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20250918-introduce_inferenceset_autoscaling.md"
+    },
+    {
+      "path": "docs/proposals/20251001-gemma-3-27b-instruct.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4031e987090d2501b646918b.md",
+      "kind": "official-document",
+      "bytes": 2346,
+      "sha256": "16cc563856b4bc6ad5e5a379c7891746c9727e0208175ce1ed325da556e652db",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20251001-gemma-3-27b-instruct.md"
+    },
+    {
+      "path": "docs/proposals/20251001-gemma-3-4b-instruct.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/7290ad318729bb8b7b26bc2c.md",
+      "kind": "official-document",
+      "bytes": 2077,
+      "sha256": "607a161825e3ac298d042f696f528894f1f9f90d5d3d19f747cc1fb468ff86c2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20251001-gemma-3-4b-instruct.md"
+    },
+    {
+      "path": "docs/proposals/20251001-rag-auto-indexer.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/f9240fe3826183b85564f8b6.md",
+      "kind": "official-document",
+      "bytes": 29938,
+      "sha256": "3dbe3e648291d800bbe1ec8fb857bc644e7e350a799c5e8ab6bf242465da44c3",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20251001-rag-auto-indexer.md"
+    },
+    {
+      "path": "docs/proposals/20251205-mistral-3.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/af5fc9ef460b6711eb0a95e5.md",
+      "kind": "official-document",
+      "bytes": 1407,
+      "sha256": "b21edc4ed1d5f276eb5ef1b662c9f30924810aca33494eb4241284b3e6f7dccd",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20251205-mistral-3.md"
+    },
+    {
+      "path": "docs/proposals/20260121-workspace-status-phase.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4895d3a6787a5ff57d6a0b61.md",
+      "kind": "official-document",
+      "bytes": 4366,
+      "sha256": "15a848564a8609a4b34ca211d53c9821f2f847f9454931a543bd690fdf88069c",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260121-workspace-status-phase.md"
+    },
+    {
+      "path": "docs/proposals/20260407-migrate-node-provisioner-to-azure-karpenter.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/ef5ba176b95e4821d57b255e.md",
+      "kind": "official-document",
+      "bytes": 40321,
+      "sha256": "3efbcc7a34898cb009a947a27cc2163594491a0f921575a4898b520d41c97c99",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260407-migrate-node-provisioner-to-azure-karpenter.md"
+    },
+    {
+      "path": "docs/proposals/20260416-ragengine-guardrails-ux-api.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/a7aa5f59b12d655f93bfec04.md",
+      "kind": "official-document",
+      "bytes": 7880,
+      "sha256": "a83c6eabf9bdb8d05b044f073ed325d4d66bedd4cceba47c2e89230cc356d693",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260416-ragengine-guardrails-ux-api.md"
+    },
+    {
+      "path": "docs/proposals/20260424-multiroleinference-pd-disaggregation.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/6cc7f2acb0d374be73630d62.md",
+      "kind": "official-document",
+      "bytes": 46512,
+      "sha256": "a3ee765036034a6386d1c5dc90d79bf07f1c871a9c5334950d20d5c582fbf77b",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260424-multiroleinference-pd-disaggregation.md"
+    },
+    {
+      "path": "docs/proposals/20260507-auto-upgrade-base-image.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/a428f21f60ca22dc435e2d8c.md",
+      "kind": "official-document",
+      "bytes": 22148,
+      "sha256": "3d832a813ae8edc17d701d484cd5a4781bc4dda809506539b3306c4c1b606801",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260507-auto-upgrade-base-image.md"
+    },
+    {
+      "path": "docs/proposals/20260520-model-mirror.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/c1468f802aba215559b64720.md",
+      "kind": "official-document",
+      "bytes": 33131,
+      "sha256": "b9e86a0a987e33714f50941b8bb4773c24add1c9b616f7c364f659ab24db14f7",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260520-model-mirror.md"
+    },
+    {
+      "path": "docs/proposals/20260609-distributed-cache-integration.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4e7e29593fcaad24db0877f1.md",
+      "kind": "official-document",
+      "bytes": 48990,
+      "sha256": "00ea123429508a3942f552f694e9883242fa12941b98598f8dcfb807d69a196a",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260609-distributed-cache-integration.md"
+    },
+    {
+      "path": "docs/proposals/20260709-byo-nodes-mig-support.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/92698afecf612a71b770966b.md",
+      "kind": "official-document",
+      "bytes": 15985,
+      "sha256": "71707d48ab2336b91e6a6a64d3d906696a8c9281fd312b851f7db49654c9dba1",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260709-byo-nodes-mig-support.md"
+    },
+    {
+      "path": "docs/proposals/20260722-deepseek-v4-onboarding.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/cd601e7bd6a6856a27796759.md",
+      "kind": "official-document",
+      "bytes": 12024,
+      "sha256": "00ee7b7e56a1f3f82340b8dfa577b2238ca7130bfade1ea341b5e4ee55dfef9e",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260722-deepseek-v4-onboarding.md"
+    },
+    {
+      "path": "docs/proposals/20260914-byo-weights.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/0814953504679a1afd9fcfca.md",
+      "kind": "official-document",
+      "bytes": 22315,
+      "sha256": "94ef2301ca39815d5feeec5222400d4b6a427e94d6e35c0c4fd30fe0bf46a1f4",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/20260914-byo-weights.md"
+    },
+    {
+      "path": "docs/proposals/YYYYMMDD-model-template.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/e98b71efa27602179bd7b0dc.md",
+      "kind": "official-document",
+      "bytes": 3820,
+      "sha256": "28425608acaf48fc4ffb2584f109f86459fdfc3c10dc73fbad33caafbe6026ad",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/YYYYMMDD-model-template.md"
+    },
+    {
+      "path": "docs/proposals/YYYYMMDD-proposal-template.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/8803addb0eff351f0bba0667.md",
+      "kind": "official-document",
+      "bytes": 7281,
+      "sha256": "d18b4529c97616c756269eda9585726b4f242c247b68f6aef0e0df7c96e3ec60",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/docs/proposals/YYYYMMDD-proposal-template.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 1055,
+      "sha256": "4d0c378cf6fabb85f0889ba371b958c3c70a3bd9351634b16fcff48188bb71a8",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/examples/README.md"
+    },
+    {
+      "path": "pkg/workspace/image/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/deab3600e61d6ef28b5f3e88.md",
+      "kind": "official-document",
+      "bytes": 1306,
+      "sha256": "215dc25be46b97e90daa48594927fd00f7da5f830f6747812566572ab1b44f3f",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/pkg/workspace/image/README.md"
+    },
+    {
+      "path": "plugins/kaito-workspace/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/7ec3e19c019353726631f6fc.md",
+      "kind": "official-document",
+      "bytes": 8561,
+      "sha256": "8e6c90ea99a7c8b13fe3366a7ac3c852d2e3c1e203ad8660ce0b97716781b57d",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/plugins/kaito-workspace/README.md"
+    },
+    {
+      "path": "presets/ragengine/streaming/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/ef9bbf1ce68d1fce56139ac2.md",
+      "kind": "official-document",
+      "bytes": 3196,
+      "sha256": "5564eb77c794a07a404f1dcda1feae9e39e71502888097599719680d5a71236e",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/presets/ragengine/streaming/README.md"
+    },
+    {
+      "path": "presets/workspace/dependencies/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/f57d4854fc7de445d24d978a.md",
+      "kind": "official-document",
+      "bytes": 68,
+      "sha256": "c465ea4bd158f276b3212a8132a70fb80fdb92066d2fbf84f33621a4419c7524",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/presets/workspace/dependencies/README.md"
+    },
+    {
+      "path": "presets/workspace/generator/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/01508f53dba5a6c15568e327.md",
+      "kind": "official-document",
+      "bytes": 2862,
+      "sha256": "dff3f19db6def12ac6bc03ad9cc44b933b581d3d1c6f35f7f4f9558f1984d787",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/presets/workspace/generator/README.md"
+    },
+    {
+      "path": "terraform/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/2148814594f29e028d610c8a.md",
+      "kind": "official-document",
+      "bytes": 2899,
+      "sha256": "2c9c53fb02050b8bff9600609906419db833192a2a8806217643177f46d37a0a",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/terraform/README.md"
+    },
+    {
+      "path": "website/README.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/0eb684c3ea7be1b3de6b0b15.md",
+      "kind": "official-document",
+      "bytes": 657,
+      "sha256": "0765c7fa5e60dd7a86d0231abc9bda0e1a717775946f131adf01ab01375fa48d",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/README.md"
+    },
+    {
+      "path": "website/docs/aikit.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/220043920649535ce4249c03.md",
+      "kind": "official-document",
+      "bytes": 5886,
+      "sha256": "555164bcf3c4fa418b688e3ed0c798283d7eaa0366fe13011a31ca8e90bba9a6",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/aikit.md"
+    },
+    {
+      "path": "website/docs/aws.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/5f72dc61d874bbda26f13aec.md",
+      "kind": "official-document",
+      "bytes": 12546,
+      "sha256": "45c0aba1b9a72aa93597cd78e775c13359546350c5ed12b2b6e50da9b05ea5d2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/aws.md"
+    },
+    {
+      "path": "website/docs/azure.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/77c5a51e86acd6b3b08a1a1e.md",
+      "kind": "official-document",
+      "bytes": 10794,
+      "sha256": "5f3b044a412ad92593a5faa11317faf1469abbcb2e04b06908d0a5d4aaf355f9",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/azure.md"
+    },
+    {
+      "path": "website/docs/bring-your-own-weights.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/1bc229922cf440363dd7f049.md",
+      "kind": "official-document",
+      "bytes": 3866,
+      "sha256": "624ab52ac28a9bf8551dfe9b7c1532c69b60bd03fa642094b52417b542831d52",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/bring-your-own-weights.md"
+    },
+    {
+      "path": "website/docs/contributing.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/973c50871d3825ded04c78c3.md",
+      "kind": "official-document",
+      "bytes": 4531,
+      "sha256": "08a089998a7c2d4d5b6f92f14dbe15aed157e0d1225c204a0f77313574543e1c",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/contributing.md"
+    },
+    {
+      "path": "website/docs/custom-model.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/5759141c54cd83f852edcef3.md",
+      "kind": "official-document",
+      "bytes": 1382,
+      "sha256": "53ee915026454ce6fc75c967aa267ff9a27f20ace035405065dd42b709995aa4",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/custom-model.md"
+    },
+    {
+      "path": "website/docs/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/9cf20d6cd4e2fe34e9089339.md",
+      "kind": "official-document",
+      "bytes": 3162,
+      "sha256": "579a40b01c44615abf1f605a5fcb741348f0acf7a731a73399eecab8f2268e3a",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/faq.md"
+    },
+    {
+      "path": "website/docs/gateway-api-inference-extension.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/57c9c54435563fc45878197d.md",
+      "kind": "official-document",
+      "bytes": 17237,
+      "sha256": "20b8b7f1e9adb02500f7388ac93b95c48a0ec4ea0992f2af08f4cbeace6d3172",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/gateway-api-inference-extension.md"
+    },
+    {
+      "path": "website/docs/gpu-benchmarks.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/0c7f6906d839cde5c5979935.md",
+      "kind": "official-document",
+      "bytes": 9341,
+      "sha256": "85a23c82ff2761b97f7cb03b532e1d9e421e5dcd8a199d9d2ff0792dce959ba2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/gpu-benchmarks.md"
+    },
+    {
+      "path": "website/docs/headlamp-kaito.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/9cea4306108a03b75d3f5b5d.md",
+      "kind": "official-document",
+      "bytes": 1678,
+      "sha256": "f9656a8201aa66d68a8a183300449914ee8035a1390243c1183ce5cd0108e203",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/headlamp-kaito.md"
+    },
+    {
+      "path": "website/docs/inference.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/48cf6c027fae80f565882a8d.md",
+      "kind": "official-document",
+      "bytes": 13434,
+      "sha256": "46770cdf682900331464adb64a8ff92159089cbb73c27db7f4ea6f806f0f0255",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/inference.md"
+    },
+    {
+      "path": "website/docs/installation.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/cce5ad757a430e659f571ed1.md",
+      "kind": "official-document",
+      "bytes": 5236,
+      "sha256": "e043d7c83dae61348980171b565df8241dd02586e2c1ae5092212a3a3e862a3b",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/installation.md"
+    },
+    {
+      "path": "website/docs/intro.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/2c4e27af73519cb13f2e5f0b.md",
+      "kind": "official-document",
+      "bytes": 6091,
+      "sha256": "d22451ef5a073a0e926af5362b0725d5b636d4d8eef8b0d6d9c99a709fd73e41",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/intro.md"
+    },
+    {
+      "path": "website/docs/kaito-on-byo-gpu-nodes.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/ceddff0a8568c87c6a013281.md",
+      "kind": "official-document",
+      "bytes": 7802,
+      "sha256": "8ee41ff004623b90eaf4cb61e45c7e76b23bb017edaf4f4f9905894555199e40",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/kaito-on-byo-gpu-nodes.md"
+    },
+    {
+      "path": "website/docs/kaito-oom-prevention.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/aec51c948a0d40257dcfae64.md",
+      "kind": "official-document",
+      "bytes": 5370,
+      "sha256": "09bc4e84e037080299cebdb3be8fe6e1b8521b887ed2a92fd88e4406f19f179c",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/kaito-oom-prevention.md"
+    },
+    {
+      "path": "website/docs/keda-autoscaler-inference.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/efd1768dbbed5eef5fd9dcef.md",
+      "kind": "official-document",
+      "bytes": 12775,
+      "sha256": "4eb707bbddaa91503cd7b334bcd7fc8277ee14b729cebae55d75fb9f1d5e7566",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/keda-autoscaler-inference.md"
+    },
+    {
+      "path": "website/docs/lora-adapters.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/737213338f85a9093c8e490a.md",
+      "kind": "official-document",
+      "bytes": 12298,
+      "sha256": "193c1b49aecd20ead12b8bb8ef8c18c0ec9772b6c1aea6cc9061857b33e8fd05",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/lora-adapters.md"
+    },
+    {
+      "path": "website/docs/memory-estimator.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/bc34e19fa489f2a83c92a998.md",
+      "kind": "official-document",
+      "bytes": 14097,
+      "sha256": "eefcb438194a8a20dbbe2dd70786dcb89978979bb2eecb65bb0bf6a07cd765c9",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/memory-estimator.md"
+    },
+    {
+      "path": "website/docs/model-as-oci-artifacts.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/d28023646111173311252235.md",
+      "kind": "official-document",
+      "bytes": 8686,
+      "sha256": "0ddc44d8315ee9c6d0d620218f9677b03aeea01c845600dd3e1cdb11160a12d6",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/model-as-oci-artifacts.md"
+    },
+    {
+      "path": "website/docs/model-mirror-streaming.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/b4c5d53c6fc3aef24a8d5659.md",
+      "kind": "official-document",
+      "bytes": 14975,
+      "sha256": "f0b500ce05b1c73f8728ef7b9eb032dada06fa0c36e9bddccc0efb4489053b3d",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/model-mirror-streaming.md"
+    },
+    {
+      "path": "website/docs/monitoring.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/863a34d59d579b9f0ee1fcc1.md",
+      "kind": "official-document",
+      "bytes": 4418,
+      "sha256": "7e3678f8f8a4c7110ddbca490221021f5db9b3a9cf3f082854d4b39ac39178d8",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/monitoring.md"
+    },
+    {
+      "path": "website/docs/multi-gpu-instance.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/42b89d94471ca9604ff7fcc3.md",
+      "kind": "official-document",
+      "bytes": 7517,
+      "sha256": "fe2b1700e3aa8884be231f087e2ccaa84f71c78131f83757ce89c295170b4e1c",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/multi-gpu-instance.md"
+    },
+    {
+      "path": "website/docs/multi-node-inference.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/531cbd922bfc09697a96e1ec.md",
+      "kind": "official-document",
+      "bytes": 8161,
+      "sha256": "6d984fc0e806686473b54688c4b897abfeebfc8e2de81f0fd97e96beb38537c8",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/multi-node-inference.md"
+    },
+    {
+      "path": "website/docs/prefill-decode-disaggregation.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/3be34d2aa565f842b1545350.md",
+      "kind": "official-document",
+      "bytes": 9645,
+      "sha256": "a50d058f1e43f83fb91adbb3c2ab6804e4aa715a098eaa7115db4891aa7b1917",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/prefill-decode-disaggregation.md"
+    },
+    {
+      "path": "website/docs/preset-onboarding.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/75fd0b25a399f2ef3eaf542a.md",
+      "kind": "official-document",
+      "bytes": 1071,
+      "sha256": "37dab58507cb154099b7e8588fdd90041b15e869b3e545ec120cae56413f97a8",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/preset-onboarding.md"
+    },
+    {
+      "path": "website/docs/presets.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/574dcdb9e560a635086aeb1d.md",
+      "kind": "official-document",
+      "bytes": 4490,
+      "sha256": "2e634e61ea7f166b7e9166c398c948ce5dbf020b874f92b4c1e746071cda9246",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/presets.md"
+    },
+    {
+      "path": "website/docs/proposals.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/ae088e71d8f99a496a09bfd0.md",
+      "kind": "official-document",
+      "bytes": 3215,
+      "sha256": "6b2bd5e66e47368a693f05c05dea44862392e295ab56acc65b50789937d74adb",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/proposals.md"
+    },
+    {
+      "path": "website/docs/quick-start.mdx",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/0201e282ce7488161a932734.mdx",
+      "kind": "official-document",
+      "bytes": 4968,
+      "sha256": "5de60bb6293fe32bdc9eaa21b00472592882f5317413d164a8131e5fcf2cd9a0",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/quick-start.mdx"
+    },
+    {
+      "path": "website/docs/rag-api.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4eec44d5f234ef57303b3ed8.md",
+      "kind": "official-document",
+      "bytes": 19039,
+      "sha256": "9c0a79b507f3d44175ec473cc0036e137d6f6335f405870d8684dd4a1145879e",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/rag-api.md"
+    },
+    {
+      "path": "website/docs/rag-chat-completions-wrapper.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/f3c89a63e4920960210abd43.md",
+      "kind": "official-document",
+      "bytes": 15492,
+      "sha256": "c3c50a3b8b89d2e612c2cf58017e77a8fcc6074fa1d2a5a83f0c95c64fa4a6a7",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/rag-chat-completions-wrapper.md"
+    },
+    {
+      "path": "website/docs/rag-output-guardrails.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/3543593d7181043c1d4d5aac.md",
+      "kind": "official-document",
+      "bytes": 12043,
+      "sha256": "30ff63fd74353ab6590ba34feaf6d960c2a48f547efa1d36a86f50b666ddd7eb",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/rag-output-guardrails.md"
+    },
+    {
+      "path": "website/docs/rag.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/85fdd656811da9202450ea8a.md",
+      "kind": "official-document",
+      "bytes": 9523,
+      "sha256": "eebb6b565349e820ac4911fa90817e621bfa636e31eff08858588a526eb5a637",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/rag.md"
+    },
+    {
+      "path": "website/docs/tool-calling.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/7e3df7188b618ee2d1d1c281.md",
+      "kind": "official-document",
+      "bytes": 6568,
+      "sha256": "e7cbe94f69c35ecb2cacbb6d7139b5f8fcedd1ed20b3847895b06e9bd434dc5e",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/tool-calling.md"
+    },
+    {
+      "path": "website/docs/tuning.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/96b1d9479f1ebcf2dc77cfa7.md",
+      "kind": "official-document",
+      "bytes": 12007,
+      "sha256": "1c0d53f13e66618dcf51f809b14362a532b5e6251803db4f2bad3ce99196c2c9",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/tuning.md"
+    },
+    {
+      "path": "website/docs/workspace.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/1dabe633be5096f72b7664a1.md",
+      "kind": "official-document",
+      "bytes": 6474,
+      "sha256": "69a137c6f56ec72ca30961afdb52814139bd964d596a87fdcd6b2b4974ab28c1",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/docs/workspace.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.10.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/4166864d60a36bc4167a464f.md",
+      "kind": "official-document",
+      "bytes": 1453,
+      "sha256": "d2bef382c52378eb8bea12949c41ff51784e980af5851576a0eb66ee293c2d19",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.10.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.11.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/77884408c094ed08d8640739.md",
+      "kind": "official-document",
+      "bytes": 2390,
+      "sha256": "be6d8a0106be34a0876552f2a4eb66248c1d44162a2e8602c61a651f6a8f4f4b",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.11.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.12.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/e54e2be992c8aeb0f51353eb.md",
+      "kind": "official-document",
+      "bytes": 3162,
+      "sha256": "579a40b01c44615abf1f605a5fcb741348f0acf7a731a73399eecab8f2268e3a",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.12.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.5.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/5f76d580a86a0c000ffbeb7b.md",
+      "kind": "official-document",
+      "bytes": 2574,
+      "sha256": "ef10bac1f3b4155d7574e73d8224440091ccb0db0b02fe5a8daf57a17e5178b2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.5.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.6.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/f043d362d7f2dd7c42daf1c5.md",
+      "kind": "official-document",
+      "bytes": 2574,
+      "sha256": "ef10bac1f3b4155d7574e73d8224440091ccb0db0b02fe5a8daf57a17e5178b2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.6.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.7.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/d433c078914a338de1621925.md",
+      "kind": "official-document",
+      "bytes": 2574,
+      "sha256": "ef10bac1f3b4155d7574e73d8224440091ccb0db0b02fe5a8daf57a17e5178b2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.7.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.8.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/e8f2c80ad1825306f1ce1331.md",
+      "kind": "official-document",
+      "bytes": 2574,
+      "sha256": "ef10bac1f3b4155d7574e73d8224440091ccb0db0b02fe5a8daf57a17e5178b2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.8.x/faq.md"
+    },
+    {
+      "path": "website/versioned_docs/version-v0.9.x/faq.md",
+      "localPath": "raw/kaito-project--kaito/fcfe4ec0e3db/dbcc0398f9520303b7b2f815.md",
+      "kind": "official-document",
+      "bytes": 2574,
+      "sha256": "ef10bac1f3b4155d7574e73d8224440091ccb0db0b02fe5a8daf57a17e5178b2",
+      "sourceUrl": "https://github.com/kaito-project/kaito/blob/fcfe4ec0e3db6c41ab25e6246902a0f1c5f41a90/website/versioned_docs/version-v0.9.x/faq.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

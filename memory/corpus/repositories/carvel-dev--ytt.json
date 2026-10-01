@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "repo": "carvel-dev/ytt",
+  "commit": "d43e803044ea9399c0f41c807e699ab40f6dbbd8",
+  "retrievedAt": "2026-10-01T15:15:26.387405+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/App Definition and Development/Application Definition & Image Build"
+  ],
+  "archiveUrl": "https://codeload.github.com/carvel-dev/ytt/zip/d43e803044ea9399c0f41c807e699ab40f6dbbd8",
+  "archiveSha256": "cafd65207bfcaa4c60a44ce7d1d9933453cb4c085b2e914ae23c60f45462b530",
+  "archiveBytes": 1952737,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 62,
+    "code": 5,
+    "licenses": 5,
+    "bytes": 59797
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 55,
+      "sha256": "237c3a73737f04f984098a564939579888d29c42012dc1a97c26a0e0d84fea22",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 52,
+      "sha256": "b365280b98b4a22d7b471263b168802997a2ada0b8f039068c8ad58f6e6aea50",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 217,
+      "sha256": "59ac6e858a243edc2ef72dea0cac2efa68ff0efbc005b430369320ba620d428e",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 10165,
+      "sha256": "43074981fd47262577cb5a8698e29ff6cb0bd135802782168fa58a2d882ee1b4",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 226,
+      "sha256": "a0b7aeed8de8c582647dc8378379065256c5c0137edae1e5c3ffb77ddb75025c",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/MAINTAINERS.md"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 471,
+      "sha256": "90725410b3207ef341e26fbc23c062abd618596f95215476324c172c5807f5c5",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 3562,
+      "sha256": "2fcb579216ec44031c804e481595d279df8daa07d217aeeb2c18af6e9efdd698",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/README.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 222,
+      "sha256": "af62c362ae399cf5f0b17903fd5a6125a5cb1a66a6953c936f63cda8913d5e03",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/ROADMAP.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 55,
+      "sha256": "c3ed363ba772fdbe740ff7f4f88f927496545fc38bdf5c767987e6a1eb1a63f8",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/SECURITY.md"
+    },
+    {
+      "path": "cmd/ytt-lambda-website/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/4f2a7b03ea95359b772f6128.md",
+      "kind": "official-document",
+      "bytes": 291,
+      "sha256": "977a85b7bb89454228da28bf73f98b0c865450bbbcf7f76128d778a796dbd6ef",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/cmd/ytt-lambda-website/README.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 99,
+      "sha256": "17d4d99aacf1759c846054a9084692238871bc480ff31d6dd49dab8d07ad306e",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/README.md"
+    },
+    {
+      "path": "docs/data-values-vs-overlays.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/d3e24932897f85c64fd9eb94.md",
+      "kind": "official-document",
+      "bytes": 147,
+      "sha256": "fe88df798558090ac8bfe48a06a3f64fef9668fde609dd61cd266c638ae304b0",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/data-values-vs-overlays.md"
+    },
+    {
+      "path": "docs/dev.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/3a6cab76ecce19612a704fe0.md",
+      "kind": "official-document",
+      "bytes": 8205,
+      "sha256": "32609aad69825ff94e4d9b4067b50db63b35e31a67c9945524e79c53ae3030d5",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/dev.md"
+    },
+    {
+      "path": "docs/faq.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/57cdcc6b6701a7ce3b3a8f8c.md",
+      "kind": "official-document",
+      "bytes": 107,
+      "sha256": "89b7d19a09844e2416fef14ae9817a05e5512937ccbd474273215548ca44448f",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/faq.md"
+    },
+    {
+      "path": "docs/file-marks.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/5105e24171cbb0a7c8e963d5.md",
+      "kind": "official-document",
+      "bytes": 121,
+      "sha256": "ae147f6ed0886573269f550c279d3a73da245565c2e7a7cbca115f3ddc487a95",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/file-marks.md"
+    },
+    {
+      "path": "docs/injecting-secrets.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/544e5912e0740d27fba3c5bb.md",
+      "kind": "official-document",
+      "bytes": 135,
+      "sha256": "1e5f67f3ba6a43bc8c22e66646a70e2b9b6e1c1c36dd4cfd53e667dafba1c157",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/injecting-secrets.md"
+    },
+    {
+      "path": "docs/known-limitations.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/ee1e0847de741c4dfd0b9565.md",
+      "kind": "official-document",
+      "bytes": 135,
+      "sha256": "6a908de566c3556696d49fdab7c1f7946f4f01849ac808de3eb57a62a50b3015",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/known-limitations.md"
+    },
+    {
+      "path": "docs/lang-ref-annotation.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/9e50d9d4c1041665c3b3eb86.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "736f125ab9dabf1897131899e42a628350127c934a0c36220d9aa2b7c031b0fd",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-annotation.md"
+    },
+    {
+      "path": "docs/lang-ref-def.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/0ae1b33ba334dacd7f89a9e8.md",
+      "kind": "official-document",
+      "bytes": 125,
+      "sha256": "107b41f2a3abe1a1b7b2cbb246dc4e2bba4b33b97b1f301d277f41ad871110f3",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-def.md"
+    },
+    {
+      "path": "docs/lang-ref-dict.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/730c4fb57df6277e9876de55.md",
+      "kind": "official-document",
+      "bytes": 127,
+      "sha256": "7668d7dc133831adadccd23ed85bf8e7115469895ee599d75730e47260082282",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-dict.md"
+    },
+    {
+      "path": "docs/lang-ref-for.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/875a08ea698386dc3c75675a.md",
+      "kind": "official-document",
+      "bytes": 125,
+      "sha256": "9621a529ba432fc7e358cfe3839cd72883094f0881b63bc2004439553b5c9590",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-for.md"
+    },
+    {
+      "path": "docs/lang-ref-if.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/76b2dbf11a27e8f503896aab.md",
+      "kind": "official-document",
+      "bytes": 123,
+      "sha256": "73fc2d5c130a8ec735a13d9526ee74a429282c031d980df29a0a98f14ff82b9a",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-if.md"
+    },
+    {
+      "path": "docs/lang-ref-list.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/76b70f634f6dab7d395049b4.md",
+      "kind": "official-document",
+      "bytes": 127,
+      "sha256": "c0139da4e4ef3665b5851c9f97e19eae058e48bb625acdd1d337c20723322211",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-list.md"
+    },
+    {
+      "path": "docs/lang-ref-load.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/cbb19e6aab5497c25e42c50d.md",
+      "kind": "official-document",
+      "bytes": 127,
+      "sha256": "e684e154db11ed45cbbfaf20a5326c0555e0a5ede644337f2966ac5e69509eb6",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-load.md"
+    },
+    {
+      "path": "docs/lang-ref-string.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/7dbff804e1fc6e71523f5183.md",
+      "kind": "official-document",
+      "bytes": 131,
+      "sha256": "9e030c24d6fe5b4f9148928925e43a225ff55b8a27f7dfd55a564b5245078d6c",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-string.md"
+    },
+    {
+      "path": "docs/lang-ref-structs.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/02b7d6132ef8933477432fb8.md",
+      "kind": "official-document",
+      "bytes": 133,
+      "sha256": "89309c430af25aafedf8b74165b7555fc244bbef189eaab88de9012329fc3d12",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-structs.md"
+    },
+    {
+      "path": "docs/lang-ref-yaml-fragment.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/e9120286802685d9cb41a197.md",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "5ae5326bc019e72c2f217b819d26cd2512622838ead52cd2a35beba945e34123",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-yaml-fragment.md"
+    },
+    {
+      "path": "docs/lang-ref-ytt-library.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/f6dd14c6fda4d73ee5a61988.md",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "da95be2b596455636c80cc39a68cfdbdc249717cfc181f0e081d558667c8193a",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-ytt-library.md"
+    },
+    {
+      "path": "docs/lang-ref-ytt-overlay.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/fdf9753779a5d34b63ec9bca.md",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "608812e6599d0e3ef6a671dcbb30fa850fce59b30008cca93c3247155d5cc91f",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-ytt-overlay.md"
+    },
+    {
+      "path": "docs/lang-ref-ytt-struct.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/3882d017fad74d90c939acb2.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "44d0878d6b950ddf9b48c8f0d7fd3245dfaecac785e5100545f4ec6c20a21eb1",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-ytt-struct.md"
+    },
+    {
+      "path": "docs/lang-ref-ytt-version.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/f595c1e388ef594cf05e02bd.md",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "55387eb7ea7dbf6ea4b202803d37478c2cab7718ee0b1b79de6c6cbbe81e56da",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-ytt-version.md"
+    },
+    {
+      "path": "docs/lang-ref-ytt.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/ba8166473e6dd924e8e44124.md",
+      "kind": "official-document",
+      "bytes": 125,
+      "sha256": "7d0a3e89a52d82d5c06a3bea2c69e0e60929ad85382abf70baf9e76c180694fc",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang-ref-ytt.md"
+    },
+    {
+      "path": "docs/lang.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/f0e605bd8de7902da45a878d.md",
+      "kind": "official-document",
+      "bytes": 109,
+      "sha256": "afbbc5f30bd616818094b748af2233367fe8a1730f71290f0571214606c76546",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/lang.md"
+    },
+    {
+      "path": "docs/outputs.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/3b979db8fe1a091621af10f2.md",
+      "kind": "official-document",
+      "bytes": 115,
+      "sha256": "40f4496540b92022368e83ddf2f40ac36a8801c7e97986fecebab84852c6de2b",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/outputs.md"
+    },
+    {
+      "path": "docs/schema-migration-guide.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/a60bdb40369ead09a9b91254.md",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "4c1e24bcd251e2c2d75d1b4b4366258590a3a58fd8e4d450bc44f741dc0602fe",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/schema-migration-guide.md"
+    },
+    {
+      "path": "docs/security.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/2c506cc756a5333f8fb5acb8.md",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "1038bfe7217289c92f9b64d5d5d6b60c8c4e9dfd30707e3eb67d2d56eb81f7c2",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/security.md"
+    },
+    {
+      "path": "docs/strict.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/29d09ef31d778b0392d833d2.md",
+      "kind": "official-document",
+      "bytes": 113,
+      "sha256": "6ad0c742a0091daba4dcfd91c1f711cd697cb4e27035293395f5c79f6bcb0541",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/strict.md"
+    },
+    {
+      "path": "docs/ytt-data-values.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/eaecfc3bbcf98371de2b91f2.md",
+      "kind": "official-document",
+      "bytes": 131,
+      "sha256": "d7ea32c6257816223b89f2f6241204f32599fcf5d838fb49d526850bb46574ee",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/ytt-data-values.md"
+    },
+    {
+      "path": "docs/ytt-overlays.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/001c8219ffe1c4e9bf0ca269.md",
+      "kind": "official-document",
+      "bytes": 125,
+      "sha256": "83aa7134a73fbb04cefcbd6642af8ef768fd7fc7091c8ef838c9fa9221706b0c",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/ytt-overlays.md"
+    },
+    {
+      "path": "docs/ytt-text-templating.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/b3adb9d04825944104c0a29c.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "0dcfd97cf38ad240485114c6ef83a1345b757fd23d32cb4d92754d5e8ad4ad98",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/ytt-text-templating.md"
+    },
+    {
+      "path": "docs/ytt-vs-x.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/5f73cca912af4d0ea4c95388.md",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "8ff60714f50ea9f7b33f38cdae0d654f2a75ea7f8bb3c2e40a570c4c695e7a57",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/docs/ytt-vs-x.md"
+    },
+    {
+      "path": "examples/concourse-overlay/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/002281b24198c54c1996975b.md",
+      "kind": "official-document",
+      "bytes": 801,
+      "sha256": "dde1ec83639d2ff84760a318b194b37c9994b5b909f1d2a93e51fedc8eb478a4",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/concourse-overlay/README.md"
+    },
+    {
+      "path": "examples/data-values-directory/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/dd0cfc68b4dcdc4adf6d4cdd.md",
+      "kind": "official-document",
+      "bytes": 808,
+      "sha256": "ecf500d5cb87bfbcfab6d64b0246da5dcc9ac7a10f4cc5106966d6fb953adbe2",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values-directory/README.md"
+    },
+    {
+      "path": "examples/data-values-directory/run.sh",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/4fa2b6585710f9a8ce3f3d0a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 143,
+      "sha256": "cca950c506821c96bcec30008bff4093f6f3f6b8f1bd62a4c7718b2a7f0fa661",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values-directory/run.sh"
+    },
+    {
+      "path": "examples/data-values-multiple-envs/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/769400304606771d4cce81bf.md",
+      "kind": "official-document",
+      "bytes": 493,
+      "sha256": "d9473cbd266bb96cca451b0eaef32e32d5bec5381703c6ac03ff761f3bde4372",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values-multiple-envs/README.md"
+    },
+    {
+      "path": "examples/data-values-multiple-envs/run.sh",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/c655652baf002a870f9c999d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 435,
+      "sha256": "23c405ab990f541c4466470cd35615495b391044acda3e34dccb03274d641fe0",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values-multiple-envs/run.sh"
+    },
+    {
+      "path": "examples/data-values-required/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/45478727a68d4c82ed668187.md",
+      "kind": "official-document",
+      "bytes": 840,
+      "sha256": "559ced65fafebc884fe3b0175494e812632ee0b125b3cd96d7d4577f29e83c78",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values-required/README.md"
+    },
+    {
+      "path": "examples/data-values-wrap-library/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/42d37faa641894dd90edda77.md",
+      "kind": "official-document",
+      "bytes": 1116,
+      "sha256": "8ae38b3ad9b54a9f52d394469a282633fc587e86073e37cf723a15114beb520b",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values-wrap-library/README.md"
+    },
+    {
+      "path": "examples/data-values/run.sh",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/8212988d3c953433d4800ac2.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1285,
+      "sha256": "d426db8acf03ea935cf61aaf35fb3efa23b1f8b8310cc8da4928eb0c251b85ee",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/data-values/run.sh"
+    },
+    {
+      "path": "examples/helm-ytt-post-renderer/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/3e15fe2b106175ee46812330.md",
+      "kind": "official-document",
+      "bytes": 965,
+      "sha256": "79f16b3c090141f6ef35b2a0443f1d6dcbf1c778495e110375ce7738408191e2",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/helm-ytt-post-renderer/README.md"
+    },
+    {
+      "path": "examples/integrating-with-ytt/internal-templating/main.go",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/a727c2045ebecc340acc7505.go",
+      "kind": "upstream-example-code",
+      "bytes": 2147,
+      "sha256": "d4233de7dc38607570c5202213c14f80e7b37cd9f7e50b6db7b1e7d1ab054b32",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/integrating-with-ytt/internal-templating/main.go"
+    },
+    {
+      "path": "examples/integrating-with-ytt/internal-templating/main_test.go",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/a5261646e72f2fcb9f8fc08a.go",
+      "kind": "upstream-example-code",
+      "bytes": 324,
+      "sha256": "8152e8da2d9db34737ce5f33e54334878e138aef98f3543793b25c3112c12e43",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/integrating-with-ytt/internal-templating/main_test.go"
+    },
+    {
+      "path": "examples/k8s-add-global-label/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/bf8845dbcd079cdc8b306313.md",
+      "kind": "official-document",
+      "bytes": 293,
+      "sha256": "e54fff83a2cdc21b139f18a24404b4186909fbb644615e11ad2c233dee14bdef",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-add-global-label/README.md"
+    },
+    {
+      "path": "examples/k8s-adjust-rbac-version/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/6b6ffe38c89922d6f02f119a.md",
+      "kind": "official-document",
+      "bytes": 263,
+      "sha256": "9f89779feedf0c988454c0743677097ea625501ef0203b0cec501e677b26e240",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-adjust-rbac-version/README.md"
+    },
+    {
+      "path": "examples/k8s-config-map-files/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/5a0504d59f08987431f02ed1.md",
+      "kind": "official-document",
+      "bytes": 276,
+      "sha256": "737651a950483550fe0041340768aeec90d3599cae80ab5f95a4a8eb2b6223c4",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-config-map-files/README.md"
+    },
+    {
+      "path": "examples/k8s-docker-secret/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/9024594727fbc3f37d4127eb.md",
+      "kind": "official-document",
+      "bytes": 367,
+      "sha256": "bf95f1122eb568cd7fc862fae67a5f4869040d7cc1e69025db8ca728bb014f0b",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-docker-secret/README.md"
+    },
+    {
+      "path": "examples/k8s-overlay-all-containers/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/168a8abb185860955ba5e82b.md",
+      "kind": "official-document",
+      "bytes": 175,
+      "sha256": "1a82583ec46cf7643f0a451b812ed96546048a0f80a43e318869c1d6ddd2ef6d",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-overlay-all-containers/README.md"
+    },
+    {
+      "path": "examples/k8s-overlay-in-config-map/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/9949fbf0d70b02b4a83c6778.md",
+      "kind": "official-document",
+      "bytes": 262,
+      "sha256": "00958e0350d5295664bb0a4be861d1eeee85d8a4ab634a3793b54bb7eee0bc71",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-overlay-in-config-map/README.md"
+    },
+    {
+      "path": "examples/k8s-overlay-ingress/ReadMe.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/37d3fcc528cc1da3c4985a4b.md",
+      "kind": "official-document",
+      "bytes": 2029,
+      "sha256": "49dc7f46fcd117d690fb122bf7a035d5722b96e803662af27bce06ea2802247c",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-overlay-ingress/ReadMe.md"
+    },
+    {
+      "path": "examples/k8s-overlay-remove-resources/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/f2be9333bad8123a031cd828.md",
+      "kind": "official-document",
+      "bytes": 258,
+      "sha256": "0c6a61a02e0379b811bfffe5813d7ebf4999ff409b65fa2eab263ecfd347b686",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-overlay-remove-resources/README.md"
+    },
+    {
+      "path": "examples/k8s-relative-rolling-update/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/6781e5408643fe30a0f653d6.md",
+      "kind": "official-document",
+      "bytes": 733,
+      "sha256": "7d23a4591f3375a88e5696b6df43c054aa6e0957357ba0157fbb4e57fdf12d56",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-relative-rolling-update/README.md"
+    },
+    {
+      "path": "examples/k8s-update-env-var/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/59a16f728126b7d484b631a2.md",
+      "kind": "official-document",
+      "bytes": 156,
+      "sha256": "c79c99f8527721ef554160e5b1ffc3b04dce9782593a22813fd7c58a2ed5c7bb",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/k8s-update-env-var/README.md"
+    },
+    {
+      "path": "examples/overlay-not-matcher/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/61aca670f23859923341b01b.md",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "a2140151a950921105435ee801553a4cee5bed819be229311bc7ee44287eea3d",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/overlay-not-matcher/README.md"
+    },
+    {
+      "path": "examples/playground/basics/example-ytt-library-module/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/4da1ff10449ec35f021f4be2.md",
+      "kind": "official-document",
+      "bytes": 337,
+      "sha256": "2a97f85223f93e8a22b7fdc1eeee1a9c37564f69da55aeb10c7aefbd84c0332c",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/playground/basics/example-ytt-library-module/README.md"
+    },
+    {
+      "path": "examples/schema-arrays/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/88a1cbe978026e369b37dc50.md",
+      "kind": "official-document",
+      "bytes": 840,
+      "sha256": "1e68184fb70fcbf79471d5395e1f53f41c17a2913d5ee1bf637770704250a644",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/schema-arrays/README.md"
+    },
+    {
+      "path": "examples/schema/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/d8bb9e365c5466d96d492fa3.md",
+      "kind": "official-document",
+      "bytes": 747,
+      "sha256": "81bd657488587a3cdfcd9563d0673d81a2366b0aeea16b9cf49f28a8b5898296",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/examples/schema/README.md"
+    },
+    {
+      "path": "pkg/yamlmeta/internal/yaml.v2/LICENSE",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/70418f2185d30727a9795ab9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/pkg/yamlmeta/internal/yaml.v2/LICENSE"
+    },
+    {
+      "path": "pkg/yamlmeta/internal/yaml.v2/LICENSE.libyaml",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/349a030ec66ed7ab2baaf64c.libyaml",
+      "kind": "license",
+      "bytes": 1313,
+      "sha256": "a94710b55e03b5285f77d048c5ba61bb9d6ee04a06c0eb90e68821e11b0c707a",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/pkg/yamlmeta/internal/yaml.v2/LICENSE.libyaml"
+    },
+    {
+      "path": "pkg/yamlmeta/internal/yaml.v2/NOTICE",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/dea8419eac28986cac92236a.txt",
+      "kind": "license",
+      "bytes": 560,
+      "sha256": "f6c2dd3a67b576eafb89b80200b8b1627230bf3821a0c14cb99a22ac19107d00",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/pkg/yamlmeta/internal/yaml.v2/NOTICE"
+    },
+    {
+      "path": "pkg/yamlmeta/internal/yaml.v2/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/21d1e8faa56e8405eb49681d.md",
+      "kind": "official-document",
+      "bytes": 2723,
+      "sha256": "8e8339d97d3e7231ee06980c9c479c6131e23580d337141689c340aed58a4bc0",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/pkg/yamlmeta/internal/yaml.v2/README.md"
+    },
+    {
+      "path": "proposals/001-schemas/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/c56a3f41bb71bf63caed5217.md",
+      "kind": "official-document",
+      "bytes": 127,
+      "sha256": "8a27fa9031e206c02ec070b0b6f19a94a4dfb05b55b287fa929d7ba962a90dbb",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/proposals/001-schemas/README.md"
+    },
+    {
+      "path": "proposals/README.md",
+      "localPath": "raw/carvel-dev--ytt/d43e803044ea/38d0e78b0aa3c1b0361bb75e.md",
+      "kind": "official-document",
+      "bytes": 118,
+      "sha256": "c36540a585be2aa27afaf91555eb1a1d9c3952bd709af830c398a1a3e4ab91c4",
+      "sourceUrl": "https://github.com/carvel-dev/ytt/blob/d43e803044ea9399c0f41c807e699ab40f6dbbd8/proposals/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

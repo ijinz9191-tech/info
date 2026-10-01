@@ -1,0 +1,1393 @@
+{
+  "schemaVersion": 1,
+  "repo": "kumahq/kuma",
+  "commit": "c993a12399b6b19dcc66c515208fdba6af1c45e5",
+  "retrievedAt": "2026-10-01T15:22:43.840616+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Service Mesh"
+  ],
+  "archiveUrl": "https://codeload.github.com/kumahq/kuma/zip/c993a12399b6b19dcc66c515208fdba6af1c45e5",
+  "archiveSha256": "3b0948e1f9307631bb95ad39059eff1d2d18dc5e7cf19f6ab4366560b4067ebb",
+  "archiveBytes": 12514083,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 152,
+    "code": 15,
+    "licenses": 4,
+    "bytes": 2308138
+  },
+  "files": [
+    {
+      "path": ".claude/rules/release.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/6d8971adc7379201fc3b8d85.md",
+      "kind": "official-document",
+      "bytes": 1007,
+      "sha256": "0c30b3f7cec1c7c8a7cbc83b95b45c2f9b9e8596f1a6a559205ad9731a8da0ca",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/.claude/rules/release.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 613596,
+      "sha256": "8f2bc39c7887557b9585fa738b34985a26abe1e3bbacef9e31d42afbea69ebe0",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/CHANGELOG.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 8836,
+      "sha256": "cc4f9b3b1666ee5c222bdcf0f473c36b46863d4afb9bb4cc3e5fe1d2db3d8927",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 246,
+      "sha256": "dc7251599baffe752895d806902de14246f59eebfaf251a4f85c9c3e99cbf54e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 13204,
+      "sha256": "39fedc0d80e7c1f35180d889ea2347f79b324a496de5b273174deea614593cc1",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/CONTRIBUTING.md"
+    },
+    {
+      "path": "DEVELOPER.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/35ea617bfbf0780bfbc55434.md",
+      "kind": "official-document",
+      "bytes": 8039,
+      "sha256": "8c772ce2cd496deeef9a04a85a65467ffb9d66135c3a936f7815f22f3b4e7de8",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/DEVELOPER.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 8046,
+      "sha256": "3d5f5a7f52daf3b9006f7cc42ab4aeb649286dbefe6b821d2389cee9d05506e9",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 111,
+      "sha256": "ca0e8f053064b88215f919d4d573d98c30170a946ced368ea50bbde8da22ab6f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/NOTICE"
+    },
+    {
+      "path": "OWNERS.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/403b96de276ed29c25c2559e.md",
+      "kind": "official-document",
+      "bytes": 1196,
+      "sha256": "e4f31eeba51bd9a9bf26b953a3ce62fb1bfa23eae40e3155e33dd13e8a6e0c4f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/OWNERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 9855,
+      "sha256": "522d3962b3fcf9c862832c47c933cc4b5b61c5942b3e81c7bd3214fe834d3b2e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 765,
+      "sha256": "7b2132d7ed864b3c6cd258b56382170f569388aad4ff1fbb7679d2e1f6ed81c3",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/SECURITY.md"
+    },
+    {
+      "path": "UPGRADE.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/434625111321abb225365806.md",
+      "kind": "official-document",
+      "bytes": 267221,
+      "sha256": "c2540e52ec023fe19431b6e38b217d9c4a9f582834ff11d9514189187707b390",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/UPGRADE.md"
+    },
+    {
+      "path": "dashboards/grafana/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/564b392a7ea84185849b1782.md",
+      "kind": "official-document",
+      "bytes": 1953,
+      "sha256": "3208ffcd741ea2c11d13538de91dd476dc83b23420987dca0d8a5f30faa5e0f8",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/dashboards/grafana/README.md"
+    },
+    {
+      "path": "deployments/charts/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/72f859863b94b3fcaf1ebb27.md",
+      "kind": "official-document",
+      "bytes": 405,
+      "sha256": "fce8a9e8aa47e62a7c2e4c9edbbd876375613b1a4d85ff7bca47aaff553caffb",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/deployments/charts/README.md"
+    },
+    {
+      "path": "deployments/charts/kuma/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/254845b719916bd22e14a553.md",
+      "kind": "official-document",
+      "bytes": 40162,
+      "sha256": "5fd6dae33d47e987603fcc548a49018fbfd4b2821e4195cc2a2136b6f227cc11",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/deployments/charts/kuma/README.md"
+    },
+    {
+      "path": "docs/guides/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/8d80745b4e642475274e1de3.md",
+      "kind": "official-document",
+      "bytes": 75,
+      "sha256": "8b30ae1ecd28f6dcae533683c1dbabea5cfbfd71ebf17e43c321d8646722bf06",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/README.md"
+    },
+    {
+      "path": "docs/guides/e2e-test-tips.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ff037f7f39a4bbf206b66b5b.md",
+      "kind": "official-document",
+      "bytes": 4004,
+      "sha256": "02b7b070ed7614ac418339252e61a79b8920de11625ea06cddf88cd396e36969",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/e2e-test-tips.md"
+    },
+    {
+      "path": "docs/guides/kds-sync-name.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/814d0bfd5e2a308fcaab4378.md",
+      "kind": "official-document",
+      "bytes": 3905,
+      "sha256": "d1fd5ba6b19bf35ddc06af8fb1e38d4fca4d31fee502a5ff23043f21c000a7b8",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/kds-sync-name.md"
+    },
+    {
+      "path": "docs/guides/new-feature.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/8af725307ba22c27f9b1f643.md",
+      "kind": "official-document",
+      "bytes": 814,
+      "sha256": "11209e88f378cec8d490a99b28b41ba3d504e60892fbeec72606a316e5330b8d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/new-feature.md"
+    },
+    {
+      "path": "docs/guides/new-policies.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7b93e428eeff9462a2b3aa6b.md",
+      "kind": "official-document",
+      "bytes": 4400,
+      "sha256": "4808a269798b47a2c997b9aa07e23a28a7ffb1505e04cf6f0cc744ecdda06573",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/new-policies.md"
+    },
+    {
+      "path": "docs/guides/new-proto-oapi.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/5228c53b9938f166e8060983.md",
+      "kind": "official-document",
+      "bytes": 750,
+      "sha256": "ca87332de315e60695e7b84a7959a639508a2ded714b2a30f466335f384f4f02",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/new-proto-oapi.md"
+    },
+    {
+      "path": "docs/guides/new-resource.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/897537b1fd158397ed72e097.md",
+      "kind": "official-document",
+      "bytes": 3395,
+      "sha256": "9af4ab251b0fe41134051c5d75055de173ff9b1024af5db749a06260a11a78a0",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/guides/new-resource.md"
+    },
+    {
+      "path": "docs/madr/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/dcb037f0821a620b2f6e28f4.md",
+      "kind": "official-document",
+      "bytes": 1368,
+      "sha256": "08966f53a5e843fa29b2eddd51e8c8e79628d87be1aaffe62261e4c2ee8a41a7",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/README.md"
+    },
+    {
+      "path": "docs/madr/decisions/000-template.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d203b26a77c53879f33e5b59.md",
+      "kind": "official-document",
+      "bytes": 2214,
+      "sha256": "77ef6d5bc5d4614b820da126d5db74a4b0240d8a7ac2c45f32f0d3751277feb5",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/000-template.md"
+    },
+    {
+      "path": "docs/madr/decisions/001-adopt-madr.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/95d29c340050f26b49022fab.md",
+      "kind": "official-document",
+      "bytes": 4259,
+      "sha256": "583e5b823d712fac30bea6b79b623d8cbdc15b86cc22a3cdbc0d4b78969d034e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/001-adopt-madr.md"
+    },
+    {
+      "path": "docs/madr/decisions/002-psat.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/2f2b3a39a85beba5997410e1.md",
+      "kind": "official-document",
+      "bytes": 3665,
+      "sha256": "f1a1d07735731c6c653dddf05e61926aba0f875f5ff91efb8576206560d9eb4e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/002-psat.md"
+    },
+    {
+      "path": "docs/madr/decisions/003-logging.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/03543e676073151a7aba162f.md",
+      "kind": "official-document",
+      "bytes": 7134,
+      "sha256": "965cbc2379c12e627f787c56d24e4ffc762a596e86e6ac73879ebaf65ced2b36",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/003-logging.md"
+    },
+    {
+      "path": "docs/madr/decisions/004-metric-filter.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1930eababb584d40f73b9854.md",
+      "kind": "official-document",
+      "bytes": 5098,
+      "sha256": "bf06924c15e0cba367f6f3c82acd2cc23acfa04447abc12fafb232cbb30034af",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/004-metric-filter.md"
+    },
+    {
+      "path": "docs/madr/decisions/005-policy-matching.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/6ddaf48b311ef3b56cff559f.md",
+      "kind": "official-document",
+      "bytes": 25732,
+      "sha256": "af20e679b29e25d43a15f35c3cc2bd572c5d9703cf9b37e55e75f8b97ead5fdd",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/005-policy-matching.md"
+    },
+    {
+      "path": "docs/madr/decisions/007-mesh-traffic-permission.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d683cb081f817032f03a1a77.md",
+      "kind": "official-document",
+      "bytes": 23110,
+      "sha256": "002a15ca4dbf7d7e2b3493caedb15e594f8774b5d0e80a901292d64727229bea",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/007-mesh-traffic-permission.md"
+    },
+    {
+      "path": "docs/madr/decisions/008-mesh-logging.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c3dc29a3f68a72bc0b16dc3b.md",
+      "kind": "official-document",
+      "bytes": 18779,
+      "sha256": "181558a407a277d1f4b16a8496070833167c955fb2530ffd27481a78dcf2611a",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/008-mesh-logging.md"
+    },
+    {
+      "path": "docs/madr/decisions/009-tracing-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7e5690a0caa4709982f28181.md",
+      "kind": "official-document",
+      "bytes": 9797,
+      "sha256": "b52ee3042c5f19bbc8e9629300102dc3cf7fe857bdf7331be7b52df4856e9abb",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/009-tracing-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/010-timeout-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0253c70bc803371f20ff4699.md",
+      "kind": "official-document",
+      "bytes": 7353,
+      "sha256": "9395bb0944ac9e46b5cd70cfc964f6e8e643b9d8188ab6cb480c4b98174299d8",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/010-timeout-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/011-mesh-traffic-route.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/283b31e6273ca358aab6d85a.md",
+      "kind": "official-document",
+      "bytes": 22936,
+      "sha256": "1689be2cdb483b3aacd0cd0b1e0764e06ab0e5cef3c6fdbe9f95ae185def6e51",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/011-mesh-traffic-route.md"
+    },
+    {
+      "path": "docs/madr/decisions/012-rate-limit-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/52461f9c6dc29df009a1510d.md",
+      "kind": "official-document",
+      "bytes": 9902,
+      "sha256": "3c3c7f0648e8ea93cc7733165167d28b4f15cc632f8c0e7451d0d52a9f0558d6",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/012-rate-limit-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/013-health-check-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/48b09c4a9c1048c50044dda0.md",
+      "kind": "official-document",
+      "bytes": 5554,
+      "sha256": "b762d9058702f4a7c605c4c874eb714aba7e9a417b8c3f99a54af354e6837caa",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/013-health-check-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/014-multizone-envoy-admin.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/27b6452ade0c7d9f6c25b913.md",
+      "kind": "official-document",
+      "bytes": 6077,
+      "sha256": "68d837eba727f2e4af276de9222dae9d6385f8a3b859120596f8b0799744eede",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/014-multizone-envoy-admin.md"
+    },
+    {
+      "path": "docs/madr/decisions/015-mesh-circuit-breaker-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/a5fafe86294e19519357157f.md",
+      "kind": "official-document",
+      "bytes": 8676,
+      "sha256": "0212b70c33aea938f9f1568b905c3933972108a5582c39d96e80c3742245f217",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/015-mesh-circuit-breaker-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/016-retry-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/3f1c56b231d436c026b41470.md",
+      "kind": "official-document",
+      "bytes": 5873,
+      "sha256": "9bd225a2a51cde1ba85038630c0a74c99ef5114e9d0753d232aeab6b3b571aba",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/016-retry-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/017-policy-array-merging.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f2f480920649e85a14bcee12.md",
+      "kind": "official-document",
+      "bytes": 3385,
+      "sha256": "314302bb327d4735d1caea4be44ead1f4d9ae7393508d2315f1989c63d0ec195",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/017-policy-array-merging.md"
+    },
+    {
+      "path": "docs/madr/decisions/018-mesh-proxy-patch.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d4b6151f2c85e0f504b32e08.md",
+      "kind": "official-document",
+      "bytes": 10430,
+      "sha256": "0aa39210cbf9d9e0d85a5f005a18c66b042f13ad4f93a785596f6555800108de",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/018-mesh-proxy-patch.md"
+    },
+    {
+      "path": "docs/madr/decisions/019-fault-injection-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b7b462f8c80cd41f5f962c63.md",
+      "kind": "official-document",
+      "bytes": 6813,
+      "sha256": "f73fb53b0e77aee3adaced96e769fb50e701046bdc8074d8c638c5b950d713c2",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/019-fault-injection-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/020-offline-signing-tokens.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ac3d106aa83f9b4032fe069d.md",
+      "kind": "official-document",
+      "bytes": 6316,
+      "sha256": "56157a051a87260733079a0146512f1643dd42c6105749e06ebfb6c5e75c44db",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/020-offline-signing-tokens.md"
+    },
+    {
+      "path": "docs/madr/decisions/021-kds-redesign.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/54b2523fd1fed8fccafdf4bf.md",
+      "kind": "official-document",
+      "bytes": 8559,
+      "sha256": "e31ef8ed2fa718f25bb654864dc287be567fbd89762bc294e02edce26255e095",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/021-kds-redesign.md"
+    },
+    {
+      "path": "docs/madr/decisions/022-lb-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7dca066d92c0c08f4aae7ae5.md",
+      "kind": "official-document",
+      "bytes": 6672,
+      "sha256": "76b8db247d8136a9178bb1a5ac772838677f230d69933ad46486a12bc6886e7e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/022-lb-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/023-retry-host-selection.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/fc9106550d29187737bbd206.md",
+      "kind": "official-document",
+      "bytes": 2970,
+      "sha256": "dc635badf154bfdb82de8f43281e8ac5edd7c97c3211299c5c02f1169aa4393f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/023-retry-host-selection.md"
+    },
+    {
+      "path": "docs/madr/decisions/026-mesh-tcp-route.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/027b93b389c92673a881048f.md",
+      "kind": "official-document",
+      "bytes": 4832,
+      "sha256": "27c04fc3361f89eb37ec7be244707dcc6c942022b21602f705ba0b46b131061d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/026-mesh-tcp-route.md"
+    },
+    {
+      "path": "docs/madr/decisions/028-meshhttproute-as-targetref.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/8fb86da1d11222ac25f68032.md",
+      "kind": "official-document",
+      "bytes": 10396,
+      "sha256": "e0873593cc782e9379e6a0cddab40fbb04fbbbe24229673a0b02442a3c7ff0b2",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/028-meshhttproute-as-targetref.md"
+    },
+    {
+      "path": "docs/madr/decisions/029-kds-sync-hash-suffix.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/aab925da22e493b00977b95b.md",
+      "kind": "official-document",
+      "bytes": 3946,
+      "sha256": "6cce4e504658c76a3d31160c3a68bcd7f95935c1c44b5e989ac7d9cc0ef52fbf",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/029-kds-sync-hash-suffix.md"
+    },
+    {
+      "path": "docs/madr/decisions/030-extended-global-insights.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c0b8fd0a28698bb680688976.md",
+      "kind": "official-document",
+      "bytes": 4793,
+      "sha256": "3f8b24bb0498171eceeb80191c256252ed56f37d6ad2359a8db40d28802af78e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/030-extended-global-insights.md"
+    },
+    {
+      "path": "docs/madr/decisions/031-automatic-rechable-services.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/28d6e9df351b905115d7d3e1.md",
+      "kind": "official-document",
+      "bytes": 13592,
+      "sha256": "6ff3712eb4eb11861b08b3c7c9c50e38930f5026ae6e6ddf6245c010e019bb12",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/031-automatic-rechable-services.md"
+    },
+    {
+      "path": "docs/madr/decisions/032-add-inbound-in-runtime.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/dd50359b63ca236d6e78591d.md",
+      "kind": "official-document",
+      "bytes": 6297,
+      "sha256": "caea21bf93b4987c19ab4c3a70758d58ef0778bf9f1033128199511dd57e2287",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/032-add-inbound-in-runtime.md"
+    },
+    {
+      "path": "docs/madr/decisions/034-default-target-ref-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/cb014b029c4fdbfbfa6b2dc5.md",
+      "kind": "official-document",
+      "bytes": 8045,
+      "sha256": "29d5f139c028b55ca32573b7e26d361fe6825b758899ddbbc3483a414ff331ee",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/034-default-target-ref-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/035-mesh-metric-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1aaa127c284bd76b738161fc.md",
+      "kind": "official-document",
+      "bytes": 8498,
+      "sha256": "08dcae14db2867f66125677cefffc56b497720c0dc7b20fb1ae25d8c0513cd55",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/035-mesh-metric-policy.md"
+    },
+    {
+      "path": "docs/madr/decisions/038-meshmetric-profiles.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/eb2f6c70e315748d491c7b85.md",
+      "kind": "official-document",
+      "bytes": 16128,
+      "sha256": "b1da5248c8ff2b3392ead6fa113b228863abc38d0030af62d5b31f6dad401da4",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/038-meshmetric-profiles.md"
+    },
+    {
+      "path": "docs/madr/decisions/039-meshservice-api.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/67f12d5ac809a73d203f5364.md",
+      "kind": "official-document",
+      "bytes": 4726,
+      "sha256": "8f82ac7166ab839c6b15c7fb232f2c478975585c4e82ef7a2730aff18b327e4d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/039-meshservice-api.md"
+    },
+    {
+      "path": "docs/madr/decisions/041-meshservice-kubernetes-ux.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/bb6e1167ac3c65408b158e50.md",
+      "kind": "official-document",
+      "bytes": 4780,
+      "sha256": "74fdd3bd1093a6ef89b6b75c4d6e0aca2c0227548f488d788515e9aa5a4b942a",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/041-meshservice-kubernetes-ux.md"
+    },
+    {
+      "path": "docs/madr/decisions/042-resource-api-warnings.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/899ffc3e0f02cda128fac7ad.md",
+      "kind": "official-document",
+      "bytes": 1889,
+      "sha256": "f9d06f047c80f22ce0e3bc43fc6e6c1797e83ec84e449ec4d7203df641185fd9",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/042-resource-api-warnings.md"
+    },
+    {
+      "path": "docs/madr/decisions/043-locality-aware-load-balancing.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1d20cd26dfacf78ef68f9157.md",
+      "kind": "official-document",
+      "bytes": 23050,
+      "sha256": "afc134a09be2dda9b68702ca5c7703859d7fb4299b547f05755ae199cb4d1ff6",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/043-locality-aware-load-balancing.md"
+    },
+    {
+      "path": "docs/madr/decisions/044-zone-to-global-policy-sync.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/6fcdc8b096d3dc9d1c27f610.md",
+      "kind": "official-document",
+      "bytes": 7706,
+      "sha256": "6a059a418ea6c99baff19de942e541c284b35d04d850f40de7c8108d027a6dcd",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/044-zone-to-global-policy-sync.md"
+    },
+    {
+      "path": "docs/madr/decisions/047-meshservice-hostname-vips.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0c5bbbb3545c9f7faab74d52.md",
+      "kind": "official-document",
+      "bytes": 6907,
+      "sha256": "9130844e28d35f257c7c6b1ded2e5d9621d42862b31333cd5c0253ac23f34cfe",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/047-meshservice-hostname-vips.md"
+    },
+    {
+      "path": "docs/madr/decisions/048-meshservice-policy-matching.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ab9b966cf0ea08fe53c96158.md",
+      "kind": "official-document",
+      "bytes": 10112,
+      "sha256": "75a91be53bde5da5ca1f5dda542a0e6486f81f09e4e044e63739edc51f8d2c7a",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/048-meshservice-policy-matching.md"
+    },
+    {
+      "path": "docs/madr/decisions/049-grpc-tcp-probes.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/17cb8a7dffe8cd14bad162f5.md",
+      "kind": "official-document",
+      "bytes": 14882,
+      "sha256": "0f6b2c4849024e4e17e160874a18ae654bc95a4fb784b2bf80480836124b15da",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/049-grpc-tcp-probes.md"
+    },
+    {
+      "path": "docs/madr/decisions/050-meshservice-universal-ux.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/6478d6df3c17355a14b92345.md",
+      "kind": "official-document",
+      "bytes": 4080,
+      "sha256": "26e2f3edd6784cb14c3aa260807051e6a89e2006f006928c31680a9a592cb967",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/050-meshservice-universal-ux.md"
+    },
+    {
+      "path": "docs/madr/decisions/051-meshservice-multizone.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f98642070486b18f4c14bffc.md",
+      "kind": "official-document",
+      "bytes": 14762,
+      "sha256": "74f1b36e1b4ca6d0f4820f5bdb153e4a839d3381255ed2faf996d94defb3304d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/051-meshservice-multizone.md"
+    },
+    {
+      "path": "docs/madr/decisions/052-meshexternalservice-api.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/deb88d978b6960cab14036a6.md",
+      "kind": "official-document",
+      "bytes": 28733,
+      "sha256": "5129d22fc3555558f7983223a8abb277d4eb38be17a74159251b6a1fcc439ac7",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/052-meshexternalservice-api.md"
+    },
+    {
+      "path": "docs/madr/decisions/053-mesh-passthrough.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1db7e3526d55b98aa0fd4428.md",
+      "kind": "official-document",
+      "bytes": 7317,
+      "sha256": "64cc09d398fb2433fad368199d6ff3f78a3bea6f8ba9ee94d3db5daa37a78ab4",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/053-mesh-passthrough.md"
+    },
+    {
+      "path": "docs/madr/decisions/054-policy-on-namespace.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ed86db62284734409ba5544a.md",
+      "kind": "official-document",
+      "bytes": 22340,
+      "sha256": "5b49b8ec0c9cc7ca9e30f880cea3878f989eaa27a980f94ac0c91d1531cde598",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/054-policy-on-namespace.md"
+    },
+    {
+      "path": "docs/madr/decisions/055-sni.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/61794c650ac421de923aa785.md",
+      "kind": "official-document",
+      "bytes": 3445,
+      "sha256": "9279671bbc85f0a331b16bea6fdfec379975e1629b3e3fbc982195a38980eb02",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/055-sni.md"
+    },
+    {
+      "path": "docs/madr/decisions/056-meshservice-identity-sync.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/10caf25b9be6a98597b4b7e1.md",
+      "kind": "official-document",
+      "bytes": 3650,
+      "sha256": "54ffc5e42e814a6294e03aeca3c0f5c79d3276e1bd3cca5261b48d433734d312",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/056-meshservice-identity-sync.md"
+    },
+    {
+      "path": "docs/madr/decisions/057-default-hostname-generators.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/699bb6b417ad713ce05ed86b.md",
+      "kind": "official-document",
+      "bytes": 9371,
+      "sha256": "014d3e4dd20e567a816e4d15e8a25b832bbfa326f41535917dba67ee0b817ebf",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/057-default-hostname-generators.md"
+    },
+    {
+      "path": "docs/madr/decisions/058-meshservice-subset.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/32b7569f0cccf70426afae46.md",
+      "kind": "official-document",
+      "bytes": 3892,
+      "sha256": "1432112e6133f345d60d07f406f5749058ba8ada28e0f41fc9a582ac67eff955",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/058-meshservice-subset.md"
+    },
+    {
+      "path": "docs/madr/decisions/059-meshservice-proxies-stats.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/a27f282c60d01c4bae46c840.md",
+      "kind": "official-document",
+      "bytes": 3345,
+      "sha256": "09b56be3a7f3cad62c446c8ca5b596deca543a86c54658194139520daa3057fc",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/059-meshservice-proxies-stats.md"
+    },
+    {
+      "path": "docs/madr/decisions/061-reachable-svc-mesh-service.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/9b32b84096b3ff8b39c60827.md",
+      "kind": "official-document",
+      "bytes": 8387,
+      "sha256": "8a90b9cc1e3e4c7eeb007620ba2f16dcabc077ca03378d99d30713ffa91905bc",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/061-reachable-svc-mesh-service.md"
+    },
+    {
+      "path": "docs/madr/decisions/062-meshexternalservice-and-zoneegress.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/474e256206b35d798388a266.md",
+      "kind": "official-document",
+      "bytes": 13779,
+      "sha256": "1eb3ac6c39b10eff48489cb12d2fab5e4cb03d275607c12999bfbf549d1d4233",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/062-meshexternalservice-and-zoneegress.md"
+    },
+    {
+      "path": "docs/madr/decisions/063-rework-mesh-routes-matching.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/fe3d8ed8a46e7fbd92d8e0c8.md",
+      "kind": "official-document",
+      "bytes": 28571,
+      "sha256": "0130a8b4174566f02992c9c4153d49b9cefbb2f585b0a0f61470aaf698a38945",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/063-rework-mesh-routes-matching.md"
+    },
+    {
+      "path": "docs/madr/decisions/064-meshservice-permissive-tls.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/712b495fd349e7e8f44e096f.md",
+      "kind": "official-document",
+      "bytes": 4282,
+      "sha256": "b5c1948db26b307df1b55e36202bbea13f8911f39b741e8a24062bc696fb1212",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/064-meshservice-permissive-tls.md"
+    },
+    {
+      "path": "docs/madr/decisions/065-sni-in-the-resource.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/4de3a10865f61201074affc2.md",
+      "kind": "official-document",
+      "bytes": 5266,
+      "sha256": "b587d8ce6989e81caea6bbdd9b9dbb13d40d91eb61c7460e1be73355981d3ca6",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/065-sni-in-the-resource.md"
+    },
+    {
+      "path": "docs/madr/decisions/066-policy-matching-with-real-resources.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ee908c9e1b091f2607a4999d.md",
+      "kind": "official-document",
+      "bytes": 15874,
+      "sha256": "20ec88dd1847e3fb31804154a4607a07bd8381520d3fcbb4d8354cc758a17e00",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/066-policy-matching-with-real-resources.md"
+    },
+    {
+      "path": "docs/madr/decisions/067-meshtls.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/25c6c1fc06f60239bc68c04c.md",
+      "kind": "official-document",
+      "bytes": 291,
+      "sha256": "baa1cc9910bf840e55b4bba7c47ca4dc0df58de2120f2dc8de338aec2559b95b",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/067-meshtls.md"
+    },
+    {
+      "path": "docs/madr/decisions/068-improve-the-state-of-the-ci-on-release-branches-periodic-ci-runs.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7928b9f34562d2bd02dffb7f.md",
+      "kind": "official-document",
+      "bytes": 242,
+      "sha256": "c90d59b820555edd78be3211ae934bd1af513e089120298ec9ff4f30a01aa2f8",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/068-improve-the-state-of-the-ci-on-release-branches-periodic-ci-runs.md"
+    },
+    {
+      "path": "docs/madr/decisions/069-inbound-policies.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/369d9b49d6de49d5e0c9f96b.md",
+      "kind": "official-document",
+      "bytes": 192,
+      "sha256": "f08ac1cb26ea1e6aaee04fecdcda2425fcfda4e75fae492543ca8367e42e344f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/069-inbound-policies.md"
+    },
+    {
+      "path": "docs/madr/decisions/070-resource-identifier.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/4ead1731abb62b09d9c0470c.md",
+      "kind": "official-document",
+      "bytes": 29983,
+      "sha256": "1ecc7d93481a0037cd1ff66870eb29a7ea6b4f3e5b2334bb004d201ab66a7df6",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/070-resource-identifier.md"
+    },
+    {
+      "path": "docs/madr/decisions/071-transparent-proxy-config-map-handling-outside-the-control-plane.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b9fcbbad55fc419724a4a934.md",
+      "kind": "official-document",
+      "bytes": 10148,
+      "sha256": "6be898b31485c204c3a649adba4355f8154c1dcb33d289e866b9c2d2bcec3008",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/071-transparent-proxy-config-map-handling-outside-the-control-plane.md"
+    },
+    {
+      "path": "docs/madr/decisions/072-computed-api-endpoints.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/2df613e2574ce162256af49d.md",
+      "kind": "official-document",
+      "bytes": 2870,
+      "sha256": "27f78de5247e83bd14025fb180c8fb8bd95265ffcaa09ffa1ad628ebbb5bbad0",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/072-computed-api-endpoints.md"
+    },
+    {
+      "path": "docs/madr/decisions/073-error-wrapping.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/8d0856fd4eef35cfb90c5d45.md",
+      "kind": "official-document",
+      "bytes": 4714,
+      "sha256": "36f20e9dfe31eb1355ad3648eb5df9b19dd8661c7b616c4647af1301abcf2a7d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/073-error-wrapping.md"
+    },
+    {
+      "path": "docs/madr/decisions/074-spiffe-compliance.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ea7cf956fed6865f9442c6e3.md",
+      "kind": "official-document",
+      "bytes": 47615,
+      "sha256": "7d53db2de88526a7e8edc5d388890bf7463dd7e830fbef965940f2e510086d11",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/074-spiffe-compliance.md"
+    },
+    {
+      "path": "docs/madr/decisions/075-mlbs-hash-policies.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d45edeeac5932453aafc8fa6.md",
+      "kind": "official-document",
+      "bytes": 7784,
+      "sha256": "c81236f0dfa69554c310eb21a46885769c43fda005b7915dfd6cba4c5b42d550",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/075-mlbs-hash-policies.md"
+    },
+    {
+      "path": "docs/madr/decisions/076-inspect-api-redesign.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b8bdd326107488bd2721e28b.md",
+      "kind": "official-document",
+      "bytes": 215,
+      "sha256": "99611ab3a7d6c218265d0dbb1180d374c7a700de1ce27c088c348a074cab4d64",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/076-inspect-api-redesign.md"
+    },
+    {
+      "path": "docs/madr/decisions/077-naming-system-envoy-resources.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0c0c277ea1b5b48f96004764.md",
+      "kind": "official-document",
+      "bytes": 17187,
+      "sha256": "003a307e13adf42215d855737049029276273b5a637449b5633d25a56faad8ff",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/077-naming-system-envoy-resources.md"
+    },
+    {
+      "path": "docs/madr/decisions/078-migrating-to-consistent-and-well-defined-naming-for-non-system-envoy-resources-and-stats.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c42b8f342ca5f5da1bc077a3.md",
+      "kind": "official-document",
+      "bytes": 32556,
+      "sha256": "42c484e6d2a193e5160893327b4a786f5a4251af221a5b54c47a285928db27bc",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/078-migrating-to-consistent-and-well-defined-naming-for-non-system-envoy-resources-and-stats.md"
+    },
+    {
+      "path": "docs/madr/decisions/079-include-envoy-resource-name-tp-in-layout-endpoint.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7dcbb2401656ae362803459c.md",
+      "kind": "official-document",
+      "bytes": 6363,
+      "sha256": "e0f6cd205a98bcc1542ea522513ab33bfb5e2e085410833831df205798180ae7",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/079-include-envoy-resource-name-tp-in-layout-endpoint.md"
+    },
+    {
+      "path": "docs/madr/decisions/080-special-mtp-algo.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c44cd0edd1db48ee8bb7249d.md",
+      "kind": "official-document",
+      "bytes": 4397,
+      "sha256": "5c3f158e4a7976438441f8391567a0a71035455ccd82d4d2866beea5b814ef41",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/080-special-mtp-algo.md"
+    },
+    {
+      "path": "docs/madr/decisions/081-inbound-policies-matches.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c1879ff73e04ddf4e2a78128.md",
+      "kind": "official-document",
+      "bytes": 30983,
+      "sha256": "b2a2aa3333cf63aa66448d0aa969cd463f4aa5172c48ac001067843a6f19a188",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/081-inbound-policies-matches.md"
+    },
+    {
+      "path": "docs/madr/decisions/082-datasource-api.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/3dbf82b637848ecf1501dfa2.md",
+      "kind": "official-document",
+      "bytes": 17051,
+      "sha256": "23400c048c35041a63f126d3709116be0d82257e3ad9f1eb1069e72ce8a3930b",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/082-datasource-api.md"
+    },
+    {
+      "path": "docs/madr/decisions/083-inspect-api-include-kri-in-rule.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1751ff868f28bc4024f10730.md",
+      "kind": "official-document",
+      "bytes": 2770,
+      "sha256": "4314e3b36cb4f7d1f5feeed65b2b951527257b7062efd300d8e5a1d728eea359",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/083-inspect-api-include-kri-in-rule.md"
+    },
+    {
+      "path": "docs/madr/decisions/084-finalized-schemes-for-unified-envoy-resources-and-stats-naming-formats.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/58ab8e68c7e34137d094249b.md",
+      "kind": "official-document",
+      "bytes": 8135,
+      "sha256": "beaa503de4d87c5e40d9360415b4a08bf9a737e451a781a0f0923086e197ce4f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/084-finalized-schemes-for-unified-envoy-resources-and-stats-naming-formats.md"
+    },
+    {
+      "path": "docs/madr/decisions/085-meshservice-meshidentity-identity.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/451c3bd2f4f4dfb2db201b5f.md",
+      "kind": "official-document",
+      "bytes": 14276,
+      "sha256": "329473750cee3fd44d2cf344e130199efe6de015f415272eab557435e4f3417b",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/085-meshservice-meshidentity-identity.md"
+    },
+    {
+      "path": "docs/madr/decisions/086-add-kri-to-rest-api-resources.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/4dfb1917cfb4c77af3dec81b.md",
+      "kind": "official-document",
+      "bytes": 9591,
+      "sha256": "950cb63e827495327030efdb463e6a470c2e32291375fba6bf857a0fa539523d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/086-add-kri-to-rest-api-resources.md"
+    },
+    {
+      "path": "docs/madr/decisions/087-active-branches-renovate-preset.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/94020bab922e597d33f42ea1.md",
+      "kind": "official-document",
+      "bytes": 3777,
+      "sha256": "e5afc06fad2bd889270a17baedfef6b3d2f4acdd9ceb7e755cff5c482ed3b5b1",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/087-active-branches-renovate-preset.md"
+    },
+    {
+      "path": "docs/madr/decisions/088-endpoint-to-retrieve-a-resource-by-kri.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/15592229eb2a476e1348b50d.md",
+      "kind": "official-document",
+      "bytes": 6423,
+      "sha256": "b7a15a2164f455e54aa30dd6031ec0950b76c1c763d1371bba4ce10dcb27c19b",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/088-endpoint-to-retrieve-a-resource-by-kri.md"
+    },
+    {
+      "path": "docs/madr/decisions/089-naming-envoy-resources-and-stats-from-multiple-kuma-policies.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b6b50c93de6776bb56a36c28.md",
+      "kind": "official-document",
+      "bytes": 11165,
+      "sha256": "d05d50c9449d985619f953231852632cc3520fb1d72b7413f5398810fcf563b3",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/089-naming-envoy-resources-and-stats-from-multiple-kuma-policies.md"
+    },
+    {
+      "path": "docs/madr/decisions/090-zone-egress-identity.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/335f679a09412e46395b31ae.md",
+      "kind": "official-document",
+      "bytes": 3119,
+      "sha256": "2932de182d72616fd234afb63624828b1998db1a79ce479a71e4202dc2e16111",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/090-zone-egress-identity.md"
+    },
+    {
+      "path": "docs/madr/decisions/091-migrate-to-v2-module-path.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/90134b851c334ca8b4bbd9e6.md",
+      "kind": "official-document",
+      "bytes": 11716,
+      "sha256": "e14307997ce86919cc8b140126e88838f2cf1aa29784326ea1b9bc47bdfda278",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/091-migrate-to-v2-module-path.md"
+    },
+    {
+      "path": "docs/madr/decisions/092-workload-identifier.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/5dcf9a74c494ad2d5937d573.md",
+      "kind": "official-document",
+      "bytes": 577,
+      "sha256": "1b884d65ed79ba1af22f966f3262bd1f7fc0411c6be6c43e6867390acf730c26",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/092-workload-identifier.md"
+    },
+    {
+      "path": "docs/madr/decisions/094-zone-proxy-deployment-model.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/e1658531d0b23a0ad796f31b.md",
+      "kind": "official-document",
+      "bytes": 26516,
+      "sha256": "ce62ff0627be2c5c1193e8f2fe226e0d3745ca7c6106fe8db0bc3bc739909a47",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/094-zone-proxy-deployment-model.md"
+    },
+    {
+      "path": "docs/madr/decisions/095-mesh-opentelemetry-backend.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/e64c571971fe528e258cc635.md",
+      "kind": "official-document",
+      "bytes": 40317,
+      "sha256": "61f15a0b52c402d2511a5833610cd802a3211c08c385add8b00f72570cc949cf",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/095-mesh-opentelemetry-backend.md"
+    },
+    {
+      "path": "docs/madr/decisions/095-mesh-scoped-zone-ingress-egress.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/da0f408f3d4e3a7317c398d8.md",
+      "kind": "official-document",
+      "bytes": 13196,
+      "sha256": "29a94a777b9993cac09a304b7802967557311259947720f1efe103bb9297e18f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/095-mesh-scoped-zone-ingress-egress.md"
+    },
+    {
+      "path": "docs/madr/decisions/096-ingress-address-sync.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/5e0c470f35041e20ec8d7def.md",
+      "kind": "official-document",
+      "bytes": 11427,
+      "sha256": "b44b8328acbde2ff5b52be4be3b031fed650b8a427be10542bd1b49b8f687411",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/096-ingress-address-sync.md"
+    },
+    {
+      "path": "docs/madr/decisions/096-observability-dashboards.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/39373da1847b7fa84aea7942.md",
+      "kind": "official-document",
+      "bytes": 6150,
+      "sha256": "e18a230c219a6f0e1e7cd7aada89795886f3eeb804a9e20c377a542ffb489fe3",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/096-observability-dashboards.md"
+    },
+    {
+      "path": "docs/madr/decisions/097-zone-proxy-sidecar-deployment.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b5289cdb9609dc7aa41dce31.md",
+      "kind": "official-document",
+      "bytes": 12020,
+      "sha256": "df0bc94280388b6f51269b1ebe3056a5c7e5a450a28e532974ae74488df34291",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/097-zone-proxy-sidecar-deployment.md"
+    },
+    {
+      "path": "docs/madr/decisions/098-zone-proxy-deployment-topology.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/036d2b0b71ffeeedc43b5598.md",
+      "kind": "official-document",
+      "bytes": 6731,
+      "sha256": "267a5a963cdf268be2095339943cd8a22ee519b3109de9b8aec173c9dd590aea",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/098-zone-proxy-deployment-topology.md"
+    },
+    {
+      "path": "docs/madr/decisions/099-allow-multiple-meshes-per-k8s-ns.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/15c24b14dd8d123dbea44623.md",
+      "kind": "official-document",
+      "bytes": 2724,
+      "sha256": "74cdf9a3d07d9742464783b71d3ae488b9a5f9a90858c15a9740273c03d1cd78",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/099-allow-multiple-meshes-per-k8s-ns.md"
+    },
+    {
+      "path": "docs/madr/decisions/100-otel-env-bootstrap-runtime.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0964ce1d26bb915b2b693c09.md",
+      "kind": "official-document",
+      "bytes": 27731,
+      "sha256": "adaa891dfc91ed228575bdf123636224543760d173255eced5cc81078667b19b",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/100-otel-env-bootstrap-runtime.md"
+    },
+    {
+      "path": "docs/madr/decisions/100-zone-egress-endpoint-storage.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d0ca416cc5c56e49cf2ebcbb.md",
+      "kind": "official-document",
+      "bytes": 6152,
+      "sha256": "37bc36914e1beb0badd0240e0a7d8f8bfac6e9380c9938156ffe87e2d4e1e29e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/100-zone-egress-endpoint-storage.md"
+    },
+    {
+      "path": "docs/madr/decisions/101-sni-format-improvements.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/3ea12a6bdf4569d12c202ded.md",
+      "kind": "official-document",
+      "bytes": 14159,
+      "sha256": "88cb0d3c2d07431e2d5f4fc0af82f6ebe1eaee7157be35e0f66671e45e444763",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/101-sni-format-improvements.md"
+    },
+    {
+      "path": "docs/madr/decisions/102-zone-proxy-listener-computed-labels.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/e8407c88395761dbecb9b158.md",
+      "kind": "official-document",
+      "bytes": 2803,
+      "sha256": "d08b487fff8fc34b7c682cc58d27aebb41ecf0b5142cbc1df793f0b29c3a2183",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/102-zone-proxy-listener-computed-labels.md"
+    },
+    {
+      "path": "docs/madr/decisions/103-policy-matching-mesh-scoped-zone-proxy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/dab42eedb7378c4ed02249ff.md",
+      "kind": "official-document",
+      "bytes": 26690,
+      "sha256": "217635597267f3923fe2fdfe8d921c4c25ae52c200ea1aa35e14fc52092bfb43",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/103-policy-matching-mesh-scoped-zone-proxy.md"
+    },
+    {
+      "path": "docs/madr/decisions/103-universal-meshservice-generation.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/953a92b68226059998b9d97c.md",
+      "kind": "official-document",
+      "bytes": 9321,
+      "sha256": "39238f6bdaa2446546fe77aa7d11a281dd6227385e3d9dd265e2907e025f5dd6",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/103-universal-meshservice-generation.md"
+    },
+    {
+      "path": "docs/madr/decisions/104-rethink-releasing-pipeline.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/e78b28c7ed447d1c6a8cced6.md",
+      "kind": "official-document",
+      "bytes": 16811,
+      "sha256": "232a74ba96dbce744c4c37b0c4755e361dfe01c6c1d44ee23aacd2e6eb9bdbfd",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/104-rethink-releasing-pipeline.md"
+    },
+    {
+      "path": "docs/madr/decisions/105-source-listener-tags-from-labels.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/98a7912f570e53d479c6285d.md",
+      "kind": "official-document",
+      "bytes": 73579,
+      "sha256": "bff5fddca5eca918bdd95224086e7e2e682d935d48f9f7468059325691f7548d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/madr/decisions/105-source-listener-tags-from-labels.md"
+    },
+    {
+      "path": "docs/proposals/HealthChecks-L4.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/161063509600aa7737393e4b.md",
+      "kind": "official-document",
+      "bytes": 8510,
+      "sha256": "17d5fae8d771cf25a2cbf3d25ebce316e2692e0874590cb05d6d7876dcd7cfa7",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/HealthChecks-L4.md"
+    },
+    {
+      "path": "docs/proposals/L7-protocols.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f65537c04faba79d929e2388.md",
+      "kind": "official-document",
+      "bytes": 7438,
+      "sha256": "30883d88b0f1fef060bbd844c343687c3967ce284d808edaba8daa57e8efd818",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/L7-protocols.md"
+    },
+    {
+      "path": "docs/proposals/L7-traffic-route.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/310a6b253c79e0edca22ee68.md",
+      "kind": "official-document",
+      "bytes": 4744,
+      "sha256": "a03d86c741e4989f65f468f8822554c44808aa88f509a87fafcfe8d486fd7247",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/L7-traffic-route.md"
+    },
+    {
+      "path": "docs/proposals/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/ab09e8640286cb2cef6bb397.md",
+      "kind": "official-document",
+      "bytes": 95,
+      "sha256": "89a3cbf6ca0f9c7ade09b549fe48103a87e92c05e8c5d04909c70fd88ae367b2",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/README.md"
+    },
+    {
+      "path": "docs/proposals/TrafficRoute-L4.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/cedff64303f4894056f69679.md",
+      "kind": "official-document",
+      "bytes": 10079,
+      "sha256": "2253ea5f826ea189046a1e6d342acfa2b3394c79f05c3d98882c48d5e7e4ff96",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/TrafficRoute-L4.md"
+    },
+    {
+      "path": "docs/proposals/app-metrics.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/df49f76d2683e3b89fcbe18b.md",
+      "kind": "official-document",
+      "bytes": 6343,
+      "sha256": "a4cf66bc1c5dedd16df14450ba408ec13466efa83799fedc4af3a198d292c16e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/app-metrics.md"
+    },
+    {
+      "path": "docs/proposals/circuit-breaker.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/76a6b809c937ca03eed52c02.md",
+      "kind": "official-document",
+      "bytes": 5228,
+      "sha256": "5ae1941c8767e63fac2b29acc384c20d57bb9ea5dad0935fbdf0528df1f6d26b",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/circuit-breaker.md"
+    },
+    {
+      "path": "docs/proposals/cross-mesh-ux.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d90533fc9cc4811f354a19bd.md",
+      "kind": "official-document",
+      "bytes": 4649,
+      "sha256": "dfa3f154f9569d00905a1b35572b3cc3baf8af08e5c6319977784c1e3de1157d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/cross-mesh-ux.md"
+    },
+    {
+      "path": "docs/proposals/custom-sidecar-config.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0a56ef12e8fa6b22d532a202.md",
+      "kind": "official-document",
+      "bytes": 5993,
+      "sha256": "cddfeb0a27b1753d4277819d770c77bdfb58d50dd68bbf6d812675bc827bbc63",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/custom-sidecar-config.md"
+    },
+    {
+      "path": "docs/proposals/dns-naming-compliance.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/07aa0609c5e0e9a596e7e53d.md",
+      "kind": "official-document",
+      "bytes": 4297,
+      "sha256": "395d2a4bf1ad71d1968d57288de3711c8a1feda29d9631b4ebf24087138d3780",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/dns-naming-compliance.md"
+    },
+    {
+      "path": "docs/proposals/dns-using-envoy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0ec286a4bad66b28b10578d9.md",
+      "kind": "official-document",
+      "bytes": 3705,
+      "sha256": "0b2bfd6ee4e409493511a076723d429925040ac1e9462d596ca19a5872ad35ba",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/dns-using-envoy.md"
+    },
+    {
+      "path": "docs/proposals/extend_circuit-breaker.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/3ae668c3256806a88de20cd2.md",
+      "kind": "official-document",
+      "bytes": 2159,
+      "sha256": "67bc89a5521dc79d5e4780318a757ddccb006cde28fcfc3772b95464fa3ebb65",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/extend_circuit-breaker.md"
+    },
+    {
+      "path": "docs/proposals/external-ca.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/cb64a8b0198e977b6ca369eb.md",
+      "kind": "official-document",
+      "bytes": 6000,
+      "sha256": "a35e17536ba247f850b5e6e60f5bc5c35506ab6d1e56d0087f055e6cb5b41e59",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/external-ca.md"
+    },
+    {
+      "path": "docs/proposals/fault-injection.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/b97980c101e767b7fe86be1a.md",
+      "kind": "official-document",
+      "bytes": 3269,
+      "sha256": "4054e3e5bfeb304c54bf34a05b49c7d112dbe57553b102df5312dcd043fc66af",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/fault-injection.md"
+    },
+    {
+      "path": "docs/proposals/gateway.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/93b35ce2212cdead05fe4277.md",
+      "kind": "official-document",
+      "bytes": 5201,
+      "sha256": "b1f4849408cdf92fa0978341f85bf66822e8f4ff4309642e2973179e44171b8e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/gateway.md"
+    },
+    {
+      "path": "docs/proposals/mads-v1.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/2967f6809a586d91fa4ee562.md",
+      "kind": "official-document",
+      "bytes": 5135,
+      "sha256": "bc471867a657f84bd3a3e08e36e2d18dd32c51966a91b61bbd454e1139bb3942",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/mads-v1.md"
+    },
+    {
+      "path": "docs/proposals/multicluster.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/9f95f886d244382f5193032f.md",
+      "kind": "official-document",
+      "bytes": 21579,
+      "sha256": "438a43d279f2672ba8fba8bc5329ad078da48803d0f66f8e5a9e5392f96b6d72",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/multicluster.md"
+    },
+    {
+      "path": "docs/proposals/permissive-mtl.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/34f8786e0237d010fa69a865.md",
+      "kind": "official-document",
+      "bytes": 1793,
+      "sha256": "eace3785dba5f89445ef213ff667580cade3a1fe52f81f59548f0ac695e7a882",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/permissive-mtl.md"
+    },
+    {
+      "path": "docs/proposals/prometheus-metrics.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/d4423562be5f34d7bd7b1ad8.md",
+      "kind": "official-document",
+      "bytes": 3940,
+      "sha256": "bb816401427f7e396fc5e4b074c8963dd346d400a00fc4333775b03ca134dfd2",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/prometheus-metrics.md"
+    },
+    {
+      "path": "docs/proposals/proxy-template-redesign.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/2d3af0070ad749d2e52e5ffd.md",
+      "kind": "official-document",
+      "bytes": 7019,
+      "sha256": "eae712632027050bcc7db3de116c71ced8be9520d80e1438834aeaeffaa58547",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/proxy-template-redesign.md"
+    },
+    {
+      "path": "docs/proposals/rate-limit.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/c9fdba2b02f3fd47f11e125a.md",
+      "kind": "official-document",
+      "bytes": 3152,
+      "sha256": "a523d2168e7da497e30f7b96e8b7dbf94a333b19049810d5da9f2a519e4e9c7d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/rate-limit.md"
+    },
+    {
+      "path": "docs/proposals/timeouts.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/39746299c4742d79c4617d1e.md",
+      "kind": "official-document",
+      "bytes": 10557,
+      "sha256": "a9ce6e91a32ad1991037afd50db588ac58e2e7a09d2cec27a1548410d83d3915",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/timeouts.md"
+    },
+    {
+      "path": "docs/proposals/tracing.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/e3853b9ad52e0a90b635bdf1.md",
+      "kind": "official-document",
+      "bytes": 6892,
+      "sha256": "7fb1d5e8d8d0b1d79b3b70faf4ce461226ab11ff5c67eef1c25075a8f4330119",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/tracing.md"
+    },
+    {
+      "path": "docs/proposals/universal-health-checks.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1fcc8c565529e05b8fbb9092.md",
+      "kind": "official-document",
+      "bytes": 3698,
+      "sha256": "b0c7b4f3c6600becb32f039cfee7b47149926bb1481a6d9d8108aab36f9ec1d9",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/universal-health-checks.md"
+    },
+    {
+      "path": "docs/proposals/virtualhost-policy.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f87087bb42c96c7120c86eea.md",
+      "kind": "official-document",
+      "bytes": 3556,
+      "sha256": "a7879688b0abc7a17790e065eccf0fcb6df0fde582b54f3da19e09b9f98d869e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/docs/proposals/virtualhost-policy.md"
+    },
+    {
+      "path": "pkg/envoy/builders/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/a3ac46b1157f497f4f7c8c67.md",
+      "kind": "official-document",
+      "bytes": 4131,
+      "sha256": "e22d4ef0ff0017374e2ba2f35ae0d91495585ecc6789da124df971b2dee505ab",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/envoy/builders/README.md"
+    },
+    {
+      "path": "pkg/test/kds/samples/resources.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/bb516b364c11e2c928d0e16d.go",
+      "kind": "upstream-example-code",
+      "bytes": 2594,
+      "sha256": "dd20c0996ae1e11e8ae97fc7916b264c8f91fb1417464d0a0903a91e178d07da",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/kds/samples/resources.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/dataplane_insight_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/859325227bb0baeb90291037.go",
+      "kind": "upstream-example-code",
+      "bytes": 365,
+      "sha256": "0e40988d9296d710d707a4a9eca8ddbca6f25de0a5e4568c8c8b950e04cd230d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/dataplane_insight_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/dataplane_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/bc4a20991d755f2d852c5573.go",
+      "kind": "upstream-example-code",
+      "bytes": 1388,
+      "sha256": "75e23e9befec8e02f838957ddd1c38cf0122bac9235697b2112d67a2c4cde318",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/dataplane_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/global_secret_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/4bc3c7d7a1f51b2fb9979cc3.go",
+      "kind": "upstream-example-code",
+      "bytes": 2197,
+      "sha256": "b35e6188b97322057ef543b64c92e880552dc70332bd91de28b345fc7d7e2729",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/global_secret_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/mesh_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1842aa621e6a60497c5c2b39.go",
+      "kind": "upstream-example-code",
+      "bytes": 300,
+      "sha256": "46af382192c51a2d25be360c7c25cf3b389cc1d4a4cb84bb002dd72187ec48c0",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/mesh_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshaccesslog.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/1c2388b727edb0ce5200fa74.go",
+      "kind": "upstream-example-code",
+      "bytes": 1666,
+      "sha256": "3868b2c4940e184c9b2ca4cd971793bd53bbc168ac3786a7e7f7b055c1b6c33d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshaccesslog.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshexternalservice_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/94d41133c9b8c91c52e71c55.go",
+      "kind": "upstream-example-code",
+      "bytes": 450,
+      "sha256": "0d7ee202cd30c9d212d3243103926a6455c52998daa489e623e7c7f8b675dd02",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshexternalservice_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshhttproute_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7d260e07c455b8821a1f5788.go",
+      "kind": "upstream-example-code",
+      "bytes": 4089,
+      "sha256": "5447eb64f88cfaa614ee9a24e5d1c023030f1fb3341c51e2afb96f4807335409",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshhttproute_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshmultizoneservice_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f95db5e58e584d2518b3014e.go",
+      "kind": "upstream-example-code",
+      "bytes": 660,
+      "sha256": "9559facd3e6fb865342cb0d3aef28dd43c112b5d206e466cda0bcc1f80b92316",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshmultizoneservice_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshservice_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/f033a5b32cd5c9f9fb859454.go",
+      "kind": "upstream-example-code",
+      "bytes": 1777,
+      "sha256": "f0d2f99f614b1a75973fe7d33b41a7bc532f11be0072e8cb721165d900e5d44e",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshservice_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshtimeout_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/08ae099c216019d071ece405.go",
+      "kind": "upstream-example-code",
+      "bytes": 598,
+      "sha256": "27e73def7d64f8917f6e20362a68e15cd891d32aa361fe1a128403a9db59896d",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshtimeout_samples.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/meshtrace.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/5a478e1f88ef777710fb6234.go",
+      "kind": "upstream-example-code",
+      "bytes": 288,
+      "sha256": "654da14359f2e543872ecbeb87d6f540ccbc5621d490c0fa0a3a0757cbff2916",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/meshtrace.go"
+    },
+    {
+      "path": "pkg/test/resources/samples/secret_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/88ffc48144c34a1a8f2d642a.go",
+      "kind": "upstream-example-code",
+      "bytes": 964,
+      "sha256": "c5c8af07498a333cc95757ba67088b4f0783e31087482b9601e81b3d99690ce1",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/resources/samples/secret_samples.go"
+    },
+    {
+      "path": "pkg/test/xds/samples/endpoint_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/daf6ede4e198b58a5d31e9e8.go",
+      "kind": "upstream-example-code",
+      "bytes": 682,
+      "sha256": "0e568070d7c7f74c31591c02fbc185f928d934de775c19ff1f489a0cfb959bed",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/xds/samples/endpoint_samples.go"
+    },
+    {
+      "path": "pkg/test/xds/samples/meshcontext_samples.go",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/8a00ec153f9011f1883177e0.go",
+      "kind": "upstream-example-code",
+      "bytes": 648,
+      "sha256": "dd57a240c52bd09d3ca938e7896922d89ae679315395653063034271fa715afb",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/pkg/test/xds/samples/meshcontext_samples.go"
+    },
+    {
+      "path": "test/certs/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/14a855120064def71efa60d3.md",
+      "kind": "official-document",
+      "bytes": 271,
+      "sha256": "90ce736f190dd086bc14282b1fecfc78885187fca990dfb88f6420d3c2aee646",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/test/certs/README.md"
+    },
+    {
+      "path": "test/e2e/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7d9a55ec9712c1ccc931efe1.md",
+      "kind": "official-document",
+      "bytes": 1137,
+      "sha256": "962c98d99474b18d751cde728142698a78cb82441b87194c65211ad994e94a14",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/test/e2e/README.md"
+    },
+    {
+      "path": "test/e2e_env/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/4c31815b8924f3bdbba85b8e.md",
+      "kind": "official-document",
+      "bytes": 1830,
+      "sha256": "00cf3067a55060532d46853640ae39767de08f1a183fb0e48f061c19ea687365",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/test/e2e_env/README.md"
+    },
+    {
+      "path": "test/keys/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/edd1cfab870c2c79d01072a2.md",
+      "kind": "official-document",
+      "bytes": 463,
+      "sha256": "33ce42471feab583229103544e29285249ab8369669d0381940506166f9d4293",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/test/keys/README.md"
+    },
+    {
+      "path": "test/server/certs/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/7bce4f60caac8abebc62af8c.md",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "f0b4c7966ac99cdbf20e9516fc94b677148b9b0e0da4a155c40a8a861514674f",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/test/server/certs/README.md"
+    },
+    {
+      "path": "tools/releases/templates/LICENSE",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/6e97807e7b62e5be3bd1550b.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/tools/releases/templates/LICENSE"
+    },
+    {
+      "path": "tools/releases/templates/NOTICE",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/0651c2607281005a2764ded1.txt",
+      "kind": "license",
+      "bytes": 112,
+      "sha256": "872c84fa2d85a1993c7d5a1a846552440121aac81c8d0092791990dcaacdead0",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/tools/releases/templates/NOTICE"
+    },
+    {
+      "path": "tools/xds-client/README.md",
+      "localPath": "raw/kumahq--kuma/c993a12399b6/9732315d761d53ebf0f739b7.md",
+      "kind": "official-document",
+      "bytes": 575,
+      "sha256": "abb25fbb8e5a08d42bad89f980addff3d23c46588bdbbc294a1109ab347b90f1",
+      "sourceUrl": "https://github.com/kumahq/kuma/blob/c993a12399b6b19dcc66c515208fdba6af1c45e5/tools/xds-client/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

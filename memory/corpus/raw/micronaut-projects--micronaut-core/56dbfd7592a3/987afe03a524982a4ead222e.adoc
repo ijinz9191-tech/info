@@ -1,0 +1,35 @@
+The Micronaut framework provided health indicators are exposed on the `/health` endpoint. They are additionally exposed on `/health/readiness`, except for `DeadlockedThreadsHealthIndicator`, which is a liveness indicator and is exposed on `/health/liveness` instead.
+
+|===
+| Indicator | Configuration Toggle | Default Value
+
+
+| `DeadlockedThreadsHealthIndicator`
+  Checks for deadlocked threads.
+| `endpoints.health.deadlocked-threads.enabled`
+| `true`
+
+| `DiscoveryClientHealthIndicator`
+| `endpoints.health.discovery-client-health.enabled`
+| `true`
+
+| `DiskSpaceIndicator`
+  Checks if the server's disk space is less than the configured threshold
+| `endpoints.health.disk-space.enabled`
+| `true`
+
+| `JdbcIndicator`
+  Checks if the JDBC connection is valid
+| `endpoints.health.jdbc.enabled`
+| `true`
+
+| `ServiceHttpClientHealthIndicator`
+  Check if there are available URLs in the load balancer.
+| `endpoints.health.service-http-client.enabled`
+| `false`
+
+| `ServiceReadyHealthIndicator` - Signals when the service is ready to service requests.
+| `endpoints.health.service-ready-indicator-enabled`
+| `true`
+
+|===

@@ -1,0 +1,857 @@
+{
+  "schemaVersion": 1,
+  "repo": "pallets/flask",
+  "commit": "d73fa1cdcbd8b1465c151db8924ba58b1dd14e35",
+  "retrievedAt": "2026-10-01T15:25:58.560093+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/python"
+  ],
+  "archiveUrl": "https://codeload.github.com/pallets/flask/zip/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35",
+  "archiveSha256": "e95e9058a638867f51648d3b40738ca99b306c1d19dc16c9e49f2383fd4841f6",
+  "archiveBytes": 872831,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 81,
+    "code": 19,
+    "licenses": 4,
+    "bytes": 551456
+  },
+  "files": [
+    {
+      "path": "CHANGES.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/ff3c479edefad986d2fe6fe7.rst",
+      "kind": "official-document",
+      "bytes": 73648,
+      "sha256": "07509e339604a1b6d8cd49d290e39651494d370c2b0a819ce4f3977394ec485f",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/CHANGES.rst"
+    },
+    {
+      "path": "LICENSE.txt",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d0ed4cc3fb70489fe51c7e0a.txt",
+      "kind": "license",
+      "bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/LICENSE.txt"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 1639,
+      "sha256": "1f2de14735b1ee9d3a342fa7c5d5e87b95727276c0a56c8a9d77221f37880602",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/README.md"
+    },
+    {
+      "path": "docs/api.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/0ee295c29def16f570f86378.rst",
+      "kind": "official-document",
+      "bytes": 21212,
+      "sha256": "6965c75738a22177397aadf634677c4a1afa18835a5020e4d24fb2f2847431fe",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/api.rst"
+    },
+    {
+      "path": "docs/appcontext.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/927c706d72a5dccbf679f9bc.rst",
+      "kind": "official-document",
+      "bytes": 7691,
+      "sha256": "3ebab65913d88ec2f27fb111c5ecbd1f5214a62a48f11bf011c5e25803a9f03b",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/appcontext.rst"
+    },
+    {
+      "path": "docs/async-await.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/e4979c5ea7a822cc9c2ae78e.rst",
+      "kind": "official-document",
+      "bytes": 4709,
+      "sha256": "3bd27302f2664390c705b0f72bc4f84787bb7011ef81a298d65caf2e2789af29",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/async-await.rst"
+    },
+    {
+      "path": "docs/blueprints.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/cfa7f48ef8d068ae6f29cfca.rst",
+      "kind": "official-document",
+      "bytes": 12561,
+      "sha256": "5e5c3e70b8837c02c446e90ff0ba75e213d2490549f26bd6e8217cc4f499001e",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/blueprints.rst"
+    },
+    {
+      "path": "docs/changes.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/13939719fa5d88ab31dfc99a.rst",
+      "kind": "official-document",
+      "bytes": 45,
+      "sha256": "94c7e3657f8795af8f66d20fb6208f83df46bce9cab9b82d2c16ad961a87f7e0",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/changes.rst"
+    },
+    {
+      "path": "docs/cli.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/c2a3f968b7ac8d84c3935f76.rst",
+      "kind": "official-document",
+      "bytes": 16701,
+      "sha256": "e8e5e9b220a5159e9c9c8b413de499aa5a51cd0ca487681e2352bbdf6f9b0cda",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/cli.rst"
+    },
+    {
+      "path": "docs/config.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f0a5822170a0cb40ccc8b537.rst",
+      "kind": "official-document",
+      "bytes": 29006,
+      "sha256": "2ad5bb5692512847144f87f100ec801aa9b9862c919331c9cf93ac3686ef6e3d",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/config.rst"
+    },
+    {
+      "path": "docs/contributing.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/e052d37005ef738791e533f3.rst",
+      "kind": "official-document",
+      "bytes": 274,
+      "sha256": "cdc14281501dd108702e0c779c2ea2a7f2635e66a19738bc4ff93d5149fd9da6",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/contributing.rst"
+    },
+    {
+      "path": "docs/debugging.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/c4927acb0c155715736542d2.rst",
+      "kind": "official-document",
+      "bytes": 3462,
+      "sha256": "09bf141a35b5dd6ee45531bb77d9af7bfb94b46c8c8c11f36c26317de07e7b0c",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/debugging.rst"
+    },
+    {
+      "path": "docs/deploying/apache-httpd.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/feb4d5fdf3e7e6bffcdf59e7.rst",
+      "kind": "official-document",
+      "bytes": 2364,
+      "sha256": "676271e9f5f3b317eb282a8b3888d502813e58e8247791d7a56210e6194d4728",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/apache-httpd.rst"
+    },
+    {
+      "path": "docs/deploying/asgi.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f2ad63a140d29271a5cc4dbe.rst",
+      "kind": "official-document",
+      "bytes": 673,
+      "sha256": "794272b10a80d1ff9e700b19c365ae969c94043d0aff2c0555c8fb78c9e837fe",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/asgi.rst"
+    },
+    {
+      "path": "docs/deploying/eventlet.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d475218e261effc957604ea2.rst",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "38717d0f059b57fbbe02df7b21ea9ef905a91131e96e93d9d14100eed9489389",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/eventlet.rst"
+    },
+    {
+      "path": "docs/deploying/gevent.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/171bb2c33990ba958fc634f1.rst",
+      "kind": "official-document",
+      "bytes": 2248,
+      "sha256": "755c312961aa9450614622fcc6b6a1164c75e66071a6794a7df7a89556e66669",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/gevent.rst"
+    },
+    {
+      "path": "docs/deploying/gunicorn.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f63285a17d0f11a18c1b13a2.rst",
+      "kind": "official-document",
+      "bytes": 3645,
+      "sha256": "fab80960d9ee0cdfbee12c216285df4f56d8e0297c9632b3ca22e64bc10411b4",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/gunicorn.rst"
+    },
+    {
+      "path": "docs/deploying/index.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/95a8ec89f4284ec3ba3a2be3.rst",
+      "kind": "official-document",
+      "bytes": 3173,
+      "sha256": "6bc83d21199fb07378afefa4491ada139385e3d865109f865e4b843fd6754175",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/index.rst"
+    },
+    {
+      "path": "docs/deploying/mod_wsgi.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/0a71f92891bbddccbde53a58.rst",
+      "kind": "official-document",
+      "bytes": 2813,
+      "sha256": "852707fa7eac584cc0715d1bd5dca3d531b4a2688a2c30241db7b7aff27a652d",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/mod_wsgi.rst"
+    },
+    {
+      "path": "docs/deploying/nginx.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/2efe720a45f7f769d424adc3.rst",
+      "kind": "official-document",
+      "bytes": 2316,
+      "sha256": "baae442b157057d9f331ef8c2de16065cf3de2e5d6f9b0448e8f74912612e666",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/nginx.rst"
+    },
+    {
+      "path": "docs/deploying/proxy_fix.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/8729ee056ce4c605fef78f27.rst",
+      "kind": "official-document",
+      "bytes": 1365,
+      "sha256": "d7da21c812c72a8a8b3d8c74240df3593f626c3b285f64488d4dc81365a4b855",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/proxy_fix.rst"
+    },
+    {
+      "path": "docs/deploying/uwsgi.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/bdb9c05fa51cbd1109f9b3a3.rst",
+      "kind": "official-document",
+      "bytes": 4734,
+      "sha256": "583d66451cd53b9de53056e0062c5ff4474d83421ec928bc5e797329be9677bd",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/uwsgi.rst"
+    },
+    {
+      "path": "docs/deploying/waitress.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/0b26d8a9003c5b8f7a17d1bc.rst",
+      "kind": "official-document",
+      "bytes": 2337,
+      "sha256": "7b8969c54e098fba0166cff4b0942f8d1b97764f7a9a55c6b56415137bb9bdbe",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/deploying/waitress.rst"
+    },
+    {
+      "path": "docs/design.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/dc106e8b137d846cb319a236.rst",
+      "kind": "official-document",
+      "bytes": 11215,
+      "sha256": "bc9bb69c332e54b6055f1f0a866c751643f4ca492720ac6dd56c3ab917a94bc2",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/design.rst"
+    },
+    {
+      "path": "docs/errorhandling.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/3ea6110510df4ba48a7b0c0a.rst",
+      "kind": "official-document",
+      "bytes": 18374,
+      "sha256": "6bdb91785ba1cc5e70a6a12bfddd3035d63ab89a6ddef10746cfa61246bdb034",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/errorhandling.rst"
+    },
+    {
+      "path": "docs/extensiondev.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/2efeca9d336f986126cf6b72.rst",
+      "kind": "official-document",
+      "bytes": 12918,
+      "sha256": "581655635ec8eabd90b379f70554528c3b11148196763182eebb8556e43b53db",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/extensiondev.rst"
+    },
+    {
+      "path": "docs/extensions.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f96ad0648fe0406272692fdd.rst",
+      "kind": "official-document",
+      "bytes": 1372,
+      "sha256": "ccf9b1eb72261ba34b9dd76a483ee3979091916bab0d3b79f7fe4667f418d42d",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/extensions.rst"
+    },
+    {
+      "path": "docs/gevent.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/2e178c246bbb2af0d16c2548.rst",
+      "kind": "official-document",
+      "bytes": 4075,
+      "sha256": "523889e5a11787260b5c1a4c5c9b83cf71a638196016d18b5f611d648f0797ca",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/gevent.rst"
+    },
+    {
+      "path": "docs/index.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/8d068e8797e88947c320f79e.rst",
+      "kind": "official-document",
+      "bytes": 2065,
+      "sha256": "641f2305edd22d323356c1f14cc34dce9c73de2e5d91a12ce61f4efbbbf11ba8",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/index.rst"
+    },
+    {
+      "path": "docs/installation.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d9b149498982c0663c3b7170.rst",
+      "kind": "official-document",
+      "bytes": 3768,
+      "sha256": "ba2d38ccd883e85987bfd772da91f3a21a79b63f7132a52cafae032fec2deb84",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/installation.rst"
+    },
+    {
+      "path": "docs/license.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/3abdd32b0d29abccd6aac474.rst",
+      "kind": "license",
+      "bytes": 98,
+      "sha256": "1e07e9c25f2618a040560b70e63f42259eab24e558d0f3532e6163d751cb4eea",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/license.rst"
+    },
+    {
+      "path": "docs/lifecycle.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/e509a4ba4f3c3f80633c0c00.rst",
+      "kind": "official-document",
+      "bytes": 8987,
+      "sha256": "e2e503d011ce423f3d8702313056245b5e4b83aeaa314a755fbd32e542fcc745",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/lifecycle.rst"
+    },
+    {
+      "path": "docs/logging.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/c247d9db6a11e2b6c22b8807.rst",
+      "kind": "official-document",
+      "bytes": 5927,
+      "sha256": "97296444d10794b4a8329f7ce662f46d7d2f221a870b1419ffb065bbf2c2cddc",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/logging.rst"
+    },
+    {
+      "path": "docs/patterns/appdispatch.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/46323e399bbc0039cee405d4.rst",
+      "kind": "official-document",
+      "bytes": 6507,
+      "sha256": "4667bfc0b00ef6cc5a45f6e5ec2f55a585dbe611bea9a4041928b5d6ad7f7935",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/appdispatch.rst"
+    },
+    {
+      "path": "docs/patterns/appfactories.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/aac610c5a7e4a6a920470116.rst",
+      "kind": "official-document",
+      "bytes": 4098,
+      "sha256": "af73c96a28f1343bafb20832691088ab5600b67e4af51d79a23dfaabddfa293a",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/appfactories.rst"
+    },
+    {
+      "path": "docs/patterns/caching.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f2cf554626ed39f3df66c430.rst",
+      "kind": "official-document",
+      "bytes": 653,
+      "sha256": "69f3d64582f923c04eb89dfd4112bef1173d0a5352b94832c891cb36633bafe1",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/caching.rst"
+    },
+    {
+      "path": "docs/patterns/celery.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/145e800e2f747f152861017a.rst",
+      "kind": "official-document",
+      "bytes": 8670,
+      "sha256": "d38d301a9a97ffba6fbc3d10269c0c07afb9e9974fdc04115abfafb3a3dbd9de",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/celery.rst"
+    },
+    {
+      "path": "docs/patterns/deferredcallbacks.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/e547eaa7f19832b5638929d1.rst",
+      "kind": "official-document",
+      "bytes": 1848,
+      "sha256": "b9d44479bb2af5827b5ee0a953ab3138db11dda8d1cd7ada68963b55b5031adf",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/deferredcallbacks.rst"
+    },
+    {
+      "path": "docs/patterns/favicon.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/a566457aa3c7a44c6e3bdb9c.rst",
+      "kind": "official-document",
+      "bytes": 2101,
+      "sha256": "e05bec2581b68fb72e992de5fbde3203bfc75e4a71611eb1fab8eb1cdda5f69b",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/favicon.rst"
+    },
+    {
+      "path": "docs/patterns/fileuploads.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d892e635a728f25e807049da.rst",
+      "kind": "official-document",
+      "bytes": 7297,
+      "sha256": "1db4e08f5a4435abb41946314bb35d5d0b3e86723db02961ba5bd8f9f9f9a556",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/fileuploads.rst"
+    },
+    {
+      "path": "docs/patterns/flashing.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/4287286e7c87769fed47fc85.rst",
+      "kind": "official-document",
+      "bytes": 4536,
+      "sha256": "5802f174e23a0392bee1e52bdc90ea6c6d658cc74a6f6401e174661aa2a7c01f",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/flashing.rst"
+    },
+    {
+      "path": "docs/patterns/index.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/491beeebc394c4f0f324588e.rst",
+      "kind": "official-document",
+      "bytes": 961,
+      "sha256": "e41c5117727b09d67aac1f6917e810484c82ae467f2c9c77bc19e300ed948c9d",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/index.rst"
+    },
+    {
+      "path": "docs/patterns/javascript.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d9de5aef6e61d963bf0e4e94.rst",
+      "kind": "official-document",
+      "bytes": 9038,
+      "sha256": "0390a0d5266b77f82a7efa16a9824b6ce62f1a49001b8ab6004e246ac7a2e689",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/javascript.rst"
+    },
+    {
+      "path": "docs/patterns/jquery.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/98409172a7fe9754c2172540.rst",
+      "kind": "official-document",
+      "bytes": 96,
+      "sha256": "3bf6ce863472c428f9c3ce23f542b3e8b95ddc7bce64d6a60bd8ca2b93293656",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/jquery.rst"
+    },
+    {
+      "path": "docs/patterns/lazyloading.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/6f3b47cfe7cfdfda3d2daf12.rst",
+      "kind": "official-document",
+      "bytes": 3847,
+      "sha256": "cddcdbf43a1c32ff59d890672cf568770e837f53ff8879f62a5796f3e34c5087",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/lazyloading.rst"
+    },
+    {
+      "path": "docs/patterns/methodoverrides.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/a008b8a3c95698932a5279e9.rst",
+      "kind": "official-document",
+      "bytes": 1456,
+      "sha256": "d5a7d8b280a4e61016ee4be39e8c15e5b209076720e9235b357e48473fa07a56",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/methodoverrides.rst"
+    },
+    {
+      "path": "docs/patterns/mongoengine.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/5a0e300f316a9cc8c22e1388.rst",
+      "kind": "official-document",
+      "bytes": 2882,
+      "sha256": "c54de9cbbe486e70ef9751711b30908a2ef151313a363783eb6424a792ea3506",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/mongoengine.rst"
+    },
+    {
+      "path": "docs/patterns/packages.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/622e45ab25c3b4edf03ed346.rst",
+      "kind": "official-document",
+      "bytes": 4105,
+      "sha256": "230814a0edf6512b81e94442924fbadc7299d4b3a09d9ae70e95bfbd6f352f8c",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/packages.rst"
+    },
+    {
+      "path": "docs/patterns/requestchecksum.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/20a4624ef072886b6044d3e9.rst",
+      "kind": "official-document",
+      "bytes": 1861,
+      "sha256": "de35760b81ceb3a402fba66ff4d899aa1efcfdf4f240ce3a075ea3b123aa4a3e",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/requestchecksum.rst"
+    },
+    {
+      "path": "docs/patterns/singlepageapplications.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/a4bec8d10d127d84fd248b6a.rst",
+      "kind": "official-document",
+      "bytes": 731,
+      "sha256": "363abbdf6ee25f665e6e4ed86da02ba3d79b730f623be082647789123fd2d208",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/singlepageapplications.rst"
+    },
+    {
+      "path": "docs/patterns/sqlalchemy.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/59efc8bd4225007f98a1842b.rst",
+      "kind": "official-document",
+      "bytes": 7265,
+      "sha256": "25d9cf40831a8cc770d3793badd9672085e455091191e3100d1bbb65c1ce7f12",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/sqlalchemy.rst"
+    },
+    {
+      "path": "docs/patterns/sqlite3.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/233c6de1d945bc184e7cf4ff.rst",
+      "kind": "official-document",
+      "bytes": 5028,
+      "sha256": "722f5b8be3bfa25348289bd84ca6020b6e6be681bb5a59b22a631d860db4aab6",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/sqlite3.rst"
+    },
+    {
+      "path": "docs/patterns/streaming.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/55fc1dc026a9656a798aa5f2.rst",
+      "kind": "official-document",
+      "bytes": 3307,
+      "sha256": "abad5bfafabd7755d281a8bd2fa2d74e644fd2c7d90c10a0d1d9328747347ba9",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/streaming.rst"
+    },
+    {
+      "path": "docs/patterns/subclassing.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/58e84bdca32d2fdca9519836.rst",
+      "kind": "official-document",
+      "bytes": 676,
+      "sha256": "5f7e400c7970951eb104df5a2d9613c8986a3b05c16bf622d7d1a6ddc69d720b",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/subclassing.rst"
+    },
+    {
+      "path": "docs/patterns/templateinheritance.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/73ab1c75267299d61c934656.rst",
+      "kind": "official-document",
+      "bytes": 2197,
+      "sha256": "f41b40dea855682d9435edf0ff3a27b5f4267492325b8ba447c419e649373e70",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/templateinheritance.rst"
+    },
+    {
+      "path": "docs/patterns/urlprocessors.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/68b5bfebec7d0db09a1892f7.rst",
+      "kind": "official-document",
+      "bytes": 4306,
+      "sha256": "816aa72b588023fbed0f46986cd413132040b8d0a144596781cd3c2fd2a865e5",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/urlprocessors.rst"
+    },
+    {
+      "path": "docs/patterns/viewdecorators.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/aeb56b560edcb6e898091925.rst",
+      "kind": "official-document",
+      "bytes": 6318,
+      "sha256": "2e461ba65df1ba86c01b49f20b5c118d75544796ba637c8bebe8c4789c761144",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/viewdecorators.rst"
+    },
+    {
+      "path": "docs/patterns/wtforms.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/0b160e9a0752a505b6f6ad8c.rst",
+      "kind": "official-document",
+      "bytes": 4708,
+      "sha256": "a76dc636a5c9adbc57f587c6060645aa01ac5ac89c4ff793a5ad340f2fe5cbb0",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/patterns/wtforms.rst"
+    },
+    {
+      "path": "docs/quickstart.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/c9a9d6773bfb8f6a209256e8.rst",
+      "kind": "official-document",
+      "bytes": 30055,
+      "sha256": "c17e0dac53c25f5cca0c18fd00e4f9549038f16d6ac5569ec2c97c7178744629",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/quickstart.rst"
+    },
+    {
+      "path": "docs/reqcontext.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/e5f1f020d8d34f8fc2a9f92c.rst",
+      "kind": "official-document",
+      "bytes": 93,
+      "sha256": "ba305c62eb1cb03320bd6a8abd615a2f2d6f4c7d3d369979076241cb36b62d49",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/reqcontext.rst"
+    },
+    {
+      "path": "docs/server.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/2e8b3bd0cd400f7306970944.rst",
+      "kind": "official-document",
+      "bytes": 3712,
+      "sha256": "597030d2b5189314f3998d74de85c369f6f0bf4b5bcd2923f5d0c925f66951e9",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/server.rst"
+    },
+    {
+      "path": "docs/shell.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f644a6c9f7e8aa91f32d6579.rst",
+      "kind": "official-document",
+      "bytes": 2853,
+      "sha256": "d4b857fbd6a594387dd64c6a7b0d0b2bef4d4d3713fe7aee4d5a421fd77aef9f",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/shell.rst"
+    },
+    {
+      "path": "docs/signals.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/cfa6aa48444135bff0fcfcf0.rst",
+      "kind": "official-document",
+      "bytes": 6107,
+      "sha256": "ff0f7fbda361f07a6b05d992586bc3863011c0db153a003802c30666f03cccba",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/signals.rst"
+    },
+    {
+      "path": "docs/templating.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/2d2e39974612681ec5680098.rst",
+      "kind": "official-document",
+      "bytes": 8935,
+      "sha256": "07629ba71b8c84ba39c5be34455e253a2c691be57eabcba721a10c181f972063",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/templating.rst"
+    },
+    {
+      "path": "docs/testing.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/3d0f12620667116255f8af84.rst",
+      "kind": "official-document",
+      "bytes": 10426,
+      "sha256": "756a677ef4d1443cc9415787be2077e49d6a611f904b69e1160dd38b4502a066",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/testing.rst"
+    },
+    {
+      "path": "docs/tutorial/blog.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/fbf2e47f66cf14158e10b5f5.rst",
+      "kind": "official-document",
+      "bytes": 11388,
+      "sha256": "7098cddfcfec1e5b85e7cdbac518dc5846687caaf524eb76ae47e03c78955a11",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/blog.rst"
+    },
+    {
+      "path": "docs/tutorial/database.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f636eff9bf2b2e6ea40bf2bb.rst",
+      "kind": "official-document",
+      "bytes": 7028,
+      "sha256": "3ab6dc60105e37417705ab7a9e70a9cb61f920339cd796a08a77d1fd987f7a99",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/database.rst"
+    },
+    {
+      "path": "docs/tutorial/deploy.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/e0e019020f4b9fda19235c9d.rst",
+      "kind": "official-document",
+      "bytes": 3699,
+      "sha256": "20293623ad985fe72e06523a8f851bb253beccb84c0362708284ec484ca7be97",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/deploy.rst"
+    },
+    {
+      "path": "docs/tutorial/factory.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f1cbfa3440f1b62e36b56508.rst",
+      "kind": "official-document",
+      "bytes": 5878,
+      "sha256": "d7d6d250af7771da4577244fa6f3c52a8e310a8bb91189f02c217eac0d4ed862",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/factory.rst"
+    },
+    {
+      "path": "docs/tutorial/index.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/65ad5f5c112f94ec19a34269.rst",
+      "kind": "official-document",
+      "bytes": 2061,
+      "sha256": "c97b064670686bbb002a720174cbf5feaaa5c615fa317c1cbb901bb214eb81ac",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/index.rst"
+    },
+    {
+      "path": "docs/tutorial/install.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/01308b996f9e1763a8767ba1.rst",
+      "kind": "official-document",
+      "bytes": 2838,
+      "sha256": "452b569b3673147eb0af5d1e187a5bfa083d6a90fcb25163611c9a90f437d9f1",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/install.rst"
+    },
+    {
+      "path": "docs/tutorial/layout.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/63c221e4e007526e1bc99144.rst",
+      "kind": "official-document",
+      "bytes": 2878,
+      "sha256": "878dffd5d3109a70a400f892b421a283da6d99467e848ee387de3aa51593c05f",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/layout.rst"
+    },
+    {
+      "path": "docs/tutorial/next.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/af9d3caf5bd4042aa0fb18ce.rst",
+      "kind": "official-document",
+      "bytes": 1631,
+      "sha256": "035d30c638eb8e2596738efd8033d370bc6642e357d43b24c104b9cba4761ad5",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/next.rst"
+    },
+    {
+      "path": "docs/tutorial/static.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f6a8bcfd78fa304b2804b68d.rst",
+      "kind": "official-document",
+      "bytes": 3170,
+      "sha256": "233079012d511e3640b35abfe69014e2cab668027e3ade0e31deb03350f6157b",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/static.rst"
+    },
+    {
+      "path": "docs/tutorial/templates.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/1a4e3f1447a28d5d16cdaeb1.rst",
+      "kind": "official-document",
+      "bytes": 6962,
+      "sha256": "4955763f93637d092dcd95dab50a8648cc3711cbb715f6a70e556c679ce340a9",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/templates.rst"
+    },
+    {
+      "path": "docs/tutorial/tests.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d570ff9d63b49b5043a08f7e.rst",
+      "kind": "official-document",
+      "bytes": 18268,
+      "sha256": "6660b2ffd773eed3a861f8a66b9beae775e919a15ef0bbea1c64fbbc5e6b0810",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/tests.rst"
+    },
+    {
+      "path": "docs/tutorial/views.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/7db7b780889adc2a91672893.rst",
+      "kind": "official-document",
+      "bytes": 10924,
+      "sha256": "1398118000f286d1759fe392e5e52e6b394b2be501c0de03bda22cccac3b0a2d",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/tutorial/views.rst"
+    },
+    {
+      "path": "docs/views.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f6f98b297840aade1069278e.rst",
+      "kind": "official-document",
+      "bytes": 10270,
+      "sha256": "225deb1feed5e285a23c151c1ffd9ae7be3106b436f94d2f3f179c2b438b01d6",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/views.rst"
+    },
+    {
+      "path": "docs/web-security.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/6ab9f695910b97fde79b6257.rst",
+      "kind": "official-document",
+      "bytes": 13085,
+      "sha256": "75044a9c1f605be3b1914094c019fd4e89316e56fa60f7fcd11929d9b5da3acc",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/docs/web-security.rst"
+    },
+    {
+      "path": "examples/celery/README.md",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/01198dfdf21c2f73b83c25b9.md",
+      "kind": "official-document",
+      "bytes": 950,
+      "sha256": "c31bd98ee22d28e11f183815dfe5727342260d0582a3a5e89ab552c5611d34c8",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/celery/README.md"
+    },
+    {
+      "path": "examples/celery/make_celery.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/1955669266fe9b2caa46c66e.py",
+      "kind": "upstream-example-code",
+      "bytes": 102,
+      "sha256": "ff32ebf85ef8791fc07177ffe2dad6020fad34a4a57831d37a8bd8531f6e6707",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/celery/make_celery.py"
+    },
+    {
+      "path": "examples/celery/src/task_app/__init__.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/5bfc195e3435f10bfe1e15f8.py",
+      "kind": "upstream-example-code",
+      "bytes": 1024,
+      "sha256": "236d2c202af0c70b7b8a60f0b7b762eb5dafb941880474abe5e420967fa92355",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/celery/src/task_app/__init__.py"
+    },
+    {
+      "path": "examples/celery/src/task_app/tasks.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/89e0ad530e16c5cae231adda.py",
+      "kind": "upstream-example-code",
+      "bytes": 484,
+      "sha256": "d2c365c8ed2f5abf0b5b109361ebe58941559b7d67e57f96d6a6b7bd69970364",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/celery/src/task_app/tasks.py"
+    },
+    {
+      "path": "examples/celery/src/task_app/views.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/fe511d4a8a64dfbe8b66d96b.py",
+      "kind": "upstream-example-code",
+      "bytes": 954,
+      "sha256": "cb9f3c9ebbb359bae6d49f55fd717700062691d2be60f1700e2abf7060082704",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/celery/src/task_app/views.py"
+    },
+    {
+      "path": "examples/javascript/LICENSE.txt",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/5a739b7f671f7cbf03130531.txt",
+      "kind": "license",
+      "bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/javascript/LICENSE.txt"
+    },
+    {
+      "path": "examples/javascript/README.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/4eb0c09d81829617a6a844db.rst",
+      "kind": "official-document",
+      "bytes": 1086,
+      "sha256": "a420f6bb103403a97f5568e92082263827618b639ae62aaefdb5076f9377bff0",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/javascript/README.rst"
+    },
+    {
+      "path": "examples/javascript/js_example/__init__.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/2e246b664e4d0fe3a21d44e8.py",
+      "kind": "upstream-example-code",
+      "bytes": 91,
+      "sha256": "0dd1ca2216990b704405b1d0e2387432e2f7d0288eb5147784bbd8ebffac359a",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/javascript/js_example/__init__.py"
+    },
+    {
+      "path": "examples/javascript/js_example/views.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/3de98b80e9248d66e4b2bedf.py",
+      "kind": "upstream-example-code",
+      "bytes": 429,
+      "sha256": "221cbb10e105b7463f25e0f296da6efc4db0346f49c6127f07168f283b3e70ca",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/javascript/js_example/views.py"
+    },
+    {
+      "path": "examples/javascript/tests/conftest.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/a8074d9f55cc4cb628d5ec1d.py",
+      "kind": "upstream-example-code",
+      "bytes": 216,
+      "sha256": "aff1ac8ea5b7c6e4d7adf67a0eae5c13cbb9adf38e1a2434e6cc7e6824c56b11",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/javascript/tests/conftest.py"
+    },
+    {
+      "path": "examples/javascript/tests/test_js_example.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/8ebf4d79e9c4b40a12996cb5.py",
+      "kind": "upstream-example-code",
+      "bytes": 727,
+      "sha256": "52a0ce22402bb671b391cd278c2ab0865d2d5f9d6daf8d4387ef23337f0a026f",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/javascript/tests/test_js_example.py"
+    },
+    {
+      "path": "examples/tutorial/LICENSE.txt",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/191bf9af9b870c27fc0ff784.txt",
+      "kind": "license",
+      "bytes": 1475,
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/LICENSE.txt"
+    },
+    {
+      "path": "examples/tutorial/README.rst",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/26a6aa823d9e7429fd42ea50.rst",
+      "kind": "official-document",
+      "bytes": 1273,
+      "sha256": "e6c7aa25f5a857ce3b30c0b2a2d0d7a25bbf0f1c96d700e1bad2868c7ea231f5",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/README.rst"
+    },
+    {
+      "path": "examples/tutorial/flaskr/__init__.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/5d5106da4ef231097b689dcc.py",
+      "kind": "upstream-example-code",
+      "bytes": 1406,
+      "sha256": "cc44165ea4444bc114aedba76cf2f15451f182df97629317589d46902742f118",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/flaskr/__init__.py"
+    },
+    {
+      "path": "examples/tutorial/flaskr/auth.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/794dd62a5996cc73caba704d.py",
+      "kind": "upstream-example-code",
+      "bytes": 3296,
+      "sha256": "a5ed5eaa05c6f6ee3e5bdb07b9e657a6e9320a115a68fd74b1cb4ac646680167",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/flaskr/auth.py"
+    },
+    {
+      "path": "examples/tutorial/flaskr/blog.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/3e4f70abb01f025911cd89c5.py",
+      "kind": "upstream-example-code",
+      "bytes": 3305,
+      "sha256": "c49c5f6e3db32d74bfac13633fd328ec904cb7159d76ca78f6956432076c1fd7",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/flaskr/blog.py"
+    },
+    {
+      "path": "examples/tutorial/flaskr/db.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/d8e27002154716d3375253bd.py",
+      "kind": "upstream-example-code",
+      "bytes": 1317,
+      "sha256": "700f9d0a455bf79c9bf6de4f2784f13b96256faea19c15ddee71fb7957e14c31",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/flaskr/db.py"
+    },
+    {
+      "path": "examples/tutorial/flaskr/schema.sql",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/98c9ab3ef06c147275400c9d.sql",
+      "kind": "upstream-example-code",
+      "bytes": 498,
+      "sha256": "c23021b8a5229cedd3191825850e963f393790a794d31ac2f83846a0c5d559f7",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/flaskr/schema.sql"
+    },
+    {
+      "path": "examples/tutorial/tests/conftest.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/0922d3b6872a392124bc1746.py",
+      "kind": "upstream-example-code",
+      "bytes": 1454,
+      "sha256": "2778b7c035d917bb0909ec6ee2f9d61ccba030ff8ae635ff65a52c133ec5afca",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/tests/conftest.py"
+    },
+    {
+      "path": "examples/tutorial/tests/data.sql",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/f9e49b4a67af3431eb17d562.sql",
+      "kind": "upstream-example-code",
+      "bytes": 394,
+      "sha256": "244a542220a64bdbf9bd3340f8280551b95e6d3248ead974fdd0a07a7dd06a0c",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/tests/data.sql"
+    },
+    {
+      "path": "examples/tutorial/tests/test_auth.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/b84251b854d4b71adf253ea6.py",
+      "kind": "upstream-example-code",
+      "bytes": 2070,
+      "sha256": "cbbe178c9980d8499561d8eae72f01b8abeead2fa10c9d5f71427da4af38a938",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/tests/test_auth.py"
+    },
+    {
+      "path": "examples/tutorial/tests/test_blog.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/9172e3907176c66d65ddcbd9.py",
+      "kind": "upstream-example-code",
+      "bytes": 2503,
+      "sha256": "a4c01c486e86aed522c3ade398bf4016f6ef59bbada2c7c5f69eb55ce297877c",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/tests/test_blog.py"
+    },
+    {
+      "path": "examples/tutorial/tests/test_db.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/1a9c6be2ac0d4b1b9b977b54.py",
+      "kind": "upstream-example-code",
+      "bytes": 616,
+      "sha256": "324baea21b981575b4e6d92b6517f21ec2ad86a6138010863a9fcfb4f984e649",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/tests/test_db.py"
+    },
+    {
+      "path": "examples/tutorial/tests/test_factory.py",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/0bcd15b4fc0b3563c6e18493.py",
+      "kind": "upstream-example-code",
+      "bytes": 298,
+      "sha256": "1906cfed379afe315b6ad7db3c71c951ac87c53b57b28b04b5b6c84df2a79e01",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/examples/tutorial/tests/test_factory.py"
+    },
+    {
+      "path": "src/flask/sansio/README.md",
+      "localPath": "raw/pallets--flask/d73fa1cdcbd8/5c47e39a9497e06b484eaa51.md",
+      "kind": "official-document",
+      "bytes": 229,
+      "sha256": "86d131556c111d01ca60ea07b5d99d0bc2af464f36043a1df63f0b647f3f9c37",
+      "sourceUrl": "https://github.com/pallets/flask/blob/d73fa1cdcbd8b1465c151db8924ba58b1dd14e35/src/flask/sansio/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

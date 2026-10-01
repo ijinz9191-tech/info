@@ -1,0 +1,168 @@
+= Screening Tickets
+Alex Miller
+2019-04-24
+:type: dev
+:toc: macro
+:icons: font
+
+ifdef::env-github,env-browser[:outfilesuffix: .adoc]
+
+If you're interested in supplying patches or contributing to Clojure, please see the <<dev#,development overview>>.
+
+The job of screening is to create a high quality stream of problems and proposed solutions so that the BDFL can efficiently review consider them for inclusion. While this page uses the generic term "screening", there are really several specific places in the steps in the <<workflow#,workflow>> where the community and Clojure core team can provide value:
+
+* <<screening_tickets#triage,Triage>> - evaluating incoming tickets (usually created in response to https://ask.clojure.org[Ask Clojure] questions)
+* <<screening_tickets#vetting,Vetting>> - making tickets that represent good **problems**
+* <<screening_tickets#screening,Screening>> - evaluating tickets and patches for the **solutions**
+
+These different processses vary in their focus, but share the common goal of making a ticket that tells a good story about the problem encountered, the solutions considered, and the final chosen approach with a patch.
+
+== What does a good "bug" ticket look like?
+
+A ticket marked as a bug in JIRA should describe a problem where Clojure is operating incorrectly, usually producing an incorrect result according to the docstring or other documentation. A good JIRA bug should have:
+
+A summary (title) that describes the problem (not a proposed solution) and a description that includes all of the following that are applicable:
+
+* Symptoms - what the user sees that indicates a problem - often this starts at the top but might be moved into a comment for historical preservation as we understand the actual problem
+* Problem - a statement of the problem if known
+* Actual results - what happened
+* Expected results - what should have happened
+* Repro - concise inline reproduction (preferably not a github repo, or a gist, or a link)
+* Cause - why the unexpected thing happened
+* Alternatives - possible ways to fix the problem and tradeoffs between them
+* Proposed - the proposed solution and any considerations for screening
+* Patch - the name of the patch implementing the proposal
+
+The expectation is that a new reader of this ticket should be able to read this ticket top down and understand why this bug was filed, the problem, the thinking around ways to fix, and the solution chosen in the patch.
+
+== What does a good "improvement" or "new feature" ticket look like?
+
+Improvement tickets should be generally similar to "bug" tickets but will likely lack a repro as this is asking for an enhancement. The main thing you should focus on is why this enhancement is important or worth having. In general, we focus on enahancements that give users new capabilities that they need to accomplish a goal, so state what you want to do and why it can't be done with the existing capability.
+
+The line between "improvement" and "new feature" is somewhat fuzzy, don't stress about it too much.
+
+If proposing a function or utility that already exists in the wild (in popular utility libraries), the ticket should include research about existing implementations - how do they differ, how popular are they, how performant are they, etc.
+
+The more an improvement ticket can focus on a problem rather than "add a thing", the more alternatives can be proposed, and the better the final solution will be.
+
+== How to "pick up" a ticket
+
+If you intend to work on a ticket for Triage, Prescreening, or Screening, please set the Assignee field to yourself. If the Assignee is already set to someone, either ping them outside the ticket system, or comment and ask if they are still looking at it. If you don't see a response within a couple days, you can change the assignee. When you're done, make sure to unset the Assignee field.
+
+[[triage]]
+== Triage process
+
+**The big picture question here is: "Is this a valid bug/request?"**
+
+Triage checklist:
+
+* Is the issue correctly categorized as Bug (problem in existing functionality), Improvement (extension to existing functionality), or New Feature (new functionality)?
+* (Improvements) Does the ticket indicate why the suggestion is important, and the scope of impact? For example, research frequency of a proposed utility function in public code bases with tools like https://grep.app.
+* (Bugs) Does the ticket include a repro with expected and actual results?
+* Can you repro the problem on the current version of Clojure?
+* Is this a duplicate of an existing issue?
+* Is the problem actually multiple problems?
+* Are the labels correct? Please use existing labels and only make new ones as a last resort.
+
+Actions available:
+
+* Write a comment and what you think should be done
+* Modify the ticket fields to address the problems above
+* If multiple problems, create new tickets and separate into multiple tickets, linking them appropriately
+* If no problems, mark Approval field as Triaged (also leave a comment)
+
+Tickets ready for triage: https://clojure.atlassian.net/issues/?filter=10001[CLJ Open]
+
+[[vetting]]
+== Vetting process
+
+**The big picture question here is: "Is this a well stated problem?"**
+
+Vetting checklist:
+
+* Everything from the Triage checklist (in case that wasn't done)
+* Is there a problem statement?
+* Is the stated problem really a problem and not a thing to do or a solution?
+* Is the description well separated into Problem / Repo / Cause / Alternatives / Proposed / Patch?
+* Review the Priority field - should it be higher or lower? How many people are affected? If affected, what's the severity and is there a workaround?
+* If the issue has a performance aspect, is there a benchmark and timings revealing the issue? (There should be  enough info to reproduce any timings later)
+
+Actions available:
+
+* Write a comment - if you think it's ready for vetting, state that in the comment. If this needs raised attention due to scope/severity, raise that in the comment.
+* Revise the description or other fields to address problems above
+
+Tickets to look at:
+
+* https://clojure.atlassian.net/issues/?filter=10002[CLJ Triaged]
+* https://clojure.atlassian.net/issues/?filter=10032[CLJ 1.12 Candidates] - a hand-selected set of candidates for 1.12
+
+[[screening]]
+== Screening/prescreening process
+
+**The big picture question here is: "Is this a good solution to the issue?"**
+
+Sometimes we "prescreen" a ticket by considering whether it is a good solution before Rich has vetted it. This sometimes allows an issue to be fast tracked through the later parts of the process by front-loading this work.
+
+Note: If you wrote the patch, you should not prescreen or screen the ticket! We want different eyes on it.
+
+Screening checklist:
+
+* Everything from the Vetting checklist
+* Cause - once a problem is understood, try to state the cause of the problem as clearly as possible
+* Alternatives - you should try to come up with multiple alternative solutions for any problem (definitely for new features). Don't forget one alternative that always exists: do nothing. Use the problem to discover dimensions on which to compare the alternatives. Consider things like: performance, backwards compatibility, where the change occurs, etc.
+* Proposed solution - Restate the chosen alternative in detail and why it is the best across the considered dimensions. The Proposed solution section should cover aspect of the patch such that a reviewer is not surprised by the time they look at the code.
+* Patch - see <<screening_tickets#patches,Patch evaluation>> below
+* Performance - does the ticket include sufficient performance consideration? If a benchmark is needed, include benchmark and before/after timings. If that data is included, verify it on your own machine.
+* Does the Proposed section fully explain everything a subsequent reviewer would see in the patch?
+* Patch - is the name of the proposed patch listed? (this seems obvious ... until it isn't, so always explicitly list it, even if it's the only patch)
+
+Tickets to look at:
+
+* https://clojure.atlassian.net/issues/?filter=10002[CLJ Triaged]
+* https://clojure.atlassian.net/issues/?filter=10032[CLJ 1.12 Candidates] - a hand-selected set of candidates for 1.12
+* https://clojure.atlassian.net/issues/?filter=10004[CLJ Vetted]
+* https://clojure.atlassian.net/issues/?filter=10008[CLJ Screenable] - please coordinate with the core team before changing the body of the ticket here (comments are always fine)
+
+[[patches]]
+== Patch evaluation
+
+To apply someone's changes, it's best to create a branch and apply the change there:
+
+[source,shell]
+----
+$ git checkout -b freds_fixbug42
+$ git am --keep-cr --ignore-whitespace < their-patch-file.patch
+----
+
+* The --keep-cr helps when files being patched contain DOS CR/LF line endings.  It seems to be harmless when it isn't needed, but leave it off or use --no-keep-cr if you suspect it is causing issues.
+* The --ignore-whitespace helps when the only changes made to master since the patch was created are to whitespace in the context lines.  Without this option, some patches will fail to apply.  With that option, screeners can help avoid making contributors update patches merely because some whitespace changed in master.
+* If you are following this process to finalize a contrib lib contribution, instead use:
+
+[source,shell]
+----
+$ git am --keep-cr -s --ignore-whitespace < their-patch-file.patch
+----
+
+where -s indicates you are signing off on the commit. This is not necessary for screening.
+
+Patch evaluation checklist:
+
+* Is it a .patch file (not a .diff)?
+* Is the patch author a https://clojure.org/dev/contributors[contributor]? If not, we can't consider the patch.
+* Does the patch have a good commit comment? Should be of the form "CLJ-1234 - description" where the description should be problem focused. If more detail about the solution is included, it should follow the header line. In general, we rely on jira to be the place to put all of this detail more so than commit comments, but those are ok too (assuming they're correct!).
+* Use `git apply` to apply the patch locally (are there any whitespace warnings? not necessarily a big deal, but consider that)
+* Run `mvn clean test` - all tests should pass
+* Does the patch include tests where it could/should?
+* By default, test code is compiled with direct linking. If the change is likely to have issues without direct linking also run `mvn -Ptest-no-direct clean test`
+* Are the tests excessive (introducing dependency on implementation details)?
+* If there are new namespaces (in src or test), these might need to be added to the compilation list - update build.xml
+* Changes to existing core macros should not call out to new functions (this creates compatibility issues with newer compiled code running on older runtimes)
+* Changes to existing core macros may affect specs - if so, this should be considered and may require a separate core.specs patch
+* Any change involving Java interop should be checked for Java reflection (it is generally recommended to add `(set! *warn-on-reflection* true)` to the top of any Clojure namespace that has interop)
+* Any new public function should have `:added` metadata
+* Go back to the original repro and re-run it with the patch applied - does the patch fix the problem?
+* Read the diff, either isolated or as applied. Verify that it matches the proposed solution. If there is anything surprising and new, either the ticket or the patch should be updated.
+* Does the patch match the style of the surrounding code and the <<xref/../../dev/contrib_howto#_coding_guidelines,Coding Guidelines>>? (These are guidelines, not fixed laws of the universe.)
+* Is the documentation still correct?
+* Inlined functions that have type hints in the body will also require something in the inline function

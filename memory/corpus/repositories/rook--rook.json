@@ -1,0 +1,977 @@
+{
+  "schemaVersion": 1,
+  "repo": "rook/rook",
+  "commit": "c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23",
+  "retrievedAt": "2026-10-01T15:27:39.383291+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Runtime/Cloud Native Storage"
+  ],
+  "archiveUrl": "https://codeload.github.com/rook/rook/zip/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23",
+  "archiveSha256": "b731eb6f33184b568c7dd52c632bf41332f3a73abf7b25df02eb14c9145b240d",
+  "archiveBytes": 4330775,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 114,
+    "code": 4,
+    "licenses": 1,
+    "bytes": 1401356
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 6209,
+      "sha256": "8f2d1401c8667dc1966f9e5d65c96f6c1e4dd5a2aaa8b53b5d2205a444490ed1",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/ADOPTERS.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 2585,
+      "sha256": "660fdc214b3877afec063cc369db6951b92953b70a9c6708cfb421c9b380b0b8",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/AGENTS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 138,
+      "sha256": "e85120042f03a83c70ef6c7be5136f5549203add8629cbc329f32f806534af68",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 8607,
+      "sha256": "684f495d8c4ec94edb49f0ac47d8d89f7676ead60bada602a018ed2dd84fea36",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/CONTRIBUTING.md"
+    },
+    {
+      "path": "Documentation/CRDs/Block-Storage/ceph-block-pool-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b855f451b05fde96e766449d.md",
+      "kind": "official-document",
+      "bytes": 18731,
+      "sha256": "4dc12dde1f6210feb13cbe7f8bee8f0083d36f21e88449737edb1ae1ee76d3b0",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Block-Storage/ceph-block-pool-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Block-Storage/ceph-block-pool-rados-namespace-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/1a88dc971f6889d8daa45ade.md",
+      "kind": "official-document",
+      "bytes": 4976,
+      "sha256": "8921391a4dde6d0af1e01b8fc0e16fd0036f0881b5e9a291e47d4850cf1dbbfb",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Block-Storage/ceph-block-pool-rados-namespace-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Block-Storage/ceph-rbd-mirror-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/9952d6367a5d54c00fdaadfe.md",
+      "kind": "official-document",
+      "bytes": 2134,
+      "sha256": "0a0730856cf6f6d6d27ddc79f53f82b4033d65fa013a6c58f02e3670c2c984ea",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Block-Storage/ceph-rbd-mirror-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/ceph-cluster-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/23e58aa985feae41a8318b52.md",
+      "kind": "official-document",
+      "bytes": 70021,
+      "sha256": "8ccf1f682cc8787e2afa53f2c0ec989304587a8b7e15a70a9b8b4999246828c5",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/ceph-cluster-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/external-cluster/advance-external.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/0b3d0b2a61952cbf6a088e84.md",
+      "kind": "official-document",
+      "bytes": 3238,
+      "sha256": "266ce7613361cf3cacd8b0e547a7315e6f70c01e9cc37459b8055129b04314be",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/external-cluster/advance-external.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/external-cluster/consumer-import.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/f8e4301c0af14ef7ec074c9b.md",
+      "kind": "official-document",
+      "bytes": 3538,
+      "sha256": "28b12fc93dc513e72145934a0268731df6bdb646cfc611c242b101113047ffed",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/external-cluster/consumer-import.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/external-cluster/external-cluster.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/49ed3d3177c7f45e4074eff6.md",
+      "kind": "official-document",
+      "bytes": 2027,
+      "sha256": "d8e9f3cd67da8f65416eee754e0c2d3a7684d7273c19a6c6463701dabc394eff",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/external-cluster/external-cluster.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/external-cluster/provider-export.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/0a1d5fac1d8bc38adb7e2603.md",
+      "kind": "official-document",
+      "bytes": 9200,
+      "sha256": "63aa07addb0e43a43faf707810f2d0445f03fafd8b318bb34c358e21f8c6874f",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/external-cluster/provider-export.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/external-cluster/topology-for-external-mode.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/74a07c4a76e6a83251c2482a.md",
+      "kind": "official-document",
+      "bytes": 5473,
+      "sha256": "3a60690cabb74cdb7aedd68c8f74094206c5eb6b6bb5beceb19e763809ff283c",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/external-cluster/topology-for-external-mode.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/external-cluster/upgrade-external.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c3cc6a365f48afc6ac86305d.md",
+      "kind": "official-document",
+      "bytes": 3548,
+      "sha256": "c41a600f4153e0f20aa310af5533481792226f45fb36798892501bfce1e30dc4",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/external-cluster/upgrade-external.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/host-cluster.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/fc7d7d7b92e3cdf22365aade.md",
+      "kind": "official-document",
+      "bytes": 4475,
+      "sha256": "bb0d25a64f425ba4cb7258433fc172284523a42f4fab87f1bbce30e89be74be0",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/host-cluster.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/network-providers.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/4ee56a562c9328766b20a2fc.md",
+      "kind": "official-document",
+      "bytes": 17245,
+      "sha256": "d69043a85303eecfc761e8e306d3f44931ee34eabb174fcae58a5cd895516701",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/network-providers.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/pvc-cluster.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/21fdaf9b7ac22a72ec8bc3d8.md",
+      "kind": "official-document",
+      "bytes": 11705,
+      "sha256": "b2b8abc8347c89644b62c5bae6d0c82760d4a41084f11e474619e51dc8d3378a",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/pvc-cluster.md"
+    },
+    {
+      "path": "Documentation/CRDs/Cluster/stretch-cluster.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/9f55f49fb400baa6a04a0024.md",
+      "kind": "official-document",
+      "bytes": 2163,
+      "sha256": "bd4f7edd5c0e6ce373a09922b4ff6b7192c8d97ca897c0c55027a81cd2da9bf4",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Cluster/stretch-cluster.md"
+    },
+    {
+      "path": "Documentation/CRDs/Object-Storage/ceph-object-realm-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c0d6863ca996e021ed8a8b19.md",
+      "kind": "official-document",
+      "bytes": 1323,
+      "sha256": "8b473495b9b0361ed2f37e3c9506d26246f01093f1f0375012282202c755e97e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Object-Storage/ceph-object-realm-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Object-Storage/ceph-object-store-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/bfaa94a42e2b9e342d8ccbb8.md",
+      "kind": "official-document",
+      "bytes": 29657,
+      "sha256": "04f72dee7e1f4e9a1b79f60ec540aa34b9c593b23dc66ed3f6609b1cc59e28ce",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Object-Storage/ceph-object-store-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Object-Storage/ceph-object-store-user-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c4463ce5d834a1e452a7b868.md",
+      "kind": "official-document",
+      "bytes": 4777,
+      "sha256": "3708beb06c6b1697ee5a8542e5ca3ccb3dcb4faf51d0cbd153957c0d238b7462",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Object-Storage/ceph-object-store-user-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Object-Storage/ceph-object-zone-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a9bdf6a039333c1a6dc0c9d9.md",
+      "kind": "official-document",
+      "bytes": 3230,
+      "sha256": "d8ee980de6c7a30e8619498931fbf46579d15c0787defd809453e64d70e97be5",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Object-Storage/ceph-object-zone-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Object-Storage/ceph-object-zonegroup-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/cdc8ea6cecceb78a6610db37.md",
+      "kind": "official-document",
+      "bytes": 732,
+      "sha256": "5f4abc911e1b0a985ebe33e7dd41ed2484ca9ddcf189da524681d1e9cdb51447",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Object-Storage/ceph-object-zonegroup-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Shared-Filesystem/ceph-filesystem-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/257cc4ddee2c0176d57e0eaf.md",
+      "kind": "official-document",
+      "bytes": 9323,
+      "sha256": "5d3cd604f3a89c58aabde2ed977e0615af53c9339a9a1417308c8236bc4704fc",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Shared-Filesystem/ceph-filesystem-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Shared-Filesystem/ceph-fs-mirror-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c47cd1323c723bbe7035606b.md",
+      "kind": "official-document",
+      "bytes": 2148,
+      "sha256": "81029877f34e5214f00e3ca4e6c76445302fead544140897fae07cbfd52575a1",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Shared-Filesystem/ceph-fs-mirror-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/Shared-Filesystem/ceph-fs-subvolumegroup-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b23b39a7bd9fa864973299d1.md",
+      "kind": "official-document",
+      "bytes": 3833,
+      "sha256": "d999c19473ad4954efedc48364f8611c02e257dfd23a2ee4c8b0e5a21b9d6969",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/Shared-Filesystem/ceph-fs-subvolumegroup-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/ceph-client-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/5c12cf9741f2f11696ffce8c.md",
+      "kind": "official-document",
+      "bytes": 4986,
+      "sha256": "4a5ea241086830beaf435cd2368a9e10bae11a606987a4a290b72e5bddde68cb",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/ceph-client-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/ceph-nfs-crd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b360b6a8dcf9d50efeb63ce0.md",
+      "kind": "official-document",
+      "bytes": 9667,
+      "sha256": "2fca01e5dab2e4b745e3451b24054c98a9a8cadca37e1f98eb937b83e5fc6f46",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/ceph-nfs-crd.md"
+    },
+    {
+      "path": "Documentation/CRDs/specification.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/35a70e8ee5bd35588349525f.md",
+      "kind": "official-document",
+      "bytes": 312624,
+      "sha256": "2a0cb94187336119cd358a6e47940840adb35202f7007d5ec7e0988ce769a318",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/CRDs/specification.md"
+    },
+    {
+      "path": "Documentation/Contributing/ai-guidelines.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/d18c25a37aee16d609f462dc.md",
+      "kind": "official-document",
+      "bytes": 2480,
+      "sha256": "1808e17c12d35e543dd1c55689e65f14d591a67a964091c10fbfae6c0d3efe4c",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Contributing/ai-guidelines.md"
+    },
+    {
+      "path": "Documentation/Contributing/ci-configuration.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/8621a919f38e6b525c14d09b.md",
+      "kind": "official-document",
+      "bytes": 1184,
+      "sha256": "ff1b3bd71778fa8519317f51b3bb09651f45c14ae96a75344bdd53c3a352497b",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Contributing/ci-configuration.md"
+    },
+    {
+      "path": "Documentation/Contributing/development-environment.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/67ced182cb66f0961e3f4679.md",
+      "kind": "official-document",
+      "bytes": 3441,
+      "sha256": "c744b3f4fdc13fa3d20a2d6ffa9a8046338f61e8fd9e791b9602b3df919c5c97",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Contributing/development-environment.md"
+    },
+    {
+      "path": "Documentation/Contributing/development-flow.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/af856f81addc08ca36c6130a.md",
+      "kind": "official-document",
+      "bytes": 21118,
+      "sha256": "36e83f7db23b85bffb47ca5a4a8ac746e8fd452732a0962c2545885b3e80420f",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Contributing/development-flow.md"
+    },
+    {
+      "path": "Documentation/Contributing/documentation.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/840a2ba705eb2c74b79b4fe1.md",
+      "kind": "official-document",
+      "bytes": 2090,
+      "sha256": "7f87ddbd19f11e699e2d5b4ec1ac70987586484d767fc1cb0556ac10fce7849e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Contributing/documentation.md"
+    },
+    {
+      "path": "Documentation/Contributing/rook-test-framework.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/2c06063912e31413d2e6331e.md",
+      "kind": "official-document",
+      "bytes": 5179,
+      "sha256": "826dfe736c3a9d9887783990ae8ec16260d3f45353eb725b50da7481fefa1313",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Contributing/rook-test-framework.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/Prerequisites/authenticated-registry.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/fb4df6a398680d3bb8d50c99.md",
+      "kind": "official-document",
+      "bytes": 2457,
+      "sha256": "0c948c3fda74aeade707f0ee09560242436e006e81156d9f8418bb70203a481d",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/Prerequisites/authenticated-registry.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/Prerequisites/prerequisites.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b0e2c90af65d665dbd8a6d27.md",
+      "kind": "official-document",
+      "bytes": 5289,
+      "sha256": "7d981656204241053558e67b0cc43773605f11fc99adfb5e7c3467e7f220b570",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/Prerequisites/prerequisites.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/ceph-openshift.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b0d508c866d886cd4729a0ac.md",
+      "kind": "official-document",
+      "bytes": 3911,
+      "sha256": "075bd23491569c04fc3732645eca53836848a8ad632287aed345876d992b0145",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/ceph-openshift.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/ceph-teardown.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/f0f0f09f8606cdb064fa98c5.md",
+      "kind": "official-document",
+      "bytes": 41,
+      "sha256": "c0c82b9676fd9f3ddc32fdaa4ef86daaeae120004d86bb55b3072dd050b8f7d8",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/ceph-teardown.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/example-configurations.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/71596ddbb8deac7e4fa17ba0.md",
+      "kind": "official-document",
+      "bytes": 10323,
+      "sha256": "364d3025c0ea37b0d641dbc6b588d7d6d660fef8d25290e7e2b0da6b23c24964",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/example-configurations.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/glossary.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/8a659073e43627a14c09467b.md",
+      "kind": "official-document",
+      "bytes": 7718,
+      "sha256": "546983a406615badea30f1ac152ddfd79cf93c313583eb86f93db164718ed796",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/glossary.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/intro.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a219f7b0e730f66b5802569a.md",
+      "kind": "official-document",
+      "bytes": 12,
+      "sha256": "dbcc210d7f4962499db6d4cfa18658e26d05ee700c962a811cac911f095e22fd",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/intro.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/maintenance-and-support.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/db25b2de7c571cd52b64d77c.md",
+      "kind": "official-document",
+      "bytes": 2784,
+      "sha256": "f6afb4656243f0ececafd9349ba2bb58fc117036e1c2505700ad582335d885e0",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/maintenance-and-support.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/quickstart.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/16230fd9552c1297ad233457.md",
+      "kind": "official-document",
+      "bytes": 9574,
+      "sha256": "046c3b5870729c0a11fdc2ed5b5b4d2d779bb89e45e4135454f3952262292c42",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/quickstart.md"
+    },
+    {
+      "path": "Documentation/Getting-Started/storage-architecture.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/39104f478fcbe85bd4a0c29b.md",
+      "kind": "official-document",
+      "bytes": 4984,
+      "sha256": "61fbaf7aeb0ed579e07d2e01791ab0ab22396d25462c0d834dfcfb6f854b2dc5",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Getting-Started/storage-architecture.md"
+    },
+    {
+      "path": "Documentation/Helm-Charts/ceph-cluster-chart.gotmpl.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/2cb2af891d8639ebe063d53b.md",
+      "kind": "official-document",
+      "bytes": 12026,
+      "sha256": "5aba20304d405d0d0be4bad3387a4112e99d8ccae3cf56b230653b8548dd861e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Helm-Charts/ceph-cluster-chart.gotmpl.md"
+    },
+    {
+      "path": "Documentation/Helm-Charts/ceph-cluster-chart.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/842ba357236bfe7d535135e4.md",
+      "kind": "official-document",
+      "bytes": 16303,
+      "sha256": "f0bdfe9e1821725056e2ae07c6c5bc9110eaa62e03e3dd2eaf12e37fd6f719ef",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Helm-Charts/ceph-cluster-chart.md"
+    },
+    {
+      "path": "Documentation/Helm-Charts/csi-drivers-chart.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/883364553cbea5ad54bf43f7.md",
+      "kind": "official-document",
+      "bytes": 4013,
+      "sha256": "ede1baee3a284417e8777120db09ac527ff34627db645dd71ba623d0e660857a",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Helm-Charts/csi-drivers-chart.md"
+    },
+    {
+      "path": "Documentation/Helm-Charts/helm-charts.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/351f3d421b461387a24ae64b.md",
+      "kind": "official-document",
+      "bytes": 740,
+      "sha256": "71d1d153fe4d88c11fcb752a9f385a4564e6e52c927b44b46bf63aa44ce84aa1",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Helm-Charts/helm-charts.md"
+    },
+    {
+      "path": "Documentation/Helm-Charts/operator-chart.gotmpl.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/86ab3d8faf2b51bf71570526.md",
+      "kind": "official-document",
+      "bytes": 2890,
+      "sha256": "316cda97df6699b0d9d1455ceddcd973072a12a43bcb8f497ee960309839e56a",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Helm-Charts/operator-chart.gotmpl.md"
+    },
+    {
+      "path": "Documentation/Helm-Charts/operator-chart.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/cd9c71d0c627b3845d9b983c.md",
+      "kind": "official-document",
+      "bytes": 10377,
+      "sha256": "6020f01fd91122f6e3efba54eed23ca2acc214e5c64de6d65bbebb6c9125206f",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Helm-Charts/operator-chart.md"
+    },
+    {
+      "path": "Documentation/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b17fb48f57bda08d95655cce.md",
+      "kind": "official-document",
+      "bytes": 1741,
+      "sha256": "12b4becc672b05d11a5358f134050bdf1128eb99d3536906aced851df244f55f",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/README.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/ceph-configuration.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/abd858d2f79cf18164f4ea20.md",
+      "kind": "official-document",
+      "bytes": 20980,
+      "sha256": "2214a5b03904d5ff7c273e99bc7410e8f8deac779a4ae23b75fae39d4b5e07a6",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/ceph-configuration.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/ceph-mon-health.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/06e1d8d8550bdc01888077d7.md",
+      "kind": "official-document",
+      "bytes": 11702,
+      "sha256": "59eb0f1cb1cd2a8ecebb3b7d678716ce58df83e5da2c708d620aaa6acd64e755",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/ceph-mon-health.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/ceph-osd-mgmt.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/42e082d811a535e1cadd40ad.md",
+      "kind": "official-document",
+      "bytes": 17837,
+      "sha256": "1cef62c2fed7190c95b976aaeb85a9e31c113dec82d7eaf5a6589ca6d51bc4e5",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/ceph-osd-mgmt.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/cephx-key-rotation.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/423875dcedd53adefced5e70.md",
+      "kind": "official-document",
+      "bytes": 26065,
+      "sha256": "215ed5094daacc4a416e355d242dc317334184e7f5d9e0f56a18228cb131e8ac",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/cephx-key-rotation.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/configuration.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/83d89d9392306867236cd027.md",
+      "kind": "official-document",
+      "bytes": 4061,
+      "sha256": "e4123495b294628db102501f430effb5603086f22a58a22d700769a7832c35c6",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/configuration.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/key-management-system.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c64122c9f72de0d84640416e.md",
+      "kind": "official-document",
+      "bytes": 15208,
+      "sha256": "79244e4098025196ecbcac187f54acae6c5ad23b38d62cd133356db255b13bbe",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/key-management-system.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Advanced/two-node-cluster-drbd.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a9c11564192cd97fe805f0ca.md",
+      "kind": "official-document",
+      "bytes": 5139,
+      "sha256": "a9d1a2550175b8e9c8024b1bbb9647accdc36b5f7fa2f21a00e369ae3a6af5aa",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Advanced/two-node-cluster-drbd.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Block-Storage-RBD/app-migration.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/6f4f9ed1e705f93e1b60b14f.md",
+      "kind": "official-document",
+      "bytes": 3832,
+      "sha256": "f887d6fc76d61fcf71bd3c81676c590f1e6b958354ab14428980cefec080f78c",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Block-Storage-RBD/app-migration.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Block-Storage-RBD/block-storage.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/37a8f2377e083cc585cd5bdd.md",
+      "kind": "official-document",
+      "bytes": 11921,
+      "sha256": "02d64b3289063eb8a29b1f7f8aee89ff146b7995c66f6364c6a02ac00e11597f",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Block-Storage-RBD/block-storage.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Block-Storage-RBD/nvme-of.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/2a51b91a7335a7f970fee4e0.md",
+      "kind": "official-document",
+      "bytes": 10711,
+      "sha256": "58ba3470ee5ba5ca8b9367a20a60c989c52aaaf6d4a13ed0bcfc74d102843cb5",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Block-Storage-RBD/nvme-of.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Block-Storage-RBD/rbd-async-disaster-recovery-failover-failback.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b3a36c189df852ad1f822737.md",
+      "kind": "official-document",
+      "bytes": 5754,
+      "sha256": "77193abf0125e7a3cc5a00fb391c0cfdb56ed4f2b94c6712410cabc50cec7ed1",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Block-Storage-RBD/rbd-async-disaster-recovery-failover-failback.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Block-Storage-RBD/rbd-mirroring.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/896a1fac51e7601b3adacb44.md",
+      "kind": "official-document",
+      "bytes": 13728,
+      "sha256": "3fd74257df3c15b4e4dcb28d381213cebc22fefdab66d0848ca88b7c6bd1f7ed",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Block-Storage-RBD/rbd-mirroring.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Block-Storage-RBD/rbd-qos.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/679c998b2640b932c3a58e89.md",
+      "kind": "official-document",
+      "bytes": 5808,
+      "sha256": "8f9e5bd406504555d0c802783ddd7cd05d3f396d623a7e626d9a5ecb5fbe113e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Block-Storage-RBD/rbd-qos.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-drivers.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/fa70d63f9b67641229761f6b.md",
+      "kind": "official-document",
+      "bytes": 15185,
+      "sha256": "51f410bfb92369daf2d0dfc3c561448f648f87993c791ea2bc05f281113edded",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-drivers.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-snapshot.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a8a124553dadd35947ff85a9.md",
+      "kind": "official-document",
+      "bytes": 7658,
+      "sha256": "77e5f7ae8c95db85b1feb3c0c9dfa3ce56dda259ee4bf96c28b734036f0a0b4d",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-snapshot.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-volume-clone.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/3de2f73afacfc7dbcebe49ee.md",
+      "kind": "official-document",
+      "bytes": 3281,
+      "sha256": "4012774095f210ed037b975f031944c06c7636f9ac730b75306c3a6ff2dccb0e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-volume-clone.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-volume-group-snapshot.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/9edebf3549dad1f42fd08b90.md",
+      "kind": "official-document",
+      "bytes": 5030,
+      "sha256": "87510553122a73d2839a5266ed541b8900f8ace2b3a2bf655eb7f9e7750670ff",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Ceph-CSI/ceph-csi-volume-group-snapshot.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Ceph-CSI/csi-configuration.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/2422ee698acb468914cb9446.md",
+      "kind": "official-document",
+      "bytes": 4668,
+      "sha256": "d6841bbf9d9785e2f317c4d3e4945e0924d0c71e4baf6c2d36a9cbbc6d3b81c5",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Ceph-CSI/csi-configuration.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Ceph-CSI/custom-images.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/8b14fdccc580244f535cea34.md",
+      "kind": "official-document",
+      "bytes": 2059,
+      "sha256": "7cddc08df86554ac54afb0f1d5e1628188a68e855559b0390df304931f8e2dd2",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Ceph-CSI/custom-images.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Monitoring/ceph-dashboard.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/8bdcf5f9132ae32dd5d281ec.md",
+      "kind": "official-document",
+      "bytes": 10245,
+      "sha256": "5a33c63d2ea4bbbd852c19153ebccf0c55a72a81c8f757ac2fb58da7cc646c8e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Monitoring/ceph-dashboard.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Monitoring/ceph-monitoring.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c15eeae71373c255962e1722.md",
+      "kind": "official-document",
+      "bytes": 12361,
+      "sha256": "aacaefd729cb04a005e6213323c53ea685e54e59c7e5c374abeac403b9996bb7",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Monitoring/ceph-monitoring.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/NFS/nfs-advanced.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/7805ff316cfd8c0423eb2d4c.md",
+      "kind": "official-document",
+      "bytes": 3261,
+      "sha256": "e00010aab19d74afdff17d4329aa3edc870b6f6a2738f947cf3423da053d5913",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/NFS/nfs-advanced.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/NFS/nfs-csi-driver.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a02053c88b0885021b043f45.md",
+      "kind": "official-document",
+      "bytes": 8799,
+      "sha256": "7dbe953f57a06bb597f9fab814b6d9fad64401b1ecdb39beb15e2c885dd6305d",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/NFS/nfs-csi-driver.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/NFS/nfs-security.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/167334b7e4073b09e044bbbb.md",
+      "kind": "official-document",
+      "bytes": 7522,
+      "sha256": "7f4817fa63ccb279cb1df5f873febb698191fd59d612a2289e861150839d24e6",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/NFS/nfs-security.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/NFS/nfs.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/205b4ad6b5f8f539344fd1a0.md",
+      "kind": "official-document",
+      "bytes": 6829,
+      "sha256": "8ba7ef07590d28d49f809c700bd6836339501a2df8f26759cf20f7f412f7fd96",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/NFS/nfs.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-accounts.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/54383a97cfbe13484819bfe8.md",
+      "kind": "official-document",
+      "bytes": 4343,
+      "sha256": "15617bbbe3b95212a91a5ec16cf84a519adc25747f45e13a814b46539d7cf905",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-accounts.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-bucket-claim.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/084fd239b1bbaca3670c2e5a.md",
+      "kind": "official-document",
+      "bytes": 9463,
+      "sha256": "764e2b39c27d4a1a7febaf17f51162aebe4aeef0d9457cb3ba4ff2762304d309",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-bucket-claim.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-bucket-notifications.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/ae78a9588d5a884fd844ff45.md",
+      "kind": "official-document",
+      "bytes": 11943,
+      "sha256": "c96736cc25c3eee85b751f891531101324e2e12509bf42423a1114f98f4a8524",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-bucket-notifications.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-multisite.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/471e0bbca5b3e456a7a2fca6.md",
+      "kind": "official-document",
+      "bytes": 17003,
+      "sha256": "6034562735768e5fc23fa38928a427b7a79f254c5131e5289defcaa6d5ea30f6",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-multisite.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-swift.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/d10621d0f33471303ee012a1.md",
+      "kind": "official-document",
+      "bytes": 6070,
+      "sha256": "2b24f995914498384861c83eab0e0a6487af25d94594f4ab2b7f5aa89a568be3",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/ceph-object-swift.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/cosi.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/0e0d9f4f84dc03afc4602a4e.md",
+      "kind": "official-document",
+      "bytes": 5025,
+      "sha256": "cc3a81e16abe82b7855c6e80bfae1ec39975bbd9b07930d73108df6b3971a604",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/cosi.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Object-Storage-RGW/object-storage.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/ca07c4568625f0690be63e3a.md",
+      "kind": "official-document",
+      "bytes": 34922,
+      "sha256": "33e4abffda4b2dbd8a3b231608e45237efeca539e9e07cc5c1feace436baa06c",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Object-Storage-RGW/object-storage.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Shared-Filesystem-CephFS/filesystem-mirroring.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/9e5e2afd0dcd311f871f0cad.md",
+      "kind": "official-document",
+      "bytes": 6298,
+      "sha256": "cdf08cd000e1cd7c01f4d678e5140445016d60e2caacd2553f28e022053df2a8",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Shared-Filesystem-CephFS/filesystem-mirroring.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/Shared-Filesystem-CephFS/filesystem-storage.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/04763cde29cf8b5c306ae255.md",
+      "kind": "official-document",
+      "bytes": 15195,
+      "sha256": "433ea627d7573639d7810caf5c02440c1c6038f0e326b46d203b3e7163dd9c09",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/Shared-Filesystem-CephFS/filesystem-storage.md"
+    },
+    {
+      "path": "Documentation/Storage-Configuration/ceph-teardown.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/e3ad36859a9ff80a28f40324.md",
+      "kind": "official-document",
+      "bytes": 11475,
+      "sha256": "1535d402bca1241d95eb18afeb24fc1a9c6c36f0be8b84cfa2ab9b5b3dd242b0",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Storage-Configuration/ceph-teardown.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/ceph-common-issues.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a8aa1b407e62869fe82c4ac3.md",
+      "kind": "official-document",
+      "bytes": 40370,
+      "sha256": "a310e576092c76526d963b0db0c65251970de3695097beabd26e59c1515fbb37",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/ceph-common-issues.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/ceph-csi-common-issues.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/649fbf4bcbab91f02442194d.md",
+      "kind": "official-document",
+      "bytes": 17894,
+      "sha256": "142e8e7d4291eba1f59861ae6e9c2bf2120bc0edf7153d332ff6699331b2d87f",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/ceph-csi-common-issues.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/ceph-toolbox.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/e69fad3cde20e6c6d4d64bb0.md",
+      "kind": "official-document",
+      "bytes": 2175,
+      "sha256": "2ca2994dd995aa3b87bdae7aeb33bd601c697e651a20a1540b42786a694914a2",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/ceph-toolbox.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/common-issues.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/5b6e5f3311cd738dba581f5f.md",
+      "kind": "official-document",
+      "bytes": 2208,
+      "sha256": "9a6857a7de23afa52696171124159f56fdf7f4b4548e87b3ec09aac934a2b4a0",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/common-issues.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/direct-tools.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/68acf2f3b9f43e0d7d0742f2.md",
+      "kind": "official-document",
+      "bytes": 4008,
+      "sha256": "4554d1cde86293beecb94ee83a5bec8012a363bd542a2b716158c8b790c13648",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/direct-tools.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/disaster-recovery.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/02b5481a727dd7a0a268dae8.md",
+      "kind": "official-document",
+      "bytes": 20298,
+      "sha256": "4331d40f71ab3b81c937fcc9a056a5dc18a2c6c7f45d36a9453db2922c395814",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/disaster-recovery.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/kubectl-plugin.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/ef1e517bcb86904d442e34b0.md",
+      "kind": "official-document",
+      "bytes": 2197,
+      "sha256": "7c9a73bd9d3fe2aa84d6be55eaa66b325da74efe21a2db8bfc01c049b491b744",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/kubectl-plugin.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/openshift-common-issues.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/e954bd8646f967d301615792.md",
+      "kind": "official-document",
+      "bytes": 1714,
+      "sha256": "3df4bc9de82f440f94ec4735d4b682e99e3fe13354fbc704eb8bf49a77d175fa",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/openshift-common-issues.md"
+    },
+    {
+      "path": "Documentation/Troubleshooting/performance-profiling.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c325ec55e5cb6e1180134c94.md",
+      "kind": "official-document",
+      "bytes": 2219,
+      "sha256": "cb8dc124925a58d3733f28adaa19e855efb69c89088020b5cc58c09309b286af",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Troubleshooting/performance-profiling.md"
+    },
+    {
+      "path": "Documentation/Upgrade/ceph-upgrade.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/a5e280dd29ce800e29356bc1.md",
+      "kind": "official-document",
+      "bytes": 6147,
+      "sha256": "f9bdfc03e5ffb7414db3f062232ce1f3da1e82d0ab0705de600868775253e90e",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Upgrade/ceph-upgrade.md"
+    },
+    {
+      "path": "Documentation/Upgrade/health-verification.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/ee08ddfb74924387ec86ae16.md",
+      "kind": "official-document",
+      "bytes": 5517,
+      "sha256": "4ff8afd979154874249879cb15556db51bb1e913d18625538546f8d5e67b880a",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Upgrade/health-verification.md"
+    },
+    {
+      "path": "Documentation/Upgrade/node-maintenance.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/49e3f870a21143d7735c0063.md",
+      "kind": "official-document",
+      "bytes": 6520,
+      "sha256": "e304eb72c6471780bc61acda49f42a2ef1a3e7ba1ec6ba7fe3d887041e54a465",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Upgrade/node-maintenance.md"
+    },
+    {
+      "path": "Documentation/Upgrade/rook-upgrade.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/da721c03dddbaf2e1b7bdb83.md",
+      "kind": "official-document",
+      "bytes": 12569,
+      "sha256": "3906e7c8e0aaa41cebe2c7af6ff4517f3471da6218d13e577cc35ab34ea4dff7",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/Documentation/Upgrade/rook-upgrade.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 7978,
+      "sha256": "7e885fa4fe91701de77a750649656aa2fbed7a2c30b37cda0bf9ca39ce63b3fd",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/GOVERNANCE.md"
+    },
+    {
+      "path": "INSTALL.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/09b140a43ebfdd8dbec31ce7.md",
+      "kind": "official-document",
+      "bytes": 1352,
+      "sha256": "06f9d89a96ad3f2ba92a87d7ecfcd778831f9f0b51db6c56da8d0ad294699592",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/INSTALL.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11368,
+      "sha256": "2a9bf3e31df6ecaec382adcc5a9dacf034a16abcf20e63b7ac4630dd9b5c52a6",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/LICENSE"
+    },
+    {
+      "path": "OWNERS.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/403b96de276ed29c25c2559e.md",
+      "kind": "official-document",
+      "bytes": 2780,
+      "sha256": "ea045b89bb239ef6ce3c444e62d1aba4d38d1ab1277daecfc423591a11cd9fc4",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/OWNERS.md"
+    },
+    {
+      "path": "PendingReleaseNotes.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/c1307a4747ee8d26082b0144.md",
+      "kind": "official-document",
+      "bytes": 2746,
+      "sha256": "1e3767b0c9d7de2e4da4813b37f3a0bf30644cd735f2905d9c7b005eff24b242",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/PendingReleaseNotes.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6168,
+      "sha256": "a87263a17e1768986024703ea9f4def33f6e4358d42ec3a8d2d97bbc3436d584",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/README.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 2102,
+      "sha256": "22440b3501d032b999a9af803bb78bf67adf572731fd6147f01bd4457c1391cc",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/ROADMAP.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 11049,
+      "sha256": "a56644c520a13d3c4ab1be5c299100f7e959607f5a924bcef88d8d1f8223e540",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/SECURITY.md"
+    },
+    {
+      "path": "deploy/charts/rook-ceph-cluster/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/1fc02ee0c4b16312f6572b24.md",
+      "kind": "official-document",
+      "bytes": 93,
+      "sha256": "2d30772106036924bc463003cc74d325fa32eedc87ae47779d4b11ca67b14a56",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/charts/rook-ceph-cluster/README.md"
+    },
+    {
+      "path": "deploy/charts/rook-ceph/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/b791e9d1ae1d4368b87f4310.md",
+      "kind": "official-document",
+      "bytes": 91,
+      "sha256": "20e4b375dd3f88dc747b3e48ef7a103617d8886cdfcab38a35d698ed14caf7c2",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/charts/rook-ceph/README.md"
+    },
+    {
+      "path": "deploy/examples/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/20f11f6bc37f555f47cee564.md",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "29e06e676dfab51e0bd5eea1a7f56b6588eaa4c098eab360939f62ea5273edec",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/examples/README.md"
+    },
+    {
+      "path": "deploy/examples/create-external-cluster-resources-tests.py",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/027ad7f5d62f3a6ea0aa093f.py",
+      "kind": "upstream-example-code",
+      "bytes": 12429,
+      "sha256": "4b64ceba2867208e0d11dde8ee70a14134627a554d88f9df8b094f5d2f21f17d",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/examples/create-external-cluster-resources-tests.py"
+    },
+    {
+      "path": "deploy/examples/create-external-cluster-resources.py",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/cf650741b0d8b285e99dec88.py",
+      "kind": "upstream-example-code",
+      "bytes": 107816,
+      "sha256": "b656eb5bf419b0043c59cfc6f899a1e548ad491575ba867603c0c813e3bfb4a8",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/examples/create-external-cluster-resources.py"
+    },
+    {
+      "path": "deploy/examples/drbd-setup-experimental.sh",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/4f2d6e93d82afa74c4ed3c05.sh",
+      "kind": "upstream-example-code",
+      "bytes": 28514,
+      "sha256": "40b39e14265a3976249c92e90f3eee31dbd7e5035284b9593e8586b9f6b9ec58",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/examples/drbd-setup-experimental.sh"
+    },
+    {
+      "path": "deploy/examples/import-external-cluster.sh",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/17c14009bbe3863a3d47d44e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 19388,
+      "sha256": "e6eead811053f563b7ff2023759bcc5f41604d2e08f73d01944d2923637cb70c",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/examples/import-external-cluster.sh"
+    },
+    {
+      "path": "deploy/examples/monitoring/grafana/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/6259a766ed3ce55b2f540242.md",
+      "kind": "official-document",
+      "bytes": 693,
+      "sha256": "0ccf22748d51a1d4a980eacdca39dedf3bd95b71fc9c101826740533184b2285",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/deploy/examples/monitoring/grafana/README.md"
+    },
+    {
+      "path": "design/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/7a08ff7823f72212ed396d3f.md",
+      "kind": "official-document",
+      "bytes": 150,
+      "sha256": "2ca123e358193b049a5b0e0fd3c6bc6a4af5a6b6c934fbb24c0e8c7ee28e1065",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/design/README.md"
+    },
+    {
+      "path": "design/design_template.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/7d14e81997b76c4471a4b710.md",
+      "kind": "official-document",
+      "bytes": 1060,
+      "sha256": "24a751314482a18b48d01310f38cd5cf877eea45392dfd60a51388dd78dc59cf",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/design/design_template.md"
+    },
+    {
+      "path": "tests/integration/object/README.md",
+      "localPath": "raw/rook--rook/c14cabd0bbeb/91a321a18621ac78a6a5dac7.md",
+      "kind": "official-document",
+      "bytes": 11229,
+      "sha256": "f1aad422835d193bb1137cd2c49edf21f821c8fa641fea2aead81e56b994a8ca",
+      "sourceUrl": "https://github.com/rook/rook/blob/c14cabd0bbeb8cbb4ebcd429dddee63e9d180d23/tests/integration/object/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

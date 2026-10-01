@@ -1,0 +1,1 @@
+list image names defined in werf.yaml.

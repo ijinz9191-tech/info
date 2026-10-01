@@ -1,0 +1,2073 @@
+{
+  "schemaVersion": 1,
+  "repo": "microsoft/playwright",
+  "commit": "e79e2576c8ceff410d00ca1e240c539a6f33c78c",
+  "retrievedAt": "2026-10-01T15:23:19.738503+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/testing"
+  ],
+  "archiveUrl": "https://codeload.github.com/microsoft/playwright/zip/e79e2576c8ceff410d00ca1e240c539a6f33c78c",
+  "archiveSha256": "6707bf561457995de5e8855230ed1c6a6abcc0e510520c79d0b2ab633a8319a2",
+  "archiveBytes": 42971007,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 211,
+    "code": 38,
+    "licenses": 7,
+    "bytes": 2867899
+  },
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 7890,
+      "sha256": "99809538a4699378c96bcf9a40e77afe7dae0e7e3c934342d151247165a6cd5c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 453,
+      "sha256": "539b1bfc810aa62738af95866bfe584d568b0dca71aebed0bd81db0bdaebade3",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 8349,
+      "sha256": "db4335d5d090a300219b0a66c55f4ac230f299261ce436b327155f8bb2f7ee59",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/CONTRIBUTING.md"
+    },
+    {
+      "path": "FILING_ISSUES.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3a63f06432e881782509da39.md",
+      "kind": "official-document",
+      "bytes": 1569,
+      "sha256": "a9058c5e35470f147b81c49687bb586d7b9d196445d61270fb4f7cd9746eba53",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/FILING_ISSUES.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11601,
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 254,
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 11282,
+      "sha256": "36be602c00c09ffd3d52a2d8934fb5c4c3671eab597593fdbd15e53a49888a9f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 2697,
+      "sha256": "891c6326bdd8ea026af23af20fd7dd7167b666f4bd4f63cf22dfdef09d5e78b2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/SECURITY.md"
+    },
+    {
+      "path": "SUPPORT.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c5fe610b0215b14447410625.md",
+      "kind": "official-document",
+      "bytes": 797,
+      "sha256": "725b84b60732cab621f23cd7de7b85d8f1e2abe7c13ddac927bd25470fb5f6ec",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/SUPPORT.md"
+    },
+    {
+      "path": "browser_patches/winldd/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c9bced4c3c23b6c0bd5f326b.md",
+      "kind": "official-document",
+      "bytes": 622,
+      "sha256": "64d1238db73e43327a508be0ecd1ac97e9105bd355cc13e26e79af9cddc66066",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/browser_patches/winldd/README.md"
+    },
+    {
+      "path": "docs/src/accessibility-testing-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/92666ce5b056d1cfe21952c8.md",
+      "kind": "official-document",
+      "bytes": 12583,
+      "sha256": "66ecb4fb206890a909ce74d3ac17253662b68fb80817994ab3d7debc6e3043e1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/accessibility-testing-java.md"
+    },
+    {
+      "path": "docs/src/accessibility-testing-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ef894e88551e88570babebf7.md",
+      "kind": "official-document",
+      "bytes": 14491,
+      "sha256": "3b56f3227dde7679b333de98547421dd077bd3351375e7811d613bcf0f43cf04",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/accessibility-testing-js.md"
+    },
+    {
+      "path": "docs/src/actionability.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5a8258c1d614dca2c74d25d6.md",
+      "kind": "official-document",
+      "bytes": 6270,
+      "sha256": "539bd66c4463673e1781c1e61306a6765721189b611f2c88ae13369ea3228869",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/actionability.md"
+    },
+    {
+      "path": "docs/src/api-testing-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/fd121d56e8a3781f898b91fa.md",
+      "kind": "official-document",
+      "bytes": 49275,
+      "sha256": "35a72ca9986b91b97bac7fe03b48bdc61bc2a172fee5cb58b7f5eaee924dec59",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api-testing-csharp.md"
+    },
+    {
+      "path": "docs/src/api-testing-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4b47ab2de26f6c2ee8e704b5.md",
+      "kind": "official-document",
+      "bytes": 14487,
+      "sha256": "497ff791c50704307088ac6e78e7e8878b6b432db7d5510be75c287de1e22b9f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api-testing-java.md"
+    },
+    {
+      "path": "docs/src/api-testing-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/57b8d862aa50307116cb45ca.md",
+      "kind": "official-document",
+      "bytes": 13243,
+      "sha256": "76784da87684927bc8a1e35bd483f7702b06b19a9530fe467146ae399a042b1c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api-testing-js.md"
+    },
+    {
+      "path": "docs/src/api-testing-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2bdbf1cd993f1d2d1bffd702.md",
+      "kind": "official-document",
+      "bytes": 10303,
+      "sha256": "c2f67aa399534c3ddd533df7959e3f938dc945e9ee0c39851762c67ee66173b6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api-testing-python.md"
+    },
+    {
+      "path": "docs/src/api/class-apirequest.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/891ded2e146f8f9b96f5db13.md",
+      "kind": "official-document",
+      "bytes": 4083,
+      "sha256": "2135b86e9b7695e8831c58827eb3add8e4045c656f43e247a80e8731d0327766",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-apirequest.md"
+    },
+    {
+      "path": "docs/src/api/class-apirequestcontext.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7cf4c14ce6feb76c1026ec91.md",
+      "kind": "official-document",
+      "bytes": 30632,
+      "sha256": "4c240567ee53668c4448ac0cff1c05251776902999addb64e5a7e83b67b39f3b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-apirequestcontext.md"
+    },
+    {
+      "path": "docs/src/api/class-apiresponse.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/cc428d6cdc7d346776b750d0.md",
+      "kind": "official-document",
+      "bytes": 4275,
+      "sha256": "37434279d03d21cf1bb3d9eebeb6e72dfce2654baaf2739963b132a5a27ab81c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-apiresponse.md"
+    },
+    {
+      "path": "docs/src/api/class-apiresponseassertions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/de88d01fd378844bf893f57a.md",
+      "kind": "official-document",
+      "bytes": 2589,
+      "sha256": "a5916af995c7a7f2ddc7096000ccdd373147eed27f47ac735b399bd6a38d623f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-apiresponseassertions.md"
+    },
+    {
+      "path": "docs/src/api/class-browser.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ee15bbc5f2e1913fd2727687.md",
+      "kind": "official-document",
+      "bytes": 13004,
+      "sha256": "de9be31c3c8ad8bc76a90ddf176e81b1e26ee1a96402db76daf27c69a019d94e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-browser.md"
+    },
+    {
+      "path": "docs/src/api/class-browsercontext.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0b1069881ad8f2690910f902.md",
+      "kind": "official-document",
+      "bytes": 60576,
+      "sha256": "97538421fa04b347fc485db929941a1c38e9d16dbe8bdb0514f402e5cc602915",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-browsercontext.md"
+    },
+    {
+      "path": "docs/src/api/class-browserserver.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/41dd5555b6b2d01c140afe0c.md",
+      "kind": "official-document",
+      "bytes": 720,
+      "sha256": "c2e626731417cdce63b679eb3bb4b6ce777b01ab44a9ba6080878722cd5d457d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-browserserver.md"
+    },
+    {
+      "path": "docs/src/api/class-browsertype.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/aa554c6f85270e4dd8ed5886.md",
+      "kind": "official-document",
+      "bytes": 15742,
+      "sha256": "8964954dff8293e960d5a0760956b72bade8f3e7d90344bebe13a98c7e7e8bc7",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-browsertype.md"
+    },
+    {
+      "path": "docs/src/api/class-cdpsession.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/df9a84f5149da94e7503d1c1.md",
+      "kind": "official-document",
+      "bytes": 5355,
+      "sha256": "d6e61eb3a96d3aaa4a9ead1112d15af88131f3eb2b1ae0fe2b621ecdf94c95c7",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-cdpsession.md"
+    },
+    {
+      "path": "docs/src/api/class-cdpsessionevent.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/471bf7bacb22bb8a41653b4a.md",
+      "kind": "official-document",
+      "bytes": 426,
+      "sha256": "611000a8e4fc15aa7ea87534063bdbbc145d6a9af2531796e5df999b6e50b843",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-cdpsessionevent.md"
+    },
+    {
+      "path": "docs/src/api/class-clock.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/99b40a0f246bc5cf17e13667.md",
+      "kind": "official-document",
+      "bytes": 9688,
+      "sha256": "baaa209d1a3c71ed6c17d9c0788bbaf9fc645c38d07ce8e9f7e979ab982b3400",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-clock.md"
+    },
+    {
+      "path": "docs/src/api/class-consolemessage.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/39a784cd50cdad344a5c2db9.md",
+      "kind": "official-document",
+      "bytes": 5380,
+      "sha256": "01e2a714765a19bf4f465c6ef33fcd79dcb314c44b7c165ce7dfca404db53a94",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-consolemessage.md"
+    },
+    {
+      "path": "docs/src/api/class-coverage.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/817ada3e8ffcbfb2bd2516bb.md",
+      "kind": "official-document",
+      "bytes": 3327,
+      "sha256": "2020b7d3dcd1fbf47571439f235e298a801bb60e9804a4157c016ba3e9e63ab1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-coverage.md"
+    },
+    {
+      "path": "docs/src/api/class-credentials.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/58d535535ee3ae168d385900.md",
+      "kind": "official-document",
+      "bytes": 14487,
+      "sha256": "6e35b3dfb31597749a6307bc1d60ce887c95b1307ddb2a821bca7c3609772c81",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-credentials.md"
+    },
+    {
+      "path": "docs/src/api/class-debugger.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f982f543d5e2488641a84441.md",
+      "kind": "official-document",
+      "bytes": 1858,
+      "sha256": "e558b8bcd84dea2176f6a29a4593d655c275df6b093f786a9aadcd55ab764046",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-debugger.md"
+    },
+    {
+      "path": "docs/src/api/class-dialog.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6b14267f902f06ed052cc640.md",
+      "kind": "official-document",
+      "bytes": 3795,
+      "sha256": "6b93a4ae7ad6e7d3b0da04b46e2301c360dccd54607163c70679a70795ee1e46",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-dialog.md"
+    },
+    {
+      "path": "docs/src/api/class-disposable.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ee80e45b325f769c0a0d5a78.md",
+      "kind": "official-document",
+      "bytes": 461,
+      "sha256": "f07ec3dfe8b125c4b4bceda7f56609d1ee0b4459cd6d2c6826e7fabbc75fa9af",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-disposable.md"
+    },
+    {
+      "path": "docs/src/api/class-download.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e90211866a124093ca129847.md",
+      "kind": "official-document",
+      "bytes": 4945,
+      "sha256": "fb1803f9f472c47fd7006db085d2f22ae5bf6795c27819750c56e4791de500e2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-download.md"
+    },
+    {
+      "path": "docs/src/api/class-elementhandle.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/23a401ad4b5a8b72ed4db28a.md",
+      "kind": "official-document",
+      "bytes": 45785,
+      "sha256": "2a83e8eaa7898af91d8b4232799026280097430d400ebf4cd75f38e4dc96b6d8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-elementhandle.md"
+    },
+    {
+      "path": "docs/src/api/class-error.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4e789cab75874865fcf57480.md",
+      "kind": "official-document",
+      "bytes": 595,
+      "sha256": "aec4867fb83bc69f2a9cc105eb35417bc4f40265fba401cafb5e07d7bd24bd1a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-error.md"
+    },
+    {
+      "path": "docs/src/api/class-filechooser.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/faba0bda1a59848dcb0f4a89.md",
+      "kind": "official-document",
+      "bytes": 2178,
+      "sha256": "05361f86afd79ba9a0e12037c008bfb7f2f06599eebc7468fe5fc4733027e9cc",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-filechooser.md"
+    },
+    {
+      "path": "docs/src/api/class-formdata.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3fc5ed38cc1bd98758596c7d.md",
+      "kind": "official-document",
+      "bytes": 6985,
+      "sha256": "5c7524fe8512c85b37d3638a640ad973732b729050f0897edfb65800df8b603c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-formdata.md"
+    },
+    {
+      "path": "docs/src/api/class-frame.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/72656bb6b20e2f562ffb4a0f.md",
+      "kind": "official-document",
+      "bytes": 77624,
+      "sha256": "2eff312645d8a8f70c1c6f380de1251353b2c650e5b93db323c72e0bf5aa5cab",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-frame.md"
+    },
+    {
+      "path": "docs/src/api/class-framelocator.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/8b15dbd939b46e2b339dd6bd.md",
+      "kind": "official-document",
+      "bytes": 9915,
+      "sha256": "adf8a9291411892b5c4fd3a517869a109483c449b92ac783ba5a35bbc8c964fd",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-framelocator.md"
+    },
+    {
+      "path": "docs/src/api/class-genericassertions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b74c6fd031df983773fce208.md",
+      "kind": "official-document",
+      "bytes": 18736,
+      "sha256": "bc050717bbfd640ce8af220009157cd8958c7c882d382721b9d9d0bd1ccdcbb2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-genericassertions.md"
+    },
+    {
+      "path": "docs/src/api/class-jshandle.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f685c03e22b50f9c5b612ba5.md",
+      "kind": "official-document",
+      "bytes": 6027,
+      "sha256": "3f39d4c5464e5235f8d74608da6ccbd654ab89928dfd1f1f34c9707cc2f7b369",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-jshandle.md"
+    },
+    {
+      "path": "docs/src/api/class-keyboard.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4e14e239a96719be3c035f2a.md",
+      "kind": "official-document",
+      "bytes": 10824,
+      "sha256": "ea47d9b0db59479d41efd29aa4245b540fc698d444376db8b8743a5a3595d95a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-keyboard.md"
+    },
+    {
+      "path": "docs/src/api/class-locator.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4997a2bdb27edad7cbffe389.md",
+      "kind": "official-document",
+      "bytes": 89207,
+      "sha256": "26c1fa9c8bfae9884d7e9d2c0c4abba26eddb32e7cf657446ad329bd16e15a08",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-locator.md"
+    },
+    {
+      "path": "docs/src/api/class-locatorassertions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a0ff89a66553228f94756761.md",
+      "kind": "official-document",
+      "bytes": 70977,
+      "sha256": "affa4f27a70b9f3e9a3575224acf077acbe474cac45936d2a677b8a14e72589e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-locatorassertions.md"
+    },
+    {
+      "path": "docs/src/api/class-logger.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6b1dccfd197a4abad6d19f9b.md",
+      "kind": "official-document",
+      "bytes": 1477,
+      "sha256": "680873d297bddfc4c14e4cef2afef809b25ecb6b4b75e10c121b5953d3a1fa89",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-logger.md"
+    },
+    {
+      "path": "docs/src/api/class-mouse.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ec006373e5240cfbaa4544aa.md",
+      "kind": "official-document",
+      "bytes": 4274,
+      "sha256": "0d949aeab650fd0d09934bace9ada0d27f1e23412f63010389a7a604c182da66",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-mouse.md"
+    },
+    {
+      "path": "docs/src/api/class-page.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/9aa034279318d0a17bcee438.md",
+      "kind": "official-document",
+      "bytes": 186644,
+      "sha256": "37828e6dfeacfff5736fa7d2681645e17de8758b960835039fbd4f7169398a0b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-page.md"
+    },
+    {
+      "path": "docs/src/api/class-pageassertions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3d92d9e024f918dba289247f.md",
+      "kind": "official-document",
+      "bytes": 13512,
+      "sha256": "836c43c380194bdbfe662b7c3881353489b4848cb8f3d39fa94d3c5bba5bf2ea",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-pageassertions.md"
+    },
+    {
+      "path": "docs/src/api/class-playwright.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/770e99d2f7a9306f6f0086c8.md",
+      "kind": "official-document",
+      "bytes": 7584,
+      "sha256": "efb83d07fb2a7542c87ac7cad229f1935c54c2003dad691ab3e1925a365312df",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-playwright.md"
+    },
+    {
+      "path": "docs/src/api/class-playwrightassertions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2dc808aaa87d716c91d01cb5.md",
+      "kind": "official-document",
+      "bytes": 4282,
+      "sha256": "12318efbff9b95cd768396554c6a6600afcd1732178d924c8ef11790f0b88b95",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-playwrightassertions.md"
+    },
+    {
+      "path": "docs/src/api/class-playwrightexception.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/8cd19a01214a2a9f7c96625d.md",
+      "kind": "official-document",
+      "bytes": 289,
+      "sha256": "8e087c5f9aaf7447e13c11a66a48dcb4203e083ad9b8e1ecd7e57f74dc0d18eb",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-playwrightexception.md"
+    },
+    {
+      "path": "docs/src/api/class-request.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1070a2fcce674245d8b0343f.md",
+      "kind": "official-document",
+      "bytes": 11220,
+      "sha256": "606132f6075de7d747c8cee4df34abe3274acaa26c9e84352cb43a3a50bdc815",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-request.md"
+    },
+    {
+      "path": "docs/src/api/class-requestoptions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6cb566dd92244493cd1b0e73.md",
+      "kind": "official-document",
+      "bytes": 6028,
+      "sha256": "d2e25121e0d6fb51675864ece1a9729be51f2b2437ea0b1297f55820dc22db61",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-requestoptions.md"
+    },
+    {
+      "path": "docs/src/api/class-response.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c5f1874818d87fc752268128.md",
+      "kind": "official-document",
+      "bytes": 4165,
+      "sha256": "0e06e473122398722d573dcc1d09cb2f5709fb7cf6c8335ef9cae8cc59afd4c6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-response.md"
+    },
+    {
+      "path": "docs/src/api/class-route.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d3f3fa982d1f695c3e9ce54b.md",
+      "kind": "official-document",
+      "bytes": 18685,
+      "sha256": "c5fe466df10e3a7e6a8e2dbfce542d24d23cfe44f9bd805afab86612c1ef6f4a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-route.md"
+    },
+    {
+      "path": "docs/src/api/class-screencast.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6def3486921c6a9f1d2e7e3b.md",
+      "kind": "official-document",
+      "bytes": 6964,
+      "sha256": "b591119bc9e34e9da8afeb7922eabbdd5c3b8dc0c62ea92d56264ca70c252ee2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-screencast.md"
+    },
+    {
+      "path": "docs/src/api/class-selectors.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/289b6f7033f5fbc2a6d057da.md",
+      "kind": "official-document",
+      "bytes": 8615,
+      "sha256": "8d8728fae39f6960c7fbb13d79f8b3c8f1e5d8aff0c50555393d493ec245f46f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-selectors.md"
+    },
+    {
+      "path": "docs/src/api/class-snapshotassertions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a80569432cef373986b688e5.md",
+      "kind": "official-document",
+      "bytes": 3268,
+      "sha256": "dad4cb1aefc73705e9ee8efbd8e0add166c8b87e462d126b6046e44d52935b8f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-snapshotassertions.md"
+    },
+    {
+      "path": "docs/src/api/class-timeouterror.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ca33daabf151e5b9e8fa04c3.md",
+      "kind": "official-document",
+      "bytes": 2408,
+      "sha256": "989321cd7f895c3976286d9c0194835d7ab94110e3e1d0f34ddc577c5067a90f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-timeouterror.md"
+    },
+    {
+      "path": "docs/src/api/class-touchscreen.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c35276698bb19e1aef1e9d22.md",
+      "kind": "official-document",
+      "bytes": 1010,
+      "sha256": "dce06e4dfe607872a3a7a63de51d36e6b5afac1a6a1ac275d13fb1e675073519",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-touchscreen.md"
+    },
+    {
+      "path": "docs/src/api/class-tracing.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e6fe05bfe16e7c167b37b830.md",
+      "kind": "official-document",
+      "bytes": 17368,
+      "sha256": "d9c1060114a6454b7d12c8d293ff2ac91df2ad11ad0cbf54216c9574db7c1855",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-tracing.md"
+    },
+    {
+      "path": "docs/src/api/class-video.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e0be37ebf364d9a14b3d3648.md",
+      "kind": "official-document",
+      "bytes": 1869,
+      "sha256": "abebefe8572fd88aaf9bd320506589f2596a7e4a71cb647b0e7077657d45fde8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-video.md"
+    },
+    {
+      "path": "docs/src/api/class-weberror.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/06963f73e50f3b7eda30eee4.md",
+      "kind": "official-document",
+      "bytes": 2008,
+      "sha256": "423a4d7edd2cb4a79d3b6c964ee778d8f49a908f7978c452a7602d3e35b2b0f4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-weberror.md"
+    },
+    {
+      "path": "docs/src/api/class-webmcp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d0a1b9a40b3b81d885db4dd8.md",
+      "kind": "official-document",
+      "bytes": 6308,
+      "sha256": "9719999c1ba8019a45ce6e8fae851745147a88f8eadfff977bb8e00b099b7e52",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-webmcp.md"
+    },
+    {
+      "path": "docs/src/api/class-websocket.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5ce4717da26b3c5825e04962.md",
+      "kind": "official-document",
+      "bytes": 5823,
+      "sha256": "c51b74de4b6f8d3328618fc371bcbc0c80be684e6d012fe604175ccdf3271713",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-websocket.md"
+    },
+    {
+      "path": "docs/src/api/class-websocketframe.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0d42818bde8a8086b2a955e5.md",
+      "kind": "official-document",
+      "bytes": 492,
+      "sha256": "bc34e1f0be9afae3410590fc7ca03a37f9491bc71fb6b5de29aa099fb90fac74",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-websocketframe.md"
+    },
+    {
+      "path": "docs/src/api/class-websocketroute.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/149a057eacb38a49646a6965.md",
+      "kind": "official-document",
+      "bytes": 14674,
+      "sha256": "c004c0d9dd074fa6f2ed45de9d51c331b311d1f72b47718a8f82de69b2476b97",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-websocketroute.md"
+    },
+    {
+      "path": "docs/src/api/class-webstorage.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5dcbd440652a1de63d989232.md",
+      "kind": "official-document",
+      "bytes": 2883,
+      "sha256": "efce5ed6604cfc1498d4a924bc3f2eecf2b755b05104219f48ad128637066367",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-webstorage.md"
+    },
+    {
+      "path": "docs/src/api/class-worker.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7e913117b78ba1af0cccb77e.md",
+      "kind": "official-document",
+      "bytes": 6536,
+      "sha256": "8ee9700e222075f7f9089c0016f9ab8378dd80bf763a2fd3e41688dfadb17a18",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/class-worker.md"
+    },
+    {
+      "path": "docs/src/api/params.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b6fc5e24efb4ba2b508276e0.md",
+      "kind": "official-document",
+      "bytes": 86385,
+      "sha256": "9f7b2058f1f62f9a8427ebeaf45d4f4aab74667b3413ec593f1ab42c37b73437",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/api/params.md"
+    },
+    {
+      "path": "docs/src/aria-snapshots.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b1cb712c69bd9443bb8df595.md",
+      "kind": "official-document",
+      "bytes": 19489,
+      "sha256": "7127ae6367effc6f0c54aefa5e8869bc2247c2e8f77efbed158d4b40fcf09669",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/aria-snapshots.md"
+    },
+    {
+      "path": "docs/src/auth.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/20b264539f90a93de3d585c9.md",
+      "kind": "official-document",
+      "bytes": 26389,
+      "sha256": "9b47b108e1196300ef1b7d3a850e1f99fba250e384ec7a201b2b03d3a20cdbc9",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/auth.md"
+    },
+    {
+      "path": "docs/src/best-practices-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/66c8eafac49b698ae0fa5273.md",
+      "kind": "official-document",
+      "bytes": 19880,
+      "sha256": "785e6244815ed457ceb0a9109e0ead34a114fd89b09c0689174a5b421eed8512",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/best-practices-js.md"
+    },
+    {
+      "path": "docs/src/browser-contexts.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ec425869e0199a0ac797e074.md",
+      "kind": "official-document",
+      "bytes": 6485,
+      "sha256": "f9e36e74a5173fcd48a2ca22d4ee957f050b2e09c3e9b57887070efc43198b15",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/browser-contexts.md"
+    },
+    {
+      "path": "docs/src/browsers.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/57e82dd71ed43c5ab599ac43.md",
+      "kind": "official-document",
+      "bytes": 37990,
+      "sha256": "5ced381f22f3c8017688150d0a09849192f2ae65dea6d98d77c57726d6f55e8b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/browsers.md"
+    },
+    {
+      "path": "docs/src/canary-releases-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/35af44c51a814bf018445b54.md",
+      "kind": "official-document",
+      "bytes": 1373,
+      "sha256": "3fa1d7a334a1a9a0fea37fcbb4d4b0ba66be8b85707476c3ed69c29752110dc6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/canary-releases-js.md"
+    },
+    {
+      "path": "docs/src/chrome-extensions-js-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7b8408e5cc9ec78f36a029a4.md",
+      "kind": "official-document",
+      "bytes": 7817,
+      "sha256": "e3ca84135587aa3c82c06385cbfb9b5aad107b899e695db59790d3f9ac3cc4b4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/chrome-extensions-js-python.md"
+    },
+    {
+      "path": "docs/src/ci-intro.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/49b43d48c93c3dc274299a06.md",
+      "kind": "official-document",
+      "bytes": 16010,
+      "sha256": "2df09a4dbccc177ccc447af002274f8fe25d0a1593af13b4c4bfc442c20b3724",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/ci-intro.md"
+    },
+    {
+      "path": "docs/src/ci.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a3bdaccc1d90b201369f06f4.md",
+      "kind": "official-document",
+      "bytes": 28495,
+      "sha256": "10840b0eb1f075f32b38cf8848a33aec0b84c9400d7784518e8f1dc2f4d22253",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/ci.md"
+    },
+    {
+      "path": "docs/src/clock.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d51166f8f4ded5c066d14756.md",
+      "kind": "official-document",
+      "bytes": 17206,
+      "sha256": "ce11a50884473a03501daec7927b14d2fdaf59b48e32f7a0a6a4bf6e492bfb1f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/clock.md"
+    },
+    {
+      "path": "docs/src/codegen-intro.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/32f67edd89ea727cb07c7e7d.md",
+      "kind": "official-document",
+      "bytes": 4009,
+      "sha256": "71cf44406b33909e4b0c2f67fff78de7ce2f671a75c9461105505bb0b3fd3d4b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/codegen-intro.md"
+    },
+    {
+      "path": "docs/src/codegen.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c5c5f41a4dc7e7c324dbcaf2.md",
+      "kind": "official-document",
+      "bytes": 24734,
+      "sha256": "8c414f05a5aa5ce3ac02cc5a07404e9915f82ab62b71eb09bc45e29a336b15d5",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/codegen.md"
+    },
+    {
+      "path": "docs/src/debug.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/798b6a1f6cdc9bc60e2a369b.md",
+      "kind": "official-document",
+      "bytes": 18019,
+      "sha256": "25f2eb0d0f88361ec84a5d6d9cc6f7c056f3c7d228a5bfe1931aee4f97a83885",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/debug.md"
+    },
+    {
+      "path": "docs/src/dialogs.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4688076e603f799fbda4184c.md",
+      "kind": "official-document",
+      "bytes": 5346,
+      "sha256": "8170d3f37c517373d0ef60e2625989cf03bb14a63a979babd75531a9bc6d9921",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/dialogs.md"
+    },
+    {
+      "path": "docs/src/docker.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a058a3e9b9b540173f414237.md",
+      "kind": "official-document",
+      "bytes": 10050,
+      "sha256": "a92d63e7e649e509d210d5d9c2c8f4cb5896aee7c79ea7bf1d07c3d4a13f220b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/docker.md"
+    },
+    {
+      "path": "docs/src/downloads.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5374c30840c584f88220c461.md",
+      "kind": "official-document",
+      "bytes": 3390,
+      "sha256": "b6142bc2eedd26a35f13a7c32ca6922d134e4cdf6405a9fef6bef7d2edec8cb1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/downloads.md"
+    },
+    {
+      "path": "docs/src/electron-api/class-electron.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d2b7c63b8e8d7e298f6b995f.md",
+      "kind": "official-document",
+      "bytes": 5749,
+      "sha256": "cb2df6b68d90c28a18d34163f53af4558c2aacf1fd9ec932f1e157b7ea702b00",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/electron-api/class-electron.md"
+    },
+    {
+      "path": "docs/src/electron-api/class-electronapplication.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a9c1ac3e7fc9426dc1bf0f8b.md",
+      "kind": "official-document",
+      "bytes": 6596,
+      "sha256": "6799ac5bc5db807ec5dbcf2c0670713991ba3a9b9a31c46d6c279539781f1854",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/electron-api/class-electronapplication.md"
+    },
+    {
+      "path": "docs/src/emulation.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/001041d09434bf30dc73c697.md",
+      "kind": "official-document",
+      "bytes": 20243,
+      "sha256": "b4e81a7af0d4da17666428fc27ee14d5b1aa41fb472305ef4506dffa3ac36bea",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/emulation.md"
+    },
+    {
+      "path": "docs/src/evaluating.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/613424cadd993b973272bddb.md",
+      "kind": "official-document",
+      "bytes": 13455,
+      "sha256": "e34560d43e4f43e9b0923023ca967fd8734063aa51140c4c76f7ed34505363ba",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/evaluating.md"
+    },
+    {
+      "path": "docs/src/events.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1a2de98f503e0d927be76e16.md",
+      "kind": "official-document",
+      "bytes": 5443,
+      "sha256": "226e76d09aeab3866246df8dc5c72e5051ee85cbd8355c3be7ae5c81cdeded1d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/events.md"
+    },
+    {
+      "path": "docs/src/extensibility.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b936f1495d5bdc72dee73389.md",
+      "kind": "official-document",
+      "bytes": 6035,
+      "sha256": "5eb868ca47097a8cc075c3bdf88a66fb3f6f051310581b9cfc1fba90243bc54f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/extensibility.md"
+    },
+    {
+      "path": "docs/src/frames.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5ae4656c6ce142b2a731e80f.md",
+      "kind": "official-document",
+      "bytes": 2710,
+      "sha256": "7bc7f9753e70d82ef93a228dced0042d67a3115504a3d0babb61e2d11a29f5e9",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/frames.md"
+    },
+    {
+      "path": "docs/src/getting-started-cli.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f41460eae89d65586f76869b.md",
+      "kind": "official-document",
+      "bytes": 11983,
+      "sha256": "9f95642833854e88b453ff10f4b98a4873f1cd4854876b5a61b06e6da65f3b3b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/getting-started-cli.md"
+    },
+    {
+      "path": "docs/src/getting-started-mcp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6bed1eca9cc9b72771322b4b.md",
+      "kind": "official-document",
+      "bytes": 10581,
+      "sha256": "80778b32fe034221693761c08c4f0ffcd433eb616b976715c3df8fc77aa7b0eb",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/getting-started-mcp.md"
+    },
+    {
+      "path": "docs/src/getting-started-vscode-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/196754aa44364f54b7b9a92f.md",
+      "kind": "official-document",
+      "bytes": 10168,
+      "sha256": "6770f1308aaab8d41dcb86a07fe7aee39a07344b836808a2fdf98cfc86ed28b6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/getting-started-vscode-js.md"
+    },
+    {
+      "path": "docs/src/handles.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/11a849fe487e2f783131e336.md",
+      "kind": "official-document",
+      "bytes": 9428,
+      "sha256": "5ba417013dc5b2d6bd2b6e2de2e10520a3a80d593fce277c2b77659897427a0c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/handles.md"
+    },
+    {
+      "path": "docs/src/input.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/dd7a244c9969da3e502587e2.md",
+      "kind": "official-document",
+      "bytes": 25446,
+      "sha256": "29910a29f6e96e957cca5e8c45a81bd5cebfa47fc99040752a41b4f73fd853df",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/input.md"
+    },
+    {
+      "path": "docs/src/intro-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ecefbb6e69437c9de8e970a8.md",
+      "kind": "official-document",
+      "bytes": 8105,
+      "sha256": "b1b68c46db8e9e79b6c72e5e6517de66e065bcf6f26f70757d160ab275acc36a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/intro-csharp.md"
+    },
+    {
+      "path": "docs/src/intro-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b6bce2b5b18b319316b6587f.md",
+      "kind": "official-document",
+      "bytes": 4757,
+      "sha256": "386bb21ef8e328af1c883a7e2dbea9e1e8fba0c0e9d00afe4757ab3552af352c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/intro-java.md"
+    },
+    {
+      "path": "docs/src/intro-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/af370723ed754e89d1e69d20.md",
+      "kind": "official-document",
+      "bytes": 6481,
+      "sha256": "4c932f4316b8791191e5a17404dae5c4b7dc1d38c0479883157264ddd91ff9ae",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/intro-js.md"
+    },
+    {
+      "path": "docs/src/intro-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c5c1ae09b26c6442c5d15f69.md",
+      "kind": "official-document",
+      "bytes": 3910,
+      "sha256": "201900ed7dd73503e6e1fe2a6eed24fdfe161a77a164fc4b4777fa8d2c2294f4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/intro-python.md"
+    },
+    {
+      "path": "docs/src/junit-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4db79263c017be01aad12a5e.md",
+      "kind": "official-document",
+      "bytes": 6443,
+      "sha256": "3a78014b64e06101381990d152755ef6712016747679c40f18c444b0bfb7005b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/junit-java.md"
+    },
+    {
+      "path": "docs/src/languages.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7b133cf5a6fd3d01cb35cf50.md",
+      "kind": "official-document",
+      "bytes": 1719,
+      "sha256": "a80397103c7e1406cee2e4ad5ce6e14988c1b8e24d85bb6275f13586a03287da",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/languages.md"
+    },
+    {
+      "path": "docs/src/library-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/635880c671c58f56c006d7ea.md",
+      "kind": "official-document",
+      "bytes": 3020,
+      "sha256": "b2f5ee539bc30f58b4c9f72c150ca1a12c24af000a32c4752804c5f0484fc335",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/library-csharp.md"
+    },
+    {
+      "path": "docs/src/library-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/cddf931d530ef991791f7133.md",
+      "kind": "official-document",
+      "bytes": 11705,
+      "sha256": "65f82c2664c337b788b6863fb087c56e4fdc0b6b0f1bdcb513cced0975b49a7e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/library-js.md"
+    },
+    {
+      "path": "docs/src/library-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/286355f6d2680ee0a117e3ca.md",
+      "kind": "official-document",
+      "bytes": 5932,
+      "sha256": "4b4fd64e65ff0d00205acdd477fb4f8d23bc4c83075eaaa71887393641af7820",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/library-python.md"
+    },
+    {
+      "path": "docs/src/locators.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b75a303c8f5f28b2176340be.md",
+      "kind": "official-document",
+      "bytes": 47224,
+      "sha256": "ca8a0035dc87cf97385ff372b920da11c93abaffc3558f341a36ddb4f27dbae7",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/locators.md"
+    },
+    {
+      "path": "docs/src/mobile-api/class-android.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/8f9b300cf102b636bc28ea42.md",
+      "kind": "official-document",
+      "bytes": 7172,
+      "sha256": "cbdda49e6c26cf3a14809d4e3cd54e44821fcf06c8652242a3c9a505e899fbdc",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mobile-api/class-android.md"
+    },
+    {
+      "path": "docs/src/mobile-api/class-androiddevice.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/82d9b77286b5f155b0fe5d8a.md",
+      "kind": "official-document",
+      "bytes": 11183,
+      "sha256": "ca79feb7ba2e72b15ac4e29c1d5e74b08403db7c6272aa524d8eac7e073a89fc",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mobile-api/class-androiddevice.md"
+    },
+    {
+      "path": "docs/src/mobile-api/class-androidinput.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c15b230a2220103eeeb6203e.md",
+      "kind": "official-document",
+      "bytes": 1790,
+      "sha256": "fa71408a2ec474ee191f0754f12a3558f71fec78dbbe1b8656b2b5accac9b1bc",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mobile-api/class-androidinput.md"
+    },
+    {
+      "path": "docs/src/mobile-api/class-androidsocket.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6a2d61cc0c80dd5c58ee6769.md",
+      "kind": "official-document",
+      "bytes": 651,
+      "sha256": "786ecc87e9c75b472a2c5f71af49e5f24e8f62798aeaa464170a1ead83a05a36",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mobile-api/class-androidsocket.md"
+    },
+    {
+      "path": "docs/src/mobile-api/class-androidwebview.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7380d6a64406582d141cb0c9.md",
+      "kind": "official-document",
+      "bytes": 607,
+      "sha256": "31e509ad8eda03a42cf377e9b0e0a947f83d91fdfbf30451a843fa77a2fda9c2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mobile-api/class-androidwebview.md"
+    },
+    {
+      "path": "docs/src/mock-browser-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1711e7836abf4c45c1bee79a.md",
+      "kind": "official-document",
+      "bytes": 5784,
+      "sha256": "ee1087bd99f3378c6d88978090ac7af53f68e15a30a9d46ff4c87b7eb1639781",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mock-browser-js.md"
+    },
+    {
+      "path": "docs/src/mock.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c971c5358463e4ed1d207048.md",
+      "kind": "official-document",
+      "bytes": 20735,
+      "sha256": "08639202db2d79abb6e4b3fcdadb0af9e65dc5610fd37689549e57b7df7b9987",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/mock.md"
+    },
+    {
+      "path": "docs/src/navigations.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a2de671e1b417525a811103b.md",
+      "kind": "official-document",
+      "bytes": 6562,
+      "sha256": "56732c51c00db19e9a60143bc96eac3be213a72badb8976c54732af2c1bbf6c4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/navigations.md"
+    },
+    {
+      "path": "docs/src/network.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ec3c06fc4337b1635c747fb6.md",
+      "kind": "official-document",
+      "bytes": 25671,
+      "sha256": "7cfb81c165a66d3e9c6b60e45e0bf998387a6b2242a59a8d9b7d5b08c21918aa",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/network.md"
+    },
+    {
+      "path": "docs/src/other-locators.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/9ea9f2b2f6182734186acf9b.md",
+      "kind": "official-document",
+      "bytes": 27950,
+      "sha256": "274c91bd56bfb7f74460398392670d3b7dd2213b6a0e22774c831d54bd4acc8d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/other-locators.md"
+    },
+    {
+      "path": "docs/src/pages.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/af3f3ad36acf1deca221cad8.md",
+      "kind": "official-document",
+      "bytes": 8678,
+      "sha256": "dc9bf164e8b8f33ee6317088939a076c6fa7f57ea08af7ced923d1891d98073a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/pages.md"
+    },
+    {
+      "path": "docs/src/pom.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/36c5371e2a308766b1a3b593.md",
+      "kind": "official-document",
+      "bytes": 7271,
+      "sha256": "7bb31051e10731a139ed27e931066da44f8df51c33f358010f706b49d29578e6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/pom.md"
+    },
+    {
+      "path": "docs/src/protractor-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/de44e400aed029e91912db21.md",
+      "kind": "official-document",
+      "bytes": 6568,
+      "sha256": "374cf6fcfd1f3847c5758b7156218c501a4b75bd5378c7affc01cf545c9f0175",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/protractor-js.md"
+    },
+    {
+      "path": "docs/src/puppeteer-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4e19061121027f6ecf0f23f9.md",
+      "kind": "official-document",
+      "bytes": 8296,
+      "sha256": "305d39582a6981853542c148795aa06cdcfaf000bc154bca19db0c02e576e46a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/puppeteer-js.md"
+    },
+    {
+      "path": "docs/src/release-notes-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6a7b19e9d34e8315d12c4247.md",
+      "kind": "official-document",
+      "bytes": 78728,
+      "sha256": "813f99195db5601eefe37bb8719f05efa84b5b3e482dc8f6a986b58e70553d6e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/release-notes-csharp.md"
+    },
+    {
+      "path": "docs/src/release-notes-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c1b54f88858fed99e46accda.md",
+      "kind": "official-document",
+      "bytes": 87738,
+      "sha256": "e4a0794abc567b30e27b67c801a236a110ddba03f6a6850a97692fb8790a3e43",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/release-notes-java.md"
+    },
+    {
+      "path": "docs/src/release-notes-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3cd1703d8fcbdc014cae9d8b.md",
+      "kind": "official-document",
+      "bytes": 153263,
+      "sha256": "d1a89e78f577647428e20c1dbd6fbdfd7adfc72dfc99ea31bf7b0706530d7528",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/release-notes-js.md"
+    },
+    {
+      "path": "docs/src/release-notes-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ec4817a781961d7c6895025e.md",
+      "kind": "official-document",
+      "bytes": 83979,
+      "sha256": "e36db70bcbfa4958bc2d1972419afc024643383e2b053804b696a64ab6b5d9d6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/release-notes-python.md"
+    },
+    {
+      "path": "docs/src/running-tests-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/05c14948f295f0b7c07105aa.md",
+      "kind": "official-document",
+      "bytes": 5165,
+      "sha256": "337827659548fdff8597dda5d660019b48ee16f21c6d62fd73d04202a5ddf265",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/running-tests-csharp.md"
+    },
+    {
+      "path": "docs/src/running-tests-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0efa0e39331a501ebf69aaab.md",
+      "kind": "official-document",
+      "bytes": 3444,
+      "sha256": "e04958f282751316b68d8304b2a2128625f0652df6a11a4795a685d3b0ad19e4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/running-tests-java.md"
+    },
+    {
+      "path": "docs/src/running-tests-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a2a412e1cdbd386154bb7cd2.md",
+      "kind": "official-document",
+      "bytes": 8740,
+      "sha256": "5d68811b156fb77dd9add42084f503ff32986a7b6ff9832c040a2073dfa18831",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/running-tests-js.md"
+    },
+    {
+      "path": "docs/src/running-tests-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c01dc1c0660688407f0ea09e.md",
+      "kind": "official-document",
+      "bytes": 5069,
+      "sha256": "00bd19728dd7a4dafcb10626aace62c53b1766f786bc226b545cf373b6b16752",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/running-tests-python.md"
+    },
+    {
+      "path": "docs/src/screenshots.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7c8ba9ad817aec5b1eb65627.md",
+      "kind": "official-document",
+      "bytes": 2542,
+      "sha256": "02ff36d89081eaf600b5988ff3b23e2f2723fb6c5e58cc14ea09d9f29b307188",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/screenshots.md"
+    },
+    {
+      "path": "docs/src/selenium-grid.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/28c4f45077345170c2cda918.md",
+      "kind": "official-document",
+      "bytes": 7700,
+      "sha256": "d93b67b50c4e6356ccc0cca6e4271d29e2e5bd54eef3f960234a1e20d3b59b3e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/selenium-grid.md"
+    },
+    {
+      "path": "docs/src/service-workers-js-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2e7d17c2cc1e2a7ca599011f.md",
+      "kind": "official-document",
+      "bytes": 8813,
+      "sha256": "942585eed1ed14bd4a9c1f53213e20c808263f73a16eec3b34196cb81fe83a1d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/service-workers-js-python.md"
+    },
+    {
+      "path": "docs/src/test-agents-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/95341b27f7f8d498adb6fedb.md",
+      "kind": "official-document",
+      "bytes": 7945,
+      "sha256": "2b5402f3da8d406d9b64af73515bede11386a2b93912f899fed6360130011094",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-agents-js.md"
+    },
+    {
+      "path": "docs/src/test-annotations-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/81a4a354895e8052a790c7f3.md",
+      "kind": "official-document",
+      "bytes": 6608,
+      "sha256": "07f8524c4d7c7a29f8dc631f2220eef8375475f10857097a210105ba2e8b3404",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-annotations-js.md"
+    },
+    {
+      "path": "docs/src/test-api/class-fixtures.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3f25c5cab77d24ff782e745a.md",
+      "kind": "official-document",
+      "bytes": 5596,
+      "sha256": "10a8783016355f3dc044bc698d497002f50603e744d9ae5a56d4c1923345b205",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-fixtures.md"
+    },
+    {
+      "path": "docs/src/test-api/class-fullconfig.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2fc8ba6cd20e26157406d974.md",
+      "kind": "official-document",
+      "bytes": 4488,
+      "sha256": "bbe2bdbbe40dc800f2ea87bb789bb0e5cef7f42c11c8aab845390ecc045df2d6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-fullconfig.md"
+    },
+    {
+      "path": "docs/src/test-api/class-fullproject.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a8cb918dc5dfa165da634127.md",
+      "kind": "official-document",
+      "bytes": 2243,
+      "sha256": "aca42c263458998258805de05aa86a9592405dce8306fdfe19c141c87b55b0d4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-fullproject.md"
+    },
+    {
+      "path": "docs/src/test-api/class-location.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/73690b606236ef54c2c1837d.md",
+      "kind": "official-document",
+      "bytes": 403,
+      "sha256": "06a07d9be32cdd36540b7d02c91a2ffb8f61ad2f5cf441a841db468dac6b3edd",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-location.md"
+    },
+    {
+      "path": "docs/src/test-api/class-test.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/650126980bbc9d8dedd28893.md",
+      "kind": "official-document",
+      "bytes": 52545,
+      "sha256": "3fe4f9899bae52ac9f7e20a29fcc273d9833320927303cc656ef031ec84d935a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-test.md"
+    },
+    {
+      "path": "docs/src/test-api/class-testconfig.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4a2ffc86e06580044b627838.md",
+      "kind": "official-document",
+      "bytes": 31440,
+      "sha256": "8cdec42be0460f9ec4c0a11bd34b9be7c1865e781383178d74741b63fb342b87",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-testconfig.md"
+    },
+    {
+      "path": "docs/src/test-api/class-testinfo.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0858d6d8b1229d2ef571f5f1.md",
+      "kind": "official-document",
+      "bytes": 16633,
+      "sha256": "6273318062bfb60520632fabd31381d876c1415c15c305dd66bbc932184071a8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-testinfo.md"
+    },
+    {
+      "path": "docs/src/test-api/class-testinfoerror.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/486aec5ee8c780d3022cd806.md",
+      "kind": "official-document",
+      "bytes": 1068,
+      "sha256": "a72e085eb9e61855847b25f669b31f8117f31986d6518c13f2384d3761e3b0e1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-testinfoerror.md"
+    },
+    {
+      "path": "docs/src/test-api/class-testoptions.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/edb7975c826e263f7518b629.md",
+      "kind": "official-document",
+      "bytes": 24667,
+      "sha256": "322e4a0654862ad7def4966aa90b28327b1fabaf84fa00e3d0f0e5b8ead20c4b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-testoptions.md"
+    },
+    {
+      "path": "docs/src/test-api/class-testproject.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/df178758f3367a8c59c1ace9.md",
+      "kind": "official-document",
+      "bytes": 17892,
+      "sha256": "f7d6c34279afdf807ffaad7c3a3fea2dc7a272ca016602ae04b19776272ec5e0",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-testproject.md"
+    },
+    {
+      "path": "docs/src/test-api/class-teststepinfo.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f4af67f1d7994b2c34b2bf97.md",
+      "kind": "official-document",
+      "bytes": 4558,
+      "sha256": "2357bc2a97ef18d514118b18148c40c1048689a08c783007fa3ef0a908167c38",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-teststepinfo.md"
+    },
+    {
+      "path": "docs/src/test-api/class-workerinfo.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a608454b9c0e262fa85d1717.md",
+      "kind": "official-document",
+      "bytes": 1413,
+      "sha256": "49dbb9e4f6bbf91639c9c5724d1157b4f82811abff2b3fd7288afe59f521e25a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-api/class-workerinfo.md"
+    },
+    {
+      "path": "docs/src/test-assertions-csharp-java-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a60a8334d57e7bfa16e12ca0.md",
+      "kind": "official-document",
+      "bytes": 7729,
+      "sha256": "a4ca4bc90b237a28514b48bafb98452a7948e080bb46b62b2d1e0343bfabfd0f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-assertions-csharp-java-python.md"
+    },
+    {
+      "path": "docs/src/test-assertions-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0da9c71731568c3c26af458e.md",
+      "kind": "official-document",
+      "bytes": 17472,
+      "sha256": "579674fc269a3a452e9988dea6909feb2217c330e2feb3bb410c593dc733a828",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-assertions-js.md"
+    },
+    {
+      "path": "docs/src/test-cli-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5515bf5c0a676bd64628af2b.md",
+      "kind": "official-document",
+      "bytes": 13332,
+      "sha256": "dbf229a1e4b7e6bbe4d35c038d24dd1cb951e2d9f465efd953a8032c567d4f57",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-cli-js.md"
+    },
+    {
+      "path": "docs/src/test-components-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/01a9511ee9b7ad42036d1321.md",
+      "kind": "official-document",
+      "bytes": 19158,
+      "sha256": "666a1811607bfcdafcaea48c4b6b6fac6e3e94502841e386af719b53031bec61",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-components-js.md"
+    },
+    {
+      "path": "docs/src/test-configuration-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/94f145360b936d810ae675eb.md",
+      "kind": "official-document",
+      "bytes": 6315,
+      "sha256": "d0784aaf5925958911b42eb1dd8a2c4f6148292d8260de97ec4ee1ba30720f41",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-configuration-js.md"
+    },
+    {
+      "path": "docs/src/test-fixtures-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/39680f5caa0a24f2a0eaa7c7.md",
+      "kind": "official-document",
+      "bytes": 29253,
+      "sha256": "15d144de3bab5c34b884daa7a0917277689f9b3e1df1f5f181c0b6b11361d0ba",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-fixtures-js.md"
+    },
+    {
+      "path": "docs/src/test-global-setup-teardown-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2912153fa826ce6a15576ca1.md",
+      "kind": "official-document",
+      "bytes": 10811,
+      "sha256": "222be5e3e5ee1cb1e7108b18e2eb287dc01b828a62b47308077033244b704428",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-global-setup-teardown-js.md"
+    },
+    {
+      "path": "docs/src/test-parallel-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6943aecaa3de6fd21f43611c.md",
+      "kind": "official-document",
+      "bytes": 14094,
+      "sha256": "98432f2152901adc12ffb3b5459504d9d93b089259cc396a2ba90f02b5514808",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-parallel-js.md"
+    },
+    {
+      "path": "docs/src/test-parameterize-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/458ff48a67e686ea133d5367.md",
+      "kind": "official-document",
+      "bytes": 8935,
+      "sha256": "0828903917390bb67b2b6dd31620736cd78515b87343ceb4f24dbc7d0cbb38d8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-parameterize-js.md"
+    },
+    {
+      "path": "docs/src/test-projects-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c41fea7f6e488f0219cdf797.md",
+      "kind": "official-document",
+      "bytes": 9156,
+      "sha256": "e8baf0a92db8a7d37668a51d52caecb1be9e2d03ce253a90744dcce4779419d4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-projects-js.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-reporter.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/238803572a75ae63226ae2d9.md",
+      "kind": "official-document",
+      "bytes": 10672,
+      "sha256": "ea2327c9dd418e0fc350c77a1618f544e8d1ddc421f44cf8a79d32790b71b04e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-reporter.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-suite.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/45cdba46795f9eda3c80989c.md",
+      "kind": "official-document",
+      "bytes": 2605,
+      "sha256": "393a2213ad92d3150f43503115c84d414c9c6144be5c062da673233a2da2516c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-suite.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-testcase.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/429bc56607ea5f852905e79f.md",
+      "kind": "official-document",
+      "bytes": 3501,
+      "sha256": "c76738b88fca221141a367bf374cfe33f24b69e364d5e4fa4e4f6c3919141867",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-testcase.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-testerror.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/421afd6481b749e44105abc2.md",
+      "kind": "official-document",
+      "bytes": 1060,
+      "sha256": "8b4fb3f06115684568d69da2eb0be6c1c181bcf6e6635aa85d41dbc7c42e51ec",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-testerror.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-testresult.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3cdd470174adbb578442eb91.md",
+      "kind": "official-document",
+      "bytes": 3329,
+      "sha256": "7826a8c47e760324f69b9ad72eb84b8558838b1ec80df85f1966ff2deb229766",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-testresult.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-testrun.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/aaf3fd392538969cca717912.md",
+      "kind": "official-document",
+      "bytes": 2062,
+      "sha256": "35057329c991e5d820693bc8e1663506e69c1be203d26db7e8d9f997cffd64c2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-testrun.md"
+    },
+    {
+      "path": "docs/src/test-reporter-api/class-teststep.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/19ca32fab230b8055d40fe12.md",
+      "kind": "official-document",
+      "bytes": 4003,
+      "sha256": "d95dc5e7d73ecce807d4f74db07dac90dc0869533b4558562feec5f60cc1c19b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporter-api/class-teststep.md"
+    },
+    {
+      "path": "docs/src/test-reporters-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/384b07d1773594e445321e66.md",
+      "kind": "official-document",
+      "bytes": 23001,
+      "sha256": "25059a6704350e45c995ace30301ad30d99f98a89c6fdaa0d51ad22f4d24e960",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-reporters-js.md"
+    },
+    {
+      "path": "docs/src/test-retries-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/15997ef66a6c8de0baadfdf4.md",
+      "kind": "official-document",
+      "bytes": 6493,
+      "sha256": "073b8a570b80e54a11f73a4277fc8b5d8b966aafbde3bba66cf8e48afe0e30d0",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-retries-js.md"
+    },
+    {
+      "path": "docs/src/test-runners-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0505a71c53907b8b3efe81be.md",
+      "kind": "official-document",
+      "bytes": 15653,
+      "sha256": "bb7b005b0ac6e794605d335d2113b6747946386205a153416295474f44f6ea44",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-runners-csharp.md"
+    },
+    {
+      "path": "docs/src/test-runners-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d1ad15372715b5f2abc9a5ea.md",
+      "kind": "official-document",
+      "bytes": 9792,
+      "sha256": "542dceaab0aefa590e81c493072108868d1bd6050745512df4bad71c91b07ace",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-runners-java.md"
+    },
+    {
+      "path": "docs/src/test-runners-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/8e088dcdcdc9ee864d069dee.md",
+      "kind": "official-document",
+      "bytes": 9495,
+      "sha256": "e13235319e0a9fada435a4e42184f8d89886b30722a3ed5d3cda6e61638d883e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-runners-python.md"
+    },
+    {
+      "path": "docs/src/test-sharding-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c8f8254efdad69193fa947d9.md",
+      "kind": "official-document",
+      "bytes": 10277,
+      "sha256": "8a6b7c703bfe86a8b4f304fa3da6f02376daed295cf73987aa694a7b940c9ca9",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-sharding-js.md"
+    },
+    {
+      "path": "docs/src/test-snapshots-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e31b2be556e0eaa5f86f7d45.md",
+      "kind": "official-document",
+      "bytes": 6632,
+      "sha256": "5fb8e631fcffe377ad12dec119a60ba0a66e63d89540dcd98f3fe85863362fb4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-snapshots-js.md"
+    },
+    {
+      "path": "docs/src/test-timeouts-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/098b32f7fdee11449cb37f51.md",
+      "kind": "official-document",
+      "bytes": 7990,
+      "sha256": "795956a536b9c0c7098435864dcbde52dd46aa09d7052f365719a83703bc9a83",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-timeouts-js.md"
+    },
+    {
+      "path": "docs/src/test-typescript-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/052eccda1673ee40b73489be.md",
+      "kind": "official-document",
+      "bytes": 4803,
+      "sha256": "fe9a4c71267b5786bfbf9655a294f0fce981b025b7e3817ab6959a35d7241d5b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-typescript-js.md"
+    },
+    {
+      "path": "docs/src/test-ui-mode-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/cd5a9688c278134c1b30e9e5.md",
+      "kind": "official-document",
+      "bytes": 9315,
+      "sha256": "b073c2cea1df9ebc1ad3999ad2b2ee687473e68d6a74cae9353a9b49ae31cd2a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-ui-mode-js.md"
+    },
+    {
+      "path": "docs/src/test-use-options-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/866d88af88eec521bdcdfd68.md",
+      "kind": "official-document",
+      "bytes": 15302,
+      "sha256": "970ec5dbf555dcc96f1576441b39ef5da05db5fb50c4ccfd28212bcc3001015e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-use-options-js.md"
+    },
+    {
+      "path": "docs/src/test-webserver-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/493f3976834f3ea7ca5adc06.md",
+      "kind": "official-document",
+      "bytes": 6424,
+      "sha256": "ef4ebf44402ce355f618bdf885fa067da801f6efe28d2ec6a4635a6d6a8efbe5",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/test-webserver-js.md"
+    },
+    {
+      "path": "docs/src/testing-library-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4fbb06b1c191226f55aa2cdd.md",
+      "kind": "official-document",
+      "bytes": 9153,
+      "sha256": "8abe04f97e36f86772154a94202e2d91a5e73ea05fa2e4787008bf96b4f9aca4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/testing-library-js.md"
+    },
+    {
+      "path": "docs/src/threading-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3a6238a68d94bb4fd3fe55a7.md",
+      "kind": "official-document",
+      "bytes": 3078,
+      "sha256": "dae87f392655c4b63b8baca060bb627d299627990e31adce875136409ff2fc8d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/threading-java.md"
+    },
+    {
+      "path": "docs/src/touch-events.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/9089634395d0e08b894fb40b.md",
+      "kind": "official-document",
+      "bytes": 24198,
+      "sha256": "446c652b0d0285a75eb1b3fb2fb72f9d7b2e0911c9a97d7e8052c3ff1d197cad",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/touch-events.md"
+    },
+    {
+      "path": "docs/src/trace-viewer-intro-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2ab42e57a8c13bfa15428dbc.md",
+      "kind": "official-document",
+      "bytes": 7227,
+      "sha256": "1e664e76de78cc475d9c6b0f6705917245f1b25441daf4b9354e2d5b34f3169e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/trace-viewer-intro-csharp.md"
+    },
+    {
+      "path": "docs/src/trace-viewer-intro-java-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/84239eca7d1e67fb4784e7ed.md",
+      "kind": "official-document",
+      "bytes": 3463,
+      "sha256": "82fdbe9551c9aa429de95ec5969a49ad4a7c27c7b6165144bdc64795dcf3a45d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/trace-viewer-intro-java-python.md"
+    },
+    {
+      "path": "docs/src/trace-viewer-intro-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/53a12dc70aaba7ca0226ee43.md",
+      "kind": "official-document",
+      "bytes": 3643,
+      "sha256": "3558137fba5f44755041f0e6fb4be60a8598803cf32356d3a9bf903fd8256a12",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/trace-viewer-intro-js.md"
+    },
+    {
+      "path": "docs/src/trace-viewer.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/17b3c57a4e6b359d6f7f2ae2.md",
+      "kind": "official-document",
+      "bytes": 24727,
+      "sha256": "97ad70245f1e52e37c31dcad53667a7022bd8bfbf3d3cec8dbf24acabba69d3c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/trace-viewer.md"
+    },
+    {
+      "path": "docs/src/videos.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d85f69c4d4eb7c9e0916cf6b.md",
+      "kind": "official-document",
+      "bytes": 5395,
+      "sha256": "4635267588ff6ab31807cec94cb9fc71874595d04ca9640b3648d2f5fe804555",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/videos.md"
+    },
+    {
+      "path": "docs/src/webview2.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/6d5cba34785b4da979bc99f0.md",
+      "kind": "official-document",
+      "bytes": 23495,
+      "sha256": "26e1486887059c1c20ef1400a8e05fb7deff26141e2546248c638f787bfbb5db",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/webview2.md"
+    },
+    {
+      "path": "docs/src/writing-tests-csharp.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/187e29cc60b2be98a1443f7f.md",
+      "kind": "official-document",
+      "bytes": 13639,
+      "sha256": "f4f27a56ffe6ee5c1882cf5865163b7a78fb223d58b62f7b33a646d8be2dfc00",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/writing-tests-csharp.md"
+    },
+    {
+      "path": "docs/src/writing-tests-java.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b3cb860a52213fda1dad6443.md",
+      "kind": "official-document",
+      "bytes": 3678,
+      "sha256": "c6a274741af70928c438215ecd4d01cea17f0850aef8be5d23d4deeb791c3da7",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/writing-tests-java.md"
+    },
+    {
+      "path": "docs/src/writing-tests-js.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/b7d7b2d62d6e1d3a8ee6f837.md",
+      "kind": "official-document",
+      "bytes": 6817,
+      "sha256": "31f6cb883de4d031b5717572e05c3bee6542625acc6aa5e9398fd51e259ad92c",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/writing-tests-js.md"
+    },
+    {
+      "path": "docs/src/writing-tests-python.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/68a209ceae313c48ce96b787.md",
+      "kind": "official-document",
+      "bytes": 6813,
+      "sha256": "cf197211ea6695e28851a0de889c127095325c8e34e20ef941c21a91ac0b7776",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/docs/src/writing-tests-python.md"
+    },
+    {
+      "path": "examples/github-api/playwright.config.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d44a01f4580c7653bd853337.ts",
+      "kind": "upstream-example-code",
+      "bytes": 987,
+      "sha256": "45988709e48bd7597a46b32cf2aa33392bb241632e9a672b12b55352fafdfca0",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/github-api/playwright.config.ts"
+    },
+    {
+      "path": "examples/github-api/tests/test-api.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e17c72056d29631fd16df71b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1977,
+      "sha256": "13cba3c77ad65fc4878dd3b34c4da45227505c78dfd975637228a750d56ac29f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/github-api/tests/test-api.spec.ts"
+    },
+    {
+      "path": "examples/mock-battery/demo-battery-api/LICENSE",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1619bee7d3c7f8ed13062af1.txt",
+      "kind": "license",
+      "bytes": 1078,
+      "sha256": "f52b575c4ae56a68eead5c52d766f5bc7d64ea068db1a209f39e7e1c60bcaec1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/demo-battery-api/LICENSE"
+    },
+    {
+      "path": "examples/mock-battery/demo-battery-api/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1eaa4817f1a5c85114e439f6.md",
+      "kind": "official-document",
+      "bytes": 551,
+      "sha256": "046e5d5c126b290e96625991f2102428f3d7f1c50297518a1bdaa913c083eb0b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/demo-battery-api/README.md"
+    },
+    {
+      "path": "examples/mock-battery/demo-battery-api/src/index.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/8f9d6ec9d77c47223c83663f.js",
+      "kind": "upstream-example-code",
+      "bytes": 2029,
+      "sha256": "2f38af4d086954faece92deb636cced51b8b4fd82c332fbc6f57ff40fec0a913",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/demo-battery-api/src/index.js"
+    },
+    {
+      "path": "examples/mock-battery/playwright.config.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/8ff149aef1059dd3ece1d1e5.js",
+      "kind": "upstream-example-code",
+      "bytes": 262,
+      "sha256": "8e96f14ad0050da04dd8a26229e0cb7b581802bda897f885100bac500052e51a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/playwright.config.js"
+    },
+    {
+      "path": "examples/mock-battery/tests/show-battery-status.spec.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/bf44c5121494c8ff66366d10.js",
+      "kind": "upstream-example-code",
+      "bytes": 857,
+      "sha256": "27469452a7912fbab096bc81b887a1a332f51e059c17660343ce936ce4b3fd15",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/tests/show-battery-status.spec.js"
+    },
+    {
+      "path": "examples/mock-battery/tests/update-battery-status.spec.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/93d9e8c052d4d01de90fff60.js",
+      "kind": "upstream-example-code",
+      "bytes": 2650,
+      "sha256": "9286cd46378c6674c679286620074c83cbb45702f1b74caf1b2fc497b1173664",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/tests/update-battery-status.spec.js"
+    },
+    {
+      "path": "examples/mock-battery/tests/verify-calls.spec.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1d802871a05a3ea980212b46.js",
+      "kind": "upstream-example-code",
+      "bytes": 1130,
+      "sha256": "2629336fd922be4733300714cc639a4b4a50b11b59ee132d6dbf7d9c2297a409",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-battery/tests/verify-calls.spec.js"
+    },
+    {
+      "path": "examples/mock-filesystem/playwright.config.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f3c4263dfc0b7c408c82af4d.js",
+      "kind": "upstream-example-code",
+      "bytes": 262,
+      "sha256": "8e96f14ad0050da04dd8a26229e0cb7b581802bda897f885100bac500052e51a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-filesystem/playwright.config.js"
+    },
+    {
+      "path": "examples/mock-filesystem/tests/directory-reader.spec.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/552222e1baa8229d3a83c890.js",
+      "kind": "upstream-example-code",
+      "bytes": 1547,
+      "sha256": "89c348e66cdf7d19cc665172e3fc5caf3f6a3565d6ffb405e51a1b15b4a681ac",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-filesystem/tests/directory-reader.spec.js"
+    },
+    {
+      "path": "examples/mock-filesystem/tests/file-reader.spec.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7437b28b182593d3f4e6302b.js",
+      "kind": "upstream-example-code",
+      "bytes": 736,
+      "sha256": "900ca0d8d3fdf1bc8ad02a88c4cc549564bc13973ce78d3fdcf43b18464f5f01",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/mock-filesystem/tests/file-reader.spec.js"
+    },
+    {
+      "path": "examples/svgomg/playwright.config.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/645231e11eafcff6c9abb15d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2497,
+      "sha256": "7bebfc09e9d9a499a44e87fa0ac3473df0f89d4db37ba7614b2009fc27413cc8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/svgomg/playwright.config.ts"
+    },
+    {
+      "path": "examples/svgomg/tests/example.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e13144b103d3708544badd13.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3900,
+      "sha256": "ed547f96ef813be93ac790d3d693a46333f3c5b25a63cf9ee4d5509a84e30747",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/svgomg/tests/example.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/playwright.config.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7dde9615713f29ca0d6f7069.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2725,
+      "sha256": "216db5e7085f50d237af710e5a277f8260a054c422893f1e45e461ec057a3ad5",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/playwright.config.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/adding-todos/should-add-multiple-todos.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d0af064b8410707109497bb9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1638,
+      "sha256": "07b7218ecca9e1ce767b1f5edc01f546e6f2e694732e56c2c9f7575bf1845829",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/adding-todos/should-add-multiple-todos.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/adding-todos/should-add-single-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/45eedfe79a2d53731c5aa082.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1215,
+      "sha256": "2cca72221c1827502bccb8901c879b209cfd617e058d8ea8efb027da7e2fd124",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/adding-todos/should-add-single-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/adding-todos/should-not-add-empty-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/23bb3a10d0a3c0de09ba788a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 717,
+      "sha256": "39bd30ae6cbc4e4adb2fc6eeeb963335ddc967318f7e4577feee5bffc38326be",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/adding-todos/should-not-add-empty-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/adding-todos/should-trim-whitespace-from-new-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/da5a9d86e93e5b8b80f67a84.ts",
+      "kind": "upstream-example-code",
+      "bytes": 751,
+      "sha256": "71d20f934c22b0a149910f50e157dbe1bb91aff3a0ce195d63d8e1daad2e6607",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/adding-todos/should-trim-whitespace-from-new-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/completing-todos/should-complete-multiple-todos.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/80dfc87e99464e068b024a81.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2091,
+      "sha256": "be1c0ad0ed453134b13861910053fdd07902f75538636c3fbc4b493ab9b3c991",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/completing-todos/should-complete-multiple-todos.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/completing-todos/should-complete-single-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/5f5ad918faeeb712b9e5fb61.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1122,
+      "sha256": "92e501321a3569623a70bfdd7b54ded59eefeab4fe7a93c3a2f0c1d2f691b86e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/completing-todos/should-complete-single-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/completing-todos/should-toggle-all-todos-complete.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/dfe2601c4c44be698291fdf9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1370,
+      "sha256": "fa5916502e264e555422dcccc56cbd4b6b78726865e77479e476197739b9f5cb",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/completing-todos/should-toggle-all-todos-complete.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/completing-todos/should-toggle-all-todos-incomplete.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/535e28f0f31b264c0f8058b3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1208,
+      "sha256": "35e7ae98874bc182a04ad9fe57b59ec0f469fefcb64a5e79554be0ecb359fc29",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/completing-todos/should-toggle-all-todos-incomplete.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/completing-todos/should-uncomplete-completed-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e08908e1801aff3b965f28d0.ts",
+      "kind": "upstream-example-code",
+      "bytes": 670,
+      "sha256": "6276ea411162de7f7bbb00b9502b3820678e07c6dc13bf4854acab0904f99a32",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/completing-todos/should-uncomplete-completed-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/deleting-todos/should-clear-all-completed-todos.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/537c827d15306d4b9a5215b2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1599,
+      "sha256": "26328c07cae8cd486c1b7ef348025d2d5dc2f4ee38d5de82992035c9c7ebb618",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/deleting-todos/should-clear-all-completed-todos.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/deleting-todos/should-delete-single-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c78b387a6272cabb7751db1c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1011,
+      "sha256": "dad0bba49a4c47ee77403f26edaf011ea350f975ef5d0e005b6bba9aee5d12d8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/deleting-todos/should-delete-single-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/deleting-todos/should-delete-specific-todo-from-multiple.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/43f0ce2f7dec9d1f5d96e5ad.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1635,
+      "sha256": "08785ac8e1e9e96e2c92b05de85ff70e02cfd97342d8d18f26b5ce50bd34cb6a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/deleting-todos/should-delete-specific-todo-from-multiple.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/editing-todos/should-cancel-edit-on-escape.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/285addfeac74bb2733a84c15.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1196,
+      "sha256": "7503f6de10bc504a468300ea4fc9315b86337c515d7e5879fcd2a7090ea69203",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/editing-todos/should-cancel-edit-on-escape.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/editing-todos/should-delete-todo-when-edited-to-empty.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/4b7bfe44648a0eddeee91de5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1119,
+      "sha256": "2d8ab0b7c1a2481a27dbe263bc0c1de19ea10bee0868b9b8373787cfb6ed9a8f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/editing-todos/should-delete-todo-when-edited-to-empty.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/editing-todos/should-edit-todo-by-double-clicking.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/dd78e4bc947a4658b0482a71.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1039,
+      "sha256": "d2869ef82e2ac79957b6545e018227eb07b1365a056eb69f70707b5d3d728d52",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/editing-todos/should-edit-todo-by-double-clicking.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/editing-todos/should-save-edit-on-blur.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/537e4d70a22344a2a234dd57.ts",
+      "kind": "upstream-example-code",
+      "bytes": 881,
+      "sha256": "873cdbbc5a137b74677e79096a58e133899e8108aac8a702dc0c9957776544bf",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/editing-todos/should-save-edit-on-blur.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/editing-todos/should-trim-whitespace-when-editing.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e353b03a5c68d58aa928aec5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1136,
+      "sha256": "ba797427a6f1ba1065373f6d2cbb0beb6fbdc09eacf3ba0dac4d8fb6d386b446",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/editing-todos/should-trim-whitespace-when-editing.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/filtering-todos/should-filter-active-todos.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/efe56f023fddbe39ff4af7ba.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2090,
+      "sha256": "fe7ea1996d707d8a6e871689f2f9d9b027cd2ce0ca4d99271d7ae41869c058ce",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/filtering-todos/should-filter-active-todos.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/fixtures.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ef511304c2b6917bd837883f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 297,
+      "sha256": "10d5cb93faf3d516432a975e0df3b95d670b100d46e6322228115d2a315021f6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/fixtures.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/seed.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/91f934423c1f556bedaf0f8a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 189,
+      "sha256": "c77dbbeeb612235474653a850ee1bacb9bff52d5e8763616060638b964727c22",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/seed.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/todo-creation/add-multiple-todos.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7fdf91433879cba0fd458b99.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2178,
+      "sha256": "88463e8e2f18d38b360ab64c5292099d286e400f6734839b60b2efe93ee6ca0e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/todo-creation/add-multiple-todos.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/todo-creation/add-single-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/2a972e4628367a4a8d1672fe.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1370,
+      "sha256": "ee3f3016e0d50a403f39942445049bf43a51a9ee0b725bbdb8324f2ede0e68e2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/todo-creation/add-single-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/todo-creation/add-todo-special-chars.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/c094b11d96d2e5dd0c773726.ts",
+      "kind": "upstream-example-code",
+      "bytes": 973,
+      "sha256": "ebd229d46f6601d613fa9535c4499ec0c10bc0e927bd7ed15f72a1d89125939a",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/todo-creation/add-todo-special-chars.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/todo-creation/prevent-empty-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/995062c50df88fb56cfd895e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 962,
+      "sha256": "08d3b12aad8505ae89a8f6665296199646004aebfadfa03eff8085189844e9c1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/todo-creation/prevent-empty-todo.spec.ts"
+    },
+    {
+      "path": "examples/todomvc/tests/todo-creation/prevent-whitespace-todo.spec.ts",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/7622433eb7ddbbaf7d5b8b7d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 859,
+      "sha256": "64409774c9ef8e96619a7c1a523e7bec36eca0e2ac4bbc10ed142129f763c3bc",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/examples/todomvc/tests/todo-creation/prevent-whitespace-todo.spec.ts"
+    },
+    {
+      "path": "packages/extension/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3c74adcf7769b29ba3b97df9.md",
+      "kind": "official-document",
+      "bytes": 3450,
+      "sha256": "c5f705a9640f456c0081074f4e8ede08ee7a84f1df321f54eeda989a7dc646a1",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/extension/README.md"
+    },
+    {
+      "path": "packages/injected/src/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a07daa9c34961b49b9b621ac.md",
+      "kind": "official-document",
+      "bytes": 226,
+      "sha256": "1e825d1f4adb215bb9ae6eebb3bb39e4f2dae548f146c05305d1545093612543",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/injected/src/README.md"
+    },
+    {
+      "path": "packages/playwright-browser-chromium/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0bca899e5f20e91bcd13e102.md",
+      "kind": "official-document",
+      "bytes": 287,
+      "sha256": "412c6f48ec19185a36d9c3d15cde88e62f4ba627791be2b8b930b599f889442d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-browser-chromium/README.md"
+    },
+    {
+      "path": "packages/playwright-browser-firefox/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/49e2f53d579b1ac62e465596.md",
+      "kind": "official-document",
+      "bytes": 292,
+      "sha256": "32d8de62dc8692bddd3f87302124485a24c8394e5931b1d215cc31b597160758",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-browser-firefox/README.md"
+    },
+    {
+      "path": "packages/playwright-browser-webkit/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/186155b456173563fec93253.md",
+      "kind": "official-document",
+      "bytes": 281,
+      "sha256": "d91373fc955148fc2fc42284d33444b53d7d8d6cc5df90f5a2d8c86a9db4442d",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-browser-webkit/README.md"
+    },
+    {
+      "path": "packages/playwright-chromium/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/eb65e505e1f8578dcbb892cd.md",
+      "kind": "official-document",
+      "bytes": 270,
+      "sha256": "27349ae21a03406c27fe8ff16726483b11334b8cfff06d47abd381c65cdb423b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-chromium/README.md"
+    },
+    {
+      "path": "packages/playwright-core/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ff0ef889ff580b7a561a9f6a.md",
+      "kind": "official-document",
+      "bytes": 120,
+      "sha256": "d16ff7f8e38fa1fc954f695ad551cdc118d9c9bdd5f3d83203901f4c317d7d7e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-core/README.md"
+    },
+    {
+      "path": "packages/playwright-core/src/tools/skills/playwright-component-testing/references/migration.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ca1fff4fccab6f7309c88b5f.md",
+      "kind": "official-document",
+      "bytes": 5031,
+      "sha256": "bc3a336f7970bb7455fa5a38f937e45b35fb0c18d6c3b9f37916a4ff757b7acc",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-core/src/tools/skills/playwright-component-testing/references/migration.md"
+    },
+    {
+      "path": "packages/playwright-firefox/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0f212c6f6ab90ce98fce3f3b.md",
+      "kind": "official-document",
+      "bytes": 275,
+      "sha256": "7f66c0563bf717eedfab564aec46b64ea46e760af8ec8d799d9c1d004d0b22be",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-firefox/README.md"
+    },
+    {
+      "path": "packages/playwright-webkit/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a9fe5f942087b34eb2a6dab4.md",
+      "kind": "official-document",
+      "bytes": 264,
+      "sha256": "91068683d816bbe1a924561990c29e3fa1307e2403ed15e47f0ba97906b30559",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/packages/playwright-webkit/README.md"
+    },
+    {
+      "path": "tests/assets/axe-core/LICENSE",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/74ce685007243462eaf2a5cb.txt",
+      "kind": "license",
+      "bytes": 15921,
+      "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/axe-core/LICENSE"
+    },
+    {
+      "path": "tests/assets/axe-core/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/ea601f3bd44cfbd8ea65119b.md",
+      "kind": "official-document",
+      "bytes": 323,
+      "sha256": "fe5b72f39b379df9d757c77082c9a7530c267584cf734a1e0f6621384752d0b6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/axe-core/README.md"
+    },
+    {
+      "path": "tests/assets/client-certificates/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/58d1b9a89c057facb7d9881d.md",
+      "kind": "official-document",
+      "bytes": 106,
+      "sha256": "f9c287d6349e8d9c21effcf8c4634bba8a2a54c793d883f05f2b665b3494be9b",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/client-certificates/README.md"
+    },
+    {
+      "path": "tests/assets/modernizr/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/a68664d3f5eef3531499dc75.md",
+      "kind": "official-document",
+      "bytes": 745,
+      "sha256": "68273fc22c9660f3f506da1f54f3952bf20d5c54747b08a47ee795e162fd1200",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/modernizr/README.md"
+    },
+    {
+      "path": "tests/assets/multi-value-rdn/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/fbf5c28797db73ffa11fa819.md",
+      "kind": "official-document",
+      "bytes": 322,
+      "sha256": "984f3a1d9a880c4528823b0bfcc324823d311e4b2211c46a4d7d9f53d52e49a8",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/multi-value-rdn/README.md"
+    },
+    {
+      "path": "tests/assets/to-do-notifications/LICENSE",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f051567a595c657f1ddf57d9.txt",
+      "kind": "license",
+      "bytes": 6554,
+      "sha256": "5537d4d10b76b81b6e8dfd8b644480a4b1efa332fbb0cdb61126c5be781ef7b4",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/to-do-notifications/LICENSE"
+    },
+    {
+      "path": "tests/assets/to-do-notifications/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/3ce1b23607b6f6e173215fc4.md",
+      "kind": "official-document",
+      "bytes": 74,
+      "sha256": "4fb85d2cd355904ea27ca589eb677ab89a061c77b4ad06ce1d78a7d58a4497df",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/to-do-notifications/README.md"
+    },
+    {
+      "path": "tests/assets/webfont/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/e53a3a472d95f670aef331ea.md",
+      "kind": "official-document",
+      "bytes": 415,
+      "sha256": "b8e1ae9d69ef42b5a05f27891a15462b094b3e025a2eb1452bb9e81328d797c2",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/webfont/README.md"
+    },
+    {
+      "path": "tests/assets/wpt/LICENSE.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1c88306fdb6580b2e7af2b0e.md",
+      "kind": "license",
+      "bytes": 1500,
+      "sha256": "5fac07febb0e2a97fb0d7b0def149ec08b642e1ba4b9c345283ab1cbd2af6570",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/wpt/LICENSE.md"
+    },
+    {
+      "path": "tests/assets/wpt/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/f90166ec909299ecfbf425a1.md",
+      "kind": "official-document",
+      "bytes": 490,
+      "sha256": "d1bdabcce8a55708136bc43fffa6357278116542fa27e154582b511737be9a44",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/assets/wpt/README.md"
+    },
+    {
+      "path": "tests/bidi/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/d1f5293b01e27a8ada6c217a.md",
+      "kind": "official-document",
+      "bytes": 843,
+      "sha256": "45ff5c0013102c74152c2219fa80d1a82a9b224b857f66545c02841afbeaa7a6",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/bidi/README.md"
+    },
+    {
+      "path": "tests/playwright-test/stable-test-runner/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/1e5919e1bc3163e7123e1ace.md",
+      "kind": "official-document",
+      "bytes": 178,
+      "sha256": "a7ebb001f5d38de228d21e088c60d846e00f334c524c24c440ddaa8ef5548c6f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/tests/playwright-test/stable-test-runner/README.md"
+    },
+    {
+      "path": "utils/copyright.js",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/32caf4f6ab0f833ce8e4ea70.js",
+      "kind": "license",
+      "bytes": 602,
+      "sha256": "6d39a80b1184ebc067db7d2e21f389c590ec23da6173263a3fff1d1e3d072543",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/utils/copyright.js"
+    },
+    {
+      "path": "utils/libwebp-wasm/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/795e3d5d12c012ee81f22c47.md",
+      "kind": "official-document",
+      "bytes": 5388,
+      "sha256": "f3e6a4ce890de1e9402a9d688fadd44e1cd7926c12fcdd407f53ff63d7ce440f",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/utils/libwebp-wasm/README.md"
+    },
+    {
+      "path": "utils/linux-browser-dependencies/README.md",
+      "localPath": "raw/microsoft--playwright/e79e2576c8ce/0c26d861a44284f79b7c5243.md",
+      "kind": "official-document",
+      "bytes": 902,
+      "sha256": "7df40ce3360f9a388dbf0d4a71b4e1ce8f41b039e5bec4295601cfb516c764b3",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/e79e2576c8ceff410d00ca1e240c539a6f33c78c/utils/linux-browser-dependencies/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

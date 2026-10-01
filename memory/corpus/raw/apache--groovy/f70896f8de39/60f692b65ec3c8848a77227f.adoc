@@ -1,0 +1,179 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+
+= Performance
+
+This subproject contains two sets of performance related tests, compiler tests
+and benchmarks.
+
+== Compiler Performance Tests
+
+The compiler tests can be run using the following Gradle task:
+
+    ./gradlew :perf:performanceTests
+
+This will compile various source files using several past versions of Apache
+Groovy in addition to the current source version.
+
+== Benchmarks
+
+JMH Benchmarks can be run using:
+
+    ./gradlew :perf:jmh
+
+Groovy currently defaults to InvokeDynamic generated classes, but to get classic callsite generation use the `indy` property:
+
+    ./gradlew -Pindy=false :perf:jmh
+
+With `-Pindy=false`, the performance plugin automatically puts the optional
+`groovy-callsite` module on the compile and runtime classpaths (required since
+GROOVY-12185 moved classic call-site caching out of groovy-core).
+
+Groovy and Java sources placed in `src/test` will also be available to the
+benchmarks.
+
+To run a single benchmark or a matched set of benchmarks, use the
+`benchInclude` property:
+
+    ./gradlew -PbenchInclude=CallsiteBench :perf:jmh
+
+The `benchInclude` property will perform a partial match against package
+names or class names. It is equivalent to `.\*${benchInclude}.*`.
+
+To attach JMH profilers (e.g. the `gc` profiler, which reports
+`gc.alloc.rate.norm` in bytes/op), use the `jmhProfilers` property
+(comma-separated):
+
+    ./gradlew -PbenchInclude=FatFreeLambda -PjmhProfilers=gc :perf:jmh
+
+== Ad-hoc benchmarks
+
+Benchmarks under the `org.apache.groovy.adhoc` package are exploratory,
+idiom-vs-idiom comparisons (for example, the `FatFreeLambda` set comparing
+closure / `rcurry` idioms against the "fat-free" `java.util.function`
+overloads and `curryWith` helpers). Their headline metric is *allocation*,
+not throughput-over-time.
+
+They are deliberately excluded from the `jmh`, `jmh-classic` and `jmh-daily`
+CI suites (whose `benchInclude` patterns only match `.bench.` and `.perf.`).
+Instead, the `jmh-adhoc` workflow runs them weekly (and on demand) with the
+`gc` profiler, publishing throughput and allocation to their own dashboard
+area under `dev/bench/jmh-adhoc/` so the core regression buckets stay
+untouched. Run them locally with:
+
+    ./gradlew -PbenchInclude='\.adhoc\.' -PjmhProfilers=gc :perf:jmh
+
+
+== Calibration rulers
+
+Per-PR and per-commit benchmark runs are compared against a trailing 90-day
+baseline published on gh-pages — numbers produced on *different* shared-runner
+hardware, which is the dominant noise source in those comparisons. The
+`*CalibrationBench` classes are pure-Java, Groovy-independent "rulers"
+(integer throughput, pointer-chasing, allocation churn): their
+current-vs-history ratio measures the hardware delta of the current runner
+rather than anything about Groovy.
+
+Each CI suite job runs on its own runner, so one thin subclass of
+`org.apache.groovy.calibration.AbstractCalibrationBench` is named into each
+suite's `benchInclude` pattern. `dashboard/jmh-summary.py` computes a per-suite
+calibration factor from the rulers (plus the pre-existing `_java` baseline
+rows), reports a hardware-normalised "calibrated" speedup column alongside the
+raw one, and flags runs whose runner deviates more than 15% from the baseline
+hardware. The rulers are excluded from the speedup geomeans themselves, both
+in the PR summary and in the daily dashboard (`dashboard/jmh-summary.html`).
+
+== Deterministic dispatch metrics
+
+Timing benchmarks cannot give exact answers on shared runners; class-loading
+counts can. The `dispatchMetrics` task runs a fixed, deterministic
+cold-dispatch workload (`org.apache.groovy.perf.metrics.DispatchMetricsWorkload`)
+in a fresh JVM with `-Xlog:class+load` and reduces the log to counters that
+are *bit-identical* for a given JDK + Groovy build:
+
+* `classes.loaded.total` — full class-loading breadth of the workload,
+* `classes.lambdaForms` — spun `java.lang.invoke.LambdaForm$*` classes, the
+  one-time MethodHandle cost of the invokedynamic implementation (the main
+  cold-path cost driver),
+* `classes.hidden` — hidden classes (LambdaForms, lambda proxies, spun adapters),
+* `classes.groovyRuntime` — Groovy's own runtime class footprint,
+* `bytecode.corpus.bytes` / `bytecode.corpus.classes` — generated-code size for
+  compiling a fixed dependency-free corpus (inlining budgets are
+  bytecode-size based).
+
+Because the values are deterministic, they are comparable across runner
+hardware: the `perf-daily` workflow publishes them to
+`dev/bench/perf/dispatch/` on gh-pages and the per-PR `Performance check`
+workflow compares against that history with a tight (110%) alert threshold.
+Run locally with:
+
+    ./gradlew :perf:dispatchMetrics
+
+== Cold-path benchmarks
+
+`StaticMethodCallIndyColdBench` and `DynamicDispatchColdBench` measure fresh
+call sites in fresh JVMs (`SingleShotTime`, zero warmup, fork-per-sample),
+covering the first ~1000 invocations that the steady-state benchmarks warm
+away — where much real-world Groovy cost lives (scripts, CLIs, test
+bootstrap). The `n` parameter probes below and past the indy promotion
+threshold (`groovy.indy.optimize.threshold`, default 1000). Static and
+instance dispatch take different cold paths (static sites promote on first
+hit, GROOVY-11935), hence the two benches.
+
+== Scoped invalidation (GROOVY-12191)
+
+`ScopedInvalidationBench` measures per-class SwitchPoint scoping: unrelated
+MetaClass churn must not deoptimize a hot monomorphic site; same-type re-link
+and category enter/leave (bulk class-domain invalidation) must still force
+re-link; parent MetaClass churn must not deoptimize subclass sites (stock
+exact-class policy — no hierarchy fan-out). Steady-state monomorphic sites
+carry a single SwitchPoint guard. Complements the Grails-oriented
+`CallSiteInvalidationBench` under `org.apache.groovy.perf.grails`.
+
+== Same-class guards (GROOVY-12284)
+
+`SameClassesGuardBench` measures the invokedynamic same-class guard that
+linked monomorphic sites install when every argument is non-null.
+Arities 1–4 (receiver plus 0–3 parameters) are specialised on HEAD;
+arity 5 keeps `asCollector(Object[].class, n)` and is the negative
+control. `@CompileStatic` rows (`cs_arity2`, `cs_arity5`) emit
+`invokevirtual` and must stay at parity. Each benchmark method is a
+single call so `-PjmhProfilers=gc` reports bytes per invocation.
+
+`SameClassesGuardMhBench` reconstructs the collector vs specialised
+MethodHandle combinators and invokes them with `invokeExact`, isolating
+the adapter from MOP selection. Specialised handles are bound with a
+single `insertArguments` (the production shape). Compiles on any tree
+that has the public overloads; `@Setup` fails on a pre-GROOVY-12284
+runtime. Run with:
+
+    ./gradlew :perf:jmh -PbenchInclude=SameClassesGuardBench
+    ./gradlew :perf:jmh -PbenchInclude=SameClassesGuardMhBench
+    ./gradlew :perf:jmh -PbenchInclude=SameClassesGuardBench -PjmhProfilers=gc
+
+== Dashboard pages
+
+The `dashboard/` directory is the source of truth for the hand-crafted pages
+published to gh-pages: the compiler dashboard (`index.html` + `vendor/`), the
+90-day trend page (`jmh-summary.html`), the per-commit summary script
+(`jmh-summary.py`), and the site landing page (`root-index.html`, synced to
+the gh-pages root by the `perf-daily` workflow). Edit these here on master —
+the gh-pages copies are overwritten by the daily workflows.

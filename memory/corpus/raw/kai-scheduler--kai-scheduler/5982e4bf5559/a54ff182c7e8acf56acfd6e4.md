@@ -1,0 +1,202 @@
+# KAI Scheduler - Agent Development Guide
+
+KAI Scheduler is a Kubernetes scheduler optimized for GPU resource allocation in AI/ML workloads, built on kube-batch with a modular plugin architecture.
+
+## Build/Lint/Test Commands
+
+### Building
+```bash
+make build                    # Build all services (Docker-based)
+make build-go SERVICE_NAME=scheduler  # Build single service
+```
+
+### Linting
+```bash
+make lint                     # Run all linters (fmt, vet, golangci-lint)
+make fmt-go                   # Format Go code
+make vet-go                   # Run go vet
+```
+
+### Testing
+#### unit and integration tests
+
+- Test files MUST ALWAYS be in the same directory as code
+- Test files names MUST ALWAYS end in `_test.go`. Example: `resolver_test.go`
+
+```bash
+make test                     # Run all tests (unit + helm chart tests)
+
+# Run a single test file
+ginkgo -v ./pkg/scheduler/actions/allocate
+
+# Run a specific test function
+ginkgo -v --focus "TestHandleAllocation" ./pkg/scheduler/actions/allocate
+
+# Run tests with Ginkgo (for integration tests)
+ginkgo -v --focus "test name pattern" ./pkg/binder/controllers/integration_tests
+
+# Run tests with envtest (requires setup-envtest)
+make envtest
+KUBEBUILDER_ASSETS="$(bin/setup-envtest use 1.34.0 -p path --bin-dir bin)" go test ./pkg/... -timeout 30m
+```
+#### E2E tests
+
+E2E tests run against a real Kubernetes using [`kind`](https://kind.sigs.k8s.io/) cluster and are located in `test/e2e/suites/`.
+
+```bash
+# Run locally with Kind (recommended for development)
+./hack/run-e2e-kind.sh                          # Full e2e suite
+./hack/run-e2e-kind.sh --preserve-cluster       # Keep cluster after tests
+./hack/run-e2e-kind.sh --local-images-build     # Build images locally
+
+# Run specific test suites (requires cluster with KAI installed)
+ginkgo -r --randomize-all ./test/e2e/suites/allocate
+ginkgo -r --randomize-all --focus "quota" ./test/e2e/suites
+
+# Run with verbose output and trace
+ginkgo -r --randomize-all --trace -vv ./test/e2e/suites/preempt
+```
+
+### Code Generation
+```bash
+make generate                 # Generate DeepCopy methods
+make manifests                # Generate CRDs and RBAC
+make clients                  # Generate client code
+make generate-mocks           # Generate mock implementations
+make validate                 # Verify generated code is up to date. Also format and vet codebase
+```
+
+## Repository Structure
+
+### Core Services (`/cmd/` and `/pkg/`)
+- `scheduler` - Core GPU-aware batch scheduler with plugins, actions, and cache
+- `binder` - Pod binding execution with GPU sharing support
+- `operator` - Lifecycle management of all KAI components
+- `podgrouper` - PodGroup creation from workloads (Kubeflow, Spark, Ray, etc.)
+- `admission` - Validating/mutating webhooks for KAI resources
+- `queuecontroller` - Queue resource management and status updates
+- `podgroupcontroller` - PodGroup lifecycle and status management
+- `resourcereservation` - GPU resource reservation for pending pods
+- `nodescaleadjuster` - Node scaling integration for autoscalers
+
+### Supporting Packages (`/pkg/`)
+- `apis` - Custom resource definitions (Queue, PodGroup, BindRequest)
+- `common` - Shared utilities and constants
+
+### Tools (`/cmd/`)
+- `fairshare-simulator` - Simulate fairshare scheduling decisions
+- `time-based-fairshare-simulator` - Time-based scheduling simulation
+- `snapshot-tool` - Cluster state snapshot utilities
+- `scalingpod` - Helper for scaling pod operations
+
+## Code Style Guidelines
+
+### Import Organization
+Organize imports in three groups separated by blank lines:
+```go
+import (
+    // 1. Standard library
+    "context"
+    "fmt"
+
+    // 2. External dependencies
+    v1 "k8s.io/api/core/v1"
+    "sigs.k8s.io/controller-runtime/pkg/client"
+
+    // 3. Internal packages
+    "github.com/kai-scheduler/KAI-scheduler/pkg/scheduler/api"
+)
+```
+
+### Naming Conventions
+- **Files**: snake_case (`bind_request_controller.go`, `node_info.go`)
+- **Types**: PascalCase (`SchedulerCache`, `NodeInfo`)
+- **Interfaces**: `-er` suffix or `Interface` (`Plugin`, `SchedulerLogger`)
+- **Functions**: PascalCase exported, camelCase unexported
+- **Boolean functions**: `is`/`has`/`should` prefix (`IsTaskAllocatable`)
+- **Constants**: PascalCase exported, camelCase unexported
+
+### Logging
+
+Follow the [logging practices in CONTRIBUTING.md](CONTRIBUTING.md#logging-practices).
+
+### Comments
+- Apache 2.0 + NVIDIA copyright headers on all files
+- GoDoc-style for exported functions/types
+- kubebuilder RBAC markers: `// +kubebuilder:rbac:groups=core,resources=pods,verbs=get`
+- DO NOT wrire obvious comments; explain "why" not "what"
+- Keep comments short, concise and to the point.
+
+### General Patterns
+- Context as first parameter: `func Foo(ctx context.Context, ...)`
+- Pointer receivers for methods that modify state
+- Interfaces in `interface.go` files
+- Constructor functions return interface types: `func New(...) Cache`
+- Use `defer` for cleanup and state restoration
+
+## Linter Configuration
+
+Enabled linters (see `.golangci.yaml`):
+- `gofmt` `unused` `goconst` `errcheck` `govet`
+
+Test files (`*_test.go`) have relaxed rules for `goconst`, `errcheck`, `govet`.
+
+## Pull Request Requirements
+
+### PR Title Format (Conventional Commits)
+PR titles must follow conventional commit format: `<type>(<scope>): <description>`
+
+**Types**: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `test`, `build`, `ci`, `chore`, `revert`
+
+**Scopes** (optional): `scheduler`, `binder`, `podgrouper`, `admission`, `operator`, `queue-controller`, `pod-group-controller`, `resource-reservation`, `chart`, `api`, `node-scale-adjuster`, `ci`, `release`, `docs`, `deps`
+
+### PR Description format
+
+When opening a PR, use the template in .github/pull_request_template.md for the PR description
+
+### Changelog Requirements
+
+Changelog entries are [changie](https://changie.dev) fragments. **Never edit `CHANGELOG.md` directly** — it is the source of truth for released versions and is only written at release time. **Never write fragment files by hand** — always use `make changelog`.
+
+```bash
+# Add a fragment (non-interactive — required for agents)
+# AUTHOR is the GitHub username to credit; ISSUE is the PR/issue number. Both required.
+make changelog KIND=<kind> BODY="short description under 20 words" AUTHOR="<github-user>" ISSUE="<pr-or-issue-number>"
+
+# Valid kinds: Added | Changed | Fixed | Removed
+make changelog KIND=Fixed  BODY="Scheduler exits on 401 instead of retrying indefinitely" AUTHOR="SomeUsername" ISSUE="1817"
+make changelog KIND=Added  BODY="Helm value to disable resource-reservation namespace creation" AUTHOR="SomeUsername" ISSUE="1820"
+
+# Preview the next release section (optional)
+make changelog-preview VERSION=v0.17.0
+```
+
+- Add a fragment on every PR that changes behavior (adds functionality, fixes a bug, changes an API, or gives a significant perf win). Skip it for refactors, docs, tests, and CI changes — apply the `skip-changelog` (or `dependencies`) label instead. CI fails a behavior PR that has neither.
+- Entries MUST be fewer than 20 words. Keep them clear and concise.
+- Always set `AUTHOR` (the PR author's GitHub username) and `ISSUE` (the PR number, or a linked issue number if one exists) — omitting them drops attribution and traceability from `CHANGELOG.md`. If the PR number isn't known yet, use the issue number; update the fragment once the PR is opened.
+- Commit the fragment with your code. Fragments never conflict between PRs or backports, so no coordination is needed.
+
+**Humans:** `make changelog` with no args runs the interactive prompts.
+
+**Releasing (maintainers):** don't fold the changelog by hand. Dispatch the **Release — Prepare Changelog** workflow with a version (e.g. `v0.17.0`) from the target branch — `main` for a minor/major, a `v*.*` branch for a patch. It folds the pending fragments into `CHANGELOG.md`, clears them, and opens a PR. Merging that PR auto-tags the version and publishes the GitHub Release.
+
+### CI Checks (on-pr.yaml)
+PRs trigger: `make validate` → `make test` → `make build` → E2E tests
+- Docs-only changes (`.md` files, `docs/`) skip build/test
+- E2E tests run with Ginkgo: `ginkgo -r --randomize-all ./test/e2e/suites`
+
+## General Rules
+- Use `git mv` when moving files to preserve history
+- DO NOT add obvious comments that duplicate the code.
+    - Write comments ONLY when ABSOLUTELY necessary
+    - Keep Comments short, explicit and concise
+    - DO NOT use `I`, `we` or any other pronoun
+- When performing a major change, run `make validate` after changes
+
+## Philosophy & Design
+
+- Documentation can be found in [`docs`](docs/) folder
+
+- Design documents for major features are in [`docs/developer/designs/`](docs/developer/designs/):
+
+- Usage Examples are in [`examples`](/examples/)

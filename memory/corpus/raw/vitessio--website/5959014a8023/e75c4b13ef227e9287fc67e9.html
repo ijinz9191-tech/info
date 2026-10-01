@@ -1,0 +1,58 @@
+{{ $logoUrl := "img/logos/vitess.png" | relURL }}
+{{ $docsSections := index (where site.Sections "Section" "docs") 0 }}
+{{ $currentRelPermalink := .RelPermalink }}
+
+<div class="docs-menu">
+  {{ template "navlist" (dict "entries" $docsSections.Sections "currentRelPermalink" $currentRelPermalink ) }}
+</div>
+
+{{/*
+  The "navlist" template recursively renders nested lists to any depth.
+  It is called with two parameters, "currentRelPermalink" and "entries",
+  described inline below.
+
+  The structure of the sidebar matches the structure of `content/docs` (for English)
+  or `content/xx/docs` (for other languages). This means that sidebar structure and
+  content will vary between languages.
+*/}}
+{{ define "navlist" }}
+  {{/* `currentRelPermalink` is the RelPermalink of the current content page. */}}
+  {{ $currentRelPermalink := .currentRelPermalink}}
+  {{/* `entries` is a list of Pages */}}
+  {{ $entries := .entries }}
+
+  <ul class="docs-navlist">
+    {{ range $entries }}
+      {{ $isActive := eq $currentRelPermalink .RelPermalink }}
+      {{ $activeClass := cond $isActive "active" "" }}
+
+      {{ $isExpanded := in $currentRelPermalink .RelPermalink }}
+      {{/* 'hide_pages_in_nav' is used to hide .Pages/sub-sections from nav */}}
+      {{ $isExpanded := and $isExpanded (not .Params.hide_pages_in_nav) }}
+      {{ $expandedClass := cond $isExpanded "expanded" "" }}
+
+      {{/* 'docs_nav_disable_expand' is (currently only) used to hide the caret on the "Older Version Docs" link */}}
+      {{/* We can remove it with a better versioning system: see https://github.com/vitessio/website/issues/625 */}}
+      {{ $isExpandable := and .IsSection (not .Params.docs_nav_disable_expand) }}
+      {{ $isExpandable := and $isExpandable (gt (len .Pages) 0) }}
+      {{ $expandableClass := cond $isExpandable "expandable" "" }}
+
+      <li class="{{ $expandedClass }} {{ $activeClass }}">
+        <a href="{{ .Permalink }}">
+          <span class="navlist-tile">{{ or .Params.docs_nav_title .Title }}</span>
+          {{ if $isExpandable }}
+              <svg viewBox="0 0 749 1102" class="navlist-caret">
+                <path d="M749 551l-551 551L0 904l353-353L0 198 198 0z"></path>
+              </svg>
+          {{ end }}
+        </a>
+
+        {{ if $isExpanded }}
+          {{ if gt (len .Pages) 0 }}
+            {{ template "navlist" (dict "entries" .Pages "currentRelPermalink" $currentRelPermalink ) }}
+          {{ end }}
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

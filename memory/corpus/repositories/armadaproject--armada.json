@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "repo": "armadaproject/armada",
+  "commit": "eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280",
+  "retrievedAt": "2026-10-01T15:15:07.172036+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Scheduling & Orchestration"
+  ],
+  "archiveUrl": "https://codeload.github.com/armadaproject/armada/zip/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280",
+  "archiveSha256": "5062b243675ccb1de685cc2482ed32c2851edc04de04c546b5a51d42cd8c9223",
+  "archiveBytes": 4174805,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 60,
+    "code": 19,
+    "licenses": 1,
+    "bytes": 374343
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 1115,
+      "sha256": "1639061dedae0bcee228d5099f298557c2bf3447b990e2bd0b993fbb58e4cb67",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/ADOPTERS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 7657,
+      "sha256": "f38224333cc5ad7ee274dd93f7e88644139a5351470be48b148cb68ab531b1ae",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 5823,
+      "sha256": "c5b4acf4917f4bc7a769a22b9f0a31f9e158ac43b118248fb4296373c9b8f791",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 2611,
+      "sha256": "e361699cfe8a5e179432140ceb91157daa4e7f5748788a3cd597e7c5701642ef",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6911,
+      "sha256": "4bc81cd5290872f1eacf83241a94dd6522e188b88b9639277226ad7435697c65",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 622,
+      "sha256": "18dd4a64f2fe039291abbc4eae41134839c479de02c6cec2af179f1345898a02",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/SECURITY.md"
+    },
+    {
+      "path": "_local/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/0f4ed3e8e221cf4b08f3235d.md",
+      "kind": "official-document",
+      "bytes": 2902,
+      "sha256": "6362c3fdda27bf5038dde60decad447e0f94aa7b876dbd2a4b1dbc0e92bd949b",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/_local/README.md"
+    },
+    {
+      "path": "_local/keycloak/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/b92ab867d6dfbd992bd5e88b.md",
+      "kind": "official-document",
+      "bytes": 2484,
+      "sha256": "acd85e267f9550803befd4d6caed21ab581703f71259a97b477e7ad3e44f6907",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/_local/keycloak/README.md"
+    },
+    {
+      "path": "client/java/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/9c7cdb393612282c7de02c12.md",
+      "kind": "official-document",
+      "bytes": 958,
+      "sha256": "fe92221859ffb7023a7d0a34c493646b1898a1073cad3d9f758b9f07022a0056",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/README.md"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/CancelJob.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/cd8fc21b8c04ef3043c271d3.java",
+      "kind": "upstream-example-code",
+      "bytes": 932,
+      "sha256": "49bd27819d1aa56e56e55a14a0b05c08ca6554d37c2dd07a0176200d35c503f3",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/CancelJob.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/CheckConnectionExample.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/111f2668c08cdc936e14c876.java",
+      "kind": "upstream-example-code",
+      "bytes": 423,
+      "sha256": "576f1bef1dcfe44f582991308dc070cb531cd5510997bc4a3be378dddb325da1",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/CheckConnectionExample.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/GetEvents.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/3cd477ba1e7aa43182f8c15e.java",
+      "kind": "upstream-example-code",
+      "bytes": 651,
+      "sha256": "abcb5b22aefcd04eb238288805513c268d1ec75328b9938493085f131944ea0b",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/GetEvents.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/GetJobStatus.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/f1141b5e99b26deb6ce172ac.java",
+      "kind": "upstream-example-code",
+      "bytes": 611,
+      "sha256": "a635161dd4065eadefece8a90614ec5dcc6b2c52f44882c180871184601e1e60",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/GetJobStatus.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/GetQueue.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/4981825bf975c303b828839f.java",
+      "kind": "upstream-example-code",
+      "bytes": 564,
+      "sha256": "32535fe93cdf87979a088895bc4df369e3c4b56b05c93b171f0e791c6178e9b7",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/GetQueue.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/GetQueueInfo.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/6e719089a4c62086406ae888.java",
+      "kind": "upstream-example-code",
+      "bytes": 536,
+      "sha256": "c3ef617505f9134da278c8ff5deb94256f46a2b22c07b1627bc369b720d63c78",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/GetQueueInfo.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/StreamEvents.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/fc67a159cfd8883ff82d73ea.java",
+      "kind": "upstream-example-code",
+      "bytes": 2166,
+      "sha256": "69a22443b1ab5685813ec5b2184d01dd476dfcb6400f34c808f172d6e5b70651",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/StreamEvents.java"
+    },
+    {
+      "path": "client/java/src/main/java/io/armadaproject/examples/SubmitJob.java",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/bd99bf91ee733c742321d363.java",
+      "kind": "upstream-example-code",
+      "bytes": 2248,
+      "sha256": "cbc880dab1061fc56fb87f660ecc778b84bd766b32d9b0d50c729a3f465de56b",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/java/src/main/java/io/armadaproject/examples/SubmitJob.java"
+    },
+    {
+      "path": "client/python/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/e8bff1b0f985a184c8e4392e.md",
+      "kind": "official-document",
+      "bytes": 1343,
+      "sha256": "ae8c634ec372ef232809109b0ffb555da6622c7b3111e57543475be90819c684",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/README.md"
+    },
+    {
+      "path": "client/python/docs/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/060487c2ca1bdb9198da6efd.md",
+      "kind": "official-document",
+      "bytes": 1846,
+      "sha256": "68efaafa53398c4b925bc001534b8ab9ffce8cff9781526d38b6be6eeeb36d2b",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/docs/README.md"
+    },
+    {
+      "path": "client/python/docs/source/index.rst",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/3be3eb195502d8c5d3a363e2.rst",
+      "kind": "official-document",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/docs/source/index.rst"
+    },
+    {
+      "path": "client/python/docs/source/python_armada_client.rst",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/3974a87b46977fcf919d1a46.rst",
+      "kind": "official-document",
+      "bytes": 530,
+      "sha256": "95e0c0610866fb263ac9afaa2f24fe613afa87011c84d2b6ecbd9025c92fb6b2",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/docs/source/python_armada_client.rst"
+    },
+    {
+      "path": "client/python/examples/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/1c049460d8e3563fa30b2480.md",
+      "kind": "official-document",
+      "bytes": 10499,
+      "sha256": "3c19a2d48654c9736bd1592eceff95fecd2ce8edcc0fab3e66c9ac71d0350956",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/README.md"
+    },
+    {
+      "path": "client/python/examples/binoculars.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/d125c3fffdacb5f84b4ae79e.py",
+      "kind": "upstream-example-code",
+      "bytes": 565,
+      "sha256": "b807819ff4e6ce15fd29bc6448125b52a448b2e35358c239c66b5093239b82f1",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/binoculars.py"
+    },
+    {
+      "path": "client/python/examples/cancelling.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/c34242bc9347c791f5e37016.py",
+      "kind": "upstream-example-code",
+      "bytes": 4717,
+      "sha256": "9ee543b101d4f78414d1d0332dde32b0901c6c6fac5cb7329377773087e18704",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/cancelling.py"
+    },
+    {
+      "path": "client/python/examples/general.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/910a05975e6a5d63c1e89fc6.py",
+      "kind": "upstream-example-code",
+      "bytes": 5691,
+      "sha256": "bed71345e1772ada634ec62abcefe3dea787e63a3e4652d7f083353a3f4e16ac",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/general.py"
+    },
+    {
+      "path": "client/python/examples/monitor.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/d80154e1bd617a2e020b8d92.py",
+      "kind": "upstream-example-code",
+      "bytes": 5757,
+      "sha256": "8b052366a34e3182332a2e104b3d94b132764b92a39cd4e9438bf24bec6d6e5e",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/monitor.py"
+    },
+    {
+      "path": "client/python/examples/preempting.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/27c5803b657241b242692583.py",
+      "kind": "upstream-example-code",
+      "bytes": 3685,
+      "sha256": "0b041605cb6811030aaa763e24b6f1d0bc6600091c76a616eee8fc1f777f5c0e",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/preempting.py"
+    },
+    {
+      "path": "client/python/examples/queues.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/a7127024c90341ff9ab24616.py",
+      "kind": "upstream-example-code",
+      "bytes": 2815,
+      "sha256": "f237a2d01142bafbec75be3bff9bc5a17d8ba6ef2746836a03a3ab144074a38a",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/queues.py"
+    },
+    {
+      "path": "client/python/examples/simple.py",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/9fe9e9429f635651a49cb4c8.py",
+      "kind": "upstream-example-code",
+      "bytes": 2800,
+      "sha256": "caff1cb1e4b3745da46b833c4813e79bb0907e37f5e14fe0a1df43f683a2ab0e",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/python/examples/simple.py"
+    },
+    {
+      "path": "client/rust/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/da4768a1df540d66b2625bd5.md",
+      "kind": "official-document",
+      "bytes": 12682,
+      "sha256": "1cc0094de1e5a534056365bde75e1cb78b051f339725aaaf179d369e91946368",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/rust/README.md"
+    },
+    {
+      "path": "client/rust/examples/cancel.rs",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/2d8f32278a0d5aed60301e1e.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2721,
+      "sha256": "6952b181b67e923ffff46671470d1fabd84911ff09f5030311b439e1a613cb52",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/rust/examples/cancel.rs"
+    },
+    {
+      "path": "client/rust/examples/common/mod.rs",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/8330e0324f0408739e1baaaf.rs",
+      "kind": "upstream-example-code",
+      "bytes": 975,
+      "sha256": "1d54ea25ded0d105fbb8bd97418343f4ba6a4dd6113b835b03f305f34a4d6d81",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/rust/examples/common/mod.rs"
+    },
+    {
+      "path": "client/rust/examples/submit.rs",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/8cae4d4f63ae5e7c2c9bcf6e.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3644,
+      "sha256": "c931dc5c698ef645685957f5dc888997fa62da76d3b7317b891d5ff1d104d892",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/rust/examples/submit.rs"
+    },
+    {
+      "path": "client/rust/examples/watch.rs",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/8fc1d7bce2f7cfec26429e33.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2257,
+      "sha256": "fcbca99a9ead4ae67326738cf69b5ac14d24307e99f46969ca2c530bf7354770",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/rust/examples/watch.rs"
+    },
+    {
+      "path": "client/scala/armada-scala-client/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/0c9cc5361824f5d5642ee9e4.md",
+      "kind": "official-document",
+      "bytes": 1028,
+      "sha256": "1672908285b93774bf9c42baf8ee65b55158a14eada66fd4f2537a76d44c865a",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/scala/armada-scala-client/README.md"
+    },
+    {
+      "path": "client/scala/examples/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/2e4d43f18245423b3f8e496c.md",
+      "kind": "official-document",
+      "bytes": 226,
+      "sha256": "6470fa89892111a9958935801459e26cfa181d58b9b1a80668c1c01c4cb37815",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/client/scala/examples/README.md"
+    },
+    {
+      "path": "cmd/armadactl/cmd/resources/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/5ad07e4108bb3f0e47ae9780.md",
+      "kind": "official-document",
+      "bytes": 5007,
+      "sha256": "b64a6add4d0959a245667c6f4b8bc25eb6a7796239a28c7abff9033226199333",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/cmd/armadactl/cmd/resources/README.md"
+    },
+    {
+      "path": "cmd/broadside/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/71d82d6ff015b632a54ca8c9.md",
+      "kind": "official-document",
+      "bytes": 17289,
+      "sha256": "9455a15bad1a8a2952665aeaac330205b465e736f8533ac3a9c0a20165da88a8",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/cmd/broadside/README.md"
+    },
+    {
+      "path": "cmd/broadside/configs/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/5eb542f5bf5925e754781a58.md",
+      "kind": "official-document",
+      "bytes": 4857,
+      "sha256": "d827e2e2c2a505de1810f6754132f47b501adc5360f3493b39a78bb7b16c272f",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/cmd/broadside/configs/README.md"
+    },
+    {
+      "path": "cmd/broadside/configs/examples/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/296929a01c96e81730555f15.md",
+      "kind": "official-document",
+      "bytes": 5057,
+      "sha256": "3b9becc425d17dbee2eccb433fad4c10e4ebba9dbbd733102c5cc7362cc61e76",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/cmd/broadside/configs/examples/README.md"
+    },
+    {
+      "path": "cmd/broadside/results/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/67b2ffb7d634056897438aa3.md",
+      "kind": "official-document",
+      "bytes": 3374,
+      "sha256": "4b6a475ac0771b2110b84e0d9d60023c4f27110a93aa126a932d02e569f03efb",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/cmd/broadside/results/README.md"
+    },
+    {
+      "path": "deployment/armada/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/c752ca602551a87decd7365b.md",
+      "kind": "official-document",
+      "bytes": 4889,
+      "sha256": "1ac31d7d0eca598006b20ad51fd24e53b0b3827731d49999189faec5cdbdfc0f",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/armada/README.md"
+    },
+    {
+      "path": "deployment/binoculars/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/544bc67fef60b1c2898d4a76.md",
+      "kind": "official-document",
+      "bytes": 1968,
+      "sha256": "2ef0ff4d7251abe53d674e0fa70dc70a2f0b6de8a0068b28c1021b1532fc7cf5",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/binoculars/README.md"
+    },
+    {
+      "path": "deployment/event-ingester/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/bdc4d5e12746c8a2436a5e48.md",
+      "kind": "official-document",
+      "bytes": 1727,
+      "sha256": "5a43838afc77cfffdc33dac39d9be0a9b0d513cb91d64ad3ae35b9eac72002b6",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/event-ingester/README.md"
+    },
+    {
+      "path": "deployment/executor-cluster-monitoring/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/23c3df21742a5b72678e331f.md",
+      "kind": "official-document",
+      "bytes": 565,
+      "sha256": "783b411c1192b259d135d6975441cb2ecd0102fa503680e19e18a3bc4fea6f91",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/executor-cluster-monitoring/README.md"
+    },
+    {
+      "path": "deployment/executor/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/3ab19ba7926932167a371269.md",
+      "kind": "official-document",
+      "bytes": 2164,
+      "sha256": "0dbe132227854ee29a0ce015d1ecc358184125a8b3717cbc8bdf45b26cb71ecb",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/executor/README.md"
+    },
+    {
+      "path": "deployment/lookout-ingester/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/ff44df300063373e4e1b1ac2.md",
+      "kind": "official-document",
+      "bytes": 1623,
+      "sha256": "630ce3d7019d19684df274b59da946fd88858914518db4b1389992c15eb874a5",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/lookout-ingester/README.md"
+    },
+    {
+      "path": "deployment/lookout-migration/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/feab05e57e6dd9cab182ec1e.md",
+      "kind": "official-document",
+      "bytes": 1168,
+      "sha256": "87ea4fbb0271ec4ec54a92c47712055ac1dd196d49c133d2b8e3272bd937585f",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/lookout-migration/README.md"
+    },
+    {
+      "path": "deployment/lookout/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/81c24b4cf133ae2cbfc0a603.md",
+      "kind": "official-document",
+      "bytes": 1749,
+      "sha256": "54f91dfcad9f90164fb5ff852a4d45a42620fe3fae8f3c9b770916434650db69",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/lookout/README.md"
+    },
+    {
+      "path": "deployment/scheduler-migration/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/b204f7c4c4188a2016687506.md",
+      "kind": "official-document",
+      "bytes": 1167,
+      "sha256": "60a81bce02013d5118a6d572d34bad91ded825f5c895b2c6dc0e4d19b0602c25",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/scheduler-migration/README.md"
+    },
+    {
+      "path": "deployment/scheduler/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/244a39652c42f959d7fcddb3.md",
+      "kind": "official-document",
+      "bytes": 3944,
+      "sha256": "cf66e5b41e4b7e72849472a53fc83c0b42b6c9d5c1be9e2d68c048a0e620fac9",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/deployment/scheduler/README.md"
+    },
+    {
+      "path": "docs/armada_airflow_operator.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/cdcb6ec9220b22d0f85ad000.md",
+      "kind": "official-document",
+      "bytes": 7337,
+      "sha256": "a1148d3a968a9cd3ec0ffe256f8b8c4ac2e61e81c76aea803216c63d73d651b7",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/armada_airflow_operator.md"
+    },
+    {
+      "path": "docs/armada_client_package.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/46b3b19113b632514860425e.md",
+      "kind": "official-document",
+      "bytes": 12166,
+      "sha256": "4edab08f57ccf2c2a86662d19a6b31e8ff84a86c2980ae7ed9855abd1139c168",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/armada_client_package.md"
+    },
+    {
+      "path": "docs/armada_helm_charts.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/cee0cc3f7470910724194b85.md",
+      "kind": "official-document",
+      "bytes": 30414,
+      "sha256": "4479997050019c0ba8dcb4f7bc742aa4e158fef9f3506d8f8bb1576c586a0fac",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/armada_helm_charts.md"
+    },
+    {
+      "path": "docs/auth.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/d9cbd97d17d60b9a415f168c.md",
+      "kind": "official-document",
+      "bytes": 2353,
+      "sha256": "6b78ec67e9cfa611336df7856581e9e16f3c1d76a49500c29cb85a5acfcc4bdc",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/auth.md"
+    },
+    {
+      "path": "docs/client_libraries.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/66f06123be6315df6ef9dd5d.md",
+      "kind": "official-document",
+      "bytes": 689,
+      "sha256": "4ea9c8a37a303185f25f7263bf6bee42ba187152fc1a7e3e1ba108f7f45cacb7",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/client_libraries.md"
+    },
+    {
+      "path": "docs/creating_and_submitting_jobs.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/c44fefdfd6dc012c584b71a6.md",
+      "kind": "official-document",
+      "bytes": 6963,
+      "sha256": "b5af9f03753691da8b5a3b8dc9318313870b05634f62a6300a65fa8b61d1a176",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/creating_and_submitting_jobs.md"
+    },
+    {
+      "path": "docs/developer/armada-api.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/aada682ad9c476172c40f5d8.md",
+      "kind": "official-document",
+      "bytes": 6395,
+      "sha256": "b5586fc20251b49fb50c8f37b51b9cb1cb9787871dac98504243069aa66b7b82",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/armada-api.md"
+    },
+    {
+      "path": "docs/developer/developing-locally.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/e934174e70ff4dd143c8aadd.md",
+      "kind": "official-document",
+      "bytes": 2306,
+      "sha256": "e845aebedda0034bbf112027766678b9ff4e94899c026160cdd8443a0c302552",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/developing-locally.md"
+    },
+    {
+      "path": "docs/developer/job-lifecycle-events.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/650eeb57e6092d4b12845796.md",
+      "kind": "official-document",
+      "bytes": 36206,
+      "sha256": "94709af123a9a4d84bb86d8726bb1b7bc3b012adf71e459b93678697ec264408",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/job-lifecycle-events.md"
+    },
+    {
+      "path": "docs/developer/setting-up-oidc.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/d47a2af9a180ddcb0c1f17ac.md",
+      "kind": "official-document",
+      "bytes": 1625,
+      "sha256": "658126a1ac5fdac7665cafc4c4bbafb1ecffe495fc0cf79b3dc90a4de0cae77b",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/setting-up-oidc.md"
+    },
+    {
+      "path": "docs/developer/usage_metrics.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/ea91f7d38ae1da4f6695a0da.md",
+      "kind": "official-document",
+      "bytes": 1062,
+      "sha256": "3351fc43c97914596a2d16e8a0c3bd46230bcdd2fbc9948d6817059b8c24a21d",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/usage_metrics.md"
+    },
+    {
+      "path": "docs/developer/using-pprof.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/68907064e0c2768ab6ea0ff1.md",
+      "kind": "official-document",
+      "bytes": 1187,
+      "sha256": "00a9bb3f7691bd6814ff2ad4d4bf3cc5e66a208bde858f868a1fbcdfea1107d2",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/using-pprof.md"
+    },
+    {
+      "path": "docs/developer/website.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/0d919a4731626022a221f5dd.md",
+      "kind": "official-document",
+      "bytes": 177,
+      "sha256": "fd18947978f3677efadae188e86048474cb388bb414abc65379317c1f9c54069",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer/website.md"
+    },
+    {
+      "path": "docs/developer_guide.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/9fb4b4c09c69a3c8ce41b05e.md",
+      "kind": "official-document",
+      "bytes": 19586,
+      "sha256": "bd2ccaa504a8ff6df24e23446c486077e29c63f1b373b4366b6071f694c352ec",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/developer_guide.md"
+    },
+    {
+      "path": "docs/docs-readme.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/a8fc925798bda34f16f91fb2.md",
+      "kind": "official-document",
+      "bytes": 1363,
+      "sha256": "432b0fb19840c9c3e66dbada7847c41e8cfa54ad8f1937ab8d9ca87fec82232d",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/docs-readme.md"
+    },
+    {
+      "path": "docs/floating_resources.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/7ef333ae5068833cfbee934d.md",
+      "kind": "official-document",
+      "bytes": 1872,
+      "sha256": "e53ef37b698b861c847a251c8a0767fb58c5742457b9eb6822fe155c62e29af8",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/floating_resources.md"
+    },
+    {
+      "path": "docs/maintaining_consistency_across_views.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/1fdd7c21d9072db8714efff7.md",
+      "kind": "official-document",
+      "bytes": 4443,
+      "sha256": "f8da1a9e5684c9618913b8951b331cd4abca50d8b8109bf47660499dff6da68f",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/maintaining_consistency_across_views.md"
+    },
+    {
+      "path": "docs/retry_policies.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/b1ae43b715f339bccb6a402f.md",
+      "kind": "official-document",
+      "bytes": 16711,
+      "sha256": "5f86fc789c355f81d72a0088b069000adf11e276158fa57c3f03cbd2f7498440",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/retry_policies.md"
+    },
+    {
+      "path": "docs/scheduling_and_preempting_jobs.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/b0235cc6ccbdaec451f8897e.md",
+      "kind": "official-document",
+      "bytes": 16689,
+      "sha256": "04c72086824f3cdb5d86a0a41b9a3a6baadddf21381e17ef72cb83b32bb10914",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/scheduling_and_preempting_jobs.md"
+    },
+    {
+      "path": "docs/system_overview.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/5f24b433a17bffc1b1d19571.md",
+      "kind": "official-document",
+      "bytes": 8334,
+      "sha256": "4f1bd02514c4636b45dd43b0b5aaa93716b251b4610dac18f2e309d0df68265b",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/docs/system_overview.md"
+    },
+    {
+      "path": "internal/lookoutui/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/4eebb969a3dc0fdd21a6a439.md",
+      "kind": "official-document",
+      "bytes": 5701,
+      "sha256": "4725d25c81f7c7ea27c8b6f4905022bd0d2beeae1f9e3d3ec3471be658654f6c",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/internal/lookoutui/README.md"
+    },
+    {
+      "path": "internal/lookoutui/src/analytics/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/492dc86210ef19a0dc71b1b0.md",
+      "kind": "official-document",
+      "bytes": 7309,
+      "sha256": "b6a8163140d5aa564ef72ba86ef97ec7b0c7a91f8c863cac5aaba0c4318aaab0",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/internal/lookoutui/src/analytics/README.md"
+    },
+    {
+      "path": "plugins/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/8b2fec43efe67316d27984b7.md",
+      "kind": "official-document",
+      "bytes": 2818,
+      "sha256": "31a603eaee2ff05f1df068c647076daee030d7ff43b04530465772c13a1a53ec",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/plugins/README.md"
+    },
+    {
+      "path": "testsuite/testcases/queue/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/58c7bb2c36c957cdc14c6753.md",
+      "kind": "official-document",
+      "bytes": 2715,
+      "sha256": "b0affe644d589c0ca42b016cec04ec9f193b48bf7d9acdb8dd157e6bbd9beb57",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/testsuite/testcases/queue/README.md"
+    },
+    {
+      "path": "website/README.md",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/0eb684c3ea7be1b3de6b0b15.md",
+      "kind": "official-document",
+      "bytes": 1443,
+      "sha256": "7ae41d7e5b3e98cbd6d8cd9acedb7f29d31d17aab303aaddb5bf1ad3e7b590a9",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/website/README.md"
+    },
+    {
+      "path": "website/content/architecture.mdx",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/17bbe58483c1ffe4e5f04b46.mdx",
+      "kind": "official-document",
+      "bytes": 135,
+      "sha256": "41788ccbbd3943e55f17837e9143fd854614f2200bced9ae94c1e9c99df86079",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/website/content/architecture.mdx"
+    },
+    {
+      "path": "website/content/design/architecture.mdx",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/4837aef8cad54626de199281.mdx",
+      "kind": "official-document",
+      "bytes": 142,
+      "sha256": "f9e17ed6627854188cc8a0bc255df9d12008c677538e62a1b5aee7ac37f2e43f",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/website/content/design/architecture.mdx"
+    },
+    {
+      "path": "website/content/understanding-armada/architecture.mdx",
+      "localPath": "raw/armadaproject--armada/eb27b1f4235a/66a2b1459f73994c4b0f257a.mdx",
+      "kind": "official-document",
+      "bytes": 5301,
+      "sha256": "7e26543cda4d5aeaa89f1928e2889d744f89d969ca5090964ea7e30a17ace748",
+      "sourceUrl": "https://github.com/armadaproject/armada/blob/eb27b1f4235a0dc5a9c2d4bc82b776f4410e1280/website/content/understanding-armada/architecture.mdx"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

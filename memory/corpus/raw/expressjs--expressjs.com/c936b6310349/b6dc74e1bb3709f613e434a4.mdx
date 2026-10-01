@@ -1,0 +1,98 @@
+---
+title: 基本路由
+description: 学习 Express.js 应用程序中路由的基础知识，包括如何定义路由、处理 HTTP 方法以及为 Web 服务器创建路由处理程序。
+---
+
+import Alert from '@components/primitives/Alert/Alert.astro';
+
+路由用于定义应用程序如何响应客户端对指定端点的请求；端点由统一资源标识符（URI，或称路径）和具体的 HTTP 请求方法（GET、POST 等）组成。
+
+每条路由可配置一个或多个处理函数，匹配到该路由时就会执行这些函数。
+
+路由的定义格式如下：
+
+```js
+app.METHOD(PATH, HANDLER);
+```
+
+其中：
+
+- `app` 是 `express` 的实例。
+- `METHOD` 是小写形式的 [HTTP 请求方法](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Reference/Methods)。
+- `PATH` 是服务器上的路径。
+- `HANDLER` 是路由匹配时执行的函数。
+
+<Alert type="alert">
+
+本教程假设已创建一个名为 `app` 的 `express` 实例，且服务器正在运行。 If you are not familiar with creating an app and starting it, see the Hello world
+example.
+
+</Alert>
+
+以下示例演示如何定义简单路由。
+
+在主页响应 `Hello World!`：
+
+```js
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.get('/', (req: Request, res: Response) => {
+  res.send('Hello World!');
+});
+```
+
+响应根路由（/）应用的主页的 POST 请求：
+
+```js
+app.post('/', (req, res) => {
+  res.send('Got a POST request');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.post('/', (req: Request, res: Response) => {
+  res.send('Got a POST request');
+});
+```
+
+响应 `/user` 路由的 PUT 请求：
+
+```js
+app.put('/user', (req, res) => {
+  res.send('Got a PUT request at /user');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.put('/user', (req: Request, res: Response) => {
+  res.send('Got a PUT request at /user');
+});
+```
+
+响应 `/user` 路由的 DELETE 请求：
+
+```js
+app.delete('/user', (req, res) => {
+  res.send('Got a DELETE request at /user');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.delete('/user', (req: Request, res: Response) => {
+  res.send('Got a DELETE request at /user');
+});
+```
+
+For more details about routing, see the [routing guide](/guide/routing).

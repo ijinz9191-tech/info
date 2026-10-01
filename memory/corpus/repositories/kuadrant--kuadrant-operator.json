@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 1,
+  "repo": "kuadrant/kuadrant-operator",
+  "commit": "03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f",
+  "retrievedAt": "2026-10-01T15:21:56.677447+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/API Gateway"
+  ],
+  "archiveUrl": "https://codeload.github.com/kuadrant/kuadrant-operator/zip/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f",
+  "archiveSha256": "398913e7f705ca479ba9bacd09616d090afed05a82085ac7a30893e89c58339a",
+  "archiveBytes": 2572205,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 99,
+    "code": 1,
+    "licenses": 1,
+    "bytes": 1020358
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 12316,
+      "sha256": "d2986ccea4595e118ea909cf394b71f0de755ccf95754492ea827aea02af922a",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/CLAUDE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 815,
+      "sha256": "802380bc7147e4a63ba322922d3d863811e72394c05e64e7f11cdbe15b880091",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 2571,
+      "sha256": "4f6692e5bde58d1857836a64d7a4ca2efc60dd51d1e34d3d44ba4a38ded99d72",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/README.md"
+    },
+    {
+      "path": "RELEASE.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/2b1b69303b927a484e02c7fa.md",
+      "kind": "official-document",
+      "bytes": 10445,
+      "sha256": "2efa68b2627a0b8fdf7019c0d86e1459dedc98c6e2c0abc718b02e87d0442610",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/RELEASE.md"
+    },
+    {
+      "path": "charts/kuadrant-operator/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/2efc9183ba99a72d4401115e.md",
+      "kind": "official-document",
+      "bytes": 1687,
+      "sha256": "2965f41ea9efe5b2bf349faa47a98b690fc9454049a80a7f3a8963012c15962b",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/charts/kuadrant-operator/README.md"
+    },
+    {
+      "path": "component-charts/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/1b7f9f1889d24dc58f2b2405.md",
+      "kind": "official-document",
+      "bytes": 863,
+      "sha256": "d5025e75916b590ece45b2f0bea5bdf726ef639910840b30dd5b58ebea7d4f8b",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/component-charts/README.md"
+    },
+    {
+      "path": "component-charts/authorino-operator/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/61907d46069237645177f467.md",
+      "kind": "official-document",
+      "bytes": 564,
+      "sha256": "48f42cd5cfb87664b49f1cc965400c4a37aaab0747a92be2a8d5243b78692732",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/component-charts/authorino-operator/README.md"
+    },
+    {
+      "path": "component-charts/dns-operator/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/317053bd3d5a4e3bc3cb82b9.md",
+      "kind": "official-document",
+      "bytes": 553,
+      "sha256": "f1b07704b7e2194f385b943694746b0bfd4fadbce6957221e3898ff8aad96c41",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/component-charts/dns-operator/README.md"
+    },
+    {
+      "path": "component-charts/limitador-operator/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/eafdedf6164e5cee8f54e4c8.md",
+      "kind": "official-document",
+      "bytes": 566,
+      "sha256": "d87f7b19069e04ed5d67cab0b83563d2ae37c38892c1d1582eeb91ba9c36ce0a",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/component-charts/limitador-operator/README.md"
+    },
+    {
+      "path": "config/install/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/41b2bfd10d12bf1435912a76.md",
+      "kind": "official-document",
+      "bytes": 103,
+      "sha256": "7f0d798f9a194cf227b7238131e05413eab7c2cb7ed07e6bdea27c16c2a4c44f",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/config/install/README.md"
+    },
+    {
+      "path": "config/observability/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/e481ec246c0c79ee6164efb4.md",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "70d7049d8ac1d8984664b40ca139f2628e172125fdafc7b9deb9058c5911af0e",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/config/observability/README.md"
+    },
+    {
+      "path": "config/observability/tracing/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/d7f2a958612bafdf1fcc60c5.md",
+      "kind": "official-document",
+      "bytes": 1957,
+      "sha256": "f8a7ca51f4d3068306ca96376fbd5fda32eb8879ec690b3ed12a738d832f9970",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/config/observability/tracing/README.md"
+    },
+    {
+      "path": "doc/cel/extensions/optional.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/cdb85df390e2b92f4f008459.md",
+      "kind": "official-document",
+      "bytes": 4915,
+      "sha256": "fbde07ba7b616b291a739cee4fd89e0192e594c5afc1833da62e8259751cc726",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/cel/extensions/optional.md"
+    },
+    {
+      "path": "doc/cel/extensions/strings.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/bf964c19f8cc8fbc836d4f05.md",
+      "kind": "official-document",
+      "bytes": 9664,
+      "sha256": "3baa4d74ed46b3bc8483a96e7c95c5f27de4982420da7686f95b786e94bf1996",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/cel/extensions/strings.md"
+    },
+    {
+      "path": "doc/cel/introduction.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/5bbf2ba2ad711b9423515747.md",
+      "kind": "official-document",
+      "bytes": 7876,
+      "sha256": "0e39a7aceeee852fa5f6ffefeb2356cfe8478681038d18c5e8034b693c21b22c",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/cel/introduction.md"
+    },
+    {
+      "path": "doc/cel/standard.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/5d6a747a23ffd7f0270afbd5.md",
+      "kind": "official-document",
+      "bytes": 11836,
+      "sha256": "0c3bc36cf343ed46ca6f457c03924c1fb9f855f2270c9d6ba652b3e29442b95b",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/cel/standard.md"
+    },
+    {
+      "path": "doc/extensions/authoring-extensions.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/be8d5e18b08bea4e613f3fe2.md",
+      "kind": "official-document",
+      "bytes": 23352,
+      "sha256": "1ec63f40ff524949200a3269af88d5fe4cfa7e905a0b84139e8baf48ae02e0e6",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/extensions/authoring-extensions.md"
+    },
+    {
+      "path": "doc/extensions/extension-sdk-developer-guide.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/d656157d08df540ceda60f21.md",
+      "kind": "official-document",
+      "bytes": 4562,
+      "sha256": "e14c7fa6ff0c90a00d2083a5b8a22cc15b7a197c7e5086c678eb7ef9e3b663d9",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/extensions/extension-sdk-developer-guide.md"
+    },
+    {
+      "path": "doc/extensions/oidcpolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/7e2eea531ce86ff363749a3a.md",
+      "kind": "official-document",
+      "bytes": 6773,
+      "sha256": "cc6d3089045a399d23b76229fdfc384ccd7f285c81d5e6da87cffbd295bd5d27",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/extensions/oidcpolicy.md"
+    },
+    {
+      "path": "doc/extensions/planpolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/cbf259223256caf9880761fe.md",
+      "kind": "official-document",
+      "bytes": 5546,
+      "sha256": "e9afb883ee2dd15dbd168673e62eeb7eeb2abd6583daf4bc633a1c97046dc3f0",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/extensions/planpolicy.md"
+    },
+    {
+      "path": "doc/install/install-make.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/3ba11829e60dea39ff33ed22.md",
+      "kind": "official-document",
+      "bytes": 998,
+      "sha256": "ec1f0cac58bd368c239eb395edd4dea54c60706610964bcb1dd1ad82bbb523f1",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/install/install-make.md"
+    },
+    {
+      "path": "doc/install/mtls-configuration.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/f58493e07185c2088e765242.md",
+      "kind": "official-document",
+      "bytes": 3861,
+      "sha256": "e4b2928a09f23917793ff189605ade54635b851cb4417eca5ac98d7eed72833c",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/install/mtls-configuration.md"
+    },
+    {
+      "path": "doc/install/multi-cluster-dns-confgiuration.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a8dff1a75ab1dc60fb23c44a.md",
+      "kind": "official-document",
+      "bytes": 4484,
+      "sha256": "518ee7a940be6a430dc5f2eb1723678685843f33986c8ff9c1b98e54950e93ad",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/install/multi-cluster-dns-confgiuration.md"
+    },
+    {
+      "path": "doc/observability/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/c287b225c1d3f8a0c2223bf4.md",
+      "kind": "official-document",
+      "bytes": 5052,
+      "sha256": "9b585f020c23a6730cbfabd8a6a2f6684ce42bfb35baddb65afcb6cf9a2ae5a4",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/observability/README.md"
+    },
+    {
+      "path": "doc/observability/envoy-access-logs.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/be4043d5bc3a2c118ddcbde6.md",
+      "kind": "official-document",
+      "bytes": 11628,
+      "sha256": "cbac5eab90e22c92c599dcbee178c95fa64dae286f95020a8845a649425491a2",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/observability/envoy-access-logs.md"
+    },
+    {
+      "path": "doc/observability/examples.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/0384e79da36d8fc189104107.md",
+      "kind": "official-document",
+      "bytes": 2759,
+      "sha256": "11bafb1476fd100bdf2074218f75f873b00ae0511a7cf64dec9f7ac3ae22f0c5",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/observability/examples.md"
+    },
+    {
+      "path": "doc/observability/metrics.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/9c86737ee2e52e23e4f60118.md",
+      "kind": "official-document",
+      "bytes": 10413,
+      "sha256": "4465f372e1a50a6e831d2d74a6394f4e2d2a13b535bba0224a601dc2cb225016",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/observability/metrics.md"
+    },
+    {
+      "path": "doc/observability/profiling.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a1cd4369fc84c7b0e9797162.md",
+      "kind": "official-document",
+      "bytes": 3286,
+      "sha256": "cd1271fe1ca3372a695a4e3fa9d703505dc2fff21a68b5f718a97e8ef21ca1cd",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/observability/profiling.md"
+    },
+    {
+      "path": "doc/observability/tracing.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/dcc988a9db9d1bc5eed7f320.md",
+      "kind": "official-document",
+      "bytes": 30372,
+      "sha256": "cb459d8396149a9df5c91fc65bb128be4a5335be974f8d309f6b6eb467972727",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/observability/tracing.md"
+    },
+    {
+      "path": "doc/overviews/auth-x509.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/c66862202153ed1e11d4bdd4.md",
+      "kind": "official-document",
+      "bytes": 21212,
+      "sha256": "d23fdc5ab4b8b73f91570066589424ea6162bd0b3f13348397b3a0c0bde6df61",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/auth-x509.md"
+    },
+    {
+      "path": "doc/overviews/auth.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/37ac0486a7c25d592f84f37a.md",
+      "kind": "official-document",
+      "bytes": 28480,
+      "sha256": "425b5b5a1e910aade6765f31f4ee27aa7c9d9878916231e4e62f45d364d3d652",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/auth.md"
+    },
+    {
+      "path": "doc/overviews/development.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/18201be55edf2ba39c1780a9.md",
+      "kind": "official-document",
+      "bytes": 19223,
+      "sha256": "14df960ddb1047f041dcfee7dcb5f90ffccce1e9854617e3cbe1214425a23a69",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/development.md"
+    },
+    {
+      "path": "doc/overviews/dns.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/2408cb20b37d2351dbc69c18.md",
+      "kind": "official-document",
+      "bytes": 15415,
+      "sha256": "b7d7f4f673b8f17a01fbdcb002f83222478e1a94066fc1ab3afee835d9d1cdac",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/dns.md"
+    },
+    {
+      "path": "doc/overviews/extension-sdk.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/ae39cbc57523af22473a2cf0.md",
+      "kind": "official-document",
+      "bytes": 11173,
+      "sha256": "191f450bf790b0cf483ebb2590917024922a3e6ffb882c9a2adc94a6caa2bb7a",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/extension-sdk.md"
+    },
+    {
+      "path": "doc/overviews/helm-charts-release-process.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/9eab1c1cae6926af26e57fa7.md",
+      "kind": "official-document",
+      "bytes": 15096,
+      "sha256": "45571cda7bccba810a47c6904d82e7cfe8a8d86b21c6f7ca854ec547f8e5faf2",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/helm-charts-release-process.md"
+    },
+    {
+      "path": "doc/overviews/logging.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/3f331e5e3079179c8646390f.md",
+      "kind": "official-document",
+      "bytes": 5676,
+      "sha256": "08767a699f30285140395798e401596e80a13dc2f884256086d9e0dbca876fc7",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/logging.md"
+    },
+    {
+      "path": "doc/overviews/openshift-tls-profile.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/77a83886678b1f2febff54cc.md",
+      "kind": "official-document",
+      "bytes": 4242,
+      "sha256": "474d22db08ba86663a4fe6e87ec2f563b8edd64203757668ae63b38c6e2098f1",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/openshift-tls-profile.md"
+    },
+    {
+      "path": "doc/overviews/rate-limiting.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/bc4fe999c3454425aa8d1c89.md",
+      "kind": "official-document",
+      "bytes": 19345,
+      "sha256": "6dd45f6894027d5051b40da7702d88b1d89ffa7f5f8e3d9c2352464542433f64",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/rate-limiting.md"
+    },
+    {
+      "path": "doc/overviews/telemetrypolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/5159def7204c37d3fb5efc40.md",
+      "kind": "official-document",
+      "bytes": 1090,
+      "sha256": "d8f6525b2e77c634418332fcaa53a8fd7307d4bfc5dcf95b5b9821522d594fab",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/telemetrypolicy.md"
+    },
+    {
+      "path": "doc/overviews/tls.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/267bbbb5b0f6cca15e41a355.md",
+      "kind": "official-document",
+      "bytes": 2096,
+      "sha256": "6aaecde6b1677c0fc7bf08299f2eecfbd79238ee5dd98404f5a64ce4b65ad9cf",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/tls.md"
+    },
+    {
+      "path": "doc/overviews/token-rate-limiting.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/51a90cb5b4d22e940eca5119.md",
+      "kind": "official-document",
+      "bytes": 15096,
+      "sha256": "4b44f11a4b63c877b1008c4a1269c76f69347469df1a030ea2b7b1f6f44b2563",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/overviews/token-rate-limiting.md"
+    },
+    {
+      "path": "doc/proposals/extensions-SDK-action-pipeline-design.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a81bfe070b5eb3aaf00d1ca8.md",
+      "kind": "official-document",
+      "bytes": 29293,
+      "sha256": "799bdb59a746f6a29f9ce338cd0550db35811f2d99d6e4642a419623a7a92120",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/proposals/extensions-SDK-action-pipeline-design.md"
+    },
+    {
+      "path": "doc/proposals/extensions-SDK-register-upstream-method-design.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/0fae0f58afeb6d8792304a8b.md",
+      "kind": "official-document",
+      "bytes": 28888,
+      "sha256": "19af7228723fe4252da370075001f43c2bf48c3184bdfd1f47d55a8397a23b10",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/proposals/extensions-SDK-register-upstream-method-design.md"
+    },
+    {
+      "path": "doc/proposals/grpc-reflection-dynamic-messages-design.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/d015d886c84378755802eef5.md",
+      "kind": "official-document",
+      "bytes": 32966,
+      "sha256": "e5e3d0f9c9f4050e8ed985f5ca124f84e654ca4f9765b849a4a694322e76d157",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/proposals/grpc-reflection-dynamic-messages-design.md"
+    },
+    {
+      "path": "doc/proposals/rlp-target-gateway-resource.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/8bfbb30f1a814f7450a7bf5c.md",
+      "kind": "official-document",
+      "bytes": 16959,
+      "sha256": "f90ef36f6d01200da40b81c54b58e400b11e1443af3c2c1e47b9ea8a3e0207c5",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/proposals/rlp-target-gateway-resource.md"
+    },
+    {
+      "path": "doc/reference/authpolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/26c9c8e6e0270e2e23853830.md",
+      "kind": "official-document",
+      "bytes": 35723,
+      "sha256": "5b9b8dddac305155d48dcd38af43ba2aee10ed69341a6711d9aede11c10c39b0",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/authpolicy.md"
+    },
+    {
+      "path": "doc/reference/dnspolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/b48f2fa3f9710a86fa75880f.md",
+      "kind": "official-document",
+      "bytes": 13151,
+      "sha256": "d1f6d8e5bcc927cd7fb2a9614e3c926a59a276b4e59a60d649c11fd5b89026f5",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/dnspolicy.md"
+    },
+    {
+      "path": "doc/reference/kuadrant.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/ff9d30764d91d469dfc32455.md",
+      "kind": "official-document",
+      "bytes": 10564,
+      "sha256": "5a704a519e4f847d1dd1e1469905af31bdb40a9012693ddc872377e7efa93360",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/kuadrant.md"
+    },
+    {
+      "path": "doc/reference/ratelimitpolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/83f6be536c1555832732be7d.md",
+      "kind": "official-document",
+      "bytes": 13530,
+      "sha256": "4b931beea3daeaa37f98620e8edae8313da77f865d8c52f69305e7ba52d8045f",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/ratelimitpolicy.md"
+    },
+    {
+      "path": "doc/reference/telemetrypolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/9ff603298b62da06eef44825.md",
+      "kind": "official-document",
+      "bytes": 8689,
+      "sha256": "e1a82906234e31ce99ee49faa957c58b561f6cf5d96a4833ea67687375304b31",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/telemetrypolicy.md"
+    },
+    {
+      "path": "doc/reference/tlspolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/26723f280ca523cdf574d60a.md",
+      "kind": "official-document",
+      "bytes": 5003,
+      "sha256": "ba74fc61cf183f0e0e3429b0f39895914bdd2782149daaaa79afc898aeb0e52d",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/tlspolicy.md"
+    },
+    {
+      "path": "doc/reference/tokenratelimitpolicy.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/095a4c94c6ff428ce1ed3d80.md",
+      "kind": "official-document",
+      "bytes": 21696,
+      "sha256": "c5a1ba30530faf87a4c042ded581a80bb8804e97713ddb6df2d659eb290678c0",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/reference/tokenratelimitpolicy.md"
+    },
+    {
+      "path": "doc/user-guides/auth/anonymous-access.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/dc10874902e5e2208c192ecc.md",
+      "kind": "official-document",
+      "bytes": 4080,
+      "sha256": "bbcfc5c3e769b2090a628f8daeb83fdec9526fd03ef1c497fae30c6b4278c6cf",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/anonymous-access.md"
+    },
+    {
+      "path": "doc/user-guides/auth/app-id-app-key-authentication.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/e7cb2947832f765c277351a5.md",
+      "kind": "official-document",
+      "bytes": 16285,
+      "sha256": "7033d004303f837d5c2529a3722934086a680cd843dbd1c4e2f1de4d2315b256",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/app-id-app-key-authentication.md"
+    },
+    {
+      "path": "doc/user-guides/auth/auth-for-app-devs-and-platform-engineers.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/d4aadbd4a718766dc18d2192.md",
+      "kind": "official-document",
+      "bytes": 11567,
+      "sha256": "4bdd81f530c1f552212d578b334f043efe219b666b731fae376cb2942ff71151",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/auth-for-app-devs-and-platform-engineers.md"
+    },
+    {
+      "path": "doc/user-guides/auth/x509-authentication.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/c3b429bc95e4a5978c8cec22.md",
+      "kind": "official-document",
+      "bytes": 4509,
+      "sha256": "ebe8c3c2bd5bbefa27c9293604cd641e743c3594cff442baac25b75f23025806",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/x509-authentication.md"
+    },
+    {
+      "path": "doc/user-guides/auth/x509-tier1-gateway-api-validation.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a378001c2cf1ab6691be26f2.md",
+      "kind": "official-document",
+      "bytes": 17449,
+      "sha256": "5f71f764d20fef03ec6ccdfed651f7f3354f56ff02576cf7f7eedcc4c722a96d",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/x509-tier1-gateway-api-validation.md"
+    },
+    {
+      "path": "doc/user-guides/auth/x509-tier2-provider-specific.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/7ff24131a5a6541ecad784ed.md",
+      "kind": "official-document",
+      "bytes": 13730,
+      "sha256": "f55aeb3234eef0f7e6fc856b27d3a5fa158dd76e54daa47211cd52485684d1d4",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/x509-tier2-provider-specific.md"
+    },
+    {
+      "path": "doc/user-guides/auth/x509-tier3-header-only.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a13076e60178f3a63eca6c1d.md",
+      "kind": "official-document",
+      "bytes": 16851,
+      "sha256": "6beaceddc4ca7bec424fed58dc3bf7a1a4ee4a8f519075e6721220415a02737e",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/auth/x509-tier3-header-only.md"
+    },
+    {
+      "path": "doc/user-guides/dns/basic-dns-configuration.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/8c3e69761d4a8bce2784f625.md",
+      "kind": "official-document",
+      "bytes": 4838,
+      "sha256": "f599a4d21dd81d6686d7717c2e27b598c8b8dd2e0b3db40e10d4e4eeb7224f70",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/basic-dns-configuration.md"
+    },
+    {
+      "path": "doc/user-guides/dns/core-dns.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/3fa6e057f4eb45d40c0414d3.md",
+      "kind": "official-document",
+      "bytes": 22697,
+      "sha256": "2c17bccffc84aaae2f5ae5dfbf50da97b3cc836973ef89f7e7ade81865b8e5da",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/core-dns.md"
+    },
+    {
+      "path": "doc/user-guides/dns/dns-excluding-specific-addresses.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/940841b22f21512c45c4ed40.md",
+      "kind": "official-document",
+      "bytes": 1322,
+      "sha256": "028e371348b0d4827f8576c5db79653101bbb0245e591a6977b00782239d8899",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/dns-excluding-specific-addresses.md"
+    },
+    {
+      "path": "doc/user-guides/dns/dnshealthchecks.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a0385ce5d92647dc31bc09f0.md",
+      "kind": "official-document",
+      "bytes": 7844,
+      "sha256": "ecd622d37e5011714c2c23a3fbd14b37e96bc962ecaa26f67df5bc6d4450b70d",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/dnshealthchecks.md"
+    },
+    {
+      "path": "doc/user-guides/dns/gateway-dns.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/1e736c2c6d383a71ea191802.md",
+      "kind": "official-document",
+      "bytes": 4440,
+      "sha256": "91c005cf49cb3d5d72a7f980f07b97a7c66d7f6db143eeeddc0c206b6184a8b2",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/gateway-dns.md"
+    },
+    {
+      "path": "doc/user-guides/dns/load-balanced-dns.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/d69f881c3553551c2f388bfd.md",
+      "kind": "official-document",
+      "bytes": 8229,
+      "sha256": "c5e2bb832f028ba47638ffe2ee4f10d2d5a7bdda3df26564e907f987e73f91ca",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/load-balanced-dns.md"
+    },
+    {
+      "path": "doc/user-guides/dns/orphan-dns-records.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/fdf83d2c850885dd12f001e0.md",
+      "kind": "official-document",
+      "bytes": 4611,
+      "sha256": "4a228c59b9153ac72b71f5e48f5e5f4058eac8e7bd7ef61edcbd4f9370fdb2c6",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/orphan-dns-records.md"
+    },
+    {
+      "path": "doc/user-guides/dns/understanding_dns_delegation.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/7d12a974db8880fb1402b53c.md",
+      "kind": "official-document",
+      "bytes": 3646,
+      "sha256": "92d581aa38c2f77a1468b5c7d60d1409845fd13229115c0ae40189e89f5d91f4",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/dns/understanding_dns_delegation.md"
+    },
+    {
+      "path": "doc/user-guides/egress/credential-injection.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/954a3225db59053b9aa68539.md",
+      "kind": "official-document",
+      "bytes": 10730,
+      "sha256": "c86135a4b5b8726720112ac834d01b7758b9665d8ca2de5459a0e774d19cb090",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/egress/credential-injection.md"
+    },
+    {
+      "path": "doc/user-guides/egress/dns-routing.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/2394f5e32a6fe78d4a8f982e.md",
+      "kind": "official-document",
+      "bytes": 13084,
+      "sha256": "7e5bdde4b45e4f18aefa4e56fe17b6723852b88202539623b7af7797fc29bf52",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/egress/dns-routing.md"
+    },
+    {
+      "path": "doc/user-guides/egress/egress-gateway.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/b2949fabcdb21b1613005522.md",
+      "kind": "official-document",
+      "bytes": 13048,
+      "sha256": "39246aa60dcc7f895b36d756be0025a7e516e6ed504bbbc60f399c499ae9094c",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/egress/egress-gateway.md"
+    },
+    {
+      "path": "doc/user-guides/egress/observability.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/e9a24527c0744ce28ccf7276.md",
+      "kind": "official-document",
+      "bytes": 42333,
+      "sha256": "d290b9c46fab6ea18759db395901f16c927cc72834815ac6fa1f36a12132cf41",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/egress/observability.md"
+    },
+    {
+      "path": "doc/user-guides/egress/token-rate-limiting.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/886088b9503e95fc109dc2d5.md",
+      "kind": "official-document",
+      "bytes": 18954,
+      "sha256": "615324bb45a6e85289729569e040f16704eb97325c9d2c35c66d48f0125ea8eb",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/egress/token-rate-limiting.md"
+    },
+    {
+      "path": "doc/user-guides/full-walkthrough/secure-protect-connect.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/afd59eb1204ab628124df099.md",
+      "kind": "official-document",
+      "bytes": 14054,
+      "sha256": "06378be3c5ae0f34ccf6bcbcc8b824b14dee8427f48487b830cf90556405fcec",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/full-walkthrough/secure-protect-connect.md"
+    },
+    {
+      "path": "doc/user-guides/misc/external-api.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/b3762de8fa5634cb10d678c3.md",
+      "kind": "official-document",
+      "bytes": 5980,
+      "sha256": "ea817537e976c102ea83a9612eb0f98edef52eb83cf289fc6029aa29ca95bc81",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/misc/external-api.md"
+    },
+    {
+      "path": "doc/user-guides/observability/limitador-metrics.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/068bdabaec6810a2e14eafac.md",
+      "kind": "official-document",
+      "bytes": 12279,
+      "sha256": "5b450f10932415d3f2412580ca008f7ad99f1eb5cd963f69db381ce22bd1ebd5",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/observability/limitador-metrics.md"
+    },
+    {
+      "path": "doc/user-guides/observability/monitors.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/e96180ddbd47f0a8f857710c.md",
+      "kind": "official-document",
+      "bytes": 1981,
+      "sha256": "9b1ee7f40808972cf5e5ad3c9e5a66e6a2d18b899255f34514b319c791f872e6",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/observability/monitors.md"
+    },
+    {
+      "path": "doc/user-guides/observability/token-metrics.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/e464c5028a486a033bfe52e4.md",
+      "kind": "official-document",
+      "bytes": 11993,
+      "sha256": "267872a9aeb5c937f23bbda75d796fbcaeaece5f446fc22d06fc00015735787a",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/observability/token-metrics.md"
+    },
+    {
+      "path": "doc/user-guides/oidcpolicy/oidc-gitlab.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/81376a6f964120995113c5f5.md",
+      "kind": "official-document",
+      "bytes": 5932,
+      "sha256": "32179a35d8c43e94364f8309ab2890a095a45695c269a98e230980818ee761d3",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/oidcpolicy/oidc-gitlab.md"
+    },
+    {
+      "path": "doc/user-guides/oidcpolicy/oidc-keycloak.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/7f8e07bcd60c3def78cf22e9.md",
+      "kind": "official-document",
+      "bytes": 5897,
+      "sha256": "28d92a8528b08bd3cd27b2c47045065193f54933fe7c5f207e2db068ecc7d4e3",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/oidcpolicy/oidc-keycloak.md"
+    },
+    {
+      "path": "doc/user-guides/planpolicy/plan-based-rate-limiting.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/3f1d7b5e06152fd44d39aa4e.md",
+      "kind": "official-document",
+      "bytes": 9453,
+      "sha256": "adf8683e3210bcebe50386f1cf9ad09570e07f95309b9412ff039238ab82b0f4",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/planpolicy/plan-based-rate-limiting.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/authenticated-rl-for-app-developers-grpc-services.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/6715238c777693c7bd8773e2.md",
+      "kind": "official-document",
+      "bytes": 11340,
+      "sha256": "e7fad92de6b1fbc056bd2578d19b5c445745068835c61723286d59a1ef4494f1",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/authenticated-rl-for-app-developers-grpc-services.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/authenticated-rl-for-app-developers.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/e7e4208b08b781682909f7b8.md",
+      "kind": "official-document",
+      "bytes": 8285,
+      "sha256": "6e51d91d6af5e9296094d6efcc2d3e66a74acc61b4371ba98cdccf5e5cb68b7b",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/authenticated-rl-for-app-developers.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/authenticated-rl-with-jwt-and-k8s-authnz.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/0495c13e71fd532704c1365c.md",
+      "kind": "official-document",
+      "bytes": 12905,
+      "sha256": "65e5063e0db9943ca8c31f368c94f42053286b1a37c8cdfee516fca8db9bdad9",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/authenticated-rl-with-jwt-and-k8s-authnz.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/gateway-rl-for-cluster-operators.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/44b3e3c11d8eb2689c294b91.md",
+      "kind": "official-document",
+      "bytes": 5702,
+      "sha256": "52b4c990e26b967f610eba7d63d2fde0b4751b5865f5a155b516222eb12b199d",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/gateway-rl-for-cluster-operators.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/multi-auth-rlp-diff-section.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/2cf4578abc5da22066b0fefa.md",
+      "kind": "official-document",
+      "bytes": 3406,
+      "sha256": "e6bfcafeab7e78bd4271c294b169318f6e214ae4a67b26feb413b308612d46aa",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/multi-auth-rlp-diff-section.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/multi-auth-rlp-same-section.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/5123c282019a5e960884a684.md",
+      "kind": "official-document",
+      "bytes": 8276,
+      "sha256": "d4c40caaa99f17750b327b6de15cbc7dd53cc38043359a40ebcd53121860486d",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/multi-auth-rlp-same-section.md"
+    },
+    {
+      "path": "doc/user-guides/ratelimiting/simple-rl-for-app-developers.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/46401149c1c1ab4cb05a7fb7.md",
+      "kind": "official-document",
+      "bytes": 5490,
+      "sha256": "623edb13eda687065dfa460ebcd4066e23ad8ee5a7f522886b2048a38618b174",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/ratelimiting/simple-rl-for-app-developers.md"
+    },
+    {
+      "path": "doc/user-guides/rbac/gateway-api-personas.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/24f5dcc056c8a921c3499342.md",
+      "kind": "official-document",
+      "bytes": 23817,
+      "sha256": "403357a32c8a3ea6ca7e62e9c5f3dc68d700dffcb1d20e1ec40b0f5aada16914",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/rbac/gateway-api-personas.md"
+    },
+    {
+      "path": "doc/user-guides/tls/gateway-tls.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/3b68a1496a41d48cbfe7abce.md",
+      "kind": "official-document",
+      "bytes": 6352,
+      "sha256": "f161333d45e121afd18d6ad219ba97166493613b8263ef7595f5477f575446c9",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/tls/gateway-tls.md"
+    },
+    {
+      "path": "doc/user-guides/tokenratelimitpolicy/authenticated-token-ratelimiting-tutorial.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/d01b17530d34f840d755c47f.md",
+      "kind": "official-document",
+      "bytes": 13361,
+      "sha256": "cc0a1941804148e96e167e5e82bf460fe055189ad7afefc74f786edfdc7e1420",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/doc/user-guides/tokenratelimitpolicy/authenticated-token-ratelimiting-tutorial.md"
+    },
+    {
+      "path": "examples/alerts/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/9eca48fb6b4ee257b9f37ccf.md",
+      "kind": "official-document",
+      "bytes": 2294,
+      "sha256": "77839f25d28566bab0595c4740aa5ff3a964c1f61b84f88dad6ded23fcff51ad",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/examples/alerts/README.md"
+    },
+    {
+      "path": "examples/dnspolicy/script.sh",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/223a1e94db4eb457262d92dc.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1271,
+      "sha256": "8ebbf924a3d963168e0b727e227bb26e898a3163d925d2f9e02d470a0fa3dc33",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/examples/dnspolicy/script.sh"
+    },
+    {
+      "path": "examples/grpc-backend/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/7726b53e8a74d9de5ef28b38.md",
+      "kind": "official-document",
+      "bytes": 4040,
+      "sha256": "a9963998ffc0a8fe6159fe9354c679c5c0c2f64fd27d89fe9720524d0fd6629d",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/examples/grpc-backend/README.md"
+    },
+    {
+      "path": "examples/grpc-backend/authpolicy/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/a711e12ee7d8f981819e0e2c.md",
+      "kind": "official-document",
+      "bytes": 6204,
+      "sha256": "f0f1baadf7083ce7f162a9758b9c1dc06b6f4137fa140647c6a8d77a1a0bdbdd",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/examples/grpc-backend/authpolicy/README.md"
+    },
+    {
+      "path": "examples/grpc-backend/ratelimitpolicy/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/84525afe79c68d1ae085d87d.md",
+      "kind": "official-document",
+      "bytes": 6012,
+      "sha256": "1b2a9b9af3323e780ea1e57d0e11112adb8af15defbf433b45d755d307a5c80c",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/examples/grpc-backend/ratelimitpolicy/README.md"
+    },
+    {
+      "path": "examples/otel/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/6de476e6415ba7b28b5e900b.md",
+      "kind": "official-document",
+      "bytes": 16011,
+      "sha256": "a69923386e5539e9aaf568aaebd81d8e3dbd5a951798f4c7578920a89e8e4e06",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/examples/otel/README.md"
+    },
+    {
+      "path": "hack/sync-components/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/67e47522b3c4f8fc1aa01255.md",
+      "kind": "official-document",
+      "bytes": 2761,
+      "sha256": "3bcdd4ef6539a685d5af9bc94c6af6aa9c7d6a3e1e8745d8d6bc3d9c5797035e",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/hack/sync-components/README.md"
+    },
+    {
+      "path": "hack/thanos/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/2f7ed0e22f98c282ca0c090f.md",
+      "kind": "official-document",
+      "bytes": 831,
+      "sha256": "39e7e90960837b0aa92bc15b72fea9e8f89970eba8efe750dbd65c86559899b0",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/hack/thanos/README.md"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/kuadrant--kuadrant-operator/03b7330b1f6c/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 8254,
+      "sha256": "61c86f442e86cb2f34620eaea90cdd9ebe26846565de72d24c67b82dd0b94d54",
+      "sourceUrl": "https://github.com/kuadrant/kuadrant-operator/blob/03b7330b1f6c946a6e2ef2a3d631eb85047eaf5f/tests/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

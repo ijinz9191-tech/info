@@ -1,0 +1,3512 @@
+{
+  "schemaVersion": 1,
+  "repo": "vitessio/vitess",
+  "commit": "19c067f93d5ad0bdae8c61717d1f1ddf88169e0f",
+  "retrievedAt": "2026-10-01T15:45:42.166648+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/App Definition and Development/Database"
+  ],
+  "archiveUrl": "https://codeload.github.com/vitessio/vitess/zip/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f",
+  "selectionSha256": "c27d6512525d8122ad4f3466d492e554bf214be0fdce3fecf87a5d0ed29cb705",
+  "selection": {
+    "docRoots": [],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "a43590ee15d4f13affd3699f884368133d2213b2b347fd15937d51925443a1f6",
+  "archiveBytes": 21228275,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 302,
+    "code": 122,
+    "licenses": 11,
+    "bytes": 2052569
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 1042,
+      "sha256": "dfd94c2a30fb41845298850583b042ae12276dddfa7bdc8c7a82cdb7779a1e14",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/ADOPTERS.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "6ebdb617a8104a7756d0cf36578ab01103dc9f07e4dc6feb751296b9c402faf7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 1238,
+      "sha256": "278aae967e4b0d0bcba143023a81f24cc63c10a7befe75355935b27d6fb65784",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "d399259d8dc0e69d57e25ea5a52416ea2aaa5b6433ef9792dc788d59cb4e817a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 1064,
+      "sha256": "c04de2d1e6bf294679a2b7953e62cfd44137d9c2b4516001b35ae948fd41aa28",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 7484,
+      "sha256": "2d2d941c6dab555fdafd861c57a2b4c574dd5f9a14c78f5869ab3d0c0f7768bc",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/GOVERNANCE.md"
+    },
+    {
+      "path": "GUIDING_PRINCIPLES.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/81e3021f45ce82ddb3c420f9.md",
+      "kind": "official-document",
+      "bytes": 1597,
+      "sha256": "1e3c6f2c6acc450f65577979244499cb7abeb74c7df4729c054d051b0eda478a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/GUIDING_PRINCIPLES.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 3191,
+      "sha256": "ffb53f84d92fd24201b1a25a7bf9dcd0be9b288b57cbca99d32500b02db6f942",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 3212,
+      "sha256": "85d77705aeb31ba28fb441af706f3bcc10847d49daa2a247999f36ed8970bdc8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 8082,
+      "sha256": "761799d1922667181c3629bbf2e543fb63253d26b3bf75385156abf6998fad17",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/SECURITY.md"
+    },
+    {
+      "path": "SEVERITY.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5569e54f72fbc9268960e352.md",
+      "kind": "official-document",
+      "bytes": 3983,
+      "sha256": "24446806ad2242228275a16233a53cc2dd31e443ac4a042c2a8cece2088cc9d4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/SEVERITY.md"
+    },
+    {
+      "path": "STEERING.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/749e3cd11ae0b70bbb7da1cf.md",
+      "kind": "official-document",
+      "bytes": 2340,
+      "sha256": "579a49d3a201281cc1c6733f8e27dbfb209622d17ed1f7e1b72c0013cee11a91",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/STEERING.md"
+    },
+    {
+      "path": "changelog/10.0/10.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fc2cb6b7936edb477d225d8d.md",
+      "kind": "official-document",
+      "bytes": 17790,
+      "sha256": "e71a83a98951970158ca2ad905db7bc76789647bc851e5e435b938d07b0f266c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/10.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/10.0/10.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b81a3dd317ce39d3ff7e8cec.md",
+      "kind": "official-document",
+      "bytes": 1119,
+      "sha256": "ea55ef52c2867d4b54f71bd1b519c4166d21ec72d44a9bb88904a2fd2296316a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/10.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/10.0/10.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1328147a3dcf4ea81def343e.md",
+      "kind": "official-document",
+      "bytes": 1833,
+      "sha256": "c821cb5762526638e22e6e6615ab1d0b0245f177c9df97871412f20b4423635c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/10.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/10.0/10.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e902c4cceb9d70b8e2e17e32.md",
+      "kind": "official-document",
+      "bytes": 1499,
+      "sha256": "9770821c32d6722909879d66c670ad3f69f92b2def270665e51a8a7d6e1f9f6f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/10.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/10.0/10.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5d504e8a5e09fe01090395d0.md",
+      "kind": "official-document",
+      "bytes": 1465,
+      "sha256": "55a1fe21b844e3be2c159628f16405cdaa133687e1248dc0e211446a024f8708",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/10.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/10.0/10.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2d469ec43f08e1dc83661f3b.md",
+      "kind": "official-document",
+      "bytes": 693,
+      "sha256": "9881ab57973c5e94f6ef11958db88a027c8b256ab8313ea0c46a052b30723181",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/10.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/10.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a35f6d7cd2c5e79da9308a2a.md",
+      "kind": "official-document",
+      "bytes": 416,
+      "sha256": "b803c869d7388ca451c0cb2f48dd02728145d2b96fcd12ff5ff19e59fa9a1585",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/10.0/README.md"
+    },
+    {
+      "path": "changelog/11.0/11.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7e459312615d7abc37d574b5.md",
+      "kind": "official-document",
+      "bytes": 22238,
+      "sha256": "0f0a34714c6e6afb3aa88142eec08cce00904ca95c9bb1ba62acf4c99d68be0e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/11.0/11.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/11.0/11.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d723db47e62fc64344a64139.md",
+      "kind": "official-document",
+      "bytes": 1741,
+      "sha256": "302fb261faaba7a24e93f9a8430ea355c84216c195c4fa33519ea8f4a14dae4a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/11.0/11.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/11.0/11.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c626126dd589d1951340e368.md",
+      "kind": "official-document",
+      "bytes": 1631,
+      "sha256": "9466122906e61e4db732d00d2efaed6c51c02be018e43218ab01714db7c72fee",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/11.0/11.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/11.0/11.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ff0508181cd4cbfaa37da24e.md",
+      "kind": "official-document",
+      "bytes": 1465,
+      "sha256": "2803cf7b7b94e15abbcba8517fe842b428c43fccc1a483615963193f2fe5826b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/11.0/11.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/11.0/11.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c9473e7d49655f560cfa3fee.md",
+      "kind": "official-document",
+      "bytes": 693,
+      "sha256": "d1e297de182ccdafc54bf5def573461c70d429a37f63be90cc47838ec5a6997a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/11.0/11.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/11.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7b351a71b700d5077a33090e.md",
+      "kind": "official-document",
+      "bytes": 348,
+      "sha256": "4169d1822315991869538466bf46941c852a5c3d92eaa89866f5c8ee32a99cfa",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/11.0/README.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d652c67aa80edcdf862a8319.md",
+      "kind": "official-document",
+      "bytes": 17614,
+      "sha256": "c0418b22f60eea0eb5de09610aee10b8435197aed4f93dbb5f7c66f4f4217e39",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/19c63f4082caf16acd91d94b.md",
+      "kind": "official-document",
+      "bytes": 2029,
+      "sha256": "5b9b9348724b39c6ed765b60ec6bf72042e990b2241e468277488f6f179d76d7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c26eb46aa81f3157643587e9.md",
+      "kind": "official-document",
+      "bytes": 947,
+      "sha256": "c6547a0bdb209622f2753dc4465179e0a994293d82df5e328f90dfe401b5fb16",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6e4b60544ea5328f8c83b351.md",
+      "kind": "official-document",
+      "bytes": 446,
+      "sha256": "a16d197f7f582a343d3c35501fd4883710fb6ee5969bb8aae0b49f25dc384381",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/573cff06cc03f068b4fe1d3b.md",
+      "kind": "official-document",
+      "bytes": 1079,
+      "sha256": "7494859ee836cb710f8367283285cd36266c93fbcf5d6838ddf14e998c4c7a7b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7700d15b6f96b594709b1d4c.md",
+      "kind": "official-document",
+      "bytes": 809,
+      "sha256": "88b85d53ef4bf9049bbd20e45420ad69de05a8ef2be93f1d4f92325a1336399e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ff5e25224fdfa6b5ad8c69f2.md",
+      "kind": "official-document",
+      "bytes": 1039,
+      "sha256": "ff9ec3136fc934639cc4116442be36720e67d77350797d109034f97720cad1df",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2971878ef7968112d43f9d09.md",
+      "kind": "official-document",
+      "bytes": 1400,
+      "sha256": "5482f072522020ba4c81d31547c473b32c4fd829515894a75bc600bc326769f3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/12.0/12.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/83b857e31fe92d0b6b7c33d5.md",
+      "kind": "official-document",
+      "bytes": 1261,
+      "sha256": "b662cc06c0899307e6775d4344b2b759fb987cb245450851748283f732070363",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/12.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/12.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/49bd6a12d4cd8319f7e75999.md",
+      "kind": "official-document",
+      "bytes": 556,
+      "sha256": "0568976ef5868b54977155617a89ffd73f9ea82cc58e76572dde2f40512516de",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/12.0/README.md"
+    },
+    {
+      "path": "changelog/13.0/13.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/251e9fd4f1196c19d51075f1.md",
+      "kind": "official-document",
+      "bytes": 24610,
+      "sha256": "d58aa2de74f863ea674829dbf07bfa4a3e12879885f06ad22e36f77e6865ffba",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/13.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/13.0/13.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/da20faf6c9c3f0a461fc1d4f.md",
+      "kind": "official-document",
+      "bytes": 1519,
+      "sha256": "56cc46670b5da5c49b310fccee53e7783285cd7053b4b078b0fbb0dd2f89fed5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/13.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/13.0/13.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/496a4f205695ca6fe2ab1d33.md",
+      "kind": "official-document",
+      "bytes": 3110,
+      "sha256": "93b492bb54b78c18188a71423b004a2b7896c780cfb2e5c73aceb9f585e3d9a6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/13.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/13.0/13.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e302f049313f99dc82f7d231.md",
+      "kind": "official-document",
+      "bytes": 1147,
+      "sha256": "e54574c81aa479ec76b28b0b7457bdca5b9110da786e82ee5ebe2409cd711ec7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/13.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/13.0/13.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7c710e37f172bc74783d023c.md",
+      "kind": "official-document",
+      "bytes": 2119,
+      "sha256": "18f17fd080ceea7a232f2db56f81bbd57e8bdfe8beb1672ba42ae5dca79d61dc",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/13.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/13.0/13.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/947a5163bbb3edba83950cbc.md",
+      "kind": "official-document",
+      "bytes": 1288,
+      "sha256": "4b48ab6f2856846f982bb54290bc133fa318d59b32de73b27352fb5431e6447f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/13.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/13.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f51a0f57b1fb3a1fa44846e1.md",
+      "kind": "official-document",
+      "bytes": 352,
+      "sha256": "8c184730a9cce87d91814d57d700674a3bfaafb9dbfc96efb6bbddd9d93c3471",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/13.0/README.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3f6d521e104b1528e35f40a0.md",
+      "kind": "official-document",
+      "bytes": 61629,
+      "sha256": "a4c05e1f36b585607f5d768cd76080663764195053d896de4ca48e9667f6a30b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5ab97b4615a5b1c7848de6be.md",
+      "kind": "official-document",
+      "bytes": 16849,
+      "sha256": "306ee511d476fcfa468b7dc6a0d668111294a1e9afaf84a477d3365e6392ee17",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b4c668c15f45fcba36ab3e0d.md",
+      "kind": "official-document",
+      "bytes": 3250,
+      "sha256": "c19727e3f79fb50c2bf0355ab2f6fa143dbf9a921e07e037b1bbe09c2eb26096",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/204cf25f375852a94ab5563d.md",
+      "kind": "official-document",
+      "bytes": 1337,
+      "sha256": "5ace562419ef885f5ca31fb00f562dd59ffa34afd7ae7c054388960e53c75643",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2684a76aae726b5abdd7dd26.md",
+      "kind": "official-document",
+      "bytes": 2814,
+      "sha256": "580e0d215c33e0584e5011bbed3b8677d62572f7ff758c886f92ad2943339054",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b526d25f3fe933878d7a7153.md",
+      "kind": "official-document",
+      "bytes": 1596,
+      "sha256": "8474f3a3cde8ac859a1bf9d4c3db4946b73aeb857d4cd2bfb36d4b3b30d34107",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/52ca2c9268caab5f73418012.md",
+      "kind": "official-document",
+      "bytes": 1487,
+      "sha256": "01262d9fa59e9a2581bf67142084d305e9570f4607f36a75e6c7893ba8855f77",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b8ca7afa38715401c9d59eaf.md",
+      "kind": "official-document",
+      "bytes": 1145,
+      "sha256": "a7f904fa4495b058f2162f59c0822fea97e05f9b2d7b1dba21271e87f5d043c3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5a79e0153677bcb31b723d3e.md",
+      "kind": "official-document",
+      "bytes": 2994,
+      "sha256": "5846f6018722bb6432cfe536f17f2f2e5f4feda493c515821fa6e9bd1b7ea0f9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3f53bd1d1d8671333f200112.md",
+      "kind": "official-document",
+      "bytes": 1245,
+      "sha256": "c950e27f6fb4e49931644b922edd15503b2ed5854738c727b11d99b71850f14b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/bc5e54e46d8492a2640e1fd2.md",
+      "kind": "official-document",
+      "bytes": 4244,
+      "sha256": "fd97f5ecd9608d6200651b3c00689272a7b0f9950e3e9c473ae72013a6e354b8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/14.0/14.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7dc4bdbc8eacba4500180916.md",
+      "kind": "official-document",
+      "bytes": 367,
+      "sha256": "7ce963b9cf5c6ec77ed0a8907b0579baa202e26e000052fd7a29d0dc322d68c5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/14.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/14.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c008d4acc2a2430431c95471.md",
+      "kind": "official-document",
+      "bytes": 632,
+      "sha256": "5dfba0f5613bc7cfa561579c90661d0190f455c7d02ddbc3faaab4ef8b26cad8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/14.0/README.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5c68130aa9c504546a122ae6.md",
+      "kind": "official-document",
+      "bytes": 57806,
+      "sha256": "04f4965d4f5d927cfe5947e7664eeb910913e48aaf0194fd250b1e92ce03bf17",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9133abb9215d5ed3c6fe0322.md",
+      "kind": "official-document",
+      "bytes": 28024,
+      "sha256": "ca3cda3642419baa688accb25b0be9c8224967cf250e78402d2ee2b05b01ab2f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/be23cd850179e8fa275ebbcb.md",
+      "kind": "official-document",
+      "bytes": 3116,
+      "sha256": "356dbdf3956d4037f1789e12708eeb2b2d3d1d0ba557f903434eea9ad982d6d0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/44fa89453f0043aa07521af3.md",
+      "kind": "official-document",
+      "bytes": 1222,
+      "sha256": "a56747e3299b93636112b09788d0333e24c85acd9ac8a27c32f6e2316a3a7c96",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/93e1ca45ad0139816823b7a0.md",
+      "kind": "official-document",
+      "bytes": 1694,
+      "sha256": "b267b16ae8455faf0cf6c35de1d27f7ae815d542a466a40b6b7e43bdd69a9e49",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6914431c80291601588f5c72.md",
+      "kind": "official-document",
+      "bytes": 948,
+      "sha256": "d007bb51cc378a8597ed6cf0e4bab3ab4bdea25e5b124184adbbf7591ad4d0bf",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3e8020ab56ea80abd2093354.md",
+      "kind": "official-document",
+      "bytes": 6652,
+      "sha256": "a4668a8c1d7ad9d104cbb6534d4da88e76026bec09917be5010cd825f7a2628b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f67350c3933acbbe88652378.md",
+      "kind": "official-document",
+      "bytes": 397,
+      "sha256": "3d04c1012125e6bb73e1c8130366a7b906c2610a91db75af72ad4a36c6e785fd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6391b98a6a07b942e9a675db.md",
+      "kind": "official-document",
+      "bytes": 4682,
+      "sha256": "ad6cca71da48af644a4fa18f39a08c2c5015616e8cd767eb9efc455d324aa19e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a64d505bbeb8d54d1f905ce6.md",
+      "kind": "official-document",
+      "bytes": 333,
+      "sha256": "727d2fcd67cbc0e83d75a27e0381426567c0b504eba152a528581e68d0974385",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/57e0b9649dee90dcb364f47e.md",
+      "kind": "official-document",
+      "bytes": 3122,
+      "sha256": "2d4b98f511fa2cda31e4e3c3bf30d8a778bd852c1e5d4c2024b16b7c3dd34d83",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/15.0/15.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7618f0c4ba9d5962caa09b10.md",
+      "kind": "official-document",
+      "bytes": 334,
+      "sha256": "8db3e04eaa03626e12d2f29c74d001f5da2d47eef9cca18a08d46299060f8a02",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/15.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/15.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/87bf4600c5f89c3e3534d367.md",
+      "kind": "official-document",
+      "bytes": 698,
+      "sha256": "d5b361e7dda9d4343dc61b9226a90f05615e787900ff937f4d2cbb9e30c398c7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/15.0/README.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b6abde14ca46447d7f6fd7a1.md",
+      "kind": "official-document",
+      "bytes": 40593,
+      "sha256": "51fc381edf0660ecc1979d83b686d0f46f560985d30be5e842529f16ea452aa8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/49fdb9183d3a4176bd199284.md",
+      "kind": "official-document",
+      "bytes": 36871,
+      "sha256": "d386e527fffbef31e819aed401f01c5f6c4f4282f92bffdc45a1f71ff3a016f2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/330ad74617e7a848aa4eadfb.md",
+      "kind": "official-document",
+      "bytes": 5133,
+      "sha256": "b9b4f65da4e119ef012feed88fa2fae3daba21f492dd29d2c004f0332132be11",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/65f53906aa422a4ec779affa.md",
+      "kind": "official-document",
+      "bytes": 2366,
+      "sha256": "684d9d8a705ec3a5e1591581f04ec10878860acf29989864b83b3ae29a5b2984",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a23a5a9bd8812062d60e9bcf.md",
+      "kind": "official-document",
+      "bytes": 3171,
+      "sha256": "c3d47f07be7a10135e086d9cb01975caa8e503085d373ccf89f3888154b2ac48",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ee39bab8987d4e4a9fcba504.md",
+      "kind": "official-document",
+      "bytes": 2688,
+      "sha256": "3a38f9311b562a81d73ea0692f38c419ea517ba56456c05c911f562869a441a6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/725b1dc0e64a46576b1d77fe.md",
+      "kind": "official-document",
+      "bytes": 5587,
+      "sha256": "e6ef21627087412d705877a3f27d7073a52dceac98de2b922f433f13d626c627",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/082a8c3812710f4118bfc38f.md",
+      "kind": "official-document",
+      "bytes": 354,
+      "sha256": "4e180401a20aa1944d08378567a267e1802827f314e953befcb189b45c342b8b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5a9aa9ebf4aef6e8e7b40e35.md",
+      "kind": "official-document",
+      "bytes": 1537,
+      "sha256": "bfe727b152aec004d9c0951a7bf274d1bacdcb3888c4ccbac2b6b9b604e11792",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9dcdad51abb1e92ab7efb46a.md",
+      "kind": "official-document",
+      "bytes": 333,
+      "sha256": "ed5740a5be6822f546f277ab3a259d37757890956e68c5575532527bb3c1fc2a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e4d054d8788976e186a9d0ad.md",
+      "kind": "official-document",
+      "bytes": 4567,
+      "sha256": "a4bae6f91db614e9b244b2bd020a46ffb5f0365e6f1dd2e7ae030b27e74cdfde",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f936fa4df80d0ffbbce54556.md",
+      "kind": "official-document",
+      "bytes": 337,
+      "sha256": "031defb6a620bd09cf5fe5c76391b29ea19d6ddd8e8112ba4d065d6b7e21ebda",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5b5518a61cb6628a91911bb8.md",
+      "kind": "official-document",
+      "bytes": 3113,
+      "sha256": "c60ee52c894fe3a9b030be09c5a40de6334a3ea5cf7ebf5e41c7956f0ef0fdb2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/69a7cf0ec5b90bdf1183391a.md",
+      "kind": "official-document",
+      "bytes": 318,
+      "sha256": "3c3d970900c341e8da4d31d51a03cf43a18d9868854a4f0221a56e97357f39cb",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.7/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/875a72211ad584541b306cea.md",
+      "kind": "official-document",
+      "bytes": 2838,
+      "sha256": "753cd2c30f98e6663a65f393cda9e6477ac8cd1d9a78da8b1318e3f2b9725f71",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.7/changelog.md"
+    },
+    {
+      "path": "changelog/16.0/16.0.7/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/522a3583f29de5b160ff67b1.md",
+      "kind": "official-document",
+      "bytes": 379,
+      "sha256": "7f39565cc70ed49b0095a200c221604f67f2765a822d55e79b7322e2b5bb9e2b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/16.0.7/release_notes.md"
+    },
+    {
+      "path": "changelog/16.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/be22ab66a6f2f7ac54d35f8d.md",
+      "kind": "official-document",
+      "bytes": 906,
+      "sha256": "828922c272a5c733de9cb005e235557eac193899b8eb137898ad66d831a7eabb",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/16.0/README.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8a90936bef2eae31bbcbbba4.md",
+      "kind": "official-document",
+      "bytes": 52262,
+      "sha256": "2f4c49dc14740cd844ed951b36b00df9ff7205e126317689a419c563e656e5fb",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/11b30b70a65ab1d620fc9521.md",
+      "kind": "official-document",
+      "bytes": 27436,
+      "sha256": "4400404f18bf6faf90fa80c4e9ac48434b54555b5f280bc3103dff46ec3a6291",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2869313e26bc2bcfbcb2acfb.md",
+      "kind": "official-document",
+      "bytes": 3493,
+      "sha256": "602cf99443c09eb6b1583dbaf2174561697877beda06cf539c67ec9ee1e6eb14",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6d82f8f5f55115442beb37d1.md",
+      "kind": "official-document",
+      "bytes": 318,
+      "sha256": "f3515dd0db6c17118558cd5b765a90dc2d3b18aaaa6582ac3e1c3e6e2627014d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d8f131577109e304a9d9278c.md",
+      "kind": "official-document",
+      "bytes": 1991,
+      "sha256": "2aa229d2584d23cdaa7e7f5d552969cb873a17b03f60fab38015a38f7d13ca90",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/38adb5f2b940603df6ae0937.md",
+      "kind": "official-document",
+      "bytes": 291,
+      "sha256": "891f2eb97f914b16cbf376751c577887926ea05f5f109719b93e877d34fe25d7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2c2fafcd6b80dc07243abe23.md",
+      "kind": "official-document",
+      "bytes": 5047,
+      "sha256": "df34c5e2808c9a662ad8b41daef1a84e18d441217a0233ec7caea012c28d4e7e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/65a1a6fcb603c846b140b6e8.md",
+      "kind": "official-document",
+      "bytes": 1270,
+      "sha256": "78306c280698a8d0641f503c5edcadd7c830c7ebf25a6b5d6ef051c8d3b96d1b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/4ad7e74090d615ca14d3a84a.md",
+      "kind": "official-document",
+      "bytes": 3396,
+      "sha256": "7b792465908e594cc347d34557544edb0ab13473c674f7b9d9a562b2c5571d40",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/dc86c9ce7e550b7f435ed52b.md",
+      "kind": "official-document",
+      "bytes": 328,
+      "sha256": "c9ca191b68e1d9c7e89c3e07c9f0ef602de4175c68170a5f546ae3e88ca2d0cb",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/63d9be14130f1bbbd14cad82.md",
+      "kind": "official-document",
+      "bytes": 3444,
+      "sha256": "f65b38fc440fa6107d8553ec49e41e746a1446f858870f6efcec6b7401369683",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/dfb15a3b04566118c2c86f36.md",
+      "kind": "official-document",
+      "bytes": 364,
+      "sha256": "7bf1b9c73330bc6bfae882d4d061ba8bc2ffd5d12fb547d04c2feb4a4f83c126",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/26738e6442edf4b462692a9d.md",
+      "kind": "official-document",
+      "bytes": 3470,
+      "sha256": "74a18d90ec28961bce493f47b2515c2d82d564a047c13c17cb15cef59583b1c1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/409c36a58d8eff5be6d36443.md",
+      "kind": "official-document",
+      "bytes": 1949,
+      "sha256": "8474778eb485078d167938a6e5de97c416029ee89eed6bc8f9d8868ce8920f74",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.7/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/819d0332ff7b14e666c107ba.md",
+      "kind": "official-document",
+      "bytes": 2034,
+      "sha256": "ef7895a29cdffa2224f7476af5e91afece36dbc7fd726792d1cc70fe5a970605",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.7/changelog.md"
+    },
+    {
+      "path": "changelog/17.0/17.0.7/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a2f7b8952e33cda3922a1942.md",
+      "kind": "official-document",
+      "bytes": 298,
+      "sha256": "69efe6b09e8b90f9b39033f720d40f4bfcffe66b55bd12043842b869059d854d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/17.0.7/release_notes.md"
+    },
+    {
+      "path": "changelog/17.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0c439d17949a22a6ff4e534c.md",
+      "kind": "official-document",
+      "bytes": 840,
+      "sha256": "9ebba8698246c5efdab6f90a0c605cf381ed5881e474c1e1bad54165c7dcb228",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/17.0/README.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f816570ac3c3278e8a3067a7.md",
+      "kind": "official-document",
+      "bytes": 49344,
+      "sha256": "c610bfb2f21307cd8cd924a161c6ca33d455ee28a9e29ecc43b14f0604e59545",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c999bcb6990b72d6d2c42d10.md",
+      "kind": "official-document",
+      "bytes": 18578,
+      "sha256": "541c7f760f95a361df01152500d527fad1c3f4370788d63e0bd8dd63ce163424",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3ab8c91ee7caa4890377e9a8.md",
+      "kind": "official-document",
+      "bytes": 2673,
+      "sha256": "7c537073ae221a476d92e696449dc757d7f4ae894d237b73cea8a9f24c2e7d4a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0e461d4f0601cba313537c57.md",
+      "kind": "official-document",
+      "bytes": 308,
+      "sha256": "d16e42a2b4fc4a11e49371d66310281c09fab0377d633b5c549b68c59c740591",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/73414175b6192702a421424d.md",
+      "kind": "official-document",
+      "bytes": 4189,
+      "sha256": "a43a3caad2935c7b6b2bc950d9eec50c552f344f5229725f7288536e7e6f1a18",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a72237606f27fed0bb6388ce.md",
+      "kind": "official-document",
+      "bytes": 349,
+      "sha256": "6e910d0bf4b43a807d36ab2fab171caa8265b4ee597f3f2961b9ca45a4c151d3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/23c075dd272a1c889d14f36d.md",
+      "kind": "official-document",
+      "bytes": 6747,
+      "sha256": "b8116bd940342768677da47a36c6e5dc1e4d6047bff74789f93c1dde155a3fcd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/db14ee93afcf8ffca9000273.md",
+      "kind": "official-document",
+      "bytes": 2089,
+      "sha256": "c9380a26f477706a3cafb6f1218517553a058965975c03d43a6814e7b7584d84",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/429898da7a5f96d5d14b65eb.md",
+      "kind": "official-document",
+      "bytes": 1208,
+      "sha256": "7209d4116e32a2e42fc09f5165910895bc30a83c2c5cc492faaf8d9eb472ca24",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9b1b446777a72f7f2d8a9ef4.md",
+      "kind": "official-document",
+      "bytes": 299,
+      "sha256": "62d45c38c21ebb0e22244b2b0a7be67ffe689fdbe30e3fc62b211aacb06d0b74",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/07d56196e7d705df304b9d35.md",
+      "kind": "official-document",
+      "bytes": 2182,
+      "sha256": "351995cd7bbab3315e564c1da204946d876210dbdc023c359dd141e39c558cd3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/4a4b128fe0c520758252856a.md",
+      "kind": "official-document",
+      "bytes": 324,
+      "sha256": "0625d7f4bd4ce6c5bffc9b2474496fe781f361d6fc0b39940c33477e781519f8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cd4b8b12d0be853fb7e709ab.md",
+      "kind": "official-document",
+      "bytes": 3983,
+      "sha256": "cbec36e0500637edcc1aea864613e192e38a4568bf565c8ff5b0b8a8bac45c23",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cb58be68d74373b45d0ae6c3.md",
+      "kind": "official-document",
+      "bytes": 327,
+      "sha256": "b172e380dedf4ff7f58c69b3e114e9b812baa4345f41afa134a528fb052aa0e0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.7/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ef967cbb0f59cff35f70cd1b.md",
+      "kind": "official-document",
+      "bytes": 3025,
+      "sha256": "686fa6ddecf626639d82e62100a1ad90ced0c8bced4d5502b7c46a5ba3afc394",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.7/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.7/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/acf6a45641a742bd8946d07e.md",
+      "kind": "official-document",
+      "bytes": 320,
+      "sha256": "6cd0812a6818559a7ee680bb93f4230e3af3ba23f031a9bcb09ad432c77a38d5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.7/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.8/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7d9f7ac66e8c689e83bffef1.md",
+      "kind": "official-document",
+      "bytes": 3394,
+      "sha256": "8b033eaebeae181038feecb828ae062946b34b7885b4638ace8ea535e1a3b9c3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.8/changelog.md"
+    },
+    {
+      "path": "changelog/18.0/18.0.8/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9a9ef1de803cc603f9d9a12b.md",
+      "kind": "official-document",
+      "bytes": 305,
+      "sha256": "2633229b8069ded2849f2b31514e03a053aabb6ed51a4110156ba0c86831db8b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/18.0.8/release_notes.md"
+    },
+    {
+      "path": "changelog/18.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e2ce0e76e4d0437f6d2df797.md",
+      "kind": "official-document",
+      "bytes": 944,
+      "sha256": "bc2f1c5e79c55cb2a81c38e087e1a8fe0ed8148d19481ac5c50b0ee6faa7d785",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/18.0/README.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0039413b03de0fc03839d4a0.md",
+      "kind": "official-document",
+      "bytes": 53734,
+      "sha256": "582e4e74d81b17cb2602b8a12ab04c7373c56dca237c36f1de09ea0d1801cb66",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/4cab34f81448e5d73e036919.md",
+      "kind": "official-document",
+      "bytes": 12330,
+      "sha256": "df1dd52b4b8b884801dfc6f75c611969152331cb9e8e9064b880d4baab5ffa74",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/227f304b4faea34d59080ae4.md",
+      "kind": "official-document",
+      "bytes": 1589,
+      "sha256": "73c99a4d5e6a5c119fe925224330cc8dd704b03b70b16a3b08e334cdbdcf7d4f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f2de5ce3fcffc61b16bfdab8.md",
+      "kind": "official-document",
+      "bytes": 274,
+      "sha256": "c5d3c7bd8f8d9236961a672f7fd95469bc62fd5a6deebd33f7afa7d0d196ad62",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.10/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/de84b72d2822a7bcac9033b9.md",
+      "kind": "official-document",
+      "bytes": 1637,
+      "sha256": "bcc542b96337321e634d0c768f7adc8dfb400c0bc2f7377134b556ce85c3c63a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.10/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.10/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/99f52c08a788715e0b2e4281.md",
+      "kind": "official-document",
+      "bytes": 280,
+      "sha256": "530bd1173b6153e5d688991e081a50749320e406bb047f55109d554d4526c0e9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.10/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b6bd6c77ff1e7296dc42e703.md",
+      "kind": "official-document",
+      "bytes": 2492,
+      "sha256": "9a898eb4492316f7ed78991c471dcf898c0492040c5343b0da3e0d818075e415",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/bffb602107265c0fc9055492.md",
+      "kind": "official-document",
+      "bytes": 467,
+      "sha256": "57e1fc6e5bb98cbe3985fe92b0034c4a6126f08e2a685732b6c1aa5fe24d3c73",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fa59468c39807892ad4d55c3.md",
+      "kind": "official-document",
+      "bytes": 3026,
+      "sha256": "913433aedfebb0436d08bc8ba8735a5b5842a88bd684011fd0bbcb4242d46dd7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6e450b904f228b3a6018fe1f.md",
+      "kind": "official-document",
+      "bytes": 303,
+      "sha256": "4442576a9955cd6eb76487013b8b7bf8d6a72060b4c6d42f1e8c5ec1df289b67",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7ea97eb04a31656076ffdb6b.md",
+      "kind": "official-document",
+      "bytes": 5827,
+      "sha256": "53416d29ecf066376e81b69542483b45f424f2ba56878093da1f9b4c8a2e21a2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/68b3f6f7b1931da89d1e72fd.md",
+      "kind": "official-document",
+      "bytes": 320,
+      "sha256": "1042f5277ce5a249e9020bb1596ebebf90061fc74103871a0e97977b6b351ef5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f4c78610b690c3a8a9a936ff.md",
+      "kind": "official-document",
+      "bytes": 3181,
+      "sha256": "61551930113121f191a4b4096f292c1e9dcc41cdfba8643d226167a96530b935",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/35b068e0e94cbad3f7f219f7.md",
+      "kind": "official-document",
+      "bytes": 318,
+      "sha256": "cad4595ba4a143de239ef000c279c29043d7912cfaaf769a3e59f7852234bcd2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.7/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8580b2c32f94dc7633777ec9.md",
+      "kind": "official-document",
+      "bytes": 3569,
+      "sha256": "d8111f3db1970e3d66f083fb96463fae98dc43fbb38c561d45e686babd45d23e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.7/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.7/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ac4901a7be34264de9764c9b.md",
+      "kind": "official-document",
+      "bytes": 316,
+      "sha256": "f43792fc784cc9a667e6a674257ac74f8e939e528370d09b94f39c8434e5cd61",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.7/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.8/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0492593866df8e2b488ff561.md",
+      "kind": "official-document",
+      "bytes": 1635,
+      "sha256": "5a60d6340ceb51f367c530e0ddb7ae9b7f001bd7ba0d84eb2fcbd4af466817ab",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.8/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.8/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/50995f08363ceb842e63d735.md",
+      "kind": "official-document",
+      "bytes": 289,
+      "sha256": "ec510ad59d79c6dd9a5879f13ffe60046d1a6b1b22bf900ea2be1af977759201",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.8/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.9/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/97ffbf8b68d22df297f911fa.md",
+      "kind": "official-document",
+      "bytes": 3349,
+      "sha256": "23b594718caa214d5702b6e00f720363f52d9842215bc66da7dc101659a73520",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.9/changelog.md"
+    },
+    {
+      "path": "changelog/19.0/19.0.9/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/430c0cbe2a74a2d060039c25.md",
+      "kind": "official-document",
+      "bytes": 334,
+      "sha256": "e8b72f38b2bb038bdf21c7288adffa22d946107c532e4c974e6391b959862c06",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/19.0.9/release_notes.md"
+    },
+    {
+      "path": "changelog/19.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/685bd7632d411c16295427d0.md",
+      "kind": "official-document",
+      "bytes": 1052,
+      "sha256": "6ce82da731a106f0430bdbd6a5238de481cb54012814d7c5536fa5b068006c41",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/19.0/README.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ef85df49182112221cc56857.md",
+      "kind": "official-document",
+      "bytes": 48554,
+      "sha256": "c62023022eab88a99fcfb13984e7ce2d2a0295a60a60f42d77ebca4d4388c595",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1d9a5b1aef4eabf48b30913a.md",
+      "kind": "official-document",
+      "bytes": 38173,
+      "sha256": "3ac8c15d220809ebe949b59cbe94721ed52f4404ef7bff6ca1af6fa9e68b6147",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/62d418b8980170e1855c25db.md",
+      "kind": "official-document",
+      "bytes": 3181,
+      "sha256": "5141796addac9e201a2587f7f0f08c2dc8a40a9bb36850a681c602ffc37beb03",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/244ccb80aa48367b831c1c0e.md",
+      "kind": "official-document",
+      "bytes": 320,
+      "sha256": "5b5b71c06747146a51c63baa47e11cbe5ba074e3ea0b065fc5143483ef004eff",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a87afde6eb195223728ccfd7.md",
+      "kind": "official-document",
+      "bytes": 3716,
+      "sha256": "56b59b7a18cab57ab135c266d8350bc8f38d2dbcb34a24c6f73da3cbf49c7d2b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/99d45ce7fc1abdbae730f2d0.md",
+      "kind": "official-document",
+      "bytes": 309,
+      "sha256": "89b9c7b0ad9473fd7080c62094dc2bb435cf1fcf065912ad189698c2b89ef705",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0b09f76ef3e9f78ec002fc83.md",
+      "kind": "official-document",
+      "bytes": 3581,
+      "sha256": "396a87cb184f47c49a85c46bf5b9ee178e9f6f764083992d83112e9cfbc7463f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9853532466ce8fa7963c8c6a.md",
+      "kind": "official-document",
+      "bytes": 307,
+      "sha256": "da6802e51c44f4aa082c9250af5eef3b210b386a5e887f5b3929abf8c1c9182a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d88875e75cbc434c62cb7055.md",
+      "kind": "official-document",
+      "bytes": 1552,
+      "sha256": "b67085ceaedeada3935b3a73e68fd7248789620869915676a57fcf82b2c7bf39",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/230bfea274dacd2fc7dc7052.md",
+      "kind": "official-document",
+      "bytes": 276,
+      "sha256": "fde786c16bb97ff7fdde6dd2fcf813364d5d9eae30c45ef8d41fa9b51fa4136b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fdf98a637fa946827c3200b3.md",
+      "kind": "official-document",
+      "bytes": 3211,
+      "sha256": "658d5e0f22c6831a95b6f014a17c6436fca47368656d7ab3dc9df05c8597115c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d5509c0b885733c1d358de2c.md",
+      "kind": "official-document",
+      "bytes": 300,
+      "sha256": "ccc437461226b8777928247caff5757c263852c376c0764e2b52cac0238e2821",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ada1b4d9db1edb21c37223e0.md",
+      "kind": "official-document",
+      "bytes": 1912,
+      "sha256": "b4f13f5713e675a76860b3caf78a986b7717fbef4aeea505b6516b372e0d3f0e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/14af0dacca703e6523aa3e25.md",
+      "kind": "official-document",
+      "bytes": 278,
+      "sha256": "c5a350df3e1119d3d95a66671ecd6aea7816ef9bc9777351db5152b7c3638c41",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.7/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a31403bcabca8b4f496756aa.md",
+      "kind": "official-document",
+      "bytes": 3996,
+      "sha256": "87a4b12f3e6af4da1c3832debaf17b8b0bd7458a0f5c9c3b367c84d6d286c640",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.7/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.7/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e81f5b39885977b7f10d2049.md",
+      "kind": "official-document",
+      "bytes": 315,
+      "sha256": "957d5bcc017cd1a05095deedcaa733b98692d5ee207388c4da25430ceb342d27",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.7/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.8/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f695ebc545ca812878ff6b56.md",
+      "kind": "official-document",
+      "bytes": 1678,
+      "sha256": "06561caed5328cff81aed3248b3cd7f3859722ddd99cce7c71be3bd2b0fc3042",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.8/changelog.md"
+    },
+    {
+      "path": "changelog/20.0/20.0.8/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9820d6988057ebca648ff9b3.md",
+      "kind": "official-document",
+      "bytes": 292,
+      "sha256": "2b27913b8aa0600632c279219be19ad9d28c640c2b8cde4a8011bb5b9dd68d39",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/20.0.8/release_notes.md"
+    },
+    {
+      "path": "changelog/20.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7267a77084374fed72c84512.md",
+      "kind": "official-document",
+      "bytes": 944,
+      "sha256": "1eaa634380fb08462b234d8fd98dcf679eea4fa8bd087c15e7a44a63dd897b9d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/20.0/README.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/4157b737b0ec7e3e50704d7e.md",
+      "kind": "official-document",
+      "bytes": 42978,
+      "sha256": "951f39a56953fa069c1513284dd3358579337927ee9e76fde8622d45447eec26",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d06645c6c893f193c2218012.md",
+      "kind": "official-document",
+      "bytes": 15961,
+      "sha256": "b06d8fecc60718db9803f2a272081e13c7609b1d16cf8955e18e9cd707577ed8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2bed25a0052914924b58ce8e.md",
+      "kind": "official-document",
+      "bytes": 3882,
+      "sha256": "83c425a2a94f40a5b73b37c8a6f69b07c5dba74280fe2683cc6b6fec07192ff2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d239f1f5b352ac38f7df02d0.md",
+      "kind": "official-document",
+      "bytes": 305,
+      "sha256": "a82b1a91e4e2f27d85908a1edc23f2cc930227771c7f3c1d00eeefc724cfae63",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1c37c62c8a2e305bb00a0df9.md",
+      "kind": "official-document",
+      "bytes": 4848,
+      "sha256": "829129f26ece3746f378ea0fdc7556619efdc6b930a448371e1551a86389d93f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cbacdaed59891b2fd04afe02.md",
+      "kind": "official-document",
+      "bytes": 317,
+      "sha256": "f7b15f4e0df066e74a7fdc76538045aa723a9f14df93f19c4427861ea99272f8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0549032e5de8203c934db010.md",
+      "kind": "official-document",
+      "bytes": 2044,
+      "sha256": "7d6290e54627853c8f51a537dac864f5e900a81c65d32b7676923ed6c7ea06a3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3057efc8a7f8782ea919eefc.md",
+      "kind": "official-document",
+      "bytes": 294,
+      "sha256": "60a1db7b0819b66530703a2cd9c7945f5ae46bbc92c75e728f0059954bf56479",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d5e721f17a8cfea5204430cd.md",
+      "kind": "official-document",
+      "bytes": 5056,
+      "sha256": "dbb35280fedee256f2fff3f666be8a5f1f3ab8183a41ff38e1d795dce5f73487",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/30cab3fb8609f8081082233b.md",
+      "kind": "official-document",
+      "bytes": 337,
+      "sha256": "645b872740b7de4e80de23cf375552f4fb0c223541e20fc66c8f7fe28f4371cf",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ff90028080cf2b75ede4d927.md",
+      "kind": "official-document",
+      "bytes": 1983,
+      "sha256": "24d74c9a80253a856abe5c94e036c5b1c0307dc7cda63026ba1ed5929af4ede0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/74827cfbb84f00cf84f369fb.md",
+      "kind": "official-document",
+      "bytes": 331,
+      "sha256": "cbebc256b45976e7daa1507d2592d8056ddc0fdc9560c66c5334c4c8aaef2cca",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b069d079cf7d4c8f1e30ba7e.md",
+      "kind": "official-document",
+      "bytes": 6171,
+      "sha256": "5004ba7ca7e0b2d63e38e34738daf605082aad2cbb1999bdbabd3809115aad32",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/21.0/21.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/dd9ad529b01aa64ed3d30821.md",
+      "kind": "official-document",
+      "bytes": 327,
+      "sha256": "6bd75399a66daf79b9cb62ed2103bf73103cca15f2d246e640349b649b39b604",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/21.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/21.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e868681b9cb950c99b44c5f5.md",
+      "kind": "official-document",
+      "bytes": 736,
+      "sha256": "fb7a1df99942eaf73734e55707340f4b905f6616aa2665dec26c52c6e4095473",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/21.0/README.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b09f0b980e62466a5e495cd8.md",
+      "kind": "official-document",
+      "bytes": 55709,
+      "sha256": "3b8438eda8d66f17415e99874650fe02631c7678ff9f5a3a38629706d2aaefef",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0f8a2dc7a4002c1f9a814634.md",
+      "kind": "official-document",
+      "bytes": 26465,
+      "sha256": "77b3cbe76a91d808eff863b67c674479ad8ffbbadbc048e42972fd66cedc1ecc",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1461ab49570542b6b3354ef7.md",
+      "kind": "official-document",
+      "bytes": 2788,
+      "sha256": "9693dd786c69e1d4b6965b5bcf59a8ce0bce96949c29353efc92c3cd0269692f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9d1716b52659eee12955ecbb.md",
+      "kind": "official-document",
+      "bytes": 294,
+      "sha256": "5c5b7e472ff33f2ba88c70d9796ede9df2f76a62e32cb8466358051e28e82d6d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/40f3924c5c2ef92a50132cdf.md",
+      "kind": "official-document",
+      "bytes": 8664,
+      "sha256": "6453deb7ef82bad2b73c931b2596491fc1293517889bbaad560a6730bbecd787",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8936ee20eb47389f1363b4a0.md",
+      "kind": "official-document",
+      "bytes": 323,
+      "sha256": "ffa061b2ca698040e3bf42a947298c152221d26a79bc3f31a01d68a315c698e0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5a5ef4747bf6ce78a368784b.md",
+      "kind": "official-document",
+      "bytes": 6018,
+      "sha256": "a87f14d3414a826e56dbaa40b2290dcc58a0994bd4475caa8ad8fdcab92c6f31",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/eea02a3af44d30e68927f876.md",
+      "kind": "official-document",
+      "bytes": 318,
+      "sha256": "699e5bab1c7d265c87a30092c5f752fb85738fd69f3f1d1cce465b5928417a94",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ccf9f4624fad4a5dc7d18058.md",
+      "kind": "official-document",
+      "bytes": 5358,
+      "sha256": "5263304716e51e5e6145a2b92e3a21c6b44eeec2273f2715bbb72a9d8d98a59f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/22.0/22.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5b10cb806a9bf531517e4cbd.md",
+      "kind": "official-document",
+      "bytes": 2181,
+      "sha256": "7c723d43cd1d2078499290c3d1c9a72aa854dc163c8d0d646512d789fe986b70",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/22.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/22.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/4bf210dc493ab66f10952d9d.md",
+      "kind": "official-document",
+      "bytes": 528,
+      "sha256": "a763ea18c61a9f0f47023440c88be008beb153c8d409d6280af0682d354bc01f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/22.0/README.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7b9115e38984a893594f2481.md",
+      "kind": "official-document",
+      "bytes": 28638,
+      "sha256": "527e0903ddefef2a676dce418bc0f6f33e3edd30de51a53db97d3416001fb25d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0c5cd7e27ed693a4399f87d6.md",
+      "kind": "official-document",
+      "bytes": 40658,
+      "sha256": "3def5e98dd2a72ca1d7750228c1f569229c2588dc263c7d39c168f8085813897",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7d510158f8f8e47deff21203.md",
+      "kind": "official-document",
+      "bytes": 7514,
+      "sha256": "aeafdd918dcd63a4518cd189cec5836cc392c7d4d8a888b80594b7daf546a209",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c00feb22b06b65f443181a95.md",
+      "kind": "official-document",
+      "bytes": 327,
+      "sha256": "25e5910d70b8da61acb8584c990cf5c6fff9dc2ddd3bfe6aa2dfeb146ad07de6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3b9b8250afe2dbaa9018dfa3.md",
+      "kind": "official-document",
+      "bytes": 2316,
+      "sha256": "5387e0caf965f3e4129bad44a120421fe68890008d4dd76712743941210d6948",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c432d7c2d69d3fe13373ad38.md",
+      "kind": "official-document",
+      "bytes": 289,
+      "sha256": "77eeb3a99b0df90a5edf4695aa7a5cce05de14123556292199e58e7f7d2f5179",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7cb89e5377c9d67130f90a46.md",
+      "kind": "official-document",
+      "bytes": 3322,
+      "sha256": "8f4c79a19ebbd880d829a0aab2bad82ab4538552a0250745d3241eb268c092e6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0f7fa64f8f83fb965d22a99f.md",
+      "kind": "official-document",
+      "bytes": 2178,
+      "sha256": "8eae092fec42113ef8e63f507648f7a4c3f12d5217b745b40d63f0b06a1c6f4a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f2564d46cbb7450c8227680c.md",
+      "kind": "official-document",
+      "bytes": 6544,
+      "sha256": "8c027b2290fc3d489de501e5f8656361539001848d6cb829f3b3b3fd30400d1c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/4f59c132a835235ed79649f2.md",
+      "kind": "official-document",
+      "bytes": 307,
+      "sha256": "d914bda979ac75f0c180b495aa92e344e9952e00c5769c4b5f0b9a1db29aede7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.5/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5b52e1ac28d886d965d3d938.md",
+      "kind": "official-document",
+      "bytes": 5314,
+      "sha256": "9fd065d7f8c57b5ae89ef653850c7e9de4a1f52aafd3efe24e77d5c050e425d8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.5/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.5/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1643be478b07e8fc025f8e55.md",
+      "kind": "official-document",
+      "bytes": 289,
+      "sha256": "917a8524c50374462c31aa8f9174fc5f3628e389a67879b5bc13dbc9567707a5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.5/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.6/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d7a96c9e7d0b56ae4ecbf2d7.md",
+      "kind": "official-document",
+      "bytes": 7460,
+      "sha256": "9abf0d35030ff7da09cf969b413183bb571efcfbe766a050b38754b3a1210d74",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.6/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.6/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7605e440f7e63d6556c1c9fd.md",
+      "kind": "official-document",
+      "bytes": 949,
+      "sha256": "0b1d432329f4def560d826eccae2d2c2a936070568303493dbd8847ddf96b7c9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.6/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.7/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e9eef54529594579d96899af.md",
+      "kind": "official-document",
+      "bytes": 6995,
+      "sha256": "68eeac39952aaf76996d79a0a278fc451456c8ba8eb4ceb93fd2b0d77a6df1c0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.7/changelog.md"
+    },
+    {
+      "path": "changelog/23.0/23.0.7/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/39b0319183549597e24eed78.md",
+      "kind": "official-document",
+      "bytes": 19643,
+      "sha256": "6d3bdf5a7e1ab97c32848f0b707b2649600b2f6f97cc09d7b72cdb202459c4e8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/23.0.7/release_notes.md"
+    },
+    {
+      "path": "changelog/23.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ea5774c1a7ef27cfcb199485.md",
+      "kind": "official-document",
+      "bytes": 840,
+      "sha256": "059acfeab9e630338d584dfa25ac3ee52a94f9d666d3068813008e52150038ce",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/23.0/README.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.0/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1340e355a76981b37a0a28da.md",
+      "kind": "official-document",
+      "bytes": 54467,
+      "sha256": "9138f9080c902727b516f37d193bbd64e5cfd34214c500ffbb316eaf875add37",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.0/changelog.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/487d0049fedbb1b17caafeb8.md",
+      "kind": "official-document",
+      "bytes": 26983,
+      "sha256": "101a8d8a0dc3ea5dd3383ab766332a4b956dbc70276924433f5bc7a433c770f7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.1/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b9d6494859a431fc4f7a3c4e.md",
+      "kind": "official-document",
+      "bytes": 988,
+      "sha256": "eb6f396acd5f4c63a287a72cd10264e6e23d03961ff9c5fb9b88499396d6ede9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.1/changelog.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2a23de50939a010fc4a7ab90.md",
+      "kind": "official-document",
+      "bytes": 275,
+      "sha256": "420693e16e83555f2200d5b6a0f58587b008cb3af1c824a8fb75d6332c68c61d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.2/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b3ad147533612ea28e93161d.md",
+      "kind": "official-document",
+      "bytes": 5138,
+      "sha256": "18f457f585abb1e9e39b309b587f1cae113ecd892ffd0c0c14c8e9a14226ad29",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.2/changelog.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/55d200b8aaf639e22e22d2e2.md",
+      "kind": "official-document",
+      "bytes": 296,
+      "sha256": "51b26c6a82c1961f3ce9c78a8d24ed60df39ad9899cf12b76d3e6beba2f7f5b0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.3/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/495ee9eac83ccc8669de402f.md",
+      "kind": "official-document",
+      "bytes": 9513,
+      "sha256": "a190317d08518a0ca0c7d3a2fc24aa62d8b7dd410bc38c36bb1cb8f2094c83b0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.3/changelog.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a1a0e99c2c61fcdfdd9e8085.md",
+      "kind": "official-document",
+      "bytes": 985,
+      "sha256": "33025008fdbcd91ce81d277c6f3a59e8cc6c1ed52cf17ce6233dad628dead291",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.4/changelog.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1f4c62c7038dc277240463be.md",
+      "kind": "official-document",
+      "bytes": 6682,
+      "sha256": "77b94d32dd7b5f8865c7e219b9113d9a0137afe8ab4cd144e7704cab95bd3265",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.4/changelog.md"
+    },
+    {
+      "path": "changelog/24.0/24.0.4/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/187b9fd26a4cee5eb139607f.md",
+      "kind": "official-document",
+      "bytes": 19615,
+      "sha256": "6d75811c2b6739fde9d5f9770c96e2733972705c9dd00d41f1ebee74ca731316",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/24.0.4/release_notes.md"
+    },
+    {
+      "path": "changelog/24.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3165e4d65ea9e2f00bc0b67b.md",
+      "kind": "official-document",
+      "bytes": 528,
+      "sha256": "b02f757b8b3e7fbb96214aa5928a25330ef2395d533ad01e933b4a1310cb1241",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/24.0/README.md"
+    },
+    {
+      "path": "changelog/25.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/40e00e965d869cfd88a2dd73.md",
+      "kind": "official-document",
+      "bytes": 32,
+      "sha256": "ac0a1e3cf7f11eb530d9cc2278a364ef3d481f690ebd1310967197a0cc33174c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/25.0/README.md"
+    },
+    {
+      "path": "changelog/7.0/7.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/41570b1c247d9ffcb43a483d.md",
+      "kind": "official-document",
+      "bytes": 20917,
+      "sha256": "23436fe10453516fafefdea7a41ca619c3de8d243fa376510a4407cedfb790b5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/7.0/7.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/7.0/7.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8f62b550aa4dc52011f7434d.md",
+      "kind": "official-document",
+      "bytes": 1429,
+      "sha256": "e7b02929291bcad90ccfc538f93ac22564100814767767e7afae6f5279fc4d69",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/7.0/7.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/7.0/7.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ccc75c80307d26a9cba854cc.md",
+      "kind": "official-document",
+      "bytes": 669,
+      "sha256": "6e7cc2975898c75ccb0fc8bb9dd8748955e9164fe4cfefaafa01d6a3823f0315",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/7.0/7.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/7.0/7.0.3/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8066fc2871c2ee2bf60c1661.md",
+      "kind": "official-document",
+      "bytes": 480,
+      "sha256": "d5b52efc8e12e55e2357333890120d6715e903881a0d7936a8940cb0611445e2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/7.0/7.0.3/release_notes.md"
+    },
+    {
+      "path": "changelog/7.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8d7902abfa76116141d1aa98.md",
+      "kind": "official-document",
+      "bytes": 267,
+      "sha256": "8ae4bff5e38bccd7a7cb13c92e178d54113ec936fc134cf2ea32b2ca9b3e0802",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/7.0/README.md"
+    },
+    {
+      "path": "changelog/8.0/8.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/158816c6de4a48a39f894866.md",
+      "kind": "official-document",
+      "bytes": 15141,
+      "sha256": "289bc83a8817f84597c03931c53f4daa8993351018d16153039c396414bbfb57",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/8.0/8.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/8.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7f8cae8d2d9d7f583d9fcc5b.md",
+      "kind": "official-document",
+      "bytes": 72,
+      "sha256": "d4783c46c08e2b6a138dc8d14f6b5a621e305df9a21d1c1a1976dbea38130f84",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/8.0/README.md"
+    },
+    {
+      "path": "changelog/9.0/9.0.0/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/599f666f660a4706aa1cb388.md",
+      "kind": "official-document",
+      "bytes": 15893,
+      "sha256": "896a96f8ff6224745b1568b9d47f9c88cf5d7378a01540d0cbab835d1ef83778",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/9.0/9.0.0/release_notes.md"
+    },
+    {
+      "path": "changelog/9.0/9.0.1/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/211531da3b96fed87cf8b523.md",
+      "kind": "official-document",
+      "bytes": 2023,
+      "sha256": "66933ce5bd4e354ee13c3a2b7ba46e28f48ea8345f33dafc7d51dce2ae2e62bd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/9.0/9.0.1/release_notes.md"
+    },
+    {
+      "path": "changelog/9.0/9.0.2/release_notes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b3e75c7410bae797829be1bc.md",
+      "kind": "official-document",
+      "bytes": 900,
+      "sha256": "8b2e5bc06448622ce1214b9c16402245d6eb4dbe78981221a961fdbc4f42548f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/9.0/9.0.2/release_notes.md"
+    },
+    {
+      "path": "changelog/9.0/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9066e993a26ad388d700a0e2.md",
+      "kind": "official-document",
+      "bytes": 202,
+      "sha256": "04a802cbeaf58c3afbcf10ee0641e62b45b2f39a3cd62ff066a92b2fdf9b6476",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/9.0/README.md"
+    },
+    {
+      "path": "changelog/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/861d0d6527afefde8a5f11cd.md",
+      "kind": "official-document",
+      "bytes": 290,
+      "sha256": "687ed16285eb46a0951bf0575958486b04df87956663911e8afacf364eed0004",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/README.md"
+    },
+    {
+      "path": "changelog/tooling/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/24540129ba2714e447e0a07f.md",
+      "kind": "official-document",
+      "bytes": 1808,
+      "sha256": "97594419be36deaf7f43721f261279bebd38ea62b7b5316b5d51f08f151d9890",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/tooling/README.md"
+    },
+    {
+      "path": "changelog/tooling/templates/release-notes-template.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0d62e4ce6f729c625b174c49.md",
+      "kind": "official-document",
+      "bytes": 4102,
+      "sha256": "b5bd367b89c34e87db0a4c4c25333ee1101d366f310bd002bd9c8bf781568523",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/changelog/tooling/templates/release-notes-template.md"
+    },
+    {
+      "path": "doc/DockerBuild.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/05a52e1769111ad635adc660.md",
+      "kind": "official-document",
+      "bytes": 2567,
+      "sha256": "2e470b1da5193988a3dd0579064e27a67b9758d3cfe5f0a6e81132e46e7fff62",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/DockerBuild.md"
+    },
+    {
+      "path": "doc/Vision.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0ce32e151c385aae04f8521b.md",
+      "kind": "official-document",
+      "bytes": 3457,
+      "sha256": "d7f1146b5ca898d5d569c4496b4990d5bd4943b09f687b506001fa548731d6a3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/Vision.md"
+    },
+    {
+      "path": "doc/VitessSlackGuidelinesv1_0.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8936c8f95d166d29ade06f83.md",
+      "kind": "official-document",
+      "bytes": 1064,
+      "sha256": "97dba2f2d663d5622ef9a171b90acc1558286155ebcfeb532037ae962ecf4d31",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/VitessSlackGuidelinesv1_0.md"
+    },
+    {
+      "path": "doc/design-docs/APIScope.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cb7f7d3fe8ea4306b243f789.md",
+      "kind": "official-document",
+      "bytes": 3853,
+      "sha256": "6a6f26f1715c9eccbf74f354b7aee20efbfa43a06c0df5832663910e1ccdda5a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/APIScope.md"
+    },
+    {
+      "path": "doc/design-docs/AtomicDistributedTransaction.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/431246b25f32ae1bbd730e5a.md",
+      "kind": "official-document",
+      "bytes": 43964,
+      "sha256": "f0e1565434a1eb9cbbaa71cd3f9198d77d8c5f190a42ea94cfc83de1ab40078f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/AtomicDistributedTransaction.md"
+    },
+    {
+      "path": "doc/design-docs/ComponentizingTabletServer.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f256f0ff58fa664051995590.md",
+      "kind": "official-document",
+      "bytes": 12398,
+      "sha256": "da35cb44ce0791e067b6c3c96c3935546db71dc536eaf8448b009893a32994ea",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/ComponentizingTabletServer.md"
+    },
+    {
+      "path": "doc/design-docs/EmergencyReparentShard.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e6538649339162e6bb5c4115.md",
+      "kind": "official-document",
+      "bytes": 7842,
+      "sha256": "15061a713846c8da32f0a43eeffda9873b6583f5c005a42836ebbe7ccd131c6b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/EmergencyReparentShard.md"
+    },
+    {
+      "path": "doc/design-docs/LifeOfAQuery.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2236cce91847567ff1854b4e.md",
+      "kind": "official-document",
+      "bytes": 5261,
+      "sha256": "397ccbccf8d0d7d1a29066136472d0bc12abb409114a1b819f246eddd5620441",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/LifeOfAQuery.md"
+    },
+    {
+      "path": "doc/design-docs/LongRunningJobs.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/48a5d2a35942db278e0659f8.md",
+      "kind": "official-document",
+      "bytes": 4416,
+      "sha256": "ad49a66058127d84cac1401f76929f9554ae32e5e366d85387904087bfdf2697",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/LongRunningJobs.md"
+    },
+    {
+      "path": "doc/design-docs/OnlineDDLScheduler.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f9ead78578abf5f8bd46a242.md",
+      "kind": "official-document",
+      "bytes": 8567,
+      "sha256": "ee5cbeef888ba5e32867824b1e1c1c75d0492d2e9906122b34a42a2db30877c7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/OnlineDDLScheduler.md"
+    },
+    {
+      "path": "doc/design-docs/OwnedPrimaryVindexes.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9936270607671d6734a91ea6.md",
+      "kind": "official-document",
+      "bytes": 3769,
+      "sha256": "3c0e755685373f32cc5368d15d5eb728c824ac66413b08709d69a161d0fba027",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/OwnedPrimaryVindexes.md"
+    },
+    {
+      "path": "doc/design-docs/RealTimeParamsChange.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c42d0634c6b3fece7f21893e.md",
+      "kind": "official-document",
+      "bytes": 2140,
+      "sha256": "47c5b624ab018d95dc205730d3785fd66fda774795ae885ee1740e389e9aa598",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/RealTimeParamsChange.md"
+    },
+    {
+      "path": "doc/design-docs/ReplicationLagBasedThrottlingOfTransactions.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/84475ea876fc8c3e1dfa8417.md",
+      "kind": "official-document",
+      "bytes": 2292,
+      "sha256": "4e24f77f2f36ba98c12207806b5859ab41f79cda84733b2ce57cbfb8d8590e97",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/ReplicationLagBasedThrottlingOfTransactions.md"
+    },
+    {
+      "path": "doc/design-docs/RowBasedReplication.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c699f91cdfdef140066b7a23.md",
+      "kind": "official-document",
+      "bytes": 3371,
+      "sha256": "689d0a2067b5e6427bf005243f390fb1217744a71c5a92592be7d313ae165e5b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/RowBasedReplication.md"
+    },
+    {
+      "path": "doc/design-docs/SafeLazyDropTables.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/09c2b063c62bd125853ebd95.md",
+      "kind": "official-document",
+      "bytes": 8161,
+      "sha256": "7c43718de0bc291d4ce02167377f799e144938251f890fff65a755127b7913b1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/SafeLazyDropTables.md"
+    },
+    {
+      "path": "doc/design-docs/SeparatingVttabletMysql.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f7f174518dc04b98144b9ecf.md",
+      "kind": "official-document",
+      "bytes": 3920,
+      "sha256": "352a8b471123fba83dd8d0cff4a36dc725383dcba20487d5f0f38267f7d12885",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/SeparatingVttabletMysql.md"
+    },
+    {
+      "path": "doc/design-docs/TabletManagerModel.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7b65072a2d8126b4f13b7440.md",
+      "kind": "official-document",
+      "bytes": 3684,
+      "sha256": "c5f59bcc879e607be66be4a598503b69b7ffdb7f14bb1bc7793f284a1472ce93",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/TabletManagerModel.md"
+    },
+    {
+      "path": "doc/design-docs/TabletRouting.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cf834a312fb0ae8c1a638006.md",
+      "kind": "official-document",
+      "bytes": 5575,
+      "sha256": "e3b737d6c87af90988470f785efcd75a4f7fdce7fc0e2480bd6f6618316e8ba8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/TabletRouting.md"
+    },
+    {
+      "path": "doc/design-docs/TabletServerParamsAsYAML.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/640a6a2e767269003d600e85.md",
+      "kind": "official-document",
+      "bytes": 8021,
+      "sha256": "01d33aa20b29171dc32862b683d996d609b07965db143f33755ad962be8a8fae",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/TabletServerParamsAsYAML.md"
+    },
+    {
+      "path": "doc/design-docs/TopoLocks.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/22608a376918839240d1764b.md",
+      "kind": "official-document",
+      "bytes": 2492,
+      "sha256": "44455f2c9184d375beb28712dbe3511f44be8cb8248c2f79c8d29eaf50079945",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/TopoLocks.md"
+    },
+    {
+      "path": "doc/design-docs/V3HighLevelDesign.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9874390709a2f2bd95e9902a.md",
+      "kind": "official-document",
+      "bytes": 89144,
+      "sha256": "af66238f0ffe9161e8b36d716ef80f4ed0657bfe64122d3d8574ad53334c5be4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/V3HighLevelDesign.md"
+    },
+    {
+      "path": "doc/design-docs/V3VindexDesign.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/91dcbbea8c7141888ecf8e4c.md",
+      "kind": "official-document",
+      "bytes": 31161,
+      "sha256": "280c4e44c761e93207ce4d47e5c25cb2f12de6e2e75732bb6bf12db587398bfa",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/V3VindexDesign.md"
+    },
+    {
+      "path": "doc/design-docs/VTGateBuffering.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/81a9213dd6cd9ace728d4e15.md",
+      "kind": "official-document",
+      "bytes": 4035,
+      "sha256": "905a366819ddade53e299c6cf40db9c792d808d025fbdfb984e890c25e0eaca5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/VTGateBuffering.md"
+    },
+    {
+      "path": "doc/design-docs/VTGateSubqueries.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b975a8ef5ac56a71e10118c4.md",
+      "kind": "official-document",
+      "bytes": 7512,
+      "sha256": "2da81a47420522fbd9528630ea5cdcd80e649b6d4dc0c3443c262de8df9d5c33",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/VTGateSubqueries.md"
+    },
+    {
+      "path": "doc/design-docs/VTGateV3Features.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/60cd26c6d4332bd14eba6358.md",
+      "kind": "official-document",
+      "bytes": 10536,
+      "sha256": "19b7efd9e2fb6948d5f0e155fcf9c7ad74ccbb5f9f1bbaf6605ae0aef02d455c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/VTGateV3Features.md"
+    },
+    {
+      "path": "doc/design-docs/VTTabletFastStateTransitions.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c5b7a81dab12d74d6933ba51.md",
+      "kind": "official-document",
+      "bytes": 3446,
+      "sha256": "fe92e69d56f5fb96794b40f03016069acd1b5d66bb776e066bfaef7c46ad508c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/VTTabletFastStateTransitions.md"
+    },
+    {
+      "path": "doc/design-docs/VindexAsTable.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fe4539370c8d178fc526e317.md",
+      "kind": "official-document",
+      "bytes": 3669,
+      "sha256": "90e2f636fca7605a06cd1863e1da82e212f92f4bcfbd094527ced3988e549bc5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/VindexAsTable.md"
+    },
+    {
+      "path": "doc/design-docs/VitessQueues.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c6911d3144782ccda03ed7c5.md",
+      "kind": "official-document",
+      "bytes": 10971,
+      "sha256": "2033303ac3bdb48f89e220267f9f79cece4a31cfacca7f5310fb8a5e61cb028b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/VitessQueues.md"
+    },
+    {
+      "path": "doc/design-docs/life_of_a_query.xml",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/973248a9bd23cf4df9821aa3.xml",
+      "kind": "official-document",
+      "bytes": 3269,
+      "sha256": "0c42840d9fc62ff6364daba423944ddce0244ebb288c26eaef1e10b9968f8891",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/life_of_a_query.xml"
+    },
+    {
+      "path": "doc/design-docs/life_of_a_query_all.xml",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/38012c8561346f619d518f80.xml",
+      "kind": "official-document",
+      "bytes": 20861,
+      "sha256": "b4eba59fddc18adbd7d0407b761ef3fbafcd04f8eba6b04028bf4515dacbc849",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/life_of_a_query_all.xml"
+    },
+    {
+      "path": "doc/design-docs/life_of_a_query_client_to_vtgate.xml",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/68546d9f752dd694b3995d5c.xml",
+      "kind": "official-document",
+      "bytes": 3094,
+      "sha256": "90de58bf81bb9838075990893ba2ceba619873d7d70a8dfe951ded7d352ff547",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/life_of_a_query_client_to_vtgate.xml"
+    },
+    {
+      "path": "doc/design-docs/life_of_a_query_vtgate_to_vttablet.xml",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ebffcbbbaf9554213cee1386.xml",
+      "kind": "official-document",
+      "bytes": 4706,
+      "sha256": "db77f83ba8d8f4ba34b4315eec6526cec128c0387c7902037166d51fd3c7e179",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/life_of_a_query_vtgate_to_vttablet.xml"
+    },
+    {
+      "path": "doc/design-docs/life_of_a_query_vttablet_to_mysql.xml",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/34d3262e872b7c7174bc4be5.xml",
+      "kind": "official-document",
+      "bytes": 3617,
+      "sha256": "c33cd172f56eabf6a455336a6017d2d3fb172b1ee4e517c9f735c91df5483699",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/design-docs/life_of_a_query_vttablet_to_mysql.xml"
+    },
+    {
+      "path": "doc/internal/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6a04dcfc1c898c5729587d25.md",
+      "kind": "official-document",
+      "bytes": 303,
+      "sha256": "68c83dea2bb059daedf65a504c904301d51a71bedb2b57d5225b3501d7d763a2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/README.md"
+    },
+    {
+      "path": "doc/internal/release/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/84f12ee80a825afa57991b99.md",
+      "kind": "official-document",
+      "bytes": 424,
+      "sha256": "778e12534344a85ce17551d4eba6dda469e29ba2963f629523adc490d48e3d95",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/README.md"
+    },
+    {
+      "path": "doc/internal/release/docker-images.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c442a52679757a6736a0212a.md",
+      "kind": "official-document",
+      "bytes": 144,
+      "sha256": "8cd33d1f8f03585e855c3c8bd7b13c06a15ab050cd53aa75cca0e6b84f5e5306",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/docker-images.md"
+    },
+    {
+      "path": "doc/internal/release/eol-process.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ad0a4305bd24ff8c27bc6b02.md",
+      "kind": "official-document",
+      "bytes": 1141,
+      "sha256": "ed2eb3cc08d64949c7d2d13d9a589da51ec521a211e55805e35d545852624437",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/eol-process.md"
+    },
+    {
+      "path": "doc/internal/release/how-to-release.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/30c5ff12c465e4d30101eeac.md",
+      "kind": "official-document",
+      "bytes": 20792,
+      "sha256": "48da3db4aedf21a2285383694cb638c84dcce416def7637e79e99897de38d2e6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/how-to-release.md"
+    },
+    {
+      "path": "doc/internal/release/java-packages.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2323e7e46446801f13d7aa62.md",
+      "kind": "official-document",
+      "bytes": 1298,
+      "sha256": "d4a5eb2fb113bf5e994731d3775b03cf2a9d813b8461511d75ca0acf30fde83e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/java-packages.md"
+    },
+    {
+      "path": "doc/internal/release/release-branches.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/94d2190a3d23fb71df1fa145.md",
+      "kind": "official-document",
+      "bytes": 630,
+      "sha256": "1c137bc9aaa5ab1ffd7ca36a78230cf964c480ee9d8df125aa2437f08fe3d2c3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/release-branches.md"
+    },
+    {
+      "path": "doc/internal/release/release-tags.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c5b219c15ba082991457ca99.md",
+      "kind": "official-document",
+      "bytes": 303,
+      "sha256": "715b4b08d1300955b26415945b42364c34c2dbaee99d614c6cd5d0cc9f7cab95",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/release-tags.md"
+    },
+    {
+      "path": "doc/internal/release/versioning.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c3352766d18fbb8b21899c96.md",
+      "kind": "official-document",
+      "bytes": 1534,
+      "sha256": "c46103b0bec1d907144254a2a59b5ff779019e20b7c48652002fdc5a599401f1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/internal/release/versioning.md"
+    },
+    {
+      "path": "doc/viper/viper.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/afed667465e25063af1bd3ba.md",
+      "kind": "official-document",
+      "bytes": 16573,
+      "sha256": "5500e3f38f6644cba093534103b84605abe1d44ee10d4dcff7e30c773d510f03",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/viper/viper.md"
+    },
+    {
+      "path": "doc/vtadmin/api-server.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/03be560746fa4f8c87e1760a.md",
+      "kind": "official-document",
+      "bytes": 838,
+      "sha256": "d00525c58db6cb96d2eeb8c7bc0a97b865d9398ad1e066b95af21b492da9b086",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/vtadmin/api-server.md"
+    },
+    {
+      "path": "doc/vtadmin/cluster-config.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/43fe98c0b386c3cdabde2613.md",
+      "kind": "official-document",
+      "bytes": 196,
+      "sha256": "7d19d3af301a926684f48d24d3a98e1b4268c4933a325d07c498c4822d6b4fa6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/vtadmin/cluster-config.md"
+    },
+    {
+      "path": "doc/vtadmin/discovery.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b6bd426a77b91800ae2b46ed.md",
+      "kind": "official-document",
+      "bytes": 79,
+      "sha256": "8ae4b5d7ba8d83a69043e3564ec881236921c053dc25d4df1d098e2f1004974a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/doc/vtadmin/discovery.md"
+    },
+    {
+      "path": "docker/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/da8fcbe728a9172b578e5d75.md",
+      "kind": "official-document",
+      "bytes": 2686,
+      "sha256": "ffabc3765339a5b19cc919aaefcdfa69a80153c9e989efc1672d1925ba92a3ec",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/docker/README.md"
+    },
+    {
+      "path": "docker/bootstrap/CHANGELOG.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0c9c60fe7647c11196ddd944.md",
+      "kind": "official-document",
+      "bytes": 4909,
+      "sha256": "3aa92eb92c05932dd3f07cac6759d33088f1f923f6e5f4588314fe267b2e939f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/docker/bootstrap/CHANGELOG.md"
+    },
+    {
+      "path": "docker/bootstrap/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c6c81d12e7d9d7ae12133941.md",
+      "kind": "official-document",
+      "bytes": 2020,
+      "sha256": "cae399a71c3a3bd03cf2d4c7252d35d8c1d24e5610dee314e76a80d7d85854f0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/docker/bootstrap/README.md"
+    },
+    {
+      "path": "docker/vttestserver/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/baea521f2149e910affee27b.md",
+      "kind": "official-document",
+      "bytes": 643,
+      "sha256": "5f7915780c1311088184f45c09c7196cab7d0beb65df9cb45ce993f2c9bca9b8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/docker/vttestserver/README.md"
+    },
+    {
+      "path": "examples/backups/create_commerce_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/31b4c282e01cd37ab68911c9.sql",
+      "kind": "upstream-example-code",
+      "bytes": 517,
+      "sha256": "6b51dd5352c659856b6c0e7d9a87c1c162ad7c27f55ca3803276fa425fff8007",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/create_commerce_schema.sql"
+    },
+    {
+      "path": "examples/backups/create_customer_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/232b329c847c15efed9d9d7b.sql",
+      "kind": "upstream-example-code",
+      "bytes": 313,
+      "sha256": "a2c8e0bf1f5fbcbe21a15dd584b989e42ae3603dceab63123bfd8d8a0301ef9e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/create_customer_schema.sql"
+    },
+    {
+      "path": "examples/backups/restart_tablets.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d1c1c3f889a9ae1e2d494549.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2988,
+      "sha256": "a202ef0a2dc26584c55f49a92e61ee946e05fa32786c13ce434ffe92e5ea1f49",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/restart_tablets.sh"
+    },
+    {
+      "path": "examples/backups/start_cluster.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/bbd08d4a2613c232c6d5099b.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3229,
+      "sha256": "afec91eca5f5414c2930d173bf648ad63e21e4bafc11c8cdcf7cdaec77d008cf",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/start_cluster.sh"
+    },
+    {
+      "path": "examples/backups/stop_tablets.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/97eaf0e7a3988a97584badb4.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1970,
+      "sha256": "811b13c369016762bf5fe65db6db5f526f8e5c212a43860f015dcba03f776cde",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/stop_tablets.sh"
+    },
+    {
+      "path": "examples/backups/take_backups.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d75bb06a5f6ad7522bf54131.sh",
+      "kind": "upstream-example-code",
+      "bytes": 908,
+      "sha256": "b8944ed9b3f74a4c4f3185d6784063784931bd1d9afa67a9d4d6fa4e08189af5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/take_backups.sh"
+    },
+    {
+      "path": "examples/backups/upgrade_cluster.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3ecc8787840950c1abcc3c00.sh",
+      "kind": "upstream-example-code",
+      "bytes": 4140,
+      "sha256": "6e178c202399e5ca0352773a046bbd678de53e823dfb3cfb13f587476604c489",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/backups/upgrade_cluster.sh"
+    },
+    {
+      "path": "examples/common/backup-env.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ce3d1aa60312723131bcc847.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3211,
+      "sha256": "85fed223bd806810139057f14c438167e7047cdf98b7ad5c9386df12655c476d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-env.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/consul-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5952673ed8ef08780e0eb1be.sh",
+      "kind": "upstream-example-code",
+      "bytes": 787,
+      "sha256": "4b9180bc430cc5cecbc05e3e06970e7c15b59492748bbf62c462a8091dab1d8e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/consul-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/consul-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/05f2fae4037cfc620fc66462.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1768,
+      "sha256": "8d034b9cadb027e7549e90065775d3973e43b5ab93b7c6edccf6d1a554a68f41",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/consul-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/etcd-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e5c9e5ef995a53ca754b1f7e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 783,
+      "sha256": "19fc5564314553dc785602f79002254baed4fbc0e58843d36696e9fdbbb7cbea",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/etcd-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/etcd-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b8b076d9ed269141ec7746f9.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1454,
+      "sha256": "c8669f2806c081839fa9a513609270d924c2e4a8f35010c14b61d9da24e21461",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/etcd-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/mysqlctl-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/828ba20d8a48f85fc2df5f92.sh",
+      "kind": "upstream-example-code",
+      "bytes": 918,
+      "sha256": "3ffd1ec6830d5fa098285f48cfde306cb98d8f70f486150783501926d8f94ebd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/mysqlctl-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/mysqlctl-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2d09b47dc9c2fbcc858791e2.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1247,
+      "sha256": "b6016e99ab5bb82d39f02ee1aa3ea21f3c5cc8c353e37034e5756fde34a0864b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/mysqlctl-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtadmin-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c38e186e6310535e19057b54.sh",
+      "kind": "upstream-example-code",
+      "bytes": 774,
+      "sha256": "896fc5d70fd506d4ab06d30f8046761113bfc28f2e00af5d1407ef98b0b8ffee",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtadmin-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtadmin-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cee0dd90cb9fdf54b600463a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3188,
+      "sha256": "58da96030b85a932af5abb8dd2a78f07a56634eb5d4b10438293c60a5ede8404",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtadmin-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtctld-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7d08b588f46d0550165db9fe.sh",
+      "kind": "upstream-example-code",
+      "bytes": 755,
+      "sha256": "a2f17285f497b02d9545dff2c791845520c1078054aa2f7e905c9375fcffa693",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtctld-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtctld-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fd02d339c859c6f88a4d4585.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1495,
+      "sha256": "db2860e9be4e4a0963bff3e16f48fd18daf31cf7435ffa5e4a25d4bf164c5d46",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtctld-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtgate-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/89475d238a720cc63df6e169.sh",
+      "kind": "upstream-example-code",
+      "bytes": 785,
+      "sha256": "c29fc42252001531b70d2b5b97b3e0d70265bbf00187a804b38acc51945a5ef6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtgate-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtgate-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0b187480064887ae1dc5d72c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1709,
+      "sha256": "d990f651a3663c346e823a985695f134d1e4e6310e45eace0aa6239db197f0e2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtgate-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtorc-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/27f1db2432e9771ab556af0c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 702,
+      "sha256": "5eff5b1191ad10a98978d68a603cb2b18fe0017f5a679d5e4413f96cb5a32429",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtorc-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vtorc-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/28dc5a050c27f4b73ec5722e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 589,
+      "sha256": "f53436f8df24f2e704c9eb411e40473cedeaddd1643485add2c84015f70543e7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vtorc-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vttablet-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/74aef3fe0c8ef8c2d770f130.sh",
+      "kind": "upstream-example-code",
+      "bytes": 868,
+      "sha256": "a104de8730f6d2defa02ebc30d4d2d69127100cdc901f952f117ab3b476bccc1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vttablet-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/vttablet-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f3437d550d285a6c280d4547.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2542,
+      "sha256": "8345270eb44e7b8725d13d723303534e99080d8d4baaf0e7bead1eb2cd8d1a28",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/vttablet-up.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/zk-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c9ea60f5e855082411873b57.sh",
+      "kind": "upstream-example-code",
+      "bytes": 898,
+      "sha256": "f4f474432f108474c7e91c5c4cc73fb31ebcf93adc6d9b3cd06d5ee705615032",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/zk-down.sh"
+    },
+    {
+      "path": "examples/common/backup-scripts/zk-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/867f9d774831614b42aca509.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1989,
+      "sha256": "22dd2baa44414d87579e2611233351e88d506540f7b90baa4f5f2d34b9c3e739",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/backup-scripts/zk-up.sh"
+    },
+    {
+      "path": "examples/common/create_commerce_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2cbb08e166bbc5b21feea761.sql",
+      "kind": "upstream-example-code",
+      "bytes": 462,
+      "sha256": "3ecfa278f2575b0793a89f5cb0401862ce345e6c704ba284ad1b99624ad4e82d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/create_commerce_schema.sql"
+    },
+    {
+      "path": "examples/common/create_commerce_seq.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7ac2e40c0b267ffdc915017a.sql",
+      "kind": "upstream-example-code",
+      "bytes": 372,
+      "sha256": "14e615e06c597f8aa721bfba4abee4268b098d43ace081bf36317a937140a994",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/create_commerce_seq.sql"
+    },
+    {
+      "path": "examples/common/create_customer_sharded.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6a8d06ffc8856e5e0e4f53ca.sql",
+      "kind": "upstream-example-code",
+      "bytes": 130,
+      "sha256": "1851d90ffbfd09a087226bef14d791d7365243e29f27e233157b00b1231d0979",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/create_customer_sharded.sql"
+    },
+    {
+      "path": "examples/common/drop_commerce_tables.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f8f1513c21eabe868afc7032.sql",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "d7aec1bc0f1211e35cc355ddd3ecb69f6b6321628e426199ab30b8c07b3a7105",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/drop_commerce_tables.sql"
+    },
+    {
+      "path": "examples/common/env.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7b1ca9884c3d034fc0574c9e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3211,
+      "sha256": "85fed223bd806810139057f14c438167e7047cdf98b7ad5c9386df12655c476d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/env.sh"
+    },
+    {
+      "path": "examples/common/insert_commerce_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/46cbb8a4d74c68815ec6bb14.sql",
+      "kind": "upstream-example-code",
+      "bytes": 794,
+      "sha256": "06438209efaa525509a65157e85ffdea1947bed76b46051bc40959b6204972e6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/insert_commerce_data.sql"
+    },
+    {
+      "path": "examples/common/lib/utils.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d5e9803192a226378aed118d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 7778,
+      "sha256": "a9f8eef6c5f4736da81f77f6f3645ea9d8e37f1865eed6700ef70d0cef21a23b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/lib/utils.sh"
+    },
+    {
+      "path": "examples/common/scripts/consul-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a67254977058ee5cb89531b7.sh",
+      "kind": "upstream-example-code",
+      "bytes": 787,
+      "sha256": "4b9180bc430cc5cecbc05e3e06970e7c15b59492748bbf62c462a8091dab1d8e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/consul-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/consul-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/030575123b5f9871c7ddf4d5.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1768,
+      "sha256": "8d034b9cadb027e7549e90065775d3973e43b5ab93b7c6edccf6d1a554a68f41",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/consul-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/etcd-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/23d5881a09b7650f102ca85f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 783,
+      "sha256": "19fc5564314553dc785602f79002254baed4fbc0e58843d36696e9fdbbb7cbea",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/etcd-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/etcd-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/da18f03c5c28e86f1fa76141.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1454,
+      "sha256": "c8669f2806c081839fa9a513609270d924c2e4a8f35010c14b61d9da24e21461",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/etcd-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/mysqlctl-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/29a382095f564b2013e4d3a6.sh",
+      "kind": "upstream-example-code",
+      "bytes": 932,
+      "sha256": "00eb6c5f411ef07bac9590ac1d30e01eb1b8fcc485b3e4d2b35a21165fce522d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/mysqlctl-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/mysqlctl-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/01bad7bb3b12c50791630ab9.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1252,
+      "sha256": "bfb22fbc8564e98b12bb01bb1f6ebe8c52d7267f70f2fb9fa2184b6fb2663e2d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/mysqlctl-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtadmin-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9e484e4ec7235dca3cf19dc0.sh",
+      "kind": "upstream-example-code",
+      "bytes": 774,
+      "sha256": "896fc5d70fd506d4ab06d30f8046761113bfc28f2e00af5d1407ef98b0b8ffee",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtadmin-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtadmin-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e6d2128961d36f782ca2bd30.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3188,
+      "sha256": "58da96030b85a932af5abb8dd2a78f07a56634eb5d4b10438293c60a5ede8404",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtadmin-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtctld-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f76e23eb88fb65d2b0860a73.sh",
+      "kind": "upstream-example-code",
+      "bytes": 755,
+      "sha256": "a2f17285f497b02d9545dff2c791845520c1078054aa2f7e905c9375fcffa693",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtctld-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtctld-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/57217894e19359f31dd0b43e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1535,
+      "sha256": "ba5a31ba08527587289095e477563b97b428c9f812445974f7c8c4113245d1a7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtctld-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtgate-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c1a2ce3ea35a9dbd5708fd4a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 785,
+      "sha256": "c29fc42252001531b70d2b5b97b3e0d70265bbf00187a804b38acc51945a5ef6",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtgate-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtgate-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fb2c610b2f31bd57909b167b.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1853,
+      "sha256": "cdf082253cf1bf759c3fa46abe4dd08a86e09359c241c1a3235457692f6de3ce",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtgate-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtorc-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/60f09a5fa5c260a33c0b9392.sh",
+      "kind": "upstream-example-code",
+      "bytes": 702,
+      "sha256": "5eff5b1191ad10a98978d68a603cb2b18fe0017f5a679d5e4413f96cb5a32429",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtorc-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/vtorc-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e3b51a383418ace7c5a9fcee.sh",
+      "kind": "upstream-example-code",
+      "bytes": 788,
+      "sha256": "83d884e732b98c8a656a1c2e7990161740f6815e89240b49c5234c714b32f732",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vtorc-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/vttablet-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2a00ae9c19647fff062689bc.sh",
+      "kind": "upstream-example-code",
+      "bytes": 868,
+      "sha256": "a104de8730f6d2defa02ebc30d4d2d69127100cdc901f952f117ab3b476bccc1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vttablet-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/vttablet-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/dc8c0e33cc9dd25172ebf049.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2303,
+      "sha256": "3820da31c4664d890ffa071b437c4077d90fdbeb4af5ade0bb91574f68a51eee",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/vttablet-up.sh"
+    },
+    {
+      "path": "examples/common/scripts/zk-down.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f2f37f3ef4ffe1e1b5d594f8.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1057,
+      "sha256": "dc7fbdb8896c4ae83deb1771fc99fb76db8a05b7ca9d2cb17bda11b4f3f8d956",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/zk-down.sh"
+    },
+    {
+      "path": "examples/common/scripts/zk-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/546dcbfce768ac0e22ebaa9b.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2170,
+      "sha256": "6c42db128029fd4b20407c6d7248f36a0134f6c4ad3f0fe509afea9cc3d0e598",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/scripts/zk-up.sh"
+    },
+    {
+      "path": "examples/common/select_commerce_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6cddebe06bf823dd5a84c83b.sql",
+      "kind": "upstream-example-code",
+      "bytes": 162,
+      "sha256": "22484dbca51438595e7878f70eb6522e96738c0df2727d96ed7f3eab32094cbe",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/select_commerce_data.sql"
+    },
+    {
+      "path": "examples/common/select_customer-80_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7c8815d441e748d998edcffb.sql",
+      "kind": "upstream-example-code",
+      "bytes": 129,
+      "sha256": "0248e93470647b30f22936aca28d279c6f86b597b6afe4fc706cdd9d8d6fb085",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/select_customer-80_data.sql"
+    },
+    {
+      "path": "examples/common/select_customer0_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c95df703c84e8185455945a1.sql",
+      "kind": "upstream-example-code",
+      "bytes": 125,
+      "sha256": "edc6562f023928c08608d517ce007834653cb34620589404980058394c48da33",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/select_customer0_data.sql"
+    },
+    {
+      "path": "examples/common/select_customer80-_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2fcc38ef36a52528cb90b98c.sql",
+      "kind": "upstream-example-code",
+      "bytes": 129,
+      "sha256": "7e7f8eb4af59dbcd04d65476c277402cc1b6c59d9bd0f283d3f758de0e709cf4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/select_customer80-_data.sql"
+    },
+    {
+      "path": "examples/common/topo-etcd2.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1c564fec908a7c8003c918a5.sh",
+      "kind": "upstream-example-code",
+      "bytes": 700,
+      "sha256": "f5b478ef783f46964c5035b536a5e0bb84d1a1612e9ad8f04533a3a150881bb0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/topo-etcd2.sh"
+    },
+    {
+      "path": "examples/common/topo-k8s.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7b31d1a5316dfcf72775c0f0.sh",
+      "kind": "upstream-example-code",
+      "bytes": 698,
+      "sha256": "06069be44e0dd026eb89bed3b7d8b17e6a8100f631b5ab3c629146751e7ca328",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/topo-k8s.sh"
+    },
+    {
+      "path": "examples/common/topo-zk2.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2e698224fb6665d98296def7.sh",
+      "kind": "upstream-example-code",
+      "bytes": 698,
+      "sha256": "d92fea3bd8f8634b71944b285937652f9f90ce5ff4b1d8804433d6d05754eae1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/common/topo-zk2.sh"
+    },
+    {
+      "path": "examples/compose/101_initial_cluster.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e95d993e06384941c8d9d3f4.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1919,
+      "sha256": "b51b2135b9cff752a9b1b3b019315031f747e502f400697f215743ffdab7b387",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/101_initial_cluster.sh"
+    },
+    {
+      "path": "examples/compose/201_customer_tablets.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cccb49acd09324ad91259f0c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1131,
+      "sha256": "cde8956ec9d11c5a38eb2f4c5499a285a6080245b270b2a5e163440ad5b1414f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/201_customer_tablets.sh"
+    },
+    {
+      "path": "examples/compose/301_customer_sharded.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/93d9d889f9d129057b8ed24f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1356,
+      "sha256": "5fa5a38f6e5af5d333d0f96fe2d698b2fd9ad6555e08cbf538dba84dcba91fc4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/301_customer_sharded.sh"
+    },
+    {
+      "path": "examples/compose/302_new_shards.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/149224690b33b210ca152c61.sh",
+      "kind": "upstream-example-code",
+      "bytes": 848,
+      "sha256": "b8ec00f8582b1807d96a182dbf90e2fbb03d882f226d07b6261059314c718ec9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/302_new_shards.sh"
+    },
+    {
+      "path": "examples/compose/306_down_shard_0.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/56b05ba9a78f400b1d35656a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 750,
+      "sha256": "2dfcf8737125e3e17fdcee507ce3d8756aef80a723cb2af85fbac01d31e45c82",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/306_down_shard_0.sh"
+    },
+    {
+      "path": "examples/compose/307_delete_shard_0.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7e4173a36a0ddd5303857c27.sh",
+      "kind": "upstream-example-code",
+      "bytes": 747,
+      "sha256": "377db4e104756412b048f7cdd936c3dd82e32f023d02a4888ab13ece402fb2b5",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/307_delete_shard_0.sh"
+    },
+    {
+      "path": "examples/compose/501_teardown.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/34944ddffaf09d9bdef38927.sh",
+      "kind": "upstream-example-code",
+      "bytes": 795,
+      "sha256": "2b440b63eab5e3aaf102a874d0c9ccf578f8d328e9621af4c84fc5681c098ebd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/501_teardown.sh"
+    },
+    {
+      "path": "examples/compose/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6d3d119125fa59918a9abcff.md",
+      "kind": "official-document",
+      "bytes": 1963,
+      "sha256": "dd617e6ee42104e7e7dfe4a64b6b6f39f35c2a9ef1828d58bab25c0a76564179",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/README.md"
+    },
+    {
+      "path": "examples/compose/env.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/10bd66e7746141e38e5af23e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3362,
+      "sha256": "b51210305d02ef09192a8e450834f92073b9ffd0827e31abd8613fe333ccdc1f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/env.sh"
+    },
+    {
+      "path": "examples/compose/scripts/vtadmin-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/bf7fa63d8ee963e6937601ef.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1134,
+      "sha256": "75ee68b09fa913dfee5a81678368beffcbed4db85a2207eef5b242eb53042a27",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/scripts/vtadmin-up.sh"
+    },
+    {
+      "path": "examples/compose/scripts/vtctld-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/bfcfe7941ee7fe45b3555cda.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1223,
+      "sha256": "e2a833d9f74b967b785d34bb36529a3eed740f2f0b5029d41d5def9f2a504ad7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/scripts/vtctld-up.sh"
+    },
+    {
+      "path": "examples/compose/scripts/vtgate-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cbfd1168cf7417cf9ba15592.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1067,
+      "sha256": "5deecb2e6157d0d33e1bd2b384dfa50d225a947b6975e699d7cac03c31996c52",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/scripts/vtgate-up.sh"
+    },
+    {
+      "path": "examples/compose/scripts/vtorc-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c6df9f2c6dfea90d709c281d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 921,
+      "sha256": "9e709594ded672e46edfefdb7939740f5ac09fc392b1259299d6e1326c4b6fcf",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/scripts/vtorc-up.sh"
+    },
+    {
+      "path": "examples/compose/scripts/vttablet-up.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5a7ebaeec248e49560c67912.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2008,
+      "sha256": "63f1d8a7ac27c341b4c3be297a0fbabc5960f155795c85afccc4164876195caf",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/compose/scripts/vttablet-up.sh"
+    },
+    {
+      "path": "examples/demo/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/6167c3f1f336034230e3e897.md",
+      "kind": "official-document",
+      "bytes": 317,
+      "sha256": "0fa33844eb4578118e720513ad4626673a1db11b19c91255408523522109da58",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/demo/README.md"
+    },
+    {
+      "path": "examples/demo/demo.go",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3df359618385fd74bf3729b1.go",
+      "kind": "upstream-example-code",
+      "bytes": 6937,
+      "sha256": "0f6ed0571b55c9d62e168321adfe0269938544249d8141d5cb443a2f07b30399",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/demo/demo.go"
+    },
+    {
+      "path": "examples/demo/index.js",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/69d84b16cd9d193421c51275.js",
+      "kind": "upstream-example-code",
+      "bytes": 3061,
+      "sha256": "613bd98e32e79d49ec43ee5a49f16853dc20ac5c27091acdc055b4c0922aa08c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/demo/index.js"
+    },
+    {
+      "path": "examples/demo/schema/customer/customer_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/733b01ba26cd0c2f8cd1c633.sql",
+      "kind": "upstream-example-code",
+      "bytes": 553,
+      "sha256": "6e157681a60f64b057dedc0eb1f8f425685542fac6ba51835af753e602a76619",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/demo/schema/customer/customer_schema.sql"
+    },
+    {
+      "path": "examples/demo/schema/product/product_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/843e1815d59f2e1dd73b08f3.sql",
+      "kind": "upstream-example-code",
+      "bytes": 821,
+      "sha256": "b22b47c31e4eb71a64599db4522cc6ff6ccac040de5c6252d4ca23ecc00c1e79",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/demo/schema/product/product_schema.sql"
+    },
+    {
+      "path": "examples/demo/vschema_ddls.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/75940a712cc4e379f1ac35a1.sql",
+      "kind": "upstream-example-code",
+      "bytes": 1554,
+      "sha256": "e1ab1fdf6905ba97464fe630d524f12a4a35803b8862b51ba95369fe00cfe6e4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/demo/vschema_ddls.sql"
+    },
+    {
+      "path": "examples/local/101_initial_cluster.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ec22198ac3f237524d97ab5f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 3556,
+      "sha256": "41dd01c6ffc94c96d0ebeef09a86402215b4bcbcfca3d7a1b489361da8fd6532",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/101_initial_cluster.sh"
+    },
+    {
+      "path": "examples/local/201_customer_tablets.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f41ee592851959548d84dec4.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1395,
+      "sha256": "b935ea123397c90ba46cda5c7d1b0f47de729d66b57f29c7bf008c9bcfdc74dd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/201_customer_tablets.sh"
+    },
+    {
+      "path": "examples/local/202_move_tables.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/54bc265cd05e4e7281a2e562.sh",
+      "kind": "upstream-example-code",
+      "bytes": 990,
+      "sha256": "d737e4be3f16d519831fb60ec6d018811d2e867e6358cb3f8536e2a858fccfc9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/202_move_tables.sh"
+    },
+    {
+      "path": "examples/local/203_switch_reads.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d9d3fb67b523b92b2d76dec4.sh",
+      "kind": "upstream-example-code",
+      "bytes": 859,
+      "sha256": "6c3c2882409001e2d639a8edcac34b9ddfa36e164df8937ab8333ef785ba5952",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/203_switch_reads.sh"
+    },
+    {
+      "path": "examples/local/204_switch_writes.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/03004df771e1299b61b0267e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 833,
+      "sha256": "94c4e30098f5033514b657b5294480c779886e529122f7114d174edf34c28272",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/204_switch_writes.sh"
+    },
+    {
+      "path": "examples/local/205_clean_commerce.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/62258542f5b5456ccf3e142f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 794,
+      "sha256": "f0a8f8bef8d2e9f3be4db2d465e12a4f058b8c9b62d56dc0ba76777613a09b87",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/205_clean_commerce.sh"
+    },
+    {
+      "path": "examples/local/301_customer_sharded.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8ebc7ff70251c6fc3d1230c3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1493,
+      "sha256": "77e8ec998b257ab8f7546444bc9d10648623c03fd41c2041a3ceb5ac9b31b64b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/301_customer_sharded.sh"
+    },
+    {
+      "path": "examples/local/302_new_shards.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/645b4ae8a3bda5e35e5da678.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1357,
+      "sha256": "e2c647edbc2014a30f5650ee6deda1ca6f1abb0f883ddd75b1f7f1ed74a99292",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/302_new_shards.sh"
+    },
+    {
+      "path": "examples/local/303_reshard.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5349c9ee4a006780e89b169a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 996,
+      "sha256": "bb495793f942580e3bd64b66b4b462264d054c4e11e5ddffeffaf5dee2045a70",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/303_reshard.sh"
+    },
+    {
+      "path": "examples/local/304_switch_reads.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/369126605180bcfbeaded05e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 804,
+      "sha256": "8ca3a38b7b5d55e541b986e50d7656f1629169fdf572d52f3bf36969f41b2672",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/304_switch_reads.sh"
+    },
+    {
+      "path": "examples/local/305_switch_writes.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/af087bb9e70edee8cacf68d6.sh",
+      "kind": "upstream-example-code",
+      "bytes": 786,
+      "sha256": "9ad95ef8597c9aa7467c63e9086d5be6e95982200b7e31f94943071eb325106b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/305_switch_writes.sh"
+    },
+    {
+      "path": "examples/local/306_down_shard_0.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/bdc33e9358db7b0e814a427e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 915,
+      "sha256": "02e961922c6a9b73cfccb155111b86bcbecb88d97e50f5c964d5063f4acff28e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/306_down_shard_0.sh"
+    },
+    {
+      "path": "examples/local/307_delete_shard_0.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/40536e2bdadd1b7bbc94abfe.sh",
+      "kind": "upstream-example-code",
+      "bytes": 754,
+      "sha256": "4bda6174751d268f5ca7ba8a5479df3869b33119052c804fa07ed81cb5978465",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/307_delete_shard_0.sh"
+    },
+    {
+      "path": "examples/local/401_backup.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5bcd3960dba3bef4a8831da2.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1478,
+      "sha256": "9818889a9b8027d6e23c87c4c86975ecf76fbc62ae8050c0a2caeb330da42f7c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/401_backup.sh"
+    },
+    {
+      "path": "examples/local/402_list_backup.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/404df44d7b6511504e69eea4.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1428,
+      "sha256": "cf812688cc76606f6d9289320614134d349b3d02d285054b6faa47653d834879",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/402_list_backup.sh"
+    },
+    {
+      "path": "examples/local/403_restore_from_backup.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1ef7214df22ee7701db5bf17.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2496,
+      "sha256": "a186eef7907312884e97ea4a772ace814125a289390d40e940a5bf5063564ef0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/403_restore_from_backup.sh"
+    },
+    {
+      "path": "examples/local/501_teardown.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/462360f1bde37c73d64fddf3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2253,
+      "sha256": "6233e37e7476bc647485be9c5b5f3708e3342f65579a95c664e68bc620df3d6a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/501_teardown.sh"
+    },
+    {
+      "path": "examples/local/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/2462eb13892213dde4314068.md",
+      "kind": "official-document",
+      "bytes": 4831,
+      "sha256": "4b1f0f26ce3dc00f8d69da61dec7fbe718bb7b32b86973cdedd5d49cf436287b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/README.md"
+    },
+    {
+      "path": "examples/local/create_test_table.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8ac539d6c3a45326b6ce2da5.sql",
+      "kind": "upstream-example-code",
+      "bytes": 186,
+      "sha256": "71931cec3b51f859645714075ac3e0ae47b163b1bd67ed3f4360ab00d77cdde4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/create_test_table.sql"
+    },
+    {
+      "path": "examples/local/vstream_client.go",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e4c9166084fb47ee8c060950.go",
+      "kind": "upstream-example-code",
+      "bytes": 2642,
+      "sha256": "17ed840a3072837633fae63b40b26190bb82407e0b8c1c489d6ce8b7573b924f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/local/vstream_client.go"
+    },
+    {
+      "path": "examples/operator/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/fbf9961947b842bd7d4a481d.md",
+      "kind": "official-document",
+      "bytes": 3517,
+      "sha256": "8c9e068941f5af60e7f38f691e82809612c466f23d90016796fb3d70175241b9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/operator/README.md"
+    },
+    {
+      "path": "examples/operator/delete_commerce_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/846361f1abf1007ee1954384.sql",
+      "kind": "upstream-example-code",
+      "bytes": 62,
+      "sha256": "2d0e0ad36f8d42f512d32d0bbd448548e75406dc5833c27dbf0c52cf086ecf9d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/operator/delete_commerce_data.sql"
+    },
+    {
+      "path": "examples/operator/drop_all_commerce_tables.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/8f55a543995c7b8b8031f063.sql",
+      "kind": "upstream-example-code",
+      "bytes": 89,
+      "sha256": "def12e060342e246666e740e24e9c3723efc176d7b45bc06fa6b51c67880f3ac",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/operator/drop_all_commerce_tables.sql"
+    },
+    {
+      "path": "examples/operator/pf.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a2cb0e938471acda36342c06.sh",
+      "kind": "upstream-example-code",
+      "bytes": 935,
+      "sha256": "e6ceba9c078762a70890549544624bb1df68f13bf3ec4c820487081cd892d031",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/operator/pf.sh"
+    },
+    {
+      "path": "examples/region_sharding/101_initial_cluster.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f25cd27df52140b7c1874d06.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1923,
+      "sha256": "8affcd6c9ed9c376d4e56f7ab93b23e7064d935d34ff48926cb42f9e745668ff",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/101_initial_cluster.sh"
+    },
+    {
+      "path": "examples/region_sharding/201_main_sharded.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/25bc6f082dfb0ed776cb625e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1531,
+      "sha256": "e315391ba0649775de9c0ecc075e5ecfcf2fca6f79d9ccca2630042d532eaf71",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/201_main_sharded.sh"
+    },
+    {
+      "path": "examples/region_sharding/202_new_tablets.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0da2ab83dbe67dc578697087.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1530,
+      "sha256": "af19bd39b5352a824508dd1d5531660519605db96fdfc39d471389d7d3b8c8a7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/202_new_tablets.sh"
+    },
+    {
+      "path": "examples/region_sharding/203_reshard.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/64cf531bae0c724ea5a5a11e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 778,
+      "sha256": "4fcb5ecd73aa69e3e92e3f1a6a7ba68587d09b85e0a8b07bd4ea0fc486e95672",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/203_reshard.sh"
+    },
+    {
+      "path": "examples/region_sharding/204_switch_reads.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a9a2ede1fdb00cda1929d1da.sh",
+      "kind": "upstream-example-code",
+      "bytes": 801,
+      "sha256": "95285e2132999d7c1b4e4a36a7c95c39478fc13a2f2bb009224a69d537f93e0b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/204_switch_reads.sh"
+    },
+    {
+      "path": "examples/region_sharding/205_switch_writes.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/3a024fc660d6aab560e10cfb.sh",
+      "kind": "upstream-example-code",
+      "bytes": 939,
+      "sha256": "81fac41e8a5e0a2da76bc676078b8fbec9e49fed12303c320b6a4a60d5f168ec",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/205_switch_writes.sh"
+    },
+    {
+      "path": "examples/region_sharding/206_down_shard_0.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1a956e1251ca32fbd46b9178.sh",
+      "kind": "upstream-example-code",
+      "bytes": 808,
+      "sha256": "9631bb36f3fd2a0377dbf628a2e9b85f199d198ec1502914bc49703188cb0970",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/206_down_shard_0.sh"
+    },
+    {
+      "path": "examples/region_sharding/207_delete_shard_0.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ccf471d439d6ae40a48b805c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 750,
+      "sha256": "60fa6f3796c22ec5d9f54654f9cb938672ff7a97b134b6e65931312f2f94d6a1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/207_delete_shard_0.sh"
+    },
+    {
+      "path": "examples/region_sharding/301_teardown.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5ed44842b8c9d690065a511c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1741,
+      "sha256": "0b19f67793ebc87bb2f1c57bc275e2365e54d090eaaadceb6a4d14b63b58efa3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/301_teardown.sh"
+    },
+    {
+      "path": "examples/region_sharding/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b0874c28181fd64e0525e339.md",
+      "kind": "official-document",
+      "bytes": 920,
+      "sha256": "ac1c064819b11fac1c782f29cfe6a88dd7c372e9a8fcb0671f1857329e39c478",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/README.md"
+    },
+    {
+      "path": "examples/region_sharding/create_lookup_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ec7e38cd40cd29808b17791a.sql",
+      "kind": "upstream-example-code",
+      "bytes": 117,
+      "sha256": "d114e937d219c8caf9e9b110feae576e6d4bf5652a3fe0de1b54b6cc22200ad9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/create_lookup_schema.sql"
+    },
+    {
+      "path": "examples/region_sharding/create_main_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/93c3a79e76b8ecda30d320d2.sql",
+      "kind": "upstream-example-code",
+      "bytes": 156,
+      "sha256": "1fa7986658e1de4feb7cdf2121804a1ff91b93dec959dbe3d9d40b7839aacfd7",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/create_main_schema.sql"
+    },
+    {
+      "path": "examples/region_sharding/insert_customers.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/94fa2687df581f9a1fdeeee9.sql",
+      "kind": "upstream-example-code",
+      "bytes": 1769,
+      "sha256": "fe0b65cb606b0a8f751c0bc318269c32dad55b0197164d0f0965689af5f92095",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/insert_customers.sql"
+    },
+    {
+      "path": "examples/region_sharding/show_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/95e62440f4c854bc963b6e87.sql",
+      "kind": "upstream-example-code",
+      "bytes": 435,
+      "sha256": "7e4c3eb9759373d31613a7a11018d9210c70b03931f14a49e8f490c6c2f2345a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/show_data.sql"
+    },
+    {
+      "path": "examples/region_sharding/show_initial_data.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f0b3ff79fbc881f4a8a60555.sql",
+      "kind": "upstream-example-code",
+      "bytes": 34,
+      "sha256": "b92383b9ae295c4eedc6ca083b91dd6fb8a6335187ce0051fbf8e2f7649f69d0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/region_sharding/show_initial_data.sql"
+    },
+    {
+      "path": "examples/vtexplain/atomicity_method1.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/632b4465d2da5092e3459926.sh",
+      "kind": "upstream-example-code",
+      "bytes": 274,
+      "sha256": "2fd90f27ca9b415fca9f6e81ea420b02eabb468c08408c2c9c82bfc88728df8d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/vtexplain/atomicity_method1.sh"
+    },
+    {
+      "path": "examples/vtexplain/atomicity_method2.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/467cd98b0886f60d4b0a05fb.sh",
+      "kind": "upstream-example-code",
+      "bytes": 271,
+      "sha256": "0027011f323a54aa440b4255aa6ce8ba952627fcd4417712f5c0063d3b20c13b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/vtexplain/atomicity_method2.sh"
+    },
+    {
+      "path": "examples/vtexplain/atomicity_method2_reads.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/11e97e90ca88c9d309c31b2a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 185,
+      "sha256": "62880b60481b764b5e072a0f2e22127593f40b9d82545f31341a2c0e3208825d",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/vtexplain/atomicity_method2_reads.sh"
+    },
+    {
+      "path": "examples/vtexplain/atomicity_method2_working.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a405662423d2d5f873cf481c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 200,
+      "sha256": "52a6d8562c4c5af99be6739cd284bd37e2937158300d69007ddbc83031ea4fa1",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/vtexplain/atomicity_method2_working.sh"
+    },
+    {
+      "path": "examples/vtexplain/atomicity_method3.sh",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/37e589e876092b6809b7598e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 294,
+      "sha256": "98de1eb87f0fef1f4a9d8807360ec9b99df9e05114e372f8f46e3972012db866",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/vtexplain/atomicity_method3.sh"
+    },
+    {
+      "path": "examples/vtexplain/atomicity_schema.sql",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9f824827dbd12c3e84cac232.sql",
+      "kind": "upstream-example-code",
+      "bytes": 157,
+      "sha256": "98bf508b0d281f1f5f848f4cd8d254092ae7f46518a6863978334b23f22f1db3",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/examples/vtexplain/atomicity_schema.sql"
+    },
+    {
+      "path": "go/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c6fc62c6b8d55a99557d915c.md",
+      "kind": "official-document",
+      "bytes": 629,
+      "sha256": "4f0686cd7f496f9326c0c8a2e5740af496b99d6c8834ede5b974ba9a8002bd1f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/README.md"
+    },
+    {
+      "path": "go/cache/theine/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b82dde298368a9624ad0a0cb.txt",
+      "kind": "license",
+      "bytes": 1065,
+      "sha256": "7e51c898308f49577e2aa9dbeecbac384a65b70e5e430b89ce50851cc71cb0a8",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/cache/theine/LICENSE"
+    },
+    {
+      "path": "go/flags/endtoend/MIGRATION_CHECKLIST.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/7e5f06f167db03f3c3a51804.md",
+      "kind": "official-document",
+      "bytes": 2797,
+      "sha256": "892df73207e453a92d5af0890dc031747445faa885f27f404bbb5f877abc3dd4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/flags/endtoend/MIGRATION_CHECKLIST.md"
+    },
+    {
+      "path": "go/mysql/collations/vindex/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0f368527a48687781d99e286.txt",
+      "kind": "license",
+      "bytes": 1479,
+      "sha256": "2d36597f7117c38b006835ae7f537487207d8ec407aa9d9980794b2030cbc067",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/mysql/collations/vindex/LICENSE"
+    },
+    {
+      "path": "go/mysql/datetime/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a9f1548129f7f820b1bfafd4.txt",
+      "kind": "license",
+      "bytes": 1065,
+      "sha256": "59f2b9cb3029898f4767774d1bd174c6dfebb6874b0895ec195aaf31b208543c",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/mysql/datetime/LICENSE"
+    },
+    {
+      "path": "go/mysql/decimal/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ac573fd29e28c0c2bd1c30af.txt",
+      "kind": "license",
+      "bytes": 2245,
+      "sha256": "b92ba0f6ee02f2309628bfdadb123668a17c016e475ba477b857d33470d9d625",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/mysql/decimal/LICENSE"
+    },
+    {
+      "path": "go/mysql/icuregex/internal/icudata/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/86cdf5a683184782f0d1c393.md",
+      "kind": "official-document",
+      "bytes": 915,
+      "sha256": "a729cac5e948e73ed8a42ebb17ca83457115f69de4070934d7016518ed6b0660",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/mysql/icuregex/internal/icudata/README.md"
+    },
+    {
+      "path": "go/mysql/json/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/21528db365ef8ac7b2a035ae.txt",
+      "kind": "license",
+      "bytes": 1087,
+      "sha256": "6d2d92fff011b501ff5145491307b27da91cc7158e110f19e7a8ecd1fb515354",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/mysql/json/LICENSE"
+    },
+    {
+      "path": "go/mysql/json/LICENSE.rapidjson",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/59607c2e35f9377294f78a71.rapidjson",
+      "kind": "license",
+      "bytes": 1861,
+      "sha256": "998970b9fe637efc6a80ca24f6e440bafee15e75671d19391d86d049c99b5f4a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/mysql/json/LICENSE.rapidjson"
+    },
+    {
+      "path": "go/test/endtoend/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/a10eabc876d041687d4aa71f.md",
+      "kind": "official-document",
+      "bytes": 2343,
+      "sha256": "5590eccaafce572da83117fb1896e1d67bab550ec0de38292cc3c920b4d06f58",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/test/endtoend/README.md"
+    },
+    {
+      "path": "go/tools/asthelpergen/design.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9f8678e3bc4d3aeb041e9a5a.md",
+      "kind": "official-document",
+      "bytes": 6965,
+      "sha256": "5e717c4af9eb3ee113335291e75771ddcd665af52482dc0e28c9f8fcd1887584",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/tools/asthelpergen/design.md"
+    },
+    {
+      "path": "go/vt/mysqlctl/s3backupstorage/README.txt",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9d291fd24caad2d8c39e1c99.txt",
+      "kind": "official-document",
+      "bytes": 901,
+      "sha256": "2e7e95694b6919a39e93badbed1a10b2a8fe6b756c1baacc4916965a1d9184b0",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/mysqlctl/s3backupstorage/README.txt"
+    },
+    {
+      "path": "go/vt/vitessdriver/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/dff832a67b6f4f8869733a92.md",
+      "kind": "official-document",
+      "bytes": 469,
+      "sha256": "6a6cca7a854c3741d64b586e02267bed78381902802513228b31eeade0b1b9af",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vitessdriver/README.md"
+    },
+    {
+      "path": "go/vt/vtadmin/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/f80f9d2de7707aea03fab79c.md",
+      "kind": "official-document",
+      "bytes": 2263,
+      "sha256": "ef04568b5ecd018f43ed047a156d68fd9477962e708e7b3c4889ab0b99c1f2b9",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vtadmin/README.md"
+    },
+    {
+      "path": "go/vt/vtadmin/rbac/example/main.go",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5a25abe1d63c072e994c89bb.go",
+      "kind": "upstream-example-code",
+      "bytes": 863,
+      "sha256": "4628bc2271c5e393f3b01ba254afb01eb42a7a8d8dee7b71db2799e41c6d0f04",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vtadmin/rbac/example/main.go"
+    },
+    {
+      "path": "go/vt/vterrors/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/e57a7297acb53cfa6f65548c.txt",
+      "kind": "license",
+      "bytes": 1312,
+      "sha256": "8d427fd87bc9579ea368fde3d49f9ca22eac857f91a9dec7e3004bdfab7dee86",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vterrors/LICENSE"
+    },
+    {
+      "path": "go/vt/vtgate/planbuilder/operators/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/89ad524061ebc5a5164a2d55.md",
+      "kind": "official-document",
+      "bytes": 8205,
+      "sha256": "68393f665785051cd9a4340cd694c3dc50df70dae712c44587bc69cf249d0da4",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vtgate/planbuilder/operators/README.md"
+    },
+    {
+      "path": "go/vt/vthash/highway/LICENSE",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/63daf02cbff851f3a8017a8b.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vthash/highway/LICENSE"
+    },
+    {
+      "path": "go/vt/vttablet/tabletmanager/vdiff/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/cf12ce9c753e901defc2072f.md",
+      "kind": "official-document",
+      "bytes": 5228,
+      "sha256": "7e4e622affe9788ab3576d4119f57be8d50f5fdff0c1cd47c76636fcee81ff76",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vttablet/tabletmanager/vdiff/README.md"
+    },
+    {
+      "path": "go/vt/vttablet/tabletserver/throttle/LICENSE-freno",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c330a6a4b5103ba15adb15ff.txt",
+      "kind": "license",
+      "bytes": 1063,
+      "sha256": "4c369538293cbc7730deb24e308d59ea86a6c6103438c3fe4f326d032af93bbf",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/go/vt/vttablet/tabletserver/throttle/LICENSE-freno"
+    },
+    {
+      "path": "java/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/0c997611c3c5fb9fa0641cb8.md",
+      "kind": "official-document",
+      "bytes": 2187,
+      "sha256": "531ab602af3e53f6cf419e3080219e24928702b0c69c454dc4ae063eb8a7eabd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/java/README.md"
+    },
+    {
+      "path": "java/example/src/main/java/io/vitess/example/MysqlJDBCExample.java",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/d56645448241381e46511747.java",
+      "kind": "upstream-example-code",
+      "bytes": 6131,
+      "sha256": "9ae3c1d0d3d42390a2e3422a3699c990d7f6388f505da088755587c1929a162a",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/java/example/src/main/java/io/vitess/example/MysqlJDBCExample.java"
+    },
+    {
+      "path": "java/example/src/main/java/io/vitess/example/VitessClientExample.java",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/656a0f59ac1f3024b3101e82.java",
+      "kind": "upstream-example-code",
+      "bytes": 3436,
+      "sha256": "c6d6b8d7710cb95adc1c421048212446c6ee9bcd244814dfc18d5196948d610f",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/java/example/src/main/java/io/vitess/example/VitessClientExample.java"
+    },
+    {
+      "path": "java/example/src/main/java/io/vitess/example/VitessJDBCExample.java",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/b35f4471225812bc15e97200.java",
+      "kind": "upstream-example-code",
+      "bytes": 5833,
+      "sha256": "c3009078577b63dfc03c8a049700fd9f65226e3c34e6aea458aa829efbc527bd",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/java/example/src/main/java/io/vitess/example/VitessJDBCExample.java"
+    },
+    {
+      "path": "proto/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/ae1706c4818260d41095a2f5.md",
+      "kind": "official-document",
+      "bytes": 1751,
+      "sha256": "ecc6ca75f10eaebb8e30f4c013d91ce7fc48153033020c569c161e4bb4ae076b",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/proto/README.md"
+    },
+    {
+      "path": "support/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c30cb8c0651962dafb8ebb72.md",
+      "kind": "official-document",
+      "bytes": 753,
+      "sha256": "e540d5ca3a9ceb879b7465fd6ba68014a89d991617887178470edbdb4e779008",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/support/README.md"
+    },
+    {
+      "path": "support/django/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/67d96b0e197fa1c79bc8bebe.md",
+      "kind": "official-document",
+      "bytes": 1135,
+      "sha256": "8914a5ca6bbfd3f66cb223410c4c93320b90c0c7ff5e762ee948f7554bcb8a09",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/support/django/README.md"
+    },
+    {
+      "path": "support/mysqldump/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/1be5f049952307e8278642b3.md",
+      "kind": "official-document",
+      "bytes": 801,
+      "sha256": "5964e2fd4e1b8be0d789468fc8b2cd86b787a7373c1c0c310c2d4025304daa10",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/support/mysqldump/README.md"
+    },
+    {
+      "path": "test/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/5de36acd90308dc62abf7855.md",
+      "kind": "official-document",
+      "bytes": 2139,
+      "sha256": "5bc760e3f903458f2a1bbfa314cfb4807b25378e500b0fcfd3a7436dd50a350e",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/test/README.md"
+    },
+    {
+      "path": "web/vtadmin/README.md",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/c593dcd79ea9d3ded39a3d33.md",
+      "kind": "official-document",
+      "bytes": 5170,
+      "sha256": "4b83db93b19ffa0a99c1202d1f9f1dcf3f08af08ec274364f9a209688ac6ca52",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/web/vtadmin/README.md"
+    },
+    {
+      "path": "web/vtadmin/src/fonts/LICENSE_OFL.txt",
+      "localPath": "raw/vitessio--vitess/19c067f93d5a/9676ead50cea26fd64c31b2d.txt",
+      "kind": "license",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "sourceUrl": "https://github.com/vitessio/vitess/blob/19c067f93d5ad0bdae8c61717d1f1ddf88169e0f/web/vtadmin/src/fonts/LICENSE_OFL.txt"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

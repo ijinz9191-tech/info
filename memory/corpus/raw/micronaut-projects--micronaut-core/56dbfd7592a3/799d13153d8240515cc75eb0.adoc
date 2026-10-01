@@ -1,0 +1,68 @@
+You can build Micronaut applications with Kotlin and https://kotlinlang.org/docs/ksp-overview.html[KSP]:
+
+____
+Kotlin Symbol Processing (KSP) is an API that you can use to develop lightweight compiler plugins. KSP provides a simplified compiler plugin API that leverages the power of Kotlin while keeping the learning curve at a minimum. Compared to kapt, annotation processors that use KSP can run up to 2 times faster.
+____
+
+If you use the https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/[Micronaut Gradle Plugin], you can build Micronaut applications with Kotlin and https://kotlinlang.org/docs/ksp-overview.html[KSP]. You need to apply the `com.google.devtools.ksp` Gradle plugin.
+
+[source,kotlin]
+.build.gradle.kts
+----
+plugins {
+    id("org.jetbrains.kotlin.jvm") version "1.9.20"
+    id("com.google.devtools.ksp") version "1.9.20-1.0.13"
+    id("org.jetbrains.kotlin.plugin.allopen") version "1.9.20"
+    id("io.micronaut.application") version "4.4.4" // get latest version from https://plugins.gradle.org/plugin/io.micronaut.application
+}
+version = "0.1"
+group = "example.micronaut"
+repositories {
+    mavenCentral()
+}
+dependencies {
+    runtimeOnly("ch.qos.logback:logback-classic")
+    runtimeOnly("org.yaml:snakeyaml")
+    implementation("io.micronaut:micronaut-jackson-databind")
+    testImplementation("io.micronaut:micronaut-http-client")
+}
+application {
+    mainClass.set("example.micronaut.Application")
+}
+graalvmNative.toolchainDetection.set(false)
+micronaut {
+    runtime("netty")
+    testRuntime("junit5")
+    processing {
+        incremental(true)
+        annotations("example.micronaut.*")
+    }
+}
+----
+
+If you don't use the https://micronaut-projects.github.io/micronaut-gradle-plugin/latest/[Micronaut Gradle Plugin], in addition to applying the `com.google.devtools.ksp` Gradle plugin, you have to add `micronaut-inject-kotlin` with the `ksp` configuration.
+
+[source, kotlin]
+----
+ksp(platform("io.micronaut.platform:micronaut-platform:$micronautVersion"))
+ksp("io.micronaut:micronaut-inject-kotlin")
+kspTest(platform("io.micronaut.platform:micronaut-platform:$micronautVersion"))
+kspTest("io.micronaut:micronaut-inject-kotlin")
+----
+
+Unfortunately, KSP doesn't see the changes in the classes made by other compiler plugins, which breaks integration with the `allopen` plugin.
+To make the integration work, we have introduced an experimental KSP property `kotlin.allopen.annotations` for the annotation processor. The property expects a list of annotations that are open, separated by `|`. It's also supported to use the system property of the same name, but that might be unreliable considering build daemons can be cached.
+
+.Kotlin All-Open plugin configuration
+[source, groovy]
+----
+include::test-suite-kotlin-ksp-all-open/build.gradle.kts[tags="allopen", indent=0]
+----
+
+.KSP configuration - repeat all the annotations that are included in Kotlin All-Open configuration
+[source, groovy]
+----
+include::test-suite-kotlin-ksp-all-open/build.gradle.kts[tags="ksp", indent=0]
+----
+
+NOTE: Kotlin All-Open plugin supports only class level annotations - it's not possible to open a class just by a method annotation

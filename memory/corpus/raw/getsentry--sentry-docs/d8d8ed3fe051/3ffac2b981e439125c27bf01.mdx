@@ -1,0 +1,161 @@
+---
+title: Flutter
+description: Learn how to set up Sentry in your Flutter app, capture your first errors and traces, and view them in Sentry.
+caseStyle: camelCase
+supportLevel: production
+sdk: sentry.dart.flutter
+fallbackPlatform: dart
+categories:
+  - mobile
+  - browser
+  - desktop
+---
+
+<AgentSetupCallout skill="sentry-flutter-sdk" platformName="Flutter" />
+
+<PlatformContent includePath="getting-started-prerequisites" />
+
+<StepConnector selector="h2" showNumbers={true}>
+
+## Install
+
+Sentry captures data by using an SDK within your application's runtime.
+
+<SplitLayout>
+<SplitSection>
+<SplitSectionText>
+
+We recommend installing the SDK through our [Sentry Wizard](https://github.com/getsentry/sentry-wizard). Run one of the following commands inside your project directory:
+
+</SplitSectionText>
+<SplitSectionCode>
+
+```bash {tabTitle:brew} {mdExpandTabs}
+brew install getsentry/tools/sentry-wizard && sentry-wizard -i flutter
+```
+
+```powershell {tabTitle:Windows}
+$downloadUrl = "https://github.com/getsentry/sentry-wizard/releases/download/v5.1.0/sentry-wizard-win-x64.exe"
+Invoke-WebRequest $downloadUrl -OutFile sentry-wizard.exe
+./sentry-wizard.exe -i flutter
+```
+
+```bash {tabTitle:macOS (Intel/x64)}
+downloadUrl="https://github.com/getsentry/sentry-wizard/releases/download/v5.1.0/sentry-wizard-darwin-x64"
+curl -L $downloadUrl -o sentry-wizard
+chmod +x sentry-wizard
+./sentry-wizard -i flutter
+```
+
+```bash {tabTitle:macOS (Apple Silicon/arm64)}
+downloadUrl="https://github.com/getsentry/sentry-wizard/releases/download/v5.1.0/sentry-wizard-darwin-arm64"
+curl -L $downloadUrl -o sentry-wizard
+chmod +x sentry-wizard
+./sentry-wizard -i flutter
+```
+
+```bash {tabTitle:Linux (x64)}
+downloadUrl="https://github.com/getsentry/sentry-wizard/releases/download/v5.1.0/sentry-wizard-linux-x64"
+curl -L $downloadUrl -o sentry-wizard
+chmod +x sentry-wizard
+./sentry-wizard -i flutter
+```
+
+```bash {tabTitle:Linux (arm64)}
+downloadUrl="https://github.com/getsentry/sentry-wizard/releases/download/v5.1.0/sentry-wizard-linux-arm64"
+curl -L $downloadUrl -o sentry-wizard
+chmod +x sentry-wizard
+./sentry-wizard -i flutter
+```
+
+```bash {tabTitle:npx}
+npx @sentry/wizard@latest -i flutter
+```
+
+</SplitSectionCode>
+</SplitSection>
+</SplitLayout>
+
+This will patch your project and configure the SDK. You only need to patch the project once, then you can add the patched files to your version control system.
+If you prefer, you can also [set up the SDK manually](/platforms/dart/guides/flutter/manual-setup/).
+
+<Expandable title="The following tasks will be performed by the Sentry Wizard">
+
+- Update your `pubspec.yaml` with the `sentry_flutter` and `sentry_dart_plugin` packages.
+- Create a `sentry.properties` file (gitignored) with a Sentry CLI auth token.
+- Prompt you to enable Tracing, Session Replay, Logs, and (on iOS/macOS) Profiling, then patch `main.dart` with `SentryFlutter.init`.
+- Add a sample exception that is captured when the app starts so you can verify the setup.
+
+</Expandable>
+
+The wizard will prompt you to enable optional features. Select the same options here so this guide can show you how to verify them:
+
+<OnboardingOptionButtons
+  options={["error-monitoring", "performance", "session-replay"]}
+/>
+
+<Include name="quick-start-features-expandable" />
+
+## Verify Your Setup
+
+Let's test your setup and confirm that data reaches your Sentry project.
+
+### Issues
+
+<SplitLayout>
+<SplitSection>
+<SplitSectionText>
+
+The wizard added a sample exception to `main.dart` that is captured when the app starts. Run your app to send it to Sentry:
+
+</SplitSectionText>
+<SplitSectionCode>
+
+```bash
+flutter run
+```
+
+</SplitSectionCode>
+</SplitSection>
+</SplitLayout>
+
+After you've confirmed the issue in Sentry, remove the sample exception from `main.dart` so it isn't captured on every launch.
+
+<OnboardingOption optionId="performance">
+
+<Include name="tracing/dart-quick-start-verify-tracing-splitlayout.mdx" />
+
+</OnboardingOption>
+
+<Include name="logs/dart-quick-start-verify-logs-splitlayout.mdx" />
+
+<Include name="metrics/dart-quick-start-verify-metrics-splitlayout.mdx" />
+
+### View Captured Data in Sentry
+
+Now, head over to your project on [Sentry.io](https://sentry.io) to view the collected data (it takes a couple of moments for the data to appear).
+
+<Include name="quick-start-locate-data-expandable" />
+
+## Next Steps
+
+At this point, you should have integrated Sentry into your Flutter application and should already be sending data to your Sentry project.
+
+Now's a good time to customize your setup and look into more advanced topics.
+Our next recommended steps for you are:
+
+- Explore [practical guides](/get-started/guides/) on what to monitor, log, track, and investigate after setup
+- Continue to <PlatformLink to="/configuration/">customize your configuration</PlatformLink>
+- Add readable <PlatformLink to="/upload-debug/#when-to-upload/">stack traces</PlatformLink> to errors
+- Learn about the <PlatformLink to="/features/">features of Sentry's Flutter SDK</PlatformLink>
+- Add <PlatformLink to="/tracing/instrumentation/">performance instrumentation to your app</PlatformLink>
+
+<Expandable permalink={false} title="Are you having problems setting up the SDK?">
+
+- If you encountered issues with the installation wizard, try <PlatformLink to="/manual-setup/">setting up Sentry manually</PlatformLink>
+- Find various topics in <PlatformLink to="/troubleshooting/">Troubleshooting</PlatformLink>
+- [Get support](https://www.sentry.help/en/)
+
+</Expandable>
+
+</StepConnector>

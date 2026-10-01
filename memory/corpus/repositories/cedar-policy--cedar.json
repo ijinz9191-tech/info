@@ -1,0 +1,769 @@
+{
+  "schemaVersion": 1,
+  "repo": "cedar-policy/cedar",
+  "commit": "2cfa86bab4776d587e96e8da43a37fc44622411a",
+  "retrievedAt": "2026-10-01T15:15:32.278119+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Provisioning/Security & Compliance"
+  ],
+  "archiveUrl": "https://codeload.github.com/cedar-policy/cedar/zip/2cfa86bab4776d587e96e8da43a37fc44622411a",
+  "archiveSha256": "6f60ed7dfec2a6ca88e2b8980ac6b58ee39a0bbc0544b4b4e86fa970fcb60bce",
+  "archiveBytes": 2036866,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 90,
+    "code": 0,
+    "licenses": 3,
+    "bytes": 175693
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 290,
+      "sha256": "dca2134c556c553021ed00985a87006566804a7868701f6728fec466a7d33b97",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 9215,
+      "sha256": "d538480a83ae7ff5b4a28fad9881477d082ddd8aac1b333f84fe7ed9e638f625",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 10142,
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 29,
+      "sha256": "03844ca1749f2008269484548dd96557d19998145eba62c6e2f1a9e5dfa9e0a4",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 7867,
+      "sha256": "cd9ecf82da5ad85febba2059f050592a37b9f87547032f6a5a057eaf93986dbc",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1260,
+      "sha256": "66d5a8f26a5ad24c6c9bddd0cd033024736aea6523ec52bed1bfa7860ab22b6e",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/SECURITY.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/action.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/8ff96cdde54c92bd65d8ff2f.md",
+      "kind": "official-document",
+      "bytes": 284,
+      "sha256": "7f0cd1d6aba96264fe28364afffd7ea7dcd5d6cb5318d8a56915adce32d03bd1",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/action.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/arithmetic/add.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f48ce59f8beff367867f4c43.md",
+      "kind": "official-document",
+      "bytes": 329,
+      "sha256": "fd6b7f3ac00fbd6be0ba7889327b625aa40b423a4640e689d3264e895f5d3499",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/arithmetic/add.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/arithmetic/multiply.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/3fcb0e09d5d6b601ef453dfb.md",
+      "kind": "official-document",
+      "bytes": 420,
+      "sha256": "60d46fe0646d5c8c39448e8cfc52b6d2b709adcfb8e87027393fa0316349ed6f",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/arithmetic/multiply.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/arithmetic/subtract.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/0afc8bdfa865005cac83db56.md",
+      "kind": "official-document",
+      "bytes": 560,
+      "sha256": "2ab0bc1022cfcdce2960e9d75f224ad99af893915a01e91affb6d275306c5577",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/arithmetic/subtract.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/equals.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/bffbaf7cf74d5e13c12733b0.md",
+      "kind": "official-document",
+      "bytes": 198,
+      "sha256": "800c3048b952d96e0ada95b59725cf508bd4ae9b1c9ace496f2b1cd41f9b3dfa",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/equals.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/greater_than.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/e9da699191a4bc7943ca84b9.md",
+      "kind": "official-document",
+      "bytes": 293,
+      "sha256": "5a7753df4b021538e6d39e57b6787f8d23325664491817763b46a06c7a2bee6e",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/greater_than.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/greater_than_or_equals.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/dd8f599d0457c97e52f4aaef.md",
+      "kind": "official-document",
+      "bytes": 316,
+      "sha256": "101e5641749b3060f8765e4652a1955d8f65f0aabf7a7d7e8a15d40fca393540",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/greater_than_or_equals.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/less_than.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/b3e3aeeccf621e6d5d188d5a.md",
+      "kind": "official-document",
+      "bytes": 287,
+      "sha256": "c1348950ba662ca6fe7ee3087ca33ae0df5695d03716bedcbd814cbe92ed8c0a",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/less_than.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/less_than_or_equals.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f9228003b30018b027c5e4b1.md",
+      "kind": "official-document",
+      "bytes": 310,
+      "sha256": "244a60c81367ac3d33779733d0ded87439bf22c7d2d0a38fc250e65c709f4ff2",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/less_than_or_equals.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/like.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/5aeb6a4bac00db116580f730.md",
+      "kind": "official-document",
+      "bytes": 445,
+      "sha256": "0d6254b40eaeb194fee1105b273eb304abef9df13f2127440065d9e903f08ada",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/like.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/comparison/not_equals.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f3a55e9c72885fd0044542ab.md",
+      "kind": "official-document",
+      "bytes": 412,
+      "sha256": "5dca59b2a8da5a16307704457882930befd54822b047039deb4e673d850c2e14",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/comparison/not_equals.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/context.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/ddb93022aad2c41bb5c5ea00.md",
+      "kind": "official-document",
+      "bytes": 456,
+      "sha256": "b3af63a13467e47e98d6b231c4f5f12c36de12d6206ec56aee4cc72c66c9f13d",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/context.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/datetime.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/20a53ee04e5054439a6e86d2.md",
+      "kind": "official-document",
+      "bytes": 81,
+      "sha256": "53288e57e68f654a1e6de51e843dc46f787a76086043049e87a9c82a19535519",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/datetime.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/duration.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/a69efbb96a8a8d15619c39e1.md",
+      "kind": "official-document",
+      "bytes": 166,
+      "sha256": "5aed3f344e339dd3824241c78e93b8fb7017efe15adc7f441da4ce33cf90fbf4",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/duration.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/duration_since.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/1882b61168fb04d2bf055d96.md",
+      "kind": "official-document",
+      "bytes": 133,
+      "sha256": "55e7c0426c1be3ddf0c6c9ac3e7919e021d2c348b4a08bce0165ffb51582d4b8",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/duration_since.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/offset.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/08fbb90b6981ba92aab365a1.md",
+      "kind": "official-document",
+      "bytes": 65,
+      "sha256": "e80563bc25f3784a5612a3546710cc0260530e5218c29a1bce23e5a6fb42ff3c",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/offset.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_date.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/168edda2b7a6828d8b42e127.md",
+      "kind": "official-document",
+      "bytes": 55,
+      "sha256": "a96c0f576e47dcd2257593bc4a6722f87b9bedd3484933991c632c06367f4e27",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_date.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_days.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/5ed9f4f010564254010d2949.md",
+      "kind": "official-document",
+      "bytes": 55,
+      "sha256": "6c6d0c3d904c628470ecd22ea231ae6466b575a9b112c480b0b895b8a97f81dd",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_days.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_hours.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/445e0b6db58f0943515cee63.md",
+      "kind": "official-document",
+      "bytes": 57,
+      "sha256": "72deeea4e1b255a4cedb5dd3ccf0067ed8db612f642e0a97885075b1d05e2e88",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_hours.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_milliseconds.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/09ce232855068a5d16132268.md",
+      "kind": "official-document",
+      "bytes": 71,
+      "sha256": "055324dc25567a38afeb65a52d1c7e1c09f3c0b99d3439bbfdc105f5722bdf0f",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_milliseconds.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_minutes.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/b6b6c9c881784ea79a3564a6.md",
+      "kind": "official-document",
+      "bytes": 61,
+      "sha256": "47301b95d0421e9cda1bf4b21b1d89dcbc051d193bb41f521ff8944e9d95deb5",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_minutes.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_seconds.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/c9ac18a4f2caf2727b22c43e.md",
+      "kind": "official-document",
+      "bytes": 61,
+      "sha256": "14718ce9fc32c7836b5b31202709f1f6477604d178e4ef0c6e10e87d1811ef83",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_seconds.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/datetime/to_time.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/15897233c9a4e1566c5b90a0.md",
+      "kind": "official-document",
+      "bytes": 55,
+      "sha256": "52dabc64e0fd41c3d3ce8490e30f91965bc9adfdb5d86b72a2944dea03d0d2dd",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/datetime/to_time.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/decimal/decimal.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/62c1d8f5c39080d9f04f34e8.md",
+      "kind": "official-document",
+      "bytes": 590,
+      "sha256": "febe959e6301b135c4e6ee862ce655914d10251702ea2985ad39d71950da3e34",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/decimal/decimal.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/decimal/greater_than.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/3efa7b4c9807c66277b83854.md",
+      "kind": "official-document",
+      "bytes": 323,
+      "sha256": "04ed2eabe92ebe19dc50fe1007c2f8a9444c9cd223cccafe7491a7a642e401af",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/decimal/greater_than.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/decimal/greater_than_or_equal.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/3c27113d8572df5f920031b3.md",
+      "kind": "official-document",
+      "bytes": 358,
+      "sha256": "674dd1ee62a42a5f487ac57e76654d3151ae8a26b817fc5eb1ed0fe61fe6bb80",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/decimal/greater_than_or_equal.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/decimal/less_than.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/8cf4902584138a742663a11e.md",
+      "kind": "official-document",
+      "bytes": 311,
+      "sha256": "4eb4a28bf1c1da1f450a2de8b418d9916a406cc595b58cd8a10a67136d1e38c5",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/decimal/less_than.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/decimal/less_than_or_equal.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f247417ff1d8f372aae961da.md",
+      "kind": "official-document",
+      "bytes": 346,
+      "sha256": "47617cc3ca76815a989b8a2166ab35f12cd6b93fc75d679fc9be3e16b2b6b13a",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/decimal/less_than_or_equal.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/ip/ip.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/fa4fd6762f9587210e01f358.md",
+      "kind": "official-document",
+      "bytes": 280,
+      "sha256": "97da54e1e90d48c99a1f92c4de0ff375abdfcf5c6631335697ce71d91de1c15b",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/ip/ip.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/ip/is_in_range.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/e5961e0b172b77a151f590f5.md",
+      "kind": "official-document",
+      "bytes": 362,
+      "sha256": "de23ed3cecea6568e12046bc170805e5bc82c59858146c17877593fe00f5db26",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/ip/is_in_range.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/ip/is_ipv4.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/39b9c750464034868691eaba.md",
+      "kind": "official-document",
+      "bytes": 245,
+      "sha256": "bf5788a24a34465aa5205685574329de8720f537ca973d29ff9682489dd67a1f",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/ip/is_ipv4.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/ip/is_ipv6.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/2f12d58f0bedb1002b94b4ed.md",
+      "kind": "official-document",
+      "bytes": 259,
+      "sha256": "6f156d8f2cfbd20aa0ac435c668bf839e9399fe94904faa6cf5e9325548a4093",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/ip/is_ipv6.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/ip/is_loopback.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/21c3f62be2e92ecbe315de7a.md",
+      "kind": "official-document",
+      "bytes": 305,
+      "sha256": "90e5ffd3397c9a69cb7c70fc8b54ad1cc1f3478866267d15907779054f7155b9",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/ip/is_loopback.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/extension/ip/is_multicast.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/0f69c6273b953459f4521601.md",
+      "kind": "official-document",
+      "bytes": 566,
+      "sha256": "b40533f8f65517b781307fff9ac1a482601dcd0976452ce8e9dc8a0fa5ee4c92",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/extension/ip/is_multicast.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/get_tag.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/8cec5ed68c776c9c228607e5.md",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "525f90ed843148518a8fd9b0d2cc9b28cfec9b9113ecbe0318197592c5e78c0e",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/get_tag.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/has_tag.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/465e7f10ad39df31f69b7843.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "201549794824b9398ec27eee6bd0ee447745320f25385221f353a69319394c83",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/has_tag.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/contains.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/5847e43a8e452f2ce96ca925.md",
+      "kind": "official-document",
+      "bytes": 423,
+      "sha256": "81ef54e8cfc3d8ab1e091717e24a9215990a3ef2311ef97d1d12534efe88ff03",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/contains.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/contains_all.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/080b6fe52236cd4161cfb8ea.md",
+      "kind": "official-document",
+      "bytes": 408,
+      "sha256": "29b81230b7ea732a5c5ed431b858d8eb9da7df09ab9217c0f938655d682f7510",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/contains_all.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/contains_any.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/a977231a79d31f23eae407ca.md",
+      "kind": "official-document",
+      "bytes": 407,
+      "sha256": "fa2dc65e7172ed54ae69361e8aab3156e590e104211eedf142bc2b43520674bb",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/contains_any.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/has.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/0590556607db821e9742e4ad.md",
+      "kind": "official-document",
+      "bytes": 420,
+      "sha256": "2162033458df82a7aa9df7a894cd6b1ae497229b639d6d355dcf7270f48cb1ca",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/has.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/in.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/53f9ce9dd5dcc996b4a1f246.md",
+      "kind": "official-document",
+      "bytes": 366,
+      "sha256": "2944ddaab89a98e579f4639e34fb7bb3220f4ecb6e9a62923ade9b69928ac5e6",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/in.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/is.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/054616de2511ced4d85ab03e.md",
+      "kind": "official-document",
+      "bytes": 511,
+      "sha256": "d5f5a36b3594d0d57d0472461c4cca9babf47e17d6c55f563250a433fc0fd584",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/is.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/is_empty.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f6ff29da03c666126c60a2bd.md",
+      "kind": "official-document",
+      "bytes": 198,
+      "sha256": "56368d378dd74b8adbe95ea4e7911ed4cc55f70dc90041537e1f7345ea812f17",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/is_empty.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/hierarchy/set.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/53c610e74cbd24cb3a31c1d7.md",
+      "kind": "official-document",
+      "bytes": 93,
+      "sha256": "f896aba23b576337e67ba5fc347add7d22ec57d386919021914aafbfdbddab86",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/hierarchy/set.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/logical/and.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/39e1e0e687ed9c80c6fef093.md",
+      "kind": "official-document",
+      "bytes": 296,
+      "sha256": "d2284acb0650cee0e30c5134b05658dd7266f374ca1ebbd98a7b6d9ed095b532",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/logical/and.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/logical/if.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/cfced0585cbf7d737bfad825.md",
+      "kind": "official-document",
+      "bytes": 322,
+      "sha256": "0548674cf127d14484442417d5c98ff467730feb5bb1ea789183c4075dfeb213",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/logical/if.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/logical/not.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/3d4c087360fa8bdf7a41ee60.md",
+      "kind": "official-document",
+      "bytes": 241,
+      "sha256": "6901fb89e69648b58d6509e9f7f97461c98d15dcf6a5e01eb5cec04e750c010f",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/logical/not.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/logical/or.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/4a95b626ba35034c9a76ccef.md",
+      "kind": "official-document",
+      "bytes": 290,
+      "sha256": "6369b378543ee36a35c005b821a5e39dbbc9c255a6fb8185d96d36deee471e11",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/logical/or.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/primitive/bool.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/5630f611ffd85fe79a467ff0.md",
+      "kind": "official-document",
+      "bytes": 53,
+      "sha256": "b808b887ef74c90e7b57954800620ec2a0253900379c0b585317b5e925ab4400",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/primitive/bool.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/primitive/long.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/d3bd8589701dbdf6a1341489.md",
+      "kind": "official-document",
+      "bytes": 146,
+      "sha256": "58b88c8673fdc8fc3f9d48ce8873fc7abeee9e6fd83efb718cd3394081cc04df",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/primitive/long.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/primitive/string.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/b7a789cb9815f3bf541acd65.md",
+      "kind": "official-document",
+      "bytes": 79,
+      "sha256": "1261fdd3a86236dd1b38574cd3f7bf0141fbb557e2fcce5de30e5e1dfe433819",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/primitive/string.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/principal.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/6b20a947e31744976392d2a6.md",
+      "kind": "official-document",
+      "bytes": 459,
+      "sha256": "49408fd2f5dd9ed87a880cf4dd41582c076487427c797f0969d94319568d12d1",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/principal.md"
+    },
+    {
+      "path": "cedar-language-server/src/documentation/markdown/resource.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/7a573338db1b0cd6191bfb21.md",
+      "kind": "official-document",
+      "bytes": 309,
+      "sha256": "8a985322c1de345d3237c72b0f0a829a1cd34b60e6991971cde641e97a5053c6",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-language-server/src/documentation/markdown/resource.md"
+    },
+    {
+      "path": "cedar-policy-cli/CHANGELOG.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/14245a13817f6cdc5ac2a395.md",
+      "kind": "official-document",
+      "bytes": 8792,
+      "sha256": "fa861f5703bfd599268938af8885b09023bdbe3e2ae1c259bfa9a1e83f81dcc2",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/CHANGELOG.md"
+    },
+    {
+      "path": "cedar-policy-cli/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/5013683d4ef4418e762d581f.md",
+      "kind": "official-document",
+      "bytes": 3101,
+      "sha256": "3ff7c82f641d9135e2a3cde0451fc13f5ab9905acd99803d714d1027d23ae34d",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/34ccffd156cb35747a8d365e.md",
+      "kind": "official-document",
+      "bytes": 522,
+      "sha256": "4a76b5400532a463fdc5045d9ab092caa21cc16268d5b2191d29573d01fabf9d",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/sandbox_a/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/a1182ec225020a983787022f.md",
+      "kind": "official-document",
+      "bytes": 4656,
+      "sha256": "1feca14f8d38bc6fe8ae4685eafb7a5b24618371baaaaa5d0c646080940373f2",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/sandbox_a/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/sandbox_b/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/6a556577df65f620e65595a5.md",
+      "kind": "official-document",
+      "bytes": 4090,
+      "sha256": "4384a7d010eb9d8ef8420a51673bf85365d7eac39abfad94be606d750250f443",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/sandbox_b/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/sandbox_c/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/45a4f34014ef23239254c94f.md",
+      "kind": "official-document",
+      "bytes": 3521,
+      "sha256": "29a442658d58f7e14f93521615e91e36e7146c31765b800c63cc51404d7529d3",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/sandbox_c/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/format/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/847af966545572d539fa4255.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "00013cdf0230105e67611049123ae47a6b2ee58f4390a6c2cedc078ca6bf91f0",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/format/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/json-authorize/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/137ba8ea8ee9b427a1656139.md",
+      "kind": "official-document",
+      "bytes": 626,
+      "sha256": "466771357d67d2a6464443c78d8421fb4cae5d15ef01837f52952f487bc64263",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/json-authorize/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/0bc1bb65694d81e4b8aca576.md",
+      "kind": "official-document",
+      "bytes": 471,
+      "sha256": "3ab1c343fff6190309362568a7bc83cb2445025ff853388b4db4eb23dce221f9",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/json-check-parse/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/35a8b6020da180e281092956.md",
+      "kind": "official-document",
+      "bytes": 2780,
+      "sha256": "a0214908455ef3dc42ee437f0a147d9fc5fe2acc0746feb97419466d5170affa",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/level-validation/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample1/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/8d0f0afe4cfba1a5446553c8.md",
+      "kind": "official-document",
+      "bytes": 1163,
+      "sha256": "734cd451a1516d831bd2092cf42a4f1e85c9243bfa0dda05494efc4d3932bc04",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample1/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample2/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/67e091e64bb8424dcdba700d.md",
+      "kind": "official-document",
+      "bytes": 896,
+      "sha256": "0f2de7c1cc76a88eff2e455750b8cc1db2a49445563e01cced9f29f10d85aca5",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample2/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample3/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/50c7539122ec32e9fb8fa658.md",
+      "kind": "official-document",
+      "bytes": 664,
+      "sha256": "a6e4379c2b0cb010475bc039e492e658f52b08c9b46655ffc32901e6d68e98e6",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample3/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample4/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/10555c20c0222b52f5e81b24.md",
+      "kind": "official-document",
+      "bytes": 617,
+      "sha256": "18e0d18bcf95ba9edefedd7d798481fe5f493176774a1bb86baa889ce81841dc",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample4/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample5/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/37849af1f912114aba3b5f56.md",
+      "kind": "official-document",
+      "bytes": 566,
+      "sha256": "2901eee4c6359f57662a63358fcf9a7fb1f0ba5dfcd7c14d47c4537572019c71",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample5/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample6/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/28f4c0cdd723747072643731.md",
+      "kind": "official-document",
+      "bytes": 602,
+      "sha256": "964c871423d3a302ff0fe17cf2823b5605c045e9e8272584e4222b5c422b8a9b",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample6/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample7/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/3214b09e55e490d3fa3a7a83.md",
+      "kind": "official-document",
+      "bytes": 679,
+      "sha256": "9d29a96b4ef72920d8505cf89a8c343015865a2185e5e9314b265aad3dc53cb7",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample7/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample8/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/adb52e4dd02cb2ff28b123f1.md",
+      "kind": "official-document",
+      "bytes": 574,
+      "sha256": "89860d030f092589ec858e72312164e6d567ce15d4f91f0ec5758ed89f109a3e",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample8/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/sample9/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/e80eda0b7d4cdf4795e3dfc6.md",
+      "kind": "official-document",
+      "bytes": 1514,
+      "sha256": "d8e561f04adf9fa7d9198e95e85869d5fe9822f6d3b12e5ca7f5a05153486c93",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/sample9/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/translate-policy/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/61c72722e38602d8f6173262.md",
+      "kind": "official-document",
+      "bytes": 164,
+      "sha256": "8208db54c8191ab0cd2c89bffafbd5494a5e9454865557067133686707a7d09b",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/translate-policy/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/sample-data/tiny_sandboxes/translate-schema/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f2b50426f982cbe1cd60d734.md",
+      "kind": "official-document",
+      "bytes": 173,
+      "sha256": "0dfccccd5d93b73ab5690ec36338f6325e9da98e345ff3ace15b2a887ca661bd",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/sample-data/tiny_sandboxes/translate-schema/README.md"
+    },
+    {
+      "path": "cedar-policy-cli/src/command/license.rs",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/882c8b57d807059c1e227765.rs",
+      "kind": "license",
+      "bytes": 1321,
+      "sha256": "a871d9bde99abceb51dbb1bb6ce58bbeeb5ec30ee3dfbc89740713cc28f0dff7",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-cli/src/command/license.rs"
+    },
+    {
+      "path": "cedar-policy-core/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/c91e70d60d14cba07bf411f8.md",
+      "kind": "official-document",
+      "bytes": 999,
+      "sha256": "165e20145bb76417cb258c7053145ed333b891f2cca7ede9af828cbbbb693c5a",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-core/README.md"
+    },
+    {
+      "path": "cedar-policy-core/src/validator/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/4dc48369c9bc752046367c14.md",
+      "kind": "official-document",
+      "bytes": 526,
+      "sha256": "a53853c9da9a090d7d9fc1a30a271eb59a0e2962224484fcb9caf9d838828ecf",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-core/src/validator/README.md"
+    },
+    {
+      "path": "cedar-policy-formatter/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/643a0ffca82deedf4cb99189.md",
+      "kind": "official-document",
+      "bytes": 2279,
+      "sha256": "8447ad8b69a3d5292734e9f3ff79ab2ccd22b9d3a27e9505a7334d8d5ace7629",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-formatter/README.md"
+    },
+    {
+      "path": "cedar-policy-symcc/CHANGELOG.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/50414fc071063b6e97056994.md",
+      "kind": "official-document",
+      "bytes": 6135,
+      "sha256": "8a21f2ddd1585681d1e17d67e27ef4b2731169f60b3f13adc3a3d16d54cfa957",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-symcc/CHANGELOG.md"
+    },
+    {
+      "path": "cedar-policy-symcc/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/f30e87843bc492f2dfd2fd11.md",
+      "kind": "official-document",
+      "bytes": 4072,
+      "sha256": "52cd62336a8b159f3005995d06e1d32249792fbd1a9b52e95da0a299bf471887",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-symcc/README.md"
+    },
+    {
+      "path": "cedar-policy-symcc/tests/data/cedar-examples/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/45fea859e68e0f10c2134879.md",
+      "kind": "official-document",
+      "bytes": 163,
+      "sha256": "4a9445dde71d4a735e879f8baf2c1c4fa974959b8f71a32b3c64143a124ce2ca",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy-symcc/tests/data/cedar-examples/README.md"
+    },
+    {
+      "path": "cedar-policy/CHANGELOG.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/1de4fcacd6339aab7be0c506.md",
+      "kind": "official-document",
+      "bytes": 63119,
+      "sha256": "a7adb1c346e0fd5cffb6b77da43cdcbb1b04cf2d1559b4c91c75bec42dbf9d98",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy/CHANGELOG.md"
+    },
+    {
+      "path": "cedar-policy/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/6a6a773f32bb1fcd1080b01f.md",
+      "kind": "official-document",
+      "bytes": 3898,
+      "sha256": "ff1b52a678d1d247a5820d39e9948552e994d9ad152feb551a4602099e291e8d",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-policy/README.md"
+    },
+    {
+      "path": "cedar-testing/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/b9862b7a704e009cacd38661.md",
+      "kind": "official-document",
+      "bytes": 1012,
+      "sha256": "fd67faa16aa9aa8fc05668fb085f4089f4eb3f8d241c4be54a18d167716bf044",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-testing/README.md"
+    },
+    {
+      "path": "cedar-wasm/CHANGELOG.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/868064c5444fdcfe92de48d6.md",
+      "kind": "official-document",
+      "bytes": 1055,
+      "sha256": "a790048c48825c90de597c8da37f426c56774e95c32922a3ec42b6fa0603e0cc",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-wasm/CHANGELOG.md"
+    },
+    {
+      "path": "cedar-wasm/README.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/446c0315ecd3263374e5384d.md",
+      "kind": "official-document",
+      "bytes": 4812,
+      "sha256": "c7fc96fcd028962ffb2c9c424c2aab776ad29ddbac36c36ee1fef2c8c70cbe2b",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/cedar-wasm/README.md"
+    },
+    {
+      "path": "style_guide.md",
+      "localPath": "raw/cedar-policy--cedar/2cfa86bab477/73ed2b26f52326ccd45aaa81.md",
+      "kind": "official-document",
+      "bytes": 6769,
+      "sha256": "d42c1203b93b07f856641dc930b102fb0fca8a955006e709205aafce41f134b4",
+      "sourceUrl": "https://github.com/cedar-policy/cedar/blob/2cfa86bab4776d587e96e8da43a37fc44622411a/style_guide.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

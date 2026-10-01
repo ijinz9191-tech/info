@@ -1,0 +1,786 @@
+{
+  "schemaVersion": 1,
+  "repo": "apache/maven",
+  "commit": "b48508534366c1e75a901cfb214da09f95a9064d",
+  "retrievedAt": "2026-10-01T15:35:38.238168+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "tooling/maven"
+  ],
+  "archiveUrl": "https://codeload.github.com/apache/maven/zip/b48508534366c1e75a901cfb214da09f95a9064d",
+  "selectionSha256": "1cd8ca365456e432d19b8016ed330a6d82d240cb6c903a940fa5811d389bee1d",
+  "selection": {
+    "docRoots": [
+      "src/site"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "a1f6cc4b935d2d137c90110abe9ff438710fee5ccc4e1a17db98d2597009bf60",
+  "archiveBytes": 18735598,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 36,
+    "code": 45,
+    "licenses": 13,
+    "bytes": 252723
+  },
+  "files": [
+    {
+      "path": ".mvn/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/df84bec9af60fa32331d6f63.txt",
+      "kind": "official-document",
+      "bytes": 97,
+      "sha256": "a34eff9325186216f5daa9978c6eb5ab1f04eff5ac9c6e468963c65f688e6225",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/.mvn/readme.txt"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/apache--maven/b48508534366/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 1086,
+      "sha256": "ccc7fe49fc4d3834df61ea7f3bff45419f1a928aeaa705c6710ddbc20cdcdbf0",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/AGENTS.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/apache--maven/b48508534366/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4317,
+      "sha256": "3bc335cf392a5d1d75767c2616a32947ef1d9f3b35ad36f699a673b77f4d0949",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/apache--maven/b48508534366/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/apache--maven/b48508534366/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 167,
+      "sha256": "633cdd68388defe137dd4b6a02bc9656cefae3b33c64b371e31b104aad40adac",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/apache--maven/b48508534366/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6016,
+      "sha256": "30774745b5fce44ed13f55245d95203b4da74a5f432324f39312211105403c90",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/apache--maven/b48508534366/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1299,
+      "sha256": "ca6f19b89cc3148820e5fc2b2fed29b7fe5ef6195fdc54f4fea1759da3a9be84",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/SECURITY.md"
+    },
+    {
+      "path": "THREAT_MODEL.md",
+      "localPath": "raw/apache--maven/b48508534366/a2705f8432ecedee888a7963.md",
+      "kind": "official-document",
+      "bytes": 39253,
+      "sha256": "5a23eee4ca90c12e7153a5ddfd39b70aec42d0bb43fba73864475e8fcded0483",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/THREAT_MODEL.md"
+    },
+    {
+      "path": "apache-maven/README.txt",
+      "localPath": "raw/apache--maven/b48508534366/ae157e1053eb216d497608a3.txt",
+      "kind": "official-document",
+      "bytes": 1278,
+      "sha256": "2a029c8532ad3750f80a96dc79333794f4bc79a1da3a3eae8974afa5dc7f212b",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/README.txt"
+    },
+    {
+      "path": "apache-maven/src/assembly/maven/lib/ext/README.txt",
+      "localPath": "raw/apache--maven/b48508534366/0884f7096de8ea5452c5462b.txt",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "e37e36d87f66a9c1cc131519bd18fb5e89318f42c58589096ea539fa8e411f6f",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/assembly/maven/lib/ext/README.txt"
+    },
+    {
+      "path": "apache-maven/src/assembly/maven/lib/ext/hazelcast/README.txt",
+      "localPath": "raw/apache--maven/b48508534366/0319acfcbff22ac04d34cf27.txt",
+      "kind": "official-document",
+      "bytes": 300,
+      "sha256": "9af1e954aa54ad0ce9ffa1677de9d82f45eb8fb0b0f1eb84907dc7552dee9565",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/assembly/maven/lib/ext/hazelcast/README.txt"
+    },
+    {
+      "path": "apache-maven/src/assembly/maven/lib/ext/redisson/README.txt",
+      "localPath": "raw/apache--maven/b48508534366/cb94f915665056fc9a1c49e9.txt",
+      "kind": "official-document",
+      "bytes": 295,
+      "sha256": "407f3240c5c288422c714440c8b79b5b5125225b368be45cb832e418e39cf255",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/assembly/maven/lib/ext/redisson/README.txt"
+    },
+    {
+      "path": "apache-maven/src/assembly/maven/lib/jline-native/README.txt",
+      "localPath": "raw/apache--maven/b48508534366/fdf03b378726eb0f4680febf.txt",
+      "kind": "official-document",
+      "bytes": 428,
+      "sha256": "bb2835110200d0d63905dbb470b96a929bd182f9ec49aeef491a99794835296c",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/assembly/maven/lib/jline-native/README.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/META-INF/LICENSE.vm",
+      "localPath": "raw/apache--maven/b48508534366/649c461d77b3a2fba6549b36.vm",
+      "kind": "license",
+      "bytes": 15884,
+      "sha256": "9517b607abf317dfb4b70aaeb46a459046b203ce861a9ccd72edc694f5400eb8",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/META-INF/LICENSE.vm"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/META-INF/NOTICE.vm",
+      "localPath": "raw/apache--maven/b48508534366/13fd10c22a98e642e1ca0ab7.vm",
+      "kind": "license",
+      "bytes": 5828,
+      "sha256": "eb11bf51bb0e72390d8eef7c19d1e0dc0de82d6dc37bd9ea318f55379e67672e",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/META-INF/NOTICE.vm"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/Apache-2.0.txt",
+      "localPath": "raw/apache--maven/b48508534366/559541f2c112664adb19fa87.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/Apache-2.0.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/BSD-2-Clause.txt",
+      "localPath": "raw/apache--maven/b48508534366/5f83ad67cef023bae7fe0fc2.txt",
+      "kind": "license",
+      "bytes": 1276,
+      "sha256": "7e43a19de60242ac394ca45f5011ab666beae9d6cbdccec8819acfd06cbaea3f",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/BSD-2-Clause.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/BSD-3-Clause.txt",
+      "localPath": "raw/apache--maven/b48508534366/2b0cf7ba2d775aaa4de036d9.txt",
+      "kind": "license",
+      "bytes": 1468,
+      "sha256": "f55f87fe91676f17282f8a34e8987a01abbcdccb2162b63549cf105147b88409",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/BSD-3-Clause.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/CDDL+GPLv2-with-classpath-exception.txt",
+      "localPath": "raw/apache--maven/b48508534366/c0e654a38470ef24ab7f804b.txt",
+      "kind": "license",
+      "bytes": 39395,
+      "sha256": "1b087ad282cb3cd0a11e4e160318eab4ff0995aae7d22e6ac0d30367e196c6e3",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/CDDL+GPLv2-with-classpath-exception.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/EPL-1.0.txt",
+      "localPath": "raw/apache--maven/b48508534366/53ac9f717e956ff31846fd73.txt",
+      "kind": "license",
+      "bytes": 11320,
+      "sha256": "0435570a20c5b24623b98cbcd0b4d0340d5550007388cda4c6b198b0cfa14a86",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/EPL-1.0.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/EPL-2.0.txt",
+      "localPath": "raw/apache--maven/b48508534366/7a04654dc9e059b43b563abb.txt",
+      "kind": "license",
+      "bytes": 14196,
+      "sha256": "209fe24bf55677bbf81c2b0481c1403201fab57b3b4c609971eba4ec8162b99c",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/EPL-2.0.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/MIT.txt",
+      "localPath": "raw/apache--maven/b48508534366/7e484ebb3da082302c93be62.txt",
+      "kind": "license",
+      "bytes": 1133,
+      "sha256": "2dfd65b04647beef577a777eea54bd7ab85265a4760c3b0858a845c318c995dd",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/MIT.txt"
+    },
+    {
+      "path": "apache-maven/src/main/appended-resources/licenses/Public-Domain.txt",
+      "localPath": "raw/apache--maven/b48508534366/ddb19d1ace13921789a1a068.txt",
+      "kind": "license",
+      "bytes": 13,
+      "sha256": "f6960be1b71d602352d7d9de76a564f54f3dab550b23fa5674049f842116ca55",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/apache-maven/src/main/appended-resources/licenses/Public-Domain.txt"
+    },
+    {
+      "path": "compat/maven-embedder/src/examples/simple-project/src/main/java/org/apache/maven/embedder/App.java",
+      "localPath": "raw/apache--maven/b48508534366/d9e6f798b6fb6ba20e99d52e.java",
+      "kind": "upstream-example-code",
+      "bytes": 996,
+      "sha256": "ce06a219bfebd2db29afc2b73386b99dc9be8b9ae39795686ff53d9e1d0d7202",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/compat/maven-embedder/src/examples/simple-project/src/main/java/org/apache/maven/embedder/App.java"
+    },
+    {
+      "path": "compat/maven-embedder/src/examples/simple-project/src/test/java/org/apache/maven/embedder/AppTest.java",
+      "localPath": "raw/apache--maven/b48508534366/7f33dcb7670b2aef697b5c53.java",
+      "kind": "upstream-example-code",
+      "bytes": 1115,
+      "sha256": "aadbf9698264ddcd6e5984f3d1e933742c501bb7fb18936c8208a86451f05e2d",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/compat/maven-embedder/src/examples/simple-project/src/test/java/org/apache/maven/embedder/AppTest.java"
+    },
+    {
+      "path": "its/README.md",
+      "localPath": "raw/apache--maven/b48508534366/f5f9200e3a77435585a4004f.md",
+      "kind": "official-document",
+      "bytes": 1458,
+      "sha256": "c0d195f8abf7e12510159056126bf69dead827b33aeb2ce88039784e9cd233fd",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/README.md"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/gh-12303-ci-friendly-revision-remote-resources/resource-bundle/src/main/resources/NOTICE.txt",
+      "localPath": "raw/apache--maven/b48508534366/0a83685c6dea50143a2e56dd.txt",
+      "kind": "license",
+      "bytes": 34,
+      "sha256": "568e067d41f46003fb68da265d1c680f1f810b78ea545cce95957233c78428e9",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/gh-12303-ci-friendly-revision-remote-resources/resource-bundle/src/main/resources/NOTICE.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/gh-13059-mvnup-jar-plugin/src/main/java/com/example/Hello.java",
+      "localPath": "raw/apache--maven/b48508534366/8df5b03cd5e0b352b25ccb40.java",
+      "kind": "upstream-example-code",
+      "bytes": 970,
+      "sha256": "29bca484d9bc6750fac81f038ca7e0d46790074594132baaf339a0cd1b65712e",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/gh-13059-mvnup-jar-plugin/src/main/java/com/example/Hello.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-1491/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/130a75fb698548c246fc2aed.txt",
+      "kind": "official-document",
+      "bytes": 93,
+      "sha256": "bcac8b163edb8e7f065c253b00756ae3f4e4697cc838f00527615a5a7e87aef4",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-1491/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-1493/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/91ba9373649cfab6515972b3.txt",
+      "kind": "official-document",
+      "bytes": 204,
+      "sha256": "b82e9f3eeee662fc35425dfdd97de19072fd0f2e9f160be9c164947ee9907477",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-1493/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-2277/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/edbaac388f94b06f5a538e29.txt",
+      "kind": "official-document",
+      "bytes": 179,
+      "sha256": "825ddb34a06efb6dd184fc49fee532f4ae3d3961f6ac309113fa38fb2b15f4d9",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-2277/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-2339/a/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/46a0ec00991a562f35da52d8.txt",
+      "kind": "official-document",
+      "bytes": 199,
+      "sha256": "36647d1286332539457c8fe513ff5ba45f73f43ab198144e1dd4775c86ad5cc8",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-2339/a/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-2339/b/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/536397274d2b5fc1e0afd6e2.txt",
+      "kind": "official-document",
+      "bytes": 349,
+      "sha256": "eb059a83f25e2ca3590421aa70f61d01a5a9f5a9c9e000715a558f4d219ea39e",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-2339/b/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3220/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/a55051afc9f966bad64ec47f.txt",
+      "kind": "official-document",
+      "bytes": 1634,
+      "sha256": "dd8f184133fdc9533401f5309864e5756043d1d98be39d834e910bb28aabdebb",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3220/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3331/with-relative-parentDir-ref/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/c8be06e2cc8155b3594d90a4.txt",
+      "kind": "official-document",
+      "bytes": 392,
+      "sha256": "c116d5dae421f2815187be3fe63f5afcfe31f90c7f33e26b9adf99f7ea32c7cd",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3331/with-relative-parentDir-ref/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3331/with-spaces/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/215efceaf5d83c7e858b7fdd.txt",
+      "kind": "official-document",
+      "bytes": 392,
+      "sha256": "c116d5dae421f2815187be3fe63f5afcfe31f90c7f33e26b9adf99f7ea32c7cd",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3331/with-spaces/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3355/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/6b5064246c354226e703bf53.txt",
+      "kind": "official-document",
+      "bytes": 406,
+      "sha256": "0d38c16325ce1413ed847fab9b32875cac183f46262beed7a23480ac68f43136",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3355/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3498/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/2a4c57d4e7634fe6eca58efe.txt",
+      "kind": "official-document",
+      "bytes": 224,
+      "sha256": "3c17d95596812e4d5814de15c32279725ac16bae1a38a65184a4a514a1117b97",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3498/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3729/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/d84a48ed400ca985b5bb6e63.txt",
+      "kind": "official-document",
+      "bytes": 1410,
+      "sha256": "bb86871b7cc3dcdeeb3fd20e48f8ca43f59358092ff25da0dca196373d932843",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3729/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3740/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/832733eaf871035ec0eb7f0b.txt",
+      "kind": "official-document",
+      "bytes": 1178,
+      "sha256": "7de4dae9c3c97adb2029868c14f55d84166b12721f16cd257bca44222504a67c",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3740/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-3747/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/ddf5163108d5914a24322f81.txt",
+      "kind": "official-document",
+      "bytes": 669,
+      "sha256": "a0b88d743342d2d8ebf312ae7c367d75fc7849ab66ab7b13631480f49860c614",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-3747/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-6972-allow-access-to-graph-package/build-plugin/src/main/java/com/example/BuildExtensionUsingGraphPackage.java",
+      "localPath": "raw/apache--maven/b48508534366/efdd5c7f25375a86d7c697de.java",
+      "kind": "upstream-example-code",
+      "bytes": 2327,
+      "sha256": "60f4797566d9462f1715f53fa53412777115ec5fab3d83a0590b14ca57eea794",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-6972-allow-access-to-graph-package/build-plugin/src/main/java/com/example/BuildExtensionUsingGraphPackage.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child1/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/4699fb1e500a71f287046286.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child1/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child10/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/bab829af46afdf03184aafc8.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child10/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child11/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/47861030603e4b4ba0109d89.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child11/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child12/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/f723d07f0c585fb3ef3c0886.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child12/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child13/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/374b0b8def54eac8821a48e0.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child13/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child14/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/4bdfe20217f61a148d4cb00c.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child14/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child15/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/79c025ca7427cf986db52f7b.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child15/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child16/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/a1093ceb20258d4050ef3f1b.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child16/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child17/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/ce9933b18d7860ea032fef3b.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child17/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child18/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/2866703f0ff623d67eb727c6.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child18/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child19/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/118f27afeddcf89a5d6af9d9.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child19/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child2/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/8c83ab1bcf7b15723dae4b71.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child2/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child20/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/af27130620acfcf0fbdb68cc.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child20/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child21/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/a3133517a1b8bfec3e49f0dc.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child21/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child22/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/9fe922bcb22250bd45b35923.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child22/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child23/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/44bf4ab298503bc8ba65f697.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child23/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child24/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/178dd42deb9142c08afb7816.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child24/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child25/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/ee1da26653bb84643306bab9.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child25/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child26/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/32d876fadd30245bd01d56a4.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child26/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child27/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/f2316d8692b132052f2afed8.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child27/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child28/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/5e29f52a2f65b4d25f8621ec.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child28/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child29/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/257473e834f6b2585ab2f777.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child29/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child3/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/75c655ac07039355679e0aea.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child3/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child30/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/ac53cd7bb0fe016c1330a174.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child30/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child31/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/f1101ee0cde4048e874722ad.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child31/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child32/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/6c051e697cae8a41366694d2.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child32/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child33/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/4ae22b7441ede5d29d31d72c.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child33/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child34/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/4ee5277211f80e2d655c07a5.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child34/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child35/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/dcc4708946809207c7de42f6.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child35/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child36/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/f0e0f15f07ce49cdc02bfe4c.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child36/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child37/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/16d2e7347754cf68ad28f789.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child37/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child38/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/086f12183664ea4b3d7607d7.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child38/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child39/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/9bc6696c633b42f903e330ee.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child39/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child4/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/10945bde4c985895bf0d12f1.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child4/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child5/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/dca573996156b2e23262512f.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child5/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child6/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/84a9c05e6773a309b6f94710.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child6/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child7/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/390120c5f9dd61105b44b802.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child7/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child8/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/c7e153334555bbced285b45a.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child8/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child9/src/main/java/com/example/Example.java",
+      "localPath": "raw/apache--maven/b48508534366/06721d9db2ba72aae890e5ee.java",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "352a9827245eee828d3ab86716fe0a8ae32dfe2abeeeeccd28f13a3b4b3b9131",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7335-missing-jar-in-parallel-build/child9/src/main/java/com/example/Example.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-7487-deadlock/consumer/src/main/java/com/example/demo/DemoApplication.java",
+      "localPath": "raw/apache--maven/b48508534366/3cc9f98041d0da5646d67568.java",
+      "kind": "upstream-example-code",
+      "bytes": 963,
+      "sha256": "db5817616d586d5111d3ef7ca8cec813087acce9573fd925234f5ae39bd89de7",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-7487-deadlock/consumer/src/main/java/com/example/demo/DemoApplication.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8347-transitive-dependency-manager/README.md",
+      "localPath": "raw/apache--maven/b48508534366/eba2e720291b0c614b43c472.md",
+      "kind": "official-document",
+      "bytes": 8696,
+      "sha256": "cf452427f6dd21cac9ff0abf926966b6ac39ea75d0d00352a519c84ba6bf00e9",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8347-transitive-dependency-manager/README.md"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8379-decrypt-settings/README.md",
+      "localPath": "raw/apache--maven/b48508534366/61d153d3a45f3c765bf33be4.md",
+      "kind": "official-document",
+      "bytes": 249,
+      "sha256": "296c6c7d4fdc55bcbbb06f775298d34021483a99275c1820892f53a3271624a2",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8379-decrypt-settings/README.md"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8421/home1/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/0934cec89b10104c543197ae.txt",
+      "kind": "official-document",
+      "bytes": 21,
+      "sha256": "bee69f54175f3d85882aa22e7d4af5d33bc8f1cd6a33c2764d92844118f0b8b2",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8421/home1/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8421/home2/readme.txt",
+      "localPath": "raw/apache--maven/b48508534366/0c8d958eae8862f0c6239965.txt",
+      "kind": "official-document",
+      "bytes": 24,
+      "sha256": "65afadaeefdbe59d695510617fcd00e28d7d4b88783898c1f9cf7f524da11547",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8421/home2/readme.txt"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8461/extension/README.md",
+      "localPath": "raw/apache--maven/b48508534366/01905dceca27ffd6d5313429.md",
+      "kind": "official-document",
+      "bytes": 678,
+      "sha256": "1d5cb8474813bb15dc8f5c077eb0017c5236bcbdfe86f255bca9b457ad56f077",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8461/extension/README.md"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8461/extension/src/main/java/org/example/SimpleEventSpy.java",
+      "localPath": "raw/apache--maven/b48508534366/ce3e51b17d345437960c83ba.java",
+      "kind": "upstream-example-code",
+      "bytes": 2262,
+      "sha256": "75dd8d88d11f7b3ade3e8c13ce48eaf55d2115d7c2271933590dc7c8638f6f1f",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8461/extension/src/main/java/org/example/SimpleEventSpy.java"
+    },
+    {
+      "path": "its/core-it-suite/src/test/resources/mng-8572-di-type-handler/README.md",
+      "localPath": "raw/apache--maven/b48508534366/feaecdb8d33f5d2d768ce07e.md",
+      "kind": "official-document",
+      "bytes": 1883,
+      "sha256": "ae312c9d198ffe5fc314dd070c40a4fef6fe890459a556c792a51f27fa6b4fa2",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/core-it-suite/src/test/resources/mng-8572-di-type-handler/README.md"
+    },
+    {
+      "path": "its/environments/README.md",
+      "localPath": "raw/apache--maven/b48508534366/3f7cefe46a3946ee3ab37195.md",
+      "kind": "official-document",
+      "bytes": 2399,
+      "sha256": "c90eeababfec5d15a32ef98e122b99033d69155c84dddc16bf340621097c265d",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/its/environments/README.md"
+    },
+    {
+      "path": "src/site/markdown/cache-configuration.md",
+      "localPath": "raw/apache--maven/b48508534366/d0bde1005a7ac16cfc7bdaa2.md",
+      "kind": "official-document",
+      "bytes": 5346,
+      "sha256": "0c6c063b05aa88930fd72bb4a27e1b8f10bf9887b79544deb4a82981e37001b1",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/src/site/markdown/cache-configuration.md"
+    },
+    {
+      "path": "src/site/markdown/configuring.md",
+      "localPath": "raw/apache--maven/b48508534366/8a289f7d0cd13524c7e91ad2.md",
+      "kind": "official-document",
+      "bytes": 4893,
+      "sha256": "758e1751cf36265199867023786d4269afe7b0cf63299531341d33196e21d318",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/src/site/markdown/configuring.md"
+    },
+    {
+      "path": "src/site/site.xml",
+      "localPath": "raw/apache--maven/b48508534366/1e7538f84ad18a40a62e83d0.xml",
+      "kind": "official-document",
+      "bytes": 3111,
+      "sha256": "4c0fe6c46cdf849c62f5580256cba1df7d52e4e55a3e893e759b5191b6b28c35",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/src/site/site.xml"
+    },
+    {
+      "path": "src/site/xdoc/index.xml",
+      "localPath": "raw/apache--maven/b48508534366/40db72978fba0c69dbfa610e.xml",
+      "kind": "official-document",
+      "bytes": 1802,
+      "sha256": "f05e428977cc9a189f62603d1f6f205a66982ba254f55a5cb446f408f9dd4dc5",
+      "sourceUrl": "https://github.com/apache/maven/blob/b48508534366c1e75a901cfb214da09f95a9064d/src/site/xdoc/index.xml"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

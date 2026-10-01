@@ -1,0 +1,584 @@
+{
+  "schemaVersion": 1,
+  "repo": "wasmCloud/wasmCloud",
+  "commit": "937766d0d9b051a0933153ece442253b4053beeb",
+  "retrievedAt": "2026-10-01T15:46:42.371192+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Scheduling & Orchestration"
+  ],
+  "archiveUrl": "https://codeload.github.com/wasmCloud/wasmCloud/zip/937766d0d9b051a0933153ece442253b4053beeb",
+  "selectionSha256": "f13ae304230b0d928ad50f88c2b38c8b963d27f633a42618b8eaa9959bc5667b",
+  "selection": {
+    "docRoots": [],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "5dde3c619b6d70356f59286ce09d14b4013ff6450adf9750af312c0df0db3515",
+  "archiveBytes": 3154203,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 33,
+    "code": 34,
+    "licenses": 2,
+    "bytes": 405328
+  },
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 8270,
+      "sha256": "f885bbfa54131ac424e63004ff784a91d38148124ac9c5243af0d45519c13ad6",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/CONTRIBUTING.md"
+    },
+    {
+      "path": "CONTRIBUTION_LADDER.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/bb0597204034dad56118cf96.md",
+      "kind": "official-document",
+      "bytes": 5721,
+      "sha256": "d2ed765c38c10f85f41e9d92f69ba7dcf8d49b6064f19b9dcdb1a9c57e1191d7",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/CONTRIBUTION_LADDER.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 8833,
+      "sha256": "d95b623902408646d69c30acfae7c2b463f4d7aa0711a591cde664c5a024e02a",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11351,
+      "sha256": "0d7e475818c32a6bad4c0715b1f23848d7e3544774e7d92d4797e076d80f3e04",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 4900,
+      "sha256": "823c4c15d9d5ecdbb1f5f3924797008e19ef6529d5cb7e7a48749f4b2bf4ed0a",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 13068,
+      "sha256": "f219ea8e5728c62099a219479b2030177fa36cd207219cc073e703b18f6abd30",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/README.md"
+    },
+    {
+      "path": "RELEASE_RUNBOOK.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/792662df57b444f8c4b72c80.md",
+      "kind": "official-document",
+      "bytes": 18477,
+      "sha256": "b21967840d4fc833c93112f45a47111fb10eec45b299644ca9cdd7abea491ea3",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/RELEASE_RUNBOOK.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 3591,
+      "sha256": "abf2189360b4e0b1213e95d3b72ae732182d74b56b956635c707e4366ea5efe5",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/ROADMAP.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 5242,
+      "sha256": "f4840090f7669e66f2488d6f6e2d2892aef2216f41641d394775e98dba44ebcc",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/SECURITY.md"
+    },
+    {
+      "path": "crates/wash-runtime/LICENSE",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/ace79ee013c87ee51dc6488b.txt",
+      "kind": "license",
+      "bytes": 11351,
+      "sha256": "0d7e475818c32a6bad4c0715b1f23848d7e3544774e7d92d4797e076d80f3e04",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/crates/wash-runtime/LICENSE"
+    },
+    {
+      "path": "crates/wash-runtime/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/9ff06dc4a0e82a8750ff2220.md",
+      "kind": "official-document",
+      "bytes": 3616,
+      "sha256": "92dc7f54ea09b3610659fd86c8a907ee3227c6b2acc824b90203b62a77acfedb",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/crates/wash-runtime/README.md"
+    },
+    {
+      "path": "crates/wash/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/52d3a0a14b8a9ec765e3b826.md",
+      "kind": "official-document",
+      "bytes": 295,
+      "sha256": "f5a2f9c63eb0c5f74c4ca5d43e77efcb89175be12cdead024d6e50db38fdde54",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/crates/wash/README.md"
+    },
+    {
+      "path": "deploy/k3s/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/b074e89ae49d5eb1931f4680.md",
+      "kind": "official-document",
+      "bytes": 411,
+      "sha256": "a3c31b588da38b10003d38c9ec08b674c6bb6bf5c3c92a4aeabb3d2bd79ee54b",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/deploy/k3s/README.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 2905,
+      "sha256": "f97ee3e5709c0840efe37efcf6018e3ba41a79922705b20c2f7d3085dd3ed033",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/README.md"
+    },
+    {
+      "path": "examples/blobby/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/099e44445a49c88f9ab9a057.md",
+      "kind": "official-document",
+      "bytes": 3895,
+      "sha256": "41e702f8b9b58c9a34320a09db8ad65c794c5a2844e01f9f4d536251f7ae7697",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/blobby/README.md"
+    },
+    {
+      "path": "examples/blobby/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/c0e5993ace66603e248cad06.rs",
+      "kind": "upstream-example-code",
+      "bytes": 5879,
+      "sha256": "bc2f58c8cc58972309645161c37917fe2bd706b09df9352ba4d302d0a1579614",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/blobby/src/lib.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/fe022e42d1a8d2c02b4c6630.md",
+      "kind": "official-document",
+      "bytes": 741,
+      "sha256": "1a6b7fcc14719644a8097b00a8adc930a620fa751e82782e46eacc6d7738d9fa",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/README.md"
+    },
+    {
+      "path": "examples/grpc-hello-world/bin-client/build.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/d46a9977bfb95154882aed76.rs",
+      "kind": "upstream-example-code",
+      "bytes": 232,
+      "sha256": "22cb29abc274e218e1f221ba920d2accdcc10f94192ca63cff6375c6996bcd90",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/bin-client/build.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/bin-client/src/main.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/5448cf7c25396dcc49933808.rs",
+      "kind": "upstream-example-code",
+      "bytes": 579,
+      "sha256": "b4be9ccbbada40a3adc9d9e69335a2111ba0a10def8a35998a4f6f77fd121b33",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/bin-client/src/main.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/bin-server/build.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/00af53f6b711120532c41797.rs",
+      "kind": "upstream-example-code",
+      "bytes": 232,
+      "sha256": "c8be66adf83fe6572a4b6367e77c5b326b337ebcdfc89b66ef917f2842f1d824",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/bin-server/build.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/bin-server/src/main.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/dba6dd0d8c5315afeb2d7be9.rs",
+      "kind": "upstream-example-code",
+      "bytes": 908,
+      "sha256": "b346de70bb01f127a9e8ef910abb51cb0558ba77b990ea814087d2b8028700f3",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/bin-server/src/main.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/component-client/build.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/a5965bc3ac8ade1d0e3d8632.rs",
+      "kind": "upstream-example-code",
+      "bytes": 306,
+      "sha256": "654642beb1a2c0ada0d3a0e2dbef2df6fa9d5bd4badd9c55861c74f88781af3b",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/component-client/build.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/component-client/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/b5d6b17e5a651af7d18b632d.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4727,
+      "sha256": "eb1a86c161643e781611cc3a42a6512673fed195095088db1ed9f39de73276ef",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/component-client/src/lib.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/component-server/build.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/68fc0dceed5d7df6daa58a40.rs",
+      "kind": "upstream-example-code",
+      "bytes": 306,
+      "sha256": "384ebd177195141c8b39c26a95a885879cf47646f7f38e71ad349b491f81d1ec",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/component-server/build.rs"
+    },
+    {
+      "path": "examples/grpc-hello-world/component-server/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/8645a0ca18f53f540cd210e8.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1583,
+      "sha256": "d75eed28bbb88e33fb4704360842af07e81cd137a4a71a2ea3f7b6e5bef4e236",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/grpc-hello-world/component-server/src/lib.rs"
+    },
+    {
+      "path": "examples/http-hello-world-persistent-storage/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/7c99459325302f11cba33c4b.md",
+      "kind": "official-document",
+      "bytes": 1814,
+      "sha256": "007da73c3cfa5deb21b321a9d4af34d89a203cf42fa0063310bb6585edf0278a",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/http-hello-world-persistent-storage/README.md"
+    },
+    {
+      "path": "examples/http-hello-world-persistent-storage/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/eba15739a308a1e281ea11f3.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1202,
+      "sha256": "cc40e7c62ec12d5690f37d639e37a95749031620bae02f4662191315f8d0e603",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/http-hello-world-persistent-storage/src/lib.rs"
+    },
+    {
+      "path": "examples/local-ingress/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/312ac5db230c8af7250b0f3f.md",
+      "kind": "official-document",
+      "bytes": 13544,
+      "sha256": "75ef2c646f90224d555de0170769d429f8d56a78528237d283cf13b8e0ac37ee",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/local-ingress/README.md"
+    },
+    {
+      "path": "examples/local-ingress/callee/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/043f364fd170fcb7911794fd.rs",
+      "kind": "upstream-example-code",
+      "bytes": 958,
+      "sha256": "abbbe4c4e459c52fe46bc8e91ff40dd0ef2d98dcce61b66fc4d25bf53f1f04b7",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/local-ingress/callee/src/lib.rs"
+    },
+    {
+      "path": "examples/local-ingress/caller/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/cb2a4ab31fc459f57c027d8d.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2239,
+      "sha256": "32266fb1159822bdc290fec4666d546e8c1801706d2d5815f1a0c6aa1f782551",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/local-ingress/caller/src/lib.rs"
+    },
+    {
+      "path": "examples/nats-jetstream-replay/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/9b14fc21c54d3ad88188e3f9.md",
+      "kind": "official-document",
+      "bytes": 8266,
+      "sha256": "55ed6cef9c579580e22472d9a43d69c9b34b721a6512931ac316fbc8d18caef5",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/nats-jetstream-replay/README.md"
+    },
+    {
+      "path": "examples/nats-jetstream-replay/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/9ff3f3861cef1a4ceb5ab083.rs",
+      "kind": "upstream-example-code",
+      "bytes": 8692,
+      "sha256": "eea45270f722807f533790c1db4b014adc8c1a4355470a5ea67611207d7cdeba",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/nats-jetstream-replay/src/lib.rs"
+    },
+    {
+      "path": "examples/oci-registry/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/675540ad6e733b1be5015435.md",
+      "kind": "official-document",
+      "bytes": 11178,
+      "sha256": "08fd4f5101c767dd268cc872af3c78504725ec266256512ccd55145eca232328",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/README.md"
+    },
+    {
+      "path": "examples/oci-registry/src/auth.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/15f70fab43ca8523cfbe4aad.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3456,
+      "sha256": "f93c58c650f8a9f94c2938b6f43fc98dae73c0a4fa2965080b1c8e87d9d669e5",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/auth.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/blobs.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/7d1d978d4dbcc93e08564e8f.rs",
+      "kind": "upstream-example-code",
+      "bytes": 6525,
+      "sha256": "3c3eb6ab372213a088501e978c427ac29d9a77cbb5c1b733f962fbb444f93272",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/blobs.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/http.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/01bce7a48b9b4e7189205c6b.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3292,
+      "sha256": "ef2a27288c5eed7f43d1bb03c24c78d0445de963c5d9a4e4a485e4b48d0af017",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/http.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/keys.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/4d50274e6fb06d01e4e80533.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1241,
+      "sha256": "8397a08b74d7c8e845bee7b627f55bb4d8aa6788a1da9e8fd65c7acbf52f774a",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/keys.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/f8108d36f96b2cfd43c47336.rs",
+      "kind": "upstream-example-code",
+      "bytes": 8402,
+      "sha256": "c9c83e8fbfd2bcc92e704a07cc99603b35e8271de98b5d90f142b46d319dc648",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/lib.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/manifests.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/13ff5ff9d40be64073948eda.rs",
+      "kind": "upstream-example-code",
+      "bytes": 7912,
+      "sha256": "067175d82c7f34060e716303f9745ac21341245dc8c807b1fe5c8160623441a4",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/manifests.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/referrers.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/36a95495d38d223adda03906.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1922,
+      "sha256": "21cbf9dba7a10cd05aa83eb25a93c2f1a151287684050b3270cdf3caa144e3ae",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/referrers.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/route.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/c3f95f87f0e497aab0f351a5.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2357,
+      "sha256": "3bb5df7b9f56919485cfcd7fd12a6811bcdba59ad41b96f4a8cc0755dafac530",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/route.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/storage.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/ab464fd03ee8ee2b3eb475f0.rs",
+      "kind": "upstream-example-code",
+      "bytes": 5111,
+      "sha256": "8c2abccdf7d6308e8950a4bc24f77c084eeaba6665719d43602018c2d2a3dc86",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/storage.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/tags.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/fa1c149377133dd3970671ea.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1454,
+      "sha256": "f12eb0cbbbb8a4796996ff58ad4b163e314a6c53e53857c8e112df62446489f1",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/tags.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/uploads.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/904e97546d1247287e3029c1.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4715,
+      "sha256": "0cce62a5637a716701da06aeb4a4f590f28e41297399b13136b4903eaa77328b",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/uploads.rs"
+    },
+    {
+      "path": "examples/oci-registry/src/util.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/c22d78807a5a897c00430080.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2367,
+      "sha256": "b9a3fae1b9c6e5be02615164c7e57897c98bcdc8cd4c7820657475ed37ce7ede",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/oci-registry/src/util.rs"
+    },
+    {
+      "path": "examples/otel-config/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/0e7c5d51def888968dfac649.md",
+      "kind": "official-document",
+      "bytes": 12886,
+      "sha256": "438c802630f70c6b4af0608c760084d07d2f5574dc48a9682ddc6b66fe36908e",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/README.md"
+    },
+    {
+      "path": "examples/otel-config/src/blobstore.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/1c2e0696b1b65328842c0e6c.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1961,
+      "sha256": "cb459e39a87a85c29af1b2c738b734a9c68f45a7f8039b3ca808606f65af09da",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/blobstore.rs"
+    },
+    {
+      "path": "examples/otel-config/src/config.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/d0e9c7a15a966169a58d37f1.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3429,
+      "sha256": "d52c3d4c92bc5a668eedc5ced52b130aed1ce7f3bc855291748ad6a10f8a3cd1",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/config.rs"
+    },
+    {
+      "path": "examples/otel-config/src/keyvalue.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/7a3406fb505c4903ae5468bc.rs",
+      "kind": "upstream-example-code",
+      "bytes": 435,
+      "sha256": "a3fbac727d3f235de79bfdab39597bfa2beedb7615a0ace989bf83fc1598a5bc",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/keyvalue.rs"
+    },
+    {
+      "path": "examples/otel-config/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/66fc9597824f1edd2f6f0034.rs",
+      "kind": "upstream-example-code",
+      "bytes": 7361,
+      "sha256": "fe15108b65a153161421ad9b757bfa08f9eda412b3c6bc41618954342d41fc90",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/lib.rs"
+    },
+    {
+      "path": "examples/otel-config/src/metrics.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/25e7c2c8fad3195bf3cc0732.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2276,
+      "sha256": "81f52b93533117e5046ada1582b35ec3d174cb59ce5c9acdeeb8a2a329c82c57",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/metrics.rs"
+    },
+    {
+      "path": "examples/otel-config/src/otel.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/cffb9804aaa3a5c5a7a89040.rs",
+      "kind": "upstream-example-code",
+      "bytes": 8888,
+      "sha256": "496925303033ad70a258b99528ba845bfbbbf19b32ddd87dfdd25506571ed138",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/otel.rs"
+    },
+    {
+      "path": "examples/otel-config/src/outbound.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/dbfd76264b02620a349ec871.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2365,
+      "sha256": "cf2b17d29e6a94cabd61782a60b3c799b56d3db13268a47cb3977e175513a95b",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/outbound.rs"
+    },
+    {
+      "path": "examples/otel-config/src/ui.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/399ddbaafaed0504811ad2bf.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1460,
+      "sha256": "897e049e77e90c866ff2500e4e33d2d8dc10d8b11e1daced0426b525d4493955",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/otel-config/src/ui.rs"
+    },
+    {
+      "path": "examples/qrcode/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/c38c1530fa2edbd735c2ea11.md",
+      "kind": "official-document",
+      "bytes": 287,
+      "sha256": "96b89ac69677ec7f363d1102a24a51343993e80de3a587fb92f18bdae575ae77",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/qrcode/README.md"
+    },
+    {
+      "path": "examples/qrcode/src/lib.rs",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/06c6842edaab0f63413a71ec.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1988,
+      "sha256": "d517c001d10ab32752e7529b58f1f4941810020a72478d87a1fb99a37d721625",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/examples/qrcode/src/lib.rs"
+    },
+    {
+      "path": "proto/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/ae1706c4818260d41095a2f5.md",
+      "kind": "official-document",
+      "bytes": 97,
+      "sha256": "09c53e0edf280aaadd04889cd63703bee25e155454b890f1035fb3021ffc2c66",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/proto/README.md"
+    },
+    {
+      "path": "proto/docs/index.html",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/df330b1192a469d35f5f0ef3.html",
+      "kind": "official-document",
+      "bytes": 56572,
+      "sha256": "9992c5b7cdf2092101b46c1fadec060805f897b4c46c989444663151d8a3544b",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/proto/docs/index.html"
+    },
+    {
+      "path": "proto/wasmcloud/runtime/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/6792f82f6ea14320bd5efb28.md",
+      "kind": "official-document",
+      "bytes": 97,
+      "sha256": "09c53e0edf280aaadd04889cd63703bee25e155454b890f1035fb3021ffc2c66",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/proto/wasmcloud/runtime/README.md"
+    },
+    {
+      "path": "runtime-gateway/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/72b5d464735634ef881ed2cb.md",
+      "kind": "official-document",
+      "bytes": 791,
+      "sha256": "82e3a81b694662099c19a68eb041da7fc054d7081f0424ed4fad611b087d911d",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/runtime-gateway/README.md"
+    },
+    {
+      "path": "runtime-operator/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/f27570800e6abcc3025de940.md",
+      "kind": "official-document",
+      "bytes": 1220,
+      "sha256": "d04456f3e1de2163b4ff74f1d9dceae7db9ddc25c86175d6f4f0933215511388",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/runtime-operator/README.md"
+    },
+    {
+      "path": "scripts/bench/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/74e7958e5a2e7257036c8e0b.md",
+      "kind": "official-document",
+      "bytes": 60664,
+      "sha256": "7e124f2a8ced234206caa3d367ca9866bcbdeab8796d9662d5c6ea8e224f285a",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/scripts/bench/README.md"
+    },
+    {
+      "path": "templates/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/af03ff89b349afdbf776d0d5.md",
+      "kind": "official-document",
+      "bytes": 1734,
+      "sha256": "75763cf42ff6db433f2d635dc226d073dedc1dcd9fdf51f5f18650530b0543d5",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/README.md"
+    },
+    {
+      "path": "templates/http-api-with-distributed-workloads/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/452f6a57a371f147701cd848.md",
+      "kind": "official-document",
+      "bytes": 9647,
+      "sha256": "3ee8fb04f879925826bbe3c8d2f826c31af8df25e01fe998b3db595511ea5db5",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/http-api-with-distributed-workloads/README.md"
+    },
+    {
+      "path": "templates/http-client/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/f8a75815124800faaa48a8cc.md",
+      "kind": "official-document",
+      "bytes": 2119,
+      "sha256": "9dc5011b4ae7522bfd623bb89c9f9b925f54223be70ba93cb1c8711480d27569",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/http-client/README.md"
+    },
+    {
+      "path": "templates/http-handler/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/1ded9da72b096d8ab1eee006.md",
+      "kind": "official-document",
+      "bytes": 2233,
+      "sha256": "526d8a49b0bb5d561c8b3c4c236ac95ca711a2b2ed7f0e6a4fe9c8fae23f5b87",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/http-handler/README.md"
+    },
+    {
+      "path": "templates/http-hello-world/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/cea5916ca8ddc8dabe15bb59.md",
+      "kind": "official-document",
+      "bytes": 1711,
+      "sha256": "4012ac547a04f0153ac559880541aee67f94736c96397835c1acaa7ac9dec63d",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/http-hello-world/README.md"
+    },
+    {
+      "path": "templates/http-kv-handler/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/98d150ad3eae8f2d40a413c8.md",
+      "kind": "official-document",
+      "bytes": 4279,
+      "sha256": "30a845bb77c54eea095332b02183321bb84cd3952b1be4ca18cd036143f4a49c",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/http-kv-handler/README.md"
+    },
+    {
+      "path": "templates/service-tcp/README.md",
+      "localPath": "raw/wasmcloud--wasmcloud/937766d0d9b0/74094dccace89260983627c1.md",
+      "kind": "official-document",
+      "bytes": 6762,
+      "sha256": "5dcbf3a0fa33028eea2235fc6526ac77ef0ef3e9435bed8d43e6bedb34304368",
+      "sourceUrl": "https://github.com/wasmCloud/wasmCloud/blob/937766d0d9b051a0933153ece442253b4053beeb/templates/service-tcp/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

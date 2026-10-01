@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "repo": "kptdev/kpt",
+  "commit": "acd48237f61f847634cb0334a66949885bb6f31d",
+  "retrievedAt": "2026-10-01T15:21:53.949745+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Provisioning/Automation & Configuration"
+  ],
+  "archiveUrl": "https://codeload.github.com/kptdev/kpt/zip/acd48237f61f847634cb0334a66949885bb6f31d",
+  "archiveSha256": "d88f9d0bbe4eceb3ea5ca07610211fe2b0526b7067e52e588d03ff6ee7ede113",
+  "archiveBytes": 19413112,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 93,
+    "code": 1,
+    "licenses": 3,
+    "bytes": 455153
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 11040,
+      "sha256": "752dbb5b3b3b09d6d64b7b188aa0943073e3dc0600dee5c3e7d2968a94ecc242",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/AGENTS.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 7290,
+      "sha256": "44e85e15286bdd8ba80c077274644b728f277e79747ad0b1c7cc6beae0f88730",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/LICENSE"
+    },
+    {
+      "path": "LICENSE-documentation",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/23b877d5f64fc48bd9d094a1.txt",
+      "kind": "license",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/LICENSE-documentation"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5356,
+      "sha256": "fad253453dda24851666141f1a619fbda4a9a366a650bb4409f9ee0029df16b4",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/README.md"
+    },
+    {
+      "path": "code-of-conduct.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/f1a69a41a835b5265e1c58e1.md",
+      "kind": "official-document",
+      "bytes": 216,
+      "sha256": "decc5dcb44d432da3412c737ca39b3cffbd5ca94e6c39062cec23e23bccdff31",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/code-of-conduct.md"
+    },
+    {
+      "path": "demos/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/aec57cd2b5263590e3454601.md",
+      "kind": "official-document",
+      "bytes": 182,
+      "sha256": "8fcafda624b32e04ab5129d477ef9d4f105e6c0ece50ed2c8f29e231d920a4d4",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/demos/README.md"
+    },
+    {
+      "path": "demos/demo-magic/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/6e4a29669b6a895511624af9.md",
+      "kind": "official-document",
+      "bytes": 3859,
+      "sha256": "fc42526a59900aa41757c404dd5bcf381517cd6311f006edf858f11a17491b02",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/demos/demo-magic/README.md"
+    },
+    {
+      "path": "demos/demo-magic/license.txt",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/fda1c42a29f17e30c313e697.txt",
+      "kind": "license",
+      "bytes": 1078,
+      "sha256": "df1ccb97860ecc0776c7b91df6cfcffcf3c998c11692d599c86231b73cfe6019",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/demos/demo-magic/license.txt"
+    },
+    {
+      "path": "demos/demo-magic/samples/demo-template.sh",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/042a95886149b0a49fd60d36.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1284,
+      "sha256": "0e28bce9fdb6ac61b1222b17c8d19298143fc71d9d818fb8a1b8e3454dcd98b2",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/demos/demo-magic/samples/demo-template.sh"
+    },
+    {
+      "path": "documentation/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/ca8679f97c209358baaa7800.md",
+      "kind": "official-document",
+      "bytes": 6663,
+      "sha256": "eb77061374369fed8457e77a05b7b971b31b428b9c0d0c57155ea12479d717cc",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/README.md"
+    },
+    {
+      "path": "documentation/content/en/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5cc7cee95bb15b0d1d6f35bd.md",
+      "kind": "official-document",
+      "bytes": 3628,
+      "sha256": "0e47655f77ab898803f5554818223387f6d34f5821841adb5c1c617353f51e33",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/01-getting-started/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/10626bd726e7984eb17b268f.md",
+      "kind": "official-document",
+      "bytes": 7178,
+      "sha256": "694ab60687aec05ce52bbe3e9bedc054ffd6086e5221082dad6f7d4b51f0b2fc",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/01-getting-started/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/02-concepts/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/12e1f90d959f06c4a4a71adf.md",
+      "kind": "official-document",
+      "bytes": 17224,
+      "sha256": "3545900cd0658f09bde8e34d679e151bcc8c0227909ebcf5ae22fe918d45e592",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/02-concepts/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/03-packages/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/07b2fbf35538fe78a71d901e.md",
+      "kind": "official-document",
+      "bytes": 18265,
+      "sha256": "a6e53ba06654f359a1b4073ecb9ad6e263d4f6ef46167ddf0500acefb5975200",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/03-packages/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/04-using-functions/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/eb48163aadf1cde1ccee9f9e.md",
+      "kind": "official-document",
+      "bytes": 43242,
+      "sha256": "9b5b661390583b7aa5f47ce1b27b4e81d1d19a92ea00072c9a4136faafba02b2",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/04-using-functions/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/05-developing-functions/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/0f3f1a99538429840b4c39b1.md",
+      "kind": "official-document",
+      "bytes": 15441,
+      "sha256": "2b9e3b43cf31e61146adbeb22b846ca85421bdbeec9028b9104d3d8534e88c42",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/05-developing-functions/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/06-deploying-packages/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/509cb7eb9f946d561bdc34d2.md",
+      "kind": "official-document",
+      "bytes": 13866,
+      "sha256": "e97f29eb401c22d827bf99403d2a1b75c1ae225d6761ac8f155f5eb9eabddf9b",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/06-deploying-packages/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/07-effective-customizations/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/e16cef4849961cd683542dba.md",
+      "kind": "official-document",
+      "bytes": 12416,
+      "sha256": "98628b686a8815474eb7deb14a458bd353c039d16a6fd3554fa15639ace6880d",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/07-effective-customizations/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/08-ci-user-guide/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/e5e018ce7d41d2c976e29652.md",
+      "kind": "official-document",
+      "bytes": 13064,
+      "sha256": "3c27c211491592a878a6352985347c51126f44c6b9d6733c89032c9205fb7809",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/08-ci-user-guide/_index.md"
+    },
+    {
+      "path": "documentation/content/en/book/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/d3a694b032dbd74da54bc598.md",
+      "kind": "official-document",
+      "bytes": 1193,
+      "sha256": "009e4610d408205cae307d6df7d39a09d01aac0951c26c0e31ea437c07ff2243",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/book/_index.md"
+    },
+    {
+      "path": "documentation/content/en/faq.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/92f2137178ebfd043dac57b3.md",
+      "kind": "official-document",
+      "bytes": 5957,
+      "sha256": "6de71923414cc4d5a4fe69c653eb50074cf8463e1cdacb51783cd33c87ab69a5",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/faq.md"
+    },
+    {
+      "path": "documentation/content/en/guides/3-way-merge.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/78cabaeb7f575f3077660ac2.md",
+      "kind": "official-document",
+      "bytes": 12464,
+      "sha256": "cbab79b47e4cbeba13140e93bf84ef5559a1f8966e9a07cb73e3a9da254e9300",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/3-way-merge.md"
+    },
+    {
+      "path": "documentation/content/en/guides/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/0b45f5d19ae52267640485e8.md",
+      "kind": "official-document",
+      "bytes": 622,
+      "sha256": "04f0ed68888e44d79683f146bc42f6568858fba8ac60cca6004537e6aa2b0564",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/_index.md"
+    },
+    {
+      "path": "documentation/content/en/guides/krm-functions/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/2fa2ae34fd4eb97d67234980.md",
+      "kind": "official-document",
+      "bytes": 1142,
+      "sha256": "f2959f032809d0756ec05b643776e40f8643ec72f473af5659161f2713b3270f",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/krm-functions/_index.md"
+    },
+    {
+      "path": "documentation/content/en/guides/krm-functions/containerizing.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/efbd58c53bad9b6acaf799c3.md",
+      "kind": "official-document",
+      "bytes": 4412,
+      "sha256": "e46fe43d92f64ca3cc1b4eb517d87a6385843675b17bd4221e3093fdc6aa4b3b",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/krm-functions/containerizing.md"
+    },
+    {
+      "path": "documentation/content/en/guides/krm-functions/interfaces.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/c1ac72ba07a3d6f4b520e1e6.md",
+      "kind": "official-document",
+      "bytes": 6386,
+      "sha256": "497ce2b29355a07568c392329897f3bd02942c44f5e427909266f343204582b0",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/krm-functions/interfaces.md"
+    },
+    {
+      "path": "documentation/content/en/guides/krm-functions/testing.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/4b83d75ae6cf2b31c633473e.md",
+      "kind": "official-document",
+      "bytes": 6931,
+      "sha256": "bd1b1605044ca16a9be30b31949817d641487626b7a2529a5a03fba95976e936",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/krm-functions/testing.md"
+    },
+    {
+      "path": "documentation/content/en/guides/krm-functions/tutorial.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/db62da42152242096dbbce2d.md",
+      "kind": "official-document",
+      "bytes": 5512,
+      "sha256": "76a740e8873e56845eac39b5bdd699bcc8e78c2aa9f8440f7d54b8c17bfbad16",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/krm-functions/tutorial.md"
+    },
+    {
+      "path": "documentation/content/en/guides/namespace-provisioning-cli.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/815b68788ee02b0add494e61.md",
+      "kind": "official-document",
+      "bytes": 14669,
+      "sha256": "9e30e52c58773fc006b14da1c87ea6eb9efb3ca1023beef2cf05ff4bbb3707b2",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/namespace-provisioning-cli.md"
+    },
+    {
+      "path": "documentation/content/en/guides/rationale.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/3fb43db370d481c0ab48f800.md",
+      "kind": "official-document",
+      "bytes": 7034,
+      "sha256": "b0573a230eac38e858e1eabefbe9c8fa6a04471bb1f7b65c480a074bea6f86a9",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/rationale.md"
+    },
+    {
+      "path": "documentation/content/en/guides/tenant-onboarding.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5b1212ff4374dda55b1a1537.md",
+      "kind": "official-document",
+      "bytes": 8467,
+      "sha256": "9e46ff3bd0806084107e23dc6a709a06952f0547a9aed866c69ceb2a93db3fa6",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/tenant-onboarding.md"
+    },
+    {
+      "path": "documentation/content/en/guides/value-propagation.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/34581f6def4a3cc9603e9fc3.md",
+      "kind": "official-document",
+      "bytes": 5356,
+      "sha256": "030950a1ababf300007b7fa6ff6a5ee2e7a1fa32d6c46bfd90dc2c406b19687c",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/value-propagation.md"
+    },
+    {
+      "path": "documentation/content/en/guides/variant-constructor-pattern.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/4af09033bcfd88bb649ea6f1.md",
+      "kind": "official-document",
+      "bytes": 7197,
+      "sha256": "51bea84dd8f13033c6cc8a746c0cd389893b47042bce990de697f0552ee3e1bf",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/guides/variant-constructor-pattern.md"
+    },
+    {
+      "path": "documentation/content/en/installation/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/7e9575a5bfe76a8fda39d361.md",
+      "kind": "official-document",
+      "bytes": 197,
+      "sha256": "bac76397de8fc2762706513616b4d6cf1fd6a23c239e3b9c8042b44373710afa",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/installation/_index.md"
+    },
+    {
+      "path": "documentation/content/en/installation/kpt-cli.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/e5105b9498ee42d622fbdd8a.md",
+      "kind": "official-document",
+      "bytes": 7610,
+      "sha256": "3f66218b1f1dd9eebfc4916d284295cbf3f528c9715a53a434f76275bf195877",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/installation/kpt-cli.md"
+    },
+    {
+      "path": "documentation/content/en/installation/migration.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/6433d7d5722660218e410b46.md",
+      "kind": "official-document",
+      "bytes": 26447,
+      "sha256": "b9b3915ab8edf8af2071648546bdca642c97d720174c32e79e72db8caed38c08",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/installation/migration.md"
+    },
+    {
+      "path": "documentation/content/en/reference/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/662a1d618f03e04358d0b99b.md",
+      "kind": "official-document",
+      "bytes": 281,
+      "sha256": "f74af213b35c9d986b28ac6f637448e220abb64ff0072641b23c95331a3ac8cb",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/annotations/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/aa0ddc0d671c56187512f972.md",
+      "kind": "official-document",
+      "bytes": 1928,
+      "sha256": "52074f50f8af73edbe1f8938e79f17ae749c6b0512d2363aa360d5ec70a5ccc3",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/annotations/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/annotations/apply-time-mutation/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5756b045d40b665d4b3157cd.md",
+      "kind": "official-document",
+      "bytes": 5624,
+      "sha256": "041838664c1355e8981f6e4e32547aaac7bb24eb3a091a95d5e91d8239255c5a",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/annotations/apply-time-mutation/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/annotations/depends-on/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5756fd9d695b5a245bb31415.md",
+      "kind": "official-document",
+      "bytes": 2118,
+      "sha256": "7e0f9e6db548e6edb512b12c48f3effaa6e01f7e46960875dcd8857825b053de",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/annotations/depends-on/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/annotations/local-config/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/1bc7670cc7b0f1a7aad6ab6d.md",
+      "kind": "official-document",
+      "bytes": 1695,
+      "sha256": "d24bff243aa8fc8b6f9c608d9553453404c204fe2875351a9defc61ff775ef28",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/annotations/local-config/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/8f7b2ce16463c0995ae0a8c3.md",
+      "kind": "official-document",
+      "bytes": 1031,
+      "sha256": "6b5af2270c7f571df55dd0899e924de98bd2a683280a7af7bbe22eeff3e00fc3",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/db0388bb7a30786ec71e4c0c.md",
+      "kind": "official-document",
+      "bytes": 424,
+      "sha256": "5f21629aaf9e2d3d0b584f1f98d926a61361cc4da8e643fd73ce9bc9dbc13c34",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/license/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/91f131ab1ca2dd40ef8f5e61.md",
+      "kind": "official-document",
+      "bytes": 366,
+      "sha256": "4093a24459d14f7ac109a21ba1b626cbd1d220a1e9d8d3885804b9e225e2bd57",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/license/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/license/info/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/08eb8c3a260f379c3b02db45.md",
+      "kind": "official-document",
+      "bytes": 491,
+      "sha256": "f64e8e43acf650318ae9f67ac8e497198527f7aa48d66e80aac0e971f511ffaf",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/license/info/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/live/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5a2ea3d1cb01bdb6c0c73f0e.md",
+      "kind": "official-document",
+      "bytes": 379,
+      "sha256": "2ff452d1bb54db7d98a68ca7efdd04418494e10caa9be558c91fb8b2efc003d0",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/live/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/live/plan/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/d6fcb4f7758f39233a27370c.md",
+      "kind": "official-document",
+      "bytes": 2521,
+      "sha256": "44090cb5c2aa46296e70556ebd82806fa1f8f1754372a4c8a8465b9dba148f52",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/live/plan/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/sync/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/3eeace0bb5821b24004426e6.md",
+      "kind": "official-document",
+      "bytes": 274,
+      "sha256": "b56e547bcd9ad1cc36601eeb2afacdc9bb59dd7a0974d30dd698625078374ac0",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/sync/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/sync/create/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/08bae9e522ae787f927b756d.md",
+      "kind": "official-document",
+      "bytes": 897,
+      "sha256": "766aac435760215de572b8e36a7fc50b564d0672dd5a5732132d90aa2977b03a",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/sync/create/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/sync/delete/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/dd8615e9916a82427c159c2a.md",
+      "kind": "official-document",
+      "bytes": 890,
+      "sha256": "f9239731affd5dd08560558f95bc211aebd7eb752f6e82def9549bc0b7e53f40",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/sync/delete/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/sync/get/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/59fdcf6388339ec17713564e.md",
+      "kind": "official-document",
+      "bytes": 532,
+      "sha256": "41fd2f4cdbe6bbce674d03509da2b8b4e24ba03248abbcac369d6cb270f494c1",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/sync/get/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/wasm/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/dc9a64675babb5c856f8e706.md",
+      "kind": "official-document",
+      "bytes": 340,
+      "sha256": "b6aa1882dff119b851146aeef6e80cb958ff1665dd6c106dc6e326a406ea5ba5",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/wasm/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/wasm/pull/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/902e41ac6b05d33ee15e44c1.md",
+      "kind": "official-document",
+      "bytes": 682,
+      "sha256": "e52868d39b2948633830c0a10c460051efea8822c3425a6796a32ff5774d4a90",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/wasm/pull/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/alpha/wasm/push/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/f5452929fe2f3b917e69373d.md",
+      "kind": "official-document",
+      "bytes": 643,
+      "sha256": "3615db5a1d59a3b40c838f2dd7b36fbb93a0874b8254be86c882f601929ce5f4",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/alpha/wasm/push/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/fn/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/70a5e9ce650d7a0b483e6704.md",
+      "kind": "official-document",
+      "bytes": 429,
+      "sha256": "0d2f50498cd3f2e43187ecf5742917e4888564a7a87972858b9e698da8223507",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/fn/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/fn/doc/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/74188c844e94c60341c9ebf8.md",
+      "kind": "official-document",
+      "bytes": 1196,
+      "sha256": "2f7254162f87cc68d4ab000c44eabf974ef5d35f555b2b3826d84ffd83e31b70",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/fn/doc/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/fn/eval/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/2a66dd14fb3de20a1f428bb3.md",
+      "kind": "official-document",
+      "bytes": 12479,
+      "sha256": "d1255e93887f76ccd4edd0ac9b6294850939f4aa02da60faf22034904b7c2f1e",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/fn/eval/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/fn/render/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/55f70a707099ff7b352c1942.md",
+      "kind": "official-document",
+      "bytes": 7297,
+      "sha256": "20b76f57c164d8fea4e464d1b9cc29c4ed25a2582cc69b3710581450e03a344f",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/fn/render/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/fn/sink/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/ab3065c0ed800454aa0b450c.md",
+      "kind": "official-document",
+      "bytes": 1098,
+      "sha256": "e4bdb2caa2272a46f173f8e91c82bc1a375152dd7eb2d80e864b105f8d21e4aa",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/fn/sink/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/fn/source/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/cc8496444679206367ad6215.md",
+      "kind": "official-document",
+      "bytes": 1796,
+      "sha256": "843016c80135643f35cf5548fa41f3a102523deae1f9ba25c5b594b3be1cda15",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/fn/source/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/a236fed64d7c01274f115f9a.md",
+      "kind": "official-document",
+      "bytes": 2064,
+      "sha256": "c27351eba1da4d3e04e77e156fd7a4ffd928dc5d7a64b3aecffe18fd42c96177",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/apply/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/8fe30b97bfec4b1a23d1bb3f.md",
+      "kind": "official-document",
+      "bytes": 4456,
+      "sha256": "a7aedc0018f20cb59c18c0d17ca07adc7c30ad875bf8d354b2697b4c37c5cafa",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/apply/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/destroy/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/188e5d198d0f797ac299a861.md",
+      "kind": "official-document",
+      "bytes": 3018,
+      "sha256": "94faa7940244493fb00ee44b14c5487c574308209d38ec2c168040f5f76103d5",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/destroy/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/init/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/b39b39fbe65d2a216972709a.md",
+      "kind": "official-document",
+      "bytes": 1897,
+      "sha256": "0d245bf0c53e16bcad3f84ac7d9c32df4d71c6f75c9727ba7b28205bc432a8a8",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/init/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/install-resource-group/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/52d81cd16617472c27fad0d0.md",
+      "kind": "official-document",
+      "bytes": 694,
+      "sha256": "38fdbf640031c62a411368a456985374dffcb64f046235180f72591e2d03645e",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/install-resource-group/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/migrate/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/ee398d4aed19c6ff061187d3.md",
+      "kind": "official-document",
+      "bytes": 2222,
+      "sha256": "bd6349341944cb90a2dca5530fcf4e029c90d2ceddb3754f7c9061ad628fefd9",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/migrate/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/live/status/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/9f333a35a115715ba476e41c.md",
+      "kind": "official-document",
+      "bytes": 3775,
+      "sha256": "5d37919a5697a292f0ec86773deff4dc37106de6fd0fb64da427a2d8cc882a89",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/live/status/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/8662cef5b05d1dbeb7bdfe2a.md",
+      "kind": "official-document",
+      "bytes": 407,
+      "sha256": "aa92c46ade03cfd16c4b6c30ddd72aaf676df2cffb350f77e17a6a5954879984",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/cat/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/eb68083140926e5d8b02ee63.md",
+      "kind": "official-document",
+      "bytes": 1536,
+      "sha256": "0cac96395ff57b4d529715b7ff368867cfbf134e1ac7ef22ac626d6e9f9b281f",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/cat/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/diff/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/d90356d827d3141aac8cf8c9.md",
+      "kind": "official-document",
+      "bytes": 3280,
+      "sha256": "bded3574c2f10b610809d469ef87e4a55034c8a2a83b2b4e52f93f6c68d1b211",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/diff/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/get/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/6c304154e9d46b8760cd5ad6.md",
+      "kind": "official-document",
+      "bytes": 3500,
+      "sha256": "b438bd48bcbc219f300e2797f72b6ef2e8a463b59bd32bd0d5a4523e3545b485",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/get/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/init/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5a8a736cd1e4ecfb9acfa2d0.md",
+      "kind": "official-document",
+      "bytes": 1099,
+      "sha256": "0a747ed43e6473ea58dc84350a7aa4f8ea2163e268c8ae9b591fcb332c4bc982",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/init/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/tree/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/2edfb4f903f93464fb3de9d0.md",
+      "kind": "official-document",
+      "bytes": 1822,
+      "sha256": "096860ee7d2fee324c16843cd4ef6cfda65c043e1a37f8e3f667dd027ec0df12",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/tree/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/cli/pkg/update/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/4a49655ee85e9f1dcc67ace4.md",
+      "kind": "official-document",
+      "bytes": 8552,
+      "sha256": "a5170b07fa0e675d458fb3766eeaf6acda653a0c70561c18a80bb6ed65b73c8f",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/cli/pkg/update/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/8f6dd6908e50de576fb8925f.md",
+      "kind": "official-document",
+      "bytes": 235,
+      "sha256": "d43969dca146c5dda0eac230ee5633929cc731091964e6d45f420cba4f5181f0",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/config-connector-status-convention/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/86a88e2049fd08468ae2c58f.md",
+      "kind": "official-document",
+      "bytes": 2093,
+      "sha256": "afe411b3fe1656ffc81e77ca8722a6bb59468ddddff0f3a167ebc74283b7f4ce",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/config-connector-status-convention/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/crd-status-convention/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/819d17a1be310936ad226142.md",
+      "kind": "official-document",
+      "bytes": 2751,
+      "sha256": "11d475e2f55e1b961bb019e3556923e9175f73743fea0d11d0b1c42bc9ca304d",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/crd-status-convention/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/function-result-list/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/3ba4a5d525190f561e848d22.md",
+      "kind": "official-document",
+      "bytes": 239,
+      "sha256": "23a4bba296defdcc5b9a4e000484aa200c90cfe42933c501aba8235a3e01e8bb",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/function-result-list/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/kptfile/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/e266ee754754bb600464fd1e.md",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "81cb7655d7409d3a3b1dc67c84c7d932b66f496fc909044f28f28f2f226ccad3",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/kptfile/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/plan/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/7664c566e2bfa0b613162e0b.md",
+      "kind": "official-document",
+      "bytes": 1646,
+      "sha256": "f81789f666b3793db015930c7dcd906edb475ddc06c630666d9bda34b1a0e4e9",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/plan/_index.md"
+    },
+    {
+      "path": "documentation/content/en/reference/schema/resource-list/_index.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/e977d1372750824e4cb940f7.md",
+      "kind": "official-document",
+      "bytes": 271,
+      "sha256": "58a2688ff7d7e2a2643bcf7f3e03aa7ebd17a7b4fac75bd1c09720d00c8c6a1d",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/reference/schema/resource-list/_index.md"
+    },
+    {
+      "path": "documentation/content/en/search.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/980562a4f4fa96c3c3dddbdc.md",
+      "kind": "official-document",
+      "bytes": 61,
+      "sha256": "4f831e759840844c98c38fe26cd718d1da9561ac1525358fd87786477bbfa385",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/documentation/content/en/search.md"
+    },
+    {
+      "path": "e2e/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/d9770bfbd9e3f53581cb5603.md",
+      "kind": "official-document",
+      "bytes": 2096,
+      "sha256": "26959a67f0fc7e6ca62e68ee2162271e57142445bd569f1dcc144847d09180a1",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/e2e/README.md"
+    },
+    {
+      "path": "package-examples/_template/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/45aa24eb524a69418d9163c2.md",
+      "kind": "official-document",
+      "bytes": 1211,
+      "sha256": "3245e7faf0792a403fb7cc79e62662785fa81cb049b3a28775989e2aa8083915",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/_template/README.md"
+    },
+    {
+      "path": "package-examples/cert-manager-basic/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/ab047ffa0e1c82a1521b933f.md",
+      "kind": "official-document",
+      "bytes": 1643,
+      "sha256": "66beea7ba457fea5c427146aeba0ab7a22311192e4d3eb57a1b9077cd125202f",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/cert-manager-basic/README.md"
+    },
+    {
+      "path": "package-examples/ghost/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/b10c9409b91f77a943530730.md",
+      "kind": "official-document",
+      "bytes": 1332,
+      "sha256": "0487b4b7976b7fb53216d18d52858ed32cfbaf6844a77ea068685f958b4598de",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/ghost/README.md"
+    },
+    {
+      "path": "package-examples/guestbook/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/6b6ac4406bee0125bf184245.md",
+      "kind": "official-document",
+      "bytes": 3605,
+      "sha256": "55356a8d9323c47782416dd933adf638fced5ffa178eec6de418e05da34bfbbd",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/guestbook/README.md"
+    },
+    {
+      "path": "package-examples/ingress-nginx/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/75761786d91a6fed523c2f30.md",
+      "kind": "official-document",
+      "bytes": 1587,
+      "sha256": "3e5492e31a7d4d9eb67a4412f02d0b0407b3f1ce54e6735af345b71fcf1ec1cd",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/ingress-nginx/README.md"
+    },
+    {
+      "path": "package-examples/kustomize/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/71183ac1fca8791a2a19f89c.md",
+      "kind": "official-document",
+      "bytes": 4432,
+      "sha256": "dc6ff278a47ae4796f8385c7fedca7b6dd8b70992801ff75dcf68c0fee847971",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/kustomize/README.md"
+    },
+    {
+      "path": "package-examples/tenant/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/877b19d8e1a9a5c1cc396017.md",
+      "kind": "official-document",
+      "bytes": 152,
+      "sha256": "dc3b5933936990ae413e52b2e9c743d5e53dc8b234a86d8022ced698c56e105e",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/tenant/README.md"
+    },
+    {
+      "path": "package-examples/wordpress-with-dependencies/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/5fd485f1a6ba49937a636cd7.md",
+      "kind": "official-document",
+      "bytes": 165,
+      "sha256": "d6c31834489d9c24b9ab52c87ef6379e35b8d9cc8cb9b1f1b51f64cf171d1330",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/wordpress-with-dependencies/README.md"
+    },
+    {
+      "path": "package-examples/wordpress/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/428ac144805895d491c4c946.md",
+      "kind": "official-document",
+      "bytes": 133,
+      "sha256": "e51a444ffb7983dbf2f0fdc32237616821e7327a6c0082e989110c6c7b5c9cc0",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/package-examples/wordpress/README.md"
+    },
+    {
+      "path": "pkg/test/runner/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/c5f690804571152f28baf3c4.md",
+      "kind": "official-document",
+      "bytes": 3917,
+      "sha256": "729c3be290771ab9da21d93d5a1549d5f32e92b659a135a05028495c2eb3bbdb",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/pkg/test/runner/README.md"
+    },
+    {
+      "path": "release/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/117e4d23e1c4e40eddf25227.md",
+      "kind": "official-document",
+      "bytes": 3317,
+      "sha256": "dabe822d06d8a833bd788a3f45a4be3eda2492a0bbb63a2228ff7158df6b519a",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/release/README.md"
+    },
+    {
+      "path": "scripts/go-upgrade/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/836264121af7383a39ce2faa.md",
+      "kind": "official-document",
+      "bytes": 5981,
+      "sha256": "8911ec234ab339cb057bbd991cfd482ebfbbe00aa395f238d06c7b0bdb2ddc2c",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/scripts/go-upgrade/README.md"
+    },
+    {
+      "path": "thirdparty/README.md",
+      "localPath": "raw/kptdev--kpt/acd48237f61f/9884b6fcba7993d29e2b5a42.md",
+      "kind": "official-document",
+      "bytes": 1482,
+      "sha256": "ae895597fabb5891fcd4f5705f7e653f2ce07dcf8f8d8dccbdf85676a1868fe8",
+      "sourceUrl": "https://github.com/kptdev/kpt/blob/acd48237f61f847634cb0334a66949885bb6f31d/thirdparty/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

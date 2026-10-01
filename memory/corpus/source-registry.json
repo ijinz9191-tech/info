@@ -1,0 +1,6417 @@
+{
+  "schemaVersion": 1,
+  "cncfSnapshotCommit": "bc9d1b5c87904d9430fc3377938f38192bab3ad0",
+  "cncfProjectEntries": 255,
+  "sources": [
+    {
+      "repo": "cp-algorithms/cp-algorithms",
+      "topics": [
+        "algorithms"
+      ],
+      "docRoots": [
+        "src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "facebook/react",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [],
+      "codePaths": [
+        "packages/react/src/ReactHooks.js",
+        "packages/react-reconciler/src/ReactFiberHooks.js"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "kubernetes/website",
+      "topics": [
+        "cncf/kubernetes-docs"
+      ],
+      "docRoots": [
+        "content/en/docs",
+        "content/ko/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "open-telemetry/opentelemetry.io",
+      "topics": [
+        "cncf/observability-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "prometheus/docs",
+      "topics": [
+        "cncf/prometheus-docs"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "python/cpython",
+      "topics": [
+        "languages/python"
+      ],
+      "docRoots": [
+        "Doc"
+      ],
+      "codePaths": [
+        "Objects/listobject.c",
+        "Objects/dictobject.c",
+        "Lib/asyncio/tasks.py"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "reactjs/react.dev",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "src/content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "rust-lang/book",
+      "topics": [
+        "languages/rust"
+      ],
+      "docRoots": [
+        "src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "spring-projects/spring-boot",
+      "topics": [
+        "frameworks/spring"
+      ],
+      "docRoots": [
+        "documentation",
+        "spring-boot-project/spring-boot-docs/src/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "spring-projects/spring-framework",
+      "topics": [
+        "frameworks/spring"
+      ],
+      "docRoots": [
+        "framework-docs/modules/ROOT/pages"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "AdaCore/learn",
+      "topics": [
+        "languages/ada"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "aeraki-mesh/aeraki",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Aeraki Mesh",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "agda/agda",
+      "topics": [
+        "languages/agda"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "agones-dev/agones",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Agones",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "angular/angular",
+      "topics": [
+        "frameworks/angular"
+      ],
+      "docRoots": [
+        "adev/src/content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "ansible/ansible",
+      "topics": [
+        "tooling/automation"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "antrea-io/antrea",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Antrea",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "apache/airflow",
+      "topics": [
+        "data/airflow"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/cassandra",
+      "topics": [
+        "data/cassandra"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/flink",
+      "topics": [
+        "data/flink"
+      ],
+      "docRoots": [
+        "docs/content/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/groovy",
+      "topics": [
+        "languages/groovy"
+      ],
+      "docRoots": [
+        "src/spec"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/httpd",
+      "topics": [
+        "systems/http-server"
+      ],
+      "docRoots": [
+        "docs/manual"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/kafka",
+      "topics": [
+        "data/kafka"
+      ],
+      "docRoots": [
+        "docs",
+        "site/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/maven",
+      "topics": [
+        "tooling/maven"
+      ],
+      "docRoots": [
+        "src/site"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/pulsar",
+      "topics": [
+        "data/pulsar"
+      ],
+      "docRoots": [
+        "site2/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "apache/spark",
+      "topics": [
+        "data/spark"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "Apicurio/apicurio-registry",
+      "topics": [
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Apicurio Registry",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "argoproj/argo-cd",
+      "topics": [
+        "cncf/argo",
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry",
+      "cncfProjects": [
+        {
+          "name": "Argo",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "argoproj/argo-workflows",
+      "topics": [
+        "cncf/argo"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "armadaproject/armada",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Armada",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "artifacthub/hub",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Artifact Hub",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "AthenZ/athenz",
+      "topics": [
+        "cncf/Provisioning/Key Management"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Athenz",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "backstage/backstage",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Backstage",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "bank-vaults/bank-vaults",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Bank-Vaults",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "bazelbuild/bazel",
+      "topics": [
+        "tooling/bazel"
+      ],
+      "docRoots": [
+        "site/en"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "bfenetworks/bfe",
+      "topics": [
+        "cncf/Orchestration & Management/Service Proxy"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "BFE",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "bootc-dev/bootc",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "bootc",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "bpfman/bpfman",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "bpfman",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "brigadecore/brigade",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Brigade",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "buildpacks/pack",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Buildpacks",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "cadence-workflow/cadence",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cadence Workflow",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "carina-io/carina",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Carina",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cartography-cncf/cartography",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cartography",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "carvel-dev/ytt",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Carvel",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cdk8s-team/cdk8s",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CDK for Kubernetes (CDK8s)",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cedar-policy/cedar",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cedar",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cert-manager/cert-manager",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "cert-manager",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "cert-manager/website",
+      "topics": [
+        "cncf/cert-manager-docs"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "chaos-mesh/chaos-mesh",
+      "topics": [
+        "cncf/Observability and Analysis/Chaos Engineering"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Chaos Mesh",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "chaosblade-io/chaosblade",
+      "topics": [
+        "cncf/Observability and Analysis/Chaos Engineering"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Chaosblade",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cilium/cilium",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cilium",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "ClickHouse/ClickHouse",
+      "topics": [
+        "data/clickhouse"
+      ],
+      "docRoots": [
+        "docs/en"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "ClickHouse/clickhouse-docs",
+      "topics": [
+        "data/clickhouse-docs"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "clojure/clojure-site",
+      "topics": [
+        "languages/clojure"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "cloud-custodian/cloud-custodian",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cloud Custodian",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "cloudevents/spec",
+      "topics": [
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CloudEvents",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "cloudnative-pg/cloudnative-pg",
+      "topics": [
+        "cncf/App Definition and Development/Database"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CloudNativePG",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "clusternet/clusternet",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Clusternet",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "clusterpedia-io/clusterpedia",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Clusterpedia",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cncf/glossary",
+      "topics": [
+        "cncf/glossary"
+      ],
+      "docRoots": [
+        "content/en",
+        "content/ko"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "cncf/toc",
+      "topics": [
+        "cncf/governance"
+      ],
+      "docRoots": [
+        "process",
+        "projects",
+        "workinggroups"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "cni-genie/CNI-Genie",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CNI-Genie",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "confidential-containers/confidential-containers",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Confidential Containers",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "connectrpc/connect-go",
+      "topics": [
+        "cncf/Orchestration & Management/Remote Procedure Call"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Connect RPC",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "container2wasm/container2wasm",
+      "topics": [
+        "cncf/Wasm/Orchestration & Management"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "container2wasm",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "containerd/containerd",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "containerd",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "containernetworking/cni",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Container Network Interface (CNI)",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "containers/composefs",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "composefs",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "containers/podman",
+      "topics": [
+        "systems/podman"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "containerssh/containerssh",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "ContainerSSH",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "coredns/coredns",
+      "topics": [
+        "cncf/Orchestration & Management/Coordination & Service Discovery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CoreDNS",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "cortexproject/cortex",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cortex",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "cozystack/cozystack",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Cozystack",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "cri-o/cri-o",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CRI-O",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "crossplane/crossplane",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Crossplane",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "crossplane/docs",
+      "topics": [
+        "cncf/crossplane-docs"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "crystal-lang/crystal-book",
+      "topics": [
+        "languages/crystal"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "cubeFS/cubefs",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "CubeFS",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "curl/curl",
+      "topics": [
+        "systems/networking"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [
+        "lib/url.c"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "CurvineIO/curvine",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Curvine",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "dapr/dapr",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Dapr",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "dapr/docs",
+      "topics": [
+        "cncf/dapr-docs"
+      ],
+      "docRoots": [
+        "daprdocs/content/en"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dapr/quickstarts",
+      "topics": [
+        "cncf/dapr-examples"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dart-lang/language",
+      "topics": [
+        "languages/dart"
+      ],
+      "docRoots": [
+        "accepted",
+        "working",
+        "resources"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "denoland/docs",
+      "topics": [
+        "languages/deno"
+      ],
+      "docRoots": [
+        "runtime",
+        "deploy",
+        "examples"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "devfile/api",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Devfile",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "devspace-sh/devspace",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "DevSpace",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "devstream-io/devstream",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "DevStream",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "dexidp/dex",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Dex",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "distribution/distribution",
+      "topics": [
+        "cncf/Provisioning/Container Registry"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Distribution",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "django/django",
+      "topics": [
+        "frameworks/python"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [
+        "django/core/handlers/base.py",
+        "django/db/transaction.py"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dlang/dlang.org",
+      "topics": [
+        "languages/d"
+      ],
+      "docRoots": [
+        "spec",
+        "articles",
+        "dlang"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "docker/docs",
+      "topics": [
+        "systems/docker-docs"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dotnet/AspNetCore.Docs",
+      "topics": [
+        "frameworks/aspnet"
+      ],
+      "docRoots": [
+        "aspnetcore"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dotnet/docs",
+      "topics": [
+        "languages/dotnet"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dotnet/fsharp",
+      "topics": [
+        "languages/fsharp"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dotnet/runtime",
+      "topics": [
+        "languages/dotnet"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [
+        "src/libraries/System.Private.CoreLib/src/System/Threading/Tasks/Task.cs"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "dragonflyoss/dragonfly",
+      "topics": [
+        "cncf/Provisioning/Container Registry"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Dragonfly",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "drasi-project/drasi-platform",
+      "topics": [
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Drasi",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "duckdb/duckdb-web",
+      "topics": [
+        "data/duckdb"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "easegress-io/easegress",
+      "topics": [
+        "cncf/Orchestration & Management/API Gateway"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Easegress",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "elastic/docs",
+      "topics": [
+        "data/elasticsearch"
+      ],
+      "docRoots": [
+        "reference"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "electron/electron",
+      "topics": [
+        "frameworks/electron"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "elixir-lang/elixir",
+      "topics": [
+        "languages/elixir"
+      ],
+      "docRoots": [
+        "lib/elixir/pages"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "elm/compiler",
+      "topics": [
+        "languages/elm"
+      ],
+      "docRoots": [
+        "docs",
+        "hints"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "emissary-ingress/emissary",
+      "topics": [
+        "cncf/Orchestration & Management/API Gateway"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Emissary-Ingress",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "envoyproxy/envoy",
+      "topics": [
+        "cncf/envoy-docs",
+        "cncf/Orchestration & Management/Service Proxy"
+      ],
+      "docRoots": [
+        "docs/root"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry",
+      "cncfProjects": [
+        {
+          "name": "Envoy",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "eraser-dev/eraser",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Eraser",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "erlang/otp",
+      "topics": [
+        "languages/erlang"
+      ],
+      "docRoots": [
+        "system/doc",
+        "erts/doc",
+        "lib/stdlib/doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "etcd-io/etcd",
+      "topics": [
+        "cncf/Orchestration & Management/Coordination & Service Discovery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "etcd",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "etcd-io/website",
+      "topics": [
+        "cncf/etcd-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "expressjs/expressjs.com",
+      "topics": [
+        "frameworks/node"
+      ],
+      "docRoots": [
+        "en",
+        "ko"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "external-secrets/external-secrets",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "external-secrets",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "FabEdge/fabedge",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "FabEdge",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "facebook/react-native",
+      "topics": [
+        "frameworks/react-native"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "facebook/react-native-website",
+      "topics": [
+        "frameworks/react-native-docs"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "falcosecurity/falco",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Falco",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "falcosecurity/falco-website",
+      "topics": [
+        "cncf/falco-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "falcosecurity/plugins",
+      "topics": [
+        "cncf/falco-plugins"
+      ],
+      "docRoots": [
+        "plugins"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "fastapi/fastapi",
+      "topics": [
+        "frameworks/python"
+      ],
+      "docRoots": [
+        "docs/en/docs"
+      ],
+      "codePaths": [
+        "fastapi/routing.py",
+        "fastapi/dependencies/utils.py"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "Fastify/fastify",
+      "topics": [
+        "frameworks/fastify"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "fish-shell/fish-shell",
+      "topics": [
+        "languages/fish"
+      ],
+      "docRoots": [
+        "doc_src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "flatcar/Flatcar",
+      "topics": [
+        "cncf/Platform/Certified Kubernetes - Distribution"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Flatcar Container Linux",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "fluent/fluentd",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Fluentd",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "fluid-cloudnative/fluid",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Fluid",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "flutter/website",
+      "topics": [
+        "frameworks/flutter"
+      ],
+      "docRoots": [
+        "src/content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "fluxcd/flux2",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Flux",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "fluxcd/website",
+      "topics": [
+        "cncf/flux-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "foniod/foniod",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Fonio",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "fortran-lang/webpage",
+      "topics": [
+        "languages/fortran"
+      ],
+      "docRoots": [
+        "source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "getporter/porter",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Porter",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "getsentry/sentry-docs",
+      "topics": [
+        "observability/sentry"
+      ],
+      "docRoots": [
+        "docs",
+        "develop-docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "getsops/sops",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SOPS",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "ghc/ghc",
+      "topics": [
+        "languages/haskell"
+      ],
+      "docRoots": [
+        "docs/users_guide"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "git/git",
+      "topics": [
+        "tooling/git"
+      ],
+      "docRoots": [
+        "Documentation"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "gleam-lang/website",
+      "topics": [
+        "languages/gleam"
+      ],
+      "docRoots": [
+        "docs",
+        "documentation",
+        "news"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "godotengine/godot-docs",
+      "topics": [
+        "frameworks/game"
+      ],
+      "docRoots": [
+        "tutorials",
+        "getting_started"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "goharbor/harbor",
+      "topics": [
+        "cncf/Provisioning/Container Registry"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Harbor",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "goharbor/website",
+      "topics": [
+        "cncf/harbor-docs"
+      ],
+      "docRoots": [
+        "docs",
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "golang/go",
+      "topics": [
+        "languages/go"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [
+        "src/runtime/proc.go",
+        "src/net/http/server.go",
+        "src/sync/mutex.go"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "golang/website",
+      "topics": [
+        "languages/go-docs"
+      ],
+      "docRoots": [
+        "_content",
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "gradle/gradle",
+      "topics": [
+        "tooling/gradle"
+      ],
+      "docRoots": [
+        "platforms/documentation/docs/src/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "grpc/grpc",
+      "topics": [
+        "cncf/Orchestration & Management/Remote Procedure Call"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "gRPC",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "hashicorp/terraform",
+      "topics": [
+        "tooling/iac"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "helm/helm",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Helm",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "helm/helm-www",
+      "topics": [
+        "cncf/helm-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "hexa-org/policy-orchestrator",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Hexa",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "higress-group/higress",
+      "topics": [
+        "cncf/Orchestration & Management/API Gateway"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Higress",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "HolmesGPT/holmesgpt",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "HolmesGPT",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "huggingface/peft",
+      "topics": [
+        "ml/peft"
+      ],
+      "docRoots": [
+        "docs/source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "huggingface/transformers",
+      "topics": [
+        "ml/transformers"
+      ],
+      "docRoots": [
+        "docs/source/en"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "huggingface/trl",
+      "topics": [
+        "ml/trl"
+      ],
+      "docRoots": [
+        "docs/source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "hwameistor/hwameistor",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "HwameiStor",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "hyperlight-dev/hyperlight",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Hyperlight",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "idris-lang/Idris2",
+      "topics": [
+        "languages/idris"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "in-toto/in-toto",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "in-toto",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "inclavare-containers/inclavare-containers",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Inclavare Containers",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "inspektor-gadget/inspektor-gadget",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Inspektor Gadget",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "interlink-hq/interLink",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Interlink",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "isocpp/CppCoreGuidelines",
+      "topics": [
+        "languages/c-cpp"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "istio/istio",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Istio",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "istio/istio.io",
+      "topics": [
+        "cncf/istio-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "jaegertracing/jaeger",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Jaeger",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "jestjs/jest",
+      "topics": [
+        "frameworks/testing"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "JetBrains/kotlin",
+      "topics": [
+        "languages/kotlin"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "JuliaLang/julia",
+      "topics": [
+        "languages/julia"
+      ],
+      "docRoots": [
+        "doc/src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "k0sproject/k0s",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "k0s",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "k3s-io/k3s",
+      "topics": [
+        "cncf/Platform/Certified Kubernetes - Distribution"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "k3s",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "k8gb-io/k8gb",
+      "topics": [
+        "cncf/Orchestration & Management/Coordination & Service Discovery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "k8gb",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "k8sgpt-ai/k8sgpt",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "K8sGPT",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "k8up-io/k8up",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "K8up",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kagent-dev/kagent",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "kagent",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kai-scheduler/KAI-Scheduler",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KAI Scheduler",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kairos-io/kairos",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kairos",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kaito-project/kaito",
+      "topics": [
+        "cncf/Inference/Framework"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KAITO",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kanisterio/kanister",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kanister",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "karmada-io/karmada",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Karmada",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "kbind-dev/kbind",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "kbind",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kcl-lang/kcl",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KCL",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kcp-dev/kcp",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "kcp",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kedacore/keda",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KEDA",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "keptn/lifecycle-toolkit",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Keptn",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "keycloak/keycloak",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Keycloak",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "keylime/keylime",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Keylime",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kgateway-dev/kgateway",
+      "topics": [
+        "cncf/Orchestration & Management/API Gateway"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kgateway",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kitops-ml/kitops",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KitOps",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "Kitware/CMake",
+      "topics": [
+        "tooling/cmake"
+      ],
+      "docRoots": [
+        "Help"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "kmesh-net/kmesh",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kmesh",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "knative/docs",
+      "topics": [
+        "cncf/knative-docs"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "knative/serving",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Knative",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "ko-build/ko",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "ko",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "konveyor/operator",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Konveyor",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "koordinator-sh/koordinator",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Koordinator",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kptdev/kpt",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "kpt",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "krator-rs/krator",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Krator",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "krkn-chaos/krkn",
+      "topics": [
+        "cncf/Observability and Analysis/Chaos Engineering"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Krkn",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "krustlet/krustlet",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Krustlet",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "kserve/kserve",
+      "topics": [
+        "cncf/Inference/Framework"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KServe",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "kuadrant/kuadrant-operator",
+      "topics": [
+        "cncf/Orchestration & Management/API Gateway"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kuadrant",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kuasar-io/kuasar",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kuasar",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kube-burner/kube-burner",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kube-burner",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kube-logging/logging-operator",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Logging Operator (Kube Logging)",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kube-rs/kube",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "kube-rs",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kube-vip/kube-vip",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "kube-vip",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubean-io/kubean",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kubean",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubearmor/kubearmor",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeArmor",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubeclipper/kubeclipper",
+      "topics": [
+        "cncf/Platform/Certified Kubernetes - Installer"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeClipper",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubedl-io/kubedl",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeDL",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "kubeedge/kubeedge",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeEdge",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "KubeElasti/KubeElasti",
+      "topics": [
+        "cncf/Serverless/Installable Platform"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeElasti",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubefleet-dev/kubefleet",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeFleet",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubeflow/kubeflow",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kubeflow",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "kubeovn/kube-ovn",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kube-OVN",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubereboot/kured",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kured",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kuberhealthy/kuberhealthy",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kuberhealthy",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubernetes-sigs/headlamp",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Headlamp",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubernetes/kubernetes",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kubernetes",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "kubescape/kubescape",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kubescape",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "kubeslice/kubeslice",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeSlice",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubestellar/kubestellar",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeStellar",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kubevela/kubevela",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeVela",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "kubevirt/kubevirt",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KubeVirt",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "kubewarden/kubewarden-controller",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kubewarden",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kudobuilder/kudo",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KUDO",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kumahq/kuma",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kuma",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "KusionStack/kusion",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "KusionStack",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "kyverno/kyverno",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kyverno",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "kyverno/website",
+      "topics": [
+        "cncf/kyverno-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "laravel/docs",
+      "topics": [
+        "frameworks/php"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "leanprover/lean4",
+      "topics": [
+        "languages/lean"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "lima-vm/lima",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Lima",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "linkerd/linkerd2",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Linkerd",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "linkerd/website",
+      "topics": [
+        "cncf/linkerd-docs"
+      ],
+      "docRoots": [
+        "linkerd.io/content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "litmuschaos/litmus",
+      "topics": [
+        "cncf/Observability and Analysis/Chaos Engineering"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Litmus",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "llm-d/llm-d",
+      "topics": [
+        "cncf/Inference/Framework"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "llm-d",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "topics": [
+        "languages/c-cpp"
+      ],
+      "docRoots": [
+        "clang/docs",
+        "llvm/docs",
+        "libcxx/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "longhorn/longhorn",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Longhorn",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "longhorn/website",
+      "topics": [
+        "cncf/longhorn-docs"
+      ],
+      "docRoots": [
+        "content/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "loxilb-io/loxilb",
+      "topics": [
+        "cncf/Orchestration & Management/Service Proxy"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "LoxiLB",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "lua/lua",
+      "topics": [
+        "languages/lua"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [
+        "lapi.c",
+        "lvm.c"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [
+        "lua.h"
+      ],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "merbridge/merbridge",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Merbridge",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "meshery/meshery",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Meshery",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "metal3-io/baremetal-operator",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "metal3-io",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "metallb/metallb",
+      "topics": [
+        "cncf/Orchestration & Management/Service Proxy"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "MetalLB",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "microcks/microcks",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Microcks",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "micronaut-projects/micronaut-core",
+      "topics": [
+        "frameworks/java"
+      ],
+      "docRoots": [
+        "src/main/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "microsoft/playwright",
+      "topics": [
+        "frameworks/testing"
+      ],
+      "docRoots": [
+        "docs/src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "microsoft/TypeScript",
+      "topics": [
+        "languages/typescript"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [
+        "src/compiler/checker.ts",
+        "src/compiler/parser.ts"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "microsoft/TypeScript-Website",
+      "topics": [
+        "languages/typescript"
+      ],
+      "docRoots": [
+        "packages/documentation/copy/en"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "MicrosoftDocs/PowerShell-Docs",
+      "topics": [
+        "languages/powershell"
+      ],
+      "docRoots": [
+        "reference"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "moby/moby",
+      "topics": [
+        "systems/containers"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "modelpack/model-spec",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "ModelPack",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "nats-io/nats-server",
+      "topics": [
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "NATS",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "nestjs/docs.nestjs.com",
+      "topics": [
+        "frameworks/node"
+      ],
+      "docRoots": [
+        "content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "netwide-assembler/nasm",
+      "topics": [
+        "languages/assembly"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "networkservicemesh/api",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Network Service Mesh",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "nim-lang/Nim",
+      "topics": [
+        "languages/nim"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "nmstate/nmstate",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "NMstate",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "nocalhost/nocalhost",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Nocalhost",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "nodejs/node",
+      "topics": [
+        "languages/javascript"
+      ],
+      "docRoots": [
+        "doc/api"
+      ],
+      "codePaths": [
+        "lib/internal/process/task_queues.js",
+        "lib/events.js"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "notaryproject/notation",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Notary Project",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "numpy/numpy",
+      "topics": [
+        "data/numpy"
+      ],
+      "docRoots": [
+        "doc/source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "nushell/nushell.github.io",
+      "topics": [
+        "languages/nushell"
+      ],
+      "docRoots": [
+        "book",
+        "cookbook",
+        "commands"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "oauth2-proxy/oauth2-proxy",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OAuth2 Proxy",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "ocaml/ocaml",
+      "topics": [
+        "languages/ocaml"
+      ],
+      "docRoots": [
+        "manual"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "ocaml/ocaml.org",
+      "topics": [
+        "languages/ocaml"
+      ],
+      "docRoots": [
+        "data/tutorials",
+        "data/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "opcr-io/policy",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Open Policy Containers",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "open-cluster-management-io/ocm",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Open Cluster Management",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "open-feature/spec",
+      "topics": [
+        "cncf/Observability and Analysis/Feature Flagging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenFeature",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "open-gitops/project",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenGitOps",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "open-policy-agent/opa",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Open Policy Agent (OPA)",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "open-telemetry/community",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenTelemetry",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-collector",
+      "topics": [
+        "cncf/telemetry-collector"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "open-telemetry/opentelemetry-specification",
+      "topics": [
+        "cncf/telemetry-specification"
+      ],
+      "docRoots": [
+        "specification"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "open-workflow-specification/specification",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Open Workflow Specification",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "openchoreo/openchoreo",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenChoreo",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "opencost/opencost",
+      "topics": [
+        "cncf/Observability and Analysis/Continuous Optimization"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenCost",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "opencurve/curve",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Curve",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "openebs/openebs",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenEBS",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "openelb/openelb",
+      "topics": [
+        "cncf/Orchestration & Management/Service Proxy"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenELB",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "openeverest/openeverest",
+      "topics": [
+        "cncf/App Definition and Development/Database"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenEverest",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "openfga/openfga",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenFGA",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "OpenFunction/OpenFunction",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenFunction",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "openGemini/openGemini",
+      "topics": [
+        "cncf/App Definition and Development/Database"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "openGemini",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "openjdk/jdk",
+      "topics": [
+        "languages/java"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [
+        "src/java.base/share/classes/java/util/HashMap.java",
+        "src/java.base/share/classes/java/util/concurrent/CompletableFuture.java"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "openkruise/kruise",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenKruise",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "OpenObservability/OpenMetrics",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenMetrics",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "openscad/openscad",
+      "topics": [
+        "languages/openscad"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "opensearch-project/documentation-website",
+      "topics": [
+        "data/opensearch"
+      ],
+      "docRoots": [
+        "*"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "openservicemesh/osm",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Open Service Mesh",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "openssl/openssl",
+      "topics": [
+        "systems/tls"
+      ],
+      "docRoots": [
+        "doc/man3",
+        "doc/man7"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "opentofu/opentofu",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenTofu",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "opentracing/opentracing-go",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenTracing",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "openyurtio/openyurt",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OpenYurt",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "operator-framework/operator-sdk",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Operator Framework",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "oras-project/oras",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "ORAS",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "oscal-compass/compliance-trestle",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OSCAL-COMPASS",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "oven-sh/bun",
+      "topics": [
+        "languages/bun"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "ovn-kubernetes/ovn-kubernetes",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "OVN-Kubernetes",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "OWASP/ASVS",
+      "topics": [
+        "security"
+      ],
+      "docRoots": [
+        "5.0"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "OWASP/CheatSheetSeries",
+      "topics": [
+        "security"
+      ],
+      "docRoots": [
+        "cheatsheets"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "oxia-db/oxia",
+      "topics": [
+        "cncf/Orchestration & Management/Coordination & Service Discovery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Oxia",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "pallets/flask",
+      "topics": [
+        "frameworks/python"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "pandas-dev/pandas",
+      "topics": [
+        "data/pandas"
+      ],
+      "docRoots": [
+        "doc/source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "parallaxsecond/parsec",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Parsec",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "paralus/paralus",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Paralus",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "Perl/perl5",
+      "topics": [
+        "languages/perl"
+      ],
+      "docRoots": [
+        "pod"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "perses/perses",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Perses",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "php/doc-en",
+      "topics": [
+        "languages/php"
+      ],
+      "docRoots": [
+        "reference",
+        "language"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "pipe-cd/pipecd",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "PipeCD",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "piraeusdatastore/piraeus-operator",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Piraeus Datastore",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "pixie-io/pixie",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Pixie",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "pmndrs/zustand",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "podman-container-tools/podman",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Podman Container Tools",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "podman-desktop/podman-desktop",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Podman Desktop",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "postgres/postgres",
+      "topics": [
+        "data/postgresql"
+      ],
+      "docRoots": [
+        "doc/src/sgml"
+      ],
+      "codePaths": [
+        "src/backend/access/transam/xlog.c"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "PowerShell/PowerShell",
+      "topics": [
+        "languages/powershell"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "pravega/pravega",
+      "topics": [
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Pravega",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "progit/progit2",
+      "topics": [
+        "tooling/git-book"
+      ],
+      "docRoots": [
+        "book"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "project-akri/akri",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Akri",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "project-copacetic/copacetic",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Copa",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "project-dalec/dalec",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Dalec",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "Project-HAMi/HAMi",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "HAMi",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "project-stacker/stacker",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Stacker",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "project-zot/zot",
+      "topics": [
+        "cncf/Provisioning/Container Registry"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "zot",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "projectcalico/calico",
+      "topics": [
+        "cncf/calico-docs"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "projectcapsule/capsule",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Capsule",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "projectcontour/contour",
+      "topics": [
+        "cncf/Orchestration & Management/Service Proxy"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Contour",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "prometheus/prometheus",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Prometheus",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "purescript/documentation",
+      "topics": [
+        "languages/purescript"
+      ],
+      "docRoots": [
+        "guides",
+        "language"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "pydantic/pydantic",
+      "topics": [
+        "frameworks/python"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "python/peps",
+      "topics": [
+        "languages/python"
+      ],
+      "docRoots": [
+        "peps"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "pytorch/pytorch",
+      "topics": [
+        "ml/pytorch"
+      ],
+      "docRoots": [
+        "docs/source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "quarkusio/quarkus",
+      "topics": [
+        "frameworks/java"
+      ],
+      "docRoots": [
+        "docs/src/main/asciidoc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "racket/racket",
+      "topics": [
+        "languages/racket"
+      ],
+      "docRoots": [
+        "pkgs/racket-doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "radius-project/radius",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Radius",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "rails/rails",
+      "topics": [
+        "frameworks/ruby"
+      ],
+      "docRoots": [
+        "guides/source"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "rancher/docs",
+      "topics": [
+        "cncf/rancher-docs"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "ratify-project/ratify",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Ratify",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "redis/redis-doc",
+      "topics": [
+        "data/redis"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "reduxjs/redux",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "reduxjs/redux-toolkit",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "remix-run/react-router",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "rkt/rkt",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "rkt",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "rook/rook",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Rook",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "ruby/ruby",
+      "topics": [
+        "languages/ruby"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [
+        "array.c",
+        "hash.c"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "runatlantis/atlantis",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Atlantis",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "runmedev/runme",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Runme Notebooks",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "rust-lang/reference",
+      "topics": [
+        "languages/rust"
+      ],
+      "docRoots": [
+        "src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "rust-lang/rust-by-example",
+      "topics": [
+        "languages/rust"
+      ],
+      "docRoots": [
+        "src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "SAP-samples/abap-cheat-sheets",
+      "topics": [
+        "languages/abap"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "sbcl/sbcl",
+      "topics": [
+        "languages/common-lisp"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "scala/docs.scala-lang",
+      "topics": [
+        "languages/scala"
+      ],
+      "docRoots": [
+        "_overviews",
+        "_tutorials",
+        "_cheatsheets"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "schemahero/schemahero",
+      "topics": [
+        "cncf/App Definition and Development/Database"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SchemaHero",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "scikit-learn/scikit-learn",
+      "topics": [
+        "ml/scikit-learn"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "score-spec/spec",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Score",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "sealerio/sealer",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "sealer",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "sermant-io/Sermant",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Sermant",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "serverless-devs/serverless-devs",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Serverless Devs",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "service-mesh-performance/service-mesh-performance",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Service Mesh Performance",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "servicemeshinterface/smi-spec",
+      "topics": [
+        "cncf/Orchestration & Management/Service Mesh"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Service Mesh Interface (SMI)",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "shipwright-io/build",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Shipwright",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "skooner-k8s/skooner",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Skooner",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "SlimPlanet/SlimFaas",
+      "topics": [
+        "cncf/Serverless/Installable Platform"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SlimFaaS",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "slimtoolkit/slim",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SlimToolkit",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "spidernet-io/spiderpool",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Spiderpool",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "spiffe/spiffe",
+      "topics": [
+        "cncf/Provisioning/Key Management"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SPIFFE",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "spiffe/spire",
+      "topics": [
+        "cncf/Provisioning/Key Management"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SPIRE",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "spinframework/spin",
+      "topics": [
+        "cncf/Wasm/Application Frameworks"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Spin",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "spinframework/spin-operator",
+      "topics": [
+        "cncf/Wasm/Orchestration & Management"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SpinKube",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "spring-projects/spring-data-jpa",
+      "topics": [
+        "frameworks/spring"
+      ],
+      "docRoots": [
+        "src/main/antora/modules/ROOT/pages"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "spring-projects/spring-security",
+      "topics": [
+        "frameworks/spring"
+      ],
+      "docRoots": [
+        "docs/modules/ROOT/pages"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "sqlalchemy/sqlalchemy",
+      "topics": [
+        "frameworks/python"
+      ],
+      "docRoots": [
+        "doc/build"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "sqlite/sqlite",
+      "topics": [
+        "languages/sql"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "storybookjs/storybook",
+      "topics": [
+        "frameworks/react-testing"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "strimzi/strimzi-kafka-operator",
+      "topics": [
+        "cncf/strimzi-docs",
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [
+        "documentation"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry",
+      "cncfProjects": [
+        {
+          "name": "Strimzi",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "submariner-io/submariner",
+      "topics": [
+        "cncf/Runtime/Cloud Native Network"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Submariner",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "superedge/superedge",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "SuperEdge",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "sustainable-computing-io/kepler",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Kepler",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "sveltejs/kit",
+      "topics": [
+        "frameworks/svelte"
+      ],
+      "docRoots": [
+        "documentation"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "sveltejs/svelte",
+      "topics": [
+        "frameworks/svelte"
+      ],
+      "docRoots": [
+        "documentation",
+        "packages/svelte/documentation"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "SWI-Prolog/swipl-devel",
+      "topics": [
+        "languages/prolog"
+      ],
+      "docRoots": [
+        "man"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "swiftlang/swift-book",
+      "topics": [
+        "languages/swift"
+      ],
+      "docRoots": [
+        "TSPL.docc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TanStack/query",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TanStack/table",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "tauri-apps/tauri-docs",
+      "topics": [
+        "frameworks/tauri"
+      ],
+      "docRoots": [
+        "src/content"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "tektoncd/pipeline",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Tekton",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "telepresenceio/telepresence",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Telepresence",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "tellerops/teller",
+      "topics": [
+        "cncf/Provisioning/Key Management"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Teller",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "testing-library/testing-library-docs",
+      "topics": [
+        "frameworks/ui-testing"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "thanos-io/thanos",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Thanos",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "TheAlgorithms/C",
+      "topics": [
+        "algorithms/c"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/C-Plus-Plus",
+      "topics": [
+        "algorithms"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/C-Sharp",
+      "topics": [
+        "algorithms/csharp"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/Go",
+      "topics": [
+        "algorithms/go"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/Java",
+      "topics": [
+        "algorithms"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/JavaScript",
+      "topics": [
+        "algorithms/javascript"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/Python",
+      "topics": [
+        "algorithms"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "TheAlgorithms/Rust",
+      "topics": [
+        "algorithms/rust"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": true,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "theupdateframework/python-tuf",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "The Update Framework (TUF)",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "tikv/tikv",
+      "topics": [
+        "cncf/App Definition and Development/Database"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "TiKV",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "tinkerbell/tinkerbell",
+      "topics": [
+        "cncf/Provisioning/Automation & Configuration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Tinkerbell",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "tokenetes/tokenetes",
+      "topics": [
+        "cncf/Provisioning/Security & Compliance"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Tokenetes",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "torvalds/linux",
+      "topics": [
+        "systems/linux"
+      ],
+      "docRoots": [
+        "Documentation"
+      ],
+      "codePaths": [
+        "kernel/sched/core.c",
+        "mm/memory.c"
+      ],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "tremor-rs/tremor-runtime",
+      "topics": [
+        "cncf/App Definition and Development/Streaming & Messaging"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Tremor",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "trickstercache/trickster",
+      "topics": [
+        "cncf/Observability and Analysis/Observability"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Trickster",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "typst/typst",
+      "topics": [
+        "languages/typst"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "urunc-dev/urunc",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "urunc",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "v6d-io/v6d",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Vineyard",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "velero-io/velero",
+      "topics": [
+        "cncf/Runtime/Cloud Native Storage"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Velero",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "vercel/next.js",
+      "topics": [
+        "frameworks/react"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "virtual-kubelet/virtual-kubelet",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Virtual Kubelet",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "vitejs/vite",
+      "topics": [
+        "frameworks/web-build"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "vitessio/vitess",
+      "topics": [
+        "cncf/App Definition and Development/Database"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Vitess",
+          "maturity": "graduated"
+        }
+      ]
+    },
+    {
+      "repo": "vitessio/website",
+      "topics": [
+        "cncf/vitess-docs"
+      ],
+      "docRoots": [
+        "content/en/docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "vitest-dev/vitest",
+      "topics": [
+        "frameworks/testing"
+      ],
+      "docRoots": [
+        "docs"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "vlang/v",
+      "topics": [
+        "languages/v"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "volcano-sh/volcano",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Volcano",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "vscode-kubernetes-tools/vscode-kubernetes-tools",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Visual Studio Code Kubernetes Tools",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "vuejs/docs",
+      "topics": [
+        "frameworks/vue"
+      ],
+      "docRoots": [
+        "src"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "wasmCloud/wasmCloud",
+      "topics": [
+        "cncf/Orchestration & Management/Scheduling & Orchestration"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "wasmCloud",
+          "maturity": "incubating"
+        }
+      ]
+    },
+    {
+      "repo": "WasmEdge/WasmEdge",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "WasmEdge Runtime",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "wch/r-source",
+      "topics": [
+        "languages/r"
+      ],
+      "docRoots": [
+        "doc/manual"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "werf/werf",
+      "topics": [
+        "cncf/App Definition and Development/Continuous Integration & Delivery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "werf",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "xline-kv/Xline",
+      "topics": [
+        "cncf/Orchestration & Management/Coordination & Service Discovery"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "Xline",
+          "maturity": "archived"
+        }
+      ]
+    },
+    {
+      "repo": "xregistry/server",
+      "topics": [
+        "cncf/App Definition and Development/Application Definition & Image Build"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "xRegistry",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "youki-dev/youki",
+      "topics": [
+        "cncf/Runtime/Container Runtime"
+      ],
+      "docRoots": [],
+      "codePaths": [],
+      "allCode": false,
+      "discovery": "pinned-cncf-landscape",
+      "cncfProjects": [
+        {
+          "name": "youki",
+          "maturity": "sandbox"
+        }
+      ]
+    },
+    {
+      "repo": "ziglang/zig",
+      "topics": [
+        "languages/zig"
+      ],
+      "docRoots": [
+        "doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    },
+    {
+      "repo": "zsh-users/zsh",
+      "topics": [
+        "languages/zsh"
+      ],
+      "docRoots": [
+        "Doc"
+      ],
+      "codePaths": [],
+      "allCode": false,
+      "embeddedLicensePaths": [],
+      "discovery": "explicit-public-upstream-registry"
+    }
+  ],
+  "unresolved": [
+    {
+      "name": "Curiefense",
+      "url": null,
+      "reason": "no supported canonical GitHub repository"
+    },
+    {
+      "name": "CoHDI",
+      "url": "https://github.com/CoHDI",
+      "reason": "no supported canonical GitHub repository"
+    }
+  ]
+}

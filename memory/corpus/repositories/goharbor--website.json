@@ -1,0 +1,2036 @@
+{
+  "schemaVersion": 1,
+  "repo": "goharbor/website",
+  "commit": "9d09c8a5520494b704e82d2d40f94567e12d97e9",
+  "retrievedAt": "2026-10-01T15:50:09.610237+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/harbor-docs"
+  ],
+  "archiveUrl": "https://codeload.github.com/goharbor/website/zip/9d09c8a5520494b704e82d2d40f94567e12d97e9",
+  "selectionSha256": "be2bbc64103782ef5a649620ced33c44990cf520bcf2bd9c2b743aea0c14b281",
+  "selection": {
+    "docRoots": [
+      "docs",
+      "content"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "9bc9a61eae99eb3e38d88bc726aa23acc6cb50246834bf4e9a6d30a3a34719cb",
+  "archiveBytes": 39157074,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 249,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 879206
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11336,
+      "sha256": "78d9d561dc354a906ffd2f0669aad5c2bfbcc272b6401a0ccc0a5c5ddbcf733d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5034,
+      "sha256": "2ed3c5daac735080cc7b338f0b9775354bdc7b87e2aa8a05ee1c07e1dcc8f128",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/README.md"
+    },
+    {
+      "path": "content/blog/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b8925884ff26e5897cdb410a.md",
+      "kind": "official-document",
+      "bytes": 31,
+      "sha256": "60515850362a317224c6f3f4873a854fa12d7c42bde059471b83f40723706aa5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/_index.md"
+    },
+    {
+      "path": "content/blog/announcing-harbor-1.8.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/93c6d8d727ff9c01d4977b4f.md",
+      "kind": "official-document",
+      "bytes": 6747,
+      "sha256": "926bc108d569d3b17e34cbedebf84b68f4e06fe5f6d3ad2f794a345cf0780911",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/announcing-harbor-1.8.md"
+    },
+    {
+      "path": "content/blog/cloud-native-ai-model-management.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cfb9d532c4349bff09a30ec8.md",
+      "kind": "official-document",
+      "bytes": 20869,
+      "sha256": "9efe88ebfda3b7b574cd6e169f3343c0a4b78a0fde7cfc3414fa07e05cf36c19",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/cloud-native-ai-model-management.md"
+    },
+    {
+      "path": "content/blog/contributing.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2f98c88705bb562d76e10442.md",
+      "kind": "official-document",
+      "bytes": 6979,
+      "sha256": "902719c59d9f9c625e8a7d9876fa2c30256d1fb29a7a22e3e68852bf941de2fa",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/contributing.md"
+    },
+    {
+      "path": "content/blog/cosign-2.5.0.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/200241e627d2e8225fe159c7.md",
+      "kind": "official-document",
+      "bytes": 8569,
+      "sha256": "fb53a0bb68b2eba44edf30522ba4eef3b2efa03a15e69df4c1c81fedf9dd2636",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/cosign-2.5.0.md"
+    },
+    {
+      "path": "content/blog/harbor-1.10-release.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a1373a79193ec2795ec75a87.md",
+      "kind": "official-document",
+      "bytes": 9965,
+      "sha256": "d6b4b5e5732ea4b7d032daf4cac5876e15a2d41ecca1b113668f0877eceea410",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-1.10-release.md"
+    },
+    {
+      "path": "content/blog/harbor-1.6.0-release.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/397797a7c9aef0fbbb166fdd.md",
+      "kind": "official-document",
+      "bytes": 5091,
+      "sha256": "82e06644f3b3916dbc64d12f61b6ae1e4ecc22c3b9849c073cfe75e04c42ef9c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-1.6.0-release.md"
+    },
+    {
+      "path": "content/blog/harbor-1.7.0-release.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5fad4eb37e0f5bd0c4c19585.md",
+      "kind": "official-document",
+      "bytes": 3491,
+      "sha256": "2395847762a22f86b2b9b5869f931c8d78a7e55125194b8a9c2238c4ca1da179",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-1.7.0-release.md"
+    },
+    {
+      "path": "content/blog/harbor-1.9.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8a4db9fc2354715ffe4a6eb0.md",
+      "kind": "official-document",
+      "bytes": 7292,
+      "sha256": "9dacf716fc7ed1882046d3220dca41f1cf448c1e42dd4c81da389808f073a66d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-1.9.md"
+    },
+    {
+      "path": "content/blog/harbor-2.0.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3626edc52baca528aae954f8.md",
+      "kind": "official-document",
+      "bytes": 9751,
+      "sha256": "4a90875ec812cef1cbaffce5e8796483ec3b71ebdddc34b8a62126460bece963",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.0.md"
+    },
+    {
+      "path": "content/blog/harbor-2.1.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5df1a74b18ee2ac58770f020.md",
+      "kind": "official-document",
+      "bytes": 6393,
+      "sha256": "f0c3a80832ef102c68dba795f7d26a56591407010fe7a828c85762254c59f595",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.1.md"
+    },
+    {
+      "path": "content/blog/harbor-2.10.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/7cbbb7e0e97dbf62cf7de112.md",
+      "kind": "official-document",
+      "bytes": 4012,
+      "sha256": "a18bdd80d477f4c0ea735e377ab77d9a3f19e9a5b630b9be386fd4632468803c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.10.md"
+    },
+    {
+      "path": "content/blog/harbor-2.11.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f2cf7f2c03d6076fa3cd064f.md",
+      "kind": "official-document",
+      "bytes": 6593,
+      "sha256": "08877853811186960aa66ca572d783b9f3bad3ec0c580f151b72f2666d0e4144",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.11.md"
+    },
+    {
+      "path": "content/blog/harbor-2.2.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cabc50094d7ccff43c6c3d57.md",
+      "kind": "official-document",
+      "bytes": 5224,
+      "sha256": "78df9877f9aa405428b427f1ef12c1b859002c3258b5f4d76bebf50ebfdaa0b4",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.2.md"
+    },
+    {
+      "path": "content/blog/harbor-2.4.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/11e2eb67aa415b7e6f307c9b.md",
+      "kind": "official-document",
+      "bytes": 4539,
+      "sha256": "eab24a7a2ca25165a267a2d87d6c6f83333c8b0ae9ced7a69fee4f05d31f2ed2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.4.md"
+    },
+    {
+      "path": "content/blog/harbor-2.6.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4cafc20c02dc27187b1660bd.md",
+      "kind": "official-document",
+      "bytes": 12462,
+      "sha256": "85b5a813c74d32c1f693ad4c615fc0456e3d8c414e6a792a1b3fd3b6918fa7a9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.6.md"
+    },
+    {
+      "path": "content/blog/harbor-2.7.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/12eacabf8d9c0271996b2520.md",
+      "kind": "official-document",
+      "bytes": 7721,
+      "sha256": "5d14453935e1fb2f2b401a36a70ecefa5105a2745be98e1341eb4172f2c732d4",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.7.md"
+    },
+    {
+      "path": "content/blog/harbor-2.8.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/180723b87d5671fd1015bbbb.md",
+      "kind": "official-document",
+      "bytes": 8574,
+      "sha256": "8ff8679a263d6eff3538a303b2617dc2204a6d44ba8164e177a1ef5498c4a201",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.8.md"
+    },
+    {
+      "path": "content/blog/harbor-2.9.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/7ad50bb4ebb09fdc2fdeb449.md",
+      "kind": "official-document",
+      "bytes": 7355,
+      "sha256": "26b526d08701be30578d8c19953dea3d920e1b4a6ff9fb1a841616f4bc22da7c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-2.9.md"
+    },
+    {
+      "path": "content/blog/harbor-as-universal-oci-hub.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/571266f45e31dc63282409e9.md",
+      "kind": "official-document",
+      "bytes": 7991,
+      "sha256": "7a6b2d8f3d891ea635c6930082ed92598a95551f526c400b41660c51d595cf5e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-as-universal-oci-hub.md"
+    },
+    {
+      "path": "content/blog/harbor-at-fosdem-2022.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/63d3ebc10f506259a61cb14d.md",
+      "kind": "official-document",
+      "bytes": 3570,
+      "sha256": "a44af34175dba4a7da077bc1a93bcaa654a083b0b50c7299774e1064c0efeb58",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-fosdem-2022.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-amsterdam-2023.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f224efb41a605e1a83568bb2.md",
+      "kind": "official-document",
+      "bytes": 2299,
+      "sha256": "6727d86acedcc456dc0bd639abf49d45cac526e0ead42960ef35e603be47e87f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-amsterdam-2023.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-amsterdam-2026.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/dd935426b83a648a3f08a0f0.md",
+      "kind": "official-document",
+      "bytes": 5148,
+      "sha256": "268e2e2fe7bb74d5d0bff6de18348cd808b7a0ca70bde95f04f59bc9c230618b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-amsterdam-2026.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-chicago-2023.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/83ff03119b5e1faeb97b9e2f.md",
+      "kind": "official-document",
+      "bytes": 3945,
+      "sha256": "21907809c56108cdfb42f3ac939ae8575ba05e4bfae1cbd16e5505a14939788d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-chicago-2023.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-london-2025.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/0d7ba5b578b9b288293d4754.md",
+      "kind": "official-document",
+      "bytes": 5415,
+      "sha256": "abdc66dfed7d449d73f778ba35bb8f88a9ad185f6dfa3bfcf4d09715fef8bd07",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-london-2025.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-paris-2024.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/80a752cb4f0218a273eb66c6.md",
+      "kind": "official-document",
+      "bytes": 4976,
+      "sha256": "d9375521b8a6a9e796c33737132e8dd800c2d1f4cd7f9406f51e1acd69e04ef6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-paris-2024.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-seattle-2018.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/718edccb875bec59adf12e0e.md",
+      "kind": "official-document",
+      "bytes": 2588,
+      "sha256": "e7c57cdfdfef5810f0d0b95864f2205bc6f06058cb0e59c40348cd61f4cb82f2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-seattle-2018.md"
+    },
+    {
+      "path": "content/blog/harbor-at-kubecon-shanghai-2023.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/70e6a6498096361b65ff772a.md",
+      "kind": "official-document",
+      "bytes": 2515,
+      "sha256": "55ac37e18beb847ac1d42dd58194464c355fa6a433ad0e5646812739e2b11246",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-kubecon-shanghai-2023.md"
+    },
+    {
+      "path": "content/blog/harbor-at-open-source-summit-and-kubecon-india-2026.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4c44e302156cbc4bcb5cfd03.md",
+      "kind": "official-document",
+      "bytes": 4162,
+      "sha256": "05a77a674563ab4a9a41a28d2a03d15df0b30e0e480a31b0fdc27683938ada5e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-at-open-source-summit-and-kubecon-india-2026.md"
+    },
+    {
+      "path": "content/blog/harbor-extending-its-reach.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d2896d2861ccbbb899148793.md",
+      "kind": "official-document",
+      "bytes": 8547,
+      "sha256": "171752cf2352d5af5747acbb8a3bac7cc843e941c84f7609bea993852a048772",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-extending-its-reach.md"
+    },
+    {
+      "path": "content/blog/harbor-joins-cncf.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/bca1d17983b4e2e3442bb128.md",
+      "kind": "official-document",
+      "bytes": 1988,
+      "sha256": "17a429062dbf713e0eb276be29c4f23b50d91a34f1f4afad6669dd0713a22b9d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-joins-cncf.md"
+    },
+    {
+      "path": "content/blog/harbor-moves-to-incubation.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3a80aeaea60e5641d36b45bb.md",
+      "kind": "official-document",
+      "bytes": 3598,
+      "sha256": "5ddd4a303440650fe589f40a9ddbc2dc28d2ef81ddc1522c03197cb430f5d44f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-moves-to-incubation.md"
+    },
+    {
+      "path": "content/blog/harbor-sig-docs-launch.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9d8bbd29cc607d9ca9f4828c.md",
+      "kind": "official-document",
+      "bytes": 4262,
+      "sha256": "dc86675e6c17c3bce201f9e3f523793f56886862fad3aad082c48546e837db97",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/harbor-sig-docs-launch.md"
+    },
+    {
+      "path": "content/blog/hello-world.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1e7abb4eadc8eaafdaa2bfc6.md",
+      "kind": "official-document",
+      "bytes": 927,
+      "sha256": "08d98f5218a56c93c75697133a10666b9a926138b66beff04798c6f4e950b694",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/hello-world.md"
+    },
+    {
+      "path": "content/blog/introducing-the-harbor-operator.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/98b254843c927f396e4e1b32.md",
+      "kind": "official-document",
+      "bytes": 4945,
+      "sha256": "7c66a1715d3afd1c4af41701e5fb3f606d816149bb203ba0422c18f2648d7056",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/introducing-the-harbor-operator.md"
+    },
+    {
+      "path": "content/blog/recap-kubecon-chicago-2023.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2e43f94ce02ffac8ce544fa8.md",
+      "kind": "official-document",
+      "bytes": 7468,
+      "sha256": "9c4af2e9e5034a684fedc1e01a65328ccfda3a06a00981bb05253eaa653d0900",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/recap-kubecon-chicago-2023.md"
+    },
+    {
+      "path": "content/blog/welcome-new-maintainers-march-2019.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/729af72ff75a230526325835.md",
+      "kind": "official-document",
+      "bytes": 2235,
+      "sha256": "cdd8d4153fcedf05e1b3a80d7344744f7eff667cb83e3c31d6147070a1326302",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/welcome-new-maintainers-march-2019.md"
+    },
+    {
+      "path": "content/blog/zh/harbor-1.6.0-release.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/66355d971ba5c94842fbd13a.md",
+      "kind": "official-document",
+      "bytes": 5026,
+      "sha256": "365082523e73dfc74a9f296a719258fd8e27202618395044aae86848a46d302a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/blog/zh/harbor-1.6.0-release.md"
+    },
+    {
+      "path": "content/cli-docs/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2a4c08821a44a95badaf0dfb.md",
+      "kind": "official-document",
+      "bytes": 963,
+      "sha256": "6fee6500327a8543b0a75d01d52528934314c2237786c96661ff7d1e1d24662b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/_index.md"
+    },
+    {
+      "path": "content/cli-docs/cli-config/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/dd3d5cdd94d4c8937ea05646.md",
+      "kind": "official-document",
+      "bytes": 4588,
+      "sha256": "b2eb6cdfd748fbde896ca60322ac558ee8cefd585a5065af0b2881f9c67f634f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-config/_index.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2c732aff7947b5653e2b628d.md",
+      "kind": "official-document",
+      "bytes": 689,
+      "sha256": "47203eb393f10f9fe23dce9b5e86cee8aacfc1c84cf14dfa6e6b00962bad67b2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/_index.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b16cac9f4477e3ae3919816c.md",
+      "kind": "official-document",
+      "bytes": 549,
+      "sha256": "76f0141f9b81d83f14cd094685515340e1f65efae6db5364743c5d714fc21e97",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-info.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/ebbc74901a67ca612e9f63b2.md",
+      "kind": "official-document",
+      "bytes": 698,
+      "sha256": "75f73956409d8af13afc2461a9b1b5d45e7c90cc626c124b9bf3cec06e178fb7",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-info.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-label-add.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a5929bfc0e13e5cfd4af63fc.md",
+      "kind": "official-document",
+      "bytes": 1187,
+      "sha256": "a9bf0fe7946a5d1bc010f2e3965383f2cca204083696f4fd69e1c78b675b65ce",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-label-add.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-label-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8fbab5ec2fc9da1ebc3e9f90.md",
+      "kind": "official-document",
+      "bytes": 1330,
+      "sha256": "6ba0f838680332f023f1a972c82d167dffccb6bb2819aa9207528ca7431edcb4",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-label-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-label-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f425df3fcf3af79524da4de1.md",
+      "kind": "official-document",
+      "bytes": 1456,
+      "sha256": "a46c205a7503330dc93a1dad82c7f21927ec5090e7dad9e10341ceeddb066f76",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-label-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-label.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/57a790742833ba5492df4b6d.md",
+      "kind": "official-document",
+      "bytes": 1099,
+      "sha256": "1de02a90856d2a0fa7f7a915737e846e7a1fdd0b9c0e3ac37a875c85915718d0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-label.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/6ce1532fa50646b8b0bdf8f6.md",
+      "kind": "official-document",
+      "bytes": 1412,
+      "sha256": "4a5b6645b230e8441e642de6d1b07c529f4ad81e00f83aac7456bd78e89bb4af",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-scan-start.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5a5c9f1894e123d220d447ab.md",
+      "kind": "official-document",
+      "bytes": 730,
+      "sha256": "09f6bfdec7db8a6ab00ab69db925fcbacc50635cc9f6f642dce0a377b2bcd93b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-scan-start.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-scan-stop.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/29e6b54aaa383c614c4cfc59.md",
+      "kind": "official-document",
+      "bytes": 723,
+      "sha256": "1e0e6ddcd07401e62149e22566c6fd6c3d8865d70ce7ac35706dd47d2a378ac5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-scan-stop.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-scan.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/158fe8c60b43664caeb44f56.md",
+      "kind": "official-document",
+      "bytes": 822,
+      "sha256": "4f504c3c7ee51f8ecebc3e118148283e1bca461aeff6f75538ae3b9af4451fe5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-scan.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-tags-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/43be8217c4783df5ef8287a7.md",
+      "kind": "official-document",
+      "bytes": 687,
+      "sha256": "d274b478348fd712832a12aa18b07a3ba1f5cd8e3f486f0ece580f47149ef24e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-tags-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-tags-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/19bc399c0edbd59a577b85b3.md",
+      "kind": "official-document",
+      "bytes": 687,
+      "sha256": "5d7c38c5a7caa7a3dfa5e79ab54f7de439ce0deabcdebb3eda7d4da6c0be47ee",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-tags-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-tags-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d3d6b17102c76af091e975f4.md",
+      "kind": "official-document",
+      "bytes": 668,
+      "sha256": "aa81c822a617e0f4e7901138f1008e33fc8cadef10485edad37a302e2ef0f109",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-tags-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-tags.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a1256c77b89815beacc2ddaf.md",
+      "kind": "official-document",
+      "bytes": 874,
+      "sha256": "658e62eefe646e8462fc32698730711e749a4587f1ae0abf2ea23706f3d37384",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-tags.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f4ade33a772c323096bb7bb3.md",
+      "kind": "official-document",
+      "bytes": 730,
+      "sha256": "2d6bbc78d296ad74e15df3760544925bc6a0807fba5825aeb3ef5518aabb8fcc",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-artifact.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3d1630f2ff6189ff541d49bf.md",
+      "kind": "official-document",
+      "bytes": 1110,
+      "sha256": "111d47266f1c931c911fd0be17017994ce6d6fe5adf08b75202fbe14933db4e6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-artifact.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/89c5bf787f63f952a4952f83.md",
+      "kind": "official-document",
+      "bytes": 1344,
+      "sha256": "cd892530016e86a40d0f846cd88432e34a2c868fcd96425ab8847e30b543cf39",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context-get.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/86f67aa939fc551e189957ea.md",
+      "kind": "official-document",
+      "bytes": 1070,
+      "sha256": "ed13da6509cfe3eb1c1be83f3be2f15d6054dc6d7372e249a10f434c584abe74",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context-get.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1043bdf69a41e228f9e9b3bd.md",
+      "kind": "official-document",
+      "bytes": 595,
+      "sha256": "e348c3b9c4bb19c183492c7737baf011ef46ce87400364de68c5428face8e7cb",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context-set.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a5189120ee5d698ce75357d3.md",
+      "kind": "official-document",
+      "bytes": 1187,
+      "sha256": "6d743ea251b2f2b4e9012ef9880bb2df8ea92fc980992977965556582679fed9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context-set.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context-switch.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8ca9b34bca684adfff44950d.md",
+      "kind": "official-document",
+      "bytes": 662,
+      "sha256": "3331c39380c22410dacb07ead9f6396d81ff7fb800654bb420fce828df6c3d67",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context-switch.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2b2351031507303d28476b9f.md",
+      "kind": "official-document",
+      "bytes": 1232,
+      "sha256": "c4127f5017f9fc973d812ea25c0f1e7bb2744b447c30288214d1a548cb595cc6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-context.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b03b366d500c92f536237569.md",
+      "kind": "official-document",
+      "bytes": 1155,
+      "sha256": "fcd810ead40929c19a88f29b56d131ca819c640671bd8006e7425f32b12e2192",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-context.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-cve-allowlist-add.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/15f9f2f24a8991c4ffb92ec0.md",
+      "kind": "official-document",
+      "bytes": 995,
+      "sha256": "549ce94a781f9348e8ee77bdbd1aafd9595a896c87f28b6b75e7a755e04c58bf",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-cve-allowlist-add.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-cve-allowlist-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b30b947ac41e78161d30b9b9.md",
+      "kind": "official-document",
+      "bytes": 593,
+      "sha256": "3b357773cf7d8a4cc06c84aba83c6d396cc9f7a461fd4b40ffac3894503be74e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-cve-allowlist-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-cve-allowlist.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/20565b61452b7c1255cfbff7.md",
+      "kind": "official-document",
+      "bytes": 826,
+      "sha256": "804c4d4d64d753a33a52e695ed1feba9cbbc67bead826c28ebc530e4625e9a6e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-cve-allowlist.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-health.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/eeb04a8944e759bf2f8487e4.md",
+      "kind": "official-document",
+      "bytes": 603,
+      "sha256": "caac65292c29abb38aefb092b77acc06d2226479f2d597e560fa2728e6e88f20",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-health.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-info.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5d8c53ff03570c17b7a571e5.md",
+      "kind": "official-document",
+      "bytes": 988,
+      "sha256": "80b02dc110642df05f3e3c7aa7a9e501b0f3193ab91d07c4f70f98d55e214b3f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-info.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-instance-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/41aa7cd79b1a081ff96a41d7.md",
+      "kind": "official-document",
+      "bytes": 1647,
+      "sha256": "ca43615ec775cdee8ebabb397ea70932b4212982efcdca8dc4558b76c80b7a87",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-instance-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-instance-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/87fe4b80d81355aa358aa45b.md",
+      "kind": "official-document",
+      "bytes": 1007,
+      "sha256": "2d62bafca7311b2db514cf546af9fea64eb1f1536a45ded5afb75d5e7d80621e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-instance-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-instance-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4fd34b78234484d0b7647f54.md",
+      "kind": "official-document",
+      "bytes": 1254,
+      "sha256": "ee6019d734313ae6f87a34ebfa190cc20a21e97b3bf2a59327e0f78d73a17252",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-instance-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-instance.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f1423dac24400d94fd0fdd7f.md",
+      "kind": "official-document",
+      "bytes": 1033,
+      "sha256": "2c609dcd63cd2f2a71cb9bee76ea70f9b4441fec5221c6bac8af3754e8476348",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-instance.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-label-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cb9eac8fd3e8969a6195a41b.md",
+      "kind": "official-document",
+      "bytes": 921,
+      "sha256": "de33634caf0bb9f62675ae47cecb9b13587d31295a09bd3b24b2bb9865acfdda",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-label-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-label-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/da10b43387ada1760bbb1cd3.md",
+      "kind": "official-document",
+      "bytes": 701,
+      "sha256": "bc25ef2026f168a75c0024a8d445b4e3953f75600267b4ee972146b2ffb423b7",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-label-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-label-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c64d23aa7c17deae547b28c8.md",
+      "kind": "official-document",
+      "bytes": 945,
+      "sha256": "880fc1d02848dff326c8f4b98f37983fdf2a88edd1d060e27452c45f9a631cce",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-label-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-label-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/26a0f9a1e90b1cc3f971ed12.md",
+      "kind": "official-document",
+      "bytes": 875,
+      "sha256": "4cf08a8b94415fd931cb52f083d767a5e09301d26f4f0b815809f3aeb8a569df",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-label-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-label.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1c14ef5160bd9f80ed3cc4f6.md",
+      "kind": "official-document",
+      "bytes": 727,
+      "sha256": "086f4f602cc778df6523b8f0f61da54a6ccc353fa438153183ed320f4ee6e4c2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-label.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-login.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f28f05aabccf1fe93dc0f68e.md",
+      "kind": "official-document",
+      "bytes": 705,
+      "sha256": "803c2eecea0d2086d5e7ffd791fbcc6dc8714c36432cf42a08e53553bf45d0d6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-login.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-config-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/54840b06b0c82d58c1fb36ff.md",
+      "kind": "official-document",
+      "bytes": 1408,
+      "sha256": "632e985aecee1f2fbfb29579ee0db81ff429139e1068596b7e353cc435e6630e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-config-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-config-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f868600baa5e1508ba08a01d.md",
+      "kind": "official-document",
+      "bytes": 2198,
+      "sha256": "67ee21483e668f1e6b54f6ba108292a3a9200fbe854f274ce6c82e91fb0380bb",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-config-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-config.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9b3079c855c51bb3c605c114.md",
+      "kind": "official-document",
+      "bytes": 840,
+      "sha256": "d0c2557bba88c5ab4a79a70da02926695bd2d4bdb5f4f0f05ee5801f3544a760",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-config.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/54de09f6fef53f990872bbe2.md",
+      "kind": "official-document",
+      "bytes": 890,
+      "sha256": "27d9829015ecb2e1a83c01b4558298376168eb65d45521cda74de4c3eabbad04",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/19c228a1976e7e6fe3d4c443.md",
+      "kind": "official-document",
+      "bytes": 1290,
+      "sha256": "668a531794a2f94f2aa8da2b7f089477bd0bacbf6f3bba090bf02279d0bcf649",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/aadadf48332b3d323b9f59ab.md",
+      "kind": "official-document",
+      "bytes": 955,
+      "sha256": "bca6fa969994cd9dbf480ef150d44745d226cd3a9f16943f5cf951b674570d51",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-logs.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d983b71145c598f339db3b9d.md",
+      "kind": "official-document",
+      "bytes": 809,
+      "sha256": "ee3950ad966151423dfead4cf99696b9c8a3d22cb94407b9773b780954ad6ef0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-logs.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/bae9276a1cfadf1ce812cfc1.md",
+      "kind": "official-document",
+      "bytes": 3166,
+      "sha256": "b2c38876e4a2b7da76f58b203ec51409517f55aeb8ca73eb087c4fd2d81a992d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/fe096bc24b1018d14e5dc8c1.md",
+      "kind": "official-document",
+      "bytes": 1680,
+      "sha256": "2846c3f97fd8598bccbd9cefc1b26d5f9597d957d7612b4654e1f2efc2a8d94e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/807c3d8be3cb6f549bbd9775.md",
+      "kind": "official-document",
+      "bytes": 2114,
+      "sha256": "8765f3dc3f136bfe976f2990b2fe47d0e80199a082ee1e52eeb223c1916efa00",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot-refresh.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/48bccd2e6beb58dd17716514.md",
+      "kind": "official-document",
+      "bytes": 2138,
+      "sha256": "65ca667095f13a51e3ef5c15ef8c62a39f2112fa407e91d6097ae0ff687290f9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot-refresh.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cccdbe66076fc7d93cbc2388.md",
+      "kind": "official-document",
+      "bytes": 2642,
+      "sha256": "0daffa8e7911020ba65aaaa78d07b1496cf1b43b782edece1810721f702a33d0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/ed8f96d8491995966423e7e1.md",
+      "kind": "official-document",
+      "bytes": 1696,
+      "sha256": "7eebf7cde0b5cfed8b052693e2cc75bc9aaf5e4170970a69900f947bf6599ab8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-robot.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/32a1b0ac1bbfbb29282071da.md",
+      "kind": "official-document",
+      "bytes": 1085,
+      "sha256": "0aab1fb0a30cef0c32138855bc3306d729db771052b4e94ae246a7273fcbc17b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-robot.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-search.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/96dfcf8a34d35df48fc1256b.md",
+      "kind": "official-document",
+      "bytes": 589,
+      "sha256": "f22b97eab523a35f4362f4b16475f838b11f9e9a732faed616e9387815b09df0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-search.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c4e2727d25c47269b653b9dd.md",
+      "kind": "official-document",
+      "bytes": 614,
+      "sha256": "77ecdb0a4bae807bba3e31c72f50c71f5456fde7a08680f92ec604e24cccf5c5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-project.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/ca5659debc8ea1fdfb0a9532.md",
+      "kind": "official-document",
+      "bytes": 1205,
+      "sha256": "d962bd0cd98fe952589a0c5bbd3586ec16fd1cbc50e8b58e54ad20f5c6213e65",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-project.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-quota-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8686be9c1d86d66f6e656d95.md",
+      "kind": "official-document",
+      "bytes": 863,
+      "sha256": "442395c69c99d6d7369324b3a1992ad55a3dc0e3d040e252f56c36041eba19d9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-quota-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-quota-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/536728bfa7f53c21445724db.md",
+      "kind": "official-document",
+      "bytes": 750,
+      "sha256": "021630280d4956b2829e8266a18806cbfee2fe9e21fac7e3e12bf18ed023c1c8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-quota-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-quota-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/01ffd0c0e07bb3ed8b9175eb.md",
+      "kind": "official-document",
+      "bytes": 661,
+      "sha256": "6b6322806da1242eb6cfeca30b2271ff565c11fac7890ac8e2aaa1157c300a9d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-quota-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-quota.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/95e3696c2bf8592f14bf05ba.md",
+      "kind": "official-document",
+      "bytes": 758,
+      "sha256": "d348bdec6a1dc3e97e3b1db3d858fb32dbfc3ada03d73115ac8919e7ddea7cdb",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-quota.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/651fd3f5ce7f5f992cd4db32.md",
+      "kind": "official-document",
+      "bytes": 1296,
+      "sha256": "a8071da9e81e419797b74d6ade99047d91839473ef007fa7a481fe7effabfc6a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b1a3e779edf54543424a18b2.md",
+      "kind": "official-document",
+      "bytes": 625,
+      "sha256": "b2a220b7538c6efd75b4f16109132ea643bdbbf3de2e76f1675e07acee07bf5c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry-info.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/97a48448ca5880a895b4ceee.md",
+      "kind": "official-document",
+      "bytes": 574,
+      "sha256": "75d8df9eca473ec647f7edb3ff45c5c4ba904d87c24f79de92fadc7a88a3fc06",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry-info.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c58eb3f481b77185b4e3e7f4.md",
+      "kind": "official-document",
+      "bytes": 785,
+      "sha256": "2ac7860e1cc481be6c2f05996012a5d042992549424a04e3cd89e99bdbbcf1ec",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/6c1d56514aab9d42948817da.md",
+      "kind": "official-document",
+      "bytes": 1268,
+      "sha256": "64d8f793190f2748ce066c334c8990aa2ca85eebba9dc66b8a445e76cb127ae9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/29e4f6885027d4b801804b8e.md",
+      "kind": "official-document",
+      "bytes": 610,
+      "sha256": "4ba7571dcc60d5edd25356e6403dd22d25723f12b0f2835c49d253acd820e310",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-registry.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b279dba51be43ed5f385d5fe.md",
+      "kind": "official-document",
+      "bytes": 949,
+      "sha256": "b7986564902cae12841512c9c5ebf11de5d90ece19d71ae0d9d94a7259dda6e1",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-registry.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-repo-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2b442ccbdd6ede731ace7c5e.md",
+      "kind": "official-document",
+      "bytes": 681,
+      "sha256": "a4eaa5e5ab7096e09f425a3bbed8433ed1d8a57c0cf0824da6e28e325bc5832b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-repo-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-repo-info.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a3bc875b33c6f8ee29563e82.md",
+      "kind": "official-document",
+      "bytes": 707,
+      "sha256": "e0bdf12b7f70f51e28e16b63a2b08abd72a2b05e1fa3db9d918122d5ff934e45",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-repo-info.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-repo-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/029b8e758fce50255fcbbc9b.md",
+      "kind": "official-document",
+      "bytes": 911,
+      "sha256": "0c3a22ee4213436552180dba9f9d19607298404241793411932f24c224250c93",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-repo-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-repo-search.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a89fd2687c2abfd9fde813ea.md",
+      "kind": "official-document",
+      "bytes": 552,
+      "sha256": "94af9eb6b3b4a076df4e104ca177cc8f5961a50f0b4eba45bfcabd067d2893fd",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-repo-search.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-repo-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/6ed6383eec6fc8579da332f2.md",
+      "kind": "official-document",
+      "bytes": 674,
+      "sha256": "fa0de3f938e2c8dc9ff22b0abcba01700370359b78329173d6ee658d85b18a1b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-repo-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-repo.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/93b8b3d7a3e0ab2bc410c381.md",
+      "kind": "official-document",
+      "bytes": 832,
+      "sha256": "8a7639edd02832c55683dff66a3a99d9ee78f5183fc707558be2938e14f42ec7",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-repo.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scan-all-metrics.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b7c984fea3dd028d2bc850c6.md",
+      "kind": "official-document",
+      "bytes": 1590,
+      "sha256": "c01302644c35054ca9509f9da80e63ce9fa74505930eee21b010ec7b2dcd2ce9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scan-all-metrics.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scan-all-run.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2d47971e79f328cdfef1cc5e.md",
+      "kind": "official-document",
+      "bytes": 1603,
+      "sha256": "e8be6c69bb95173c54a5b0fcd96e9d96fe5230010a79291ef4658e287bec1d4e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scan-all-run.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scan-all-stop.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/91ba598117cde41d23c6da54.md",
+      "kind": "official-document",
+      "bytes": 1079,
+      "sha256": "95aec17159d4a12b29bb379cd8a45954393db5679db8363ffec2bdb6e982e5d7",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scan-all-stop.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scan-all-update-schedule.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/ff15954fe703c28a93774148.md",
+      "kind": "official-document",
+      "bytes": 2035,
+      "sha256": "d6b290a97f3a14cb444cb71b36818c7943fac1418f7267882311e97dec990970",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scan-all-update-schedule.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scan-all-view-schedule.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/421ddad1f85867f78abef6d1.md",
+      "kind": "official-document",
+      "bytes": 1408,
+      "sha256": "eeb588f8b9a3c35fb10e41f671f3e0594e38dec66d9c04493fed45f5a6e03af3",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scan-all-view-schedule.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scan-all.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9d76120ec932b57f8c936be1.md",
+      "kind": "official-document",
+      "bytes": 979,
+      "sha256": "44e8a16d0e1db31ab0a83b3ca67520bac6fe9a8aac3389d5bcd25256d5272ede",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scan-all.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/edbaae24351ff170c67796a7.md",
+      "kind": "official-document",
+      "bytes": 1231,
+      "sha256": "b009a030dca13f37a5b6f80d3c378df2c312644fbd054dc0949d7ca1e138b61b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/546a9144c7b845425650f550.md",
+      "kind": "official-document",
+      "bytes": 1021,
+      "sha256": "788007ef936b4c30e196c57db41731dfdc5cde6f8ca420233c16148a94059f5c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3ca80e322cb4cb957915263d.md",
+      "kind": "official-document",
+      "bytes": 531,
+      "sha256": "d0aec0159048900cee61fc60c877792980f34b549fe6aee246064857143697f2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-metadata.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/da1e6219e5759f5afa125c79.md",
+      "kind": "official-document",
+      "bytes": 1172,
+      "sha256": "40edfd821bfc2b61421c8f1a1be3bb8fd35a736c766e18a2d20884754f087bf7",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-metadata.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-set-default.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c6a6a942bc1ea65d78d6b8b6.md",
+      "kind": "official-document",
+      "bytes": 869,
+      "sha256": "bafcb8e6882f0d49428a3e5165865cdbe801ab820f93dd34c4fe977ab8420a37",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-set-default.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-update.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/08e769e53b0b778f6cf1caa7.md",
+      "kind": "official-document",
+      "bytes": 2022,
+      "sha256": "cdb27271e01e8b529b0c79bf8d907ea6ad66f119ab333dfa2237309626a6505b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-update.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner-view.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/6e7b7cbbe443360d59d96130.md",
+      "kind": "official-document",
+      "bytes": 1122,
+      "sha256": "0c76bbfe623ef6afc04cf6f54a184041d3edd21e942aefd0740ee698fd3b4a65",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner-view.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-scanner.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/7b019e3ef8b2efe6558f7f78.md",
+      "kind": "official-document",
+      "bytes": 1091,
+      "sha256": "4fe62ce7adf810006e5e3ec2f9d6a2800010d077538a1fbbebe319d9625630db",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-scanner.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-schedule-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5071d986562018c9b74a970d.md",
+      "kind": "official-document",
+      "bytes": 673,
+      "sha256": "4abec754eea0c00de721c36d47c61c682cd7914b7169167db4df07cd81e2dbf2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-schedule-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-schedule.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b94edc2d4ac83e266539c7b6.md",
+      "kind": "official-document",
+      "bytes": 571,
+      "sha256": "06675d3805fac41b425e38c6ce96814466d611592fd9c2177b02d3ee01e36e8b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-schedule.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-tag-immutable-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f1243be0fcf9bcbc2d626ca7.md",
+      "kind": "official-document",
+      "bytes": 1110,
+      "sha256": "4190c099af87414862f67e51eb4f7df93711ae1624af6b080b9dd1ddb9b99beb",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-tag-immutable-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-tag-immutable-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cf8528c5c300d5fe3c892e38.md",
+      "kind": "official-document",
+      "bytes": 601,
+      "sha256": "5a3ed9ea8421bc94f3756b1017c8877916c05cb6f896b9cd8d4c8f0de3ad4940",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-tag-immutable-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-tag-immutable-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/515713d37873b7b1d988f566.md",
+      "kind": "official-document",
+      "bytes": 1212,
+      "sha256": "a83b1caf13f2b1c23d75fba727945a5b1991caf66357dc2417e8dbc54f736a40",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-tag-immutable-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-tag-immutable.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2932c776f20b3d1d2cdf0e72.md",
+      "kind": "official-document",
+      "bytes": 935,
+      "sha256": "a81a16672019fc2a43e594cf8bc61047a7fe58b853b04cf85c800d09c6491edc",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-tag-immutable.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-tag.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/aed4e1624f77aaf9f699c154.md",
+      "kind": "official-document",
+      "bytes": 671,
+      "sha256": "3989e2f9b6f308dec2e43b10582f4d00398c2e3c1c687b274f0ff60a79ad23b0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-tag.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-user-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4edb0e7574d3a0525aa08cbb.md",
+      "kind": "official-document",
+      "bytes": 701,
+      "sha256": "59b9332e646f584e6309dec73aec63352c5210a443818ee948444088b7bd3cf8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-user-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-user-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/538410df483519b6e8d58f08.md",
+      "kind": "official-document",
+      "bytes": 533,
+      "sha256": "8b62e6b5fd48d98b55d6aa1d3560cc9e01038b5455f42512e141c98ece2d7a22",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-user-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-user-elevate.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/764c24aa56fbe504911b12dc.md",
+      "kind": "official-document",
+      "bytes": 566,
+      "sha256": "2a04f985081445c32ebc79d7b191201a3bf0d2f7316529f7e1af29d9599553dd",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-user-elevate.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-user-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a0a71f515d342305ddbe81cf.md",
+      "kind": "official-document",
+      "bytes": 761,
+      "sha256": "042b76616019030a2df82800e0701542ce87625ba3add43de1c882564f847fe2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-user-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-user.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1bc45d75d4a81dd578fee404.md",
+      "kind": "official-document",
+      "bytes": 801,
+      "sha256": "f047ded1bbdb88843f15cab8776ef24131856eef13e82c887d135a88fe346057",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-user.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-version.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/0892f8e3cb210646494e6c51.md",
+      "kind": "official-document",
+      "bytes": 662,
+      "sha256": "c3211fff3e2c606e21b3ea41969be452ad29041ab1b901ac2bc02f5ab27f6fde",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-version.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-webhook-create.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5d1605dc8111ef11e802bb45.md",
+      "kind": "official-document",
+      "bytes": 1920,
+      "sha256": "5138238120c663046723046a8b0aa9fdf2209a9022fbc4ad778a60a9a1353a7d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-webhook-create.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-webhook-delete.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/da272cb3640717a063eeab48.md",
+      "kind": "official-document",
+      "bytes": 1307,
+      "sha256": "bcce0a7bb945b9a82ed217864a568861c2672d9bdb8b739184bac4de752f991a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-webhook-delete.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-webhook-edit.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a42b9f39174e6fd9b66e2a5f.md",
+      "kind": "official-document",
+      "bytes": 1996,
+      "sha256": "cf5077de6c2537714b58c4fa06a11d26f3fb06d1665d8bccfd5766292a1b8d7f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-webhook-edit.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-webhook-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/e3b529b6e80e1825d09d8e2a.md",
+      "kind": "official-document",
+      "bytes": 1142,
+      "sha256": "cfb6c7fbe5df8128a027cf61615cc997edaf2f76ba0b5532be575e7b30fff0cf",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-webhook-list.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor-webhook.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8fc6b236f555e9312ed532b6.md",
+      "kind": "official-document",
+      "bytes": 1560,
+      "sha256": "5efb30840de09899bcbcac9a77d92402ef20cd5d54ed26894b3b5e1f67b61359",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor-webhook.md"
+    },
+    {
+      "path": "content/cli-docs/cli-docs/harbor.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d17f1cf5819f9df9fb85bf16.md",
+      "kind": "official-document",
+      "bytes": 1821,
+      "sha256": "835e72314858bcf4e3c5693e38b449721f2f18eb79a5b4269f8037c28543577a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-docs/harbor.md"
+    },
+    {
+      "path": "content/cli-docs/cli-encryption/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9866de06c099db773d238755.md",
+      "kind": "official-document",
+      "bytes": 4097,
+      "sha256": "b6ae7a4d49b9e197c75c89a4c410cce41fcf1635fee798fa4d16385400b33c7c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/cli-docs/cli-encryption/_index.md"
+    },
+    {
+      "path": "content/community.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1c1f66c3f792288118676c92.md",
+      "kind": "official-document",
+      "bytes": 1870,
+      "sha256": "bd9bf98d1e25c2ca1460da14fcdd2d0dd175bb851f892d1a8d7c389086bc41a1",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/content/community.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 6543,
+      "sha256": "0bb74e9bf49d5e1d339dc1502b3a1abae54b828b5b11f932c9e4532c64c14ab6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/README.md"
+    },
+    {
+      "path": "docs/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c842590019e88255dcb723f9.md",
+      "kind": "official-document",
+      "bytes": 1556,
+      "sha256": "bf50133b4176d667ff8f1afc9b9713ffc2e1539752cdf795e1f23d007c164b10",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/_index.md"
+    },
+    {
+      "path": "docs/administration/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f6756180d703825df8fa7674.md",
+      "kind": "official-document",
+      "bytes": 2054,
+      "sha256": "29b707ea02d52f85fbe43ab611a4567669c8803bb56cc26c43fefe81adec1ca8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/_index.md"
+    },
+    {
+      "path": "docs/administration/audit-log/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/47189f0480a03ca2ea4bec1f.md",
+      "kind": "official-document",
+      "bytes": 2185,
+      "sha256": "804168d4e6e70e4f73e818a64358d4527638cdb465dcbc328c7a9a4f60122620",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/audit-log/_index.md"
+    },
+    {
+      "path": "docs/administration/backup-restore/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3ab10512f1b9573308b767ed.md",
+      "kind": "official-document",
+      "bytes": 6550,
+      "sha256": "8f3edf300d7c37f939ebbe190a464bf6dd0bace51358123ef689c934b4818f0e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/backup-restore/_index.md"
+    },
+    {
+      "path": "docs/administration/configure-authentication/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a915a78f6ab3aaf2909481f0.md",
+      "kind": "official-document",
+      "bytes": 1070,
+      "sha256": "f3386d3b859e2c344b94501f17bb74f4ac236a219e240ec3bc0390ec5a83ff21",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configure-authentication/_index.md"
+    },
+    {
+      "path": "docs/administration/configure-authentication/db-auth.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/38f079624350c903eceebdf1.md",
+      "kind": "official-document",
+      "bytes": 1499,
+      "sha256": "d634f54041ad0a0293ef293808e3f7180de0e17439acd2741ee7bfa0f0a55fd0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configure-authentication/db-auth.md"
+    },
+    {
+      "path": "docs/administration/configure-authentication/ldap-auth.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3d03bd10dc8b69fb22044f12.md",
+      "kind": "official-document",
+      "bytes": 4213,
+      "sha256": "b6f2184b11d10a94dde7666af4e8c4d21ef30fa5bdee291d09b544ea91a432cd",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configure-authentication/ldap-auth.md"
+    },
+    {
+      "path": "docs/administration/configure-authentication/oidc-auth.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/eb5c27eac3e462f025d79896.md",
+      "kind": "official-document",
+      "bytes": 8926,
+      "sha256": "1c134f7251f1faaf2939be8df799d33941d6098fc7e8dd422ddf3bc3f12d4403",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configure-authentication/oidc-auth.md"
+    },
+    {
+      "path": "docs/administration/configure-project-quotas/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/21262ce00b098a801ec45c03.md",
+      "kind": "official-document",
+      "bytes": 3424,
+      "sha256": "da78be735be548fbbcc2ff177626091d836fe2c6b8a02e583c5e53f5c77fc77f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configure-project-quotas/_index.md"
+    },
+    {
+      "path": "docs/administration/configure-proxy-cache/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b031ca6c23368e4452b7e6ec.md",
+      "kind": "official-document",
+      "bytes": 5455,
+      "sha256": "53c63bc4a3708cea870bc71299e40354fa69bcf2bbdc5851b67781745fdcc55e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configure-proxy-cache/_index.md"
+    },
+    {
+      "path": "docs/administration/configuring-replication/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9c6817a2acf9aa9c4fbe097f.md",
+      "kind": "official-document",
+      "bytes": 1082,
+      "sha256": "aaef333b3a71dd6f04100226904570dfbff7e35a826775820bd0f1d1123da37d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configuring-replication/_index.md"
+    },
+    {
+      "path": "docs/administration/configuring-replication/create-replication-endpoints.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4e2d2958bb192cd9d2dcadff.md",
+      "kind": "official-document",
+      "bytes": 5372,
+      "sha256": "fac47f085cdfe75255582b88e61a4b407a41cff902b69493d313803c79a8cfff",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configuring-replication/create-replication-endpoints.md"
+    },
+    {
+      "path": "docs/administration/configuring-replication/create-replication-rules.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/576a67d89fd96cdebecd74be.md",
+      "kind": "official-document",
+      "bytes": 7467,
+      "sha256": "8c80fd8870ae6f037704b4665536492413ae90505dfdfab6843227a38875891c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configuring-replication/create-replication-rules.md"
+    },
+    {
+      "path": "docs/administration/configuring-replication/manage-replications.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c27936f51519816480daf69f.md",
+      "kind": "official-document",
+      "bytes": 1163,
+      "sha256": "8ef4a17933c4d32bc0597aa92b74591997fedaf42be32e2ce4748a95f456dad4",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/configuring-replication/manage-replications.md"
+    },
+    {
+      "path": "docs/administration/distributed-tracing/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9d9ed1a08411b6c0bc502f13.md",
+      "kind": "official-document",
+      "bytes": 2780,
+      "sha256": "6dd34ddead6b23e23e7ee0d95e282d53af6ca584f3e8b07e1746aa6d08b93491",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/distributed-tracing/_index.md"
+    },
+    {
+      "path": "docs/administration/garbage-collection/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b3d727e759013d4496e308a7.md",
+      "kind": "official-document",
+      "bytes": 4546,
+      "sha256": "6f031fd7c1fc28fe2f4281d5628d64bab911ad84724aaa4bd882196694265d6f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/garbage-collection/_index.md"
+    },
+    {
+      "path": "docs/administration/general-settings/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5ada20f6d050df6161b9fd4e.md",
+      "kind": "official-document",
+      "bytes": 2147,
+      "sha256": "505ee3105463b9b654d16dd93597e334e91f9dbe3a61158dd9c100f7ce265f24",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/general-settings/_index.md"
+    },
+    {
+      "path": "docs/administration/jobservice-dashboard/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2a072230202067c79af6aa55.md",
+      "kind": "official-document",
+      "bytes": 6933,
+      "sha256": "e7353740143863e4180b388b317771a00c82c0c0a0ee9ebfdd4de72e50cc0adc",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/jobservice-dashboard/_index.md"
+    },
+    {
+      "path": "docs/administration/log-rotation/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c4f1fd41e8aa0ed44138c765.md",
+      "kind": "official-document",
+      "bytes": 4007,
+      "sha256": "436b190598dc6888974300dc75f63c1f8e4a996effc782a62f655092c6eb70a8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/log-rotation/_index.md"
+    },
+    {
+      "path": "docs/administration/managing-users/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/0f4e4a4ff454230db2b0619a.md",
+      "kind": "official-document",
+      "bytes": 2894,
+      "sha256": "9d83e759bcb9102aee54b7945d276d47835952ba5eb2a4ffe5aae4110f65d7ed",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/managing-users/_index.md"
+    },
+    {
+      "path": "docs/administration/managing-users/create-users-db.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2a2206118e0c4738427d85ef.md",
+      "kind": "official-document",
+      "bytes": 850,
+      "sha256": "572f922e158adff912f13df50a00cb30d8a237070b4d9bef2f2815251aa43ef8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/managing-users/create-users-db.md"
+    },
+    {
+      "path": "docs/administration/managing-users/reset-user-password.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3997506b144b64160dd7cdd9.md",
+      "kind": "official-document",
+      "bytes": 806,
+      "sha256": "b9cda2492f5cd43357a053e887f82963dd39c2c7aedb7b5be8df88117f695e91",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/managing-users/reset-user-password.md"
+    },
+    {
+      "path": "docs/administration/managing-users/user-permissions-by-role.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/e8144e3ed43bf822d0a43211.md",
+      "kind": "official-document",
+      "bytes": 6176,
+      "sha256": "30d4a5d13ae3b1a133b7fb817c62273c8dd533b381e7cab57a92819d8c157d99",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/managing-users/user-permissions-by-role.md"
+    },
+    {
+      "path": "docs/administration/metrics/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/12e813a8129666e9b3054170.md",
+      "kind": "official-document",
+      "bytes": 10172,
+      "sha256": "0cb8a9761ed3dfd9487721856db86569d75079b4d947947391eb640edd0ad953",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/metrics/_index.md"
+    },
+    {
+      "path": "docs/administration/p2p-preheat/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/830ea58f28c3bd0c2026e376.md",
+      "kind": "official-document",
+      "bytes": 2490,
+      "sha256": "66c3b00e34bbdb373f86d38eac3b904abbebeaccc6925566d1a6648899dfa601",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/p2p-preheat/_index.md"
+    },
+    {
+      "path": "docs/administration/p2p-preheat/manage-preheat-providers.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/44266526aa11048aab19f612.md",
+      "kind": "official-document",
+      "bytes": 2944,
+      "sha256": "d7d74b1c747382665ab56a83682c3e0a0b521f89cbc90d7ec8beb89067bedf89",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/p2p-preheat/manage-preheat-providers.md"
+    },
+    {
+      "path": "docs/administration/robot-accounts/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b708bc4746d10b81a2e62f32.md",
+      "kind": "official-document",
+      "bytes": 129399,
+      "sha256": "8c5558ba5417c10b4bc29e333de6e20824fdf2930f70c5eb4210c5daee100350",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/robot-accounts/_index.md"
+    },
+    {
+      "path": "docs/administration/sbom-integration/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2ef83f2313531ed555f23ba7.md",
+      "kind": "official-document",
+      "bytes": 3373,
+      "sha256": "3df3cb6292620f8db4d2f03e1fdada3b0fe1c85f1db1a6f0a111ac80d48b3f1b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/sbom-integration/_index.md"
+    },
+    {
+      "path": "docs/administration/security-hub/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8f2b0989dae1ab66eadb5a54.md",
+      "kind": "official-document",
+      "bytes": 4337,
+      "sha256": "35ba05521082d1dd33ecc73654dd146d3e35c37d676b12cf6bee840e290fa4b0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/security-hub/_index.md"
+    },
+    {
+      "path": "docs/administration/upgrade/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4d143d60040e01a4cb9efd10.md",
+      "kind": "official-document",
+      "bytes": 3744,
+      "sha256": "903f74709a936581ce398ad3534ad63d4e885c826528573391c5fc96180e82ac",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/upgrade/_index.md"
+    },
+    {
+      "path": "docs/administration/upgrade/helm-upgrade.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/56aa73372f6033a6acbb666c.md",
+      "kind": "official-document",
+      "bytes": 2068,
+      "sha256": "c3380c823438b220e1b9b5229c2e10f23f52abeb6141e0e5e5b7aa9755d01c07",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/upgrade/helm-upgrade.md"
+    },
+    {
+      "path": "docs/administration/upgrade/roll-back-upgrade.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/e8c06958620fb2e70abde0ac.md",
+      "kind": "official-document",
+      "bytes": 1971,
+      "sha256": "dee224583fa851b787a7f1c447b7eb69c9a5b98d4555589a05f88f7354fe38a2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/upgrade/roll-back-upgrade.md"
+    },
+    {
+      "path": "docs/administration/upgrade/upgrade-test.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2ca5f745b460f189add77f9a.md",
+      "kind": "official-document",
+      "bytes": 2191,
+      "sha256": "9b58b6efbf0dad9704e00e9492e05562aa823a40e0f13e0d4df3e5f788e8d862",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/upgrade/upgrade-test.md"
+    },
+    {
+      "path": "docs/administration/user-defined-OCI-artifact/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c058151862922cce5bed6ec0.md",
+      "kind": "official-document",
+      "bytes": 2252,
+      "sha256": "1999421b3d9c61baa1b9f838c077d3967b3c3247fe542f18bd78d0083d707fe0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/user-defined-OCI-artifact/_index.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/8182beb0923fa1674d0fba23.md",
+      "kind": "official-document",
+      "bytes": 2405,
+      "sha256": "ac6ebff48b5114ce8867bd1a563a49428e6925c9552addb72bc04929329dd9bc",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/_index.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/configure-custom-certs.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1e64523621fe5b574ab66e35.md",
+      "kind": "official-document",
+      "bytes": 2619,
+      "sha256": "18b1b5b5db418e9756dde56d8d362a468e0c3e25651a26da0174f8785e8f1e44",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/configure-custom-certs.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/configure-system-allowlist.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4fc5a12ef662a979bfe5697f.md",
+      "kind": "official-document",
+      "bytes": 1646,
+      "sha256": "b95a7c8fd5fb844a25c4df9dcfbdc2ecf0875208a8680c22c4b29854e42140d7",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/configure-system-allowlist.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/deployment-security.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2b75e5c8df4516d66d18d7e4.md",
+      "kind": "official-document",
+      "bytes": 1264,
+      "sha256": "df116a72a1c8ed21a93c61a12df309e75d5b4690add9b1baf0884effcaa6c16b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/deployment-security.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/import-vulnerability-data.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d891cf9119d02b9d3e427dbf.md",
+      "kind": "official-document",
+      "bytes": 4424,
+      "sha256": "06618d3eb26fd3cfb7016e878be19270f823efc93539cc85a3ce7685ffb92c92",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/import-vulnerability-data.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/pluggable-scanners.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/fdfa23d66ef373ce64852a18.md",
+      "kind": "official-document",
+      "bytes": 3460,
+      "sha256": "0005f72d82d7bf7a05ac07f5f913fb106314b4873742e968f160c2f213f2d84b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/pluggable-scanners.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/scan-all-artifacts.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1cfa9ab9cdab753075369bbb.md",
+      "kind": "official-document",
+      "bytes": 642,
+      "sha256": "f20934474f0e019f267e75e15592234c6c7425a14cb9d5ad7162282b436d3892",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/scan-all-artifacts.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/scan-individual-artifact.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/7bb530143d78865c3ccead56.md",
+      "kind": "official-document",
+      "bytes": 6239,
+      "sha256": "bb14fd6b1e4f0673fd193b291db5d7eaa598e2bb8c5579a7eb5d18a8aa536126",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/scan-individual-artifact.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/schedule-scans.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/34e80825d01d0809cdb4a0ee.md",
+      "kind": "official-document",
+      "bytes": 781,
+      "sha256": "3a066eed9f98a509f1ac709495bf4b7b7e6b269b485e124733fb43364fa04536",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/schedule-scans.md"
+    },
+    {
+      "path": "docs/administration/vulnerability-scanning/stop-scan.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/87f5c5c119d134f0ce7cd930.md",
+      "kind": "official-document",
+      "bytes": 2285,
+      "sha256": "08c15c2dbf4f4d1995c1e9117dcc3710df064166266f13b33dd9b05321f35184",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/administration/vulnerability-scanning/stop-scan.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/066c7b5040442680af6527e8.md",
+      "kind": "official-document",
+      "bytes": 378,
+      "sha256": "e2dc30b531b3c21f35602c24050b195b75259d1a5bc9254894c44cac8df13d8a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/_index.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/compile-guide.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2fe3b0fc4e4be728fc112f9c.md",
+      "kind": "official-document",
+      "bytes": 7638,
+      "sha256": "09ac49f723e6d723393aa34d684df4604f7e7148faeba519ffdcd0bb95ba4a15",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/compile-guide.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/customize-look-feel.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/6d3856c34aae388462666064.md",
+      "kind": "official-document",
+      "bytes": 1772,
+      "sha256": "6bf4d55ac6acfc94745143470188acfde6640dc8a52ef5dde742b75a3d495899",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/customize-look-feel.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/developer-guide-i18n.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/ff9c836abd7c2255a838f7da.md",
+      "kind": "official-document",
+      "bytes": 2859,
+      "sha256": "fccaf596d21cb6ba69dc9a8dbb6de5ecde7a4b300f906b8e23a4a0a1dfb6abb6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/developer-guide-i18n.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/e2e-api-python-based-scripting-guide.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5e9014f4043b0552aee4b49c.md",
+      "kind": "official-document",
+      "bytes": 4046,
+      "sha256": "389bd72a7889ec431365ad2dc9369976084288fd20be04798deb5ea23817842f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/e2e-api-python-based-scripting-guide.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/registry-landscape.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/16642b003ed3377d32b80092.md",
+      "kind": "official-document",
+      "bytes": 5737,
+      "sha256": "e9c51009eeb392139b6cb107fb28d69b70598c455f11c1eb1d156e74c079edda",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/registry-landscape.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/style-guide.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/ae8783b2d382902e6a5bbd31.md",
+      "kind": "official-document",
+      "bytes": 12686,
+      "sha256": "af356453ad20b8dabc1b1e626fe71a52f246b1dfc424df21940ce431ac0297d8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/style-guide.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/ui-contribution-get-started.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d026c9690cfd05ec3006d6f5.md",
+      "kind": "official-document",
+      "bytes": 1883,
+      "sha256": "34fd9f563c083bcafa855effac5bf855df4c7f464aee288b806709924b8d345f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/ui-contribution-get-started.md"
+    },
+    {
+      "path": "docs/build-customize-contribute/use-make.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5ab252ec3add878615883cbd.md",
+      "kind": "official-document",
+      "bytes": 1816,
+      "sha256": "48a03bf1e134cbe015b423d38fc35cd5a1ba7102dc84dd07c43ea8aef85cfc2c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/build-customize-contribute/use-make.md"
+    },
+    {
+      "path": "docs/install-config/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/24af7334355b2421d1146d0e.md",
+      "kind": "official-document",
+      "bytes": 2855,
+      "sha256": "88061c769f8bf407d672b6eddc5298285f66478b72b29a7f4f23306b0f93779a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/_index.md"
+    },
+    {
+      "path": "docs/install-config/configure-https.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d6c90215d629173c289aa2a8.md",
+      "kind": "official-document",
+      "bytes": 8060,
+      "sha256": "b58ee3c9d0b5734182d3a90cc364aef26f7fe8b29cefeb0b6d03a80aa975290b",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/configure-https.md"
+    },
+    {
+      "path": "docs/install-config/configure-internal-tls.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/501a535082d8870d1696b79c.md",
+      "kind": "official-document",
+      "bytes": 2799,
+      "sha256": "4d916e3c37e23acdec420b177e15599aa810d25054a689e49d9b5338cc2ccd47",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/configure-internal-tls.md"
+    },
+    {
+      "path": "docs/install-config/configure-system-settings-cli.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/1876e2137375975dc68b1034.md",
+      "kind": "official-document",
+      "bytes": 15221,
+      "sha256": "fefc02148d0a78424b2d2055c68cf53753b72742719332148123f6b54ece8c23",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/configure-system-settings-cli.md"
+    },
+    {
+      "path": "docs/install-config/configure-yml-file.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cee1fbc037607a782c348a1d.md",
+      "kind": "official-document",
+      "bytes": 23007,
+      "sha256": "3efde84d56fa0e6587f4144d010705b295f785018fab2281a9de85ba0ee37eab",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/configure-yml-file.md"
+    },
+    {
+      "path": "docs/install-config/customize-token-service.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/e09c755a7c591392c60cb8f2.md",
+      "kind": "official-document",
+      "bytes": 3081,
+      "sha256": "d5f7f82f5a3272751a6daa40a165a6b6cad016be85ea1dcc57aeef8f3a70f4bf",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/customize-token-service.md"
+    },
+    {
+      "path": "docs/install-config/demo-server.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c5360485ab5cc8dd7186239d.md",
+      "kind": "official-document",
+      "bytes": 2472,
+      "sha256": "a9d2ed69aad5d069dbbffc1a0613fc89f9077ff0905f04086dab4ad0a8f4e773",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/demo-server.md"
+    },
+    {
+      "path": "docs/install-config/download-installer.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5594b197b90e06c08b7b37e9.md",
+      "kind": "official-document",
+      "bytes": 3743,
+      "sha256": "01ff739f7f9f6cfd2bead450f77647d1d983a1af1e7b125221c761b6fab5285d",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/download-installer.md"
+    },
+    {
+      "path": "docs/install-config/harbor-compatibility-list.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/594932feef7d9f7b0ef1ef8b.md",
+      "kind": "official-document",
+      "bytes": 7602,
+      "sha256": "79c4bc4156c191e3619588d43a319864fd83eff274c2911995afea5f364e32b2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/harbor-compatibility-list.md"
+    },
+    {
+      "path": "docs/install-config/harbor-ha-helm.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d6d2c89b4328757e1b5b43cf.md",
+      "kind": "official-document",
+      "bytes": 5034,
+      "sha256": "eac55cb63ecb157b33f7c4819fc3780dad99e3c59f45495cc937edb35a2e9f10",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/harbor-ha-helm.md"
+    },
+    {
+      "path": "docs/install-config/installation-prereqs.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/4f3a4ae9e5137e4408f46259.md",
+      "kind": "official-document",
+      "bytes": 2054,
+      "sha256": "11cf509f553d8ff120701a8f41d649b8e8577de5bd583083c9404f7cf2354f4f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/installation-prereqs.md"
+    },
+    {
+      "path": "docs/install-config/reconfigure-manage-lifecycle.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/32557f513c5ab978f8d0c136.md",
+      "kind": "official-document",
+      "bytes": 2070,
+      "sha256": "3c3b6df1c0ad87d65249881129137586e1a84ff7b37217d87d81c6332b52bef4",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/reconfigure-manage-lifecycle.md"
+    },
+    {
+      "path": "docs/install-config/run-installer-script.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/61a2bd970fdb8c22aa45dd6c.md",
+      "kind": "official-document",
+      "bytes": 3202,
+      "sha256": "fd174ab5452b099fcc0c0f8e51cefadbf7795bf51d7b4a4d80b2b330ea276b51",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/run-installer-script.md"
+    },
+    {
+      "path": "docs/install-config/troubleshoot-installation.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d4e518acc5b2859bfb85028a.md",
+      "kind": "official-document",
+      "bytes": 3218,
+      "sha256": "c0aa8fea04c0eb28494c63b4f662a3f3180a158cb15c0b201cd88f08fb2fd1b8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/install-config/troubleshoot-installation.md"
+    },
+    {
+      "path": "docs/working-with-projects/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/cf889a059c61ac4cd06d85e2.md",
+      "kind": "official-document",
+      "bytes": 250,
+      "sha256": "9466b87c4f35ed585e7997e98ef9fbd24cd91894cfe891d9859eb16de9cc5de5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/_index.md"
+    },
+    {
+      "path": "docs/working-with-projects/create-projects/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/c009f2c47a8a91d24a60d6c3.md",
+      "kind": "official-document",
+      "bytes": 2912,
+      "sha256": "bb539fe19b00db0ef1afdefda9004951ff1f017b2f89950c3d1d0e5bf8d59cb5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/create-projects/_index.md"
+    },
+    {
+      "path": "docs/working-with-projects/create-projects/add-users.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f4382911daea87ed8996c521.md",
+      "kind": "official-document",
+      "bytes": 3031,
+      "sha256": "88b3be52e5a957af9ec6597ba7d7c10d0213942363584bccd60970eef55abc46",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/create-projects/add-users.md"
+    },
+    {
+      "path": "docs/working-with-projects/project-configuration/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5fc4b6950df6a8b55df7a778.md",
+      "kind": "official-document",
+      "bytes": 2827,
+      "sha256": "eecae03ddfffa138023e985039765f5c79626489e8005da210a6d8dc5111c98e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/project-configuration/_index.md"
+    },
+    {
+      "path": "docs/working-with-projects/project-configuration/access-project-logs.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/2d0d43e1a0f58e9f4bc02916.md",
+      "kind": "official-document",
+      "bytes": 1055,
+      "sha256": "5ee7f8ff6f79129bdd4429228479c96a0896c69c33cb23d9a794ceaee7926598",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/project-configuration/access-project-logs.md"
+    },
+    {
+      "path": "docs/working-with-projects/project-configuration/configure-project-allowlist.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/192937675f067ecb5ebf5bc6.md",
+      "kind": "official-document",
+      "bytes": 2444,
+      "sha256": "336f50ecdf5fda5528536b2eb6e30f2bcf75145bbe2014ca231e2e278fcec49a",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/project-configuration/configure-project-allowlist.md"
+    },
+    {
+      "path": "docs/working-with-projects/project-configuration/configure-webhooks.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/a1238f9762af0602c0c31c87.md",
+      "kind": "official-document",
+      "bytes": 27419,
+      "sha256": "dcf771508bc42e313ee55079b082065319fc41bed151489506bf776a6131454c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/project-configuration/configure-webhooks.md"
+    },
+    {
+      "path": "docs/working-with-projects/project-configuration/create-robot-accounts.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/0bd51e09727a4201f72bccb4.md",
+      "kind": "official-document",
+      "bytes": 7412,
+      "sha256": "ecd3c600af8c13cd9cd113e6b0e4e086974c099f7cfe048968d5cae5034a6e44",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/project-configuration/create-robot-accounts.md"
+    },
+    {
+      "path": "docs/working-with-projects/project-configuration/implementing-content-trust.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/200968536730110c26f0331b.md",
+      "kind": "official-document",
+      "bytes": 1607,
+      "sha256": "dd65a6536d96d07508182b10d35d67a0c7f81470ad28a1fca8ec71f9325fe001",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/project-configuration/implementing-content-trust.md"
+    },
+    {
+      "path": "docs/working-with-projects/using-api-explorer/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/82624ed5329ade02aa64eca0.md",
+      "kind": "official-document",
+      "bytes": 1068,
+      "sha256": "c513c034c0f05f10ce2cc56c38e45bef7f508de327569c5d22ebede2cc882ba5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/using-api-explorer/_index.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/205d4702bbc1cf4e802075d5.md",
+      "kind": "official-document",
+      "bytes": 123,
+      "sha256": "4a78639610ca70b816f170a474c42896f1916316360f4239b0b2deb6eb969428",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/_index.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/adding-tags.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5d88859a252d7cff5394ce18.md",
+      "kind": "official-document",
+      "bytes": 1377,
+      "sha256": "4f8c380abbb6fbb4944c4a5b8892aa87f90fac2a6b62f97a5cdd3d4e5cf0c406",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/adding-tags.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/create-labels.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/5ac11b4736afc65b1fb15585.md",
+      "kind": "official-document",
+      "bytes": 1434,
+      "sha256": "5698edb0537919b901287e2876452657c6c187a86ae171b67f5057a41aa5a440",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/create-labels.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/create-tag-immutability-rules.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/04180d6984f57b5764a3b54a.md",
+      "kind": "official-document",
+      "bytes": 3920,
+      "sha256": "e2d74a24e1eb84d9782a9be87e11cfd7dbfbd2afb5347d7130c3d0073df9c9c2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/create-tag-immutability-rules.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/create-tag-retention-rules.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/d07b7fe69638ac838a4594a8.md",
+      "kind": "official-document",
+      "bytes": 12672,
+      "sha256": "57c20bb52311cc36e888e9c1a275740aafb7669c403929012dacb59c4114ed4c",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/create-tag-retention-rules.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/deleting-artifact.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/6373336350164b8e40045ab6.md",
+      "kind": "official-document",
+      "bytes": 2399,
+      "sha256": "038536d0f82dfd51fed8cb82eba87ec9a04b4ea415e73a32813f5dbe79ad7ee6",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/deleting-artifact.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/deleting-tags.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/e1ce615547970bc672aa1e85.md",
+      "kind": "official-document",
+      "bytes": 1550,
+      "sha256": "b6b909465d5a4101736fab545775721d427f378f25b0d130b1f9368161b5ebdc",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/deleting-tags.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/preheat-images.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/171cb5afc66a4a390ce4fea0.md",
+      "kind": "official-document",
+      "bytes": 7768,
+      "sha256": "b67d91fde96aac632be2b34ec81825892d828a5e08bc4e2ad052c78377ffb293",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/preheat-images.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/pulling-pushing-images.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/7952b8d3d7026b81d6ccdb6a.md",
+      "kind": "official-document",
+      "bytes": 5693,
+      "sha256": "209169c9961dbccf9c2f09e581a4309ce35578f8b5f803ab68c07c40089965c9",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/pulling-pushing-images.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/repositories.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/80834e8a07576039130f84c9.md",
+      "kind": "official-document",
+      "bytes": 2793,
+      "sha256": "c711731f20e9c1e77e589fd459fcdfeb0c72d431d050b121f7787f2c55d1f06e",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/repositories.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/retagging-images.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/f8558728ea862fb6bf2a689a.md",
+      "kind": "official-document",
+      "bytes": 713,
+      "sha256": "c7c436808dfaff5dd495fa3a1fd88cfd69a56cba4af525f91bb966969df8b8e5",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/retagging-images.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-images/sign-images.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/42b94797dfe4389570bcc555.md",
+      "kind": "official-document",
+      "bytes": 8977,
+      "sha256": "d1026817ec85fe72b03eb390f72425d720103c1457198569905dfbc5a6f4a176",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-images/sign-images.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-oci/_index.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3bd1d8fdce9adf9c664e7ec9.md",
+      "kind": "official-document",
+      "bytes": 162,
+      "sha256": "63cbc96f239d88b876215419248526ec5d9419dc2214443447d4a1d21a661c0f",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-oci/_index.md"
+    },
+    {
+      "path": "docs/working-with-projects/working-with-oci/working-with-helm-oci-charts.md",
+      "localPath": "raw/goharbor--website/9d09c8a55204/526f9db2c8f17752ea1b17fa.md",
+      "kind": "official-document",
+      "bytes": 2785,
+      "sha256": "3dbc67d1508eddecb1984b46c6d173da032ebc626bc043750a5e6693d056c271",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/docs/working-with-projects/working-with-oci/working-with-helm-oci-charts.md"
+    },
+    {
+      "path": "layouts/docs/list.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/df21f119526e523090b5a5be.html",
+      "kind": "official-document",
+      "bytes": 167,
+      "sha256": "f17249548c75ef5d5b08695fa111274bee60d16eda0b00bce51fb2e54e60cff8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/docs/list.html"
+    },
+    {
+      "path": "layouts/docs/single.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/b74424732b94f9e6f34c948f.html",
+      "kind": "official-document",
+      "bytes": 167,
+      "sha256": "f17249548c75ef5d5b08695fa111274bee60d16eda0b00bce51fb2e54e60cff8",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/docs/single.html"
+    },
+    {
+      "path": "layouts/partials/docs/hero.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/88cc960192611b2cdec49ae6.html",
+      "kind": "official-document",
+      "bytes": 484,
+      "sha256": "6fa5978dc3065a4e0d9dc7d5ad1b04de506fcea2892486f838090777e6b000f4",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/partials/docs/hero.html"
+    },
+    {
+      "path": "layouts/partials/docs/layout.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/fb5b573084c910870fdd2609.html",
+      "kind": "official-document",
+      "bytes": 2920,
+      "sha256": "7387ecb0887b8953ea8d5b1684943d983a3ccdac35d13609feec4793cbe76a53",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/partials/docs/layout.html"
+    },
+    {
+      "path": "layouts/partials/docs/menu.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/3cd2c3a3b13c2e89ab3d2abd.html",
+      "kind": "official-document",
+      "bytes": 1961,
+      "sha256": "c6993d9b77b991346fae167a938a981ecf034015f11b4534104bef1cb9b103fe",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/partials/docs/menu.html"
+    },
+    {
+      "path": "layouts/partials/docs/page-version.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/9646f303bae2cf858c9c757d.html",
+      "kind": "official-document",
+      "bytes": 663,
+      "sha256": "95ad40891a3e49cda460b303f622754ab85717ad22b6720ce37ede79a36746ea",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/partials/docs/page-version.html"
+    },
+    {
+      "path": "layouts/partials/docs/sidebar.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/e75c4b13ef227e9287fc67e9.html",
+      "kind": "official-document",
+      "bytes": 1561,
+      "sha256": "c482a2827c18a521dc3c6f714531bab3d66766c472a0b63e90438b9fb3ebcbc2",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/partials/docs/sidebar.html"
+    },
+    {
+      "path": "layouts/partials/docs/version-banner.html",
+      "localPath": "raw/goharbor--website/9d09c8a55204/451a6969b79e1bd1ec1437cc.html",
+      "kind": "official-document",
+      "bytes": 1477,
+      "sha256": "305d30ddc2dea16c31cf8d4be80b3c206ee3c8e543a4181b009662a7f04e12f0",
+      "sourceUrl": "https://github.com/goharbor/website/blob/9d09c8a5520494b704e82d2d40f94567e12d97e9/layouts/partials/docs/version-banner.html"
+    }
+  ],
+  "omitted": [],
+  "recoveredInterruptedFiles": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

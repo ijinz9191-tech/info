@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "repo": "k0sproject/k0s",
+  "commit": "a3bbacab2a029259f4909de72238fa90b2022a31",
+  "retrievedAt": "2026-10-01T15:20:57.349192+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Scheduling & Orchestration"
+  ],
+  "archiveUrl": "https://codeload.github.com/k0sproject/k0s/zip/a3bbacab2a029259f4909de72238fa90b2022a31",
+  "archiveSha256": "d62dae1c74810c04ed15c6b0e864d3418228fc7d104caf66f213895f139d29fd",
+  "archiveBytes": 3473121,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 92,
+    "code": 0,
+    "licenses": 3,
+    "bytes": 617505
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 5100,
+      "sha256": "70707d526523949a418b9adb37434290a8defe443b8a99d2a568020f08fb1e31",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/ADOPTERS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 236,
+      "sha256": "20dbdb8981703efe6bdb4e6965cb0286c9dcf628c0d9c8836a680ec47ef58183",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 164,
+      "sha256": "6f2255f3ede1f1f80ce75fda41c083150cff8711afb875119e4dcae5cf9d5443",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11742,
+      "sha256": "c0fb208045d0c9003c8a72ff28c74814ccdaf7798320497c68bda2fa3893803d",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 1966,
+      "sha256": "3a2d276b25ac36f4e3ef5a46be49d54add39492c7f11225097a19ba58181dbac",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/MAINTAINERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 10734,
+      "sha256": "4ba00faba14177e2e464773de96ccb605c2df471d4f1830cba8a88c4c9b60823",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/README.md"
+    },
+    {
+      "path": "RELEASE.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/2b1b69303b927a484e02c7fa.md",
+      "kind": "official-document",
+      "bytes": 2299,
+      "sha256": "b6d112ece453ad89caed51d6d1fc44f8152e513b8ca9b670eaa50455657ea6e5",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/RELEASE.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 655,
+      "sha256": "7728e336a338e89b3dd3f2eedfbbb95d0122d3b288e9ef6a28610a20209add0d",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/ROADMAP.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 4023,
+      "sha256": "6f78bb45374a11b4923c83592fea2ae00753d7e2adebda6c21986f1c831cc6b0",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/SECURITY.md"
+    },
+    {
+      "path": "docs/LICENSE",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/e953fee8efa1bde67856cc8c.txt",
+      "kind": "license",
+      "bytes": 20138,
+      "sha256": "3b2890eacd851373001c4a14623458e3adaf1b1967939aa9c38a318e28d61c00",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/LICENSE"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 1953,
+      "sha256": "9c59c91d7de3c33ed0ef73abc29e092f1690d4203937e8f7f11bdf8547c02890",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/README.md"
+    },
+    {
+      "path": "docs/adopters.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/cc0fe17150127557eccb59d5.md",
+      "kind": "official-document",
+      "bytes": 129,
+      "sha256": "71311c7c1a5c394886d68ccd6e0be79f08dce51cc3fbfbccb5ad4c339d9deaf0",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/adopters.md"
+    },
+    {
+      "path": "docs/airgap-install.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/ec19648af4e234029c6da51b.md",
+      "kind": "official-document",
+      "bytes": 5440,
+      "sha256": "33771b87fe125ca4f0ed8c3a4fff462c5bcec107bc1771bf213cb4a42b0e0f25",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/airgap-install.md"
+    },
+    {
+      "path": "docs/architecture/adr-001-autopilot-oci-basic-auth-support.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/abf14c2da9ce68f01d3ec8cd.md",
+      "kind": "official-document",
+      "bytes": 6170,
+      "sha256": "3b0b85d29eef8324ccbdb618fcb3318214eac94f5a3c6d7a230bb2ccf013033a",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/architecture/adr-001-autopilot-oci-basic-auth-support.md"
+    },
+    {
+      "path": "docs/architecture/index.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/71a87b35224a82a8fa67ccd1.md",
+      "kind": "official-document",
+      "bytes": 2547,
+      "sha256": "bd38aa9f8dd90eb5e28d93a19880e27590f5487205b6be0ac87dcb4dfa171704",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/architecture/index.md"
+    },
+    {
+      "path": "docs/autopilot-multicommand.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/46340189ebd44063b56aa145.md",
+      "kind": "official-document",
+      "bytes": 9397,
+      "sha256": "93e193ead06c229797e0fb4eed4a93f127f8376f48bc93083e88197d12b55929",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/autopilot-multicommand.md"
+    },
+    {
+      "path": "docs/autopilot.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/060ff3e1e07602b3d342b0f5.md",
+      "kind": "official-document",
+      "bytes": 15906,
+      "sha256": "5a00c518400cb6cfadd7f01cb833269607d30d837270388d3f729681d115ef45",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/autopilot.md"
+    },
+    {
+      "path": "docs/backup.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/fdf6f35fb97bc1a714fc592e.md",
+      "kind": "official-document",
+      "bytes": 5598,
+      "sha256": "73b7639716833d5692fdb020fc5f5c1fa469182802970b478479febcb573a0cb",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/backup.md"
+    },
+    {
+      "path": "docs/cis_benchmark.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/7a798d1955da450f5c6f66d2.md",
+      "kind": "official-document",
+      "bytes": 4548,
+      "sha256": "35a2097ea3591bf929caf0ced6df551286336e68f0767152a8a92c138b1d5447",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/cis_benchmark.md"
+    },
+    {
+      "path": "docs/cloud-providers.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/7a0177596674a836c523a0b6.md",
+      "kind": "official-document",
+      "bytes": 2336,
+      "sha256": "9752af62830406115d6549ac2b7ab28469313e07ca4444c0c271bb2d18b58e65",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/cloud-providers.md"
+    },
+    {
+      "path": "docs/commercial-support.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/968c77f192b267593de53a87.md",
+      "kind": "official-document",
+      "bytes": 989,
+      "sha256": "f6e09f8a39a1a9bdd24b8c8720ea8a953521ac48e3dee87a8d8346fb5adf7bb3",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/commercial-support.md"
+    },
+    {
+      "path": "docs/configuration-validation.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/2ef762efeae671a969e986c2.md",
+      "kind": "official-document",
+      "bytes": 485,
+      "sha256": "f68d276caa9f7194e37c80af49069188e6634ebb100f7ae7e2f30c2f1f2e8828",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/configuration-validation.md"
+    },
+    {
+      "path": "docs/configuration.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/17ed18489a956f326ec0fe40.md",
+      "kind": "official-document",
+      "bytes": 54635,
+      "sha256": "bb14b6b4ca94e91a72dc7c162bd0fe73f21d6dfea886a43a5574895181ce3ab4",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/configuration.md"
+    },
+    {
+      "path": "docs/containerd_config.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/fa70af3875e82b5db0be6497.md",
+      "kind": "official-document",
+      "bytes": 116,
+      "sha256": "8b080f85bd54f0e324d3eeb168ef53e4b5022591d3658bb1cd957c560c6a05a8",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/containerd_config.md"
+    },
+    {
+      "path": "docs/contributors/CODE_OF_CONDUCT.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/c66d87ad868e770dbbae44e5.md",
+      "kind": "official-document",
+      "bytes": 24,
+      "sha256": "fc2780a4c294f250ca8e89df377e81f55d3b739123c035803836967e88290891",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/contributors/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "docs/contributors/code_guidelines.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/8590954a87028e99931e9d7f.md",
+      "kind": "official-document",
+      "bytes": 9088,
+      "sha256": "5d753f6b9ff63d1d8bfba23a4c8aea46323022f53f16fa56707fb72dd83932c4",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/contributors/code_guidelines.md"
+    },
+    {
+      "path": "docs/contributors/docs.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/d8dbc2ef01f7a0230272fe19.md",
+      "kind": "official-document",
+      "bytes": 1659,
+      "sha256": "ab9f5a0d53a6cae03af711223d24f0494a9261012610dc5d9f3ee6a3a27649d8",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/contributors/docs.md"
+    },
+    {
+      "path": "docs/contributors/github_workflow.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/dbf8f606d3674d55ee9d58c9.md",
+      "kind": "official-document",
+      "bytes": 10552,
+      "sha256": "9f6e4c45b3985b7685b024c106c1e54595f7913e159891f6c6452aaf21307cd3",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/contributors/github_workflow.md"
+    },
+    {
+      "path": "docs/contributors/index.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/5a0e978ea6d06ad9f5286a89.md",
+      "kind": "official-document",
+      "bytes": 4630,
+      "sha256": "567891f4763ab66b210bc5e7dd22c9eb5fc0375227c98b2f20cd9c0dcfa6ac20",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/contributors/index.md"
+    },
+    {
+      "path": "docs/contributors/testing.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/f77f10f07aad3ad0b2e3da2b.md",
+      "kind": "official-document",
+      "bytes": 5464,
+      "sha256": "3431aea2da9c818a5affb53229286c874bf1a3070c447da156ab435978c61d81",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/contributors/testing.md"
+    },
+    {
+      "path": "docs/cplb.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/9825eece98e4ea05f4167ba5.md",
+      "kind": "official-document",
+      "bytes": 31246,
+      "sha256": "195b116dbdcf27794283af82379344300d2262f436e71b2fb17733e1b848babc",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/cplb.md"
+    },
+    {
+      "path": "docs/custom-ca.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/a78d32b657aa46435f00c62a.md",
+      "kind": "official-document",
+      "bytes": 1895,
+      "sha256": "0ddca77f36d20f55cc360d1b257345e6930122cdc803b12ede795318a81a11d5",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/custom-ca.md"
+    },
+    {
+      "path": "docs/custom-cri-runtime.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/98b9fd7b38ad7b0c934ff853.md",
+      "kind": "official-document",
+      "bytes": 116,
+      "sha256": "8b080f85bd54f0e324d3eeb168ef53e4b5022591d3658bb1cd957c560c6a05a8",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/custom-cri-runtime.md"
+    },
+    {
+      "path": "docs/directories.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/b5a4f5ef91002c36d2498ea2.md",
+      "kind": "official-document",
+      "bytes": 4015,
+      "sha256": "f10c02657e92501134867d7e146962fb4e09693aa5a654cbfe3762d4b5618e89",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/directories.md"
+    },
+    {
+      "path": "docs/dual-stack.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/5511e4301c346d0132297b6b.md",
+      "kind": "official-document",
+      "bytes": 3802,
+      "sha256": "b03a87cd0a891d20e3bd25d64790ab2e17523b33104755416d2492e61a76b8f9",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/dual-stack.md"
+    },
+    {
+      "path": "docs/dynamic-configuration.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/8beea7c2dd1b5485746a65b1.md",
+      "kind": "official-document",
+      "bytes": 5138,
+      "sha256": "f16c163c013ec607e30078a0c4b423ba6f86d1b89dd97f57d44edce6ddf47202",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/dynamic-configuration.md"
+    },
+    {
+      "path": "docs/environment-variables.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/24284b831e81f770335038e7.md",
+      "kind": "official-document",
+      "bytes": 1599,
+      "sha256": "f773c15dd3c0e50970afe41fa9c35ba13eab8cae0c0d448c0cdd76b6e7ab3dc8",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/environment-variables.md"
+    },
+    {
+      "path": "docs/examples/ansible-playbook.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/c75062c1fff445e643906beb.md",
+      "kind": "official-document",
+      "bytes": 13340,
+      "sha256": "1bab619ce98987532ee5bfb43eaca6a43136970c40d557fda27d826af93890f1",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/ansible-playbook.md"
+    },
+    {
+      "path": "docs/examples/gitops-flux.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/2670ff561145773fa0071c21.md",
+      "kind": "official-document",
+      "bytes": 5773,
+      "sha256": "cbb4d14c639ee41a5906349055a79d066428a064028b5e333a8b761c97682b22",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/gitops-flux.md"
+    },
+    {
+      "path": "docs/examples/longhorn.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/10aa8be03f84264dbfa15d9e.md",
+      "kind": "official-document",
+      "bytes": 5965,
+      "sha256": "cc19faf0231f8d743e74b269b6c2702cf80f2919026ab0323fe54e1654cd0b63",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/longhorn.md"
+    },
+    {
+      "path": "docs/examples/metallb-loadbalancer.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/168a8706969f7628049e6581.md",
+      "kind": "official-document",
+      "bytes": 5355,
+      "sha256": "880c5dc282503601a8af1cac7a8a15d961e340f2686b1b2ba3942470607168ef",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/metallb-loadbalancer.md"
+    },
+    {
+      "path": "docs/examples/nginx-ingress.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/0fc1e319734b1d032ea53e4f.md",
+      "kind": "official-document",
+      "bytes": 10851,
+      "sha256": "62f49b381fe001f0045427a15619f983c6a02f88dc132995cfe578fd24042950",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/nginx-ingress.md"
+    },
+    {
+      "path": "docs/examples/oidc/oidc-cluster-configuration.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/f20038db7e5b141aead1c688.md",
+      "kind": "official-document",
+      "bytes": 5955,
+      "sha256": "aae679d6fb9dd6d22ccce8625dbb7db2f908cf04386fc350c50bf51394dadaa2",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/oidc/oidc-cluster-configuration.md"
+    },
+    {
+      "path": "docs/examples/oidc/oidc-provider-configuration.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/1b026145a8c403b87081be18.md",
+      "kind": "official-document",
+      "bytes": 2148,
+      "sha256": "c9e8acd5c31363ff9681fc473998c9082c5acf01fe6b3edef16e4c23d9ee616f",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/oidc/oidc-provider-configuration.md"
+    },
+    {
+      "path": "docs/examples/openebs.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/5ef44c016de0ce17ef1c99d2.md",
+      "kind": "official-document",
+      "bytes": 6191,
+      "sha256": "c912a5aa6f05ace356badf28ead7673f493a06a01c3da9f6633116fabeb2e3f1",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/openebs.md"
+    },
+    {
+      "path": "docs/examples/rook-ceph.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/dffbcec9e1496dfeb52f83fc.md",
+      "kind": "official-document",
+      "bytes": 13808,
+      "sha256": "7bd9d85575c88356b1a1e63bd698462729526bdf89f2093f703584bb08b9e411",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/rook-ceph.md"
+    },
+    {
+      "path": "docs/examples/traefik-ingress.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/25c7d2e5176fd32824cc1847.md",
+      "kind": "official-document",
+      "bytes": 10645,
+      "sha256": "c6cf8a2eb99485e2b6fb84f67f118a74ef7b20b95c86b4a28753912977c75ef5",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/examples/traefik-ingress.md"
+    },
+    {
+      "path": "docs/experimental-windows.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/fe3d70bb5e9799e1c0655b5d.md",
+      "kind": "official-document",
+      "bytes": 2162,
+      "sha256": "05ba34aa01a370c68a66696c340a0b47421246bf8f540ce1116e9f965747ceb1",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/experimental-windows.md"
+    },
+    {
+      "path": "docs/extensions.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/5a07081f272ac5d5dcc8fbd2.md",
+      "kind": "official-document",
+      "bytes": 3701,
+      "sha256": "a61b90ce06b7dcdbc3b1fda2dead636bf3f8b21be8df015027d4df54e41400c7",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/extensions.md"
+    },
+    {
+      "path": "docs/external-runtime-deps.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/62f1f39d3caad6ef4b67b16a.md",
+      "kind": "official-document",
+      "bytes": 11190,
+      "sha256": "e8632a4218cfe81fb3ac1ecad29f5307780661cfe34445142fc4a058ecfdec6a",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/external-runtime-deps.md"
+    },
+    {
+      "path": "docs/feature-gates.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/b80a6bf8900f7bb9d854c86c.md",
+      "kind": "official-document",
+      "bytes": 1867,
+      "sha256": "49b6cf51110991388784e210a31a3ea28f2f0b12294bf6e33e386acf651edd87",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/feature-gates.md"
+    },
+    {
+      "path": "docs/governance/cncf/ai-conformance.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/e628b933157d5ec1db9dad82.md",
+      "kind": "official-document",
+      "bytes": 14693,
+      "sha256": "d164c4a809893069a8ad1bc0e488a15205cefe5a126d5ac223bb645409d52597",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/governance/cncf/ai-conformance.md"
+    },
+    {
+      "path": "docs/governance/cncf/gtr.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/6a9d1d0e747ae991fc85ac4b.md",
+      "kind": "official-document",
+      "bytes": 24273,
+      "sha256": "bb164ebc11bec1f1d043574b4a3e04c1df870ac1c2c4b9cb69d0e22cb6740b1f",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/governance/cncf/gtr.md"
+    },
+    {
+      "path": "docs/governance/cncf/security-self-assessment.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/3f371637a4796934bb6b626f.md",
+      "kind": "official-document",
+      "bytes": 7213,
+      "sha256": "03f32f4fbeab8298999dbdcd4674565aac11ede9ea0caad8c15bdbb77b24c19b",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/governance/cncf/security-self-assessment.md"
+    },
+    {
+      "path": "docs/helm-charts.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/6109d137b375e5721826f336.md",
+      "kind": "official-document",
+      "bytes": 14697,
+      "sha256": "8c645104673e55da06e74cad1dbaad3c4b0a166c49786750e5b2feb29a07a2cf",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/helm-charts.md"
+    },
+    {
+      "path": "docs/high-availability.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/a7be5b92cdfb572130ba0e8d.md",
+      "kind": "official-document",
+      "bytes": 4496,
+      "sha256": "cb0280709fc9df068255653fd4fc7ecd00d7f038ff20a65f101b91370fc74f2e",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/high-availability.md"
+    },
+    {
+      "path": "docs/install.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/162b45a313f5f057a233411e.md",
+      "kind": "official-document",
+      "bytes": 4766,
+      "sha256": "8e63780470ec9b4243129c0ca4cb3ebdaa5ac3d4717cee75c22692a7f59aa775",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/install.md"
+    },
+    {
+      "path": "docs/internal/upgrading-calico.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/743a3820b90ffd2abccc1737.md",
+      "kind": "official-document",
+      "bytes": 4286,
+      "sha256": "25007f74dad30b5dd8dc67918f9a1ec670b34722ab1e2ff826c63715053b7eeb",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/internal/upgrading-calico.md"
+    },
+    {
+      "path": "docs/k0s-in-docker.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/66255f7211a96d5ca76f7c3c.md",
+      "kind": "official-document",
+      "bytes": 12812,
+      "sha256": "8f937a18ce4bd5485787461c9c34b95db128c3f8cfa88e5e45bb592ff5e29141",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/k0s-in-docker.md"
+    },
+    {
+      "path": "docs/k0s-multi-node.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/ae4ba920da992badca583cee.md",
+      "kind": "official-document",
+      "bytes": 7107,
+      "sha256": "d0366c9938d99a5865935f19a2fec81ed34689729e6f416bd5f8dd1446865980",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/k0s-multi-node.md"
+    },
+    {
+      "path": "docs/k0s-single-node.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/3770d35e00381b3e2dd11955.md",
+      "kind": "official-document",
+      "bytes": 130,
+      "sha256": "08d9227026ed74b14f2c801d967170f18a6ab48fe4eb9faf6d79a47073a4738a",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/k0s-single-node.md"
+    },
+    {
+      "path": "docs/k0sctl-install.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/d6ab23280538345345e39376.md",
+      "kind": "official-document",
+      "bytes": 6435,
+      "sha256": "5406bc7249476ab72c2338a137d1c57296d07cbac22e7dfc0f0266c914c2a13e",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/k0sctl-install.md"
+    },
+    {
+      "path": "docs/manifests.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/673ce59eedfeeec1d0f8cd9f.md",
+      "kind": "official-document",
+      "bytes": 2568,
+      "sha256": "8929146fca19fd834eacfddf30bc7a6ecd806480692125f95301f40686646100",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/manifests.md"
+    },
+    {
+      "path": "docs/networking.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/b053012ac3d8fcefac4db4a3.md",
+      "kind": "official-document",
+      "bytes": 10333,
+      "sha256": "a31ff453140755d80de2624670a7714c0959446cb0dfa978ae7ebce6737252fd",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/networking.md"
+    },
+    {
+      "path": "docs/nllb.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/d0d666e468e71b8418c5b928.md",
+      "kind": "official-document",
+      "bytes": 17216,
+      "sha256": "0135b73854fa6f5485ea1ef3c7fd114d29304bf5e8773ff014b89da89181fa7d",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/nllb.md"
+    },
+    {
+      "path": "docs/podsecurity.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/42956cc60d53a72650eddaf1.md",
+      "kind": "official-document",
+      "bytes": 1377,
+      "sha256": "5d936b161ca41ad3667bfde16625c7747d7084ecbf87623caa7e019a5039074d",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/podsecurity.md"
+    },
+    {
+      "path": "docs/raspberry-pi4.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/3749edb1cfbec8b560e7af5f.md",
+      "kind": "official-document",
+      "bytes": 32325,
+      "sha256": "0a63af6a3feed39f670f06675be6ec584795f4c25e01a950390a589f48f83126",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/raspberry-pi4.md"
+    },
+    {
+      "path": "docs/raspberry-pi5.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/182d44ae613474da2635dea0.md",
+      "kind": "official-document",
+      "bytes": 13551,
+      "sha256": "2571773891db9446eea6d528643cbf42bac9e3b7936b51581f9916805cf5a565",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/raspberry-pi5.md"
+    },
+    {
+      "path": "docs/reinstall-k0sctl.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/0aea3c35feff904494d4c7af.md",
+      "kind": "official-document",
+      "bytes": 1262,
+      "sha256": "2e8239e844e0a6976328795b91be67cccadd4c3f5772f726ae9371de555c8be1",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/reinstall-k0sctl.md"
+    },
+    {
+      "path": "docs/releases.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/ddff4241c2f41c415cbf4ff2.md",
+      "kind": "official-document",
+      "bytes": 3269,
+      "sha256": "e3e25e5360c8d5e428a8950920adf6fb8a94a9e70d76a29a9ba1a04ad16db082",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/releases.md"
+    },
+    {
+      "path": "docs/remove_controller.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/e957178e5d506865c0a98b45.md",
+      "kind": "official-document",
+      "bytes": 3939,
+      "sha256": "cace4c6058ec43b75f584048cf53630d7d07975a4755c09a3ce9af54768f4788",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/remove_controller.md"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/2c9c11d26b09b8afde329980.txt",
+      "kind": "official-document",
+      "bytes": 766,
+      "sha256": "3509c1ffd5ba2ae97b5c4418062308c1f398ba33d8c5e39c62f69dcf2b6876b2",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/requirements.txt"
+    },
+    {
+      "path": "docs/requirements_pip.txt",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/61d7b4a97124c4bc34191dce.txt",
+      "kind": "official-document",
+      "bytes": 26,
+      "sha256": "aa00cef71d1b28b4812293d7d62a7f59bb019176a52b73d63564453d64b7f008",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/requirements_pip.txt"
+    },
+    {
+      "path": "docs/reset.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/bb19ddc4a2ec93b006d44a13.md",
+      "kind": "official-document",
+      "bytes": 4426,
+      "sha256": "bec1f2eef0af37fbce4998ea2c5c3a046cada231856d2e81ae0365b7702c1ada",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/reset.md"
+    },
+    {
+      "path": "docs/runtime.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/5096268048292cb07cb216b5.md",
+      "kind": "official-document",
+      "bytes": 14000,
+      "sha256": "fd6ea252702e6e1d6704f3625644ddc5071f6159286fc7d31f2e5068a864c8d3",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/runtime.md"
+    },
+    {
+      "path": "docs/security.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/2c506cc756a5333f8fb5acb8.md",
+      "kind": "official-document",
+      "bytes": 240,
+      "sha256": "c30364d3f5d7b44fc25e154600e4e6fefc4bacc94c680ab9dbc80651d0e878f8",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/security.md"
+    },
+    {
+      "path": "docs/selinux.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/d2ae1eb225178fbc238678c0.md",
+      "kind": "official-document",
+      "bytes": 4495,
+      "sha256": "90669e3abd201729271ea8afed1adf0cb5ab81398537d3431d4a4d11d69d263d",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/selinux.md"
+    },
+    {
+      "path": "docs/shell-completion.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/96bb44fbf0dbb1def5cffc4f.md",
+      "kind": "official-document",
+      "bytes": 2914,
+      "sha256": "1ec228eca9da501a255522325992b5a51945d988f49814a46bf30645cc098392",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/shell-completion.md"
+    },
+    {
+      "path": "docs/single-stack-ipv6.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/0696046bb5cdc4f1a9af8282.md",
+      "kind": "official-document",
+      "bytes": 2196,
+      "sha256": "0111d75c182ccf33fecddc622e87283a24c2c4f0904aca2bfcfb20b1aff37bea",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/single-stack-ipv6.md"
+    },
+    {
+      "path": "docs/storage.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/1e47e7218df597c79a882aa1.md",
+      "kind": "official-document",
+      "bytes": 1786,
+      "sha256": "480d6758a19e876e81942a09c6ac918088536b34f4bcb2ed8f39592c2f7282f5",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/storage.md"
+    },
+    {
+      "path": "docs/system-monitoring.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/b99f16eda20474c2446ef0bf.md",
+      "kind": "official-document",
+      "bytes": 2808,
+      "sha256": "8f5711f78994e6caf0091ff7b7f972ae34d9fe8066f3452740b8e95f2a1283df",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/system-monitoring.md"
+    },
+    {
+      "path": "docs/system-requirements.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/d9c8b96b9636f1c077d7b877.md",
+      "kind": "official-document",
+      "bytes": 6296,
+      "sha256": "37a346b6e2a62016ea332428db3a535ca5e490bd9555ba6e8bdcb4d20bb3dd87",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/system-requirements.md"
+    },
+    {
+      "path": "docs/troubleshooting/FAQ.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/307673e6c19d42771802f336.md",
+      "kind": "official-document",
+      "bytes": 2056,
+      "sha256": "28b4c65b2c02f7ec8d4a7a7042587c6edfe78afeef1e0d5860fd4ab336109573",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/troubleshooting/FAQ.md"
+    },
+    {
+      "path": "docs/troubleshooting/certificate-authorities.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/04b975526bf7b0475ef60227.md",
+      "kind": "official-document",
+      "bytes": 3977,
+      "sha256": "9eefd10c3f05c696821330a8782e859f30cab24cfa541ffc4882be5db0d84192",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/troubleshooting/certificate-authorities.md"
+    },
+    {
+      "path": "docs/troubleshooting/logs.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/3070e5c78fe548f72f6bc395.md",
+      "kind": "official-document",
+      "bytes": 1798,
+      "sha256": "cee03303f8fee4f18beca425ec43abca39a8154b5d1d095f9c7599b5cd8d5222",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/troubleshooting/logs.md"
+    },
+    {
+      "path": "docs/troubleshooting/support-dump.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/9d73ca268afe0246cb242403.md",
+      "kind": "official-document",
+      "bytes": 2541,
+      "sha256": "93c8e6f867a39ab7325aa174f39cf94666b90794758e994d7c1739f69d0167d0",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/troubleshooting/support-dump.md"
+    },
+    {
+      "path": "docs/troubleshooting/troubleshooting.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/132c90aa3432b67b0a8dc2b6.md",
+      "kind": "official-document",
+      "bytes": 8117,
+      "sha256": "076fed384b211bc0cf448121362cefcbcfdfd5fd588216824243438e89764f1b",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/troubleshooting/troubleshooting.md"
+    },
+    {
+      "path": "docs/upgrade.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/3ec187be4d5027db52c48184.md",
+      "kind": "official-document",
+      "bytes": 3821,
+      "sha256": "efc124cf0efd3892bede894201bccb5e6317bb7168c749d2ebb6b96911a487e2",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/upgrade.md"
+    },
+    {
+      "path": "docs/user-management.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/b82019547a5028203e0dc595.md",
+      "kind": "official-document",
+      "bytes": 1650,
+      "sha256": "5a8a4e09bac0bda32af669fae7ab6e1283790e163490d3bb626a3d095e811953",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/user-management.md"
+    },
+    {
+      "path": "docs/verifying-signs.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/1b485d1819e3fc0a635bb39a.md",
+      "kind": "official-document",
+      "bytes": 787,
+      "sha256": "01d30359dd54095f5fbc3bd3b3c65e365ae3b8e71dacb459fba7dcc0c4e41c2e",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/verifying-signs.md"
+    },
+    {
+      "path": "docs/version-skew-policy.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/7de802ebbbaf43767573894a.md",
+      "kind": "official-document",
+      "bytes": 2626,
+      "sha256": "cef12194bb9f9e696f3139ef038468204cbd8c8d33460a0a24c606e91cd306b0",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/version-skew-policy.md"
+    },
+    {
+      "path": "docs/worker-node-config.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/e474512fef670da9362c88de.md",
+      "kind": "official-document",
+      "bytes": 6488,
+      "sha256": "e570b0084226505ee555e3013a83aad367d1308212fd411fe743d5bc8d0260eb",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/docs/worker-node-config.md"
+    },
+    {
+      "path": "hack/copyright.sh",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/82f4ba0c2cb78b5d0a274e29.sh",
+      "kind": "license",
+      "bytes": 2521,
+      "sha256": "a55e6172aaabe489af335154a99735a195201e89e9058ce9840102fd3f0ce944",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/hack/copyright.sh"
+    },
+    {
+      "path": "hack/ostests/README.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/95375096ac4819f570ed3b1e.md",
+      "kind": "official-document",
+      "bytes": 6741,
+      "sha256": "a20ca79b4930c2a6151efc53e70daf7ea9682e08138e436f92a78917f21d0074",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/hack/ostests/README.md"
+    },
+    {
+      "path": "inttest/README.md",
+      "localPath": "raw/k0sproject--k0s/a3bbacab2a02/8a3821d56043ad3aa5224998.md",
+      "kind": "official-document",
+      "bytes": 2196,
+      "sha256": "039c56aaebc4f2c481153b00b31358b1e8896a6b6dea927386487735219a6720",
+      "sourceUrl": "https://github.com/k0sproject/k0s/blob/a3bbacab2a029259f4909de72238fa90b2022a31/inttest/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,824 @@
+{
+  "schemaVersion": 1,
+  "repo": "v6d-io/v6d",
+  "commit": "0cbaada9db11d0268aa166b91cb7503bab0ccf86",
+  "retrievedAt": "2026-10-01T15:44:00.329111+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Runtime/Cloud Native Storage"
+  ],
+  "archiveUrl": "https://codeload.github.com/v6d-io/v6d/zip/0cbaada9db11d0268aa166b91cb7503bab0ccf86",
+  "selectionSha256": "c98fbbb06299cf6992fef316d2bc214e199d5aba42ccdbbe1492c1e92d085cb8",
+  "selection": {
+    "docRoots": [],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "b32905cfc1fd2054acea595a61a7bf929ada1e82ebf1fe68890d743858124662",
+  "archiveBytes": 9379453,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 78,
+    "code": 18,
+    "licenses": 3,
+    "bytes": 701293
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 300,
+      "sha256": "95d127ca2fb041bc013b2b24d8f4279cadbfa60bd3476116e922874a0bfc5e95",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/76e7ca2f2843ac5f659b4538.rst",
+      "kind": "official-document",
+      "bytes": 8035,
+      "sha256": "670e785a8e06db7978dbda18d498ba463ed904f2f01c7d4463ecc426907606a1",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/CONTRIBUTING.rst"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 3725,
+      "sha256": "0629533c927d0f6d0442bb94289e5fcc32cb98e66e9cf2d0489cf79b4aab3d5a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 66486,
+      "sha256": "5e1a9f68dc8c56b1d0ad1d46fef407ed944e31e805d67d4dd7d53f0b31af5773",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 2737,
+      "sha256": "da781951c66d6f7443c4b7ddcc41ca0dd1b72885b3903435a35e9b8138bdb533",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/MAINTAINERS.md"
+    },
+    {
+      "path": "NOTICE.txt",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/b810ebe4ffda4293c79d2920.txt",
+      "kind": "license",
+      "bytes": 2247,
+      "sha256": "fb05e96a29b1b6c3378c137096dc864ce817a7b028d2b0c8d0348be7ba50ba5b",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/NOTICE.txt"
+    },
+    {
+      "path": "README.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/7b3ed02bc73dc06b7db906cf.rst",
+      "kind": "official-document",
+      "bytes": 18643,
+      "sha256": "a5ebb1366c52f9779ac33fda9c229af7bb14e0876d58ca6d19daf4c97160e50e",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/README.rst"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1347,
+      "sha256": "cc541cd0e29eb25faaa2d43e6e2da65def95c2769720d98f26613cec8caab2cd",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/SECURITY.md"
+    },
+    {
+      "path": "benchmark/alloc_test/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/22ef876413e39d4ad38d0a93.md",
+      "kind": "official-document",
+      "bytes": 2331,
+      "sha256": "aca632f78b6ea3313240ab897d2ea7787b4bbef0c0d645625270fbb850a43ad6",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/benchmark/alloc_test/README.md"
+    },
+    {
+      "path": "benchmark/blob_test/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/6d87a299eaf80efa3e98bb59.md",
+      "kind": "official-document",
+      "bytes": 2554,
+      "sha256": "0ef161768a61223f69ae10a4924bcfd2236f01d402eee49f66038e5609ea2b2f",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/benchmark/blob_test/README.md"
+    },
+    {
+      "path": "charts/vineyard-operator/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/d951518d3919910cdd4825f4.md",
+      "kind": "official-document",
+      "bytes": 5999,
+      "sha256": "1e64c14a61aae84c650f93483719ab6b30de2830f2b442c8abf944c51f095f1b",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/charts/vineyard-operator/README.md"
+    },
+    {
+      "path": "docs/_templates/base.html",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/e792c274a1c69adcc762959e.html",
+      "kind": "official-document",
+      "bytes": 1505,
+      "sha256": "f34e9d2de95091ae5181fe8787d31d555d786dc3c42dca7a3665b5946c959a2f",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/_templates/base.html"
+    },
+    {
+      "path": "docs/_templates/index.html",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f9e7862efbd3673f4cb3c995.html",
+      "kind": "official-document",
+      "bytes": 12891,
+      "sha256": "5eb321500461e1833db06bc81176d0019e00f8e907d32143b3fa54bd02763938",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/_templates/index.html"
+    },
+    {
+      "path": "docs/_templates/layout.html",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/84b68ee87da9e716113b3eba.html",
+      "kind": "official-document",
+      "bytes": 84,
+      "sha256": "15c30ff788559d2a0827295cee51e1913c023b8b4fdec39f15c89a6c66f78e85",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/_templates/layout.html"
+    },
+    {
+      "path": "docs/_templates/page.html",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/0905ab5c416d7018f1d26a0d.html",
+      "kind": "official-document",
+      "bytes": 3908,
+      "sha256": "d52d61971f57997dc3418672a62d348079b821f60ded8fe98c03a7a4d62e6d25",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/_templates/page.html"
+    },
+    {
+      "path": "docs/cncf/2022-vineyard-annual.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/260f35dea68a85b550d15ced.md",
+      "kind": "official-document",
+      "bytes": 8253,
+      "sha256": "e46497deea8bc371efd0d39e3d1b0d9022f16f3f0df1fd8117c583cee8acb27f",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/cncf/2022-vineyard-annual.md"
+    },
+    {
+      "path": "docs/cncf/2023-vineyard-annual.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/8f8de51ab67df93e0a8057dc.md",
+      "kind": "official-document",
+      "bytes": 12070,
+      "sha256": "e3ce42f7a00fb18a0cfdfc4bd230971843caf1187ca31eb5d185aa68ef80686a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/cncf/2023-vineyard-annual.md"
+    },
+    {
+      "path": "docs/docs.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/026e53809ed5f87d05a72996.rst",
+      "kind": "official-document",
+      "bytes": 8539,
+      "sha256": "03a4dfbfe0bd87bb1996aae8682defe5654f4560f4a9c063cfaa704827f85e0d",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/docs.rst"
+    },
+    {
+      "path": "docs/notes/architecture.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/af84f20ad60d0d2bc653315c.rst",
+      "kind": "official-document",
+      "bytes": 7942,
+      "sha256": "8828f540c06890d1261d1d4ac4a182544afbcfc08f1ef60b2a8b44e7ab8b55a4",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/architecture.rst"
+    },
+    {
+      "path": "docs/notes/cloud-native/deploy-kubernetes.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f4a092c72c3ae1a95ce3c246.rst",
+      "kind": "official-document",
+      "bytes": 8048,
+      "sha256": "e660c13ca937b47c598142375ab9f2e1b47b878f139632b481c2c0ae632436dd",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/cloud-native/deploy-kubernetes.rst"
+    },
+    {
+      "path": "docs/notes/cloud-native/vineyard-operator.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/0a1b5552768327d03320ac10.rst",
+      "kind": "official-document",
+      "bytes": 54572,
+      "sha256": "7bbc19c2112c804564c38e3a9d5a04b0a352973b642346df5fc9a7e75cd5157c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/cloud-native/vineyard-operator.rst"
+    },
+    {
+      "path": "docs/notes/cloud-native/vineyardctl.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/af7821f3796d3e6bc6db5e0e.md",
+      "kind": "official-document",
+      "bytes": 26,
+      "sha256": "3689a0088fbc1f892f7a5294d481f0bfc94baa1553295047b23279c320958676",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/cloud-native/vineyardctl.md"
+    },
+    {
+      "path": "docs/notes/developers.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/1c7050fcf1afe7790b3d202d.rst",
+      "kind": "official-document",
+      "bytes": 2374,
+      "sha256": "397f2ddcab2659d2e2b01b7694f5303f65971d625aaa3d76790c4e66a1977b69",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/developers.rst"
+    },
+    {
+      "path": "docs/notes/developers/build-from-source.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/d5485a2d35b23d062e04c015.rst",
+      "kind": "official-document",
+      "bytes": 4886,
+      "sha256": "d0b5e6b77be14064b88e78eb974e8bc3fb17742255a1096032dd4b0b7ab7b956",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/developers/build-from-source.rst"
+    },
+    {
+      "path": "docs/notes/developers/contributing.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/edae90d13544d7e7ad625111.rst",
+      "kind": "official-document",
+      "bytes": 143,
+      "sha256": "7e40454bd89d72b37261905f334a3bd9cc3b0b878604fa8cbec2f0b9c6321b45",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/developers/contributing.rst"
+    },
+    {
+      "path": "docs/notes/developers/faq.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/6c71e0415f78c2c22ea89fa7.rst",
+      "kind": "official-document",
+      "bytes": 7883,
+      "sha256": "233dbc129948890ee2b67b6a5e6ad6ccbb6a48f10fda9090b69880ac1cac5949",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/developers/faq.rst"
+    },
+    {
+      "path": "docs/notes/developers/roadmap.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/48a1be4faebfde2a4251a6e1.rst",
+      "kind": "official-document",
+      "bytes": 5310,
+      "sha256": "7b4c7277b26de1378a8310c4319883b1ff4cfb1c9b872870ba464723d1b042ae",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/developers/roadmap.rst"
+    },
+    {
+      "path": "docs/notes/developers/troubleshooting.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/0d542f2383eabe8445d0b501.rst",
+      "kind": "official-document",
+      "bytes": 1960,
+      "sha256": "f00176e89d3bc44abd1b6d4814c37b4c6ca5eac7da062b4ed0d4baa0600c8584",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/developers/troubleshooting.rst"
+    },
+    {
+      "path": "docs/notes/getting-started.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c33d4e5b4808c6f0835ba1a4.rst",
+      "kind": "official-document",
+      "bytes": 7111,
+      "sha256": "568df54e0e2ba60130541edec23ff47396b63bec92cce63868ebfdabdd3da3f4",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/getting-started.rst"
+    },
+    {
+      "path": "docs/notes/integration-bigdata.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/47e7b21a567b95c12668948d.rst",
+      "kind": "official-document",
+      "bytes": 830,
+      "sha256": "a9a6b3456e819057887f3883d7e56c320d4a903a124b4c6e4b300db24f0c1709",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration-bigdata.rst"
+    },
+    {
+      "path": "docs/notes/integration-orchestration.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/925c7cf61ea9427979a79ce5.rst",
+      "kind": "official-document",
+      "bytes": 1523,
+      "sha256": "0d43c3cf8c7e811fe5c3f8cb520bae8b521e23e5d9e06e4cc36818463972c044",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration-orchestration.rst"
+    },
+    {
+      "path": "docs/notes/integration/airflow.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/8a154358040f9c5d6bb099f1.rst",
+      "kind": "official-document",
+      "bytes": 8439,
+      "sha256": "56b23809d6e46e8f8cd66ae14dac6a1bb0762c61f21cf520d0925d2790141074",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration/airflow.rst"
+    },
+    {
+      "path": "docs/notes/integration/dask.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/186093131de05f58dba803c6.rst",
+      "kind": "official-document",
+      "bytes": 6698,
+      "sha256": "176bd90e9fe861047200aaeac7cad6aeb0bb276d33c578387de06119cce9b21c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration/dask.rst"
+    },
+    {
+      "path": "docs/notes/integration/kedro.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/4ed98cb7157a9dc68951b6af.md",
+      "kind": "official-document",
+      "bytes": 11290,
+      "sha256": "18526118c71f5b64a37678ae354ac22f881c01cfba73e6aecffc03a38dfe623e",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration/kedro.md"
+    },
+    {
+      "path": "docs/notes/integration/ml.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c3503138035257e3e5c9868a.rst",
+      "kind": "official-document",
+      "bytes": 11314,
+      "sha256": "2201b52e44455558e8b5ca4f9780c583f3b2cf06a1cbbcd09ec9fe4c520c768a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration/ml.rst"
+    },
+    {
+      "path": "docs/notes/integration/ray.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c380136141d46890b1c5b5a2.rst",
+      "kind": "official-document",
+      "bytes": 32,
+      "sha256": "71b4ebfddff12e2b8eb049305fe8faeff71439a22643c5efe221140282010505",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/integration/ray.rst"
+    },
+    {
+      "path": "docs/notes/key-concepts.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/4a54f8f15be2163cf7db3244.rst",
+      "kind": "official-document",
+      "bytes": 1981,
+      "sha256": "4204d549ac287934c1f06678c96ac3b566415552e7c0b8cb3110d38cf309ea2c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/key-concepts.rst"
+    },
+    {
+      "path": "docs/notes/key-concepts/data-accessing.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/7088b100f1d41f20b343b538.rst",
+      "kind": "official-document",
+      "bytes": 12397,
+      "sha256": "7cfe1d7f10cc4d5ad94f5ab67e0c1b92e5eb234532b532b7b1a3ac4883011d14",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/key-concepts/data-accessing.rst"
+    },
+    {
+      "path": "docs/notes/key-concepts/io-drivers.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2b9ce01ca5a5d255c3af2022.rst",
+      "kind": "official-document",
+      "bytes": 1523,
+      "sha256": "40e8bf06823276d96d8b346e3fb2d389922e5f292b6ad7a92ffcbd3ed7f3f81a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/key-concepts/io-drivers.rst"
+    },
+    {
+      "path": "docs/notes/key-concepts/objects.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/3a2d60062363894a972bed18.rst",
+      "kind": "official-document",
+      "bytes": 11718,
+      "sha256": "893be3bae618e8d8cc91e4132b0e97ccea565dfa7585ccf037266d37ad575728",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/key-concepts/objects.rst"
+    },
+    {
+      "path": "docs/notes/key-concepts/streams.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/262ad79fdd95022806c22296.rst",
+      "kind": "official-document",
+      "bytes": 4020,
+      "sha256": "dc35c06e62b3505ba44dfbe905139a2f087437fdf8927778674c5cf88019fd18",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/key-concepts/streams.rst"
+    },
+    {
+      "path": "docs/notes/key-concepts/vcdl.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/be95d035d9c9258e8ba5477d.rst",
+      "kind": "official-document",
+      "bytes": 1418,
+      "sha256": "47f410e0c5eea53ff002a873903b01ff373084e8e024e5a6a74f1a869bf7d71c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/key-concepts/vcdl.rst"
+    },
+    {
+      "path": "docs/notes/references.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/fdb3055ec1c8a680dc3a0cab.rst",
+      "kind": "official-document",
+      "bytes": 1078,
+      "sha256": "4deabae10144eb519b7aae5964394df84420c24717347796fd4a6eb025dfa90b",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/references.rst"
+    },
+    {
+      "path": "docs/notes/references/cpp-api.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/27ca0092e931eecdf2444677.rst",
+      "kind": "official-document",
+      "bytes": 2494,
+      "sha256": "1402a7c24286a1ec7619de5ffce838b90974e04db98f1f032106f30cc2c9232a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/references/cpp-api.rst"
+    },
+    {
+      "path": "docs/notes/references/crds.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/6255ac17801f0ddfe6197400.md",
+      "kind": "official-document",
+      "bytes": 40,
+      "sha256": "00732ca1a4b6dafad3d3cc71b5db459b54b7486104185ce16fef619630508fd7",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/references/crds.md"
+    },
+    {
+      "path": "docs/notes/references/python-api.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/8bb22a27054dfd490290be01.rst",
+      "kind": "official-document",
+      "bytes": 3108,
+      "sha256": "f327255fe4f746e1eee078f7091064ae5c4a63726dc9386c04b3943f338cb579",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/notes/references/python-api.rst"
+    },
+    {
+      "path": "docs/summer.html",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/68fe140f2213a66778522ecf.html",
+      "kind": "official-document",
+      "bytes": 213,
+      "sha256": "1e9b1776b23fe8fdd3e89bd7f82f41e6b3e80d3ed92c33fed83b4ecb3abf007b",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/summer.html"
+    },
+    {
+      "path": "docs/tutorials/data-processing.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2142464ebe1a1d87f263e797.rst",
+      "kind": "official-document",
+      "bytes": 2314,
+      "sha256": "36176993ad035cc69b006a6de0831332f98f475ca15b3c9edd23e4f234d6f9c5",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/data-processing.rst"
+    },
+    {
+      "path": "docs/tutorials/data-processing/accelerate-data-sharing-in-kedro.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2bfa1b5555fa0b2f85bda16e.rst",
+      "kind": "official-document",
+      "bytes": 9761,
+      "sha256": "9855987a1a0516e6bd9d397d084f4e9b2591d45eb5bf0c7170c3fca7d9a01deb",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/data-processing/accelerate-data-sharing-in-kedro.rst"
+    },
+    {
+      "path": "docs/tutorials/data-processing/gpu-memory-sharing.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f1e343c281fc8571658a1081.rst",
+      "kind": "official-document",
+      "bytes": 4024,
+      "sha256": "1dff33956c0e5e40fed9e66f76ea6b22b6cda77547026337ea184e6855936bd6",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/data-processing/gpu-memory-sharing.rst"
+    },
+    {
+      "path": "docs/tutorials/data-processing/python-sharedmemory.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/272e01ae783bf8303d16c8ef.rst",
+      "kind": "official-document",
+      "bytes": 1542,
+      "sha256": "7228c493e4387fd42af000fe9fc4a98e26d820891fe0ae0d332aee79662a8779",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/data-processing/python-sharedmemory.rst"
+    },
+    {
+      "path": "docs/tutorials/data-processing/using-objects-python.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/6010365253cb983c05039817.rst",
+      "kind": "official-document",
+      "bytes": 3251,
+      "sha256": "ff9510b90c96b38eaf71c1f183f244db3a8bf354585334105c7975de82a95e53",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/data-processing/using-objects-python.rst"
+    },
+    {
+      "path": "docs/tutorials/extending.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/7ffda055e2ad34be870e897d.rst",
+      "kind": "official-document",
+      "bytes": 1148,
+      "sha256": "b43249228868acdb99b1d45e4575da9b2609979f9dd532d2dfb5be853256fe92",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/extending.rst"
+    },
+    {
+      "path": "docs/tutorials/extending/define-datatypes-cpp.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2bd42c5653a0220f628177b4.rst",
+      "kind": "official-document",
+      "bytes": 10250,
+      "sha256": "e75a5bd9e157c31333e3866c4f31278fb0ea9c7d4d0b9a40eaba5039d4b77f5e",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/extending/define-datatypes-cpp.rst"
+    },
+    {
+      "path": "docs/tutorials/extending/define-datatypes-python.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/ee4d160805548a41747e5ba4.rst",
+      "kind": "official-document",
+      "bytes": 6501,
+      "sha256": "e9be900fafc8514925783b830a68e3f53569b3140fcedb2364509a416036a5c1",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/extending/define-datatypes-python.rst"
+    },
+    {
+      "path": "docs/tutorials/kubernetes.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/e82b5697cc3b01a6ca7d13f4.rst",
+      "kind": "official-document",
+      "bytes": 1357,
+      "sha256": "59ca9a93826aceec1c94b04832db9946e93080fd0adfd217906cef15efcb6726",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/kubernetes.rst"
+    },
+    {
+      "path": "docs/tutorials/kubernetes/data-sharing-with-vineyard-on-kubernetes.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/4601e1e39b97431a72412077.rst",
+      "kind": "official-document",
+      "bytes": 9581,
+      "sha256": "45499dbc839c7186887a0fcf0e229474f9342c9f9de591cc452b8d54355e4a3c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/kubernetes/data-sharing-with-vineyard-on-kubernetes.rst"
+    },
+    {
+      "path": "docs/tutorials/kubernetes/efficient-data-sharing-in-kubeflow-with-vineyard-csi-driver.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f55c91860cfbee73eebf9b84.rst",
+      "kind": "official-document",
+      "bytes": 23118,
+      "sha256": "7715dbe3b3b54e8897a8fe2c09931b26046fda5e00b76fd65d5c9d387e44c8af",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/kubernetes/efficient-data-sharing-in-kubeflow-with-vineyard-csi-driver.rst"
+    },
+    {
+      "path": "docs/tutorials/kubernetes/ml-pipeline-mars-pytorch.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/bd3e2b0025cf0a8b46bc147e.rst",
+      "kind": "official-document",
+      "bytes": 10403,
+      "sha256": "70cb00ffbf6f067b08d095e49ef761d0fd27879e7a87be57d7a55771ed81aee3",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/kubernetes/ml-pipeline-mars-pytorch.rst"
+    },
+    {
+      "path": "docs/tutorials/kubernetes/using-vineyard-operator.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/13cea4c6ef88bc594e193aab.rst",
+      "kind": "official-document",
+      "bytes": 15573,
+      "sha256": "b732590dfd14da6cbd858ade19d236d374007a318f417d288b703c877ce2aa3d",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/kubernetes/using-vineyard-operator.rst"
+    },
+    {
+      "path": "docs/tutorials/kubernetes/vineyard-on-fluid.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/aa592fbb5dcc540c3d51815b.rst",
+      "kind": "official-document",
+      "bytes": 14132,
+      "sha256": "3bb58c5208621dbe9e294d3785dbac80e81729e9f4b9ea39dc5c2d312bb191cc",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/kubernetes/vineyard-on-fluid.rst"
+    },
+    {
+      "path": "docs/tutorials/tutorials.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/170cacceac71f808cffad2d0.rst",
+      "kind": "official-document",
+      "bytes": 179,
+      "sha256": "4cbc68bb02028a55822de875c31f46570711674d7fa47a5593e05bcc3ce6712b",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/docs/tutorials/tutorials.rst"
+    },
+    {
+      "path": "go/vineyard/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/6cd4348d2c18ecc2aa7d13b6.md",
+      "kind": "official-document",
+      "bytes": 120,
+      "sha256": "45861030587bacc5d93fad11621426ca3e4a463b70e4ea51ec5fd3edda7f8c7d",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/go/vineyard/README.md"
+    },
+    {
+      "path": "java/hive/README.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/8bd44eb52fffb53fe1dae5f2.rst",
+      "kind": "official-document",
+      "bytes": 11912,
+      "sha256": "3be94236bb2373779cb847b16c0d6184856db41588e33e2c6e3e2b9adabc261c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/java/hive/README.rst"
+    },
+    {
+      "path": "java/spark/src/test/scala/samples/scalatest.scala",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/69c36f313e887cebfa663e88.scala",
+      "kind": "upstream-example-code",
+      "bytes": 1493,
+      "sha256": "a0168541b68cf5ac9caf88f184f48fa14c43a50c83f3c161c4c0d0af62bf9f04",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/java/spark/src/test/scala/samples/scalatest.scala"
+    },
+    {
+      "path": "k8s/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/1d8ece659445546a89a71fad.md",
+      "kind": "official-document",
+      "bytes": 1774,
+      "sha256": "6b7002a2acb1d430b24c4356e782ee34072a3fc6deccb2e5943830276e62e6d7",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/README.md"
+    },
+    {
+      "path": "k8s/apis/k8s/v1alpha1/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c527e905918dbcb5649fccb8.md",
+      "kind": "official-document",
+      "bytes": 19819,
+      "sha256": "c5b0e17382d97cce94c7c79a932a578bd5432b4baadf7a5050824c8a88d440e7",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/apis/k8s/v1alpha1/README.md"
+    },
+    {
+      "path": "k8s/cmd/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f815b48c5ff3d977914c84d9.md",
+      "kind": "official-document",
+      "bytes": 85903,
+      "sha256": "027bea809eec4341c312b88b79ff95661a6341ea4b6909673b1817c3c0d25f70",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/cmd/README.md"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/pipeline-kfp-v2-with-vineyard.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/ab82f969f848a3f3aa2d0575.py",
+      "kind": "upstream-example-code",
+      "bytes": 2070,
+      "sha256": "07289cc58be4404880f43189a456c33a71ccd7295c47e68d31dd1ecd58d31a01",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/pipeline-kfp-v2-with-vineyard.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/pipeline-kfp-v2.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/facc4ee3ea920e9547c4d9ea.py",
+      "kind": "upstream-example-code",
+      "bytes": 1358,
+      "sha256": "1ab608daa677d6feb2fdae27859b0074e5edadf827b095157a7734d646507c2e",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/pipeline-kfp-v2.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/pipeline-with-vineyard.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/870f124654d09662f2a0ac9d.py",
+      "kind": "upstream-example-code",
+      "bytes": 2310,
+      "sha256": "8e1fdd43fdbf5617980cf12ce6d96b9449b854d26eedcc3fab547a9bb6d7364a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/pipeline-with-vineyard.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/pipeline.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/e105e11139b63ddc8f16dcb8.py",
+      "kind": "upstream-example-code",
+      "bytes": 1525,
+      "sha256": "476f10cd9c546999bb46b3188791991877e65ebca73b9bf56c276d389503a5d8",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/pipeline.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/prepare-data/prepare-data.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/bbf3be088366a52d51ffa23b.py",
+      "kind": "upstream-example-code",
+      "bytes": 3835,
+      "sha256": "a761503c2dc4c92c1bcacd3975822c282d09985d6ee9a1aed445f8101fe9b178",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/prepare-data/prepare-data.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/preprocess/preprocess.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/fc6b0c1079574cfb9fda3c88.py",
+      "kind": "upstream-example-code",
+      "bytes": 2990,
+      "sha256": "b3f4daca9379993ed1f5d5d209390d59ccdce7ec3b2014bbac6e533d9e9521d2",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/preprocess/preprocess.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/test/test.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/efc495ca39eadb13d5c1aa3d.py",
+      "kind": "upstream-example-code",
+      "bytes": 1394,
+      "sha256": "0bee22cde022b2061c82526a466f0a6f0c0aa7de53c3004e2bcb3b4bb6255809",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/test/test.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-csidriver/train/train.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/e928124077025e440dad591d.py",
+      "kind": "upstream-example-code",
+      "bytes": 1322,
+      "sha256": "d03c8764f247a6fdec9255523a4185e406678e72ed738012a124a98ebac08c9f",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-csidriver/train/train.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/pipeline-with-vineyard.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/a18b3a6e11a8088aa0cdaf23.py",
+      "kind": "upstream-example-code",
+      "bytes": 3387,
+      "sha256": "be20090599a2fee07f917a16cf016a817b32baa683bdd8637486a577b913dc59",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/pipeline-with-vineyard.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/pipeline.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/21ea20956b4bac9f4ff11b06.py",
+      "kind": "upstream-example-code",
+      "bytes": 1643,
+      "sha256": "47629e3a56954028cd457a74b9bf3124080331f74b68cc215c854ed937ee946e",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/pipeline.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/prepare-data/prepare-data.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/72f4cec3e135e31f5405bf9a.py",
+      "kind": "upstream-example-code",
+      "bytes": 3835,
+      "sha256": "a761503c2dc4c92c1bcacd3975822c282d09985d6ee9a1aed445f8101fe9b178",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/prepare-data/prepare-data.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/preprocess/preprocess.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/627f29af75c450e67047f572.py",
+      "kind": "upstream-example-code",
+      "bytes": 3034,
+      "sha256": "42b6e5b637084e935661ff785e97893adcf843b7a18137c6eeafd1129d71690a",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/preprocess/preprocess.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/readme.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/3ae348bffb34aafc3e4753e6.md",
+      "kind": "official-document",
+      "bytes": 2713,
+      "sha256": "45399a873720a76335b29143fc1295d83f29d3ccb6c5c777fe4fc1f3476413ce",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/readme.md"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/test/test.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/76829944e08772fcc077c35c.py",
+      "kind": "upstream-example-code",
+      "bytes": 1432,
+      "sha256": "5dc951effe09f58936beb12362cfd83afe2cb4952b1c7315de4538243d095bf9",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/test/test.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-kubeflow/train/train.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/5d66eae18e62a91cba894af2.py",
+      "kind": "upstream-example-code",
+      "bytes": 1360,
+      "sha256": "945e370c03ee95899f61576777916d48424837e6dcf5dded603e11467345a1fd",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-kubeflow/train/train.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-mars-pytorch/prepare-data/prepare-data.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2b2512ab9dd9d502e5935e32.py",
+      "kind": "upstream-example-code",
+      "bytes": 2903,
+      "sha256": "8a01d76e38a26a8f87a1d71d0113b4733db79f0020a7f579527d473a4ba1b634",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-mars-pytorch/prepare-data/prepare-data.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-mars-pytorch/process-data/process-data.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/3982754fffbfd4ed4bde8a6b.py",
+      "kind": "upstream-example-code",
+      "bytes": 3104,
+      "sha256": "891f596a782b22494fee04e1ba02dfee7df88a80548ff03dc52be93896d03ec2",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-mars-pytorch/process-data/process-data.py"
+    },
+    {
+      "path": "k8s/examples/vineyard-mars-pytorch/train-data/train-data.py",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/f1ea4ec61046ee2d508e6881.py",
+      "kind": "upstream-example-code",
+      "bytes": 2982,
+      "sha256": "cbe7fc4769688421d725ef85407a7d4b410e68f212bae8541302ed4366119160",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/k8s/examples/vineyard-mars-pytorch/train-data/train-data.py"
+    },
+    {
+      "path": "modules/graph/README.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/ffaf503ea9f0cc72962c8bac.rst",
+      "kind": "official-document",
+      "bytes": 12073,
+      "sha256": "4c030950f0d9e5c5ee1991c886c40ba1d4997de46b50e47f87bdf84b843d751c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/modules/graph/README.rst"
+    },
+    {
+      "path": "modules/llm-cache/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/30339ce4ebc3ae12bf3e0818.md",
+      "kind": "official-document",
+      "bytes": 14275,
+      "sha256": "022add0f7b352e21086ea1340ce252ec3a7ed72274c2189db63669c26225071d",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/modules/llm-cache/README.md"
+    },
+    {
+      "path": "modules/llm-cache/tests/k8s-test/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/326316acee9b4f25b3e45b10.md",
+      "kind": "official-document",
+      "bytes": 3645,
+      "sha256": "5fd2e3b54ab42c5879f8b7873da1290446949e7775bbe65df198a3f550d68c49",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/modules/llm-cache/tests/k8s-test/README.md"
+    },
+    {
+      "path": "modules/llm-cache/tests/scripts/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/fe14517f10dd560c08310f50.md",
+      "kind": "official-document",
+      "bytes": 2341,
+      "sha256": "8fd0484177575ee5427e0902d2699157444be508c8ece809991cbef7eaf7d34c",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/modules/llm-cache/tests/scripts/README.md"
+    },
+    {
+      "path": "python/vineyard/contrib/airflow/LICENSE",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c300896866024436c5e00a54.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/airflow/LICENSE"
+    },
+    {
+      "path": "python/vineyard/contrib/airflow/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2d06d0f9742233ccd5df20d2.md",
+      "kind": "official-document",
+      "bytes": 7726,
+      "sha256": "2713b2a3f802decac701ed29a319e1781fd95a7e6aa3c2015d41465bb2fbbdfd",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/airflow/README.md"
+    },
+    {
+      "path": "python/vineyard/contrib/kedro/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/16e04b667f7c7687ff050887.md",
+      "kind": "official-document",
+      "bytes": 11525,
+      "sha256": "88f32e54cac174ec290c5817680ce244bc087d2fbaa845c4d74507dbf1632ef3",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/kedro/README.md"
+    },
+    {
+      "path": "python/vineyard/contrib/kedro/benchmark/mlops/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/68a046a55255666e670530af.md",
+      "kind": "official-document",
+      "bytes": 4114,
+      "sha256": "581632488858a61de135ba4a58567fd49e69c8232c32ddb3ffbd4ffc95de70ad",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/kedro/benchmark/mlops/README.md"
+    },
+    {
+      "path": "python/vineyard/contrib/kedro/benchmark/mlops/conf/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/9f5d96caf33a64a9ee07003a.md",
+      "kind": "official-document",
+      "bytes": 1067,
+      "sha256": "d2309f90504f2b94aa476c0938a77b5d307d7b5caf374830e03e198b79c8f1a2",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/kedro/benchmark/mlops/conf/README.md"
+    },
+    {
+      "path": "python/vineyard/contrib/kedro/benchmark/mlops/docs/source/index.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/0577e64e939561138649bcd0.rst",
+      "kind": "official-document",
+      "bytes": 403,
+      "sha256": "c7ad6be201043f9fdf1ebb29f7b06748dd48213ea58efcbc38933fffe7d87964",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/kedro/benchmark/mlops/docs/source/index.rst"
+    },
+    {
+      "path": "python/vineyard/contrib/ml/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/74194764e21178e6386ce101.md",
+      "kind": "official-document",
+      "bytes": 3783,
+      "sha256": "e862451d601aa608bf728eb7b7b57c8b609eb72f0cfa70dcdc3cdb10e749bd55",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/contrib/ml/README.md"
+    },
+    {
+      "path": "python/vineyard/drivers/io/README.rst",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/2d490e202ed3ae59fa74cf81.rst",
+      "kind": "official-document",
+      "bytes": 4941,
+      "sha256": "cc5726b6cb5efaf55fc9d1c50176e619d99e8e2882047f04788785ea9c4a7c05",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/python/vineyard/drivers/io/README.rst"
+    },
+    {
+      "path": "rust/README.md",
+      "localPath": "raw/v6d-io--v6d/0cbaada9db11/c91ac273490ce291988ae9ea.md",
+      "kind": "official-document",
+      "bytes": 4666,
+      "sha256": "851817bbd07d01f9bb2bca67706d14714d24584b2db4fa0ce193dc42238b4292",
+      "sourceUrl": "https://github.com/v6d-io/v6d/blob/0cbaada9db11d0268aa166b91cb7503bab0ccf86/rust/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,1953 @@
+{
+  "schemaVersion": 1,
+  "repo": "spring-projects/spring-security",
+  "commit": "747f40da13de66b67249601fa9ceb8e0e99e6ef4",
+  "retrievedAt": "2026-10-01T15:32:22.571603+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/spring"
+  ],
+  "archiveUrl": "https://codeload.github.com/spring-projects/spring-security/zip/747f40da13de66b67249601fa9ceb8e0e99e6ef4",
+  "archiveSha256": "c3dee69fbe197494ed15011842d51551692b49308eb3b50eb41add178caa14c6",
+  "archiveBytes": 19321285,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 217,
+    "code": 22,
+    "licenses": 2,
+    "bytes": 2386458
+  },
+  "files": [
+    {
+      "path": "CONTRIBUTING.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/cf6df8a86bba8fb7539f0419.adoc",
+      "kind": "official-document",
+      "bytes": 8922,
+      "sha256": "e0a4075e505f47e3c0cd6546b1226bf4aeba94e0580cd1332a8183191a6ee7fb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/CONTRIBUTING.adoc"
+    },
+    {
+      "path": "LICENSE.txt",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d0ed4cc3fb70489fe51c7e0a.txt",
+      "kind": "license",
+      "bytes": 11359,
+      "sha256": "7200000367e0e8b47822d563a5ddd2dd3a97cc05b32bd7dbcc7b4eeb92b76628",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/LICENSE.txt"
+    },
+    {
+      "path": "README.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/1194561cbea346acb1bea37d.adoc",
+      "kind": "official-document",
+      "bytes": 4919,
+      "sha256": "049115c5d26b691057ba9c5a05641aa3d9cc996d568e277a98e7d5e466e1ce15",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/README.adoc"
+    },
+    {
+      "path": "RELEASE.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/5ee00903ba0770a1816376f3.adoc",
+      "kind": "official-document",
+      "bytes": 12549,
+      "sha256": "a474883c87b6744ba212fb8f4edb29168046597cececec8370926d8cea27083d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/RELEASE.adoc"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/integrationtest/withjava/src/integration-test/java/sample/TheTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/6acdc289a30679aad13a860d.java",
+      "kind": "upstream-example-code",
+      "bytes": 249,
+      "sha256": "1aa4489e7a7618559ad8eb6b243630ea931d9c2a6dc81b465800c4d2451c4b45",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/integrationtest/withjava/src/integration-test/java/sample/TheTest.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/integrationtest/withpropdeps/src/integration-test/java/sample/TheTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3a661ce715e2dd5b778ed293.java",
+      "kind": "upstream-example-code",
+      "bytes": 193,
+      "sha256": "24130c360092aa00afa611812511db199b73cc8734cdc9890e88da44213b2ef3",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/integrationtest/withpropdeps/src/integration-test/java/sample/TheTest.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/jacoco/java/src/main/java/sample/TheClass.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a807cc6089f315d4ad4073f4.java",
+      "kind": "upstream-example-code",
+      "bytes": 140,
+      "sha256": "c7fa26d86b706460eab9a3e8c96b1c16a50c3880869f3744ba331987cf652d15",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/jacoco/java/src/main/java/sample/TheClass.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/jacoco/java/src/test/java/sample/TheClassTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8993fe77b83923f39079577b.java",
+      "kind": "upstream-example-code",
+      "bytes": 325,
+      "sha256": "d9917a78b24072ee06f0ad4bfd334d67fcd2c9721eac921a36ff28c18322a0a1",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/jacoco/java/src/test/java/sample/TheClassTest.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/javadocapi/multimodule/api/src/main/java/sample/Api.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3218dbefac467ef2ca8623d7.java",
+      "kind": "upstream-example-code",
+      "bytes": 143,
+      "sha256": "f34f0079bfadb86fb60a48f689d64452a425f0dbe086b33f569410f06ab532ba",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/javadocapi/multimodule/api/src/main/java/sample/Api.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/javadocapi/multimodule/impl/src/main/java/sample/Impl.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/232d1151b0ee0e26cac47474.java",
+      "kind": "upstream-example-code",
+      "bytes": 148,
+      "sha256": "961a7ca7b338b2cd8d7cd9b549d516909418d43d15eaf6ee0a59cc2751bd57d8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/javadocapi/multimodule/impl/src/main/java/sample/Impl.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/javadocapi/multimodule/sample/src/main/java/sample/Sample.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/76ecf1734d9d1c757af89bb1.java",
+      "kind": "upstream-example-code",
+      "bytes": 147,
+      "sha256": "6b98eccbec5e0f7585f4976f5a55d4d0b437297c8f16dfef55fa328641d9e739",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/javadocapi/multimodule/sample/src/main/java/sample/Sample.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-api/src/main/java/api/Api.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/958a4bdd85ae80d8e3d25f03.java",
+      "kind": "upstream-example-code",
+      "bytes": 71,
+      "sha256": "bca820fa4610e40d921dc81bec645b248360445310d2aac4abe0e0e6b56117db",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-api/src/main/java/api/Api.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-api/src/test/java/api/ApiTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/20c2019fdf3fb8b0736256cf.java",
+      "kind": "upstream-example-code",
+      "bytes": 105,
+      "sha256": "e392c3adcb45b4fbd52baf7f9855dd91925c17e914cd01a28e4d5652c8478554",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-api/src/test/java/api/ApiTest.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/main/java/core/CoreClass.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ee9af6497859a9843b802614.java",
+      "kind": "upstream-example-code",
+      "bytes": 103,
+      "sha256": "b6199c067bc16c6ef0b7d22937cbbdb24349bf59596afc5eb6d87eebd7f33721",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/main/java/core/CoreClass.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/main/java/core/HasOptional.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c76018ec768ff602f78a9a76.java",
+      "kind": "upstream-example-code",
+      "bytes": 260,
+      "sha256": "2de25aa6d1bc8223705cd2d761c288158f1b6069c41f61cf88449d459eade714",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/main/java/core/HasOptional.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/test/java/core/CoreClassTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/45faae3e16b8a2656e93b991.java",
+      "kind": "upstream-example-code",
+      "bytes": 141,
+      "sha256": "89a884dc0d87e9c8fafb03464614e317b8f26832fcb23bf3af01b782f829e7a5",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/test/java/core/CoreClassTest.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/test/java/core/HasOptionalTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b57e9e73f79e46acfc5ae383.java",
+      "kind": "upstream-example-code",
+      "bytes": 165,
+      "sha256": "c67d0bb8bc502f411326ee466b1f7af3c16c394bc6a79f553ae064e4ddc9872f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-core/src/test/java/core/HasOptionalTest.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/docs/asciidoc/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4f26d680da590e4d7c42f682.adoc",
+      "kind": "official-document",
+      "bytes": 994,
+      "sha256": "50f1f91ad90f10b8a482c1ee1e714c8ad82026af32784b5cbae04f79e01d0cf0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/docs/asciidoc/index.adoc"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/docs/asciidoc/subdir/_b.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/74d36d76110ab59a67ed456c.adoc",
+      "kind": "official-document",
+      "bytes": 105,
+      "sha256": "ac30e3c71425fd675b048dd0efbd4c9eb75bbb711276dcc2dc79ed01bc90a2f9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/docs/asciidoc/subdir/_b.adoc"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/docs/asciidoc/subdir/_c.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/34fa38673907f0b37a097b6c.adoc",
+      "kind": "official-document",
+      "bytes": 48,
+      "sha256": "3a4123d915fda5e428403d1e53dac4ad661391fa871e9eab57f076b5b61ce14c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/docs/asciidoc/subdir/_c.adoc"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/main/java/example/StringUtils.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9db3eeddc50d54bc5fa3badc.java",
+      "kind": "upstream-example-code",
+      "bytes": 203,
+      "sha256": "d74d415165e0989c1444cebd99908a650bb5c109fdf0a2821b648a5f2a0a7a6f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/showcase/sgbcs-docs/src/main/java/example/StringUtils.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/testsconfiguration/core/src/test/java/sample/Dependency.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c28c01c6d1691741fe4da1e9.java",
+      "kind": "upstream-example-code",
+      "bytes": 43,
+      "sha256": "78c89f804fbfea859c0d972da4210852985450f5933b5009760e2adbf562d127",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/testsconfiguration/core/src/test/java/sample/Dependency.java"
+    },
+    {
+      "path": "buildSrc/src/test/resources/samples/testsconfiguration/web/src/test/java/sample/DependencyTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8db3b58a846d049dc06a3fcb.java",
+      "kind": "upstream-example-code",
+      "bytes": 143,
+      "sha256": "d802a77d434ad0411c3f372478b699412d1dccf89b01028f66397c1642c098a9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/buildSrc/src/test/resources/samples/testsconfiguration/web/src/test/java/sample/DependencyTest.java"
+    },
+    {
+      "path": "docs/articles/src/docbook/codebase-structure.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/503635aecb13092d889d2ac7.xml",
+      "kind": "official-document",
+      "bytes": 11603,
+      "sha256": "ab09ce085ce4e971bb1cbe3e9383d74d9f477c2df09af4c8909c94b84ecb9a89",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/articles/src/docbook/codebase-structure.xml"
+    },
+    {
+      "path": "docs/modules/ROOT/examples/kerberos/AuthProviderConfig.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8dc2575aa621569e0884c78b.java",
+      "kind": "upstream-example-code",
+      "bytes": 4798,
+      "sha256": "6cd5eb8859d68e37b6555fa735b475dc10e2809b29afe96e1eea980f94ce97cc",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/examples/kerberos/AuthProviderConfig.java"
+    },
+    {
+      "path": "docs/modules/ROOT/examples/kerberos/AuthProviderConfigTest.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9dc1004adb8cd9751f10ec44.java",
+      "kind": "upstream-example-code",
+      "bytes": 1049,
+      "sha256": "2d082e6d34a23dafb9edd2081832e4b6216f3df5086c312b270a0ad880495e73",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/examples/kerberos/AuthProviderConfigTest.java"
+    },
+    {
+      "path": "docs/modules/ROOT/examples/kerberos/DummyUserDetailsService.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/72cb88d6e1831abd88420462.java",
+      "kind": "upstream-example-code",
+      "bytes": 1395,
+      "sha256": "42c4e27f1478c16a5e869d4894b7f1970703660661d8eae328ae23aafaf174e0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/examples/kerberos/DummyUserDetailsService.java"
+    },
+    {
+      "path": "docs/modules/ROOT/examples/kerberos/KerberosLdapContextSourceConfig.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/24fad5b846bd041604a6b3e1.java",
+      "kind": "upstream-example-code",
+      "bytes": 2519,
+      "sha256": "ad9d8da48f9669a42083499bba55d0239d55e0f7894ac7a419ba5d992f0bab52",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/examples/kerberos/KerberosLdapContextSourceConfig.java"
+    },
+    {
+      "path": "docs/modules/ROOT/examples/kerberos/KerberosRestTemplateConfig.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/eeb644c546b8665512b781ba.java",
+      "kind": "upstream-example-code",
+      "bytes": 1355,
+      "sha256": "5aeace5668fc0438978aa0440103bbd88144c9615b212945017b1568e4b466c6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/examples/kerberos/KerberosRestTemplateConfig.java"
+    },
+    {
+      "path": "docs/modules/ROOT/examples/kerberos/SpnegoConfig.java",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/718c3ba6ed8aaaa5f0c8c271.java",
+      "kind": "upstream-example-code",
+      "bytes": 6194,
+      "sha256": "8e38ddc5d04c15addb1e689d5d7f0a90372746a7b1917d8ac1f4310213b825a8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/examples/kerberos/SpnegoConfig.java"
+    },
+    {
+      "path": "docs/modules/ROOT/nav.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/2074dbd9f25b3a4b6f9d1f2c.adoc",
+      "kind": "official-document",
+      "bytes": 12037,
+      "sha256": "1ebb458c1c3311739bf49597a820d37363a6091ad79acfff6c0c98ed193e8fe3",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/nav.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/community.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c46ae0793a3bb6bc6d8141b2.adoc",
+      "kind": "official-document",
+      "bytes": 1794,
+      "sha256": "507a8506b77914bf25afbf6c3e2455cbfa06ee68aa5cd60e444585d048b5ab3f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/community.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/authentication/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3e418075883ac42e4219b756.adoc",
+      "kind": "official-document",
+      "bytes": 802,
+      "sha256": "c02457e771c3da33ff47699b663351ecd91754b2e70421b96071baf3c1178eb3",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/authentication/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/authentication/password-storage.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/11edebd2a78ad23aa939c007.adoc",
+      "kind": "official-document",
+      "bytes": 26795,
+      "sha256": "c234cd20882fd2b00986cacc3b61590afea3d3611a08509c1116fbc6e44ad5d6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/authentication/password-storage.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/authorization/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b2922f0094611df399fa1bae.adoc",
+      "kind": "official-document",
+      "bytes": 940,
+      "sha256": "24d9d0c9b1a887d4c6545db7d8aa0bb1859cd21238241ed711b54514814bff14",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/authorization/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/exploits/csrf.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/6fc9ec56579fdbe989d8f040.adoc",
+      "kind": "official-document",
+      "bytes": 20915,
+      "sha256": "05733f3fbff17feb6bf78c82164f8cc89f14d1c7218d80a7858101303f0e29cf",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/exploits/csrf.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/exploits/headers.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/64bbbb3eb77b4eeda7e535d0.adoc",
+      "kind": "official-document",
+      "bytes": 18470,
+      "sha256": "938c07888f5f1e096155d1f2f6907884131bf196617b3e8503c2e52879b2be9c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/exploits/headers.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/exploits/http.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/220cff4e960336777c66b7cc.adoc",
+      "kind": "official-document",
+      "bytes": 4095,
+      "sha256": "da42d2fa71fa86cf0c94b03abb5d6092c6c77d0ae9786dd5cba0512cd77f2ffb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/exploits/http.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/exploits/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/67f3a742e49cc2c457889379.adoc",
+      "kind": "official-document",
+      "bytes": 274,
+      "sha256": "1b60792296841ed95296ad23ca3f24df4bf63d9644f1eeab399c3e4fcd0daf03",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/exploits/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9e52f0f552aaab4141555ff8.adoc",
+      "kind": "official-document",
+      "bytes": 375,
+      "sha256": "a35ee5c3efbf5b0f1645603e489e759b09008394c16dd0714238ee92b68a2741",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/concurrency.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/88c9a378fe6d5922c079f402.adoc",
+      "kind": "official-document",
+      "bytes": 9851,
+      "sha256": "991590ad213ef73d8205ddf1b3000b44b0791711730c37ae380042e1c19920bd",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/concurrency.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/cryptography.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ff312a1cb55f1c40e97b3ac1.adoc",
+      "kind": "official-document",
+      "bytes": 6314,
+      "sha256": "d132f5767807a52da58fbdf4bf76d553d957b62d3dce80174270614e1548b334",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/cryptography.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/data.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d198162e895af2ba36f698a0.adoc",
+      "kind": "official-document",
+      "bytes": 2244,
+      "sha256": "57581f95ced07ac976400444e315b6558645c4baaaed558073519f88303914a2",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/data.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8cf6dee4db6b19c6e09b36fb.adoc",
+      "kind": "official-document",
+      "bytes": 406,
+      "sha256": "6d8bcc46386e65600773dd2f5f629f2cb7faa02d4e4f484096bb1687d346346f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/jackson.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a89e72061bf1760284014bbe.adoc",
+      "kind": "official-document",
+      "bytes": 3261,
+      "sha256": "b1ffae55e016fa2ce4426a21650f4ecd082bf34f0c0bdade93eeb530390216ea",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/jackson.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/localization.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c425d22ab344d40d3f1a3465.adoc",
+      "kind": "official-document",
+      "bytes": 3182,
+      "sha256": "1681c1817d1b3322e014b7785f3a72dcabb0b3fde964d1bbe02db0b9c6aeff94",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/localization.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/features/integrations/rest/http-service-client.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7262ce8f0c32e762d9d2a6d5.adoc",
+      "kind": "official-document",
+      "bytes": 5364,
+      "sha256": "5fffe487bcc2370882c4eab8775ce9b7c394df222499637351322c9b609eaa9f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/features/integrations/rest/http-service-client.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/getting-spring-security.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4c44a975f7f5ef97a8ba334b.adoc",
+      "kind": "official-document",
+      "bytes": 8840,
+      "sha256": "16750cc7e5ffa99eb75f08c57abd48d8fc60f6a58130d9b7d52d1c8ba9ad9dbb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/getting-spring-security.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/fabc42c63d33f4799802398d.adoc",
+      "kind": "official-document",
+      "bytes": 1375,
+      "sha256": "872716c00b969c002604ea5186f1c4168ee8d62ee2e17f8070ba8745ac393035",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration-8/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/2073158d009ce23f593a1260.adoc",
+      "kind": "official-document",
+      "bytes": 417,
+      "sha256": "c09d0f0bb0e866b693db4954f5952ec7f7c0c73ba6b01483e57b363a0c8230c0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration-8/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d9dc3526c5b545a8018cf81a.adoc",
+      "kind": "official-document",
+      "bytes": 2240,
+      "sha256": "c77d71a52093473a755ab4ad808864c9d6870ed9c3fd2f8c21125d5398c84d5a",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/reactive.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f17ea951aa7e50f0a771d9f6.adoc",
+      "kind": "official-document",
+      "bytes": 2268,
+      "sha256": "c6fa544d396fe932799fe953b6b6f304318119f82754c70b5d1d233a6f5658e8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/reactive.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/servlet/authorization.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/1aafbbec0a6eb746780bd3fd.adoc",
+      "kind": "official-document",
+      "bytes": 714,
+      "sha256": "432c81815e4a90a1b05ac98c64b00936233ddd4e81c8ee58c203a0adf46b84c1",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/servlet/authorization.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/servlet/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/92adad3a34df76a09dac217a.adoc",
+      "kind": "official-document",
+      "bytes": 234,
+      "sha256": "c9b6878418a29a6dc599593d73f02a15f8256759feef8b7202f2ff3293952d0c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/servlet/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/servlet/kerberos.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4181f90449860570187ea6f1.adoc",
+      "kind": "official-document",
+      "bytes": 334,
+      "sha256": "38ffdba34f8a74d28657af70e7225a059ba3224da0dd509f4a474a52776b5bb8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/servlet/kerberos.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/servlet/oauth2.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/0d95fd6b6c3775199259b022.adoc",
+      "kind": "official-document",
+      "bytes": 4976,
+      "sha256": "43514c1e97bea62ca286086892a159537a00ce0cab013c8ed79bc363c2c9ce7c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/servlet/oauth2.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/migration/servlet/saml2.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8887c9cd95a6d9f8d3e4b96f.adoc",
+      "kind": "official-document",
+      "bytes": 5534,
+      "sha256": "3b020a06bb7e3b40526f31daff83783b5d1fa8c1ed596003781a8e09fe226656",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/migration/servlet/saml2.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/modules.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/020229481c8c9611ab3dad41.adoc",
+      "kind": "official-document",
+      "bytes": 9530,
+      "sha256": "547ed3517ca92213a9757d6903646f411ca623416d18c51eb73df36273740609",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/modules.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/native-image/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/0884aec9cd87a5a3350dcd96.adoc",
+      "kind": "official-document",
+      "bytes": 765,
+      "sha256": "abf97106c80f163ead5ba49df8825300a1981c08b2f57c4784486ab65512d628",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/native-image/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/native-image/method-security.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4eaf94fd447d6112068913eb.adoc",
+      "kind": "official-document",
+      "bytes": 3207,
+      "sha256": "a8f74df6debe1eb119029e6d3f88ad6822e0aa8ad137db332d2a29699100c6f9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/native-image/method-security.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/prerequisites.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/eb0ca46747f2b0a278d3f245.adoc",
+      "kind": "official-document",
+      "bytes": 846,
+      "sha256": "fdbda7acee8057f687487942164fda951dd287cf2541b71cc15f5a477df4214d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/prerequisites.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authentication/concurrent-sessions-control.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b1afb135d5095e684f437320.adoc",
+      "kind": "official-document",
+      "bytes": 14851,
+      "sha256": "6a8d41bc9594ce04ecd76a35e8f8993e5d656fbbedf0fb38924b2f48da5878d5",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authentication/concurrent-sessions-control.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authentication/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e5e7fc002d87b5ac26b4470a.adoc",
+      "kind": "official-document",
+      "bytes": 72,
+      "sha256": "05c1e66dec0806bf87010f4efa438a79735d7248a78a02521ca9b7b01b7f31d7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authentication/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authentication/logout.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ef3e68d306d0490189e8b1fa.adoc",
+      "kind": "official-document",
+      "bytes": 1480,
+      "sha256": "2cc7f6e4431428fcbf87887b8688daa813e5761e729d0764875c557b49cbfa66",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authentication/logout.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authentication/onetimetoken.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4b29fab69ceb5c322f5f9a23.adoc",
+      "kind": "official-document",
+      "bytes": 9014,
+      "sha256": "b4682944e74f0ae3a90290049700897090d71acf12e2f6f82ffadffb4bf82a86",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authentication/onetimetoken.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authentication/x509.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/5ff4e3a16d1e386527c02ffe.adoc",
+      "kind": "official-document",
+      "bytes": 1534,
+      "sha256": "7817d89a694405e11104ae3c999de79926675ca21830402376fb71b06a9bb80e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authentication/x509.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authorization/authorize-http-requests.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/bb2216b727f54abd50fcedeb.adoc",
+      "kind": "official-document",
+      "bytes": 4104,
+      "sha256": "25d1e83100dd97dd0f78fbc00cd38c356a51e62366e66ce1fdf2d4d4d8151048",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authorization/authorize-http-requests.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/authorization/method.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b10768edfb57a72958cb5c9f.adoc",
+      "kind": "official-document",
+      "bytes": 19515,
+      "sha256": "328a9d137ba7fd6050acb909e456851517eb580cd3b2218e6336ed478283d505",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/authorization/method.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/configuration/webflux.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8866e1a766d5c0532479f99e.adoc",
+      "kind": "official-document",
+      "bytes": 13204,
+      "sha256": "a3950a71b09b58b8d4cf85271ba9eb4a792d88dea08ba704687e5de13e0f230a",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/configuration/webflux.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/exploits/csrf.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8e4bc2476d84e6d425bbd9ca.adoc",
+      "kind": "official-document",
+      "bytes": 17737,
+      "sha256": "97825c414a037feee7083894d3a061896af3f8c1557eb18201380e71b5595a6c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/exploits/csrf.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/exploits/firewall.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/dd76f194f47c99da94b2808d.adoc",
+      "kind": "official-document",
+      "bytes": 8160,
+      "sha256": "4253a186843203e11730ebfb4b85bd3b8255409634e1e4b0c926c2f1eee2d366",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/exploits/firewall.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/exploits/headers.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/dabeee31d8ff50f381625aea.adoc",
+      "kind": "official-document",
+      "bytes": 14988,
+      "sha256": "f7377ecf63fcdfc3edecffd9fbdc5e4e95c63603970cf49bdb7ee945bdb2d15d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/exploits/headers.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/exploits/http.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8d71e908f15c9397a644f86e.adoc",
+      "kind": "official-document",
+      "bytes": 2325,
+      "sha256": "167bedcbfb188c7efa7f654a4bb0fc42a403a8b98765a2104f9ed70f2d9c7828",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/exploits/http.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/exploits/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f513af04ae047be6b3ae4172.adoc",
+      "kind": "official-document",
+      "bytes": 286,
+      "sha256": "d93f910b1191918de6898fcb324e411d98152f08caf361667f7a2e01c6c3aaf9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/exploits/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/getting-started.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/15a1116560006cd20bd214f0.adoc",
+      "kind": "official-document",
+      "bytes": 2794,
+      "sha256": "9c07dcdb1a413223721dcb79970622c3a6bfb07cd4e91195c7fd6974ce407e0b",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/getting-started.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/fb0c58088c1c5056a0d1687c.adoc",
+      "kind": "official-document",
+      "bytes": 270,
+      "sha256": "e90ecbd62cc4e7f1023c4483a0042bff167d426e009681564b3f0398e80e14fe",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/integrations/cors.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8d8222022c09142147b0a675.adoc",
+      "kind": "official-document",
+      "bytes": 2624,
+      "sha256": "fc77b70e37341fecb9617422364ed30f35c4fd3c4da0f9fe96a9fc8bdc35ab89",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/integrations/cors.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/integrations/observability.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/cb6c5456f1654f2f8082e65f.adoc",
+      "kind": "official-document",
+      "bytes": 15054,
+      "sha256": "871d1a241a40817eeebbce7e88f617ecdfd4f5571f4d1c37dfff591b89866505",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/integrations/observability.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/integrations/rsocket.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c7e44b6ae121e8d28f47c35b.adoc",
+      "kind": "official-document",
+      "bytes": 14568,
+      "sha256": "61a7a1e594510de28d8810674f35712cc9afeaf1d7e69231c9fdb0e2f11abf23",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/integrations/rsocket.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/client/authorization-grants.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/90ce0f99b24a48a3b563e999.adoc",
+      "kind": "official-document",
+      "bytes": 39765,
+      "sha256": "d2d1308ef1486e633e79fcd3bd8d6a280e9da0f708fc10d57f2752a9f5cdbb06",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/client/authorization-grants.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/client/authorized-clients.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7f4272575c960856472a196e.adoc",
+      "kind": "official-document",
+      "bytes": 8564,
+      "sha256": "6c8dbf9d104f33e2dd9b2d75f8747ec38bb36445f5cd6cec10251430055d416e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/client/authorized-clients.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/client/client-authentication.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/6c87b2291bc5565eaa23a5f9.adoc",
+      "kind": "official-document",
+      "bytes": 9855,
+      "sha256": "1eb5f2e2fe0d0607b9a015cd53e299d2a8bc1ff75ca0593c9e5cd62edb193e25",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/client/client-authentication.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/client/core.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/830ff7069e9f39cb3f072155.adoc",
+      "kind": "official-document",
+      "bytes": 21068,
+      "sha256": "70bd0e95a2df1b9f0ebef0799495f5c2892b76285ce6a1faa18f1a4355ae88e0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/client/core.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/client/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/92ea4b6c0315fafc70919662.adoc",
+      "kind": "official-document",
+      "bytes": 5074,
+      "sha256": "e4b126d407eddb9c7ea114c4722ccfda0853b6e6aff93411e161d37f05f21861",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/client/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a61d7462b03fb633f7efb31a.adoc",
+      "kind": "official-document",
+      "bytes": 50060,
+      "sha256": "18bc9fe0b6da603b66ad78d657e32e244d208916803ee819273761cec90b7925",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/login/advanced.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7a562d7adbafa1b22514b402.adoc",
+      "kind": "official-document",
+      "bytes": 24844,
+      "sha256": "7cf5d7e8fe9c8e9f22227a5d7a7f5fd723b993f3d36bd0ff9cfae93ecc30dfcf",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/login/advanced.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/login/core.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/5a47a6b05ffb05b1fa520281.adoc",
+      "kind": "official-document",
+      "bytes": 20681,
+      "sha256": "9310d6acd5c4bc75cabc8f592ff039f88a547849883f76c61dcf159d8e46c8eb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/login/core.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/login/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/80cc5f1bf9b893803920951e.adoc",
+      "kind": "official-document",
+      "bytes": 680,
+      "sha256": "96eb9016f19695cc52de29f5a2500790a326efb52962aad35933649b00eed0f7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/login/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/login/logout.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/708c9e841af1315632ec3faa.adoc",
+      "kind": "official-document",
+      "bytes": 11719,
+      "sha256": "57a5e72ccd443e37dea2fff3258b13cab850777a736f040f2d36d3f96a9e0afe",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/login/logout.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/resource-server/bearer-tokens.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/5461fe0cde1b6fa8a81d8ce4.adoc",
+      "kind": "official-document",
+      "bytes": 3512,
+      "sha256": "667d3fe5b589887e07bae46f2fe82c4d97d2f04d13fe7ff8dc14b8edb9b7bfe6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/resource-server/bearer-tokens.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/resource-server/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a6b2cd3ea22f489d06482988.adoc",
+      "kind": "official-document",
+      "bytes": 717,
+      "sha256": "731f0c4dbd096ca53edd2765d9e18338ea1a0fa464b7c647e339ece96fea47de",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/resource-server/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/resource-server/jwt.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/928b7d6f2e67a6db0d007a5c.adoc",
+      "kind": "official-document",
+      "bytes": 30921,
+      "sha256": "1acfda870ce61064383c122adb62e5c27a9f4c8bf5f11451273a63f9b6a96527",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/resource-server/jwt.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/resource-server/multitenancy.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/de790018d888597880aeea96.adoc",
+      "kind": "official-document",
+      "bytes": 4712,
+      "sha256": "426ff0475724d0dc664d19d7be36acc2cdfc10e6f2679fc819bbcedc9ec675d0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/resource-server/multitenancy.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/oauth2/resource-server/opaque-token.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e7b7c97dd07ba7c76c85a1c3.adoc",
+      "kind": "official-document",
+      "bytes": 27912,
+      "sha256": "8b4db806813bccfbbca24ada7aaab396b10ec5dea73d1614a6210923969d981f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/oauth2/resource-server/opaque-token.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/cb26d8b1def4a08121a94591.adoc",
+      "kind": "official-document",
+      "bytes": 147,
+      "sha256": "7a46f12be96f2955bfe0411751e1551ec612944e589ae428faeadf1f1d246553",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/method.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8fe122897fd00f40c0b43982.adoc",
+      "kind": "official-document",
+      "bytes": 2041,
+      "sha256": "64f09f4d7ede88458b2c9b55ee9723b4aff9b877f981107274c074c43516d503",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/method.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/web/authentication.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d2fea0f78978b535c320cffc.adoc",
+      "kind": "official-document",
+      "bytes": 2812,
+      "sha256": "5e59b7b7168b630ce21bbb896ebff7fff49b8f5f3214bd18018e1ab3100d0f4f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/web/authentication.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/web/csrf.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/943d8ec3017587ac34fc6b11.adoc",
+      "kind": "official-document",
+      "bytes": 639,
+      "sha256": "b459a0f4c1fd716ed423db3682ca426dcc970fe67ec43fc980d542916b92a317",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/web/csrf.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/web/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a20bf5b7d557a4cb6def475c.adoc",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "0b67fe05ef1d3dad3df3e05ad7e6b683ea4f6ad5c08237cd3cb9470e7e779164",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/web/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/web/oauth2.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/080cb17b5344e1efa073c127.adoc",
+      "kind": "official-document",
+      "bytes": 32448,
+      "sha256": "db4123957e4b1fe8be0f27aebecefc4b253ebb3a3a37c63a1945795ddc3a455e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/web/oauth2.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/web/setup.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d2d881a63fe4c6b6e99dd523.adoc",
+      "kind": "official-document",
+      "bytes": 1699,
+      "sha256": "35f8fa51bcf31d1f9ed6174251b2dc725c2b0eb1a2488497db924a62c3d65c32",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/web/setup.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/reactive/test/web/x509.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c4a2feb8f37f587466b1b9ef.adoc",
+      "kind": "official-document",
+      "bytes": 224,
+      "sha256": "94f2f58c36f937827c065c17245eda4698b88628564bab9b45b0a7ca8bc8eace",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/reactive/test/web/x509.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/samples.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a46aeb2a88688e6db2b5c4ed.adoc",
+      "kind": "official-document",
+      "bytes": 296,
+      "sha256": "0f4202aebc26a16d39a54f035fc9a1352728861a041e589321e00f444713c073",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/samples.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/database-schema.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/5d610e36e9ed3aa7c15c53aa.adoc",
+      "kind": "official-document",
+      "bytes": 14637,
+      "sha256": "4032b10cd74e7dfc3e5b2b24aa5acc9bb390eed27242f221b1fff2765f2bbafc",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/database-schema.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/faq.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/742467a582fe7c8a6ae0ca73.adoc",
+      "kind": "official-document",
+      "bytes": 43449,
+      "sha256": "76f3620295341ea0944f0f25240cef89d8da79f1df3dd27611ebc55474ca3bbb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/faq.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/425f768024ebf7eed26492b2.adoc",
+      "kind": "official-document",
+      "bytes": 260,
+      "sha256": "f247383c4e3fb8ac37f7ad0f0b03672aab8e2f23a911eed7ff686c28ee0c04ef",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/namespace/authentication-manager.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d1ad1b5b13a58c4fd374d8d6.adoc",
+      "kind": "official-document",
+      "bytes": 8870,
+      "sha256": "381993057018ce06fd4b53eaa9e836bee1c1cf2ca92b6f47d98addf31db7db4e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/namespace/authentication-manager.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/namespace/http.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3dc564c1edf5553df220a397.adoc",
+      "kind": "official-document",
+      "bytes": 82764,
+      "sha256": "9e6f914c8f5f276d13f62779641700fa27b719656ee27b9a04afada618cb8085",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/namespace/http.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/namespace/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/44a5dc999e3aae1674d0507e.adoc",
+      "kind": "official-document",
+      "bytes": 1202,
+      "sha256": "fbca40c522993ffbc74743aea4789fd6112e1169cec49350d32c0bc70fd11297",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/namespace/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/namespace/ldap.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3b39388f134d83ac28d1afbb.adoc",
+      "kind": "official-document",
+      "bytes": 10962,
+      "sha256": "f312c6b086253d3820ddde8a761e9a8d37f1d23344af1a549a335feaedee7ad5",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/namespace/ldap.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/namespace/method-security.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c83263510a10b289087ce612.adoc",
+      "kind": "official-document",
+      "bytes": 14086,
+      "sha256": "e0c5aad4dd41e40f478894e9883f2bb98ae4e83af2318b7e62c9a9af382c8b38",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/namespace/method-security.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/namespace/websocket.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/011e8a75a778c81a13f66774.adoc",
+      "kind": "official-document",
+      "bytes": 4499,
+      "sha256": "f42f2e0895aa1b6c385662fa549c5e2935279e693042b71dfcd400847d0fa2ed",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/namespace/websocket.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/appendix/proxy-server.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a82fe0b116458816ad8e3036.adoc",
+      "kind": "official-document",
+      "bytes": 1519,
+      "sha256": "0f90361d9500a0f58a90bdec924350a7eff48a05da4bfa7f6efbd43c77ebd47f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/appendix/proxy-server.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/architecture.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e0b57be49cc8499a76f08592.adoc",
+      "kind": "official-document",
+      "bytes": 25808,
+      "sha256": "3d753bc30ec412b16c98043dd247e2983dedbfbe8b94b02ee188068c917925c9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/architecture.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/anonymous.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/cc02a473630c0e7e063bdc5f.adoc",
+      "kind": "official-document",
+      "bytes": 9109,
+      "sha256": "93bb2a59d14d9bf955e557f45d4d1bea91bd685f4435452f7aa958a3f204d62e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/anonymous.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/architecture.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/16c534af88cc506ca0d4a7b5.adoc",
+      "kind": "official-document",
+      "bytes": 20066,
+      "sha256": "25e47327645272f9c0d6bab2a9b4eb30e44cffa9c9564bbc478c53e689acf5bb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/architecture.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/cas.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/27667a86b4c6ba81e8755d56.adoc",
+      "kind": "official-document",
+      "bytes": 26085,
+      "sha256": "b159a5f9c1231f2a197debf3c928749a2b9058085b0e00c400939868b78d12fd",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/cas.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/events.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9241b5d3af53c60e761fc9aa.adoc",
+      "kind": "official-document",
+      "bytes": 5171,
+      "sha256": "991359ea609fad26d2988b99cdba5e953e549115aa1e9cc3ca0dab312dcdcb55",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/events.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f0451cd6e90c7297a7b4807d.adoc",
+      "kind": "official-document",
+      "bytes": 1952,
+      "sha256": "525fa2f51fd0822ea02e38e3f271748dadb1c344f75d7d65dc6bc8b7a01768d2",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/jaas.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/6e16ddbff48b6664ddcb7294.adoc",
+      "kind": "official-document",
+      "bytes": 8805,
+      "sha256": "636b0f132fc5ae5f49dd0114ae848c01eec4db1160fbcfd008cc9d2e0f7e2d6b",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/jaas.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/kerberos/appendix.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/1eb2654a022c14d48aca4745.adoc",
+      "kind": "official-document",
+      "bytes": 16170,
+      "sha256": "4c27752daa4270fd0cc1d9ec8b9ca2ac3031f7c6985cc05312034f74a3afdde7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/kerberos/appendix.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/kerberos/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/efded59a49a3b07e2f10c6a4.adoc",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "9cfd74dfc84314fced1f58ecd8b6d7bc956671973edc4450af4163a97b9d2e3b",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/kerberos/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/kerberos/introduction.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/489cec77557c093dc78d361b.adoc",
+      "kind": "official-document",
+      "bytes": 951,
+      "sha256": "a4c97edb62d7ffd31b5bbcb1e7e2858d85ad4a25bb477cd083af72eea08bf102",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/kerberos/introduction.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/kerberos/samples.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/fcc336578dd2559d4ecbf5e8.adoc",
+      "kind": "official-document",
+      "bytes": 6377,
+      "sha256": "ebcac90978f9267c3e02a8c7ff858a03cd675c1d084d5e28469eff89e69cde5a",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/kerberos/samples.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/kerberos/ssk.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/19cb837aa38e4f06bfa3f35a.adoc",
+      "kind": "official-document",
+      "bytes": 2526,
+      "sha256": "279c6f06351d67426ed081684a0b13fa3c2fc6e0c40a93d9e105bff065eb83e6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/kerberos/ssk.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/logout.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e336d83b0115d309c58abcfb.adoc",
+      "kind": "official-document",
+      "bytes": 15574,
+      "sha256": "e20f2e3ee34b1a3a76f8b008a43af5913d7fd95831cd2c2e7002c316ee64afb6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/logout.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/mfa.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8bf54aea3a5aa2bd725062ed.adoc",
+      "kind": "official-document",
+      "bytes": 18460,
+      "sha256": "65eda36ae8e3fab30cee463320e57a173b78b22220ba1bac6fe17bf32b7e2ed9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/mfa.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/onetimetoken.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/0b1250656907699f84f5b819.adoc",
+      "kind": "official-document",
+      "bytes": 9305,
+      "sha256": "4284ad88e1252864cd34b1b3c1976604742aebfce21453fcad91ab289d5d44f7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/onetimetoken.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passkeys.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9ce63c31ff8b4ee833b39947.adoc",
+      "kind": "official-document",
+      "bytes": 12464,
+      "sha256": "6106505ab497440bfe7a50cf988deb88767dd001134839ec10d7911f7544af5d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passkeys.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/basic.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/6ecbbcd55f78a5d6eff4f5bc.adoc",
+      "kind": "official-document",
+      "bytes": 5925,
+      "sha256": "1931d8a58728fe9e74d4fc9e46a7af13a91d82884310d4416465a97221db7e16",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/basic.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/caching.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ece66d95ed6c88d94d9d17d6.adoc",
+      "kind": "official-document",
+      "bytes": 4931,
+      "sha256": "c2b6876c2d8c53f0037bf9f3c84fd2013bc9f502e8c600896087bf2fe8684b3d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/caching.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/credentials-container.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/204dbbae4a6fd6f1ad5f0a49.adoc",
+      "kind": "official-document",
+      "bytes": 1264,
+      "sha256": "a04e9adc959afc443dd6c60f33ea8b6e1fbe7410940287648f8873ff10d563f9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/credentials-container.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/dao-authentication-provider.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/436025cc034bdfc7783b907f.adoc",
+      "kind": "official-document",
+      "bytes": 2783,
+      "sha256": "7e78d2a6858b149dc8a058084cfabc93eafe8c834f4804f04772dde503229c58",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/dao-authentication-provider.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/digest.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f52317980cd9b5bc33abe3a2.adoc",
+      "kind": "official-document",
+      "bytes": 4183,
+      "sha256": "28409f83ed04594cf22e5dd04b6bb3f6a9837ee9d609b2c8631487bbec7eed37",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/digest.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/erasure.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/54792b56a5c04e77d2c1234d.adoc",
+      "kind": "official-document",
+      "bytes": 2080,
+      "sha256": "b874978e74ef37be794581cc56c9947de57746a083e56d2bdda129a2be1ad71b",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/erasure.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/form.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e5fae622944d35cc2f46c502.adoc",
+      "kind": "official-document",
+      "bytes": 9645,
+      "sha256": "71396ebb57ca0c8d7f0725fbc158375b23b09eea4b63927abaae0d1840ebe9f2",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/form.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/in-memory.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/01a177f3e82a872798b0fe04.adoc",
+      "kind": "official-document",
+      "bytes": 4759,
+      "sha256": "c1a6a1c89585a76a7e598a391d8973d17ff5d5077e732daede15ca120b2a0c2d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/in-memory.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/fc4b30cf03d022b2cc9a3f34.adoc",
+      "kind": "official-document",
+      "bytes": 14626,
+      "sha256": "b6d6dbbb2ea94cb6a60c20a16d344e8e5bd4698dce1b4ceb7f64960f8cc8c80c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/input.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/68de41a24503288a2825762a.adoc",
+      "kind": "official-document",
+      "bytes": 225,
+      "sha256": "8f4cf2c764ac7345be52277a44da00d530034a06100a664c38ddb6a8c85b1055",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/input.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/jdbc.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ff941985f7fbaa4b70af3d5f.adoc",
+      "kind": "official-document",
+      "bytes": 6773,
+      "sha256": "79d79619007aafadee07942f406d768a3e1b1935e75f79cae42d09946d0e9cc7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/jdbc.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/ldap.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/bf683e9d709ee12b430485e1.adoc",
+      "kind": "official-document",
+      "bytes": 19811,
+      "sha256": "41ab6a491441f1a8533218595e014f0a504a035a216146fb8c8a07d6b3a15afb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/ldap.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/password-encoder.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f268def55f039c2aea6ff02a.adoc",
+      "kind": "official-document",
+      "bytes": 471,
+      "sha256": "3e6d800ea453cb8e25f68bf4156464a08ff74277c20faa65168eeab71d21a524",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/password-encoder.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/storage.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/17733ac4ad10b919927ff4a6.adoc",
+      "kind": "official-document",
+      "bytes": 739,
+      "sha256": "73f950ff9432c66eacb15f6411e550fda3d400bf4139db22e9c9d389c006e321",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/storage.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/user-details-service.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8f33a3c6f4bb93cb441e8c68.adoc",
+      "kind": "official-document",
+      "bytes": 1644,
+      "sha256": "30171e70b7468593eb9a6a0359a25a5e91ab36a2148e5cff6a389d1d08d0b539",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/user-details-service.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/passwords/user-details.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7ec27822dd4661966e5b008d.adoc",
+      "kind": "official-document",
+      "bytes": 3593,
+      "sha256": "fad743ddb5ae6702cb686ce01d6ee23141ccd0a6e613bc92a793392077eafbed",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/passwords/user-details.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/persistence.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/de6d850c336a3f95b3b406cb.adoc",
+      "kind": "official-document",
+      "bytes": 9817,
+      "sha256": "b7ec08c0de6c0e9736d116ccfe8759230f6ac69d96c9746c8abfc7ba2cb0a737",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/persistence.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/preauth.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3f64bd56a4710a46f3ccf6cd.adoc",
+      "kind": "official-document",
+      "bytes": 9511,
+      "sha256": "cce5676dadf7ccc16ce6cb0be6b06612b1c1ca3a47448fcc4a629199b567f483",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/preauth.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/rememberme.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d889a77471f34369f4a5a97a.adoc",
+      "kind": "official-document",
+      "bytes": 8064,
+      "sha256": "4ce8370a49e1cf38682507ce8bb78aaa1d7a257b05f22074a4be1475b10aba7e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/rememberme.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/runas.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7c05428cce28dbb90bf63f30.adoc",
+      "kind": "official-document",
+      "bytes": 3806,
+      "sha256": "5e1cfe7cec30eb2d8527bcf2d5c3326c87a678e0c469944697bff4a79c42dc8f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/runas.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/session-management.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/33cbb9bad0dffa5985eaa340.adoc",
+      "kind": "official-document",
+      "bytes": 35830,
+      "sha256": "f06904759c20468af9e935940cd2eabd1394a6b6f50ec77914f3c5b6b213b2d2",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/session-management.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authentication/x509.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4997dde8174b4c42a639b447.adoc",
+      "kind": "official-document",
+      "bytes": 4255,
+      "sha256": "aef369c744aca485a63d3f2837500524dccdf18ab56f189de3c7a997a686a318",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authentication/x509.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authorization/acls.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b88eefe448364cfea05c6dc9.adoc",
+      "kind": "official-document",
+      "bytes": 19605,
+      "sha256": "c221c398c7222fff163a82dc3c11a31243a215a70945baf506b4dc11256484f3",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authorization/acls.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authorization/architecture.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ab8477f4cd1d5d69d9ae6c63.adoc",
+      "kind": "official-document",
+      "bytes": 26133,
+      "sha256": "fd38ccb452cd63043005db22f09fb7060cb4a22daa59f14bbe57131c7a837059",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authorization/architecture.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authorization/authorize-http-requests.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/87367306b86af6959340fcfd.adoc",
+      "kind": "official-document",
+      "bytes": 44972,
+      "sha256": "c5f14d8ee0dfbd712e53ab8542ad4d58550ea347ef12c0f5b361b98b77f66cac",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authorization/authorize-http-requests.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authorization/events.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/da25dc7b47ff15e96e145e42.adoc",
+      "kind": "official-document",
+      "bytes": 3243,
+      "sha256": "65566f6749177c1890e30ef0399b4d48a5b9655edc5b71dfe1d1fa27e60f3303",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authorization/events.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authorization/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/cdaf5c824fe619614a782550.adoc",
+      "kind": "official-document",
+      "bytes": 1568,
+      "sha256": "a26c5728bcea9b1e644dfd052cc3b3e745028b838450cf6281a30ca2466b3800",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authorization/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/authorization/method-security.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/174dd13f103e2be1588ed0a8.adoc",
+      "kind": "official-document",
+      "bytes": 101025,
+      "sha256": "8abd5205418452b02eb4aeddc8f5fbfdc2b195bb1ddd9e0448233d0e9b2eef8e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/authorization/method-security.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/configuration/java.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c70c9c0778416c4e75e1a2e1.adoc",
+      "kind": "official-document",
+      "bytes": 32420,
+      "sha256": "06c45af7b17cd48a072f8e5584d67de001970e36259b65b4223c246417961773",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/configuration/java.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/configuration/kotlin.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7eee07f98f314676eaae49a5.adoc",
+      "kind": "official-document",
+      "bytes": 19915,
+      "sha256": "67bb814e9a6529d1ea96b38ed11f011d3840e26164608c91a9d0de81466bb479",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/configuration/kotlin.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/configuration/xml-namespace.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/df382ba9c3a40173798496e6.adoc",
+      "kind": "official-document",
+      "bytes": 20909,
+      "sha256": "2345b9a7d0543f1cba7157ff9ba52bd03df6cb079fcc8aaac84e6b0c0fd90c55",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/configuration/xml-namespace.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/exploits/csrf.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/090a62a8b558d6882d942874.adoc",
+      "kind": "official-document",
+      "bytes": 51447,
+      "sha256": "a2775ff95086f55547f43e1317d58cdbb22fde81b0cb0d814f9ae424145e735d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/exploits/csrf.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/exploits/firewall.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/46667281b7a25c0d1064751d.adoc",
+      "kind": "official-document",
+      "bytes": 10629,
+      "sha256": "2421c68c738e38bd18f31919ac5afd623346114ee34e4a2c0df3ba235ea6a0e3",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/exploits/firewall.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/exploits/headers.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/de88e693282a48907f0886a4.adoc",
+      "kind": "official-document",
+      "bytes": 27503,
+      "sha256": "7ca12e3ea22e4aa23e71d9bd846c124d9e484816f54007c2f307daafd01c5380",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/exploits/headers.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/exploits/http.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/94076e62b162b659ad95461c.adoc",
+      "kind": "official-document",
+      "bytes": 1692,
+      "sha256": "bac640c7b62554fe98af21190c0fca90007a2fdbd44ccdbac0ee18f4e6927256",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/exploits/http.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/exploits/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9e2746ead362c3538b5ca7a3.adoc",
+      "kind": "official-document",
+      "bytes": 231,
+      "sha256": "4c72a36fcbed5e0d4c088e13f39a65f8c643a7e89f4cf8395a0d99411847da93",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/exploits/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/getting-started.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/69f9f0c4c586f1ab9c62b8d4.adoc",
+      "kind": "official-document",
+      "bytes": 9159,
+      "sha256": "7c0d3a73861b7d0140ffd0d5411b82cb6ea91866c1a434a45c76ee15d84665cf",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/getting-started.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/40ce45e8d03b8c97d5395aca.adoc",
+      "kind": "official-document",
+      "bytes": 364,
+      "sha256": "fd3b89002ff593743b6daba53dac95292f4adcd6506a4a6607778f8f45ac840e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/concurrency.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/1c508fc749ab6c42f8fe4d61.adoc",
+      "kind": "official-document",
+      "bytes": 8069,
+      "sha256": "2848dee71892341fb17eb21fc9927333cce902ae5744bb5c6aaa14184319a075",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/concurrency.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/cors.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7f5b1332e3bbe980e6dd595b.adoc",
+      "kind": "official-document",
+      "bytes": 7391,
+      "sha256": "9a6336214833600cc5cd79ab0f8247f787364028b6e78bdbbbe392d701e7975e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/cors.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/data.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/07aceb7e9c8bd4c851aa2b69.adoc",
+      "kind": "official-document",
+      "bytes": 2140,
+      "sha256": "03532adf0453bb74f7d411863b7773e8cbd85ea7f435a49aa84980175944f935",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/data.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d755b74f64f3f34a9fe500a8.adoc",
+      "kind": "official-document",
+      "bytes": 201,
+      "sha256": "36b4c31d4334eb10dbfc1c2a0f412005c1ab93e076eb84d1dec2a87b938ab841",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/jsp-taglibs.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/39b935472e3a2fdc79a738cd.adoc",
+      "kind": "official-document",
+      "bytes": 9889,
+      "sha256": "f78d0b580a1f25aa107cd885aeea24b432a979d74b630c28b8b848e43cf97a79",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/jsp-taglibs.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/localization.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7755599286c18796b58cf473.adoc",
+      "kind": "official-document",
+      "bytes": 3135,
+      "sha256": "0cc6aba9029e19c5a82bfd277912807d28ab9c7377007d5a97ea230ef4982352",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/localization.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/mvc.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/cf8343e91909a111571bdcae.adoc",
+      "kind": "official-document",
+      "bytes": 20712,
+      "sha256": "72cc058a936165ec1dcf090382348684035d9a9c7852043182471ef9dcf3d24d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/mvc.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/observability.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a2508c74dcc3e9cd16338b4a.adoc",
+      "kind": "official-document",
+      "bytes": 13297,
+      "sha256": "eb97ba209b6ab2bd8ad343644ab73511eb95926aa2fb102044c02531dd745a69",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/observability.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/servlet-api.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f2c81b14f61758d0ab255ec4.adoc",
+      "kind": "official-document",
+      "bytes": 11225,
+      "sha256": "a0f444433d32a9f901565b289e63aac0d7cef2cf098c93b59014ab6e43b1aa89",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/servlet-api.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/integrations/websocket.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/007a72d25bfbd3bc3cfae5f9.adoc",
+      "kind": "official-document",
+      "bytes": 15283,
+      "sha256": "df34877716eedd0330a8a1011454f65ad8fd50087436c067b3716069a52c9662",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/integrations/websocket.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/authorization-server/configuration-model.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/30aff428dc800d80caacd35e.adoc",
+      "kind": "official-document",
+      "bytes": 28688,
+      "sha256": "10cd0c09ab614b16aa5aff165b8c9cdcdf182de2896f378fb2689832258edf28",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/authorization-server/configuration-model.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/authorization-server/core-model-components.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d27b0a2d225df9e675187c01.adoc",
+      "kind": "official-document",
+      "bytes": 30643,
+      "sha256": "079a2477a471a050d22440c08f94cd354a78991e92002a656b24d11d4a1fd7d7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/authorization-server/core-model-components.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/authorization-server/getting-started.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/08f78433fe1d7c410a724ac1.adoc",
+      "kind": "official-document",
+      "bytes": 9989,
+      "sha256": "6562f54a6c611b0280dd3583df93d426b4c81ea5ebed10c19ee2c57b604cb456",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/authorization-server/getting-started.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/authorization-server/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/7bc81d0eca86ca5da58d66cd.adoc",
+      "kind": "official-document",
+      "bytes": 8941,
+      "sha256": "7d208718f5a8c33ea48c2983672f9eb288b3db52f7ff74efbf94ac431540790d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/authorization-server/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/authorization-server/protocol-endpoints.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/fe4fdbeb730e00c59da4b288.adoc",
+      "kind": "official-document",
+      "bytes": 72329,
+      "sha256": "bdfcf6e20e2f230f51e667c37053c0e65c890ab39f5563313add564d97395ab8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/authorization-server/protocol-endpoints.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/client/authorization-grants.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3c4371c8313b5e3c932e43b9.adoc",
+      "kind": "official-document",
+      "bytes": 39673,
+      "sha256": "bdde734c6c56d6ea6a2412a400dfaa35f4de71b25f571260805e196ae2945bdb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/client/authorization-grants.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/client/authorized-clients.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/11fe0ea126a1ec5de30141a7.adoc",
+      "kind": "official-document",
+      "bytes": 23112,
+      "sha256": "91507e318f2adaa6b1ac0caf5ce78c2520c0451a75125289e161ad158f687368",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/client/authorized-clients.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/client/client-authentication.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/2887bc495dd6e8be0d032aad.adoc",
+      "kind": "official-document",
+      "bytes": 9767,
+      "sha256": "ef930ad37f03f4cdede17e782e899ac47b2d9ce7b106e9a36efa6fbfa288b3fe",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/client/client-authentication.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/client/core.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/82298889ccfc7370568ebb53.adoc",
+      "kind": "official-document",
+      "bytes": 20386,
+      "sha256": "2fe8a1b85cd72e7ef240c28e9b7ac1a4d966cae716fb9ba7801c65f8724b5333",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/client/core.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/client/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8fcb2c990683984084cf1a58.adoc",
+      "kind": "official-document",
+      "bytes": 6079,
+      "sha256": "75edcac16e28b3d014a141df3149e4dfa096dc391a5927081d7b4f218b3fcc7d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/client/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/04700fc8d2fad423ea9bc5b7.adoc",
+      "kind": "official-document",
+      "bytes": 61497,
+      "sha256": "105b812a700ca4d569e08e87417138582d41bb496a18934bf65561bdd8f2cf3a",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/login/advanced.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ee3cb38d3c901bb78b86cbfc.adoc",
+      "kind": "official-document",
+      "bytes": 31869,
+      "sha256": "5ad4f0d2bfbce5fbf12e80b6cac836178dbe0dab7c8848cd1273e2866351c7a1",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/login/advanced.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/login/core.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e952d8c207ed8e8e23d4828e.adoc",
+      "kind": "official-document",
+      "bytes": 20732,
+      "sha256": "16ff5098778238d2ce622ad5ba48464e45d0d5076abf5a0a3568ed04c52f8a2c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/login/core.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/login/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4f67a0da608989ec02902d21.adoc",
+      "kind": "official-document",
+      "bytes": 652,
+      "sha256": "bb7db51ce6332885aeead5889f6d8a729f2b622c269a0fd8aca0d4df17ada49c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/login/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/login/logout.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a1083fbbeba9567b7aae3535.adoc",
+      "kind": "official-document",
+      "bytes": 12546,
+      "sha256": "bc3d14a9fa721f2bad72fa0cb72e79cba9a8eb6e7b0e8c8afd1cba168c013fc3",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/login/logout.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/bearer-tokens.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/5b3a285f018de32351471a01.adoc",
+      "kind": "official-document",
+      "bytes": 8803,
+      "sha256": "8ee09ffd2a807f564366681d11ffcaab9f176e254ceb7be25dc8d598d660e3e0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/bearer-tokens.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/dpop-tokens.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/930e5d922310c16ba8a1050c.adoc",
+      "kind": "official-document",
+      "bytes": 10498,
+      "sha256": "69adae8162c071e07d999fcfe7321bc7bc8944ee13f8c57b4048879371c8efd6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/dpop-tokens.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ca44516083582720061238a5.adoc",
+      "kind": "official-document",
+      "bytes": 5029,
+      "sha256": "ad703adbdb4c15d35a7f90e91a00e843b138ebdbd6b837b565ea5b6b10103c59",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/jwt.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4657f5e092f781e1c212d6ba.adoc",
+      "kind": "official-document",
+      "bytes": 53319,
+      "sha256": "aa5a8798c5fa32392b74b9f9d85a0d35c686dc218de11ab64b3d17d14b02a84e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/jwt.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/multitenancy.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/47ed93b0656e6d38207bb4ce.adoc",
+      "kind": "official-document",
+      "bytes": 15386,
+      "sha256": "0780a912c9e04e219541074e3c2af71f7c9585256d04a9273beff2eb242d8b58",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/multitenancy.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/opaque-token.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/dacae95d9158baa4d40dd6ca.adoc",
+      "kind": "official-document",
+      "bytes": 35660,
+      "sha256": "8710e257f1dee173ee874787978c45460bfb72b8d2e6823da9c4b21684e156a0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/opaque-token.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/oauth2/resource-server/protected-resource-metadata.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d96be6c2e586c0e3a28408f6.adoc",
+      "kind": "official-document",
+      "bytes": 1585,
+      "sha256": "6b6b0e709859d29628adac3342c0506ca6243128a015d927a29933318cb4269e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/oauth2/resource-server/protected-resource-metadata.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3701a5a2ca74c977bab91236.adoc",
+      "kind": "official-document",
+      "bytes": 195,
+      "sha256": "c55ba2335040c110b3c6c4c45fa8849d66ebfcae0c80b00341581304c44b5523",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/login/authentication-requests.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/18f9257018d3d44763815700.adoc",
+      "kind": "official-document",
+      "bytes": 10666,
+      "sha256": "1df68f2d8274f06804378417e6d743b5b724c35e90fd9b6ed6b12c698410423d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/login/authentication-requests.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/login/authentication.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ed39448c7bae9355ee1e53c3.adoc",
+      "kind": "official-document",
+      "bytes": 21498,
+      "sha256": "918d05afeed53490be7af13f1e8b15eaf7198da38db3558ff9b597ccffc9db83",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/login/authentication.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/login/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9db9bf7c86e79791b9aa4d73.adoc",
+      "kind": "official-document",
+      "bytes": 1272,
+      "sha256": "0df195c64e5072823c3f5aac12f4c377f15bd73645996fba6c2e514d68892323",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/login/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/login/overview.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c1f73d72d06f3dcee2e96352.adoc",
+      "kind": "official-document",
+      "bytes": 41863,
+      "sha256": "053f15a9f0a47daeb59257c066e67a18e7a9491f13420d0268a536bf93da7ae8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/login/overview.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/logout.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/297a0db585418ef6398355c1.adoc",
+      "kind": "official-document",
+      "bytes": 24258,
+      "sha256": "4460c1fd61d135ea54662f8fdc578949a26c8049ac5d70c8cfbb796b47cd2441",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/logout.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/metadata.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/d711dac7de92666cb1128cbf.adoc",
+      "kind": "official-document",
+      "bytes": 7828,
+      "sha256": "ca5630ae39558b2aa1afbde71b764dd91b5fa8faf2bbfcad4db17178ab0fc185",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/metadata.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/saml2/saml-extension-migration.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ef738056e35cbab974e6c1d8.adoc",
+      "kind": "official-document",
+      "bytes": 4361,
+      "sha256": "f8e5bd3de5ba1ad263370cde16f070f99702486444a6e12e968fd0928ae21da9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/saml2/saml-extension-migration.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c74dc398603c807c729505f6.adoc",
+      "kind": "official-document",
+      "bytes": 341,
+      "sha256": "263a8486474599c902bfacfdf208bc3445ce3ed307cea8641abe7e9b42144f57",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/method.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f908cb5248a526af095c902b.adoc",
+      "kind": "official-document",
+      "bytes": 12061,
+      "sha256": "c966c50261903f80e7e2afae2405b5a4e6bf0f2c37884b51866428ef22b44bf0",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/method.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/authentication.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ed9bdbcb6ea3dea11b071c20.adoc",
+      "kind": "official-document",
+      "bytes": 6521,
+      "sha256": "07197f24400a272758db18de05bdb5b841b8972cccccccec71b5bce84d460c67",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/authentication.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/csrf.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b15bb62bbde326887ffa0fb0.adoc",
+      "kind": "official-document",
+      "bytes": 1135,
+      "sha256": "534a0a950c3dd771c7d7c1a4e2f719bcc3667b837a6646d43baa5a9384206ccc",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/csrf.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/form-login.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a17dcd118e9dda9c0f9bd604.adoc",
+      "kind": "official-document",
+      "bytes": 1482,
+      "sha256": "2cd34a54bd113f02daf2e9b1b12e0b7c71b2ca797348c635cc2b1ae5c7840604",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/form-login.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/http-basic.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/53f4d9559404a8199c45924b.adoc",
+      "kind": "official-document",
+      "bytes": 836,
+      "sha256": "de023e4b97bf77c2e83cee872653aef3b60f2ac8c4255ce939fa48b45f692a82",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/http-basic.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/index.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/773f0877210a106137ed9f40.adoc",
+      "kind": "official-document",
+      "bytes": 507,
+      "sha256": "02fd2959143a259e662a865b0ee7071f976a70904e6b5a74845606bb33b61fea",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/index.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/logout.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/90d74c9432c07a2ad0a78319.adoc",
+      "kind": "official-document",
+      "bytes": 839,
+      "sha256": "8340919de973cf72a2adda9a03dc4afb4f3761f3f55e674f272805f9695b7130",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/logout.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/oauth2.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/9a1f146bc21c754a10d00da9.adoc",
+      "kind": "official-document",
+      "bytes": 31463,
+      "sha256": "45775dfa295ec9ac5ac1f23089309880bf3d76d007da3c46f29fe2f3be91d479",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/oauth2.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/request-builders.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/8b85f982d70a509ee3b0e629.adoc",
+      "kind": "official-document",
+      "bytes": 705,
+      "sha256": "1df124d1670907ceb550ce5d9d90fcc2ebc1828d55fce6b1aa6c8bb3844e4884",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/request-builders.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/request-post-processors.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4bba27ec0585a17b74b70d02.adoc",
+      "kind": "official-document",
+      "bytes": 736,
+      "sha256": "ac214862afc23ddbc071a646d138d0f08132ff807a2f58ecd9240d7a763e66b1",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/request-post-processors.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/result-handlers.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f7fa8b09ad972f5a94a4437a.adoc",
+      "kind": "official-document",
+      "bytes": 1856,
+      "sha256": "6318fb20c49819898ff9c57b1c88bfe8a596c005c195fe4372dc69983bfa9489",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/result-handlers.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/result-matchers.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/81d6c931f6da4c7d0c5c490d.adoc",
+      "kind": "official-document",
+      "bytes": 3583,
+      "sha256": "801149dd84e907de2700e90aed632234bbef74c70e9028c52a9ffb204b4cb467",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/result-matchers.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/servlet/test/mockmvc/setup.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b459c190da23818919d9882e.adoc",
+      "kind": "official-document",
+      "bytes": 1970,
+      "sha256": "7b596a7548419cfe3a90774f28b84cbbb0c3066ea3881d10d676b2a6e44baf5f",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/servlet/test/mockmvc/setup.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/pages/whats-new.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/4127e68b7c2f5a9c16f4d1bd.adoc",
+      "kind": "official-document",
+      "bytes": 848,
+      "sha256": "97e06687acbf980dc4e2ae9f6c4393e995ef39883681f43ca625a930000170df",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/pages/whats-new.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/partials/reactive/oauth2/client/web-client-access-token-response-client.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b17ba313b39b5f9fc56c8a40.adoc",
+      "kind": "official-document",
+      "bytes": 10922,
+      "sha256": "a0438142746181d43193b11044737a9488242d77453557bc255adf99e02aa7f2",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/partials/reactive/oauth2/client/web-client-access-token-response-client.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/partials/servlet/architecture/request-cache-continue.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/fc412b864fd80eb0ab37843d.adoc",
+      "kind": "official-document",
+      "bytes": 1121,
+      "sha256": "c8b2f1b6f9ce283bbda1b91aa0d653dce1be7b4c669c842090e5282029be27be",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/partials/servlet/architecture/request-cache-continue.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/partials/servlet/architecture/security-context-explicit.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b6bcd7bab1fd29f048632c54.adoc",
+      "kind": "official-document",
+      "bytes": 1738,
+      "sha256": "349959e941a283bd67bb739254363dfbe3f7440bdd2023b2d76c7c8ac3ab562d",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/partials/servlet/architecture/security-context-explicit.adoc"
+    },
+    {
+      "path": "docs/modules/ROOT/partials/servlet/oauth2/client/rest-client-access-token-response-client.adoc",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/298272f2d91ab15acf32cefa.adoc",
+      "kind": "official-document",
+      "bytes": 12177,
+      "sha256": "d64061738a358b9a550411a7d6da0cae2f245ea4f4cab9f9730e2d6aa12e16f8",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/modules/ROOT/partials/servlet/oauth2/client/rest-client-access-token-response-client.adoc"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/authentication/servletx509config/CustomX509Configuration.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f9eebbac806adcddc3768890.xml",
+      "kind": "official-document",
+      "bytes": 1823,
+      "sha256": "32264f3c1e1559b49441cc842887341c6ecb2cf3f2dac2996c73aad99f99a0c4",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/authentication/servletx509config/CustomX509Configuration.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/authentication/servletx509config/DefaultX509Configuration.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a6cf0a7108dfa0a7cd6ee560.xml",
+      "kind": "official-document",
+      "bytes": 1499,
+      "sha256": "fd5a364cdeb029e2c62edfae4cf8c4249678d1fa8eea713b3b57e0b131a6cb20",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/authentication/servletx509config/DefaultX509Configuration.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/authentication/tokenbasedremembermeservices/CustomAlgorithmRememberMeServicesConfiguration.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/e8721d59e38f28dc51a23b36.xml",
+      "kind": "official-document",
+      "bytes": 2014,
+      "sha256": "f4b9c58ca81e2ecc0a185d01831342b9ced6fd8b6e35cec66414e19bec0250a7",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/authentication/tokenbasedremembermeservices/CustomAlgorithmRememberMeServicesConfiguration.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/authentication/tokenbasedremembermeservices/DefaultAlgorithmRememberMeServicesConfiguration.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/b83cc5c14755368416a62c4f.xml",
+      "kind": "official-document",
+      "bytes": 2274,
+      "sha256": "80773b8b297baf175d4ad35e5064272f40e67de70998baee0de020c62ed0043c",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/authentication/tokenbasedremembermeservices/DefaultAlgorithmRememberMeServicesConfiguration.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/authorization/authzauthorizationmanagerfactory/AuthorizationManagerFactoryConfiguration.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/3f84745f6282d01601107811.xml",
+      "kind": "official-document",
+      "bytes": 1797,
+      "sha256": "fcd0870fd05de2ed15226775735ce6f9ba1a895449818411124d38d6e20914bf",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/authorization/authzauthorizationmanagerfactory/AuthorizationManagerFactoryConfiguration.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/integrations/customauthorization/AdvancedWebSocketSecurityConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/1fe54ae0d5b45337c756e8be.xml",
+      "kind": "official-document",
+      "bytes": 2165,
+      "sha256": "8c3324490dec754bc624b31b3d0850c982e74b8112f35d573a596cb2083eafa5",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/integrations/customauthorization/AdvancedWebSocketSecurityConfig.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/integrations/customauthorization/WebSocketSecurityConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/02b5ccb8a214e803bf3e6cd5.xml",
+      "kind": "official-document",
+      "bytes": 1573,
+      "sha256": "905bb6f3e9353fc846204e25eca80d6a02fe5e7f4392b11b702c9fed51457dfe",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/integrations/customauthorization/WebSocketSecurityConfig.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/integrations/websocketauthorization/WebSocketSecurityConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/ab8ab3747d90ee981d8117ee.xml",
+      "kind": "official-document",
+      "bytes": 1439,
+      "sha256": "f1e32160448d502fd62f99998754cfbb269ca23efa787883ddce5f323e34d1c6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/integrations/websocketauthorization/WebSocketSecurityConfig.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/integrations/websocketsameorigindisable/WebSocketSecurityConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/a1d50248733ff226e8b121da.xml",
+      "kind": "official-document",
+      "bytes": 1433,
+      "sha256": "f3e32b0e97170bb5f6d9580ed88f65f899e87b0a94867a0bd03d3abd2262cd41",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/integrations/websocketsameorigindisable/WebSocketSecurityConfig.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/integrations/websocketsockjscsrf/WebSocketSecurityConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c45516526eaa70d1b9fbff6c.xml",
+      "kind": "official-document",
+      "bytes": 2206,
+      "sha256": "60c2ac36d42c0e8ecefa5c82b5f2017c9677b7aff9dae90a87932a2498338baa",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/integrations/websocketsockjscsrf/WebSocketSecurityConfig.xml"
+    },
+    {
+      "path": "docs/src/test/resources/org/springframework/security/docs/servlet/requestcachepreventsavedrequest/SecurityConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/c5d13b9cc2e406e5df90d787.xml",
+      "kind": "official-document",
+      "bytes": 1422,
+      "sha256": "47700c07e193583f521683ea9b45b1b961a269cb39b9082bc20213d084339fdb",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/docs/src/test/resources/org/springframework/security/docs/servlet/requestcachepreventsavedrequest/SecurityConfig.xml"
+    },
+    {
+      "path": "kerberos/kerberos-web/src/test/resources/org/springframework/security/kerberos/docs/AuthProviderConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/dfff48f010eb84d8768abca8.xml",
+      "kind": "official-document",
+      "bytes": 2099,
+      "sha256": "d026b7a2227b4176539f29575a4995151e40d67dd639dd1507e89fc3b990fe08",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/kerberos/kerberos-web/src/test/resources/org/springframework/security/kerberos/docs/AuthProviderConfig.xml"
+    },
+    {
+      "path": "kerberos/kerberos-web/src/test/resources/org/springframework/security/kerberos/docs/SpnegoConfig.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/71d16e2d419f27f46b1d684c.xml",
+      "kind": "official-document",
+      "bytes": 3023,
+      "sha256": "c77fbf5664209cc120c84609642272421b633b52497314a1e61195bdb273d31e",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/kerberos/kerberos-web/src/test/resources/org/springframework/security/kerberos/docs/SpnegoConfig.xml"
+    },
+    {
+      "path": "kerberos/kerberos-web/src/test/resources/org/springframework/security/kerberos/docs/appproperties.xml",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/aec0af2790ddecb9a57ad74a.xml",
+      "kind": "official-document",
+      "bytes": 699,
+      "sha256": "dd9e86c8058715d47422fdb31bcf78e986accddc3c993821f988868d25e046f6",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/kerberos/kerberos-web/src/test/resources/org/springframework/security/kerberos/docs/appproperties.xml"
+    },
+    {
+      "path": "notice.txt",
+      "localPath": "raw/spring-projects--spring-security/747f40da13de/f003416596dcafa9f4a0221d.txt",
+      "kind": "license",
+      "bytes": 1045,
+      "sha256": "a9682acb2e05ce58e0091b1cc2205a1f301318d6523a1b3ed927b9766fdf11f9",
+      "sourceUrl": "https://github.com/spring-projects/spring-security/blob/747f40da13de66b67249601fa9ceb8e0e99e6ef4/notice.txt"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

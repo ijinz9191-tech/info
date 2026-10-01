@@ -1,0 +1,145 @@
+:_mod-docs-content-type: CONCEPT
+
+To configure custom client authentication, set the `type` property to `custom`.
+Custom client authentication allows you to use any type of Kafka-supported authentication mechanism.
+This authentication option is especially useful with third-party Apache Kafka services, such as Amazon MSK, that require their own authentication mechanisms.
+
+.Example custom client authentication configuration using the `AWS_MSK_IAM` authentication
+[source,yaml,subs="attributes+"]
+----
+  authentication:
+    type: custom
+    sasl: true
+    config:
+      sasl.mechanism: AWS_MSK_IAM
+      sasl.jaas.config: software.amazon.msk.auth.iam.IAMLoginModule required;
+      sasl.client.callback.handler.class: software.amazon.msk.auth.iam.IAMClientCallbackHandler
+----
+
+The `config` section accepts only options that start with the prefixes `sasl.` and `ssl.keystore.`.
+All other options are ignored.
+To configure additional options, use the related properties of the Strimzi custom resource, such as `.spec.config` or `.spec.tls`.
+The `security.protocol `setting is generated automatically from the `sasl` property (when you use `custom` authentication) and the `tls` configuration in the same Strimzi custom resource:
+
+* SASL = True, TLS = True -> SASL_SSL
+* SASL = False, TLS = True -> SSL
+* SASL = True, TLS = False -> SASL_PLAINTEXT
+* SASL = False, TLS = False -> PLAINTEXT
+
+= Using secrets in custom authentication
+
+If your custom authentication mechanism requires additional information from `Secret` or `ConfigMap` resources, use the link:{BookURLConfiguring}#con-common-configuration-volumes-reference[Additional Volumes^] feature to mount them into the operands.
+Kafka configuration providers can be used to load them from the disk.
+
+If the `config` section contains sensitive values such as passwords, tokens, or client secrets, do not embed them directly.
+Use Kafka configuration providers to load sensitive values at runtime instead.
+Strimzi includes the `KubernetesSecretConfigProvider` for loading values from Kubernetes `Secret` resources.
+Other providers, such as the File or Directory providers, can also be used when the sensitive value is available on the filesystem.
+
+Configure the config provider in the component's `spec.config` and reference secrets using the template syntax `${<config-provider-alias>:<namespace>/<secret-name>:<key>}`.
+
+.Insecure: OAuth client secret as a literal value in sasl.jaas.config
+[source,yaml]
+----
+authentication:
+  type: custom
+  sasl: true
+  config:
+    sasl.mechanism: OAUTHBEARER
+    sasl.jaas.config: |
+      org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required
+        oauth.client.id="my-client-id"
+        oauth.client.secret="my-plaintext-client-secret"
+        oauth.token.endpoint.uri="https://my-oauth-server/token";
+    sasl.login.callback.handler.class: io.strimzi.kafka.oauth.client.JaasClientOauthLoginCallbackHandler
+----
+
+.Secure: OAuth client secret loaded from a Kubernetes Secret via a config provider
+[source,yaml,subs="attributes+"]
+----
+spec:
+  config:
+    config.providers: my-secrets-provider # <1>
+    config.providers.my-secrets-provider.class: io.strimzi.kafka.KubernetesSecretConfigProvider # <2>
+  # ...
+  authentication:
+    type: custom
+    sasl: true
+    config:
+      sasl.mechanism: OAUTHBEARER
+      sasl.jaas.config: |
+        org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required
+          oauth.client.id="my-client-id"
+          oauth.client.secret="${my-secrets-provider:mynamespace/my-oauth-secret:client-secret}" # <3>
+          oauth.token.endpoint.uri="https://my-oauth-server/token";
+      sasl.login.callback.handler.class: io.strimzi.kafka.oauth.client.JaasClientOauthLoginCallbackHandler
+----
+<1> A user-chosen alias for the provider, used in template references.
+<2> `KubernetesSecretConfigProvider` loads values from Kubernetes `Secret` resources at runtime.
+<3> A config provider template reference. The `KubernetesSecretConfigProvider` resolves it to the actual secret value at runtime, so the sensitive value is never stored in plaintext in the component configuration.
+
+The Secret can be in any namespace, as long as the service account has the required access rights.
+
+IMPORTANT: You need to give the Kafka broker service account the access rights to the used Secret.
+For more information on setting up access rights, see the link:{BookURLConfiguring}#assembly-loading-config-with-providers-str[Loading configuration values from external sources^] section.
+
+= Using Kubernetes Service Account tokens for authentication
+
+If the Kafka cluster has a listener that authenticates clients with Kubernetes Service Account tokens, you can connect the operand to it using `custom` authentication with the `OAUTHBEARER` SASL mechanism.
+The operand reads the token from a file mounted into its pod and presents it to the Kafka cluster.
+For information on how to configure such a listener, see the xref:type-KafkaListenerAuthenticationCustom-{context}[`KafkaListenerAuthenticationCustom` schema reference].
+
+Strimzi mounts the Service Account token of the operand into the `/var/run/secrets/kubernetes.io/serviceaccount` directory.
+This token is issued for the default audience of the Kubernetes API server.
+If the Kafka listener requires a specific audience, use a projected Service Account token volume to mount a token issued for that audience instead.
+
+.Example client authentication configuration using a projected Service Account token
+[source,yaml,subs="attributes+"]
+----
+spec:
+  authentication:
+    type: custom
+    sasl: true
+    config:
+      sasl.mechanism: OAUTHBEARER
+      sasl.login.callback.handler.class: io.strimzi.kafka.oauth.client.JaasClientOauthLoginCallbackHandler
+      sasl.jaas.config: |
+        org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule required
+          oauth.access.token.location="/mnt/auth-token/token";
+  template:
+    pod:
+      volumes:
+        - name: auth-token
+          projected:
+            sources:
+              - serviceAccountToken:
+                  audience: my-internal-listener
+                  expirationSeconds: 3600
+                  path: token
+    connectContainer:
+      volumeMounts:
+        - name: auth-token
+          mountPath: /mnt/auth-token
+----
+
+In this configuration:
+
+* `sasl.login.callback.handler.class` sets the Strimzi callback handler that passes the token to the Kafka cluster.
+* `oauth.access.token.location` tells the Kafka client where to find the token file.
+* The `projected` volume asks Kubernetes to issue a token for the Service Account of the operand pod with the `my-internal-listener` audience and to store it in a file named `token`.
+* The volume is mounted at `/mnt/auth-token`, so the token is available in the `/mnt/auth-token/token` file.
+Additional volumes can be mounted only into paths that start with `/mnt`.
+For more information about additional volumes, see link:{BookURLConfiguring}#con-common-configuration-volumes-reference[Additional Volumes^].
+
+The `connectContainer` name used in this example applies to `KafkaConnect` and `KafkaMirrorMaker2` resources.
+For `KafkaBridge` resources, use `bridgeContainer` instead.
+
+NOTE: A projected Service Account token is always issued for the Service Account used by the pod.
+It cannot be used to obtain a token for a different Service Account.
+Strimzi operands use a Service Account named after the component: `<connect_cluster_name>-connect` for Kafka Connect, `<mirror_maker_2_cluster_name>-mirrormaker2` for MirrorMaker 2, and `<bridge_name>-bridge` for the HTTP Bridge.
+
+= Using additional authentication plugins
+
+Custom authentication mechanisms might require additional plugins for the operand.
+You can add them using the link:{BookURLConfiguring}#con-common-configuration-volumes-reference[Additional Volumes^] feature.
+Alternatively, you can build a custom container image.

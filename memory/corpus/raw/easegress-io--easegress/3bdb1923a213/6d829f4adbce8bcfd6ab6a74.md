@@ -1,0 +1,136 @@
+# Quick Start
+
+The basic usage of Easegress is to quickly set up a proxy for the backend servers.
+
+## Launch Easegress
+
+Easegress can be installed from pre-built binaries or from source. For details, see [Install](1.2.Install.md).
+
+Then we can execute the server:
+
+```bash
+$ easegress-server
+2023-09-06T15:12:49.256+08:00   INFO    cluster/config.go:110   config: advertise-client-urls: ...
+...
+```
+
+By default, Easegress opens ports 2379, 2380, and 2381; however, you can modify these settings along with other arguments either in the configuration file or via command-line arguments. For a complete list of arguments, please refer to the `easegress-server --help` command.
+
+After launching successfully, we could check the status of the one-node cluster.
+
+```bash
+$ egctl get member
+...
+
+$ egctl describe member
+...
+```
+
+## Reverse Proxy
+
+Assuming you have two backend HTTP services running at `127.0.0.1:9095` and `127.0.0.1:9096`, you can initiate an HTTP proxy from port 10080 to these backends using the following command:
+
+```bash
+$ egctl create httpproxy demo --port 10080 \
+  --rule="/pipeline=http://127.0.0.1:9095,http://127.0.0.1:9096" \
+  --rule="/prefix*=http://127.0.0.1:9097"
+```
+
+Then try it:
+
+```bash
+curl -v 127.0.0.1:10080/pipeline
+```
+
+The request will be forwarded to either `127.0.0.1:9095/pipeline` or `127.0.0.1:9096/pipeline`, utilizing a round-robin load-balancing policy.
+
+```bash
+curl -v 127.0.0.1:10080/prefix/123
+```
+
+The request will be forwarded to `127.0.0.1:9097/prefix/123`.
+
+## YAML Configuration
+
+The `egctl create httpproxy` command is convenient, but for production use, you'll want more control. Easegress uses two main resources: **HTTPServer** (handles incoming requests) and **Pipeline** (processes and routes requests).
+
+### Method 1: HTTPServer with Built-in Backend Pool
+
+This approach automatically creates pipelines for you:
+
+```bash
+$ echo 'kind: HTTPServer
+name: demo-backend-pool
+port: 10080
+https: false
+rules:
+  - paths:
+    - pathPrefix: /demo0
+      backendPool:
+        loadBalance:
+          policy: roundRobin
+        servers:
+            - url: http://127.0.0.1:9091
+            - url: http://127.0.0.1:9092
+    - pathPrefix: /demo1
+      backendPool:
+        loadBalance:
+          policy: roundRobin
+        servers:
+            - url: http://127.0.0.1:9093
+            - url: http://127.0.0.1:9094' | egctl create -f -
+```
+
+It will generate one pipeline for each backendPool. For example, `demo-backend-pool` generates pipeline`GENERATED-demo-backend-pool-0-0` and `GENERATED-demo-backend-pool-0-1` which couldn't be updated or deleted via `egctl` (User APIs).
+
+### Method 2: HTTPServer with Separate Pipelines
+
+Create HTTPServer:
+
+```bash
+$ echo '
+kind: HTTPServer
+name: demo-backend
+port: 10081
+https: false
+rules:
+  - paths:
+    - path: /pipeline
+      backend: demo-0
+    - pathPrefix: /prefix
+      backend: demo-1 ' | egctl create -f -
+```
+
+Create the Pipelines:
+
+```bash
+$ echo '
+name: demo-0
+kind: Pipeline
+flow:
+  - filter: proxy
+filters:
+  - name: proxy
+    kind: Proxy
+    pools:
+    - servers:
+      - url: http://127.0.0.1:9095
+      - url: http://127.0.0.1:9096
+      loadBalance:
+        policy: roundRobin
+---
+name: demo-1
+kind: Pipeline
+flow:
+  - filter: proxy
+filters:
+  - name: proxy
+    kind: Proxy
+    pools:
+    - servers:
+      - url: http://127.0.0.1:9097' | egctl create -f -
+```
+
+More details about [Pipeline](../02.Tutorials/2.3.Pipeline-Explained.md).
+
+You can also modify, update, or delete these resources using `egctl`; for more details, refer to the [egctl usage](../02.Tutorials/2.1.egctl-Usage.md) guide.

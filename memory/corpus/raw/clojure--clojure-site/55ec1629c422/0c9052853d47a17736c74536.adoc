@@ -1,0 +1,71 @@
+= Getting Started
+Alex Miller
+2016-01-14
+:type: guides
+:toc: macro
+:icons: font
+
+ifdef::env-github,env-browser[:outfilesuffix: .adoc]
+
+toc::[]
+
+Welcome to Clojure!
+
+== What tools do I need?
+
+Clojure is a https://clojure.org/about/dynamic[dynamic development environment] where you interact with your program while you write it, growing and adding to it while it's running. To work with Clojure you need an editor that supports evaluation in source files and structural editing (working with nested forms in addition to character editing).
+
+Install these first:
+
+* <<install_clojure#,Clojure>> provides the language, a REPL (Read Eval Print Loop), library support, and program runner
+* <<editors#,Editor>> with interactive development support
+
+=== Step-by-Step Installation Videos
+
+* https://www.youtube.com/watch?v=huGyv5yLIM8[macOS]
+* https://www.youtube.com/watch?v=544xOAIg3y0[Linux]
+* https://www.youtube.com/watch?v=TQgzA3QLz-k[Windows WSL]
+* https://www.youtube.com/watch?v=NFDAChdzThg[Windows]
+
+== How do I work with these tools?
+
+The details will depend on your operating system and editor but the essential flow for all of them is the same:
+
+* Create or open a file
+* Connect a Clojure environment (aka the REPL)
+* Write Clojure code in your editor
+* Evaluate the code in your editor using the connected environment
+* Repeat!
+
+Learn more:
+
+* <<repl/introduction#,REPL>> - learn more about the REPL and how to use it interactively
+* <<structural_editing#,Structural editing>> - working with code as forms, not text
+
+== How do I learn the language?
+
+There are many ways to learn the Clojure language. This tutorial covers the basics:
+
+* <<learn/clojure#,Learn Clojure guide>>
+
+If you'd like to work from a <<xref/../../community/books#,book>>, these are some excellent starting points:
+
+image:https://pragprog.com/titles/shcloj4/programming-clojure-fourth-edition/shcloj4-beta-500.jpg[Programming Clojure, 4th edition,link="https://pragprog.com/titles/shcloj4/programming-clojure-fourth-edition/",width="130"] image:https://images-na.ssl-images-amazon.com/images/I/51dqOLcPL7L._SL160.jpg[Getting Clojure,link="https://pragprog.com/titles/roclojure/getting-clojure/",width="130"] image:https://images-na.ssl-images-amazon.com/images/I/6112vbQYDLL._SL160.jpg[Clojure for the Brave and True,link="https://a.co/bsviqV7",width="130"] image:https://images-na.ssl-images-amazon.com/images/I/5122uV93jfL._SL160.jpg[Living Clojure,link="https://a.co/1m2Zt4p",width="130"]
+
+If you'd like to try some practice problems:
+
+* https://4clojure.oxal.org/[4Clojure] - a large set of Clojure practice problems
+* https://exercism.org/tracks/clojure[exercism Clojure track] - larger problems with mentor support
+
+Also check out:
+
+* https://clojure.camp/[Clojure Camp] - an interactive community for beginner Clojure developers
+* <<xref/../../community/resources#_tutorials_and_learning_materials,Other learning resources>> for more options...
+
+== Where can I ask questions?
+
+There are many places to interact with other Clojure developers:
+
+* https://ask.clojure.org[Ask Clojure] [official] - Clojure Q&A and knowledge base
+* http://clojurians.net[Clojurians Slack channel] - Clojure live chat, check out #beginners, #jobs, etc
+* https://clojureverse.org[Clojureverse] - Clojure forum

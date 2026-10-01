@@ -1,0 +1,1266 @@
+{
+  "schemaVersion": 1,
+  "repo": "fish-shell/fish-shell",
+  "commit": "35c290272cc9c4c51518d0b87810a404d1ce66e1",
+  "retrievedAt": "2026-10-01T15:37:09.965157+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/fish"
+  ],
+  "archiveUrl": "https://codeload.github.com/fish-shell/fish-shell/zip/35c290272cc9c4c51518d0b87810a404d1ce66e1",
+  "selectionSha256": "a973377a9770bf7241942212ad72e54bd288a9173732fc1cd66757222f3f2150",
+  "selection": {
+    "docRoots": [
+      "doc_src"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "7b2e34bce7382319dd9cd484275269a20d5feddb46b0d17b138092585764c140",
+  "archiveBytes": 7277507,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 149,
+    "code": 0,
+    "licenses": 5,
+    "bytes": 1005279
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/2c623f3c6a917be56c59d432.rst",
+      "kind": "official-document",
+      "bytes": 306401,
+      "sha256": "16430952d18d85f23ffc122a15ffba60449b191a61fce9708ddbe0b33381dd35",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/CHANGELOG.rst"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 5171,
+      "sha256": "8ebbde1b28bdc138e9264074f34753b879c66f5459bf5aa050647bd90410a8ac",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/76e7ca2f2843ac5f659b4538.rst",
+      "kind": "official-document",
+      "bytes": 24253,
+      "sha256": "ad1581cc287f229342410ffe3664655fcdc9c2fc0a0ff5b8c32fd9d5f8f3f35b",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/CONTRIBUTING.rst"
+    },
+    {
+      "path": "COPYING",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/400d38e5cfee181230373a8b.txt",
+      "kind": "license",
+      "bytes": 826,
+      "sha256": "41f2f3709337de306838f27cedebf345c5d4690f68ecced154d57349ca63b85a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/COPYING"
+    },
+    {
+      "path": "README.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/7b3ed02bc73dc06b7db906cf.rst",
+      "kind": "official-document",
+      "bytes": 9160,
+      "sha256": "4522ac46f9f1192c89d0c3f88dcac77b1c951c162cb91887514d7917a28d64af",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/README.rst"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1342,
+      "sha256": "0a11d13574dfa597ce05ddaa7b1864e55eec2a97b918d38666819d0373dd4f89",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/SECURITY.md"
+    },
+    {
+      "path": "contrib/debian/copyright",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ca5cb3e45756d7b59ea94022.txt",
+      "kind": "license",
+      "bytes": 7125,
+      "sha256": "a7913a0a98f0a6ea599b2bb1d7295777db651cb4af34268d9a94eee3a9743a2f",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/contrib/debian/copyright"
+    },
+    {
+      "path": "crates/printf/LICENSE",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c06d3b78bfeb163b9f2df70e.txt",
+      "kind": "license",
+      "bytes": 1297,
+      "sha256": "611ee7850c134f3035a80bfa1a6aad766035569125a5186658760a8f369a8134",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/crates/printf/LICENSE"
+    },
+    {
+      "path": "crates/printf/README.md",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/da8d015aa70f1fe08ad1f6a8.md",
+      "kind": "official-document",
+      "bytes": 1476,
+      "sha256": "10bfffef1aa362835cdd2d4783122ff5b0ccdec7f6dce02136d9fa69410d20ce",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/crates/printf/README.md"
+    },
+    {
+      "path": "crates/widecharwidth/LICENSE",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/3dab80820f520f46fbe76df9.txt",
+      "kind": "license",
+      "bytes": 445,
+      "sha256": "acaa8136274529e9e10f6285897861d1421ac2079f44cfa63ccff9c02ff476ab",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/crates/widecharwidth/LICENSE"
+    },
+    {
+      "path": "doc_src/cmds/_.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/00a031abbe3c546af2ed6040.rst",
+      "kind": "official-document",
+      "bytes": 1819,
+      "sha256": "77580109c81fd7df335ac121de4ac715c76706095b35f2d6367b4e32a1038e1c",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/_.rst"
+    },
+    {
+      "path": "doc_src/cmds/abbr.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/16896eb59f2a046c83fb5c31.rst",
+      "kind": "official-document",
+      "bytes": 7904,
+      "sha256": "5741c7c256ccf5f057d17111d908049790b337149ad7658c5796e7198644824a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/abbr.rst"
+    },
+    {
+      "path": "doc_src/cmds/alias.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/f4f418ee3d2d3069c10c9c73.rst",
+      "kind": "official-document",
+      "bytes": 2336,
+      "sha256": "f10afab1339d2ad5711685fa3e2b9f8de206ceb531b686fab2469b1688452433",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/alias.rst"
+    },
+    {
+      "path": "doc_src/cmds/and.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/2fb1f3d6ccc074fabc2f7d90.rst",
+      "kind": "official-document",
+      "bytes": 1087,
+      "sha256": "7a237c2e7a0b30826bba2c04ae3cfd657e94933272b9b8312840dd2ba5972cd7",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/and.rst"
+    },
+    {
+      "path": "doc_src/cmds/argparse.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/2aa5183bd5b6eff9f013598b.rst",
+      "kind": "official-document",
+      "bytes": 21915,
+      "sha256": "5fe0da703ea5f8c1705ebb0635e283004de813037746f1b29e97b849b3b036ff",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/argparse.rst"
+    },
+    {
+      "path": "doc_src/cmds/begin.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/672f920f01e1e9b04648a232.rst",
+      "kind": "official-document",
+      "bytes": 1494,
+      "sha256": "47f74b23f83a17550fa83fbb38cb8e398b92545ae8af641a1e7e2b962170e8a1",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/begin.rst"
+    },
+    {
+      "path": "doc_src/cmds/bg.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/0d1861f82a297878a1af75b0.rst",
+      "kind": "official-document",
+      "bytes": 1757,
+      "sha256": "94990be94208c244d5e03c69e14e19dd0184a3f893965c9568001c76d0244904",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/bg.rst"
+    },
+    {
+      "path": "doc_src/cmds/bind.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/357acc6851d6026aa71b2bd1.rst",
+      "kind": "official-document",
+      "bytes": 21999,
+      "sha256": "16c9d538f5406adecb32f0a320d698195746db9a1dd59ba0b4f38f3d10f915a2",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/bind.rst"
+    },
+    {
+      "path": "doc_src/cmds/block.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/57ad18fcfd5bec5a15de84c4.rst",
+      "kind": "official-document",
+      "bytes": 1451,
+      "sha256": "6f0eeb23a2666ff604f286f535c2a5ff4021ea3684010caf558ac892fae46425",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/block.rst"
+    },
+    {
+      "path": "doc_src/cmds/break.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/3aff1b3b8a33de6581e8ef0c.rst",
+      "kind": "official-document",
+      "bytes": 859,
+      "sha256": "10f0829a02dbbda9b94bcd4cfac7ddb455236be0e3e40e4791acf09bc5deb93d",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/break.rst"
+    },
+    {
+      "path": "doc_src/cmds/breakpoint.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ab32ffe24dabcc0efc2b5a3c.rst",
+      "kind": "official-document",
+      "bytes": 364,
+      "sha256": "947f6ae880a33a107fcf17ed303ff5bbea38916b163d1134e6435c98b440900e",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/breakpoint.rst"
+    },
+    {
+      "path": "doc_src/cmds/builtin.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/bbe3825dbb4ed466780645f5.rst",
+      "kind": "official-document",
+      "bytes": 736,
+      "sha256": "bb475eba1abd038f87cef100ee57ba1a7435c7affd05ce7e2758046dd984858a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/builtin.rst"
+    },
+    {
+      "path": "doc_src/cmds/case.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d4a45bf90062827931e13b77.rst",
+      "kind": "official-document",
+      "bytes": 1778,
+      "sha256": "f228366443ab0258ae86f13161632b8feb06514af45edc1ee49787a10066512c",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/case.rst"
+    },
+    {
+      "path": "doc_src/cmds/cd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/37af98fdbd7162fc2bea2d36.rst",
+      "kind": "official-document",
+      "bytes": 2753,
+      "sha256": "47372f11c388293ea3b105093b6464545f1cfc5881828fe325b9a7ca92512417",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/cd.rst"
+    },
+    {
+      "path": "doc_src/cmds/cdh.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/22802e5d7f67a48021f3b723.rst",
+      "kind": "official-document",
+      "bytes": 989,
+      "sha256": "ccb4b43e264e907de5701d504d0baa8eaca16f2e0d921e97c5d01344a85cb063",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/cdh.rst"
+    },
+    {
+      "path": "doc_src/cmds/command.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/2962a07cacbf2528654b7b42.rst",
+      "kind": "official-document",
+      "bytes": 1454,
+      "sha256": "6b3d7b115e4369f20092e4386ddfac4bbeebb2c29ea0b7806d6c8bf86afc8c1a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/command.rst"
+    },
+    {
+      "path": "doc_src/cmds/commandline.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5459cf85bd80b058f6ed6443.rst",
+      "kind": "official-document",
+      "bytes": 6865,
+      "sha256": "97c604eb50263f7bc9454c2262db82e132376f5ab633e8c3b9c398931fda44bf",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/commandline.rst"
+    },
+    {
+      "path": "doc_src/cmds/complete.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/9ce429c22365671d8a27592d.rst",
+      "kind": "official-document",
+      "bytes": 10043,
+      "sha256": "5773eebc25ad9dd6ad0d13c351733287132f4626abbee6e82a5ffc3450994c57",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/complete.rst"
+    },
+    {
+      "path": "doc_src/cmds/contains.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/0a5c49d9ddd5e48b0c820b36.rst",
+      "kind": "official-document",
+      "bytes": 1671,
+      "sha256": "69d335f04ab4f3c61b4550c789f1e60f677359dda1c7ba498d561a8d3ddac1f8",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/contains.rst"
+    },
+    {
+      "path": "doc_src/cmds/continue.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/72c0e406b7ca903ef3e38c5c.rst",
+      "kind": "official-document",
+      "bytes": 1029,
+      "sha256": "1b0df31a81c7520fe3089139c09cc2ec37a4f4ea8e9cdbb5b120454c89dfca60",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/continue.rst"
+    },
+    {
+      "path": "doc_src/cmds/count.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/e1d6af3b2b40aa6cc1fad9a9.rst",
+      "kind": "official-document",
+      "bytes": 1304,
+      "sha256": "189b8cc0ca6d5e363696d04ea3fb6d400479fad7d002a51ef4e15724ba10f267",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/count.rst"
+    },
+    {
+      "path": "doc_src/cmds/dirh.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/cc64a4b22582e95a678e5588.rst",
+      "kind": "official-document",
+      "bytes": 767,
+      "sha256": "fb6a2e3891bf4203b317e0c815c38a9000ef31cf5b29fd938eb22d3cbc9f5cfe",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/dirh.rst"
+    },
+    {
+      "path": "doc_src/cmds/dirs.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/15878fdd4c1d29baa034882a.rst",
+      "kind": "official-document",
+      "bytes": 615,
+      "sha256": "a3a1a94455a948d2ae16f09d5d2fa549049adff4100c0f5fce8b8cf32498a045",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/dirs.rst"
+    },
+    {
+      "path": "doc_src/cmds/disown.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/53e5bbafb0f0728f6573977d.rst",
+      "kind": "official-document",
+      "bytes": 1585,
+      "sha256": "ae4f9c9f47a781c4b1ca766d89939cb93efa8afc7fe2c3f1af096101e14eaeea",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/disown.rst"
+    },
+    {
+      "path": "doc_src/cmds/echo.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/16cefb64484af59bf94b2bd2.rst",
+      "kind": "official-document",
+      "bytes": 1352,
+      "sha256": "d787e19ac2e4ace54598298e65d7b0c7d083a798efcde663ee664cfb8fa0ca3b",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/echo.rst"
+    },
+    {
+      "path": "doc_src/cmds/else.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/6f1b5ac8c8c1de6d05bd3b14.rst",
+      "kind": "official-document",
+      "bytes": 640,
+      "sha256": "15db28d6fde7d922f1dd9ce250808356e8687dee4872b98a8a97c3edcbe66be2",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/else.rst"
+    },
+    {
+      "path": "doc_src/cmds/emit.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/77c5ee8f19c104ab91d9ca76.rst",
+      "kind": "official-document",
+      "bytes": 841,
+      "sha256": "bc459265ca6031e8fda9cad57752aed784555af53184d759819284d4039eeecf",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/emit.rst"
+    },
+    {
+      "path": "doc_src/cmds/end.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/b859f0ed1c369bf752ff935d.rst",
+      "kind": "official-document",
+      "bytes": 937,
+      "sha256": "b6d85c555bb5b34a3a6f5608b71ddab91c78cb010b4589fcd7e459283aaa90aa",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/end.rst"
+    },
+    {
+      "path": "doc_src/cmds/eval.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d349878ff7d15e751e55aa4a.rst",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "3b1eb6262055ae27a8ee05743306d7bebc84fe384d6d633eb2fe067930b30670",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/eval.rst"
+    },
+    {
+      "path": "doc_src/cmds/exec.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/55d7c7f5bd330168e5a3dc68.rst",
+      "kind": "official-document",
+      "bytes": 700,
+      "sha256": "50dbc5dcdc6a7b6c2291297e6f68e62075b1b319721ec6cbc1a4da6259fb86f5",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/exec.rst"
+    },
+    {
+      "path": "doc_src/cmds/exit.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/09b3a2de6a7e184793366ec9.rst",
+      "kind": "official-document",
+      "bytes": 547,
+      "sha256": "969d04b40c638f58cf88c55820f36178ee8625d842e6c1398cf2f460b3ad8c88",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/exit.rst"
+    },
+    {
+      "path": "doc_src/cmds/export.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/996b20b86bf1548d9bc0610b.rst",
+      "kind": "official-document",
+      "bytes": 1059,
+      "sha256": "4ff2801c1fd9264672b36567209aade52f274afdb6c5c97d76126e31ff6771bf",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/export.rst"
+    },
+    {
+      "path": "doc_src/cmds/false.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/f6225aa3f68ceb9dc22d5805.rst",
+      "kind": "official-document",
+      "bytes": 278,
+      "sha256": "74c4418eb31f696ee8b9c8620d3801a126b69cdf3a2e9d39691018f5ad68c6ea",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/false.rst"
+    },
+    {
+      "path": "doc_src/cmds/fg.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/488077fa59d859e83dfcf345.rst",
+      "kind": "official-document",
+      "bytes": 875,
+      "sha256": "4a76fb322aac68713347f53922b6ec4f102232363204ae53975dae40faedb043",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fg.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/475342563760649c5c701c60.rst",
+      "kind": "official-document",
+      "bytes": 4656,
+      "sha256": "fb7a08bfb28cf1a4c1ebe39705adfcf50c64cfe9e9a5c0ead3df9d539c5bb30d",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_add_path.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/1f319937d88e28421199e066.rst",
+      "kind": "official-document",
+      "bytes": 4620,
+      "sha256": "7fcf6d6caf8c2befbdfe198abd18baa1a7ad4244df4dd207f31f1d8726dbfc39",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_add_path.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_breakpoint_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4e7c81f690563014a19bc997.rst",
+      "kind": "official-document",
+      "bytes": 1141,
+      "sha256": "0a4187a12f4afacfa9f4c0ca271a3478d33454ddd8fd57b54f73f92da2ec7596",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_breakpoint_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_clipboard_copy.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/bab9b01a67226c9013e751fa.rst",
+      "kind": "official-document",
+      "bytes": 973,
+      "sha256": "76939652a6d2bbb16a12a742b672fdb756cf41a3831460e64b6cf44261d1c4be",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_clipboard_copy.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_clipboard_paste.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/678e760ae0a82bd338c36e5e.rst",
+      "kind": "official-document",
+      "bytes": 1198,
+      "sha256": "92b8859d95cb44f855a05fc5db09572de51d34a4cbc51fc885cb1819fb58cd30",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_clipboard_paste.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_command_not_found.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/22f200e9cd6c7c4327747ab0.rst",
+      "kind": "official-document",
+      "bytes": 1341,
+      "sha256": "22f745412a76577e301e8b509cb0d996625e08b6d429f211f1a986289b0b10b2",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_command_not_found.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_config.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/abfa8c725cf1f22d22f1479f.rst",
+      "kind": "official-document",
+      "bytes": 4734,
+      "sha256": "f297f736c61d9346c7be680201359a0e83d910b2e436f18fed2724ece4565454",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_config.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_darcs_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/568179f011c8b85217959881.rst",
+      "kind": "official-document",
+      "bytes": 1978,
+      "sha256": "a97ef527a28dc71b5f8f2bd4e5edfbbfb5dbec5eaa87a13c3a1635ea9b7f1f87",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_darcs_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_default_key_bindings.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/26fce6423f38ca94f1b2a2d6.rst",
+      "kind": "official-document",
+      "bytes": 508,
+      "sha256": "e2ea1752625e80ba4fd53e6883c0dcd4dee763802ffcaf14673b6bd489506239",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_default_key_bindings.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_delta.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/546f28d6e1c6c409a6cec020.rst",
+      "kind": "official-document",
+      "bytes": 3117,
+      "sha256": "e515dc838fcb51d745e037e0de9d090aa5354a56826414dff65d69e57828e480",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_delta.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_git_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c437c395623d2f304fad1c19.rst",
+      "kind": "official-document",
+      "bytes": 7765,
+      "sha256": "957f02825e94f11759fe22e4f9173603ae1d0dab54c91ff2a19becd144df913b",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_git_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_greeting.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ec61236f55583306408a8628.rst",
+      "kind": "official-document",
+      "bytes": 1287,
+      "sha256": "1fe992365dbf62f151d7c2b91ffb24bd56d535e08ee3c6ab2e86b152b4b4d956",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_greeting.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_hg_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/059f19cd37ca93dee2271e30.rst",
+      "kind": "official-document",
+      "bytes": 2117,
+      "sha256": "fdc6ba2e6f957665c22b9352a980e22f57575fdd028443a49486ea27b9040316",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_hg_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_indent.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/9090473b09f28c05e67efba9.rst",
+      "kind": "official-document",
+      "bytes": 1626,
+      "sha256": "3900656b8689fcea17f1eb2ab8cf27f13e92cb9f67b9584d78b330ac3e52688d",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_indent.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_is_root_user.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/bf3da29d64a41ec0c21b5cbc.rst",
+      "kind": "official-document",
+      "bytes": 529,
+      "sha256": "5c7d4912947d52b2931d3bbe0341f2feb0294932b53b1c5e878d57735f9e1ed6",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_is_root_user.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_key_reader.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/22577bee0a7031cb6f3d19b9.rst",
+      "kind": "official-document",
+      "bytes": 1233,
+      "sha256": "711e651f67c527dc6270b29e2f77e73039b01a446dea4a301ffafb0fb7b42d38",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_key_reader.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_mode_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/fe95ea9e8a34f251fc6e390b.rst",
+      "kind": "official-document",
+      "bytes": 2082,
+      "sha256": "26d57682ba4b5cb6f93faed0b708eae38190f02c5190817574f63c086d2d5571",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_mode_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_opt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5e75cb97651ac88bd9c105d9.rst",
+      "kind": "official-document",
+      "bytes": 4189,
+      "sha256": "f09b557fe8392721ad36a70fceba9940e95c84b293cc24fda75d0e631d76a493",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_opt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/a13029b9a05e0dcc465dd989.rst",
+      "kind": "official-document",
+      "bytes": 1398,
+      "sha256": "99860f262ad0c203e419e346d4fd5f0788327f7e4262e25892349e92eb703c3a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_right_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/76b5a352e23341b6a6952c41.rst",
+      "kind": "official-document",
+      "bytes": 711,
+      "sha256": "bad8a143390979eb0e1b12bd7857523eac988d97405d674e400afe195261a132",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_right_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_should_add_to_history.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/6f14b0026035932619264949.rst",
+      "kind": "official-document",
+      "bytes": 1831,
+      "sha256": "b239cf057b2e3c0452866e72082272d7dddafaf9706a6c0d61560ce1b5a8d73f",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_should_add_to_history.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_status_to_signal.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/243aace8b7cdcf5e22927e29.rst",
+      "kind": "official-document",
+      "bytes": 664,
+      "sha256": "c7da92217094e9d04738fa09a178bfd29d2b3342873b5e458a47fe6ec06896a4",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_status_to_signal.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_svn_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/0b0ec2fc2d8d4df3fac758c7.rst",
+      "kind": "official-document",
+      "bytes": 3003,
+      "sha256": "589c6b524a923868c1209d11a1552233bfcb0175c15edb84b6bb263b1dd76516",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_svn_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_tab_title.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/37f71f79bb2829be0425079e.rst",
+      "kind": "official-document",
+      "bytes": 133,
+      "sha256": "1aa0ed642d49f8a4481d62394ae143f9fae41bd30e4ecf45fb65459737910ea0",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_tab_title.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_title.inc.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d2122b089c87551f88742cc8.rst",
+      "kind": "official-document",
+      "bytes": 1207,
+      "sha256": "21db34eeb7dd6563205da8bf293e73becd3b8e4f5895db333f849a9a0bf1f7aa",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_title.inc.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_title.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ae46d99ed200b04b5cb2610e.rst",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "31d1cfd36fd613ffa2d0f624699474b0e3da39d9d99478efa7b029509f8627db",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_title.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_update_completions.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/6f9581f9d4156715614e48f9.rst",
+      "kind": "official-document",
+      "bytes": 474,
+      "sha256": "12f6eab9879a228b618d701f94d9ea2cf27ea72909d96f92112a6f54c96224c1",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_update_completions.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_vcs_prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ebad3a38757afd14edbd2c30.rst",
+      "kind": "official-document",
+      "bytes": 1236,
+      "sha256": "249f8521839dee8ea5707e92a67e12eb0de2bfa97655eaa94e6263dd154fa6db",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_vcs_prompt.rst"
+    },
+    {
+      "path": "doc_src/cmds/fish_vi_key_bindings.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/200ca3dbaec7317d878f3d7e.rst",
+      "kind": "official-document",
+      "bytes": 1339,
+      "sha256": "f094ec101aa183c3a84305fa2b7273d0ff577c59574fb5afe8b2a808c3cb2c73",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/fish_vi_key_bindings.rst"
+    },
+    {
+      "path": "doc_src/cmds/for.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/f809e1f15b015c458247b0df.rst",
+      "kind": "official-document",
+      "bytes": 1617,
+      "sha256": "b9bad9ee602e9164e67dec224390ec18b3ff6a0122c6f61f013dee0dc5a9dfa9",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/for.rst"
+    },
+    {
+      "path": "doc_src/cmds/funced.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/3de5b04ffb79ce6f4bcfd3fd.rst",
+      "kind": "official-document",
+      "bytes": 2003,
+      "sha256": "78d620a9214f66418f81a807a612c68dded070c5db7291492ccc31a2b5a004c2",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/funced.rst"
+    },
+    {
+      "path": "doc_src/cmds/funcsave.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/927baeb8ad3c523d40426797.rst",
+      "kind": "official-document",
+      "bytes": 1274,
+      "sha256": "e16ff807c6a28ee70bb48985dcf0959f330603bfdaaaf282f5fc8e491018eb63",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/funcsave.rst"
+    },
+    {
+      "path": "doc_src/cmds/function.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/8bc8583b1b0936080dc0672c.rst",
+      "kind": "official-document",
+      "bytes": 7413,
+      "sha256": "770656dfc5c546e1b1ba81ac9f8daacf703ab43344688e14337aa6039091c9b7",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/function.rst"
+    },
+    {
+      "path": "doc_src/cmds/functions.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c3bbfb90ba93b3ace988b22f.rst",
+      "kind": "official-document",
+      "bytes": 4263,
+      "sha256": "c5f8350a394550d1e7498acee9c98adc6a96d7c62521c8487ba90b5df3886922",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/functions.rst"
+    },
+    {
+      "path": "doc_src/cmds/help.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/880533effb300ce58ad1cf37.rst",
+      "kind": "official-document",
+      "bytes": 903,
+      "sha256": "2088e906e7c8b542769ae88b3708a21d023f2006aea4bab935a3537696db687b",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/help.rst"
+    },
+    {
+      "path": "doc_src/cmds/history.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/54d111bab0c967de0c931436.rst",
+      "kind": "official-document",
+      "bytes": 7289,
+      "sha256": "272122b98847d9341be20f7c57d976490bb2fe15927b44ccc00acefa756a0dac",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/history.rst"
+    },
+    {
+      "path": "doc_src/cmds/if.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4b56b250d56d416a49ac3d20.rst",
+      "kind": "official-document",
+      "bytes": 1847,
+      "sha256": "18763cd6e89fe5b4cfd006ac3d444b13b188639076bb1be4108aef7bce93f333",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/if.rst"
+    },
+    {
+      "path": "doc_src/cmds/isatty.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4d814856d239b351ad699ca6.rst",
+      "kind": "official-document",
+      "bytes": 1077,
+      "sha256": "32aeb73f28f6700a8d84b21f3af48a2f46d5d29459fb61ee03ff81d719e034dd",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/isatty.rst"
+    },
+    {
+      "path": "doc_src/cmds/jobs.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/00f90f008e865b7fc6bd7a0a.rst",
+      "kind": "official-document",
+      "bytes": 1944,
+      "sha256": "b0d6eff8331c63feca79d5c98a0b2169bd6c81b6c191b7f99d43d5da83e78d57",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/jobs.rst"
+    },
+    {
+      "path": "doc_src/cmds/math.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5d3d1097cc7e68ead15cb731.rst",
+      "kind": "official-document",
+      "bytes": 8132,
+      "sha256": "45ac739a714d921c5eeaea6c36ec26eb375d5179c1c59c13b42dc11561e3b377",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/math.rst"
+    },
+    {
+      "path": "doc_src/cmds/nextd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/94498c4c829b6e345f35516b.rst",
+      "kind": "official-document",
+      "bytes": 1226,
+      "sha256": "7a22b5854559b97ef9f3f0436a335934da73d1648d3bd81692c45a0c83855528",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/nextd.rst"
+    },
+    {
+      "path": "doc_src/cmds/not.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4ca2d055796da0dbbe37440b.rst",
+      "kind": "official-document",
+      "bytes": 636,
+      "sha256": "4601bb0f2e7a9ad0a3dae47b7ab0e4d610e6dad64bbaab1ebd98762a488f066f",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/not.rst"
+    },
+    {
+      "path": "doc_src/cmds/open.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/650b06e0c49412c0bb22dd5f.rst",
+      "kind": "official-document",
+      "bytes": 617,
+      "sha256": "7ac91a49624677379347cd7250b15396c4a04ac8af83514ae340b3a529b17fa2",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/open.rst"
+    },
+    {
+      "path": "doc_src/cmds/or.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/3464c0523ba1bda67a15c105.rst",
+      "kind": "official-document",
+      "bytes": 1023,
+      "sha256": "ff0af0b7d9e97df76a656d52e9500b2ee215d35f5679274dcec1103c97c3e275",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/or.rst"
+    },
+    {
+      "path": "doc_src/cmds/path.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/eb36a037c878ab655cd9b1be.rst",
+      "kind": "official-document",
+      "bytes": 17593,
+      "sha256": "0f90a10f27b61813b47fd64223088a2477ce0cc616a97006c5ba111558794636",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/path.rst"
+    },
+    {
+      "path": "doc_src/cmds/popd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4d10b17af5ce5edb684d609e.rst",
+      "kind": "official-document",
+      "bytes": 965,
+      "sha256": "19bef4a122e22378943a00e4c43a44ca37ab838be971971c1e96403b3a2a439a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/popd.rst"
+    },
+    {
+      "path": "doc_src/cmds/prevd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/472165c9285b602dd91494d7.rst",
+      "kind": "official-document",
+      "bytes": 1222,
+      "sha256": "37fb77005e47db4cfcea17dcce4496f87a29cbd74c9529de85fdae110b172c3a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/prevd.rst"
+    },
+    {
+      "path": "doc_src/cmds/printf.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/511d72daf4859020c6105566.rst",
+      "kind": "official-document",
+      "bytes": 4049,
+      "sha256": "dae92c4f777c00e7f739a56754e4257c50f12ad2eecfe03bb69acc2a17689089",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/printf.rst"
+    },
+    {
+      "path": "doc_src/cmds/prompt_hostname.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/beb56b73cf9765c46e2b3de3.rst",
+      "kind": "official-document",
+      "bytes": 603,
+      "sha256": "a5abdbd41966ab3b8966a59b01951783c6c44ccd4081ca50031759a571dfd85c",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/prompt_hostname.rst"
+    },
+    {
+      "path": "doc_src/cmds/prompt_login.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4efed6965f37f4c390ff73db.rst",
+      "kind": "official-document",
+      "bytes": 541,
+      "sha256": "3aeb205225f598349a8c3e838a5e0c99d94a6bbbb8db65d606ddf17c98411e2d",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/prompt_login.rst"
+    },
+    {
+      "path": "doc_src/cmds/prompt_pwd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5f9d195dabe8330220ed7e37.rst",
+      "kind": "official-document",
+      "bytes": 1815,
+      "sha256": "e31bb37bf09da1c2f325586ad26eb9b873bec720c8b77c786358bfb6692497dc",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/prompt_pwd.rst"
+    },
+    {
+      "path": "doc_src/cmds/psub.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/4a7a9d8f38f1492dbc247fe2.rst",
+      "kind": "official-document",
+      "bytes": 1852,
+      "sha256": "1b421d20e737822c2de2075aef16ec9feda8b6a9019f18277cb30da92e7bbded",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/psub.rst"
+    },
+    {
+      "path": "doc_src/cmds/pushd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/db7584a9d25ea5ad18f768a0.rst",
+      "kind": "official-document",
+      "bytes": 1305,
+      "sha256": "383fa64aa8137f2995bbe81f8d896115181cb031d96938a935cae7b2807c9ac6",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/pushd.rst"
+    },
+    {
+      "path": "doc_src/cmds/pwd.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/52c1ebd0131820e4073793f6.rst",
+      "kind": "official-document",
+      "bytes": 882,
+      "sha256": "c95cc1cc017a776ccba91705162ac0083c50cd1081b3c4e26731c64e4d8694e2",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/pwd.rst"
+    },
+    {
+      "path": "doc_src/cmds/random.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/3314465ac5ff1196362d7aaa.rst",
+      "kind": "official-document",
+      "bytes": 1493,
+      "sha256": "05d69ca62cf5799d0938f71036eebf5cb8606628e03c5e9eb84b3ad32ce2ad1a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/random.rst"
+    },
+    {
+      "path": "doc_src/cmds/read.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/e9759bb0413f2ccd125ebd10.rst",
+      "kind": "official-document",
+      "bytes": 7810,
+      "sha256": "4318edba07a3e30d5c9cfa4a75b2d881178d894885df364bbd35754996bde62a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/read.rst"
+    },
+    {
+      "path": "doc_src/cmds/realpath.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/023a947a74bee33a04913548.rst",
+      "kind": "official-document",
+      "bytes": 1059,
+      "sha256": "d9ae05c97e8404c75e63f273fbc3197c74235021ff9f1bfdb6c2f6f46809ecb7",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/realpath.rst"
+    },
+    {
+      "path": "doc_src/cmds/return.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/1767b2bca92bce199f792592.rst",
+      "kind": "official-document",
+      "bytes": 1054,
+      "sha256": "372787c9da1b06f5cb1eb48c1e517721d2f6c77f9eff77cb7d4b234cf58ce905",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/return.rst"
+    },
+    {
+      "path": "doc_src/cmds/set.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/55c3eeaf9b2d807d58278379.rst",
+      "kind": "official-document",
+      "bytes": 9370,
+      "sha256": "7f4de441df0d75b5db95b5982c145a53c82477a00dd57e7f5cc053a91652ec2c",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/set.rst"
+    },
+    {
+      "path": "doc_src/cmds/set_color.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/170fbfeb6c05a1a8513b539d.rst",
+      "kind": "official-document",
+      "bytes": 5374,
+      "sha256": "4787b361c29b42bfd6c9f787e8964de0a89b3f6dfa3034cf5630ca6e57135a93",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/set_color.rst"
+    },
+    {
+      "path": "doc_src/cmds/source.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/a21bb5eb125104956fa1cb72.rst",
+      "kind": "official-document",
+      "bytes": 1807,
+      "sha256": "bf8da19027a88cf9ba5a156245769f7952b15650e64519bf52e3c4913d41def0",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/source.rst"
+    },
+    {
+      "path": "doc_src/cmds/status.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/a54c2edff88d2ea3a64e69c0.rst",
+      "kind": "official-document",
+      "bytes": 8046,
+      "sha256": "4e9635d8ddbcd85ab29aee9ab0c319b96adc238dfd626d9b265cfc80b243f9a5",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/status.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-collect.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/dd1f3374f6341a6e318f3b92.rst",
+      "kind": "official-document",
+      "bytes": 1875,
+      "sha256": "33ec382c16ad245ed51897bd5e6b953912f495b211583001df132352117c32ff",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-collect.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-escape.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/e0f4ecfe1cf014cab96dce3d.rst",
+      "kind": "official-document",
+      "bytes": 1776,
+      "sha256": "779c495ad297237a5777d5ec90e6258e57aeb603a5f0bca93709f2ca28765866",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-escape.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-join.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/6efdd27bc9d9685774d2da1b.rst",
+      "kind": "official-document",
+      "bytes": 2498,
+      "sha256": "5a38aeee0d573b71062a85949a656ba1fab47ce6398ce9b1ff3366aca7526ed4",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-join.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-join0.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/50a2f1531720469837f2fa19.rst",
+      "kind": "official-document",
+      "bytes": 136,
+      "sha256": "5ae1aa27b4ef0af5a41fadfe9862a432b31165c88ff4f0d13c67564d7c2f7932",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-join0.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-length.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5de5ccdc8b38aa5df7afd9a4.rst",
+      "kind": "official-document",
+      "bytes": 1572,
+      "sha256": "8aa2c129273bb4d04612e0fdcd28430ffe8b2aa5eed9a6002d723de599682a39",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-length.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-lower.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/01fe17ab39a107e52571acd3.rst",
+      "kind": "official-document",
+      "bytes": 555,
+      "sha256": "6f425c425421431fd1a9e2b7f6dd95bb6b9347713f8356a022bbc4069474b752",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-lower.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-match.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5b09d8c61e4000e29c2057e0.rst",
+      "kind": "official-document",
+      "bytes": 5696,
+      "sha256": "8ea4245ad3adf4bac7f195b1e91b43d703920e0b7536e61ac5ff3554b8a397b1",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-match.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-pad.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/afd5a6ed161acc58465a8853.rst",
+      "kind": "official-document",
+      "bytes": 2007,
+      "sha256": "3401403a9825ba26d6c50eddf562c548d77bddb2987945c155e1e7ada50c8299",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-pad.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-repeat.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/21b9d9090514b8af7af9cb66.rst",
+      "kind": "official-document",
+      "bytes": 1589,
+      "sha256": "1fd35a91628633f8f886455c7009d2bf6b5d6bdc98b69ea9bf012ab6d4f5ec90",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-repeat.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-replace.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/5b8cea570c4e448b279d8a33.rst",
+      "kind": "official-document",
+      "bytes": 2367,
+      "sha256": "0ef03aeba01d695befcbd7f58d73b1b74c1680936f22ea206ed5935a1d9302e9",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-replace.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-shorten.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/7a378b2c53b28186f4ea8e50.rst",
+      "kind": "official-document",
+      "bytes": 3858,
+      "sha256": "b938ecf078fcf84cd105f93934951a7004abb81f6220b4f9d4628beebcb27722",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-shorten.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-split.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/98a380827b5a53dd9c52d150.rst",
+      "kind": "official-document",
+      "bytes": 2870,
+      "sha256": "59797123b5231e175d336391c5aa0250970a4d2ff9c358aaafc68df248c6869a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-split.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-split0.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/62b5a75a2ed70ae745ee9973.rst",
+      "kind": "official-document",
+      "bytes": 121,
+      "sha256": "b16f7ced445bb6600955c79dbbdad96429849970f6e205538923f34af6005df9",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-split0.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-sub.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/2aeedefa1b261ce7993a7c22.rst",
+      "kind": "official-document",
+      "bytes": 1320,
+      "sha256": "ce0a811762250f2da1ce870312c92caf5de7059a5e54b0cc89d08a3725431cef",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-sub.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-trim.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d15e7ab02acebbfb19b7c44e.rst",
+      "kind": "official-document",
+      "bytes": 1020,
+      "sha256": "a43c0fd02a138dfd14f2d85e61a12af63ee23d2e05645d0c00f675605d9daa82",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-trim.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-unescape.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/7f82d3a776a24bce47adf88f.rst",
+      "kind": "official-document",
+      "bytes": 134,
+      "sha256": "a6c296b6ce932dbb9923d918e2fe327b1d2e7770149d6e640b254b2aa7381bd1",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-unescape.rst"
+    },
+    {
+      "path": "doc_src/cmds/string-upper.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ec3f3ee47800eee5524e42a9.rst",
+      "kind": "official-document",
+      "bytes": 554,
+      "sha256": "8157084a48b6f02a54349e44139425cf51bbfc0218ac3e429dd0379113f724c9",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string-upper.rst"
+    },
+    {
+      "path": "doc_src/cmds/string.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/a70e8ee95eade27579cc5867.rst",
+      "kind": "official-document",
+      "bytes": 11116,
+      "sha256": "d0db46a3c2f0b7126367d7dba3e984bf16a9a2b0b3f44e118913e8032aeafe56",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/string.rst"
+    },
+    {
+      "path": "doc_src/cmds/suspend.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/97ce7476cfa7b9ee4746d990.rst",
+      "kind": "official-document",
+      "bytes": 558,
+      "sha256": "df6373cc6059c9ec8c606235e889be31cf0adc2a877fab01bb84b73ba2747a97",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/suspend.rst"
+    },
+    {
+      "path": "doc_src/cmds/switch.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d8d526a513b8af9777e0b521.rst",
+      "kind": "official-document",
+      "bytes": 1782,
+      "sha256": "2740811c471e677164e7e0caf282338e390438c646207c2cc2a8612f2cb1ae31",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/switch.rst"
+    },
+    {
+      "path": "doc_src/cmds/test.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/9308883f335f81c0e4a812c3.rst",
+      "kind": "official-document",
+      "bytes": 7844,
+      "sha256": "05123cffda297b5a9dc3a06218302a9300599b33bf940d7a1cf94330d6f020fe",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/test.rst"
+    },
+    {
+      "path": "doc_src/cmds/time.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c59c99264576c1018e71efdf.rst",
+      "kind": "official-document",
+      "bytes": 3597,
+      "sha256": "9821a7dfd3f0105753f267e1ae61c5da05ac4c8950ed164f03d647a5c774ccb5",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/time.rst"
+    },
+    {
+      "path": "doc_src/cmds/trap.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ab5422d9bc4cd376b4bcb62c.rst",
+      "kind": "official-document",
+      "bytes": 2067,
+      "sha256": "29161bf875e024fd3a326e84d8a54eb5b06e0f26cdb603641679f9bb472f3757",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/trap.rst"
+    },
+    {
+      "path": "doc_src/cmds/true.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/473d95c4f9563e2371a7f95c.rst",
+      "kind": "official-document",
+      "bytes": 332,
+      "sha256": "c05af9ecea0a9b8db3b1bf955e3bb9729bee9b8d8bd4f81ae51a21399dd80a56",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/true.rst"
+    },
+    {
+      "path": "doc_src/cmds/type.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d6e16851c3e9328cedaaeaa2.rst",
+      "kind": "official-document",
+      "bytes": 2331,
+      "sha256": "1241b41f2dccd87b6080760d09bac415dece36e8273a502e36bd5c9fe1b5fbba",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/type.rst"
+    },
+    {
+      "path": "doc_src/cmds/ulimit.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/0575ea93b63e30951cba67d5.rst",
+      "kind": "official-document",
+      "bytes": 4533,
+      "sha256": "b34af0d0631ee32715bec596dd8f5c64ed6162d4ca3211387a74190a5cefea82",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/ulimit.rst"
+    },
+    {
+      "path": "doc_src/cmds/umask.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/d9b29a8885826a06a253b1e1.rst",
+      "kind": "official-document",
+      "bytes": 2723,
+      "sha256": "518aaf17c939b53247d5d24173c240bfdc698c4fc88e7459e81953ee20ce40b6",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/umask.rst"
+    },
+    {
+      "path": "doc_src/cmds/vared.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/9f0c43badaf7c2890f8eff0b.rst",
+      "kind": "official-document",
+      "bytes": 537,
+      "sha256": "8396adfb07b621667c6f1c3ecc6258506c76c2ad70fcf92abc1c13b57532c4c6",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/vared.rst"
+    },
+    {
+      "path": "doc_src/cmds/wait.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/971d4d603ce9c6597a167db8.rst",
+      "kind": "official-document",
+      "bytes": 1397,
+      "sha256": "ad07ba4507c06899ca87f92bc23c7e05f99ac45706fb8507c870f9e4f4a7c4ed",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/wait.rst"
+    },
+    {
+      "path": "doc_src/cmds/while.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/bde81996819d70c3539356e1.rst",
+      "kind": "official-document",
+      "bytes": 937,
+      "sha256": "8cd40498fb7894737156701668edbcafb14d4f836eda1b80acbf75ffffe24793",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/cmds/while.rst"
+    },
+    {
+      "path": "doc_src/commands.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/f92486327cb7fbb4960471bc.rst",
+      "kind": "official-document",
+      "bytes": 5313,
+      "sha256": "92898cb126adb91e0c201561d16974ac88af93b6092f351c47b9ceaa5e171cdb",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/commands.rst"
+    },
+    {
+      "path": "doc_src/completions.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/75a0549de03060b3e663ab3c.rst",
+      "kind": "official-document",
+      "bytes": 9930,
+      "sha256": "d1bc8feb057c1e73a35e9a3084b71ca828bc35ec79d707dae6ee41a514f75af3",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/completions.rst"
+    },
+    {
+      "path": "doc_src/contributing.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c9f24f677352c196453ac729.rst",
+      "kind": "official-document",
+      "bytes": 33,
+      "sha256": "87d5c7434971ff248a817426c2a84940b3c3ed51251ddcaed6bb8a7d85afad80",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/contributing.rst"
+    },
+    {
+      "path": "doc_src/design.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/625f5998b508fe6e999b5552.rst",
+      "kind": "official-document",
+      "bytes": 7176,
+      "sha256": "68abdb52b6eaf1eae432ffb515734d50e8569f6424d7704352cecf828c17ec5e",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/design.rst"
+    },
+    {
+      "path": "doc_src/faq.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c4266b0ae269ec8428f4e081.rst",
+      "kind": "official-document",
+      "bytes": 16471,
+      "sha256": "575559863cc5e489391fe1e528298e1fc715418ca0d71b0ca2809de416cb208d",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/faq.rst"
+    },
+    {
+      "path": "doc_src/fish_for_bash_users.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/28952f67abcd2690d39ab13d.rst",
+      "kind": "official-document",
+      "bytes": 15568,
+      "sha256": "429ecc23a85b5515216199e071b01f702be8eb5a62401f6334f87b126e84d096",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/fish_for_bash_users.rst"
+    },
+    {
+      "path": "doc_src/index.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/287db0671005e83bf581af5f.rst",
+      "kind": "official-document",
+      "bytes": 7125,
+      "sha256": "18a44c657cf7a86ed00ce922d7e08fcc26d1968a10e700e28bbb97ed8eb4b2bc",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/index.rst"
+    },
+    {
+      "path": "doc_src/interactive.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/3eddd805d15eaf05f809c209.rst",
+      "kind": "official-document",
+      "bytes": 43055,
+      "sha256": "a1f045bf44e640c7228fbe8b4aba616ba9067c11ae1ee1f9d5c16989fa802f20",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/interactive.rst"
+    },
+    {
+      "path": "doc_src/language.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/35258bddd0144fcc28a0c4a9.rst",
+      "kind": "official-document",
+      "bytes": 108671,
+      "sha256": "edfa2215a227f28f54e376fce453da45f964a395d041332dbc25aa2833ad52bb",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/language.rst"
+    },
+    {
+      "path": "doc_src/license.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/32d658c112d50a1a2e049814.rst",
+      "kind": "license",
+      "bytes": 43185,
+      "sha256": "194f4436b9446954e5fc283c04ec5c70a31ec3b9b01dec3a55c23cc4f8072fec",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/license.rst"
+    },
+    {
+      "path": "doc_src/prompt.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/61c395420b0034e2d82454f5.rst",
+      "kind": "official-document",
+      "bytes": 8649,
+      "sha256": "545d3a249d4e909fc478861a0f96d7b6e953d431c38d16a589a98556156cf3c4",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/prompt.rst"
+    },
+    {
+      "path": "doc_src/python_docs_theme/globaltoc.html",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/aadccc9f9572e36e805c1332.html",
+      "kind": "official-document",
+      "bytes": 439,
+      "sha256": "1589246934e35585760fb2d232af2dddceb17b0282096140510d01b8ee5c3c69",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/python_docs_theme/globaltoc.html"
+    },
+    {
+      "path": "doc_src/python_docs_theme/layout.html",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/e40bd457786b0127bdbab384.html",
+      "kind": "official-document",
+      "bytes": 4699,
+      "sha256": "0395b6a222daf310dd03c7f4787afb4159ca611ebbf03214121a4822fc166f0a",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/python_docs_theme/layout.html"
+    },
+    {
+      "path": "doc_src/python_docs_theme/localtoc.html",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/1c19df3f4a059e76fcce5b7e.html",
+      "kind": "official-document",
+      "bytes": 316,
+      "sha256": "742dd53fceedde685b0b926f858100ab86cdc00b463e9515f4a60d2cad040724",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/python_docs_theme/localtoc.html"
+    },
+    {
+      "path": "doc_src/relnotes.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/bb4e0719d1f0edbc8f7d7380.rst",
+      "kind": "official-document",
+      "bytes": 59,
+      "sha256": "69e2d617a15777dc08e0f656944e751c30dc4dbc67994b60585be3e77d5d72ab",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/relnotes.rst"
+    },
+    {
+      "path": "doc_src/terminal-compatibility.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/ba622e2e1cee0fa25b9581c1.rst",
+      "kind": "official-document",
+      "bytes": 11688,
+      "sha256": "7e1208017a5606a89519c8ffeefbd6d78e7cd44dce84ccb5ff4b3568484c5f6f",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/terminal-compatibility.rst"
+    },
+    {
+      "path": "doc_src/tutorial.rst",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/c710c0710c4892b25cb09603.rst",
+      "kind": "official-document",
+      "bytes": 27301,
+      "sha256": "39ef7e7c3e6715a00a720ecfb5ecff6c9af3f9619c193e45597019c6c82114e6",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/doc_src/tutorial.rst"
+    },
+    {
+      "path": "vagrants/bsds/README.md",
+      "localPath": "raw/fish-shell--fish-shell/35c290272cc9/365e17c5b11561cb12b3a345.md",
+      "kind": "official-document",
+      "bytes": 551,
+      "sha256": "61585422f898dabe02dc0b1112548011ef64de4be61f1a34f950e12c5dcff35f",
+      "sourceUrl": "https://github.com/fish-shell/fish-shell/blob/35c290272cc9c4c51518d0b87810a404d1ce66e1/vagrants/bsds/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

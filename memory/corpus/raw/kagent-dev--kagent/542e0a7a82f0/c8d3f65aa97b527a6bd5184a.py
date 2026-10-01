@@ -1,0 +1,75 @@
+import logging
+import os
+import sqlite3
+
+import httpx
+from langchain_core.tools import tool
+from langchain_openai import ChatOpenAI
+from langgraph.checkpoint.sqlite import SqliteSaver
+from langgraph.prebuilt import create_react_agent
+from langsmith import traceable
+
+logger = logging.getLogger(__name__)
+
+checkpointer = SqliteSaver(
+    sqlite3.connect(os.getenv("KAGENT_CHECKPOINT_DB", "/tmp/currency-checkpoints.sqlite"), check_same_thread=False)
+)
+
+
+@traceable(name="get_exchange_rate")
+def _get_exchange_rate(
+    currency_from: str = "USD",
+    currency_to: str = "EUR",
+    currency_date: str = "latest",
+):
+    """Use this to get current exchange rate.
+
+    Args:
+        currency_from: The currency to convert from (e.g., "USD").
+        currency_to: The currency to convert to (e.g., "EUR").
+        currency_date: The date for the exchange rate or "latest". Defaults to
+            "latest".
+
+    Returns:
+        A dictionary containing the exchange rate data, or an error message if
+        the request fails.
+    """
+    try:
+        response = httpx.get(
+            f"https://api.frankfurter.dev/v1/{currency_date}",
+            params={"from": currency_from, "to": currency_to},
+            follow_redirects=True,
+            timeout=10.0,
+        )
+        response.raise_for_status()
+
+        data = response.json()
+        if "rates" not in data:
+            return {"error": "Invalid API response format."}
+        return data
+    except httpx.HTTPError as e:
+        return {"error": f"API request failed: {e}"}
+    except ValueError:
+        return {"error": "Invalid JSON response from API."}
+
+
+# Convert the traceable function into a LangChain tool
+get_exchange_rate = tool(_get_exchange_rate)
+
+SYSTEM_INSTRUCTION = (
+    "You are a specialized assistant for currency conversions. "
+    "Your sole purpose is to use the 'get_exchange_rate' tool to answer questions about currency exchange rates. "
+)
+
+FORMAT_INSTRUCTION = (
+    "Set response status to input_required if the user needs to provide more information to complete the request."
+    "Set response status to error if there is an error while processing the request."
+    "Set response status to completed if the request is complete."
+)
+
+graph = create_react_agent(
+    model=ChatOpenAI(model="gpt-4o-mini"),
+    tools=[get_exchange_rate],
+    checkpointer=checkpointer,
+    prompt=SYSTEM_INSTRUCTION,
+)

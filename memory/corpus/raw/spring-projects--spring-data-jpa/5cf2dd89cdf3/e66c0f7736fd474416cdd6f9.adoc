@@ -1,0 +1,42 @@
+include::{commons}@data-commons::page$aot.adoc[]
+
+[[aot.repositories.jpa]]
+== JPA Ahead of Time Repositories
+
+AOT repositories filter methods that are eligible for AOT processing.
+These are typically all query methods that are not backed by an xref:repositories/custom-implementations.adoc[implementation fragment].
+
+[NOTE]
+====
+AOT processing avoids database access.
+Therefore, it initializes an in-memory Hibernate instance for metadata collection.
+Types for the Hibernate configuration are determined by our AOT metadata collector.
+We prefer using a `PersistenceManagedTypes` bean if available and fall back to `PersistenceUnitInfo` or our own discovered types.
+If our type scanning is not sufficient for your arrangement, you can enable direct `EntityManagerFactory` usage by configuring the `spring.aot.jpa.repositories.use-entitymanager=true` property.
+====
+
+**Supported Features**
+
+* Derived query methods, `@Query`/`@NativeQuery` and named query methods
+* Stored procedure query methods annotated with `@Procedure`
+* `@Modifying` methods returning `void` or `int`
+* `@QueryHints` support
+* Pagination, `Slice`, `Stream`, and `Optional` return types
+* Sort query rewriting
+* Interface and DTO Projections
+* Value Expressions (Those require a bit of reflective information.
+Mind that using Value Expressions requires expression parsing and contextual information to evaluate the expression)
+
+**Limitations**
+
+* Requires Hibernate for AOT processing.
+* `QueryRewriter` must be a no-args class. `QueryRewriter` beans are not yet supported.
+* Methods accepting `ScrollPosition` (e.g. `Keyset` pagination) are not yet supported.
+* Custom Collection return types (e.g. `io.vavr.collection`, `org.eclipse.collections`) are not yet supported.
+
+**Excluded methods**
+
+* `CrudRepository`, Querydsl, Query by Example, and other base interface methods as their implementation is provided by the base class respective fragments
+* Methods whose implementation would be overly complex
+** Methods accepting `ScrollPosition` (e.g. `Keyset` pagination)
+** Dynamic projections

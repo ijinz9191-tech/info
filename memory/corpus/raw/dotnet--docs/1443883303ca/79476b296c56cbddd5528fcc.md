@@ -1,0 +1,143 @@
+---
+title: MSTest TestContext
+description: Learn about the TestContext class of MSTest.
+author: Evangelink
+ms.author: amauryleve
+ms.date: 10/01/2026
+ai-usage: ai-assisted
+---
+
+# The `TestContext` class
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> class gives useful information and tools to help manage test execution. It lets you access details about the test run and adjust the test environment. This class is part of the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace.
+
+## Accessing the `TestContext` object
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> object is available in the following contexts:
+
+- As a parameter to [AssemblyInitialize](xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssemblyInitializeAttribute), the [ClassInitialize](xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassInitializeAttribute) methods. In this context, the properties related to the test run are not available.
+- Starting with 3.6, optionally, as a parameter to [AssemblyCleanup](xref:Microsoft.VisualStudio.TestTools.UnitTesting.AssemblyCleanupAttribute), the [ClassCleanup](xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute) methods. In this context, the properties related to the test run are not available.
+- As a property of a test class. In this context, the properties related to the test run are available.
+- As a constructor parameter of a test class (starting with v3.6). This way is recommended over using the property, because it gives access to the object in the constructor. While the property is only available after the constructor has run. This way also helps to ensure immutability of the object and allows the compiler to enforce that the object is not null.
+
+:::code language="csharp" source="snippets/testcontext/csharp/TestContext.cs":::
+
+Or with MSTest 3.6+:
+
+:::code language="csharp" source="snippets/testcontext/csharp/TestContextCtor.cs":::
+
+## The `TestContext` members
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> class provides properties about the test run along with methods to manipulate the test environment. This section covers the most commonly used properties and methods.
+
+### Test run information
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> provides information about the test run, such as:
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestName?displayProperty=nameWithType> – the name of the currently executing test.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CurrentTestOutcome?displayProperty=nameWithType> - the result of the current test.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.FullyQualifiedTestClassName?displayProperty=nameWithType> - the full name of the test class.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory?displayProperty=nameWithType> - the directory where the test run is executed.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.DeploymentDirectory?displayProperty=nameWithType> - the directory where the deployment items are located. To populate this directory, use [`DeploymentItemAttribute`](unit-testing-mstest-writing-tests-deployment-items.md).
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory?displayProperty=nameWithType> - the directory where the test results are stored.  Typically a subdirectory of the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunDirectory?displayProperty=nameWithType>.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunResultsDirectory?displayProperty=nameWithType> - the directory where the test results are stored. Typically a subdirectory of the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory?displayProperty=nameWithType>.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestResultsDirectory?displayProperty=nameWithType> - the directory where the test results are stored. Typically a subdirectory of the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.ResultsDirectory?displayProperty=nameWithType>.
+- Starting with MSTest 3.9, <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestRunCount?displayProperty=nameWithType> - the number of times the current test has run, counting from 1. The value is greater than 1 when a test is retried with `[Retry]`.
+
+### Per-test temporary directory
+
+Use `TestContext.TestTempDirectory` as private scratch space for a test. MSTest creates the directory only when you first access the property, and each test execution receives a unique directory. Each data row also receives its own directory, so parallel tests don't share paths.
+
+```csharp
+string path = Path.Combine(TestContext.TestTempDirectory!, "output.json");
+File.WriteAllText(path, json);
+```
+
+MSTest creates the directory under `TestResultsDirectory` when possible and falls back to the system temporary directory when the results path is unavailable, too long, or read-only. MSTest deletes the directory after a passing test and retains it after any non-passing outcome. Set the `MSTEST_TEST_TEMP_DIRECTORY_RETAIN` environment variable to `1` or `true` to retain directories for all outcomes.
+
+When a passing test registers a file from the directory with `AddResultFile`, MSTest retains the directory until the host collects the attachment. Cleanup is best effort and doesn't change the test outcome.
+
+`TestTempDirectory` is available for .NET and .NET Framework targets, but not for UWP or WinUI targets. The property doesn't change the process current directory.
+
+In MSTest 3.7 and later, the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> class also provides new properties helpful for `TestInitialize` and `TestCleanup` methods:
+
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestData?displayProperty=nameWithType> - the data that will be provided to the parameterized test method, or `null` if the test is not parameterized.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestDisplayName?displayProperty=nameWithType> - the display name of the test method.
+- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestException?displayProperty=nameWithType> - the exception thrown by either the test method or test initialize, or `null` if the test method did not throw an exception.
+
+### Data-driven tests
+
+In MSTest 3.7 and later, the property <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.TestData?displayProperty=nameWithType> can be used to access the data for the current test during `TestInitialize` and `TestCleanup` methods.
+
+When targeting .NET framework, the <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> enables you to retrieve and set data for each iteration in a data-driven test, using properties like `DataRow` and `DataConnection` (for [DataSource](xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute)-based tests).
+
+Consider the following CSV file `TestData.csv`:
+
+```csv
+Number,Name
+1,TestValue1
+2,TestValue2
+3,TestValue3
+```
+
+You can use the `DataSource` attribute to read the data from the CSV file:
+
+:::code language="csharp" source="snippets/testcontext/csharp/CsvDataSource.cs":::
+
+### Store and retrieve runtime data
+
+You can use <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties?displayProperty=nameWithType> to store custom key-value pairs that can be accessed across different methods in the same test session.
+
+Starting with MSTest 4.4, the indexer consistently returns `null` when a custom key doesn't exist.
+
+```csharp
+TestContext.Properties["MyKey"] = "MyValue";
+string value = TestContext.Properties["MyKey"]?.ToString();
+```
+
+> [!NOTE]
+> Starting with MSTest 4.2, test categories from `[TestCategory]` are included in <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Properties?displayProperty=nameWithType>.
+>
+> Starting with MSTest 4.3, custom properties added to `TestContext.Properties` in `[AssemblyInitialize]` flow to every class and test in the assembly, and properties added in `[ClassInitialize]` flow to every test in that class. This lets fixtures publish shared context that test methods can read.
+>
+> Starting with MSTest 4.3.3, `[TestProperty]` values, test categories, host-provided properties, and properties that a test adds remain scoped to that test and don't flow to sibling tests.
+
+### Access `TestContext` from the current call stack
+
+Starting with MSTest 4.2, <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Current?displayProperty=nameWithType> returns the current test's <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> from anywhere in the call stack during test method execution. This API is experimental, uses the `[Experimental]` attribute, and might change in a future MSTest version.
+
+### Associate data to a test
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.AddResultFile(System.String)?displayProperty=nameWithType> method allows you to add a file to the test results, making it available for review in the test output. This can be useful if you generate files during your test (for example, log files, screenshots, or data files) that you want to attach to the test results.
+
+:::code language="csharp" source="snippets/testcontext/csharp/AddResultFile.cs":::
+
+Starting with MSTest 4.5 preview, the native MTP adapter preserves these result files as test attachments so MTP report extensions can include them.
+
+You can also use <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.Write*?displayProperty=nameWithType> or <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.WriteLine*?displayProperty=nameWithType> methods to write custom messages directly to the test output. Starting with MSTest 4.4, the `Live` output capture mode echoes these messages while the test runs and still attaches them to the final test result. For more information, see [Configure MSTest output](unit-testing-mstest-configure.md#output-settings).
+
+### Cancellation token
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> exposes a <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext.CancellationToken> property that is signaled when the test times out or the test run is aborted. You should pass this token to async operations so that they can respond to cancellation cooperatively. This is especially important when using [Timeout](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TimeoutAttribute) attributes.
+
+When <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> is accessed as a property:
+
+:::code language="csharp" source="snippets/testcontext/csharp-cancellation/CancellationToken.cs":::
+
+When <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext> is injected through the constructor (MSTest 3.6+):
+
+:::code language="csharp" source="snippets/testcontext/csharp-cancellation/CancellationTokenCtor.cs":::
+
+> [!TIP]
+> MSTest analyzer rule [MSTEST0049](mstest-analyzers/mstest0049.md) helps identify async calls where `TestContext.CancellationToken` should be passed. It also provides a code fixer to apply the change automatically.
+
+## Related analyzers
+
+The following analyzers help ensure proper usage of the `TestContext` class:
+
+- [MSTEST0005](mstest-analyzers/mstest0005.md) - TestContext property should have valid layout.
+- [MSTEST0024](mstest-analyzers/mstest0024.md) - Do not store TestContext in a static member.
+- [MSTEST0033](mstest-analyzers/mstest0033.md) - Suppresses CS8618 for TestContext property.
+- [MSTEST0048](mstest-analyzers/mstest0048.md) - Avoid TestContext properties in fixture methods.
+- [MSTEST0049](mstest-analyzers/mstest0049.md) - Flow TestContext CancellationToken.
+- [MSTEST0054](mstest-analyzers/mstest0054.md) - Use CancellationToken property.

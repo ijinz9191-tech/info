@@ -1,0 +1,3554 @@
+{
+  "schemaVersion": 1,
+  "repo": "oven-sh/bun",
+  "commit": "4b02e1031d6195d96fc0446dfbff49297f89f2d6",
+  "retrievedAt": "2026-10-01T15:40:44.464356+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/bun"
+  ],
+  "archiveUrl": "https://codeload.github.com/oven-sh/bun/zip/4b02e1031d6195d96fc0446dfbff49297f89f2d6",
+  "selectionSha256": "cb5c8aa8f5a82feeaf42866ce2258277b4f0aa87e026d8498d1a1bfda95760f8",
+  "selection": {
+    "docRoots": [
+      "docs"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "7d04eb1c1de08459426fdafabc0e57dcdb85b98bf2821c1025d252df3341cc69",
+  "archiveBytes": 77703332,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 418,
+    "code": 14,
+    "licenses": 8,
+    "bytes": 2349034
+  },
+  "files": [
+    {
+      "path": ".claude/docs/landing-prs.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/830df2b48ce59609f204592a.md",
+      "kind": "official-document",
+      "bytes": 24917,
+      "sha256": "cc7405557ff80da17b6a85ec8cef5449e0201c8c476a2337f541884efaca6f21",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/.claude/docs/landing-prs.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "6ebdb617a8104a7756d0cf36578ab01103dc9f07e4dc6feb751296b9c402faf7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 17614,
+      "sha256": "23aaeec4bec93c30299b59936a9472d5520cac870eabb0d942c41b019c06d204",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 1915,
+      "sha256": "eac9ca436db75852ad6fa8f3134f0c7232fc8e0af17a8a7f9d14550b69228b54",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 16054,
+      "sha256": "bf0ab4a5c0246c169ab7d2483499eb91c30f1529a362468189e7e34ed7d86e04",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4673a3aba01813b595de187a.md",
+      "kind": "license",
+      "bytes": 5613,
+      "sha256": "b9caf52728691b4057e371232c221a132883198be2f3d2ddf92c90404c984b1a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/LICENSE.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 26195,
+      "sha256": "47ed36ba05769ea0dd8a019a6569c461460a769ecbb128b6095d9bc6315e1f5c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/README.md"
+    },
+    {
+      "path": "REVIEW.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4b776210ba07a121b7efc739.md",
+      "kind": "official-document",
+      "bytes": 26174,
+      "sha256": "32d6036e6b5e487f733cc8c2b0ba8ae08f2080a07fa1c63e609c1ed552df6908",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/REVIEW.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 595,
+      "sha256": "383562b31d279ec3424de382177fdb9ddd85522933adb1f278a4826332719fcd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/SECURITY.md"
+    },
+    {
+      "path": "bench/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/46ff119234b9456477b06dc1.md",
+      "kind": "official-document",
+      "bytes": 333,
+      "sha256": "8496f5435ba3122b7de5c81396cdb38f59c84a28bee9e88f3659b0a1c917bd3e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/README.md"
+    },
+    {
+      "path": "bench/bundle/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3318869eda8f8f8904d7384b.md",
+      "kind": "official-document",
+      "bytes": 1077,
+      "sha256": "3a5278d7321b2251430c46d62b820eaf929f90ab7988bc6a372c23338db1e0f1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/bundle/README.md"
+    },
+    {
+      "path": "bench/expect-to-equal/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b5a140cb7c1868a5901265ff.md",
+      "kind": "official-document",
+      "bytes": 784,
+      "sha256": "f4136c6956869d2d065dc5294a6f8da56b83cc841be8b0a6422c0d09d15e2656",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/expect-to-equal/README.md"
+    },
+    {
+      "path": "bench/express/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fe5f37869c927efb4e65c788.md",
+      "kind": "official-document",
+      "bytes": 1186,
+      "sha256": "8cd6a852287389bd1e8c7f010046a65f0db0168c6aa9b50c07fac45c5711e576",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/express/README.md"
+    },
+    {
+      "path": "bench/install/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6a7869377f9c0356529ded04.md",
+      "kind": "official-document",
+      "bytes": 1438,
+      "sha256": "e77939121a999686796e767a81462c429c7aa35a0ef202fcd297b0a009fe3ab8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/install/README.md"
+    },
+    {
+      "path": "bench/postgres/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e7980065b09e07b05fee9482.md",
+      "kind": "official-document",
+      "bytes": 280,
+      "sha256": "030934ff493a1c040d1d556ceb5e89aab3da0627bd2339613cb96c42c821feb1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/postgres/README.md"
+    },
+    {
+      "path": "bench/quic/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a4dc1325ebfb75b38ab770bd.md",
+      "kind": "official-document",
+      "bytes": 1519,
+      "sha256": "6a107453ad5808b687bafb10653fbcde6557165cfc8d1f4ba635ac8f50cf3d91",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/quic/README.md"
+    },
+    {
+      "path": "bench/site/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/717d80d847b1218b13a81785.md",
+      "kind": "official-document",
+      "bytes": 8058,
+      "sha256": "6ada17a51fe23919e949ea906da3d08bf70af9bdc9c2ada222f095fd0c6290ea",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/site/README.md"
+    },
+    {
+      "path": "bench/stream-file-upload-client/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/43f8f2a10e161384b6e26a33.md",
+      "kind": "official-document",
+      "bytes": 475,
+      "sha256": "726f7666a3f20c1069a4a31524ea56072a4a1f979dba260a0d1dff3629fa6929",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/stream-file-upload-client/README.md"
+    },
+    {
+      "path": "bench/stress/hot-reload-files/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/35d1456adb2fa7b0786bd7cf.md",
+      "kind": "official-document",
+      "bytes": 1476,
+      "sha256": "dd491009fea6cd1a3f098c325f5b504413bad1e79b837fdfadc9a0ca575152bc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/stress/hot-reload-files/README.md"
+    },
+    {
+      "path": "bench/test/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/00fbcb923c1c669354f3c695.md",
+      "kind": "official-document",
+      "bytes": 2261,
+      "sha256": "9314c3f20eef3c31dc6014bd010c58525734f851b3d4c036232f258ad46a41ec",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/test/README.md"
+    },
+    {
+      "path": "bench/websocket-server/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fb765f3b87d1a051d9d532da.md",
+      "kind": "official-document",
+      "bytes": 1490,
+      "sha256": "8302dbeb4a43f391ddd0e79c67ecc4ff83a1b9effe254329687c540fac64bc90",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/bench/websocket-server/README.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 707,
+      "sha256": "be78fb237ef9aa7d791b71828176988497d2dd849b2e71f58b86059206d4b1c7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/README.md"
+    },
+    {
+      "path": "docs/bundler/bytecode.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2998dc784f3aa581fcb69a4d.mdx",
+      "kind": "official-document",
+      "bytes": 18052,
+      "sha256": "3002f2d2b3cfe4c170b7ccc405ea6545816a74ea82c66ae33ad62ca54f6f0337",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/bytecode.mdx"
+    },
+    {
+      "path": "docs/bundler/css.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/31d2d16d459f055844ca7a7d.mdx",
+      "kind": "official-document",
+      "bytes": 25385,
+      "sha256": "c269030ffcf00885f18bfd08836212147d29f85366925cfd05c212399c0b9e7e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/css.mdx"
+    },
+    {
+      "path": "docs/bundler/esbuild.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/06536e0ed9488de92732127c.mdx",
+      "kind": "official-document",
+      "bytes": 64416,
+      "sha256": "2d563187ae40d81d93ecc81a5cc78889f9b0c677a225f028e157c2dae67a51c5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/esbuild.mdx"
+    },
+    {
+      "path": "docs/bundler/executables.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/14e23be560b551ceb46f3a25.mdx",
+      "kind": "official-document",
+      "bytes": 41919,
+      "sha256": "d2108834c2265958261feb5d27ba87a7d6574368db20282baeca5dd92fffc40d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/executables.mdx"
+    },
+    {
+      "path": "docs/bundler/fullstack.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d1c583c4eebe693691332f42.mdx",
+      "kind": "official-document",
+      "bytes": 26617,
+      "sha256": "7611251e0d7da73406cb30a7f53a41e0d76cea8e6a25495ee508b01c8a4ad398",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/fullstack.mdx"
+    },
+    {
+      "path": "docs/bundler/hot-reloading.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ee56cea63f260e18c82402fc.mdx",
+      "kind": "official-document",
+      "bytes": 9713,
+      "sha256": "e8798cf873941c78d22b6c325ef71786cffab43f1cb80534496f1e78f31c2696",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/hot-reloading.mdx"
+    },
+    {
+      "path": "docs/bundler/html-static.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/69c13b3417234b57806a8962.mdx",
+      "kind": "official-document",
+      "bytes": 13365,
+      "sha256": "194598fdf0674b97aa43e46bde0c34468efb42841c95ec297b69f226d866cec8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/html-static.mdx"
+    },
+    {
+      "path": "docs/bundler/index.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/81d7040d5a623371bbfa559c.mdx",
+      "kind": "official-document",
+      "bytes": 72149,
+      "sha256": "0bacf3f17d6841aa3baef9e65f28d434abae31c5274d99b909e9b9b41060fe85",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/index.mdx"
+    },
+    {
+      "path": "docs/bundler/loaders.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/06a742531dfdb8bb49e76c41.mdx",
+      "kind": "official-document",
+      "bytes": 12265,
+      "sha256": "fea0e9ae188a5430f516bc351357898a09490c5ade4ed8e388ab598a3ab3c418",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/loaders.mdx"
+    },
+    {
+      "path": "docs/bundler/macros.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fb397727ce82e6ee3594ec8d.mdx",
+      "kind": "official-document",
+      "bytes": 10419,
+      "sha256": "4ddda02bfd86c2275e1cfd09f345a0dda607e9a333c4f7534f8b932df1abc201",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/macros.mdx"
+    },
+    {
+      "path": "docs/bundler/minifier.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/60ea5d38d6297a0728dc0b70.mdx",
+      "kind": "official-document",
+      "bytes": 17919,
+      "sha256": "92cd7e84ac8748b332a5b01c5cc874ba6256b11985381f5ab03bf78a1a051f76",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/minifier.mdx"
+    },
+    {
+      "path": "docs/bundler/plugins.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/78ff13443edebfd0553f4d90.mdx",
+      "kind": "official-document",
+      "bytes": 13512,
+      "sha256": "e20330b00f1cfb4dcddadb95ec811bc709c7d7e71f8bda3781608793fd38a622",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/plugins.mdx"
+    },
+    {
+      "path": "docs/bundler/standalone-html.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3d4db76f2bd1b406ba836f12.mdx",
+      "kind": "official-document",
+      "bytes": 10898,
+      "sha256": "b2b2fa50cdff221b7f09d0b9e83960661c820a39a33abd884ec5cb120978cd71",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/bundler/standalone-html.mdx"
+    },
+    {
+      "path": "docs/feedback.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/17a7391d8af6b52f7542afd5.mdx",
+      "kind": "official-document",
+      "bytes": 2461,
+      "sha256": "90b1db9f0b8f5fe01ea78912e4f4b241873dad7d7549ccc3637c0dee86ad931a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/feedback.mdx"
+    },
+    {
+      "path": "docs/guides/binary/arraybuffer-to-array.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8a673c772a7fad7ec9f29bcb.mdx",
+      "kind": "official-document",
+      "bytes": 984,
+      "sha256": "4922def8ad7df18ef39e70034acea3bbaf3a52b4ca27adcdf290b815ac61ca7e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/arraybuffer-to-array.mdx"
+    },
+    {
+      "path": "docs/guides/binary/arraybuffer-to-blob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b69a332898fd1286bc5eec7a.mdx",
+      "kind": "official-document",
+      "bytes": 662,
+      "sha256": "530b9a8123c5b9aab954d9a93de8429184099d122881781cedf415d03676b2cb",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/arraybuffer-to-blob.mdx"
+    },
+    {
+      "path": "docs/guides/binary/arraybuffer-to-buffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/86ebb59e1c9aeb7d9ea45fb9.mdx",
+      "kind": "official-document",
+      "bytes": 742,
+      "sha256": "9c2df61f79102c395a85c0740ac15ea920da4c34c002c14dd798096c6ddcdd9a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/arraybuffer-to-buffer.mdx"
+    },
+    {
+      "path": "docs/guides/binary/arraybuffer-to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4f79d95402a9258d119cae86.mdx",
+      "kind": "official-document",
+      "bytes": 442,
+      "sha256": "8e995b2c07e6bcc2c1a3a015398b64c18e6d869434f6f272006eb0edea442de4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/arraybuffer-to-string.mdx"
+    },
+    {
+      "path": "docs/guides/binary/arraybuffer-to-typedarray.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/202ed41eba42cd1d263a32d2.mdx",
+      "kind": "official-document",
+      "bytes": 960,
+      "sha256": "65bec47bb5fc4e1a59472963b172e440539fb505a6ea7463130f5db7881b6927",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/arraybuffer-to-typedarray.mdx"
+    },
+    {
+      "path": "docs/guides/binary/blob-to-arraybuffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0363db8e83a1d4f43519efa7.mdx",
+      "kind": "official-document",
+      "bytes": 421,
+      "sha256": "369903a77ffcd9ec1e521cf5d0d1bc6b25ae4de1cd35d9dd6df98c87c85f1092",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/blob-to-arraybuffer.mdx"
+    },
+    {
+      "path": "docs/guides/binary/blob-to-dataview.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7dcead9fde02ef7f95e5c7be.mdx",
+      "kind": "official-document",
+      "bytes": 505,
+      "sha256": "124b16d0a9585475a0550a7ed838c67ccfd85d1132daf38c2509db68b2738df1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/blob-to-dataview.mdx"
+    },
+    {
+      "path": "docs/guides/binary/blob-to-stream.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fa3e9e2ca4f6a58082fc4ed4.mdx",
+      "kind": "official-document",
+      "bytes": 447,
+      "sha256": "4ccd6996669a0e3c9a7e9b5326533abce932eab9f90df7e2de3f5ad2f3913976",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/blob-to-stream.mdx"
+    },
+    {
+      "path": "docs/guides/binary/blob-to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e33dcfa71713c1904609be41.mdx",
+      "kind": "official-document",
+      "bytes": 416,
+      "sha256": "62c5734630d95730b5d266b1cdb05cc49cfaad6325fff05bb2afd30474026920",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/blob-to-string.mdx"
+    },
+    {
+      "path": "docs/guides/binary/blob-to-typedarray.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fa32476de2861796a9d89154.mdx",
+      "kind": "official-document",
+      "bytes": 667,
+      "sha256": "541c9bba425228f917abb243962ae6aaae391a56550ed3f25aea34d235fe36f3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/blob-to-typedarray.mdx"
+    },
+    {
+      "path": "docs/guides/binary/buffer-to-arraybuffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/358bd5701f62805eed706cbc.mdx",
+      "kind": "official-document",
+      "bytes": 410,
+      "sha256": "cfece0601a0d4d9db2d1b6acc71785626176277c996ab7e3e97504fb2a95edf2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/buffer-to-arraybuffer.mdx"
+    },
+    {
+      "path": "docs/guides/binary/buffer-to-blob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3a44fbbdd4fa30bf43a7976b.mdx",
+      "kind": "official-document",
+      "bytes": 424,
+      "sha256": "31b6cdd300ab3dc59581e5f60c7a3df2065b2a99e0f39da491405ef651077f2f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/buffer-to-blob.mdx"
+    },
+    {
+      "path": "docs/guides/binary/buffer-to-readablestream.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6a4ac6f89b8ab7e635624e99.mdx",
+      "kind": "official-document",
+      "bytes": 1235,
+      "sha256": "5c6ef87bd59cd1d5134a25696455b61bb10f87d5eb42663cad312f4d517daadf",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/buffer-to-readablestream.mdx"
+    },
+    {
+      "path": "docs/guides/binary/buffer-to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1fa90e3580c91f1ecf783232.mdx",
+      "kind": "official-document",
+      "bytes": 530,
+      "sha256": "dc3177a2e17e5818c925ee2751b83a8403a096da1510530dcd261e015b285200",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/buffer-to-string.mdx"
+    },
+    {
+      "path": "docs/guides/binary/buffer-to-typedarray.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d34b9f23e4b96f98035c4901.mdx",
+      "kind": "official-document",
+      "bytes": 516,
+      "sha256": "9758eda4e6cc70a5bf567723ae287562f06e37d0fabdd042a34799be9d31f6f9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/buffer-to-typedarray.mdx"
+    },
+    {
+      "path": "docs/guides/binary/dataview-to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b00d461078438ae0a9644484.mdx",
+      "kind": "official-document",
+      "bytes": 514,
+      "sha256": "72d287668c1ca457e547fd1419b517f1cf5d794e56a48cc2a6f95aa281dcbd8d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/dataview-to-string.mdx"
+    },
+    {
+      "path": "docs/guides/binary/typedarray-to-arraybuffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7d4925d8ff11a28b76563134.mdx",
+      "kind": "official-document",
+      "bytes": 857,
+      "sha256": "32029612cc200796d7de9d51c4f14d345534e6f6c2d739acef92be680fccd6f4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/typedarray-to-arraybuffer.mdx"
+    },
+    {
+      "path": "docs/guides/binary/typedarray-to-blob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6c70ab98944a85ae44b47222.mdx",
+      "kind": "official-document",
+      "bytes": 508,
+      "sha256": "00e24889b2bf167519158eafcacdf219077abdb4640f5651dd7006efd3786d0f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/typedarray-to-blob.mdx"
+    },
+    {
+      "path": "docs/guides/binary/typedarray-to-buffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/46b4155cc55a9b14a0c3f214.mdx",
+      "kind": "official-document",
+      "bytes": 495,
+      "sha256": "f055097634d6e2b6d4237e9000d86b9c15d5b08162194e017bf5739460492498",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/typedarray-to-buffer.mdx"
+    },
+    {
+      "path": "docs/guides/binary/typedarray-to-dataview.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b8c9268b3d2f938e783919f4.mdx",
+      "kind": "official-document",
+      "bytes": 519,
+      "sha256": "47a2e13fd13c27e405dc19e0da6e865e1db46aac721e786a7b9489271fde4e31",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/typedarray-to-dataview.mdx"
+    },
+    {
+      "path": "docs/guides/binary/typedarray-to-readablestream.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a41b41311911770c02311877.mdx",
+      "kind": "official-document",
+      "bytes": 1350,
+      "sha256": "f46e2a1f0c2252c50f566e6e9ba65b4821b130c6dd518f88f92a0a62b1fa1ba4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/typedarray-to-readablestream.mdx"
+    },
+    {
+      "path": "docs/guides/binary/typedarray-to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f6cf9308241f046c25f13a0c.mdx",
+      "kind": "official-document",
+      "bytes": 484,
+      "sha256": "003c9d8457777027997a21034a12baefa1bda8b91e1d29d5b400517e2f13cd61",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/binary/typedarray-to-string.mdx"
+    },
+    {
+      "path": "docs/guides/deployment/aws-lambda.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/596aa00474515fabf103f192.mdx",
+      "kind": "official-document",
+      "bytes": 7525,
+      "sha256": "99162f78025cc62ca1716499ae3deb6d4a15446f33b9c06bb7c1d7a0bcc04cf1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/deployment/aws-lambda.mdx"
+    },
+    {
+      "path": "docs/guides/deployment/digital-ocean.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e7327c3b60a8d4fc2e23ebc7.mdx",
+      "kind": "official-document",
+      "bytes": 6345,
+      "sha256": "19e49651b85a85164bd0ba10416526144e1edbcd589b86b3b3b9ab648c2d14d2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/deployment/digital-ocean.mdx"
+    },
+    {
+      "path": "docs/guides/deployment/google-cloud-run.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1b76118d97e998b277d0fbc4.mdx",
+      "kind": "official-document",
+      "bytes": 6427,
+      "sha256": "a112795f122d821b50358b581814afef2b273fcdb38baa1c72f578f739b923d0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/deployment/google-cloud-run.mdx"
+    },
+    {
+      "path": "docs/guides/deployment/railway.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/44a2388fdb2f8e05a20c6959.mdx",
+      "kind": "official-document",
+      "bytes": 4494,
+      "sha256": "5e897d2b7cec8ae27c99b524ef25e22051765efca73cc538929711192bf9a71d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/deployment/railway.mdx"
+    },
+    {
+      "path": "docs/guides/deployment/render.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/76dc1f023ef717bf4077442a.mdx",
+      "kind": "official-document",
+      "bytes": 2283,
+      "sha256": "9a595624d08c4e2f94e09e127c9962e088191e049a2ca0b3a11e38508fd846cc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/deployment/render.mdx"
+    },
+    {
+      "path": "docs/guides/deployment/vercel.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1665902c257e418abc1c3348.mdx",
+      "kind": "official-document",
+      "bytes": 5891,
+      "sha256": "555e717489b6bc5cfa1951bdc0a29c59e2e49aab0292528bfeb651b8422e0ce2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/deployment/vercel.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/astro.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eb1546fbae3d01c8bca63db1.mdx",
+      "kind": "official-document",
+      "bytes": 1904,
+      "sha256": "0fb1470c7dff19a597795538f312859719e61057ec6f2872e8c6c086239af876",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/astro.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/discordjs.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4a1325db0e1633b9a77c7f1d.mdx",
+      "kind": "official-document",
+      "bytes": 6199,
+      "sha256": "01ceb192515e1cc354d611a8c72187d364a8df055500aa5a32429ebb423cb19f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/discordjs.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/docker.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1edb0e680ca9578e289d14fe.mdx",
+      "kind": "official-document",
+      "bytes": 5810,
+      "sha256": "a9ab6c61c60cebfb5730220fa86be2c38318adebe3ee188267113292ab38c4f4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/docker.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/drizzle.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/137c03baba996fa70adfb928.mdx",
+      "kind": "official-document",
+      "bytes": 3982,
+      "sha256": "ba9895299b0f397837a8488d0ee7a019f6569f5443cb1dd5641bf8f3fb1e40ab",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/drizzle.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/elysia.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3e81f7e1858d5b7cd8563302.mdx",
+      "kind": "official-document",
+      "bytes": 961,
+      "sha256": "69789088abec212f62f4b316ad572e44820132c452f90695e604904f8ec4136c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/elysia.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/express.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3a30ec48021b035f09fd618a.mdx",
+      "kind": "official-document",
+      "bytes": 904,
+      "sha256": "9ae8b49302718f36712457b9b6fa171c5805d82ad229167e59fc4068f4133061",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/express.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/gel.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/04ab109f661aca82f63b200c.mdx",
+      "kind": "official-document",
+      "bytes": 6659,
+      "sha256": "bb5c3201363f8bdc6014156b5c5d21782f413c1a4f22868cfbd95ee98a2042dc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/gel.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/hono.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2f6cf7351137f4a71373a844.mdx",
+      "kind": "official-document",
+      "bytes": 1152,
+      "sha256": "0acc0faba6829bc87feb95b9abeaf4c3b1820c0a1952db8821b3f7dac38a0a35",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/hono.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/mongoose.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5e5b734004d7cc2bb12c42d9.mdx",
+      "kind": "official-document",
+      "bytes": 2017,
+      "sha256": "9777a1585dbbbff2774d4ab953be31b477e2992bcfc51a3a68147631e211bc14",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/mongoose.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/neon-drizzle.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9d759dca8135a14fdba2ab5d.mdx",
+      "kind": "official-document",
+      "bytes": 5883,
+      "sha256": "8590645a12d11811554eb87a0ac7530d77973fe2774cdd7ef18dffb166292fae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/neon-drizzle.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/neon-serverless-postgres.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/75b9415b93888f8c45f2006c.mdx",
+      "kind": "official-document",
+      "bytes": 1964,
+      "sha256": "be48407b8ec4ecba35dba7609951ddbc40dad23f3294210c22e12263818a3f1c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/neon-serverless-postgres.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/nextjs.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/36d5dca94b401fcbe5e3cbf0.mdx",
+      "kind": "official-document",
+      "bytes": 3082,
+      "sha256": "0762a3ff5e8be7bbe014a7dca0af23281391576dcf5122424455c7e09b0d15fc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/nextjs.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/nuxt.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bb4132f276e5f3c2999f1787.mdx",
+      "kind": "official-document",
+      "bytes": 3064,
+      "sha256": "ac18352235d43701c2a22f18823cf252acc2d587d6bafb24da9e9fd71fc61693",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/nuxt.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/pm2.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2fc666adcc462d490b8d6445.mdx",
+      "kind": "official-document",
+      "bytes": 1328,
+      "sha256": "77f49323cf8acaac3082a634456a35b85236053723ea43401dc495cc2999e122",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/pm2.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/prisma-postgres.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0b8a29e4965d40463b4b5682.mdx",
+      "kind": "official-document",
+      "bytes": 5096,
+      "sha256": "26fe7aa72ef77ab1d7a9e0ceac71fa5ae08051493b1e183c3c47645dcc48ae79",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/prisma-postgres.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/prisma.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/785b528dcb7ac0b3dd258d0d.mdx",
+      "kind": "official-document",
+      "bytes": 5230,
+      "sha256": "007e7ee40da2151b4f74916fbf4567a98f8ed3260b9e248ae28308aec65d9904",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/prisma.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/qwik.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/47965badd823b1a422aad0d3.mdx",
+      "kind": "official-document",
+      "bytes": 3976,
+      "sha256": "68bd03c8575e28e1040ede4bf363cf5cba8250c8f8985dee23c7fcecbe376c65",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/qwik.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/react.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f3a91eac0a98384170b78059.mdx",
+      "kind": "official-document",
+      "bytes": 1638,
+      "sha256": "e1571dc7949ea7fe970eae24f5eacdbdd3485e015006efffc8fe7a2fcde02437",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/react.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/remix.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/535adca282a103b9221202a3.mdx",
+      "kind": "official-document",
+      "bytes": 2925,
+      "sha256": "d414dbf101a7b4be264bb02492c71a45b8fbf3d2c837d7bb7719b00b0d401cda",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/remix.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/sentry.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5163d84d9bcba7dd46834262.mdx",
+      "kind": "official-document",
+      "bytes": 1838,
+      "sha256": "4cff5d52b833b44ddbb8497c36549b7f784db853bfe5b17b1d59c174e8efd143",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/sentry.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/solidstart.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ea676bf0400922fb5ddea971.mdx",
+      "kind": "official-document",
+      "bytes": 1447,
+      "sha256": "f63b20eac16c05545874d0135d0ef3ca0f1e1c2f109b76aaf0dafbd05818b402",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/solidstart.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/ssr-react.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f3946b4738148d38ef88f9ae.mdx",
+      "kind": "official-document",
+      "bytes": 1415,
+      "sha256": "44003bc3490bc6f460417ac928ee391b23e575eff47802eb8e09e61661db8a43",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/ssr-react.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/sveltekit.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ffa61ca02cbfe1d53e0e9b73.mdx",
+      "kind": "official-document",
+      "bytes": 4842,
+      "sha256": "491227e57262a07634c3f7c2a04352d34d3b3764d22120a8e92666ac4a07bde9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/sveltekit.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/systemd.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6ee85d96489352437d0991f0.mdx",
+      "kind": "official-document",
+      "bytes": 4125,
+      "sha256": "17eba696100b70ecbc475b9737a6d4a4d0046821a754b44daecaf8aa8d7a5c35",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/systemd.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/tanstack-start.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1ebc24c04e5079b2faa4b086.mdx",
+      "kind": "official-document",
+      "bytes": 28359,
+      "sha256": "665d0024fd4c671e6309436f2f316d51de0048052cea6c94b4cf207d2f80a1ae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/tanstack-start.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/upstash.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c0aa2d23dd1c2fb2ac82a29e.mdx",
+      "kind": "official-document",
+      "bytes": 2605,
+      "sha256": "974cb5a2ef4714480dd5732bfb2a980156f148b767af31b3007177a02a5c5e0a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/upstash.mdx"
+    },
+    {
+      "path": "docs/guides/ecosystem/vite.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d2888d4ed52d50d866de2f8e.mdx",
+      "kind": "official-document",
+      "bytes": 1726,
+      "sha256": "0d8d131e0ffdd48cf666daba022c4e7c1777217f009feeb5fc5887651edad009",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/ecosystem/vite.mdx"
+    },
+    {
+      "path": "docs/guides/html-rewriter/extract-links.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f9b33190dbbca9a3b3a50303.mdx",
+      "kind": "official-document",
+      "bytes": 1995,
+      "sha256": "cdefb339a3abb7b60950468d379020b53a38be5c4581466265c146a0810a9f56",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/html-rewriter/extract-links.mdx"
+    },
+    {
+      "path": "docs/guides/html-rewriter/extract-social-meta.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d8920ec2f21205409b95686f.mdx",
+      "kind": "official-document",
+      "bytes": 3047,
+      "sha256": "07940718150b8f7e91aa20043fbe413cd54771983439eb145bb253cef6d46866",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/html-rewriter/extract-social-meta.mdx"
+    },
+    {
+      "path": "docs/guides/http/cluster.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a20476095e9d2bc4efd9f6b2.mdx",
+      "kind": "official-document",
+      "bytes": 1815,
+      "sha256": "a5fe4e7c0f32da46cf0056a95693de4464a60bfe229d73d0baf8a43bac8141b8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/cluster.mdx"
+    },
+    {
+      "path": "docs/guides/http/fetch-unix.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0c68dab54755912ab83bfd38.mdx",
+      "kind": "official-document",
+      "bytes": 1106,
+      "sha256": "03a681e152bff9d715b68da343b74f97c0463fb8c6b2f705e76e38d394619c7a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/fetch-unix.mdx"
+    },
+    {
+      "path": "docs/guides/http/fetch.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/75d180c37fcac826bdbffffd.mdx",
+      "kind": "official-document",
+      "bytes": 727,
+      "sha256": "5501c2662dca71b82bded4d82734680ab6aa9d95146a8df58a9f5db7d009f3ad",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/fetch.mdx"
+    },
+    {
+      "path": "docs/guides/http/file-uploads.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/22da2c0a97f5c7509a34ea8f.mdx",
+      "kind": "official-document",
+      "bytes": 2986,
+      "sha256": "b51fcfdbf7bfef423eff6eacb6f214dae801ec6d785d0679459f1f902214d95b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/file-uploads.mdx"
+    },
+    {
+      "path": "docs/guides/http/hot.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/141666b989f63ba73b6d33a5.mdx",
+      "kind": "official-document",
+      "bytes": 884,
+      "sha256": "dd4133c2b97e130922274b78ed1aa38a5eb0eeaf862fb1d6dd13bb1d9610cdb3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/hot.mdx"
+    },
+    {
+      "path": "docs/guides/http/proxy.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/92a4abc91d4d3af2aba19255.mdx",
+      "kind": "official-document",
+      "bytes": 2298,
+      "sha256": "9fdd45297e0c67b3129f57ffb12e9f9c685f9450500bb03983721fdc587f9884",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/proxy.mdx"
+    },
+    {
+      "path": "docs/guides/http/server.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/604ea0d7a93ad3dfe1d0984f.mdx",
+      "kind": "official-document",
+      "bytes": 1444,
+      "sha256": "c9793e82f002dfb6f69a851e15a0ff260563c1a5c71da56c01026bdb44836079",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/server.mdx"
+    },
+    {
+      "path": "docs/guides/http/simple.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/61ca8c4c99f6b7924af9f6fa.mdx",
+      "kind": "official-document",
+      "bytes": 500,
+      "sha256": "4f53764f5041ee1c7e1171564717dc574828af8fb041c6ad400c60a26f0c0514",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/simple.mdx"
+    },
+    {
+      "path": "docs/guides/http/sse.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/101149cf3234669890a2190e.mdx",
+      "kind": "official-document",
+      "bytes": 3204,
+      "sha256": "7018963a1ad299435d26b5749964f6d6a9609443ed775c6d74b1fd334a642b3c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/sse.mdx"
+    },
+    {
+      "path": "docs/guides/http/stream-file.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/aaffdde0898b3766eec39cf9.mdx",
+      "kind": "official-document",
+      "bytes": 1327,
+      "sha256": "65f7c40451eefd0615b74b0bf10d8269bec389c7933ea4473cc43e52eb989484",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/stream-file.mdx"
+    },
+    {
+      "path": "docs/guides/http/stream-iterator.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f1b4859d843bd4d87e6302ea.mdx",
+      "kind": "official-document",
+      "bytes": 1231,
+      "sha256": "8985c12b5acbfb51dddc0474691a1c00bc3c896aca4fa0c84b06071c99447ff1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/stream-iterator.mdx"
+    },
+    {
+      "path": "docs/guides/http/stream-node-streams-in-bun.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7e275625ca2acb6fe9375ff9.mdx",
+      "kind": "official-document",
+      "bytes": 691,
+      "sha256": "ce0f5f964b9a5c64974b4e09a025a09a0044b5bf634de1de7d40c130bbaef945",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/stream-node-streams-in-bun.mdx"
+    },
+    {
+      "path": "docs/guides/http/tls.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b3bd0c127102288e1797e086.mdx",
+      "kind": "official-document",
+      "bytes": 1065,
+      "sha256": "a2643c6d7c1f7227587cb1ffa6c6199f428c88d1bef4700fea42eed17f6115d2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/http/tls.mdx"
+    },
+    {
+      "path": "docs/guides/index.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/39a09e83d03ec73b8a5db7e2.mdx",
+      "kind": "official-document",
+      "bytes": 190,
+      "sha256": "cdb7b6d1a396c42c395b604f5e6cb1490555218ccf4d97fb82ab2c5480fa7366",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/index.mdx"
+    },
+    {
+      "path": "docs/guides/install/add-dev.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4d7a8c850a55de1d1483b9cf.mdx",
+      "kind": "official-document",
+      "bytes": 444,
+      "sha256": "7162aa9446b34ae3eda35c3ee40d48d604851a342be919b47c7d6e52a241730b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/add-dev.mdx"
+    },
+    {
+      "path": "docs/guides/install/add-git.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6c7ef1c659c48e3e3fa2564f.mdx",
+      "kind": "official-document",
+      "bytes": 816,
+      "sha256": "25ade9555b54477fa49c226ab7285f47a42ad5ae1b2a468bb4ee3882c299dfa0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/add-git.mdx"
+    },
+    {
+      "path": "docs/guides/install/add-optional.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1bfd07470c872ad9ec938dc8.mdx",
+      "kind": "official-document",
+      "bytes": 462,
+      "sha256": "cfadf7694edb97dc6cf4d82061df8072e3d31461f6b3774611d4e48f278f3a96",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/add-optional.mdx"
+    },
+    {
+      "path": "docs/guides/install/add-peer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/544edb7575c4a81f2d4944a5.mdx",
+      "kind": "official-document",
+      "bytes": 813,
+      "sha256": "d4dcf7cb671f64331589cd5a0d0e32ee08bc9894e49dd590574f8c80ef3917a3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/add-peer.mdx"
+    },
+    {
+      "path": "docs/guides/install/add-tarball.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/dcfe290554c2db1c4a476951.mdx",
+      "kind": "official-document",
+      "bytes": 721,
+      "sha256": "595395c76d01c4160645410e4e8e32ee0a84e9ea761487f8fbd94258fab35f8e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/add-tarball.mdx"
+    },
+    {
+      "path": "docs/guides/install/add.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/034e123f10308b0183f37316.mdx",
+      "kind": "official-document",
+      "bytes": 791,
+      "sha256": "04f8e64cf66fff497dc04307bb6d6824e15c031ad5cfc570b917c66e3c6cc335",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/add.mdx"
+    },
+    {
+      "path": "docs/guides/install/azure-artifacts.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3740e1a747be8b2ee7118d49.mdx",
+      "kind": "official-document",
+      "bytes": 3305,
+      "sha256": "8c860ec8e76d2b87f3fd9bd98a846f65326e56b8b89dce23afc3746b956524d5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/azure-artifacts.mdx"
+    },
+    {
+      "path": "docs/guides/install/cicd.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/49edfb1d7e251b6b3af65784.mdx",
+      "kind": "official-document",
+      "bytes": 942,
+      "sha256": "fbc0f395d0d16fdac3b3a5b0510d249d1dab7dcac672997bbc90a25dd4dece1e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/cicd.mdx"
+    },
+    {
+      "path": "docs/guides/install/custom-registry.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/68397c4dab4cf56116588cfa.mdx",
+      "kind": "official-document",
+      "bytes": 1031,
+      "sha256": "2cb5702ea0f40fb585109848b8f16758771b565c49ab1626837487aa61454824",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/custom-registry.mdx"
+    },
+    {
+      "path": "docs/guides/install/from-npm-install-to-bun-install.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/230d8331ab9123b0131d010d.mdx",
+      "kind": "official-document",
+      "bytes": 9074,
+      "sha256": "8f029804959b18c4a25897698de47df6ba0eb35eea8818c297f49b44a1f04af3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/from-npm-install-to-bun-install.mdx"
+    },
+    {
+      "path": "docs/guides/install/git-diff-bun-lockfile.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e07b7afe9d057850b063e3c3.mdx",
+      "kind": "official-document",
+      "bytes": 1321,
+      "sha256": "7fb8b8e3f68263da147a0f9551e34d846afe9f3425b7c93336c945a7c1745f01",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/git-diff-bun-lockfile.mdx"
+    },
+    {
+      "path": "docs/guides/install/jfrog-artifactory.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cc52143c68b9b671539b8f38.mdx",
+      "kind": "official-document",
+      "bytes": 1329,
+      "sha256": "ed5a3396248ce77a13fa3af446cbaffffd73ffa5dea9a040fd8aec2106103667",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/jfrog-artifactory.mdx"
+    },
+    {
+      "path": "docs/guides/install/npm-alias.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/15b46bddfaefc01d72c73555.mdx",
+      "kind": "official-document",
+      "bytes": 418,
+      "sha256": "2a1a4f51df739a202f5f9b0d277b3751ed7be062938aa2dc0bf8edd28b59b4a7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/npm-alias.mdx"
+    },
+    {
+      "path": "docs/guides/install/registry-scope.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/aee111bab2a3f37c569695c9.mdx",
+      "kind": "official-document",
+      "bytes": 1310,
+      "sha256": "4aec058324f6a46abafcf67b515ace22289420bc45f1e41a27a8e6cdca13ef46",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/registry-scope.mdx"
+    },
+    {
+      "path": "docs/guides/install/trusted.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/06aa9b234753a9d649b81873.mdx",
+      "kind": "official-document",
+      "bytes": 2114,
+      "sha256": "55138bab17811ecf09ad724ecb67084a9569afcb14259b37a84ad00614f672ae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/trusted.mdx"
+    },
+    {
+      "path": "docs/guides/install/workspaces.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d04961c7445be020b98ea2a7.mdx",
+      "kind": "official-document",
+      "bytes": 2402,
+      "sha256": "548c9b114aa4ce14c817c635023bc496abe839356b2829be04abbcf957eedd38",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/workspaces.mdx"
+    },
+    {
+      "path": "docs/guides/install/yarnlock.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4f9cde348c3608a0e7225666.mdx",
+      "kind": "official-document",
+      "bytes": 1279,
+      "sha256": "413422df611cf352ad11139102abd371045c4709bf675c531a5899bf15c74197",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/install/yarnlock.mdx"
+    },
+    {
+      "path": "docs/guides/process/argv.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a240d3584d181784ccb903e2.mdx",
+      "kind": "official-document",
+      "bytes": 1176,
+      "sha256": "e1252cad50a57de3e4dd8da478d38d937068cd384c0433da709cc409c0aeeccb",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/argv.mdx"
+    },
+    {
+      "path": "docs/guides/process/ctrl-c.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/975d2b7e7e35d23786c4cca6.mdx",
+      "kind": "official-document",
+      "bytes": 461,
+      "sha256": "5520fdf771a210bb9efd7f0bfaee869e8ba0a375af96d326b6a8807dfd65cbf4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/ctrl-c.mdx"
+    },
+    {
+      "path": "docs/guides/process/ipc.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/78920a927fb827b8d0b003a3.mdx",
+      "kind": "official-document",
+      "bytes": 2244,
+      "sha256": "54c14065df833285967f5f67b4d45c6dedac1466a7c7d98481df99c968ec2ad0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/ipc.mdx"
+    },
+    {
+      "path": "docs/guides/process/nanoseconds.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3c1b5d23aef0f060ef75de55.mdx",
+      "kind": "official-document",
+      "bytes": 277,
+      "sha256": "a5e89883bebb48da073f19cdb0cd3da48a36d34b48782ed56ccb401e71e9700d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/nanoseconds.mdx"
+    },
+    {
+      "path": "docs/guides/process/os-signals.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/473cf0a28aafb5f5e6eb576c.mdx",
+      "kind": "official-document",
+      "bytes": 1017,
+      "sha256": "a5f12c6d3af705ad69cdb4137342bf8fae80c591068100f1757da61a70e67fea",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/os-signals.mdx"
+    },
+    {
+      "path": "docs/guides/process/spawn-stderr.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a4cb48f3503d3f0236c39fe8.mdx",
+      "kind": "official-document",
+      "bytes": 685,
+      "sha256": "0b8bc41334ec2f0d6eef62e61a5ff5eea8801f4bfea9735cb7181adb554e880d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/spawn-stderr.mdx"
+    },
+    {
+      "path": "docs/guides/process/spawn-stdout.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ffe73d66337df50f16c468aa.mdx",
+      "kind": "official-document",
+      "bytes": 596,
+      "sha256": "5a5b9b8c54037cd315dd216ea9b0673c017de5e61144e334c5fac91f6a0b89f6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/spawn-stdout.mdx"
+    },
+    {
+      "path": "docs/guides/process/spawn.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fdeec9f8705865ea0345e3df.mdx",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "428f0f2bc3c9b853fb664c5ab97be4ffdba1a7b30498df879e7f7f89f00a0fe2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/spawn.mdx"
+    },
+    {
+      "path": "docs/guides/process/stdin.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/11ffcbc731faba9333e4cbf2.mdx",
+      "kind": "official-document",
+      "bytes": 1288,
+      "sha256": "2452d4f88c8934a470215fc7e6bc72d7736e0e86595e9eaff37397dc94ed954b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/process/stdin.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/arraybuffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/966429ed3c895b7b7b70a329.mdx",
+      "kind": "official-document",
+      "bytes": 882,
+      "sha256": "511f94d1f99bba966c5ea5484c9cc3c1a79240d3b98eb1be746b49fda47b97a0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/arraybuffer.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/buffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f558868c5dab6fb8d0944120.mdx",
+      "kind": "official-document",
+      "bytes": 681,
+      "sha256": "212a4c046ced46d56189772ec146e98909b61f1b2115f8da8f909463e5a7d6f9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/buffer.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/exists.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e159a0a39e569caa0fa09bff.mdx",
+      "kind": "official-document",
+      "bytes": 456,
+      "sha256": "96ddfcd9bdc5b859f921b0517d81ac034bc9c0e19201b5f4afeb5cd462342ed9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/exists.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/json.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/94ccfc71db51eef9c6b2a682.mdx",
+      "kind": "official-document",
+      "bytes": 600,
+      "sha256": "bd8a376f0b1fcda1d9e12d4a92e5f7e7da56bb65004e3078a8e125995ce377d2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/json.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/mime.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8ce32ab8576e54620f15ec38.mdx",
+      "kind": "official-document",
+      "bytes": 562,
+      "sha256": "40fae5a16f0e1d614d8f40a22041292d33e673b1d095eaef353e6ae7afdbc425",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/mime.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/stream.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/18d8ffbfedbfc661ac3cabff.mdx",
+      "kind": "official-document",
+      "bytes": 805,
+      "sha256": "255b0c1977204a3bc6481f52e24177d18ed8866fd7c030d49ba3760659aef07e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/stream.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6bbeb328c9eab20f9b33cace.mdx",
+      "kind": "official-document",
+      "bytes": 542,
+      "sha256": "06411f831a1e69e344066eb57a8a6a3ae14f90a8d29972bbab35cb80f8ef2e83",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/string.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/uint8array.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0818e21ef915bfdf239400f9.mdx",
+      "kind": "official-document",
+      "bytes": 624,
+      "sha256": "27e4dfbaf98086403d343257e322fb64844c1701616fe4ad0b71f5630674b9ab",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/uint8array.mdx"
+    },
+    {
+      "path": "docs/guides/read-file/watch.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/61570f2d6013578ede70df70.mdx",
+      "kind": "official-document",
+      "bytes": 1707,
+      "sha256": "49ca277e3f177b1318da59008a32dfffa39b8199e3939672f59b5239fd7c1525",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/read-file/watch.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/build-time-constants.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2d936e38608d008cdc700452.mdx",
+      "kind": "official-document",
+      "bytes": 7685,
+      "sha256": "d2067401ce9301a766ba7ec4cffabca459e3bda9034bfa70da9dc4997ce62661",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/build-time-constants.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/cicd.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c3e12a846280213be2972266.mdx",
+      "kind": "official-document",
+      "bytes": 1028,
+      "sha256": "d26831bb02d8255334f3db796da5c2912419a682d51f5350df4f529288f90e9c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/cicd.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/codesign-macos-executable.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/521d9ba7614f508090875758.mdx",
+      "kind": "official-document",
+      "bytes": 2046,
+      "sha256": "1792a88589ea23572eb9ddf60e54506c0be0cf4b5c10645d412129935ad5379f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/codesign-macos-executable.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/define-constant.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6e10baaffb8f6f0ccaeb01ca.mdx",
+      "kind": "official-document",
+      "bytes": 4191,
+      "sha256": "7f49c77fe46dde3008fc4f20a6c9631fbdd8d9616b0ad9f79659985da9da2d04",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/define-constant.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/delete-directory.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4d89efff1330b9c6182e7542.mdx",
+      "kind": "official-document",
+      "bytes": 991,
+      "sha256": "ce1a8f00b6e77c1416114d03f6c8206102509221689bb4b9a043a9b10477fa5a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/delete-directory.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/delete-file.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8e35197fed8e002a39322156.mdx",
+      "kind": "official-document",
+      "bytes": 404,
+      "sha256": "8b57324e211e04d602b05b8368db8c10066cbe4e859393b0a3c8ccda9a63857a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/delete-file.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/heap-snapshot.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/38889e67f434a3f884d1db65.mdx",
+      "kind": "official-document",
+      "bytes": 830,
+      "sha256": "016cf70f4efe8c6be6fdb12c3aeb3df10fbd1dcfab0079c008f03b9edb06ea62",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/heap-snapshot.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/import-html.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0de803b033abd2f993604cd4.mdx",
+      "kind": "official-document",
+      "bytes": 430,
+      "sha256": "5ec5f28a5c058d4b4e4fa4399436c5d0b2f11e9c15ea7506c51e7036d4b402d2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/import-html.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/import-json.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/718049fb5ab04f9e7521a2b2.mdx",
+      "kind": "official-document",
+      "bytes": 943,
+      "sha256": "083da9fa105c99bc5f55d9511fadaf1fe7356cfbc93ca10200b2f494ff111d1f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/import-json.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/import-json5.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4e44a6f827a2d281ecb81de9.mdx",
+      "kind": "official-document",
+      "bytes": 1329,
+      "sha256": "6b17681b03cfa603e63edd4c056dd3ef55ebe9e5fd05b4a4579039a5cd48b006",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/import-json5.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/import-toml.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c5ab78b37d31b0bccadeda39.mdx",
+      "kind": "official-document",
+      "bytes": 549,
+      "sha256": "9d0f14c1296ae78d0ad813eb6404c17d2abbf89f58f63e9b63cb62b514ca7dd3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/import-toml.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/import-xml.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8aae41ae3e62e31403127adc.mdx",
+      "kind": "official-document",
+      "bytes": 1663,
+      "sha256": "cf6a2f970e9e7b7ed7695d5e6f2dd39ed452ab82a2ef8ac83bd3a41c7a97ee6f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/import-xml.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/import-yaml.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d2d70eefc17d45c50143081f.mdx",
+      "kind": "official-document",
+      "bytes": 1957,
+      "sha256": "697068657969d41c55671c59eb7066ef905255ba97b17ac69c13afdb19de7eec",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/import-yaml.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/read-env.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f8d0aed23e9b2e51a710c37a.mdx",
+      "kind": "official-document",
+      "bytes": 697,
+      "sha256": "d8e8aca73eda258ca246a387d0cc994eace33eefdb7f512e0b8735281bc40d08",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/read-env.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/set-env.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cfb245a56d5ed5e006f4d9ae.mdx",
+      "kind": "official-document",
+      "bytes": 1070,
+      "sha256": "46455f74aff6f3c79a7d00f8036a163c27859f5a5ef9d269e0e6304d25eec4e1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/set-env.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/shell.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e63c205d1a282329adf3d1bb.mdx",
+      "kind": "official-document",
+      "bytes": 907,
+      "sha256": "34ab3750167ddb042526a771214d51c347c7f50af49c87e1a5a4e9137c7bd385",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/shell.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/timezone.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2c0006acd4d6fb4e7ce1eaa2.mdx",
+      "kind": "official-document",
+      "bytes": 981,
+      "sha256": "129349390a3df031f02334ec91184d29079eaad735e6bde09d92b222f956bd0d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/timezone.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/tsconfig-paths.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eff78266188a25aae535d9cc.mdx",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "62127a2e166e373b55c27650389c2a1e60a6f86572e300ac73e7a0fbc47969ad",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/tsconfig-paths.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/typescript.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a5708ecf1627215f1f3e1f37.mdx",
+      "kind": "official-document",
+      "bytes": 1434,
+      "sha256": "2e0c9c5d455d2e9f883ba20d13049386b970cda71d75205439915fc13b5c821e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/typescript.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/vscode-debugger.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a4abfae7e360edac686ed45b.mdx",
+      "kind": "official-document",
+      "bytes": 2207,
+      "sha256": "c6595293b5dfb976ce83c96d423547c885068f1e40896797af5589860f81c019",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/vscode-debugger.mdx"
+    },
+    {
+      "path": "docs/guides/runtime/web-debugger.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/757177ab04e1984d290a8d14.mdx",
+      "kind": "official-document",
+      "bytes": 3778,
+      "sha256": "5815a3e35714164f987f2fb6750dc1a5bd4699260e078f69f515787478893309",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/runtime/web-debugger.mdx"
+    },
+    {
+      "path": "docs/guides/streams/node-readable-to-arraybuffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9c53dcb9ff69de599d956ac5.mdx",
+      "kind": "official-document",
+      "bytes": 408,
+      "sha256": "92d3f51964bc59e2252bb93585eee5b8cb0813cb2d6afd122e3c6eab19a90aa2",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/node-readable-to-arraybuffer.mdx"
+    },
+    {
+      "path": "docs/guides/streams/node-readable-to-blob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f657f71c24854771695d276b.mdx",
+      "kind": "official-document",
+      "bytes": 565,
+      "sha256": "9dd02ae54bd9368a6779446584bf146ef2e2472a863b95080a59bc37f34ba92a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/node-readable-to-blob.mdx"
+    },
+    {
+      "path": "docs/guides/streams/node-readable-to-json.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/60b4268c56474a172de1eb55.mdx",
+      "kind": "official-document",
+      "bytes": 567,
+      "sha256": "050f084011e344e9b8f9791e09bb190787bc1525b4fd926c0f153352017d5122",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/node-readable-to-json.mdx"
+    },
+    {
+      "path": "docs/guides/streams/node-readable-to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a92d01232a604ab7a720f8c1.mdx",
+      "kind": "official-document",
+      "bytes": 559,
+      "sha256": "8e82fe29f67d1f5f1e3b88adeb31b520bbae149a1e574c4281e011dc6f4f6cc9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/node-readable-to-string.mdx"
+    },
+    {
+      "path": "docs/guides/streams/node-readable-to-uint8array.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f64928066bbf800c7558dba1.mdx",
+      "kind": "official-document",
+      "bytes": 392,
+      "sha256": "43cad63383f867df9a4d66bf2f80409a632505fa49c1bd61fe38a4f5cb4c73d0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/node-readable-to-uint8array.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-array.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0ecac610871516bf3f3b3096.mdx",
+      "kind": "official-document",
+      "bytes": 471,
+      "sha256": "85726b26879a779d819eae6dfe91e53cdf440368af8e20b9183f7b70102333ba",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-array.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-arraybuffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5a8b7d0f04216bf90bb1fb14.mdx",
+      "kind": "official-document",
+      "bytes": 480,
+      "sha256": "e9af957542fe8152beae06026b82f9414cf1645f192f958f5aca61dd636bc8df",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-arraybuffer.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-blob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/15ae078f8423548ca2c88428.mdx",
+      "kind": "official-document",
+      "bytes": 605,
+      "sha256": "d29643b866134a56dedadcc6b39a0f62eceb4bc0d440cfa649ebbb11e395549b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-blob.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-buffer.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a7b2650d0cce0148a2b65cef.mdx",
+      "kind": "official-document",
+      "bytes": 712,
+      "sha256": "a678d97a23a54dd903b386ead671a5ac8c8f07c99c57c4e38fc1337e94e9d2de",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-buffer.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-json.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/08f4e33d754967178730aa9f.mdx",
+      "kind": "official-document",
+      "bytes": 506,
+      "sha256": "1f6c4c7ab930e51e0338d6f5d2393354faa900577242b34e0155827d3db4bfa7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-json.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-string.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f13c3a555f023e62c0734323.mdx",
+      "kind": "official-document",
+      "bytes": 608,
+      "sha256": "ef3dc48eaff032742f58d106f3c42a3a74f5ea7bba2216ee8b1c9736269d23e4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-string.mdx"
+    },
+    {
+      "path": "docs/guides/streams/to-typedarray.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5da0d0d13d6c367bde9d840f.mdx",
+      "kind": "official-document",
+      "bytes": 1046,
+      "sha256": "d1bec3ac4c65c8cd191d09ce81a1fa9694d2a05df1ecc1d84b3d14e9cbf07bde",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/streams/to-typedarray.mdx"
+    },
+    {
+      "path": "docs/guides/test/bail.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b4a12c5f99f9e8137c5f419c.mdx",
+      "kind": "official-document",
+      "bytes": 460,
+      "sha256": "51f0bfc3e1b77831aff7f122333036a7fce65150b68ec5df4eef11511188a43d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/bail.mdx"
+    },
+    {
+      "path": "docs/guides/test/concurrent-test-glob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c65ca002ff9bc5fc08cb7337.mdx",
+      "kind": "official-document",
+      "bytes": 4464,
+      "sha256": "292ff534f340c6347138aa7903cf7354e207cc5cc8b26bcb53bfdd9a78224846",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/concurrent-test-glob.mdx"
+    },
+    {
+      "path": "docs/guides/test/coverage-threshold.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/de464d67dc49b2195e4884d9.mdx",
+      "kind": "official-document",
+      "bytes": 1688,
+      "sha256": "09d0a069fef8d10d44f5be1fa757540297594e7cae64259cf9c63eb8e0b556a8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/coverage-threshold.mdx"
+    },
+    {
+      "path": "docs/guides/test/coverage.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/76c352a5b58fc33f0d577744.mdx",
+      "kind": "official-document",
+      "bytes": 1225,
+      "sha256": "33ac23af66b9af8c086af5cbf6ad300024bb73de2e5fde033223e67249dc15f3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/coverage.mdx"
+    },
+    {
+      "path": "docs/guides/test/happy-dom.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d96ce4e965814b8681d1a7a3.mdx",
+      "kind": "official-document",
+      "bytes": 1812,
+      "sha256": "73654a9c8bd96cf9749213a52015302bcbe63dfd89bb20faf435e050f369768e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/happy-dom.mdx"
+    },
+    {
+      "path": "docs/guides/test/migrate-from-jest.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/14eda1b7b3bc5867bb8e3efd.mdx",
+      "kind": "official-document",
+      "bytes": 3811,
+      "sha256": "58a6f6e3e906d14cbbaace0a916afe6fcc2f677046ae65022d24f861ffb750b7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/migrate-from-jest.mdx"
+    },
+    {
+      "path": "docs/guides/test/mock-clock.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fc16da0072ce86d586bc5ab5.mdx",
+      "kind": "official-document",
+      "bytes": 1138,
+      "sha256": "7b3c4d6c103ff9cd1007b0fe6168b96eaa0c75926956663ba978a9feeebab5b6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/mock-clock.mdx"
+    },
+    {
+      "path": "docs/guides/test/mock-functions.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/063575ccc0f686057cb48f98.mdx",
+      "kind": "official-document",
+      "bytes": 1602,
+      "sha256": "94d192bf105ef29175fdec808f4c7e255d3d149a5e942068c07e1a4349f70691",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/mock-functions.mdx"
+    },
+    {
+      "path": "docs/guides/test/rerun-each.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2a3a7c3c605d0fa71f068aaa.mdx",
+      "kind": "official-document",
+      "bytes": 334,
+      "sha256": "b5d416b6274d61b0164320cba27f16b71788489bae20688ca0228b25afdce699",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/rerun-each.mdx"
+    },
+    {
+      "path": "docs/guides/test/run-tests.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0adb80fbd26b8063f4e49ec8.mdx",
+      "kind": "official-document",
+      "bytes": 2160,
+      "sha256": "b7e5bd4b4d4acd9ba2acd56e0b4c76836e52b0f72547ab88ce7c0650d1f56353",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/run-tests.mdx"
+    },
+    {
+      "path": "docs/guides/test/skip-tests.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/062a44e883e0886b673755e8.mdx",
+      "kind": "official-document",
+      "bytes": 698,
+      "sha256": "77228a8faba716eff00a981185446369ddbbcb4b524f13c7348d878d7aee2d61",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/skip-tests.mdx"
+    },
+    {
+      "path": "docs/guides/test/snapshot.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/418832dde8c8381390c1e626.mdx",
+      "kind": "official-document",
+      "bytes": 2094,
+      "sha256": "86302bf9321edad8049eafacf57b393d354a7d2b0cc3f861e35063df7f186135",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/snapshot.mdx"
+    },
+    {
+      "path": "docs/guides/test/spy-on.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b797a2c433367db162f014df.mdx",
+      "kind": "official-document",
+      "bytes": 1004,
+      "sha256": "9c89f7aae80bc7d2c20b93315a66395c99e3b4feeadac688ca8d1de024b33efe",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/spy-on.mdx"
+    },
+    {
+      "path": "docs/guides/test/svelte-test.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/25c18952aaefba189cc69813.mdx",
+      "kind": "official-document",
+      "bytes": 2919,
+      "sha256": "031d4f5af9a648fddcca61774c3d7787795ad68cf60981194f5ca42c8eb40a32",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/svelte-test.mdx"
+    },
+    {
+      "path": "docs/guides/test/testing-library.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a7b97cc40016ca119bc24938.mdx",
+      "kind": "official-document",
+      "bytes": 2929,
+      "sha256": "aac4a9f878c942494f057415b47968ad21ae52d51ad20fbc297a65933a2c8f59",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/testing-library.mdx"
+    },
+    {
+      "path": "docs/guides/test/timeout.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/330afa94f42ae4838664ac00.mdx",
+      "kind": "official-document",
+      "bytes": 378,
+      "sha256": "1bbc9522e7407b8a3300b543cf27b5b91e4ca69048365b09e8db18238ea8b8c4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/timeout.mdx"
+    },
+    {
+      "path": "docs/guides/test/todo-tests.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d5ebcda16660a570f783f127.mdx",
+      "kind": "official-document",
+      "bytes": 2520,
+      "sha256": "0b6779282468916365a5b1af8de979e3d9727a05e866ca2685e1f05e63fc0718",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/todo-tests.mdx"
+    },
+    {
+      "path": "docs/guides/test/update-snapshots.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8939203f22a444ae31c18f2d.mdx",
+      "kind": "official-document",
+      "bytes": 937,
+      "sha256": "5d2b30c52934e42c0a51441ae6821789281920b03a58b838581aa586b5ec2356",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/update-snapshots.mdx"
+    },
+    {
+      "path": "docs/guides/test/watch-mode.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e91625b251685bfdd83cfc05.mdx",
+      "kind": "official-document",
+      "bytes": 520,
+      "sha256": "70f5dd95262eb28cc7c07e8cb39ba0454d24b5a5f56a086f0a350a78339ecbec",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/test/watch-mode.mdx"
+    },
+    {
+      "path": "docs/guides/util/base64.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4d170ffc377d70ee187fccca.mdx",
+      "kind": "official-document",
+      "bytes": 2164,
+      "sha256": "818f6260c218f0a27a83a83b9cd9276a1653caf91df80840040174c10bc54bcd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/base64.mdx"
+    },
+    {
+      "path": "docs/guides/util/deep-equals.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f16945c8f34d42eb8027b260.mdx",
+      "kind": "official-document",
+      "bytes": 1030,
+      "sha256": "c13bf1af7b0283136159d2fb8dcdc469649156938c9aee6c1ddaebade95a1571",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/deep-equals.mdx"
+    },
+    {
+      "path": "docs/guides/util/deflate.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/48463e720426df5e5c10a9bc.mdx",
+      "kind": "official-document",
+      "bytes": 386,
+      "sha256": "f4c8f68340298911216a09b60cc68b0ffc092c7c9cbab435c32cad7fdd366fec",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/deflate.mdx"
+    },
+    {
+      "path": "docs/guides/util/detect-bun.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/10e1c68a189609fe6e80147c.mdx",
+      "kind": "official-document",
+      "bytes": 847,
+      "sha256": "7c27d4dd32725185544c31aecdd5dd6c77937b2c0cb355c2c8eceb82e86e16bd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/detect-bun.mdx"
+    },
+    {
+      "path": "docs/guides/util/entrypoint.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/12842a02aafe4a6472eb2088.mdx",
+      "kind": "official-document",
+      "bytes": 572,
+      "sha256": "bef167545619189cd26f5d62b8581d59e4271cae23ef0a33d8e13d249641bc99",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/entrypoint.mdx"
+    },
+    {
+      "path": "docs/guides/util/escape-html.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e9dc814384cdba7cce0303f3.mdx",
+      "kind": "official-document",
+      "bytes": 568,
+      "sha256": "16b70a2ebc5c68ff9dc22e4dd9d51722b7aace8e5fe0d8be15dafa228c2a4aff",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/escape-html.mdx"
+    },
+    {
+      "path": "docs/guides/util/file-url-to-path.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1c45a3cb4fc84cbe74edcb87.mdx",
+      "kind": "official-document",
+      "bytes": 292,
+      "sha256": "9d2d1bfad0f5fd32972b7f114bad00a6181b40351ee45a6b8986b2299af48307",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/file-url-to-path.mdx"
+    },
+    {
+      "path": "docs/guides/util/gzip.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d4bce878b70d45f396c3dbd8.mdx",
+      "kind": "official-document",
+      "bytes": 370,
+      "sha256": "77027e0f9373d2e73943b0035f8a5677e5f4ed23d5fdcf143d620a39f7e4a1f8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/gzip.mdx"
+    },
+    {
+      "path": "docs/guides/util/hash-a-password.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/138f70788fe80f589d949c26.mdx",
+      "kind": "official-document",
+      "bytes": 1462,
+      "sha256": "0d11f67004db65559df3ec6c90391b16b23671a6ec86ef316d46634c01d50b4e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/hash-a-password.mdx"
+    },
+    {
+      "path": "docs/guides/util/import-meta-dir.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c7ea96f501b1d046e4b731ad.mdx",
+      "kind": "official-document",
+      "bytes": 465,
+      "sha256": "7f2e263f90fd585c6db497b168d2a981a1840b2ff538763c164dbffb9e3ae1c0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/import-meta-dir.mdx"
+    },
+    {
+      "path": "docs/guides/util/import-meta-file.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/587a409fcd71dc2f3fc27bd0.mdx",
+      "kind": "official-document",
+      "bytes": 434,
+      "sha256": "eb9144124aaf417dd3d414ad8fb7e8e5f79ef53049086682224e88a6a599d24a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/import-meta-file.mdx"
+    },
+    {
+      "path": "docs/guides/util/import-meta-path.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/75415ff67f54d79cb4035a78.mdx",
+      "kind": "official-document",
+      "bytes": 452,
+      "sha256": "94a096b8bf19854a615005bde200ce5554db78ecc413af5aa75035a3a9db954e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/import-meta-path.mdx"
+    },
+    {
+      "path": "docs/guides/util/javascript-uuid.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/acb359124d9dc3798c05a114.mdx",
+      "kind": "official-document",
+      "bytes": 512,
+      "sha256": "d7eb787d1e2446ba6ce3f5c3f2a4138c03bb83911586f50b53b1cefbb1b4ec7b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/javascript-uuid.mdx"
+    },
+    {
+      "path": "docs/guides/util/main.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2da6d475ac457bb7d771fc16.mdx",
+      "kind": "official-document",
+      "bytes": 611,
+      "sha256": "b3f5639bfb88bdcc8e3d9d1f023df10693a139470c8622b58e0192d152fc2031",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/main.mdx"
+    },
+    {
+      "path": "docs/guides/util/path-to-file-url.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d94480af31cb817eb2886b67.mdx",
+      "kind": "official-document",
+      "bytes": 297,
+      "sha256": "48552314c4d6bf77bf1d6d6e879f3ecc511c038caf05b1feddc2ab9a3798662a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/path-to-file-url.mdx"
+    },
+    {
+      "path": "docs/guides/util/sleep.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/002566cfe09e3edecdb00c61.mdx",
+      "kind": "official-document",
+      "bytes": 493,
+      "sha256": "4fe33eeae02b05d1ec362d9e54796574ef7fb27288281ee2daf713e2f86f8b3f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/sleep.mdx"
+    },
+    {
+      "path": "docs/guides/util/upgrade.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6f6d7bb30b10e49d5ada983b.mdx",
+      "kind": "official-document",
+      "bytes": 2123,
+      "sha256": "cde70d0756915c3111985ec6ec71a908c917d1d8aa1e5d5c2500d178bc9a0049",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/upgrade.mdx"
+    },
+    {
+      "path": "docs/guides/util/version.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b0b44ca4b4ce1bd2d52cc59d.mdx",
+      "kind": "official-document",
+      "bytes": 528,
+      "sha256": "d9178a6b9fc9acb8798a8eea790319b1e6fbb02ce212055e5d0b568925dea593",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/version.mdx"
+    },
+    {
+      "path": "docs/guides/util/which-path-to-executable-bin.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6de13a2c00cf87dd36574606.mdx",
+      "kind": "official-document",
+      "bytes": 424,
+      "sha256": "22a1c3b2e8d32154ef011a64e6b8c6acc845d2e25bc8c0e15ea5279cd0b5433a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/util/which-path-to-executable-bin.mdx"
+    },
+    {
+      "path": "docs/guides/websocket/compression.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ba011b12c5fe7903a656639f.mdx",
+      "kind": "official-document",
+      "bytes": 973,
+      "sha256": "7bf4e3b08315928a6ca873b4c8d752af7ffd1c577ca13edcff3659a2639ecd39",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/websocket/compression.mdx"
+    },
+    {
+      "path": "docs/guides/websocket/context.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7265d2c782c125c16d1f91c5.mdx",
+      "kind": "official-document",
+      "bytes": 2003,
+      "sha256": "2d0faa82b88b4a42115cde5134ae174c07fc81ed2e0ebda1115d73a097bbafea",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/websocket/context.mdx"
+    },
+    {
+      "path": "docs/guides/websocket/pubsub.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/99d8f1d0fce7c653455466e9.mdx",
+      "kind": "official-document",
+      "bytes": 1410,
+      "sha256": "58d8bcd4c6ee3f4d7ef197e9ed790150e46684181b062ed677683eda0a45a55f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/websocket/pubsub.mdx"
+    },
+    {
+      "path": "docs/guides/websocket/simple.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1586635a06b3810108bbad08.mdx",
+      "kind": "official-document",
+      "bytes": 1023,
+      "sha256": "efedaa3470950fd9e9817513220d33cef8e4abd77c0b39efeb729a59ec21e667",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/websocket/simple.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/append.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c7881fb9ebb1132f9b9deb3b.mdx",
+      "kind": "official-document",
+      "bytes": 1169,
+      "sha256": "3c937523e650894e21c2e12104bf628aae01d58e9e64fdd118b7ffa705466e41",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/append.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/basic.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/47cc2bf07f6df33182a741be.mdx",
+      "kind": "official-document",
+      "bytes": 927,
+      "sha256": "11b00aa2aac10d16eb18a4ca32ff2aa1792712c95145cdffb26e112377240471",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/basic.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/blob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/37e66005195d078b24621bb0.mdx",
+      "kind": "official-document",
+      "bytes": 733,
+      "sha256": "bd997be06cbba65f1ecc97a25ca2f0d766e5f377b208b84d250b0d9127b1b843",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/blob.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/cat.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0d5388789840c5a8b76aa9cf.mdx",
+      "kind": "official-document",
+      "bytes": 534,
+      "sha256": "de908ac1365abd09d8a3b041a00b3eaefd5866f7f12865e7a5c3503cdbffbd3e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/cat.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/file-cp.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/43e2ba31ee544163cbb4ecc1.mdx",
+      "kind": "official-document",
+      "bytes": 491,
+      "sha256": "c6119fe69eaf179e96d7a6db54a4309f97436d09bf5c28973826665fd32c7305",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/file-cp.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/filesink.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7550079976088185668894b3.mdx",
+      "kind": "official-document",
+      "bytes": 1068,
+      "sha256": "2cbd957c978c48af8fa3d5dc745a009ce739f5fd3b156abdded0c9d97d40a119",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/filesink.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/response.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d998af5e2a20e044a68937dc.mdx",
+      "kind": "official-document",
+      "bytes": 550,
+      "sha256": "865180ad16ef0dd579415bc998011ca1f796445981ccd857ceba750f40c5a56c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/response.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/stdout.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/90e723c4b3ede779a1838125.mdx",
+      "kind": "official-document",
+      "bytes": 498,
+      "sha256": "b8986332d82b4a194147c0a9de7e083aeac82b678980c317c784d08c092974c0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/stdout.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/stream.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2da383d2d0e44015e4f2768c.mdx",
+      "kind": "official-document",
+      "bytes": 806,
+      "sha256": "2019e322e50c00b4342760dbf107e7469d8f7484f8b8520e243c02849bc12c80",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/stream.mdx"
+    },
+    {
+      "path": "docs/guides/write-file/unlink.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4bddb46b08a8f70758a8f434.mdx",
+      "kind": "official-document",
+      "bytes": 354,
+      "sha256": "b6b8ed0edee5656d64e6b189f96f2977352b8a8c0448c5841a3858f8600a42b7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/guides/write-file/unlink.mdx"
+    },
+    {
+      "path": "docs/index.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/135108c7d936a6d1e05ce4ec.mdx",
+      "kind": "official-document",
+      "bytes": 6140,
+      "sha256": "e16a58ae2d65ddb4223763b6ce90ca63ef6844c11c778613d816d0dfecbae09b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/index.mdx"
+    },
+    {
+      "path": "docs/installation.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5597f1f963d28437edad7990.mdx",
+      "kind": "official-document",
+      "bytes": 9130,
+      "sha256": "05886e1dc36d64a9d01378ccd4617ef67e2c36efc8349253c40f2a37a1e7df65",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/installation.mdx"
+    },
+    {
+      "path": "docs/pm/bunx.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d1c9068b1eb55680adde2e13.mdx",
+      "kind": "official-document",
+      "bytes": 2604,
+      "sha256": "72dc4d2015bc692a83c21a0310a6ac0ecb7d722f0f388edfe3c5915bdf82f76c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/bunx.mdx"
+    },
+    {
+      "path": "docs/pm/catalogs.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7d00d72eee2063e4174f73ce.mdx",
+      "kind": "official-document",
+      "bytes": 7928,
+      "sha256": "0822fafdc4c7984eef19c3d88fd2096861bc8eadfab2b635d456852d5d5e4e78",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/catalogs.mdx"
+    },
+    {
+      "path": "docs/pm/cli/add.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f9b2b813a5a7eeae8f799bbd.mdx",
+      "kind": "official-document",
+      "bytes": 7219,
+      "sha256": "fa065ea9e245d412475c9ca91e4bc30c542cf831be393c5b301a1f3422ef5869",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/add.mdx"
+    },
+    {
+      "path": "docs/pm/cli/audit.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3f319c6629e74b6a92bed16e.mdx",
+      "kind": "official-document",
+      "bytes": 5385,
+      "sha256": "91d011aa8098b30bb299b027af48934cbd59bfbe912f3c779435e61399fae623",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/audit.mdx"
+    },
+    {
+      "path": "docs/pm/cli/dedupe.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/710533f9630b95b3e1a2a04a.mdx",
+      "kind": "official-document",
+      "bytes": 2699,
+      "sha256": "315b99e64bc7c4eff57c8d13ea94a813d2bb5502fcce6fcd2c737889a6f8f4b5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/dedupe.mdx"
+    },
+    {
+      "path": "docs/pm/cli/info.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/63ef411d623638579e876b61.mdx",
+      "kind": "official-document",
+      "bytes": 1309,
+      "sha256": "4256d886fb64e876f5b3e5137d0357e6314d3925b17b403178b41509784f9c9c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/info.mdx"
+    },
+    {
+      "path": "docs/pm/cli/install.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4a915167497b6747c195b964.mdx",
+      "kind": "official-document",
+      "bytes": 23205,
+      "sha256": "239005cbf745db26a1d41741519b4b648270b8b6b2490719968c0e8279797bb6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/install.mdx"
+    },
+    {
+      "path": "docs/pm/cli/link.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7a66068b6d74c50dc330fa82.mdx",
+      "kind": "official-document",
+      "bytes": 1399,
+      "sha256": "de14900d68aee9583537edba4a1e5a065e499800021c49d5cf9c678594b7021d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/link.mdx"
+    },
+    {
+      "path": "docs/pm/cli/outdated.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6edbcf484100c13a94ad70b7.mdx",
+      "kind": "official-document",
+      "bytes": 10807,
+      "sha256": "6e92033691b71235055a8225ca8c2f5017dc348d28b3cf878c174c23e2721551",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/outdated.mdx"
+    },
+    {
+      "path": "docs/pm/cli/patch.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ca9eb7d52a89c4cf9ea3beff.mdx",
+      "kind": "official-document",
+      "bytes": 2658,
+      "sha256": "2923ba8ec71921be82e9626844538393d2548ebc31275911205de84bf2ec3a4a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/patch.mdx"
+    },
+    {
+      "path": "docs/pm/cli/pm.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6d66096e818b858dc3500de4.mdx",
+      "kind": "official-document",
+      "bytes": 16613,
+      "sha256": "ff34f505faf68dbec9eda4c18ec6ecf942f99c4bcdb6f3913813caa245d41e7b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/pm.mdx"
+    },
+    {
+      "path": "docs/pm/cli/prune.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a8d90c7c0c9f2753c4a5c65d.mdx",
+      "kind": "official-document",
+      "bytes": 3320,
+      "sha256": "e298026e7df113880a0a705587478a1ac097661a222fb7149e04dba2198224a6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/prune.mdx"
+    },
+    {
+      "path": "docs/pm/cli/publish.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7bf236fac59ab1f355beda41.mdx",
+      "kind": "official-document",
+      "bytes": 3588,
+      "sha256": "541334d71a14c8840f14505d81ebfbc963b576d88e64c5db52ead98511b111eb",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/publish.mdx"
+    },
+    {
+      "path": "docs/pm/cli/remove.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2d92f4bb0510dbbde8a77520.mdx",
+      "kind": "official-document",
+      "bytes": 913,
+      "sha256": "61a0c0f05a676f5f93b2dfc09ec2449582984ffb5735d30f38de7da7eb590bd5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/remove.mdx"
+    },
+    {
+      "path": "docs/pm/cli/update.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fc7f5f0c8c54e908fc808885.mdx",
+      "kind": "official-document",
+      "bytes": 7459,
+      "sha256": "f8d01d46e326c26a96d0a3a08ea69179e2da41b58c29dbf4db1cd3bb21289f36",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/update.mdx"
+    },
+    {
+      "path": "docs/pm/cli/why.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0bc54273c76183e8345b39a1.mdx",
+      "kind": "official-document",
+      "bytes": 1876,
+      "sha256": "7e3f6405b17f8c187788a5649360318bb72d90f0617285655a17b9da03bf6543",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/cli/why.mdx"
+    },
+    {
+      "path": "docs/pm/filter.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7c5500cb29dc9a96b39740c6.mdx",
+      "kind": "official-document",
+      "bytes": 7357,
+      "sha256": "cf560aea33f7b5edc3aa136f8f2787205ed1ae2d61dbafb8e5e8ed630f66f23d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/filter.mdx"
+    },
+    {
+      "path": "docs/pm/global-cache.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6b1d1393885ed8f31072c7e7.mdx",
+      "kind": "official-document",
+      "bytes": 3946,
+      "sha256": "09dbf57d7e35c63dea9a64ab1d3a7b14465d162183a04abade712622b424f48b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/global-cache.mdx"
+    },
+    {
+      "path": "docs/pm/global-store.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5908ffb8d857dc80c971e6ac.mdx",
+      "kind": "official-document",
+      "bytes": 10665,
+      "sha256": "03c2d3dc7b6b72f5f5fde29a1bb7757e8c2f04c2824443e8c871a2f769c3a52b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/global-store.mdx"
+    },
+    {
+      "path": "docs/pm/isolated-installs.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/101973428d8a7576b818dca1.mdx",
+      "kind": "official-document",
+      "bytes": 11691,
+      "sha256": "fd51f75f51382be1ad29c363a093baace2849430a8d23b7943e5b0d06ff3df9e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/isolated-installs.mdx"
+    },
+    {
+      "path": "docs/pm/lifecycle.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/50b2a64de3d5f5a9489f8476.mdx",
+      "kind": "official-document",
+      "bytes": 4010,
+      "sha256": "c9ca0cc8df1eb551fb0464df225ebf7da014db8445268e47f30bc4615998dd60",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/lifecycle.mdx"
+    },
+    {
+      "path": "docs/pm/lockfile.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0ab5b07b7ba0acdce901d811.mdx",
+      "kind": "official-document",
+      "bytes": 2001,
+      "sha256": "3a7a504bc3e14a017be44a5bf3fb1b347b29cdc3d47d2346052b5311a120500a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/lockfile.mdx"
+    },
+    {
+      "path": "docs/pm/npmrc.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/be7d7bd6fda60a5ce89df580.mdx",
+      "kind": "official-document",
+      "bytes": 7445,
+      "sha256": "8cd20c9aff717e0edfe9b993dce50994bfbb3a6fca9f3b52e8b53b029ed8edfc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/npmrc.mdx"
+    },
+    {
+      "path": "docs/pm/overrides.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/463920e4b5241428648707e8.mdx",
+      "kind": "official-document",
+      "bytes": 4815,
+      "sha256": "0daae32f0a4c8d3db35a0d78793d2d71174bafdfa31a7cbe7777c83c481b6a17",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/overrides.mdx"
+    },
+    {
+      "path": "docs/pm/scopes-registries.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2864e881141912c01c7783c5.mdx",
+      "kind": "official-document",
+      "bytes": 1033,
+      "sha256": "34cc1ab518ed842cda077e245efcb262006df33335d5fec50935293c584e7b3b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/scopes-registries.mdx"
+    },
+    {
+      "path": "docs/pm/security-scanner-api.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/30c8963baaf62c4888c1f951.mdx",
+      "kind": "official-document",
+      "bytes": 2648,
+      "sha256": "010d2e1b2885e2bcacf238fb9654eb730fc194f81175aaa0975a9cf3bb14c7c4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/security-scanner-api.mdx"
+    },
+    {
+      "path": "docs/pm/workspaces.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6e59a575540bd9c20b3b2c5d.mdx",
+      "kind": "official-document",
+      "bytes": 5955,
+      "sha256": "de23312d72c6df2022a359ab8bd03b53f3b1f1105710805b1e8b59c544ce51b0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/pm/workspaces.mdx"
+    },
+    {
+      "path": "docs/project/benchmarking.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/499ff364e442dcfb8e863933.mdx",
+      "kind": "official-document",
+      "bytes": 10821,
+      "sha256": "53f6f0f82b299d90d2e3c80a573dd948f8c286f0a2258cbc11f5e43ddc720f18",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/project/benchmarking.mdx"
+    },
+    {
+      "path": "docs/project/bindgen.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ece7a165826a55b90ed0e6c6.mdx",
+      "kind": "official-document",
+      "bytes": 8114,
+      "sha256": "aac4e82e3b5358dca604f5645b86aadc4adf62152356235dd3a46a5019344d4a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/project/bindgen.mdx"
+    },
+    {
+      "path": "docs/project/building-windows.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e904855c6f615ad2f2e3b0ee.mdx",
+      "kind": "official-document",
+      "bytes": 7864,
+      "sha256": "7e1444efa0599b87bcef54f5793d8e229685fc458745851e8373acd88faaebf6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/project/building-windows.mdx"
+    },
+    {
+      "path": "docs/project/contributing.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f9f33941403dd069e6793b47.mdx",
+      "kind": "official-document",
+      "bytes": 16842,
+      "sha256": "4f2de8bf87cb5cf31bf1c7acd90b46fba81556cc037676bfc6fcaa2f16755b7d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/project/contributing.mdx"
+    },
+    {
+      "path": "docs/project/license.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1795c188a2b4143a8802b4e2.mdx",
+      "kind": "license",
+      "bytes": 10827,
+      "sha256": "1fac2ad9eac5ba9e1e0ef0d2893108e7d7a17fae5afac60f4bb0bd403087f3ec",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/project/license.mdx"
+    },
+    {
+      "path": "docs/project/roadmap.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/33d432da9aad1b693db0cb28.mdx",
+      "kind": "official-document",
+      "bytes": 443,
+      "sha256": "d794026eeac74653a8c29c583404c83e71bd9b58c7fa643703859d9589cf8445",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/project/roadmap.mdx"
+    },
+    {
+      "path": "docs/quickstart.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f1db7c587c0fc6ae7a362a3b.mdx",
+      "kind": "official-document",
+      "bytes": 5821,
+      "sha256": "390f6508b10864cb8de4a8a34c3c427d834cdcb47043d10fa94dfd5406369eac",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/quickstart.mdx"
+    },
+    {
+      "path": "docs/runtime/archive.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ce470e8a1f7d9d36920ba385.mdx",
+      "kind": "official-document",
+      "bytes": 13837,
+      "sha256": "9afc7a362847eb0c3c4e39e847d7fb7c761a04b72d6867e524a755049593f454",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/archive.mdx"
+    },
+    {
+      "path": "docs/runtime/auto-install.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/314ed484538ce5f6bc6ede59.mdx",
+      "kind": "official-document",
+      "bytes": 4392,
+      "sha256": "a706ada72ea1d152231eb3cccdeca2dde1ccc47352d391609386f50c15b1ed3f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/auto-install.mdx"
+    },
+    {
+      "path": "docs/runtime/binary-data.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cb46d957d8604e23851fed50.mdx",
+      "kind": "official-document",
+      "bytes": 29081,
+      "sha256": "ba2a28c3fdcd23daadd1b602f85772351a41a54f5d0855f9846869723bdf4b65",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/binary-data.mdx"
+    },
+    {
+      "path": "docs/runtime/bun-apis.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1e1f7f59afabd0fa7941ee4f.mdx",
+      "kind": "official-document",
+      "bytes": 15190,
+      "sha256": "cb20890294656df96151f04be6697cc0ebaf5055cdaf63240dd780b3db6b4a81",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/bun-apis.mdx"
+    },
+    {
+      "path": "docs/runtime/bunfig.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eab64d0c4b4677a65309df54.mdx",
+      "kind": "official-document",
+      "bytes": 28214,
+      "sha256": "b6873b7cfc0b2a885d62aa2f4893492ac4791f03d3d8154c9d17f2430634e374",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/bunfig.mdx"
+    },
+    {
+      "path": "docs/runtime/c-compiler.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f860e45dff603a3f430ecc7b.mdx",
+      "kind": "official-document",
+      "bytes": 5303,
+      "sha256": "96b3c916e9c886dc2539759cf16317082ca3e5700c133c673ea47ee44d53dbd7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/c-compiler.mdx"
+    },
+    {
+      "path": "docs/runtime/child-process.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/62e2fab10658884a14cdec95.mdx",
+      "kind": "official-document",
+      "bytes": 25096,
+      "sha256": "d1cfb8015c20563d74b5330be911de9f0698d97d65ac23bb34ce574aa61dac1e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/child-process.mdx"
+    },
+    {
+      "path": "docs/runtime/code-generation-from-strings.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/336bff6228da2ac0120ef750.mdx",
+      "kind": "official-document",
+      "bytes": 13315,
+      "sha256": "87637b2e3b1b3e2259e42395ebbdf5707721f793a7db2c23dcceb2a6ba98a2aa",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/code-generation-from-strings.mdx"
+    },
+    {
+      "path": "docs/runtime/color.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3a4fb55a009e5f7be00a2310.mdx",
+      "kind": "official-document",
+      "bytes": 9863,
+      "sha256": "4517419ad5f0f6748fd3d7f824a1b0cbda35b49d553519985310910ba430a884",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/color.mdx"
+    },
+    {
+      "path": "docs/runtime/console.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/df7fec2ed649f1d0593a5103.mdx",
+      "kind": "official-document",
+      "bytes": 1532,
+      "sha256": "199cd1118e6bc2ac9b973a29c5c54d0f8f33d3bc1df2673fc56985b48baa0891",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/console.mdx"
+    },
+    {
+      "path": "docs/runtime/cookies.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/20f0d2c5a085bd8d25bfe75f.mdx",
+      "kind": "official-document",
+      "bytes": 12180,
+      "sha256": "0ac60804c3bb196b5bf71545873a7a2f7ef3cc6c469b754c730d575cec494bc1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/cookies.mdx"
+    },
+    {
+      "path": "docs/runtime/cron.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/0579cb10a9fb4a35bab2876b.mdx",
+      "kind": "official-document",
+      "bytes": 21194,
+      "sha256": "96b25a7e4dc88d78fe037c2e2df10c2c0d32acf758648ae878751fdc227052fd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/cron.mdx"
+    },
+    {
+      "path": "docs/runtime/csrf.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a4fd8379c1be606d511bde92.mdx",
+      "kind": "official-document",
+      "bytes": 9185,
+      "sha256": "680e2a398b6f1295e25ff3913b6e496ac345d729ca818e60a8a8ac6fea88e825",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/csrf.mdx"
+    },
+    {
+      "path": "docs/runtime/debugger.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/42859c7b3294e1cbafd7a575.mdx",
+      "kind": "official-document",
+      "bytes": 12731,
+      "sha256": "3291012af7c8a269a747674d934af9352fe9987770a28ba422a304eebc34fd2b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/debugger.mdx"
+    },
+    {
+      "path": "docs/runtime/environment-variables.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b40d2e6daba024d91efcbf13.mdx",
+      "kind": "official-document",
+      "bytes": 11493,
+      "sha256": "2e69b7afa1b49ab67d2c45f6796d180de63a91b89523d1bbf55b34f49d48d544",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/environment-variables.mdx"
+    },
+    {
+      "path": "docs/runtime/ffi.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4be25ac2a0618141591eda4a.mdx",
+      "kind": "official-document",
+      "bytes": 18592,
+      "sha256": "080c1db7700436d5628b6202a5c27824666ec151e9d029c4fa98424c475072d6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/ffi.mdx"
+    },
+    {
+      "path": "docs/runtime/file-io.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/15cffcee179f7cd87f8f368b.mdx",
+      "kind": "official-document",
+      "bytes": 8285,
+      "sha256": "31324b09af671d83d36497001fea2be471a1432abf6085600ffec0491a60984a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/file-io.mdx"
+    },
+    {
+      "path": "docs/runtime/file-system-router.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a9de89ba09ba7c1379dff34c.mdx",
+      "kind": "official-document",
+      "bytes": 2601,
+      "sha256": "e8c70346d092d753fe5cb8f88d800918c1dc232f4f565f3797603f92e12bb519",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/file-system-router.mdx"
+    },
+    {
+      "path": "docs/runtime/file-types.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b7830c6744b11fbcb2fe8ad5.mdx",
+      "kind": "official-document",
+      "bytes": 13994,
+      "sha256": "e34f9185bcce06da372729daf0941ed8a94fa06071d75fa63663ba9e54b21b40",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/file-types.mdx"
+    },
+    {
+      "path": "docs/runtime/glob.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7b49672928f6edbc31744374.mdx",
+      "kind": "official-document",
+      "bytes": 4059,
+      "sha256": "bf5b07c9b62194d8d81306b0f625a7ca3d97b143c5bde11d7154c13d953d8c91",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/glob.mdx"
+    },
+    {
+      "path": "docs/runtime/globals.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/42802ee0981d3a28fe9a027f.mdx",
+      "kind": "official-document",
+      "bytes": 24866,
+      "sha256": "b493d102dc453cee59617a7a4a7080b3a4130d4c82f6c5503110f3b2ed33d6aa",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/globals.mdx"
+    },
+    {
+      "path": "docs/runtime/hashing.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d237aa64113412222dbff1e4.mdx",
+      "kind": "official-document",
+      "bytes": 9086,
+      "sha256": "63f2e86d07d4ebbc8d83163385d9f1473df138e241af0e18f24fa07ecad3e2d9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/hashing.mdx"
+    },
+    {
+      "path": "docs/runtime/html-rewriter.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eafea680cba478cedde3c243.mdx",
+      "kind": "official-document",
+      "bytes": 12678,
+      "sha256": "58c4df63f047bbca66d6500c6442679b993d5623f578f3309a4ee2f86238c584",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/html-rewriter.mdx"
+    },
+    {
+      "path": "docs/runtime/http/cookies.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ab5380325e40da783f77de87.mdx",
+      "kind": "official-document",
+      "bytes": 1976,
+      "sha256": "a3fe8a2c993792e162857105c0b2623d12f43a84658ff18ecf6b7e27f9d6a763",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/cookies.mdx"
+    },
+    {
+      "path": "docs/runtime/http/error-handling.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d7d7582357cee0e02364aad5.mdx",
+      "kind": "official-document",
+      "bytes": 1613,
+      "sha256": "a70125dcb7f3db54ff572437a6a5b0dcfa17ed1dfbfdea94d5393806bd5b3f81",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/error-handling.mdx"
+    },
+    {
+      "path": "docs/runtime/http/metrics.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e1c724a640560bd5dba29d7d.mdx",
+      "kind": "official-document",
+      "bytes": 742,
+      "sha256": "9d1104a2d8506c3acbb412fd3cfcd1a31a4b162fe935c3cfeba8662435089513",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/metrics.mdx"
+    },
+    {
+      "path": "docs/runtime/http/routing.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fb331580b196c2ec9924e5b4.mdx",
+      "kind": "official-document",
+      "bytes": 11313,
+      "sha256": "d5ebc3a023e9db4ff498e590c8882e89a0e2eae3291b5c5eebb49036254c414b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/routing.mdx"
+    },
+    {
+      "path": "docs/runtime/http/server.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/989b8919fb0fc5d3dbd0d5aa.mdx",
+      "kind": "official-document",
+      "bytes": 20112,
+      "sha256": "3da0cbc0d2fdab5a4d1728a1f372ca8f991b17ba616d9b95d6e325ca450e8b1e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/server.mdx"
+    },
+    {
+      "path": "docs/runtime/http/tls.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4bed64a09c3aedd7c4fe23b6.mdx",
+      "kind": "official-document",
+      "bytes": 2505,
+      "sha256": "51034abd25c99acb75a4cdbd444d6eb8c7581fa8941257347c6351b8538dddaf",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/tls.mdx"
+    },
+    {
+      "path": "docs/runtime/http/websockets.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eb737edce4f74a62c18fc5fa.mdx",
+      "kind": "official-document",
+      "bytes": 14125,
+      "sha256": "48e08d9ec54fed9962f8bcd23ffe29720876cfe2120f602270372d95b643f569",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/http/websockets.mdx"
+    },
+    {
+      "path": "docs/runtime/image.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/aa3305eaa036252b4c565159.mdx",
+      "kind": "official-document",
+      "bytes": 10559,
+      "sha256": "491d29be13f4247beee205a08b810d833c31c3d350b745ce288a0d42702c5cb0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/image.mdx"
+    },
+    {
+      "path": "docs/runtime/index.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bfe4f90307caf0d8f4aedb19.mdx",
+      "kind": "official-document",
+      "bytes": 6924,
+      "sha256": "b9edc3940337c818d5d32a116350c12d0b00280e006f6ac4fe702101a521f6e8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/index.mdx"
+    },
+    {
+      "path": "docs/runtime/json5.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/90acaf14e62077db396fe74c.mdx",
+      "kind": "official-document",
+      "bytes": 5490,
+      "sha256": "61eb0fed972e0475a744b6dbb8bfff5a629112adfca5c943485a0855d5d6b66a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/json5.mdx"
+    },
+    {
+      "path": "docs/runtime/jsonl.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3a08e75f7c72236a2d07c1c1.mdx",
+      "kind": "official-document",
+      "bytes": 5892,
+      "sha256": "d93b8f835b0a820e762219cc1e5890f4f63465fd0f3269410893a1d12e44736e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/jsonl.mdx"
+    },
+    {
+      "path": "docs/runtime/jsx.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/45ef467d706d8220bc11f833.mdx",
+      "kind": "official-document",
+      "bytes": 9273,
+      "sha256": "15aefc0ad049569bb3452b835332b50f9fee2c7e82d39c0689d4ccc24c2fbe0b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/jsx.mdx"
+    },
+    {
+      "path": "docs/runtime/markdown.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f0ee84288c988d60226d8861.mdx",
+      "kind": "official-document",
+      "bytes": 15947,
+      "sha256": "7f5eb0efb994cc760f48a6d5a579307b75466c7ea76cefedc7107ebba2383bfc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/markdown.mdx"
+    },
+    {
+      "path": "docs/runtime/module-graph.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bda7ade1467edcc039c28a7d.mdx",
+      "kind": "official-document",
+      "bytes": 11097,
+      "sha256": "707c3fada2c557cc945679825a555b706556a67445218fef03cefce11edf7dc5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/module-graph.mdx"
+    },
+    {
+      "path": "docs/runtime/module-resolution.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b591d2c4e8bc08cb7b39dc3c.mdx",
+      "kind": "official-document",
+      "bytes": 20853,
+      "sha256": "5fb935cf446eac703fbca5dbcb2eae49d212dde6daf4d923c3876ac8ead21341",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/module-resolution.mdx"
+    },
+    {
+      "path": "docs/runtime/networking/dns.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1b017931bf1930e330918928.mdx",
+      "kind": "official-document",
+      "bytes": 4362,
+      "sha256": "c48c560af612ca1e33d68f496aacf85efd0e5a792c4b8f95d00bc2706dc2abc9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/networking/dns.mdx"
+    },
+    {
+      "path": "docs/runtime/networking/fetch.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eddf2ba8382aca7920d73722.mdx",
+      "kind": "official-document",
+      "bytes": 22720,
+      "sha256": "769aa878070c2175677e3b2ed41f8251154b32437d7bd824503f38e9add7e9e1",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/networking/fetch.mdx"
+    },
+    {
+      "path": "docs/runtime/networking/tcp.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/00c1f7960c9173cfea6644d3.mdx",
+      "kind": "official-document",
+      "bytes": 5582,
+      "sha256": "230f62ab89017ae02703add5f4924a14a1a902eb2828ddae743568f142b0c87a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/networking/tcp.mdx"
+    },
+    {
+      "path": "docs/runtime/networking/udp.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/12ee46390214f4d87521ec50.mdx",
+      "kind": "official-document",
+      "bytes": 4729,
+      "sha256": "7494dd69cd7cff2e6eefcd91d1ea6953ce7134ad80986c78f5596e29abe61f76",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/networking/udp.mdx"
+    },
+    {
+      "path": "docs/runtime/node-api.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8c9531162ac3bd424296ef52.mdx",
+      "kind": "official-document",
+      "bytes": 534,
+      "sha256": "19619b227d1d56a9b9d733ce0eaa9c064a99f29042e8fd148fd3b477594689e6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/node-api.mdx"
+    },
+    {
+      "path": "docs/runtime/nodejs-compat.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3325d3c7827043be076dc994.mdx",
+      "kind": "official-document",
+      "bytes": 28641,
+      "sha256": "1e1d54b31c085776eae01cd963516aa674695b4517f41c57e88562dfa84729e8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/nodejs-compat.mdx"
+    },
+    {
+      "path": "docs/runtime/plugins.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6ce2a2c29b543f86c2073b9a.mdx",
+      "kind": "official-document",
+      "bytes": 12231,
+      "sha256": "f5f87a7c701cdce21dcd49b2fdce7587379bd6309140d6b546f27b842d787085",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/plugins.mdx"
+    },
+    {
+      "path": "docs/runtime/redis.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/15b283d4d13828a9c96e4c67.mdx",
+      "kind": "official-document",
+      "bytes": 15568,
+      "sha256": "267461453e2fda5f614d2bccaff63091c6bbeb76838c810add829a80c0ad0412",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/redis.mdx"
+    },
+    {
+      "path": "docs/runtime/repl.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6e35ddf804d9d9568d9e4e49.mdx",
+      "kind": "official-document",
+      "bytes": 6682,
+      "sha256": "a9b39c0d945f9938b33e29e51809c4bf20c379589e462a1bba4995dd52ceb5d5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/repl.mdx"
+    },
+    {
+      "path": "docs/runtime/s3.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/592c1a954ed078bd642e970d.mdx",
+      "kind": "official-document",
+      "bytes": 28258,
+      "sha256": "e9770abd2d8f88d265f51f4b04ca7e7f3759290a6f1636129f26d5b9603db2e8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/s3.mdx"
+    },
+    {
+      "path": "docs/runtime/secrets.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cb5a4c4551176841b022dff2.mdx",
+      "kind": "official-document",
+      "bytes": 9476,
+      "sha256": "b3b96a785c5137ea1cbfed956946e8f5a8c24c5d5d8af53fa48b8d6e1f5f6b60",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/secrets.mdx"
+    },
+    {
+      "path": "docs/runtime/semver.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3e5fb10e6877e54abb08b307.mdx",
+      "kind": "official-document",
+      "bytes": 2084,
+      "sha256": "3724deef2a3d2b3e2b060969510c3901573d3a976fae5d4ecf4453f3dedf4e3e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/semver.mdx"
+    },
+    {
+      "path": "docs/runtime/shell.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b33fadceccf18828f3a9ef86.mdx",
+      "kind": "official-document",
+      "bytes": 14948,
+      "sha256": "e96b7e8223971f8d2f975aa0aeae9a94f188320f11abfa6549e14d15f7fe76fc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/shell.mdx"
+    },
+    {
+      "path": "docs/runtime/sql.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/832a2808a6f731d10eef7fd1.mdx",
+      "kind": "official-document",
+      "bytes": 59713,
+      "sha256": "7da57e76aed75363eef6a5074e418cff59fd657450a22e1d519bc4a0d0ea5f67",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/sql.mdx"
+    },
+    {
+      "path": "docs/runtime/sqlite.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6270976d1ba72bce0ff30eee.mdx",
+      "kind": "official-document",
+      "bytes": 26118,
+      "sha256": "f71a234cc4913923c18c5ff47e371c58de7cac837bb8170711da38ca53ff1ca4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/sqlite.mdx"
+    },
+    {
+      "path": "docs/runtime/streams.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bd461dd93c99bc1f3beefec4.mdx",
+      "kind": "official-document",
+      "bytes": 9041,
+      "sha256": "cd92de88b0396a75a58da484f9e89dd7c1e88c1ad55b4790d2d288c263f90b75",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/streams.mdx"
+    },
+    {
+      "path": "docs/runtime/templating/create.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/46303bf7d9981536e30fd1ad.mdx",
+      "kind": "official-document",
+      "bytes": 10680,
+      "sha256": "54a6e0038b5a3850d37b32c27f29b7d797fca974b531288774f82b932f4d1a40",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/templating/create.mdx"
+    },
+    {
+      "path": "docs/runtime/templating/init.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ae68935632fb33172e1f0daf.mdx",
+      "kind": "official-document",
+      "bytes": 1785,
+      "sha256": "8b10f184b70dec9d6c13862b27ee1aceb7fb2e79d2eac818a9d86d50f749f1cf",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/templating/init.mdx"
+    },
+    {
+      "path": "docs/runtime/toml.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a4f15ac0dc46aad27367b610.mdx",
+      "kind": "official-document",
+      "bytes": 7568,
+      "sha256": "2f2830d1a524acaf6e0c1bb625ecf16361754f64c3a2f198a7065356bfeda763",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/toml.mdx"
+    },
+    {
+      "path": "docs/runtime/transpiler.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3d9b00a482a8cacc9fad113c.mdx",
+      "kind": "official-document",
+      "bytes": 6958,
+      "sha256": "1b8743b9ddab17dcfd2c3e2edd5d2189314e012fb06381aa27e117a84bb84f29",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/transpiler.mdx"
+    },
+    {
+      "path": "docs/runtime/typescript.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1e57b4c147a8789a7c2dbc55.mdx",
+      "kind": "official-document",
+      "bytes": 1563,
+      "sha256": "a77ade952a07a6d9c807100f54d625a81a786f62abc101ae4a3c3a780be63929",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/typescript.mdx"
+    },
+    {
+      "path": "docs/runtime/utils.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9ca969ff02f5ee3175e5f8de.mdx",
+      "kind": "official-document",
+      "bytes": 34034,
+      "sha256": "60d397aea345cc9d279dfa721f74351176a7f2c02b8b965dac7813e651102952",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/utils.mdx"
+    },
+    {
+      "path": "docs/runtime/watch-mode.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bb58d5df2afbdd05cce03cd6.mdx",
+      "kind": "official-document",
+      "bytes": 5949,
+      "sha256": "c4f9d66b1983702cb1e9cfea72d1ffbbc5690a37b7be7b9255a78f342d6de809",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/watch-mode.mdx"
+    },
+    {
+      "path": "docs/runtime/web-apis.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f68f69a886680b26c95c805c.mdx",
+      "kind": "official-document",
+      "bytes": 13797,
+      "sha256": "c64052666fe743f75865ee66d246c76db5740f2124e155b48d60a53a705a4fcd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/web-apis.mdx"
+    },
+    {
+      "path": "docs/runtime/webview.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9bcb31a322694fd2c1c178e1.mdx",
+      "kind": "official-document",
+      "bytes": 35996,
+      "sha256": "f3d4fecdf157d7e4a6cd21ae7e2fbfdec41a0a7aece1b05fec84d7e2008d9c1a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/webview.mdx"
+    },
+    {
+      "path": "docs/runtime/workers.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/93c2e8906654f935e2b733db.mdx",
+      "kind": "official-document",
+      "bytes": 12124,
+      "sha256": "1f3b58a6faca0cafae491b9023b82425789fc4f21b777059b71a06439320f275",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/workers.mdx"
+    },
+    {
+      "path": "docs/runtime/xml.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d82c06fb7e135479db2d55a9.mdx",
+      "kind": "official-document",
+      "bytes": 13663,
+      "sha256": "5168812fdf75250e260e990d9c629d042b0f6db9c1ad3149d42006d5e98941c8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/xml.mdx"
+    },
+    {
+      "path": "docs/runtime/yaml.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/950c68696d406718fcccf43d.mdx",
+      "kind": "official-document",
+      "bytes": 10053,
+      "sha256": "06b1d2b695c3cb6b727bb32580cfdf4fb8814ca0ba1ae21f1a7cefa3f45f672e",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/runtime/yaml.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/add.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b514e4b996d18b1eebf7ee59.mdx",
+      "kind": "official-document",
+      "bytes": 5317,
+      "sha256": "457636c073923fd9e1a532412a80cb4d55c9089796f086059de99112ad7ffcae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/add.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/build.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2f028d290984499e92432c9e.mdx",
+      "kind": "official-document",
+      "bytes": 9935,
+      "sha256": "5b53705bc1151f0d2536060c1e8f7595990edd057d887dc99133768a94c38f1b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/build.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/bunx.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5055c9c2f048aa1da28cbbe8.mdx",
+      "kind": "official-document",
+      "bytes": 1311,
+      "sha256": "1326a1702898e942573535f58bd62fab28758ab00bc44e8ad77cfe9ad1b69b40",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/bunx.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/init.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eb4ad7991577d40cece0987b.mdx",
+      "kind": "official-document",
+      "bytes": 1667,
+      "sha256": "80d6bd98d9a11fffc1eca4e86ffe18c81663ae559163d38780ac38ae4a0d3745",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/init.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/install.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/154fce1dba30279847890634.mdx",
+      "kind": "official-document",
+      "bytes": 4503,
+      "sha256": "f8ef7c8ff53dbc399524913a1f66dd6ff36f3041f0148645fdcbdb105be97b2b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/install.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/link.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fbebfe6594cce126f0af8945.mdx",
+      "kind": "official-document",
+      "bytes": 4769,
+      "sha256": "729417f5627e2f86e07d1f7f5e9d3cb27624419a7eb932887b56de2682ef6ff0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/link.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/outdated.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cfc62927d8d141504f94dc30.mdx",
+      "kind": "official-document",
+      "bytes": 4054,
+      "sha256": "9a92fa950be634c5a8d8597caf4adeddc1daccd49cfd8c04e783c7e835b3e6f4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/outdated.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/patch.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f1c0a12ba28b45064a05f968.mdx",
+      "kind": "official-document",
+      "bytes": 5206,
+      "sha256": "eb880c102e556bd2a761066d8c09e6bb8b0a45f24d0b0ad5198e5da166e427c3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/patch.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/publish.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fbb15a0fa1e30262bb77ba96.mdx",
+      "kind": "official-document",
+      "bytes": 5426,
+      "sha256": "c8f1b3170a509ae1c16dafcc8f3446c39696401d521399d7179d355f983a6b06",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/publish.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/remove.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5f29fabb55df88e4dbc825a4.mdx",
+      "kind": "official-document",
+      "bytes": 4324,
+      "sha256": "79799aecb71245556ead84ac527d4b94cfc6c0b15813688c14cf59065806a558",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/remove.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/run.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9fa9fe9f518e1a4a66ec5dca.mdx",
+      "kind": "official-document",
+      "bytes": 10506,
+      "sha256": "7ec41394a0d26072ce24f47ab4029216f9fd9097e14cf8140d49298153d0c373",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/run.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/test.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/97f7b5d72746e8b3fdaf1217.mdx",
+      "kind": "official-document",
+      "bytes": 2791,
+      "sha256": "5c6f461f85dfc824f0419357592629866242006fbe36d9d8a0f03517eee876f3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/test.mdx"
+    },
+    {
+      "path": "docs/snippets/cli/update.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/eb3da74b88dfc0d6f04621a0.mdx",
+      "kind": "official-document",
+      "bytes": 4548,
+      "sha256": "2bf8ac946e869d8f72a69ceb235a06ca549df2aed86d3fa3da0611b896c7e6ff",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/snippets/cli/update.mdx"
+    },
+    {
+      "path": "docs/test/code-coverage.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5f5e44535aed2bbc8110c5c4.mdx",
+      "kind": "official-document",
+      "bytes": 11583,
+      "sha256": "1e1e5b4c1e2bf1b8fdb1abe4b07658e8ab55d7fbcb594748d16a29ccf6d5529c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/code-coverage.mdx"
+    },
+    {
+      "path": "docs/test/configuration.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ee172e148e591289f3b71b7d.mdx",
+      "kind": "official-document",
+      "bytes": 11455,
+      "sha256": "bd25d9a3ce4bdb6b162647ffbe541ec13a20e049ea8472cb9ecb82c1e7bdf332",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/configuration.mdx"
+    },
+    {
+      "path": "docs/test/dates-times.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a7c5b5169a4a671bdb1977cb.mdx",
+      "kind": "official-document",
+      "bytes": 3735,
+      "sha256": "3cedbcf7a088d8cad710c44b3f15766b14f2e7418301d134898b3fcffee76cc9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/dates-times.mdx"
+    },
+    {
+      "path": "docs/test/discovery.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/13bd8155b4e9833bb0067a90.mdx",
+      "kind": "official-document",
+      "bytes": 3234,
+      "sha256": "bcfe55c69e8c18899046bb7e1ead4e850e9f6c3f3cef3891ef6f5d7ba2a0675b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/discovery.mdx"
+    },
+    {
+      "path": "docs/test/dom.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5d79e8eb2c0d90e274dae262.mdx",
+      "kind": "official-document",
+      "bytes": 6264,
+      "sha256": "7f75b240486f5ec8175b8caccacaa8f7d02f5389e14fc51c03cbea27325d9c7f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/dom.mdx"
+    },
+    {
+      "path": "docs/test/index.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/45a33d15c91b8242cb001093.mdx",
+      "kind": "official-document",
+      "bytes": 15007,
+      "sha256": "82cf0611de362a5ed2c9044b2eee31a8552743dad0b2c9d38fe5c3dfeae8bbee",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/index.mdx"
+    },
+    {
+      "path": "docs/test/lifecycle.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/07cd3901863e24a6319ed337.mdx",
+      "kind": "official-document",
+      "bytes": 8815,
+      "sha256": "23f81811abf8cc04f2bfa8f2d44a5ffdaeb73b4e475c6688bef6c7a90090e6b9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/lifecycle.mdx"
+    },
+    {
+      "path": "docs/test/mocks.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a71f2fad64d02076688e7e56.mdx",
+      "kind": "official-document",
+      "bytes": 19350,
+      "sha256": "2f49750c4d7548bcea4134461c89e3b8ad0c17edcb9242f37116fb44c6f833ed",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/mocks.mdx"
+    },
+    {
+      "path": "docs/test/parallel.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/101e8f7fb55d435e282b1978.mdx",
+      "kind": "official-document",
+      "bytes": 13095,
+      "sha256": "53a75cfd8150f7d43acfb816329cf2193513aa1d34c7edc77386e1accdcee28a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/parallel.mdx"
+    },
+    {
+      "path": "docs/test/reporters.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1ebb64ea8ad37481daff2dc5.mdx",
+      "kind": "official-document",
+      "bytes": 4220,
+      "sha256": "292b446b22fc8ea19e27401fe7df9833c48a189a67319bd3cfadb18e60a08a44",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/reporters.mdx"
+    },
+    {
+      "path": "docs/test/runtime-behavior.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3e0969170f7aa7ce9d57256b.mdx",
+      "kind": "official-document",
+      "bytes": 7784,
+      "sha256": "a29b2e59bf9610e4c17ff221fe6f796cb09353ad191860aea57af2a3cb0f61fc",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/runtime-behavior.mdx"
+    },
+    {
+      "path": "docs/test/snapshots.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bc4737a9c3d16ee3ef6a34a4.mdx",
+      "kind": "official-document",
+      "bytes": 9464,
+      "sha256": "e98aea8e532b93b4eed74545910a0c8a28006b682f298ada9ebaebbf28d60cc6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/snapshots.mdx"
+    },
+    {
+      "path": "docs/test/writing-tests.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/888ea7be06080efe36414afe.mdx",
+      "kind": "official-document",
+      "bytes": 18221,
+      "sha256": "ebe06f4052908f886d20c99f3464a374df4cb2e970918298f4fcf44493d9c9d6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/test/writing-tests.mdx"
+    },
+    {
+      "path": "docs/typescript-6.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/563b048aae224e352afd281e.mdx",
+      "kind": "official-document",
+      "bytes": 2485,
+      "sha256": "12374aa1ee26319f3d081884e2dc604603ee1a8c9522ef555f74a2bc6c364f5d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/typescript-6.mdx"
+    },
+    {
+      "path": "docs/typescript.mdx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/29794bdff5b90d617cd1241a.mdx",
+      "kind": "official-document",
+      "bytes": 1673,
+      "sha256": "357282fcca34c3bb7dda76bb82e80db49cf9f526e95d0cab00f81457533e04d5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/docs/typescript.mdx"
+    },
+    {
+      "path": "misctools/lldb/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/42683abfcdbb9407a3f4fa93.md",
+      "kind": "official-document",
+      "bytes": 3240,
+      "sha256": "81c190ca7e05cb70160de2ecc5cbf1f2caf6b51abd0d1195bacbb5b5874d8624",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/misctools/lldb/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e1cea1519bb1327232b754f0.md",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "11961160b22f6baabc5022918481446a9060c0ba9fedb667c4dfa178e77b87f9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/darwin-arm64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/dae752e8b524a04aed2c7781.md",
+      "kind": "official-document",
+      "bytes": 90,
+      "sha256": "d9dc1cc6e90a4b6744d33f81a9ebf0566c9c306f646d00036ca3e0b5ae7b1f9a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/darwin-arm64/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/darwin-x64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/aee2886afdc13bba0550cbdb.md",
+      "kind": "official-document",
+      "bytes": 87,
+      "sha256": "480d17d25780d9c5c14319d1fb501c3ef3fbd7143b1ac25e5956e0c25bd34eb9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/darwin-x64/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/linux-arm64-gnu/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8096f1386fa50650a51a7c27.md",
+      "kind": "official-document",
+      "bytes": 98,
+      "sha256": "ed06bd79f58a045bff5e50646cef227dba81967d1efc0255f1c53a6df6420030",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/linux-arm64-gnu/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/linux-arm64-musl/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/04a81c32ca480146108c5b74.md",
+      "kind": "official-document",
+      "bytes": 100,
+      "sha256": "4c99210ed803f3dc7bf33362b301c41c91ae392a315851282980a28c8f635e6c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/linux-arm64-musl/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/linux-x64-gnu/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7a7092bae70df89c0aed3c9c.md",
+      "kind": "official-document",
+      "bytes": 95,
+      "sha256": "ab7e2361ace7889a0c591baea07a50b03433e4c62eb29348cd3b17741a1a6ff9",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/linux-x64-gnu/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/linux-x64-musl/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4d94cd0aad579092a803cdaa.md",
+      "kind": "official-document",
+      "bytes": 97,
+      "sha256": "a91118ba5cac658cb599299a43adecdeefa7fd74abb2ceaf2e65702cc8d0c7d7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/linux-x64-musl/README.md"
+    },
+    {
+      "path": "packages/bun-build-mdx-rs/npm/win32-x64-msvc/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c862d270394e5065c15dc052.md",
+      "kind": "official-document",
+      "bytes": 94,
+      "sha256": "f7e81abee16952114a6081d246dd7960e2af4022a001f1d2b1a3284587fd4628",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-build-mdx-rs/npm/win32-x64-msvc/README.md"
+    },
+    {
+      "path": "packages/bun-debug-adapter-protocol/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3f4944d9ee9d43c1bad5c498.md",
+      "kind": "official-document",
+      "bytes": 90,
+      "sha256": "c1c414473373e1708b206dca2516093d1a6a9573b27992211b50b974d51abec8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-debug-adapter-protocol/README.md"
+    },
+    {
+      "path": "packages/bun-error/readme.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bba544a944d12dd209398013.md",
+      "kind": "official-document",
+      "bytes": 388,
+      "sha256": "b12dc936903dc7bf7578ef7a8ad216b07218f5aeffe6f7f5b62300bed3e1cb77",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-error/readme.md"
+    },
+    {
+      "path": "packages/bun-inspector-frontend/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f962d468ee662d644d385550.md",
+      "kind": "official-document",
+      "bytes": 220,
+      "sha256": "3405f4efb8df19836cb749351a86d690025b2724557409a443ce8561de68a492",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-inspector-frontend/README.md"
+    },
+    {
+      "path": "packages/bun-inspector-protocol/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d746364fc2120f4728aa8ba0.md",
+      "kind": "official-document",
+      "bytes": 10073,
+      "sha256": "15e3e1c8e70b2e6130fd58ab4487c9f6ee2123597bb22fa466c87ae207dbe0b0",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-inspector-protocol/README.md"
+    },
+    {
+      "path": "packages/bun-lambda/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d7b5eb89fec4aa15a2a0e5b6.md",
+      "kind": "official-document",
+      "bytes": 4649,
+      "sha256": "0585c3ae873196fb4cec51061c9f9e3ed1d7e6791035b709c1f4cbbcaa5bc301",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-lambda/README.md"
+    },
+    {
+      "path": "packages/bun-lambda/example/lambda.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/b64f17e91f6f67f97ff1412c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1000,
+      "sha256": "f78ac546a69c7a5a6a3b8d5581b5a0ad11044bc3026628b1c4032e22360f0568",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-lambda/example/lambda.ts"
+    },
+    {
+      "path": "packages/bun-native-plugin-rs/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2e351dd0c09992fe7ca2c2e9.md",
+      "kind": "official-document",
+      "bytes": 7653,
+      "sha256": "226404ba823b97005aedbcca15ce0f8eacfcb904514d8b0e71b8e5ae396550ae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-native-plugin-rs/README.md"
+    },
+    {
+      "path": "packages/bun-native-plugin-rs/bun-macro/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d29297a37186b99e7d12d915.md",
+      "kind": "official-document",
+      "bytes": 164,
+      "sha256": "e366ffd60b8e9f8c3d1f94cc5a75edf99c25e2ee4fa828e40ae7429f26c92768",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-native-plugin-rs/bun-macro/README.md"
+    },
+    {
+      "path": "packages/bun-plugin-svelte/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f45e83e19bf2c5214b9d8eb0.md",
+      "kind": "official-document",
+      "bytes": 1941,
+      "sha256": "00072d001ea3acc862b34be1acdab13ac34015512277e809031055c56d2a61ca",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-plugin-svelte/README.md"
+    },
+    {
+      "path": "packages/bun-plugin-svelte/example/index.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cee7e72c8af5a29adc8ae21a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 805,
+      "sha256": "4d92d39f0daea7c3f4f243ccb23f99fac22014192402c33777c4b8b721dbcdd7",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-plugin-svelte/example/index.ts"
+    },
+    {
+      "path": "packages/bun-plugin-yaml/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fe3a4cb72d304e31ae5c7be7.md",
+      "kind": "official-document",
+      "bytes": 1306,
+      "sha256": "390c71d7aba6707f30933d1369923bc8e9d05fe46aa61bc3d28750d89821f7d6",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-plugin-yaml/README.md"
+    },
+    {
+      "path": "packages/bun-release/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6b6a43f43eb207e3e3f86dd8.md",
+      "kind": "official-document",
+      "bytes": 408,
+      "sha256": "b1d7cb7cc7ae52edd2de5be4677873f35295794111790da71a2dc25f0b774f45",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-darwin-aarch64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/4fe8ec94ef98c78c2bfbb060.md",
+      "kind": "official-document",
+      "bytes": 101,
+      "sha256": "73a68f609cfbb7a604a824fca8bfd2f60cf715c691d03a009b77a90dc49e69c8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-darwin-aarch64/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-darwin-x64-baseline/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/32b060da434fbd89494f8019.md",
+      "kind": "official-document",
+      "bytes": 314,
+      "sha256": "21b145a57cf51f1b0459c11f4be696d42a4d4921dd60e9b89f34549532cff878",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-darwin-x64-baseline/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-darwin-x64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a7e4d0c6e7cc098544f7c987.md",
+      "kind": "official-document",
+      "bytes": 99,
+      "sha256": "1f3093cc45b5508a5394ebf97d022fc378d0c2a65f6f9c484f299032951f4840",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-darwin-x64/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-linux-aarch64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2d9fc30c929a8d76cc558151.md",
+      "kind": "official-document",
+      "bytes": 101,
+      "sha256": "062a449f4130411a0e12db9e786187b69fa3db71a57aac5e8608a634bb16f485",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-linux-aarch64/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-linux-x64-baseline/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/329d0e123d350a116c82ad63.md",
+      "kind": "official-document",
+      "bytes": 312,
+      "sha256": "551961b502474882b11e8a48d8410790d0668fd2672856055c35e6bb776eb867",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-linux-x64-baseline/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-linux-x64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1849dce650f982596ab1d918.md",
+      "kind": "official-document",
+      "bytes": 99,
+      "sha256": "d3bde2c0197381ef6b17d804712ced7b474898cddaa1d80f2d7af31ac9e496a3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-linux-x64/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-windows-aarch64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/a5adc7165d1d579d65510dbf.md",
+      "kind": "official-document",
+      "bytes": 103,
+      "sha256": "ef278092824b7598a4bde86b33bfdd4f2bc70e5aaadcbc5931caae056ce310c3",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-windows-aarch64/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-windows-x64-baseline/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ee30146288ec6c53eedf31e7.md",
+      "kind": "official-document",
+      "bytes": 318,
+      "sha256": "0700d710698f5bbe14dc720cbf3166167a85236c8a312d91d1086238df8b2378",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-windows-x64-baseline/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/@oven/bun-windows-x64/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/046fcd81f6dcc96bdc789f77.md",
+      "kind": "official-document",
+      "bytes": 101,
+      "sha256": "5cde8b374d177349e82aea96fd3ae0b0b33a668a47eeccbde4c808dd79bcd802",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/@oven/bun-windows-x64/README.md"
+    },
+    {
+      "path": "packages/bun-release/npm/bun/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/cc778f293def80354e812064.md",
+      "kind": "official-document",
+      "bytes": 899,
+      "sha256": "e5c7bead31c471b32f93f0fbc383b6132e329931973b179a1e4a0e9e3e7a898d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-release/npm/bun/README.md"
+    },
+    {
+      "path": "packages/bun-types/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/d2ce31639a7158e2aa65d2c3.md",
+      "kind": "official-document",
+      "bytes": 973,
+      "sha256": "bdbd5f2dc0217e96254b546c63d162e5370d38c2f73791c6bc17458939de8eae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-types/README.md"
+    },
+    {
+      "path": "packages/bun-usockets/LICENSE",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/da493715b92286118ca36e05.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-usockets/LICENSE"
+    },
+    {
+      "path": "packages/bun-usockets/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3c80aad35b682257a408a3fd.md",
+      "kind": "official-document",
+      "bytes": 162,
+      "sha256": "738e51ca2a66b48955527dff0d46c514dbb33e5124ee4af4f48fc4535ddefb1a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-usockets/README.md"
+    },
+    {
+      "path": "packages/bun-uws/LICENSE",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/038fc6fadcc47dda4a72e739.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-uws/LICENSE"
+    },
+    {
+      "path": "packages/bun-uws/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/93f6a4e690cc9969a6d928c1.md",
+      "kind": "official-document",
+      "bytes": 176,
+      "sha256": "b1ad1c07f526ee7c9496baca1317076a92ef2dac2e0d37e8e036d4db87bbce35",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-uws/README.md"
+    },
+    {
+      "path": "packages/bun-vscode/LICENSE",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/878e84e6228697f513f854ef.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/LICENSE"
+    },
+    {
+      "path": "packages/bun-vscode/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e202bafc4ff4361834bc2057.md",
+      "kind": "official-document",
+      "bytes": 4928,
+      "sha256": "0987faaf63ced1f484e55cd1db79c98a21de0e67d7810c0e8f65ed8dcfcd0035",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/README.md"
+    },
+    {
+      "path": "packages/bun-vscode/example/bake-test/bun.app.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1525bb41b7cbd02838f56a0e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 72,
+      "sha256": "d2db476aada29c1ec9d8e571682c04567703f030dfc9c7b8dc55d711ab0d19e8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/bake-test/bun.app.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/bake-test/pages/_layout.tsx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c435c2ab76ea8962b6a6fc85.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 236,
+      "sha256": "ca039356d55bc1f103f33263fa662f321c61719a63fd5e6f16ff0442f916d389",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/bake-test/pages/_layout.tsx"
+    },
+    {
+      "path": "packages/bun-vscode/example/bake-test/pages/index.tsx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/601e701d9f22472c55a6b505.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 288,
+      "sha256": "897aad4221de3f78da9a1ed6456092d9056e6048d77cbd9391cd6e6d171e370c",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/bake-test/pages/index.tsx"
+    },
+    {
+      "path": "packages/bun-vscode/example/bake-test/pages/two.tsx",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c0a0ea9d5baeaa9a9dac9d1d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 93,
+      "sha256": "dd47ca4b082af96a46481738405dc326dd08a5b0ecc61c7ef4067aec63a3de83",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/bake-test/pages/two.tsx"
+    },
+    {
+      "path": "packages/bun-vscode/example/bug-preload.js",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/3a515a19831f85ae075b0539.js",
+      "kind": "upstream-example-code",
+      "bytes": 22,
+      "sha256": "bb8c7b55e6b67f4edb42da761c211236a45f0aa6586bf8766a4a1403ddd0c837",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/bug-preload.js"
+    },
+    {
+      "path": "packages/bun-vscode/example/demo.test.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/be5961b9e261dcfea61eaf93.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1550,
+      "sha256": "ba51e96cd0d15b1d69ac101fd771cb6b8423182fbeebe7f38fe503eca4c89457",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/demo.test.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/example.test.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7982c4f3b8afa2af1e3a54ee.ts",
+      "kind": "upstream-example-code",
+      "bytes": 905,
+      "sha256": "986eb5bdc239b287ff7d78db6774881789b964a7dc4c3bbba8bc9bc3f7293e8d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/example.test.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/example.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fd6b91b2045c0bfd134f48a8.ts",
+      "kind": "upstream-example-code",
+      "bytes": 657,
+      "sha256": "4842a74a1d6cd35a9d10b8db9a3ff63a25445d336bfd17b5cff60bff19055cca",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/example.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/hello.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/337d893d39051d292c6858cb.ts",
+      "kind": "upstream-example-code",
+      "bytes": 130,
+      "sha256": "fd7fc90461ba81ca99b6c2b21f04e33efe21bdc16001fea858fd5a4c20c43cbd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/hello.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/print.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/814086a8bb08d27c13d0635d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 235,
+      "sha256": "302064edee8085b60e08e02141b0fe7a13cdcfbca84b7403ba5d79759b2cdd44",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/print.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/test.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/00b922b48b8066e809dbde42.ts",
+      "kind": "upstream-example-code",
+      "bytes": 163,
+      "sha256": "60872147127e2fc6ae70c2247ffae5161ecef4bd286dde5ecbe9588a02e4f037",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/test.ts"
+    },
+    {
+      "path": "packages/bun-vscode/example/user.ts",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5c86f85f84cfb25daf31beef.ts",
+      "kind": "upstream-example-code",
+      "bytes": 189,
+      "sha256": "55bf6d6e5fc3e1fa1f40345caa92145d230758bb772da30e41785cb42586b43d",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/bun-vscode/example/user.ts"
+    },
+    {
+      "path": "packages/h3blast/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f9130d142db94e5b8d689891.md",
+      "kind": "official-document",
+      "bytes": 4136,
+      "sha256": "d29ba0394588c12810a2dc4ca9cf8d1d3e3055102a5f138d5c597e0bf124afb5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/packages/h3blast/README.md"
+    },
+    {
+      "path": "scripts/darwin-ci/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/7bc320ef78c009b87021d3fe.md",
+      "kind": "official-document",
+      "bytes": 3141,
+      "sha256": "2fcaa422142685c55280623a5efe64cf0d3d5e88d759a5b4aed007245adf67eb",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/scripts/darwin-ci/README.md"
+    },
+    {
+      "path": "scripts/jsc-exception-lint/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/63d6d3b20594ebeaa642c3ea.md",
+      "kind": "official-document",
+      "bytes": 4294,
+      "sha256": "3501bcafb19f3c2f4330b4ab6f4401f55a68b8673c59b711a00fec360b977411",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/scripts/jsc-exception-lint/README.md"
+    },
+    {
+      "path": "scripts/verify-baseline-static/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9925b28547738ccf87663d5b.md",
+      "kind": "official-document",
+      "bytes": 7381,
+      "sha256": "4321356c87c508efa6b9b4f852c43f00c1e7c5ec8b2cdcefdc293cbcaf034553",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/scripts/verify-baseline-static/README.md"
+    },
+    {
+      "path": "src/bundler/linker_context/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/2422f9e75a9511614378cb8f.md",
+      "kind": "official-document",
+      "bytes": 38911,
+      "sha256": "f20c879f5e588411807f66b72f73ca9c5dd300e924c58f79d9e3bff3f0d6deb8",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/bundler/linker_context/README.md"
+    },
+    {
+      "path": "src/clap/LICENSE",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/8092bab7ec74b82bffd6f046.txt",
+      "kind": "license",
+      "bytes": 1210,
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/clap/LICENSE"
+    },
+    {
+      "path": "src/css/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/9f33b79b3442f36c9b5e63f8.md",
+      "kind": "official-document",
+      "bytes": 258,
+      "sha256": "68c36b1dfc9a59415895027fd97a7c2c659fea9fad0bda3cac870fd50bcef867",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/css/README.md"
+    },
+    {
+      "path": "src/event_loop/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/e90cb433ce0385098ccb1e4d.md",
+      "kind": "official-document",
+      "bytes": 16094,
+      "sha256": "3ff94dbc8a70cb006a454c7c4461410d3e47521b32e9a9e21608e242b92ba400",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/event_loop/README.md"
+    },
+    {
+      "path": "src/js/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/48b4b1cd54fe2a43acce1d2a.md",
+      "kind": "official-document",
+      "bytes": 6603,
+      "sha256": "15ee9234786571262142cf204bad3f68f7e25b9e6386b084c88889751729ff03",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/js/README.md"
+    },
+    {
+      "path": "src/js/eval/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/bb25094b7e0b919fd8fbad68.md",
+      "kind": "official-document",
+      "bytes": 67,
+      "sha256": "5e6006a85fbdbda8f67cd86291d65fea7419a7cfaa72a136f3eedb75c6833b4f",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/js/eval/README.md"
+    },
+    {
+      "path": "src/js/internal/util/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c14608de3257250ae4d3a1cd.md",
+      "kind": "official-document",
+      "bytes": 3027,
+      "sha256": "8f9b92ac6e9061fa68e26866f426063f872a65be6315db35f63c6ef7a36a5591",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/js/internal/util/README.md"
+    },
+    {
+      "path": "src/jsc/bindings/libuv/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/be846febf1ec819f6bb2a8da.md",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "035b0f1556c2809bac0cecf25aa15577c035c2c9c0423dd176bf46e07527cae4",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/jsc/bindings/libuv/README.md"
+    },
+    {
+      "path": "src/jsc/bindings/node/http/llhttp/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/dd20f64018b74c30201f0c1a.md",
+      "kind": "official-document",
+      "bytes": 776,
+      "sha256": "f4c88137afeb2b2df162974aaa73f2d60a5057f25c6457e62acb61b36a40467a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/jsc/bindings/node/http/llhttp/README.md"
+    },
+    {
+      "path": "src/node-fallbacks/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/97c65b4f001f0299958c98c8.md",
+      "kind": "official-document",
+      "bytes": 657,
+      "sha256": "01d064c15bcd28891b92d04edf3eba66cff74f4cf20bd39418cfb05ffc9eacae",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/node-fallbacks/README.md"
+    },
+    {
+      "path": "src/react_compiler/DESIGN.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/96c3d702d95eaf8b94a8529e.md",
+      "kind": "official-document",
+      "bytes": 13926,
+      "sha256": "be150c26100b032999706e4d826ab5de331d3c85b3f3f8fd0180f3d0e2587918",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/react_compiler/DESIGN.md"
+    },
+    {
+      "path": "src/runtime/cli/init/README.default.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c5fd94683273594cc41e14ab.md",
+      "kind": "official-document",
+      "bytes": 241,
+      "sha256": "8e25bfaca9ef33e4f6ed29f3db63309621e579a46516fc46e5685c12a8ee2005",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/runtime/cli/init/README.default.md"
+    },
+    {
+      "path": "src/runtime/cli/init/README2.default.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/04adbe898600eaf816b3ea47.md",
+      "kind": "official-document",
+      "bytes": 295,
+      "sha256": "aa855264efce01b387f6d2c9eca5f55c58c51ee609a6ebaa82f5ba432429c88b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/runtime/cli/init/README2.default.md"
+    },
+    {
+      "path": "src/runtime/image/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/c135d1e55b5a9f1998112399.md",
+      "kind": "official-document",
+      "bytes": 4711,
+      "sha256": "a5dc8b59b9e2c6b1e3db0d3072aefbd60860aaa6825379f9e8ef30145226d07a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/runtime/image/README.md"
+    },
+    {
+      "path": "src/runtime/napi/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/94ab4e2b2aaca344f51f7c2a.md",
+      "kind": "official-document",
+      "bytes": 1061,
+      "sha256": "a378c3daf8350c1433e6c13f51b3b13720ddd2b0ff3967c1ba172f4d983ca17b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/src/runtime/napi/README.md"
+    },
+    {
+      "path": "test/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5de36acd90308dc62abf7855.md",
+      "kind": "official-document",
+      "bytes": 3281,
+      "sha256": "e3fe38501bdbc424f66372c5b38ff10f6326b735038a710a2c028e3375ccb7de",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/README.md"
+    },
+    {
+      "path": "test/cli/install/migration/complex-workspace/readme.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/f28b5e3452573d4eea3b7766.md",
+      "kind": "official-document",
+      "bytes": 226,
+      "sha256": "b054ed150f33cf7edeb98ceb6c717bd883f1a5f084009fd66fd600f9ffcdd6fb",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/cli/install/migration/complex-workspace/readme.md"
+    },
+    {
+      "path": "test/cli/install/migration/contoso-test/LICENSE",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/49e336c7fdf30389ea73de63.txt",
+      "kind": "license",
+      "bytes": 1077,
+      "sha256": "24341ac14899292f68659fbd52b6dd4453cd1b304f43ef9f9cc4e8aa77e81f51",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/cli/install/migration/contoso-test/LICENSE"
+    },
+    {
+      "path": "test/cli/install/migration/npm-arborist/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/1817781e02adbce9a4262352.md",
+      "kind": "official-document",
+      "bytes": 8033,
+      "sha256": "42aa4407222f6ebbadd057264b7abbc3d14b4b256fa60570f716c7b0aec2a433",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/cli/install/migration/npm-arborist/README.md"
+    },
+    {
+      "path": "test/docker/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/050eae3f840ae078bf3f4720.md",
+      "kind": "official-document",
+      "bytes": 10597,
+      "sha256": "dde3eb6c686f56da68fcda1a25014e9b3d8927b3c322f5b61836e3995cdfc243",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/docker/README.md"
+    },
+    {
+      "path": "test/integration/expo-app/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/13482360f7e65a482ecfc894.md",
+      "kind": "official-document",
+      "bytes": 1742,
+      "sha256": "4c1c0bb43f86f4e6b416f41f1f7fe787fba667fcd2217b8b624be8a84991156b",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/integration/expo-app/README.md"
+    },
+    {
+      "path": "test/integration/next-pages/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/fb4a3e6573a3ceed2eaf0835.md",
+      "kind": "official-document",
+      "bytes": 1764,
+      "sha256": "66bf55397ba0dbf1096f6edc8fdc64c5544b57af79eeb13ad603b45d6d85fe20",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/integration/next-pages/README.md"
+    },
+    {
+      "path": "test/internal/source-lints/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/80a45b057b968fc2db69c4d2.md",
+      "kind": "official-document",
+      "bytes": 1257,
+      "sha256": "80892999b2c3131b638c6b05eccc75f40a5b23250594022b68ef115c5ef99527",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/internal/source-lints/README.md"
+    },
+    {
+      "path": "test/js/bun/jsc-stress/LICENSE",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5643369723c6dca9dda9a344.txt",
+      "kind": "license",
+      "bytes": 1578,
+      "sha256": "cc86ad6977f79dc852527747611b1c5484ca367bd7c4359d92d7f0d5318211b5",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/js/bun/jsc-stress/LICENSE"
+    },
+    {
+      "path": "test/js/bun/test/fake-timers/sinonjs/MIGRATION_NOTES.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/ed89c8ba9cc59f84980c811a.md",
+      "kind": "official-document",
+      "bytes": 5396,
+      "sha256": "89a2178313c230e5ee54ee80a232cc52f57af0932c0bff51f0a15f03bbfaad68",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/js/bun/test/fake-timers/sinonjs/MIGRATION_NOTES.md"
+    },
+    {
+      "path": "test/napi/node-napi-tests/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6fca8bbc96b88ad8a2d315f9.md",
+      "kind": "official-document",
+      "bytes": 378,
+      "sha256": "c82ada5778915c6b36923082b150cd55e44a37881980b798e4073a7278dfea99",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/napi/node-napi-tests/README.md"
+    },
+    {
+      "path": "test/napi/node-napi-tests/test/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/5a03f045e7c93ad83a72f14b.md",
+      "kind": "official-document",
+      "bytes": 4764,
+      "sha256": "75149fc914ca5f16e450d2ec74ea53367737318b4680cdc28c7c9b489458b14a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/napi/node-napi-tests/test/README.md"
+    },
+    {
+      "path": "test/napi/node-napi-tests/test/common/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/856c404e81436f425e26c31c.md",
+      "kind": "official-document",
+      "bytes": 36377,
+      "sha256": "68e44cd47f1ffcb0d51f446a9e93a5e0066bf93256397364457fddbde5bb6f21",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/test/napi/node-napi-tests/test/common/README.md"
+    },
+    {
+      "path": "tools/hawk/README.md",
+      "localPath": "raw/oven-sh--bun/4b02e1031d61/6f12ca3e6129dda2bcfb60e4.md",
+      "kind": "official-document",
+      "bytes": 1550,
+      "sha256": "74106d83a9b1c1a41efebb16cea404864c0b0187d79349c882047c996f567a6a",
+      "sourceUrl": "https://github.com/oven-sh/bun/blob/4b02e1031d6195d96fc0446dfbff49297f89f2d6/tools/hawk/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,162 @@
+---
+title: Manual Setup
+sidebar_order: 1
+description: "Learn how to set up the Sentry Flutter SDK manually."
+---
+
+If you can't (or prefer not to) run the [automatic setup](/platforms/dart/guides/flutter/#install), you can follow the instructions below to configure your application manually.
+
+<PlatformContent includePath="getting-started-prerequisites" />
+
+<StepConnector selector="h2" showNumbers={true}>
+
+## Install
+
+<SplitLayout>
+<SplitSection>
+<SplitSectionText>
+
+Add the Sentry Flutter SDK to your `pubspec.yaml`:
+
+</SplitSectionText>
+<SplitSectionCode>
+
+```yml {filename:pubspec.yaml}
+dependencies:
+  sentry_flutter: ^{{@inject packages.version('sentry.dart.flutter') }}
+```
+
+</SplitSectionCode>
+</SplitSection>
+</SplitLayout>
+
+## Configure
+
+Choose the features you want to configure, and this guide will show you how:
+
+<OnboardingOptionButtons
+  options={["error-monitoring", "performance", "session-replay"]}
+/>
+
+<Include name="quick-start-features-expandable" />
+
+### Initialize the Sentry SDK
+
+Configuration should happen as **early as possible** in your application's lifecycle.
+
+<SplitLayout>
+<SplitSection>
+<SplitSectionText>
+
+Import and initialize the SDK in your app's `main` function:
+
+</SplitSectionText>
+<SplitSectionCode>
+
+```dart
+import 'package:flutter/widgets.dart';
+import 'package:sentry_flutter/sentry_flutter.dart';
+
+Future<void> main() async {
+  await SentryFlutter.init(
+    (options) {
+      options.dsn = '___PUBLIC_DSN___';
+      // Adds request headers and IP for users, for more info visit:
+      // https://docs.sentry.io/platforms/dart/guides/flutter/data-management/data-collected/
+      options.sendDefaultPii = true;
+      // ___PRODUCT_OPTION_START___ performance
+      // Set tracesSampleRate to 1.0 to capture 100% of transactions for tracing.
+      // We recommend adjusting this value in production.
+      options.tracesSampleRate = 1.0;
+      // ___PRODUCT_OPTION_END___ performance
+      // ___PRODUCT_OPTION_START___ session-replay
+      // Record session replays for 100% of errors and 10% of sessions
+      options.replay.onErrorSampleRate = 1.0;
+      options.replay.sessionSampleRate = 0.1;
+      // ___PRODUCT_OPTION_END___ session-replay
+    },
+    appRunner: () => runApp(
+      SentryWidget(
+        child: MyApp(),
+      ),
+    ),
+  );
+
+  // you can also configure SENTRY_DSN, SENTRY_RELEASE, SENTRY_DIST, and
+  // SENTRY_ENVIRONMENT via Dart environment variable (--dart-define)
+}
+```
+
+</SplitSectionCode>
+</SplitSection>
+</SplitLayout>
+
+## Verify Your Setup
+
+Let's test your setup and confirm that data reaches your Sentry project.
+
+### Issues
+
+<SplitLayout>
+<SplitSection>
+<SplitSectionText>
+
+To verify that Sentry captures errors and creates issues in your Sentry project, add this intentional error to your application:
+
+</SplitSectionText>
+<SplitSectionCode>
+
+```dart
+import 'package:sentry_flutter/sentry_flutter.dart';
+
+try {
+  throw StateError('Sentry Test Exception');
+} catch (exception, stackTrace) {
+  await Sentry.captureException(
+    exception,
+    stackTrace: stackTrace,
+  );
+}
+```
+
+</SplitSectionCode>
+</SplitSection>
+</SplitLayout>
+
+<OnboardingOption optionId="performance">
+
+<Include name="tracing/dart-quick-start-verify-tracing-splitlayout.mdx" />
+
+</OnboardingOption>
+
+<Include name="logs/dart-quick-start-verify-logs-splitlayout.mdx" />
+
+<Include name="metrics/dart-quick-start-verify-metrics-splitlayout.mdx" />
+
+### View Captured Data in Sentry
+
+Now, head over to your project on [Sentry.io](https://sentry.io) to view the collected data (it takes a couple of moments for the data to appear).
+
+<Include name="quick-start-locate-data-expandable" />
+
+## Next Steps
+
+At this point, you should have integrated Sentry into your Flutter application and should already be sending data to your Sentry project.
+
+Now's a good time to customize your setup and look into more advanced topics.
+Our next recommended steps for you are:
+
+- Explore [practical guides](/get-started/guides/) on what to monitor, log, track, and investigate after setup
+- Continue to <PlatformLink to="/configuration/">customize your configuration</PlatformLink>
+- Add readable <PlatformLink to="/upload-debug/#when-to-upload/">stack traces</PlatformLink> to errors
+- Learn about the <PlatformLink to="/features/">features of Sentry's Flutter SDK</PlatformLink>
+- Add <PlatformLink to="/tracing/instrumentation/">performance instrumentation to your app</PlatformLink>
+
+<Expandable permalink={false} title="Are you having problems setting up the SDK?">
+
+- Find various topics in <PlatformLink to="/troubleshooting/">Troubleshooting</PlatformLink>
+- [Get support](https://www.sentry.help/en/)
+
+</Expandable>
+
+</StepConnector>
