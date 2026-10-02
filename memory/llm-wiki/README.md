@@ -2,7 +2,7 @@
 
 Verified: 2026-10-02
 
-공식 원문 종합 106페이지와 공개 이슈 분석 4페이지를 보관한다. 진단 표 502행에서 중복 1행을 제외한 501개를 학습 451 / 평가 50로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
+공식 원문 종합 109페이지와 공개 이슈 분석 4페이지를 보관한다. 진단 표 518행에서 중복 1행을 제외한 517개를 학습 467 / 평가 50로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
 
 428개 공개 저장소 원문은 기존 해시·출처 검증을 유지한다. 갱신은 수동이며 예약 실행은 없다.
 
@@ -45,6 +45,7 @@ Verified: 2026-10-02
 - [grpc-retry-commitment-contracts.md](grpc-retry-commitment-contracts.md)
 - [helm-hook-lifecycle-boundaries.md](helm-hook-lifecycle-boundaries.md)
 - [istio131-network-diagnostic-contracts.md](istio131-network-diagnostic-contracts.md)
+- [java21-binary-search-contracts.md](java21-binary-search-contracts.md)
 - [java21-virtual-thread-boundaries.md](java21-virtual-thread-boundaries.md)
 - [julia111-performance-evidence-contracts.md](julia111-performance-evidence-contracts.md)
 - [kafka40-consumer-liveness-offsets.md](kafka40-consumer-liveness-offsets.md)
@@ -63,6 +64,7 @@ Verified: 2026-10-02
 - [lua54-protected-call-contracts.md](lua54-protected-call-contracts.md)
 - [nats-pull-client-contracts.md](nats-pull-client-contracts.md)
 - [networkx-dijkstra-contract.md](networkx-dijkstra-contract.md)
+- [networkx37-astar-heuristic-contracts.md](networkx37-astar-heuristic-contracts.md)
 - [networkx37-bellmanford-contracts.md](networkx37-bellmanford-contracts.md)
 - [next-cache-model-boundaries.md](next-cache-model-boundaries.md)
 - [node-eventloop-and-workerpool.md](node-eventloop-and-workerpool.md)
@@ -98,6 +100,7 @@ Verified: 2026-10-02
 - [rust-mutex-poisoning.md](rust-mutex-poisoning.md)
 - [rust-refcell-shared-state-contracts.md](rust-refcell-shared-state-contracts.md)
 - [scala3-explicit-null-flow-contracts.md](scala3-explicit-null-flow-contracts.md)
+- [scipy118-shortest-path-contracts.md](scipy118-shortest-path-contracts.md)
 - [sklearn19-preprocessing-randomness.md](sklearn19-preprocessing-randomness.md)
 - [spire-node-attestation-contracts.md](spire-node-attestation-contracts.md)
 - [spring-cache-reactive-provider-contracts.md](spring-cache-reactive-provider-contracts.md)

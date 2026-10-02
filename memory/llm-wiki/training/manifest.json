@@ -1,11 +1,11 @@
 {
   "status": "MODEL_NEUTRAL_SYNTHETIC_DATASET_PREPARED",
   "createdAt": "2026-10-02T09:19:52.067Z",
-  "trainExamples": 451,
+  "trainExamples": 467,
   "evalExamples": 50,
-  "trainPages": 91,
+  "trainPages": 94,
   "evalPages": 10,
-  "reviewedDocuments": 110,
+  "reviewedDocuments": 113,
   "pageSplitLeakage": false,
   "semanticLeakageAudit": "FOUR_LEXICAL_CANDIDATE_PAIRS_REVIEWED; GLOBAL_SEMANTIC_COMPLETENESS_NOT_PROVEN",
   "splitPolicy": "canonical-source URL with manually grouped sanitizer, database transaction, Dapr resiliency and gRPC delivery pages",
@@ -18,7 +18,7 @@
   "files": [
     {
       "name": "train.jsonl",
-      "sha256": "2b469e6f29b885dfef2bc83d28ba5316624d35c912b9710f1d336c1a7f1e8545"
+      "sha256": "44058f0f09163574f3e6cf4dfd8d4e770ffabd1289cae872261616efaf40d3b2"
     },
     {
       "name": "eval.jsonl",
@@ -26,7 +26,7 @@
     },
     {
       "name": "reviewed-documents.jsonl",
-      "sha256": "7547429f9b080f895a86327d6d5261b48034250a7ed68b69664bd58fd1c7f932"
+      "sha256": "9949784962541782b7d7c1eb9d72ab0a35281a891c8277bf1913a1986f238314"
     }
   ]
 }

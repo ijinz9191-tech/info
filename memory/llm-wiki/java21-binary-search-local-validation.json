@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "date": "2026-10-02",
+  "kind": "local-synthetic-contract-check",
+  "runtime": "Java 21.0.10",
+  "source": "https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Arrays.html",
+  "execution": "java source-file mode; exit 0",
+  "checks": {
+    "missingKeyEncodedResult": -3,
+    "insertionPoint": 2,
+    "rangeEndExclusive": true,
+    "duplicateIndexInAllowedRange": true,
+    "nanFound": true
+  },
+  "productionIncidentReproduced": false,
+  "wholeCorpusReviewed": false,
+  "modelWeightTrainingPerformed": false
+}
