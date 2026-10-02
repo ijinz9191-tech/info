@@ -1,7 +1,7 @@
 {
   "status": "INCOMPLETE",
-  "sourcesReadThisPass": 136,
-  "synthesizedPagesThisPass": 136,
+  "sourcesReadThisPass": 165,
+  "synthesizedPagesThisPass": 165,
   "sourceRepositoriesAcquired": 428,
   "allSourceDocumentsReviewed": false,
   "runtimeReproductionPerformed": false,
@@ -13,12 +13,12 @@
     "No configured OpenViking endpoint/authentication in current execution environment",
     "Target training model remains undecided"
   ],
-  "openVikingResourceFilesPreparedThisPass": 138,
+  "openVikingResourceFilesPreparedThisPass": 167,
   "wikiLint": "PASS",
   "localQueryReadback": "PASS",
   "wikiPath": "llm-wiki",
   "importManifest": "openviking/verified-synthesis/manifest.json",
-  "additionalDiagnosticScenarios": 595,
+  "additionalDiagnosticScenarios": 740,
   "syntheticContractValidation": {
     "date": "2026-10-02",
     "kind": "local-synthetic-contract-checks",
@@ -65,18 +65,19 @@
   },
   "distinctNewIncidentCount": "NOT_ESTABLISHED",
   "semanticDeduplication": "PENDING",
-  "reviewedOfficialPagesThisPass": 124,
-  "reviewedPublicIssuePagesThisPass": 12,
+  "reviewedOfficialPagesThisPass": 151,
+  "reviewedPublicIssuePagesThisPass": 14,
   "syntheticInstructionDataset": {
-    "trainExamples": 533,
-    "evalExamples": 61,
-    "reviewedDocuments": 136,
+    "trainExamples": 684,
+    "evalExamples": 55,
+    "reviewedDocuments": 165,
     "pageSplitLeakage": false,
     "sourceGroupSplitLeakage": false,
     "semanticDuplicateExamplesExcluded": [
       "SYN-CILIUM-CAPACITY-002"
     ],
-    "semanticCompleteness": "NOT_PROVEN"
+    "semanticCompleteness": "NOT_PROVEN",
+    "sharedSourceUrlSplitLeakage": false
   },
   "fullRawDataset": {
     "repositories": 428,
@@ -90,7 +91,7 @@
   "openVikingVerifiedSynthesisRefresh": "PASS_LOCAL_HASH_READBACK",
   "nativeImporterSupplementOption": {
     "available": true,
-    "sourceHashCheck": "PASS_136_PAGE_138_RESOURCE_SNAPSHOT",
+    "sourceHashCheck": "PASS_165_PAGE_167_RESOURCE_SNAPSHOT",
     "traversalAndTamperTests": "PASS",
     "nativeImportPerformed": false,
     "pythonFormatting": "UNAVAILABLE",

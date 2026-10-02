@@ -37,6 +37,13 @@ const groups = {
   "dapr118-policy-loading-restart-contracts.md": "dapr-resiliency-contracts",
   "clang-asan-memory-boundaries.md": "sanitizer-diagnostics",
   "clang-ubsan-integer-boundaries.md": "sanitizer-diagnostics",
+  "gradle980-dependency-lock-contracts.md": "build-dependency-resolution",
+  "gradle-reported-lock-expectation-28874.md": "build-dependency-resolution",
+  "maven-dependency-mediation-contracts.md": "build-dependency-resolution",
+  "bazel-hermetic-build-contracts.md": "build-inputs-and-cache",
+  "docker-build-cache-invalidation-contracts.md": "build-inputs-and-cache",
+  "numpy25-broadcast-shape-contracts.md": "array-broadcasting-contracts",
+  "octave111-broadcasting-shape-contracts.md": "array-broadcasting-contracts",
   ...Object.fromEntries(
     [
       "django-atomic-oncommit-boundaries.md",
@@ -49,11 +56,57 @@ const groups = {
   ),
 };
 const excludedIds = new Set(["SYN-CILIUM-CAPACITY-002"]);
-for (const name of (await readdir(source))
-  .filter((x) => x.endsWith(".md") && x !== "README.md")
-  .sort()) {
-  const data = await readFile(source + "/" + name, "utf8"),
-    kind = data.match(/^Kind: (.+)$/m)?.[1]?.trim();
+const records = await Promise.all(
+  (await readdir(source))
+    .filter((x) => x.endsWith(".md") && x !== "README.md")
+    .sort()
+    .map(async (name) => ({
+      name,
+      data: await readFile(source + "/" + name, "utf8"),
+    })),
+);
+const sourceUrls = (data) =>
+  [...data.matchAll(/^- (https:\/\/\S+)/gm)].map((x) => x[1]);
+const parents = new Map(records.map((x) => [x.name, x.name]));
+function representative(name) {
+  let rootName = name;
+  while (parents.get(rootName) !== rootName) rootName = parents.get(rootName);
+  while (parents.get(name) !== name) {
+    const next = parents.get(name);
+    parents.set(name, rootName);
+    name = next;
+  }
+  return rootName;
+}
+const owners = new Map();
+for (const { name, data } of records) {
+  const keys = sourceUrls(data).map((url) => "url:" + url);
+  if (groups[name]) keys.push("manual:" + groups[name]);
+  for (const key of keys) {
+    if (owners.has(key))
+      parents.set(representative(name), representative(owners.get(key)));
+    else owners.set(key, name);
+  }
+}
+const components = new Map();
+for (const record of records) {
+  const key = representative(record.name);
+  if (!components.has(key)) components.set(key, []);
+  components.get(key).push(record);
+}
+const assignedGroups = new Map();
+for (const component of components.values()) {
+  const manual = [
+    ...new Set(component.map((x) => groups[x.name]).filter(Boolean)),
+  ].sort();
+  const urls = [
+    ...new Set(component.flatMap((x) => sourceUrls(x.data))),
+  ].sort();
+  const group = manual[0] || urls[0] || component[0].name;
+  for (const { name } of component) assignedGroups.set(name, group);
+}
+for (const { name, data } of records) {
+  const kind = data.match(/^Kind: (.+)$/m)?.[1]?.trim();
   if (!kind) throw Error("Missing kind " + name);
   if (
     ![
@@ -66,8 +119,8 @@ for (const name of (await readdir(source))
     throw Error("Unsupported reviewed kind " + name);
   const version = data.match(/^Version: (.+)$/m)?.[1]?.trim(),
     title = data.match(/^# (.+)$/m)?.[1]?.trim();
-  const urls = [...data.matchAll(/^- (https:\/\/\S+)/gm)].map((x) => x[1]),
-    splitGroup = groups[name] || urls[0] || name,
+  const urls = sourceUrls(data),
+    splitGroup = assignedGroups.get(name),
     split =
       parseInt(hash(splitGroup).slice(0, 8), 16) % 10 === 0 ? "eval" : "train";
   if (
@@ -151,6 +204,13 @@ for (const row of [...rows.train, ...rows.eval]) {
   messages.add(JSON.stringify(row.messages));
 }
 if ([...pages.train].some((x) => pages.eval.has(x))) throw Error("leakage");
+const urlPartitions = new Map();
+for (const document of documents)
+  for (const url of document.sourceUrls) {
+    if (urlPartitions.has(url) && urlPartitions.get(url) !== document.split)
+      throw Error("Shared source URL split leakage: " + url);
+    urlPartitions.set(url, document.split);
+  }
 const artifacts = [
   ...Object.entries(rows),
   ["reviewed-documents", documents],
@@ -167,11 +227,12 @@ const report = {
   evalPages: pages.eval.size,
   reviewedDocuments: documents.length,
   pageSplitLeakage: false,
+  sharedSourceUrlSplitLeakage: false,
   semanticLeakageAudit:
     previousManifest?.semanticLeakageAudit ??
     "GLOBAL_SEMANTIC_COMPLETENESS_NOT_PROVEN",
   splitPolicy:
-    "canonical-source URL with manually grouped sanitizer, database transaction, Dapr resiliency and gRPC delivery pages",
+    "transitively connected source URLs plus manual sanitizer, database transaction, Dapr resiliency, gRPC delivery, build dependencies, build inputs/cache and array broadcasting groups; manual alias or smallest URL determines hash partition",
   semanticDuplicateExamplesExcluded: [...excludedIds],
   actualIncidentsIncluded: false,
   actualIssueDocumentsSeparate: documents.filter(

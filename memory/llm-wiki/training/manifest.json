@@ -1,32 +1,33 @@
 {
   "status": "MODEL_NEUTRAL_SYNTHETIC_DATASET_PREPARED",
   "createdAt": "2026-10-02T09:19:52.067Z",
-  "trainExamples": 533,
-  "evalExamples": 61,
-  "trainPages": 107,
-  "evalPages": 12,
-  "reviewedDocuments": 136,
+  "trainExamples": 684,
+  "evalExamples": 55,
+  "trainPages": 135,
+  "evalPages": 11,
+  "reviewedDocuments": 165,
   "pageSplitLeakage": false,
+  "sharedSourceUrlSplitLeakage": false,
   "semanticLeakageAudit": "FOUR_LEXICAL_CANDIDATE_PAIRS_REVIEWED; GLOBAL_SEMANTIC_COMPLETENESS_NOT_PROVEN",
-  "splitPolicy": "canonical-source URL with manually grouped sanitizer, database transaction, Dapr resiliency and gRPC delivery pages",
+  "splitPolicy": "transitively connected source URLs plus manual sanitizer, database transaction, Dapr resiliency, gRPC delivery, build dependencies, build inputs/cache and array broadcasting groups; manual alias or smallest URL determines hash partition",
   "semanticDuplicateExamplesExcluded": [
     "SYN-CILIUM-CAPACITY-002"
   ],
   "actualIncidentsIncluded": false,
-  "actualIssueDocumentsSeparate": 12,
+  "actualIssueDocumentsSeparate": 14,
   "modelWeightTrainingPerformed": false,
   "files": [
     {
       "name": "train.jsonl",
-      "sha256": "bf87920661272e55c4969c0d2975c77a134c29f1e712f8ff64d90812e9e8b550"
+      "sha256": "cbd626da4fe05b20736f0c63d56bb64f1b246fe0aeb01810f1bd9e208032e475"
     },
     {
       "name": "eval.jsonl",
-      "sha256": "bbd273a85fad95baf762ecc099a4b12771a7f0c76620954c822171639d982542"
+      "sha256": "550c723596076d1196fd335ff79299352e426d5739130e081436f32965edec92"
     },
     {
       "name": "reviewed-documents.jsonl",
-      "sha256": "5b9a3b0a4ca5a3737e223756a7c5bdaa845c2f464c5cca85307ce66e854a67d4"
+      "sha256": "2d0cca8d86382113d49526d1f3601a2f575bcee37773cfddd206cee88b791405"
     }
   ]
 }
