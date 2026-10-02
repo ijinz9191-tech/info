@@ -2,7 +2,7 @@
 
 Verified: 2026-10-02
 
-공식 원문 종합 109페이지와 공개 이슈 분석 4페이지를 보관한다. 진단 표 518행에서 중복 1행을 제외한 517개를 학습 467 / 평가 50로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
+공식 원문 종합 110페이지와 공개 이슈 분석 9페이지를 보관한다. 진단 표 522행에서 중복 1행을 제외한 521개를 학습 471 / 평가 50로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
 
 428개 공개 저장소 원문은 기존 해시·출처 검증을 유지한다. 갱신은 수동이며 예약 실행은 없다.
 
@@ -18,6 +18,7 @@ Verified: 2026-10-02
 - [clang-ubsan-integer-boundaries.md](clang-ubsan-integer-boundaries.md)
 - [clojure-stm-ref-contracts.md](clojure-stm-ref-contracts.md)
 - [cncf-incubation-governance-evidence.md](cncf-incubation-governance-evidence.md)
+- [containerd-reported-exec-io-7802.md](containerd-reported-exec-io-7802.md)
 - [coredns-loop-detection-contract.md](coredns-loop-detection-contract.md)
 - [cpp-core-concurrency-lifetime-contracts.md](cpp-core-concurrency-lifetime-contracts.md)
 - [cross-system-diagnostic-contract-map.md](cross-system-diagnostic-contract-map.md)
@@ -67,6 +68,7 @@ Verified: 2026-10-02
 - [networkx37-astar-heuristic-contracts.md](networkx37-astar-heuristic-contracts.md)
 - [networkx37-bellmanford-contracts.md](networkx37-bellmanford-contracts.md)
 - [next-cache-model-boundaries.md](next-cache-model-boundaries.md)
+- [nim2212-memory-mode-contracts.md](nim2212-memory-mode-contracts.md)
 - [node-eventloop-and-workerpool.md](node-eventloop-and-workerpool.md)
 - [numpy25-broadcast-shape-contracts.md](numpy25-broadcast-shape-contracts.md)
 - [ocaml54-domain-synchronization-contracts.md](ocaml54-domain-synchronization-contracts.md)
@@ -90,6 +92,8 @@ Verified: 2026-10-02
 - [rails-eager-loading-boundaries.md](rails-eager-loading-boundaries.md)
 - [react-effect-lifecycle-contracts.md](react-effect-lifecycle-contracts.md)
 - [react-hydration-boundaries.md](react-hydration-boundaries.md)
+- [react-reported-dom-nesting-24519.md](react-reported-dom-nesting-24519.md)
+- [react-reported-head-replay-37551.md](react-reported-head-replay-37551.md)
 - [react-router-mode-boundaries.md](react-router-mode-boundaries.md)
 - [react-suspense-reveal-contracts.md](react-suspense-reveal-contracts.md)
 - [react193-deferred-render-contracts.md](react193-deferred-render-contracts.md)
@@ -101,10 +105,12 @@ Verified: 2026-10-02
 - [rust-refcell-shared-state-contracts.md](rust-refcell-shared-state-contracts.md)
 - [scala3-explicit-null-flow-contracts.md](scala3-explicit-null-flow-contracts.md)
 - [scipy118-shortest-path-contracts.md](scipy118-shortest-path-contracts.md)
+- [sentry-reported-scope-lock-4872.md](sentry-reported-scope-lock-4872.md)
 - [sklearn19-preprocessing-randomness.md](sklearn19-preprocessing-randomness.md)
 - [spire-node-attestation-contracts.md](spire-node-attestation-contracts.md)
 - [spring-cache-reactive-provider-contracts.md](spring-cache-reactive-provider-contracts.md)
 - [spring-probe-boundaries.md](spring-probe-boundaries.md)
+- [spring-reported-startup-pinning-33958.md](spring-reported-startup-pinning-33958.md)
 - [spring-security-csrf-boundaries.md](spring-security-csrf-boundaries.md)
 - [spring-transaction-event-phase-contracts.md](spring-transaction-event-phase-contracts.md)
 - [spring-transaction-proxy-boundaries.md](spring-transaction-proxy-boundaries.md)
