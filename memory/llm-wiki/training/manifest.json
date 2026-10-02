@@ -1,11 +1,11 @@
 {
   "status": "MODEL_NEUTRAL_SYNTHETIC_DATASET_PREPARED",
   "createdAt": "2026-10-02T09:19:52.067Z",
-  "trainExamples": 416,
-  "evalExamples": 45,
-  "trainPages": 84,
-  "evalPages": 9,
-  "reviewedDocuments": 101,
+  "trainExamples": 451,
+  "evalExamples": 50,
+  "trainPages": 91,
+  "evalPages": 10,
+  "reviewedDocuments": 110,
   "pageSplitLeakage": false,
   "semanticLeakageAudit": "FOUR_LEXICAL_CANDIDATE_PAIRS_REVIEWED; GLOBAL_SEMANTIC_COMPLETENESS_NOT_PROVEN",
   "splitPolicy": "canonical-source URL with manually grouped sanitizer, database transaction, Dapr resiliency and gRPC delivery pages",
@@ -13,20 +13,20 @@
     "SYN-CILIUM-CAPACITY-002"
   ],
   "actualIncidentsIncluded": false,
-  "actualIssueDocumentsSeparate": 3,
+  "actualIssueDocumentsSeparate": 4,
   "modelWeightTrainingPerformed": false,
   "files": [
     {
       "name": "train.jsonl",
-      "sha256": "05b7f69c5a4c23ec9d72e8f0e5df3693a8014ac9b580642d627514e7bb8ae8d3"
+      "sha256": "2b469e6f29b885dfef2bc83d28ba5316624d35c912b9710f1d336c1a7f1e8545"
     },
     {
       "name": "eval.jsonl",
-      "sha256": "1788fb38ab1b40ad1d8df8bc7a707886b3352b5172f84e65ee1fc44476ff5073"
+      "sha256": "ac9d0fca9419ca68531feb33026ac24ec35b93212e3efa1ccccf0a558fb4f033"
     },
     {
       "name": "reviewed-documents.jsonl",
-      "sha256": "d07bd18a008db0f8d2425600c4efc67ce2921a64f843e2efb46f80757e3bccf3"
+      "sha256": "7547429f9b080f895a86327d6d5261b48034250a7ed68b69664bd58fd1c7f932"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 Verified: 2026-10-02
 
-공식 원문 종합 98페이지와 공개 이슈 분석 3페이지를 보관한다. 진단 표 462행에서 중복 1행을 제외한 461개를 학습 416 / 평가 45로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
+공식 원문 종합 106페이지와 공개 이슈 분석 4페이지를 보관한다. 진단 표 502행에서 중복 1행을 제외한 501개를 학습 451 / 평가 50로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
 
 428개 공개 저장소 원문은 기존 해시·출처 검증을 유지한다. 갱신은 수동이며 예약 실행은 없다.
 
@@ -21,6 +21,7 @@ Verified: 2026-10-02
 - [coredns-loop-detection-contract.md](coredns-loop-detection-contract.md)
 - [cpp-core-concurrency-lifetime-contracts.md](cpp-core-concurrency-lifetime-contracts.md)
 - [cross-system-diagnostic-contract-map.md](cross-system-diagnostic-contract-map.md)
+- [crossplane24-reconciliation-evidence.md](crossplane24-reconciliation-evidence.md)
 - [dapr118-default-policy-precedence.md](dapr118-default-policy-precedence.md)
 - [dapr118-policy-loading-restart-contracts.md](dapr118-policy-loading-restart-contracts.md)
 - [dapr118-resiliency-target-contracts.md](dapr118-resiliency-target-contracts.md)
@@ -57,6 +58,8 @@ Verified: 2026-10-02
 - [kyverno-report-result-contracts.md](kyverno-report-result-contracts.md)
 - [laravel-queue-timeout-boundaries.md](laravel-queue-timeout-boundaries.md)
 - [linkerd-edge-protocol-contracts.md](linkerd-edge-protocol-contracts.md)
+- [longhorn-reported-network-policy-13802.md](longhorn-reported-network-policy-13802.md)
+- [longhorn1121-network-policy-paths.md](longhorn1121-network-policy-paths.md)
 - [lua54-protected-call-contracts.md](lua54-protected-call-contracts.md)
 - [nats-pull-client-contracts.md](nats-pull-client-contracts.md)
 - [networkx-dijkstra-contract.md](networkx-dijkstra-contract.md)
@@ -66,6 +69,7 @@ Verified: 2026-10-02
 - [numpy25-broadcast-shape-contracts.md](numpy25-broadcast-shape-contracts.md)
 - [ocaml54-domain-synchronization-contracts.md](ocaml54-domain-synchronization-contracts.md)
 - [opa-rego-error-stage-contracts.md](opa-rego-error-stage-contracts.md)
+- [openfga-consistency-cache-contracts.md](openfga-consistency-cache-contracts.md)
 - [otel-collector-scaling-boundaries.md](otel-collector-scaling-boundaries.md)
 - [perl-eval-error-stage-contracts.md](perl-eval-error-stage-contracts.md)
 - [php-fiber-resume-contract.md](php-fiber-resume-contract.md)
@@ -86,6 +90,8 @@ Verified: 2026-10-02
 - [react-hydration-boundaries.md](react-hydration-boundaries.md)
 - [react-router-mode-boundaries.md](react-router-mode-boundaries.md)
 - [react-suspense-reveal-contracts.md](react-suspense-reveal-contracts.md)
+- [react193-deferred-render-contracts.md](react193-deferred-render-contracts.md)
+- [react193-external-store-snapshot-contracts.md](react193-external-store-snapshot-contracts.md)
 - [redis-eviction-memory-boundaries.md](redis-eviction-memory-boundaries.md)
 - [rook-ceph-diagnostic-evidence.md](rook-ceph-diagnostic-evidence.md)
 - [ruby-fiber-scheduler-contract.md](ruby-fiber-scheduler-contract.md)
@@ -93,11 +99,14 @@ Verified: 2026-10-02
 - [rust-refcell-shared-state-contracts.md](rust-refcell-shared-state-contracts.md)
 - [scala3-explicit-null-flow-contracts.md](scala3-explicit-null-flow-contracts.md)
 - [sklearn19-preprocessing-randomness.md](sklearn19-preprocessing-randomness.md)
+- [spire-node-attestation-contracts.md](spire-node-attestation-contracts.md)
 - [spring-cache-reactive-provider-contracts.md](spring-cache-reactive-provider-contracts.md)
 - [spring-probe-boundaries.md](spring-probe-boundaries.md)
 - [spring-security-csrf-boundaries.md](spring-security-csrf-boundaries.md)
 - [spring-transaction-event-phase-contracts.md](spring-transaction-event-phase-contracts.md)
 - [spring-transaction-proxy-boundaries.md](spring-transaction-proxy-boundaries.md)
+- [springboot411-config-precedence-contracts.md](springboot411-config-precedence-contracts.md)
+- [springboot411-metric-registry-contracts.md](springboot411-metric-registry-contracts.md)
 - [sqlalchemy20-session-state-boundaries.md](sqlalchemy20-session-state-boundaries.md)
 - [swift62-cancellation-handler-contract.md](swift62-cancellation-handler-contract.md)
 - [tanstack-query-cache-boundaries.md](tanstack-query-cache-boundaries.md)
