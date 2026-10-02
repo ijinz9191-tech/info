@@ -2,12 +2,13 @@
 
 Verified: 2026-10-02
 
-공식 원문을 읽어 정리한 77개 페이지와 실제 공개 이슈 분석 3개를 보관한다. 모든 원문·제품·버전의 학습 완료를 의미하지 않는다. 진단 표 358행 중 중복 1행을 제외한 357개를 학습 322 / 평가 35로 준비했다. 모델 가중치 학습과 운영 재현은 별도다.
+공식 원문 종합 94페이지와 공개 이슈 분석 3페이지를 보관한다. 진단 표 442행에서 중복 1행을 제외한 441개를 학습 401 / 평가 40로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
 
-OpenViking 검토 리소스는 위키 페이지와 요약 2개로 준비하고 각 파일의 해시를 확인했다. 원문 428개 저장소 스냅샷과 학습 corpus는 해시·출처 readback 검증을 통과했다. 전체 원문을 LLM이 검토했다는 의미는 아니다. 네이티브 서버 저장은 UNAVAILABLE이다.
+428개 공개 저장소 원문은 기존 해시·출처 검증을 유지한다. 갱신은 수동이며 예약 실행은 없다.
 
 ## 검토 문서
 
+- [angular-form-validation-contracts.md](angular-form-validation-contracts.md)
 - [argocd-sync-phase-wave-boundaries.md](argocd-sync-phase-wave-boundaries.md)
 - [celery56-task-ack-boundaries.md](celery56-task-ack-boundaries.md)
 - [cert-manager-acme-selfcheck.md](cert-manager-acme-selfcheck.md)
@@ -15,6 +16,7 @@ OpenViking 검토 리소스는 위키 페이지와 요약 2개로 준비하고 �
 - [cilium120-state-capacity-contracts.md](cilium120-state-capacity-contracts.md)
 - [clang-asan-memory-boundaries.md](clang-asan-memory-boundaries.md)
 - [clang-ubsan-integer-boundaries.md](clang-ubsan-integer-boundaries.md)
+- [clojure-stm-ref-contracts.md](clojure-stm-ref-contracts.md)
 - [cncf-incubation-governance-evidence.md](cncf-incubation-governance-evidence.md)
 - [coredns-loop-detection-contract.md](coredns-loop-detection-contract.md)
 - [cpp-core-concurrency-lifetime-contracts.md](cpp-core-concurrency-lifetime-contracts.md)
@@ -30,21 +32,29 @@ OpenViking 검토 리소스는 위키 페이지와 요약 2개로 준비하고 �
 - [dotnet9-threadpool-evidence-contracts.md](dotnet9-threadpool-evidence-contracts.md)
 - [elixir120-tcp-supervision-contracts.md](elixir120-tcp-supervision-contracts.md)
 - [envoy-circuit-breaker-resources.md](envoy-circuit-breaker-resources.md)
+- [erlang291-supervision-budget-contracts.md](erlang291-supervision-budget-contracts.md)
 - [etcd36-maintenance-contract.md](etcd36-maintenance-contract.md)
+- [falco-dropped-event-observation.md](falco-dropped-event-observation.md)
+- [fastapi-background-task-boundaries.md](fastapi-background-task-boundaries.md)
 - [flux-helm-remediation-boundaries.md](flux-helm-remediation-boundaries.md)
 - [ghc914-profiling-evidence-contracts.md](ghc914-profiling-evidence-contracts.md)
 - [go-pipeline-cancellation.md](go-pipeline-cancellation.md)
 - [go-profile-observation-contracts.md](go-profile-observation-contracts.md)
+- [grpc-deadline-cancellation-contracts.md](grpc-deadline-cancellation-contracts.md)
+- [grpc-retry-commitment-contracts.md](grpc-retry-commitment-contracts.md)
 - [helm-hook-lifecycle-boundaries.md](helm-hook-lifecycle-boundaries.md)
 - [istio131-network-diagnostic-contracts.md](istio131-network-diagnostic-contracts.md)
 - [java21-virtual-thread-boundaries.md](java21-virtual-thread-boundaries.md)
+- [julia111-performance-evidence-contracts.md](julia111-performance-evidence-contracts.md)
 - [kafka40-consumer-liveness-offsets.md](kafka40-consumer-liveness-offsets.md)
 - [karpenter-scheduling-readiness-contracts.md](karpenter-scheduling-readiness-contracts.md)
+- [keda221-scaler-webhook-evidence.md](keda221-scaler-webhook-evidence.md)
 - [kepler-versioned-deployment-contracts.md](kepler-versioned-deployment-contracts.md)
 - [kotlin-coroutine-exception-contract.md](kotlin-coroutine-exception-contract.md)
 - [kubernetes-audit-loss-failure-contracts.md](kubernetes-audit-loss-failure-contracts.md)
 - [kubernetes-dns-boundaries.md](kubernetes-dns-boundaries.md)
 - [kubernetes-service-evidence-boundaries.md](kubernetes-service-evidence-boundaries.md)
+- [kyverno-report-result-contracts.md](kyverno-report-result-contracts.md)
 - [laravel-queue-timeout-boundaries.md](laravel-queue-timeout-boundaries.md)
 - [linkerd-edge-protocol-contracts.md](linkerd-edge-protocol-contracts.md)
 - [nats-pull-client-contracts.md](nats-pull-client-contracts.md)
@@ -52,15 +62,19 @@ OpenViking 검토 리소스는 위키 페이지와 요약 2개로 준비하고 �
 - [networkx37-bellmanford-contracts.md](networkx37-bellmanford-contracts.md)
 - [next-cache-model-boundaries.md](next-cache-model-boundaries.md)
 - [node-eventloop-and-workerpool.md](node-eventloop-and-workerpool.md)
+- [numpy25-broadcast-shape-contracts.md](numpy25-broadcast-shape-contracts.md)
+- [opa-rego-error-stage-contracts.md](opa-rego-error-stage-contracts.md)
 - [otel-collector-scaling-boundaries.md](otel-collector-scaling-boundaries.md)
 - [php-fiber-resume-contract.md](php-fiber-resume-contract.md)
 - [postgresql-isolation-retry-boundaries.md](postgresql-isolation-retry-boundaries.md)
+- [powershell76-native-error-contracts.md](powershell76-native-error-contracts.md)
 - [prometheus-label-and-unit-boundaries.md](prometheus-label-and-unit-boundaries.md)
 - [python-asyncio-cancellation.md](python-asyncio-cancellation.md)
 - [python313-heapq-priority-contracts.md](python313-heapq-priority-contracts.md)
 - [python313-sqlite-transaction-contracts.md](python313-sqlite-transaction-contracts.md)
 - [python313-timeout-shield-contracts.md](python313-timeout-shield-contracts.md)
 - [pytorch214-faq-memory-contracts.md](pytorch214-faq-memory-contracts.md)
+- [quarkus-context-lifetime-contracts.md](quarkus-context-lifetime-contracts.md)
 - [rabbitmq43-ack-confirm-boundaries.md](rabbitmq43-ack-confirm-boundaries.md)
 - [rabbitmq43-deadletter-contracts.md](rabbitmq43-deadletter-contracts.md)
 - [rails-eager-loading-boundaries.md](rails-eager-loading-boundaries.md)
@@ -73,6 +87,7 @@ OpenViking 검토 리소스는 위키 페이지와 요약 2개로 준비하고 �
 - [ruby-fiber-scheduler-contract.md](ruby-fiber-scheduler-contract.md)
 - [rust-mutex-poisoning.md](rust-mutex-poisoning.md)
 - [rust-refcell-shared-state-contracts.md](rust-refcell-shared-state-contracts.md)
+- [scala3-explicit-null-flow-contracts.md](scala3-explicit-null-flow-contracts.md)
 - [sklearn19-preprocessing-randomness.md](sklearn19-preprocessing-randomness.md)
 - [spring-cache-reactive-provider-contracts.md](spring-cache-reactive-provider-contracts.md)
 - [spring-probe-boundaries.md](spring-probe-boundaries.md)
@@ -88,14 +103,5 @@ OpenViking 검토 리소스는 위키 페이지와 요약 2개로 준비하고 �
 - [vite-deployment-boundaries.md](vite-deployment-boundaries.md)
 - [vite-reported-case-10802.md](vite-reported-case-10802.md)
 - [vite-reported-case-964.md](vite-reported-case-964.md)
-
-## 데이터 및 검증
-
-- [학습 데이터 설명](training/README.md)
-- [학습 데이터 manifest](training/manifest.json)
-- [중복·분할 검토](training/overlap-audit.json)
-- [진행 상태](progress.json)
-
-예약 실행 없이 요청 시 수집·원문 검토·위키 갱신·데이터 변환·리소스 생성·검증 순서로 최신화한다.
-
-- [OpenViking 수동 사용·최신화](guides/openviking-usage.md)
+- [vue3-watcher-lifetime-contracts.md](vue3-watcher-lifetime-contracts.md)
+- [zig0152-runtime-safety-contracts.md](zig0152-runtime-safety-contracts.md)

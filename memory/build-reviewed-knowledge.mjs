@@ -30,6 +30,8 @@ const rows = { train: [], eval: [] },
   documents = [];
 const source = root + "/llm-wiki";
 const groups = {
+  "grpc-deadline-cancellation-contracts.md": "grpc-delivery-contracts",
+  "grpc-retry-commitment-contracts.md": "grpc-delivery-contracts",
   "dapr118-resiliency-target-contracts.md": "dapr-resiliency-contracts",
   "dapr118-default-policy-precedence.md": "dapr-resiliency-contracts",
   "dapr118-policy-loading-restart-contracts.md": "dapr-resiliency-contracts",
@@ -169,7 +171,7 @@ const report = {
     previousManifest?.semanticLeakageAudit ??
     "GLOBAL_SEMANTIC_COMPLETENESS_NOT_PROVEN",
   splitPolicy:
-    "canonical-source URL with manually grouped sanitizer, database transaction and Dapr resiliency pages",
+    "canonical-source URL with manually grouped sanitizer, database transaction, Dapr resiliency and gRPC delivery pages",
   semanticDuplicateExamplesExcluded: [...excludedIds],
   actualIncidentsIncluded: false,
   actualIssueDocumentsSeparate: documents.filter(
