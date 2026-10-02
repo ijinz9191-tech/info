@@ -2,7 +2,7 @@
 
 Verified: 2026-10-02
 
-공식 원문 종합 94페이지와 공개 이슈 분석 3페이지를 보관한다. 진단 표 442행에서 중복 1행을 제외한 441개를 학습 401 / 평가 40로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
+공식 원문 종합 98페이지와 공개 이슈 분석 3페이지를 보관한다. 진단 표 462행에서 중복 1행을 제외한 461개를 학습 416 / 평가 45로 준비했다. 실제 장애 재현이나 모델 가중치 학습 결과가 아니다. 전체 원문 검토·의미 중복 최종 평가·네이티브 OpenViking 저장은 미완료다.
 
 428개 공개 저장소 원문은 기존 해시·출처 검증을 유지한다. 갱신은 수동이며 예약 실행은 없다.
 
@@ -57,14 +57,17 @@ Verified: 2026-10-02
 - [kyverno-report-result-contracts.md](kyverno-report-result-contracts.md)
 - [laravel-queue-timeout-boundaries.md](laravel-queue-timeout-boundaries.md)
 - [linkerd-edge-protocol-contracts.md](linkerd-edge-protocol-contracts.md)
+- [lua54-protected-call-contracts.md](lua54-protected-call-contracts.md)
 - [nats-pull-client-contracts.md](nats-pull-client-contracts.md)
 - [networkx-dijkstra-contract.md](networkx-dijkstra-contract.md)
 - [networkx37-bellmanford-contracts.md](networkx37-bellmanford-contracts.md)
 - [next-cache-model-boundaries.md](next-cache-model-boundaries.md)
 - [node-eventloop-and-workerpool.md](node-eventloop-and-workerpool.md)
 - [numpy25-broadcast-shape-contracts.md](numpy25-broadcast-shape-contracts.md)
+- [ocaml54-domain-synchronization-contracts.md](ocaml54-domain-synchronization-contracts.md)
 - [opa-rego-error-stage-contracts.md](opa-rego-error-stage-contracts.md)
 - [otel-collector-scaling-boundaries.md](otel-collector-scaling-boundaries.md)
+- [perl-eval-error-stage-contracts.md](perl-eval-error-stage-contracts.md)
 - [php-fiber-resume-contract.md](php-fiber-resume-contract.md)
 - [postgresql-isolation-retry-boundaries.md](postgresql-isolation-retry-boundaries.md)
 - [powershell76-native-error-contracts.md](powershell76-native-error-contracts.md)
@@ -75,6 +78,7 @@ Verified: 2026-10-02
 - [python313-timeout-shield-contracts.md](python313-timeout-shield-contracts.md)
 - [pytorch214-faq-memory-contracts.md](pytorch214-faq-memory-contracts.md)
 - [quarkus-context-lifetime-contracts.md](quarkus-context-lifetime-contracts.md)
+- [r46-condition-recovery-contracts.md](r46-condition-recovery-contracts.md)
 - [rabbitmq43-ack-confirm-boundaries.md](rabbitmq43-ack-confirm-boundaries.md)
 - [rabbitmq43-deadletter-contracts.md](rabbitmq43-deadletter-contracts.md)
 - [rails-eager-loading-boundaries.md](rails-eager-loading-boundaries.md)
