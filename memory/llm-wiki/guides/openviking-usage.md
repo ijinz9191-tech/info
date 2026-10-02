@@ -19,3 +19,20 @@ python import-openviking-native.py --verified-synthesis --verify-source-only
 info 저장소에서는 memory/import-openviking-native.py 경로를 사용한다. 서버·SDK·임베딩/VLM 연결이 확인된 환경에서 --verify-source-only를 제외하면 검토 리소스를 제출한다. 실행 성공만으로 전체 네이티브 검증 완료가 아니다. task 완료와 원문 readback, 실제 서버 검색을 따로 확인한다. 서버 주소·인증값은 이 문서에 저장하지 않는다.
 
 helper의 import 명령은 curated, official corpus와 존재하는 verified-synthesis 묶음을 순서대로 제출한다. 검토 리소스만 제출할 때는 위의 --verified-synthesis 선택을 사용한다. 네이티브 실행 상태는 현재 UNAVAILABLE이다.
+
+## 검토 위키 수동 재생성
+
+공식 원문을 읽고 출처·버전·Verified 날짜와 진단 내용을 검토한 뒤 실행한다. 기존 검토 위키에서 데이터셋과 리소스를 만들며 출처 확인일을 자동 변경하지 않는다.
+
+```powershell
+node <선택한 스킬>/scripts/public-knowledge.mjs build-wiki
+```
+
+각 memory 폴더에서는 아래 명령으로 독립 실행할 수 있다.
+
+```powershell
+node build-reviewed-knowledge.mjs --build
+node build-reviewed-knowledge.mjs --check
+```
+
+`--check`는 원본 위키 해시, 생성 파일, 예제 중복과 출처 그룹 분할을 확인한다. 인터넷 조사·모델 가중치 학습·예약 실행은 이 명령에 포함되지 않는다.
