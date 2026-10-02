@@ -1,0 +1,1433 @@
+{
+  "schemaVersion": 1,
+  "repo": "jestjs/jest",
+  "commit": "202dd8a14777c270607c2416bd5034c3c0abc984",
+  "retrievedAt": "2026-10-01T15:20:53.675759+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/testing"
+  ],
+  "archiveUrl": "https://codeload.github.com/jestjs/jest/zip/202dd8a14777c270607c2416bd5034c3c0abc984",
+  "archiveSha256": "73a5307c09e9b0444769e0cfb955a1108cf3b0684274ac1f03d61a8e72350f58",
+  "archiveBytes": 26584224,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 93,
+    "code": 82,
+    "licenses": 1,
+    "bytes": 1077641
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 61820,
+      "sha256": "79505a7f78aa434ab61044d7ea9d0212ff596c1fb3c3445e032b44a76010addc",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/CHANGELOG.md"
+    },
+    {
+      "path": "CHANGELOG_PRE_v30.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/3f85c8703e0c4a3abc3906bc.md",
+      "kind": "official-document",
+      "bytes": 288709,
+      "sha256": "64186f218f1f011cb741e7e84d85b678f6ac46d8fc92aa93a3d461ba2d23fa75",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/CHANGELOG_PRE_v30.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 46,
+      "sha256": "42f07735bc82c71528738693fd023a72727f13b8cfb32458ff8440219d6fd559",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 153,
+      "sha256": "2d44cd51ca4f215656443eacf2752c85679eeb035b60112dd200238152db0ead",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 12266,
+      "sha256": "9f8dc34277629a05bd54147128006da84f6794112d1a2b8ef18a3354b31c9888",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 787,
+      "sha256": "10647c8571320bf985cadc7a1e5a984a384478f1358dee42775737e0902faee8",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/jestjs--jest/202dd8a14777/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1132,
+      "sha256": "9d5211db733ccdd26f9170bec24cdca84093f60415da6b769ee9cdf23d04e19f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/LICENSE"
+    },
+    {
+      "path": "PROJECT_CHARTER.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/602c3f4f44360bde3097ffd2.md",
+      "kind": "official-document",
+      "bytes": 3132,
+      "sha256": "84a087a3954793e415c9f8513d5cd16ed70231c978e550bc8c4edce0e89071ce",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/PROJECT_CHARTER.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 12794,
+      "sha256": "d47e8d263e376362ade90221309c66071e58b4a2c87fbfd1899eb9a5d9913291",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1226,
+      "sha256": "17b4e6f8ae97e63f78fa9db91f379d31d007847c0f6a8fdc53a68b19f232b23c",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/SECURITY.md"
+    },
+    {
+      "path": "benchmarks/test-file-overhead/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/47dc46050ff8de6335ff4dca.md",
+      "kind": "official-document",
+      "bytes": 419,
+      "sha256": "a3d26cf5bbe45c2a432765a336a433c8161c27d253abd237eb71e123e9db283d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/benchmarks/test-file-overhead/README.md"
+    },
+    {
+      "path": "docs/Architecture.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5a2d47b61c84c80cfeba7167.md",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "8a0e4f437d02bcfb657db40f985341a1be477bdb09e2772e7cedc76c0ea67284",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/Architecture.md"
+    },
+    {
+      "path": "docs/BypassingModuleMocks.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/170b61ac3b64be14fb84c731.md",
+      "kind": "official-document",
+      "bytes": 2459,
+      "sha256": "bf2a6df8a98f23def0782b42de8ccd1c187b650cf82e02d181ed25171bf0dc80",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/BypassingModuleMocks.md"
+    },
+    {
+      "path": "docs/CLI.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/7340b8a6d2c5b52c935f75ec.md",
+      "kind": "official-document",
+      "bytes": 22959,
+      "sha256": "205e80c358a2e044bfe10437761018d45ca7949ad90d20654daf176d52741b2c",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/CLI.md"
+    },
+    {
+      "path": "docs/CodeTransformation.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/878bcedd9971caed9cbdb29b.md",
+      "kind": "official-document",
+      "bytes": 9119,
+      "sha256": "4ba7fc2f9876b44ea3296857abe08aa38167a06b6e0395caa77ebf917bd331df",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/CodeTransformation.md"
+    },
+    {
+      "path": "docs/Configuration.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6fc0f3714dae8649dff84671.md",
+      "kind": "official-document",
+      "bytes": 92281,
+      "sha256": "2163842974108ddcd171ec460031c8b8fa1dbd131acf6db6a6ce9f65c603202f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/Configuration.md"
+    },
+    {
+      "path": "docs/DynamoDB.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/105371ca00afc74b812e6eb6.md",
+      "kind": "official-document",
+      "bytes": 1905,
+      "sha256": "8b811e3e6f8f400efa8f5d36240a6e410f8ef30c9bd6780dc962f639603657fc",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/DynamoDB.md"
+    },
+    {
+      "path": "docs/ECMAScriptModules.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/0218137398fd1ab0b4f62846.md",
+      "kind": "official-document",
+      "bytes": 10257,
+      "sha256": "9a0401fb791d3fa08a07548b423fff36c01ed72a4686ba448982101643d46d39",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/ECMAScriptModules.md"
+    },
+    {
+      "path": "docs/EnvironmentVariables.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/98e4005a6ba1be4754894268.md",
+      "kind": "official-document",
+      "bytes": 378,
+      "sha256": "a0d42cc82cdac8dc9ab9afc20b835ac80f1852cd2f3940691e73a4f6dec22049",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/EnvironmentVariables.md"
+    },
+    {
+      "path": "docs/Es6ClassMocks.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b3d0e95c73e91bfa202699a0.md",
+      "kind": "official-document",
+      "bytes": 16366,
+      "sha256": "b6a9f4c86a0eeec5713a0bb1dc56202e0fd911d968ebb17546e5e8e4b37525ba",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/Es6ClassMocks.md"
+    },
+    {
+      "path": "docs/ExpectAPI.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/be20c1e39ba98f9315be6d3d.md",
+      "kind": "official-document",
+      "bytes": 67244,
+      "sha256": "0d7b821d836fd3d2a2cb46464aa782b36b659c62fd1bdfe90402d6d527d250a4",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/ExpectAPI.md"
+    },
+    {
+      "path": "docs/GettingStarted.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6fba9c4156fbc64844843f25.md",
+      "kind": "official-document",
+      "bytes": 9873,
+      "sha256": "3302c8510ea654a31e6caa2aab075b308a028e85d4e265f5de9a3c3f826a640c",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/GettingStarted.md"
+    },
+    {
+      "path": "docs/GlobalAPI.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6a108b99a80dc7a4055f8ade.md",
+      "kind": "official-document",
+      "bytes": 36040,
+      "sha256": "4c86909ceedc8a17b96a04192bff4587eb65346af715ac39a6a85c4dbb7c2033",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/GlobalAPI.md"
+    },
+    {
+      "path": "docs/JestCommunity.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/af78805223d9698d2dd84f97.md",
+      "kind": "official-document",
+      "bytes": 1349,
+      "sha256": "f3a368196fc5318358cbef92d80f837cd4bdcba548606101fc399c42cbb5c8e7",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/JestCommunity.md"
+    },
+    {
+      "path": "docs/JestObjectAPI.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f5e89a026ba5b192dd1960fc.md",
+      "kind": "official-document",
+      "bytes": 41715,
+      "sha256": "1d427469aea95583b3177149cea74310f46b9f2a3137b01aa71a66ab38059a9a",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/JestObjectAPI.md"
+    },
+    {
+      "path": "docs/JestPlatform.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a0716eb06a14b5b5e5fa905d.md",
+      "kind": "official-document",
+      "bytes": 4934,
+      "sha256": "11e549e0cd9153471a1371ae3875fa27ab86308060b1a878499fcfc3188f5125",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/JestPlatform.md"
+    },
+    {
+      "path": "docs/ManualMocks.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/e1b43dca169661c9592041c7.md",
+      "kind": "official-document",
+      "bytes": 8299,
+      "sha256": "b474630bfd83b4d8e2b4caeb1562488ece50a7a0ad2c55da43e5458e1cd74498",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/ManualMocks.md"
+    },
+    {
+      "path": "docs/MigrationGuide.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/2a20a169a727b678d0b8fbac.md",
+      "kind": "official-document",
+      "bytes": 1641,
+      "sha256": "da75f376fa60814a056404991415d2932346c63a19504214380a71d82f859c96",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/MigrationGuide.md"
+    },
+    {
+      "path": "docs/MockFunctionAPI.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/99b040bd55d22102b6684b4b.md",
+      "kind": "official-document",
+      "bytes": 28021,
+      "sha256": "5b3ff6341f9764b67bf3bde617a473934693391249fec45e1edfdf4b04343371",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/MockFunctionAPI.md"
+    },
+    {
+      "path": "docs/MockFunctions.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/0b3d5ee278e8666b426cc08b.md",
+      "kind": "official-document",
+      "bytes": 11073,
+      "sha256": "d5ae38c7c29b0fbabe57abd47888d1a585d52d5b387a80554cce4a9aed0a5e12",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/MockFunctions.md"
+    },
+    {
+      "path": "docs/MongoDB.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/259982a1001dfdafef77ea4d.md",
+      "kind": "official-document",
+      "bytes": 1516,
+      "sha256": "192f71529fab47f3c6ba5032271b53af14fce88c81396f792f5dc321b0f91fb0",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/MongoDB.md"
+    },
+    {
+      "path": "docs/MoreResources.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ce47a3cbd0efd7c1bc3e7495.md",
+      "kind": "official-document",
+      "bytes": 1492,
+      "sha256": "56ae4b51df458be662c5ea2d36aaf85892cf6a9f0cb38b24464e3dadebac039d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/MoreResources.md"
+    },
+    {
+      "path": "docs/Puppeteer.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9b6a5acc54ea79f64217e821.md",
+      "kind": "official-document",
+      "bytes": 4896,
+      "sha256": "c4e288d222c5ed705bf513f6f82e819a447d47debd0fc390b06372936d95686a",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/Puppeteer.md"
+    },
+    {
+      "path": "docs/SetupAndTeardown.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/8000ac4f59b44e486de1efb1.md",
+      "kind": "official-document",
+      "bytes": 7446,
+      "sha256": "cbf63c215810375c9a05fa4a8b416cfe9579c5e7bd49181eb4d49fbc58884f06",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/SetupAndTeardown.md"
+    },
+    {
+      "path": "docs/SnapshotTesting.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f9a477b928fcf5bb81b50501.md",
+      "kind": "official-document",
+      "bytes": 17223,
+      "sha256": "83521f88867a0562920d92e65e33a2d9d0c4f8a3a311c6033f117dea7575985b",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/SnapshotTesting.md"
+    },
+    {
+      "path": "docs/TestEnvironment.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/75bb3df5b6db252afaf74e15.md",
+      "kind": "official-document",
+      "bytes": 7954,
+      "sha256": "2475c7cd33b37e2e3f527aea9f3dfe459bfd5516fbd3f2596065d3a06edb2dbb",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TestEnvironment.md"
+    },
+    {
+      "path": "docs/TestingAsyncCode.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/e2d661ab66225011336fbe98.md",
+      "kind": "official-document",
+      "bytes": 5205,
+      "sha256": "3223f38043d101c74e848cf3aa8400d71fd515e6ecca490a512420b70a74f1c7",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TestingAsyncCode.md"
+    },
+    {
+      "path": "docs/TestingFrameworks.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b00214b65dd27a779d3e4b10.md",
+      "kind": "official-document",
+      "bytes": 2650,
+      "sha256": "d7237ec93cb441f154c1895054079ec6753578c0e16d735e61c647eb5eab88a7",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TestingFrameworks.md"
+    },
+    {
+      "path": "docs/TimerMocks.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/2f7f5eb293d2e9dd59816110.md",
+      "kind": "official-document",
+      "bytes": 7630,
+      "sha256": "1ea426a1f10b0d4335ac4eb416d85380d2d32172cfd666043003bc98d669f118",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TimerMocks.md"
+    },
+    {
+      "path": "docs/Troubleshooting.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6b4e3d0b834a3676e9c4c92a.md",
+      "kind": "official-document",
+      "bytes": 8603,
+      "sha256": "7612fc17ea2fa24cc621579e008cd6341e6bab2cbdc516e319edc5e21ad10ae5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/Troubleshooting.md"
+    },
+    {
+      "path": "docs/TutorialAsync.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/2a1154c64cc6ee9b05959d0c.md",
+      "kind": "official-document",
+      "bytes": 5174,
+      "sha256": "b8de0639b733596433a3126c09f462147280b46bdda42112966b1183264780b7",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TutorialAsync.md"
+    },
+    {
+      "path": "docs/TutorialReactNative.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f22d434e814c1196221f9771.md",
+      "kind": "official-document",
+      "bytes": 9070,
+      "sha256": "ab4b2f6c9256e061ab4f872290d1bb1a7eab9f8a00b601ee6a4b96d4a4c2401a",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TutorialReactNative.md"
+    },
+    {
+      "path": "docs/TutorialjQuery.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/8eb272b471a362809db20f07.md",
+      "kind": "official-document",
+      "bytes": 2710,
+      "sha256": "5d6d7f5afcc60074fd1ef524d1e6b79db37180c776c4872bcbf76fdf4b9485df",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/TutorialjQuery.md"
+    },
+    {
+      "path": "docs/UpgradingToJest29.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/1a7c9b63ea46cc91c6c199a7.md",
+      "kind": "official-document",
+      "bytes": 2416,
+      "sha256": "f57d60f857a1a3434baf30fa6ec9c7867b68272e771cd890379dbd11563084be",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/UpgradingToJest29.md"
+    },
+    {
+      "path": "docs/UpgradingToJest30.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/05b0dc16293194e0e1d82f24.md",
+      "kind": "official-document",
+      "bytes": 13617,
+      "sha256": "96142ddddd8a3ea80eb381d2a0a513945a09aeb2381bdce1a3bcad1049f8d874",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/UpgradingToJest30.md"
+    },
+    {
+      "path": "docs/UsingMatchers.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5554014aa0f87b2d39acea2a.md",
+      "kind": "official-document",
+      "bytes": 5056,
+      "sha256": "4a4805337f6afc233653737dc4bbeb376b1b72a99598c26b0d3ffa15673b5679",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/UsingMatchers.md"
+    },
+    {
+      "path": "docs/WatchPlugins.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/bb77b658864c29d8814def0e.md",
+      "kind": "official-document",
+      "bytes": 7554,
+      "sha256": "9a98a5175a60280f5bd33d483757e78e0e7f31f700ba99f6f4a174ad8732005c",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/WatchPlugins.md"
+    },
+    {
+      "path": "docs/Webpack.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ac63ebbe4ece2fd0f7836dc3.md",
+      "kind": "official-document",
+      "bytes": 7735,
+      "sha256": "32e274e86e1501eba5df32b38c58afd255da92637ef84e60aff4ad8b36b40934",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/Webpack.md"
+    },
+    {
+      "path": "docs/_TypeScriptExamplesNote.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ed04919c77164ab43a3f918e.md",
+      "kind": "official-document",
+      "bytes": 302,
+      "sha256": "bcaa01ddc3b80bb27b317c2ffbddfda5b6578de237cd8aca7fafb9639ccce02a",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/docs/_TypeScriptExamplesNote.md"
+    },
+    {
+      "path": "examples/angular/app.component.spec.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/181c024f8e8e61bf5d962602.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1199,
+      "sha256": "72d13f1f7bba8de6e60899321b5835f9b4aa1876398b5b27ab165f399901417f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/app.component.spec.ts"
+    },
+    {
+      "path": "examples/angular/app.component.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/4798e56007d3cee4de0b8386.ts",
+      "kind": "upstream-example-code",
+      "bytes": 330,
+      "sha256": "93c03e74406ee31ff73126b9ff8def55725f5f9ea4d06b6afd0754033418632f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/app.component.ts"
+    },
+    {
+      "path": "examples/angular/jest.config.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a416abd81db5ed4ec93f511c.js",
+      "kind": "upstream-example-code",
+      "bytes": 388,
+      "sha256": "50b940349e3c50f159769f3107f1f3c69e04dadc52fb98362d01c14cc612b64e",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/jest.config.js"
+    },
+    {
+      "path": "examples/angular/setupJest.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ce9ef9ff921f2591835eaf4c.js",
+      "kind": "upstream-example-code",
+      "bytes": 174,
+      "sha256": "f54d110a99384f2266427282f1cff19e76351685d19bff335782a1b8d122bf2e",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/setupJest.js"
+    },
+    {
+      "path": "examples/angular/shared/data.service.spec.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f63bc33eea1ccf8d19f3b011.ts",
+      "kind": "upstream-example-code",
+      "bytes": 806,
+      "sha256": "eabd05959ebf38021d2a5b5bbcfda4a01e82d43b16e56fc4537d45ccf8f4ed53",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/shared/data.service.spec.ts"
+    },
+    {
+      "path": "examples/angular/shared/data.service.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/db482d7d88ca3e6daebb63f2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 258,
+      "sha256": "4883afdb882524d4605620407e8e58916bbad678a2402dcf7a1c6d20e3c2320d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/shared/data.service.ts"
+    },
+    {
+      "path": "examples/angular/shared/sub.service.spec.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9d06281902f62aede06c2343.ts",
+      "kind": "upstream-example-code",
+      "bytes": 450,
+      "sha256": "9c7b4cbfeb9a880f6b3dccfee29df66195c24c2290949bfe725bc1ed5a92fc1a",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/shared/sub.service.spec.ts"
+    },
+    {
+      "path": "examples/angular/shared/sub.service.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5137be2caafeb064105aa82e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 167,
+      "sha256": "f830f3bf8b50d704cfb3e8c6b48a5af0deb65bd6f46b7e9c2914ae847796f376",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/angular/shared/sub.service.ts"
+    },
+    {
+      "path": "examples/async/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/30bf8974e95fc1215a834cce.js",
+      "kind": "upstream-example-code",
+      "bytes": 149,
+      "sha256": "04fb956ca00db68f965d89e5ad07fc1923041d8a8ab69362474a95e9dd5850c0",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/async/.babelrc.js"
+    },
+    {
+      "path": "examples/async/__mocks__/request.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d7c40c5ac47d8cf9cf066510.js",
+      "kind": "upstream-example-code",
+      "bytes": 465,
+      "sha256": "03ccbc3598241ca618e39167942b716aa93cc5b0e07e4504a0bd05186e7ff867",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/async/__mocks__/request.js"
+    },
+    {
+      "path": "examples/async/__tests__/user.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/e79b8e66ab86fa7ef24a65f9.js",
+      "kind": "upstream-example-code",
+      "bytes": 1802,
+      "sha256": "fdf6b4573fde0c9fa1c7f80ef08c6374197fa82f4d92e7f9608a1cacd5328d23",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/async/__tests__/user.test.js"
+    },
+    {
+      "path": "examples/async/request.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9ca2817a333e8dafba5603eb.js",
+      "kind": "upstream-example-code",
+      "bytes": 519,
+      "sha256": "c90e5c5219c457b03a04961f9684384b360a2ddae8d811cba15245ccbabce993",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/async/request.js"
+    },
+    {
+      "path": "examples/async/user.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/3018ed5c1f2ddcffbab6c95b.js",
+      "kind": "upstream-example-code",
+      "bytes": 213,
+      "sha256": "38048191afe4ca63c45ae55185d97468d322c30f35e1cf5977529b570e8594de",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/async/user.js"
+    },
+    {
+      "path": "examples/automatic-mocks/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5adb75b1ae4b83984d6f0159.js",
+      "kind": "upstream-example-code",
+      "bytes": 111,
+      "sha256": "d704dcedee594a29c49102f8ed4ad6639905fd5cb784d0ae54de322c935652fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/automatic-mocks/.babelrc.js"
+    },
+    {
+      "path": "examples/automatic-mocks/__tests__/automock.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ba80f45f803b4c40eb0933e2.js",
+      "kind": "upstream-example-code",
+      "bytes": 487,
+      "sha256": "2d8e65bd807e40fb0a00849b3d3de8b290a5688cd96253e20a0602619706a314",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/automatic-mocks/__tests__/automock.test.js"
+    },
+    {
+      "path": "examples/automatic-mocks/__tests__/createMockFromModule.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/cf6b1e5b5247ff6fb3f3960c.js",
+      "kind": "upstream-example-code",
+      "bytes": 568,
+      "sha256": "9d77ee7b0dafbc308ea4ea9466a4b2b4becb2cc77bc0c818525333aeddd9e654",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/automatic-mocks/__tests__/createMockFromModule.test.js"
+    },
+    {
+      "path": "examples/automatic-mocks/__tests__/disableAutomocking.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d3d985b97538aaddc40b2d93.js",
+      "kind": "upstream-example-code",
+      "bytes": 220,
+      "sha256": "49e7919dd54373cc199f371f6d7a9bde22a712b48f3afc93ae9e41f0d4564054",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/automatic-mocks/__tests__/disableAutomocking.test.js"
+    },
+    {
+      "path": "examples/automatic-mocks/utils.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/2bb4314543608193aee80775.js",
+      "kind": "upstream-example-code",
+      "bytes": 172,
+      "sha256": "ab3df19b132d1cdf86ad447663b5387ba2f483f0b2494fa6b1ebd0a724fb7dc4",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/automatic-mocks/utils.js"
+    },
+    {
+      "path": "examples/expect-extend/__tests__/ranges.test.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/386c118da8843b3e613d75bc.ts",
+      "kind": "upstream-example-code",
+      "bytes": 593,
+      "sha256": "b849ab257c7a6b36c2fe10ddba1ab45839482176c8371cf8ac02ed94a93611fd",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/expect-extend/__tests__/ranges.test.ts"
+    },
+    {
+      "path": "examples/expect-extend/toBeWithinRange.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b6b4eaf120405f7957fc71ad.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1425,
+      "sha256": "55d3e74edafe89cc1609a30ad02456129f77552cf2bdff5435f44bf8875d7001",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/expect-extend/toBeWithinRange.ts"
+    },
+    {
+      "path": "examples/getting-started/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/814c94efcf14b6c7448bb215.js",
+      "kind": "upstream-example-code",
+      "bytes": 111,
+      "sha256": "d704dcedee594a29c49102f8ed4ad6639905fd5cb784d0ae54de322c935652fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/getting-started/.babelrc.js"
+    },
+    {
+      "path": "examples/getting-started/sum.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b06ec989e607c52aa7aee373.js",
+      "kind": "upstream-example-code",
+      "bytes": 139,
+      "sha256": "007e37d69ce0b48a911b89db0528a8f294b7c65ea70c4a24102578cacf71bcee",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/getting-started/sum.js"
+    },
+    {
+      "path": "examples/getting-started/sum.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/01b9cc1c598fca73e5a137ec.js",
+      "kind": "upstream-example-code",
+      "bytes": 179,
+      "sha256": "24e86b4b4b344b9e5a9641243b19bbb68567a1ba2d86f3b84afcf8b40eec7c44",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/getting-started/sum.test.js"
+    },
+    {
+      "path": "examples/jquery/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/57136c14d886681c34db3e6f.js",
+      "kind": "upstream-example-code",
+      "bytes": 111,
+      "sha256": "d704dcedee594a29c49102f8ed4ad6639905fd5cb784d0ae54de322c935652fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/jquery/.babelrc.js"
+    },
+    {
+      "path": "examples/jquery/__tests__/display_user.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b3460fa72a878e995dbd77f9.js",
+      "kind": "upstream-example-code",
+      "bytes": 1037,
+      "sha256": "9ee9f462da00c287f57332b00e3d4c03e706487060c794b2aa9d8444d389559e",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/jquery/__tests__/display_user.test.js"
+    },
+    {
+      "path": "examples/jquery/__tests__/fetch_current_user.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/0073e968be6922eb6ead4081.js",
+      "kind": "upstream-example-code",
+      "bytes": 1378,
+      "sha256": "72f04e191d4863752c5075f8536afc23f9eedfc28332b02426e07856ef0279f4",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/jquery/__tests__/fetch_current_user.test.js"
+    },
+    {
+      "path": "examples/jquery/displayUser.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9cae8d3e0c14f72040cb644a.js",
+      "kind": "upstream-example-code",
+      "bytes": 358,
+      "sha256": "aa675ae19a33fdb5ee56c6fb831fd435493a495f33acff31bb18d85eeca9c876",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/jquery/displayUser.js"
+    },
+    {
+      "path": "examples/jquery/fetchCurrentUser.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/8e3ae0094e14d8c6909e7386.js",
+      "kind": "upstream-example-code",
+      "bytes": 433,
+      "sha256": "68fc3d818c1ef3c76aa61883d7b6e99aa3961c6720d864e859698c115ca5fdb0",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/jquery/fetchCurrentUser.js"
+    },
+    {
+      "path": "examples/manual-mocks/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/904b51f3c055172f5e74502a.js",
+      "kind": "upstream-example-code",
+      "bytes": 111,
+      "sha256": "d704dcedee594a29c49102f8ed4ad6639905fd5cb784d0ae54de322c935652fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/.babelrc.js"
+    },
+    {
+      "path": "examples/manual-mocks/FileSummarizer.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/06c07dc1e53915b8b3baeebf.js",
+      "kind": "upstream-example-code",
+      "bytes": 312,
+      "sha256": "e08ca699cab04eeb832413815715373bcd2c85f67228465bc21d0d10680878a8",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/FileSummarizer.js"
+    },
+    {
+      "path": "examples/manual-mocks/__mocks__/fs.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/24e4dbbade4a6f9c0e161d78.js",
+      "kind": "upstream-example-code",
+      "bytes": 902,
+      "sha256": "e7caa9038b8dad78cb16bf17f6c7e90957f0e0f7634cfb8baea47a0cab5fd755",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__mocks__/fs.js"
+    },
+    {
+      "path": "examples/manual-mocks/__mocks__/lodash.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a32fba56739729bb3047dac0.js",
+      "kind": "upstream-example-code",
+      "bytes": 178,
+      "sha256": "098d56e38fb6c9a01aca9b1ca634926df82094ddc2efa1931366ec044f639e35",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__mocks__/lodash.js"
+    },
+    {
+      "path": "examples/manual-mocks/__tests__/file_summarizer.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/fd0e4fbe7e8e28469032a5e8.js",
+      "kind": "upstream-example-code",
+      "bytes": 690,
+      "sha256": "a15bec9f3f03802d87ebc3b0c712c5d9994e7df2939324118fbed4c39ae75e3b",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__tests__/file_summarizer.test.js"
+    },
+    {
+      "path": "examples/manual-mocks/__tests__/lodashMocking.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/58197744783cf5ea631b23fd.js",
+      "kind": "upstream-example-code",
+      "bytes": 191,
+      "sha256": "6487cd54d26cf528e67b2c8f25b6d3f9c6a96acdd0d708e84d5a0b26c6bcb60b",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__tests__/lodashMocking.test.js"
+    },
+    {
+      "path": "examples/manual-mocks/__tests__/user.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/24ee2a7b8c74f55a276a2b58.js",
+      "kind": "upstream-example-code",
+      "bytes": 229,
+      "sha256": "96c6d581d69046e62bd1d6e05f21c3f2a694d110ec45857cdb666d0fec7cdce4",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__tests__/user.test.js"
+    },
+    {
+      "path": "examples/manual-mocks/__tests__/userMocked.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/44c1168b1ac4846dcaf927c0.js",
+      "kind": "upstream-example-code",
+      "bytes": 261,
+      "sha256": "983da0768efeba1291cc22b14efeaa6b934de6b9052ca2949e2c9ea1ba9e9d90",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__tests__/userMocked.test.js"
+    },
+    {
+      "path": "examples/manual-mocks/__tests__/utils.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/c50accee7e0c0df881c0f10c.js",
+      "kind": "upstream-example-code",
+      "bytes": 432,
+      "sha256": "e27368479f2ef674d191617022400f9e69f725488672e2ada9239c3825a5a5f0",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/__tests__/utils.test.js"
+    },
+    {
+      "path": "examples/manual-mocks/models/__mocks__/user.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a2f7d15d760aa5ac13ffeb2d.js",
+      "kind": "upstream-example-code",
+      "bytes": 221,
+      "sha256": "1105c07324dd1b628f55cb7bc743815d204f1d0fa1d629fb870d8a3f3c46de1e",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/models/__mocks__/user.js"
+    },
+    {
+      "path": "examples/manual-mocks/models/user.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/c7608fe238ae8400337c717e.js",
+      "kind": "upstream-example-code",
+      "bytes": 168,
+      "sha256": "bcffa6a9f1376f848b05e447cd8e35dc7106ba0fd5c188819ed824ddf22d4892",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/models/user.js"
+    },
+    {
+      "path": "examples/manual-mocks/utils.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/c3d34a034c440d2771eb440a.js",
+      "kind": "upstream-example-code",
+      "bytes": 81,
+      "sha256": "89436c47f95dd73e4e55aaacfafa3e3971f469ce2c7ec53c8d7a8a4bdb4cec76",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/manual-mocks/utils.js"
+    },
+    {
+      "path": "examples/module-mock/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/49428db27c0041890653d6e3.js",
+      "kind": "upstream-example-code",
+      "bytes": 126,
+      "sha256": "5a2be8e73f560f6069e62db7ab6d9754753dad9b37337e9b9dd0f6529c0e36c5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/module-mock/.babelrc.js"
+    },
+    {
+      "path": "examples/module-mock/__tests__/full_mock.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/2f7b9994d7d36c6d9d354111.js",
+      "kind": "upstream-example-code",
+      "bytes": 368,
+      "sha256": "2dc660aa21930fe80f73154eb639f0fa5ed78fc5ca0d4e26281f41afa0cd1a07",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/module-mock/__tests__/full_mock.js"
+    },
+    {
+      "path": "examples/module-mock/__tests__/mock_per_test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/bf632391ab4cbe55f1267920.js",
+      "kind": "upstream-example-code",
+      "bytes": 1239,
+      "sha256": "a54932e8ec95ed9ec1dc8768b5db0b553b1199e2eeb3d0d6fd943257710f12ef",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/module-mock/__tests__/mock_per_test.js"
+    },
+    {
+      "path": "examples/module-mock/__tests__/partial_mock.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/4cc792a59e7fa8e80552ef3a.js",
+      "kind": "upstream-example-code",
+      "bytes": 905,
+      "sha256": "d060c54eaef0e8676ad7085c7f5c31d48a4254542d37c1918b8c46b2341e287d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/module-mock/__tests__/partial_mock.js"
+    },
+    {
+      "path": "examples/module-mock/fruit.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/16da092883ede291aa2b8841.js",
+      "kind": "upstream-example-code",
+      "bytes": 186,
+      "sha256": "69114ad5840b8bb393b01f93abc6f2fd07274c9d02a81bf1708b80e324477cc6",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/module-mock/fruit.js"
+    },
+    {
+      "path": "examples/react-native/Intro.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/02886f57200422f656380471.js",
+      "kind": "upstream-example-code",
+      "bytes": 872,
+      "sha256": "ba8f383792b11b4292ebe73d3196353a5a29c46d6684817ce30758de66785bb3",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-native/Intro.js"
+    },
+    {
+      "path": "examples/react-native/__tests__/intro.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/7a66be6bf19f54ec85c3dda1.js",
+      "kind": "upstream-example-code",
+      "bytes": 1134,
+      "sha256": "abf60cdac2009f7f03ca802d287abd8f16dd46b8b294a6b25046dc0f2ce8a1ab",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-native/__tests__/intro.test.js"
+    },
+    {
+      "path": "examples/react-native/babel.config.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/62e5e756d09c32274b4a5949.js",
+      "kind": "upstream-example-code",
+      "bytes": 169,
+      "sha256": "2556248b36cfd2218ad0f0e10adf8f74be12ec3a2d8e33568d812b91ac45cbd2",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-native/babel.config.js"
+    },
+    {
+      "path": "examples/react-native/index.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/106d60fbb2dc3f19cefabbaa.js",
+      "kind": "upstream-example-code",
+      "bytes": 384,
+      "sha256": "0fe7e95ba45ac91e42b50f055af8de949c9ece18af8450156db7cd4fb327a337",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-native/index.js"
+    },
+    {
+      "path": "examples/react-native/jest.config.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a57b094f59678d8ecd9ffefe.js",
+      "kind": "upstream-example-code",
+      "bytes": 365,
+      "sha256": "5503a78429c57c7e33815b601ef180f9957fe617865efc28b8f99dc496192b39",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-native/jest.config.js"
+    },
+    {
+      "path": "examples/react-testing-library/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/bfa59d1e1bcb52303baa0db0.js",
+      "kind": "upstream-example-code",
+      "bytes": 173,
+      "sha256": "9bb1a33361e5c80da94ee79874cf44f516329abf0775477d2582ba18736141ba",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-testing-library/.babelrc.js"
+    },
+    {
+      "path": "examples/react-testing-library/CheckboxWithLabel.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/30447d79123c2cbfdf9c7bd3.js",
+      "kind": "upstream-example-code",
+      "bytes": 451,
+      "sha256": "095dde20e593aac1cb1e4e1f6261ca9dbf003aa33309fe03d38d2a53babab30d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-testing-library/CheckboxWithLabel.js"
+    },
+    {
+      "path": "examples/react-testing-library/__tests__/CheckboxWithLabel-test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a6f922320291b3da2d9db1a5.js",
+      "kind": "upstream-example-code",
+      "bytes": 511,
+      "sha256": "e2a384e0ee60b901243ba0601d259fcdbdbbe09ee842125ce1487c0c8df06a10",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react-testing-library/__tests__/CheckboxWithLabel-test.js"
+    },
+    {
+      "path": "examples/react/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f29d1049ed2d87056c660530.js",
+      "kind": "upstream-example-code",
+      "bytes": 173,
+      "sha256": "9bb1a33361e5c80da94ee79874cf44f516329abf0775477d2582ba18736141ba",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react/.babelrc.js"
+    },
+    {
+      "path": "examples/react/CheckboxWithLabel.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f625b735eecbc109b35d5d3e.js",
+      "kind": "upstream-example-code",
+      "bytes": 545,
+      "sha256": "2e79e695f38dc57e061dadaf639a94363f479267871ee07379619ab00afb624d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react/CheckboxWithLabel.js"
+    },
+    {
+      "path": "examples/react/__tests__/CheckboxWithLabel-test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/4a3e4d036a729de8e5eb298e.js",
+      "kind": "upstream-example-code",
+      "bytes": 1045,
+      "sha256": "59710bb89d7bf03d006d5b6f480146144020c625f97d488b03b53a735c1d9999",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react/__tests__/CheckboxWithLabel-test.js"
+    },
+    {
+      "path": "examples/react/setupTests.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/8b24c21b48b544067beb0ab7.js",
+      "kind": "upstream-example-code",
+      "bytes": 233,
+      "sha256": "fd2bb76e1412e36dbf2eaa8a05b6f31ac43683d73684b55f1e5135621ad0f07e",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/react/setupTests.js"
+    },
+    {
+      "path": "examples/snapshot/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/eeda4cc10efa2d3b7fbffc26.js",
+      "kind": "upstream-example-code",
+      "bytes": 173,
+      "sha256": "9bb1a33361e5c80da94ee79874cf44f516329abf0775477d2582ba18736141ba",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/snapshot/.babelrc.js"
+    },
+    {
+      "path": "examples/snapshot/Clock.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/442a61a10cf6eebe0448ab07.js",
+      "kind": "upstream-example-code",
+      "bytes": 479,
+      "sha256": "fb25ffcbd103d8d4668950f09141f7f2e306aeac4133da1be2c24ba8f34950e2",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/snapshot/Clock.js"
+    },
+    {
+      "path": "examples/snapshot/Link.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/92290810104f84d7a318a70c.js",
+      "kind": "upstream-example-code",
+      "bytes": 614,
+      "sha256": "b3dcfca90b953aaa5b6664fe929677cc157f5089f836c6ac8b316f9882ba9759",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/snapshot/Link.js"
+    },
+    {
+      "path": "examples/snapshot/__tests__/clock.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b638a213348f93a6972cb469.js",
+      "kind": "upstream-example-code",
+      "bytes": 405,
+      "sha256": "60eae4a58a2252efe3a9fcd12cdafe169a3e49a7b1f68c0bd22c004e28c7beae",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/snapshot/__tests__/clock.test.js"
+    },
+    {
+      "path": "examples/snapshot/__tests__/link.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/293226e642f041e9f8ee1cf3.js",
+      "kind": "upstream-example-code",
+      "bytes": 1293,
+      "sha256": "9e411e1aac661d138b7d4c678fc8f94656286d62abf1a3d171e5866f2c02c718",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/snapshot/__tests__/link.test.js"
+    },
+    {
+      "path": "examples/timer/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/86bc888e7afc29c6654e3a7a.js",
+      "kind": "upstream-example-code",
+      "bytes": 111,
+      "sha256": "d704dcedee594a29c49102f8ed4ad6639905fd5cb784d0ae54de322c935652fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/timer/.babelrc.js"
+    },
+    {
+      "path": "examples/timer/__tests__/infinite_timer_game.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ee44c91c1027b330cefba583.js",
+      "kind": "upstream-example-code",
+      "bytes": 1075,
+      "sha256": "6ece2678f3c3130433c42c973ab0a19a3acbbeb447e75a86f9e046edbcdf305f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/timer/__tests__/infinite_timer_game.test.js"
+    },
+    {
+      "path": "examples/timer/__tests__/timer_game.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/16d8e45500ce38b26b6ba0b8.js",
+      "kind": "upstream-example-code",
+      "bytes": 1523,
+      "sha256": "5643777d05647c30281dfdfb51480e1145e7ebb01dcd4eddd9c9efda3aaa2800",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/timer/__tests__/timer_game.test.js"
+    },
+    {
+      "path": "examples/timer/infiniteTimerGame.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/93e67ee0c525e15f8d45d9c9.js",
+      "kind": "upstream-example-code",
+      "bytes": 439,
+      "sha256": "676a9f66747864b707a0c7e5e91d413218e102d6ab2133313352e9a8cc8ee1da",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/timer/infiniteTimerGame.js"
+    },
+    {
+      "path": "examples/timer/timerGame.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ea865b63e87c032d8f1174ca.js",
+      "kind": "upstream-example-code",
+      "bytes": 269,
+      "sha256": "b387e0c6951d1d9949706cb145e054c3d7de40360f868cb06fd19b48d6d671bb",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/timer/timerGame.js"
+    },
+    {
+      "path": "examples/typescript/.babelrc.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/3db7f32a057a199a74cbae6b.js",
+      "kind": "upstream-example-code",
+      "bytes": 205,
+      "sha256": "be6226f7b41686310678d4447cd6eb8045c060cb1479f2dd48b872a50bb47fd7",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/.babelrc.js"
+    },
+    {
+      "path": "examples/typescript/CheckboxWithLabel.tsx",
+      "localPath": "raw/jestjs--jest/202dd8a14777/30db1f7925622cccee3081d6.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 716,
+      "sha256": "c6c86ae746df0544e087203f5305d8b78a38fa8f0789c7693c40d23c7b93294d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/CheckboxWithLabel.tsx"
+    },
+    {
+      "path": "examples/typescript/Memory.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ac999e171856ee819433960b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 253,
+      "sha256": "dcb267945b4e17d0c577dcd68f61f7149b85e32af46a5c036dabdb9c5414a3b5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/Memory.ts"
+    },
+    {
+      "path": "examples/typescript/__tests__/CheckboxWithLabel-test.tsx",
+      "localPath": "raw/jestjs--jest/202dd8a14777/eeca4a606c5ddb0e753257b0.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1153,
+      "sha256": "75646bf95a3125865dc5b8136c5a292d7dde54fc1f7fc3c494f55329de9c1c2f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/__tests__/CheckboxWithLabel-test.tsx"
+    },
+    {
+      "path": "examples/typescript/__tests__/calc.test.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9ff32c7fa74f75c6c6576e2f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2553,
+      "sha256": "396e3a503ce9e010178241608838aa5311b5bdfa23306338dfc3487642fa132f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/__tests__/calc.test.ts"
+    },
+    {
+      "path": "examples/typescript/__tests__/sub-test.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/960123668191fd8bc5814fb1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 212,
+      "sha256": "e668a68c78113562c98082e90ec373abc20c9bc8966369bbc4cce30847470995",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/__tests__/sub-test.ts"
+    },
+    {
+      "path": "examples/typescript/__tests__/sum-test.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a01f962770d717e8280a1a0f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 459,
+      "sha256": "b258455b6e7995395128d3a6c3841861ee7252b3558510511dba3c20556686b3",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/__tests__/sum-test.ts"
+    },
+    {
+      "path": "examples/typescript/__tests__/sum.test.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/99c8b85eecfdfa1e341dd41e.js",
+      "kind": "upstream-example-code",
+      "bytes": 367,
+      "sha256": "481278fcfff10e96f165555035ef5facdea09da21485d18a2233a9478455f2a3",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/__tests__/sum.test.js"
+    },
+    {
+      "path": "examples/typescript/__tests__/utils.test.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/e28e185706549fbb629d47fa.ts",
+      "kind": "upstream-example-code",
+      "bytes": 637,
+      "sha256": "332eee68d92e28cdf80370f36bded77a5f295429a27d3ec944b33fd47280bee4",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/__tests__/utils.test.ts"
+    },
+    {
+      "path": "examples/typescript/calc.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/1d2e8bd5a939fd598b9513b7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 856,
+      "sha256": "4e2deaeaf45ff79b4d0f40df52823a5540bd4fe7989a360c3b5098bfe15c23fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/calc.ts"
+    },
+    {
+      "path": "examples/typescript/setupTests.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/4628163f7373dcbe80547b2c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 211,
+      "sha256": "b4832b53884b7552650829182f7363b557e4c0b69101ab8c45cae7e25c51a286",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/setupTests.ts"
+    },
+    {
+      "path": "examples/typescript/sub.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/278c6cee43972b327dbbd935.ts",
+      "kind": "upstream-example-code",
+      "bytes": 160,
+      "sha256": "3301efe621b1aeb774e8f37c8dd74666d9f45a97299e37b4833199bdf4de9dde",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/sub.ts"
+    },
+    {
+      "path": "examples/typescript/sum.js",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f35e6465e7fb8ec7adcc7d4c.js",
+      "kind": "upstream-example-code",
+      "bytes": 139,
+      "sha256": "007e37d69ce0b48a911b89db0528a8f294b7c65ea70c4a24102578cacf71bcee",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/sum.js"
+    },
+    {
+      "path": "examples/typescript/sum.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/312b7540ea3a8c773e369094.ts",
+      "kind": "upstream-example-code",
+      "bytes": 129,
+      "sha256": "7716104e52508425a7b316ec8860a1f45dc1617823fb0be8966d03f28113d2fa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/sum.ts"
+    },
+    {
+      "path": "examples/typescript/utils.ts",
+      "localPath": "raw/jestjs--jest/202dd8a14777/df9583b33525b64fc1914645.ts",
+      "kind": "upstream-example-code",
+      "bytes": 136,
+      "sha256": "00215a33a6416c9e771d2d20792960f212de66c15cdeab22e98d4f5bae4f6c11",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/examples/typescript/utils.ts"
+    },
+    {
+      "path": "packages/babel-jest/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/c51790eaaef5f90a3fb4ec73.md",
+      "kind": "official-document",
+      "bytes": 1437,
+      "sha256": "5863ec4d615feecc4c1879e62e996afa23cd5416fc592b7fb92fba6ad2c3534c",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/babel-jest/README.md"
+    },
+    {
+      "path": "packages/babel-plugin-jest-hoist/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d9c124a68d547551d1c0dcd6.md",
+      "kind": "official-document",
+      "bytes": 636,
+      "sha256": "6fe683f8935e60a9b1ca8224c59df0c621ef1c90fba58e6417f5dc5c9dace927",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/babel-plugin-jest-hoist/README.md"
+    },
+    {
+      "path": "packages/babel-preset-jest/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/92af511c5efe7dfdeaa69096.md",
+      "kind": "official-document",
+      "bytes": 516,
+      "sha256": "be4c598d31f0fed3ebf20b02f2145254056119235e96d99c151532ba3f22937b",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/babel-preset-jest/README.md"
+    },
+    {
+      "path": "packages/create-jest/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d69399f2958e11435c047e26.md",
+      "kind": "official-document",
+      "bytes": 161,
+      "sha256": "b09f28702b9790878aba0dc1ebd2c40de63619d9fecf52ad7d638d9b6419a346",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/create-jest/README.md"
+    },
+    {
+      "path": "packages/diff-sequences/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/668c87961d15ef141093a264.md",
+      "kind": "official-document",
+      "bytes": 15600,
+      "sha256": "4334982a6b15d3d15786cd5b75887be82c908e4ef0e6ee449cf0e6474dba9f71",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/diff-sequences/README.md"
+    },
+    {
+      "path": "packages/expect-utils/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/38d5da5ccd868e3557440621.md",
+      "kind": "official-document",
+      "bytes": 355,
+      "sha256": "531d6b635043c17f4fd85d80e346b0947557281f2dcccdcc4a4432ffc538b5c0",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/expect-utils/README.md"
+    },
+    {
+      "path": "packages/expect/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/06979216773cb996d6e9e64a.md",
+      "kind": "official-document",
+      "bytes": 172,
+      "sha256": "dc916afec55ef5effa464c08fd3eb3b18a5b5b689ec4d5f5daa16e5fb25e02ea",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/expect/README.md"
+    },
+    {
+      "path": "packages/jest-changed-files/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5a875552fdba1340158bc80a.md",
+      "kind": "official-document",
+      "bytes": 1703,
+      "sha256": "0f32c9d6349a57f96564aa50112a3f7c7a5060bdbb147f295227af1bb0666b6c",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-changed-files/README.md"
+    },
+    {
+      "path": "packages/jest-circus/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/e494bc4f97c4ca8555353c1d.md",
+      "kind": "official-document",
+      "bytes": 2395,
+      "sha256": "a1582b6872ac94833732d5764ac10e46a2111a9815df8eb557a7cf250a4e3b27",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-circus/README.md"
+    },
+    {
+      "path": "packages/jest-cli/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d04b185c22bf062c111a95c4.md",
+      "kind": "official-document",
+      "bytes": 546,
+      "sha256": "bb2c4c73c4979d69ac2aa0a5661d43e377ae6dab4b406c2e1e57de6929ec2d19",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-cli/README.md"
+    },
+    {
+      "path": "packages/jest-core/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/c995117fcaf8e11cd0a4cf4f.md",
+      "kind": "official-document",
+      "bytes": 163,
+      "sha256": "32af8407aa7f6e3030a2509acf37f2b84327fdfac9fae714f85c23a2f99870ad",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-core/README.md"
+    },
+    {
+      "path": "packages/jest-create-cache-key-function/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9b238c029c7a13053fa5361c.md",
+      "kind": "official-document",
+      "bytes": 1529,
+      "sha256": "736f026f7e3ad5cd3aa385df27d9feda895904b60bee18b2eca4dc21a5335878",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-create-cache-key-function/README.md"
+    },
+    {
+      "path": "packages/jest-diff/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5cc640a4037eed36efeaa303.md",
+      "kind": "official-document",
+      "bytes": 19673,
+      "sha256": "3b313737b5118e19e8e9d8148cb69d684baa7f1db155e4b02e13dbbbdd3c604a",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-diff/README.md"
+    },
+    {
+      "path": "packages/jest-docblock/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/2fd12b74c8a93a150b3745c8.md",
+      "kind": "official-document",
+      "bytes": 2835,
+      "sha256": "440a8a387df627ebfd7fb18592a02f164206b30bce2386b66e43be4761e87c26",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-docblock/README.md"
+    },
+    {
+      "path": "packages/jest-each/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/fc596f4b4870aa9fde66a2ab.md",
+      "kind": "official-document",
+      "bytes": 14318,
+      "sha256": "8ed4b8761744e45c6b8653e672516fe29aa82b2db5c4cca46f5cbb3cb22fb17f",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-each/README.md"
+    },
+    {
+      "path": "packages/jest-expect/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/4a3b8dedf37c136f9ec19130.md",
+      "kind": "official-document",
+      "bytes": 320,
+      "sha256": "bb67e659576908e8044373988bc7613c311c1b1e3870d05ae034ada7ae941c28",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-expect/README.md"
+    },
+    {
+      "path": "packages/jest-haste-map/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/0b3fd9df6e9e9cc53c257015.md",
+      "kind": "official-document",
+      "bytes": 4441,
+      "sha256": "19b217625d7aa8a7843a0ea004ab64a4da908dab69cbb44f367e1ea14a5db4ed",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-haste-map/README.md"
+    },
+    {
+      "path": "packages/jest-leak-detector/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/70f2d149d9b318a66dbebc0d.md",
+      "kind": "official-document",
+      "bytes": 741,
+      "sha256": "3903f8a012d18bbc0505ea410b2f6f0bd10525f48bb26ad67f8700805c40b72d",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-leak-detector/README.md"
+    },
+    {
+      "path": "packages/jest-matcher-utils/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5414de01d037d795a283878e.md",
+      "kind": "official-document",
+      "bytes": 939,
+      "sha256": "33586f0d64588a3e862821e6252374456653962be8ecd6b22f5bebe4db9dadf9",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-matcher-utils/README.md"
+    },
+    {
+      "path": "packages/jest-mock/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d16cca70ac952b5046653660.md",
+      "kind": "official-document",
+      "bytes": 4418,
+      "sha256": "cc4c393cf9341b86321d298e700be90234b619510906570c0bdc0a0f075f2437",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-mock/README.md"
+    },
+    {
+      "path": "packages/jest-pattern/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/921a016ccde8787b725392c0.md",
+      "kind": "official-document",
+      "bytes": 135,
+      "sha256": "504ecad24fb6ce4cbbd9e9bc46ea9f2d7a8a35c0f33c5083854c06749babac11",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-pattern/README.md"
+    },
+    {
+      "path": "packages/jest-phabricator/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/8704c94691acac0f802d00ea.md",
+      "kind": "official-document",
+      "bytes": 6849,
+      "sha256": "3f000c8ab97bf54bde51acf615ccb618b0e4f402f153b385b81c67333f42c238",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-phabricator/README.md"
+    },
+    {
+      "path": "packages/jest-schemas/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/fcdd8f83c2307e93809d1651.md",
+      "kind": "official-document",
+      "bytes": 129,
+      "sha256": "00c07ce3a191054bb891f101ebbddf1f7cb5c425f92d353b094fb02ab4754592",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-schemas/README.md"
+    },
+    {
+      "path": "packages/jest-source-map/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/d476542df9215a06801c35b3.md",
+      "kind": "official-document",
+      "bytes": 3613,
+      "sha256": "fd69ba43201f65a85c37141f2fb4efecc35c3414e8c2bca5c5730a651ae848da",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-source-map/README.md"
+    },
+    {
+      "path": "packages/jest-types/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/3ec494f4a5f75a4de18aae26.md",
+      "kind": "official-document",
+      "bytes": 954,
+      "sha256": "4d8ee480fed8bef4b053806ff09e1ed723907a668b45344ec0b216a7b7d8bafa",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-types/README.md"
+    },
+    {
+      "path": "packages/jest-util/Readme.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/9931c2aa491ae3cb9a28b1b4.md",
+      "kind": "official-document",
+      "bytes": 5152,
+      "sha256": "f7f090cc896994c8e8c5d2ea7143d0f5ea4cdc85a1079d5a0506171f5d0972ea",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-util/Readme.md"
+    },
+    {
+      "path": "packages/jest-validate/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ab798b48c30975dd6ef3b27b.md",
+      "kind": "official-document",
+      "bytes": 5745,
+      "sha256": "210cc3aada338485a1593141bed7d774ba0325f66f1f48ee074a9a35c3859cf8",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-validate/README.md"
+    },
+    {
+      "path": "packages/jest-worker/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/ba7edc7090f4f8043f4621b8.md",
+      "kind": "official-document",
+      "bytes": 12627,
+      "sha256": "3bcfec3cf1ceb2d0c2fde67114f49db0fe54f23abae2446150941367962f2935",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest-worker/README.md"
+    },
+    {
+      "path": "packages/jest/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6d9855bd254530a8d7ddfa27.md",
+      "kind": "official-document",
+      "bytes": 546,
+      "sha256": "bb2c4c73c4979d69ac2aa0a5661d43e377ae6dab4b406c2e1e57de6929ec2d19",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/jest/README.md"
+    },
+    {
+      "path": "packages/pretty-format/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/3e16bf6a4a8b4715e330b435.md",
+      "kind": "official-document",
+      "bytes": 14304,
+      "sha256": "13b17b5a1f80ae8183844238882851da40c419ef1526dafb047ce4e0b4c55616",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/pretty-format/README.md"
+    },
+    {
+      "path": "packages/test-globals/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/044ef77b80c68a6dea33a8f0.md",
+      "kind": "official-document",
+      "bytes": 116,
+      "sha256": "3c18f482d6816835c50f0f1de4dcd1069be465b7ffb406bb9c2b1d131528ed89",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/test-globals/README.md"
+    },
+    {
+      "path": "packages/test-utils/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/32eaf1e2453ee51b955665eb.md",
+      "kind": "official-document",
+      "bytes": 813,
+      "sha256": "8d7947b1c509b2f32057e56c95d0040cfb31875306f210b76376c87752fafe42",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/packages/test-utils/README.md"
+    },
+    {
+      "path": "website/README.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/0eb684c3ea7be1b3de6b0b15.md",
+      "kind": "official-document",
+      "bytes": 1144,
+      "sha256": "7b9d0f68970b8a043a27320b625954db077abb9f77aaa5523766320d3095cf65",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/README.md"
+    },
+    {
+      "path": "website/versioned_docs/version-29.7/Architecture.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/5b42d481697e2f2adb4f4730.md",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "8a0e4f437d02bcfb657db40f985341a1be477bdb09e2772e7cedc76c0ea67284",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-29.7/Architecture.md"
+    },
+    {
+      "path": "website/versioned_docs/version-29.7/MigrationGuide.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f2f874e9bda9f62ba4888909.md",
+      "kind": "official-document",
+      "bytes": 1641,
+      "sha256": "da75f376fa60814a056404991415d2932346c63a19504214380a71d82f859c96",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-29.7/MigrationGuide.md"
+    },
+    {
+      "path": "website/versioned_docs/version-29.7/Troubleshooting.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/6c3a71bbcae93dab186704be.md",
+      "kind": "official-document",
+      "bytes": 8603,
+      "sha256": "7612fc17ea2fa24cc621579e008cd6341e6bab2cbdc516e319edc5e21ad10ae5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-29.7/Troubleshooting.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.0/Architecture.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/30483c49435a7e4d54b38e02.md",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "8a0e4f437d02bcfb657db40f985341a1be477bdb09e2772e7cedc76c0ea67284",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.0/Architecture.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.0/MigrationGuide.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b8d2a490fed0e00a2c7898ea.md",
+      "kind": "official-document",
+      "bytes": 1641,
+      "sha256": "da75f376fa60814a056404991415d2932346c63a19504214380a71d82f859c96",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.0/MigrationGuide.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.0/Troubleshooting.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/f98accc61c0ab07fc642aedf.md",
+      "kind": "official-document",
+      "bytes": 8603,
+      "sha256": "7612fc17ea2fa24cc621579e008cd6341e6bab2cbdc516e319edc5e21ad10ae5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.0/Troubleshooting.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.4/Architecture.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/859bb1bae3d097fbd66e0894.md",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "8a0e4f437d02bcfb657db40f985341a1be477bdb09e2772e7cedc76c0ea67284",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.4/Architecture.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.4/MigrationGuide.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/a72be2f875c607b0ba843b92.md",
+      "kind": "official-document",
+      "bytes": 1641,
+      "sha256": "da75f376fa60814a056404991415d2932346c63a19504214380a71d82f859c96",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.4/MigrationGuide.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.4/Troubleshooting.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/fbb70c3ef206e5b7fe7a2ffb.md",
+      "kind": "official-document",
+      "bytes": 8603,
+      "sha256": "7612fc17ea2fa24cc621579e008cd6341e6bab2cbdc516e319edc5e21ad10ae5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.4/Troubleshooting.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.5/Architecture.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/75a4e3aee9d1f42d3d21a476.md",
+      "kind": "official-document",
+      "bytes": 706,
+      "sha256": "8a0e4f437d02bcfb657db40f985341a1be477bdb09e2772e7cedc76c0ea67284",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.5/Architecture.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.5/MigrationGuide.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/0a71a4af33a06f1edfc984c7.md",
+      "kind": "official-document",
+      "bytes": 1641,
+      "sha256": "da75f376fa60814a056404991415d2932346c63a19504214380a71d82f859c96",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.5/MigrationGuide.md"
+    },
+    {
+      "path": "website/versioned_docs/version-30.5/Troubleshooting.md",
+      "localPath": "raw/jestjs--jest/202dd8a14777/b1e2d2336d8b2e35eaab197c.md",
+      "kind": "official-document",
+      "bytes": 8603,
+      "sha256": "7612fc17ea2fa24cc621579e008cd6341e6bab2cbdc516e319edc5e21ad10ae5",
+      "sourceUrl": "https://github.com/jestjs/jest/blob/202dd8a14777c270607c2416bd5034c3c0abc984/website/versioned_docs/version-30.5/Troubleshooting.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

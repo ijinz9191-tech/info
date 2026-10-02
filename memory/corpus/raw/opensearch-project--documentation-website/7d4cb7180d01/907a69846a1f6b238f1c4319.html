@@ -1,0 +1,336 @@
+---
+layout: table_wrappers
+---
+
+<!DOCTYPE html>
+
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include head.html %}
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-grid" viewBox="0 0 24 24">
+      <title>Documentation Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid">
+        <rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect>
+      </svg>
+    </symbol>
+  </svg>
+
+  {% include header.html %}
+
+  <main>
+    <div id="main-header"></div>
+    <div class="side-bar sidebar-container">
+      <div class="site-header">
+        <a href="{{site.latesturl}}/" id="menu-button" class="site-button">
+          Documentation <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-grid"></use></svg>
+        </a>
+      </div>
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">        
+        {%- comment -%}
+          Resolve the section's canonical URL.
+          Sections default to "/<section>/" unless the section's defaults block in
+          _config.yml sets an explicit "section-url" (e.g. migration-assistant-classic
+          lives at /classic/migration-assistant/, not /migration-assistant-classic/).
+        {%- endcomment -%}
+        {%- capture default_section_href -%}/{{ page.section }}/{%- endcapture -%}
+        {%- assign section_href = page.section-url | default: default_section_href -%}
+        <div class="version-wrapper" id="version-panel">
+          {% if page.section == "opensearch" %}
+            <a href="{{site.url}}{{site.baseurl}}/about/" class="site-category">{{ page.section-name }}</a>
+          {% else %}
+            <a href="{{site.url}}{{site.baseurl}}{{ section_href }}" class="site-category">{{ page.section-name }}</a>
+          {% endif %}
+          
+          <a href="{{site.url}}{{site.latesturl}}/" class="back-link">&#x2190; Back to docs home</a>
+          
+          {% if page.section == "opensearch" %}
+            <version-selector selected="{{ site.data.versions.current }}"></version-selector>
+          {% endif %}
+          </div>
+        {% assign pages_top_size = site.html_pages
+            | where_exp:"item", "item.title != nil"
+            | where_exp:"item", "item.parent == nil"
+            | where_exp:"item", "item.nav_exclude != true"
+            | size %}
+        {% if pages_top_size > 0 %}
+          {% include nav.html pages=site.html_pages key=nil expanded=true %}
+        {% endif %}
+
+        {% if page.section == "opensearch" %}
+          {% assign section = site.opensearch_collection.collections %}
+        {% elsif page.section == "data-prepper" %}
+          {% assign section = site.data_prepper_collection.collections %}
+        {% elsif page.section == "clients" %}
+          {% assign section = site.clients_collection.collections %}
+        {% elsif page.section == "benchmark" %}
+          {% assign section = site.benchmark_collection.collections %}
+        {% elsif page.section == "migration-assistant" %}
+          {% assign section = site.migration_assistant_collection.collections %}
+        {% elsif page.section == "migration-assistant-classic" %}
+          {% assign section = site.migration_assistant_classic_collection.collections %}
+        {% endif %}
+
+        {% if section %}
+          {% assign collections_size = section | size %}
+          {% for collection_entry in section %}
+            {% assign collection_key = collection_entry[0] %}
+            {% assign collection_value = collection_entry[1] %}
+            {% assign collection = site[collection_key] %}
+            {% if collection_value.nav_exclude != true %}
+              {% assign owned_tree_id = collection_key | append: "_" | append: forloop.index | append: "_navitems" | replace: " ", "_" %}
+              {% if collections_size > 1 or pages_top_size > 0 %}
+                {% if collection_value.nav_fold == true %}
+                  <ul
+                    role="tree" 
+                    class="nav-list nav-category-list"
+                  >
+                    <li role="none" class="nav-list-item{% if page.collection == collection_key %} active{% endif %}">
+                      
+                      {% assign collection_url_path = collection_key | append: "/" %}
+                      {% assign category_comparison_url = "/" | append: collection_url_path %}
+                      {%- if collection.size > 1 -%}
+                        <a 
+                          role="treeitem"
+                          aria-owns="{{ owned_tree_id }}"
+                          aria-current="{% if page.collection == collection_key %}page{% endif %}"
+                          href="#" 
+                          class="nav-list-expander"
+                        ><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>
+                      {%- endif -%}
+                      <a 
+                        role="treeitem"
+                        aria-owns="{{ owned_tree_id }}"
+                        aria-current="{% if page.collection == collection_key %}page{% endif %}"
+                        class="nav-category{% if category_comparison_url == page.url %} active{% endif %}" 
+                        href="{{ collection_url_path | relative_url  }}"
+                      >{{ collection_value.name }}</a>
+                      {% include nav.html pages=collection key=collection_key owned_tree_id=owned_tree_id %}
+                    </li>
+                  </ul>
+                {% else %}
+                  {% assign collection_url_path = collection_key | append: "/" %}
+                  <a 
+                    role="treeitem"
+                    aria-owns="{{ owned_tree_id }}"
+                    aria-current="{% if page.collection == collection_key %}page{% endif %}"
+                    class="nav-category{% if category_comparison_url == page.url %} active{% endif %}"
+                    href="{{ collection_url_path | relative_url }}"
+                  >{{ collection_value.name }}</a>
+                  {% include nav.html pages=collection key=collection_key owned_tree_id=owned_tree_id %}
+                {% endif %}
+              {% else %}
+                {% include nav.html pages=collection key=collection_key owned_tree_id=owned_tree_id %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        </nav>
+    </div>
+    <div class="main">
+      <div id="main-content-wrap" class="main-content-wrap content-container">
+        {% unless page.url == "/" %}
+          {%- comment -%}Check if this is a collection index page{%- endcomment -%}
+          {% assign is_collection_index = false %}
+          {% if page.collection and page.parent == nil %}
+            {% assign expected_collection_url = page.collection | prepend: '/' | append: '/' %}
+            {% if page.url == expected_collection_url %}
+              {% assign is_collection_index = true %}
+            {% endif %}
+          {% endif %}
+
+          {% unless is_collection_index %}
+            {% if page.collection or page.parent %}
+            <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+              <ol class="breadcrumb-nav-list">
+                {%- comment -%}Add collection name as first breadcrumb{%- endcomment -%}
+                {% if page.collection %}
+                  {% if page.section == "opensearch" %}
+                    {%- comment -%}For OpenSearch collections, use collection name{%- endcomment -%}
+                    {% assign collection_config = site.opensearch_collection.collections[page.collection] %}
+                    {% if collection_config and collection_config.name %}
+                      <li class="breadcrumb-nav-list-item">
+                        <a href="{{ page.collection | prepend: '/' | append: '/' | relative_url }}">{{ collection_config.name }}</a>
+                      </li>
+                    {% endif %}
+                  {% else %}
+                    {%- comment -%}For non-OpenSearch collections, use section-url (if defined) or section name{%- endcomment -%}
+                    <li class="breadcrumb-nav-list-item">
+                      <a href="{{ section_href | relative_url }}">{{ page.section-name }}</a>
+                    </li>
+                  {% endif %}
+                {% endif %}
+                {% if page.parent %}
+                  {%- comment -%}Build page list for URL lookups{%- endcomment -%}
+                  {%- assign all_pages = site.pages -%}
+                  {%- if page.collection -%}
+                    {%- assign current_collection = site[page.collection] -%}
+                    {%- if current_collection -%}
+                      {%- assign all_pages = all_pages | concat: current_collection -%}
+                    {%- endif -%}
+                  {%- endif -%}
+
+                  {%- comment -%}Collect ancestor titles (deepest ancestor first){%- endcomment -%}
+                  {%- assign breadcrumb_titles = "" | split: "" -%}
+                  {%- if page.great_grand_parent -%}
+                    {%- assign breadcrumb_titles = breadcrumb_titles | push: page.great_grand_parent -%}
+                  {%- endif -%}
+                  {%- if page.grand_parent -%}
+                    {%- assign breadcrumb_titles = breadcrumb_titles | push: page.grand_parent -%}
+                  {%- endif -%}
+                  {%- assign breadcrumb_titles = breadcrumb_titles | push: page.parent -%}
+
+                  {%- for crumb_title in breadcrumb_titles -%}
+                    {%- assign crumb_url = "" -%}
+                    {%- for p in all_pages -%}
+                      {%- if p.title == crumb_title and p.collection == page.collection -%}
+                        {%- assign crumb_url = p.url | relative_url -%}
+                        {%- break -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+                    <li class="breadcrumb-nav-list-item"><a href="{{ crumb_url }}">{{ crumb_title }}</a></li>
+                  {%- endfor -%}
+                {% endif %}
+                <li class="breadcrumb-nav-list-item"><span>{{ page.title }}</span></li>
+              </ol>
+            </nav>
+            {% endif %}
+          {% endunless %}
+        {% endunless %}
+        <div id="main-content" class="main-content content-container" role="main">
+          {% if page.section == "opensearch" %}
+            {% if site.doc_version == "supported" %}
+              <p class="supported-version-warning">You're viewing version {{site.opensearch_major_minor_version}} of the OpenSearch documentation. For the latest version, see the <a href="{% if page.url contains '404' %}{{ site.url }}{{ site.latesturl }}/about/{% else %}{{ site.url }}{{ site.latesturl }}{{ page.url }}{% endif %}">current documentation</a>. For information about OpenSearch version maintenance, see <a href="https://opensearch.org/releases.html">Release Schedule and Maintenance Policy</a>.</p>
+            {% elsif site.doc_version == "unsupported" %}
+              <p class="unsupported-version-warning">You're viewing version {{site.opensearch_major_minor_version}} of the OpenSearch documentation. This version is no longer maintained. For the latest version, see the <a href="{% if page.url contains '404' %}{{ site.url }}{{ site.latesturl }}/about/{% else %}{{ site.url }}{{ site.latesturl }}{{ page.url }}{% endif %}">current documentation</a>. For information about OpenSearch version maintenance, see <a href="https://opensearch.org/releases.html">Release Schedule and Maintenance Policy</a>.</p>
+            {% endif %}
+          {% endif %}
+          {% if page.section == "migration-assistant-classic" %}
+            <p class="supported-version-warning">You're viewing the <strong>classic</strong> version of Migration Assistant documentation (ECS/CDK-based). For the latest Kubernetes-based version, see the <a href="{{ site.url }}{{ site.baseurl }}/migration-assistant/">current documentation</a>.</p>
+          {% endif %}
+          {% if page.section == "migration-assistant" %}
+            <p class="migration-assistant-version-banner">You're viewing the <strong>current</strong> version of Migration Assistant documentation (Kubernetes/EKS-based). For the classic ECS/CDK-based version, see the <a href="{{ site.url }}{{ site.baseurl }}/classic/migration-assistant/">classic documentation</a>.</p>
+          {% endif %}
+          {% if site.heading_anchors != false %}
+            {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+          {% else %}
+            {{ content }}
+          {% endif %}
+          
+          <a class="top-link" href="#top">
+            <svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg>
+          </a>
+
+          {% if page.has_children == true and page.has_toc != false %}
+            <hr>
+            <h2>Related documentation</h2>
+            <ul>
+              {% for child in toc_list %}
+                <li>
+                  <a href="{{ child.url | absolute_url }}">{{ child.title }}</a>{% if child.summary %} - {{ child.summary }}{% endif %}
+                </li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+
+          {% capture footer_custom %}
+            {%- include footer_custom.html -%}
+          {% endcapture %}
+          {% if footer_custom != "" or site.last_edit_timestamp or site.gh_edit_link %}
+            <hr>
+            <footer>
+              {% if site.back_to_top %}
+                <p><a href="#top" id="back-to-top">{{ site.back_to_top_text }}</a></p>
+              {% endif %}
+
+              {{ footer_custom }}
+
+              {% if site.last_edit_timestamp or site.gh_edit_link %}
+                <div class="d-flex mt-2">
+                  {% if site.last_edit_timestamp and site.last_edit_time_format and page.last_modified_date %}
+                    <p class="text-small text-grey-dk-000 mb-0 mr-2">
+                      Page last modified: <span class="d-inline-block">{{ page.last_modified_date | date: site.last_edit_time_format }}</span>.
+                    </p>
+                  {% endif %}
+                  {% if
+                    site.gh_edit_link and
+                    site.gh_edit_link_text and
+                    site.gh_edit_repository and
+                    site.gh_edit_branch and
+                    site.gh_edit_view_mode
+                  %}
+                    <p class="text-small text-grey-dk-000 mb-0">
+                      <a href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}{% if site.gh_edit_source %}/{{ site.gh_edit_source }}{% endif %}/{{ page.path }}" id="edit-this-page">{{ site.gh_edit_link_text }}</a>
+                    </p>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </footer>
+          {% endif %}
+
+        </div>
+      </div>
+      <div class="toc-wrap">
+        <div class="sticky-wrap">
+          <div class="toc">
+            {% include toc.html html=content h_min=2 h_max=3 class="toc-list" item_class="toc-item" sanitize=true %}
+          </div>
+          {% include feedback.html %}
+        </div>
+      </div>
+      {% if site.search_enabled != false %}
+        {% if site.search.button %}
+          <a href="#" id="search-button" class="search-button">
+            <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-search"></use></svg>
+          </a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </main>
+
+  {% include footer.html %}
+
+  {% if site.anchor_links != nil %}
+    <script>
+      anchors.add().remove('.subfooter h1, .subfooter h2');
+    </script>
+  {% endif %}
+  {% if site.search_enabled == false and site.use_custom_search == true %}
+  <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  {% endif %}
+  <script src="{{ '/assets/js/copy-button.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/nav-scroll.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/listener.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
+</body>
+</html>

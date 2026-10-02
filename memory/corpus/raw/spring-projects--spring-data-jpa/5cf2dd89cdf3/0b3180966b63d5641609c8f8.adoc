@@ -1,0 +1,89 @@
+[[jpa.projections]]
+= Projections
+
+:projection-collection: Collection
+
+== Introduction
+
+include::{commons}@data-commons::page$repositories/projections-intro.adoc[leveloffset+=1]
+
+include::{commons}@data-commons::page$repositories/projections-interface.adoc[leveloffset=2]
+
+include::{commons}@data-commons::page$repositories/projections-class.adoc[leveloffset=2]
+
+== Using Projections with JPA
+
+You can use Projections with JPA in several ways.
+Depending on the technique and query type, you need to apply specific considerations.
+
+Spring Data JPA uses generally `Tuple` queries to construct interface proxies for <<projections.interfaces,Interface-based Projections>>.
+
+=== Derived queries
+
+Query derivation supports both, class-based and interface projections by introspecting the returned type.
+Class-based projections use JPA's instantiation mechanism (constructor expressions) to create the projection instance.
+
+Projections limit the selection to top-level properties of the target entity.
+Any nested properties resolving to joins select the entire nested property causing the full join to materialize.
+
+=== String-based queries
+
+Support for string-based queries covers both JPQL queries (`@Query`) and native queries (`@NativeQuery`).
+
+==== JPQL Queries
+
+JPA's mechanism to return <<projections.dtos,Class-based projections>> using JPQL is *constructor expressions*.
+Therefore, your query must define a constructor expression such as `SELECT new com.example.NamesOnly(u.firstname, u.lastname) from User u`.
+(Note the usage of a FQDN for the DTO type!) This JPQL expression can be used in `@Query` annotations as well where you define any named queries.
+As a workaround you may use named queries with `ResultSetMapping` or the Hibernate-specific javadoc:{hibernatejavadocurl}org.hibernate.query.ResultListTransformer[].
+
+Spring Data JPA can aid with rewriting your query to a constructor expression if your query selects the primary entity or a list of select items.
+
+===== DTO Projection JPQL Query Rewriting
+
+JPQL queries allow selection of the root object, individual properties, and DTO objects through constructor expressions.
+Using a constructor expression can quickly add a lot of text to a query and make it difficult to read the actual query.
+Spring Data JPA can support you with your JPQL queries by introducing constructor expressions for your convenience.
+
+Consider the following queries:
+
+.Projection Queries
+====
+[source,java]
+----
+interface UserRepository extends Repository<User, Long> {
+
+  @Query("SELECT u FROM User u WHERE u.lastname = :lastname")                       <1>
+  List<UserDto> findByLastname(String lastname);
+
+  @Query("SELECT u.firstname, u.lastname FROM User u WHERE u.lastname = :lastname") <2>
+  List<UserDto> findMultipleColumnsByLastname(String lastname);
+}
+
+record UserDto(String firstname, String lastname){}
+----
+
+<1> Selection of the top-level entity.
+This query gets rewritten to `SELECT new UserDto(u.firstname, u.lastname) FROM User u WHERE u.lastname = :lastname`.
+<2> Multi-select of `firstname` and `lastname` properties.
+This query gets rewritten to `SELECT new UserDto(u.firstname, u.lastname) FROM User u WHERE u.lastname = :lastname`.
+====
+
+[WARNING]
+====
+JPQL constructor expressions must not contain aliases for selected columns and query rewriting will not remove them for you.
+While `SELECT u as user, count(u.roles) as roleCount FROM User u …` is a valid query for interface-based projections that rely on column names from the returned `Tuple`, the same construct is invalid when requesting a DTO where it needs to be `SELECT u, count(u.roles) FROM User u …`. +
+Some persistence providers may be lenient about this, others not.
+====
+
+Repository query methods that return a DTO projection type (a Java type outside the domain type hierarchy) are subject to query rewriting.
+If an `@Query`-annotated query already uses constructor expressions, then Spring Data backs off and doesn't apply DTO constructor expression rewriting.
+
+Make sure that your DTO types provide an all-args constructor for the projection, otherwise the query will fail.
+
+==== Native Queries
+
+When using <<projections.dtos,Class-based projections>>, their usage requires slightly more consideration depending on your use case:
+
+* If properties of the result type map directly to the result (the order of columns and their types match the constructor arguments), then you can declare the query result type as the DTO type without further hints (or use the DTO class through dynamic projections).
+* If the properties do not match or require transformation, use `@SqlResultSetMapping` through JPA's annotations to map the result set to the DTO and provide the result mapping name through `@NativeQuery(resultSetMapping = "…")`.

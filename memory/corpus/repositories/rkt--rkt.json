@@ -1,0 +1,801 @@
+{
+  "schemaVersion": 1,
+  "repo": "rkt/rkt",
+  "commit": "171c416fac02516604e48d2e65153dd55a12513e",
+  "retrievedAt": "2026-10-01T15:27:36.366048+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Runtime/Container Runtime"
+  ],
+  "archiveUrl": "https://codeload.github.com/rkt/rkt/zip/171c416fac02516604e48d2e65153dd55a12513e",
+  "archiveSha256": "a11a248c96afa451d3255d01d6ef9528be82af491c02bbe20d2a43f4dabe5535",
+  "archiveBytes": 4982531,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 88,
+    "code": 6,
+    "licenses": 3,
+    "bytes": 655768
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 131262,
+      "sha256": "03de4d37e3d0e018108ea3407e3b502423f8f0b184b03903304520b8dac1bb5d",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/CHANGELOG.md"
+    },
+    {
+      "path": "CODE-OF-CONDUCT.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/a82fe1c8cecf4df558b8f06a.md",
+      "kind": "official-document",
+      "bytes": 138,
+      "sha256": "7668f7f60bdb590ffd3bbd30e32fd5ebe41336fbe87ab19ca9d8750771c61073",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/CODE-OF-CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4892,
+      "sha256": "d1282b4a335f9b93dbd16b3ea6ad8f8ac38b3b03e60dbae8250fde46e0d822e8",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/CONTRIBUTING.md"
+    },
+    {
+      "path": "Documentation/aci-hosting.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/c88909233cd6f9f8578c8cc5.md",
+      "kind": "official-document",
+      "bytes": 3290,
+      "sha256": "1cc7b56d54ab8701ff00bf3c4a052709fbda904df0fb9e4f2ea78bfe653d417f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/aci-hosting.md"
+    },
+    {
+      "path": "Documentation/app-container.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/7c1caabae8051dd6ae74f80e.md",
+      "kind": "official-document",
+      "bytes": 3611,
+      "sha256": "59cf3c66ca4c713362afe8403ef0045d85a52669e2772855dfa1ceae6a1272da",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/app-container.md"
+    },
+    {
+      "path": "Documentation/app-environment.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/954289bffba993c06db70c39.md",
+      "kind": "official-document",
+      "bytes": 951,
+      "sha256": "d52235d5f8a2b026b36955b28c3ecb77450376129565c07f687c1ce446632f75",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/app-environment.md"
+    },
+    {
+      "path": "Documentation/block-devices.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/66790b129ed4965588ed2fa2.md",
+      "kind": "official-document",
+      "bytes": 6217,
+      "sha256": "bb04da6a6caf988694a92dd6364399b485633140d0b94abc22d36e92fbb63453",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/block-devices.md"
+    },
+    {
+      "path": "Documentation/build-configure.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/0443aa329d8bc7789c2c693f.md",
+      "kind": "official-document",
+      "bytes": 8677,
+      "sha256": "e21421823411fb26a50de649064028a4b5f66c112af441e2df3d104d7f901e5c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/build-configure.md"
+    },
+    {
+      "path": "Documentation/capabilities-guide.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/8df9f26873f9ffe657d345ea.md",
+      "kind": "official-document",
+      "bytes": 17356,
+      "sha256": "b4129346d68cf3154fc9c688e0d51f20006a677149f8d35db5f9a5895e0dbb93",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/capabilities-guide.md"
+    },
+    {
+      "path": "Documentation/commands.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/10f0f06a61effafb892fa7da.md",
+      "kind": "official-document",
+      "bytes": 8764,
+      "sha256": "acdfa4f6d79a5ce04eed196e46445e1f582c5f9a770eafcf559b4217cf9919a5",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/commands.md"
+    },
+    {
+      "path": "Documentation/configuration.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/95a518b6fd64b28aee851ae1.md",
+      "kind": "official-document",
+      "bytes": 17380,
+      "sha256": "b68f8aae993cb759a944dbf1d6124cea6b550218e03ab81d72843ed502ba718a",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/configuration.md"
+    },
+    {
+      "path": "Documentation/dependencies.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/8e9de17ce271d540a816e71d.md",
+      "kind": "official-document",
+      "bytes": 2223,
+      "sha256": "0a77bb4bbe575883126ad0eb9ed2c2aaba272abbac8414c4a1fdfd74e5504109",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/dependencies.md"
+    },
+    {
+      "path": "Documentation/devel/architecture.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/87d276a70bea028220a307f7.md",
+      "kind": "official-document",
+      "bytes": 18782,
+      "sha256": "b100cd5e1eeaba39adc253bcc7202123d1c2ab54a83e969bba933a6ef9fd8aad",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/architecture.md"
+    },
+    {
+      "path": "Documentation/devel/cgroups.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/17bde489bcbc1bb35d79d5c0.md",
+      "kind": "official-document",
+      "bytes": 4456,
+      "sha256": "033296c3ceb11db5af0513407554147cd1a29b03c84eabaa30c040d55be356b8",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/cgroups.md"
+    },
+    {
+      "path": "Documentation/devel/debugging.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/8e7a763e311b3d6d970c3357.md",
+      "kind": "official-document",
+      "bytes": 9581,
+      "sha256": "1816e5bdcb9f58f45116833a2672d4d85785a78ff096e195dc4e4b2b04b51eb6",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/debugging.md"
+    },
+    {
+      "path": "Documentation/devel/distribution-point.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/1471537df7d725dd8b22ffd0.md",
+      "kind": "official-document",
+      "bytes": 9405,
+      "sha256": "e5d8e79b0291b08bd9cda0d549657097148861afa5b66101691da98853454edb",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/distribution-point.md"
+    },
+    {
+      "path": "Documentation/devel/inspect-containers.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/ebad2b513b52b65e36d0cb83.md",
+      "kind": "official-document",
+      "bytes": 19409,
+      "sha256": "d95bc2792aabe607411328a8f3ba36a8a649e84d5bdf9b5ae9d940492f33b177",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/inspect-containers.md"
+    },
+    {
+      "path": "Documentation/devel/log-attach-design.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/f77d923f575033ffbc282a7c.md",
+      "kind": "official-document",
+      "bytes": 9974,
+      "sha256": "fd4eac60b3930750fb20c8ba604a8a58e2c9c28e5c3140dd5160564baf3fe3db",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/log-attach-design.md"
+    },
+    {
+      "path": "Documentation/devel/on-disk-format.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/92c6fb5c3dfa2204f1f737e3.md",
+      "kind": "official-document",
+      "bytes": 1144,
+      "sha256": "ba139ee05bbabfb4708efa4491c69b95beadeb8952e80446119721cca2705dfc",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/on-disk-format.md"
+    },
+    {
+      "path": "Documentation/devel/pod-lifecycle.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/d0be33bf1a803622b9ce668b.md",
+      "kind": "official-document",
+      "bytes": 12439,
+      "sha256": "3e7eb04e984aedc96fa495355efd8080702aeb572d13537296a07d7aced592da",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/pod-lifecycle.md"
+    },
+    {
+      "path": "Documentation/devel/quickstart-dev.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/2aa882488e330ba93aacd580.md",
+      "kind": "official-document",
+      "bytes": 2973,
+      "sha256": "2bdf9e6130e2e594238a74a35155e33aca880cd36f0f1963be2130d50de951e6",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/quickstart-dev.md"
+    },
+    {
+      "path": "Documentation/devel/release.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/a0e302bde36418889326d960.md",
+      "kind": "official-document",
+      "bytes": 7438,
+      "sha256": "8c13ec9c9016b95198232243a1950417f5f7b360615775c65ae46d042e47d1e1",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/release.md"
+    },
+    {
+      "path": "Documentation/devel/stage1-implementors-guide.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/0bb93cde7ca1412625776b87.md",
+      "kind": "official-document",
+      "bytes": 15559,
+      "sha256": "d5ec34a2b3fec3ddde9f6b1e8f2f30e14715a8433a945bcaec67ad64e7e8a540",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/stage1-implementors-guide.md"
+    },
+    {
+      "path": "Documentation/devel/tpm.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/46cae30fb245753c414bd189.md",
+      "kind": "official-document",
+      "bytes": 968,
+      "sha256": "20f18370d1eed5144a61f56910a87bb45a50fedea12be5e9fa089eccb68cab58",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/tpm.md"
+    },
+    {
+      "path": "Documentation/devel/update-coreos-stage1.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/11c0424a1b7475d635e857b9.md",
+      "kind": "official-document",
+      "bytes": 6398,
+      "sha256": "9813f449ace40ec9999114c260a00378fc64e6e1d717dadd0d0f1a1892eaf3a2",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/update-coreos-stage1.md"
+    },
+    {
+      "path": "Documentation/devel/user-namespaces.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/5fb39a3c1bef706b2e10ca8e.md",
+      "kind": "official-document",
+      "bytes": 1966,
+      "sha256": "2e63708c1925dc97c2db69055bf549e7c322d865d7d166bfaa4889cfb448536e",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/devel/user-namespaces.md"
+    },
+    {
+      "path": "Documentation/distributions.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/bc9b4c071c7bd20f51ee373c.md",
+      "kind": "official-document",
+      "bytes": 6291,
+      "sha256": "be39bacce5037278cf1f624692414be8359407bf45efa274fe0ea801318002df",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/distributions.md"
+    },
+    {
+      "path": "Documentation/examples/build-container/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/f7a6ffcb95db698d788567b7.md",
+      "kind": "official-document",
+      "bytes": 2889,
+      "sha256": "5e44edea34492b7b890b5ae8e4b3fdfc7eafccde7553c48776034e87339e78d4",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/build-container/README.md"
+    },
+    {
+      "path": "Documentation/examples/build-container/play-example/build-play-example.sh",
+      "localPath": "raw/rkt--rkt/171c416fac02/f2c13ae73c94e0e41615cf2f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1411,
+      "sha256": "ed01528856235ee102557918e26580a0a2a38abf2d27ccb9459ac8ad88dc4907",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/build-container/play-example/build-play-example.sh"
+    },
+    {
+      "path": "Documentation/examples/build-container/play-example/custom.sql",
+      "localPath": "raw/rkt--rkt/171c416fac02/735de9fe71cc667c395443bc.sql",
+      "kind": "upstream-example-code",
+      "bytes": 75,
+      "sha256": "6eee37dfc275e6740ffdc5e821f06f883ab658634fc147fd6710730b4454e879",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/build-container/play-example/custom.sql"
+    },
+    {
+      "path": "Documentation/examples/build-container/play-example/wait-for-postgres.sh",
+      "localPath": "raw/rkt--rkt/171c416fac02/786833d3d382e2a808ce97ed.sh",
+      "kind": "upstream-example-code",
+      "bytes": 239,
+      "sha256": "5f709205c5c99b4e061297e939f7e650b9a52be603096c81fc49aca3bf03fb1f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/build-container/play-example/wait-for-postgres.sh"
+    },
+    {
+      "path": "Documentation/examples/build-container/postgres/build-postgres.sh",
+      "localPath": "raw/rkt--rkt/171c416fac02/4671cb2b0fe6ee9332bfd499.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1827,
+      "sha256": "e57a0a64e08980bc5ff2dc2f6f7818415a715109c8d6e7df2cecc10790b46311",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/build-container/postgres/build-postgres.sh"
+    },
+    {
+      "path": "Documentation/examples/build-container/postgres/postgres-prestart.sh",
+      "localPath": "raw/rkt--rkt/171c416fac02/330fc23103ca6b2de0586ab7.sh",
+      "kind": "upstream-example-code",
+      "bytes": 4177,
+      "sha256": "9f838f6a004a994cfab8a3809b599efd983f4e214dc78cd1ff1adc7bcee77065",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/build-container/postgres/postgres-prestart.sh"
+    },
+    {
+      "path": "Documentation/examples/metadata-service/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/23971c0a54bcfa1d5d7f674b.md",
+      "kind": "official-document",
+      "bytes": 2737,
+      "sha256": "6bd05416de97b6897f1c2ca028029227adbf7741df49494eccac01c1ffd4904c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/metadata-service/README.md"
+    },
+    {
+      "path": "Documentation/examples/metadata-service/main.go",
+      "localPath": "raw/rkt--rkt/171c416fac02/ce0329dd7675ac751c7de1ff.go",
+      "kind": "upstream-example-code",
+      "bytes": 5257,
+      "sha256": "fed5982fb5f854019848c83e8490478f308a99d8107b4eeb9fb306fe1d2b47ce",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/examples/metadata-service/main.go"
+    },
+    {
+      "path": "Documentation/getting-started-guide.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/cfa692bb9c354efa8bdafc08.md",
+      "kind": "official-document",
+      "bytes": 3224,
+      "sha256": "c6fafa7805e405ba57533db3f7382c80fa02e41097bebd52390a405850c3b9a6",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/getting-started-guide.md"
+    },
+    {
+      "path": "Documentation/hacking.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/cdbc595dddb79d6fe8fd17be.md",
+      "kind": "official-document",
+      "bytes": 10059,
+      "sha256": "d9dbd21435b31974ecb1c187ffeeef41c548abad7e3fbaae8e82d33f5dac4ee3",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/hacking.md"
+    },
+    {
+      "path": "Documentation/image-fetching-behavior.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/ff86b03877fec6625c9c2c94.md",
+      "kind": "official-document",
+      "bytes": 2551,
+      "sha256": "4c47cf8a4c03637906850075f2cb763188a12eb82bfe101539d04984c4398b13",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/image-fetching-behavior.md"
+    },
+    {
+      "path": "Documentation/install-rkt-in-coreos.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/129de31d3bde030443ae3889.md",
+      "kind": "official-document",
+      "bytes": 1707,
+      "sha256": "3d26eb3ad782778b592fab8759ee9fbdd355f99d20b11b66a6274051d9d187be",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/install-rkt-in-coreos.md"
+    },
+    {
+      "path": "Documentation/integrations.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/6fcd0660375d9ec6c110ddb4.md",
+      "kind": "official-document",
+      "bytes": 1551,
+      "sha256": "d58bdb5e5f2606f98bef13bf07bc9af00510d9676677364f2da7fc63f7ee5e38",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/integrations.md"
+    },
+    {
+      "path": "Documentation/networking/dns.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/3d98279cb36abb0b01ec4191.md",
+      "kind": "official-document",
+      "bytes": 3131,
+      "sha256": "a133391f1a3d35d137c384bc3c8aaa9e87c7ddf9ecf0eb2ce1f498477162f6be",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/networking/dns.md"
+    },
+    {
+      "path": "Documentation/networking/examples-bridge.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/79f874479267050d7818587b.md",
+      "kind": "official-document",
+      "bytes": 1977,
+      "sha256": "23a6a5ec9b7cf7223b61e9701ad042b26ef9f7ef6ca42b0e94538fb18ed1dd60",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/networking/examples-bridge.md"
+    },
+    {
+      "path": "Documentation/networking/overriding-defaults.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/200cc2e47321b41dab78d7c7.md",
+      "kind": "official-document",
+      "bytes": 2452,
+      "sha256": "03f5348b3619301d96be013bec44bb983d0534c17070c0288e6070aae0a9bbcb",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/networking/overriding-defaults.md"
+    },
+    {
+      "path": "Documentation/networking/overview.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/d8309e05857ee36b1e5c2629.md",
+      "kind": "official-document",
+      "bytes": 17598,
+      "sha256": "bb3e823de33b308798b0874ae6c358860f9c34139a72c48dbdafaa043e1a1544",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/networking/overview.md"
+    },
+    {
+      "path": "Documentation/packaging.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/ee72175bb269784d03379a4f.md",
+      "kind": "official-document",
+      "bytes": 4624,
+      "sha256": "aeaf4a6c4f47e922e5fbefeb9911d1f9fc5efa1544bb5b04dab1e8500fc6e109",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/packaging.md"
+    },
+    {
+      "path": "Documentation/performance/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/a96cc304a48717e2c4601e82.md",
+      "kind": "official-document",
+      "bytes": 2426,
+      "sha256": "b7815e0aa88b5558ce2605bdccd3c3ab3dcff2cd2185ce5a1ed4e7a3d9fa1933",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/performance/README.md"
+    },
+    {
+      "path": "Documentation/performance/rkt-1-4-0-benchmarks.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/e31d0fba0ab38c52144a6763.md",
+      "kind": "official-document",
+      "bytes": 2876,
+      "sha256": "80b4b7eac37ee84f342001467631d2309413c71d59ea93b9fc652a7d99a94050",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/performance/rkt-1-4-0-benchmarks.md"
+    },
+    {
+      "path": "Documentation/pod-manifest.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/89f6451596ceb7a1b410635d.md",
+      "kind": "official-document",
+      "bytes": 3405,
+      "sha256": "6ae19ee83739c769f85b67e038c68df1717e86bcf24a3e33df61d64cb917acfd",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/pod-manifest.md"
+    },
+    {
+      "path": "Documentation/production-users.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/cc6e21e03f01925fe289d84c.md",
+      "kind": "official-document",
+      "bytes": 4560,
+      "sha256": "903bc8c53520602b30a922b6b80b34517beedd8d075957a9b1fe40bd60b6889f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/production-users.md"
+    },
+    {
+      "path": "Documentation/proposals/app-level-api.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/c230a383a93d6f802e4528b0.md",
+      "kind": "official-document",
+      "bytes": 7903,
+      "sha256": "96c5f4047881a9700a963103ccfff13d0bf204c55ceda901dbfb63dfc9f0ec8f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/proposals/app-level-api.md"
+    },
+    {
+      "path": "Documentation/proposals/oci.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/70eac2757c69e062c7bae30a.md",
+      "kind": "official-document",
+      "bytes": 8920,
+      "sha256": "90a398c19db5affd0719be0cbb6b5bfc28657656ffaaa59527c9cd1249ae662f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/proposals/oci.md"
+    },
+    {
+      "path": "Documentation/rkt-build-rkt.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/ef08fafa4d4ea1383c24034b.md",
+      "kind": "official-document",
+      "bytes": 668,
+      "sha256": "ec7e9e75de885f964aadbf41b075667372daae11a48d64a9969263087eee0d0f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/rkt-build-rkt.md"
+    },
+    {
+      "path": "Documentation/rkt-vs-other-projects.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/3f7159d36efc7d204db5ac82.md",
+      "kind": "official-document",
+      "bytes": 10802,
+      "sha256": "b8872afd9a192475b155df3484ddbe676356e0979c2e9cc72d9edff09db1132c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/rkt-vs-other-projects.md"
+    },
+    {
+      "path": "Documentation/running-docker-images.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/a76c025fce5a6e3b689da570.md",
+      "kind": "official-document",
+      "bytes": 3780,
+      "sha256": "42caa2d189093a9d97dc75f5b3737a1cecea91b063f9da3b6e7c2cc71ab6935c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/running-docker-images.md"
+    },
+    {
+      "path": "Documentation/running-fly-stage1.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/b08ff4afd3367ad5689e40bc.md",
+      "kind": "official-document",
+      "bytes": 3735,
+      "sha256": "36bce9d87138c99ad273d03d3bb52edbea1c7d85bca658f6df1b65959bfc1351",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/running-fly-stage1.md"
+    },
+    {
+      "path": "Documentation/running-kvm-stage1.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/eb5cfabed57a2e686fd2030b.md",
+      "kind": "official-document",
+      "bytes": 4768,
+      "sha256": "4062c6d26a327dbac88d7e6ab03c3dab8986058a3af569c1a3b6425f8f0d140c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/running-kvm-stage1.md"
+    },
+    {
+      "path": "Documentation/seccomp-guide.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/0482cc2cc82ea09673bb1545.md",
+      "kind": "official-document",
+      "bytes": 15562,
+      "sha256": "f4fd584195d7b644caa03fc3bc7bbbc4c4ed41ab734d22ad1203c91be129dba3",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/seccomp-guide.md"
+    },
+    {
+      "path": "Documentation/security.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/d554f798d34ad886a4b63564.md",
+      "kind": "official-document",
+      "bytes": 3973,
+      "sha256": "d8106e388c4617aa75532b4e55f85b67668b0be5175cc0e9ccb9d45081a6fe4a",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/security.md"
+    },
+    {
+      "path": "Documentation/selinux.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/6323ce63c9ce9f7359ecb0da.md",
+      "kind": "official-document",
+      "bytes": 1528,
+      "sha256": "32f44e09f52d60cf593e5218101ac1a2a56f50ba533df518d2e971464b0522d9",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/selinux.md"
+    },
+    {
+      "path": "Documentation/signing-and-verification-guide.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/a6dc3401695ef698f7105f8b.md",
+      "kind": "official-document",
+      "bytes": 12252,
+      "sha256": "496f10beabd3c70e0d4321d1becd87361b6413d15b75a12ee314370d8d9a8dc9",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/signing-and-verification-guide.md"
+    },
+    {
+      "path": "Documentation/subcommands/api-service.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/636d4ff3a5f321ba89d91a42.md",
+      "kind": "official-document",
+      "bytes": 1643,
+      "sha256": "1d6e7f72745801ef79b7b60cc2a2628d36fe41f7471160810636a1bd4ccd91d5",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/api-service.md"
+    },
+    {
+      "path": "Documentation/subcommands/attach.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/778a60ea82d61fabdf266942.md",
+      "kind": "official-document",
+      "bytes": 2700,
+      "sha256": "f05d37fd4242fa307b199e8ecdfc8cc69e08ab0105e0a42e94bcc59dda732270",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/attach.md"
+    },
+    {
+      "path": "Documentation/subcommands/cat-manifest.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/bf954a9da939f7f788ff65e7.md",
+      "kind": "official-document",
+      "bytes": 513,
+      "sha256": "e1895ea19f74e8c5b011c021240ff34e46c0af3ab1f3041b730e5ca2e13fc93c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/cat-manifest.md"
+    },
+    {
+      "path": "Documentation/subcommands/config.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/5324986a7c9b79989ad3bc26.md",
+      "kind": "official-document",
+      "bytes": 3440,
+      "sha256": "d21a961113bff58158b58f01d970fab6da81dfa64aa50c1bb165f0fd5b744e9d",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/config.md"
+    },
+    {
+      "path": "Documentation/subcommands/enter.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/7744aec706b0eb309b5c7de8.md",
+      "kind": "official-document",
+      "bytes": 898,
+      "sha256": "b7337148b38934e8a567f7ce7e196ee489546c4780f29ff5f6611223e6b5c6db",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/enter.md"
+    },
+    {
+      "path": "Documentation/subcommands/export.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/10ed4efd7c1cafb380542542.md",
+      "kind": "official-document",
+      "bytes": 442,
+      "sha256": "6ee8085874adb3cdf5af37c17b36d9f456e212ec9515714fbe45c30d96bd7da5",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/export.md"
+    },
+    {
+      "path": "Documentation/subcommands/fetch.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/c86befbc1e58c8222ea93914.md",
+      "kind": "official-document",
+      "bytes": 4793,
+      "sha256": "343bf2feee7d9b69aa6de57b822ec321fdeae7331fb57de833c39df6b277810f",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/fetch.md"
+    },
+    {
+      "path": "Documentation/subcommands/fly.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/4eae720b488dd6bca5d62d0c.md",
+      "kind": "official-document",
+      "bytes": 268,
+      "sha256": "25d6ccd59920f336177a49b1b6b7c29f15060fc616b1ded42029c1cadcf672c2",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/fly.md"
+    },
+    {
+      "path": "Documentation/subcommands/gc.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/a905226c4fcef96c9ad817f8.md",
+      "kind": "official-document",
+      "bytes": 1552,
+      "sha256": "3b01674b285c32bdf506dd8ab6ca0678e9bf147c0a49bca6042273be3a13d8d2",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/gc.md"
+    },
+    {
+      "path": "Documentation/subcommands/image.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/96b0f062f5d0b4af5d10120a.md",
+      "kind": "official-document",
+      "bytes": 7003,
+      "sha256": "4fee74c27dd7855aeb03eb2b6d6bf2f98da2f3c4636d610f8cff33a4dfeba08d",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/image.md"
+    },
+    {
+      "path": "Documentation/subcommands/list.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/f6b31a9cf48e5ce137998524.md",
+      "kind": "official-document",
+      "bytes": 1542,
+      "sha256": "002be77e2ab59a0b49d3e3e8d4fbce644e758db36280702e70a4c2a4028cc8b3",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/list.md"
+    },
+    {
+      "path": "Documentation/subcommands/metadata-service.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/15eb90d186608381db38856e.md",
+      "kind": "official-document",
+      "bytes": 2153,
+      "sha256": "6e5ca2f1b37b13ffa40273e6a12802c8cef390f5780ee62267d5e5dc4a53c3cc",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/metadata-service.md"
+    },
+    {
+      "path": "Documentation/subcommands/prepare.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/15c2305f5ac31d58d96b750a.md",
+      "kind": "official-document",
+      "bytes": 6707,
+      "sha256": "9575b24f60885fd98128c77bdd2e17b20d1a70d490d9b777c8eb885840f0c436",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/prepare.md"
+    },
+    {
+      "path": "Documentation/subcommands/rm.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/95cffcd82a7e937a55b71720.md",
+      "kind": "official-document",
+      "bytes": 641,
+      "sha256": "8cecdd2e44ecc08713b84bba6197f0cbeeca7dcfd4c4374f73035ff433ece3db",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/rm.md"
+    },
+    {
+      "path": "Documentation/subcommands/run-prepared.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/dafd4af82e19218cf34dcaac.md",
+      "kind": "official-document",
+      "bytes": 4666,
+      "sha256": "01e619b704ebc62277074e08d8f947e092190b4624ad8b2ba64ccb09cec4ae13",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/run-prepared.md"
+    },
+    {
+      "path": "Documentation/subcommands/run.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/cfbe2e7af016b84ac6a83dd7.md",
+      "kind": "official-document",
+      "bytes": 22077,
+      "sha256": "7ba2e8d81281919b37585d38ac79eaf829a78a96833a0a1b2cc747cbd6a4d174",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/run.md"
+    },
+    {
+      "path": "Documentation/subcommands/status.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/4c967e8c5bf4b97d5c156f2b.md",
+      "kind": "official-document",
+      "bytes": 1301,
+      "sha256": "d1bb8750b2574fc3eb6e21ccd48505d1856afc4b68fe774166c0afe73d5f71d3",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/status.md"
+    },
+    {
+      "path": "Documentation/subcommands/stop.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/de99d19898e42d6d849636a7.md",
+      "kind": "official-document",
+      "bytes": 1462,
+      "sha256": "4f6d504fd6357545705891384987955feaff2813ea09a65e6140bb3c314899be",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/stop.md"
+    },
+    {
+      "path": "Documentation/subcommands/trust.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/419bed6bc691df546a4fb649.md",
+      "kind": "official-document",
+      "bytes": 3904,
+      "sha256": "a2d60cb7f096a1311aa9e0f9f577a0f3f01560dc92eba76c8f1b08f00d1cc4da",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/trust.md"
+    },
+    {
+      "path": "Documentation/subcommands/version.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/f28bd4cb53b966d91b731ac0.md",
+      "kind": "official-document",
+      "bytes": 263,
+      "sha256": "e71d7c5f91d02ae4897d1ec3a6daa2138b562a0855b85dc827a4546251993231",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/subcommands/version.md"
+    },
+    {
+      "path": "Documentation/troubleshooting.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/b675c9d735a9057768d2fb0d.md",
+      "kind": "official-document",
+      "bytes": 4398,
+      "sha256": "dc9ed2efba288709ff1dc8e25867753cb65c0d8e35131ff934aeeb9b91b8a5d0",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/troubleshooting.md"
+    },
+    {
+      "path": "Documentation/trying-out-rkt.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/92f4765bbf525eba9cdc4e77.md",
+      "kind": "official-document",
+      "bytes": 14393,
+      "sha256": "b73230c95dd48d7eabfd1728529bb9c02f0ec2c0a58c53054de3b9287f192fcf",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/trying-out-rkt.md"
+    },
+    {
+      "path": "Documentation/upgrading.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/1b45f4a1319445b0432992ab.md",
+      "kind": "official-document",
+      "bytes": 885,
+      "sha256": "b88befb961242426638b2b91faf833f02253ff3cddb9efa1ad25e878b873609a",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/upgrading.md"
+    },
+    {
+      "path": "Documentation/using-rkt-with-kubernetes.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/d020ec11e099b64f701c9d9a.md",
+      "kind": "official-document",
+      "bytes": 3201,
+      "sha256": "6308fa35d5951d8138ee9b795528b0ea99795b5dee3a16be32e15d0da204b8ae",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/using-rkt-with-kubernetes.md"
+    },
+    {
+      "path": "Documentation/using-rkt-with-nomad.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/5d3ad88b8ae9330cda74985f.md",
+      "kind": "official-document",
+      "bytes": 424,
+      "sha256": "03c04adf610077eb197c26fdd341a1b3b57f25ec3ebf61fac36c39254a0a797e",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/using-rkt-with-nomad.md"
+    },
+    {
+      "path": "Documentation/using-rkt-with-systemd.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/5b422e04a8af88530c23e0dd.md",
+      "kind": "official-document",
+      "bytes": 23720,
+      "sha256": "e5dc1b18e8b66e55a71d63d2fb9d966b0f62123d785186527f8b75dfc4a4d4af",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/Documentation/using-rkt-with-systemd.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/rkt--rkt/171c416fac02/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11324,
+      "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6523,
+      "sha256": "94dc148341b1cd232fc3b6e8b2685b16d09328dcff505e7f68199dda96f9af6d",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/README.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 1093,
+      "sha256": "ed926098170a3bb53728fd48287cdc2300a01c268ebcae000f75d42390c9653d",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/ROADMAP.md"
+    },
+    {
+      "path": "api/v1alpha/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/46be22903726c6ce78fa10ec.md",
+      "kind": "official-document",
+      "bytes": 758,
+      "sha256": "94335c487b19c8d45eab783949674d2332d4940c972ed27f1643ca19d57e896c",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/api/v1alpha/README.md"
+    },
+    {
+      "path": "api/v1alpha/docs/docs.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/2e19b7efd6367e2604aa48b1.md",
+      "kind": "official-document",
+      "bytes": 23288,
+      "sha256": "5a1b857a641f9aac5e74c3dc00a484d55ff3a2240afff907abf52fc4080cb45a",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/api/v1alpha/docs/docs.md"
+    },
+    {
+      "path": "pkg/acl/LICENSE.MIT",
+      "localPath": "raw/rkt--rkt/171c416fac02/f5b8f9272f528d3339a17e07.mit",
+      "kind": "license",
+      "bytes": 1204,
+      "sha256": "0fa9ddedf804af7afb8ce9d4169e0df605955765fedb72670978c314fbd33682",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/pkg/acl/LICENSE.MIT"
+    },
+    {
+      "path": "stage1/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/5cdf32d561c4a0607fb8811c.md",
+      "kind": "official-document",
+      "bytes": 136,
+      "sha256": "7e649a0c195d41e71bf7fea849629272841d1b654889f1529f8ba9f196ccd7e1",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/stage1/README.md"
+    },
+    {
+      "path": "stage1/net/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/0ec9d8e3ede627a62abd06ab.md",
+      "kind": "official-document",
+      "bytes": 193,
+      "sha256": "ff58eb2fce00f9a26a7a9e806da2f8d8753cc29b7e64aeb8db99d11f95cf21e5",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/stage1/net/README.md"
+    },
+    {
+      "path": "store/imagestore/LICENSE.BSD",
+      "localPath": "raw/rkt--rkt/171c416fac02/4a5a1113d7ec160ca0521867.bsd",
+      "kind": "license",
+      "bytes": 1634,
+      "sha256": "1cd4420d39d2f084bcc2fd414d7b6fc2ff9152cd92ae2d1068a60d7d4b63bbf7",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/store/imagestore/LICENSE.BSD"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 5078,
+      "sha256": "03826e45d5b10f71ef05c41ba8d09e80ccc0e66f57ad6c7947c8faff47afd3b0",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/tests/README.md"
+    },
+    {
+      "path": "tests/rkt-monitor/README.md",
+      "localPath": "raw/rkt--rkt/171c416fac02/b85e9353d62919c3ce6ce80d.md",
+      "kind": "official-document",
+      "bytes": 3360,
+      "sha256": "10fbf64ec5f6cf4cb0be810b93cd229ff1960f7d06eee0b5f612f0a9ce09bb48",
+      "sourceUrl": "https://github.com/rkt/rkt/blob/171c416fac02516604e48d2e65153dd55a12513e/tests/rkt-monitor/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

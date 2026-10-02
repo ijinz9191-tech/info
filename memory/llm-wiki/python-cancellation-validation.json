@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-02T05:59:17.665Z",
+  "status": "PASS",
+  "python": "3.13.13",
+  "kind": "local-synthetic-contract-checks",
+  "sourceUrl": "https://docs.python.org/3.13/library/asyncio-task.html",
+  "checks": [
+    "shield preserves inner task while caller is cancelled",
+    "wait timeout returns pending without cancellation",
+    "timeout cleanup runs and TimeoutError caught outside context"
+  ],
+  "productionIncidentReproduction": false,
+  "coverage": "Three standard-library contracts only; not operational I/O or Python 3.14 validation"
+}

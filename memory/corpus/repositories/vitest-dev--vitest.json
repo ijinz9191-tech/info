@@ -1,0 +1,2370 @@
+{
+  "schemaVersion": 1,
+  "repo": "vitest-dev/vitest",
+  "commit": "30d0304d2f3e8c877a163971e5de8e6803d39211",
+  "retrievedAt": "2026-10-01T15:45:50.754292+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/testing"
+  ],
+  "archiveUrl": "https://codeload.github.com/vitest-dev/vitest/zip/30d0304d2f3e8c877a163971e5de8e6803d39211",
+  "selectionSha256": "5ec3491010fa28cafde698631588a748ce36ac58bde468ed424f7005152bf432",
+  "selection": {
+    "docRoots": [
+      "docs"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "24c44aa498c810b7961383bd1ffe30ea9ce26046bde81029ff52a4b5597f4730",
+  "archiveBytes": 28320971,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 255,
+    "code": 35,
+    "licenses": 2,
+    "bytes": 1598192
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 18413,
+      "sha256": "222bec6b8a53817d9cf9891d0e31076c9813ca5eab38a675064b6b539d858810",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/AGENTS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 3431,
+      "sha256": "0821e807415d53bd79f3e78a47695c4118fe7de69e4048682a419e2a09adf0ea",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 20181,
+      "sha256": "9d55e947d84afdd9a5f097446a663315b383a98d81be011f8b022a29f08db537",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1102,
+      "sha256": "04575fc5bfae19a9b63100f8691f901a2e15a399011ac02db435a9ef27295551",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 4179,
+      "sha256": "e8ebb122af88ef7d54982ada599ffbc3321db6d57f3902b800031d7745b7bdde",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 6291,
+      "sha256": "cd8dba341f6fd8bb8c35a5bc90497589aca73879e9a05fa0ee0a613c5cda149b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/SECURITY.md"
+    },
+    {
+      "path": "docs/AGENTS.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d00743dc4e878f258330dead.md",
+      "kind": "official-document",
+      "bytes": 1916,
+      "sha256": "604f9cceeaadf99a51ff2385e44cba16d60b6132dfedc0cd43a095514fe30219",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/AGENTS.md"
+    },
+    {
+      "path": "docs/api/advanced/artifacts.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/38df48d073ca221bf8957b71.md",
+      "kind": "official-document",
+      "bytes": 8434,
+      "sha256": "cafbac0eef61078ae7a260c35f678658fe310d5f12a363f43bfc31f075eb6136",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/artifacts.md"
+    },
+    {
+      "path": "docs/api/advanced/import-example.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0814a8d93c7aa618e6805b31.md",
+      "kind": "official-document",
+      "bytes": 59,
+      "sha256": "2960f989f6b4182bcc19415c0f0168780cda38498f02e22093369a61e9cee244",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/import-example.md"
+    },
+    {
+      "path": "docs/api/advanced/metadata.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3754664dc835d228c5133d59.md",
+      "kind": "official-document",
+      "bytes": 3068,
+      "sha256": "3de7f8f643e0d1b9832791759a2470d207a992150fa6e9a5c6080ea79416e405",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/metadata.md"
+    },
+    {
+      "path": "docs/api/advanced/plugin.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2966c720984dc6e68b0466c5.md",
+      "kind": "official-document",
+      "bytes": 6090,
+      "sha256": "b87c0d09bec5a51042ff347dff23eea019ed5962c7465cdacce4296062e29078",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/plugin.md"
+    },
+    {
+      "path": "docs/api/advanced/reporters.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/66542e86bfc579c0744decfd.md",
+      "kind": "official-document",
+      "bytes": 13378,
+      "sha256": "1592059900514ffc562de54debd1526ce796ce57bcbbb6d9af54a0fcc1358f5f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/reporters.md"
+    },
+    {
+      "path": "docs/api/advanced/runner.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/8a9bda715ce872df9e4503ec.md",
+      "kind": "official-document",
+      "bytes": 11088,
+      "sha256": "9802fa1db0eeab4b0c51dc242acdbcf162991811dd06619011d447f4bf4bc165",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/runner.md"
+    },
+    {
+      "path": "docs/api/advanced/test-case.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0bdda337426d7803ad37714a.md",
+      "kind": "official-document",
+      "bytes": 7820,
+      "sha256": "074899b5c043935fb4e227c545eb32c4cab93f99c0151e7931be9109ac849706",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/test-case.md"
+    },
+    {
+      "path": "docs/api/advanced/test-collection.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/241d1a4d5dd40342d3385828.md",
+      "kind": "official-document",
+      "bytes": 2250,
+      "sha256": "c50b2d986edd45896d7039a0e7874d1393aa53b3010dde5f8cc2c6892413babe",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/test-collection.md"
+    },
+    {
+      "path": "docs/api/advanced/test-module.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2eed6c1382500b2ba2eb8393.md",
+      "kind": "official-document",
+      "bytes": 5753,
+      "sha256": "35947362537085760f625a50f204e6fb820ad1db7ea41ba6c221d24a474ee8e9",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/test-module.md"
+    },
+    {
+      "path": "docs/api/advanced/test-project.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/65a14df3b8e62546d51b8ada.md",
+      "kind": "official-document",
+      "bytes": 11300,
+      "sha256": "8cfb4d71df7a71107e42e28e41ba8aebd8112855651e2da54d6255426526043a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/test-project.md"
+    },
+    {
+      "path": "docs/api/advanced/test-specification.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/82b9664f1ff7c2a003c13fee.md",
+      "kind": "official-document",
+      "bytes": 3111,
+      "sha256": "a8adb20ef2fda40f55d209ed9c3d72449bf8df27a27c2d104a6a123be12360a6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/test-specification.md"
+    },
+    {
+      "path": "docs/api/advanced/test-suite.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/72d4bd2fd089f18be205c5e1.md",
+      "kind": "official-document",
+      "bytes": 6888,
+      "sha256": "3f709fc6599d4f794c7a60a4aaa39057d3627ad183a9c075196ee77439583baa",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/test-suite.md"
+    },
+    {
+      "path": "docs/api/advanced/vitest.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/dec0d450a1fc99b139a8191d.md",
+      "kind": "official-document",
+      "bytes": 27834,
+      "sha256": "0449322e799808c612a678578187c0479e699d6707586969c262d21a16594828",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/advanced/vitest.md"
+    },
+    {
+      "path": "docs/api/assert-type.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4b463a23c59997fcf130353f.md",
+      "kind": "official-document",
+      "bytes": 729,
+      "sha256": "e053a9ffa06152b43ce2bf4f4486534cdcc6ed26c83efda7df1c1b379b221d50",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/assert-type.md"
+    },
+    {
+      "path": "docs/api/assert.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/75fa46e56f1b146f9bd50cae.md",
+      "kind": "official-document",
+      "bytes": 57416,
+      "sha256": "65ad04968d5724e92c77bd0e77d6c6c3a39373ac6c1600b8ea6e4470f7bb0123",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/assert.md"
+    },
+    {
+      "path": "docs/api/browser/assertions.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/39ec7796bb176285f5edb5f7.md",
+      "kind": "official-document",
+      "bytes": 46957,
+      "sha256": "de0a13f95f13cd716fd65fc2b89c845e79f5204b2da4f984f6209a62117777df",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/assertions.md"
+    },
+    {
+      "path": "docs/api/browser/commands.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a3b2a312485fa920ec9d45de.md",
+      "kind": "official-document",
+      "bytes": 8420,
+      "sha256": "2d49dc2f20ce99c2889109b1a80174742d6556295c0df3c13a88c3c7451354dd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/commands.md"
+    },
+    {
+      "path": "docs/api/browser/context.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/8bedc2a5dede1c1ad7f43fe3.md",
+      "kind": "official-document",
+      "bytes": 13415,
+      "sha256": "8d7c40543b6450657a16087254c2f3879402ec75b78c5953fefc1747a59e0bba",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/context.md"
+    },
+    {
+      "path": "docs/api/browser/interactivity.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6354745a16a0fc641e8ce86c.md",
+      "kind": "official-document",
+      "bytes": 23246,
+      "sha256": "cc308e932d064ba79c16473b368d17b533bd588022961ef82e85960d7239dc47",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/interactivity.md"
+    },
+    {
+      "path": "docs/api/browser/locators.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/98175a747118f0f8213c5dbd.md",
+      "kind": "official-document",
+      "bytes": 37839,
+      "sha256": "acc9c5991c930767f32c05e1ccd1ed2d71c2e22772efc6571779568b8801d658",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/locators.md"
+    },
+    {
+      "path": "docs/api/browser/react.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a03f7b4737bdac81a8641db2.md",
+      "kind": "official-document",
+      "bytes": 11619,
+      "sha256": "00b2fbbaa2f0a801223dada75f5d13866ff47a007efa19c1a477bb71f132e139",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/react.md"
+    },
+    {
+      "path": "docs/api/browser/svelte.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/39dd4c17953c0877da12c0ef.md",
+      "kind": "official-document",
+      "bytes": 8830,
+      "sha256": "9d424878a9f55625ec6f117daa71250a6e522d7ef5cff5dc17e0eebee1538c23",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/svelte.md"
+    },
+    {
+      "path": "docs/api/browser/vue.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/234fa67864c2825a5d810b11.md",
+      "kind": "official-document",
+      "bytes": 7709,
+      "sha256": "df22e4a9beadd45d9bae5db1e679f299e767c93de1b8e5a77dc5ec88e2dd7587",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/browser/vue.md"
+    },
+    {
+      "path": "docs/api/describe.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3aa1b2a3f46af6ecb68f036a.md",
+      "kind": "official-document",
+      "bytes": 10074,
+      "sha256": "885baf2038e5d066f7608fc154d8aa9f53155c848dc2d96bb1d32ec999409f14",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/describe.md"
+    },
+    {
+      "path": "docs/api/expect-typeof.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e9219930cac5b0f4929bbea0.md",
+      "kind": "official-document",
+      "bytes": 14165,
+      "sha256": "6e37dad9de76245fe34bb9a2f8e0dbde1d098e8a6c5c8530737a1b31af32c899",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/expect-typeof.md"
+    },
+    {
+      "path": "docs/api/expect.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/80702f87cc498f1c549f35fd.md",
+      "kind": "official-document",
+      "bytes": 63950,
+      "sha256": "fe93ca51c524ddc73151a079a7912c51dae881c5e871c3b85e82fa543848a9c9",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/expect.md"
+    },
+    {
+      "path": "docs/api/hooks.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4cf674ce8d3eba4540058fc0.md",
+      "kind": "official-document",
+      "bytes": 14231,
+      "sha256": "1d5c4d92aec629d189b881ced308abb5fd38881c1ab2846f9b00c9af8a9d9c38",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/hooks.md"
+    },
+    {
+      "path": "docs/api/mock.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c6363bd88842bfbdfcb9869d.md",
+      "kind": "official-document",
+      "bytes": 18613,
+      "sha256": "f87a56316e413c1e028a431f90a24721b93f5d89fa1606d6b8d78c7dcf61337c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/mock.md"
+    },
+    {
+      "path": "docs/api/test.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bb664e6a8395ca206593ad9c.md",
+      "kind": "official-document",
+      "bytes": 18637,
+      "sha256": "1b9f8c580e5915729af74c1bcc8939b712e15577205985a2edbbfbd1cd7fe665",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/test.md"
+    },
+    {
+      "path": "docs/api/vi.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d22839c41bd52c925eb59087.md",
+      "kind": "official-document",
+      "bytes": 46689,
+      "sha256": "876eee184d429a98613624c5a40d78a93216606db1e7e200a7e5433954d6a51c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/api/vi.md"
+    },
+    {
+      "path": "docs/blog.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a06d91d981e119c7fa6c7a98.md",
+      "kind": "official-document",
+      "bytes": 188,
+      "sha256": "8179d08674c4b66ceb4d94cd13a4efdd7a85a99b9af7e116223c5e774f7b36e5",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/blog.md"
+    },
+    {
+      "path": "docs/blog/vitest-3-2.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5885cd17a436fd5295bdd82f.md",
+      "kind": "official-document",
+      "bytes": 10381,
+      "sha256": "2ee731fe2ec3e8762fcbba47791cab4c7ad254b6aa389ed38bf5db55845cf74b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/blog/vitest-3-2.md"
+    },
+    {
+      "path": "docs/blog/vitest-3.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/24e80d82dbc88fe2e7f0216c.md",
+      "kind": "official-document",
+      "bytes": 6722,
+      "sha256": "398ca6d021ebf5d32cc81380f81e07c0cd5900fcee04374eeddc6e5699d81463",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/blog/vitest-3.md"
+    },
+    {
+      "path": "docs/blog/vitest-4-1.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e2450b2263c4bb6a91aa6bd1.md",
+      "kind": "official-document",
+      "bytes": 20962,
+      "sha256": "e1aa8237016b66ff987aece3aaef1fe51a9a50059729b0f0bb62747ab7482016",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/blog/vitest-4-1.md"
+    },
+    {
+      "path": "docs/blog/vitest-4.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b19bfc991f82701f9e6fc174.md",
+      "kind": "official-document",
+      "bytes": 13581,
+      "sha256": "86af852e221117c0c279c177cecdc3737c757176a92405cfc34c4656757e0fcd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/blog/vitest-4.md"
+    },
+    {
+      "path": "docs/blog/vitest-5.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9c286148a741edfe18e2d534.md",
+      "kind": "official-document",
+      "bytes": 19398,
+      "sha256": "0b3e8e0a3abdbe907cca823883d54dd10cb3fe06d34c073fb6ac707c8bf4fa88",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/blog/vitest-5.md"
+    },
+    {
+      "path": "docs/config/alias.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0ee0ef0e88b48fa8c37e6d9d.md",
+      "kind": "official-document",
+      "bytes": 1014,
+      "sha256": "0c4941259ce085a7fb436dff20626fdc4aaca8f6aae8d958942f323d4977c05e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/alias.md"
+    },
+    {
+      "path": "docs/config/allowonly.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/14c53be7fb311455d1e1c34b.md",
+      "kind": "official-document",
+      "bytes": 1104,
+      "sha256": "3d0eb03afd7080b94782fcb21efb007ba152daf1fbbcebd7c353f7648dc557b1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/allowonly.md"
+    },
+    {
+      "path": "docs/config/api.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/46f6cd0e571f9fcd01dc09c8.md",
+      "kind": "official-document",
+      "bytes": 2512,
+      "sha256": "76cfc1a9fb8243ae19112fdfd9923c91049d773d1e0ce23a85d2e3606b40ac9e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/api.md"
+    },
+    {
+      "path": "docs/config/attachmentsdir.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a6c124aabb4eac583f3ae514.md",
+      "kind": "official-document",
+      "bytes": 436,
+      "sha256": "6c923c5067288b734718b21e3593962b5b3588d689449fb269ba42b93a5ad131",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/attachmentsdir.md"
+    },
+    {
+      "path": "docs/config/bail.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/87e14d3b9e29c125b0dec834.md",
+      "kind": "official-document",
+      "bytes": 558,
+      "sha256": "e443966628eb3a6c19eef3de44cdfd417afd3a9b1d0c0fe61e1baaf5db1f5aa4",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/bail.md"
+    },
+    {
+      "path": "docs/config/benchmark.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f543343f12539d22b0fb6a11.md",
+      "kind": "official-document",
+      "bytes": 2399,
+      "sha256": "a4626a055dfde6187b086ee9ef165db34191514daab21059cac1a0f5a5040e43",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/benchmark.md"
+    },
+    {
+      "path": "docs/config/browser/commands.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a6de629d72e39d4fcb4228b3.md",
+      "kind": "official-document",
+      "bytes": 723,
+      "sha256": "7ad28b2708d688098f6d9b761290b901e1b500a7b183e1653ae9f2ca32e87590",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/commands.md"
+    },
+    {
+      "path": "docs/config/browser/connecttimeout.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e78e102d0ba80a65a9aa9f79.md",
+      "kind": "official-document",
+      "bytes": 419,
+      "sha256": "b19c744e587ea69ab37334ceae0166bb48849e0b427f71034897cf4696e86cc2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/connecttimeout.md"
+    },
+    {
+      "path": "docs/config/browser/dependencysourcemaps.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d5e63f7c21abd0228be1cd8c.md",
+      "kind": "official-document",
+      "bytes": 1676,
+      "sha256": "126e26b7d1f3a99688f19d2e9353f9b42b015bfd34e9637e18a0bbefea256242",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/dependencysourcemaps.md"
+    },
+    {
+      "path": "docs/config/browser/detailspanelposition.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a1d70561e5dc321352f60520.md",
+      "kind": "official-document",
+      "bytes": 1306,
+      "sha256": "7eb0478797d900e745b3e6f3a4cad32decd6421aa889d0f5049314268fe68717",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/detailspanelposition.md"
+    },
+    {
+      "path": "docs/config/browser/enabled.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/fbd1ebb5545bca6bd9769117.md",
+      "kind": "official-document",
+      "bytes": 1197,
+      "sha256": "46736323c28393ccbd1e185a11e872ae2a93a0a737e8f3aae655b57fc448296d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/enabled.md"
+    },
+    {
+      "path": "docs/config/browser/expect.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6fdf264a702318cfa4b86ce6.md",
+      "kind": "official-document",
+      "bytes": 8042,
+      "sha256": "ca90264b27b99bf069d4a35670ac1a35ce7d0c991bcab76f8c41c31ce8480dfa",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/expect.md"
+    },
+    {
+      "path": "docs/config/browser/headless.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2f3d6b09626603ef5b692735.md",
+      "kind": "official-document",
+      "bytes": 293,
+      "sha256": "b0d5557d3ec43a6c440f4e21c0f42011791beeaa83d0e8d32cc5d44112ef16b9",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/headless.md"
+    },
+    {
+      "path": "docs/config/browser/instances.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/41603b4858c52bfbf6ad7641.md",
+      "kind": "official-document",
+      "bytes": 1654,
+      "sha256": "a2c5663f181d59a1ada7c493cb13259ca46f246b873b511250a17985f437205d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/instances.md"
+    },
+    {
+      "path": "docs/config/browser/locators.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5f5da7747c77212a925469c1.md",
+      "kind": "official-document",
+      "bytes": 2034,
+      "sha256": "8e285fa34554ec6ca59a50fcb8b05b6bf434ec089ab2736fa732816faa54a065",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/locators.md"
+    },
+    {
+      "path": "docs/config/browser/orchestratorscripts.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/81306d638972e724862e0f0a.md",
+      "kind": "official-document",
+      "bytes": 1204,
+      "sha256": "3d0eb388782be5617435a79688c7003a82336b06918daae36c3e7ed7a57e8f46",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/orchestratorscripts.md"
+    },
+    {
+      "path": "docs/config/browser/playwright.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2ef75dd7531c17704c12196e.md",
+      "kind": "official-document",
+      "bytes": 7694,
+      "sha256": "3a723eb6efc13865dcc74df0a1c599d6df2679ded1657c2258fe9273fc9e88fd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/playwright.md"
+    },
+    {
+      "path": "docs/config/browser/preview.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e3ecd91029e901cd62ecb8ad.md",
+      "kind": "official-document",
+      "bytes": 2097,
+      "sha256": "a1d40979b8cf83dbe0b82880133313f664f4a4d9c6798c0ae23850c554f4da7a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/preview.md"
+    },
+    {
+      "path": "docs/config/browser/provider.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/52a3c6847b2c8c55da0ccf15.md",
+      "kind": "official-document",
+      "bytes": 2264,
+      "sha256": "035f0b90776f196719a67ff3f3158553a981a23ef2bc768d3643fae26742ed55",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/provider.md"
+    },
+    {
+      "path": "docs/config/browser/screenshotdirectory.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2b292fa38b9085235483bbed.md",
+      "kind": "official-document",
+      "bytes": 238,
+      "sha256": "67db4448583d686fb899347e0fdb7cf3d38cd20f473c30b94c57c7aae6ddc0d8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/screenshotdirectory.md"
+    },
+    {
+      "path": "docs/config/browser/screenshotfailures.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e273aa67fca24f0ef4f974cf.md",
+      "kind": "official-document",
+      "bytes": 198,
+      "sha256": "fe3831fd513c001434d16f58824f39f1b3e18c12cb84897a68df0f4eaea519a0",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/screenshotfailures.md"
+    },
+    {
+      "path": "docs/config/browser/testerhtmlpath.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a551ed68908de7aaaec8c21b.md",
+      "kind": "official-document",
+      "bytes": 302,
+      "sha256": "dfea2fd01c7ccb1cb59b8c7b3e919a9b4239fcf87f52f79b670cf0e60616785b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/testerhtmlpath.md"
+    },
+    {
+      "path": "docs/config/browser/trace.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/dace7d0c1946183b38268628.md",
+      "kind": "official-document",
+      "bytes": 1694,
+      "sha256": "a84b65e4e7fe94db95010ef738a9de1f618d46bb30deafca1f0b187224153660",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/trace.md"
+    },
+    {
+      "path": "docs/config/browser/traceview.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/87e186f8b8d2e9c22805175b.md",
+      "kind": "official-document",
+      "bytes": 2343,
+      "sha256": "4e3d1d7a899a6cad0745c56856d37d0c9bffb10db2c13e967e4baef0c45afcb2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/traceview.md"
+    },
+    {
+      "path": "docs/config/browser/trackunhandlederrors.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1d4b2af0f30e403d7749f941.md",
+      "kind": "official-document",
+      "bytes": 495,
+      "sha256": "5344f98eff08a1f71777b8a603a1f2682da3d84ce0084c1ed22cc0ee76f14f41",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/trackunhandlederrors.md"
+    },
+    {
+      "path": "docs/config/browser/ui.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e69db673bf0c84001e9deef4.md",
+      "kind": "official-document",
+      "bytes": 236,
+      "sha256": "485952d07e65670ab074f400216eb8c74c2405d3066c08607a5da868f88c71f6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/ui.md"
+    },
+    {
+      "path": "docs/config/browser/viewport.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1e3031479978523608aff7b7.md",
+      "kind": "official-document",
+      "bytes": 161,
+      "sha256": "3e1f8f62e01e9e1725c34762ba972eb48a0db98d7e528041f5de46546f7b09fd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/viewport.md"
+    },
+    {
+      "path": "docs/config/browser/webdriverio.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2f6144ce26dc0fe07044ab50.md",
+      "kind": "official-document",
+      "bytes": 3054,
+      "sha256": "50d4bc0b9634aef26e6de3612e917b55112f4b827c664902f853899299913527",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/browser/webdriverio.md"
+    },
+    {
+      "path": "docs/config/cache.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5b5b6372d6b1f32b6f843400.md",
+      "kind": "official-document",
+      "bytes": 764,
+      "sha256": "0e6a58a01e3437fdd94991b38160de70fff045243419b8155f00623d2767345b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/cache.md"
+    },
+    {
+      "path": "docs/config/chaiconfig.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/673fa88944c7ff07fb8f0dfc.md",
+      "kind": "official-document",
+      "bytes": 1155,
+      "sha256": "c39b44c43fd2c8849a70c55d8569709e93627db7c0af8601ffe74745b7106e8a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/chaiconfig.md"
+    },
+    {
+      "path": "docs/config/changed.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/62c98c514080d8b9322ce89e.md",
+      "kind": "official-document",
+      "bytes": 903,
+      "sha256": "fdc87bc12f3b43bc9428d9d65f55880ee25dd80513dbc0c4edf64a0928957a0f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/changed.md"
+    },
+    {
+      "path": "docs/config/clearmocks.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/02342db7fbb69bac1cf17d49.md",
+      "kind": "official-document",
+      "bytes": 693,
+      "sha256": "e559960aeb8fc59fb35e1118c89a5b27535abfb66dc0d164bd4a74a46074afde",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/clearmocks.md"
+    },
+    {
+      "path": "docs/config/coverage.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0cd9c122c60d93c4c1b41cf9.md",
+      "kind": "official-document",
+      "bytes": 16761,
+      "sha256": "6f171a0a3fc0226829ea73653e9d69ff08d7280ae7afdf81f982d32cb076d4d0",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/coverage.md"
+    },
+    {
+      "path": "docs/config/css.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ee47572477778821753b7235.md",
+      "kind": "official-document",
+      "bytes": 1859,
+      "sha256": "4510b82d4a43b92f1b7777264815c8712322d2483ac80b44ff6c0eac8fe7df26",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/css.md"
+    },
+    {
+      "path": "docs/config/dangerouslyignoreunhandlederrors.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3d7fb3b7d134578831e5fc1b.md",
+      "kind": "official-document",
+      "bytes": 720,
+      "sha256": "6ecb141278310d7dd159e791d5eef024265f24eec075e121768ab3fa1c266818",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/dangerouslyignoreunhandlederrors.md"
+    },
+    {
+      "path": "docs/config/deps.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f57864b5d10f26d8db8caeac.md",
+      "kind": "official-document",
+      "bytes": 6076,
+      "sha256": "60a36f0c20d525c7784b5402dba4c1252285b2e5d3f9d51f626574665b01586b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/deps.md"
+    },
+    {
+      "path": "docs/config/detectasyncleaks.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5a24728cbf69392272742a78.md",
+      "kind": "official-document",
+      "bytes": 1282,
+      "sha256": "503032fc54c071c75a05f82ca3b91013a32d5b272c1fa125217bd6cde147e762",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/detectasyncleaks.md"
+    },
+    {
+      "path": "docs/config/diff.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b66f412ec32d71cb05d49666.md",
+      "kind": "official-document",
+      "bytes": 2271,
+      "sha256": "4e35fd723721093277d267435441c79a981229d8627dd6f2286eae9554f0b1b5",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/diff.md"
+    },
+    {
+      "path": "docs/config/dir.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4bab1e2a627f1b1a2bbaa1a3.md",
+      "kind": "official-document",
+      "bytes": 264,
+      "sha256": "013d69f34513c7fc20e3373fe1b7c3ecd1a5a5519f0ef3b5df753be8b7b72ab0",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/dir.md"
+    },
+    {
+      "path": "docs/config/disableconsoleintercept.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/16d3e6910d8f07058ceeb739.md",
+      "kind": "official-document",
+      "bytes": 591,
+      "sha256": "4d600dcf0b948c8af834aeb425d802e970faf1e4555141cbeeb11ba1676b0fa0",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/disableconsoleintercept.md"
+    },
+    {
+      "path": "docs/config/env.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e69092ad44d0379e6b7d0791.md",
+      "kind": "official-document",
+      "bytes": 482,
+      "sha256": "a44a04e6023bd7aef3679ce00649895ae0ea460a5cf0e2e9831768b579f5d73f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/env.md"
+    },
+    {
+      "path": "docs/config/environment.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6888dbf4d9698993b6b50989.md",
+      "kind": "official-document",
+      "bytes": 3044,
+      "sha256": "7575d43c547912c2fb9dfe682636dec6902287c223f85f407d0a6fdc399d7a3c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/environment.md"
+    },
+    {
+      "path": "docs/config/environmentoptions.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e748d9fd2ac77f1c5aca8f47.md",
+      "kind": "official-document",
+      "bytes": 881,
+      "sha256": "cfd526e080ef734d632a40ce019a84b24c17000badcec5c52d709d82ef97169b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/environmentoptions.md"
+    },
+    {
+      "path": "docs/config/exclude.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/33bb57842f831f6f910bd670.md",
+      "kind": "official-document",
+      "bytes": 1575,
+      "sha256": "a6cee3e0645f2993ec65539a8ad8d339320f41938a7bddb6ab3ad89f1d38d404",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/exclude.md"
+    },
+    {
+      "path": "docs/config/execargv.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ebe067134902eb53a021397e.md",
+      "kind": "official-document",
+      "bytes": 413,
+      "sha256": "852b54fc93bbe8562ab156ba03b5abdb4bad0fa3767d101ceb5d002e9af74e45",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/execargv.md"
+    },
+    {
+      "path": "docs/config/expandsnapshotdiff.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9e1c1269a07b7dbc7259c945.md",
+      "kind": "official-document",
+      "bytes": 241,
+      "sha256": "03c39d9c9ae77a85b8ee7ed23e9e542d7fcc1b3018d37d3cb2050bfabee32662",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/expandsnapshotdiff.md"
+    },
+    {
+      "path": "docs/config/expect.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/624005f1b07ef0c399b61eb3.md",
+      "kind": "official-document",
+      "bytes": 1402,
+      "sha256": "6d44ce7d8a7ff7c4013454417fcce0b907cf2d44be0489e1551d0fae1c6f2307",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/expect.md"
+    },
+    {
+      "path": "docs/config/experimental.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4bb879c21f993b7f95239520.md",
+      "kind": "official-document",
+      "bytes": 21016,
+      "sha256": "5471aacdbd3942012dd4454e6a279c9bf4de886c5793006dbaeff3ba2ac1aaa1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/experimental.md"
+    },
+    {
+      "path": "docs/config/faketimers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/70ef4bf1818bc7aa0e80684c.md",
+      "kind": "official-document",
+      "bytes": 3142,
+      "sha256": "c260ab566056f3df5804ea21992c7502891ba277636f2b6111f65e5728388548",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/faketimers.md"
+    },
+    {
+      "path": "docs/config/fileparallelism.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6aaaf6d045b6f4f1a63ee466.md",
+      "kind": "official-document",
+      "bytes": 526,
+      "sha256": "8a995504010a50828527f996642f956a520e8d5572e29b68bf022bd7b2d9af1c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/fileparallelism.md"
+    },
+    {
+      "path": "docs/config/forcereruntriggers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e6930ab722258b0b38c61960.md",
+      "kind": "official-document",
+      "bytes": 782,
+      "sha256": "ced0fc04abc249cf7fc77ef273fbeb2d909053288c9233cdeb9d75f85e922db6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/forcereruntriggers.md"
+    },
+    {
+      "path": "docs/config/fsmodulecache.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b208fca4bb64e28cba005573.md",
+      "kind": "official-document",
+      "bytes": 3384,
+      "sha256": "354edeaaa4ee2645117cfea9757ee73b5367ad36a9ead4f76b3688b621f0aaf6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/fsmodulecache.md"
+    },
+    {
+      "path": "docs/config/fsmodulecachepath.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0fbd6bbd42be1195f82de6bb.md",
+      "kind": "official-document",
+      "bytes": 1032,
+      "sha256": "4ae10ff92a242b5f82e3df929dde6dbc954e42a4ee7b3b6892dad65cd3789131",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/fsmodulecachepath.md"
+    },
+    {
+      "path": "docs/config/globals.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2c10bbad1719b6ff5c65617e.md",
+      "kind": "official-document",
+      "bytes": 1197,
+      "sha256": "b8af27d4be9d7dfcc29c6fe743afe72572ea5a9c188e2612e8a1945f31666bb4",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/globals.md"
+    },
+    {
+      "path": "docs/config/globalsetup.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4bee978ae7aba19b38589d7c.md",
+      "kind": "official-document",
+      "bytes": 2597,
+      "sha256": "a8b36f1f94acc16d9bca600d64479089076bd82321d04e70cd8461cf69634d10",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/globalsetup.md"
+    },
+    {
+      "path": "docs/config/hideskippedtests.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a32fd3cb6e4c14bc5f58b4f6.md",
+      "kind": "official-document",
+      "bytes": 206,
+      "sha256": "a4c6163d4418bd65726fae6cac2d25496a2067e9feb2ef9d23c7a0ccd0a0ee29",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/hideskippedtests.md"
+    },
+    {
+      "path": "docs/config/hooktimeout.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f9a53f7e88656d66a552fa09.md",
+      "kind": "official-document",
+      "bytes": 303,
+      "sha256": "4d6e6ebf2ecca4d56d0247e0bb96f34bfa55ccae2819d8cf7ee0a8f4ee6b9ee8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/hooktimeout.md"
+    },
+    {
+      "path": "docs/config/include-source.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7dc7bb75172c29b8c5b58fe7.md",
+      "kind": "official-document",
+      "bytes": 2818,
+      "sha256": "2d9f4b1ef4a4c711123267326d4cc0c86c5ff00b794e62df6c5729c5bf4d9d6f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/include-source.md"
+    },
+    {
+      "path": "docs/config/include.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/206f02ed7720a653eaa1aca8.md",
+      "kind": "official-document",
+      "bytes": 1805,
+      "sha256": "98d234a4f64756e318d3f9a16656520ef65cb4e9c33e072a360231b4592edbe6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/include.md"
+    },
+    {
+      "path": "docs/config/includetasklocation.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/09b18f91fb0e3db50e8f1c7c.md",
+      "kind": "official-document",
+      "bytes": 816,
+      "sha256": "1ff26277120965fecfe3a44569b552afaebf3153baf1693c7e3874b51e33e530",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/includetasklocation.md"
+    },
+    {
+      "path": "docs/config/index.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f7d4a01431aa2057a8d0c4ff.md",
+      "kind": "official-document",
+      "bytes": 3832,
+      "sha256": "012eff1260094509e0249e659a44aaf0f05afabcb0928255fa68972e346fc5d8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/index.md"
+    },
+    {
+      "path": "docs/config/injectcjsglobals.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f5879b3d20d3d7be2886ebd2.md",
+      "kind": "official-document",
+      "bytes": 3250,
+      "sha256": "bdcb5239e5947e73f4d3601cccfcd8371ba0de5628f879ff5c5e858f53ae3ca0",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/injectcjsglobals.md"
+    },
+    {
+      "path": "docs/config/isolate.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bb82ac000eb05322a0d08a98.md",
+      "kind": "official-document",
+      "bytes": 560,
+      "sha256": "cb0b7a8a2574241be54c50e00ca0e016b4ce923fdd11c27e85927dd41660f50d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/isolate.md"
+    },
+    {
+      "path": "docs/config/logheapusage.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7ec9a8806fee013e22f672c0.md",
+      "kind": "official-document",
+      "bytes": 234,
+      "sha256": "a11f753b1152c4f31a6091c48b08ac871414261c957e44117b2c3b0f0654debb",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/logheapusage.md"
+    },
+    {
+      "path": "docs/config/maxconcurrency.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e2aa7fdea7bb675618d01134.md",
+      "kind": "official-document",
+      "bytes": 541,
+      "sha256": "95e55723995173349464955510d6920e9342bab8122b627b0e9328b17e4c7411",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/maxconcurrency.md"
+    },
+    {
+      "path": "docs/config/maxworkers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/71a09deda31cfaf5e118661e.md",
+      "kind": "official-document",
+      "bytes": 1153,
+      "sha256": "671dfcbf4f23f11eaeb450fe5ed10ccb925d4ea62202b99d94cb4c4e7a41825c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/maxworkers.md"
+    },
+    {
+      "path": "docs/config/mockreset.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7cf322e4fa0efbd8465d6833.md",
+      "kind": "official-document",
+      "bytes": 700,
+      "sha256": "dcc33fa1b850b874fbf958405d930041d6da9362db931269d9b36ecfe4bb68d6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/mockreset.md"
+    },
+    {
+      "path": "docs/config/mode.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ba7fc29f5623dd0c057447b8.md",
+      "kind": "official-document",
+      "bytes": 147,
+      "sha256": "7a908f739a2baacec114b2763fe4a4e51810d9efb8ef0c30478b3350e78f81f3",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/mode.md"
+    },
+    {
+      "path": "docs/config/name.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/77bc40574d609569652bf0f5.md",
+      "kind": "official-document",
+      "bytes": 2879,
+      "sha256": "fd2e77afbe0b048f2bf716ca056089402f70398d639925532d0615a65e49721b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/name.md"
+    },
+    {
+      "path": "docs/config/onconsolelog.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/80fdc74d4482cf8b62bd1159.md",
+      "kind": "official-document",
+      "bytes": 729,
+      "sha256": "f983df9483b85b97e48013775e834caeb7ed02977ec7ec1e42b1672dadde08e2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/onconsolelog.md"
+    },
+    {
+      "path": "docs/config/onstacktrace.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1086016032b3e266aba3a45a.md",
+      "kind": "official-document",
+      "bytes": 1295,
+      "sha256": "21a9825cbc9471203aa6a48fa5dfac6856319622511d649048b963635758f56d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/onstacktrace.md"
+    },
+    {
+      "path": "docs/config/onunhandlederror.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d3cdd54dc73dbf9e2692df72.md",
+      "kind": "official-document",
+      "bytes": 1000,
+      "sha256": "1cc8f8354015f8e22bfef6f017c65a46b8d3070de9018c72422b8c3343a4c8cc",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/onunhandlederror.md"
+    },
+    {
+      "path": "docs/config/open.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7a69fcefa5cb15359930f798.md",
+      "kind": "official-document",
+      "bytes": 214,
+      "sha256": "814510856b15ee415769080540dd68cb687cde5ca5939ae8d344347378d8e868",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/open.md"
+    },
+    {
+      "path": "docs/config/outputfile.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1df0cf18eaaf5438a8ea3593.md",
+      "kind": "official-document",
+      "bytes": 408,
+      "sha256": "3451d234b45008dfd031f921e19cae1aab9e5e347d3b0f402c86a5ab90fc7e5e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/outputfile.md"
+    },
+    {
+      "path": "docs/config/passwithnotests.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/060ae3828e165f9611b2d2cc.md",
+      "kind": "official-document",
+      "bytes": 237,
+      "sha256": "9973917927b5419f373449badadf330039857692da79bebf3563295c7cc45e98",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/passwithnotests.md"
+    },
+    {
+      "path": "docs/config/pool.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0da8e275277eb84260174660.md",
+      "kind": "official-document",
+      "bytes": 3967,
+      "sha256": "41397ef890fe34d2795be71460e9dbeccf043f502705fc9f595732673bc920bf",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/pool.md"
+    },
+    {
+      "path": "docs/config/printconsoletrace.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/37501b18a1f1981abd256179.md",
+      "kind": "official-document",
+      "bytes": 217,
+      "sha256": "c029f8ec2306a8c93f2c4c4afa9513938f06cc94a5b4e9b0a7f6b3c07afef4a5",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/printconsoletrace.md"
+    },
+    {
+      "path": "docs/config/projects.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/358e94e326607421f3fc8298.md",
+      "kind": "official-document",
+      "bytes": 500,
+      "sha256": "07cbc41bcd2fbe2ec6e67bbe5ea59c6fdf535e9f3390c78016f65f6ed1f436ce",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/projects.md"
+    },
+    {
+      "path": "docs/config/provide.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2888b7a0245196ad43978e6c.md",
+      "kind": "official-document",
+      "bytes": 1080,
+      "sha256": "996aeb1a5c71a40780e11a2c9d8546104d04b5313ae035f2add95d6b1ebea307",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/provide.md"
+    },
+    {
+      "path": "docs/config/repeats.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d9361bd161ffdd49da1f3734.md",
+      "kind": "official-document",
+      "bytes": 447,
+      "sha256": "a2501d38c71877aa08abdad198d2764b0cb5e9f99b1640bc70782023b0b56366",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/repeats.md"
+    },
+    {
+      "path": "docs/config/reporters.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3e4068ab7b5ce8e67b57dc3b.md",
+      "kind": "official-document",
+      "bytes": 2390,
+      "sha256": "740c6af6b324c95c9e6af8571cda70f83dbc9b11500f1997c0fd39d9cb08d249",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/reporters.md"
+    },
+    {
+      "path": "docs/config/resolvesnapshotpath.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/589c33f80f4cd1335c30389c.md",
+      "kind": "official-document",
+      "bytes": 1152,
+      "sha256": "858646cbf7ed246098ff2f027729b05a0fbbd2cd410c05334d0becb0e56de0d7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/resolvesnapshotpath.md"
+    },
+    {
+      "path": "docs/config/restoremocks.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/80a9ed0112398e271fafbe90.md",
+      "kind": "official-document",
+      "bytes": 744,
+      "sha256": "ed6a39e8adc49407ede7743c673c808465d25f09d5f4497ac056d8e3b1d5feae",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/restoremocks.md"
+    },
+    {
+      "path": "docs/config/retry.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4080339894caa27b5186511b.md",
+      "kind": "official-document",
+      "bytes": 2895,
+      "sha256": "a54b207455877c68b57a1db5388f6089a0edc24a9ba8687038b3ec265ce2cf2e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/retry.md"
+    },
+    {
+      "path": "docs/config/root.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/43070f7b20d5ca0cc2a559a9.md",
+      "kind": "official-document",
+      "bytes": 127,
+      "sha256": "f575e26bd71a47e66aeb2397657516d54e1cebe1b3362bc253514eb6748d46ff",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/root.md"
+    },
+    {
+      "path": "docs/config/runner.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9a3f030752ff6a517ad803e7.md",
+      "kind": "official-document",
+      "bytes": 274,
+      "sha256": "fe7b28433d0732c1066536356a8552b954236c1632fb30a104c2bf4f53f5a490",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/runner.md"
+    },
+    {
+      "path": "docs/config/sequence.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d0e0074e67cdcc8669e35719.md",
+      "kind": "official-document",
+      "bytes": 5322,
+      "sha256": "b56e27a541033e1f72948d8bcbfd2134c6134ddbdcc9b8401a9327bf4b223bf8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/sequence.md"
+    },
+    {
+      "path": "docs/config/server.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a2f9773086d313fd05d5bf4d.md",
+      "kind": "official-document",
+      "bytes": 3149,
+      "sha256": "c1d32f5d3f8c5e8186625c349a6ba52d623402fed5202b5dfc9e907bcf0cba15",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/server.md"
+    },
+    {
+      "path": "docs/config/setupfiles.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/18c0ba4003b3de002c0e41e8.md",
+      "kind": "official-document",
+      "bytes": 1556,
+      "sha256": "dc6ebaa8f94296b2dbf08075bd74d726e2db4baf50b569e86be3c1d912695801",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/setupfiles.md"
+    },
+    {
+      "path": "docs/config/sharedviteserver.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6b2abbac505c5855ff8a1df4.md",
+      "kind": "official-document",
+      "bytes": 3826,
+      "sha256": "d63bff8182bf3aae3c89cdf0ac705f60ba2e22e08c2a3bec338c814c2dea4b55",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/sharedviteserver.md"
+    },
+    {
+      "path": "docs/config/silent.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e5ae2dca8602c3b9c4900bd9.md",
+      "kind": "official-document",
+      "bytes": 333,
+      "sha256": "298ec214dd2d02de5da5d92ffed9e34e190cee1af4c75cea1eae6729fd9cfb0e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/silent.md"
+    },
+    {
+      "path": "docs/config/slowtestthreshold.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3dff96a8895c0b4952a5d818.md",
+      "kind": "official-document",
+      "bytes": 318,
+      "sha256": "02cc2e1a0be788dd62cf377e8826c77dd22848e09ea0dfc7cef3551053c89375",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/slowtestthreshold.md"
+    },
+    {
+      "path": "docs/config/snapshotenvironment.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e5cd2cd05584b7efaea4d5a8.md",
+      "kind": "official-document",
+      "bytes": 1293,
+      "sha256": "b10d0c9c6d422cbabc139b8e7eb4cbc256f764c1213506d0ae8a99ec06f05ba6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/snapshotenvironment.md"
+    },
+    {
+      "path": "docs/config/snapshotformat.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/09f205a67965fef5cf1cac8c.md",
+      "kind": "official-document",
+      "bytes": 1564,
+      "sha256": "61738d5d240f1041f78a799e78e8038419161d8d7d35e09bc450aeb7df4b6dbe",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/snapshotformat.md"
+    },
+    {
+      "path": "docs/config/snapshotserializers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/db8ef3bdaa01b5a2ab8c9035.md",
+      "kind": "official-document",
+      "bytes": 338,
+      "sha256": "4196dab3183cb09a0f0262c8cf80825c9cb321935f8bfcc699d108cfc944c3ef",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/snapshotserializers.md"
+    },
+    {
+      "path": "docs/config/stricttags.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4b11d1ab83e8af4ec9ec32a8.md",
+      "kind": "official-document",
+      "bytes": 952,
+      "sha256": "9f777627445221921651bbaad01025927312db9b2efe8c85617538969c476020",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/stricttags.md"
+    },
+    {
+      "path": "docs/config/tags.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4964448d5c914bb099436ce5.md",
+      "kind": "official-document",
+      "bytes": 3371,
+      "sha256": "642b186aa6a15a11e3a909abd24388c2a7bef483d2883c1ab735c5c4295efcbf",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/tags.md"
+    },
+    {
+      "path": "docs/config/tasktitlevalueformattruncate.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b618fda8cbb8508e584c317c.md",
+      "kind": "official-document",
+      "bytes": 432,
+      "sha256": "ab66fd655dbfeede48879c5a22251c1348f0ada52dfa99baca11f7ec31dcdbcc",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/tasktitlevalueformattruncate.md"
+    },
+    {
+      "path": "docs/config/teardowntimeout.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c5b8ed2896441c4a20d8970b.md",
+      "kind": "official-document",
+      "bytes": 285,
+      "sha256": "dc652a41d62ea13e7f55b1535b0ee7d8fcee9a33be0246bc54a6363dff022af7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/teardowntimeout.md"
+    },
+    {
+      "path": "docs/config/testnamepattern.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b05eb59ac835580a8f6adbb8.md",
+      "kind": "official-document",
+      "bytes": 1171,
+      "sha256": "e7036e05531763dd152008b1ec0f4b1ae192210c0d7c2de976e0b09225f32c95",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/testnamepattern.md"
+    },
+    {
+      "path": "docs/config/testtimeout.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e28a55118d630f1afa27edd8.md",
+      "kind": "official-document",
+      "bytes": 300,
+      "sha256": "ba54937613d4e26d71b15c11e194d22cd78522b669fe1d05b55369dbc7595994",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/testtimeout.md"
+    },
+    {
+      "path": "docs/config/typecheck.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ae8867b5aaff242ff46a0cbc.md",
+      "kind": "official-document",
+      "bytes": 2193,
+      "sha256": "4c3ad19d99d2ca48e3a5e35f76d4a6f51fd0f97aa2c9897b1b6ba7464bbea42a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/typecheck.md"
+    },
+    {
+      "path": "docs/config/ui.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/481ab311652004301988022a.md",
+      "kind": "official-document",
+      "bytes": 693,
+      "sha256": "67e70a91b791e86d69dd1a8cfd59be80eabaf41b4c497d6636c5adb3c8484cdc",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/ui.md"
+    },
+    {
+      "path": "docs/config/unstubenvs.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f3d912b4ad0b9f239346a6b9.md",
+      "kind": "official-document",
+      "bytes": 657,
+      "sha256": "4af3ba50dc88ef942d83923438ace2507eab0d3a57fa2d291350376fb1b4a313",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/unstubenvs.md"
+    },
+    {
+      "path": "docs/config/unstubglobals.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2be9be3da1a96c61c9b7de62.md",
+      "kind": "official-document",
+      "bytes": 691,
+      "sha256": "7406c4e3436b1bf6342d311be7b86509c682943391bafa9ffcae2af064d62c10",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/unstubglobals.md"
+    },
+    {
+      "path": "docs/config/update.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2bb5422dd9cbdacc4af29475.md",
+      "kind": "official-document",
+      "bytes": 723,
+      "sha256": "7005fc77969bbc9f95490f4473c07ebe6b9b8aeccc1f0399cdfeca0d6fb2f952",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/update.md"
+    },
+    {
+      "path": "docs/config/vmmemorylimit.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2f7b6a6b9aa25e16b2366637.md",
+      "kind": "official-document",
+      "bytes": 2419,
+      "sha256": "dac0af40485d112183dd402375614b136f4033968af51d042e1e7a276f28197f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/vmmemorylimit.md"
+    },
+    {
+      "path": "docs/config/watch.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/da8bd61d9f5bc4c7fa321b0c.md",
+      "kind": "official-document",
+      "bytes": 486,
+      "sha256": "00483ec551f33e5b73905ed89292d180382a7ea463fb8bd635beebea89111ac6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/watch.md"
+    },
+    {
+      "path": "docs/config/watchtriggerpatterns.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6d0c600ecfb1c1293bd60c4c.md",
+      "kind": "official-document",
+      "bytes": 1065,
+      "sha256": "98b8862befcd9d48c2b233a254f415586a4704f172239d126b0fad9501dd67e6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/config/watchtriggerpatterns.md"
+    },
+    {
+      "path": "docs/guide/advanced/benchmark-provider.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c8c367d52ee521b821d42e20.md",
+      "kind": "official-document",
+      "bytes": 3778,
+      "sha256": "83fc906f3a3479a2f05a5ae9ba326189452379501a3e24f8888e107ec4874279",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/advanced/benchmark-provider.md"
+    },
+    {
+      "path": "docs/guide/advanced/index.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b49d17cc8808c775baf38aa5.md",
+      "kind": "official-document",
+      "bytes": 8306,
+      "sha256": "fe2b43a6bd183f81857de65b749b7c4364782cacdb023f21771f7c221eaf15af",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/advanced/index.md"
+    },
+    {
+      "path": "docs/guide/advanced/pool.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/27aa21c7ea19556d12b66c81.md",
+      "kind": "official-document",
+      "bytes": 4398,
+      "sha256": "98bc90923a96914f0b1bb22e462eca8472da97e44a5bf69e4fdc649a29a5f6ed",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/advanced/pool.md"
+    },
+    {
+      "path": "docs/guide/advanced/reporters.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1155058f6dc3a37ea54f727c.md",
+      "kind": "official-document",
+      "bytes": 3781,
+      "sha256": "71e7d445c5374a4b3f60df5e9f05c1b96b5874db9dc8a210692c14cf244187e1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/advanced/reporters.md"
+    },
+    {
+      "path": "docs/guide/advanced/tests.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e32a31dc8e6b120e683dc6f1.md",
+      "kind": "official-document",
+      "bytes": 4038,
+      "sha256": "833838699df235a1814fedef7a4bf69f7407b7d64095c76ad81d06ed00bd781b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/advanced/tests.md"
+    },
+    {
+      "path": "docs/guide/benchmarking.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/60d127f9b135321830b7fd0a.md",
+      "kind": "official-document",
+      "bytes": 19047,
+      "sha256": "e086b99d313cabad0fc89e6fbf524e09c4b4a201b588eac716eb485d7fa94e23",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/benchmarking.md"
+    },
+    {
+      "path": "docs/guide/browser/aria-snapshots.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/82f36667d8587b5b485c55a9.md",
+      "kind": "official-document",
+      "bytes": 15120,
+      "sha256": "4e28fa69668b3f7b5951a84c2735f8308b6a8f151597dc2213e102bc7f8a4a32",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/aria-snapshots.md"
+    },
+    {
+      "path": "docs/guide/browser/component-testing.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/597cbb31e4e0c7b56db87350.md",
+      "kind": "official-document",
+      "bytes": 20605,
+      "sha256": "5586abf200e5b6ad9f7464ca07289a860aa7264f4fabfdf3304453f1deda46d8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/component-testing.md"
+    },
+    {
+      "path": "docs/guide/browser/index.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/eabc9c40331acc263261b4a1.md",
+      "kind": "official-document",
+      "bytes": 21524,
+      "sha256": "082805badc6cd8979113f9512e757f1482a51c1dc94c970b8b4f646b9206d100",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/index.md"
+    },
+    {
+      "path": "docs/guide/browser/multiple-setups.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e8065ac6d0646040bf0b90a8.md",
+      "kind": "official-document",
+      "bytes": 3365,
+      "sha256": "f2ed7546ea6698c8c00a266d55d2b117260a4d5392a4b8df7ac1a3807a09e27b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/multiple-setups.md"
+    },
+    {
+      "path": "docs/guide/browser/playwright-traces.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/496cf95886280589fc2a813e.md",
+      "kind": "official-document",
+      "bytes": 4659,
+      "sha256": "141ae464b9568a13ee9efc2343d4f6131eab66e13fcc869f1f9b2fa830e9d723",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/playwright-traces.md"
+    },
+    {
+      "path": "docs/guide/browser/trace-view.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/277c3f2458065db360d36da4.md",
+      "kind": "official-document",
+      "bytes": 11544,
+      "sha256": "0165e6d82134d4e7b90c1ef25781d57fc06abe2f63ec281c77b55f4635fef1f2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/trace-view.md"
+    },
+    {
+      "path": "docs/guide/browser/visual-regression-testing.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/46ff009ede7395e1b7cff1f6.md",
+      "kind": "official-document",
+      "bytes": 36699,
+      "sha256": "1feb91e42d97f6a38ba2819d8cecd2b12fb0bc2992e2bd730a567fc58bcf9f87",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/visual-regression-testing.md"
+    },
+    {
+      "path": "docs/guide/browser/why.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0904e5ff59e3cfdfc51910a3.md",
+      "kind": "official-document",
+      "bytes": 2615,
+      "sha256": "6bb719cddec9d1178d6f8db662c9c105442d850d90a0040e73c96069c4b0d175",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/browser/why.md"
+    },
+    {
+      "path": "docs/guide/cli-generated.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f73da02355217722146f20e3.md",
+      "kind": "official-document",
+      "bytes": 32982,
+      "sha256": "8146f3277bbddb5208ab9856d11a538afdf88e40d4d8233654b77b47f5987244",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/cli-generated.md"
+    },
+    {
+      "path": "docs/guide/cli.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/cbefb9b26fc7c601d23a1ccf.md",
+      "kind": "official-document",
+      "bytes": 10122,
+      "sha256": "621b566c1e5a0f23926621817e256dfc3f7c3efa8f24fde254b43c7d13b9a699",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/cli.md"
+    },
+    {
+      "path": "docs/guide/common-errors.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/28ac85ff126e6a1234c55ccc.md",
+      "kind": "official-document",
+      "bytes": 11898,
+      "sha256": "215be7cc5e66455470dac2831e2c91d0649d5ccb06bfa9668439fbc7694a676d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/common-errors.md"
+    },
+    {
+      "path": "docs/guide/comparisons.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/650c9a94bf40390e34efb54f.md",
+      "kind": "official-document",
+      "bytes": 9958,
+      "sha256": "4e59f95a0627995672c4602e30c1afb127ed13141b099488e5d0fdfb2179015e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/comparisons.md"
+    },
+    {
+      "path": "docs/guide/coverage.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/92a69627c5cb8f5611fa374c.md",
+      "kind": "official-document",
+      "bytes": 16941,
+      "sha256": "2b289f253f5e4ae30414d3fe6a3d40fa05e8aa9805bbb13334bae83f659cb6e6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/coverage.md"
+    },
+    {
+      "path": "docs/guide/debugging.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9e58aa070dbf99b8476fddf0.md",
+      "kind": "official-document",
+      "bytes": 4507,
+      "sha256": "18575c6513ea5e33917b6f38b5d895d42ab89d780401ee8049b25fce82350c6b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/debugging.md"
+    },
+    {
+      "path": "docs/guide/environment.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c188f5393a7cc7e2299b16da.md",
+      "kind": "official-document",
+      "bytes": 4613,
+      "sha256": "719b34384e4e6649abcf784b0f822ffd390a9efa6f8b309eb1e63979246fef7b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/environment.md"
+    },
+    {
+      "path": "docs/guide/examples/projects-workspace.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0a6689c4a359166b17725e4c.md",
+      "kind": "official-document",
+      "bytes": 295,
+      "sha256": "dad8c6134a0a01b5d05b65d47ec7756025a6070c5a05589f4d319ee5c048f606",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/examples/projects-workspace.md"
+    },
+    {
+      "path": "docs/guide/examples/promise-done.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/8cd5e4a0529f2426b8f715ce.md",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "20e405770a8922c675c39c354009bd4a8de064511db5a71e3223dedb411d4a83",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/examples/promise-done.md"
+    },
+    {
+      "path": "docs/guide/extending-matchers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/53f46eee7f86b831abec2cd3.md",
+      "kind": "official-document",
+      "bytes": 6825,
+      "sha256": "0458bd40e0082b41ffc8a1110e21f61fde7dfd63e7f7beedfc27f4d9f464d144",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/extending-matchers.md"
+    },
+    {
+      "path": "docs/guide/features.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f4ae8101ad2153be3871b70a.md",
+      "kind": "official-document",
+      "bytes": 10747,
+      "sha256": "6418a65cb61a029adf99ebce11286cc1ede9778d9e3bd9200f490bd093f24c9c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/features.md"
+    },
+    {
+      "path": "docs/guide/filtering.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/49e85c3e6076a471df88858b.md",
+      "kind": "official-document",
+      "bytes": 6305,
+      "sha256": "7816c1df52229be26df70bb55de84d8d79b4df8b3ecca2433b1ba5fbad443bd2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/filtering.md"
+    },
+    {
+      "path": "docs/guide/ide.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/103129a1ccdb38f32625c292.md",
+      "kind": "official-document",
+      "bytes": 1930,
+      "sha256": "ecea1b2809124361747cb615721e0612d391dd2485ddb3c47592d7ec9897ea7a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/ide.md"
+    },
+    {
+      "path": "docs/guide/improving-performance.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5b85d15184dab14d8a102698.md",
+      "kind": "official-document",
+      "bytes": 14094,
+      "sha256": "2e1fb8595bf5f999b1c6416c9688e0eed0b53665829634883ddf95bced0ecb72",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/improving-performance.md"
+    },
+    {
+      "path": "docs/guide/in-source.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/07895c5d05826d85a061213f.md",
+      "kind": "official-document",
+      "bytes": 4116,
+      "sha256": "ea3d1374e1de32edfbbfd9a43d6e6e35c0fb5c6a397202c829d4d745230a75e6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/in-source.md"
+    },
+    {
+      "path": "docs/guide/index.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a9f09e5fd39208124b216a0c.md",
+      "kind": "official-document",
+      "bytes": 7873,
+      "sha256": "1bd3de04974b5c03b31e603755dee6600a2a4ccdfbf578f13811ce611b755988",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/index.md"
+    },
+    {
+      "path": "docs/guide/learn/async.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/827dada954790c0789e007b8.md",
+      "kind": "official-document",
+      "bytes": 6049,
+      "sha256": "7963abf7b6dbe055f9ec1d1d9cffaf7a998e1fcfa761f74b8d602ec5c5201775",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/async.md"
+    },
+    {
+      "path": "docs/guide/learn/debugging-tests.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d0dc395c20f285fc2e3f1f28.md",
+      "kind": "official-document",
+      "bytes": 8674,
+      "sha256": "bea1cc69f298eb5a6d7e7ebc1134e2148a8c4f5a3c955218f860a3eb1f1150f1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/debugging-tests.md"
+    },
+    {
+      "path": "docs/guide/learn/matchers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ae0a267b1c6636a3b317ec1d.md",
+      "kind": "official-document",
+      "bytes": 10425,
+      "sha256": "4e0c31a16dec97d608d84033495f71418980b4fca32a5f4dd6ed56c8b4aa5a65",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/matchers.md"
+    },
+    {
+      "path": "docs/guide/learn/mock-functions.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3e343bc3f9d084ca2c4ecf47.md",
+      "kind": "official-document",
+      "bytes": 9682,
+      "sha256": "92c0a28fe5af76d9702cc32d3f8ba1de3dbc782c5cefa9fab8d2c9894620e70c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/mock-functions.md"
+    },
+    {
+      "path": "docs/guide/learn/setup-teardown.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/8eb04d577863380325d66211.md",
+      "kind": "official-document",
+      "bytes": 8292,
+      "sha256": "54a1c706ad6a21cb857b604de4e3bfbfe4adfc71d5d006b63abe4c01286f8f6c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/setup-teardown.md"
+    },
+    {
+      "path": "docs/guide/learn/snapshots.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d8917e9118de769381d8e5f7.md",
+      "kind": "official-document",
+      "bytes": 8005,
+      "sha256": "c23d3fb8289528cd01209a75b29df70907b978adb464fbe58e33733538ca43cd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/snapshots.md"
+    },
+    {
+      "path": "docs/guide/learn/testing-in-practice.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/913e6f5feacb9629e9f5980d.md",
+      "kind": "official-document",
+      "bytes": 16123,
+      "sha256": "b92e5194fc1941656cdaac3e9fa2d18a7dc69b30ecf81926305dbd7d0540101c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/testing-in-practice.md"
+    },
+    {
+      "path": "docs/guide/learn/writing-tests-with-ai.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/acbe4092b2c77d1392f4bf5f.md",
+      "kind": "official-document",
+      "bytes": 9382,
+      "sha256": "9ec2e23f00c0ab03a0fb3346248d1d1859b945d1a9e4e31410b54aebf4c356f8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/writing-tests-with-ai.md"
+    },
+    {
+      "path": "docs/guide/learn/writing-tests.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c9093c4a2f1a5bec7bace035.md",
+      "kind": "official-document",
+      "bytes": 10192,
+      "sha256": "0d3de052558d3be41765f69b3a6f11b4ece6b6f1f20f5fc2d5a7252863d04ce5",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/learn/writing-tests.md"
+    },
+    {
+      "path": "docs/guide/lifecycle.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0bebfc67fd6cf493268df2c8.md",
+      "kind": "official-document",
+      "bytes": 14476,
+      "sha256": "111057ffb8dbb9fef04135911e2b599cdd2f37a0b75cd71742a11d45af61c7d7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/lifecycle.md"
+    },
+    {
+      "path": "docs/guide/migration/index.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e5ad9a44245f1277a40e6ee5.md",
+      "kind": "official-document",
+      "bytes": 32524,
+      "sha256": "91c766140b5201cd4e91af96d138b198f0b771954b62c7313ec530cd45a8f4bf",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/migration/index.md"
+    },
+    {
+      "path": "docs/guide/migration/jest.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/20cee23977571a9b050ef020.md",
+      "kind": "official-document",
+      "bytes": 7527,
+      "sha256": "da78a5f0af5ebb13ecaf8abea5c4c162831c8c5e1a854ec247fece49ea2d498a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/migration/jest.md"
+    },
+    {
+      "path": "docs/guide/migration/mocha.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2bf2e174a4472a4a184b8cd5.md",
+      "kind": "official-document",
+      "bytes": 4958,
+      "sha256": "b2996030d33b9d22b436c1f23a496c54edb1f42dc84685917c8d3be17e6920db",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/migration/mocha.md"
+    },
+    {
+      "path": "docs/guide/mocking.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/dd2cdf5b165fe1647413d29e.md",
+      "kind": "official-document",
+      "bytes": 6677,
+      "sha256": "3a255eabe4049ef1961c3ffd1e2db9aa647463f7f7d9a5f430554f9f02cc2292",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking.md"
+    },
+    {
+      "path": "docs/guide/mocking/classes.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9a52efb30abb5c5918764871.md",
+      "kind": "official-document",
+      "bytes": 7672,
+      "sha256": "602bdf51359e1dafd98d1a19637a671e95a0ac568b270d0f2b8eb08f948477de",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/classes.md"
+    },
+    {
+      "path": "docs/guide/mocking/dates.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/93804acc9c09201d273050dc.md",
+      "kind": "official-document",
+      "bytes": 1465,
+      "sha256": "c50132b45f1c768eb8c6def79b259e94e271cc748475f5dc9de1125cfa0c6e92",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/dates.md"
+    },
+    {
+      "path": "docs/guide/mocking/file-system.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/879b5e31057b75022299d55e.md",
+      "kind": "official-document",
+      "bytes": 2548,
+      "sha256": "10989e261f7d6d22052af017246a946da570c54d1472005f80f7eda6cd9cdebf",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/file-system.md"
+    },
+    {
+      "path": "docs/guide/mocking/functions.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/69122f50f5d19008d8bd7b2c.md",
+      "kind": "official-document",
+      "bytes": 2006,
+      "sha256": "7e1ec18873d26d543a91b2655f885b1f8001a91a3501b1202fb478637cc044df",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/functions.md"
+    },
+    {
+      "path": "docs/guide/mocking/globals.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7b854418942cad47e488520e.md",
+      "kind": "official-document",
+      "bytes": 810,
+      "sha256": "42a0e79dd53c759a7dd347b918e51fe49b17529ffdb9ce3518edada6152c73bc",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/globals.md"
+    },
+    {
+      "path": "docs/guide/mocking/modules.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e3759cbdbbf086cbb24ad22b.md",
+      "kind": "official-document",
+      "bytes": 14799,
+      "sha256": "2b46649ce5fe1b52d180c3250bb6cc792a7ef088eb32cbb23ca1ad7c74c6166b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/modules.md"
+    },
+    {
+      "path": "docs/guide/mocking/requests.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1c0f15f7a2c540a86758c72a.md",
+      "kind": "official-document",
+      "bytes": 3553,
+      "sha256": "e02718edfe7553457c76e58ffba064d0c7f4b9f3f1953283bb223c04d661c568",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/requests.md"
+    },
+    {
+      "path": "docs/guide/mocking/timers.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b9de54799b980aed2359d630.md",
+      "kind": "official-document",
+      "bytes": 1365,
+      "sha256": "19b4c1e02374cbe40ef142f116b2c8d0f8717ab880fc5bbf861415cfdf658677",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/mocking/timers.md"
+    },
+    {
+      "path": "docs/guide/open-telemetry.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3900f004f69859539e1853ee.md",
+      "kind": "official-document",
+      "bytes": 6603,
+      "sha256": "aff5249680e6914a1558a7e6e5c5c299fa32ed25824cd5e15861c330a23b9ab8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/open-telemetry.md"
+    },
+    {
+      "path": "docs/guide/parallelism.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/6565af9dadcd93edcc744635.md",
+      "kind": "official-document",
+      "bytes": 4629,
+      "sha256": "cd8ddcce7bdccbd814e116c75c1476506efe5ab1983f968b24e8b9eeab358aff",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/parallelism.md"
+    },
+    {
+      "path": "docs/guide/profiling-test-performance.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c2393940f0ca516336facbf7.md",
+      "kind": "official-document",
+      "bytes": 9444,
+      "sha256": "2e1be4a5d37a33656933ccdc3187a648ddb2dd545b52acf3364c947488e427bd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/profiling-test-performance.md"
+    },
+    {
+      "path": "docs/guide/projects.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4b0814ac7848eaff34ef370b.md",
+      "kind": "official-document",
+      "bytes": 13698,
+      "sha256": "c1d3663c64be8c132a17d5dc1d4af6c39643379ef98a06f12720a91706fb35ea",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/projects.md"
+    },
+    {
+      "path": "docs/guide/recipes/browser-locators.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/020d80db8775cf94a7a3636e.md",
+      "kind": "official-document",
+      "bytes": 5888,
+      "sha256": "7f8614ce7589231fa97a5101c551a69d623f4ee29a39e483857f559d14e3f52c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/browser-locators.md"
+    },
+    {
+      "path": "docs/guide/recipes/cancellable.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7c4be0e3a94b0d09f6a68051.md",
+      "kind": "official-document",
+      "bytes": 2442,
+      "sha256": "80594cfa6d42d9bc44b8e8aa0732e91a08737405b7b2dacd59412777252c915d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/cancellable.md"
+    },
+    {
+      "path": "docs/guide/recipes/conditional-mocking.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f1e4bbc690d652ec45ba29e2.md",
+      "kind": "official-document",
+      "bytes": 10254,
+      "sha256": "09b4a6da733a782156f09713cadf35866993a9e0da87110e04991e38b46f5f6e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/conditional-mocking.md"
+    },
+    {
+      "path": "docs/guide/recipes/custom-assertions.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f110743591274eaf5a18ebce.md",
+      "kind": "official-document",
+      "bytes": 2009,
+      "sha256": "6806c5a9513156bc3ccecaa9579eb867b34d805ab2dc45f4d2af393ffbd89e20",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/custom-assertions.md"
+    },
+    {
+      "path": "docs/guide/recipes/db-transaction.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ae20b086a7af53adbbc698f1.md",
+      "kind": "official-document",
+      "bytes": 3904,
+      "sha256": "4bd7b8ad09942819cfa281b9cfd8974ab79f435ba14aaf89a557b3191c298331",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/db-transaction.md"
+    },
+    {
+      "path": "docs/guide/recipes/disable-isolation.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bde41f798010a552c0c1809d.md",
+      "kind": "official-document",
+      "bytes": 2338,
+      "sha256": "4107466d86c4101eb0e59b674753ea5503e0f5bfe7335d5eea3c0384e9905acb",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/disable-isolation.md"
+    },
+    {
+      "path": "docs/guide/recipes/explicit-resources.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bcff8fb3a0348f72553754f8.md",
+      "kind": "official-document",
+      "bytes": 3627,
+      "sha256": "f23be776e36e5fb099504186542644e1088cbcf72213a91a14b2e1e2be1346f0",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/explicit-resources.md"
+    },
+    {
+      "path": "docs/guide/recipes/parallel-sequential.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e5fff93ed45d1d100d183792.md",
+      "kind": "official-document",
+      "bytes": 3327,
+      "sha256": "6c9f2591a580c12ed5748c5e607c36a1b89c12534809c477efa79fc9c532a905",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/parallel-sequential.md"
+    },
+    {
+      "path": "docs/guide/recipes/schema-matching.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d99ca1696c05254ecb95b0a6.md",
+      "kind": "official-document",
+      "bytes": 2636,
+      "sha256": "d755dc5c1829cec623f8d87b172eb049bed4c554ad6e2acc05d3bf79470ada95",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/schema-matching.md"
+    },
+    {
+      "path": "docs/guide/recipes/type-narrowing.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/8c3f77c2d1457f0a39b0607e.md",
+      "kind": "official-document",
+      "bytes": 2627,
+      "sha256": "2a453fb3fe011e7f7f1f6e0ad169539d30f07240248e0a536fa88af29532a200",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/type-narrowing.md"
+    },
+    {
+      "path": "docs/guide/recipes/wait-for.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/67a6d9a06b54185466ecb3a7.md",
+      "kind": "official-document",
+      "bytes": 5452,
+      "sha256": "6342ac84d8370b34f0119e83072a69491e4516cae67d3d451b5e4340901c9aab",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/wait-for.md"
+    },
+    {
+      "path": "docs/guide/recipes/watch-templates.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e677c7da0890bf52258139ab.md",
+      "kind": "official-document",
+      "bytes": 2554,
+      "sha256": "99ddf83e402a2bd1fade57d9448ee1e2ab482551699f2ad231f6b802b8cb0bcf",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/recipes/watch-templates.md"
+    },
+    {
+      "path": "docs/guide/reporters.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0b9fcace5a042edce4f0ae82.md",
+      "kind": "official-document",
+      "bytes": 28370,
+      "sha256": "192bb80c7f7ed8d8b7acd46f055eb3a0a10481eee9f84e1d3eb10e043db91746",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/reporters.md"
+    },
+    {
+      "path": "docs/guide/snapshot.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/8efeaed9dc51871b90c0aa90.md",
+      "kind": "official-document",
+      "bytes": 22219,
+      "sha256": "955ba48310784ae3f7c31df8f66a31a1afc1368c2d37de1412a9ae431dcbe06a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/snapshot.md"
+    },
+    {
+      "path": "docs/guide/test-annotations.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4f85e13dab81c1f6eefd4c05.md",
+      "kind": "official-document",
+      "bytes": 3774,
+      "sha256": "47b8339aede78d6ee5a585b0efa20be05764a232f344e32e84d7a90f24fd1908",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/test-annotations.md"
+    },
+    {
+      "path": "docs/guide/test-context.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e7d4ba1b549f3f4eea25aebb.md",
+      "kind": "official-document",
+      "bytes": 25705,
+      "sha256": "ed8a74a12867f6098fd7b1d3f98b1622a261dcc0331b3e6757ec5ad37127bdaa",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/test-context.md"
+    },
+    {
+      "path": "docs/guide/test-tags.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7789cdd44765c03e3e4fb946.md",
+      "kind": "official-document",
+      "bytes": 11489,
+      "sha256": "06b17f61aaa25abd420cb0a8df1f178f98af67ce82e1a3e0e1f38c645e598ca8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/test-tags.md"
+    },
+    {
+      "path": "docs/guide/testing-types.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/58c52997981aa78c64ba261e.md",
+      "kind": "official-document",
+      "bytes": 6955,
+      "sha256": "f64dc30164cb998e9fe83862a579b5cce5e71756c3f112d8b0b554faef822afa",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/testing-types.md"
+    },
+    {
+      "path": "docs/guide/ui.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/070b70d4ffec426d9c5b41f4.md",
+      "kind": "official-document",
+      "bytes": 11607,
+      "sha256": "2d37116cdec3cd29719e1d5d9557c8cc5b2c9bf0c3b07d337c3445b58ec79edc",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/ui.md"
+    },
+    {
+      "path": "docs/guide/using-plugins.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/40e78ded277ca9d25b4c10f4.md",
+      "kind": "official-document",
+      "bytes": 378,
+      "sha256": "6ece1d294eed270b3142dfe758af95d8cc8837238d4b92aa4113a6ef7be36130",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/using-plugins.md"
+    },
+    {
+      "path": "docs/guide/why.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/86536b61da9bf712c13e0cfa.md",
+      "kind": "official-document",
+      "bytes": 2817,
+      "sha256": "e16db5d266c5149640055d7f8a08ac415798e168ab651a1b5e38deea17086bc3",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/guide/why.md"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 179,
+      "sha256": "eb2ad4e68b83294ee367085c83d2d3075aa6a2ea2dfec8740406d90e9ba46e66",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/index.md"
+    },
+    {
+      "path": "docs/public/robots.txt",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2b69b8df40aee694f03621ec.txt",
+      "kind": "official-document",
+      "bytes": 23,
+      "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/public/robots.txt"
+    },
+    {
+      "path": "docs/releases.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ddff4241c2f41c415cbf4ff2.md",
+      "kind": "official-document",
+      "bytes": 3883,
+      "sha256": "842436c9bc9c53bd56a6e24fb46ecd0c56e225de81a17c7b1288151a46597e6c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/releases.md"
+    },
+    {
+      "path": "docs/team.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a35b5d62867541194537dab9.md",
+      "kind": "official-document",
+      "bytes": 998,
+      "sha256": "2416e6a4c35ccfe9b3e38450cdc88f67a61b6baba779723971ec0cb3425434f1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/team.md"
+    },
+    {
+      "path": "docs/todo.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d84697334acf64fe5d67dfd3.md",
+      "kind": "official-document",
+      "bytes": 906,
+      "sha256": "421f08ffc150be4af6de58283ab9b0da17c9ba577e2170f70e06f55479b8eede",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/docs/todo.md"
+    },
+    {
+      "path": "examples/basic/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/fe83992f154cc181844b6bf9.md",
+      "kind": "official-document",
+      "bytes": 119,
+      "sha256": "b669d35854fe288d46afe12f0519f4b9d6a40aa18fb70164377791d9556bb9d7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/basic/README.md"
+    },
+    {
+      "path": "examples/basic/src/basic.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bfd07747cecd729be3c47768.ts",
+      "kind": "upstream-example-code",
+      "bytes": 44,
+      "sha256": "9b82ff27b305fb8fa6080dbf4564b87b5be59ece6e0bd7fdeb5569c32dba4a8e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/basic/src/basic.ts"
+    },
+    {
+      "path": "examples/basic/test/basic.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/b1cb722171b4b099e7e1a5d5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 609,
+      "sha256": "0bb0f9caa9eea24513e5695bc20b79a76bae3b5994c339bbcb687c6f52f4f015",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/basic/test/basic.test.ts"
+    },
+    {
+      "path": "examples/basic/test/suite.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/dc76e378be078c68de303ff7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 274,
+      "sha256": "16103cb3d7579b3a47024e6a5f08377c923c1e4753d3bfef50f3cebc7041023f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/basic/test/suite.test.ts"
+    },
+    {
+      "path": "examples/basic/vite.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/fdfbfd15b45da33b70d676ad.ts",
+      "kind": "upstream-example-code",
+      "bytes": 283,
+      "sha256": "9c71f9ac96bf5c8f8f0d3ea49f4c5ff8f20fc22e66fa06f020a1fbecd25e6fd7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/basic/vite.config.ts"
+    },
+    {
+      "path": "examples/fastify/mockData.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3042defaaee8dae4f6d99bff.ts",
+      "kind": "upstream-example-code",
+      "bytes": 350,
+      "sha256": "f53da00101b86f55da363794e7b1b1c6b551149377d203882acd4ac92137ce13",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/fastify/mockData.ts"
+    },
+    {
+      "path": "examples/fastify/src/app.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4fa7d5f59a8ff15cd6bebe59.ts",
+      "kind": "upstream-example-code",
+      "bytes": 285,
+      "sha256": "e8407b9c3ce1d74593e6282c566166c24c0a551e796f75de80facb9694b8d4ed",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/fastify/src/app.ts"
+    },
+    {
+      "path": "examples/fastify/src/index.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/61d0c90edb163d7e3dafaa72.ts",
+      "kind": "upstream-example-code",
+      "bytes": 171,
+      "sha256": "2e11c5f012768a80dfc8279fb6baa897710f0a9b291863280c1ae74b57266ea7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/fastify/src/index.ts"
+    },
+    {
+      "path": "examples/fastify/test/app.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bda490c31aa0e4079ec5e7f0.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1072,
+      "sha256": "f56d775c57e3fa67d9561b94fff91124c3bafa940abe2a92a218106b365a8b04",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/fastify/test/app.test.ts"
+    },
+    {
+      "path": "examples/in-source-test/src/index.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a855e1d3ee6b573607837bb2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 315,
+      "sha256": "e5796410c57991602787a60694f4344a745e2cf69dd62462f4f4741339bbf9be",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/in-source-test/src/index.ts"
+    },
+    {
+      "path": "examples/in-source-test/vitest.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ca585b042cc8652f9b70d89b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 135,
+      "sha256": "bc0199d41340f4d4c7096030ade60fed1717ebbb2e2b7047d9182b71a2bd0ccd",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/in-source-test/vitest.config.ts"
+    },
+    {
+      "path": "examples/lit/src/my-button.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/4cbc83017b841bcd526de8bd.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1002,
+      "sha256": "07210859e9fb33c8c95150e8d63f656cc157e30818f06c5bf93c45db41863188",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/lit/src/my-button.ts"
+    },
+    {
+      "path": "examples/lit/test/basic.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ea6707bf97d04f93bc3480c9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 853,
+      "sha256": "41e6962b978500880dd2833db3a61094f3d6ed1d624710e90dda98091010ee0a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/lit/test/basic.test.ts"
+    },
+    {
+      "path": "examples/lit/vite.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/902633a15734bcf4a5530bca.ts",
+      "kind": "upstream-example-code",
+      "bytes": 455,
+      "sha256": "82bef41a31d92e6bd7fed02e9e09d1d1aec4619865adab3e2839615c271081c2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/lit/vite.config.ts"
+    },
+    {
+      "path": "examples/opentelemetry/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/acce5c4da7248e9918376c02.md",
+      "kind": "official-document",
+      "bytes": 541,
+      "sha256": "a7e865de226f0caab5ad421532dde9ec197f677eb6ccf02d9707f46b60853ac4",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/README.md"
+    },
+    {
+      "path": "examples/opentelemetry/otel-browser.js",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/48cc030457f03f786a90fc2c.js",
+      "kind": "upstream-example-code",
+      "bytes": 1019,
+      "sha256": "1ad0d784b4990fe73380d8a4df112f26cc0c4540add4eeec28295921f35d3b1c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/otel-browser.js"
+    },
+    {
+      "path": "examples/opentelemetry/otel.js",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2e9f83cf9bbb38fe5acf93a3.js",
+      "kind": "upstream-example-code",
+      "bytes": 470,
+      "sha256": "a8f3587ee1827153ca28a1b4243d18089f69403719d4700ccdad7f0bf805b97e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/otel.js"
+    },
+    {
+      "path": "examples/opentelemetry/src/basic.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/36eb68a5952eded8a4a9eb44.ts",
+      "kind": "upstream-example-code",
+      "bytes": 215,
+      "sha256": "1a95f43ed2000729c38d43e7b0abc3173d9764bf7f8afecfefc177c146c0b48f",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/src/basic.test.ts"
+    },
+    {
+      "path": "examples/opentelemetry/src/basic.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/f213bbd3fe7d0fc182f126f0.ts",
+      "kind": "upstream-example-code",
+      "bytes": 112,
+      "sha256": "3352e179fc1eba280f637324234c8dbed6e670bd0dc60ecb31fa9e2450ca7955",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/src/basic.ts"
+    },
+    {
+      "path": "examples/opentelemetry/src/other.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/548fde672009444612c3aaa3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1016,
+      "sha256": "90aac00cb3e2a39c604473fbc4fffb9713983dac623575d65dcc43d7e6eb2c9b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/src/other.test.ts"
+    },
+    {
+      "path": "examples/opentelemetry/vite.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0556ebdf17cdc949af3394b5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 551,
+      "sha256": "a1663af4e5c2db8f3aa78a2f499bbb24956fa35123ab2f0aae9c24bf5b035bc1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/opentelemetry/vite.config.ts"
+    },
+    {
+      "path": "examples/profiling/global-setup.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1c349a5d4e47cea07ed1b3c9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 188,
+      "sha256": "40ce6fab562525fdad7ea3edd177c558f14b67a84f6a6c0e905dda6f33f601ee",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/profiling/global-setup.ts"
+    },
+    {
+      "path": "examples/profiling/src/prime-number.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1872daffa97be7983e6dd1c1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1705,
+      "sha256": "624bdf81e8a6611c80884d8876d284206defaedd9f3d8a5198cdbec3e86b2b48",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/profiling/src/prime-number.ts"
+    },
+    {
+      "path": "examples/profiling/test/prime-number.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/92317fff01e0a552a3fe5123.ts",
+      "kind": "upstream-example-code",
+      "bytes": 294,
+      "sha256": "113a7503fa0fa832179c6e32c3152b9c79be6b5b457dda96ad1a33cf046fbbc4",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/profiling/test/prime-number.test.ts"
+    },
+    {
+      "path": "examples/profiling/vitest.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/e77b1e1accc044443e4fac1d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 462,
+      "sha256": "2e549393d582ed1baff3ab0e05fb1ccfe4038393c630ea2a2c57a8870ec94570",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/profiling/vitest.config.ts"
+    },
+    {
+      "path": "examples/projects/packages/client/components/Link.tsx",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0c8844feef567054c82eced2.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 602,
+      "sha256": "6028e55f52b0c4720379f69b0c915de455893fcab48eb06e5be37d880e28f896",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/client/components/Link.tsx"
+    },
+    {
+      "path": "examples/projects/packages/client/test/basic.test.tsx",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/317485afacee70ac54470f4f.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 621,
+      "sha256": "2a8d1bb90a28088875f7349e499c9ad31ce063b701f2955971693a13a0dac4d8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/client/test/basic.test.tsx"
+    },
+    {
+      "path": "examples/projects/packages/client/vitest.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2f197160b1bd952d37a1e882.ts",
+      "kind": "upstream-example-code",
+      "bytes": 220,
+      "sha256": "795ff215c2b34447b39954dd72047643f09fceade4c8162d10dabb1933241aa1",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/client/vitest.config.ts"
+    },
+    {
+      "path": "examples/projects/packages/client/vitest.setup.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/43efc1873d32ba648238fd5f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 42,
+      "sha256": "977afde26bba6a51325908cd7713cbfdc87d18f06b78b237c8f364c44864b7de",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/client/vitest.setup.ts"
+    },
+    {
+      "path": "examples/projects/packages/server/mockData.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2a0fc502141451a986a6a532.ts",
+      "kind": "upstream-example-code",
+      "bytes": 350,
+      "sha256": "f53da00101b86f55da363794e7b1b1c6b551149377d203882acd4ac92137ce13",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/server/mockData.ts"
+    },
+    {
+      "path": "examples/projects/packages/server/src/app.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0e1ef2c75b7f23f247853999.ts",
+      "kind": "upstream-example-code",
+      "bytes": 288,
+      "sha256": "7b2e5e84bf956a74d1b7b663cb10a0de04ce66aedf8e2492aac9f0ae7068a3c7",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/server/src/app.ts"
+    },
+    {
+      "path": "examples/projects/packages/server/src/index.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5fce5cac57f5c0561c4b48d6.ts",
+      "kind": "upstream-example-code",
+      "bytes": 174,
+      "sha256": "447db2fb5b10d1518ecab9740b9965da2ea69b554bc6fe6103fff20cc81817c8",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/server/src/index.ts"
+    },
+    {
+      "path": "examples/projects/packages/server/test/app.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/069b9af1acea469b3b23d672.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1078,
+      "sha256": "215a3789c0e8f1d6072a91204e30f26df9967972769bb3506831cd4de79e383e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/packages/server/test/app.test.ts"
+    },
+    {
+      "path": "examples/projects/vitest.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/475fc682b93f04792c9c1591.ts",
+      "kind": "upstream-example-code",
+      "bytes": 124,
+      "sha256": "d6cd7e97833ffdbd847272557f5c23a94c9368a842e14c8bc1d3aa4e523b8915",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/projects/vitest.config.ts"
+    },
+    {
+      "path": "examples/typecheck/test/normal.test.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/2096cb1fba531c7e53b4963a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 89,
+      "sha256": "ec2eee8542de4da593ae9752bec22d27250eb4510f70b7abd587ebcb51b29862",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/typecheck/test/normal.test.ts"
+    },
+    {
+      "path": "examples/typecheck/test/type.test-d.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/c1025f2f695495bec9294574.ts",
+      "kind": "upstream-example-code",
+      "bytes": 148,
+      "sha256": "806e6c3bf22fa486ae5d4d77196241db496f3299bc58572a4b05e96618321324",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/typecheck/test/type.test-d.ts"
+    },
+    {
+      "path": "examples/typecheck/vite.config.ts",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/a7e456a15f63da7d259aef09.ts",
+      "kind": "upstream-example-code",
+      "bytes": 328,
+      "sha256": "8b93e7b10ca71730bb7e0c1cc945bb53d139b91328ea9fed54c95fa55431818b",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/examples/typecheck/vite.config.ts"
+    },
+    {
+      "path": "packages/browser-playwright/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/36155fc4ad4a2a8c1cd2b1e1.md",
+      "kind": "official-document",
+      "bytes": 1393,
+      "sha256": "f1aeb5093028ecbb473ea8d7cd3e26172177449c42c07619bdc2d8179c786d55",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/browser-playwright/README.md"
+    },
+    {
+      "path": "packages/browser-preview/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/73dafc3f39026150d7099a0a.md",
+      "kind": "official-document",
+      "bytes": 1516,
+      "sha256": "d838c64cdc11cc76e4370ffaf6c72f5359056a40c16a76fc6754131c54fe5b56",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/browser-preview/README.md"
+    },
+    {
+      "path": "packages/browser/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/de839377453f838da9763355.md",
+      "kind": "official-document",
+      "bytes": 820,
+      "sha256": "174ab43fff7a7ddbdad05abdb4263f07c0e589b1aa5d298152e98f23c842254e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/browser/README.md"
+    },
+    {
+      "path": "packages/coverage-istanbul/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9055ffcf34b9f0f545c904db.md",
+      "kind": "official-document",
+      "bytes": 782,
+      "sha256": "272b2deb6c45e612763614ad5de475e809f13cfc0fc1b30536f0687e8a5f85c2",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/coverage-istanbul/README.md"
+    },
+    {
+      "path": "packages/coverage-v8/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/bca08b4ba58fe2939f2df85f.md",
+      "kind": "official-document",
+      "bytes": 814,
+      "sha256": "dadcb83d29802f161cd49fbae3e83a03d5d21a2cd22b1a7437f02c30059f19ac",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/coverage-v8/README.md"
+    },
+    {
+      "path": "packages/expect/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/06979216773cb996d6e9e64a.md",
+      "kind": "official-document",
+      "bytes": 699,
+      "sha256": "b3d8cd8dddb4fc1b03d201eb4dc79a05d504e025c54d5351637290f6d2cd7471",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/expect/README.md"
+    },
+    {
+      "path": "packages/mocker/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/9da8a93a8df45e344f6fa2e3.md",
+      "kind": "official-document",
+      "bytes": 349,
+      "sha256": "3446aaa76f25dffc11be580c86a58c39f80eb3a962a1716da5cd54f82a6e38f4",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/mocker/README.md"
+    },
+    {
+      "path": "packages/pretty-format/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/3e16bf6a4a8b4715e330b435.md",
+      "kind": "official-document",
+      "bytes": 425,
+      "sha256": "b8179ec8ef8e31acf8f4237c532cc0f0c7d721b1b03c3859c24efc34594bf347",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/pretty-format/README.md"
+    },
+    {
+      "path": "packages/snapshot/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/ed9764399b64301a4f1dff0f.md",
+      "kind": "official-document",
+      "bytes": 2827,
+      "sha256": "dd340d94f3fdc93c14fde106e37ec9e6893181dc7e970797aa1144a8899b3af6",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/snapshot/README.md"
+    },
+    {
+      "path": "packages/spy/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/45dacab487a4a08d32e77c05.md",
+      "kind": "official-document",
+      "bytes": 303,
+      "sha256": "88537bb8205304cd0bdad48ad06dd8a2d5fb22d5eaa51529ef533fbf5d3b151c",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/spy/README.md"
+    },
+    {
+      "path": "packages/ui/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/0c5cfd3909673f57251cc7be.md",
+      "kind": "official-document",
+      "bytes": 285,
+      "sha256": "8cfa6291d8ba7a31bffe092e4ebc28a599fbfdb1f1ec50c73e1042ce3b673011",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/ui/README.md"
+    },
+    {
+      "path": "packages/utils/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/fe99193c708bc3807bec69f7.md",
+      "kind": "official-document",
+      "bytes": 308,
+      "sha256": "05e86c7f9e1cba1b4946106666c9444d9eeffb834550e9c03cee97d5bf68a540",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/utils/README.md"
+    },
+    {
+      "path": "packages/vitest/LICENSE.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/68ced9623a94115a3f4e813c.md",
+      "kind": "license",
+      "bytes": 45239,
+      "sha256": "78fbac9e571c2ee260deb2a1941a8a18f0a85e3f39c23d08e2dcee6da4841998",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/vitest/LICENSE.md"
+    },
+    {
+      "path": "packages/vitest/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/fea69c3563a6179130520e58.md",
+      "kind": "official-document",
+      "bytes": 256,
+      "sha256": "1e870589f0aa14b261587531486354c4a87f78e8d3170c29b0fa3b74ccbe190e",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/vitest/README.md"
+    },
+    {
+      "path": "packages/web-worker/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/1e47be99cd7fdea3c26819ac.md",
+      "kind": "official-document",
+      "bytes": 2658,
+      "sha256": "b39d1431b905a06422a7d4035a5743937e8e6d02dd79fdc65471b3922375c75d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/packages/web-worker/README.md"
+    },
+    {
+      "path": "test/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5de36acd90308dc62abf7855.md",
+      "kind": "official-document",
+      "bytes": 796,
+      "sha256": "a863b5dd47f0184d1e1315712ca4a48f7abfde6419927c993b6761e9cd788a8a",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/test/README.md"
+    },
+    {
+      "path": "test/browser/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/d5d7c28a6fb6d9c0425e42bb.md",
+      "kind": "official-document",
+      "bytes": 812,
+      "sha256": "2707139193cdf6f39e9303660952b35b375b6a46e6f52bdfa408d52550b025fb",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/test/browser/README.md"
+    },
+    {
+      "path": "test/e2e/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/7d9a55ec9712c1ccc931efe1.md",
+      "kind": "official-document",
+      "bytes": 530,
+      "sha256": "8be11472fa65864be36e10a66b4e44cf853bd645e1534957e96342e8e273930d",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/test/e2e/README.md"
+    },
+    {
+      "path": "test/ui/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/59a02b839e7f40d3f7d3184f.md",
+      "kind": "official-document",
+      "bytes": 393,
+      "sha256": "7ba24e1803bb2925f4ce1deb9a7a06e2be22d5793d385be9978b30e8435da512",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/test/ui/README.md"
+    },
+    {
+      "path": "test/unit/src/wasm/wasm-bindgen-no-cyclic/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/5828be09cb81cef47360f49f.md",
+      "kind": "official-document",
+      "bytes": 660,
+      "sha256": "73dc179d550ac8ab7c256190c1bd7569d1691e7d8f62d8d31b58708ddc4eb195",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/test/unit/src/wasm/wasm-bindgen-no-cyclic/README.md"
+    },
+    {
+      "path": "test/unit/src/wasm/wasm-bindgen/README.md",
+      "localPath": "raw/vitest-dev--vitest/30d0304d2f3e/df85149bd918cee60be19569.md",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "9811557db098a5af00ae5f6fd5c3081fa1f4c30498cfb133533f6387cd8f7455",
+      "sourceUrl": "https://github.com/vitest-dev/vitest/blob/30d0304d2f3e8c877a163971e5de8e6803d39211/test/unit/src/wasm/wasm-bindgen/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

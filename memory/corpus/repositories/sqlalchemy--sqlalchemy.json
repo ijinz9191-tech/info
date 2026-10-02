@@ -1,0 +1,2315 @@
+{
+  "schemaVersion": 1,
+  "repo": "sqlalchemy/sqlalchemy",
+  "commit": "98ad157d63345522db3c84aed5acabf1d875f5d3",
+  "retrievedAt": "2026-10-01T15:50:27.374076+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/python"
+  ],
+  "archiveUrl": "https://codeload.github.com/sqlalchemy/sqlalchemy/zip/98ad157d63345522db3c84aed5acabf1d875f5d3",
+  "selectionSha256": "d543e224bc9a806c8645275816515a5e0b0340963092895e914a618c141f4394",
+  "selection": {
+    "docRoots": [
+      "doc/build"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "a34d814fb980398a10dfa4056fcb82c6ab5e113910bbc3a97f6c906c84d82227",
+  "archiveBytes": 6089573,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 209,
+    "code": 74,
+    "licenses": 2,
+    "bytes": 5921357
+  },
+  "files": [
+    {
+      "path": "CHANGES.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ff3c479edefad986d2fe6fe7.rst",
+      "kind": "official-document",
+      "bytes": 240,
+      "sha256": "827c82aec077729c8b273d24b9193fa2c00b07976845361c080a7d758c1f4fc2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/CHANGES.rst"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1100,
+      "sha256": "e862bb5b904fb5513c3e14288d7a25a12eb0ecc7847a0a965d310e9a955e7cb9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/LICENSE"
+    },
+    {
+      "path": "README.dialects.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/45106efb16ff0650ecf74324.rst",
+      "kind": "official-document",
+      "bytes": 9188,
+      "sha256": "f6dced84180695e569061358fd4aed8730e01c29e8cc2400abc1f0f9e396eb59",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/README.dialects.rst"
+    },
+    {
+      "path": "README.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7b3ed02bc73dc06b7db906cf.rst",
+      "kind": "official-document",
+      "bytes": 5719,
+      "sha256": "25b10613cda71aa22d38285a2878a019d9d7e09e4541a5d266a3fb04d573bce1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/README.rst"
+    },
+    {
+      "path": "README.unittests.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a0c92db72cfdaca8e1d846b1.rst",
+      "kind": "official-document",
+      "bytes": 20825,
+      "sha256": "dd572f65ce3577c61c78a3da65cdaa088fa89b44a177be0664b027a47055e1b5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/README.unittests.rst"
+    },
+    {
+      "path": "doc/build/changelog/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a3f321ed203602f718d8cb80.txt",
+      "kind": "official-document",
+      "bytes": 1598,
+      "sha256": "9a4a7e582fcd762b4601c854031d6cd2beea942006a7b3cb89f544291876f10a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/changelog_01.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/117570e4fcab8b23a2cd511c.rst",
+      "kind": "official-document",
+      "bytes": 26923,
+      "sha256": "0f95fc7baf8d6e09cbd68b17e70651ce87b36c425b8e05d4a431b22caff629a3",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_01.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_02.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/28118879e46aaa1fecf2a036.rst",
+      "kind": "official-document",
+      "bytes": 31251,
+      "sha256": "6fa40978ddfa3ac7b1eeaf144403ed7fccb2f33574d043c76a6554dda7b3f694",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_02.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_03.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/452755bdeba811b21791f929.rst",
+      "kind": "official-document",
+      "bytes": 83054,
+      "sha256": "1cc0d187fc8d30da8f4b23dfed83fe4787e53eb7c2a2f3997318e0d6f51f924f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_03.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_04.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/6dc72df25ff4325f9b25682c.rst",
+      "kind": "official-document",
+      "bytes": 127476,
+      "sha256": "df3dbdf400711b83fed00d59f832aa90fd965ab170ef67bede6a2a55cde5edfd",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_04.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_05.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/98fa33fa06572c7d04b9a2fc.rst",
+      "kind": "official-document",
+      "bytes": 111054,
+      "sha256": "e0646add2499d1d9648076fdef8ca220cdeb96c1ef12338e10ae8a801d52aa6a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_05.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_06.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0a64bcf87bdaa7a636166f75.rst",
+      "kind": "official-document",
+      "bytes": 169731,
+      "sha256": "7ff80e26d9d173da09ebf527c86237fcc931309b46548b9e0bc610a3120f5192",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_06.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_07.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a826b4d23be94922595a91e1.rst",
+      "kind": "official-document",
+      "bytes": 136665,
+      "sha256": "1fde64fb9f1b304fa76799ea807f6da024596fbadd7fff6a28782c3ffd352e4d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_07.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_08.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ff8c3a56f2d13e2fc72e20a2.rst",
+      "kind": "official-document",
+      "bytes": 131260,
+      "sha256": "9bbaf5b09de215edb4111b3764b26bfb21b5eb9aab624819bfec0aab47584673",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_08.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_09.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2efeb1a138bd28fd4ffda64a.rst",
+      "kind": "official-document",
+      "bytes": 136730,
+      "sha256": "32925218c7accb4c10ef433532ac8838a2ce76bb85ddfc746b18359a82a47b29",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_09.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_10.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3dfde7ce8d99234ddc20e804.rst",
+      "kind": "official-document",
+      "bytes": 135195,
+      "sha256": "0dcb3bc6735d6d367b5f0ef72ad68d2b43470ab11ee53ec122ec1429b9907091",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_10.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_11.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b03984ed7e73c5159caa96a8.rst",
+      "kind": "official-document",
+      "bytes": 101566,
+      "sha256": "c01a6592c4e7bb52693616b036dfe0abe1d564a9fc9c47e09f80856f77a909e5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_11.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_12.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d260ea0592608d52df02d09e.rst",
+      "kind": "official-document",
+      "bytes": 116425,
+      "sha256": "6650c01c1847dc78d74395aaa896aacf291e666bea60881c9e006e86aefb8df1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_12.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_13.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/46b92f0f93de1a695f130a2a.rst",
+      "kind": "official-document",
+      "bytes": 163888,
+      "sha256": "c67ba34092d830c6a7f045c6d52485ba5a99e757eae4e369a03c3d1f54445999",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_13.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_14.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/aae43613d81c319d3eef612c.rst",
+      "kind": "official-document",
+      "bytes": 401991,
+      "sha256": "102fcfa29cf17f04c0e664f5cc892c05afb11ccdbc1f936166f6cc532e2b413b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_14.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_20.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8fb0d93cf2ea8bb182f5aa84.rst",
+      "kind": "official-document",
+      "bytes": 398925,
+      "sha256": "258b6bf2ba9dc474aaa08b30073a97fada69ef0b851710b4cc9d796a5b90584e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_20.rst"
+    },
+    {
+      "path": "doc/build/changelog/changelog_21.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e2836f3f72a0fc46975536a4.rst",
+      "kind": "official-document",
+      "bytes": 103668,
+      "sha256": "ac38d98deb64048f57e74f10f19586ea407e95396fac585eb7305fd2214cb70c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/changelog_21.rst"
+    },
+    {
+      "path": "doc/build/changelog/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e5e6c6be41d31f94aa6a0879.rst",
+      "kind": "official-document",
+      "bytes": 1131,
+      "sha256": "b3952e3c1bc964c1ebc736dafc56736d8b11ec43b50068a404fdc58165c9a644",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/index.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_04.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/6a5af98dd103e6fe8728a391.rst",
+      "kind": "official-document",
+      "bytes": 26496,
+      "sha256": "b1a5a73bc548071df18651a0971672626dd2e16aa0614bfb354513036049af17",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_04.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_05.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ef9333df464eabcae732d1f2.rst",
+      "kind": "official-document",
+      "bytes": 26543,
+      "sha256": "391f71f0e40930e24c06f0ebde17d9d21e8aac4053b25ce7685f13b91d53a0b0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_05.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_06.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f192f4a47ba8b72f497db16e.rst",
+      "kind": "official-document",
+      "bytes": 44471,
+      "sha256": "f46e26475cde89797554d708e2551d3ec800b5e69c7fe8652f3676a833590345",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_06.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_07.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9374631edd432214737d3e1b.rst",
+      "kind": "official-document",
+      "bytes": 49737,
+      "sha256": "702cec7da00b0090d622379767fbd479364f31be59bc54b86c5ea56b08876e28",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_07.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_08.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0b6dc64777a42a8d08a8aa5f.rst",
+      "kind": "official-document",
+      "bytes": 52023,
+      "sha256": "8a19eea98bbc50e8f6ae8be4300ddbb8588060b9d809bdaf8f85f2d3ffdc4a91",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_08.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_09.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ecaedc62c500aad1af5e87f5.rst",
+      "kind": "official-document",
+      "bytes": 70524,
+      "sha256": "aa029c78c65f4b38d815065e761b79c1829dae18a252fc1d8967771f91df94a0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_09.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_10.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/93b5fcf5099b84314cb20126.rst",
+      "kind": "official-document",
+      "bytes": 99941,
+      "sha256": "d1cf35b0e579b61c88f7d07ea9c48f5055e1d8639fe33c360a928ab638bb705e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_10.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_11.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/233bec02639d7deb9e9635bd.rst",
+      "kind": "official-document",
+      "bytes": 114467,
+      "sha256": "bcd05a245d205f09b612fe7f8555ccf932653affe2370d4e3477a4aa155c9351",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_11.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_12.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a8fa457849c0fd8c4e7a08a7.rst",
+      "kind": "official-document",
+      "bytes": 67219,
+      "sha256": "9ae0b085dcb77e242129ccf25c499d02c672007c7dba7a4def48fd5c6a0516a6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_12.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_13.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0a2757f6ea0d7d8570c3c108.rst",
+      "kind": "official-document",
+      "bytes": 69055,
+      "sha256": "8fb7431664ca76c40a4429f49a9cb8bbc26b989c0c775488085f68a57f59ad96",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_13.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_14.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0b28263dccbf2f731cef99aa.rst",
+      "kind": "official-document",
+      "bytes": 140495,
+      "sha256": "b16106230c1404047a8b2ba758eaca7c969e2dcba0eb2d2f9e8d23244cbc5e9e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_14.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_20.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/998b982bbf545a402de8aea3.rst",
+      "kind": "official-document",
+      "bytes": 94389,
+      "sha256": "1b939c47f6d6ccc6ae822e5f2658a024d0769f4759f64bceb534a45a69ee372f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_20.rst"
+    },
+    {
+      "path": "doc/build/changelog/migration_21.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d54af7d55637bc92aefa7c48.rst",
+      "kind": "official-document",
+      "bytes": 91131,
+      "sha256": "26a03b3f28a66c3a63c6a44b2e3ccc1b464f0eac6e163f37cd5bc66ec525ef2e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/migration_21.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_11/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/fbfdb8418dca9600d075eb3a.txt",
+      "kind": "official-document",
+      "bytes": 159,
+      "sha256": "ec748058b889238daee00db5cfad635b061b7b4d6e3852fabc9d3878081a7578",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_11/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_12/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/32fd9f1341931d0d601b286a.txt",
+      "kind": "official-document",
+      "bytes": 159,
+      "sha256": "ec748058b889238daee00db5cfad635b061b7b4d6e3852fabc9d3878081a7578",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_12/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_13/6135.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/994517b56b465172d07f02c7.rst",
+      "kind": "official-document",
+      "bytes": 426,
+      "sha256": "099068fe781a4cd6c2fe20e7835a81ce98c281036765485698ae8e7132c0bad2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_13/6135.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_13/6182.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/76c2d468431bb9ec3604c30e.rst",
+      "kind": "official-document",
+      "bytes": 536,
+      "sha256": "38b4fd3de6e152e46344c143e34d300b9f3ae35e7860c05a75498ff462d8457c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_13/6182.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_13/6392.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/79b5f456830f6d585a7ed272.rst",
+      "kind": "official-document",
+      "bytes": 310,
+      "sha256": "01f20e8a1f5af7fc6950b2aca3396532ddcabc7c9767b97c947f90847aafd275",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_13/6392.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_13/6589.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c59981c8afa0d07bd8656e36.rst",
+      "kind": "official-document",
+      "bytes": 166,
+      "sha256": "497209b7fceb0985aa8984bf9d4d5aa0b2b072ecebfb49b20970600b13079059",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_13/6589.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_13/7115.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2e7227e16148291da23e550d.rst",
+      "kind": "official-document",
+      "bytes": 798,
+      "sha256": "2928004a7ed8e04082666084e7456e0f89dde6e5ec8f372ff5e7dcda54211d9a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_13/7115.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_13/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e78bb23470dced48a3be7ef9.txt",
+      "kind": "official-document",
+      "bytes": 159,
+      "sha256": "ec748058b889238daee00db5cfad635b061b7b4d6e3852fabc9d3878081a7578",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_13/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_14/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e9a0f472982d6703439ce2bc.txt",
+      "kind": "official-document",
+      "bytes": 159,
+      "sha256": "ec748058b889238daee00db5cfad635b061b7b4d6e3852fabc9d3878081a7578",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_14/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/12302.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ff0011bf7a6adc28e36d4754.rst",
+      "kind": "official-document",
+      "bytes": 433,
+      "sha256": "7bcd9cfb2ec00766a62de5872a5319afbc666b53ea1d2e53664d386cdfe7dcfd",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/12302.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/12710.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/266ce5f26b75ff20561c1361.rst",
+      "kind": "official-document",
+      "bytes": 1076,
+      "sha256": "720e97f466e391a9b5bd613c26573753d5bd9b91aa866bc8f22863c26e3b2e2c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/12710.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/13602.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a0bdf12f419ee6620f5f05fc.rst",
+      "kind": "official-document",
+      "bytes": 621,
+      "sha256": "09a6a129caa34a579f1985724649fb5df83744bb95a5b70d4fcd3281508db4ea",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/13602.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/13609.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/bca53a8b9de88db9314aa05d.rst",
+      "kind": "official-document",
+      "bytes": 1910,
+      "sha256": "8814c89cd55a15b015b6bf08ca7122b3c8d69f2caf7ec48e737e086161c61eb1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/13609.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/13610.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/471f14c5ca21b304539a6b9d.rst",
+      "kind": "official-document",
+      "bytes": 544,
+      "sha256": "ec7072b9551ab6d0d9602a78877b79437f8b0405bae12fab3cafd2cc6185d7a0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/13610.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/13615.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2edf7e689fa641ea85812541.rst",
+      "kind": "official-document",
+      "bytes": 643,
+      "sha256": "513c289dbdca0e5e04678e1c5a4cca30fff32182e2d5e77bfd5f4936cabe6070",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/13615.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/13617.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/01699ec150237bd714bb240d.rst",
+      "kind": "official-document",
+      "bytes": 449,
+      "sha256": "0e2a8559dd8d56ffbc2f89d8be0ff38f54ce8d241a740cd749df9377efe3f85c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/13617.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_20/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ac9003a4f436cedd8e59374c.txt",
+      "kind": "official-document",
+      "bytes": 413,
+      "sha256": "9dd9b3fed6fe8ef6e892045464ecde62e94cc2746a993f92eccb2892b49d3407",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_20/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_21/13616.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0adb83c522cab87b3f78dea8.rst",
+      "kind": "official-document",
+      "bytes": 926,
+      "sha256": "1f1a39dd688cd85dfa1fdb399e42c5a8d935e1d22bccc6fcf0134319fa289f2f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_21/13616.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_21/13619.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/705e38761ff63af3b94ddfc3.rst",
+      "kind": "official-document",
+      "bytes": 586,
+      "sha256": "19f53d2a6ff32e8e830f8ef2ef08414d4afd70f4f813a8c58711cda8b7d90d34",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_21/13619.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_21/13625.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4235343719a03f7044a08e02.rst",
+      "kind": "official-document",
+      "bytes": 767,
+      "sha256": "d77811adb79a55f8c5af5fa8888c96115032fd968d0bbbfe0e7d9b5b353c2f43",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_21/13625.rst"
+    },
+    {
+      "path": "doc/build/changelog/unreleased_21/README.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/290dce88953e10cc3758bbf1.txt",
+      "kind": "official-document",
+      "bytes": 413,
+      "sha256": "9dd9b3fed6fe8ef6e892045464ecde62e94cc2746a993f92eccb2892b49d3407",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/unreleased_21/README.txt"
+    },
+    {
+      "path": "doc/build/changelog/whatsnew_20.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2ec609f439a913e438219d4e.rst",
+      "kind": "official-document",
+      "bytes": 95345,
+      "sha256": "15f78d15d0af59a671c1df227b8bfefe5c7d78c832b77fae2967b178806a0c1f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/changelog/whatsnew_20.rst"
+    },
+    {
+      "path": "doc/build/contents.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/903eb50f0ec087143fa2c776.rst",
+      "kind": "official-document",
+      "bytes": 392,
+      "sha256": "bf0fdf43bd09a7dde23c318e29357f5f466cc43e0f0d685aeb4b38cdd97dbc73",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/contents.rst"
+    },
+    {
+      "path": "doc/build/copyright.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/13555453cf0a4740b4bc5a43.rst",
+      "kind": "license",
+      "bytes": 1282,
+      "sha256": "4a0179c4ef9fb2c7464215c8c48686fe326a3dfcf34752ab41cd91e93a7cac87",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/copyright.rst"
+    },
+    {
+      "path": "doc/build/core/api_basics.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/33e22b22e2e118d7076f3d54.rst",
+      "kind": "official-document",
+      "bytes": 134,
+      "sha256": "172b95506a4fa3dd54fd2309f6080d4debb038346c24ac0525cc32a3b63c8205",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/api_basics.rst"
+    },
+    {
+      "path": "doc/build/core/compiler.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/efe41ac0de218f82f573a86d.rst",
+      "kind": "official-document",
+      "bytes": 252,
+      "sha256": "402d28d80806bcd40a3af92e796b472b35b1e75cb1cb9d4c14c6dce934669e57",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/compiler.rst"
+    },
+    {
+      "path": "doc/build/core/connections.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ebcedb9dd0dadf284b0938c5.rst",
+      "kind": "official-document",
+      "bytes": 124260,
+      "sha256": "0d5f7821aaeb65383575d494f30c645ff2dab43706731f30f838c8c08d40dc2c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/connections.rst"
+    },
+    {
+      "path": "doc/build/core/constraints.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/582335648c8864f7af3c3ed3.rst",
+      "kind": "official-document",
+      "bytes": 34588,
+      "sha256": "1227f8277360189a4f609e245e70100576032b73a4a915965b6537f575ada4f0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/constraints.rst"
+    },
+    {
+      "path": "doc/build/core/custom_types.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d9863e9ececd18d59702cb2e.rst",
+      "kind": "official-document",
+      "bytes": 32406,
+      "sha256": "592dc783330565de07312e23d0d7200f8b285f084a5f9cf55261cada4bc410ee",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/custom_types.rst"
+    },
+    {
+      "path": "doc/build/core/ddl.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/429a3f269be99458acf82e33.rst",
+      "kind": "official-document",
+      "bytes": 11919,
+      "sha256": "5a7107590b7b9af08f45cf2f838c11ae1f4dc94ab9c6ca9b772bc6234fd63315",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/ddl.rst"
+    },
+    {
+      "path": "doc/build/core/defaults.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9e57b220167a78859b894653.rst",
+      "kind": "official-document",
+      "bytes": 33907,
+      "sha256": "f447b5c798edf197e7c98888cbc627a8f93a6a5412d2181e41b5f9ce52d976be",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/defaults.rst"
+    },
+    {
+      "path": "doc/build/core/dml.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4149a817e27fc25d1d3a2856.rst",
+      "kind": "official-document",
+      "bytes": 1755,
+      "sha256": "ab53cebac95bc3ec5d8afbf61d082da565602a9d10af3f1e73069f93e9527c58",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/dml.rst"
+    },
+    {
+      "path": "doc/build/core/engines.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/00cccbfd6cbf0c1ef4c2eed4.rst",
+      "kind": "official-document",
+      "bytes": 29040,
+      "sha256": "a50c8368959211151e6de430fc8bf5826a964613195bcf2aeb0c3c81a1e76d61",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/engines.rst"
+    },
+    {
+      "path": "doc/build/core/engines_connections.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b14fe0810b4659b15212a2f4.rst",
+      "kind": "official-document",
+      "bytes": 146,
+      "sha256": "21f85ad2e7cf95a20e3aa1496cd895bf0aaea4c265b6e0dc77bf43ea4ee47ab2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/engines_connections.rst"
+    },
+    {
+      "path": "doc/build/core/event.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0ebfc33c5b780165aa1cdb89.rst",
+      "kind": "official-document",
+      "bytes": 7172,
+      "sha256": "799037ed1b3a9b5fbc823d72e076e39f62b9df02a9d2e0db2527eae7ebf4806a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/event.rst"
+    },
+    {
+      "path": "doc/build/core/events.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/363c77fc594f07b8a9658054.rst",
+      "kind": "official-document",
+      "bytes": 855,
+      "sha256": "26066032838007406a94910d2e510031f3c3cfd32fd9f68efadecceecd7f24a6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/events.rst"
+    },
+    {
+      "path": "doc/build/core/exceptions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a8542a8c08fd8c003b288124.rst",
+      "kind": "official-document",
+      "bytes": 109,
+      "sha256": "8ec5a4168455a36c495de0b738798a98adde2eef094284adc4b1c5709c1a09f8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/exceptions.rst"
+    },
+    {
+      "path": "doc/build/core/expression_api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3fe9dc580f4dd330b12f3345.rst",
+      "kind": "official-document",
+      "bytes": 466,
+      "sha256": "294030fec41733e6da60150be3a8f9736c53380df4f310015535729547f3083b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/expression_api.rst"
+    },
+    {
+      "path": "doc/build/core/foundation.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/03d3c150687f1c35b21ff0b5.rst",
+      "kind": "official-document",
+      "bytes": 710,
+      "sha256": "10b16220e0a4fc92e55b5f14d10e7e1f318a1467a98e3d1fb88dd8ff11badcb6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/foundation.rst"
+    },
+    {
+      "path": "doc/build/core/functions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e18d0867bce2109a6331490b.rst",
+      "kind": "official-document",
+      "bytes": 2986,
+      "sha256": "fb00a7d07660f880d943166db8af9125320d15a640fb3784c1fbedada48285c8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/functions.rst"
+    },
+    {
+      "path": "doc/build/core/future.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4b11eb16a844cae9ab4de0dd.rst",
+      "kind": "official-document",
+      "bytes": 545,
+      "sha256": "3424d4f7adeb03252cf66bbcb1ec54cfb1fb07e7867deb63245434e60919abe3",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/future.rst"
+    },
+    {
+      "path": "doc/build/core/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/04e536d71e441f5544cc57c9.rst",
+      "kind": "official-document",
+      "bytes": 441,
+      "sha256": "4ea5e59cd294d6d70de1de875ad86da557d5fdb3ebeb4e0b7444dac798d310cf",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/index.rst"
+    },
+    {
+      "path": "doc/build/core/inspection.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5f6d808dcaf9426ade3123af.rst",
+      "kind": "official-document",
+      "bytes": 1856,
+      "sha256": "5ca69f1b60edaf75327fa75fe28e0ece3611363aa2074491252306a59b50f5ed",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/inspection.rst"
+    },
+    {
+      "path": "doc/build/core/internals.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ac92f8a3f20bc32781253379.rst",
+      "kind": "official-document",
+      "bytes": 1416,
+      "sha256": "a9e3a0d2f8ab1671c52c6bc98bcaccf4a3b93f0a627e5141939c032d1a5ec07e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/internals.rst"
+    },
+    {
+      "path": "doc/build/core/metadata.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5b5ae1e77c1ce3ff213a1f8a.rst",
+      "kind": "official-document",
+      "bytes": 35914,
+      "sha256": "b5981c42696d9575aacfba5d1680d70dda52e2308ad5c1cd141ec4e65f613ea6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/metadata.rst"
+    },
+    {
+      "path": "doc/build/core/operators.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9dddd2ea3f76f49e43a834c1.rst",
+      "kind": "official-document",
+      "bytes": 24455,
+      "sha256": "9db9fbf4dd1da5157ec51a76382e32f80c802fbb159c0b970324c148421bac56",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/operators.rst"
+    },
+    {
+      "path": "doc/build/core/pooling.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5f142d0073d79bc6b1b3d462.rst",
+      "kind": "official-document",
+      "bytes": 33012,
+      "sha256": "804c416269960c2de351c62e39cf4c6ee3873a8860650b6c29804e375ffe17f0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/pooling.rst"
+    },
+    {
+      "path": "doc/build/core/reflection.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d1c41b09f0e847d227cc80c3.rst",
+      "kind": "official-document",
+      "bytes": 24461,
+      "sha256": "f2533d9e7aa2e3d3667cc51516b7f9e9d2676bb1b4b7b9cf02b83772628cd81c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/reflection.rst"
+    },
+    {
+      "path": "doc/build/core/schema.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/773327ef1ee4d3293944711e.rst",
+      "kind": "official-document",
+      "bytes": 1709,
+      "sha256": "46f9bbd5983af2aa5bd3a70661eb3fae96af32fc5561bd609552d9ae147db976",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/schema.rst"
+    },
+    {
+      "path": "doc/build/core/selectable.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b3d2848e790f7e0248e796a1.rst",
+      "kind": "official-document",
+      "bytes": 3881,
+      "sha256": "56a48db95eed1fe90b724c91df75560001add02aae9bde9cc42a235ea4bbda6f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/selectable.rst"
+    },
+    {
+      "path": "doc/build/core/serializer.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/06fcd3f8081eeec1bf7218a9.rst",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "a66ff913549e72019c431789e3d4d161fd2bc63502f67f004a7921e9f43e3c5c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/serializer.rst"
+    },
+    {
+      "path": "doc/build/core/sqlelement.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/58ac4abdb8d428944c9a0f81.rst",
+      "kind": "official-document",
+      "bytes": 5231,
+      "sha256": "b99fe93762afdf5c083b8ab0ce2d223eece99f7ea636296433c22fce3afdb3e3",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/sqlelement.rst"
+    },
+    {
+      "path": "doc/build/core/tutorial.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4442875e6eb57beaecef65f2.rst",
+      "kind": "official-document",
+      "bytes": 425,
+      "sha256": "517a8b281a6328d03693613ded84cca47ccf877dc6f277a090d2ee9948cbb3b4",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/tutorial.rst"
+    },
+    {
+      "path": "doc/build/core/type_api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4b2d36c39c5908eb40d0c039.rst",
+      "kind": "official-document",
+      "bytes": 332,
+      "sha256": "72c126bbe5f81917af09f7fde787f9cb2376dbcb10d37f2f8256f012ab483abf",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/type_api.rst"
+    },
+    {
+      "path": "doc/build/core/type_basics.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/40c11e637fc3ae9f28506ec8.rst",
+      "kind": "official-document",
+      "bytes": 10290,
+      "sha256": "c909ab16142c0c028c44f7cf81ab47c6d9fc0e134a0736a175772c3c67f94850",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/type_basics.rst"
+    },
+    {
+      "path": "doc/build/core/types.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b204afd4bdc7e703f5a49a64.rst",
+      "kind": "official-document",
+      "bytes": 142,
+      "sha256": "6416707899dbe506d0c30c5cbd171582c226e559a1c9fa0999e91ef6309b4761",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/types.rst"
+    },
+    {
+      "path": "doc/build/core/visitors.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/de02f193109d37812feab9d2.rst",
+      "kind": "official-document",
+      "bytes": 1321,
+      "sha256": "50c7d3207f46273ef69dd64100112271f5af1560986252bc30923382a4f03a2f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/core/visitors.rst"
+    },
+    {
+      "path": "doc/build/dialects/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f32924b4c1bcf400a1796c1a.rst",
+      "kind": "official-document",
+      "bytes": 13105,
+      "sha256": "3cc1197de72aedc8c5ed7aa282ff9cf77d9182d8f600e7e102e919d70a865aff",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/dialects/index.rst"
+    },
+    {
+      "path": "doc/build/dialects/mssql.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5956a308260732e2f6ca5514.rst",
+      "kind": "official-document",
+      "bytes": 3013,
+      "sha256": "4d4fbaf2bd8fbbe4cd346dc5fb1f861402d9cacc08bfc4c8534b840550092e81",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/dialects/mssql.rst"
+    },
+    {
+      "path": "doc/build/dialects/mysql.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c5c54e15c9e7a8c571883368.rst",
+      "kind": "official-document",
+      "bytes": 4119,
+      "sha256": "500ed0ba546c1fcde5411dca57528d4c593408da79dc3383024bc686920bb272",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/dialects/mysql.rst"
+    },
+    {
+      "path": "doc/build/dialects/oracle.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d88c0169664ecc47b3e8868b.rst",
+      "kind": "official-document",
+      "bytes": 2437,
+      "sha256": "df22e29c16c83c610378bffc0169ab3f5b2669da5677b23e54115581d080eb1b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/dialects/oracle.rst"
+    },
+    {
+      "path": "doc/build/dialects/postgresql.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/64a25de935892d5e28cdf046.rst",
+      "kind": "official-document",
+      "bytes": 18241,
+      "sha256": "4f1efc91ea88d2b0d57416b315e3ca826fd6d2eab319edede9d1934357340fe6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/dialects/postgresql.rst"
+    },
+    {
+      "path": "doc/build/dialects/sqlite.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/45eb1ef6a915251974242acb.rst",
+      "kind": "official-document",
+      "bytes": 1221,
+      "sha256": "1f33e4dc98eaac4d42937606afef2a757dff4f74ee378e2c3f95c49d474f03b4",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/dialects/sqlite.rst"
+    },
+    {
+      "path": "doc/build/errors.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/250b02248d76cf0ac5626d53.rst",
+      "kind": "official-document",
+      "bytes": 86540,
+      "sha256": "c48263d61d8a638705a4b3c0c719ebed806d1257ce6a04e06bfefd0d31a18361",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/errors.rst"
+    },
+    {
+      "path": "doc/build/faq/connections.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ea4d36b30eece51974b67a3c.rst",
+      "kind": "official-document",
+      "bytes": 25721,
+      "sha256": "cf1267c3de96f48a37f8c7c98fe34eae037851f02d14f312a3e8a481f51237e0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/connections.rst"
+    },
+    {
+      "path": "doc/build/faq/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4f8aac7f9fb999b1cb80be80.rst",
+      "kind": "official-document",
+      "bytes": 387,
+      "sha256": "6afd85e5385f67094a837262c486d4e91bf257005f959c0883dda6b337fac2c6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/index.rst"
+    },
+    {
+      "path": "doc/build/faq/installation.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/de77460803176d807cb6cbc8.rst",
+      "kind": "official-document",
+      "bytes": 740,
+      "sha256": "7edbfc2c5de7d8892e668aeae330e8bee1b8becbf1ccd3bd5a7bc36f0688c85b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/installation.rst"
+    },
+    {
+      "path": "doc/build/faq/metadata_schema.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ba4ff63065e827425f92b79d.rst",
+      "kind": "official-document",
+      "bytes": 4031,
+      "sha256": "1d5cd0707dbe498c8e1b9f06aaac1517e66ece2f3231bc6639dcbd0d9df36e46",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/metadata_schema.rst"
+    },
+    {
+      "path": "doc/build/faq/ormconfiguration.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d5b79f5bc837afb42f0ffe3a.rst",
+      "kind": "official-document",
+      "bytes": 20528,
+      "sha256": "a596603938c8d865bd32a8529a19956b6a200cf2a01fefe5f37fd919cdb07246",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/ormconfiguration.rst"
+    },
+    {
+      "path": "doc/build/faq/performance.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/1a3239e31400f6ad7d0ea68d.rst",
+      "kind": "official-document",
+      "bytes": 19912,
+      "sha256": "a31b97dab879c622ed3471cce1c7ca7a7c5814117223429da3edfff3186f78cf",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/performance.rst"
+    },
+    {
+      "path": "doc/build/faq/sessions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8eaf7e65cdd81f2f7fadfc08.rst",
+      "kind": "official-document",
+      "bytes": 26163,
+      "sha256": "87dc0c96fcbd401561b9e2667a7d54a41833d2a73577c83dea444c7abc777e67",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/sessions.rst"
+    },
+    {
+      "path": "doc/build/faq/sqlexpressions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f02a5e2bd3970f6cea9d95be.rst",
+      "kind": "official-document",
+      "bytes": 21464,
+      "sha256": "c22086ee791e2f1a780a07210ae22c778fcca5ef05d47d0fc2d8ab0182ac3273",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/sqlexpressions.rst"
+    },
+    {
+      "path": "doc/build/faq/thirdparty.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3986978cf156c8c3bddf226f.rst",
+      "kind": "official-document",
+      "bytes": 2610,
+      "sha256": "088dc3b9fefbc39e469d59cfda69323182fa12d6a083b0d77c9e16282319bb52",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/faq/thirdparty.rst"
+    },
+    {
+      "path": "doc/build/glossary.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/cc1c9dcea6cde524009396b0.rst",
+      "kind": "official-document",
+      "bytes": 69236,
+      "sha256": "6ff65bb62e8fa3a04d850cec2f1bf8c2c5f0889fc0aa40f613c8fe0a66e1f0b2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/glossary.rst"
+    },
+    {
+      "path": "doc/build/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/563530d6f345934d3f7e8cb4.rst",
+      "kind": "official-document",
+      "bytes": 6008,
+      "sha256": "7dfb49eb8498691153ea6bc3901fb85e527835e26dac1341c565f7bdc9d6fff4",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/index.rst"
+    },
+    {
+      "path": "doc/build/intro.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/20bb7813f8ba77cf43a5ab49.rst",
+      "kind": "official-document",
+      "bytes": 9820,
+      "sha256": "4b5a2431a2e12dd3c176f7cc8e95193c37fc2f51430775caaf0f05b9b8cb8122",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/intro.rst"
+    },
+    {
+      "path": "doc/build/orm/backref.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/68809c2d25b9e1b0d2483861.rst",
+      "kind": "official-document",
+      "bytes": 7162,
+      "sha256": "ddf13a4f06714f0d4cc1aff70f77825c5640621773a69b1e439794945ff5ed03",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/backref.rst"
+    },
+    {
+      "path": "doc/build/orm/basic_relationships.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4e746aa6d064c743b94b345c.rst",
+      "kind": "official-document",
+      "bytes": 47421,
+      "sha256": "18074ed8dbcbf8d2d67450ad08c43f7c063ce6be744f2a27c9d137f79ca37d8c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/basic_relationships.rst"
+    },
+    {
+      "path": "doc/build/orm/cascades.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b8658ea9f48bec17409cf345.rst",
+      "kind": "official-document",
+      "bytes": 32898,
+      "sha256": "889277975aad02d7f4238c56527270aa35a9569605f9986d17dc5c75395b575e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/cascades.rst"
+    },
+    {
+      "path": "doc/build/orm/classical.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d10e7e717995e7eaef8d998a.rst",
+      "kind": "official-document",
+      "bytes": 51,
+      "sha256": "2a5c68f64197efb433d2b3c934b74b1b7ff4f89c8f80b869e2340e830ae6912d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/classical.rst"
+    },
+    {
+      "path": "doc/build/orm/collection_api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/579814ad94aeaff4e5eaef49.rst",
+      "kind": "official-document",
+      "bytes": 22144,
+      "sha256": "cb3f8452936cdd6c0fb493790ec850b823f30a41308f7f878a90adf60b8973c6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/collection_api.rst"
+    },
+    {
+      "path": "doc/build/orm/collections.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9863df066973d7b6edc5a397.rst",
+      "kind": "official-document",
+      "bytes": 232,
+      "sha256": "54420d7029e42cb1096d1b4f9b2a6e9b00f58be935399dde7e7c3c7ae9e8eeb6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/collections.rst"
+    },
+    {
+      "path": "doc/build/orm/composites.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4cd90f979d73f7970a2005e8.rst",
+      "kind": "official-document",
+      "bytes": 20865,
+      "sha256": "11a9127507e5f9b865059c674d02e09b97dac349c58175c3a01c89ea11492eec",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/composites.rst"
+    },
+    {
+      "path": "doc/build/orm/constructors.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c58e02e6b9d232f7b62a0bef.rst",
+      "kind": "official-document",
+      "bytes": 293,
+      "sha256": "a4089f4f3aba7874848d22ba3753ca09932bf07b6f8ba60117b2fccee36d74fe",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/constructors.rst"
+    },
+    {
+      "path": "doc/build/orm/contextual.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8776d3e8290b010c85c90595.rst",
+      "kind": "official-document",
+      "bytes": 14390,
+      "sha256": "a4b66ff770ee6409668fa07220704ee795b0912bf71098653de0b4d51aff303f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/contextual.rst"
+    },
+    {
+      "path": "doc/build/orm/dataclasses.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/73b772e2e07d50b5c8f763d7.rst",
+      "kind": "official-document",
+      "bytes": 41970,
+      "sha256": "3f78c0467cc14159a589c46c0fc2fb82febfed6fa7561114ca3f48b8ef9e30da",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/dataclasses.rst"
+    },
+    {
+      "path": "doc/build/orm/declarative_config.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/03be383ab28828e7b89db199.rst",
+      "kind": "official-document",
+      "bytes": 19017,
+      "sha256": "9990afdf32bd6bf11fb2d7503f25331839ff43c590571e74bcfa592d88256251",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/declarative_config.rst"
+    },
+    {
+      "path": "doc/build/orm/declarative_mapping.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c39b194dc6bee5929a1a4641.rst",
+      "kind": "official-document",
+      "bytes": 432,
+      "sha256": "21443f73fbaef9e094599b80ad2785ee24eb451eee3888ab40d65e53e0973b0a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/declarative_mapping.rst"
+    },
+    {
+      "path": "doc/build/orm/declarative_mixins.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4b9020b6ba4954ab14a5cef8.rst",
+      "kind": "official-document",
+      "bytes": 33213,
+      "sha256": "be15dc2859f29c17747ef9541b350c6abcc9df8e9abc45c5726f1b4c548c35cf",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/declarative_mixins.rst"
+    },
+    {
+      "path": "doc/build/orm/declarative_styles.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e699f2c9c0e07cdd6b6419db.rst",
+      "kind": "official-document",
+      "bytes": 7244,
+      "sha256": "c99e6aea9958a19b48c2b17b7288cc6004a5061f88ab3d504696e7704ff97f79",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/declarative_styles.rst"
+    },
+    {
+      "path": "doc/build/orm/declarative_tables.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c301091bcb6c95cac1aa8778.rst",
+      "kind": "official-document",
+      "bytes": 87548,
+      "sha256": "b614c15a559ea5dee9bdc25d74f0cf0c7ef0466f7568de0e171c6a31cc5992de",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/declarative_tables.rst"
+    },
+    {
+      "path": "doc/build/orm/events.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/18d55dce072782c1e2954c59.rst",
+      "kind": "official-document",
+      "bytes": 4731,
+      "sha256": "7bbb10f2febeef01bdb0291abb239e4dc64bb042fa23f98db8634b398c9ddf9e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/events.rst"
+    },
+    {
+      "path": "doc/build/orm/examples.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/429eacb775fed72dfef9a13c.rst",
+      "kind": "official-document",
+      "bytes": 2831,
+      "sha256": "5ad700185c6e9b6794c51b80d4f3510a42a17821c3d99ad221f55341e120f0e5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/examples.rst"
+    },
+    {
+      "path": "doc/build/orm/exceptions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e8b78e556a27a21ca2f1710a.rst",
+      "kind": "official-document",
+      "bytes": 110,
+      "sha256": "3c3599fc484de0729d2d6aead943ba5a593a6b1a7febc24afbae3062c35ab333",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/exceptions.rst"
+    },
+    {
+      "path": "doc/build/orm/extending.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f86d713d61f3d6f8901ae1d5.rst",
+      "kind": "official-document",
+      "bytes": 312,
+      "sha256": "37fabefab9b17800771fcc80ffddccfcd0d9e5e8eb2430f9807a85588e59e51a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extending.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/associationproxy.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/80cd2a49c2378bf4d3cf728b.rst",
+      "kind": "official-document",
+      "bytes": 29999,
+      "sha256": "0b8617332168df1c3fb003c6b227f682cdfef0c137d4bdf98f74761c49ff9708",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/associationproxy.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/asyncio.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f38e807823bd9f7197529305.rst",
+      "kind": "official-document",
+      "bytes": 43319,
+      "sha256": "5970a7ff783e4cc95c69068c4f01557b2d6bc72c4d87a8fbc40a8294e41a1c04",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/asyncio.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/automap.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/1cc48b10743f1206a4123288.rst",
+      "kind": "official-document",
+      "bytes": 359,
+      "sha256": "5bd831c30770d1d4282084cfd0ee1aa3cb3e0cc011c217ee82be1847b8e338b2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/automap.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/baked.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/bfbfddfcfb73adae35dfac74.rst",
+      "kind": "official-document",
+      "bytes": 19867,
+      "sha256": "70947126ac94c5d7db4096f076439038a77e4a7fa4e5b5060fd2d7215206a691",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/baked.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ab6666acd273d3808cae333e.rst",
+      "kind": "official-document",
+      "bytes": 542,
+      "sha256": "441e2275401bf2f011ea7b6807a1aa04c132e827a3d13f0023419388eae7f585",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/api.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/basic_use.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d52cf9e77871b7119bf7780f.rst",
+      "kind": "official-document",
+      "bytes": 715,
+      "sha256": "4ebe8437f7dabad00a6fdc4ae1d6a70a674476febbc84348dc64c38e32bac110",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/basic_use.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/375a799bf95f0ce7b7a99b1c.rst",
+      "kind": "official-document",
+      "bytes": 663,
+      "sha256": "a6d37eb33cb3fe11a5b3f1c105bda06bb91c87843a5b00616bc650514e070113",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/index.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/inheritance.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/20085abcf4d3787d96984340.rst",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "350e9f66e8a04f6df8f7ac7438574f6e0234818b69e9c56b65b09bd57e7b2cfa",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/inheritance.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/mixins.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/dd3cdc534ea2b39e6d9085f5.rst",
+      "kind": "official-document",
+      "bytes": 145,
+      "sha256": "bc530df0a9e4972493e7b513cd88c699ec2dd2b6f12171fc9300f77cc158e5a1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/mixins.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/relationships.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0fb079ebc361245cb8ef8f9f.rst",
+      "kind": "official-document",
+      "bytes": 565,
+      "sha256": "381e8288d6ed55cfede2c8c6e7755640b573770cba7184757ff726c140424bf6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/relationships.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/declarative/table_config.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8c94e8e0e8239689611a57d3.rst",
+      "kind": "official-document",
+      "bytes": 487,
+      "sha256": "0106efe535834ee24703b91080736103578dcba9eb0d9264fb1a46a5be695e37",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/declarative/table_config.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/horizontal_shard.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/eaf4299ad5ec5364aeea0cee.rst",
+      "kind": "official-document",
+      "bytes": 290,
+      "sha256": "b4e4905c9ebb82364e61525819b025d1b9a333e55e81a54eb84c4f7bd833364a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/horizontal_shard.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/hybrid.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e6c219ecbe32c48f2cee66a7.rst",
+      "kind": "official-document",
+      "bytes": 294,
+      "sha256": "962e386a1a5da7527645af9c601c2676a46739a38e93b9d45e399d103f2e7b60",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/hybrid.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9697916efe67b37f3ff29959.rst",
+      "kind": "official-document",
+      "bytes": 672,
+      "sha256": "86839dd9d44c5fbd4bae166fc68412d2c9510747d146757fdba516d271ea71bc",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/index.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/indexable.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7321de959a15432624ee6365.rst",
+      "kind": "official-document",
+      "bytes": 187,
+      "sha256": "a218215425d73e25f83897feaca1b907cce2d435f5afafb358f75fa2b8f023a2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/indexable.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/instrumentation.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c198c640712ae780fc60c0e7.rst",
+      "kind": "official-document",
+      "bytes": 458,
+      "sha256": "256521031b972bd0c652061aba1ecfc173a87a024455857258109b23f38a3c1f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/instrumentation.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/mutable.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2d4172572ed2232e384d7ad7.rst",
+      "kind": "official-document",
+      "bytes": 505,
+      "sha256": "fef307f76e3600028648e7ce597decdba8549877b028b6601e466af2af83297a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/mutable.rst"
+    },
+    {
+      "path": "doc/build/orm/extensions/orderinglist.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/28579ea1f0dc214a5df500ba.rst",
+      "kind": "official-document",
+      "bytes": 282,
+      "sha256": "435aa3e22fb3c779f4de3ffb654bcfbeb36c16de1e9b7b125e175c5cc8e7a930",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/extensions/orderinglist.rst"
+    },
+    {
+      "path": "doc/build/orm/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/33f6d70f87114ce132a775f4.rst",
+      "kind": "official-document",
+      "bytes": 454,
+      "sha256": "de899609752873821f4c0340f814df6f589dbdb82a2000d72ec7825fc0a80ae5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/index.rst"
+    },
+    {
+      "path": "doc/build/orm/inheritance.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c62c136c91ef8dd2c66c4ce3.rst",
+      "kind": "official-document",
+      "bytes": 51351,
+      "sha256": "4acac5bc3c93ec200b6dd0bea732a887bb8305958bbfaa56e05f907b10f4656f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/inheritance.rst"
+    },
+    {
+      "path": "doc/build/orm/inheritance_loading.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/daca1ae0b77b3af9ca5a4187.rst",
+      "kind": "official-document",
+      "bytes": 68,
+      "sha256": "ebcf267925c00cc169b84255d729740f9606beab909c0b97dba0c5b4660e9e91",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/inheritance_loading.rst"
+    },
+    {
+      "path": "doc/build/orm/internals.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/900a657da95d9187e9d42862.rst",
+      "kind": "official-document",
+      "bytes": 1503,
+      "sha256": "da8f35871f8acabfb11ea3e8e67be49814d0eac163085a6cd885ad484023ae46",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/internals.rst"
+    },
+    {
+      "path": "doc/build/orm/join_conditions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0b7ffefccf843a6621d5fe5c.rst",
+      "kind": "official-document",
+      "bytes": 52541,
+      "sha256": "a519bd17b7496375fc09dcd83e9ca229489c1e34e3e37aa3152f3d23ccee1cb2",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/join_conditions.rst"
+    },
+    {
+      "path": "doc/build/orm/large_collections.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e7c5e94407df32f423db33bf.rst",
+      "kind": "official-document",
+      "bytes": 32273,
+      "sha256": "5f36858f90fe260d74433ca8f66433d3ace7180cdbbe66920efaae4c3fafb8a5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/large_collections.rst"
+    },
+    {
+      "path": "doc/build/orm/loading.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d62a217d3757fcbbee0b5e15.rst",
+      "kind": "official-document",
+      "bytes": 53,
+      "sha256": "5ad29a49d788141f458dc874b3a6194e702223351dcf6649462cf77358ba19aa",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/loading.rst"
+    },
+    {
+      "path": "doc/build/orm/loading_columns.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f45ebffa729bff8ab07ede10.rst",
+      "kind": "official-document",
+      "bytes": 64,
+      "sha256": "c8edb5a13185bdde742c9a48afe3857c54da26a4a379e9a4eee950461571461e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/loading_columns.rst"
+    },
+    {
+      "path": "doc/build/orm/loading_objects.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ba11c5e7bf20e84546ed3baa.rst",
+      "kind": "official-document",
+      "bytes": 62,
+      "sha256": "5c7c3619569a4d22d63b2db8eaf32361c881e23865f3db962f140a797b249ccc",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/loading_objects.rst"
+    },
+    {
+      "path": "doc/build/orm/loading_relationships.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/6d0176e8839e7057d1af180a.rst",
+      "kind": "official-document",
+      "bytes": 70,
+      "sha256": "c94e0e8c661822dfb0b3a70ada48086dbfc3e73f1ec43a5e08ff4509e2880697",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/loading_relationships.rst"
+    },
+    {
+      "path": "doc/build/orm/mapped_attributes.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a542dd079e06b1a1a4e841e9.rst",
+      "kind": "official-document",
+      "bytes": 14379,
+      "sha256": "ba72646657a1e155f87e8ad662d8a3c0da9d78b02c058c5e4c86834964b9f1d6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/mapped_attributes.rst"
+    },
+    {
+      "path": "doc/build/orm/mapped_sql_expr.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9cc36905f3a333f038c57136.rst",
+      "kind": "official-document",
+      "bytes": 13189,
+      "sha256": "02ae7d49922576719ff32f4c725fd45714fa11e492a6dd0bb745314c74b78b9a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/mapped_sql_expr.rst"
+    },
+    {
+      "path": "doc/build/orm/mapper_config.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e3b031abe75eacc64178d8f2.rst",
+      "kind": "official-document",
+      "bytes": 795,
+      "sha256": "d1d54e9de4ded8a794bd0b38aa985c9865ace7487a97e5d8083848ea755a9593",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/mapper_config.rst"
+    },
+    {
+      "path": "doc/build/orm/mapping_api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ffc245be865b43da2b130da3.rst",
+      "kind": "official-document",
+      "bytes": 4403,
+      "sha256": "d612bcc48f28857273d3c889c528777689cb2c5e14f6c61a57f868f1c83823db",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/mapping_api.rst"
+    },
+    {
+      "path": "doc/build/orm/mapping_columns.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e898e133c80924a2ab4ecdfb.rst",
+      "kind": "official-document",
+      "bytes": 174,
+      "sha256": "ee9d201ec4c5965ac818cb019c11a0c4655d2503cec651b131cef210454f620f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/mapping_columns.rst"
+    },
+    {
+      "path": "doc/build/orm/mapping_styles.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/04076b2b42c002918570a5e5.rst",
+      "kind": "official-document",
+      "bytes": 26979,
+      "sha256": "6a0d5a87e37ef1c72dad4691e1d3cf0df0cb49ecf7154ba1b66a9d6dad465369",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/mapping_styles.rst"
+    },
+    {
+      "path": "doc/build/orm/nonstandard_mappings.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/6a5023e9f985a165404bf20d.rst",
+      "kind": "official-document",
+      "bytes": 9212,
+      "sha256": "aa3ef11c4f517de8be327a31300e589be36bf38eeacc340f43e04ed19951dbfc",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/nonstandard_mappings.rst"
+    },
+    {
+      "path": "doc/build/orm/persistence_techniques.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/6e4cb80196e2cf2b7fe053e0.rst",
+      "kind": "official-document",
+      "bytes": 35908,
+      "sha256": "b5237777afde76606a199b166b0cdd8a19a160365aa33dab28dde65310ba064e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/persistence_techniques.rst"
+    },
+    {
+      "path": "doc/build/orm/query.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/325163b7883265a1a05d5ea1.rst",
+      "kind": "official-document",
+      "bytes": 61,
+      "sha256": "04596e79e191714107f9770aaf62351106d79e2736b8fc18d19040a5021b4b3d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/query.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0fd1aed9ff11fe05cfe1d0e5.rst",
+      "kind": "official-document",
+      "bytes": 63,
+      "sha256": "f2a0ce806df626479c4829c44e637ab2f1ec5b5533afdd3cc64cde16970bc1e9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/_deferred_setup.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/569b74af8f534dbf0aa54896.rst",
+      "kind": "official-document",
+      "bytes": 4019,
+      "sha256": "2b83bd245e348243e96a3942827d39c73537915d4510763e668eac498f3aa6c6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/_deferred_setup.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/_dml_setup.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/eb2ffaec27933febab5d96ec.rst",
+      "kind": "official-document",
+      "bytes": 3706,
+      "sha256": "21ad49c9b98ccdc80970e45f55e99543eb4393417156ac42387b06566176ae2f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/_dml_setup.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/_end_doctest.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/13d98aca9fcec6b19dd1c5c8.rst",
+      "kind": "official-document",
+      "bytes": 88,
+      "sha256": "70177709747b6f5d84301254d877c4fdec3627d20c3c03dc3e2013ae93c6fd1f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/_end_doctest.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/_inheritance_setup.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/21b7cf0ac56f99ac71f016c1.rst",
+      "kind": "official-document",
+      "bytes": 3690,
+      "sha256": "3a42d93381db8732a414abcfc291a35a26c2f10b76838758ba735be3d959be6c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/_inheritance_setup.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/_plain_setup.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8e6eb85bed6eb823e8efe0a3.rst",
+      "kind": "official-document",
+      "bytes": 3849,
+      "sha256": "a6facdcc6de49280f71c34bb9584a0a968ebfd58a5dbeea0967b5134257e73c1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/_plain_setup.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/_single_inheritance.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a2e9253b6dcce82eab0f0da0.rst",
+      "kind": "official-document",
+      "bytes": 2290,
+      "sha256": "8f4363429ca0ed34371629f6f32e56184d3cbedad10a71dedcbf1881f18a44f6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/_single_inheritance.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d1e1f85b23f7e7174c2ef33b.rst",
+      "kind": "official-document",
+      "bytes": 21156,
+      "sha256": "b34360ffae283038d75e6b7b0f637370fd1cf74f7f3c2cb427bad207842e0864",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/api.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/columns.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/18094aa1bd2aba446d22805f.rst",
+      "kind": "official-document",
+      "bytes": 36186,
+      "sha256": "3ed9d36935dc769735310c871a3d7d021ccdb60830bcce6b0c0c47bbc4d526ce",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/columns.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/dml.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/54af0bc74b4a907e9f195096.rst",
+      "kind": "official-document",
+      "bytes": 58236,
+      "sha256": "856fc4ffd544a02ce3147f54bd79d4ad86768623812b4203134dcfcac296a7e6",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/dml.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/30a7f7fb50aa3d46ea9f3517.rst",
+      "kind": "official-document",
+      "bytes": 1386,
+      "sha256": "049d01df55703a45b49a95943ae3f4dc5ce9e65d30e22009c7a69a3900df4786",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/index.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/inheritance.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e30746426787276c44cb9993.rst",
+      "kind": "official-document",
+      "bytes": 44930,
+      "sha256": "f97d34c9eda9ac8c492641e5a9e8e8d6a1302d14d8769915ef15f5c7f782f3aa",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/inheritance.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/query.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7aa88c1ffcf9ce543d7bdd14.rst",
+      "kind": "official-document",
+      "bytes": 2126,
+      "sha256": "56daa4fe2e8bc3e1c734fab9148445b284ff6c968cb581984e0f6a5496c20ddf",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/query.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/queryguide_nav_include.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/36971ae2798aad60b85cef98.rst",
+      "kind": "official-document",
+      "bytes": 301,
+      "sha256": "8a89fa2e85377115b0d42f790d372a775a9d0936046053d40db0f7d295158838",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/queryguide_nav_include.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/relationships.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/aedd9269ab475897eabddc90.rst",
+      "kind": "official-document",
+      "bytes": 50284,
+      "sha256": "4a46190f2274fff077c2839a97c406322b47381857de1ed200ffac6691598dbf",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/relationships.rst"
+    },
+    {
+      "path": "doc/build/orm/queryguide/select.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/50833f31371e9ee6aedbf302.rst",
+      "kind": "official-document",
+      "bytes": 47710,
+      "sha256": "162de5e7ffba9452cf0a560cd98654b56b9e6b33295452938b542d463b3968fa",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/queryguide/select.rst"
+    },
+    {
+      "path": "doc/build/orm/quickstart.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7b8338295193d8db7c7f9c32.rst",
+      "kind": "official-document",
+      "bytes": 18769,
+      "sha256": "cdc17df5175dd664a9c569a73952412e3b4988f9187a4178bfb3f729479c12bc",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/quickstart.rst"
+    },
+    {
+      "path": "doc/build/orm/relationship_api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d26a625feba4f8b3c7308a29.rst",
+      "kind": "official-document",
+      "bytes": 220,
+      "sha256": "cafb658992125e780f93d6ba1237463bcac07a5cca0fd6965356418ab3e7d02a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/relationship_api.rst"
+    },
+    {
+      "path": "doc/build/orm/relationship_persistence.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/67c4d3ab7efe5bedf0917df1.rst",
+      "kind": "official-document",
+      "bytes": 12198,
+      "sha256": "261e7223b975afd6a3e3b65f5c91f25c8090232806854bf912ea1d4a119d31f9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/relationship_persistence.rst"
+    },
+    {
+      "path": "doc/build/orm/relationships.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/de5294fd4c8a9fb5ac683c0f.rst",
+      "kind": "official-document",
+      "bytes": 540,
+      "sha256": "fa408d180aed775c0ec4b8951a548ca3913f9c6b8e9fe7b7458ee3431ddbbd40",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/relationships.rst"
+    },
+    {
+      "path": "doc/build/orm/scalar_mapping.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/46a6d5bb4a6270f6c934d436.rst",
+      "kind": "official-document",
+      "bytes": 211,
+      "sha256": "253a6eaafd9fac8cef6fb17bfc50f431491ef63c762e25a362c9994829243d44",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/scalar_mapping.rst"
+    },
+    {
+      "path": "doc/build/orm/self_referential.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/016e01212a52f7316e076823.rst",
+      "kind": "official-document",
+      "bytes": 8216,
+      "sha256": "e2cf97cfa83686a820f660896c9d9e08a2ba36e91e471774eedf1f6883adebbb",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/self_referential.rst"
+    },
+    {
+      "path": "doc/build/orm/session.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a4a1724248e605b0293ef2c9.rst",
+      "kind": "official-document",
+      "bytes": 565,
+      "sha256": "6b258bb8190e398d7dbc60a2ad2651a1e16d903357c5f6027572ba5aec39182c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/session.rst"
+    },
+    {
+      "path": "doc/build/orm/session_api.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/10e099cfedcaee39b04fcaa1.rst",
+      "kind": "official-document",
+      "bytes": 1841,
+      "sha256": "6417fd0322de261e55db2b6a3f8f7873c65c0122027d983a3b94681f4a6e3965",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/session_api.rst"
+    },
+    {
+      "path": "doc/build/orm/session_basics.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b8f6d2be9defc8f77b3b1f1f.rst",
+      "kind": "official-document",
+      "bytes": 46752,
+      "sha256": "fdaeee879d1c6eac1bd85b351cc19d35a7e8060f2f8eb15d98362fa1a74daed9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/session_basics.rst"
+    },
+    {
+      "path": "doc/build/orm/session_events.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7dca4513a33894793a7f701d.rst",
+      "kind": "official-document",
+      "bytes": 30327,
+      "sha256": "717449800555316ea393eb4fc5908460d2e890174dbd40e18e3a5cb6b43ac6f9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/session_events.rst"
+    },
+    {
+      "path": "doc/build/orm/session_state_management.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9bd3ecd2937b72b83e626f87.rst",
+      "kind": "official-document",
+      "bytes": 27592,
+      "sha256": "4e3078e46945da72e501d194bf559fb9ea557e7382b37c43f35c36280301c531",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/session_state_management.rst"
+    },
+    {
+      "path": "doc/build/orm/session_transaction.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/eeab653f060f948a1c619415.rst",
+      "kind": "official-document",
+      "bytes": 27568,
+      "sha256": "b11a8f1eb31b6bf052581ecc6ad14e5fe4a1aa6e2bbfa24cdceb8193d7d0542f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/session_transaction.rst"
+    },
+    {
+      "path": "doc/build/orm/tutorial.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8751fdce6b7a279de51d1986.rst",
+      "kind": "official-document",
+      "bytes": 403,
+      "sha256": "f6e6b613e872c24ab903cb3fb644bba13e22f1971385acb1ce9bdfc8f788c4ff",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/tutorial.rst"
+    },
+    {
+      "path": "doc/build/orm/versioning.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0b812ed5a819bf0130a81b9e.rst",
+      "kind": "official-document",
+      "bytes": 11013,
+      "sha256": "cc3914b932257a7f58f3d593babaf667d02272ba1ca2ed75ccdf07632fc4e0fa",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/orm/versioning.rst"
+    },
+    {
+      "path": "doc/build/requirements.txt",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8c7f93fc24c4292a6efb38e8.txt",
+      "kind": "official-document",
+      "bytes": 395,
+      "sha256": "0b4c55b963d4ed25238668f2fa0d657ab58b61f7630492736e4b26b495c20eb0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/requirements.txt"
+    },
+    {
+      "path": "doc/build/tutorial/data.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/77bd8187735b02b362cd3fb1.rst",
+      "kind": "official-document",
+      "bytes": 2069,
+      "sha256": "611d3e2920353a0514c9a1709ebc22d56c9efa397ce76de96b61d7921c6f6404",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/data.rst"
+    },
+    {
+      "path": "doc/build/tutorial/data_insert.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/17121870e1c50b2beb44e10c.rst",
+      "kind": "official-document",
+      "bytes": 13899,
+      "sha256": "6a0ba264e9b10b5ba8b8ff0145e2ddd4684868150a02502934ebfc754d65088c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/data_insert.rst"
+    },
+    {
+      "path": "doc/build/tutorial/data_select.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2925eb3108fb2839d13efe1c.rst",
+      "kind": "official-document",
+      "bytes": 81108,
+      "sha256": "1a465c31c90f471245666447b976dddabf031734edc190f7aebe8f34e5584c61",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/data_select.rst"
+    },
+    {
+      "path": "doc/build/tutorial/data_update.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/69ffff780b77fe28b847237b.rst",
+      "kind": "official-document",
+      "bytes": 15264,
+      "sha256": "fcd7fc8bd81006dd56351d01d85bcba1c0b30cb7c904617cb0dd571ff52078ae",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/data_update.rst"
+    },
+    {
+      "path": "doc/build/tutorial/dbapi_transactions.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/619b7d9f1f7bed15a599c14a.rst",
+      "kind": "official-document",
+      "bytes": 19765,
+      "sha256": "5ba3846a0d5675ebbddde9b00b57ccee0fb84ae2e54680b46a88fdbd4a19737e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/dbapi_transactions.rst"
+    },
+    {
+      "path": "doc/build/tutorial/engine.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2f43a8e631daa3a67405d24d.rst",
+      "kind": "official-document",
+      "bytes": 3366,
+      "sha256": "5720071af52f62129d30ebec2d9f5342101cd04bc4cf9da16bfa51acad27ade9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/engine.rst"
+    },
+    {
+      "path": "doc/build/tutorial/further_reading.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a3a498c1167e62d8191ce69f.rst",
+      "kind": "official-document",
+      "bytes": 747,
+      "sha256": "e08f621acffb938bde13133faecba21b9d5717a179e8c69dcb11a8068ea5d28b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/further_reading.rst"
+    },
+    {
+      "path": "doc/build/tutorial/index.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8ec43ec47c711f655f60b055.rst",
+      "kind": "official-document",
+      "bytes": 6756,
+      "sha256": "7ab609a76f8465e984cf0dba501d6c0b7ea5a4e89b4103c7b489e115a14fc888",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/index.rst"
+    },
+    {
+      "path": "doc/build/tutorial/metadata.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/90c2079311af924d295de807.rst",
+      "kind": "official-document",
+      "bytes": 31843,
+      "sha256": "02579c3f824d175bb9dd506aee0164203a62297c6377557c212961435b0e510b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/metadata.rst"
+    },
+    {
+      "path": "doc/build/tutorial/orm_data_manipulation.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f96b4db64b769a8bd68b6b95.rst",
+      "kind": "official-document",
+      "bytes": 23951,
+      "sha256": "8d325e6201cd7b4072c4eb5b2c4f42c810d7134074573be461120e0d9dbce969",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/orm_data_manipulation.rst"
+    },
+    {
+      "path": "doc/build/tutorial/orm_related_objects.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/6337970ec1f45f511f60457a.rst",
+      "kind": "official-document",
+      "bytes": 28649,
+      "sha256": "6c7a052934fb37fc9ed82a0a812b60c0b8ed4c25b581f8ed307e9e7268837426",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/orm_related_objects.rst"
+    },
+    {
+      "path": "doc/build/tutorial/tutorial_nav_include.rst",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3b4d76f53920123010239d05.rst",
+      "kind": "official-document",
+      "bytes": 309,
+      "sha256": "65b1137f234f621664bc8bf7c1332551d0c5705c7d6febb2d77229c02a484ce5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/doc/build/tutorial/tutorial_nav_include.rst"
+    },
+    {
+      "path": "examples/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/151cf6ca7f8405370f79d25d.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/__init__.py"
+    },
+    {
+      "path": "examples/adjacency_list/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/69d50e89e955607ab87ffaee.py",
+      "kind": "upstream-example-code",
+      "bytes": 272,
+      "sha256": "95507d42c7fecc7938a09199f46e5091ed0171177f39dbf63fa84b7cc1aff644",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/adjacency_list/__init__.py"
+    },
+    {
+      "path": "examples/adjacency_list/adjacency_list.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c9bf0a48248fd11263f10a3c.py",
+      "kind": "upstream-example-code",
+      "bytes": 3338,
+      "sha256": "f386925a370eb537f65f3458c01e99160b2361bf834ccbe58c273cefa5bec0e5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/adjacency_list/adjacency_list.py"
+    },
+    {
+      "path": "examples/association/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/322bf8546fad899b0b3edfb3.py",
+      "kind": "upstream-example-code",
+      "bytes": 216,
+      "sha256": "12e45aaaa229dc25b932409fa11074f3db4739beec1bf02aae9cd77382e0ad13",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/association/__init__.py"
+    },
+    {
+      "path": "examples/association/basic_association.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c9383b5331a4f18f3cddc30c.py",
+      "kind": "upstream-example-code",
+      "bytes": 3716,
+      "sha256": "c80cc24beb40f02cbb4612473af57053257239584707df468f7cefd8e413ce58",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/association/basic_association.py"
+    },
+    {
+      "path": "examples/association/dict_of_sets_with_default.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3503b414f811ccdbe91ae9cb.py",
+      "kind": "upstream-example-code",
+      "bytes": 3150,
+      "sha256": "d897992455e21135468455b382884849407f189dc72eb8a09be5b4001acb6c4d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/association/dict_of_sets_with_default.py"
+    },
+    {
+      "path": "examples/association/proxied_association.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a94e2b2a720f6382fab7fef6.py",
+      "kind": "upstream-example-code",
+      "bytes": 3860,
+      "sha256": "ff0d892ae009269ca41fffb3c50a1497ae37e44522c40c82c6cc1e2526738307",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/association/proxied_association.py"
+    },
+    {
+      "path": "examples/asyncio/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5d03d55942757123077a5752.py",
+      "kind": "upstream-example-code",
+      "bytes": 90,
+      "sha256": "1f6304080a7e99f73be961d2b8d3154eb89235d1295d8a733ea4ddc36fc6d002",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/asyncio/__init__.py"
+    },
+    {
+      "path": "examples/asyncio/async_orm.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/299b96f6fa26917a25908464.py",
+      "kind": "upstream-example-code",
+      "bytes": 3105,
+      "sha256": "0ff557d09733fd3a0f83058e74143af5b6179aa01821707dc19c899451e5d509",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/asyncio/async_orm.py"
+    },
+    {
+      "path": "examples/asyncio/async_orm_writeonly.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/22425b46e811b57598336eb5.py",
+      "kind": "upstream-example-code",
+      "bytes": 2906,
+      "sha256": "9d2b9bbe066ec9d7f9130e41b2ce2566a3d9413e5f7a59f8eef4119a5c003919",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/asyncio/async_orm_writeonly.py"
+    },
+    {
+      "path": "examples/asyncio/basic.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/08eb8b84fc19a062c65996a7.py",
+      "kind": "upstream-example-code",
+      "bytes": 2206,
+      "sha256": "a1776ac6c063cffebae79e5ad4b7b76d78de09ad8bb078113c852834d3eccc02",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/asyncio/basic.py"
+    },
+    {
+      "path": "examples/asyncio/gather_orm_statements.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/600aa65f614dbc7e0394818e.py",
+      "kind": "upstream-example-code",
+      "bytes": 3380,
+      "sha256": "39373940414e6b65dd944f4e2b53e32b07880cbaa574d7bb078e376ddb597934",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/asyncio/gather_orm_statements.py"
+    },
+    {
+      "path": "examples/asyncio/greenlet_orm.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a423b99b0f9d3bfc28eb12c1.py",
+      "kind": "upstream-example-code",
+      "bytes": 2418,
+      "sha256": "829ab6d466439a473a743962812cf1dd1b263f38ad3d11d579d3315e0c80c9e3",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/asyncio/greenlet_orm.py"
+    },
+    {
+      "path": "examples/custom_attributes/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2760761c3d43d2d113db9021.py",
+      "kind": "upstream-example-code",
+      "bytes": 107,
+      "sha256": "3f4a05db25d30494217168d6701786723d36a600c5aa7451426f3c460be1dcad",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/custom_attributes/__init__.py"
+    },
+    {
+      "path": "examples/custom_attributes/active_column_defaults.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/87c51c0cdb8e92f3e2c86add.py",
+      "kind": "upstream-example-code",
+      "bytes": 3931,
+      "sha256": "d4f8a0ee35bbd70aa21c2f53ac8ef9607e9e5e01bf4c21b98d23844ee1a2c873",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/custom_attributes/active_column_defaults.py"
+    },
+    {
+      "path": "examples/custom_attributes/custom_management.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9f63e420ebeca626af784a89.py",
+      "kind": "upstream-example-code",
+      "bytes": 3316,
+      "sha256": "6ceec673bb117d21183c4ec3dbb81d6f4d75f2c04fba5a79e4b407f00d207c19",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/custom_attributes/custom_management.py"
+    },
+    {
+      "path": "examples/custom_attributes/listen_for_events.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d54c468e3beb68d44069a88a.py",
+      "kind": "upstream-example-code",
+      "bytes": 2093,
+      "sha256": "71e4a35d217ff317fa23b876cd2eca5ccbcb718ed676d86a449b64be53775f78",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/custom_attributes/listen_for_events.py"
+    },
+    {
+      "path": "examples/dogpile_caching/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/73a2c214a583b182218881d6.py",
+      "kind": "upstream-example-code",
+      "bytes": 2121,
+      "sha256": "fab17a87529c5399a43c64457716fab7bce4e7a87dc36a03f009c0ffbec5e9c0",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/__init__.py"
+    },
+    {
+      "path": "examples/dogpile_caching/advanced.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/265add665ac6613bd4600f67.py",
+      "kind": "upstream-example-code",
+      "bytes": 3218,
+      "sha256": "94d7c7752edc649d6729140b04474d2d51e8ca69cc98bc4f8b6e85bea54c0c12",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/advanced.py"
+    },
+    {
+      "path": "examples/dogpile_caching/caching_query.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a798697dae77deedaaddd9e2.py",
+      "kind": "upstream-example-code",
+      "bytes": 6866,
+      "sha256": "b0200ce56866bc0892c318419222dca74860ec6feb8c40ec3db3291e1ae07818",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/caching_query.py"
+    },
+    {
+      "path": "examples/dogpile_caching/environment.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d22bf0711d0eec96b19a8fec.py",
+      "kind": "upstream-example-code",
+      "bytes": 2058,
+      "sha256": "366d7addd5c8b963d39eebcdcb32c00277091683cce174bb8505bdcee5f79da8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/environment.py"
+    },
+    {
+      "path": "examples/dogpile_caching/fixture_data.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/53e12e55a896a462f29c7f98.py",
+      "kind": "upstream-example-code",
+      "bytes": 1765,
+      "sha256": "d2cd610adb5536dcdbd55795a7c507fa7cb0d90fa1ee12c4f3e8b2e90f3196a8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/fixture_data.py"
+    },
+    {
+      "path": "examples/dogpile_caching/helloworld.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a2717043ffe81b5a417c6202.py",
+      "kind": "upstream-example-code",
+      "bytes": 2343,
+      "sha256": "46008397655b989ef9bd0e6359587a22077078277f90edfc9cd675192b912d80",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/helloworld.py"
+    },
+    {
+      "path": "examples/dogpile_caching/local_session_caching.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/f8b593d3c4c9bb178e56d0f3.py",
+      "kind": "upstream-example-code",
+      "bytes": 3518,
+      "sha256": "a0e8c3e001362a1005fe93ee7093df4bfd45e581102167d7e3d067f07fc8113c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/local_session_caching.py"
+    },
+    {
+      "path": "examples/dogpile_caching/model.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/846ef19ff40e481ef9bdae9c.py",
+      "kind": "upstream-example-code",
+      "bytes": 3034,
+      "sha256": "4e1370b984adf23901dcaeac4a9223f98eb4107f68e338e3ce8eb48ecbe4331a",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/model.py"
+    },
+    {
+      "path": "examples/dogpile_caching/relationship_caching.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3964eba63b642404a3cc4304.py",
+      "kind": "upstream-example-code",
+      "bytes": 1089,
+      "sha256": "a2523c1554e92e7eca71558fbfe0b24cb6a36d24f7397e454e2c1fa8b76f6104",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dogpile_caching/relationship_caching.py"
+    },
+    {
+      "path": "examples/dynamic_dict/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/cd789017abeacb49fa68dc77.py",
+      "kind": "upstream-example-code",
+      "bytes": 248,
+      "sha256": "20309d962a9fe461d1540664f0a8d6611437ef0587eb5d1e29d86511e71962dc",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dynamic_dict/__init__.py"
+    },
+    {
+      "path": "examples/dynamic_dict/dynamic_dict.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d347e873b1b089b27f0126f0.py",
+      "kind": "upstream-example-code",
+      "bytes": 2538,
+      "sha256": "d5c6aa34ca10a174aa21f2a6c03d67c9475f31ec40613b7a6d6fca4ee81b8bb5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/dynamic_dict/dynamic_dict.py"
+    },
+    {
+      "path": "examples/extending_query/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/152c785c62fad5476aba9f40.py",
+      "kind": "upstream-example-code",
+      "bytes": 555,
+      "sha256": "0c7aba3407affc4d474062a3a21cc625abdb2678baca5101770b951ef0811257",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/extending_query/__init__.py"
+    },
+    {
+      "path": "examples/extending_query/filter_public.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/a4a843f61c7faeafe196e359.py",
+      "kind": "upstream-example-code",
+      "bytes": 5964,
+      "sha256": "5975adc40834fc377acef5cff8054dde7e2115599ece13b7de078cb4c2da5dae",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/extending_query/filter_public.py"
+    },
+    {
+      "path": "examples/extending_query/temporal_range.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/0431e659985894fa9a61277e.py",
+      "kind": "upstream-example-code",
+      "bytes": 3754,
+      "sha256": "9e97bdd01a678a90cbf6ff4033d5f6643ad530bee455cdeb9254f4da06d1bfad",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/extending_query/temporal_range.py"
+    },
+    {
+      "path": "examples/generic_associations/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/85a6377675d8f8d8d36f4171.py",
+      "kind": "upstream-example-code",
+      "bytes": 758,
+      "sha256": "4c03747e9d3fb61a620015742e1a1c23f5f9ccfdba1044611042e804ab93d90b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/generic_associations/__init__.py"
+    },
+    {
+      "path": "examples/generic_associations/discriminator_on_association.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5a9efc1977d03b9166d8f16b.py",
+      "kind": "upstream-example-code",
+      "bytes": 4697,
+      "sha256": "73656b095008613d9f5eaf3c58935e302e19dd11fd5965a8aab69525f2dd9141",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/generic_associations/discriminator_on_association.py"
+    },
+    {
+      "path": "examples/generic_associations/generic_fk.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/88971a71f7de23aec34cc464.py",
+      "kind": "upstream-example-code",
+      "bytes": 4706,
+      "sha256": "40f590d0c2637109b4718dffd16b17fc7abe673daaebae256dd60c5391d4adba",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/generic_associations/generic_fk.py"
+    },
+    {
+      "path": "examples/generic_associations/table_per_association.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8d2cb13b9aa75ab6b368875e.py",
+      "kind": "upstream-example-code",
+      "bytes": 3157,
+      "sha256": "d37d87099589f0c73ab17eadc0d4e0ccef43078a841ba1f43b1c898992c2ace5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/generic_associations/table_per_association.py"
+    },
+    {
+      "path": "examples/generic_associations/table_per_related.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d33b208b7fb0a3b6f5c6cb0b.py",
+      "kind": "upstream-example-code",
+      "bytes": 4155,
+      "sha256": "1355343c070078d78988962c8e3c546ad0e469ef449e757bb6e3150f0e473fc8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/generic_associations/table_per_related.py"
+    },
+    {
+      "path": "examples/graphs/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/8bfbb12f1f28e6cb45e7e365.py",
+      "kind": "upstream-example-code",
+      "bytes": 378,
+      "sha256": "7a499a0b2bbc4c75c8c0af77b3b4336e13754402fdfcd90c66daef338f0487ce",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/graphs/__init__.py"
+    },
+    {
+      "path": "examples/graphs/directed_graph.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c98f4beb085355f1fbc2c629.py",
+      "kind": "upstream-example-code",
+      "bytes": 1807,
+      "sha256": "a4b3cd47d381de5fbaed84cfbf708220d7f548c42520a0a89833078d1f609a6b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/graphs/directed_graph.py"
+    },
+    {
+      "path": "examples/inheritance/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7dc3b09de8329eb934989d62.py",
+      "kind": "upstream-example-code",
+      "bytes": 149,
+      "sha256": "2750ac111572e53cebe781a3c69575f22eeb579d57a8cce084f768564608d9c1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/inheritance/__init__.py"
+    },
+    {
+      "path": "examples/inheritance/concrete.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/1f2ddb9a8a903d364e37b594.py",
+      "kind": "upstream-example-code",
+      "bytes": 4544,
+      "sha256": "561d4f0c54f0b0463c19dfefb63ce6474f060e86eaf71169f80550df1d5be019",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/inheritance/concrete.py"
+    },
+    {
+      "path": "examples/inheritance/joined.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9f5f211041f18dcfdf6f4171.py",
+      "kind": "upstream-example-code",
+      "bytes": 4486,
+      "sha256": "5a7d26ee6ceeb5e1734196f75187027397605113653e5e58456fd4c3b2d23f5f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/inheritance/joined.py"
+    },
+    {
+      "path": "examples/inheritance/single.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/03d2b49bee3f703432ac2ea2.py",
+      "kind": "upstream-example-code",
+      "bytes": 5053,
+      "sha256": "d95b1a1927a666b4f29c266668bd61b57b0d33b804e227cfefa1d81f4f48eae3",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/inheritance/single.py"
+    },
+    {
+      "path": "examples/materialized_paths/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/b6b104c76c5cb1503a3e34e5.py",
+      "kind": "upstream-example-code",
+      "bytes": 118,
+      "sha256": "6ff0c84115c96bdc79e591fba91018148783d0bc1956f1ab01ba364f2476cea7",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/materialized_paths/__init__.py"
+    },
+    {
+      "path": "examples/materialized_paths/materialized_paths.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e841ba12bab5a85e71200193.py",
+      "kind": "upstream-example-code",
+      "bytes": 4344,
+      "sha256": "a3fbe6871302acb38155f64c2d9dc7a080094e4f7ae59994ee411e8591dea85d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/materialized_paths/materialized_paths.py"
+    },
+    {
+      "path": "examples/nested_sets/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/45e217ddac7b87b9531b6ea9.py",
+      "kind": "upstream-example-code",
+      "bytes": 142,
+      "sha256": "87cfa1943885d99d9247c6f0e99ec2668a8e6822ff98e158330f85d91f1a9a35",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/nested_sets/__init__.py"
+    },
+    {
+      "path": "examples/nested_sets/nested_sets.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/ba8315c0589fd37f959857e0.py",
+      "kind": "upstream-example-code",
+      "bytes": 3725,
+      "sha256": "0147c19c08d071e5ce25fac5389cca456a6207b605dc63eeae462c0f1ad2b545",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/nested_sets/nested_sets.py"
+    },
+    {
+      "path": "examples/performance/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/4b10b8f0ed0bd533ab516ffc.py",
+      "kind": "upstream-example-code",
+      "bytes": 14263,
+      "sha256": "41934e338946348603e0b45ec888783e7e1dbdb24d4d071b290f08000b277a7b",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/__init__.py"
+    },
+    {
+      "path": "examples/performance/__main__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/18b4e8a5843b90c28ad73624.py",
+      "kind": "upstream-example-code",
+      "bytes": 141,
+      "sha256": "dbab130f44b74b78522bc76f4a02c083649d9162a7ed33fd23ed4ab676faa0ec",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/__main__.py"
+    },
+    {
+      "path": "examples/performance/bulk_inserts.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/bfeb948eccbd7d3ce1461030.py",
+      "kind": "upstream-example-code",
+      "bytes": 4259,
+      "sha256": "479adc08305703d37b651425733c889da30240dc20b5b436b27a9ab26ddcb168",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/bulk_inserts.py"
+    },
+    {
+      "path": "examples/performance/bulk_updates.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/7b92cb5f53dddb6d4c527272.py",
+      "kind": "upstream-example-code",
+      "bytes": 1713,
+      "sha256": "909f28a45bc8194eab4eb6725511558080b11871d8d835ca83a9abeb908211c8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/bulk_updates.py"
+    },
+    {
+      "path": "examples/performance/large_resultsets.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/df65457c2e1e4fbf69136b52.py",
+      "kind": "upstream-example-code",
+      "bytes": 5875,
+      "sha256": "8f7a23c1cc6aeddd863e70845942a49cadc1008d27b889745bf8f9acd2ad13eb",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/large_resultsets.py"
+    },
+    {
+      "path": "examples/performance/short_selects.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/78131da38835caab9e6abf48.py",
+      "kind": "upstream-example-code",
+      "bytes": 5097,
+      "sha256": "f792da6e8d8698b89c40a41c96524761c231dbf4898a350cb12f23076ee667b9",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/short_selects.py"
+    },
+    {
+      "path": "examples/performance/single_inserts.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/2c4f6c4bc3f8ba2785b4ad2f.py",
+      "kind": "upstream-example-code",
+      "bytes": 4849,
+      "sha256": "dca327100c88894c50c5c2b90b0491242b16b9aec32b9f0756839d4839df5569",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/performance/single_inserts.py"
+    },
+    {
+      "path": "examples/sharding/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/450db8fdb5374c5321872deb.py",
+      "kind": "upstream-example-code",
+      "bytes": 1814,
+      "sha256": "7ea390f4f0830b3d640ebfb026f0e5f676224d75286b66454bf1bb43abf2d40c",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/sharding/__init__.py"
+    },
+    {
+      "path": "examples/sharding/asyncio.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5797dfe37d35a0f1e4532e5c.py",
+      "kind": "upstream-example-code",
+      "bytes": 11404,
+      "sha256": "d260bba2ff20ec1d61592519fadd22534fc6f831fef9291d9a84a69045d3d6e1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/sharding/asyncio.py"
+    },
+    {
+      "path": "examples/sharding/separate_databases.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/133d6b1b10e423f2d517317c.py",
+      "kind": "upstream-example-code",
+      "bytes": 10311,
+      "sha256": "782ca195a232de293c5bd09287325e4afbf93d6e9a6e0a2c6e8818b6b8aab552",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/sharding/separate_databases.py"
+    },
+    {
+      "path": "examples/sharding/separate_schema_translates.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/996f59137f495e8d4cf31f53.py",
+      "kind": "upstream-example-code",
+      "bytes": 7541,
+      "sha256": "cf8b939f93922daea789fa4dbbd609c3de6d38655b922227ec224741ef51616f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/sharding/separate_schema_translates.py"
+    },
+    {
+      "path": "examples/sharding/separate_tables.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/57364b9994d14e598fd72191.py",
+      "kind": "upstream-example-code",
+      "bytes": 10852,
+      "sha256": "e82c2a8f1e59cbc873928079e3664038af471f9a3af792cd09e690755d5b764f",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/sharding/separate_tables.py"
+    },
+    {
+      "path": "examples/space_invaders/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/5833a2a873feffad01d5e256.py",
+      "kind": "upstream-example-code",
+      "bytes": 379,
+      "sha256": "d2a9f52ae7411bf10ffad0ad8cbf61a964eae9dd133bc4418fceee6f433fd1e5",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/space_invaders/__init__.py"
+    },
+    {
+      "path": "examples/space_invaders/space_invaders.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/3e8f3bce50ce7c7a7a9245e1.py",
+      "kind": "upstream-example-code",
+      "bytes": 19708,
+      "sha256": "857d2aa83df9f3870558f7102470c6ec6325b8a58fbc3c6646f6bd0bceae1bb7",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/space_invaders/space_invaders.py"
+    },
+    {
+      "path": "examples/syntax_extensions/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c39b07cb259bcca20d0744cd.py",
+      "kind": "upstream-example-code",
+      "bytes": 278,
+      "sha256": "a906a09b339b4bf410b663177dc966b5f21609d914691e4a04eca990798ece28",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/syntax_extensions/__init__.py"
+    },
+    {
+      "path": "examples/syntax_extensions/qualify.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/cbf35ada4df253b4f34ec28b.py",
+      "kind": "upstream-example-code",
+      "bytes": 2403,
+      "sha256": "051b8c49395923a3e4d4d4be824c0a71b0652613dd3e4142fcffa110bae6eaa8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/syntax_extensions/qualify.py"
+    },
+    {
+      "path": "examples/syntax_extensions/test_qualify.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/c7674e20faea063be4cf45b9.py",
+      "kind": "upstream-example-code",
+      "bytes": 5665,
+      "sha256": "9cbcf46b8540fc3dca406ca03263ad974d14042a80c1655498b95cbf60b608ff",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/syntax_extensions/test_qualify.py"
+    },
+    {
+      "path": "examples/versioned_history/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/fab52c3231f6cc7e5846040c.py",
+      "kind": "upstream-example-code",
+      "bytes": 2550,
+      "sha256": "2bc9eac19bff21452862a4c1e45178eff05d7e3d6927b7a064339955d20fa688",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_history/__init__.py"
+    },
+    {
+      "path": "examples/versioned_history/history_meta.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/35261d5235c94357807c3f45.py",
+      "kind": "upstream-example-code",
+      "bytes": 11476,
+      "sha256": "c0d78fd525950df91c9d811e300d0e0fa3318910644e010e4a6ef08650e84ea8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_history/history_meta.py"
+    },
+    {
+      "path": "examples/versioned_history/test_versioning.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/29c0c9ce4dbc21adfbb70782.py",
+      "kind": "upstream-example-code",
+      "bytes": 30038,
+      "sha256": "74597b43671673f2603b96792133d4a901cc25b62b15838c825791f89e9fcb7e",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_history/test_versioning.py"
+    },
+    {
+      "path": "examples/versioned_rows/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/56be00d5630756b2b222c7d4.py",
+      "kind": "upstream-example-code",
+      "bytes": 375,
+      "sha256": "92004344474fcc2e6ebc6b94a8467888b29ec1e3f2da39ed4512b2c5e40548c1",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_rows/__init__.py"
+    },
+    {
+      "path": "examples/versioned_rows/versioned_map.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/47fdefb1e46af323d74bf36e.py",
+      "kind": "upstream-example-code",
+      "bytes": 9194,
+      "sha256": "262b10952f19f636d4fad186ea480a11f24f536dd6ceae6ddaa70b2a660ce155",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_rows/versioned_map.py"
+    },
+    {
+      "path": "examples/versioned_rows/versioned_rows.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/04ba0817e2eacf2087be4ff2.py",
+      "kind": "upstream-example-code",
+      "bytes": 2901,
+      "sha256": "4385f7a824e6992670db66d4c11c6f08b10e0b4dedf8b50016cafd88fe35932d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_rows/versioned_rows.py"
+    },
+    {
+      "path": "examples/versioned_rows/versioned_rows_w_versionid.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/9633e1d08b144ae835b5dffa.py",
+      "kind": "upstream-example-code",
+      "bytes": 4559,
+      "sha256": "846b85e0df7a43917f190db5adeb9fd1104b4940c2fa88a58031596272fa5059",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_rows/versioned_rows_w_versionid.py"
+    },
+    {
+      "path": "examples/versioned_rows/versioned_update_old_row.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/13b4d0ebd86cf4dc3340c694.py",
+      "kind": "upstream-example-code",
+      "bytes": 8252,
+      "sha256": "90ccfbb95757368cf767f39d607299b3e564b586387bafb1b9dc0bd51f73527d",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/versioned_rows/versioned_update_old_row.py"
+    },
+    {
+      "path": "examples/vertical/__init__.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/33393f8f2ae8f6cde29b13ce.py",
+      "kind": "upstream-example-code",
+      "bytes": 1036,
+      "sha256": "4656363d5aae42a5b65d6f3d6d77e4a2590c262c805721776bbef168d77e74ee",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/vertical/__init__.py"
+    },
+    {
+      "path": "examples/vertical/dictlike-polymorphic.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/d392bd8bd02533cd46b78908.py",
+      "kind": "upstream-example-code",
+      "bytes": 7353,
+      "sha256": "c38715fc9f155b55ae0d148ec795b396ade68ab772f84ea984e1e910e199dec8",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/vertical/dictlike-polymorphic.py"
+    },
+    {
+      "path": "examples/vertical/dictlike.py",
+      "localPath": "raw/sqlalchemy--sqlalchemy/98ad157d6334/e572dfe1b5601e9f8c665f68.py",
+      "kind": "upstream-example-code",
+      "bytes": 5093,
+      "sha256": "9bb2f2ccf7940a66fa697a5ef3b08249d83ac8b5e8f825f796828e598c0f2689",
+      "sourceUrl": "https://github.com/sqlalchemy/sqlalchemy/blob/98ad157d63345522db3c84aed5acabf1d875f5d3/examples/vertical/dictlike.py"
+    }
+  ],
+  "omitted": [],
+  "recoveredInterruptedFiles": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

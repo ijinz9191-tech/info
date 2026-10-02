@@ -724,6 +724,25 @@ landscape:
             twitter: https://twitter.com/ShifuFramework
             crunchbase: https://www.crunchbase.com/organization/edgenesis
           - item:
+            name: Spinifex
+            description: >-
+              Spinifex is an open source, AWS-compatible cloud for bare-metal, edge and on-premise hardware. It implements the EC2, VPC, S3, EKS and RDS APIs, so existing AWS CLI, SDK and Terraform workflows run unchanged on your own servers.
+            homepage_url: https://mulgadc.com/spinifex
+            repo_url: https://github.com/mulgadc/spinifex
+            logo: spinifex.svg
+            crunchbase: https://www.crunchbase.com/organization/mulga-dc
+            extra:
+              documentation_url: https://docs.mulgadc.com
+              linkedin_url: https://www.linkedin.com/company/mulga-defense-corporation
+              summary_use_case: >-
+                Provides AWS-compatible APIs for compute, networking, storage, IAM, Kubernetes and databases on bare-metal servers, so AWS tooling works against on-premise and edge hardware.
+              summary_personas: >-
+                Platform Engineers, Cloud Architects, DevOps Engineers, SREs, Infrastructure Engineers
+              summary_tags: >-
+                aws-compatible, private cloud, sovereign cloud, bare metal, edge, self-hosted, on-premise, Go
+              summary_integrations: >-
+                Terraform, OpenTofu, AWS CLI, AWS SDKs, Kubernetes, NATS, QEMU, KVM, OVN
+          - item:
             name: SuperEdge
             description: An edge-native container management system for edge computing
             homepage_url: https://superedge.io/
@@ -6309,6 +6328,17 @@ landscape:
             homepage_url: https://libredb.org
             repo_url: https://github.com/libredb/libredb-studio
             logo: libredb-studio.svg
+            twitter: https://x.com/libredb
+            extra:
+              summary_personas: Developers, DBAs, Platform Engineers
+              summary_tags: SQL IDE,Web-Based,Database Client,Database Agent,AI,MCP Server,OIDC,Self-Hosted,Kubernetes,Helm
+              documentation_url: https://github.com/libredb/libredb-studio/tree/main/docs
+              blog_url: https://libredb.org/blog/
+              github_discussions_url: https://github.com/libredb/libredb-studio/discussions
+              docker_url: https://github.com/libredb/libredb-studio/pkgs/container/libredb-studio
+              package_manager_url: https://artifacthub.io/packages/helm/libredb-studio/libredb-studio
+              linkedin_url: https://www.linkedin.com/company/libredb
+              youtube_url: https://www.youtube.com/@libredb
           - item:
             name: MariaDB
             homepage_url: https://mariadb.com/
@@ -11780,7 +11810,7 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/keep-2303
           - item:
             name: Kepler
-            description: Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics.
+            description: Kepler (Kubernetes-based Efficient Power Level Exporter) is a Prometheus exporter that measures energy consumption at the Pod and Node level by reading hardware sensors, attributing it to containers, and giving per-workload visibility into where energy goes. Let's make every watt matter.
             homepage_url: https://sustainable-computing.io/
             project: sandbox
             repo_url: https://github.com/sustainable-computing-io/kepler
@@ -13934,7 +13964,7 @@ landscape:
             name: VSHN AG (KCSP)
             description: >-
               VSHN - The DevOps Company transforms software into online services by automating and managing application workloads. Let us handle the Ops so you can build the future. We provide 24/7 platform engineering and Kubernetes support for software developers, SaaS, agencies, and ISVs.
-            homepage_url: https://www.vshn.ch/en/solutions/kubernetes-ready-and-containerized/
+            homepage_url: https://www.vshn.ch/en/solutions/kubernetes-ready-and-containerized/?utm_source=cncf&utm_medium=referral&utm_campaign=kcsp-listing
             logo: vshn.svg
             crunchbase: https://www.crunchbase.com/organization/vshn-ag
           - item:
@@ -17649,6 +17679,12 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/beijing-sup-info-information-technology-co-ltd
             joined: '2021-07-01'
           - item:
+            name: SuperPlane (member)
+            homepage_url: https://superplane.com
+            logo: superplane.svg
+            crunchbase: https://www.crunchbase.com/organization/superplane
+            joined: '2026-05-01'            
+          - item:
             name: SurrealDB (member)
             homepage_url: https://surrealdb.com
             logo: surrealdb.svg
@@ -18031,7 +18067,7 @@ landscape:
             joined: '2025-05-01'
           - item:
             name: VSHN AG (member)
-            homepage_url: https://vshn.ch/en
+            homepage_url: https://www.vshn.ch/en/?utm_source=cncf&utm_medium=referral&utm_campaign=member-listing
             logo: vshn.svg
             crunchbase: https://www.crunchbase.com/organization/vshn-ag
             joined: '2018-04-01'
@@ -18427,12 +18463,6 @@ landscape:
             crunchbase: https://www.crunchbase.com/organization/box
             joined: '2018-08-01'
           - item:
-            name: Cardinal Health (supporter)
-            homepage_url: https://www.cardinalhealth.com/en.html
-            logo: cardinal-health.svg
-            crunchbase: https://www.crunchbase.com/organization/cardinal-health
-            joined: '2021-09-01'
-          - item:
             name: CarGurus (supporter)
             homepage_url: https://www.cargurus.com
             logo: cargurus.svg
@@ -18492,6 +18522,12 @@ landscape:
             logo: endress+hauser.svg
             description: Endress+Hauser is a global leader in measurement and automation technology for process and laboratory applications.
             joined: '2024-01-01'
+          - item:
+            name: enechain (contributor)
+            homepage_url: https://enechain.co.jp/en
+            logo: enechain.svg
+            crunchbase: https://www.crunchbase.com/organization/enechain
+            joined: '2026-10-01'
           - item:
             name: EverQuote (supporter)
             homepage_url: https://www.everquote.com/

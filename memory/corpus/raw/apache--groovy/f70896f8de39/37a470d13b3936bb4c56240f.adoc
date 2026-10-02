@@ -1,0 +1,351 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+
+= InvokeDynamic support
+
+
+== Foreword
+
+Since Groovy 2.0, support was added for the JVM http://docs.oracle.com/javase/7/docs/technotes/guides/vm/multiple-language-support.html#invokedynamic[invokedynamic] instruction. This instruction is supported since Java 7 and is a new bytecode instruction in the JVM that allows easier implementation of dynamic languages. This instruction will also be used internally, by the JVM, for the lambda support in Java 8.
+
+This means that unlike APIs, AST transformations or syntactic sugar, this feature is **not visible** to the developer or the end user. It is a compilation and runtime feature only. This means that given two programs written in Groovy, you have the choice to compile it with or without invokedynamic support. Whatever you choose, it comes with pros and cons:
+
+- it is possible to mix classes compiled with and without invokedynamic in the same project, as long as you run JDK 1.7+
+- depending on the JVM (even different minor versions of the JVM), you can target close to Java performance for dynamic Groovy with invokedynamic support activated
+
+== The distributions
+
+=== Two jars
+
+The Groovy distribution comes with **two** jars:
+
+- groovy-x.y.z.jar : contains Groovy sources compiled with call site caching
+- groovy-x-y-z-indy.jar : contains Groovy sources compiled with invokedynamic instructions
+
+As Groovy core and the Groovy modules are sometimes written in Groovy, we currently have no choice but to distribute two
+distinct versions of Groovy. This means that if you pick the "normal" jar, the Groovy classes of Groovy itself are
+compiled with call site caching (1.6+), while if you use the "indy" jar, the Groovy classes of Groovy itself are
+compiled using invokedynamic.
+
+Both jars contain a fully working Groovy implementation that is capable of compiling user supplied Groovy sources using either
+invokedynamic or call site caching. The sets of jars are mutually exclusive (don't put both on classpath) and the key difference between
+them has to do with how the Groovy source files that make up Groovy itself are compiled.
+
+=== Command-line and indy
+If you download the distribution and use the command line, it's always the "normal" version of Groovy which is picked up in classpath. This means that whatever command you use (`groovy`, `groovyc`, `groovysh` or `groovyConsole`), invokedynamic support is not available out of the box. To use a Groovy distribution that was compiled with invokedynamic for its Groovy sources you have to switch the jars manually. The distribution makes use of the jars in the ++lib++ directory, while the indy jars are available in the ++indy++ directory. You have three things to do:
+
+- remove or rename the groovy-*.jar files in the lib directory
+- replace them with the indy version from the indy directory
+- remove the -indy classifier from jar names
+
+Here's a bash script that would do it all at once:
+
+[source,bash]
+----
+$ for f in `ls lib/groovy*.jar | cut -d/ -f2`;do k=`basename $f .jar`; mv lib/$k.jar lib/$k.jar.old; cp indy/$k-indy.jar lib/$k.jar ; done
+----
+
+== Running groovy script from command line
+
+The usual way to run a script from the command line is by `groovy foo.groovy`, where `foo.groovy` is the Groovy program
+in source form. To use indy for this you have to use the indy compilation flag, `groovy --indy foo.groovy`.
+
+== The compilation flag
+
+Independently of the jar version that you use (and after having exchanged the jars as described), invokedynamic support requires a specific compilation flag (__indy__). If you want to compile your classes with invokedynamic support, this flag must be set at compile time. The following tables show you what happens with user compiled classes and Groovy core classes depending on the jar you use and the compilation flag:
+
+[cols="1,1,1" options="header"]
+.user compiled classes
+|===
+|indy flag
+|**off**
+|**on**
+
+|normal jar
+|call site caching
+|invokedynamic
+
+|indy jar
+|call site caching
+|invokedynamic
+|===
+
+[cols="1,1,1" options="header"]
+.core Groovy classes
+|===
+|indy flag
+|**off**
+|**on**
+
+|normal jar
+|call site caching
+|call site caching
+
+|indy jar
+|invokedynamic
+|invokedynamic
+|===
+
+So even if you use the indy jar, if you don't use the invokedynamic flag at compile time, then the compiled classes will use the "old" format.
+
+== Runtime properties
+
+=== The reflective cold tier and caller location
+
+Each dynamic call site is linked lazily. Normally even the first calls at a site run through a
+fully guarded `MethodHandle` chain, so nothing but hidden `LambdaForm` frames sits between the
+calling method and the target. The _reflective cold tier_ (`groovy.indy.cold.reflection`) instead
+dispatches plain instance method calls through `java.lang.reflect.Method.invoke` until the site has
+been hit `groovy.indy.optimize.threshold` times (default 1000), and only then builds the
+`MethodHandle` chain. It saves the one-time LambdaForm cost of shapes that are never hot.
+
+The default depends on where the site links:
+
+* On a JVM the tier is *off*. While a site is on the tier, reflection and Groovy runtime frames sit
+  between the caller and the target, so anything that inspects the call stack sees the wrong caller:
+  the `%C`, `%M`, `%F` and `%L` patterns of Log4j2 and Logback, the source class and method of
+  `java.util.logging`, `StackWalker` and `Throwable` stack traces. A site called fewer than the
+  threshold times, such as a rarely hit `warn` or `error` statement, would report the wrong location
+  for the life of the application.
+* For an AOT-linked site, that is inside a GraalVM native image (or when
+  `-Dgroovy.indy.aot.link=true` forces AOT link mode on a JVM), the tier is *on* and is the steady
+  state: a native image cannot retarget call sites and would otherwise run every `MethodHandle` chain
+  in its MethodHandle interpreter at microseconds per call.
+
+Setting the property explicitly overrides the default in either environment:
+
+----
+-Dgroovy.indy.cold.reflection=true    # use the tier on a JVM (opt in)
+-Dgroovy.indy.cold.reflection=false   # keep the MethodHandle path even in a native image
+----
+
+The property is read once when `IndyInterface` initialises, so pass it on the command line rather
+than setting it from code.
+
+==== Caller location
+
+Runtime frames appear between a caller and its target whenever the runtime dispatches a call
+through the metaclass instead of linking it at the call site. With the reflective tier enabled that
+is every plain method call until its site promotes. Independently of the tier, and on every Groovy
+version, it is also the case for a call with a dynamic method name, such as `log."$level"(msg)`,
+and for an explicit `invokeMethod` call: a logging helper written that way reports the runtime as
+the caller. Ordinary calls made inside a `use(Category)` block, on a receiver with a per-instance
+metaclass, or from a closure coerced to an interface still link at the call site and report the
+correct location.
+
+The settings below keep caller locations correct in all of those cases, on a JVM and, with the
+additions in the native-image section, in a native image. Statically compiled code
+(`@CompileStatic`) needs none of them for ordinary calls, since it calls targets directly.
+
+`java.util.logging`:: The JDK skips additional packages when inferring the caller if they are listed
+in `jdk.logger.packages`. On a JVM pass it at run time:
++
+----
+-Djdk.logger.packages=org.codehaus.groovy,groovy.lang
+----
++
+Alternatively use the `logp` methods, which take an explicit source class and method.
+
+Logback:: Logback skips its _framework packages_ when computing caller data. The list is only
+configurable programmatically, and its default contains just `org.codehaus.groovy.runtime`, so add
+the reflection and MOP packages before logging starts:
++
+[source,groovy]
+----
+import ch.qos.logback.classic.LoggerContext
+import org.slf4j.LoggerFactory
+
+def context = (LoggerContext) LoggerFactory.getILoggerFactory()
+context.frameworkPackages.addAll([
+    'jdk.internal.reflect', 'java.lang.reflect', 'sun.reflect',
+    'org.codehaus.groovy.', 'groovy.lang.'
+])
+----
+
+Log4j2:: Log4j2 has no equivalent skip list; its location is always the frame following the logger's
+own class. Its answer is a location supplied by the caller, which Groovy's `@Log4j2` transform can
+provide at compile time: `@Log4j2(staticLocation = true)` rewrites each logging statement to
+`log.at<Level>().withLocation(location).log(...)`, with the level of the original call, so
+`log.warn(msg)` becomes `log.atWarn().withLocation(location).log(msg)`, where `location` is a
+`StackTraceElement` for the statement held in a static field of the annotated class. That location is correct however the call is
+dispatched and costs no stack walk. It covers statements made through the injected field only; for a
+hand-declared logger, use `@CompileStatic` where locations matter.
+
+Stack traces:: The logger settings above change what a logger reports as the source; they do not
+remove the frames from exception stack traces. `org.codehaus.groovy.runtime.StackTraceUtils.sanitize`
+and `deepSanitize` strip every frame the runtime adds. Groovy's own caller lookup,
+`org.codehaus.groovy.reflection.ReflectionUtils.getCallingClass`, ignores the MOP packages and
+is unaffected on a JVM.
+
+==== Native images
+
+Inside a GraalVM native image the picture differs in two ways, and both apply whether the tier is
+on or off, so disabling it there gains nothing:
+
+* GraalVM runs dynamically built `MethodHandle` chains in an interpreter whose frames
+  (`com.oracle.svm.core.methodhandles.*`, `java.lang.invoke.LambdaForm$NamedFunction`) are visible
+  to `StackWalker` and to stack traces, unlike HotSpot's hidden `LambdaForm` frames.
+* Its reflection accessor is `com.oracle.svm.core.reflect.SubstrateMethodAccessor`, not a
+  `jdk.internal.reflect` class, so package lists written for HotSpot do not match it.
+
+The same two workarounds hold once those packages are included:
+
+`java.util.logging`:: The package list is captured in a static initialiser that GraalVM runs at
+image build time, so a run-time `-D` is ignored. Pass it to `native-image` when building:
++
+----
+native-image -Djdk.logger.packages=org.codehaus.groovy,groovy.lang,com.oracle.svm.core.methodhandles,com.oracle.svm.core.reflect,java.lang.invoke ...
+----
+
+Logback:: Add `com.oracle.svm.core.reflect`, `com.oracle.svm.core.methodhandles` and
+`java.lang.invoke` to the framework packages shown above.
+
+Log4j2:: `@Log4j2(staticLocation = true)` as above, which needs no native-image settings; for a
+hand-declared logger, use `@CompileStatic` where locations matter.
+
+=== The JDK AOT cache
+
+JDK 25 can archive the classes an application loads and links, together with the lambda and string
+concatenation call sites in them, into an _AOT cache_ (JEP 514, building on JEP 483) that later runs
+map in instead of loading, verifying and linking the same classes again. Groovy's runtime is a good
+candidate: a dynamic program links a few thousand runtime classes before it does any work. Nothing in
+Groovy needs configuring; the recipe is the JDK's own:
+
+----
+# training run: exercise the application; the JVM writes the cache on exit
+java -XX:AOTCacheOutput=app.aot -cp app.jar:groovy-6.0.0.jar my.Main
+# every run after that
+java -XX:AOTCache=app.aot -cp app.jar:groovy-6.0.0.jar my.Main
+----
+
+Three constraints come from the JDK. The class path must consist of jars: a populated directory
+makes the training run fail with `Cannot have non-empty directory in paths`. The same jars,
+unchanged, must be on the class path when the cache is used, and a mismatch makes the JVM silently
+run without it; add `-XX:AOTMode=on` to turn that into an error, or `-Xlog:aot` to see why. And
+classes the Groovy compiler defines at run time, a script run through the `groovy` command or code
+compiled by `GroovyShell`, cannot be archived, so compile the application with `groovyc` and put the
+classes in a jar for the cache to cover it. JDK 24 needs the two-step form,
+`-XX:AOTMode=record -XX:AOTConfiguration=app.aotconf` for the training run followed by
+`-XX:AOTMode=create -XX:AOTConfiguration=app.aotconf -XX:AOTCache=app.aot -XX:+AOTClassLinking`.
+
+What the cache does for a Groovy program, measured on the small dynamic program the build uses to
+check native images: nearly every class comes from the cache rather than the jars, the hidden classes
+for the lambdas in the runtime's own classes come with them, and startup plus run drops by roughly
+40%. What it does not do: Groovy's dynamic call sites are bootstrapped by `IndyInterface`, and JDK 25
+archives only call sites the JDK's own bootstrap methods link, so every dynamic site still links on
+its first call in each run, with the method selection and the `MethodHandle` chain built then. Those
+chains are the `LambdaForm` classes a run with the cache still spins. The reflective cold tier makes
+no measurable difference to that, so its default can stay.
+
+=== DGM adapters in native images
+
+Every method Groovy adds to the JDK classes (the _default Groovy methods_, or DGM) is dispatched
+through a small generated adapter class, `org.codehaus.groovy.runtime.dgm$N`, about two thousand of
+them, created the first time the method is selected. A generated factory constructs them directly,
+so nothing in this path is reflective: on a JVM the first use of a DGM method costs a switch and a
+constructor call, and in a GraalVM native image the adapters need no reflection metadata because
+static analysis reaches all of them through the factory. That is the default, and it means every
+adapter is part of the image whether the application uses it or not, at a cost of a few megabytes.
+
+The `groovy.dgm.factory` property turns the factory off, in which case adapters are resolved by
+class name with reflection, as they were before Groovy 6. In a native image that makes the factory,
+and with it every adapter the image does not otherwise know about, disappear: only the adapters the
+native-image agent recorded are kept. The image is smaller, but a DGM method the agent run did not
+exercise fails at run time with `ClassNotFoundException`. The switch is evaluated at image build
+time, so pass it to `native-image` rather than to the application:
+
+----
+native-image -Dgroovy.dgm.factory=false ...
+----
+
+Groovy ships the `native-image.properties` that makes this work; nothing else is needed. On a JVM the
+property is read once at start-up and only changes how an adapter is created the first time it is
+used, so there is no reason to set it there.
+
+=== Reachability metadata for the runtime
+
+Groovy 6 needs GraalVM for JDK 25.0.4 or later. Earlier releases carry a built-in substitution for
+Groovy's invokedynamic support that targets a method Groovy 6 no longer has, and `native-image`
+fails with `Could not find target method ... IndyInterface_invalidateSwitchPoints` before it reads
+any metadata; their agent also writes the older split configuration files rather than the single
+`reachability-metadata.json`.
+
+Besides the adapters, the groovy jar carries reachability metadata for what the runtime does on its
+own behalf, under `META-INF/native-image/org.apache.groovy/groovy/`, where `native-image` and the
+GraalVM build plugins pick it up automatically. The build generates it from what the runtime is known
+to do rather than from an agent recording:
+
+* what the metaclass registry reflects over while it starts: the classes whose static methods it
+  scans, the types named in the default Groovy method records, which it loads by name, and the
+  abstract ones among them, whose methods it reads to recognise single-abstract-method types. This is
+  the one place JDK types such as `java.util.List` appear, since the runtime does this on every
+  application's behalf;
+* the methods the invokedynamic machinery obtains method handles to, in its own classes and in a few
+  JDK and MOP classes;
+* the declared constructors, methods and fields, and the public methods, of the Groovy-owned types
+  that get a metaclass in an ordinary dynamic program: the Groovy receivers of the default Groovy
+  methods and the runtime's own closure, string, range and script classes;
+* the classes the runtime probes for by naming convention and expects not to find, `<Type>BeanInfo`
+  and `<Type>Customizer` for the JavaBeans Introspector and `groovy.runtime.metaclass.<Type>MetaClass`
+  for the custom metaclass lookup, registered so that the lookups fail with the
+  `ClassNotFoundException` the callers handle rather than a missing-registration error;
+* the resources the runtime reads: the DGM method records, the extension module descriptors and
+  service files.
+
+Each Groovy module that registers extension methods through a descriptor (`groovy-nio`,
+`groovy-xml`, `groovy-dateutil`, `groovy-datetime`, `groovy-sql`, `groovy-swing`, `groovy-jsr223`,
+`groovy-ginq`, `groovy-macro` and `groovy-macro-library`) ships the equivalent for itself under
+`META-INF/native-image/org.apache.groovy/<module>/`: the extension classes the registry loads by
+name and scans, and the types in their signatures. `groovy-xml` adds what `FactorySupport` does for
+every XML user: the JAXP factory lookups, a `ServiceLoader` resource read that an exact-mode image
+must allow even though the JDK ships no such file, and the JDK's default implementations it then
+instantiates by name. `groovy-json` ships only the `ServiceLoader`-loaded string service its parser
+uses. `groovy-concurrent-java`, which repackages the async runtime for use without the groovy jar,
+carries that runtime's entries so a pure-Java image gets them too. Modules that reflect over nothing
+but the application's data, `groovy-http-builder` among them, need none.
+
+Every entry is conditional on the class that performs the access being reached, so an image pays
+only for what it uses; a statically compiled program that never links a dynamic call site carries
+none of the invokedynamic entries. Reflection over the application's classes and the JDK types it
+uses dynamically, Groovy API classes it calls dynamically, `java.lang.reflect.Proxy` instances for
+closures coerced to interfaces, and serialization depend on the application, and the native-image
+agent remains the way to record them. Run the agent with `-Dgroovy.indy.aot.link=true`, which
+makes the JVM link call sites as the image will: the image dispatches through the reflective cold
+tier, which creates metaclasses a JIT-linked call site never touches, and a recording made without
+the property misses them. One thing the agent does not see either way: a closure passed where a
+dynamic call expects a single-abstract-method interface is coerced through a method handle, so the
+proxy entry for that interface (`{"type": {"proxy": ["java.util.function.Function"]}}`) has to be
+added by hand, or the call fails with `MissingMethodException` in the image. The same applies to
+a method pointer such as `Integer::sum` passed as a functional interface, and the JDK's
+`Gatherer` factories take up to four such closures at once.
+
+A recording made with the agent contains Groovy's own needs alongside the application's, and it
+is tempting to drop everything in a Groovy package to leave only the application's share. Do not
+filter by package name: keep an entry unless the metadata the Groovy jars ship covers that type
+and its members. Two kinds of entry are the application's even though their names look like
+Groovy's: third-party libraries that live in `groovy.*` packages, such as an extension module's
+extension class loaded by name, and Groovy API classes the application itself reaches
+reflectively, such as `groovy.servlet.GroovyServlet` constructed from dynamic code. The build's
+native probe (`subprojects/tests-native`) shows the coverage check in `updateProbeMetadata`.
+
+The JDK side of the type hierarchies is the one of the JDK Groovy was built with, plus the sequenced
+collection interfaces JDK 21 added. That only matters under `--exact-reachability-metadata`, where a
+supertype a later JDK introduces above a JDK type would have to be registered by the application.

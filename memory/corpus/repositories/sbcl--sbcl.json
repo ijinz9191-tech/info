@@ -1,0 +1,474 @@
+{
+  "schemaVersion": 1,
+  "repo": "sbcl/sbcl",
+  "commit": "b1c484c4d110bbb39ec9441c910e507f2d08674c",
+  "retrievedAt": "2026-10-01T15:41:04.167938+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/common-lisp"
+  ],
+  "archiveUrl": "https://codeload.github.com/sbcl/sbcl/zip/b1c484c4d110bbb39ec9441c910e507f2d08674c",
+  "selectionSha256": "0d987822b569ae9b7aca5aa147b7ebe802dcf96a4a93bbe22578e7a58774521f",
+  "selection": {
+    "docRoots": [
+      "doc"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "f73d7f84d901825218e36df535017921510599c841770d9dade6afd5af6bbdc1",
+  "archiveBytes": 12366088,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 46,
+    "code": 3,
+    "licenses": 6,
+    "bytes": 1007851
+  },
+  "files": [
+    {
+      "path": "COPYING",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/400d38e5cfee181230373a8b.txt",
+      "kind": "license",
+      "bytes": 5977,
+      "sha256": "7e6aa753502bdfcf764c3817db3c2ede928dddab9a12cf1ccf68fe4a0c0326f4",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/COPYING"
+    },
+    {
+      "path": "benchmarks/hash-table/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/48de6b5e421a2d959af9a030.md",
+      "kind": "official-document",
+      "bytes": 1553,
+      "sha256": "48dbd4ba002296a92dd7bee4b715398e8043bda0ff15e2c6c272db4c8ef17edf",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/benchmarks/hash-table/README.md"
+    },
+    {
+      "path": "contrib/asdf/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/427f7e1f23404fcd66afef80.md",
+      "kind": "official-document",
+      "bytes": 12355,
+      "sha256": "36b6f1eda136e8fb2beb979398fc1c52321961e204a156b86e4130c0f7243d0c",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/asdf/README.md"
+    },
+    {
+      "path": "contrib/sb-capstone/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/d4d274a56d385a21ef6288b3.md",
+      "kind": "official-document",
+      "bytes": 1422,
+      "sha256": "f8d5e3674729ab02b84b158691beb272dc1453e63cee7bcb7c3a15e8e25906cb",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-capstone/README.md"
+    },
+    {
+      "path": "contrib/sb-gmp/LICENSE",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/30d4511d1b1b79a2bcf4b7bf.txt",
+      "kind": "license",
+      "bytes": 1553,
+      "sha256": "b8fdbd23d712966e625264c15e2559c376f87d202282a539e960b7e15e75530f",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-gmp/LICENSE"
+    },
+    {
+      "path": "contrib/sb-gmp/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/db3de318c3db021670a90894.md",
+      "kind": "official-document",
+      "bytes": 1375,
+      "sha256": "605eeffce3bb3008552625a3c7fcdbf8609d6f5d3624c4d7bc205a6bd190cb6f",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-gmp/README.md"
+    },
+    {
+      "path": "contrib/sb-manual/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/64be4d207ad23d840f72299a.md",
+      "kind": "official-document",
+      "bytes": 7274,
+      "sha256": "18b0149a47042281c1e7b52f5bceb2ed7452a970763a380dbea3091aa2879bf1",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-manual/README.md"
+    },
+    {
+      "path": "contrib/sb-md5/COPYING",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/a87419ba435606201cac931b.txt",
+      "kind": "license",
+      "bytes": 7394,
+      "sha256": "0bebefebca3129b28a01bc32ef9eeaa2dc2c34e4e21dc6e988035a358f1b292d",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-md5/COPYING"
+    },
+    {
+      "path": "contrib/sb-mpfr/LICENSE",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/bcaaa465f5b718ee143336a9.txt",
+      "kind": "license",
+      "bytes": 1553,
+      "sha256": "b8fdbd23d712966e625264c15e2559c376f87d202282a539e960b7e15e75530f",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-mpfr/LICENSE"
+    },
+    {
+      "path": "contrib/sb-mpfr/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/abda5386d7623522b45275b9.md",
+      "kind": "official-document",
+      "bytes": 5192,
+      "sha256": "7e0d968da28af0b569673d1606913b2f96a290f46ce1ee023675271e2e829673",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-mpfr/README.md"
+    },
+    {
+      "path": "contrib/sb-perf/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/7404c983e296ebe44dfe9649.md",
+      "kind": "official-document",
+      "bytes": 3613,
+      "sha256": "8230aeda23603ccf1cd1eba86ea43d2a2035a098975d75f9018182e6b4502667",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-perf/README.md"
+    },
+    {
+      "path": "contrib/sb-simd/examples/benchmarks.lisp",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/7727dc4fd598f06477c6e476.lisp",
+      "kind": "upstream-example-code",
+      "bytes": 15596,
+      "sha256": "e4b3f08c4b0780d55ceda58698d26f30fdce12d617e032c0a7a5d6fb84169778",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-simd/examples/benchmarks.lisp"
+    },
+    {
+      "path": "contrib/sb-simd/examples/simd-dot.lisp",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/64195b9ab2fd20853a0fa7d7.lisp",
+      "kind": "upstream-example-code",
+      "bytes": 1311,
+      "sha256": "b440920b0f10ed28875cff547d3eadeec7210feb69d261b30a8b5831c7675944",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-simd/examples/simd-dot.lisp"
+    },
+    {
+      "path": "contrib/sb-simd/examples/simd-sum.lisp",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/df5dc529799db023aa544701.lisp",
+      "kind": "upstream-example-code",
+      "bytes": 771,
+      "sha256": "a9b5196e488a2c50bf0314785a612328f24b1c3b7f8504e88d9b36f70342e215",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-simd/examples/simd-sum.lisp"
+    },
+    {
+      "path": "contrib/sb-sprof/COPYING",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/8e3a7c1708c2eb6cc16444dd.txt",
+      "kind": "license",
+      "bytes": 1443,
+      "sha256": "904593676d4a0528347675142074df02b6092dcad267b26ea1b0d8e19ca99cf5",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-sprof/COPYING"
+    },
+    {
+      "path": "contrib/sb-sprof/design-notes.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/bdc4c5e23eca1a3fd72f0331.txt",
+      "kind": "official-document",
+      "bytes": 2490,
+      "sha256": "719e507f83610b37c1751e360469e25bcd4e32a241e500b503153409685c52bd",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/contrib/sb-sprof/design-notes.txt"
+    },
+    {
+      "path": "doc/GIT-FOR-SBCL-HACKERS.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/e42f939e61a66c7a3507fca9.txt",
+      "kind": "official-document",
+      "bytes": 12880,
+      "sha256": "f9b7522ba0aa9fa461cae33ffd4576f94d479fa46966fffdbe8611917c6a3770",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/GIT-FOR-SBCL-HACKERS.txt"
+    },
+    {
+      "path": "doc/GIT-WORKFLOW.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/c2de66be4dbfeac9d1ee5206.md",
+      "kind": "official-document",
+      "bytes": 3098,
+      "sha256": "d8163cd4425cf2634aad20e3554392e3fcae7ce24566f8f7959be857022c21cf",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/GIT-WORKFLOW.md"
+    },
+    {
+      "path": "doc/PACKAGING-SBCL.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/9c86fde5ba53ae2d4df9a0a2.txt",
+      "kind": "official-document",
+      "bytes": 784,
+      "sha256": "7635a8a4d13a790a18a186694d278571857d37ab1a1c7d476e338344d5afae08",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/PACKAGING-SBCL.txt"
+    },
+    {
+      "path": "doc/cmu-user/aliens.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/a1272239d553e10beaa987e2.tex",
+      "kind": "official-document",
+      "bytes": 42171,
+      "sha256": "a30a26205cf5a412bd489682bd52c7514eea20472f956ea3fbf4b482e35c1f76",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/aliens.tex"
+    },
+    {
+      "path": "doc/cmu-user/cmu-user.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/049d9f2a80a064b647902997.tex",
+      "kind": "official-document",
+      "bytes": 3729,
+      "sha256": "d0d2ab4236027c18783d4fea35abad3d8c3cd2ebf2e237729daf85851ed0ec86",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/cmu-user.tex"
+    },
+    {
+      "path": "doc/cmu-user/compiler-hint.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/098a73a0ca229555552c9cf4.tex",
+      "kind": "official-document",
+      "bytes": 163893,
+      "sha256": "cf75f00b7139b5ffddb46c7ae89e30542b96745f5b808a1a54b634ec781ababa",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/compiler-hint.tex"
+    },
+    {
+      "path": "doc/cmu-user/compiler.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/0d00a2cb5dffbd727408b89e.tex",
+      "kind": "official-document",
+      "bytes": 49658,
+      "sha256": "7105d19c63fbf814eaf3b9b6c31edc751214730a8be024741ecfeb8eeaeb974d",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/compiler.tex"
+    },
+    {
+      "path": "doc/cmu-user/cross-referencing.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/26d67b2552a492268302097c.tex",
+      "kind": "official-document",
+      "bytes": 11300,
+      "sha256": "208f30e123fa51e30bac599f5a7f717555982cd563ff64c0e396ffc4609b76eb",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/cross-referencing.tex"
+    },
+    {
+      "path": "doc/cmu-user/debug-internals.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/6d1884b437782de17047c71d.tex",
+      "kind": "official-document",
+      "bytes": 27787,
+      "sha256": "3e6a761f7f1ba5060d62039c6f8e6465ed1aaa7fe7ea4e0cdd9ff7d7a219afd9",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/debug-internals.tex"
+    },
+    {
+      "path": "doc/cmu-user/debugger.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/0218f79fa4b9b5828db34766.tex",
+      "kind": "official-document",
+      "bytes": 47837,
+      "sha256": "29c9403f581de067a7e274f519d6e4227b3f9739bb27176c79da0ba6ff8b30d1",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/debugger.tex"
+    },
+    {
+      "path": "doc/cmu-user/extensions.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/cbd85be55fc6275d7a22ac5f.tex",
+      "kind": "official-document",
+      "bytes": 120377,
+      "sha256": "3e2cbfe542b86b066a385ec0615e160078739ec4aef0dcda30677fcd026b1e04",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/extensions.tex"
+    },
+    {
+      "path": "doc/cmu-user/introduction.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/706e9d9092c87bf08adf40ef.tex",
+      "kind": "official-document",
+      "bytes": 14382,
+      "sha256": "a8c7e944fdfc0503fe2ab4dca9c2f10c6634120c35cc756ba711cc01ed43dc43",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/introduction.tex"
+    },
+    {
+      "path": "doc/cmu-user/latex2html.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/43f47962823645649c1003cc.tex",
+      "kind": "official-document",
+      "bytes": 1857,
+      "sha256": "fb134353b49ca709d7cc8c2734c7ca553932e359bd72303fc7d8175bdadae072",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/latex2html.tex"
+    },
+    {
+      "path": "doc/cmu-user/macros.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/1067c42d2d15a5f19ae4df7d.tex",
+      "kind": "official-document",
+      "bytes": 8676,
+      "sha256": "7faac1a1e32e6970c9cdf1d75e1100ef6b2bdd215307f6f206a96856e215ae1a",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/macros.tex"
+    },
+    {
+      "path": "doc/cmu-user/package-locks.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/66bbd76c89e4f99e5c6d9f83.tex",
+      "kind": "official-document",
+      "bytes": 4590,
+      "sha256": "140f931e13e97cd96cbc5093d7193ab3b2849ee78d5ca11269de6ccd81352b63",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/package-locks.tex"
+    },
+    {
+      "path": "doc/cmu-user/serve-event.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/45347c65f8636622558481fa.tex",
+      "kind": "official-document",
+      "bytes": 24442,
+      "sha256": "7674312be0c981f1b4c2b29bdcc0b09b215d728af1599f775bc180cdae721b94",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/serve-event.tex"
+    },
+    {
+      "path": "doc/cmu-user/unix.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/d4f03a673f2eee783763b158.tex",
+      "kind": "official-document",
+      "bytes": 21172,
+      "sha256": "3efe166d355cee010ace47500e3476c15f13b83d5092f615cd39cc38166634cc",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/cmu-user/unix.tex"
+    },
+    {
+      "path": "doc/internals-notes/Android-build.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/a86dd4e2fa6b9e11bcfddeb1.txt",
+      "kind": "official-document",
+      "bytes": 3283,
+      "sha256": "1b7baf3e6d7be1b4901d0bb8fd0bb7f6a708db0cdfe54fc2769800f0d0557629",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/Android-build.txt"
+    },
+    {
+      "path": "doc/internals-notes/arena-allocation.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/340365d2aa4fb64b1acf9675.txt",
+      "kind": "official-document",
+      "bytes": 7769,
+      "sha256": "566d22d20c92b840b00da457ea2c3125a775b7200d7e0dab4d992be38f792983",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/arena-allocation.txt"
+    },
+    {
+      "path": "doc/internals-notes/cmsgc.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/39b5ccbdcd99bda7c207265e.txt",
+      "kind": "official-document",
+      "bytes": 9889,
+      "sha256": "1c0720ba298b9c753e251c4fbd1935f9ca0fa949889966d459179574ca2c6192",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/cmsgc.txt"
+    },
+    {
+      "path": "doc/internals-notes/linkage-space.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/264d0c67673e7c9ed1329f8c.txt",
+      "kind": "official-document",
+      "bytes": 2396,
+      "sha256": "730f0ed1bac84920b636947a6261a66a738803bbf194e8f2213543b977184fab",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/linkage-space.txt"
+    },
+    {
+      "path": "doc/internals-notes/memory-arenas.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/5c80fa4001e5a302e2963a9d.txt",
+      "kind": "official-document",
+      "bytes": 4271,
+      "sha256": "eb9874ce9541f559d01216cc240a3506204ee8378aff00a7cece411749eec893",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/memory-arenas.txt"
+    },
+    {
+      "path": "doc/internals-notes/release-checklist.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/29eb40f996e4cfe06c91234b.txt",
+      "kind": "official-document",
+      "bytes": 4273,
+      "sha256": "046f3c6dedda71bb08f39b1deab4b1144f2051ef20b24a3b768902cebda9ba86",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/release-checklist.txt"
+    },
+    {
+      "path": "doc/internals-notes/sset.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/7742d733948bb6d134cbf62b.txt",
+      "kind": "official-document",
+      "bytes": 4018,
+      "sha256": "0ee7ffc852f5d3b1873cc7a92176ec4e40ae03dae2ad5cf43b73c1f16aafb231",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/sset.txt"
+    },
+    {
+      "path": "doc/internals-notes/zero-with-mmap-bug.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/10369a3de6f75e3cc5a5ebe6.txt",
+      "kind": "official-document",
+      "bytes": 2262,
+      "sha256": "5d8055d83b9beb4b55da087357d232502910136e109c4dbe21fba99bcfb1441b",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals-notes/zero-with-mmap-bug.txt"
+    },
+    {
+      "path": "doc/internals/cmu/back.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/f7a064fe941fd2e26248b136.tex",
+      "kind": "official-document",
+      "bytes": 35109,
+      "sha256": "179f8475ef64daed265de47b615e80aa16c33f7f81ce82f1d602ccb9a13712bf",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/back.tex"
+    },
+    {
+      "path": "doc/internals/cmu/compiler-overview.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/78cad90162bf0df2ee770204.tex",
+      "kind": "official-document",
+      "bytes": 26990,
+      "sha256": "1029aa76b42ebfef154a4bd865babdb67d900197d22ca756222ca5af4943c0d0",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/compiler-overview.tex"
+    },
+    {
+      "path": "doc/internals/cmu/compiler.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/6d2ddd79f45a529ab2e9f524.tex",
+      "kind": "official-document",
+      "bytes": 115,
+      "sha256": "518261043c881ca77f81f15b6f303ca6e378aef0ede22a5181a3e7734f9c9ffd",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/compiler.tex"
+    },
+    {
+      "path": "doc/internals/cmu/debugger.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/19e8ad67698863cd4363e1ab.tex",
+      "kind": "official-document",
+      "bytes": 32245,
+      "sha256": "33f7a4de60a4938ad06d3bf4277a627b75eca43659bfd5964606b3ebff76cf9d",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/debugger.tex"
+    },
+    {
+      "path": "doc/internals/cmu/design.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/ee61c2c239dd9c314aea7ace.tex",
+      "kind": "official-document",
+      "bytes": 2706,
+      "sha256": "f35160b36e10f24e7c4b140af134a22a1f7398bbbd44b798f2c53f27662b68bc",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/design.tex"
+    },
+    {
+      "path": "doc/internals/cmu/front.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/ee57e441ca9cb6621f38c94c.tex",
+      "kind": "official-document",
+      "bytes": 47174,
+      "sha256": "ec83d7fd54ee01874e0bc2fc166f9f87e0b24f0ce031eb5b324abab2ae9bf100",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/front.tex"
+    },
+    {
+      "path": "doc/internals/cmu/glossary.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/817ee257cc3758170d624c7d.tex",
+      "kind": "official-document",
+      "bytes": 16381,
+      "sha256": "49e67c70a261a3c57a27880a805f0a1ad5606ac7516bc49086a02fa011cca072",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/glossary.tex"
+    },
+    {
+      "path": "doc/internals/cmu/internal-design.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/a2f16e3c4c392e81ee26cc0f.txt",
+      "kind": "official-document",
+      "bytes": 34165,
+      "sha256": "759a349145d04561f9f927f5c4f1d05ebdb3f64c936c0a93dd9e7535fb6b3807",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/internal-design.txt"
+    },
+    {
+      "path": "doc/internals/cmu/middle.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/10fd398e48bf3d62c6f238a1.tex",
+      "kind": "official-document",
+      "bytes": 33579,
+      "sha256": "c6b3a9c864e778c10598279590f821fb7b49376bc3ad991a74fd817392d79eb7",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/middle.tex"
+    },
+    {
+      "path": "doc/internals/cmu/outline.txt",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/c4f2458e47070ec9cf4a3ec0.txt",
+      "kind": "official-document",
+      "bytes": 3558,
+      "sha256": "282e0cfe7486a86a607cb7d10e053c23773f5515777a5eea09db8041c101e1d1",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/outline.txt"
+    },
+    {
+      "path": "doc/internals/cmu/retargeting.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/4720bf3ae2bf3de40b6082a2.tex",
+      "kind": "official-document",
+      "bytes": 46983,
+      "sha256": "9efd140d17f36c845c6280c352215c417696d373fb0b76348db4bc9b44a9a13b",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/retargeting.tex"
+    },
+    {
+      "path": "doc/internals/cmu/vm.tex",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/22feb88448587a67cb4d564f.tex",
+      "kind": "official-document",
+      "bytes": 57730,
+      "sha256": "8d9a0b85f92c3e69119a3f15e5837abbdbdc3c2dfd0d4b80f69e47b8891a8fd8",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/doc/internals/cmu/vm.tex"
+    },
+    {
+      "path": "tlsf-bsd/LICENSE",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/31741ea6156828af9bc7010a.txt",
+      "kind": "license",
+      "bytes": 1429,
+      "sha256": "3aee524dc1a952996b5b0458e8d00822a9d9c66a288e186f45b2bc6cf8d39d03",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/tlsf-bsd/LICENSE"
+    },
+    {
+      "path": "tlsf-bsd/README.md",
+      "localPath": "raw/sbcl--sbcl/b1c484c4d110/6ca45a25e2d9f591f489eb4f.md",
+      "kind": "official-document",
+      "bytes": 2021,
+      "sha256": "90c90d25e8caf92b695c8e9fc4c03310d4954de9f6e9d3bc565b6c99348bd121",
+      "sourceUrl": "https://github.com/sbcl/sbcl/blob/b1c484c4d110bbb39ec9441c910e507f2d08674c/tlsf-bsd/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

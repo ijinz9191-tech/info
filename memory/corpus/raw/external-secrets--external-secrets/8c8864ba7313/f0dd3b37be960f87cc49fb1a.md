@@ -1,0 +1,353 @@
+# CyberArk Secrets Manager Provider
+
+This section describes how to set up the CyberArk Secrets Manager provider for External Secrets Operator (ESO). For a working example, see the [Accelerator-K8s-External-Secrets repo](https://github.com/conjurdemos/Accelerator-K8s-External-Secrets).
+
+## Prerequisites
+
+Before installing the Secrets Manager provider, you need:
+
+* A running instance of [Conjur OSS](https://github.com/cyberark/conjur) or CyberArk Secrets Manager, with:
+  * An accessible Secrets Manager endpoint (for example: `https://myapi.example.com`).
+  * Your configured Secrets Manager authentication info (such as `hostid`, `apikey` or service ID of JWT or Cert authenticator). For more information on configuring Secrets Manager, see [Policy statement reference](https://docs.cyberark.com/conjur-open-source/Latest/en/Content/Operations/Policy/policy-statement-ref.htm).
+  * Support for your authentication method (`apikey` is supported by default, `jwt` and `cert` require additional configuration).
+  * **Optional**: Secrets Manager server certificate (see [below](#conjur-server-certificate)).
+* A Kubernetes cluster with ESO installed.
+
+## Secrets Manager server certificate
+
+If you set up your Secrets Manager server with a self-signed certificate, we recommend that you populate the `caBundle` field with the Secrets Manager self-signed certificate in the secret-store definition. The certificate CA must be referenced in the secret-store definition using either `caBundle` or `caProvider`:
+
+```yaml
+{% include 'conjur-ca-bundle.yaml' %}
+```
+
+## External secret store
+
+To synchronise secrets with Secrets Manager, you must configure an external secret store with one of the following three methods to authenticate to the Secrets Manager API:
+
+* [`apikey`](#option-1-external-secret-store-with-apikey-authentication): uses a Secrets Manager `hostid` and `apikey` to authenticate with Secrets Manager
+* [`jwt`](#option-2-external-secret-store-with-jwt-authentication): uses a JWT to authenticate with Secrets Manager
+* [`cert`](#option-3-external-secret-store-with-cert-authentication): uses a client certificate and private key to authenticate with Secrets Manager
+
+### Option 1: External secret store with apiKey authentication
+
+This method uses a Secrets Manager `hostid` and `apikey` to authenticate with Secrets Manager. It is the simplest method to set up and use because your Secrets Manager instance requires no additional configuration.
+
+#### Step 1: Define an external secret store
+
+!!! Tip
+    Save as the file as: `conjur-secret-store.yaml`
+
+```yaml
+{% include 'conjur-secret-store-apikey.yaml' %}
+```
+
+#### Step 2: Create Kubernetes secrets for Secrets Manager credentials
+
+To connect to the Secrets Manager server, the **ESO Secrets Manager provider** needs to retrieve the `apikey` credentials from K8s secrets.
+
+!!! Note
+    For more information about how to create K8s secrets, see [Creating a secret](https://kubernetes.io/docs/concepts/configuration/secret/#creating-a-secret).
+
+Here is an example of how to create K8s secrets using the `kubectl` command:
+
+```shell
+# This is all one line
+kubectl -n external-secrets create secret generic conjur-creds --from-literal=hostid=MYCONJURHOSTID --from-literal=apikey=MYAPIKEY
+
+# Example:
+# kubectl -n external-secrets create secret generic conjur-creds --from-literal=hostid=host/data/app1/host001 --from-literal=apikey=321blahblah
+```
+
+!!! Note
+    `conjur-creds` is the `name` defined in the `userRef` and `apikeyRef` fields of the `conjur-secret-store.yml` file.
+
+
+#### Step 3: Create the external secrets store
+
+!!! Important
+    Unless you are using a [ClusterSecretStore](../api/clustersecretstore.md), credentials must reside in the same namespace as the SecretStore.
+
+```shell
+# WARNING: creates the store in the "external-secrets" namespace, update the value as needed
+#
+kubectl apply -n external-secrets -f conjur-secret-store.yaml
+
+# WARNING: running the delete command will delete the secret store configuration
+#
+# If there is a need to delete the external secretstore
+# kubectl delete secretstore -n external-secrets conjur
+```
+
+### Option 2: External secret store with JWT authentication
+
+This method uses JWT tokens to authenticate with Secrets Manager. You can use the following methods to retrieve a JWT token for authentication:
+
+* JWT token from a referenced Kubernetes service account
+* JWT token stored in a Kubernetes secret
+
+#### Step 1: Define an external secret store
+
+When you use JWT authentication, the following must be specified in the `SecretStore`:
+
+* `account` -  The name of the Secrets Manager account
+* `serviceId` - The ID of the JWT Authenticator `WebService` configured in Secrets Manager that is used to authenticate the JWT token
+
+You can retrieve the JWT token from either a referenced service account or a Kubernetes secret.
+
+For example, to retrieve a JWT token from a referenced Kubernetes service account, the following secret store definition can be used:
+
+```yaml
+{% include 'conjur-secret-store-jwt-service-account-ref.yaml' %}
+```
+
+!!! Important
+    This method is only supported in Kubernetes 1.22 and above as it uses the [TokenRequest API](https://kubernetes.io/docs/reference/kubernetes-api/authentication-resources/token-request-v1/) to get the JWT token from the referenced service account. Audiences can be defined in the [Secrets Manager JWT authenticator](https://docs.conjur.org/Latest/en/Content/Integrations/k8s-ocp/k8s-jwt-authn.htm).
+
+Alternatively, here is an example where a secret containing a valid JWT token is referenced:
+
+```yaml
+{% include 'conjur-secret-store-jwt-secret-ref.yaml' %}
+```
+
+The JWT token must identify your Secrets Manager host, be compatible with your configured Secrets Manager JWT authenticator, and meet all the [Secrets Manager JWT guidelines](https://docs.conjur.org/Latest/en/Content/Operations/Services/cjr-authn-jwt-guidelines.htm#Best).
+
+You can use an external JWT issuer or the Kubernetes API server to create the token. For example, a Kubernetes service account token can be created with this command:
+
+```shell
+kubectl create token my-service-account --audience='https://conjur.company.com' --duration=3600s
+```
+
+Save the secret store file as `conjur-secret-store.yaml`.
+
+#### Step 2: Create the external secrets store
+
+```shell
+# WARNING: creates the store in the "external-secrets" namespace, update the value as needed
+#
+kubectl apply -n external-secrets -f conjur-secret-store.yaml
+
+# WARNING: running the delete command will delete the secret store configuration
+#
+# If there is a need to delete the external secretstore
+# kubectl delete secretstore -n external-secrets conjur
+```
+
+### Option 3: External secret store with cert authentication
+
+This method uses a client X.509 certificate and private key to authenticate with Secrets Manager via the `authn-cert` authenticator. The certificate must be issued by a CA that is trusted by the Secrets Manager `authn-cert` service. Conjur validates the presented certificate using constraints configured in the authenticator policy (such as `cn`, `san-uri`, `san-dns`, `san-ip` variables), and optionally per-host annotations that scope constraints to individual workloads.
+
+For more information on configuring the certificate authenticator, see the [Secrets Manager Certificate authenticator documentation](https://docs.cyberark.com/conjur-open-source/latest/en/content/operations/authn/authn-cert/authn-cert.htm?TocPath=Integrations%7CCertificate%20authenticator%7C_____0).
+
+#### Step 1: Define an external secret store
+
+When you use cert authentication, the following must be specified in the `SecretStore`:
+
+* `account` - The name of the Secrets Manager account
+* `serviceID` - The ID of the `authn-cert` `WebService` configured in Secrets Manager that is used to authenticate the client certificate
+* `clientCertRef` - Reference to a Kubernetes secret containing the PEM-encoded client certificate
+* `clientKeyRef` - Reference to a Kubernetes secret containing the PEM-encoded client private key
+* `hostId` (optional) - The Secrets Manager host identity to authenticate as. Required in the default `request` mode. Leave empty when using `spiffe` mode, where the host identity is derived from the SPIFFE SAN URI (`spiffe://<trust-domain>/<workload-id>`) in the certificate.
+
+```yaml
+{% include 'conjur-secret-store-cert.yaml' %}
+```
+
+#### Step 2: Create Kubernetes secrets for the client certificate and key
+
+To connect to the Secrets Manager server using certificate authentication, the **ESO Secrets Manager provider** needs to retrieve the client certificate and private key from K8s secrets.
+
+You can use either a TLS-typed secret or a generic secret. The following example uses a generic secret:
+
+```shell
+# This is all one line
+kubectl -n external-secrets create secret generic conjur-client-cert \
+  --from-file=tls.crt=/path/to/client.crt \
+  --from-file=tls.key=/path/to/client.key
+```
+
+!!! Note
+    `conjur-client-cert` is the `name` defined in the `clientCertRef` and `clientKeyRef` fields of the `conjur-secret-store.yaml` file. Both the certificate and the key must be PEM-encoded.
+
+#### Step 3: Create the external secrets store
+
+!!! Important
+    Unless you are using a [ClusterSecretStore](../api/clustersecretstore.md), credentials must reside in the same namespace as the SecretStore.
+
+```shell
+# WARNING: creates the store in the "external-secrets" namespace, update the value as needed
+#
+kubectl apply -n external-secrets -f conjur-secret-store.yaml
+
+# WARNING: running the delete command will delete the secret store configuration
+#
+# If there is a need to delete the external secretstore
+# kubectl delete secretstore -n external-secrets conjur
+```
+
+### Option 4: External secret store with IAM authentication
+
+This method uses the AWS IAM `authn-iam` authenticator to authenticate with Secrets Manager. The ESO pod presents a signed AWS `GetCallerIdentity` request; Conjur verifies it against the IAM role mapped to the Conjur host. No long-lived credentials are stored — ambient credentials are used automatically (IRSA, EC2 instance profile, ECS task role, environment variables, etc.).
+
+When you use IAM authentication, the following must be specified in the `SecretStore`:
+
+* `account` — The name of the Secrets Manager account.
+* `serviceID` — The ID of the IAM Authenticator `WebService` configured in Secrets Manager.
+* `hostId` — The Conjur host mapped to the AWS IAM role (e.g. `data/myapp/123456789012/MyRole`).
+
+Optionally, you may reference a Kubernetes Secret that contains explicit AWS credentials via the `secretRef` field:
+
+* `accessKeyIDSecretRef` — Reference to a Secret key containing the AWS Access Key ID.
+* `secretAccessKeySecretRef` — Reference to a Secret key containing the AWS Secret Access Key.
+* `sessionTokenSecretRef` (optional) — Reference to a Secret key containing the AWS Session Token. Required only when using temporary credentials (for example, credentials obtained via `AssumeRole` or `AssumeRoleWithWebIdentity`).
+
+If `secretRef` is omitted, the default AWS SDK credential chain is used.
+
+The Secrets Manager `url` must use `https://` when using IAM authentication, since the AWS IAM authenticator sends
+a signed request as a bearer credential. If you must connect over plain HTTP (for example, a service mesh sidecar
+that terminates TLS locally), set `insecure: true` to explicitly opt out of this check.
+
+#### Step 1: Define an external secret store
+
+```yaml
+{% include 'conjur-secret-store-iam.yaml' %}
+```
+
+#### Step 2: Create the external secrets store
+
+```shell
+kubectl apply -n external-secrets -f conjur-secret-store.yaml
+```
+
+### Option 5: External secret store with Azure authentication
+
+This method uses the Azure `authn-azure` authenticator to authenticate with Secrets Manager. The ESO pod presents an Azure JWT token; Conjur verifies it against the managed identity mapped to the Conjur host.
+
+Two sub-modes are available:
+
+* **Ambient IMDS** (recommended on AKS / Azure VM): no `serviceAccountRef` is set. `conjur-api-go` fetches the Azure JWT from the Azure Instance Metadata Service (IMDS) automatically. Use this when the pod runs on Azure infrastructure with a managed identity attached.
+* **ServiceAccount token** (`serviceAccountRef`): ESO requests a Kubernetes ServiceAccount token via the TokenRequest API and forwards it as the Azure JWT. Use this for local testing or when running outside Azure.
+
+For **user-assigned** managed identities you must also set `clientId` to the client ID of the managed identity. For **system-assigned** identities, omit `clientId`.
+
+#### Step 1: Define an external secret store (ambient IMDS)
+
+```yaml
+{% include 'conjur-secret-store-azure-ambient.yaml' %}
+```
+
+#### Step 1 (alternative): Define an external secret store (ServiceAccount token)
+
+```yaml
+{% include 'conjur-secret-store-azure-sa.yaml' %}
+```
+
+#### Step 2: Create the external secrets store
+
+```shell
+kubectl apply -n external-secrets -f conjur-secret-store.yaml
+```
+
+### Option 6: External secret store with GCP authentication
+
+This method uses the GCP `authn-gcp` authenticator to authenticate with Secrets Manager. The ESO pod presents a GCP identity token; Conjur verifies it against the service account mapped to the Conjur host.
+
+Two sub-modes are supported:
+
+* **Ambient GCP Metadata Service** (recommended on GKE with Workload Identity): no `secretRef` is set. `conjur-api-go` fetches the GCP identity token from the GCP Metadata Service automatically. Use this when the pod runs on GKE with Workload Identity or on a GCE instance.
+* **Kubernetes Secret** (`secretRef`): a pre-obtained GCP identity token is read from a Kubernetes Secret. Use this for local testing or when running outside GCP.
+
+The following must be specified in the `SecretStore`:
+
+* `account` — The Conjur organization account name.
+* `hostId` — The Conjur host mapped to the GCP service account (e.g. `data/myapp/myhost`).
+
+Optionally, you may set `serviceID` to the GCP Authenticator `WebService` ID configured in Conjur policy. This field is reserved for future use; Conjur's authn-gcp authenticator does not include the service ID in the authentication URL.
+
+#### Step 1: Define an external secret store (ambient GCP Metadata Service)
+
+```yaml
+{% include 'conjur-secret-store-gcp-ambient.yaml' %}
+```
+
+#### Step 1 (alternative): Define an external secret store (explicit token from Kubernetes Secret)
+
+```yaml
+{% include 'conjur-secret-store-gcp-secretref.yaml' %}
+```
+
+#### Step 2: Create the external secrets store
+
+```shell
+kubectl apply -n external-secrets -f conjur-secret-store.yaml
+```
+
+## Define an external secret
+
+After you have configured the Secrets Manager provider secret store, you can fetch secrets from Secrets Manager.
+
+Here is an example of how to fetch a single secret from Secrets Manager:
+
+```yaml
+{% include 'conjur-external-secret.yaml' %}
+```
+
+Save the external secret file as `conjur-external-secret.yaml`.
+
+### Find by Name or Find by Tag
+
+The Secrets Manager provider also supports the Find by Name and Find by Tag ESO features. This means that
+you can use a regular expression or tags to dynamically fetch multiple secrets from Secrets Manager.
+
+These two filters are mutually exclusive on a single `find`: if both `name` and `tags` are set, only `name`
+is used and `tags` are ignored (see [issue #6554](https://github.com/external-secrets/external-secrets/issues/6554)).
+
+To find secrets by name:
+
+```yaml
+{% include 'conjur-external-secret-find.yaml' %}
+```
+
+To find secrets by tag, use `tags` instead of `name`:
+
+```yaml
+  dataFrom:
+    - find:
+        tags:
+          environment: "prod"
+          application: "app1"
+```
+
+If you use these features, we strongly recommend that you limit the permissions of the Secrets Manager host
+to only the secrets that it needs to access. This is more secure and it reduces the load on
+both the Secrets Manager server and ESO.
+
+## Create the external secret
+
+```shell
+# WARNING: creates the external-secret in the "external-secrets" namespace, update the value as needed
+#
+kubectl apply -n external-secrets -f conjur-external-secret.yaml
+
+# WARNING: running the delete command will delete the external-secrets configuration
+#
+# If there is a need to delete the external secret
+# kubectl delete externalsecret -n external-secrets conjur
+```
+
+## Get the K8s secret
+
+* Log in to your Secrets Manager server and verify that your secret exists
+* Review the value of your Kubernetes secret to verify that it contains the same value as the Secrets Manager server
+
+```shell
+# WARNING: this command will reveal the stored secret in plain text
+#
+# Assuming the secret name is "secret00", this will show the value
+kubectl get secret -n external-secrets conjur -o jsonpath="{.data.secret00}"  | base64 --decode && echo
+```
+
+## See also
+
+* [Accelerator-K8s-External-Secrets repo](https://github.com/conjurdemos/Accelerator-K8s-External-Secrets)
+* [Configure Secrets Manager JWT authentication](https://docs.cyberark.com/conjur-open-source/Latest/en/Content/Operations/Services/cjr-authn-jwt-guidelines.htm)

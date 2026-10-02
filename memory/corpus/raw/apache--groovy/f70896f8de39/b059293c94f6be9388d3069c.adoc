@@ -1,0 +1,403 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+
+[[async-channels]]
+== Channels
+
+Channels provide Go-style inter-task communication. A producer sends values
+into a channel; a consumer receives them as they arrive. The channel handles
+synchronization and optional buffering — no shared mutable state needed:
+
+[source,groovy]
+----
+include::../test/AsyncAwaitSpecTest.groovy[tags=channel,indent=0]
+----
+
+Channels support unbuffered (rendezvous, `create()`) and buffered (`create(n)`)
+modes. Sending blocks when the buffer is full; receiving blocks when empty.
+With virtual threads, this blocking is essentially free.
+
+Since channels implement `Iterable`, they also work with regular `for` loops
+and Groovy collection methods.
+
+[[async-channel-composition]]
+== Channel Composition
+
+`AsyncChannel` supports composable pipeline operations. Each
+composition method returns a new channel connected to the source
+by a background task.
+
+=== filter
+
+[source,groovy]
+----
+def source = AsyncChannel.create(10)
+def evens = source.filter { it % 2 == 0 }
+
+async {
+    (1..10).each { source.send(it) }
+    source.close()
+}
+
+for await (val in evens) { println val }  // 2, 4, 6, 8, 10
+----
+
+=== map
+
+[source,groovy]
+----
+def doubled = source.map { it * 2 }
+----
+
+=== Chaining
+
+Operations compose naturally:
+
+[source,groovy]
+----
+def pipeline = source
+    .filter { it > 50 }
+    .map { it * 2 }
+
+for await (val in pipeline) { process(val) }
+----
+
+=== merge
+
+Combines two channels into one, interleaving values as they arrive:
+
+[source,groovy]
+----
+def merged = channelA.merge(channelB)
+for await (event in merged) { handle(event) }
+----
+
+=== split
+
+Partitions a channel into two based on a predicate:
+
+[source,groovy]
+----
+def (highPriority, normal) = orders.split { it.priority > 5 }
+----
+
+=== tap
+
+Sends a copy of each value to a monitoring channel while passing
+through unchanged:
+
+[source,groovy]
+----
+def monitor = AsyncChannel.create(100)
+def output = source.tap(monitor)
+// output gets all values; monitor gets copies for logging
+----
+
+[[async-channel-select]]
+== Channel Select
+
+`ChannelSelect` waits for the first available value from multiple
+channels — like Go's `select` statement:
+
+[source,groovy]
+----
+import groovy.concurrent.ChannelSelect
+
+def prices = AsyncChannel.create(10)
+def alerts = AsyncChannel.create(10)
+
+def sel = ChannelSelect.from(prices, alerts)
+def result = await sel.select()
+println "Channel ${result.index}: ${result.value}"
+----
+
+A select takes exactly one value from exactly one channel; the other
+channels are left untouched. When several channels already have a value
+waiting, the one listed first is taken. If every channel is closed and
+drained, `select()` fails with `ChannelClosedException`.
+
+That priority by list order means a channel that always has a value
+waiting starves the channels listed after it. `fair()` returns a select
+that rotates instead — each call starts at the channel after the one
+that last won, like JCSP's `fairSelect` — so keep the instance across
+calls:
+
+[source,groovy]
+----
+def sel = ChannelSelect.from(requests, control).fair()
+while (true) {
+    def result = await sel.select()
+    // control is served even while requests never runs dry
+}
+----
+
+`random()` chooses uniformly at random among the ready channels instead,
+as Go's `select` does. It keeps no state between calls, so it is equally
+fair from any number of threads, but it gives no bound on how long a
+ready channel may be passed over; `fair()` guarantees every ready channel
+is taken within _n_ calls.
+
+=== Mixed offers
+
+A select may also _offer to send_ — the mixed choice of the CSP
+literature: "I will send my opener, or take my peer's if it sends
+first". Offers are built with the static factories `send` and `receive`
+and combined with `offers`, mirroring the send cases of Go's `select`:
+
+[source,groovy]
+----
+import static groovy.concurrent.ChannelSelect.*
+
+def result = await offers(send(ping, 1), receive(pong)).select()
+if (result.send) {
+    // my opener committed: continue the ping branch
+} else {
+    // my peer opened first: result.value is the pong opener
+}
+----
+
+Exactly one offer commits; a committed send behaves exactly like
+`ping.send(1)`, while a retired one leaves no trace — no buffered
+residue, no waiting sender — just as a losing receive leaves its channel
+untouched. `fair()` and `random()` order the scan over offers exactly as
+they do over channels, and send offers require channels created by
+`AsyncChannel.create`.
+
+A send offer commits as soon as its channel can accept the value: when a
+receiver is waiting, or when buffer space holds it. Two peers racing a
+mixed choice against each other therefore agree on a single opener only
+over rendezvous (capacity-0) channels, where a send cannot complete
+unilaterally; over buffered channels with space, each peer's send offer
+commits at once under its own select and the peers proceed down
+different branches of the same conversation.
+
+=== Preconditions
+
+Each branch may also carry a _precondition_ — the guarded choice of CSP.
+`when` writes the guard onto the offer itself, as occam, Ada, Erlang and
+Kotlin do:
+
+[source,groovy]
+----
+def sel = offers(receive(input).when { held.size() < capacity },   // <1>
+                 receive(request).when { !held.isEmpty() })        // <2>
+while (true) {
+    def result = await sel.select()
+    if (result.index == 0) {
+        held.addLast(result.value)
+    } else {
+        await reply.send(held.removeFirst())
+    }
+}
+----
+<1> take input only while there is room
+<2> answer a request only while there is something to hand over
+
+A guarded-off offer is not registered on its channel, so nothing is taken
+from it and nothing is sent to it, but it keeps its position, so
+`result.index` denotes the same branch either way. Dropping an offer from
+the argument list instead would renumber every branch after it, silently
+changing what an index denotes.
+
+The guard is a closure rather than a boolean because it is consulted
+afresh on every `select` call — that is what lets one select be built
+once and reused as the state it guards on changes. `when` returns a
+guarded copy, leaving the original offer alone, and guards conjoin: over
+a second `when`, both must hold.
+
+`select` also accepts the same preconditions positionally, one flag per
+offer, which suits a mask computed as a whole:
+
+[source,groovy]
+----
+def result = await sel.select(held.size() < capacity, !held.isEmpty())
+----
+
+A flag is conjoined with whatever guard its offer carries — both must
+hold for the offer to be registered — and passing a number of flags other
+than the number of offers is an `IllegalArgumentException`. Enabling no
+branch at all is a deadlock rather than a wait, so `select` fails with
+`IllegalStateException`.
+
+A branch can also be recognised by identity instead of by position:
+`result.channel` is the channel the winning offer transferred over.
+
+=== Timeouts
+
+A deadline can be a branch of the select, as it is in Go, Rust, Clojure
+and Kotlin, instead of an exception thrown around the whole select by
+`orTimeout`. There are two forms, one for a timeout that re-arms on every
+round and one for a fixed deadline.
+
+The _timer offer_ `after` arms a fresh timer each time `select` is called
+and commits, with the `Instant` it fired, if no channel offer could
+commit first. It is the "wait for work, but not forever" branch of a
+select that is built once and reused, and because the timer lives inside
+the call, the held instance keeps its `fair()` rotation from round to
+round:
+
+[source,groovy]
+----
+import static groovy.concurrent.ChannelSelect.*
+
+def sel = offers(receive(work), after(100)).fair()
+while (true) {
+    def result = await sel.select()
+    if (result.timeout) {
+        // nothing arrived within 100 ms of this call: result.value is the Instant
+    } else {
+        handle(result.value)
+    }
+}
+----
+
+A timer offer that loses its round is cancelled with the other losing
+branches, so it leaves nothing armed. It reports `result.timeout` rather
+than a channel: `result.channel` is `null` for a timeout, and `result.index`
+still names the branch. So a select that carries a timer offer and
+dispatches on `result.channel` must test `result.timeout` first, as the
+loop above does. Like any offer it can be guarded with `when`, and
+a guarded-off timer offer arms nothing. Several timer offers give
+per-branch deadlines.
+
+A timer offer with a positive delay is never ready at the moment the
+select registers its offers, so the choice policy considers only the
+channel offers that are ready at once; the timer commits only when none
+was. A delay that is not positive has already elapsed, so that offer is
+ready at registration and the policy treats it like any other ready
+branch: priority takes whichever is listed first, and `fair()` rotates
+over it. Listed last, `after(0)` is the `default` clause of Go's
+`select` — take a transfer if one can complete at once, otherwise
+proceed without waiting:
+
+[source,groovy]
+----
+def result = await offers(receive(work), after(0)).select()
+if (result.timeout) {
+    // nothing was ready; do something else and come back
+}
+----
+
+The _timer channel_ `AsyncChannel.after` is the fixed-deadline form: a
+capacity-1 channel that delivers one value, the `Instant` it fired, once
+the given delay has elapsed from its creation, and then closes, as Go's
+`time.After` does. Received from within a select, it is a deadline shared
+by every round that selects on it:
+
+[source,groovy]
+----
+def deadline = AsyncChannel.after(5000)
+def sel = ChannelSelect.from(work, deadline)
+while (true) {
+    def result = await sel.select()
+    if (result.index == 1) break    // five seconds since the deadline was set
+    handle(result.value)
+}
+----
+
+Because it is an ordinary channel, a timer channel composes with
+everything a channel does: it can be guarded with `when`, and once fired
+`fair()` and `random()` treat it like any other ready channel. A timer
+channel that loses a select keeps its value: it fires all the same and
+holds the instant until received. Once that value has been taken, further
+receives fail with `ChannelClosedException` rather than waiting forever,
+and `isClosed()` reports that the timer has fired. Closing a timer channel
+before it fires cancels it.
+
+Both forms accept a `java.time.Duration` in place of milliseconds, and in
+both a delay that is not positive has already elapsed: the timer channel
+is created already holding its instant, and the timer offer is ready at
+registration. That suits a deadline computed from an absolute time that
+has already passed.
+
+[[async-broadcast-channel]]
+== BroadcastChannel
+
+A `BroadcastChannel` delivers every value to all subscribers
+(one-to-many), unlike `AsyncChannel` which is point-to-point:
+
+[source,groovy]
+----
+import groovy.concurrent.BroadcastChannel
+
+def broadcast = BroadcastChannel.create()
+def sub1 = broadcast.subscribe()
+def sub2 = broadcast.subscribe()
+
+async {
+    broadcast.send('hello')
+    broadcast.send('world')
+    broadcast.close()
+}
+
+// Both subscribers receive both messages
+for await (msg in sub1) { println "Sub1: $msg" }
+for await (msg in sub2) { println "Sub2: $msg" }
+----
+
+Late subscribers only receive messages sent after they subscribe.
+
+=== Flow.Publisher interop
+
+A `BroadcastChannel` can also be exposed as a `java.util.concurrent.Flow.Publisher`
+via `asPublisher()`. Each call to `subscribe(Flow.Subscriber)` on the returned
+publisher creates a new per-subscriber `AsyncChannel` under the hood and respects
+standard Reactive Streams demand (`request(n)`):
+
+[source,groovy]
+----
+def broadcast = BroadcastChannel.create()
+def publisher = broadcast.asPublisher()
+
+// Compose with any Reactive Streams operator, or consume with `for await`:
+for await (msg in publisher) {
+    println "Got: $msg"
+}
+----
+
+[WARNING]
+====
+*Backpressure policy.* The publisher bridge uses _lossless, sender-gated_
+backpressure: `send()` awaits delivery to every live subscriber, and each
+per-subscriber channel has a bounded buffer (default 16). A subscriber that
+never calls `request(n)` — or requests slowly — will fill its buffer, after
+which `broadcast.send(...)` stalls for *all* subscribers until that
+subscriber catches up. In other words, the slowest subscriber controls
+producer throughput.
+
+This matches the point-to-point semantics of `subscribe()` (values are
+neither dropped nor reordered). If you need decoupled per-subscriber
+policies (drop-newest, drop-oldest, latest-only, or unbounded buffering),
+wrap the publisher with a Reactive Streams operator of your choice, or use
+a subscriber that drains promptly with `request(Long.MAX_VALUE)`.
+====
+
+[NOTE]
+====
+*Terminal signals.* Per Reactive Streams §1.7, terminal completion is
+not gated by demand: once the underlying `BroadcastChannel` is closed
+and the per-subscriber buffer is drained, the subscriber receives
+`onComplete` even if it has no outstanding `request(n)`. Likewise,
+`onError` for a spec-violating `request(n <= 0)` (§3.9) is signalled
+through the same single-threaded delivery path as `onNext` /
+`onComplete`, preserving §1.3 signal serialization; subscribers do
+not see those signals racing on the caller's thread.
+====

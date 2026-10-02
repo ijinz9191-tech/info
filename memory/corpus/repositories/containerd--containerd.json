@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "repo": "containerd/containerd",
+  "commit": "df742f8d7ee7f57ddba3c475497c032fe9486391",
+  "retrievedAt": "2026-10-01T15:16:13.018591+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Runtime/Container Runtime"
+  ],
+  "archiveUrl": "https://codeload.github.com/containerd/containerd/zip/df742f8d7ee7f57ddba3c475497c032fe9486391",
+  "archiveSha256": "20ba015edafea3786c5c68392ceceaba3e455263aa3d27ed9840e42a8be9f0aa",
+  "archiveBytes": 17284839,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 79,
+    "code": 5,
+    "licenses": 2,
+    "bytes": 685070
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 8036,
+      "sha256": "ce2150132ed56a0b656c85e03d4a8e87e86c85d003e3a2fdd3f4a32503364956",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/ADOPTERS.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 4513,
+      "sha256": "98f9b9c51c5b472d6de9dd2605a699aa7334e585ce81ca83e0e9a8cabab608af",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/AGENTS.md"
+    },
+    {
+      "path": "BUILDING.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f1355fd54329147c830843ab.md",
+      "kind": "official-document",
+      "bytes": 13723,
+      "sha256": "6742f0d5f6689d0dba4719b41ebf48e3f7aa45bcc2ec8681912ccba98f712904",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/BUILDING.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/CLAUDE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4752,
+      "sha256": "0678eb2e96d2ee6bb128ff0515ff49894bb48cfab256348d021aa7a7c56fe8e3",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 10765,
+      "sha256": "4bbe3b885e8cd1907ab4cf9a41e862e74e24b5422297a4f2fe524e6a30ada2b4",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 519,
+      "sha256": "03f0b4bcaecfdb491ef5a7d320e2c2adf886c732d34e3fff87d52dbaec64d8c3",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 11569,
+      "sha256": "2c02476d86fb7be05c12d6e089dcd1ce204e306b9067b84b9259c30b5e413f07",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/README.md"
+    },
+    {
+      "path": "RELEASES.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/4a00447b47c36ebd3ded7732.md",
+      "kind": "official-document",
+      "bytes": 45295,
+      "sha256": "6d21664b7f9ff6515b8fa6ebe13ee19864c85b65e1ef60853c3461c3af02ac6b",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/RELEASES.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 1349,
+      "sha256": "8f95f51f47413fc3066bbe93e2268e479d1282138a9862f4b247cc680a344bba",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/ROADMAP.md"
+    },
+    {
+      "path": "SCOPE.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/232847d7bce0ee80595653fc.md",
+      "kind": "official-document",
+      "bytes": 4621,
+      "sha256": "1c82be8e677b4ffc8af629e0c467905517eb0819c1d5ac71249904c9170a7183",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/SCOPE.md"
+    },
+    {
+      "path": "code-of-conduct.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f1a69a41a835b5265e1c58e1.md",
+      "kind": "official-document",
+      "bytes": 153,
+      "sha256": "a09209f5a7536035376ffa2cbaa48ebbedf22acefef286ee6c996e91e42a52af",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/code-of-conduct.md"
+    },
+    {
+      "path": "contrib/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/549baf4b2300e19b6400b465.md",
+      "kind": "official-document",
+      "bytes": 557,
+      "sha256": "e13ae136b8caff7212160ce89e7d506ececc01046d4228f3a61b6d4020a26a2e",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/contrib/README.md"
+    },
+    {
+      "path": "contrib/ansible/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/2d4536dcf725f9c2a01d83b6.md",
+      "kind": "official-document",
+      "bytes": 6694,
+      "sha256": "6562c0f0e858910334c3ad5494f29cd6947c655257bcbf02053127a9ed7213e7",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/contrib/ansible/README.md"
+    },
+    {
+      "path": "core/runtime/v2/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/dc5d002cabe2a56e1f32ca8f.md",
+      "kind": "official-document",
+      "bytes": 27,
+      "sha256": "a811093f9c14091bc631a70abffb53dd7bd81acca1a6f795bf5cff8211b66257",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/README.md"
+    },
+    {
+      "path": "core/runtime/v2/example/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/8fa60e207d115fb81c43c4ee.md",
+      "kind": "official-document",
+      "bytes": 448,
+      "sha256": "44cdff8b01c349f4c0ab77cd37c3c6072edbff06fd8068fbf198c106e3347e36",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/README.md"
+    },
+    {
+      "path": "core/runtime/v2/example/cmd/main.go",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/dd726f5ff1601187aa96f33f.go",
+      "kind": "upstream-example-code",
+      "bytes": 875,
+      "sha256": "d992587819d851692c61fbb36cdde1ef77fda7c34e61daba9f4997579fe908e2",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/cmd/main.go"
+    },
+    {
+      "path": "core/runtime/v2/example/example.go",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/de29424067c76475165342ee.go",
+      "kind": "upstream-example-code",
+      "bytes": 6398,
+      "sha256": "88c98c897d2bf3bbcd63fcd6634d46ecfe8104f359fc60c51ffa446809ed295e",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/example.go"
+    },
+    {
+      "path": "core/runtime/v2/example/sandbox/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/3080423c8b32aab101ad45e2.md",
+      "kind": "official-document",
+      "bytes": 1449,
+      "sha256": "b01a1887a51107fdaa4623370b65111b05566b11229e0da8d84cd02ccece078a",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/sandbox/README.md"
+    },
+    {
+      "path": "core/runtime/v2/example/sandbox/cmd/main.go",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/3c2c23c7d168524450bb4fe7.go",
+      "kind": "upstream-example-code",
+      "bytes": 883,
+      "sha256": "8d4081fa03ae214be473c07cb81cf22468a9a1b2e9edf411ebda0a1382cebdd3",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/sandbox/cmd/main.go"
+    },
+    {
+      "path": "core/runtime/v2/example/sandbox/example.go",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/d17ef10a31e85696fd6fca1b.go",
+      "kind": "upstream-example-code",
+      "bytes": 10566,
+      "sha256": "9caeb14eb1be087bcfcd64584473ad234170a8ed8a8ec0b7cd4fe87b295909fb",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/sandbox/example.go"
+    },
+    {
+      "path": "core/runtime/v2/example/sandbox/example_test.go",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/e340ffb2203a4efcfd066c1b.go",
+      "kind": "upstream-example-code",
+      "bytes": 4061,
+      "sha256": "bbfe899a20a654b22d0b88acd5c9e0fc8942e16854f855ee1cc226dc17e5bf64",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/core/runtime/v2/example/sandbox/example_test.go"
+    },
+    {
+      "path": "docs/NRI.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/a71dab6ef9c720481d70b50e.md",
+      "kind": "official-document",
+      "bytes": 7739,
+      "sha256": "8cd713037b73d902796d468d1be12f7e2fb0424fa4160508aebd1e45216853b0",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/NRI.md"
+    },
+    {
+      "path": "docs/PLUGINS.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/a4b5186ca4937b26e09acd66.md",
+      "kind": "official-document",
+      "bytes": 11761,
+      "sha256": "e05d4440f2c907bee12b3cfd5f4977e43772a4c7a84a4d30b38665aac1d0999c",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/PLUGINS.md"
+    },
+    {
+      "path": "docs/RUNC.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/51e4b5135f99ae70c28c3f8a.md",
+      "kind": "official-document",
+      "bytes": 1765,
+      "sha256": "fe831579ab9fc4f66e03507c75c646ae36261940d48bed9f29eaff0da4ee3a0d",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/RUNC.md"
+    },
+    {
+      "path": "docs/client-opts.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/a3ce103a5c3fee565793a6b5.md",
+      "kind": "official-document",
+      "bytes": 3573,
+      "sha256": "5f689f8a5e3481536b11ba4ebf886bc0e398ccdbd56c48ef9fdfdce197ac6df6",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/client-opts.md"
+    },
+    {
+      "path": "docs/containerd-2.0.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/7490cc13f240569a77bf271b.md",
+      "kind": "official-document",
+      "bytes": 14000,
+      "sha256": "42b01ab7e7f24cf2d35962b39d74707c1b788bfca712bd7f6e9cac598831ab31",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/containerd-2.0.md"
+    },
+    {
+      "path": "docs/content-flow.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b8ad6b5ea26e78730a00a889.md",
+      "kind": "official-document",
+      "bytes": 30566,
+      "sha256": "82e1eec503365ce866761af843cbbe261f6ed36ea1829dea44f89387d854a9b7",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/content-flow.md"
+    },
+    {
+      "path": "docs/cri/architecture.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b374c244bddfc993d32ca509.md",
+      "kind": "official-document",
+      "bytes": 2039,
+      "sha256": "8db9e5a0083ccf9da8eec5a55620b9d40ae1a42e12f8c858a2cbff052890571a",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/cri/architecture.md"
+    },
+    {
+      "path": "docs/cri/config.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/91d0a4c61f6d3523b5a19717.md",
+      "kind": "official-document",
+      "bytes": 35779,
+      "sha256": "b2051b2108c287e27ab5300d0bd9b552cb58b64b307ae02a7629eacd025ccb9e",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/cri/config.md"
+    },
+    {
+      "path": "docs/cri/crictl.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/325b0e3876b9406cc93c527c.md",
+      "kind": "official-document",
+      "bytes": 10794,
+      "sha256": "c469d109cdad9549494ec94d9582e9502c214d1347955eef59d9363f64511128",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/cri/crictl.md"
+    },
+    {
+      "path": "docs/cri/decryption.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/3dfdc21ddb649be11ed5be9b.md",
+      "kind": "official-document",
+      "bytes": 3229,
+      "sha256": "1f74b04e81d36c75fd3802c797018cdabb6cb9aca768d02ed1449fa8511d0941",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/cri/decryption.md"
+    },
+    {
+      "path": "docs/cri/registry.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/ad3ce646632d139915e549d7.md",
+      "kind": "official-document",
+      "bytes": 6814,
+      "sha256": "d053ab550e66918f7b70f4fd9343e517fc9b3dcd9e774a40cf0efd3312144f40",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/cri/registry.md"
+    },
+    {
+      "path": "docs/cri/testing.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/c6f6a31ee370ded9ae037ff8.md",
+      "kind": "official-document",
+      "bytes": 2717,
+      "sha256": "60d748011ca5a046978857a209721f742ffce1068fd880760424bdc689ba2fc2",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/cri/testing.md"
+    },
+    {
+      "path": "docs/features.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/aff15ced1fe37506f41f2e1d.md",
+      "kind": "official-document",
+      "bytes": 5176,
+      "sha256": "53c26252871b2027e3d4f620073d6a29bb21fa8bbbb286585801edb70ba46ead",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/features.md"
+    },
+    {
+      "path": "docs/fsverity.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/6d9d3ab013d08f7005171172.md",
+      "kind": "official-document",
+      "bytes": 6479,
+      "sha256": "711d45683d435f588a9ead500f85f88c5c0eb5d7f923cc033eff22f2ca8346cd",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/fsverity.md"
+    },
+    {
+      "path": "docs/garbage-collection.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/5edd17fa93e892d9b4c07f69.md",
+      "kind": "official-document",
+      "bytes": 9222,
+      "sha256": "1f6a3f97f4e3bc6a1850389d9d9f2a199700ec14de9bfac484566f36a5d16bcc",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/garbage-collection.md"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/31bcba2ccafa41d46fbbd6d1.md",
+      "kind": "official-document",
+      "bytes": 22456,
+      "sha256": "ef4f7aba12999597a12a1d4a6af46474dbb44c601f1635a0922d1c941c25c4ae",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/getting-started.md"
+    },
+    {
+      "path": "docs/historical/cri/proposal.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f3217d968232f5cf54bffecb.md",
+      "kind": "official-document",
+      "bytes": 11695,
+      "sha256": "7f030bc3637f6b76334fd1c955cf4eefda8aac669f1e3180a52005295e6fbe4e",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/cri/proposal.md"
+    },
+    {
+      "path": "docs/historical/design/architecture.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/ad0f305d44ee1bdb26f6469c.md",
+      "kind": "official-document",
+      "bytes": 4335,
+      "sha256": "8c8452a3a0eba17ba89d4beccd5beb88de99749e98674a6abd01c2830ee93e89",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/design/architecture.md"
+    },
+    {
+      "path": "docs/historical/design/data-flow.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/cc9216127f50d80c574e150d.md",
+      "kind": "official-document",
+      "bytes": 4244,
+      "sha256": "e979447cf439b156f90d0b302a2e4ce8d950fe7843f17af00eb5358bc4eb71af",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/design/data-flow.md"
+    },
+    {
+      "path": "docs/historical/design/lifecycle.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/eda515a691dea941a19b76bc.md",
+      "kind": "official-document",
+      "bytes": 1276,
+      "sha256": "4bfa3222b5a6f40ae39bcccdd491b6f7f7877adda6d4f5ebaf4eed17fd0a9820",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/design/lifecycle.md"
+    },
+    {
+      "path": "docs/historical/design/mounts.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/8ece3c3ef2df2193edd51c44.md",
+      "kind": "official-document",
+      "bytes": 1518,
+      "sha256": "73f13467c81604ef33cb43ce350fc3298034b420f9654095d04d6f6defbebbed",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/design/mounts.md"
+    },
+    {
+      "path": "docs/historical/design/snapshots.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/032a2cb51d372d5259ff1a0d.md",
+      "kind": "official-document",
+      "bytes": 9048,
+      "sha256": "2696f5b10c7988673482cbb2f8b9b8c7b129a5ca1f33bf3404c4f1a8b9cb58f3",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/design/snapshots.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-01-13.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/7671c036abfe56bca35d849a.md",
+      "kind": "official-document",
+      "bytes": 4017,
+      "sha256": "7a95047256ba09887211050f436237dac0c8f741f0b5ddc5b0c7c54a5388d9e7",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-01-13.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-01-20.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/8fbd3dc41171aedd513f8dd2.md",
+      "kind": "official-document",
+      "bytes": 1602,
+      "sha256": "a48f30fe00873a05fe6e80da733d743e72f554081fd251f4fca536bfca52a88f",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-01-20.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-01-27.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/c10156244729c68a3f72c008.md",
+      "kind": "official-document",
+      "bytes": 11135,
+      "sha256": "cb076dc0fce65612043baaebfca20bceeb2428a6f69830cbb44d60e8283a6a8a",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-01-27.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-02-10.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/fafb779cf47d87c84e6d0a82.md",
+      "kind": "official-document",
+      "bytes": 3797,
+      "sha256": "0b3e18d923c149964291ceb7ececa4f10dc82fb017eceba4b6c5a4dea8a3dd00",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-02-10.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-02-24.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/e26e92a6c5e5c845b12c960d.md",
+      "kind": "official-document",
+      "bytes": 7429,
+      "sha256": "b34aff5ad7f644883a92187302d942767867f3e9208c6bd61f9c9f02d877b98d",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-02-24.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-03-10.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/6b13b7414491035def842bdb.md",
+      "kind": "official-document",
+      "bytes": 3066,
+      "sha256": "f1f08ce5caf22811ad21da6b752ae2e281783cac452984559798ff98026ecb45",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-03-10.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-03-17.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/9e863f4e62261a7b4e7a51fe.md",
+      "kind": "official-document",
+      "bytes": 12783,
+      "sha256": "cb016fc485fc6c8285e78c420f5355801af8b82a3ac867eb360bb7cdfbbaa982",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-03-17.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-03-24.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/0e0c31baf32e4055056f1de4.md",
+      "kind": "official-document",
+      "bytes": 2497,
+      "sha256": "5e5c443aeb078a1f7d487e8582c38004c976f27c0357e804b9fd328d9c8e217d",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-03-24.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-04-28.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f0703e19ec7e4bac3e2b7d4f.md",
+      "kind": "official-document",
+      "bytes": 7220,
+      "sha256": "f4ae46420fcd876b4d27dd2b88fa3b441a92860d83ec7043bc31090e9937f4ad",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-04-28.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-05-05.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/dafad3c16ac2bc33b1bf64a5.md",
+      "kind": "official-document",
+      "bytes": 2753,
+      "sha256": "20fc607ad4c4b6e4bb01dc9c92b49cfda07d885f027b1669e9661e765cf3bead",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-05-05.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-05-19.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/7c7e432431b0e03b7a7ab01e.md",
+      "kind": "official-document",
+      "bytes": 4902,
+      "sha256": "75fb5ec9f8f607d2c6e3e59a93b24bcb014764c3ce4f291009f5d71f58bdfaed",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-05-19.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-05-26.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/393449372edb7618842e39e3.md",
+      "kind": "official-document",
+      "bytes": 6488,
+      "sha256": "14c93b338e4825533fdd023c83814b051eea168cc604511afa4202e033eb125f",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-05-26.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-06-09.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/8860e6b19174ce926049f371.md",
+      "kind": "official-document",
+      "bytes": 2287,
+      "sha256": "c90c18c33e6126357f71744ec3bda53984d83b944d6358eff0cf346557b2ba2a",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-06-09.md"
+    },
+    {
+      "path": "docs/historical/reports/2017-06-23.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b789a8c093080a293b7c069a.md",
+      "kind": "official-document",
+      "bytes": 11090,
+      "sha256": "d496ac0696b861e0422cef97ed8f6fbfeea63f52ee733d35f30ee15fd54e4c13",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/historical/reports/2017-06-23.md"
+    },
+    {
+      "path": "docs/hosts.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f74a824d585fec15b5c33fa5.md",
+      "kind": "official-document",
+      "bytes": 15023,
+      "sha256": "291f51bf2badc1485e6b791db0910de1fcdf9a56576872971d799a1167e6c704",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/hosts.md"
+    },
+    {
+      "path": "docs/image-verification.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/02c5c9d76e79f4d64f3bf01f.md",
+      "kind": "official-document",
+      "bytes": 2687,
+      "sha256": "561c4d612afdcbcd88c43568312894d82026dcdf62253153300b7335323b3434",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/image-verification.md"
+    },
+    {
+      "path": "docs/man/containerd-config.8.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/20557e6cbd73c6eecc65e8aa.md",
+      "kind": "official-document",
+      "bytes": 1062,
+      "sha256": "180296624c8ef6754d084ca8c01503a12fbc0faad93ce6b80564e75897774526",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/man/containerd-config.8.md"
+    },
+    {
+      "path": "docs/man/containerd-config.toml.5.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/e810f6458689e3b2d795ca97.md",
+      "kind": "official-document",
+      "bytes": 13562,
+      "sha256": "0f10b507a96cefcd41beb21165ab904f87b90358f96ddaa835b0af49dc216408",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/man/containerd-config.toml.5.md"
+    },
+    {
+      "path": "docs/managed-opt.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b6bb7b988113bd9e529a38ca.md",
+      "kind": "official-document",
+      "bytes": 4530,
+      "sha256": "1deada5eaa04b7b0b46de39c9a7ff24550d3be021930e19e80d3a927de7788ba",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/managed-opt.md"
+    },
+    {
+      "path": "docs/mounts.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/1962c8a34b98fb025d30208a.md",
+      "kind": "official-document",
+      "bytes": 14122,
+      "sha256": "d699b321b8255198ff510e259d38684fa53ac932564be4285dc941e1d5aad0ad",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/mounts.md"
+    },
+    {
+      "path": "docs/namespaces.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b8b064c3a7c8b3810404fd5c.md",
+      "kind": "official-document",
+      "bytes": 3597,
+      "sha256": "7c166a29008d644dfdc51cea904ea740f588a201747a8f2b0715a859ac7060b3",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/namespaces.md"
+    },
+    {
+      "path": "docs/ops.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f307db903341db35ddf198cb.md",
+      "kind": "official-document",
+      "bytes": 9803,
+      "sha256": "11290a6436ce2e2a2552f324c0746a294587689753567f64ddf303a361067d41",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/ops.md"
+    },
+    {
+      "path": "docs/rootless.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/a1481814b47ad6f3e17c2a47.md",
+      "kind": "official-document",
+      "bytes": 3420,
+      "sha256": "f27e8d3f298b4b606306f38ea66e0d1dea1d5267cd8276f8a5ae7d216cce9411",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/rootless.md"
+    },
+    {
+      "path": "docs/runtime-v2.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/b4d86dd00e783b746a7e2046.md",
+      "kind": "official-document",
+      "bytes": 26443,
+      "sha256": "d29e753be2bb3704403d73228517947c32af575c6235e2d339df1e5304787269",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/runtime-v2.md"
+    },
+    {
+      "path": "docs/sandbox-api.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/329285aad0bb6620d5e467c6.md",
+      "kind": "official-document",
+      "bytes": 8609,
+      "sha256": "d39abf66af5450668fb4a5714a0b7c742f7edd1e00a91420ca7abe2fd9f689cc",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/sandbox-api.md"
+    },
+    {
+      "path": "docs/security/OPERATOR_GUIDELINES.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/61b865454ab2c7ac080fa4c4.md",
+      "kind": "official-document",
+      "bytes": 7750,
+      "sha256": "7032e3759e02b93b812ced1e225bb33788f18bc94e2f4869e79acc953886fdf8",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/security/OPERATOR_GUIDELINES.md"
+    },
+    {
+      "path": "docs/security/THREAT_MODEL.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/280fd006f2f5a49fa3ae895a.md",
+      "kind": "official-document",
+      "bytes": 54370,
+      "sha256": "46e828c6e9727cc1bce81be8a79f71ed9af7df3d47264b7018296d0b58fc9716",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/security/THREAT_MODEL.md"
+    },
+    {
+      "path": "docs/security/TRIAGE_GUIDE.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/df7397d966645ede87804110.md",
+      "kind": "official-document",
+      "bytes": 8515,
+      "sha256": "9021b32eed51ac53b16969519dc3942acb63ca7ae93f4015ebd78687770519b0",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/security/TRIAGE_GUIDE.md"
+    },
+    {
+      "path": "docs/shim-capabilities.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/206bb63e585d8c99e15a3e50.md",
+      "kind": "official-document",
+      "bytes": 2545,
+      "sha256": "71cc130c00848230b43a7bb374cf4354455eb56935ab9f04f6a866297993f775",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/shim-capabilities.md"
+    },
+    {
+      "path": "docs/snapshotters/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/46fc21922aad9928ea845d85.md",
+      "kind": "official-document",
+      "bytes": 2701,
+      "sha256": "5be91054622bc63e352f2721d5985c1c7e953466f8cd1dbd641f34f7a55a4371",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/snapshotters/README.md"
+    },
+    {
+      "path": "docs/snapshotters/blockfile.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/8536e991c16b02a8f4edcdbf.md",
+      "kind": "official-document",
+      "bytes": 7456,
+      "sha256": "d4fc60bec50a8251567ce22cbaa378adab11410b060ca1e8537001157805b22e",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/snapshotters/blockfile.md"
+    },
+    {
+      "path": "docs/snapshotters/devmapper.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/dcabd3e7860067e34874a8e9.md",
+      "kind": "official-document",
+      "bytes": 7324,
+      "sha256": "02bc0712ea963e06306169d110fdbeabbd7c0e403a1c61944bafa8d862068272",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/snapshotters/devmapper.md"
+    },
+    {
+      "path": "docs/snapshotters/erofs.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/6fe84c33ab0bf07da643ced2.md",
+      "kind": "official-document",
+      "bytes": 17393,
+      "sha256": "3ab2ec1eb3bd6b45da7fd21ba47ddbcc73e0e7a7fd97cedf277f7917d4c923e9",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/snapshotters/erofs.md"
+    },
+    {
+      "path": "docs/snapshotters/remote-snapshotter.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/bd9cb94b73e904a58c676335.md",
+      "kind": "official-document",
+      "bytes": 6349,
+      "sha256": "9adb64c546d931c8c6da83b2c7496dc3ba8204c0fab3f6197aeb770e23e6e15c",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/snapshotters/remote-snapshotter.md"
+    },
+    {
+      "path": "docs/stream_processors.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/74dc0fe5bc935440b24f63e3.md",
+      "kind": "official-document",
+      "bytes": 1589,
+      "sha256": "6ba88e5569c50da700cb16e56e15923110fa47aec39c66a69035b3ed133cf70b",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/stream_processors.md"
+    },
+    {
+      "path": "docs/tracing.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/4fe19a5aa6df7475c7b02436.md",
+      "kind": "official-document",
+      "bytes": 10151,
+      "sha256": "30233e3fa6fcb92b073bf068562c56259b263fb4994535baa0f698e9e381b9bf",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/tracing.md"
+    },
+    {
+      "path": "docs/transfer.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/f853230399e685e3d42e6529.md",
+      "kind": "official-document",
+      "bytes": 6897,
+      "sha256": "55752b4fe0e2ffcf656f3005f109ec3da8b0afdfd93c3bdb0e0dc07b8e633d46",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/transfer.md"
+    },
+    {
+      "path": "docs/user-namespaces/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/fa58d8e2b53f10e50dd29109.md",
+      "kind": "official-document",
+      "bytes": 8539,
+      "sha256": "a7a8d0dd55be1ad1265ff1097e4f5a1521644263c7df11dc00d1bcf5aa5d4e6c",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/docs/user-namespaces/README.md"
+    },
+    {
+      "path": "integration/failpoint/cmd/cni-bridge-fp/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/59cf633bb07524d3732c808d.md",
+      "kind": "official-document",
+      "bytes": 3692,
+      "sha256": "85cc5d038908202700d282cbcf7481f84feeba988bb2c84ff8011c126ea90474",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/integration/failpoint/cmd/cni-bridge-fp/README.md"
+    },
+    {
+      "path": "integration/images/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/9102bb2df121976dce985529.md",
+      "kind": "official-document",
+      "bytes": 5914,
+      "sha256": "17884df6a9945ac3d366d6bc4a40c00c0af34c7139316474783f975f722eaa8c",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/integration/images/README.md"
+    },
+    {
+      "path": "releases/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/c06e8f0d65e645e2d79dec3a.md",
+      "kind": "official-document",
+      "bytes": 4897,
+      "sha256": "c10f247e9917b8f20e532fa5f115cc4b2835ddde049abb8161c33d33bb80fd2d",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/releases/README.md"
+    },
+    {
+      "path": "script/vm/README.md",
+      "localPath": "raw/containerd--containerd/df742f8d7ee7/61688f9a5ce3e3e76cc6abf1.md",
+      "kind": "official-document",
+      "bytes": 1577,
+      "sha256": "8e52ac23d27c7ca0f6700f0c0cbca2545d81f931ab26969e0432a9f158d87235",
+      "sourceUrl": "https://github.com/containerd/containerd/blob/df742f8d7ee7f57ddba3c475497c032fe9486391/script/vm/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

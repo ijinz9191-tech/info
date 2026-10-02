@@ -1,0 +1,22 @@
+---
+author: sdwheeler
+ms.author:
+ms.date: 09/24/2026
+ms.topic: include
+---
+<!-- markdownlint-disable first-line-h1 -->
+Microsoft supports PowerShell until [PowerShell reaches end-of-support][lifecycle] or the version of
+macOS reaches end-of-support.
+
+The following versions of macOS are supported:
+
+- macOS 27 (Golden Gate) Arm64
+- macOS 26 (Tahoe) x64 and Arm64
+- macOS 15 (Sequoia) x64 and Arm64
+
+Apple determines the support lifecycle of macOS. For more information, see the following:
+
+- [macOS release notes](https://developer.apple.com/documentation/macos-release-notes)
+- [Apple Security Updates](https://support.apple.com/HT201222)
+
+[lifecycle]: /powershell/scripting/install/powershell-support-lifecycle

@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "repo": "coredns/coredns",
+  "commit": "f44a91377a0bd2ffbbda1cff6745ba46a37e756c",
+  "retrievedAt": "2026-10-01T15:16:16.233237+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Coordination & Service Discovery"
+  ],
+  "archiveUrl": "https://codeload.github.com/coredns/coredns/zip/f44a91377a0bd2ffbbda1cff6745ba46a37e756c",
+  "archiveSha256": "3fad4c602c005927db49857e7833944fe1016b7ea58cd55a8680be0b7b7173b0",
+  "archiveBytes": 1606294,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 71,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 320711
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 4626,
+      "sha256": "c6d858e22a4d81af95c82315bcbcf47124d617ca618af6c3e950fc012483b000",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/ADOPTERS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 26,
+      "sha256": "b2396aff8b9801c5504d37c25f47f8614ff68ad547f8993ca66c333310c8ee4d",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 23,
+      "sha256": "98e64bc1cd2db9333c6effe87bbe0d6dfe8714aba4c6bde45aa037fe0796e44c",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 7892,
+      "sha256": "593d0da766b8a723f641820c74a584ab3cbf0aded2851e7f1cb516e57bee4d51",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11371,
+      "sha256": "f0530760b1e2ffcf23df322db638ee06d06fc07fead0ed3ddd710f2e224698a9",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 12813,
+      "sha256": "937fd175762df987fe89197db90e46e8e27eb3d83228bd46b9b2ac176cbf6fc3",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 19,
+      "sha256": "ac3050733d58345444c27d37c6247ef260ad992bcb02782feea43fb580106079",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/SECURITY.md"
+    },
+    {
+      "path": "coredns.1.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/90fcc640008a4cccadf33462.md",
+      "kind": "official-document",
+      "bytes": 1506,
+      "sha256": "ef9916b76835296ad436f822e07f7a49a0ed8f69930450143c7254765669885d",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/coredns.1.md"
+    },
+    {
+      "path": "corefile.5.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/b498bc2738811400b953cfb3.md",
+      "kind": "official-document",
+      "bytes": 3757,
+      "sha256": "9218bfb14a595ca0201a3940121c5f4caf4a4a3c87778ca32cf80683dc43e2a6",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/corefile.5.md"
+    },
+    {
+      "path": "plugin.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/1c8ea435cfc3dfbc0cf81dab.md",
+      "kind": "official-document",
+      "bytes": 7400,
+      "sha256": "89a238d30c13eedf64c85b2539319bc4220b775fb4c2cdcf673662c3e2c8af73",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin.md"
+    },
+    {
+      "path": "plugin/acl/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/3fbc33e804f8527693ba5a96.md",
+      "kind": "official-document",
+      "bytes": 3501,
+      "sha256": "ca8bf9acbdff79eb4229a00ab0621e9c47a8135f7050813cd692459eec013654",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/acl/README.md"
+    },
+    {
+      "path": "plugin/any/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/b8d3ab27c65166dc35548904.md",
+      "kind": "official-document",
+      "bytes": 520,
+      "sha256": "c0b748e49225ac68bd81b48fa50e29dfd5c3ef830be5a17259d52f569e269823",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/any/README.md"
+    },
+    {
+      "path": "plugin/auto/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/8638e43042ef9307b1a66ab7.md",
+      "kind": "official-document",
+      "bytes": 3061,
+      "sha256": "34ab4f52d34714ff1aa417b69478a03b37b436bafb5970f800766e48a7331286",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/auto/README.md"
+    },
+    {
+      "path": "plugin/autopath/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/feb15dc7b1f36a7d45dfd4b2.md",
+      "kind": "official-document",
+      "bytes": 2690,
+      "sha256": "b563c695f1e735c5f454c8f921304d48e62f261a8490d0cd9325662b0997b8c7",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/autopath/README.md"
+    },
+    {
+      "path": "plugin/azure/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/b9c0e43d21130ea2c3cd0a6c.md",
+      "kind": "official-document",
+      "bytes": 2632,
+      "sha256": "71b61d5d5f8fe00600473f9abf49225afd472d31177feadef6187debdcc820e4",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/azure/README.md"
+    },
+    {
+      "path": "plugin/bind/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/62f078b01d8274050ee98830.md",
+      "kind": "official-document",
+      "bytes": 3514,
+      "sha256": "4496f2c9a7f5a3e9895c36f1eb968d67b3db97e79953eb1ed0901bdd615f7c56",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/bind/README.md"
+    },
+    {
+      "path": "plugin/bufsize/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/afec915bebd6932d288642ed.md",
+      "kind": "official-document",
+      "bytes": 1278,
+      "sha256": "35f5d80048b544bc7f90af8feb792ba2de39d121c0bf7e0b6f5137f1d1bde50d",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/bufsize/README.md"
+    },
+    {
+      "path": "plugin/cache/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/5f3295e713c2af938f2a6975.md",
+      "kind": "official-document",
+      "bytes": 10397,
+      "sha256": "7a2c574d1c98a551f8be082d14760bc1f1fe5ab4d1a31f2e6aa0eba8d7d2bb40",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/cache/README.md"
+    },
+    {
+      "path": "plugin/cancel/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/6b33063fa2d8235f035068b5.md",
+      "kind": "official-document",
+      "bytes": 992,
+      "sha256": "82303b1c22a39767e34a25ddfa08b2e44fc05d887dce8bf09b1fefa5cff6facd",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/cancel/README.md"
+    },
+    {
+      "path": "plugin/chaos/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/6c81cd765b2fc0929bfac7c9.md",
+      "kind": "official-document",
+      "bytes": 1053,
+      "sha256": "2d3b7e1e10c3cd7ee34a39f8f22bbbae7ae5867ee1888b7b1ab8ff17fa949561",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/chaos/README.md"
+    },
+    {
+      "path": "plugin/clouddns/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/f623800dcada78ff911ff86e.md",
+      "kind": "official-document",
+      "bytes": 3024,
+      "sha256": "641eacaf0677683ebc03923c0d02308154be0352877ccfc953085b708d3469c6",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/clouddns/README.md"
+    },
+    {
+      "path": "plugin/debug/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/d38e992748b88a36d1d22b54.md",
+      "kind": "official-document",
+      "bytes": 1395,
+      "sha256": "e428b77c331e53ffef5526559822cf6c2d579d85edfaedc7cf83c8f43bb4c93c",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/debug/README.md"
+    },
+    {
+      "path": "plugin/dns64/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/f33079c1596df46ce06c39da.md",
+      "kind": "official-document",
+      "bytes": 2500,
+      "sha256": "e3d913b5fb15d95c809065e3aab609dd9358e62b6e58596fcac302a31c9ac09b",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/dns64/README.md"
+    },
+    {
+      "path": "plugin/dnssec/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/be870f9ead60c3d72c004353.md",
+      "kind": "official-document",
+      "bytes": 4584,
+      "sha256": "d62f60ac64508978a42d818e66b52522e19a1924ae03b1b325039da7b31dc452",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/dnssec/README.md"
+    },
+    {
+      "path": "plugin/dnstap/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/50f93eda5f02d00f89bb4ef2.md",
+      "kind": "official-document",
+      "bytes": 6987,
+      "sha256": "e9bd27804ef6db263b889f334ca03ccf9c97ea70a17f4c28053c91862c167d2c",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/dnstap/README.md"
+    },
+    {
+      "path": "plugin/dynupdate/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/d00736cebced6ccc90f2b180.md",
+      "kind": "official-document",
+      "bytes": 11436,
+      "sha256": "39858a8c9a345be11a4812ca8a088273338353bdcce8ad938533f59fdb1c623a",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/dynupdate/README.md"
+    },
+    {
+      "path": "plugin/erratic/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/8917ce496f701ef8e7e29268.md",
+      "kind": "official-document",
+      "bytes": 1791,
+      "sha256": "698b38e18261d1fd68253f6ef889ded9ac076517635319f3ab363ff54e72b985",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/erratic/README.md"
+    },
+    {
+      "path": "plugin/errors/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/78dcbcc4122decdf9910911b.md",
+      "kind": "official-document",
+      "bytes": 2979,
+      "sha256": "21b0e5f32ce63f22d430649a9b3f3d8f55d6cd1edfbca8d20230670ef06b4a79",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/errors/README.md"
+    },
+    {
+      "path": "plugin/etcd/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/dbe3d8bbdb949726d3ed2642.md",
+      "kind": "official-document",
+      "bytes": 10364,
+      "sha256": "6ce25d3b4bb6d6391a5406a62c3d671f1922cca7291a1bc58bd89a584c59e9c4",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/etcd/README.md"
+    },
+    {
+      "path": "plugin/file/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/97fada0d80250d8b5cd3ac41.md",
+      "kind": "official-document",
+      "bytes": 4348,
+      "sha256": "976cdc6b279897432ce6b14f830172b1ee56f0236a4ae9a62915890f1b3eaf60",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/file/README.md"
+    },
+    {
+      "path": "plugin/forward/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/2a83761d993618682a437d65.md",
+      "kind": "official-document",
+      "bytes": 17650,
+      "sha256": "6162e1c89f33d59799d32800f1bb7155c6bfc5f8aabf8339aaa832a20e4f08a8",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/forward/README.md"
+    },
+    {
+      "path": "plugin/geoip/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/fa93bf0917e1f8ee5366b171.md",
+      "kind": "official-document",
+      "bytes": 7441,
+      "sha256": "d7d22fa5a3f56915d6eec84fab0c8b5febb726240c8661e43b19395cb5358c46",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/geoip/README.md"
+    },
+    {
+      "path": "plugin/grpc/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/e5abb45c97b7c7f8052f560b.md",
+      "kind": "official-document",
+      "bytes": 5028,
+      "sha256": "b0e1670798eceeb6bd74c6ece4e2c478e24415b90beef2003bbbea3398f7eeea",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/grpc/README.md"
+    },
+    {
+      "path": "plugin/grpc_server/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/b7c627e016c8f1877e10b4d0.md",
+      "kind": "official-document",
+      "bytes": 1228,
+      "sha256": "60263908173d9dc9f9df65d4a59b5dfbb7fe450c5759c71c0a203136c00040d9",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/grpc_server/README.md"
+    },
+    {
+      "path": "plugin/header/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/fb826743be6ab8afb84b760b.md",
+      "kind": "official-document",
+      "bytes": 1337,
+      "sha256": "f1155c44e77127a3971d1b05a4569a30cd9c9149c082da2aea8515b91577646c",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/header/README.md"
+    },
+    {
+      "path": "plugin/health/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/910d814db08d61b876dc386f.md",
+      "kind": "official-document",
+      "bytes": 2112,
+      "sha256": "4089160640cd5c2a68ea71be564ae06f96fd3af1739a9c3e2d7c3a47902ba2f8",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/health/README.md"
+    },
+    {
+      "path": "plugin/hosts/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/d958e109b104b50c4b49cb20.md",
+      "kind": "official-document",
+      "bytes": 5605,
+      "sha256": "4476d7c81e0d5f2ae5454edf67baa03dbc512c353276368b8494fbb37bb7553e",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/hosts/README.md"
+    },
+    {
+      "path": "plugin/https/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/520b4f299a7e3a1c9739c868.md",
+      "kind": "official-document",
+      "bytes": 1354,
+      "sha256": "203a2a3d8e2817703e3d71973a3677ee1af58169d0ded959b802bbc939b62105",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/https/README.md"
+    },
+    {
+      "path": "plugin/https3/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/92db3072acdce8eff9c0a908.md",
+      "kind": "official-document",
+      "bytes": 1326,
+      "sha256": "8c2558a22ba08a05f5f974e8f2a4f7d1e3c25287f49fc3e41abf279514b79b55",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/https3/README.md"
+    },
+    {
+      "path": "plugin/import/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/deebbfa9b434245db195a3dd.md",
+      "kind": "official-document",
+      "bytes": 1544,
+      "sha256": "579b13ccb629802e29eea21a9f3224587e8d016b06701365388608a812003d07",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/import/README.md"
+    },
+    {
+      "path": "plugin/k8s_external/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/7ef227a6e0d3fe1c556714cd.md",
+      "kind": "official-document",
+      "bytes": 3480,
+      "sha256": "c52fb5c70391c2c73fcea197417e0cc087141e5cbc8e601ed10bd6f0b3b1da67",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/k8s_external/README.md"
+    },
+    {
+      "path": "plugin/kubernetes/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/c18aa98d278612b2dc372f8a.md",
+      "kind": "official-document",
+      "bytes": 17944,
+      "sha256": "e5ac3ba9af4f2e34a720899e38a54ad6b4d6b6b38e43887a7f4e5b3bce4a7769",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/kubernetes/README.md"
+    },
+    {
+      "path": "plugin/loadbalance/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/e74dcee4092de336e8eaa44f.md",
+      "kind": "official-document",
+      "bytes": 3862,
+      "sha256": "cea473dc40de8af7bbe3109e142609b3e37f2d96ec7b7e772eb4941a920bb5e8",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/loadbalance/README.md"
+    },
+    {
+      "path": "plugin/local/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/fe8bbab5e5f30cad9b5667ca.md",
+      "kind": "official-document",
+      "bytes": 2205,
+      "sha256": "10a7a51ba0bc86910289b1bf3d5fdea13a7cd56c387c4932f3c27cec410aff20",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/local/README.md"
+    },
+    {
+      "path": "plugin/log/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/8d5d0876faab6e8c4fd9e2ef.md",
+      "kind": "official-document",
+      "bytes": 7005,
+      "sha256": "da15b53d0e8a5d926aac483d7a01c79c1f64f03907e79470b18c0a86a604026e",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/log/README.md"
+    },
+    {
+      "path": "plugin/loop/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/13d8e18aa25ca0bc91d15d7c.md",
+      "kind": "official-document",
+      "bytes": 4361,
+      "sha256": "2cad0af19a8643ae87fb7a2a9bec560574ef826a83a5ad3f82718b342c951136",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/loop/README.md"
+    },
+    {
+      "path": "plugin/metadata/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/2d6f16e8121c98cde25eb96b.md",
+      "kind": "official-document",
+      "bytes": 1723,
+      "sha256": "04509b96efb870a67f6d1f419300df0d86b58c8ea5415010dcec8f860cbda6cb",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/metadata/README.md"
+    },
+    {
+      "path": "plugin/metrics/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/5baf0b9ad846ff77291c6669.md",
+      "kind": "official-document",
+      "bytes": 4622,
+      "sha256": "4bb3dc29dfb5cc5e424fe9f04a71c69e0c795cc1f1572bc32ea7842fecb533f4",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/metrics/README.md"
+    },
+    {
+      "path": "plugin/minimal/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/4cfdd59eee1df41a8663ee66.md",
+      "kind": "official-document",
+      "bytes": 775,
+      "sha256": "998f9b888db7d11c9289de740adb4bd35206d5e5b985801c3714b01b8c5732fe",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/minimal/README.md"
+    },
+    {
+      "path": "plugin/multisocket/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/33e0e9c210ae9f0083c1fb78.md",
+      "kind": "official-document",
+      "bytes": 2629,
+      "sha256": "03bddd13d695426b1ba167cabb9bdbf48aab8071ec7904d38b2ee294f1a5f3ea",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/multisocket/README.md"
+    },
+    {
+      "path": "plugin/nomad/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/77b3b120535e26d2fbaa3b4f.md",
+      "kind": "official-document",
+      "bytes": 7095,
+      "sha256": "76776479308ad0bb0ea73a1cef8c07adadbbbdae91f52f7ea8c04f42fa9237b5",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/nomad/README.md"
+    },
+    {
+      "path": "plugin/nsid/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/256b2ec9868362d313b19b13.md",
+      "kind": "official-document",
+      "bytes": 1169,
+      "sha256": "8060d3074ffa85c9fcf2c0e8597d3f13706607be058f2e997534a5c77c444a3a",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/nsid/README.md"
+    },
+    {
+      "path": "plugin/pprof/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/ebb4fdb255883aa9abeea95d.md",
+      "kind": "official-document",
+      "bytes": 1636,
+      "sha256": "d0f2ee819840ef19c86cdfff74673835d5d6b0639cdd548411ba6c4247407b3a",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/pprof/README.md"
+    },
+    {
+      "path": "plugin/proxyproto/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/dad71af5991d90d1ce3bf9bf.md",
+      "kind": "official-document",
+      "bytes": 3222,
+      "sha256": "33768918622fd9a06ae72bb018140b0fa6dccc609321b56c0cf3971821200a77",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/proxyproto/README.md"
+    },
+    {
+      "path": "plugin/quic/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/586960d24eafc33baff50e52.md",
+      "kind": "official-document",
+      "bytes": 1307,
+      "sha256": "865dafe2da0d82279be55f0fcd80b300a38ed87cc2b427f51b729626fb03b647",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/quic/README.md"
+    },
+    {
+      "path": "plugin/ready/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/4344e9f568d943f309c92d05.md",
+      "kind": "official-document",
+      "bytes": 2108,
+      "sha256": "6eeb025401906ce260299da848b6c5bb0ef6e9fe4a77b45f255d6bd19c763996",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/ready/README.md"
+    },
+    {
+      "path": "plugin/reload/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/dbef1b7256ef669fd4133c08.md",
+      "kind": "official-document",
+      "bytes": 3739,
+      "sha256": "a9c2f9a34f378e059505cf115381859e65677f7218913c527c2a93e31215be0d",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/reload/README.md"
+    },
+    {
+      "path": "plugin/rewrite/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/f97fe22234a704330087c29f.md",
+      "kind": "official-document",
+      "bytes": 18359,
+      "sha256": "fded5e9bb1399faaed3d225a1fd96833e8ce49377172dd53e2a1297c75922470",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/rewrite/README.md"
+    },
+    {
+      "path": "plugin/root/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/367aa2691f56e47b534691c1.md",
+      "kind": "official-document",
+      "bytes": 1197,
+      "sha256": "19ae2f05591417aa24d52e21265abb45122e04a8a0b5109fb741df0d28a7c9ff",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/root/README.md"
+    },
+    {
+      "path": "plugin/route53/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/df9923afd98535c843253466.md",
+      "kind": "official-document",
+      "bytes": 5103,
+      "sha256": "aa7c7e5675142e5ca7a9d73bc9addea80826f4c7a61e9c344c6005e3a9292775",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/route53/README.md"
+    },
+    {
+      "path": "plugin/secondary/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/51e4d4aa30cadf137fdee92a.md",
+      "kind": "official-document",
+      "bytes": 3350,
+      "sha256": "62da9c663df92f043ca27c9c2a86cdbc5246e9d67c3947744ff3bb8f8b410c10",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/secondary/README.md"
+    },
+    {
+      "path": "plugin/shed/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/cb131f7632670055e35bf7f8.md",
+      "kind": "official-document",
+      "bytes": 3453,
+      "sha256": "0f0660e95df212508402c4b3995ce215b341bdd5de245f3451376aac573de280",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/shed/README.md"
+    },
+    {
+      "path": "plugin/sign/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/3aa50e1d5f619e2dff04e85d.md",
+      "kind": "official-document",
+      "bytes": 6879,
+      "sha256": "8f7ab2653f162e53dbf9840cd57d96e20fc74722a85eea57a09d542627da735d",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/sign/README.md"
+    },
+    {
+      "path": "plugin/siit/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/acce8c0c2d723843f82fe5be.md",
+      "kind": "official-document",
+      "bytes": 1662,
+      "sha256": "3b15ba78a505101895699d14acbe37d8e1ecad84482747a6a86ef790c1b983d7",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/siit/README.md"
+    },
+    {
+      "path": "plugin/template/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/cc46d33473706001139b6502.md",
+      "kind": "official-document",
+      "bytes": 14302,
+      "sha256": "5521ea53185c907c38eb4977d903709bdec0880d9bc8666e2af1f884dafa36e0",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/template/README.md"
+    },
+    {
+      "path": "plugin/timeouts/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/ece75c2ed20e8c10c543d6db.md",
+      "kind": "official-document",
+      "bytes": 3529,
+      "sha256": "9f1d37d1eda6dbf5f705aac78103690337b8be6934f79e95bd7def1d06750279",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/timeouts/README.md"
+    },
+    {
+      "path": "plugin/tls/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/08539c82d52b5ef10e0098e5.md",
+      "kind": "official-document",
+      "bytes": 4532,
+      "sha256": "c93d645e3bf35beb0391cd150412f027f13b4099a74d85f1e63e1c2e83541973",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/tls/README.md"
+    },
+    {
+      "path": "plugin/trace/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/dfea1a1ec3ba211350bb32fd.md",
+      "kind": "official-document",
+      "bytes": 3226,
+      "sha256": "754acaeacd7619fb754f54cd27d4d228775ca9a71e73daa54d9dfaa458fc423f",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/trace/README.md"
+    },
+    {
+      "path": "plugin/transfer/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/26fba91b3ae5a2e17dd49650.md",
+      "kind": "official-document",
+      "bytes": 2220,
+      "sha256": "d2ac5b6b631047badfa83f88e5566758f32d8333366980af8ef21b5acde03640",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/transfer/README.md"
+    },
+    {
+      "path": "plugin/tsig/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/1badee195e8dfe7984062b78.md",
+      "kind": "official-document",
+      "bytes": 4824,
+      "sha256": "835030724e1a4c08aad840778326ca223f54b5d2623b4c365b92675af25b6c6a",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/tsig/README.md"
+    },
+    {
+      "path": "plugin/view/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/8cb8ddc9974b2a0dce6c6913.md",
+      "kind": "official-document",
+      "bytes": 4534,
+      "sha256": "627cae2975fbbbdaa6c63d99fb6679f0c318e128f5f93f276a4bf26bc6ab3dc9",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/view/README.md"
+    },
+    {
+      "path": "plugin/whoami/README.md",
+      "localPath": "raw/coredns--coredns/f44a91377a0b/8c7f10632c93823555646825.md",
+      "kind": "official-document",
+      "bytes": 1555,
+      "sha256": "e8321f2757abb9e9f38691374b78e3f578edc6fc90f741da6a5273431ab65bf6",
+      "sourceUrl": "https://github.com/coredns/coredns/blob/f44a91377a0bd2ffbbda1cff6745ba46a37e756c/plugin/whoami/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

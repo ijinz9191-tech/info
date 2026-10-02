@@ -1,0 +1,228 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+ifndef::core-semantics[]
+:core-semantics: core-semantics.adoc
+endif::[]
+
+= Processing YAML
+
+Groovy has an optional `groovy-yaml` module which provides support for converting between Groovy objects and YAML. The classes dedicated to
+YAML serialization and parsing are found in the `groovy.yaml` package.
+
+[[yaml_yamlslurper]]
+== YamlSlurper
+
+`YamlSlurper` is a class that parses YAML text or reader content into Groovy data structures (objects) such as maps, lists and
+primitive types like `Integer`, `Double`, `Boolean` and `String`.
+
+The class comes with a bunch of overloaded `parse` methods plus some special methods such as `parseText`
+and others. For the next example we will use the `parseText` method. It parses a YAML `String` and recursively converts it to a
+list or map of objects. The other `parse*` methods are similar in that they return a YAML `String` but for different parameter
+types.
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=parse_text,indent=0]
+----
+
+Notice the result is a plain map and can be handled like a normal Groovy object instance. `YamlSlurper` parses the
+given YAML as defined by the http://yaml.org/spec/1.2/spec.html[YAML Ain’t Markup Language (YAML™)].
+
+
+As `YamlSlurper` is returning pure Groovy object instances without any special YAML classes in the back, its usage
+is transparent. In fact, `YamlSlurper` results conform to GPath expressions. GPath is a powerful expression language
+that is supported by multiple slurpers for different data formats (`XmlSlurper` for XML being one example).
+
+[NOTE]
+For more details please have a look at the section on <<{core-semantics}#gpath_expressions,GPath expressions>>.
+
+The following table gives an overview of the YAML types and the corresponding Groovy data types:
+
+[cols="1,3" options="header"]
+|===
+|YAML
+|Groovy
+
+|string
+|`java.lang.String`
+
+|number
+|`java.lang.BigDecimal` or `java.lang.Integer`
+
+|object
+|`java.util.LinkedHashMap`
+
+|array
+|`java.util.ArrayList`
+
+|true
+|`true`
+
+|false
+|`false`
+
+|null
+|`null`
+
+|date/time
+|`java.lang.String` (see the note below)
+|===
+
+[NOTE]
+Whenever a value in YAML is `null`, `YamlSlurper` supplements it with the Groovy `null` value. This is in contrast to other
+YAML parsers that represent a `null` value with a library-provided singleton object.
+
+[NOTE]
+====
+For the untyped `parse`/`parseText` API, YAML date and time values are returned as
+`String`. `YamlSlurper` routes the untyped path through a YAML-to-JSON conversion,
+and JSON has no native temporal types. Use the typed `parseAs`/`parseTextAs` API
+(see <<yaml_typed_temporal>>) for `java.time.LocalDate`, `java.time.LocalTime`,
+`java.time.LocalDateTime`, and `java.time.OffsetDateTime` fidelity.
+====
+
+=== Typed parsing
+
+`YamlSlurper` can parse YAML directly into typed objects using Jackson databinding.
+Standard Jackson annotations such as `@JsonProperty` and `@JsonFormat` are supported
+for property mapping and type conversion:
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=typed_class,indent=0]
+----
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=typed_parsing,indent=0]
+----
+
+NOTE: For simple cases, Groovy's `as` coercion also works with the untyped result:
+`def config = new YamlSlurper().parseText(yaml) as ServerConfig`.
+The `parseTextAs` method uses Jackson databinding, which supports richer annotation-driven
+mapping via `@JsonProperty`, `@JsonFormat`, etc.
+
+[[yaml_typed_temporal]]
+=== Typed date and time values
+
+When a target type declares `java.time.*` fields, the typed `parseAs`/`parseTextAs`
+API and `YamlBuilder.toYaml` round-trip YAML temporal values with full fidelity,
+including the original zone offset for `OffsetDateTime`:
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=temporal_class,indent=0]
+----
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=temporal_typed,indent=0]
+----
+
+[[yaml_aliases]]
+=== Anchors and aliases
+
+`YamlSlurper` does not resolve YAML anchors and aliases. An alias arrives as a plain
+string holding the anchor's name, and a merge key (`<<`) is left as a literal entry
+rather than merging anything:
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=alias_behaviour,indent=0]
+----
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=merge_key_behaviour,indent=0]
+----
+
+This comes from the Jackson YAML backend the slurper is built on, which reads the
+document as a stream of events and does not replay an anchored subtree when an alias
+refers to it. It is a long-standing, deliberate limitation
+(https://github.com/FasterXML/jackson-dataformats-text/issues/98[jackson-dataformats-text#98],
+closed as not planned), so a document that relies on anchors should either be flattened
+before parsing, or read as shown below.
+
+For the typed `parseAs` API only, Jackson's own object-identity mechanism can stand in
+for aliases. Annotate the referenced class with `@JsonIdentityInfo` and an anchored
+mapping round-trips as one shared instance:
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=alias_identity_class,indent=0]
+----
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=alias_identity_parsing,indent=0]
+----
+
+====
+This works for mutable, setter-based classes only. A type deserialized through a
+constructor — `@JsonCreator`, and immutable classes generally — fails with
+`No Object Id found` even for a plain backward reference, so do not reach for this
+with `@Immutable` targets. It is Jackson's object-identity feature standing in for
+aliases, not alias support.
+====
+
+=== Resolving aliases with SnakeYAML directly
+
+The SnakeYAML library resolves anchors, aliases, and merge keys in full. This is not
+part of `groovy-yaml` — it is a second YAML parser used directly, shown here because
+the need is common. Today SnakeYAML happens to reach the classpath transitively via
+the Jackson YAML backend; that arrangement is not yours to rely on (and ends with
+Jackson 3), so declare `org.yaml:snakeyaml` as a dependency if you use this.
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlParserTest.groovy[tags=alias_snakeyaml,indent=0]
+----
+
+`SafeConstructor` matters: it produces only maps, lists, and scalars, and refuses the
+tagged-type instantiation that makes careless YAML loading dangerous. Differences from
+`YamlSlurper` to be aware of:
+
+* it follows YAML 1.1 typing, so an untagged timestamp becomes a `java.util.Date`
+  where `YamlSlurper` returns a `String`;
+* input is capped at 3MB of code points by default, and a document may use at most 50
+  aliases of non-scalar nodes — both raised via `LoaderOptions` if needed, and the
+  alias cap is what keeps an alias-expansion document from being a denial of service;
+* a self-referential anchor constructs a genuinely cyclic object graph, which naive
+  traversal — `toString()`, `JsonOutput.toJson` — will not survive.
+
+=== Builders
+
+Another way to create YAML from Groovy is to use `YamlBuilder`. The builder provide a
+DSL which allows to formulate an object graph which is then converted to YAML.
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlBuilderTest.groovy[tags=build_text,indent=0]
+----
+
+=== Typed writing
+
+`YamlBuilder.toYaml(object)` serializes a typed object directly to YAML using Jackson databinding:
+
+[source,groovy]
+----
+include::../test/groovy/yaml/YamlBuilderTest.groovy[tags=typed_writing,indent=0]
+----

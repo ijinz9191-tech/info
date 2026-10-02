@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "repo": "getsops/sops",
+  "commit": "86bc0b08c13b3db3496f85270f8c061e0120927a",
+  "retrievedAt": "2026-10-01T15:19:23.337591+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Provisioning/Security & Compliance"
+  ],
+  "archiveUrl": "https://codeload.github.com/getsops/sops/zip/86bc0b08c13b3db3496f85270f8c061e0120927a",
+  "archiveSha256": "7f92cd30900795cc3e4397bafacac4cbd3924cfb00a7748c27fe7b171f415a3a",
+  "archiveBytes": 347036,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 9,
+    "code": 10,
+    "licenses": 2,
+    "bytes": 119509
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 61040,
+      "sha256": "d253164595d15a60ca40aa854090074cefffc9748684aa7df9971515fbc0aa20",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/CHANGELOG.md"
+    },
+    {
+      "path": "CHANGELOG.rst",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/2c623f3c6a917be56c59d432.rst",
+      "kind": "official-document",
+      "bytes": 83,
+      "sha256": "bab353a395ac58bcbe430c8ff9df85547a588c27cad7a421a6556bcad7df74cb",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/CHANGELOG.rst"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 192,
+      "sha256": "bb3fa95b4f32a74f98fa45b78dc412c7e96e9f2929c8c82a0a19b18159d2351f",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 1788,
+      "sha256": "4edfb8dc9bdbcda0edb15179524e5539c9abb4f3c016e458067a1d6941cd92e5",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 16725,
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/LICENSE"
+    },
+    {
+      "path": "README.rst",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/7b3ed02bc73dc06b7db906cf.rst",
+      "kind": "official-document",
+      "bytes": 1909,
+      "sha256": "63cb0a462ce23574365c0b692aa09ea2f632f4b4df2b5f4186d8c004b57e3440",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/README.rst"
+    },
+    {
+      "path": "docs/release.md",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/87479ac9ea16cec5ceafce00.md",
+      "kind": "official-document",
+      "bytes": 3230,
+      "sha256": "0a7c53770f0d23ae3dfe31fa4fed01022bbf3532fbad671d0ca992b12ed57979",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/docs/release.md"
+    },
+    {
+      "path": "examples/all_in_one/README.rst",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/a244d95c7e4748fc0e74329a.rst",
+      "kind": "official-document",
+      "bytes": 3193,
+      "sha256": "a21ef40ea05fc00f55f76a46631712439a2ca76400d9576abce2a4262cbf465c",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/all_in_one/README.rst"
+    },
+    {
+      "path": "examples/all_in_one/bin/decrypt-config.sh",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/f01e521da7152d219b22f66c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 607,
+      "sha256": "3fa1acf7f0328c9bad1bb0404ff3ea1146a459bc1eb489359cd43190745893ed",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/all_in_one/bin/decrypt-config.sh"
+    },
+    {
+      "path": "examples/all_in_one/bin/edit-config-file.sh",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/1dd5304d5a1a2149b2046fa3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 831,
+      "sha256": "194c2f2e8ff87da83294d6f84e715a5855f765bed2f310de2811e723b6eed6f7",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/all_in_one/bin/edit-config-file.sh"
+    },
+    {
+      "path": "examples/all_in_one/config/__init__.py",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/93530331139125f718ab76ea.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/all_in_one/config/__init__.py"
+    },
+    {
+      "path": "examples/all_in_one/config/static.py",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/994e3d85cd2bcaf1438ad509.py",
+      "kind": "upstream-example-code",
+      "bytes": 260,
+      "sha256": "a45e7e33b8417be0c5dfd6e364c7f83426f051be33e6020dfe9649a58fa54bed",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/all_in_one/config/static.py"
+    },
+    {
+      "path": "examples/all_in_one/main.py",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/96fb0a64fe89827b0889d9d2.py",
+      "kind": "upstream-example-code",
+      "bytes": 458,
+      "sha256": "1805d0d48fb16895a5d01f194a20599e34150e0805c0b39b5efbf719dca53759",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/all_in_one/main.py"
+    },
+    {
+      "path": "examples/per_file/README.rst",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/62097ea8097220a696929218.rst",
+      "kind": "official-document",
+      "bytes": 3455,
+      "sha256": "cccc042b3bd34f365c865ea46a3efe2a8d0a044fec7ca78f6ad7e0ab8de19509",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/per_file/README.rst"
+    },
+    {
+      "path": "examples/per_file/bin/decrypt-config.sh",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/c399fba784eef4e72de60984.sh",
+      "kind": "upstream-example-code",
+      "bytes": 808,
+      "sha256": "cc8c9111a0506055b5d0e5f1022706c7234da1e9c8e3555d6d56864bd2430611",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/per_file/bin/decrypt-config.sh"
+    },
+    {
+      "path": "examples/per_file/bin/edit-config-file.sh",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/e1987b66c3242599a3f52ab3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 313,
+      "sha256": "649a786cf5344b2b0a620bc1c9f14f4a576082945e4469b4dafef3d9c2291a63",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/per_file/bin/edit-config-file.sh"
+    },
+    {
+      "path": "examples/per_file/config.enc/__init__.py",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/99d3b8137e950108e0633d58.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/per_file/config.enc/__init__.py"
+    },
+    {
+      "path": "examples/per_file/config.enc/static.py",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/b30e074cf2d288789f8c8c58.py",
+      "kind": "upstream-example-code",
+      "bytes": 2015,
+      "sha256": "d49e4a92b68b9e40a1a8ef2ad650b4fca14ac5c7edb4e3abaad92ac4804d77f8",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/per_file/config.enc/static.py"
+    },
+    {
+      "path": "examples/per_file/main.py",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/0b02efdc0659c3f6eb1e0cc2.py",
+      "kind": "upstream-example-code",
+      "bytes": 887,
+      "sha256": "d909ae8501aad0065d328eb6b8a3ec11d05334c984ab44ec3ae09b5f07df354c",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/examples/per_file/main.py"
+    },
+    {
+      "path": "shamir/LICENSE",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/4b3da435e514db3d860e121e.txt",
+      "kind": "license",
+      "bytes": 15921,
+      "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/shamir/LICENSE"
+    },
+    {
+      "path": "shamir/README.md",
+      "localPath": "raw/getsops--sops/86bc0b08c13b/9aa1ee151520eae888a007bc.md",
+      "kind": "official-document",
+      "bytes": 5794,
+      "sha256": "eb2d26171962ff716e90844cc353b148fb3f90e7bf7e71d2717c92cfd3cf593e",
+      "sourceUrl": "https://github.com/getsops/sops/blob/86bc0b08c13b3db3496f85270f8c061e0120927a/shamir/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

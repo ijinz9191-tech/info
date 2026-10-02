@@ -1,0 +1,2897 @@
+{
+  "schemaVersion": 1,
+  "repo": "kubernetes-sigs/headlamp",
+  "commit": "919a7ca6ad870f49fe482fc6b0dc93e774356ce2",
+  "retrievedAt": "2026-10-01T15:22:29.985997+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Observability and Analysis/Observability"
+  ],
+  "archiveUrl": "https://codeload.github.com/kubernetes-sigs/headlamp/zip/919a7ca6ad870f49fe482fc6b0dc93e774356ce2",
+  "archiveSha256": "02566504d796e27ae517e1b445b8514dc3bc2a5843d95fb5835fdffab85ddf1d",
+  "archiveBytes": 46891107,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 311,
+    "code": 45,
+    "licenses": 3,
+    "bytes": 1493279
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 4530,
+      "sha256": "e60359c7c6893677ac2bdf897cdcd336d0eb8f87a7337f487d168533d47ab925",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/ADOPTERS.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 21164,
+      "sha256": "15fabcd811a646303f8c24217c053a53809c5d171d8240dcfe287601ff1b6419",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/AGENTS.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 3051,
+      "sha256": "20c1ccd7478789be1868bef5893f8febc2dede82ebc584f95dfec5994b855166",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 2282,
+      "sha256": "495ecafb89a8fcd31dcdc808725340559b48d614a44cc5689886ee0e950d54de",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5848,
+      "sha256": "5cab38c3907ae884a2039370aa6df3b3820babd817d261c38da2a63580a1d11d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1069,
+      "sha256": "e05a1725b76b94ba2f8421112ba6014d5f99665d0b64d9021fc9e04a2e74f062",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/SECURITY.md"
+    },
+    {
+      "path": "app/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/784b9d23d8736e81678a6284.md",
+      "kind": "official-document",
+      "bytes": 5979,
+      "sha256": "db9805f7ba19f721690a28b9b8f551129d0bbe8722979de05cad981f3e653d2a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/app/README.md"
+    },
+    {
+      "path": "app/e2e-tests/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2b0ccaf4644a5959096327da.md",
+      "kind": "official-document",
+      "bytes": 2018,
+      "sha256": "b40a7160c384ca78c5d908f836df8bd6d1e03f955df69c06cd8ffc5f7125f14f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/app/e2e-tests/README.md"
+    },
+    {
+      "path": "backend/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a54d2dad1be5eea9e70f8514.md",
+      "kind": "official-document",
+      "bytes": 276,
+      "sha256": "fae8dc0d6a3c78c678d1fc412a1cb58041226f67bed5ca1d76a3d545a56a3eb1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/backend/README.md"
+    },
+    {
+      "path": "backend/pkg/telemetry/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/dfa8f8979cc58b533800ebf0.md",
+      "kind": "official-document",
+      "bytes": 851,
+      "sha256": "712b90680367aad22f21c95afafde5eacd3843f7881b9b071b21de4036abdcab",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/backend/pkg/telemetry/README.md"
+    },
+    {
+      "path": "backstage-test/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f159cca29cb36c0412b7ebc1.md",
+      "kind": "official-document",
+      "bytes": 1833,
+      "sha256": "709303c61895e9a523c216d4d726edfcf219e6dfec6199bf9b75fde4f290ea9d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/backstage-test/README.md"
+    },
+    {
+      "path": "charts/headlamp/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a8c4f6a09192a673301b3ea8.md",
+      "kind": "official-document",
+      "bytes": 27662,
+      "sha256": "f9d9514f8aba7c28dbd9d1aab58e7dc7149c44ed53b72cc773050cb06b37e9b1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/charts/headlamp/README.md"
+    },
+    {
+      "path": "charts/headlamp/tests/readme.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/011f4f6524dff4ae55fea1f3.md",
+      "kind": "official-document",
+      "bytes": 5310,
+      "sha256": "8828ee5cd19f20c6be917b55ae30e58167c2e388236af2b75114bcdfcc411ffe",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/charts/headlamp/tests/readme.md"
+    },
+    {
+      "path": "code-of-conduct.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f1a69a41a835b5265e1c58e1.md",
+      "kind": "official-document",
+      "bytes": 148,
+      "sha256": "2391c8911ce89b71c5ddc7cd7110808a0ffb1148a57e736b16f5fff8eb05eeb5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/code-of-conduct.md"
+    },
+    {
+      "path": "docker-extension/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e156c9b5b72d33e79a6928de.md",
+      "kind": "official-document",
+      "bytes": 530,
+      "sha256": "461c079379fc5e99703a660afc0d0fb81b8cf6074ce6ad196dc1acb805f242fd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docker-extension/README.md"
+    },
+    {
+      "path": "docs/contributing.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/419d79ae7d440d49b3fa5fa7.md",
+      "kind": "official-document",
+      "bytes": 7265,
+      "sha256": "665aa24644efe4d77ad70350045dc543ca5feefb9197d9d16680663cced2d773",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/contributing.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_clusterRole.ClusterRole.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/802f23bc99d4e7147f1353db.md",
+      "kind": "official-document",
+      "bytes": 7932,
+      "sha256": "934fc7e72ec1ffe373f55c4bceea32f5f70f1868ae08683ad1f8a740a0b4d0bf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_clusterRole.ClusterRole.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_clusterRoleBinding.ClusterRoleBinding.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/785a79cac7a71fb6fef7591a.md",
+      "kind": "official-document",
+      "bytes": 8858,
+      "sha256": "5b7524e4c7dfdfa3f8df9012f2aa6667e4f4d86287c0795d5b648ce5a5fa68d9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_clusterRoleBinding.ClusterRoleBinding.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_configMap.ConfigMap.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a2af8ea34bb223f30a54c3a9.md",
+      "kind": "official-document",
+      "bytes": 6859,
+      "sha256": "6368a93312c81bdd4e2cc3d839ee3633e56bef81ab9cc2c05b91d29c69aba558",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_configMap.ConfigMap.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_crd.CustomResourceDefinition.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/24b3223028bf8eda3799515e.md",
+      "kind": "official-document",
+      "bytes": 10742,
+      "sha256": "141cc84419652f19da7fe1e291278f243b40271569afaaef821d48a662078935",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_crd.CustomResourceDefinition.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_cronJob.CronJob.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2c74634a2c777319f1108c1f.md",
+      "kind": "official-document",
+      "bytes": 7339,
+      "sha256": "242477e977b7254496b70bd703bdfeeb0bc91fb7c7484122aba7c4daf2fa9af7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_cronJob.CronJob.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_daemonSet.DaemonSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e06cb62818ca4b72c05272c8.md",
+      "kind": "official-document",
+      "bytes": 7650,
+      "sha256": "b5aed3bfb65a2bf63d7266a86d0a44be315f2ec9d070155a5712949fdfe3eda8",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_daemonSet.DaemonSet.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_deployment.Deployment.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7576fc66a49df6e3533d2736.md",
+      "kind": "official-document",
+      "bytes": 7694,
+      "sha256": "65965e3796fcc68baf7a999b42540d6ad9d829c21e1d67947c3f725e66e7d68e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_deployment.Deployment.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_endpoints.Endpoints.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e16f81e2373796598b6a7975.md",
+      "kind": "official-document",
+      "bytes": 7723,
+      "sha256": "8939322f959df371ca28c518d311b2648aa25ecba4463b4f3d17300bb82cca69",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_endpoints.Endpoints.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_event.Event.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/194c87d2574d8b0703b858bf.md",
+      "kind": "official-document",
+      "bytes": 10641,
+      "sha256": "c9380e6aa72a5ea57367c2819a3d9d7da1fb227e3b01cb527263ddf9123f57ae",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_event.Event.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_hpa.HPA.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/fb62b07ab1bb297c97962106.md",
+      "kind": "official-document",
+      "bytes": 7576,
+      "sha256": "a57d277185fb55b88f6be5de932345231dd2eeb5326a89b265a14f13647f8eb4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_hpa.HPA.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_ingress.Ingress.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/174edd7ad774919fc432b2de.md",
+      "kind": "official-document",
+      "bytes": 8816,
+      "sha256": "9d657706128e7a783db11558be305226ce45961ead393b991eae46947dd434ca",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_ingress.Ingress.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_ingressClass.IngressClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3548a7b22157c29303102b3d.md",
+      "kind": "official-document",
+      "bytes": 8281,
+      "sha256": "5542d449f43685f240b39361fa39c8cd6d7412874ecf21e5e227dbb0d90bb60a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_ingressClass.IngressClass.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_job.Job.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e47e57d28a0bd01873cae9e4.md",
+      "kind": "official-document",
+      "bytes": 7446,
+      "sha256": "0ca322fc975d6d763373ea674ac7894e61bfd990f051e7a5c9963593ca52745e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_job.Job.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_lease.Lease.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8e2149e6b4359d8def8c4678.md",
+      "kind": "official-document",
+      "bytes": 6725,
+      "sha256": "4e8d6cc47e124327751e258c885e7740ba30ab8dbee6d4919b070ab203a540a4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_lease.Lease.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_limitRange.LimitRange.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0cf96b46500ed29064835c96.md",
+      "kind": "official-document",
+      "bytes": 6899,
+      "sha256": "403a0f9b4caae553e4837dd35ca4cab06c0264fe7b1b3bcf3aa1f164fc37c961",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_limitRange.LimitRange.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_mutatingWebhookConfiguration.MutatingWebhookConfiguration.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3575d6e503fad301773b4902.md",
+      "kind": "official-document",
+      "bytes": 9767,
+      "sha256": "bb390d70ccb16b00a5d1fb243fc0a2f9893b8b2f594a84fb01b2da89a88c5ac0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_mutatingWebhookConfiguration.MutatingWebhookConfiguration.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_namespace.Namespace.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1315c33a12be32bb4ddfd8ee.md",
+      "kind": "official-document",
+      "bytes": 8029,
+      "sha256": "3b74bc3708c8beb816c30e0e6f6000ce638dbcdbef9f31b045a9db20cfcb115c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_namespace.Namespace.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_networkpolicy.NetworkPolicy.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8170e1b2e48d20f5bf75d7d9.md",
+      "kind": "official-document",
+      "bytes": 7028,
+      "sha256": "8e67360c83fa1f31f556ff7d3b6311591ba0bfe074ca56097572d0e6b9f77a09",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_networkpolicy.NetworkPolicy.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_node.Node.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/dbc8391aa123adea771faae6.md",
+      "kind": "official-document",
+      "bytes": 10173,
+      "sha256": "abdfc1311a7b18289cb73c8ef085d5a4cc68868d2cc3292ad32a3c21b63c4bc9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_node.Node.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_persistentVolume.PersistentVolume.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8127c345e93460d6ce1cc1a1.md",
+      "kind": "official-document",
+      "bytes": 7860,
+      "sha256": "260a3737a6e33912105c4d635b443595a49b262fb1f04b589104a135201ca093",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_persistentVolume.PersistentVolume.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_persistentVolumeClaim.PersistentVolumeClaim.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f2874a4d21f804af93078774.md",
+      "kind": "official-document",
+      "bytes": 7540,
+      "sha256": "fb158fb1ce385a65fa5cdde7931b5576d6e7eb469c5dcdc3f9dfa6c82ae91302",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_persistentVolumeClaim.PersistentVolumeClaim.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_pod.Pod.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/95949fbc20ef44a2e32ca9b6.md",
+      "kind": "official-document",
+      "bytes": 9534,
+      "sha256": "e8b501e0d9b9d086f635e7e6c45530e99ba286af77fd0a5412f9319fd3f36391",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_pod.Pod.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_podDisruptionBudget.PDB.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b8717d95b24ba6a89467f7d2.md",
+      "kind": "official-document",
+      "bytes": 8444,
+      "sha256": "3b1123b1c785ead584266d0c293e83f913be929813ac70b8098b1b9312dc3bee",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_podDisruptionBudget.PDB.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_priorityClass.PriorityClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/23012c96824deeef7dd0a073.md",
+      "kind": "official-document",
+      "bytes": 8768,
+      "sha256": "a983b6e38e67af87b6afb9c0c5ce146425e5f690fa55ad4e6039c7c1861eb29a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_priorityClass.PriorityClass.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_replicaSet.ReplicaSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c0b34c4d6bcf95f74bc5c449.md",
+      "kind": "official-document",
+      "bytes": 8571,
+      "sha256": "c01ecaf0620737ed96deec7ea52a8794e1c18eaaf41753e9420f4d66acc09fcb",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_replicaSet.ReplicaSet.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_resourceQuota.ResourceQuota.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/00cdadfa3f2dd5af5c883df2.md",
+      "kind": "official-document",
+      "bytes": 8031,
+      "sha256": "eaed122b34c6ccf5747f943e192cf5d03f9bac677d4a2a7f869f11cb84a51af3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_resourceQuota.ResourceQuota.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_role.Role.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1927844885fc2c805a9f5f15.md",
+      "kind": "official-document",
+      "bytes": 6755,
+      "sha256": "b39e2d4c44f6132e7579cdd7cc05c295ef3f0cd6240b7f49d66b33a1966f7bc6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_role.Role.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_roleBinding.RoleBinding.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d0741756f943790c329abce8.md",
+      "kind": "official-document",
+      "bytes": 7405,
+      "sha256": "4a29c447fae4d9f10d83d4b53188ed4c911c5f0c7b0e0b6766be3bb2d4fe6aa5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_roleBinding.RoleBinding.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_runtime.RuntimeClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c7f32d0a6e947de39cc426fd.md",
+      "kind": "official-document",
+      "bytes": 7910,
+      "sha256": "5c94306f20d07dab5cab02a4005cc093e0b267a2bc9f4f83f375cba3df4ecc0c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_runtime.RuntimeClass.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_secret.Secret.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8d09c47c88f6ba05c28777ea.md",
+      "kind": "official-document",
+      "bytes": 6960,
+      "sha256": "32b64a13c9fce32aa78952286161981de16ff94767bcd1b5942e75e2f1e16b35",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_secret.Secret.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_service.Service.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ce4131331f098556fc1104f0.md",
+      "kind": "official-document",
+      "bytes": 8016,
+      "sha256": "b256816f66cce274f343a8e40cd3e4120656d39dd31d490c70c84ee5819292e6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_service.Service.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_serviceAccount.ServiceAccount.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/38cf97dca9a354d671b6393c.md",
+      "kind": "official-document",
+      "bytes": 7293,
+      "sha256": "cfde748ff4a3f2303f49d1840d03006ce5da1955ef21c46eae93d9ba7edc1626",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_serviceAccount.ServiceAccount.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_statefulSet.StatefulSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4127e61fbfb783ff7cdefcc2.md",
+      "kind": "official-document",
+      "bytes": 7491,
+      "sha256": "9ccc37ac9c670f56899d66790cfaa6180c2d7892ef7e9cb1c7fb4f267e9a7482",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_statefulSet.StatefulSet.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_storageClass.StorageClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/42e7cb79ecbbeac90e426463.md",
+      "kind": "official-document",
+      "bytes": 8461,
+      "sha256": "2c99725ee717e960567f6e2a0236acda67b56947cb3541889fe6e7c89d7038ca",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_storageClass.StorageClass.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_validatingWebhookConfiguration.ValidatingWebhookConfiguration.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5dd5e7a2f6370bd5027e4167.md",
+      "kind": "official-document",
+      "bytes": 9767,
+      "sha256": "367dd791d8f2f9b1baf873d37decc8de00d1f19708607e4f01e1ffd81b734adf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_validatingWebhookConfiguration.ValidatingWebhookConfiguration.md"
+    },
+    {
+      "path": "docs/development/api/classes/lib_k8s_vpa.VPA.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f0419dccaf1497c904c74432.md",
+      "kind": "official-document",
+      "bytes": 7818,
+      "sha256": "501a308f1b671c87f1b11338af95df35e74185d7e9dcbced3cabc78b578c3f2b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/lib_k8s_vpa.VPA.md"
+    },
+    {
+      "path": "docs/development/api/classes/plugin_lib.Headlamp.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/50ce491f73bd5045c357dd3d.md",
+      "kind": "official-document",
+      "bytes": 3763,
+      "sha256": "f5dc6f5c7e234ac43d0d64bad5998d7d5e38720bc39eb85d4ef64633329b0513",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/plugin_lib.Headlamp.md"
+    },
+    {
+      "path": "docs/development/api/classes/plugin_lib.Plugin.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/af24a44316955e97cdf3e1d0.md",
+      "kind": "official-document",
+      "bytes": 926,
+      "sha256": "1a4f9f535661bbc8a40f17d123a9d1eb2be0fb0219f526f4f2221791290e9bee",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/plugin_lib.Plugin.md"
+    },
+    {
+      "path": "docs/development/api/classes/plugin_registry.PluginManager.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5d7b8e153b705cacfb88147b.md",
+      "kind": "official-document",
+      "bytes": 4579,
+      "sha256": "3c09dc8c289c53c7a07c7decd3e283a039110f10794db8edc7a117e82c1cfba2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/plugin_registry.PluginManager.md"
+    },
+    {
+      "path": "docs/development/api/classes/plugin_registry.Registry.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6fb33409067150e8da8155ac.md",
+      "kind": "official-document",
+      "bytes": 4229,
+      "sha256": "955d77252c805fa67ba8661bc6f967858338806542819d2c9e889d5706caf72b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/classes/plugin_registry.Registry.md"
+    },
+    {
+      "path": "docs/development/api/enums/plugin_registry.DefaultAppBarAction.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/88d2a7880f7e2fa57940b089.md",
+      "kind": "official-document",
+      "bytes": 1044,
+      "sha256": "e5a6f0b0213a933075dfc5c52527c920f32bbb30982e83b1417e3b75b85a51a4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/enums/plugin_registry.DefaultAppBarAction.md"
+    },
+    {
+      "path": "docs/development/api/enums/plugin_registry.DefaultDetailsViewSection.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4ed617ba7c7c2c18ecb6599d.md",
+      "kind": "official-document",
+      "bytes": 2093,
+      "sha256": "85cca44c16671c8135cc55870e945d5ef7d8c234bfee37c885e2e4f204416dc3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/enums/plugin_registry.DefaultDetailsViewSection.md"
+    },
+    {
+      "path": "docs/development/api/enums/plugin_registry.DefaultSidebars.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/90a3785fc10e56ab7942fc58.md",
+      "kind": "official-document",
+      "bytes": 639,
+      "sha256": "95f2b1b45d7833f1978cff737b07f6ff50dd8e8dd417f856036a2f32918e1841",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/enums/plugin_registry.DefaultSidebars.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.ApiError.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b790a41b6841c52e0c8e63a3.md",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "3f28f95c4e90ff7c0d0a0883205ab91a2c1e594f01111d0fe02f3e5083fff646",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.ApiError.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.ApiInfo.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/96f9dc457d6cccddab39ab78.md",
+      "kind": "official-document",
+      "bytes": 828,
+      "sha256": "dfe5e805602024dc723d4111bc2eafaeba1d85bd1fa65d7e9e2fbb32477cb0e2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.ApiInfo.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.ClusterRequest.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/28cdcd5e739a255483a04a5d.md",
+      "kind": "official-document",
+      "bytes": 1458,
+      "sha256": "15ec406695762e1c697ad1dbd75f222595330bd6a4a51c6d440945d24df6e6ea",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.ClusterRequest.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.ClusterRequestParams.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3d734e138a07c3d890d6ba8b.md",
+      "kind": "official-document",
+      "bytes": 1896,
+      "sha256": "969434dfef081d7245a34bef8e102f9b2c439f86cb899b50adb07dd5b1104319",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.ClusterRequestParams.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.QueryParameters.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e6cc455fb423df666c8af342.md",
+      "kind": "official-document",
+      "bytes": 6765,
+      "sha256": "02510c80ad86ce148cdaa0f8c1829ddb2b349019893805534605eeb747b67817",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.QueryParameters.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.RequestParams.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8f4c9896fdea238aa62b4919.md",
+      "kind": "official-document",
+      "bytes": 1373,
+      "sha256": "8f8851e6de1505ca64d878590292a969c76659f3af89175a698da68e62ad7624",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.RequestParams.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.StreamArgs.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c4a7c848c298a4d856fe4056.md",
+      "kind": "official-document",
+      "bytes": 2723,
+      "sha256": "2a3dab6035c9fbf6875eb163402baa51e8c07c535bc0df73b0fcb1fb0061fc06",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.StreamArgs.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_apiProxy.StreamResultsParams.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/605401dba83f88e0d5470974.md",
+      "kind": "official-document",
+      "bytes": 882,
+      "sha256": "cd4574f55afee080ffde39bcf0465cf9edb18ef508f2cc46e0442fc645994fe2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_apiProxy.StreamResultsParams.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.ApiListOptions.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/dc56eb857a3082c5f3776fae.md",
+      "kind": "official-document",
+      "bytes": 8774,
+      "sha256": "290b1d5e02d52a4f22f4f470d6e41cf3942f583f53ec66d54a44011eebcf891a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.ApiListOptions.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.ApiListSingleNamespaceOptions.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/aade345a1ebb17f1e18f2b7b.md",
+      "kind": "official-document",
+      "bytes": 1058,
+      "sha256": "ad1c4f300be0925b2abe665596fb339059836e2e76aa0f3bdbd468586cd2640c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.ApiListSingleNamespaceOptions.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.AuthRequestResourceAttrs.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/bd30d75aa830eccec56506db.md",
+      "kind": "official-document",
+      "bytes": 1589,
+      "sha256": "1b55437e91cd5d8994e1f4fbc35db724af8c81957f8cf1120ca79c85b8cf4a1d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.AuthRequestResourceAttrs.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.Cluster.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e7434a0c7f7b6f781bac7825.md",
+      "kind": "official-document",
+      "bytes": 818,
+      "sha256": "1bbfaa9b3cff69ab78ac7bd2a44d3aac784856b6af5dff6958fe99b433c487c2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.Cluster.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.ContainerState.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b9c0f4fe5481cfc65441e1d1.md",
+      "kind": "official-document",
+      "bytes": 1204,
+      "sha256": "7d05bb4aa0bec4708675966e17630a3e0f839b60e1c45df045c22f2720288740",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.ContainerState.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeCondition.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d6ca3dfeb1894903ad9dcf8c.md",
+      "kind": "official-document",
+      "bytes": 1835,
+      "sha256": "efa1ba515aabc513296ef8535247b5fd26cd741aaaf5e72cd159739510b657f2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeCondition.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeContainer.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/eb2e40afc60d56a4f87eb0af.md",
+      "kind": "official-document",
+      "bytes": 11593,
+      "sha256": "0579631335a3da244cb4de7ac64add988bf95131947d6d12e6abf3084917a633",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeContainer.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeContainerProbe.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f3641c7e64d502ca0cd6ccda.md",
+      "kind": "official-document",
+      "bytes": 2196,
+      "sha256": "9359f25e3da8193a66c0385f8ba0ffc37fe4269fdad77ddc75a2227f2f98e878",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeContainerProbe.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeContainerStatus.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/219bb931d783b1db32f2b40c.md",
+      "kind": "official-document",
+      "bytes": 2029,
+      "sha256": "a9c64624a0ff6f86add710b14331d0b48fa02ec68ed80759da050fe825978d85",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeContainerStatus.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeManagedFields.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/09c7579930ff6e5b75a1902b.md",
+      "kind": "official-document",
+      "bytes": 4262,
+      "sha256": "111ddb73ea104f8fd60a1d92264d9987efe1f2dcc9de0a3e6adc86f1f5ac0520",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeManagedFields.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeManagedFieldsEntry.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/686c9f53558cad887b89e285.md",
+      "kind": "official-document",
+      "bytes": 3221,
+      "sha256": "61c24511b160b01b1c2b0c33bcd9c6194ab5a37e82ec48eca62f5a548f4201fa",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeManagedFieldsEntry.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeMetadata.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7ff40dbe1e62f1407bd9fb90.md",
+      "kind": "official-document",
+      "bytes": 9146,
+      "sha256": "f291e0e8448c6a88a28b8b6c954c49c6898412c2557dd244c271c944f3b0e494",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeMetadata.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeMetrics.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6ec5e363ebe2bd61d1c49ac7.md",
+      "kind": "official-document",
+      "bytes": 1069,
+      "sha256": "d155be1d631f40100984620437bd65564a213460ecdb9887b370cd3f52be2dfa",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeMetrics.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeObjectIface.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/81094633c03b3149086ab6b2.md",
+      "kind": "official-document",
+      "bytes": 4506,
+      "sha256": "74f4083a041b98104944ddc94423389dbcd00c15c47a98d26b43eed79d97d05d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeObjectIface.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeObjectInterface.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4b535dd6972ef0dc928329a7.md",
+      "kind": "official-document",
+      "bytes": 3494,
+      "sha256": "a5fc419619b6a657e6cee46f9080f2e8b946651136421e65a5abb9d0c3f102ba",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeObjectInterface.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.KubeOwnerReference.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e2aaade7d6c67c7f5bae7cdb.md",
+      "kind": "official-document",
+      "bytes": 2001,
+      "sha256": "5ed51d15cf4b4bcba72cf9a1d1299c63a5e6596703c23460bca5432fd0380368",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.KubeOwnerReference.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.LabelSelector.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/39bce46a161731807c0ca5c0.md",
+      "kind": "official-document",
+      "bytes": 721,
+      "sha256": "3283f5751d34ac43b701c62ed248ac6a1f6033a1389be61244518389be94ec59",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.LabelSelector.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cluster.StringDict.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/80843575da0e03877da96256.md",
+      "kind": "official-document",
+      "bytes": 212,
+      "sha256": "6b11b75f58bd6b4cb81f6c9b15f2d259f197f0efa3cc00afd1e8c14ede1f78b4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cluster.StringDict.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_configMap.KubeConfigMap.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a2ba2059edf958322d879471.md",
+      "kind": "official-document",
+      "bytes": 1856,
+      "sha256": "e77816fb5ddda04b37a34145a812772003df82c5b9311904e93958eb5f3d1fa9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_configMap.KubeConfigMap.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_crd.CRClassArgs.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/51b57833ea92c3c3c7d5fe0f.md",
+      "kind": "official-document",
+      "bytes": 937,
+      "sha256": "5ef361e7f5ea7ece6e2f7b5f3e847c34f647ef9d1af15d31ee9248ec18bd02c8",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_crd.CRClassArgs.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_crd.KubeCRD.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f7a2b9ae29afa1894d88b37b.md",
+      "kind": "official-document",
+      "bytes": 3195,
+      "sha256": "42a907f49c4b28c7a800a91db12ffe297e14768995bf3c1b40fc5d522fc77228",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_crd.KubeCRD.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_cronJob.KubeCronJob.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8894a96c4e9c67feadb22682.md",
+      "kind": "official-document",
+      "bytes": 4090,
+      "sha256": "4ffcff55297b455de42fe9431ff7d7d6a339076090459ca3923acb5cf10a2a97",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_cronJob.KubeCronJob.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_daemonSet.KubeDaemonSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a1cdb71817ec108a058e618d.md",
+      "kind": "official-document",
+      "bytes": 2794,
+      "sha256": "56e431215de980581a2e6939774e0039a383a0d7a38cab04a21718ec5d2df5f1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_daemonSet.KubeDaemonSet.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_deployment.KubeDeployment.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5762c3d1c5ecfbf351584e49.md",
+      "kind": "official-document",
+      "bytes": 2648,
+      "sha256": "1c36c1d5d77e6cf919cea1da7a0948adb27f6c1d9c3ba9756309593492bbecc7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_deployment.KubeDeployment.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpoint.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/9fa9aab6a354a741ef204420.md",
+      "kind": "official-document",
+      "bytes": 1880,
+      "sha256": "116e237eb88471721250f1dcff6da00b1ab1d0b2624c1e1c12983c524e957338",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpoint.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpointAddress.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c4ddde41ab84a4308655b7f9.md",
+      "kind": "official-document",
+      "bytes": 1235,
+      "sha256": "5246583e0bba58aa905bce62872cbb4a4df4292bf6c06859db58ddae11f2dd94",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpointAddress.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpointPort.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2fd950601ef9d47b7f0ad402.md",
+      "kind": "official-document",
+      "bytes": 952,
+      "sha256": "e0523fca337443f703619a121f2697e2304aa4750b1f1813297352ba621186d7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpointPort.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpointSubset.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/857090712fa0c762efaf33f8.md",
+      "kind": "official-document",
+      "bytes": 994,
+      "sha256": "08c85caf88cc0b8aaac751ebeedef748b68a577818f4faeb7aa227a9ed6ebbad",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_endpoints.KubeEndpointSubset.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_event.KubeEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1ad46e8ae7b9b52cc322557d.md",
+      "kind": "official-document",
+      "bytes": 1397,
+      "sha256": "ef5dfa4f28910fde58a162e5c2f7c5512c87ce3abb204fccd67fc42570a4e841",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_event.KubeEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_hpa.CrossVersionObjectReference.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/18c69059df8c1bf53941fd8a.md",
+      "kind": "official-document",
+      "bytes": 725,
+      "sha256": "bd668bf6ad0757d1940ef44d57a699bf89c3f10ecc708100ca264672c1e4fd3b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_hpa.CrossVersionObjectReference.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_hpa.KubeHPA.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/37d113a10b5bc03749b574df.md",
+      "kind": "official-document",
+      "bytes": 1942,
+      "sha256": "4e5dfa22fe74d5eb00c206746c17274143be5db5614c4278656f6820a9003db2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_hpa.KubeHPA.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_ingress.IngressBackend.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3fd0eb3a5163ac5a3c2c878d.md",
+      "kind": "official-document",
+      "bytes": 913,
+      "sha256": "6592836ad0a61a356f281dcc9b094b23a1757da5f424362ea3da18731fc47c9c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_ingress.IngressBackend.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_ingress.IngressRule.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/af655b6e9427647e2259bb1c.md",
+      "kind": "official-document",
+      "bytes": 725,
+      "sha256": "80941a275230ef75b5b833a8e80c34d3ddf2e5137cf9d4c35a55d6d2027a3916",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_ingress.IngressRule.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_ingress.KubeIngress.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b71a2c39848b4df7bfb6e4d5.md",
+      "kind": "official-document",
+      "bytes": 2883,
+      "sha256": "959c3603d0884ee44aab5c5d7105dcc431d3cf7866a4ab0f50d3d358b963084d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_ingress.KubeIngress.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_ingressClass.KubeIngressClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0e75711828637a47894761cc.md",
+      "kind": "official-document",
+      "bytes": 1989,
+      "sha256": "7d92c68011e8023cd85265e0c94736809ca2df76c75571d2b4b3edf45f2f21e3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_ingressClass.KubeIngressClass.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_job.KubeJob.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/523d6b90c598dac586327f17.md",
+      "kind": "official-document",
+      "bytes": 2461,
+      "sha256": "de55d38a7f31c934a1266cb58994da0557dad04f138b80ea082f186d4eb1d1cf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_job.KubeJob.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_kubeconfig.KubeconfigObject.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4910b67bd3c6fcbb018d3b87.md",
+      "kind": "official-document",
+      "bytes": 4914,
+      "sha256": "0b2aac2acb26bf86e4aa7a75cf1444f6ff770d26405ab064ec94553d80989556",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_kubeconfig.KubeconfigObject.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_lease.KubeLease.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ab044091da8d3e4b7d33dd06.md",
+      "kind": "official-document",
+      "bytes": 1814,
+      "sha256": "b2714d2ac64fc4d26d97cc718d7154070633ba0938543b1f049e71d9589edda8",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_lease.KubeLease.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_lease.LeaseSpec.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/67280f611878aab4a0e129bb.md",
+      "kind": "official-document",
+      "bytes": 936,
+      "sha256": "cbd18006271b93ba8b666ca11c1aad5d1d3bfb2caac0428be33d2812e25c2ef9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_lease.LeaseSpec.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_limitRange.KubeLimitRange.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/01430e1d890dce4ba9148591.md",
+      "kind": "official-document",
+      "bytes": 1881,
+      "sha256": "f64aaefd4be3bc0ac9f2b2ee44e3968b2124afc9d66bbb309e92a5ec282fb915",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_limitRange.KubeLimitRange.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_limitRange.LimitRangeSpec.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2133b691bb6eeb984110a7ab.md",
+      "kind": "official-document",
+      "bytes": 622,
+      "sha256": "bd1708bd7935b4fda8edd8b6b69e11f4103284753eee3fd4fdd542f8fa6addb1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_limitRange.LimitRangeSpec.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_mutatingWebhookConfiguration.KubeMutatingWebhookConfiguration.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6e50574d0542e8a518da3f9e.md",
+      "kind": "official-document",
+      "bytes": 2828,
+      "sha256": "c9811216f97aa528788705f0b535f9bfde003f8fe7a8f27cfb921c2cbdfa2450",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_mutatingWebhookConfiguration.KubeMutatingWebhookConfiguration.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_mutatingWebhookConfiguration.KubeRuleWithOperations.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4c20657f383280db350a58ad.md",
+      "kind": "official-document",
+      "bytes": 1449,
+      "sha256": "63d474fe31caae027b6b9dda03f197e22390dd722c8bca21696fe9d0bba869ca",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_mutatingWebhookConfiguration.KubeRuleWithOperations.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_mutatingWebhookConfiguration.KubeWebhookClientConfig.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0aa96b8026d4c1aa835dcd04.md",
+      "kind": "official-document",
+      "bytes": 1148,
+      "sha256": "db889938f5e7ea65e69638f64c836f943218db083064280cfc1ecd93f68d9794",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_mutatingWebhookConfiguration.KubeWebhookClientConfig.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_namespace.KubeNamespace.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d229365cb36d2920b17d843a.md",
+      "kind": "official-document",
+      "bytes": 1908,
+      "sha256": "f007b45e4a34c98cdd2dee9df18c1ef625612adba10e93e8663605fed5efe76e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_namespace.KubeNamespace.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_networkpolicy.IPBlock.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6247c083d0cfb6a65f59d366.md",
+      "kind": "official-document",
+      "bytes": 580,
+      "sha256": "ea90c910695a5a78ec909fdc575e03ff0eba26b4972b363e3e1fe37c84910d8d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_networkpolicy.IPBlock.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_networkpolicy.KubeNetworkPolicy.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/05b8b8eff39efa937fcbf189.md",
+      "kind": "official-document",
+      "bytes": 2663,
+      "sha256": "993b88a097559cd0e0d1aaec6a08b1b1f5ddb73868ab7ab4f0f2b0e160a69b06",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_networkpolicy.KubeNetworkPolicy.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyEgressRule.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a4128a9d77a61d1108796b7a.md",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "fbcf27490e1338f1be38eb80adfd34c3bc847964090313f4b4f91fa7b757172e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyEgressRule.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyIngressRule.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a6e48ebb5b53f440d3fb6b39.md",
+      "kind": "official-document",
+      "bytes": 745,
+      "sha256": "2c41136cf33266730d6918d6686eae06769617e7692a73369b839ad3ee3cf393",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyIngressRule.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyPeer.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/98ec6855d63dbfd359bbe044.md",
+      "kind": "official-document",
+      "bytes": 997,
+      "sha256": "1bb18349d4c479790679429fee65700a200ddc16d248c2f3878e8859bf65013e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyPeer.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyPort.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/28a0beda377e220f3298aef0.md",
+      "kind": "official-document",
+      "bytes": 848,
+      "sha256": "b3369254e5fab6d376b380f987b04429549ae7807aa0365b6e1a43d3973263dd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_networkpolicy.NetworkPolicyPort.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_node.KubeNode.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b26adc531dde6d511d557c63.md",
+      "kind": "official-document",
+      "bytes": 3840,
+      "sha256": "1116004346bf6d7b597baf55243942eea7ea30e75b74d513989645915ed5f391",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_node.KubeNode.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_persistentVolume.KubePersistentVolume.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c4b8c4dce4a47eb9f2344c79.md",
+      "kind": "official-document",
+      "bytes": 2412,
+      "sha256": "2900efad4c508d756622c288a3db5a325c471dd46e456a5f361102bb52e13910",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_persistentVolume.KubePersistentVolume.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_persistentVolumeClaim.KubePersistentVolumeClaim.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/643ea8f8a83f3eb6a2697855.md",
+      "kind": "official-document",
+      "bytes": 2927,
+      "sha256": "c40eeed39747a6740bab1da40c5ee64afc8836b566d713d17dba50da4b2343ee",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_persistentVolumeClaim.KubePersistentVolumeClaim.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_pod.ExecOptions.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/54c715da71637ac0ce25431d.md",
+      "kind": "official-document",
+      "bytes": 4058,
+      "sha256": "dd0a7a7a3f43865f8cd7cfed5d60596b4c9b06ce1b48def6d5730f5ba78364da",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_pod.ExecOptions.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_pod.KubePod.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d8678294035a04c8c4e99c85.md",
+      "kind": "official-document",
+      "bytes": 2636,
+      "sha256": "28d39ff59e1f1eb2e93c109f9776a9499b6299764137526b344fc32adba8beb1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_pod.KubePod.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_pod.KubePodSpec.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/01d2f2aeae9470bc2f5628c1.md",
+      "kind": "official-document",
+      "bytes": 1761,
+      "sha256": "1f16b384757db22716c82f720e8789ebb949781ce4e5082b2fa56c6421bd3a3e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_pod.KubePodSpec.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_pod.KubeVolume.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/54b397f647758f1d52ba7d7d.md",
+      "kind": "official-document",
+      "bytes": 379,
+      "sha256": "addc487196d8372b2c06638b88aa3791d9a925424f2ac12fb6fc9158051f3f38",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_pod.KubeVolume.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_pod.LogOptions.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/cb48f00ebf0670642644235f.md",
+      "kind": "official-document",
+      "bytes": 1457,
+      "sha256": "14b4e877b69a649011fe507aadad0b2125e886c2bf7b74e0e4aa884f50939d0a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_pod.LogOptions.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_podDisruptionBudget.KubePDB.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/faaee52dba7a9d902826f06b.md",
+      "kind": "official-document",
+      "bytes": 3115,
+      "sha256": "e46a77de94bdcd967ee9df6424aadbd0dbdc0c8a4086fe057032ba576b4397f7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_podDisruptionBudget.KubePDB.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_priorityClass.KubePriorityClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b004ea012a046492b3551f50.md",
+      "kind": "official-document",
+      "bytes": 2490,
+      "sha256": "30a57c181b52bcae8ab81881c7b8b9263ae96da15d79a1c87c4b91569bd03f74",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_priorityClass.KubePriorityClass.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_replicaSet.KubeReplicaSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0bb2a8753a2695724da60399.md",
+      "kind": "official-document",
+      "bytes": 2897,
+      "sha256": "8881959f00a16918c851e0ad4d85fa7ede2ebbcc588b16f19837d641aa48bf29",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_replicaSet.KubeReplicaSet.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_resourceQuota.KubeResourceQuota.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/60672d5340b4ba4eb0277995.md",
+      "kind": "official-document",
+      "bytes": 2052,
+      "sha256": "3c64dd4a356321c016e96ca96232403d85fa5906aaad9dee7839ae357b39bf30",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_resourceQuota.KubeResourceQuota.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_role.KubeRole.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/98bf46afdc640746d5c6bb0b.md",
+      "kind": "official-document",
+      "bytes": 1984,
+      "sha256": "3785adb34a490a926d3ba48a01662ed9ac64668aec2f8901cd4d523c72b8d16d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_role.KubeRole.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_roleBinding.KubeRoleBinding.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/9ce88bc9734740fe31122fe8.md",
+      "kind": "official-document",
+      "bytes": 2251,
+      "sha256": "4246320108b69e2c82af9a46b2087147eb0741f5747fa3667efb97316da6066b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_roleBinding.KubeRoleBinding.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_runtime.KubeRuntimeClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a5e179a05a1d0658c6d5029e.md",
+      "kind": "official-document",
+      "bytes": 1825,
+      "sha256": "e3d2269d00e8582ef516a4ff21032d8dacc72af3c1fa43d1b83011ecdb47a3f6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_runtime.KubeRuntimeClass.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_secret.KubeSecret.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/523640f3f32843f3520f6fa0.md",
+      "kind": "official-document",
+      "bytes": 1999,
+      "sha256": "0ceb895e6bddff4f7bb5d93b4b965a4d5fa70fa81413c9d82a78964bede00da1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_secret.KubeSecret.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_service.KubeLoadBalancerIngress.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f30f819b581a47b8d670a139.md",
+      "kind": "official-document",
+      "bytes": 833,
+      "sha256": "0b1ffae1f8cd6d9d2cae881146763e79082d3d850785a25197940f20cd1d4bcc",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_service.KubeLoadBalancerIngress.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_service.KubePortStatus.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d67f64b7363be69d741b8d5c.md",
+      "kind": "official-document",
+      "bytes": 735,
+      "sha256": "cd62ca5da005fb88235c0a7b4f39ef48950c541488488fbb470f4eac76eb6ef8",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_service.KubePortStatus.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_service.KubeService.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/47b9551484fb10cd58497225.md",
+      "kind": "official-document",
+      "bytes": 2722,
+      "sha256": "a2f9d61f9e991222da3818dd2819cd1e4876498a3a922a3893d3472f5e31e91c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_service.KubeService.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_serviceAccount.KubeServiceAccount.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/31008dd00524ea528c53ecc2.md",
+      "kind": "official-document",
+      "bytes": 2000,
+      "sha256": "54b675bdc2caae1560a8d8be0f8d06f0e92e594d439a5e0d237c79631c83e1cc",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_serviceAccount.KubeServiceAccount.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_statefulSet.KubeStatefulSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e4b3bac2b3ad734f77e5c4f7.md",
+      "kind": "official-document",
+      "bytes": 2798,
+      "sha256": "29893342c8364bb62c2741b725a48b0f0467fa829fbb4c8e0bd461975777be88",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_statefulSet.KubeStatefulSet.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_storageClass.KubeStorageClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6ab43ea87d5aee140ec07540.md",
+      "kind": "official-document",
+      "bytes": 2277,
+      "sha256": "4773cdf92686d0740b1c06030fc7dd45fc0443249c8995517c24daa174a85206",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_storageClass.KubeStorageClass.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_token.KubeToken.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5e6d4b929c4a0de98cb4ecb3.md",
+      "kind": "official-document",
+      "bytes": 2202,
+      "sha256": "08aef1baa26c63e3e87c4572e681390391cd1d653f93ea36ea6bf8523b193265",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_token.KubeToken.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_validatingWebhookConfiguration.KubeValidatingWebhookConfiguration.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d87981603b1b2ec015bb805c.md",
+      "kind": "official-document",
+      "bytes": 2812,
+      "sha256": "c36f01ecf03ae84c7c02c96470da7b72b0ae6208f129087912768b0481895819",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_validatingWebhookConfiguration.KubeValidatingWebhookConfiguration.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_k8s_vpa.KubeVPA.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/fa8658fce209e3914a793cb9.md",
+      "kind": "official-document",
+      "bytes": 1938,
+      "sha256": "ebae3a1b07620fe287b8b61bcd024e4f6ac332bd4c1115e502b6afbb5d7fe2e1",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_k8s_vpa.KubeVPA.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_router.Route.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/33b75426440df70212bf4042.md",
+      "kind": "official-document",
+      "bytes": 2835,
+      "sha256": "4b61cb16c62878ae3f9de3651e34d55da5b959e9de7dce61f1d0c4d62fd46248",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_router.Route.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_router.RouteURLProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2b6d40c411155f48cede0b64.md",
+      "kind": "official-document",
+      "bytes": 397,
+      "sha256": "644de415e082aeec3583675f4047312342e1a11c5c19c2d00ae820864ca77ce3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_router.RouteURLProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/lib_util.TimeAgoOptions.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2032a42fb2b06b5d0e19c0e6.md",
+      "kind": "official-document",
+      "bytes": 394,
+      "sha256": "4bc8c2036eac0823a8c987c65a916a6d8302f517a691a4b40b834bce7f9e4e25",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/lib_util.TimeAgoOptions.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_lib.AppMenu.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c68e096f86d66bb1af33d848.md",
+      "kind": "official-document",
+      "bytes": 995,
+      "sha256": "5eafbc57760033b2c2ad8e2c94f37012d601f774921996a6a28c7602a7c47439",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_lib.AppMenu.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_lib.DesktopApi.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5ef3b4bfc8c2f25faf1823c0.md",
+      "kind": "official-document",
+      "bytes": 847,
+      "sha256": "870dad5b5a6759906a6a25cd4d4db0579d2896ac12ed81bcc605f930baca9a3d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_lib.DesktopApi.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.AppLogoProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/01b8138c0040a5882bdf7bf6.md",
+      "kind": "official-document",
+      "bytes": 1357,
+      "sha256": "7cdb85f15a0d51ff5e02a1b62077a8a932f45b015cb60bb4c4e1fe802836e212",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.AppLogoProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.AppThemeRegistrationOptions.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8d326285b95df5e942741b2d.md",
+      "kind": "official-document",
+      "bytes": 549,
+      "sha256": "6232ee3867ea8b7933cfdb156ecb28aaae1f01c722ea2cb78c50f0c1e317654f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.AppThemeRegistrationOptions.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.ClusterChooserProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/89d67e56d7535d312df9c800.md",
+      "kind": "official-document",
+      "bytes": 820,
+      "sha256": "bf49e8359f5858d72a97b88f2e0e18854e73a29165f2999cdabb4be2bfed168e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.ClusterChooserProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.CreateResourceEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/da75cda347e1075ab6e00e3e.md",
+      "kind": "official-document",
+      "bytes": 892,
+      "sha256": "01cec281cd4db14a330734c385495b8e1c90bb637842f605e9d646aea2b9ce68",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.CreateResourceEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.DeleteResourceEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/254a4568258008cd111c120b.md",
+      "kind": "official-document",
+      "bytes": 1342,
+      "sha256": "9602d1a4238e4b99bc539e9d1a31d9ff248be5d512bd8cd03f9b85f64580b288",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.DeleteResourceEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.DetailsViewSectionProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ae5f7065e4449247e7f41113.md",
+      "kind": "official-document",
+      "bytes": 464,
+      "sha256": "460f616138221ac9751301f068a99e4039d3966fb97e9f8abbe2c99d2651df81",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.DetailsViewSectionProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.EditResourceEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/272a6bdf83334ac69d5ff0a9.md",
+      "kind": "official-document",
+      "bytes": 935,
+      "sha256": "da310a087c84770016a64ba4acdb344935931730d181a0624a96594fae010859",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.EditResourceEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.ErrorBoundaryEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6fdb2621f32a0827f80450cf.md",
+      "kind": "official-document",
+      "bytes": 676,
+      "sha256": "437d27ffeda1d170e1f972cc97777ceefd5392addf79ffea0eec809550be2907",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.ErrorBoundaryEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.EventListEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/84aef0f2874d06c0be37dc12.md",
+      "kind": "official-document",
+      "bytes": 922,
+      "sha256": "c00523e117035454ebbb54eaf851510cfc86ff32a5a96d05c07e6af1af565729",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.EventListEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.HeadlampEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4108bbf9c3916fd0bae6a01d.md",
+      "kind": "official-document",
+      "bytes": 905,
+      "sha256": "518ddafcb1cef8b176d5fd7026964f1ba990d453d382b9e565efda776c38dfd4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.HeadlampEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.LogsEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3c83dae727f243380bbf8659.md",
+      "kind": "official-document",
+      "bytes": 951,
+      "sha256": "db0a3fb564ed32c2b3778bd85c868bdb5199e4a3b4726b6675be05f2ddd53a3a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.LogsEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.PluginLoadingErrorEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/089f23e685aff6c5b8b099a1.md",
+      "kind": "official-document",
+      "bytes": 1063,
+      "sha256": "7de89aa3effaab3106a2b833cf363c31748e67a84ec72dbfae745181ac2b9c41",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.PluginLoadingErrorEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.PluginSettingsDetailsProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/462155e7e238aae1c4abca17.md",
+      "kind": "official-document",
+      "bytes": 1095,
+      "sha256": "73e2295218772edb79737e4d3513c31065621e815bbde1fb8b6a72da5b75e459",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.PluginSettingsDetailsProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.PluginsLoadedEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5878aeeef3eb842669638e5e.md",
+      "kind": "official-document",
+      "bytes": 848,
+      "sha256": "8ec9f6cb82ff0faa7427f488a728ade4648bc22e2f5e21b1a787ede766fa517e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.PluginsLoadedEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.PodAttachEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/72271a4430aac3c8b5f47b83.md",
+      "kind": "official-document",
+      "bytes": 1009,
+      "sha256": "6295ca5b622363cee4aba6ebd8e1853b52268b4d68c3bc613af099352796d84d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.PodAttachEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.ResourceDetailsViewLoadedEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0568e2faad6068515b5755db.md",
+      "kind": "official-document",
+      "bytes": 899,
+      "sha256": "a15774631542dbb240c0df36547e2cbfdc26259a7b33e3aed8bb8f344699d3d3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.ResourceDetailsViewLoadedEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.ResourceListViewLoadedEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/23e5f2f51b0aef4c5a36ba37.md",
+      "kind": "official-document",
+      "bytes": 966,
+      "sha256": "f4ce838221337991d466db197d7cc385395f5ee63e1078e53874a164afd73d36",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.ResourceListViewLoadedEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.RestartResourceEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8ecb24da044488f84b8f7907.md",
+      "kind": "official-document",
+      "bytes": 964,
+      "sha256": "b89da0c2c58aeb644cc629b6268346f5b4495a460269d8915b8e8cee1d33925e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.RestartResourceEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.ScaleResourceEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/aacaf025ffacc388e670cdb3.md",
+      "kind": "official-document",
+      "bytes": 953,
+      "sha256": "ad60ef981b7e15eeb6ec628e4ae78f479968bd498dcd01fbb5e424ad21d8e597",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.ScaleResourceEvent.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.SectionFuncProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/63de0896a9064ca80cc7b9ea.md",
+      "kind": "official-document",
+      "bytes": 739,
+      "sha256": "c4ce6b33ad5d21052cd34951dd602c5da6cac014b742fc27ee6e66f041898f9f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.SectionFuncProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.SidebarEntryProps.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d8786d164b08535143cb4080.md",
+      "kind": "official-document",
+      "bytes": 2487,
+      "sha256": "1d0c5a5f001968f73eb9b63468012797b536596ce0ee92c5c033499263274001",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.SidebarEntryProps.md"
+    },
+    {
+      "path": "docs/development/api/interfaces/plugin_registry.TerminalEvent.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/58a41b863cdbff334f028198.md",
+      "kind": "official-document",
+      "bytes": 966,
+      "sha256": "48e86b9731154ec993be123027e743b3b7af0500597615890760c584572e72c0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/interfaces/plugin_registry.TerminalEvent.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f3c176473f8b22fc7d62a81a.md",
+      "kind": "official-document",
+      "bytes": 7283,
+      "sha256": "014952ee2cfd1a4bf8a2093102626b1ef97f3deb39dfb239073fb732d46f3f95",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_apiProxy.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/db0c9fadc5e23d5b6910da3e.md",
+      "kind": "official-document",
+      "bytes": 23241,
+      "sha256": "a4027f6e9e3fe17e18edd2f83915dd7b4287e004566a0f110a79a404cdd75978",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_apiProxy.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_cluster.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/10395232e435c833336f5033.md",
+      "kind": "official-document",
+      "bytes": 2552,
+      "sha256": "9e216fa90bd169adf819dee5726b9a70284842303afe2000e6b17def4aa05a8e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_cluster.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_clusterRole.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/46594eb104684b5b204b86c2.md",
+      "kind": "official-document",
+      "bytes": 146,
+      "sha256": "9e9778ad3ae3784558bc52f444853fef21db17b49d070a53855c4cb89453213c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_clusterRole.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_clusterRoleBinding.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ee2e01f82d7ee349c4d5b74e.md",
+      "kind": "official-document",
+      "bytes": 181,
+      "sha256": "476a33e3541836d65a61accb825153074fdb391be810f864d471b8224a284e68",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_clusterRoleBinding.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_configMap.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c00ee58878cfd94eee51faa4.md",
+      "kind": "official-document",
+      "bytes": 220,
+      "sha256": "98248b4bcdd6170cee60e3f7ad8ed0cfb01ea45458d62d5d40750933e2e8bf22",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_configMap.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_crd.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/184da4be4d7d25ae443fb25c.md",
+      "kind": "official-document",
+      "bytes": 1386,
+      "sha256": "79909f607fd322700dc8cd8b60b085391f76a2f1f78e5caa1183a2101203091b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_crd.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_cronJob.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e29cfed146f2f21139120f62.md",
+      "kind": "official-document",
+      "bytes": 204,
+      "sha256": "2acb7e08eb1cdaa1be29275566dd214be22c7868347764e51df592d52724b9f5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_cronJob.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_daemonSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d3f47972175ca363a9c3e317.md",
+      "kind": "official-document",
+      "bytes": 220,
+      "sha256": "e0bb442746ef4e1c5cda43ee3192245996ef116d9d6f70f1e0c3531bbe2fb72b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_daemonSet.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_deployment.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/78200eac94de2883521241fe.md",
+      "kind": "official-document",
+      "bytes": 228,
+      "sha256": "942a51ff724fef22fbe429e066c3ba5f8a4607aae407257f43d8910dd6501dd5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_deployment.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_endpoints.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5e4e8caea107eb8b6ad24a51.md",
+      "kind": "official-document",
+      "bytes": 450,
+      "sha256": "9a803a624568a66f2ea7af70494e1cd1fc0b677395155e4d841879ebd1a29c36",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_endpoints.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_event.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d3997c264543b6b6de607be0.md",
+      "kind": "official-document",
+      "bytes": 188,
+      "sha256": "af02affbe1a4d4f92793fbb0d60c0f0769479d7a078b94c98892df83a584c126",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_event.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_hpa.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e2cd784bdb93424c31f182ea.md",
+      "kind": "official-document",
+      "bytes": 262,
+      "sha256": "3e643a137c868831021621af6d6a47fd892b95ff56e39a863f194728a4a52c31",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_hpa.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_ingress.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/03e8e4417618e418247a1cc3.md",
+      "kind": "official-document",
+      "bytes": 334,
+      "sha256": "632ff169fb1ac902bcbf91acf0f40bd7323e33543f1cf3fab558fdd5b5aed8a0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_ingress.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_ingressClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ca437468bcbaa74e257f9c85.md",
+      "kind": "official-document",
+      "bytes": 244,
+      "sha256": "011f569918057e6fb391cae6f67bb3c1b7375bea7440d4cff9f1ab309daa01e2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_ingressClass.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_job.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/fbf9cec815a059abf075c809.md",
+      "kind": "official-document",
+      "bytes": 172,
+      "sha256": "d46900624bea91b53104172c2676536cf0f7376a7637f928f14af0a83f83eadd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_job.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_kubeconfig.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/03ce17de77c70cb4196fdc35.md",
+      "kind": "official-document",
+      "bytes": 159,
+      "sha256": "20ab090a76c2b45d0cab53130786dfded9e8126eccc01922001be9aa182c522a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_kubeconfig.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_lease.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6d719965824df9c2c918ca24.md",
+      "kind": "official-document",
+      "bytes": 244,
+      "sha256": "38658da7d5d43420a4de9fc8b9e292458f09791e11317107babff12eb6c554ab",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_lease.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_limitRange.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1d8b7cb1e7d65276d8621965.md",
+      "kind": "official-document",
+      "bytes": 299,
+      "sha256": "e92902fef3c0ba1a374b83b32f71884e84f657d8034a4fc1b42b690bb1881f16",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_limitRange.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_mutatingWebhookConfiguration.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/52e4cc24ce3bc53aa25ef5fd.md",
+      "kind": "official-document",
+      "bytes": 584,
+      "sha256": "847243ea10f9c52f7780693d091862e45da25f51f0ccf3ff00f35d37b97cf62c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_mutatingWebhookConfiguration.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_namespace.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6fc306d3e0cb69c89436d55c.md",
+      "kind": "official-document",
+      "bytes": 220,
+      "sha256": "f3dc6e8cc213b176fb8c7c1cf7e504770c9150e8d6d3fe2a6f0c5500e18f892f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_namespace.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_networkpolicy.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/872250d6974ce06899a213b6.md",
+      "kind": "official-document",
+      "bytes": 658,
+      "sha256": "ea89c31d4ef29b912b9de6f3d7187737ecc0ae8d569cca7dfc9f838eab99958c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_networkpolicy.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_node.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/aef3441031cd5d20627012e4.md",
+      "kind": "official-document",
+      "bytes": 180,
+      "sha256": "9191d85586f6872b84bcf5ae3eac8e8ea83432da7cb5b1b6f18f8f1ca9c7afda",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_node.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_persistentVolume.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8d7b37a3c7f79bc789799567.md",
+      "kind": "official-document",
+      "bytes": 276,
+      "sha256": "d9b9b9e974b0e25c4ac577638820c9acd7981681f50aa07741ccdda745baefd6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_persistentVolume.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_persistentVolumeClaim.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/af8506919d7e79154c7b5204.md",
+      "kind": "official-document",
+      "bytes": 316,
+      "sha256": "3f9155fa2a49a5f7eee3551de771a0b3365ac3d17280dd727f5c635cbabd8602",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_persistentVolumeClaim.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_pod.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/42254992c13e0f5718cbf22a.md",
+      "kind": "official-document",
+      "bytes": 400,
+      "sha256": "cbf6b055c7257b3098f6c06e381af266f7fa2327cde7112a45e1d60ca121427e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_pod.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_podDisruptionBudget.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f611f01f4f092b1b60bddae8.md",
+      "kind": "official-document",
+      "bytes": 236,
+      "sha256": "f97c0c059d4296f19fe68a48a2ef0aa5bf55f6fbb38658fe552227c9148f95d2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_podDisruptionBudget.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_priorityClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f720f88d7462be7b9ca49961.md",
+      "kind": "official-document",
+      "bytes": 252,
+      "sha256": "79cf3888e4a422e8060595bfc2c068d9ebd462ca980763c7ccde0616a109d467",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_priorityClass.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_priorityClasses.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f370b9d47c8b6d5a64dcd655.md",
+      "kind": "official-document",
+      "bytes": 618,
+      "sha256": "6a85dd250ad125b26ddb370cd519dfb5609514892d7d5a9f0bd35d199b0aaf4a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_priorityClasses.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_replicaSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/89aef6b96339f9760ec195f4.md",
+      "kind": "official-document",
+      "bytes": 228,
+      "sha256": "91240ae0938ca6f44c51fdb443d109e1424705c09680f9d31a1a831b3fcb58ef",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_replicaSet.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_resourceQuota.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/32ab4ba080c9689bc5c02b3b.md",
+      "kind": "official-document",
+      "bytes": 252,
+      "sha256": "f43ffc69d32db0a3823979bd4679d24103a78c190fdd09387508a673dd4f877a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_resourceQuota.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_role.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/88b04b357c57faa86b890d2e.md",
+      "kind": "official-document",
+      "bytes": 180,
+      "sha256": "e8b5f85cc59954374225cbc15e550b1a566fd6ec03f45140ed163256f18585d0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_role.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_roleBinding.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/edee3306b7b46116bb08d400.md",
+      "kind": "official-document",
+      "bytes": 236,
+      "sha256": "c0316b6269dd8b001e8118080c60b96d6711249b19e95b0b2b835c4168c7de9f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_roleBinding.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_runtime.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/603def075cf7462dcc45c8a6.md",
+      "kind": "official-document",
+      "bytes": 224,
+      "sha256": "3da6119cec5de03f575a9230a478c230432d8dae6b9d44ec071a8b31423e5ab6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_runtime.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_secret.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2ad9ed84016b0aeddef49abf.md",
+      "kind": "official-document",
+      "bytes": 196,
+      "sha256": "c19689b43160796327e326c11e47302a623c9fe3664dd1400405f4c229717839",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_secret.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_service.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/565dfc6df94bf46162cf51f6.md",
+      "kind": "official-document",
+      "bytes": 358,
+      "sha256": "8636209b99032f8bb95ae6cc42af47e212c01748a2dd4c28c79bf40b0accbc12",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_service.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_serviceAccount.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/64b20a100393e21649743a5f.md",
+      "kind": "official-document",
+      "bytes": 260,
+      "sha256": "72aa2faa4a5283271b7acc8add823749c44a21fa987dbea4fb89e35954dae1bf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_serviceAccount.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_statefulSet.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7b4daf88adff40d39bdfba30.md",
+      "kind": "official-document",
+      "bytes": 236,
+      "sha256": "0d4a2f62156acd08f53a26403ab8175e0994295b1fa76c1e6202ff65d70a83ee",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_statefulSet.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_storageClass.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/78ef500058322647a2b77331.md",
+      "kind": "official-document",
+      "bytes": 244,
+      "sha256": "5a40670f319987627d7727a60907fb7dd059420a4f3bd4f4d18cc4f3dfe6fa52",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_storageClass.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_token.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5483fc7e2b6b96bdf2a8a7d9.md",
+      "kind": "official-document",
+      "bytes": 130,
+      "sha256": "509a651b181989dcb36dc4e2e5aedbe7483448534e4addca513b655d02a7c0ab",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_token.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_validatingWebhookConfiguration.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/38e4d4d7c863bc92777b9829.md",
+      "kind": "official-document",
+      "bytes": 388,
+      "sha256": "af5aac33455453200c0baae389dc240780e1c5f746d2c0ce0bca759407c94eb0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_validatingWebhookConfiguration.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_k8s_vpa.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2d3f482fe5fc1fbcbb4058ae.md",
+      "kind": "official-document",
+      "bytes": 172,
+      "sha256": "55bf5a42018f0ce3c21c7b4c00d412157acb7cfb6ee9af51126d2c10ed3cb083",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_k8s_vpa.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_router.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2b98f66b212eec7e56c834c1.md",
+      "kind": "official-document",
+      "bytes": 2456,
+      "sha256": "acad0f7096fbf2248ead1d37be9907ec06f56e1503638632ef35e9526b1b4296",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_router.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_util.auth.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/93bea1d43753591e68cd8c45.md",
+      "kind": "official-document",
+      "bytes": 1680,
+      "sha256": "038b751c8d34590975b6e4c0eb5faedaadb1273f776d88064b77c67c85e2928f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_util.auth.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_util.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6bbbbf64ed957ab69f51efb2.md",
+      "kind": "official-document",
+      "bytes": 10615,
+      "sha256": "0506489e16e8df64a6b9060fa35e5e8b7ab5e157f9ff3d3f0a717a70af8b621e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_util.md"
+    },
+    {
+      "path": "docs/development/api/modules/lib_util.units.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c9bd3e266ffc43c03c310700.md",
+      "kind": "official-document",
+      "bytes": 2279,
+      "sha256": "c50f74e185836488a091a29e23d98f49ab37420b4c4ddff1f97c0e4cb1f9d706",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/lib_util.units.md"
+    },
+    {
+      "path": "docs/development/api/modules/plugin_lib.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ec512dff2763b47f8f11bf16.md",
+      "kind": "official-document",
+      "bytes": 277,
+      "sha256": "05c1a3537078601b95fe1ecdceb712403d74d2d36b8f68595b525d2978f34624",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/plugin_lib.md"
+    },
+    {
+      "path": "docs/development/api/modules/plugin_registry.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0a0a938465e2027facbcc86b.md",
+      "kind": "official-document",
+      "bytes": 30171,
+      "sha256": "bdb314728e2ab611f4a79701ca99b57fda4b9d0d308b0281a986516211ed07d8",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/api/modules/plugin_registry.md"
+    },
+    {
+      "path": "docs/development/app.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/9a7d403c5ba5d042e18a0f0e.md",
+      "kind": "official-document",
+      "bytes": 8217,
+      "sha256": "eae07aad5503335c5b4ab4dd9bdd5c3c42d590d4390785d671e8bf161948e889",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/app.md"
+    },
+    {
+      "path": "docs/development/architecture.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3caedd95aefa51553be10697.md",
+      "kind": "official-document",
+      "bytes": 11947,
+      "sha256": "c96753fdd23d4553b6538ae3f1196eb00cce6aac292d83fbcab0b1809b4233b7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/architecture.md"
+    },
+    {
+      "path": "docs/development/backend.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/aca5e0941a06db9d6840ec1f.md",
+      "kind": "official-document",
+      "bytes": 9351,
+      "sha256": "d2c5f5eca8090238c718a8cd9b4e03e557001dee3d16dc747057fa78a7d2fef6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/backend.md"
+    },
+    {
+      "path": "docs/development/cluster-inventory.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f1399ffd70e6af0ce15c8cbb.md",
+      "kind": "official-document",
+      "bytes": 4592,
+      "sha256": "c4c1a2a38a07a96b71d8465d82a0ef99a228d0ecee0ce0af0090bdc9b3466154",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/cluster-inventory.md"
+    },
+    {
+      "path": "docs/development/frontend.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b6194e072abe166df8f23880.md",
+      "kind": "official-document",
+      "bytes": 5398,
+      "sha256": "77e849dca77d17be6e232041bbee63c6263e492463848f2aa3974a6c74a435f9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/frontend.md"
+    },
+    {
+      "path": "docs/development/gateway.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/9cd7113487f51c3317ac7803.md",
+      "kind": "official-document",
+      "bytes": 3849,
+      "sha256": "80f1296e99f075cc4958d436d281054e13aad2c05e05079cbefc20f561e0d39f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/gateway.md"
+    },
+    {
+      "path": "docs/development/i18n/contributing.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/99cdb85a7576100466ab3775.md",
+      "kind": "official-document",
+      "bytes": 8090,
+      "sha256": "4bf8373e3f2f84e83bdd45636c696733e38ed35cf5c228b28cc13ba3114de05b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/i18n/contributing.md"
+    },
+    {
+      "path": "docs/development/i18n/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ff7ebf7335142660dbaab9e3.md",
+      "kind": "official-document",
+      "bytes": 951,
+      "sha256": "cea325fa56a91dacfe7a62a4514c8e0f298f2496488bc6a421e31ebb4360c3ed",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/i18n/index.md"
+    },
+    {
+      "path": "docs/development/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a9a32885aec922307101cfef.md",
+      "kind": "official-document",
+      "bytes": 11038,
+      "sha256": "8ac924c91fed77ecfab2402f9d7f0b7bd686bd8a1dda4bda0fa9587eb81e675b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/index.md"
+    },
+    {
+      "path": "docs/development/oidc.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/57e190864aadf8f7918fe475.md",
+      "kind": "official-document",
+      "bytes": 5646,
+      "sha256": "f8d07900eb6657f47c7a2eadfc58b4a9a763535314e39106fe2571e1ac4a49ad",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/oidc.md"
+    },
+    {
+      "path": "docs/development/plugins/building.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/650679211307b0a9be1aecb6.md",
+      "kind": "official-document",
+      "bytes": 5563,
+      "sha256": "321ac18c0f2a131865d59954f545ea1dde055b47551e692fd086293c0784e1f6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/building.md"
+    },
+    {
+      "path": "docs/development/plugins/cluster-registration-providers.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c64b8441026ab18f9dc28a84.md",
+      "kind": "official-document",
+      "bytes": 8033,
+      "sha256": "1eacf966094ad3bddc6349ebed83cc1baef11a02950ded3134d23e121dbe2304",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/cluster-registration-providers.md"
+    },
+    {
+      "path": "docs/development/plugins/command-capabilities.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/24dbd8968b90884814dc2fd0.md",
+      "kind": "official-document",
+      "bytes": 14536,
+      "sha256": "82893f453eefa673cf0e480669070330446d7544c75ced09d4ca4b01318cde7c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/command-capabilities.md"
+    },
+    {
+      "path": "docs/development/plugins/common-patterns.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/90eb332244daa26fd32abae0.md",
+      "kind": "official-document",
+      "bytes": 6609,
+      "sha256": "195d45001e0631a940c62679dd86098d96c3d6ac6d22d205f1c482096119be6a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/common-patterns.md"
+    },
+    {
+      "path": "docs/development/plugins/functionality/extending-the-map.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/78ca71fd212a3d2411501587.md",
+      "kind": "official-document",
+      "bytes": 6612,
+      "sha256": "4b047a0d0be57d3e02852e0d022b32dec7bf55ff5c9ce92cabcf76a74fc852ea",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/functionality/extending-the-map.md"
+    },
+    {
+      "path": "docs/development/plugins/functionality/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7aec766375ca6d57a8c1d908.md",
+      "kind": "official-document",
+      "bytes": 20411,
+      "sha256": "389d0d8874e82fb6f1e6b969c7a74908a61a0048e4c78c171d62e297543ca417",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/functionality/index.md"
+    },
+    {
+      "path": "docs/development/plugins/getting-started.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b364424263d5b73aacc9c3d4.md",
+      "kind": "official-document",
+      "bytes": 8938,
+      "sha256": "f9be63e04dd066e42cab7c786238e24f4e56c23b3001fc791841a8c7a83a3983",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/getting-started.md"
+    },
+    {
+      "path": "docs/development/plugins/i18n.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5482783d03c23bf48e7b778b.md",
+      "kind": "official-document",
+      "bytes": 1049,
+      "sha256": "02ee8e17ed6a85cbd6a4d70c04c92e05966a6beaa22343e4be638dc6e05e894c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/i18n.md"
+    },
+    {
+      "path": "docs/development/plugins/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d20392e848e6bbc3fd5c3b00.md",
+      "kind": "official-document",
+      "bytes": 2898,
+      "sha256": "e3958aefa7fbca9bf6718a01163195af422d9b20501dfe8c9725ab8bfc9ad62f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/index.md"
+    },
+    {
+      "path": "docs/development/plugins/publishing.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d9796765a0c84779fda1b408.md",
+      "kind": "official-document",
+      "bytes": 5108,
+      "sha256": "4eb17f12ccde5fcbc19febf6d8f5092f926d05817f56d18c81637112f66a8bbf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/plugins/publishing.md"
+    },
+    {
+      "path": "docs/development/release-guide.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/78174834cf2bf8a7016eef81.md",
+      "kind": "official-document",
+      "bytes": 4390,
+      "sha256": "3756b953eb2fb158c441632b43edb248bbfb723790da5d745e3a7a28d08aa7ce",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/release-guide.md"
+    },
+    {
+      "path": "docs/development/telemetry.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0994f62aebef913171ed148a.md",
+      "kind": "official-document",
+      "bytes": 6687,
+      "sha256": "8f72d4036c72359df27be9914f18cd8a58d751b51f33b244daca3eeaebf79fd0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/telemetry.md"
+    },
+    {
+      "path": "docs/development/testing.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/51840c6001bebb21d56b029c.md",
+      "kind": "official-document",
+      "bytes": 2216,
+      "sha256": "5b69c6434dbf0de93474de837b101c375f8315e291394b4d79e15352a41295a4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/development/testing.md"
+    },
+    {
+      "path": "docs/faq.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/57cdcc6b6701a7ce3b3a8f8c.md",
+      "kind": "official-document",
+      "bytes": 5704,
+      "sha256": "baa392b5c4ce989f5b4137985a849a6795c3a90ff7bfe2508b41577c98a0a368",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/faq.md"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 1265,
+      "sha256": "e2e4958c7886f334af861e38c90b5c8d1c0e137b3596fbdb21f614fe35dee932",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/index.md"
+    },
+    {
+      "path": "docs/installation/base-url.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/29f92878f31fc00557128514.md",
+      "kind": "official-document",
+      "bytes": 1906,
+      "sha256": "470756d4803e861aa2c55e9e46ccea04dbf07e47f072efe89f8547209487696d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/base-url.md"
+    },
+    {
+      "path": "docs/installation/desktop/headless.mdx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/70bbf2ad490ecd6818f2d392.mdx",
+      "kind": "official-document",
+      "bytes": 1150,
+      "sha256": "b9d3ebd0fe204aeea55c52d74a450e087d1c3ab41136c68d1b355c290465e450",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/desktop/headless.mdx"
+    },
+    {
+      "path": "docs/installation/desktop/index.mdx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b048497c3372e23a82910558.mdx",
+      "kind": "official-document",
+      "bytes": 2776,
+      "sha256": "657967ae116991798eb6b4891464975840d9975b6e7a21c79bc926d03577d01a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/desktop/index.mdx"
+    },
+    {
+      "path": "docs/installation/desktop/linux-installation.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a23a2330396b7cade0f1fb74.md",
+      "kind": "official-document",
+      "bytes": 2175,
+      "sha256": "daf7901760539b123985124924ff5f51c03ca0c278551d9581e0e9ab866dfff8",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/desktop/linux-installation.md"
+    },
+    {
+      "path": "docs/installation/desktop/mac-installation.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4354ef2e0901366da5ffdbeb.md",
+      "kind": "official-document",
+      "bytes": 1409,
+      "sha256": "c90d25819a6c36259356d217073b98f894693ec9f11166e5c8f21858f6dd3078",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/desktop/mac-installation.md"
+    },
+    {
+      "path": "docs/installation/desktop/plugins-install-desktop.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e089f676e5e6d4d76b67fba5.md",
+      "kind": "official-document",
+      "bytes": 2962,
+      "sha256": "68b57444f601db3015b289f173fa2a3f6ff08e47bae0f483e1e6ed982f528136",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/desktop/plugins-install-desktop.md"
+    },
+    {
+      "path": "docs/installation/desktop/win-installation.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/bfb700b76cf7d4daa915f60f.md",
+      "kind": "official-document",
+      "bytes": 1757,
+      "sha256": "004e54f5784f9970874f61cdee63beacac0568aa4ef77913ada2fa24ec34517d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/desktop/win-installation.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/aks-cluster-oauth/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d67532d74b105a45cae66b29.md",
+      "kind": "official-document",
+      "bytes": 5296,
+      "sha256": "6b074b8dbf644cb895b13cfc124bd67449999a10ca1cb64fb948ac3ed1b4d710",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/aks-cluster-oauth/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/azure-entra-id/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a21f42ffa34d65cd85f2d44f.md",
+      "kind": "official-document",
+      "bytes": 8523,
+      "sha256": "c49901a1df48137e829ff990769c8d4dda75ba567487d10c207df7293694b4d9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/azure-entra-id/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/basic-auth.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/9b260176b3ae12bb606486bb.md",
+      "kind": "official-document",
+      "bytes": 5157,
+      "sha256": "4cff916f6ef98b6789cd0ea4f5799e2c9f4d9abfa5df9d52344fa674ea8d20c0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/basic-auth.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/dex/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/809b577815cdfe5c9dd2039f.md",
+      "kind": "official-document",
+      "bytes": 11830,
+      "sha256": "c70af9cbd67f7eefe92b3cc904ca5aa0d0dde2ac4588d47e438988f72b8b04a3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/dex/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/dex/test-scripts/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a11b660886f530aed7bce9ad.md",
+      "kind": "official-document",
+      "bytes": 7812,
+      "sha256": "5372198a6512311e1cd4242e9ddb9725432909e6534de1c0ab457b979f64f45b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/dex/test-scripts/README.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/eks/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a388eaad7f56d4fb54dcf98b.md",
+      "kind": "official-document",
+      "bytes": 11374,
+      "sha256": "1dc6e55e6fc232676c7e1460f2d64e017dd4563e9bea706b24ec1ce81c9b1575",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/eks/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/identity-aware-proxy.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f7958f927ab67aa0841b17ea.md",
+      "kind": "official-document",
+      "bytes": 8693,
+      "sha256": "1417ae3c8e87e56ff850e3c8f7a6bcdcdc8a81da9e21a099a3c1553bb835ded9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/identity-aware-proxy.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6ba75da13a137e0dc291f25e.md",
+      "kind": "official-document",
+      "bytes": 12120,
+      "sha256": "917676d4e3b60aaa14c1a7eb7c9d296b0666191ecf36f090dcfdb549aea1b471",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/keycloak/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/10830664c8acbf88ba26dedc.md",
+      "kind": "official-document",
+      "bytes": 7962,
+      "sha256": "6ffc1ec7ec714e2144445eee3d2db3c0adcd94ea4f557d8c1041fb7315618d36",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/keycloak/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/oidc.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/073a76df5675929b3c0c285b.md",
+      "kind": "official-document",
+      "bytes": 10902,
+      "sha256": "8dc46c8b1312bbdc089b384546391ffc857bb507b2932a710eaf3022d0d623f2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/oidc.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/openunison/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/90c0853f004bab2ae79b1eee.md",
+      "kind": "official-document",
+      "bytes": 24455,
+      "sha256": "4a03936b0f5735e10dd43c281e26f7ea99fdce2f3226c3aa0914b7ce934c6bf2",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/openunison/index.md"
+    },
+    {
+      "path": "docs/installation/in-cluster/tls.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3ddb6f54794e3bbe8d25b4be.md",
+      "kind": "official-document",
+      "bytes": 2456,
+      "sha256": "166544a9729196cc893e07674384548624e1fe5b5cc31483b30f3a4a5611ea65",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/in-cluster/tls.md"
+    },
+    {
+      "path": "docs/installation/index.mdx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c07a8b629f8e970cf97d2eb1.mdx",
+      "kind": "official-document",
+      "bytes": 1934,
+      "sha256": "459c58abeed36a20d938896dee087a9e25514cca937f45ebc20986d3bbdebadd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/index.mdx"
+    },
+    {
+      "path": "docs/installation/metrics-server.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1ddd635e896152f6da89c660.md",
+      "kind": "official-document",
+      "bytes": 781,
+      "sha256": "3a7a74c6a442ac1da6d7eabf1b223a3f5ee4e1b29f0b4943ba8be65b9fc690f0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/installation/metrics-server.md"
+    },
+    {
+      "path": "docs/learn/holmesgpt.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/9df10df7563c17fc34674649.md",
+      "kind": "official-document",
+      "bytes": 6264,
+      "sha256": "46691ec00321e30b83c6218d121e2ff628acdd84989198a8a0db5032189aa777",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/learn/holmesgpt.md"
+    },
+    {
+      "path": "docs/learn/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0281bb3a5aeffa7edcd99825.md",
+      "kind": "official-document",
+      "bytes": 1135,
+      "sha256": "577bd2050030e34731728c8252bcb644048d8b345fc95aa18dd65039a59b581d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/learn/index.md"
+    },
+    {
+      "path": "docs/learn/local-cluster/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3442f3d7003b9ba339821ca9.md",
+      "kind": "official-document",
+      "bytes": 11602,
+      "sha256": "16f6ced58001d58bc1e86beb4b7d01c4e2b40cc6f596986ab09f9333a3969eeb",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/learn/local-cluster/index.md"
+    },
+    {
+      "path": "docs/learn/mcp-support.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/957c3fecafcf8020a3ed1e61.md",
+      "kind": "official-document",
+      "bytes": 6473,
+      "sha256": "c3a4028a5ee9689fde5885302a07c77ee864ad7377ef8a83f31e747813700abb",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/learn/mcp-support.md"
+    },
+    {
+      "path": "docs/learn/projects.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e8bb47631fa1a4e4ad278a38.md",
+      "kind": "official-document",
+      "bytes": 5317,
+      "sha256": "2b5f80877cffced054ea741abac84045eb3e90324c6ba4bd79be2ba2a3859d3b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/learn/projects.md"
+    },
+    {
+      "path": "docs/platforms.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b78fb64d29a236212cca36c4.md",
+      "kind": "official-document",
+      "bytes": 15576,
+      "sha256": "363e1502c6e75b9adffb676af4eb22622bd8f854a89a85a6af988b54a85c3f1b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/platforms.md"
+    },
+    {
+      "path": "docs/tutorials/index.mdx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3ec79f3e215f46dfee4640de.mdx",
+      "kind": "official-document",
+      "bytes": 629,
+      "sha256": "bfe387111b9bdf546fd63ed0a26985f0b1a97c66da512bff662951ebffa0a28d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/index.mdx"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/adding-custom-map-nodes/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/328ed0e4df57998d74865e7e.md",
+      "kind": "official-document",
+      "bytes": 12225,
+      "sha256": "de17987eca65968b82440fc00ab3f3ad51e3a6777b96add0d5142c9c1b3764fb",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/adding-custom-map-nodes/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/adding-pages-and-sidebar-navigation/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/bfc86eaf1ff5bff4d19012e2.md",
+      "kind": "official-document",
+      "bytes": 21763,
+      "sha256": "48cc84632610ef1d0276d90fbf62e9528e709132c6dafbd8b80e53f442937127",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/adding-pages-and-sidebar-navigation/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/adding-plugin-settings/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2e938206a94accb3dc2ac84c.md",
+      "kind": "official-document",
+      "bytes": 23871,
+      "sha256": "fc5b8e18b396a5351157d33c63e6e35b3f40aeb0841482e586237a447c7e9f6e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/adding-plugin-settings/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/applying-custom-themes/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/fd1bc40e0bb043bf64effec8.md",
+      "kind": "official-document",
+      "bytes": 20624,
+      "sha256": "884132b7f8fab0d12286a48cdedafcff08ef97c64e5b93f6163e150cfa4b06a9",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/applying-custom-themes/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/building-list-and-detail-pages/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4a1ab3cda415fbefda2de161.md",
+      "kind": "official-document",
+      "bytes": 37387,
+      "sha256": "d9ca58492a206c2e2ec402fc1da55b592da94aeeebc9efcc11ef23350c19d81e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/building-list-and-detail-pages/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/creating-your-first-plugin/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a204d8ef9999daff11d937d5.md",
+      "kind": "official-document",
+      "bytes": 17337,
+      "sha256": "48ea4033f479806dc9ee89ca3ef8af1a2bde4a70d93d7aafa24ad326a9be0b24",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/creating-your-first-plugin/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/extending-existing-resource-views/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b9f6a3112afe4bc9cf6b71d7.md",
+      "kind": "official-document",
+      "bytes": 29607,
+      "sha256": "3881dc5f0b61a0cbae37c396e8119ded24d9c5222c2e28d9dcce4d594e242a26",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/extending-existing-resource-views/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/index.mdx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1fd4f171e952c63d57ce45b8.mdx",
+      "kind": "official-document",
+      "bytes": 2103,
+      "sha256": "7178f572313eed2637b08a3b75901e8c011dc09c08170afcb2ba94ca09f82625",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/index.mdx"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/releasing-and-publishing/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/eaee0b08052c1d7e53567ea8.md",
+      "kind": "official-document",
+      "bytes": 22689,
+      "sha256": "1fb79966f6f8bd094b342874c4fc41be2160c44acc9d2b37967d6f01b8017cde",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/releasing-and-publishing/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/running-from-source/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/1010580b0e332345c17ec3b3.md",
+      "kind": "official-document",
+      "bytes": 10451,
+      "sha256": "ffd10be3cdecd18410b479e41f5b4f68f9d9fd5030c5725c5c1bfcad8f477abf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/running-from-source/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/working-with-kubernetes-data-advanced/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3773c84df70e0a793487a256.md",
+      "kind": "official-document",
+      "bytes": 19022,
+      "sha256": "0912cccc1422145607c18beb534657fa24531d00c98645eb8f35f875ba566cf5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/working-with-kubernetes-data-advanced/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/getting-started/working-with-kubernetes-data/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/cedba3a85c314c870e512e8f.md",
+      "kind": "official-document",
+      "bytes": 22526,
+      "sha256": "c84effc3e0dc69478204a01d2134c905d10e1759e12a335c2a8ed488f59cfb2e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/getting-started/working-with-kubernetes-data/index.md"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/index.mdx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/def20da8fdc601f840abd764.mdx",
+      "kind": "official-document",
+      "bytes": 3054,
+      "sha256": "bfbe37335672613df0bf89cb6b1e214b1936833ec3377d33d4b9daf5efa7a04f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/index.mdx"
+    },
+    {
+      "path": "docs/tutorials/plugin-development/whoami-plugin/index.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8cb951de895d475586bc7527.md",
+      "kind": "official-document",
+      "bytes": 22619,
+      "sha256": "8751ae3bc4834ed9d381c86263f393c0a4d38cf5289867c992e0e1084de09b79",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/docs/tutorials/plugin-development/whoami-plugin/index.md"
+    },
+    {
+      "path": "e2e-tests/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d471f9e80cad054c33d729b3.md",
+      "kind": "official-document",
+      "bytes": 14225,
+      "sha256": "18cd43973367ba832209e2687f0f9eec7ee3feceb8f37b4dc6ee36c2b3d57cae",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/e2e-tests/README.md"
+    },
+    {
+      "path": "eslint-config/LICENSE",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/19051e9c3f8f624eb9297168.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/eslint-config/LICENSE"
+    },
+    {
+      "path": "eslint-config/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0590700865844b81976988c2.md",
+      "kind": "official-document",
+      "bytes": 837,
+      "sha256": "74dbd3b4944e92b81f523d625f9fd7769d1951a312ad7ee16e2b83f87d1df46e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/eslint-config/README.md"
+    },
+    {
+      "path": "frontend/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/35aa98d245b201cfc92c7431.md",
+      "kind": "official-document",
+      "bytes": 127,
+      "sha256": "44c8fbced2920feff5550de5776b66498e4455d37ce9025ced926c6e0df88135",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/frontend/README.md"
+    },
+    {
+      "path": "frontend/src/i18n/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/017319922a46eaa98cbb7a67.md",
+      "kind": "official-document",
+      "bytes": 1018,
+      "sha256": "4605ff3bb6e5d12781c2ebc070e3d59a6a285d493f0e9159ea5c83958bb249f0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/frontend/src/i18n/README.md"
+    },
+    {
+      "path": "load-tests/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c14af4320313421d28924591.md",
+      "kind": "official-document",
+      "bytes": 133,
+      "sha256": "12ed30c9fcf3e6a96cab9a255521b00f231130fa5419d30de637b82a04fbacb5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/load-tests/README.md"
+    },
+    {
+      "path": "plugins/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8b2fec43efe67316d27984b7.md",
+      "kind": "official-document",
+      "bytes": 2345,
+      "sha256": "36f57be9eae6d5fb2cb47471de324986f9b420068cacdb9db621747dae9421b0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/README.md"
+    },
+    {
+      "path": "plugins/examples/activity/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e3b2f0a8a31f78307e90daf6.md",
+      "kind": "official-document",
+      "bytes": 223,
+      "sha256": "53b5e3d2c6e880a91667aebad38ef5e3c49d3dfe58d5be512c85d0b2e460ec52",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/activity/README.md"
+    },
+    {
+      "path": "plugins/examples/activity/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8edcec653f5169c7d3e36e58.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/activity/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/activity/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2dbd89a47db9d44f1056d328.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2163,
+      "sha256": "5f5e3186690646c308b7b2f9cb058d0433ceb3468d12aeab97eb55240c7abd16",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/activity/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/app-menus/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7dcc44e5711f1ec3b19f3cd1.md",
+      "kind": "official-document",
+      "bytes": 594,
+      "sha256": "f62a99019aa36fa66b06d8f0021ee4e7f97ebf049c135494bcbb9ff2e3c84f06",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/app-menus/README.md"
+    },
+    {
+      "path": "plugins/examples/app-menus/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5d5cdc7cfeb3b5cf09b314b0.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/app-menus/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/app-menus/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a1974651ff90bee6e9ee8596.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1734,
+      "sha256": "3cdb6badaac3a9d30d1db150cb222f5a2654087ab05bc9685b0a3149f5ad91bf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/app-menus/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/change-logo/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/29c04a6ec2fe7758e0fe77a7.md",
+      "kind": "official-document",
+      "bytes": 1171,
+      "sha256": "b999c91d240735f96be89bf85fd8b9eb2048ddc0d2634f83372f857260dedfea",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/change-logo/README.md"
+    },
+    {
+      "path": "plugins/examples/change-logo/src/ReactiveLogo.stories.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3cc05ad6d68d3fb98b8cb4e8.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1534,
+      "sha256": "d90dcc066f0d3ae2a376b51b06f04bddd5530448a24b7683984816045d0260ec",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/change-logo/src/ReactiveLogo.stories.tsx"
+    },
+    {
+      "path": "plugins/examples/change-logo/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/4255b7d6b7c4931636490e4c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/change-logo/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/change-logo/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e42b57830fe380e2b99d2d8d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3027,
+      "sha256": "e1b330af7f450466da7a31177c74160b1e51080db091f0fab904481b34a3b30f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/change-logo/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/change-logo/src/settings.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/bf876d74e0e1d76a874293e0.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4780,
+      "sha256": "c5993b2e8b16bdded62d6f8a7853f79cb9aef71585fa67635f1b45401e739873",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/change-logo/src/settings.tsx"
+    },
+    {
+      "path": "plugins/examples/change-logo/src/storybook.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/293bdf6c71642b8d2d181ccd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 705,
+      "sha256": "072f2dda6db2a396438fc825cba7d3b8a3a0a350bbf910eaa40a51c6d1b0f9ed",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/change-logo/src/storybook.test.tsx"
+    },
+    {
+      "path": "plugins/examples/cluster-chooser/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/6002ccc711dd870648d4d9f6.md",
+      "kind": "official-document",
+      "bytes": 893,
+      "sha256": "e4fd2a6defa6b74410c70af516ae344431f0e71ca3460566cb841a89de846bbd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/cluster-chooser/README.md"
+    },
+    {
+      "path": "plugins/examples/cluster-chooser/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a52822db90b6e24d437095a4.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/cluster-chooser/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/cluster-chooser/src/index.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/03c8341a04c21725d5d612eb.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2625,
+      "sha256": "1e8fda1a733f90c751c0ee066e65fc0441c1802e2c99466a87fd3f426a77267d",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/cluster-chooser/src/index.test.tsx"
+    },
+    {
+      "path": "plugins/examples/cluster-chooser/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d1d9c6d442f8e05a45313d58.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2212,
+      "sha256": "73b492106928ee06dd7c48555e624637a0af522ab820f0c8609ec98726ecea00",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/cluster-chooser/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/custom-theme/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/bb62159651e7311c702c5036.md",
+      "kind": "official-document",
+      "bytes": 1863,
+      "sha256": "aed000c7de08332cf798bf598b7fef2322579cd614664cc6be9bc1e3ccfa327f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/custom-theme/README.md"
+    },
+    {
+      "path": "plugins/examples/custom-theme/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5c33d798b043ddeffeed3ce6.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/custom-theme/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/custom-theme/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/696256070571633529b7e14a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 808,
+      "sha256": "846c820e7e60928b75eaf545a8c3730b86182738a141c98a9c6cf72ea40adcf3",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/custom-theme/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/custom-theme/src/themes.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3adb6d576fa9442f1de77622.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3152,
+      "sha256": "061e08496728a96e78abe200748607d5862c69030dcd3bb46afccbf6c2456d17",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/custom-theme/src/themes.ts"
+    },
+    {
+      "path": "plugins/examples/customizing-map/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/513c59fd11f66e7fcd2a4a48.md",
+      "kind": "official-document",
+      "bytes": 551,
+      "sha256": "463fa912d208c40860aa009e6bd71bf92a2f568bd0d7386f323234bafbc0b5a7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/customizing-map/README.md"
+    },
+    {
+      "path": "plugins/examples/customizing-map/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/5faada99c45e3df5f739b906.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/customizing-map/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/customizing-map/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8a4507be429a50e23beae832.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4796,
+      "sha256": "1b69714212244d64b3a7f4c873384ad8a7b9c45ed6a841b9503c5f835700bf55",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/customizing-map/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/details-view/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/677d5d34eab70733065ebe02.md",
+      "kind": "official-document",
+      "bytes": 957,
+      "sha256": "d321cdd7a91fb9f092cbfcc17fd0b28b7e68fa7d10548a789280cb9b23751fcf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/details-view/README.md"
+    },
+    {
+      "path": "plugins/examples/details-view/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/bba31b02c4cab7fedddd158c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/details-view/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/details-view/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/eaecf43a818e1a42f661e86d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3985,
+      "sha256": "55746daf3635133d132aa89aee7cfa6eb1fa3f74b0280d749f3aa879e61701e6",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/details-view/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/dynamic-clusters/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/cfd5e3d527a7d2c29323a184.md",
+      "kind": "official-document",
+      "bytes": 1751,
+      "sha256": "993d29e6fbefbd29bc780c4ffe7f7d9913194a3a319de4a75873e4d5b5fe9994",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/dynamic-clusters/README.md"
+    },
+    {
+      "path": "plugins/examples/dynamic-clusters/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/824d1ac00e635f7b3ad24671.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/dynamic-clusters/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/dynamic-clusters/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3a6483a8dc5334d744c3e760.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 5697,
+      "sha256": "8db006d14bd7034d0b93448ada47876cbd8f78e59e0d44466ddfb70af535b22b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/dynamic-clusters/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/headlamp-events/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/51bb49b8250188008ed7c8ea.md",
+      "kind": "official-document",
+      "bytes": 662,
+      "sha256": "73c2d6ea638a6ff7cdafee1e2c8f25384f146ba2e8180206b31ca0e2fa101efe",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/headlamp-events/README.md"
+    },
+    {
+      "path": "plugins/examples/headlamp-events/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0ae6c8b83eda3afb7755e954.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/headlamp-events/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/headlamp-events/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/96d1dedef7b6f82c5b624022.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3046,
+      "sha256": "75a9692da2e6d2f8ef08cd7cdd568bf2877a8a71ff9ed740a47b7352a7097373",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/headlamp-events/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/headlamp-events/src/storybook.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/003a2f9a6abc652e3966733e.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 779,
+      "sha256": "89bec88de36c642eba846db1e52c0d247217bfe5616d8d0f4d10ead6397569a7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/headlamp-events/src/storybook.test.tsx"
+    },
+    {
+      "path": "plugins/examples/pod-counter/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e54b6c57c7db568c93727675.md",
+      "kind": "official-document",
+      "bytes": 687,
+      "sha256": "3ecaa4455a7bad82604f31260f8400dc6e0754a70b319260dd22f13037d86a8f",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/README.md"
+    },
+    {
+      "path": "plugins/examples/pod-counter/src/Message.stories.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/ce3c3147881f2779e1d8d9af.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1985,
+      "sha256": "c31aafb7dd0165abf195830b8cd80b550854ce2defcc81af01b0f785b4730567",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/src/Message.stories.tsx"
+    },
+    {
+      "path": "plugins/examples/pod-counter/src/Message.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/abe6837ab0d67ba9c2e42694.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1662,
+      "sha256": "6240b8fdefffa11e5a56e9933b93cedd839862d05377209bc2bb6303121bf17c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/src/Message.test.tsx"
+    },
+    {
+      "path": "plugins/examples/pod-counter/src/Message.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7a3759c6268acc15608c004b.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1492,
+      "sha256": "3230faba798ab68481932c0ec3fa03853a132894446d5b746b94a3c98abe4895",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/src/Message.tsx"
+    },
+    {
+      "path": "plugins/examples/pod-counter/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/14b2c9f410ff6703fa286fcf.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/pod-counter/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/64be3c42eb848056470ef453.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3564,
+      "sha256": "558b5ca8e6b2558192e3ea0bbfbbc46d169a75729205975fa4b16dc23c5ab1c7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/pod-counter/src/storybook.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/b32208cbb2b8b674d5ce3e2c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 705,
+      "sha256": "072f2dda6db2a396438fc825cba7d3b8a3a0a350bbf910eaa40a51c6d1b0f9ed",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/pod-counter/src/storybook.test.tsx"
+    },
+    {
+      "path": "plugins/examples/projects/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/8ece8dfbab5535a4781ca7d7.md",
+      "kind": "official-document",
+      "bytes": 1889,
+      "sha256": "1183c3b373d917009d3777be9aa872aa8c8060fa10cef18e530e846729298eaa",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/projects/README.md"
+    },
+    {
+      "path": "plugins/examples/projects/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c825c475c6497b332c71dc0b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/projects/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/projects/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/96befad006ac9d34e9173868.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 7117,
+      "sha256": "726ded2772e4b6ffa175de3ff80da68e3dae3f8273f3a0a3782b4f44c89296dd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/projects/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/resource-charts/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/f8e5686672fa99a2929fd498.md",
+      "kind": "official-document",
+      "bytes": 1176,
+      "sha256": "4aedfe8d04650b78803a5f05f7f81ec309dc64e052a1a6a586a09db75aad9d45",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/resource-charts/README.md"
+    },
+    {
+      "path": "plugins/examples/resource-charts/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/28dd4e988f243f6ad0a0aaf1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/resource-charts/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/resource-charts/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/47561aaa5e8af7845d0fd35d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2257,
+      "sha256": "71de824571cb68b8f983a1baf3121623550b672dfc736404dfd96eac73e9847b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/resource-charts/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/resource-charts/src/storybook.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2d5a3e741dcb6f4140701ed6.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 779,
+      "sha256": "89bec88de36c642eba846db1e52c0d247217bfe5616d8d0f4d10ead6397569a7",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/resource-charts/src/storybook.test.tsx"
+    },
+    {
+      "path": "plugins/examples/resource-charts/src/types.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/096eddd363c888e43008d044.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1098,
+      "sha256": "404e840208e28667ee415b30ae3c884c34825c228cbda6ee578180a0d4a90116",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/resource-charts/src/types.d.ts"
+    },
+    {
+      "path": "plugins/examples/secure-storage/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/2a43da93736cab180f439c67.md",
+      "kind": "official-document",
+      "bytes": 983,
+      "sha256": "e45061154479e33c224db7e5aee20532e8f2b9dba4bec7e4f78d4f42e9dd5f32",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/secure-storage/README.md"
+    },
+    {
+      "path": "plugins/examples/secure-storage/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/17bf588fb362d747ce1fbe56.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4524,
+      "sha256": "7c185b0b6acee69956820dd29606570b0d1b6aa95133dd4cf517e23e3436b7e0",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/secure-storage/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/sidebar/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/c584776ba1c90f6afa4e4503.md",
+      "kind": "official-document",
+      "bytes": 1059,
+      "sha256": "851e3b88344c6902431c3d2286d8052e29c3f5505d3b5be40b67d1a4593f090a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/sidebar/README.md"
+    },
+    {
+      "path": "plugins/examples/sidebar/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/004334051a55333551c9a1b1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/sidebar/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/sidebar/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/659e3958fdebbc9a3574c6df.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 8306,
+      "sha256": "12786a776817a0156b144522d8a11cf5d6a654cb57d2514984d219baa803f4d5",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/sidebar/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/tables/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3a96038d75c6efff098e0957.md",
+      "kind": "official-document",
+      "bytes": 324,
+      "sha256": "dc8a146376950a68231d6aa5236c81df156b0dae341bc660c5fe9958258c57d4",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/tables/README.md"
+    },
+    {
+      "path": "plugins/examples/tables/src/ContextMenu.stories.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/d4a450463b9447ec3679d144.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1154,
+      "sha256": "756e898b70032694b37bf9732878f20f7bf1a597f07ed9f9bcab0a793fc9219b",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/tables/src/ContextMenu.stories.tsx"
+    },
+    {
+      "path": "plugins/examples/tables/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0dd98a6593020ded3f1a4ce3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/tables/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/tables/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3d952f539f314cb2b7710695.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3447,
+      "sha256": "bbc45d5b0a037e8a141fdfcf1639eb0d565d06772e78a83073d0cacbd99b23af",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/tables/src/index.tsx"
+    },
+    {
+      "path": "plugins/examples/tables/src/storybook.test.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/652071d2b109f89acf11aef3.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 705,
+      "sha256": "072f2dda6db2a396438fc825cba7d3b8a3a0a350bbf910eaa40a51c6d1b0f9ed",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/tables/src/storybook.test.tsx"
+    },
+    {
+      "path": "plugins/examples/ui-panels/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/a5f38d09084fc0808c23715f.md",
+      "kind": "official-document",
+      "bytes": 215,
+      "sha256": "8b5bee61804bcfe36bb70dcb88b8820b76f49b37ab095740b321e9e97d1b2b8c",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/ui-panels/README.md"
+    },
+    {
+      "path": "plugins/examples/ui-panels/src/headlamp-plugin.d.ts",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/32c2320cd0522af7579a9981.ts",
+      "kind": "upstream-example-code",
+      "bytes": 654,
+      "sha256": "9392c9d9f40f58de669bbbee652dcac65ba7c19d2a91d61acbc4b706eaafb84e",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/ui-panels/src/headlamp-plugin.d.ts"
+    },
+    {
+      "path": "plugins/examples/ui-panels/src/index.tsx",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/07f6dcfa553d65e22267f9f8.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1641,
+      "sha256": "6ac09105f6f31f27fe998570c4ed7ad72df33969379391d2b5076383c14c3f71",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/examples/ui-panels/src/index.tsx"
+    },
+    {
+      "path": "plugins/headlamp-plugin/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/0600570f9dafafbf6770955f.md",
+      "kind": "official-document",
+      "bytes": 8184,
+      "sha256": "0ef0fb0d337b95d71f357aa7923c25b7504b0f2a5fcf3e4cc0fe524042cf0416",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/headlamp-plugin/README.md"
+    },
+    {
+      "path": "plugins/headlamp-plugin/template/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/3fd301984fe7bd705e3fc27f.md",
+      "kind": "official-document",
+      "bytes": 880,
+      "sha256": "3bce593a77e59b197bb7b24caeb24aeb2b60710d6f2e003d67cd4ba435eeb59a",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/headlamp-plugin/template/README.md"
+    },
+    {
+      "path": "plugins/pluginctl/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/7654c3cdcb9cfc29d2cef896.md",
+      "kind": "official-document",
+      "bytes": 3566,
+      "sha256": "d5c7bca4d24c8dcd5026c5d8067428d53c4a035edad948d7e74c49ead13e54dd",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/plugins/pluginctl/README.md"
+    },
+    {
+      "path": "tools/i18n/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/cde552f3d44b86cb5f7ee7bd.md",
+      "kind": "official-document",
+      "bytes": 2713,
+      "sha256": "74d6d4c4cfc660bc22503ee334fcf86743deee65a01a8e9b96b0c62fb9ec8141",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/tools/i18n/README.md"
+    },
+    {
+      "path": "tools/releaser/README.md",
+      "localPath": "raw/kubernetes-sigs--headlamp/919a7ca6ad87/e6c0e45190b73a2d877ce54a.md",
+      "kind": "official-document",
+      "bytes": 5802,
+      "sha256": "612071eef6e091ce06701995ac96415fdbc0f059cf632918e6c2a1885b8d2bcf",
+      "sourceUrl": "https://github.com/kubernetes-sigs/headlamp/blob/919a7ca6ad870f49fe482fc6b0dc93e774356ce2/tools/releaser/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,4 @@
+{{ $data := partial "docs/get-cli-file" . }}
+{{ range where $data.CLIReference "Name" (.Get 0) }}
+  {{ default .Synopsis .Description | $.Page.RenderString (dict "display" "block") }}
+{{ end }}

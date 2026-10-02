@@ -1,0 +1,2889 @@
+{
+  "schemaVersion": 1,
+  "repo": "expressjs/expressjs.com",
+  "commit": "c936b6310349ca92cf59493d4038dd663704f1a1",
+  "retrievedAt": "2026-10-01T15:18:42.609209+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/node"
+  ],
+  "archiveUrl": "https://codeload.github.com/expressjs/expressjs.com/zip/c936b6310349ca92cf59493d4038dd663704f1a1",
+  "archiveSha256": "fd43b64b7eddc7ede2b75e6ed72f4a273e6613c0576a910d029570344bcfb240",
+  "archiveBytes": 3696106,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 357,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 2968129
+  },
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 5430,
+      "sha256": "6bca9dbd7124982a0d4e0a18c35f69d57c2d0bed25072e39f06576b77aac3144",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4673a3aba01813b595de187a.md",
+      "kind": "license",
+      "bytes": 18693,
+      "sha256": "58064ebb41520d178054dea1a0bae72f48ced50607a6a8fbff6d381f80da8713",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/LICENSE.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 1508,
+      "sha256": "9f29c2b43b5fb10dcc26512cff34ea2267b796c8e573e25c54ede8ac2f4182c3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/README.md"
+    },
+    {
+      "path": "docs/configuration.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/17ed18489a956f326ec0fe40.md",
+      "kind": "official-document",
+      "bytes": 5623,
+      "sha256": "0f71b40082fb1d5bf33bd00f299c77d08f4675b7d4fcbd5fe95d7c9171a76bb2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/docs/configuration.md"
+    },
+    {
+      "path": "docs/content.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/93b8a17458d93122215576bb.md",
+      "kind": "official-document",
+      "bytes": 11579,
+      "sha256": "429e711995345d5af7a931d510d9c87fdd9e5816fa38955c3e262a74060bfbd5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/docs/content.md"
+    },
+    {
+      "path": "docs/design-system.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7377dfc0632236b6552f0d16.md",
+      "kind": "official-document",
+      "bytes": 4386,
+      "sha256": "2201c56cffe3cfc090c901cf92602a8937eb28cee3c3b85666acde1a62180dea",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/docs/design-system.md"
+    },
+    {
+      "path": "docs/i18n.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c341533708a95072555dea20.md",
+      "kind": "official-document",
+      "bytes": 5358,
+      "sha256": "df7dfef59a5e021c234b2fbe375d7bbce5a9a715a7409af097fe70a6e7bcf7c6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/docs/i18n.md"
+    },
+    {
+      "path": "docs/project-structure.md",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f4f155ac59b8fed51a3f98e2.md",
+      "kind": "official-document",
+      "bytes": 2748,
+      "sha256": "3eb6021e2a325c63e0cace23cbca31869f9df8216477b99e4cf1c0c5190e4986",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/docs/project-structure.md"
+    },
+    {
+      "path": "src/content/docs/de/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f07a456b187f037a2c7eda2e.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/831df360708f090d81e20948.mdx",
+      "kind": "official-document",
+      "bytes": 5492,
+      "sha256": "73f6f14391b56a2f10267cb06060f18dd0f24555fa58338ab2ec52f7f12f2781",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d92def68d7b84e3d71378b22.mdx",
+      "kind": "official-document",
+      "bytes": 5057,
+      "sha256": "c6c17735dfadd032d5fd34bf567c0a61a874cdec018de5045eab0dbf8d93574f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/27faeddc27e144cc2909d051.mdx",
+      "kind": "official-document",
+      "bytes": 15483,
+      "sha256": "38700434442dbc47ccbcea71d168dd3ab722f21849d1869b8852ce690a746d10",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e54d661754fab9f1cb3e4746.mdx",
+      "kind": "official-document",
+      "bytes": 6475,
+      "sha256": "78a33242b2773c5719ee855f2519a098ef302074b2033018d8cb84a26889eefc",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b0324abeb882d5d57737f133.mdx",
+      "kind": "official-document",
+      "bytes": 20685,
+      "sha256": "714c6aabffa4dca25cd7506c1d0243069a1d5c7980154a06e6466221465de740",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e9b317b7d3b969e0d4113bef.mdx",
+      "kind": "official-document",
+      "bytes": 17873,
+      "sha256": "44e2c67345bf48094d31f8e4f8710f0d8a2b3094e8c9a37fae7c7680080baf99",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ba440949b2ca0f223dc99c9f.mdx",
+      "kind": "official-document",
+      "bytes": 3332,
+      "sha256": "31ba50b81fe70098cccd8a41c6ba421d6893afff37f149c476916d32b192be3a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7df11bf4cd8a759753a83547.mdx",
+      "kind": "official-document",
+      "bytes": 14320,
+      "sha256": "6cd8ee1a9275f9599628cbae0651bf9da3f97e04cbbff16cf26924e619320611",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/96c527370974a2c2baac2037.mdx",
+      "kind": "official-document",
+      "bytes": 2588,
+      "sha256": "2120d8adacb256011016e88715385dcf7638844af7a69e512876b6d8d25a7c5a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c1eebcaffe69fd70b839d23b.mdx",
+      "kind": "official-document",
+      "bytes": 3766,
+      "sha256": "0056edf4897d3600974330c3f2beca888b044567a57d77b5cd88ca9939b14459",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c81f06a6676cc356de57ea32.mdx",
+      "kind": "official-document",
+      "bytes": 4418,
+      "sha256": "0a0e28be808a39ea54d62b2615cb00c58fd2d2e52aa9648a41549fc4d9271593",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0f84008c73ed52a2cdbad4b9.mdx",
+      "kind": "official-document",
+      "bytes": 3540,
+      "sha256": "56b8b49f352296fbeabe59c0feefbe3076a92ec44e6c43052520fe9b3afd9fe6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5cb04ff3f49c377b23909b3d.mdx",
+      "kind": "official-document",
+      "bytes": 2478,
+      "sha256": "f518b28bea22202675c81677ee43e91fd4cdb812e2c7b9296bef80b21befb75f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b6e3a4cf279d70433ae19c51.mdx",
+      "kind": "official-document",
+      "bytes": 4673,
+      "sha256": "2d1480df35fcad57d4d4fc48268cae5f2e5ddc6cfeb9d70b1cc7da244622e3c1",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/de/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/bb373f15d35a25067a8283e7.mdx",
+      "kind": "official-document",
+      "bytes": 3196,
+      "sha256": "b82c806e242ad2a75506b5851dabe5711fc66b67804623cc48dc12f9811c09a2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7a23fc5211bee6e655ce8ece.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8cd44953a84ae2772b9a39be.mdx",
+      "kind": "official-document",
+      "bytes": 5492,
+      "sha256": "73f6f14391b56a2f10267cb06060f18dd0f24555fa58338ab2ec52f7f12f2781",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c33dd494690a8f5156be29b6.mdx",
+      "kind": "official-document",
+      "bytes": 5057,
+      "sha256": "c6c17735dfadd032d5fd34bf567c0a61a874cdec018de5045eab0dbf8d93574f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/24ce37f491557411f5b0dc10.mdx",
+      "kind": "official-document",
+      "bytes": 15483,
+      "sha256": "2d98e995f9518c9ebdf43600f3079e29d53e90ddba639cb13688e83450bc5861",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1b020d38a7943c923b4d43e4.mdx",
+      "kind": "official-document",
+      "bytes": 6475,
+      "sha256": "78a33242b2773c5719ee855f2519a098ef302074b2033018d8cb84a26889eefc",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b20762b0fe4402432538cd7a.mdx",
+      "kind": "official-document",
+      "bytes": 20867,
+      "sha256": "cc72c2c2fb5cee8c0c38316ffc6d3e4c41f9be0cbc5870f18e7273cbedac2280",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0215d1d2acc190bd6a195b35.mdx",
+      "kind": "official-document",
+      "bytes": 17949,
+      "sha256": "47aa62af113f27898d37a58b7c52f117214082b5a99022a8e692f44f18ab632b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c0267343b0fd9a55db6d5f89.mdx",
+      "kind": "official-document",
+      "bytes": 3332,
+      "sha256": "31ba50b81fe70098cccd8a41c6ba421d6893afff37f149c476916d32b192be3a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/719a5e6a370c0e108df9a9bc.mdx",
+      "kind": "official-document",
+      "bytes": 13388,
+      "sha256": "9ccfdc456f3d1a4fccc0a2e9bdb50506e03912fe99731c86825157b2919dba88",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c7a99ee8f7df16d2f4fedf9e.mdx",
+      "kind": "official-document",
+      "bytes": 2588,
+      "sha256": "2120d8adacb256011016e88715385dcf7638844af7a69e512876b6d8d25a7c5a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1a4c9e485bc2d2f586c085d3.mdx",
+      "kind": "official-document",
+      "bytes": 3898,
+      "sha256": "9315e1f64395c422fba13c128c8b72921f78b0b6b1a2abdd9d0dfad914ed7944",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/cf3a8ea8b24278601511a857.mdx",
+      "kind": "official-document",
+      "bytes": 4418,
+      "sha256": "ed421c81d4c56ccdd96a1bb01c4490184e110eef0131881525d5b03b7b9e82a9",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7d82ffc0b03ebe80b056bbb2.mdx",
+      "kind": "official-document",
+      "bytes": 3540,
+      "sha256": "56b8b49f352296fbeabe59c0feefbe3076a92ec44e6c43052520fe9b3afd9fe6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d212eede24e6208b524c68e2.mdx",
+      "kind": "official-document",
+      "bytes": 2478,
+      "sha256": "f518b28bea22202675c81677ee43e91fd4cdb812e2c7b9296bef80b21befb75f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ba8700d9291a3e54a46dfddf.mdx",
+      "kind": "official-document",
+      "bytes": 4313,
+      "sha256": "8efc1721ce94264ed785f44011d32b7c49d26dac1a790eda9c1203a3145d5fb6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/de/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a994e2d8d43decfaa1faafae.mdx",
+      "kind": "official-document",
+      "bytes": 3196,
+      "sha256": "b82c806e242ad2a75506b5851dabe5711fc66b67804623cc48dc12f9811c09a2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/de/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a039de7d11ec0235f09fb027.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2ca9e9f8599da995a47942c6.mdx",
+      "kind": "official-document",
+      "bytes": 5069,
+      "sha256": "cbcea1cc9482278d44c7f8ddcf63e28a5c6d2b47a889fa3dcfdbbbdf9779c572",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4b851db2b0d287b7e33bc9a0.mdx",
+      "kind": "official-document",
+      "bytes": 8390,
+      "sha256": "69bca33e59291b74200501d3b13eefcc65e5e6c317875408786a56e09bc12435",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0129a1cf7da04f59519f735e.mdx",
+      "kind": "official-document",
+      "bytes": 15039,
+      "sha256": "0183f2322678f52b9669f889be7bf8d126425ec66ae66abc299c65dfcf283a50",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2aaa9241e33dbd7f5ba2d97a.mdx",
+      "kind": "official-document",
+      "bytes": 6273,
+      "sha256": "4caf0ec7b0d7e595a1b1eb14f6cbd83898bfab48234a090aead182845452dba4",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/24e11eedd55359fe6e254ab4.mdx",
+      "kind": "official-document",
+      "bytes": 20858,
+      "sha256": "7c470360c833b4dc34c7ff5c9b8328c5edbfd046ca5cb14c1224f0c6d1b0bf0f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ed460938a4996db246539490.mdx",
+      "kind": "official-document",
+      "bytes": 17754,
+      "sha256": "0ef5c02d409de1fa218a256a4ddc3d21b33c479bfe25dfa896be33ed9652e899",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0ea714b0469000f3c0098c4c.mdx",
+      "kind": "official-document",
+      "bytes": 3429,
+      "sha256": "523852cbc1ebd2943f73f045ace3299493b30873e757e70e93c6d40707dc57db",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/783e824f898e4f35f92e7d2a.mdx",
+      "kind": "official-document",
+      "bytes": 13978,
+      "sha256": "6b2fb97025789d560948d4de6cb65932de7ca2308692f1ee67421013ae158ced",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/947b0f7ba731328d507471bf.mdx",
+      "kind": "official-document",
+      "bytes": 2587,
+      "sha256": "6ac984548b0efc2dc40120e8eedc07992562b3926d21504837de18a9f08b6f07",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f1de645973a15b9fd29e4b28.mdx",
+      "kind": "official-document",
+      "bytes": 3661,
+      "sha256": "2a90c2536d4b3df6162929063525865e9e104580307664f3cd670f84a90154ce",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0b4a55e861749afddbefb794.mdx",
+      "kind": "official-document",
+      "bytes": 4252,
+      "sha256": "0e38e8e93dfdfed3e4781ec389987b13633a6a52a0a3f0bc5940be1bdcb898d6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/6d1225694ba46b6109abb05f.mdx",
+      "kind": "official-document",
+      "bytes": 3334,
+      "sha256": "af04e5e33d7512ade6f14e327437f69fef0f9cbee0e5e8813f0873ece8f3db38",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/71d827d96ee483a0a190a0e4.mdx",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "63914b420b225a90c8adefaba9d84655044305956db36d2f0fc358def0c95bc5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0e90df4d4387d048e1451325.mdx",
+      "kind": "official-document",
+      "bytes": 4536,
+      "sha256": "4ca8463974fb614e06e4e72e0dff07816a51bab9d6ba0dbb125009947e6588ca",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/en/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e5db6d216f628aa44a5b837e.mdx",
+      "kind": "official-document",
+      "bytes": 3086,
+      "sha256": "b19a89e731f9df103a197b6911efcc67bcca3e411f318d1fc32afbb99f15dba3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d4914783f6319ebff3403a7b.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/563e9794ddf4b599e1464502.mdx",
+      "kind": "official-document",
+      "bytes": 5069,
+      "sha256": "cbcea1cc9482278d44c7f8ddcf63e28a5c6d2b47a889fa3dcfdbbbdf9779c572",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c842265316409e7e6a309be0.mdx",
+      "kind": "official-document",
+      "bytes": 8418,
+      "sha256": "03f94132e9ec79434ba169855355feae1cd32b7c9fce23f6d1a3e9559714f4ae",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e4c7b91156e684d150e138cc.mdx",
+      "kind": "official-document",
+      "bytes": 15763,
+      "sha256": "d7fa3ab23d2c0ffa21ced28e41a972261b1e3f86444e1f246472a4dfac3748b5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f443512b99eb2e1ba8942c0c.mdx",
+      "kind": "official-document",
+      "bytes": 6273,
+      "sha256": "4caf0ec7b0d7e595a1b1eb14f6cbd83898bfab48234a090aead182845452dba4",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/088526a9f4fbf12c2be5b9df.mdx",
+      "kind": "official-document",
+      "bytes": 22143,
+      "sha256": "ad3e0d21cde348d2f279f62928ef71309ee97881837c5df96634cb91c792057a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/061a1e68eb4b28c80dc9d4e7.mdx",
+      "kind": "official-document",
+      "bytes": 17296,
+      "sha256": "6e030a475f84049831ea317de0b6c506d38940daa86a850fcda084b7fd6ce91f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3db7e395881e3e2f912d0294.mdx",
+      "kind": "official-document",
+      "bytes": 3429,
+      "sha256": "523852cbc1ebd2943f73f045ace3299493b30873e757e70e93c6d40707dc57db",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a57b57fc42b47646db4440b3.mdx",
+      "kind": "official-document",
+      "bytes": 13055,
+      "sha256": "4923b8931f09d94e72072952d0d53c3b6340d8b58b64d6ae215a4a5a877e7cea",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/41fc9697b158b3d428d84f13.mdx",
+      "kind": "official-document",
+      "bytes": 2587,
+      "sha256": "6ac984548b0efc2dc40120e8eedc07992562b3926d21504837de18a9f08b6f07",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0e3c12ff4e13fb0d883ab5ad.mdx",
+      "kind": "official-document",
+      "bytes": 3784,
+      "sha256": "972d780fe0b9e78517d2aeb3a3475b389c1f5c88877f810024ed5e419c0b4977",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/144107c08937d75ca685575c.mdx",
+      "kind": "official-document",
+      "bytes": 4250,
+      "sha256": "a82db2a4a53758b106a397cae9f6d33286c2467dbce2da99101d802e98d81de3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c97b079a7e442e629cb4170d.mdx",
+      "kind": "official-document",
+      "bytes": 3334,
+      "sha256": "af04e5e33d7512ade6f14e327437f69fef0f9cbee0e5e8813f0873ece8f3db38",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/214b2668c54e5ca6648d4264.mdx",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "63914b420b225a90c8adefaba9d84655044305956db36d2f0fc358def0c95bc5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/891c65c634d60bd13ddac617.mdx",
+      "kind": "official-document",
+      "bytes": 4180,
+      "sha256": "662fda0b90b7eb3300c2dcad3eca339fce4c27871fb93c6a65f1c6dc67ca9005",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/en/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ee82e17e17a4e33ca5c7f588.mdx",
+      "kind": "official-document",
+      "bytes": 3086,
+      "sha256": "b19a89e731f9df103a197b6911efcc67bcca3e411f318d1fc32afbb99f15dba3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/en/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0502b8fb60bbafbe1df55cee.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2f3585aaf9e846b66ac51cd9.mdx",
+      "kind": "official-document",
+      "bytes": 5555,
+      "sha256": "b83cfaa63940549e157b3e26f2187ba8ce734d76e1783f7e3874a7afff39ad4d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e530b4e22e46bff73ccfe062.mdx",
+      "kind": "official-document",
+      "bytes": 5057,
+      "sha256": "7753e0ee4bfade5fd2469fb9bf0f66254dd2062c8545b42da6e003ea6abb973e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a4b7f8dfb560fd589d772fa9.mdx",
+      "kind": "official-document",
+      "bytes": 15343,
+      "sha256": "2aa9a042688086b1984dfab5c4b4d35dba3e1f17c0290531808fcd15dc694a8a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0f17fc880820d5c7592ead9d.mdx",
+      "kind": "official-document",
+      "bytes": 6481,
+      "sha256": "1aae440236e7f0507ce751c11f2384bf89ef3d076eaafa52ed5b60713808b657",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0904bd3b6b175bd53ad9b28e.mdx",
+      "kind": "official-document",
+      "bytes": 20632,
+      "sha256": "7974342b3d6eee8c1cf867a23114327593ae5774df358e4da194a423ca245a34",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/373eceb1d6348142ad2fa2b3.mdx",
+      "kind": "official-document",
+      "bytes": 17945,
+      "sha256": "ba822eae4fb634d5047d55da6897785c125a2131441034447a9842569cf7b79b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c0dc65da6a57b8861552a6e4.mdx",
+      "kind": "official-document",
+      "bytes": 3409,
+      "sha256": "87541d87dca6a05ab356c5559dcbc48ff655ff00c8ddec9d8ea91a5ea260dd0e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f530fefefb7f2dfd9279cb82.mdx",
+      "kind": "official-document",
+      "bytes": 14130,
+      "sha256": "db1256bb4038ab59c59b6098302f9e6c8a50d306b3b9aa7e30253defbc4a249b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d18ed2f89bdaf402662b26b3.mdx",
+      "kind": "official-document",
+      "bytes": 2602,
+      "sha256": "46063ad6c40088cbb6151698dc228eaa1505d3a3475e5d7787e322e2485f0bbb",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/57621d13ded122d864c10429.mdx",
+      "kind": "official-document",
+      "bytes": 3804,
+      "sha256": "b9a1e3547d57a52866e9b3a52acc91343182921547cc696af25bebe1a1e15328",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/fb26da90fd41485b718ceeaf.mdx",
+      "kind": "official-document",
+      "bytes": 4447,
+      "sha256": "966dd47664d608c2934c7699be50c3eff29005d52e7cd5222468e97ecce37a19",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2ac4f674bed915ec1b4606a5.mdx",
+      "kind": "official-document",
+      "bytes": 3545,
+      "sha256": "b1a6f1702e7ec6c52576bb4fb5ae2d94aded4e8ff27b602aaca22c4d8921f174",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7003a4cc1176e4dfcaa025d9.mdx",
+      "kind": "official-document",
+      "bytes": 2468,
+      "sha256": "0a869592d6d943425de7eb867a9e72ca00f21e538544c835378be9ea73d3425a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4d9896d8defbfd7177510bf7.mdx",
+      "kind": "official-document",
+      "bytes": 4614,
+      "sha256": "ed532843d2b8dc9351600e7858d6d7868a7042ab5eeae7b62b591c40bc9424c9",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/es/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9afa945a8545dcd18a37ff0f.mdx",
+      "kind": "official-document",
+      "bytes": 3076,
+      "sha256": "e7765c6a2e153c1e9b55ff3a7831d797c0083b09808e5fd1f9802e426b8aaa2a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0121e9aa554a4462becae89c.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1a5c62d00a56e94606ea5c21.mdx",
+      "kind": "official-document",
+      "bytes": 5555,
+      "sha256": "b83cfaa63940549e157b3e26f2187ba8ce734d76e1783f7e3874a7afff39ad4d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2972635aee54c4266848f7b5.mdx",
+      "kind": "official-document",
+      "bytes": 5057,
+      "sha256": "7753e0ee4bfade5fd2469fb9bf0f66254dd2062c8545b42da6e003ea6abb973e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/26a6a2b221f26aca76162361.mdx",
+      "kind": "official-document",
+      "bytes": 15343,
+      "sha256": "277fe429acad346b5adfe6b1afa4953f189f1d978f84315fb8087cb2499478c9",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/aec44a8eee9d315c0e32d33e.mdx",
+      "kind": "official-document",
+      "bytes": 6481,
+      "sha256": "1aae440236e7f0507ce751c11f2384bf89ef3d076eaafa52ed5b60713808b657",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f87cb1c9cfa598ef31fd4587.mdx",
+      "kind": "official-document",
+      "bytes": 20859,
+      "sha256": "b706b1bec936c84fc54a93a30e8d253f21d7881dbd029b980545b33012104b06",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f8f688fcb673621fa01c2300.mdx",
+      "kind": "official-document",
+      "bytes": 18021,
+      "sha256": "57bea7125a9cb9fb04909d9649a52a49a2b7d416736c7da467f24b419d58196d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2f6d69b172753aa7afeac651.mdx",
+      "kind": "official-document",
+      "bytes": 3409,
+      "sha256": "87541d87dca6a05ab356c5559dcbc48ff655ff00c8ddec9d8ea91a5ea260dd0e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f56223b991334088427ee1dc.mdx",
+      "kind": "official-document",
+      "bytes": 13187,
+      "sha256": "041d840f014b852c1bf88b05ceb847e03d9645b74ebeae0efd3f2f3ef5716c02",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0c4eea61dbad9d921c6604b4.mdx",
+      "kind": "official-document",
+      "bytes": 2602,
+      "sha256": "46063ad6c40088cbb6151698dc228eaa1505d3a3475e5d7787e322e2485f0bbb",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e91774de99deba5e9ca6c59a.mdx",
+      "kind": "official-document",
+      "bytes": 3936,
+      "sha256": "86ca2b9e8b8afd0aad55ee9e5c1dcb813f91069b7e558924e4cfc523b99b0b03",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9e33a6927fdc514c745402ea.mdx",
+      "kind": "official-document",
+      "bytes": 4447,
+      "sha256": "d9f4f7cde5a419695993dc9fbcafbe5ed594747ad6039526386b9ad29a0cdfca",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/13456928c10322a54409af51.mdx",
+      "kind": "official-document",
+      "bytes": 3545,
+      "sha256": "b1a6f1702e7ec6c52576bb4fb5ae2d94aded4e8ff27b602aaca22c4d8921f174",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d3a66a32ce0cc9e2b72f5bad.mdx",
+      "kind": "official-document",
+      "bytes": 2468,
+      "sha256": "0a869592d6d943425de7eb867a9e72ca00f21e538544c835378be9ea73d3425a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/680987c97d117292b0b954a9.mdx",
+      "kind": "official-document",
+      "bytes": 4241,
+      "sha256": "72a872d4ea82c2ecdbbc0b73ae38a95257a1aba6dd33af6fc45b17fc0587d0cc",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/es/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/953c863ae6c5a741a67c6f2d.mdx",
+      "kind": "official-document",
+      "bytes": 3076,
+      "sha256": "e7765c6a2e153c1e9b55ff3a7831d797c0083b09808e5fd1f9802e426b8aaa2a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/es/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/79a4da7b7e18f39b5c03074a.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/781add1553aa69205bd46d70.mdx",
+      "kind": "official-document",
+      "bytes": 5589,
+      "sha256": "5b8c7210f1200160963bb2fa90c51cdf80529bc885c0de3152f969b46138405b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/fda6baf0ba12de7b3b11bd07.mdx",
+      "kind": "official-document",
+      "bytes": 5083,
+      "sha256": "269e2e4985cfce62e063bb9658682a992850674cf069ee87ffa493bd2dafd992",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c5e93263009fe1a4ff151982.mdx",
+      "kind": "official-document",
+      "bytes": 15787,
+      "sha256": "32835165d454dca84c011f6a6eb7bcb0667892d6c9804b553369c2df57d1f2f7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/64b8c425cb33d66cf7e66977.mdx",
+      "kind": "official-document",
+      "bytes": 6572,
+      "sha256": "4007c05eeed420e109bea830354fed3bd8cb16268ba3b1bc1172d9515becc13b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4a70973b991cd2b47a37d318.mdx",
+      "kind": "official-document",
+      "bytes": 21094,
+      "sha256": "74ba25d1674dc64942e2e23a74f8b38dc11a2b02c23acd2bf46f09c873cf8922",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9ac1f0e85e642186acdac68f.mdx",
+      "kind": "official-document",
+      "bytes": 18187,
+      "sha256": "c835db179881ccf11bbd393f5e54341f4c79fedb26b638448cfe344a2db84a65",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0bd5932a88dd6218c8f8f1c6.mdx",
+      "kind": "official-document",
+      "bytes": 3375,
+      "sha256": "f6381ff42e40ec1ec5817c65e6aa70b9350f7730499cd844057c3fe19bdae716",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/40f99e374c6e1dc1cd93d5e1.mdx",
+      "kind": "official-document",
+      "bytes": 14336,
+      "sha256": "4d529e4a7b6865ef5cc1b0fa3e35b1a119fe9f15334da0ada1c4af6739c77eee",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b3f69477758eb0dd9d10aac2.mdx",
+      "kind": "official-document",
+      "bytes": 2689,
+      "sha256": "3624a241ab9f79db5633283eb3e0e948ce59e67108e1bf3a238f4895ad6a7862",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/90dac2d29526209ff12c9891.mdx",
+      "kind": "official-document",
+      "bytes": 3919,
+      "sha256": "bbe43d97dcfa4e272e3c6c05e4e32135b92c856d25d0a2b70344e9c603b8c866",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e945dc23abab9410ebbe72b1.mdx",
+      "kind": "official-document",
+      "bytes": 4618,
+      "sha256": "9b767862e7765480c6c9dec7c070b2898d910e642b44424e9de86580d29bb3fd",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/820bbe909641351f825e636e.mdx",
+      "kind": "official-document",
+      "bytes": 3610,
+      "sha256": "bf08821556c4551cbb10b3d6d716c573b891d50f7ae0743a5f691f5d5021b002",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c657a73ad6acd4b300ce68c5.mdx",
+      "kind": "official-document",
+      "bytes": 2540,
+      "sha256": "7a4744abc42cf9464c710ad1a2a34332db0fa9da4253481d335324c020b5e5cb",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/364d4a838de37ae16acb6358.mdx",
+      "kind": "official-document",
+      "bytes": 4763,
+      "sha256": "70839eb31bf53b10c9a7ca537f352c990ee9c4b7e4acdd3997655339788ba8e4",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/484987c892f1f8ca39c45d62.mdx",
+      "kind": "official-document",
+      "bytes": 3205,
+      "sha256": "f0eb19052af6149dec81416fb307bd43ec0e5edcc2f805713eb29cdd3198c5e7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/057d9c48d663748f3e0f79ea.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a56500cf0ad2fb5d59027c32.mdx",
+      "kind": "official-document",
+      "bytes": 5589,
+      "sha256": "5b8c7210f1200160963bb2fa90c51cdf80529bc885c0de3152f969b46138405b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/48ae665790980acbe344bfef.mdx",
+      "kind": "official-document",
+      "bytes": 5083,
+      "sha256": "269e2e4985cfce62e063bb9658682a992850674cf069ee87ffa493bd2dafd992",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/26c233f49507b32fae0d3d19.mdx",
+      "kind": "official-document",
+      "bytes": 15787,
+      "sha256": "25f995e0264f68928c58d4b1e357f85df27ec16bba66249558462b06cf6c831c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/314228afa07584e8de23e70e.mdx",
+      "kind": "official-document",
+      "bytes": 6572,
+      "sha256": "4007c05eeed420e109bea830354fed3bd8cb16268ba3b1bc1172d9515becc13b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ac05a211989939c8150ed30a.mdx",
+      "kind": "official-document",
+      "bytes": 21305,
+      "sha256": "e9ee048faaf16fa9f9b5421a1d747756facf3685e57076ab3c3d41b6133c646e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/bdc4dc2592474e91736f44de.mdx",
+      "kind": "official-document",
+      "bytes": 18263,
+      "sha256": "bea07d016b10694fb4600ad47d5ea89515af756951b9d9620a9fa4534cf6fc80",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4f22827c01dd361e4a7dc8d4.mdx",
+      "kind": "official-document",
+      "bytes": 3375,
+      "sha256": "f6381ff42e40ec1ec5817c65e6aa70b9350f7730499cd844057c3fe19bdae716",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0c46129ec1e908336848c41c.mdx",
+      "kind": "official-document",
+      "bytes": 13386,
+      "sha256": "72dba5dc5e10109174c916399f117600ddff39e02704cb6ca4493eb8204c3609",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/81f56c74253c97d34c554a56.mdx",
+      "kind": "official-document",
+      "bytes": 2689,
+      "sha256": "3624a241ab9f79db5633283eb3e0e948ce59e67108e1bf3a238f4895ad6a7862",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/484da65886a56815a33fbd2c.mdx",
+      "kind": "official-document",
+      "bytes": 4052,
+      "sha256": "08d012478cb8c2618790f9e4255a7df4c46a0b0a4701f11b94f6ea98d2d292f6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f93f1702c8dec8428c029979.mdx",
+      "kind": "official-document",
+      "bytes": 4618,
+      "sha256": "53f728a10bcb2b07aeaa409d49b78da6bd27aa1777b57de876bb338705ac1688",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a14cbcccaafbada3c929707b.mdx",
+      "kind": "official-document",
+      "bytes": 3610,
+      "sha256": "bf08821556c4551cbb10b3d6d716c573b891d50f7ae0743a5f691f5d5021b002",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/cd1982c6384240976444a19c.mdx",
+      "kind": "official-document",
+      "bytes": 2540,
+      "sha256": "7a4744abc42cf9464c710ad1a2a34332db0fa9da4253481d335324c020b5e5cb",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/99f791edf43626d31481c274.mdx",
+      "kind": "official-document",
+      "bytes": 4355,
+      "sha256": "defaaf37ecee0699258911b3d87abcaa165b6d91d5bb2474a71d07c4b0c5871d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/fr/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/29eacca2e99df30601ad174b.mdx",
+      "kind": "official-document",
+      "bytes": 3205,
+      "sha256": "f0eb19052af6149dec81416fb307bd43ec0e5edcc2f805713eb29cdd3198c5e7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/fr/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/71ecd8f7b0a0397ed898a14d.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7975710e9cc290ffd297cad7.mdx",
+      "kind": "official-document",
+      "bytes": 5415,
+      "sha256": "0fb6c59588330cd63992eee9db34b20b9ea4ae53d1f71edd764024b672b23c39",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/6e4f047020bb791bc3d91aef.mdx",
+      "kind": "official-document",
+      "bytes": 4870,
+      "sha256": "a9c1a67d4256301902156a164fa641426b5d0076bc2a01db4f943c2062c06970",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ce0a1d172ab86e7440d55681.mdx",
+      "kind": "official-document",
+      "bytes": 15452,
+      "sha256": "68426bc009cd31fe3cb2fb61d3b95b66697eae784bed217fa1fde9d7f58354b3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e72f9448d2e0b663f1096de3.mdx",
+      "kind": "official-document",
+      "bytes": 6436,
+      "sha256": "3cba1214e704d8079fb09f5b560ad11d22c3aa4555175e7857f93f6ae11f706e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b952f96d46123262c82822ff.mdx",
+      "kind": "official-document",
+      "bytes": 20684,
+      "sha256": "5e6e5185022a07e652367d5222ecfc87456a397e138476906669d7245670f7f1",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b7829833c2aaf230d6bcfca1.mdx",
+      "kind": "official-document",
+      "bytes": 17969,
+      "sha256": "0db9a4f324d0ab4e1d1f40dd922d0c88a022a0d3aa3fe30630afbfb3eae302cd",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/cd25c793dbcaf157b189d264.mdx",
+      "kind": "official-document",
+      "bytes": 3320,
+      "sha256": "8580a29f247a37ae02243a937319ef3482eed939c79a7b8b8c258ec67cd6ba53",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3c0e931f66ecec8a473191e1.mdx",
+      "kind": "official-document",
+      "bytes": 14232,
+      "sha256": "e7a4c18c7d89794116e4aa26c5bddc34c9d61cc466ecfb4cd80f731671dd91db",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a548832b9ff2ba84cad4c9f6.mdx",
+      "kind": "official-document",
+      "bytes": 2609,
+      "sha256": "0757c174f01be30229c81820e3dd34f3106159b63cd92d27f3cc52169bf56ddf",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0daa46ec17398aa6659cdb9b.mdx",
+      "kind": "official-document",
+      "bytes": 3789,
+      "sha256": "85a53426a6c816c8c7823610dbfea5c89d7b403e6e0b61ba82b7de5338bc3097",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2b5c7210c563f9167d3a8674.mdx",
+      "kind": "official-document",
+      "bytes": 4450,
+      "sha256": "31168e802e58e8bf868d813b0ecbabe5c998269b97851008995f3f72007259ba",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2e3cceb076c3afeceaa9fa65.mdx",
+      "kind": "official-document",
+      "bytes": 3535,
+      "sha256": "befc8fecc9a0d1d5f2566792c91e0cdfd6d947b75a901d2f8646a1e840b81a2d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9724c74a0194695c26ddd02a.mdx",
+      "kind": "official-document",
+      "bytes": 2376,
+      "sha256": "e94d42ea5a181ed8903407a599e09b64e3c6a044d023d4aa47c67ccb28fbe732",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/25ee4b9488237397420e3225.mdx",
+      "kind": "official-document",
+      "bytes": 4613,
+      "sha256": "8802e02a7f20b76113b0823a0e0fce3d89566193e450e1a8063ca1a8a6aca02d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/it/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/212b3521ee5ffaff5d2a77c4.mdx",
+      "kind": "official-document",
+      "bytes": 2973,
+      "sha256": "033a52108fbebbe49fc2b67c94e48be6d5733e10b1abab17dae944718c0d2498",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/dbcd85fe228cf14a809038b9.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2976faecdb51c2095b557ff0.mdx",
+      "kind": "official-document",
+      "bytes": 5415,
+      "sha256": "0fb6c59588330cd63992eee9db34b20b9ea4ae53d1f71edd764024b672b23c39",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7acecbaedb7a3d9fd794bcd6.mdx",
+      "kind": "official-document",
+      "bytes": 4870,
+      "sha256": "a9c1a67d4256301902156a164fa641426b5d0076bc2a01db4f943c2062c06970",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9236f74ef66d7c27bf5a848e.mdx",
+      "kind": "official-document",
+      "bytes": 15452,
+      "sha256": "57af307be34d0f51a3ff619617f6a57493a3a108bf52a491cf94c1088439e669",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3a88413d65e865d97c71abb6.mdx",
+      "kind": "official-document",
+      "bytes": 6436,
+      "sha256": "3cba1214e704d8079fb09f5b560ad11d22c3aa4555175e7857f93f6ae11f706e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9710270df7cb08e958daf70d.mdx",
+      "kind": "official-document",
+      "bytes": 20911,
+      "sha256": "94b2fe82bc8e691f2863a2ca351698e947a7c0027a7da8dc908e70fddf6f0e03",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/641f08dc7ee1a30f947d7ff6.mdx",
+      "kind": "official-document",
+      "bytes": 18045,
+      "sha256": "b9e735d51a025633dd00a6e8344e2e25e42898387eb01066ed79d91b1f7eb851",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/00b9f5106a41d919ebd99fcf.mdx",
+      "kind": "official-document",
+      "bytes": 3320,
+      "sha256": "8580a29f247a37ae02243a937319ef3482eed939c79a7b8b8c258ec67cd6ba53",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a8f879d51c75f680479e2d75.mdx",
+      "kind": "official-document",
+      "bytes": 13290,
+      "sha256": "a635f998ce0e9499a1d841b25e2224efefa1f4346c1668dd6bdf3e24530720ec",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/65b6276cc02b9c3a9db49c7b.mdx",
+      "kind": "official-document",
+      "bytes": 2609,
+      "sha256": "0757c174f01be30229c81820e3dd34f3106159b63cd92d27f3cc52169bf56ddf",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/cd7c982b5ebd30f545e50e6a.mdx",
+      "kind": "official-document",
+      "bytes": 3925,
+      "sha256": "1e2bdcec14c0e90043713756ee4223ee21d0349dd3e26d6decfc756f1ab358f2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/6fefd42fabde872d408f9445.mdx",
+      "kind": "official-document",
+      "bytes": 4450,
+      "sha256": "eab8fed49a21ba78935446b27a5ee0a2a488e4b4c037534090cc30381b89a85e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/43c4adee4f868ee18747d0d8.mdx",
+      "kind": "official-document",
+      "bytes": 3535,
+      "sha256": "befc8fecc9a0d1d5f2566792c91e0cdfd6d947b75a901d2f8646a1e840b81a2d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e28ed5ba2c6d020da538289f.mdx",
+      "kind": "official-document",
+      "bytes": 2376,
+      "sha256": "e94d42ea5a181ed8903407a599e09b64e3c6a044d023d4aa47c67ccb28fbe732",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1625a9b9e5e9c3b87d584ccf.mdx",
+      "kind": "official-document",
+      "bytes": 4249,
+      "sha256": "2572d3f7d70be738e400556b6d72ccce396d54a93c49edef1b09a6408e62caa5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/it/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/13f59c4a7903e0e3d85f1362.mdx",
+      "kind": "official-document",
+      "bytes": 2973,
+      "sha256": "033a52108fbebbe49fc2b67c94e48be6d5733e10b1abab17dae944718c0d2498",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/it/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/fafeea4037d65da63f6b4636.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/272492206c00bb645a116ba6.mdx",
+      "kind": "official-document",
+      "bytes": 7076,
+      "sha256": "1d6a2c773a029f1880f468f57f38d1554089916842dbf25dffcd2c23b68163df",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2762916e53af114cf39ee8c1.mdx",
+      "kind": "official-document",
+      "bytes": 5369,
+      "sha256": "82f60f03715ae57d478d589f800164a5f3a75e4b81311f24753ed1014f0cca3c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/cd6243494bb9e17eed4128cc.mdx",
+      "kind": "official-document",
+      "bytes": 17075,
+      "sha256": "33f47c8d4bc3599bab3fbfc0204093a74713f81625331ec85d174da7a337e115",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8f3bf4e8ccbc966398a260dc.mdx",
+      "kind": "official-document",
+      "bytes": 7428,
+      "sha256": "51db0ec7479521bb66c14aca8328304f7738921c0ba045ba6b45f95fcb322582",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1a69e07fcd3f3e811277af63.mdx",
+      "kind": "official-document",
+      "bytes": 23732,
+      "sha256": "308a53027a227e1e1a82ae09f3840d48f6e3a2041d844963e99beedb54aea61b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b2c93d3a791b5b10adde4c36.mdx",
+      "kind": "official-document",
+      "bytes": 19805,
+      "sha256": "9053244c70bea3d0ec69e34f5e392258cc7fa82c0bf90a8cfb54e782c08512ab",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f7b43b67ee4b763611e8d5d5.mdx",
+      "kind": "official-document",
+      "bytes": 4627,
+      "sha256": "4ce90a172463964445279fe04d9127989179cc8cf62e6534d3dbae42d607b1df",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3cc8803491fa80efbeeed742.mdx",
+      "kind": "official-document",
+      "bytes": 16413,
+      "sha256": "2c0ef5b53df77635194a86261fc7b46f6a2bebbc963a59e91cd065000cf6fe6a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c746dc4d60f78cc228b3bc60.mdx",
+      "kind": "official-document",
+      "bytes": 2942,
+      "sha256": "bb72b4d958bcc5ea8fb06a6b6700431e4700b02e5cc87336d4c6d00c536805d5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/69048622c7dc196b9d675ae5.mdx",
+      "kind": "official-document",
+      "bytes": 4116,
+      "sha256": "89fc72064a31a3ea57a990110bd6c1f535cb9dc7c5ea2675d51453a053025a34",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a847a3696499c59c73338f3f.mdx",
+      "kind": "official-document",
+      "bytes": 6021,
+      "sha256": "b2a771c425ad5ef42b891fcc94ce5c1a12469d95c880c7b91ef61e836cfc5e0e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/33df80cb25300555829eec4c.mdx",
+      "kind": "official-document",
+      "bytes": 3959,
+      "sha256": "d2128b41a035a2e8e558ac5ada08533af0fccf71624e50cb3e3dee84f5e21f21",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/36598d931da28d00999526bf.mdx",
+      "kind": "official-document",
+      "bytes": 2758,
+      "sha256": "7874c9de95652b7cbdaddca34c6c55309fbc0cc1411f22fc9944ffc17f4eb570",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/de78b469c5fe778bca93ac37.mdx",
+      "kind": "official-document",
+      "bytes": 4852,
+      "sha256": "47f03e35fc1169b2d14645a881b674cb4e0984264b138831542fafec5d0d85fc",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a1d5385335dd280d1394b486.mdx",
+      "kind": "official-document",
+      "bytes": 3515,
+      "sha256": "b285d4447621ae8f9853c6a859c9ea85b7ef7adf5a7dc29110b2c6ea1a967702",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1e0734dd2d38dce4761f4c67.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b5ef15a59ff3e73a53e0abb2.mdx",
+      "kind": "official-document",
+      "bytes": 7076,
+      "sha256": "1d6a2c773a029f1880f468f57f38d1554089916842dbf25dffcd2c23b68163df",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/332601d49b6faa7c97a6a68f.mdx",
+      "kind": "official-document",
+      "bytes": 5369,
+      "sha256": "82f60f03715ae57d478d589f800164a5f3a75e4b81311f24753ed1014f0cca3c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/51e280d6456c8573427e4820.mdx",
+      "kind": "official-document",
+      "bytes": 17075,
+      "sha256": "ecdd9290df1d815dc66bbe670d79c91824d28b7fcc7c715534931eddfa648339",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/39bcd81a83b4beae8af147ed.mdx",
+      "kind": "official-document",
+      "bytes": 7428,
+      "sha256": "51db0ec7479521bb66c14aca8328304f7738921c0ba045ba6b45f95fcb322582",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c70993390cb586d9591064a1.mdx",
+      "kind": "official-document",
+      "bytes": 24437,
+      "sha256": "a70833e2a886bd71056f1d65375ddf4286398fdcf471d4db9f45046cc7c592ff",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e5aff2253fde9f19ebecb8f5.mdx",
+      "kind": "official-document",
+      "bytes": 19881,
+      "sha256": "aada4678cf3adae335489bb63765a932c0506e84715acd07043dc3687075b97f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/590902323721513ecb56580b.mdx",
+      "kind": "official-document",
+      "bytes": 4627,
+      "sha256": "4ce90a172463964445279fe04d9127989179cc8cf62e6534d3dbae42d607b1df",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/fd926cdcc1822775f56789f6.mdx",
+      "kind": "official-document",
+      "bytes": 15428,
+      "sha256": "25f458ef9ca622e6640694303fcac20f020dd0113f392f5c46e8c91139765ff2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/74ee2405be32867af31a6324.mdx",
+      "kind": "official-document",
+      "bytes": 2942,
+      "sha256": "bb72b4d958bcc5ea8fb06a6b6700431e4700b02e5cc87336d4c6d00c536805d5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e465f13665f166b0edfc9a2e.mdx",
+      "kind": "official-document",
+      "bytes": 4269,
+      "sha256": "0ccc874d4fe7405b673b1bf7bc4ee123a8b9fb689d4dc0d78c15b6b00bc9ff46",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b42e47b7a81ec9c80362d499.mdx",
+      "kind": "official-document",
+      "bytes": 6021,
+      "sha256": "8ed1a35d5847663017912337a02eb925f729d713b162d027f0d152b5291dbe13",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/071c723917c328f43e35766f.mdx",
+      "kind": "official-document",
+      "bytes": 3959,
+      "sha256": "d2128b41a035a2e8e558ac5ada08533af0fccf71624e50cb3e3dee84f5e21f21",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/56c9d8b821f84b7fd37ed5a3.mdx",
+      "kind": "official-document",
+      "bytes": 2758,
+      "sha256": "7874c9de95652b7cbdaddca34c6c55309fbc0cc1411f22fc9944ffc17f4eb570",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ba886c9788ed537d6402a451.mdx",
+      "kind": "official-document",
+      "bytes": 4488,
+      "sha256": "b258ab51ead2b088f7007dd17754c50bb789ca31148bc058d527bb326d9bfb5e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/ja/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e4b7dec3cf15c6a75b16cf5a.mdx",
+      "kind": "official-document",
+      "bytes": 3515,
+      "sha256": "b285d4447621ae8f9853c6a859c9ea85b7ef7adf5a7dc29110b2c6ea1a967702",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ja/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2dc26fafd4ae9fcce4bb0b68.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/10d51a20135b763357407fad.mdx",
+      "kind": "official-document",
+      "bytes": 5033,
+      "sha256": "dd6f772475925a289257fcb5834df2a62646be37b2751ae5e10ab96193c2acaa",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/72de6d53029bc2839232b9c8.mdx",
+      "kind": "official-document",
+      "bytes": 4678,
+      "sha256": "210027b971738333c9db150b1eaeb875ccbc3969a646ba0fc3e337c5326b591c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a8cc97a95ec856b0b1210675.mdx",
+      "kind": "official-document",
+      "bytes": 14683,
+      "sha256": "eda22b34d4d3f2970e0ebacfa8e87734478a585b4a6d91699f17ee5071ca8faf",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e092b773936a31fbb276040e.mdx",
+      "kind": "official-document",
+      "bytes": 6240,
+      "sha256": "ca6138a3ccb2aece9adb14ad7565b0173d272393c9915713412d40f3c674d779",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8e34cbe89e518547dbec9709.mdx",
+      "kind": "official-document",
+      "bytes": 19659,
+      "sha256": "e424ce11be81a7a3047084edc6181af464a8b3fac1dda7b9d968f5682556cb55",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c7f2ec360eabb3db150d56d0.mdx",
+      "kind": "official-document",
+      "bytes": 17421,
+      "sha256": "5d76a3668c8f77252b468c63186037c10133172ca961698be7fe2daee23de5b9",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/922a02a14c6e5404ffed6724.mdx",
+      "kind": "official-document",
+      "bytes": 3121,
+      "sha256": "55bda5c3f520b360031399ae582abe299d6c6ee5187e803322e03254ff6e7eab",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3bc3c6b3add11c874f5fa120.mdx",
+      "kind": "official-document",
+      "bytes": 13792,
+      "sha256": "fd8d941680e640cddc7c037e5c45d31094f37740ec2877ed96c2bf8aec3a8b30",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/af7c7e9d0c6a2ca39e728078.mdx",
+      "kind": "official-document",
+      "bytes": 2469,
+      "sha256": "08f4e1fec5a9fa68a9342ac98d45cddb588c83af606d912809715553a08d4a32",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f8f178ae7de17a8b49f4c3e8.mdx",
+      "kind": "official-document",
+      "bytes": 3661,
+      "sha256": "2a90c2536d4b3df6162929063525865e9e104580307664f3cd670f84a90154ce",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5088e1b68c63db250cf55a90.mdx",
+      "kind": "official-document",
+      "bytes": 4108,
+      "sha256": "bc9019f60efbc2f9866696a4ed552070b6698abb91af61738b6e57cb15d17b13",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b386e18fafde7fccf165218f.mdx",
+      "kind": "official-document",
+      "bytes": 3334,
+      "sha256": "af04e5e33d7512ade6f14e327437f69fef0f9cbee0e5e8813f0873ece8f3db38",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9a6577315930dd2d3f405992.mdx",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "63914b420b225a90c8adefaba9d84655044305956db36d2f0fc358def0c95bc5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/57cfe59b690f13a4c3edc93e.mdx",
+      "kind": "official-document",
+      "bytes": 4503,
+      "sha256": "10a3f471e70b917fd00b1ded1d99d5dca5780a45d565f034919752845d4cc07f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/362e51daecc0b09775914dea.mdx",
+      "kind": "official-document",
+      "bytes": 2932,
+      "sha256": "3ea6c34578ba4e126274bcc1eedcff2136c51ed80a296cba2896c9f980098c1d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/dca3272f79bce94c7900b7fb.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1abe900298e40fef6413357c.mdx",
+      "kind": "official-document",
+      "bytes": 5033,
+      "sha256": "dd6f772475925a289257fcb5834df2a62646be37b2751ae5e10ab96193c2acaa",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5ca1c23777c37449dc8d5834.mdx",
+      "kind": "official-document",
+      "bytes": 4678,
+      "sha256": "210027b971738333c9db150b1eaeb875ccbc3969a646ba0fc3e337c5326b591c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/dc22ad6ce948b0191ca276cb.mdx",
+      "kind": "official-document",
+      "bytes": 14683,
+      "sha256": "467904800365c3507efa0023ce1786b54d26a4927ec8282f79dc59258a69d3e1",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3df2b95899b5c8cd43752d02.mdx",
+      "kind": "official-document",
+      "bytes": 6240,
+      "sha256": "ca6138a3ccb2aece9adb14ad7565b0173d272393c9915713412d40f3c674d779",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/06382922c9e2b142f011e3f3.mdx",
+      "kind": "official-document",
+      "bytes": 19779,
+      "sha256": "83c9d109ea021bb4d8e25ef4bc8e5915c49bc6bcd6ab255916bb7b937b073b89",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/290e39efd53a9b53ce3b038a.mdx",
+      "kind": "official-document",
+      "bytes": 17497,
+      "sha256": "edd906bdaf753c6ebc581f57a18a4c49eba791c145cdac1f6c0b80c3d10069a5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9b928909a013ea7f2a38dbd9.mdx",
+      "kind": "official-document",
+      "bytes": 3121,
+      "sha256": "55bda5c3f520b360031399ae582abe299d6c6ee5187e803322e03254ff6e7eab",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/45a0c8635116ea7186aa9f35.mdx",
+      "kind": "official-document",
+      "bytes": 12867,
+      "sha256": "7128fdb829b3fb3727308a070a7d92a180500c3993b05fdc47d3ba0ae0803ce5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/eedb9de6510880820bae726c.mdx",
+      "kind": "official-document",
+      "bytes": 2469,
+      "sha256": "08f4e1fec5a9fa68a9342ac98d45cddb588c83af606d912809715553a08d4a32",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2af84581eab9e3d40b4fefd7.mdx",
+      "kind": "official-document",
+      "bytes": 3784,
+      "sha256": "972d780fe0b9e78517d2aeb3a3475b389c1f5c88877f810024ed5e419c0b4977",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/186df88b09d75f19907525c9.mdx",
+      "kind": "official-document",
+      "bytes": 4108,
+      "sha256": "3aa0ac2eff73d010d47fc2fd3de5d8f76d908a47d51a47f69ad722b11b773d12",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4fbcd529f4ca72dd6d7f5144.mdx",
+      "kind": "official-document",
+      "bytes": 3334,
+      "sha256": "af04e5e33d7512ade6f14e327437f69fef0f9cbee0e5e8813f0873ece8f3db38",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/81170a50d61c09f686096c70.mdx",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "63914b420b225a90c8adefaba9d84655044305956db36d2f0fc358def0c95bc5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0d272bee81f81c307c7d8d8d.mdx",
+      "kind": "official-document",
+      "bytes": 4147,
+      "sha256": "afd95fe2b5a8e28b65c99088c38d2531e5018ac7361344d7f4bd09b19eeb109f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/ko/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2069792f94ce75fe3a6ff3f2.mdx",
+      "kind": "official-document",
+      "bytes": 2932,
+      "sha256": "3ea6c34578ba4e126274bcc1eedcff2136c51ed80a296cba2896c9f980098c1d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/ko/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/22f7eef81a0d766a00eec1e8.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ed6601946038554ea6260290.mdx",
+      "kind": "official-document",
+      "bytes": 5367,
+      "sha256": "04ec1360186cf1be43440a2093dc57b5cbcb7bff62e9c5e06b5933022d4e8899",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b0880e254f34c35184886722.mdx",
+      "kind": "official-document",
+      "bytes": 4848,
+      "sha256": "dbd317b006d45f75c6dc9db90573835dfc9d8106bb75eb3bba0e26d54f2976be",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c0f70ea02d9f08cd85dd1c05.mdx",
+      "kind": "official-document",
+      "bytes": 15421,
+      "sha256": "fe992b012de18ba40f6fa1a4c57857709c184fa28cdefb28c4fca79daf9519ee",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8c27c68d3f905576c18defeb.mdx",
+      "kind": "official-document",
+      "bytes": 6441,
+      "sha256": "f75cbc61908a20c7251b6bb4d801b957f12e978c9102206477d3eca833b5306b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5c58fce4807aa3f90bd3099c.mdx",
+      "kind": "official-document",
+      "bytes": 20711,
+      "sha256": "3227f3e73e9e4a8aae381735640b70b350b5a5a504068ed92f8906cc255502ff",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ae1fa994c82ee6787b2e9347.mdx",
+      "kind": "official-document",
+      "bytes": 18081,
+      "sha256": "e7608a8f4656c8b4692675a292aaec06d6b0261c73ffebf3381ddaaa36b231d3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/28ac066bb72581c0e6367760.mdx",
+      "kind": "official-document",
+      "bytes": 3386,
+      "sha256": "1c74d1fedd238fb1508bb7e8c5f412f7fca9e647f2b2ea53da3b9bb4c13b37d7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ae10272e37d8877553606a69.mdx",
+      "kind": "official-document",
+      "bytes": 14282,
+      "sha256": "3854b4614c5c04d4a9eda402e16f1aee4311f9081bd80f7f6faff802c07af351",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/816361984cc3a3f3be87ce6b.mdx",
+      "kind": "official-document",
+      "bytes": 2636,
+      "sha256": "8f69c314b784f9a79ad20ac96631d526d806bd1108e8c87a17af93c88f13bc68",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/fab57a8fd6945641dc05a2b9.mdx",
+      "kind": "official-document",
+      "bytes": 3825,
+      "sha256": "0c343dd9e4c58f0042d5dd46ba885bb5bf8d9b3e3bc79dabf5b6c51e60db4441",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/43d0dc5ad7ae7f329774826f.mdx",
+      "kind": "official-document",
+      "bytes": 4468,
+      "sha256": "bd850995eff30abcbcb510c13f97afa055cea0efee4bf487e43511662d9c3150",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/73557bac7e5da785c0ee7cab.mdx",
+      "kind": "official-document",
+      "bytes": 3510,
+      "sha256": "6f13ee6968725621b23d880f481a7e349590f2f71f9e13ad218266758ecd6477",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0fd0d166dedabdac4ec0cdf1.mdx",
+      "kind": "official-document",
+      "bytes": 2461,
+      "sha256": "1af1761526c5eef7b013c3e049f356386f1307e73b2eab86c0cc28473c289075",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/bc7cdec70b08eb991dff43a1.mdx",
+      "kind": "official-document",
+      "bytes": 4651,
+      "sha256": "b908c3d188563bad070f8e157af1900a93a06df811a998d34644a0797f5ac4c2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e936a07ee511c289e3daa308.mdx",
+      "kind": "official-document",
+      "bytes": 3063,
+      "sha256": "6d7d5ac39412b23dd081e5119530d65047fd029031ea8bf4bf33d4981fd2c308",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/353a6d9efeb3a1216fb1279a.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/86f8ad57fa053f6d9e9a190d.mdx",
+      "kind": "official-document",
+      "bytes": 5367,
+      "sha256": "04ec1360186cf1be43440a2093dc57b5cbcb7bff62e9c5e06b5933022d4e8899",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/54f56c5906442f50cca914d0.mdx",
+      "kind": "official-document",
+      "bytes": 4848,
+      "sha256": "dbd317b006d45f75c6dc9db90573835dfc9d8106bb75eb3bba0e26d54f2976be",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7da7efc0d2b584594a52cce1.mdx",
+      "kind": "official-document",
+      "bytes": 15421,
+      "sha256": "01f92c448a425503655ede2b69712b66dc1779452233351402895fb8e090b60d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/813e735eafcd0b5d7dd23624.mdx",
+      "kind": "official-document",
+      "bytes": 6441,
+      "sha256": "f75cbc61908a20c7251b6bb4d801b957f12e978c9102206477d3eca833b5306b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0a6eab6e8210347876112b53.mdx",
+      "kind": "official-document",
+      "bytes": 20831,
+      "sha256": "de9db69d35eaaab34eb3f0e9748d38be139017a1955dab2a7d5b5e6588aa0127",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/df6b5a94c9504523bf058ed0.mdx",
+      "kind": "official-document",
+      "bytes": 18157,
+      "sha256": "b0c170666778fcabce86f77ed05af46791d262dd953da900ed4783a30c5a8224",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/00de229879795d085ebb5a92.mdx",
+      "kind": "official-document",
+      "bytes": 3386,
+      "sha256": "1c74d1fedd238fb1508bb7e8c5f412f7fca9e647f2b2ea53da3b9bb4c13b37d7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c7bf13d37980c610d2dc915f.mdx",
+      "kind": "official-document",
+      "bytes": 13339,
+      "sha256": "3785ee7e461c43474409924cc960c7480027ceca16de9ce516e54e47a94811e4",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8a068d875fbf53bd4d359822.mdx",
+      "kind": "official-document",
+      "bytes": 2636,
+      "sha256": "8f69c314b784f9a79ad20ac96631d526d806bd1108e8c87a17af93c88f13bc68",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/4d36316aaae1abd356e862dc.mdx",
+      "kind": "official-document",
+      "bytes": 3956,
+      "sha256": "cbfcc2403729af9ec4e566865e9501af175b9a8504ccc5560b19a130f0515870",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/66a5d8490da17485b5d8bc6a.mdx",
+      "kind": "official-document",
+      "bytes": 4468,
+      "sha256": "5402d56db13a2bff261d63fe659005e25ebe5f386ce818f19da0d88baab4b0ed",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/394cde12b5924b38f903a16f.mdx",
+      "kind": "official-document",
+      "bytes": 3510,
+      "sha256": "6f13ee6968725621b23d880f481a7e349590f2f71f9e13ad218266758ecd6477",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e87e3513e4f17991145e4766.mdx",
+      "kind": "official-document",
+      "bytes": 2461,
+      "sha256": "1af1761526c5eef7b013c3e049f356386f1307e73b2eab86c0cc28473c289075",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/205901f0c1727969df434dc6.mdx",
+      "kind": "official-document",
+      "bytes": 4260,
+      "sha256": "d59c0c536daa38dca00c173007173338714175f0479969ac9d1424375f52c48c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/pt-br/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ad330ac74ec0f8b9839c6ec7.mdx",
+      "kind": "official-document",
+      "bytes": 3063,
+      "sha256": "6d7d5ac39412b23dd081e5119530d65047fd029031ea8bf4bf33d4981fd2c308",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/pt-br/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9fdf00bd6e719483855cab49.mdx",
+      "kind": "official-document",
+      "bytes": 2273,
+      "sha256": "52f37ce3e748dc848959f570a93fc123e270b8cafeca63dfc4edfef70e4aa0c6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/de9c872ecf6a0f4732c520be.mdx",
+      "kind": "official-document",
+      "bytes": 4635,
+      "sha256": "803cf879e1f7a01cc746b272ee5b6a52d7ea7b5ca36ed5ff12f120b2ddb63356",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d9584708955d360bbae2fd1e.mdx",
+      "kind": "official-document",
+      "bytes": 4487,
+      "sha256": "8c961dce890480cdbf6bb8a9f7f282d3efd5274d4a9a4c4a25523caea62772f0",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/288d617337f172f0d6fcb6de.mdx",
+      "kind": "official-document",
+      "bytes": 14403,
+      "sha256": "712ceda098f92c49112bbfb02f70d9af7dc1bf75951030ed2847208fd268940b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/77a7e95eeaff2deb8bafaab1.mdx",
+      "kind": "official-document",
+      "bytes": 5980,
+      "sha256": "0ead3a95c835d36303208dd4af4efd77db0536b523d9a23f19c87fd38c7267a8",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/104976cf614dae855eb8d0a6.mdx",
+      "kind": "official-document",
+      "bytes": 18905,
+      "sha256": "17f205ed7e9008dafa736e03fcca13b46f9c6d27a6c2a3e26c1a52b25956024a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c6bd78cd09e522ef932e19c6.mdx",
+      "kind": "official-document",
+      "bytes": 17065,
+      "sha256": "cb181bcf9a8c5da70dd03aae590fd3ff8faa17c5b0a2c7375305e1f95ebdf1fd",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5859210b30d30520fb3c479b.mdx",
+      "kind": "official-document",
+      "bytes": 2847,
+      "sha256": "9b9cc87bb96d32afc3e5d0104fe61501eda6122670b4fe8c9eedafaeb4548835",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9cc36c4e0cd6223780f2dd42.mdx",
+      "kind": "official-document",
+      "bytes": 13404,
+      "sha256": "942c37272356f97287144c34f93a6836c4146ba7b38ef8615ed5c30fce8de2b0",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/dc1d63fba52a8e321911be8d.mdx",
+      "kind": "official-document",
+      "bytes": 2364,
+      "sha256": "8497842efe19716f29955348f9bb4bdcf45df43f6659efe20746338516346de5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d06f4e6ecf3fac132f6be174.mdx",
+      "kind": "official-document",
+      "bytes": 3530,
+      "sha256": "fe825fb3e253d3bf62c519243d16c0e6b6cbdadb5904c8b83926d6e1724f2be2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/12620961367a004e8b4cb0fb.mdx",
+      "kind": "official-document",
+      "bytes": 4086,
+      "sha256": "6f014f2b5c22cae473a1667ca77cd759d66b49e97ef9b18abcb949be2774ac2b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ffb0994a1156de99093acac4.mdx",
+      "kind": "official-document",
+      "bytes": 3263,
+      "sha256": "b2179d66eaf6c83e24f1246d3350875891053352c68c9e78f87e63c6b3d00f78",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e654bca5768ee7da7c1e67f9.mdx",
+      "kind": "official-document",
+      "bytes": 2346,
+      "sha256": "631c1fcbc306f66fa503ab5b9a5c6cbd211777a11d3e26b00713694de64196d3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/eeaacf7355388b3b645bb997.mdx",
+      "kind": "official-document",
+      "bytes": 4355,
+      "sha256": "dc1c13a7226c0f93d751222a4c9cb6cc5b847ae3777e739960affccc522bad93",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d47338c263be6278cc0c83d2.mdx",
+      "kind": "official-document",
+      "bytes": 2764,
+      "sha256": "fd3be5d188fa1d01209e147ca1b2100627a38354999a489adc00034e425f9146",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/bede08a4d7f1b49e17e5646f.mdx",
+      "kind": "official-document",
+      "bytes": 2273,
+      "sha256": "52f37ce3e748dc848959f570a93fc123e270b8cafeca63dfc4edfef70e4aa0c6",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7fc5b104e425b36cf027fbbd.mdx",
+      "kind": "official-document",
+      "bytes": 4635,
+      "sha256": "803cf879e1f7a01cc746b272ee5b6a52d7ea7b5ca36ed5ff12f120b2ddb63356",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9fd81768751ec9396b43bf1a.mdx",
+      "kind": "official-document",
+      "bytes": 4487,
+      "sha256": "8c961dce890480cdbf6bb8a9f7f282d3efd5274d4a9a4c4a25523caea62772f0",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8c6156e0c45404f19f2b4c3a.mdx",
+      "kind": "official-document",
+      "bytes": 14403,
+      "sha256": "755645dd1069590f1f8c4da4dd927335a98c4e151c15a67e3658a442f4ae6aec",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/582e91ab9c8236a302bb9c0d.mdx",
+      "kind": "official-document",
+      "bytes": 5980,
+      "sha256": "0ead3a95c835d36303208dd4af4efd77db0536b523d9a23f19c87fd38c7267a8",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a2ddb31e0ec9b290b45f2f85.mdx",
+      "kind": "official-document",
+      "bytes": 19051,
+      "sha256": "09775549553eb9e60335b85a4215d1f69f1c1147115bb52cef38f829a5a6a81f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/3c16d682f468a396186c4e71.mdx",
+      "kind": "official-document",
+      "bytes": 17141,
+      "sha256": "4b407a34f475100f4cb77f3716d1072485fcffed33f2186e20b76928c09c0cce",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d88b2e7fb21c307d4bc82934.mdx",
+      "kind": "official-document",
+      "bytes": 2847,
+      "sha256": "9b9cc87bb96d32afc3e5d0104fe61501eda6122670b4fe8c9eedafaeb4548835",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b6d6cc4d1ce3e3bd5ef3c850.mdx",
+      "kind": "official-document",
+      "bytes": 12495,
+      "sha256": "b515cf11cc0ece9cbc595633505d7e38da9625dcf532f9c371813270bfbeb967",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b6dc74e1bb3709f613e434a4.mdx",
+      "kind": "official-document",
+      "bytes": 2364,
+      "sha256": "8497842efe19716f29955348f9bb4bdcf45df43f6659efe20746338516346de5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b77efb86124b707e5a331c59.mdx",
+      "kind": "official-document",
+      "bytes": 3621,
+      "sha256": "e36eb92fc203887a47fdc1a7e8619d06d5a6efb25d8bb192a48a2278d203bf89",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0d20adf9afe0a00ce117b22f.mdx",
+      "kind": "official-document",
+      "bytes": 4086,
+      "sha256": "a0d86295af540bd96481a974227f217ad2933bac95e50f8326249396f8caec0b",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/42d3127d54fd944ee314de54.mdx",
+      "kind": "official-document",
+      "bytes": 3263,
+      "sha256": "b2179d66eaf6c83e24f1246d3350875891053352c68c9e78f87e63c6b3d00f78",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/92f5cbd7419417faf049707a.mdx",
+      "kind": "official-document",
+      "bytes": 2346,
+      "sha256": "631c1fcbc306f66fa503ab5b9a5c6cbd211777a11d3e26b00713694de64196d3",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5a2d445ac3b59a8d481a9a54.mdx",
+      "kind": "official-document",
+      "bytes": 4103,
+      "sha256": "6b3bff81d6715f3771e8f1a58e02b1a8311f8a36bc51d300c09a79c4fe9dcd33",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-cn/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/367b32347757a6cf34bfeb71.mdx",
+      "kind": "official-document",
+      "bytes": 2764,
+      "sha256": "fd3be5d188fa1d01209e147ca1b2100627a38354999a489adc00034e425f9146",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-cn/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/041a15df16012e1d0db5e311.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ccd91fb66842c76681a98bd1.mdx",
+      "kind": "official-document",
+      "bytes": 5033,
+      "sha256": "dd6f772475925a289257fcb5834df2a62646be37b2751ae5e10ab96193c2acaa",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d50f575ea766dfa184e19a75.mdx",
+      "kind": "official-document",
+      "bytes": 4678,
+      "sha256": "210027b971738333c9db150b1eaeb875ccbc3969a646ba0fc3e337c5326b591c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7627dc73633716332b8f6cd3.mdx",
+      "kind": "official-document",
+      "bytes": 14683,
+      "sha256": "eda22b34d4d3f2970e0ebacfa8e87734478a585b4a6d91699f17ee5071ca8faf",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/62c2629c7dbee227baa99119.mdx",
+      "kind": "official-document",
+      "bytes": 6240,
+      "sha256": "ca6138a3ccb2aece9adb14ad7565b0173d272393c9915713412d40f3c674d779",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/82c3c2a2db0f7c1f1ce6bf2e.mdx",
+      "kind": "official-document",
+      "bytes": 19659,
+      "sha256": "e424ce11be81a7a3047084edc6181af464a8b3fac1dda7b9d968f5682556cb55",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d296c8341fba752456ac7e37.mdx",
+      "kind": "official-document",
+      "bytes": 17421,
+      "sha256": "5d76a3668c8f77252b468c63186037c10133172ca961698be7fe2daee23de5b9",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ff1cb91c20790df0caf9c6ee.mdx",
+      "kind": "official-document",
+      "bytes": 3121,
+      "sha256": "55bda5c3f520b360031399ae582abe299d6c6ee5187e803322e03254ff6e7eab",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/9fb8f09154e10d03a47465ea.mdx",
+      "kind": "official-document",
+      "bytes": 13792,
+      "sha256": "fd8d941680e640cddc7c037e5c45d31094f37740ec2877ed96c2bf8aec3a8b30",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e54fc164c7e7653574feb781.mdx",
+      "kind": "official-document",
+      "bytes": 2469,
+      "sha256": "08f4e1fec5a9fa68a9342ac98d45cddb588c83af606d912809715553a08d4a32",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/014833a211d048b803bf8282.mdx",
+      "kind": "official-document",
+      "bytes": 3661,
+      "sha256": "2a90c2536d4b3df6162929063525865e9e104580307664f3cd670f84a90154ce",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d9fdb35a823ddfece6040c63.mdx",
+      "kind": "official-document",
+      "bytes": 4108,
+      "sha256": "bc9019f60efbc2f9866696a4ed552070b6698abb91af61738b6e57cb15d17b13",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/bc6c14f66daad0e904c2c73f.mdx",
+      "kind": "official-document",
+      "bytes": 3334,
+      "sha256": "af04e5e33d7512ade6f14e327437f69fef0f9cbee0e5e8813f0873ece8f3db38",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f95c463ddf22f264f511b1fd.mdx",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "63914b420b225a90c8adefaba9d84655044305956db36d2f0fc358def0c95bc5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/481a50e028ff30536715d055.mdx",
+      "kind": "official-document",
+      "bytes": 4503,
+      "sha256": "10a3f471e70b917fd00b1ded1d99d5dca5780a45d565f034919752845d4cc07f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/4x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e5ab3116a117db4e9aa60727.mdx",
+      "kind": "official-document",
+      "bytes": 2932,
+      "sha256": "3ea6c34578ba4e126274bcc1eedcff2136c51ed80a296cba2896c9f980098c1d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/4x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/advanced/developing-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/634d88b7ec2d65e0f87cea0a.mdx",
+      "kind": "official-document",
+      "bytes": 2384,
+      "sha256": "3d31b3adf1686bb7d481d3d3691b93b25761855fee2d340a5a7c9d0299db0881",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/advanced/developing-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/behind-proxies.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a9053fc0e1eef9102b2ed639.mdx",
+      "kind": "official-document",
+      "bytes": 5033,
+      "sha256": "dd6f772475925a289257fcb5834df2a62646be37b2751ae5e10ab96193c2acaa",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/behind-proxies.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/debugging.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/65e47d3277f53ec382477c45.mdx",
+      "kind": "official-document",
+      "bytes": 4678,
+      "sha256": "210027b971738333c9db150b1eaeb875ccbc3969a646ba0fc3e337c5326b591c",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/debugging.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/error-handling.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d0b2239fc8dfcd53d5285e23.mdx",
+      "kind": "official-document",
+      "bytes": 14683,
+      "sha256": "467904800365c3507efa0023ce1786b54d26a4927ec8282f79dc59258a69d3e1",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/error-handling.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/overriding-express-api.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f594166b41396473f3d1d394.mdx",
+      "kind": "official-document",
+      "bytes": 6240,
+      "sha256": "ca6138a3ccb2aece9adb14ad7565b0173d272393c9915713412d40f3c674d779",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/overriding-express-api.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/55458f5e3b55b5dfd61e86cf.mdx",
+      "kind": "official-document",
+      "bytes": 19779,
+      "sha256": "83c9d109ea021bb4d8e25ef4bc8e5915c49bc6bcd6ab255916bb7b937b073b89",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/using-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/34715d031628094381dc6b75.mdx",
+      "kind": "official-document",
+      "bytes": 17497,
+      "sha256": "edd906bdaf753c6ebc581f57a18a4c49eba791c145cdac1f6c0b80c3d10069a5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/using-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/using-template-engines.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/10b453b2c35a6efb6c646f32.mdx",
+      "kind": "official-document",
+      "bytes": 3121,
+      "sha256": "55bda5c3f520b360031399ae582abe299d6c6ee5187e803322e03254ff6e7eab",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/using-template-engines.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/guide/writing-middleware.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/123484431669d196d0dbc43d.mdx",
+      "kind": "official-document",
+      "bytes": 12867,
+      "sha256": "7128fdb829b3fb3727308a070a7d92a180500c3993b05fdc47d3ba0ae0803ce5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/guide/writing-middleware.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/basic-routing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/6580f547303324e16e669b25.mdx",
+      "kind": "official-document",
+      "bytes": 2469,
+      "sha256": "08f4e1fec5a9fa68a9342ac98d45cddb588c83af606d912809715553a08d4a32",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/basic-routing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/examples.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/c218f1c9056331be124a7110.mdx",
+      "kind": "official-document",
+      "bytes": 3784,
+      "sha256": "972d780fe0b9e78517d2aeb3a3475b389c1f5c88877f810024ed5e419c0b4977",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/examples.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/faq.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/d2d8c396c5595fcf76edd040.mdx",
+      "kind": "official-document",
+      "bytes": 4108,
+      "sha256": "3aa0ac2eff73d010d47fc2fd3de5d8f76d908a47d51a47f69ad722b11b773d12",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/faq.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/generator.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/09bdeff67ca6ce0f63b99868.mdx",
+      "kind": "official-document",
+      "bytes": 3334,
+      "sha256": "af04e5e33d7512ade6f14e327437f69fef0f9cbee0e5e8813f0873ece8f3db38",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/generator.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/hello-world.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7c05204e64e9666ac8bb0010.mdx",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "63914b420b225a90c8adefaba9d84655044305956db36d2f0fc358def0c95bc5",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/hello-world.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/installing.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a05994c01f3bed4aacb05b4b.mdx",
+      "kind": "official-document",
+      "bytes": 4147,
+      "sha256": "afd95fe2b5a8e28b65c99088c38d2531e5018ac7361344d7f4bd09b19eeb109f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/installing.mdx"
+    },
+    {
+      "path": "src/content/docs/zh-tw/5x/starter/static-files.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/5c42b9b834d6ca7b607baa51.mdx",
+      "kind": "official-document",
+      "bytes": 2932,
+      "sha256": "3ea6c34578ba4e126274bcc1eedcff2136c51ed80a296cba2896c9f980098c1d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/docs/zh-tw/5x/starter/static-files.mdx"
+    },
+    {
+      "path": "src/content/pages/de/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/f0b82522bef2bd77158b13c5.mdx",
+      "kind": "official-document",
+      "bytes": 13825,
+      "sha256": "289227ed0aeb5865c712525e1bb325e4a52557f13c97f8d52b5f23cb49372104",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/de/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/de/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/77d034496411b5e3392a750b.mdx",
+      "kind": "official-document",
+      "bytes": 22026,
+      "sha256": "9ae88c8a77baf997e80e7887a757bdbbf7a7d7e3e1d50801cc2bb0da5d3a9a5f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/de/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/de/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/ca0228508a55833439e1ac91.mdx",
+      "kind": "official-document",
+      "bytes": 25288,
+      "sha256": "b1824acd980aefa0f8eb253333f94f4c98262b8fcfabef28d6bb3a03aeb438ed",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/de/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/en/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1415c56176b20e4d5d1b3d64.mdx",
+      "kind": "official-document",
+      "bytes": 13733,
+      "sha256": "1ab15494432aa55c91b85db0270d923e7cf2351b4e3fbc74b66cef7c12938401",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/en/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/en/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2fad2ac8d5a5485ccdc127fe.mdx",
+      "kind": "official-document",
+      "bytes": 21729,
+      "sha256": "b4b4f6c8bbec024eed88d4cba9b43ba04aa788aad6866ef4c88c01b9bd5918ec",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/en/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/en/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/32a737a1ffdcf2e45ab2727b.mdx",
+      "kind": "official-document",
+      "bytes": 23378,
+      "sha256": "31363ab4a3ab45ebd7a2c3b37751593b5d650846ebbc42193b6999845b65583d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/en/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/es/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1ff5bff6b5078fc08619089a.mdx",
+      "kind": "official-document",
+      "bytes": 13850,
+      "sha256": "0216b2f1213ba0a5c4028540dd9348d37fa126f2275f107a58365d8224e678f4",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/es/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/es/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/45ade47f8f9345b96ae9c72b.mdx",
+      "kind": "official-document",
+      "bytes": 21978,
+      "sha256": "f027f17feca182b54362495fde10f1e2de251dd4e454a0a8dcee8f3ca14fb05d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/es/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/es/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8ea4d0f33d9fb828a27b38a6.mdx",
+      "kind": "official-document",
+      "bytes": 24755,
+      "sha256": "e50a9dbd7f8c85a040b006d0a48e36d6ecbe5563a520594a5ea8daccccd34016",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/es/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/fr/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/6f8acde074b1e99a94fd6b9b.mdx",
+      "kind": "official-document",
+      "bytes": 13923,
+      "sha256": "ec68530b8cae07198e4549e1a387f58ea7b18e53b7ad9c9ff0a9101fffa4af28",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/fr/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/fr/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/45ee80ec8720d8a76628bcf0.mdx",
+      "kind": "official-document",
+      "bytes": 22565,
+      "sha256": "698e2673841661e40794bc42420de638b6ca4549d967ec2ae6da80d1a24ef6fe",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/fr/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/fr/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/356221253bd8935f2cff872d.mdx",
+      "kind": "official-document",
+      "bytes": 26255,
+      "sha256": "ed1aaf6ba16c96bdeb0d4db91ff7795d872e1136281d7f3865504b90f2f22bf7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/fr/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/it/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/1b97e45bc90bc77c88d57cb1.mdx",
+      "kind": "official-document",
+      "bytes": 13797,
+      "sha256": "89f5157cbb7a012f0906cf2e529611654c5e710aef692ce60ae3e81fed658586",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/it/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/it/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/791affb96c291e0ebb8fb09d.mdx",
+      "kind": "official-document",
+      "bytes": 21606,
+      "sha256": "7decc483ed9d4d9119e66d4815871ca6db2a0988ef9a9b498fc8063c8263821e",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/it/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/it/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/b567d720f8dc1f4983deab2c.mdx",
+      "kind": "official-document",
+      "bytes": 24791,
+      "sha256": "bbb57d10778bfff26ed945bee6c87153aaf400d95bbfcccf8b6a852f80831f70",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/it/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/ja/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/0b4f4036e5561dac6c967bbd.mdx",
+      "kind": "official-document",
+      "bytes": 14035,
+      "sha256": "43f102974cf7e13b7d24daa1764bb50e9c674fec4f0a3ba2803fd561281b60d2",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/ja/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/ja/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/2fe312a723dae5f08d179e11.mdx",
+      "kind": "official-document",
+      "bytes": 24609,
+      "sha256": "812a1a9bff700df31e12b29f9ced4fa383fafe36d7d0de3ec0f4d51208dab1b7",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/ja/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/ja/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/036b1c29e828fb1145d997c4.mdx",
+      "kind": "official-document",
+      "bytes": 32912,
+      "sha256": "3a99cf983b111494323d509c2b320910f2089080e4072c22a2570a3c108d53cd",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/ja/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/ko/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/de0afaf7ef951dea860259ac.mdx",
+      "kind": "official-document",
+      "bytes": 13733,
+      "sha256": "1ab15494432aa55c91b85db0270d923e7cf2351b4e3fbc74b66cef7c12938401",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/ko/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/ko/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/68968c18d74721b7d6f3f32d.mdx",
+      "kind": "official-document",
+      "bytes": 21013,
+      "sha256": "b5720e1a0ff90f05e4acb43f74b5db69eb569c13966eeff7ed88360ff8c2d8fc",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/ko/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/ko/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8c97b2bba229eca4786e4ab8.mdx",
+      "kind": "official-document",
+      "bytes": 23385,
+      "sha256": "7b15c53fc1e248e140730d19579e83a2452ca268fd9f47dba3c945e54ce69a7f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/ko/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/pt-br/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/13c3871df0ba39b52d171b11.mdx",
+      "kind": "official-document",
+      "bytes": 13849,
+      "sha256": "c68791fb0d8e981da26fa9be66bca949b66e022665edca9e9e199b58718523cd",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/pt-br/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/pt-br/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/8191becbc613bfb2894aa514.mdx",
+      "kind": "official-document",
+      "bytes": 21901,
+      "sha256": "a3f8f01ffc9c3c98085fc3c783b1c7841bb59f9b3b4661336913875a5458a506",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/pt-br/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/pt-br/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/34d25b0882cde041a6eefdfb.mdx",
+      "kind": "official-document",
+      "bytes": 24768,
+      "sha256": "61f1a3d4d9ffb8ad3bc1c47b4af59c50d36938f94f97663d91175051abc1e32d",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/pt-br/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/zh-cn/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/df5e6a917729f5793225ad3f.mdx",
+      "kind": "official-document",
+      "bytes": 13595,
+      "sha256": "2144054ce8e7078646f83f6d10744418caeca5e3f0aa8d7f4408df103402d759",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/zh-cn/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/zh-cn/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/812a435471e98f1c9549568e.mdx",
+      "kind": "official-document",
+      "bytes": 20185,
+      "sha256": "0c0c82cac8b38e2d6594c0dca24df353b5279aa3e7fc0663081a1d4717e960e1",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/zh-cn/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/zh-cn/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/56c82068222be7ef9a15460e.mdx",
+      "kind": "official-document",
+      "bytes": 22510,
+      "sha256": "3f3405c168e62b05a8946076002810cb0e7b070d0aa17b9623c184d21eb4949a",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/zh-cn/guide/migrating-5.mdx"
+    },
+    {
+      "path": "src/content/pages/zh-tw/guide/database-integration.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/a51a1f33df27d4aec26ecac2.mdx",
+      "kind": "official-document",
+      "bytes": 13733,
+      "sha256": "1ab15494432aa55c91b85db0270d923e7cf2351b4e3fbc74b66cef7c12938401",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/zh-tw/guide/database-integration.mdx"
+    },
+    {
+      "path": "src/content/pages/zh-tw/guide/migrating-4.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/e222e97b293f36d4a2047769.mdx",
+      "kind": "official-document",
+      "bytes": 21013,
+      "sha256": "b5720e1a0ff90f05e4acb43f74b5db69eb569c13966eeff7ed88360ff8c2d8fc",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/zh-tw/guide/migrating-4.mdx"
+    },
+    {
+      "path": "src/content/pages/zh-tw/guide/migrating-5.mdx",
+      "localPath": "raw/expressjs--expressjs.com/c936b6310349/7d4153ffbff9abd2d1ed1355.mdx",
+      "kind": "official-document",
+      "bytes": 23385,
+      "sha256": "7b15c53fc1e248e140730d19579e83a2452ca268fd9f47dba3c945e54ce69a7f",
+      "sourceUrl": "https://github.com/expressjs/expressjs.com/blob/c936b6310349ca92cf59493d4038dd663704f1a1/src/content/pages/zh-tw/guide/migrating-5.mdx"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

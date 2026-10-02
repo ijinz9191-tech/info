@@ -1,0 +1,1498 @@
+{
+  "schemaVersion": 1,
+  "repo": "agda/agda",
+  "commit": "cabd583dda7d7e2e4b079a9c5f80e29890a65b25",
+  "retrievedAt": "2026-10-01T15:35:22.457896+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/agda"
+  ],
+  "archiveUrl": "https://codeload.github.com/agda/agda/zip/cabd583dda7d7e2e4b079a9c5f80e29890a65b25",
+  "selectionSha256": "7d38f7711944005bcea399c94eee603870653da7d8744d4e383f1ff34a2b4607",
+  "selection": {
+    "docRoots": [
+      "doc"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "370fbc4cc5b5e9a513a34011c60b7f2fc534898a140dc77f3467d68d30368e15",
+  "archiveBytes": 9139244,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 174,
+    "code": 8,
+    "licenses": 1,
+    "bytes": 1500815
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 31188,
+      "sha256": "179b77ea8b24c0c0e2013bd3b7d0d8975677c9a06ae931275917896d2e23524c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/CHANGELOG.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 1357,
+      "sha256": "42975bec399a1307d265a8b958500a1a74b438c7e01c35f65ea71bb6f4340e88",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/CONTRIBUTING.md"
+    },
+    {
+      "path": "HACKING.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/9769a3f5504af3cd735e08f0.md",
+      "kind": "official-document",
+      "bytes": 29833,
+      "sha256": "7e3f8b7404da0d46ff3502b5823cbead40ec8b162d5f238db78c47dd076ba0f7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/HACKING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/agda--agda/cabd583dda7d/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 2721,
+      "sha256": "673eb9af047e251e14de6346febc68b31fbc1ba96194cb5d2fe891d6ce4c35c7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 1736,
+      "sha256": "235cbd188be8d37efd71effb7fb2b40caa6d040e80a1bbf4454a3a774e6397f5",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/README.md"
+    },
+    {
+      "path": "benchmark/Create/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/7c9e30bfb2a116b90204d79d.md",
+      "kind": "official-document",
+      "bytes": 29,
+      "sha256": "29fc90cc99d41ca22ca06874cfef4222340ca55b258699535d973f3f627450e7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/benchmark/Create/README.md"
+    },
+    {
+      "path": "doc/HCAR/Agda-AA-May-2014.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/c8feb4dd365f2728db2d5ac3.tex",
+      "kind": "official-document",
+      "bytes": 2028,
+      "sha256": "58212a3b4c53390d19982f1f8717479dda6dc8686e872e0a893123e70e633836",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/Agda-AA-May-2014.tex"
+    },
+    {
+      "path": "doc/HCAR/Agda-AA-Nov2013.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/e642f26ad4fa666f9c42f106.tex",
+      "kind": "official-document",
+      "bytes": 1861,
+      "sha256": "53f61f29d081db1cfcf2ba5d51377267833b9fb588a4ae627090d4b2a8cd119a",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/Agda-AA-Nov2013.tex"
+    },
+    {
+      "path": "doc/HCAR/Agda-AA.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/e301f7d0534e9a6e48fd079f.tex",
+      "kind": "official-document",
+      "bytes": 2028,
+      "sha256": "58212a3b4c53390d19982f1f8717479dda6dc8686e872e0a893123e70e633836",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/Agda-AA.tex"
+    },
+    {
+      "path": "doc/HCAR/Agda-NA-Nov2013.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/fed17edc654fb2c430b0d642.tex",
+      "kind": "official-document",
+      "bytes": 1934,
+      "sha256": "2e828a50439aee87e245058af0f3191a0d4b6d8573ed94de9722df1ef1137a29",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/Agda-NA-Nov2013.tex"
+    },
+    {
+      "path": "doc/HCAR/Agda-UA.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/b17e4ee0b97d7ff46ac2e8b5.tex",
+      "kind": "official-document",
+      "bytes": 1636,
+      "sha256": "c45207f96f8fe35cfd7bd547da096410ffc79a82a5c4a7a8e0486bd61013a116",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/Agda-UA.tex"
+    },
+    {
+      "path": "doc/HCAR/December-2007.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/953c873c1ddfae95fbf8a053.tex",
+      "kind": "official-document",
+      "bytes": 1101,
+      "sha256": "145371d4ba38c159fcfa74b620b13e3648a429c94312b0a2457cd930ce17bf88",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/December-2007.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2008.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/4b092537eb913aa8899ec015.tex",
+      "kind": "official-document",
+      "bytes": 1313,
+      "sha256": "38a263a5aaebf17fd3f02e3c1100a0776d45fbe481de1a9288e03d1f91288ecd",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2008.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2009.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/e33feeccedc1f0e5ab03c03f.tex",
+      "kind": "official-document",
+      "bytes": 1640,
+      "sha256": "8b2cc25ae69dad457a214a03fd373f588df5fbd91470a197a8acff2ce640a6c2",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2009.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2010.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/d45ed2db49345f49bc7d8786.tex",
+      "kind": "official-document",
+      "bytes": 1222,
+      "sha256": "85724cc23abec4a1eeecb9e23ef2043eb9043600bc131896e4b0a586c1465dbf",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2010.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2011.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/829db08a1f805ecb15a5f3fb.tex",
+      "kind": "official-document",
+      "bytes": 1332,
+      "sha256": "6699df54c5cc0913e9228d472b27556259a4c992d1b9791f6843dae23a4f78ca",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2011.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2012.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/6c9f0aaa3ec4275da418c219.tex",
+      "kind": "official-document",
+      "bytes": 1611,
+      "sha256": "45a7835c7d05c642d763cfbf8272fb799eb19c598a956913b69eb42191dc830c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2012.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2013.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/a7cd9b53e32a4bc32749598a.tex",
+      "kind": "official-document",
+      "bytes": 1742,
+      "sha256": "7c75c8bfb38b97d3ba831063d18fe392b163b51cd9d2a4b728ace064c485a541",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2013.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2017.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/b110cbc6ee06514a34d096e0.tex",
+      "kind": "official-document",
+      "bytes": 1761,
+      "sha256": "1cfeb9ae7b7e6f2241ca729691ade3b570c75e6a57df72ca2681238e524ed798",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2017.tex"
+    },
+    {
+      "path": "doc/HCAR/May-2018.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/76c31070d09387f3208eba29.tex",
+      "kind": "official-document",
+      "bytes": 1618,
+      "sha256": "bb8bf23673719a1d77017651ba1b40081e0ba00ee13b5246d7ad6ff2ab7cedc9",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/May-2018.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2008.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/c19a67c25762a135dc4e8734.tex",
+      "kind": "official-document",
+      "bytes": 1968,
+      "sha256": "35ec2c97b7e844df86b341f5b221cfe0c2346510990dfd138998df80d52c6e3b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2008.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2009.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/b256ed8ad6751fe08dcba639.tex",
+      "kind": "official-document",
+      "bytes": 1221,
+      "sha256": "8d13647f5ba5c1858971b8ee77f910e3ff0ca67986d992a0ee4ba7fb2e8b2593",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2009.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2010.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/e9b2fad69bcb77164c584bf6.tex",
+      "kind": "official-document",
+      "bytes": 1282,
+      "sha256": "1f0af850648b415815d8b29ba6e3e5bfc32926b3754acc24adbddeb0d734a20e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2010.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2011.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/c32895c8a76a6dab5ad60a19.tex",
+      "kind": "official-document",
+      "bytes": 1469,
+      "sha256": "00eadd13af5cf44b8f790364de2e5ccd57570b74ee550bf2ebdbdcea0047b342",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2011.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2012.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/5c9d6f3a9c1d5a7275a44c2b.tex",
+      "kind": "official-document",
+      "bytes": 1335,
+      "sha256": "16cae9926aa44dbf72b903d13c7fdb10a568a3d77e75b3ee3c9a58b083791adb",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2012.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2013.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/aab4214365c729161191b293.tex",
+      "kind": "official-document",
+      "bytes": 1939,
+      "sha256": "ebb461be80423d4268484954814ab0c5829b795ee83f3840b14a6f1b2dc7a230",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2013.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2015.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/2610d917b49cf3c8a1d396ea.tex",
+      "kind": "official-document",
+      "bytes": 2353,
+      "sha256": "066d36b8f14b6fe989c68979833bc3e945177728cab5e32b9b48131a8d385852",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2015.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2016.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/2d29fdb912965af73377211a.tex",
+      "kind": "official-document",
+      "bytes": 2115,
+      "sha256": "d4e13748de1e5095bd88ce5dac1fcacd18ea3d3905261a27cf09e1926a98e3cf",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2016.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2017.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/b590edcaa76cfc2ece23ea9d.tex",
+      "kind": "official-document",
+      "bytes": 1630,
+      "sha256": "0f7ad846fdff2256eca60fb53ac47fa24aa06232be4c38a44c573534e0149f4b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2017.tex"
+    },
+    {
+      "path": "doc/HCAR/November-2018.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/65f2c511b7075bb9c4c8d644.tex",
+      "kind": "official-document",
+      "bytes": 1786,
+      "sha256": "b2049b184444324432d939eb86d9f31bdbe366e33a096c834e0f75c94a8cb5eb",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/November-2018.tex"
+    },
+    {
+      "path": "doc/HCAR/main.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/0775904e64e3cf66cd49ac68.tex",
+      "kind": "official-document",
+      "bytes": 100,
+      "sha256": "c48731bffa8e822e0c0b72237b2893f7d4e6358011192fb01b61ff0a4ddff6c0",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/HCAR/main.tex"
+    },
+    {
+      "path": "doc/license-report/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/33cb1bf903560e1b017401e0.md",
+      "kind": "official-document",
+      "bytes": 1201,
+      "sha256": "f3ebfb4f023d306d623ef11fe7c4fba3f74116b1a12f6bae8c2d499ebe83c647",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/license-report/README.md"
+    },
+    {
+      "path": "doc/release-notes/2.2.0.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/afe26409bd2ed54d9e9bafb3.md",
+      "kind": "official-document",
+      "bytes": 2931,
+      "sha256": "fdf552a4dcd014a063621ba36138766ee138752f265db4042565e3a639d5fd1a",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.2.0.md"
+    },
+    {
+      "path": "doc/release-notes/2.2.10.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/72f498ba2c89489a62d9249f.md",
+      "kind": "official-document",
+      "bytes": 7731,
+      "sha256": "4baf975c41e2ef0c29cdbee87bd6a038dab8ff30d65aebaa806d3e13d3a98c1f",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.2.10.md"
+    },
+    {
+      "path": "doc/release-notes/2.2.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/6fe14465f4583afcc5e259ef.md",
+      "kind": "official-document",
+      "bytes": 595,
+      "sha256": "8a715b91eabd84f8d96430c0717524a1fc64dca1e400335de4cbbb46934c63ca",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.2.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.2.4.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/9c944dac2565317cb739a3af.md",
+      "kind": "official-document",
+      "bytes": 1398,
+      "sha256": "4d41ab0b6aa6d0d6bb903cb00bf8ed44487479d4aa6f04ad90ea2d40bac56cc0",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.2.4.md"
+    },
+    {
+      "path": "doc/release-notes/2.2.6.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/a7942f3e4f0b2828eedd9d14.md",
+      "kind": "official-document",
+      "bytes": 8748,
+      "sha256": "e2208e55222d6543d6f7e7fcc8f167036e8f5df61bf40f20dfa89038bdb0fbcb",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.2.6.md"
+    },
+    {
+      "path": "doc/release-notes/2.2.8.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/9c67a8d63aa39ebb91ce7d8c.md",
+      "kind": "official-document",
+      "bytes": 18428,
+      "sha256": "6bda8ed04d3b198d46974a8b91d0df8184cabc094bb807810050df1319de811c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.2.8.md"
+    },
+    {
+      "path": "doc/release-notes/2.3.0.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/afae650b29bd0dd2446208b1.md",
+      "kind": "official-document",
+      "bytes": 32591,
+      "sha256": "cb4a1391fabb1d6d8efa5a37b8544b9cf6d25b46fa8cf09f23477d59bd832bc5",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.3.0.md"
+    },
+    {
+      "path": "doc/release-notes/2.3.2.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/b13ab3623bc0d48a3c1f784e.md",
+      "kind": "official-document",
+      "bytes": 358,
+      "sha256": "2220cf661586d5b0e14866c54f4132b9cf4f01a8a50130401dba01a220e4bd02",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.3.2.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.3.2.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/15d8c117d966869adf81578b.md",
+      "kind": "official-document",
+      "bytes": 394,
+      "sha256": "e800a2355a03b67d047b98cb2e70317b09daf3a4f502dd36cf63f4926ba2238c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.3.2.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.3.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/e7c4877afd096382e751da88.md",
+      "kind": "official-document",
+      "bytes": 21326,
+      "sha256": "ed1fe2ce1b92283e07678a6b8ec1fa78a5a3b4547f13446ee620375e842d0211",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.3.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.0.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/9e16b9ec90b8892a5d39d56c.md",
+      "kind": "official-document",
+      "bytes": 228,
+      "sha256": "7aaf4dad3c0263326218e3020301b1e8fc125d9e3c6e60ab996c6be81cff8502",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.0.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.0.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/5ae02e966e40c85f2840fa11.md",
+      "kind": "official-document",
+      "bytes": 2438,
+      "sha256": "88d16d87a145ce79d6e2f49539669226b00aba7d04095e1bb1ce96ede26ba97b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.0.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.0.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/63b4fddef530db17c10c8825.md",
+      "kind": "official-document",
+      "bytes": 34474,
+      "sha256": "e2bdf9908d64f697f4daa21900831b296a94ee4175cd5aa97c984d6e71d7d52c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.0.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.2.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/2f2f014ba601e75ac8155b0c.md",
+      "kind": "official-document",
+      "bytes": 6479,
+      "sha256": "729646279df260f4e24c25ff769cd723d3e8492af5a383b276771e5397a6ac30",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.2.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.2.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/9571204e3e147cff0329e876.md",
+      "kind": "official-document",
+      "bytes": 478,
+      "sha256": "53404dfa4f8096d0562ea2a1495c6aa08aedaf71fdd391d8398cfa10bf76deec",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.2.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.2.3.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/f6cbf9ccb15d12c1be1d1af9.md",
+      "kind": "official-document",
+      "bytes": 7724,
+      "sha256": "defe7303161bc55115a81dbd907aa1087fcebad86a6295ad0f7f3873b280930f",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.2.3.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.2.4.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/45d89060dbcc866fdf3d5859.md",
+      "kind": "official-document",
+      "bytes": 7808,
+      "sha256": "409fda147f9fd1ba9ca68b4fa7f15c9786cb9a471d822fb9bbf9d844ef91e414",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.2.4.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.2.5.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/7eae5a21e7a9261fd656fb78.md",
+      "kind": "official-document",
+      "bytes": 2213,
+      "sha256": "bdb4243eec59caed7f24ce3b34d21233e0e0caaaa09f68f47f77703035c6c6ad",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.2.5.md"
+    },
+    {
+      "path": "doc/release-notes/2.4.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/699d916a5272ffea11797951.md",
+      "kind": "official-document",
+      "bytes": 11081,
+      "sha256": "e287041ac292866394525ff878f0ffdbe0193d553f38aac3bdc3509ada2d8e50",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.4.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.1.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/0c6560f2a6c2060d4f8c2607.md",
+      "kind": "official-document",
+      "bytes": 2047,
+      "sha256": "409f7e6ba11b68fd719a3f811844c64841f1f2a1c0b08cdedc4e154cab50362f",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.1.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.1.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/34fd077bc1d966fdb04a8ea7.md",
+      "kind": "official-document",
+      "bytes": 211,
+      "sha256": "64525b534840e2a2d503e02600d1e9037305c465331c26dd6d99b43b36b403f5",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.1.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/c2a21f404e2af8a0712292b8.md",
+      "kind": "official-document",
+      "bytes": 46926,
+      "sha256": "fede7acce64f4e2b52991bf5ed60f7db0f88c5dbd3c3a99bf394021dbf4c4efd",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/66a4864dc45ef6eeaea5798b.md",
+      "kind": "official-document",
+      "bytes": 33015,
+      "sha256": "2ca35b47c66129e005c66f1adba9dc717dd5557031d15e394437deadfce1831e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.3.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/3e24d2b622e7f874c163c28f.md",
+      "kind": "official-document",
+      "bytes": 40016,
+      "sha256": "12c18e998d443452d9c2067d7ea985e004ae74ca46ed254ee7c5657cad052b1d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.3.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.4.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/71515ad2cc8ddff769a9538f.md",
+      "kind": "official-document",
+      "bytes": 465,
+      "sha256": "c182ff486caa4289fb3f67299321a546186663b0e64fb4eb40ac11fc430b8bc6",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.4.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.4.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/8c0e9342ee490b4e5bd5d71a.md",
+      "kind": "official-document",
+      "bytes": 861,
+      "sha256": "9404ddc64213541e013ad650b68735ae14be6f026e2a99301321dc8a4c5b4e15",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.4.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.5.4.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/6a2e71450966b98ea8dca22f.md",
+      "kind": "official-document",
+      "bytes": 41092,
+      "sha256": "f2181f72dd1a40ffe3be5e1653821d430801e95094a8f14534b3722f70e32fad",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.5.4.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.0.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/e0425f5b90f09c9b5d69a302.md",
+      "kind": "official-document",
+      "bytes": 1264,
+      "sha256": "a7464f772329c6c95901aa9f5b861075ced330dd579c36cc4f0ef9d9d3b5011a",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.0.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.0.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/a5cf9a70fe9b1811c13d8640.md",
+      "kind": "official-document",
+      "bytes": 44345,
+      "sha256": "62fdaff6a0f27fb54d63a3e56f508a5ded7555095fd5d7139cc899816968eb72",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.0.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.1.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/35ced9f3d646a26d318a1018.md",
+      "kind": "official-document",
+      "bytes": 124,
+      "sha256": "fb7b585a01bb514d916ecd6c0c63ca1ba60621ff471ce066cfaff2a292cccdb0",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.1.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.1.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/46db03a3829de6245635dfca.md",
+      "kind": "official-document",
+      "bytes": 404,
+      "sha256": "1f7a148f92dbc50f68e808e1ccd03935b8868ecbce6a311a78b4803a71471171",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.1.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.1.3.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/31a39e79d13feb3f771332ad.md",
+      "kind": "official-document",
+      "bytes": 111,
+      "sha256": "73e68008329dd9cfa68aa7c6fc335117889cbfdc9ea5e65a075091d4ec9b1889",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.1.3.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/824a157ec6a76c28c786ec3c.md",
+      "kind": "official-document",
+      "bytes": 41780,
+      "sha256": "6bcae7e704aba94f54324a4d22f4226750aada876857ea9419f53fbc72666a2d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.2.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/a52f8fbb2d604db7fbb771a3.md",
+      "kind": "official-document",
+      "bytes": 7669,
+      "sha256": "3628a7b3aa4951d530e97a40a6dea1835d2ae9fa00c89ffe9fa4a5b2416b7917",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.2.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.2.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/37026e8f40c44863b970f8ff.md",
+      "kind": "official-document",
+      "bytes": 3342,
+      "sha256": "7960e2670a8b09c3b646497a7e6541fdc29399e036309fc87c4deab81ada0f8a",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.2.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/48b7439d6a19ef6e43b6bbbd.md",
+      "kind": "official-document",
+      "bytes": 56769,
+      "sha256": "7e4eb634d70c0fe1a7d7769ca4416a058fd622aa62eb7d011851c99c7a9bbfe1",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.3.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/124dc983737c29adc14c5be9.md",
+      "kind": "official-document",
+      "bytes": 25705,
+      "sha256": "11a812999c99538e2e67d210f510ac4f479b8f683b8a4618bc850d9b380b3065",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.3.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.4.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/906ef6b39bd843a74dcc0fe0.md",
+      "kind": "official-document",
+      "bytes": 3629,
+      "sha256": "29fe86f9ac4726e4bb29896a9bf0caeb131e3232b3f99806459afbffbb8cc398",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.4.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.4.2.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/213eba9c7d9a227fd02c8d88.md",
+      "kind": "official-document",
+      "bytes": 3386,
+      "sha256": "169cafb42985f77079b4da0461adbff6dc3add16babcbf826dd69f731e68ee22",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.4.2.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.4.3.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/e9e97b742b0fc410411d9f18.md",
+      "kind": "official-document",
+      "bytes": 672,
+      "sha256": "1d633658195540fa4c6343f4997e3ce6c0d0b49f156a0adffb59875b2c093872",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.4.3.md"
+    },
+    {
+      "path": "doc/release-notes/2.6.4.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/c7eebe01dd6a1b706907b63e.md",
+      "kind": "official-document",
+      "bytes": 25515,
+      "sha256": "9439e009f3d180bc60da1c9c1cea6608100918792714413ba2a9bf62cb9411a1",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.6.4.md"
+    },
+    {
+      "path": "doc/release-notes/2.7.0.1.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/48def57f8a3a9cf3c2c6f3f9.md",
+      "kind": "official-document",
+      "bytes": 4136,
+      "sha256": "d53d63e2f33d07a6425165e4731e4bb515ae1cfc853ca476a5f6c5fcc68ec34e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.7.0.1.md"
+    },
+    {
+      "path": "doc/release-notes/2.7.0.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/638829be8aeed8ae4e3eaa3b.md",
+      "kind": "official-document",
+      "bytes": 28246,
+      "sha256": "382020b62b2ea1380ad30de21409887922c8b7daa7c1cac51f3ab0917178cec8",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.7.0.md"
+    },
+    {
+      "path": "doc/release-notes/2.8.0.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/b321b48b24019110123e9867.md",
+      "kind": "official-document",
+      "bytes": 44726,
+      "sha256": "e35d36cd798f36b9be3ba8c782958d0abd0f47d56dace995119f05206dc05894",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/2.8.0.md"
+    },
+    {
+      "path": "doc/release-notes/future.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/7c5aef72556859ec190002f0.md",
+      "kind": "official-document",
+      "bytes": 946,
+      "sha256": "cc967e763130125903b322ea4fa2916e3dbc36c4199b35a1e4f94bc165cc3248",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/release-notes/future.md"
+    },
+    {
+      "path": "doc/user-manual/_templates/breadcrumbs.html",
+      "localPath": "raw/agda--agda/cabd583dda7d/c52ff0167e433d5f4e1b5a97.html",
+      "kind": "official-document",
+      "bytes": 97,
+      "sha256": "ff437c15d5c6264a8f30f74c7b9697b1842dfe32b13ca6d65743964d298541dd",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/_templates/breadcrumbs.html"
+    },
+    {
+      "path": "doc/user-manual/contribute/documentation.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/3de7ae39e18feecda9662305.rst",
+      "kind": "official-document",
+      "bytes": 5695,
+      "sha256": "8a8d300e740ba00972ed668ddaafaa12f9293ada5b80ab4e70ac54dfed751ed1",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/contribute/documentation.rst"
+    },
+    {
+      "path": "doc/user-manual/contribute/index.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/b31b52175027fa0d04630ba1.rst",
+      "kind": "official-document",
+      "bytes": 1034,
+      "sha256": "f78dad8d03ac9715e92cd7adceda02a6a5baaf48aedb2356fe64fab274ebbc64",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/contribute/index.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/a-taste-of-agda.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/be10a11e4df31ef549e943e0.rst",
+      "kind": "official-document",
+      "bytes": 25117,
+      "sha256": "6e130993776436bd96b1cae3854c6b89d10fb5fd2dc964a3d770afe9c752ff4e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/a-taste-of-agda.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/hello-world.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/36692947ccaf2adda30663ef.rst",
+      "kind": "official-document",
+      "bytes": 2938,
+      "sha256": "25c914540832826fdcb957935dd83bb45b17c2f06285d22dcecc5a4a57bab5c2",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/hello-world.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/index.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/1d361a4933e8b175cf19ca8c.rst",
+      "kind": "official-document",
+      "bytes": 216,
+      "sha256": "f26bd45586d6bdfcc9a6a67532b14a7f6afc1b2b67a75d223068d60ca6f91f55",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/index.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/installation-troubleshooting.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/6fa6ff561156749fb7d921c7.rst",
+      "kind": "official-document",
+      "bytes": 1335,
+      "sha256": "d134a2a4339ff7f827ab9a5c09d945fb945bd02838bc90180536e60338f8c22e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/installation-troubleshooting.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/installation.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/157ddd788c6cd68184fb542a.rst",
+      "kind": "official-document",
+      "bytes": 3880,
+      "sha256": "b5a93b5db6bac4db0ef133c54eb2c7eecbf5607c9aad783a9f3099e3ee24833f",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/installation.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/tutorial-list.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/25033b9622f89cc6cbda377f.rst",
+      "kind": "official-document",
+      "bytes": 9340,
+      "sha256": "5fb848faaa941252b75469ab32d131df5e18ecaa19f96b073606ee07094d667b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/tutorial-list.rst"
+    },
+    {
+      "path": "doc/user-manual/getting-started/what-is-agda.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/10b03707a2b1419651aa1f16.rst",
+      "kind": "official-document",
+      "bytes": 6597,
+      "sha256": "8280f380b0df2141eb336ac13e26f7342f3458596eef15d77fd67677f195ddaa",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/getting-started/what-is-agda.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/index.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/cc9db8b1a02fc60c848922a7.rst",
+      "kind": "official-document",
+      "bytes": 573,
+      "sha256": "2a5e450d69f3b02a4ac7311979438d07df655c0380681e04a9783e7974ef9821",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/index.rst"
+    },
+    {
+      "path": "doc/user-manual/language/abstract-definitions.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/f2e6104b4712f8930a792433.rst",
+      "kind": "official-document",
+      "bytes": 5611,
+      "sha256": "58d8d50e4c73fa3d0796424fe4ee5d3f0ea78b2c5668a1a03d97132314d8d080",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/abstract-definitions.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/built-ins.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/848989195c4a1d87a8018ae3.rst",
+      "kind": "official-document",
+      "bytes": 27381,
+      "sha256": "9a248fdfdb3160e9fc05a50bfd6ef03bbdcc0000c0d432163e5918b6472036f5",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/built-ins.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/coinduction.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/d01ef056cd01614a42db67e0.rst",
+      "kind": "official-document",
+      "bytes": 8119,
+      "sha256": "89a0d44c75f10b9c890b4d83c4f58bbab8b7ef13df13c3163b15fa5aedcdd212",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/coinduction.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/copatterns.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/181adecb32676c192c808883.rst",
+      "kind": "official-document",
+      "bytes": 5753,
+      "sha256": "6d2182244582f0839cd783ba7fee06349e87a1500a6c815feb4ab3ef37569909",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/copatterns.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/core-language.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/c2e7fc5dcb2b9cde9e76142f.rst",
+      "kind": "official-document",
+      "bytes": 7773,
+      "sha256": "1c21d558da243e18aac402b526e2e3b043e0cc61e932c5311e3074883e4041fb",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/core-language.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/coverage-checking.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/cee7319a41d320cffeda449b.rst",
+      "kind": "official-document",
+      "bytes": 8070,
+      "sha256": "9acca179b2b915a782a215775e7a33152e0653bcc9104a59bbd7eaf722e2161a",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/coverage-checking.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/cubical-compatible.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/58e6fe7730b2ffc0d0d82d13.rst",
+      "kind": "official-document",
+      "bytes": 1968,
+      "sha256": "6d4d5a9e2d9c0f8d1ba7e63268b89a81d2fbfa5278a262b20b6bf9a8aa25c252",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/cubical-compatible.rst"
+    },
+    {
+      "path": "doc/user-manual/language/cubical.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/6e744a6b827d724b6e40ef9d.rst",
+      "kind": "official-document",
+      "bytes": 43220,
+      "sha256": "573bc3f0fed43660b7d0fafec52828f79446180c82da4287dc5946669c574ea7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/cubical.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/cumulativity.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/9a82acc0ba6f32c8be3014ed.rst",
+      "kind": "official-document",
+      "bytes": 4072,
+      "sha256": "f468c51b7c91a7145b6fcafabf99db3cda24c90ba236c162ecfc33ab11ef991f",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/cumulativity.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/data-types.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/48b8cd6cef598a76c1a9a5b3.rst",
+      "kind": "official-document",
+      "bytes": 5180,
+      "sha256": "e3162d18d9decca5a60f33c299ef46028f4fd869b712db777a25d1ab6d3471e2",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/data-types.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/flat.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/b5142c38ce79ad867b9f83f0.rst",
+      "kind": "official-document",
+      "bytes": 3168,
+      "sha256": "a7f8ecb75d94221612dedc2a416b66b297b568e0d5117ff76241b0786a89c121",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/flat.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/foreign-function-interface.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/d3b4b0f888a26a3d53984c98.rst",
+      "kind": "official-document",
+      "bytes": 11239,
+      "sha256": "c0b45f7d4a9ea7e88ea0d95a94950e4cc0f217d000f960b57e364e072b27c07d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/foreign-function-interface.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/function-definitions.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/959d1e4135c63c6b72e4884b.rst",
+      "kind": "official-document",
+      "bytes": 8705,
+      "sha256": "d73c0daf00a33ed0d16efbf30296a8ccd7a303f000c03a8e388dc2fc3ab7a4eb",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/function-definitions.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/function-types.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/4431ec3673aba81a0c3d03c0.rst",
+      "kind": "official-document",
+      "bytes": 2653,
+      "sha256": "4d3eefd64f7de6009f93e8000a327bc75626e40259cae8efc104e9179e8ee56a",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/function-types.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/generalization-of-declared-variables.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/8d4cb6f44c976603a9c40a2a.rst",
+      "kind": "official-document",
+      "bytes": 11735,
+      "sha256": "cb75956dd0e7b5530a58bca1b43471c094d5bf5fb99894a0f241013bdcef666e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/generalization-of-declared-variables.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/guarded.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/337be0d582ed4bdde1c9d5d3.rst",
+      "kind": "official-document",
+      "bytes": 1845,
+      "sha256": "17347ab180b2ca60079eaa97db60f135dfe3110d9eacea52c729d2150094a67e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/guarded.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/implicit-arguments.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/e78116bcbd8beee23b85b6b2.rst",
+      "kind": "official-document",
+      "bytes": 7028,
+      "sha256": "dbbe01144bc7de5abad88249917aed11bd8cd5d6591139fad954d9770bc6c4e3",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/implicit-arguments.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/index.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/e8c33b96160a620c9b7a8db8.rst",
+      "kind": "official-document",
+      "bytes": 1024,
+      "sha256": "a03a07b85c5eac533d43357b9830f63a952468e048d0a50441c89da5905fcaa8",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/index.rst"
+    },
+    {
+      "path": "doc/user-manual/language/instance-arguments.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/83e336815ece4189004c61f5.rst",
+      "kind": "official-document",
+      "bytes": 24513,
+      "sha256": "1369130d1d030e4929616ca1c453bc99564185e31cc97a90843103eff8877d44",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/instance-arguments.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/irrelevance.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/df2cc8dc3fd644c8f89d6acb.rst",
+      "kind": "official-document",
+      "bytes": 9842,
+      "sha256": "e42039c02c32349e37e3946627c204e6dfbded0c708d8ef1e600777825f66b2e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/irrelevance.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/lambda-abstraction.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/64f4f9f61b2115a16ed80dd6.rst",
+      "kind": "official-document",
+      "bytes": 5700,
+      "sha256": "b969f5625d1e524ed9e34a0d97ce97bc9044ea49efd1918240aa9038c3748d30",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/lambda-abstraction.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/let-and-where.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/62c32bf8e6cd04a638818be4.rst",
+      "kind": "official-document",
+      "bytes": 10035,
+      "sha256": "d1e36738a39810ed78a09aae5cec2feef0cfe49ec58c6c999c4e412e5298b8bd",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/let-and-where.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/lexical-structure.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/bfb3f0a3fe4bed443002804e.rst",
+      "kind": "official-document",
+      "bytes": 10788,
+      "sha256": "106287207865b761b1e85600da60e5591a5754deedbe767ba08b7459903920cc",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/lexical-structure.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/literal-overloading.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/880bb67d7191ff42197db79f.rst",
+      "kind": "official-document",
+      "bytes": 4954,
+      "sha256": "869806358a164980baaafd0c036286c9ccce88875272e83fdbd3423037a60712",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/literal-overloading.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/local-rewriting.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/e48ae02c0f167afea10a74b5.rst",
+      "kind": "official-document",
+      "bytes": 8110,
+      "sha256": "80ca047629b397c0784e60b9b30908eb76491095a765bf287a3dfa32c7d882ba",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/local-rewriting.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/lossy-unification.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/b33196ee5618b27008c1e65c.rst",
+      "kind": "official-document",
+      "bytes": 4371,
+      "sha256": "4dc65def846a3edb2b658f1aee0cf994482e8237fa6b4b12023b420ef01fd45c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/lossy-unification.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/mixfix-operators.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/f55d4c1a1be3569a22b8ec1e.rst",
+      "kind": "official-document",
+      "bytes": 7693,
+      "sha256": "12854405adf20627dc09f40813ddfd4e5bfa24754b305c1964ac76397baf14c3",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/mixfix-operators.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/modalities.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/32c36acdb35df751ea52a702.rst",
+      "kind": "official-document",
+      "bytes": 4703,
+      "sha256": "c768b4f10578f4f6a628ec53db00453afea46b14152b4fb3ec0a06203cebe499",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/modalities.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/module-system.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/72345eb1df43ce6ad9900f02.rst",
+      "kind": "official-document",
+      "bytes": 15022,
+      "sha256": "534f0b78d6b2523d09ab048ec8c374bf0cf3c433721a56b0d2af0075fecdd645",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/module-system.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/mutual-recursion.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/791a832a250cfa4ec42bfb94.rst",
+      "kind": "official-document",
+      "bytes": 6807,
+      "sha256": "aea761dea514477d592d7e1af9f8f800141433e0961efd42f9270ad5914846ce",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/mutual-recursion.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/opaque-definitions.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/586945f9d07c1b519d526127.rst",
+      "kind": "official-document",
+      "bytes": 7794,
+      "sha256": "47a9cc13d746e65c0287884c1ee822229cff86981f302a4852181765a79cd5aa",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/opaque-definitions.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/pattern-synonyms.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/445541b32071324f819af13f.rst",
+      "kind": "official-document",
+      "bytes": 2454,
+      "sha256": "798017982046c1263c4526b7146f13f1c2e87d58541de4d9c0075d290d9a646c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/pattern-synonyms.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/polarity.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/15387f75303a962aa4d85555.rst",
+      "kind": "official-document",
+      "bytes": 5456,
+      "sha256": "8326529dc8780b6f20a1b09b2124b007fcb504798ff6b1f82127cdec7f81804d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/polarity.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/positivity-checking.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/87d11cdd2125a465b1bc1dba.rst",
+      "kind": "official-document",
+      "bytes": 5511,
+      "sha256": "1ab5674674b8b9a8c02fd92e7ed357590285ae489a40df09dfab32e037891f9c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/positivity-checking.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/postulates.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/406038cc5d4b84ff42598333.rst",
+      "kind": "official-document",
+      "bytes": 1914,
+      "sha256": "d64718abce5980cddb501340e89654bc908980ebf4b8680080883f584c47833c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/postulates.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/pragmas.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/59d869fed998165b5eae472a.rst",
+      "kind": "official-document",
+      "bytes": 9872,
+      "sha256": "65da6e86a86a6ebe808f047a2c46abfd257286245f5cf77a207d4c533ba7e41e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/pragmas.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/prop.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/9f3fb264ee823a386357e6cd.rst",
+      "kind": "official-document",
+      "bytes": 4510,
+      "sha256": "3a8f1e8de9c17e5daed96f5b5dfa39e12ece1334ad4184a61115f202f9982b18",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/prop.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/record-types.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/767b55f8e7b6f8de5c221fc2.rst",
+      "kind": "official-document",
+      "bytes": 31856,
+      "sha256": "fe03bd97a7ce4fdc6f4aa8da618506a59d81e14d7b3b4a3639b549df84ea08f8",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/record-types.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/reflection.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/9e804a6ff10a704dba9db017.rst",
+      "kind": "official-document",
+      "bytes": 33734,
+      "sha256": "32907cad220e2968ff17fc3e68d052d64f8e2a37746236c5a97ababea7aa86ea",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/reflection.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/rewriting.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/bbc03fcbe2b75a5c36f7a89a.rst",
+      "kind": "official-document",
+      "bytes": 13789,
+      "sha256": "72fadd9ab5c0115934de22d7f82f32c684e8a4d25140180df61736fe2c63fa07",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/rewriting.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/runtime-irrelevance.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/9c505cc914c728c7241567e8.rst",
+      "kind": "official-document",
+      "bytes": 11368,
+      "sha256": "d0ad173c48da3d4ad6247b5f29bc2785b4543d8c3b578e3edfdf727487fba9fa",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/runtime-irrelevance.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/safe-agda.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/2f1dc49252dd72c235167797.rst",
+      "kind": "official-document",
+      "bytes": 3068,
+      "sha256": "837d778c763a5d97dc608cb4e3a9714be6f2fbebc9d92043a8cea8f7b5413ccc",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/safe-agda.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/sized-types.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/00c78e91ae821acc374bfdad.rst",
+      "kind": "official-document",
+      "bytes": 6669,
+      "sha256": "a89703c8acc37c1e22f8c3866204b7d59ef29ded09abfb3631418c73c807b6bf",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/sized-types.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/sort-system.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/44eef7192ec82bab02399daa.rst",
+      "kind": "official-document",
+      "bytes": 17820,
+      "sha256": "37c92ad62c0613d58347a5af3aa0fe29158e88ef4bdc62db0cd58b57313831f0",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/sort-system.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/syntactic-sugar.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/5877bb1e1b5fd1ab3ba7c576.rst",
+      "kind": "official-document",
+      "bytes": 13361,
+      "sha256": "fd2f42f49f0771941d8e723fe03c0fc30a9e1df20fb0298b2a05e56a1c2fa78d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/syntactic-sugar.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/syntax-declarations.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/6cb6355fdca6306c9e44b908.rst",
+      "kind": "official-document",
+      "bytes": 1689,
+      "sha256": "65621932a16aeab7843357278ce083867536ad5e5dcd0932000d7e8ad0aa6cda",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/syntax-declarations.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/telescopes.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/15319fd707db1552104a6f7a.rst",
+      "kind": "official-document",
+      "bytes": 5722,
+      "sha256": "7ddb003fe112e2366635a2c0461947fb8c4f61f707602edddd3de7ace7b7aad7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/telescopes.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/termination-checking.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/7c76b6fd93ea4742f357841d.rst",
+      "kind": "official-document",
+      "bytes": 6104,
+      "sha256": "5d50fe9a21d7af810c0ab06504628c3aed38c632041d994ca852f123a41e8716",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/termination-checking.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/two-level.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/9017864f2be811d1bdde40f7.rst",
+      "kind": "official-document",
+      "bytes": 4022,
+      "sha256": "cd8cb44bede42424c68da0c2fa68dacce38a7f7080703e6813c1f0b192767ab4",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/two-level.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/universe-levels.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/3faaecbfca3905d573faa887.rst",
+      "kind": "official-document",
+      "bytes": 7987,
+      "sha256": "edf8700eeef9cadb75e106f682653b6599098ee658e7df85c5b011e2e2acf408",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/universe-levels.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/with-abstraction.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/a64dd9b88e67d0103d3948fc.rst",
+      "kind": "official-document",
+      "bytes": 34492,
+      "sha256": "2df3f46cde3904707b7bd32f603568ea5e4ceeb5559e1c0394bdfc9cd5ac1dbc",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/with-abstraction.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/language/without-k.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/90d32fbce250d1a14ca27c86.rst",
+      "kind": "official-document",
+      "bytes": 4485,
+      "sha256": "69d0e41501e12186a8deccb73fd0be3569af6c359456ba8e59ee154ec73686d8",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/language/without-k.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/overview.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/467891bb15af2a817e6d0e8d.rst",
+      "kind": "official-document",
+      "bytes": 1376,
+      "sha256": "12c599417ac2de834baf615e946c1d80bcea9a6c4af1b733df9ae78fc68330a3",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/overview.rst"
+    },
+    {
+      "path": "doc/user-manual/requirements.txt",
+      "localPath": "raw/agda--agda/cabd583dda7d/fc4bb8166d6fc4b47d4e5f42.txt",
+      "kind": "official-document",
+      "bytes": 73,
+      "sha256": "4c0b6d7283add3f8965ff5ff125f8617f914626176e06c4f55f9f362fc935d0e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/requirements.txt"
+    },
+    {
+      "path": "doc/user-manual/team.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/f6485b5b05b1095173ae7777.rst",
+      "kind": "official-document",
+      "bytes": 4200,
+      "sha256": "768093ec3465fe2524461c306f270e2dbd50d6cfd5d2e29b8e2ebd6960f24f9f",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/team.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/acmart-pdflatex.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/6af2a94c1e19fda6191fa7b7.tex",
+      "kind": "official-document",
+      "bytes": 1233,
+      "sha256": "cd376bb448ee1502d159c73bc2df1c430dc7174ad7ec409ef885b04b66226c9d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/acmart-pdflatex.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/acmart-xelatex.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/637351dc61b5c27e7e004d41.tex",
+      "kind": "official-document",
+      "bytes": 1261,
+      "sha256": "6ddad103a368ec0c9ce253affeb9da5bd6fc8d6bfbfbb8405b59032e97d384a0",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/acmart-xelatex.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/article-luaxelatex-different-fonts.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/7e4bd65c0c1f1578dd74340d.tex",
+      "kind": "official-document",
+      "bytes": 1294,
+      "sha256": "bb3eca9199b52d26a6c1e7c40e4f9a693775effed3f9e130060757acee9b9698",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/article-luaxelatex-different-fonts.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/article-luaxelatex.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/245ec42827887f9a774a1771.tex",
+      "kind": "official-document",
+      "bytes": 1486,
+      "sha256": "f5517319415d96f138ec544dc99549270f73bfeb0ba2f9bd2223be582955d51b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/article-luaxelatex.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/article-pdflatex.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/64860bc8250aff0b0394ffb6.tex",
+      "kind": "official-document",
+      "bytes": 1010,
+      "sha256": "5ccc1172d294b9cc41b34cccbe1e2962e7ab106f9c2f972a66ff9863e3d62d4d",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/article-pdflatex.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/auto.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/2e6e09413fce1c7cd2d56e98.rst",
+      "kind": "official-document",
+      "bytes": 5433,
+      "sha256": "6db4c2ab96e1ccedc70387f44610e599244ffe1df124884eb7e5cca7f95fc0be",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/auto.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/beamer-luaxelatex.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/1952fa5077fd83a685e5002e.tex",
+      "kind": "official-document",
+      "bytes": 1562,
+      "sha256": "49d73289f43748623b4ce4a488774ed1d5b54fdd5d41b4bc40187964d5440be3",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/beamer-luaxelatex.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/beamer-pdflatex.lagda.tex",
+      "localPath": "raw/agda--agda/cabd583dda7d/0ecd6ef3147b0fa9ba1a6320.tex",
+      "kind": "official-document",
+      "bytes": 1129,
+      "sha256": "d838ef2b207aa2af10faf299de994340dcc05352a03b8dc31ca1e26ac5eab34c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/beamer-pdflatex.lagda.tex"
+    },
+    {
+      "path": "doc/user-manual/tools/command-line-options.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/208f93e0b929d3177f8971b8.rst",
+      "kind": "official-document",
+      "bytes": 71901,
+      "sha256": "303f8430317db601df550b1c603cfba36a8572dede6a194b48995409ff0c950e",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/command-line-options.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/compilers.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/94254f6c48f0313f5148b71d.rst",
+      "kind": "official-document",
+      "bytes": 7531,
+      "sha256": "9123f679944aa3d640fe87c64db2000d7b15eefb73a0088f030b0b69e3d7f3cf",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/compilers.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/debugging.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/7902c452954831bebbb00d36.rst",
+      "kind": "official-document",
+      "bytes": 2680,
+      "sha256": "b170f83193307956942452beb8871a925a5caf520aa56c5eb7e2fe9b0a38cda3",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/debugging.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/emacs-mode.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/a4b8dce43d293aafca30dfb8.rst",
+      "kind": "official-document",
+      "bytes": 18498,
+      "sha256": "89541ec95d67c7a5411a1a1f3d44c165490fd56ddc01d20c57423b3ffbce1cdc",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/emacs-mode.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/generating-html.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/745dfc98a42f5ca5a7762bfe.rst",
+      "kind": "official-document",
+      "bytes": 3244,
+      "sha256": "fc377ba08fc0ebd41ba691ef4306b7f732e3f9327fe88bd3bfb95826b79f0ca4",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/generating-html.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/generating-latex.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/bff2089ebd623a9a2a15f5eb.rst",
+      "kind": "official-document",
+      "bytes": 25527,
+      "sha256": "cbb3fda48d21575b6a0c709f7c44c06f9bff5f7ce5d66d74ae8f244d53b55669",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/generating-latex.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/index.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/c6f7613bb3de282629c6b4f5.rst",
+      "kind": "official-document",
+      "bytes": 297,
+      "sha256": "350dd14db467c74002885c3e1837df04bc32315d9e54164653006c4651d7ea85",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/index.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/interface-files.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/010c13a93a23dd088bf48847.rst",
+      "kind": "official-document",
+      "bytes": 2088,
+      "sha256": "9b08ef95ad3d20af98262a8ecac033247a5e2c578fec47b296e45c53bfc5f1ce",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/interface-files.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/literate-programming.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/a3555b89dd846380ebe51cca.rst",
+      "kind": "official-document",
+      "bytes": 8427,
+      "sha256": "d99aa1d4dc2095b87a59577d3d603cc7a4f788c40d401de101541203c29dd644",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/literate-programming.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/package-system.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/eea01f2338df53586f64a270.rst",
+      "kind": "official-document",
+      "bytes": 8820,
+      "sha256": "a3967267eafa59a3c31c3720bd2185dfc2e3f6d173ab5e17985ecd6185f4a8a8",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/package-system.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/performance.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/728fb3cbaf8ca1df34a91b9f.rst",
+      "kind": "official-document",
+      "bytes": 2295,
+      "sha256": "4c80d29662fcc2ef128fc706b55a28330ceee7d874d85eaa32cdaedb8ed39346",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/performance.rst"
+    },
+    {
+      "path": "doc/user-manual/tools/search-about.lagda.rst",
+      "localPath": "raw/agda--agda/cabd583dda7d/e8d0b0dd00c08d1e6dc108df.rst",
+      "kind": "official-document",
+      "bytes": 1631,
+      "sha256": "c7ea970b152ba2ddd2712699c4a7af229b71ff1ce7fdf52c8d4084ffa69e84af",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/tools/search-about.lagda.rst"
+    },
+    {
+      "path": "doc/user-manual/unicode-symbols-sphinx.tex.txt",
+      "localPath": "raw/agda--agda/cabd583dda7d/a69b69973795b1fef627af4c.txt",
+      "kind": "official-document",
+      "bytes": 17529,
+      "sha256": "5e2a02380cdacb8a9f87470d8b4498ea2573318ac3d25069532b7d0a3cb93242",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/doc/user-manual/unicode-symbols-sphinx.tex.txt"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/Bool.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/f7928c509c30d8f5b8150548.hs",
+      "kind": "upstream-example-code",
+      "bytes": 344,
+      "sha256": "ff6f4923f1888ca20d811256073b37fde3cf1ca529d116838bdabafe8bbfb15b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/Bool.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/Point.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/61987c3c654648e517c0e27b.hs",
+      "kind": "upstream-example-code",
+      "bytes": 343,
+      "sha256": "cdb794ffbbe2650e3a3522ee22863b419f1fb8c081811f50495170ae48ddfdf7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/Point.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/PreludeNatType.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/9fb6c51cf38d3f68277119f4.hs",
+      "kind": "upstream-example-code",
+      "bytes": 179,
+      "sha256": "de2aadce365ddc3f4fcbec3b2f5411f7a596fd59cac6aa0b1b44d9153c2a489b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/PreludeNatType.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/RTD.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/5b9dfc50bd3e46ef05043a8d.hs",
+      "kind": "upstream-example-code",
+      "bytes": 244,
+      "sha256": "842880387c2d1a53f7be9faa609579fa0f3c74b3e0298d3d6b3cb8ef88b23ec3",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/RTD.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/RTN.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/8aede69990127d799ba486b3.hs",
+      "kind": "upstream-example-code",
+      "bytes": 168,
+      "sha256": "657fc2265dd3228ac19ed70c67032d9fbdfce4b3f09899c9f8dd40bd2d7d3df2",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/RTN.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/RTP.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/4b59adbec0e78a70955f1f95.hs",
+      "kind": "upstream-example-code",
+      "bytes": 2462,
+      "sha256": "72e2b9dae79c39869d30866b17712844c728851496710d7c11357c9455aac761",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/RTP.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/RTS.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/5ca48d0868ed75ac962527a7.hs",
+      "kind": "upstream-example-code",
+      "bytes": 211,
+      "sha256": "897be9b870ebe260b7f2a5b6a76ee78fc2428752024453a3b0f81e643708462b",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/RTS.hs"
+    },
+    {
+      "path": "examples/outdated-and-incorrect/Alonzo/Records.hs",
+      "localPath": "raw/agda--agda/cabd583dda7d/37e2d1cb5d32d3a082928b56.hs",
+      "kind": "upstream-example-code",
+      "bytes": 3149,
+      "sha256": "0c7c7eb0294599f04578c2ed0aa7b7dbc24af2431aaa5402b2d089bfdeccb0ee",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/examples/outdated-and-incorrect/Alonzo/Records.hs"
+    },
+    {
+      "path": "mk/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/f84c85391a1fd2e6f8d650b8.md",
+      "kind": "official-document",
+      "bytes": 211,
+      "sha256": "23768d7ce0dba2a668f8259f7ca7fd19af99fa4cf496ba4d234d6ba1fc130def",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/mk/README.md"
+    },
+    {
+      "path": "src/agda-bisect/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/4c5ade68f36a87d6c68db15d.md",
+      "kind": "official-document",
+      "bytes": 895,
+      "sha256": "5c12b6bc6713cc7e5c57813537c33be4852c72498d1e4726246bf1b64e8e5ff2",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/agda-bisect/README.md"
+    },
+    {
+      "path": "src/data/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/a80b950d3b9631e1cf93978d.md",
+      "kind": "official-document",
+      "bytes": 537,
+      "sha256": "9c78f853d9b2e80ebcb57db786f09e2d62bb8fd10983bb35b044c0d685018f93",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/data/README.md"
+    },
+    {
+      "path": "src/data/emacs-mode/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/d2a34a8317e576da6672beee.md",
+      "kind": "official-document",
+      "bytes": 219,
+      "sha256": "3f7168a7321d050c2bbc01b312ddf5fddd43ae4420cdeb36158a2d3e60133426",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/data/emacs-mode/README.md"
+    },
+    {
+      "path": "src/data/html/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/efd8932a32f0b8f7ecaa51c2.md",
+      "kind": "official-document",
+      "bytes": 71,
+      "sha256": "4cc53fcfd8c896ebc9a47ee51693a412030f1d42839555c6096a466ff029e8fe",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/data/html/README.md"
+    },
+    {
+      "path": "src/full/Agda/TypeChecking/Monad/Base/README.txt",
+      "localPath": "raw/agda--agda/cabd583dda7d/7ac3aedda39cce06ab2ea8b7.txt",
+      "kind": "official-document",
+      "bytes": 204,
+      "sha256": "f985fc34eceaf9e4735307845005c3135d9523e2c8b2c75fa3d6a767635a1af0",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/full/Agda/TypeChecking/Monad/Base/README.txt"
+    },
+    {
+      "path": "src/full/Agda/TypeChecking/SizedTypes/README.txt",
+      "localPath": "raw/agda--agda/cabd583dda7d/8931866aa55a10515f114d3c.txt",
+      "kind": "official-document",
+      "bytes": 90,
+      "sha256": "57c1cd5da41b0eed6ea84cef846126ec95a1270333bc96ebcb17915e9ce12bf7",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/full/Agda/TypeChecking/SizedTypes/README.txt"
+    },
+    {
+      "path": "src/github/workflows/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/4e9ae012043c211cb317e689.md",
+      "kind": "official-document",
+      "bytes": 283,
+      "sha256": "eaf4bbcadc6c87d2d67a11936f54f0d0bcbb46a9ab001ae3ff7d15b8b2d40375",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/github/workflows/README.md"
+    },
+    {
+      "path": "src/setup/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/a78a7af4d9eb50063312bd48.md",
+      "kind": "official-document",
+      "bytes": 92,
+      "sha256": "51e8fb71db8e1ea6d185e8e2aef7fc6c30134df137811307541201f488386d67",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/src/setup/README.md"
+    },
+    {
+      "path": "test/helpers/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/f6e8a8bcedebee17bcb87239.md",
+      "kind": "official-document",
+      "bytes": 49,
+      "sha256": "596b2f05bdafac9dffe191a24b61dbb69f0c88391b350c86473f2214d48950de",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/test/helpers/README.md"
+    },
+    {
+      "path": "test/helpers/exec-tc/README.md",
+      "localPath": "raw/agda--agda/cabd583dda7d/d84d3df1c204d646767f404e.md",
+      "kind": "official-document",
+      "bytes": 43,
+      "sha256": "17fc114bc605028d316e174ca3f553d32d65ae54e638e91902dc281b6759061c",
+      "sourceUrl": "https://github.com/agda/agda/blob/cabd583dda7d7e2e4b079a9c5f80e29890a65b25/test/helpers/exec-tc/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,85 @@
+---
+id: examples
+title: Example
+---
+
+> Read about
+> [best practices](https://timdeschryver.dev/blog/good-testing-practices-with-angular-testing-library),
+> or follow the
+> [guided example](https://timdeschryver.dev/blog/getting-the-most-value-out-of-your-angular-component-tests)
+
+Angular Testing Library can be used with standalone components and also with Angular components that uses Modules.
+The example below shows how to test a standalone component, but the same principles apply to Angular components that uses Modules.
+In fact, there should be no difference in how you test both types of components, only the setup might be different.
+
+```ts title="counter.component.ts"
+@Component({
+  selector: 'app-counter',
+  template: `
+    <span>{{ hello() }}</span>
+    <button (click)="decrement()">-</button>
+    <span>Current Count: {{ counter() }}</span>
+    <button (click)="increment()">+</button>
+  `,
+})
+export class CounterComponent {
+  counter = model(0);
+  hello = input('Hi', { alias: 'greeting' });
+
+  increment() {
+    this.counter.set(this.counter() + 1);
+  }
+
+  decrement() {
+    this.counter.set(this.counter() - 1);
+  }
+}
+```
+
+```typescript title="counter.component.spec.ts"
+import { signal, inputBinding, twoWayBinding } from '@angular/core';
+import { render, screen, fireEvent } from '@testing-library/angular';
+import { CounterComponent } from './counter.component';
+
+describe('Counter', () => {
+  it('renders counter', async () => {
+    await render(CounterComponent, {
+      bindings: [
+        twoWayBinding('counter', signal(5)),
+        // aliases are handled naturally with inputBinding
+        inputBinding('greeting', () => 'Hello Alias!'),
+      ],
+    });
+
+    expect(screen.getByText('Current Count: 5')).toBeVisible();
+    expect(screen.getByText('Hello Alias!')).toBeVisible();
+  });
+
+  it('increments the counter on click', async () => {
+    await render(CounterComponent, {
+      bindings: [twoWayBinding('counter', signal(5))],
+    });
+
+    const incrementButton = screen.getByRole('button', { name: '+' });
+    fireEvent.click(incrementButton);
+
+    expect(screen.getByText('Current Count: 6')).toBeVisible();
+  });
+});
+```
+
+## More examples
+
+More examples can be found in the
+[GitHub project](https://github.com/testing-library/angular-testing-library/tree/master/apps/example-app/src/app/examples).
+These examples include:
+
+- `input` and `output` properties
+- Forms
+- Integration injected services
+- And
+  [more](https://github.com/testing-library/angular-testing-library/tree/master/apps/example-app/src/app/examples)
+
+If you're looking for an example that isn't on the list, please feel free to
+create a
+[new issue](https://github.com/testing-library/angular-testing-library/issues/new).

@@ -1,0 +1,2425 @@
+{
+  "schemaVersion": 1,
+  "repo": "ghc/ghc",
+  "commit": "e358619f138494a690f47aa1f9663c8f8c045617",
+  "retrievedAt": "2026-10-01T15:19:36.362090+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/haskell"
+  ],
+  "archiveUrl": "https://codeload.github.com/ghc/ghc/zip/e358619f138494a690f47aa1f9663c8f8c045617",
+  "archiveSha256": "78ae2f7600e5573114a5c3871bfc63ee80387245e6c86df27764bae5ac892fd4",
+  "archiveBytes": 37444848,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 239,
+    "code": 0,
+    "licenses": 61,
+    "bytes": 2528301
+  },
+  "files": [
+    {
+      "path": ".gitlab/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/a56e5f473d8a6a097b874b12.md",
+      "kind": "official-document",
+      "bytes": 983,
+      "sha256": "3cee0d445dac03ecd650bc68714f668ff72cea0be5a6375c2b6a46233e5dca99",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/.gitlab/README.md"
+    },
+    {
+      "path": ".gitlab/generate-ci/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/46228d356017b8d59170036e.txt",
+      "kind": "license",
+      "bytes": 1534,
+      "sha256": "b747427b4aa92a3b7b20b53780f47940e3c0573259de9dd763e8ecb6f964b523",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/.gitlab/generate-ci/LICENSE"
+    },
+    {
+      "path": ".gitlab/issue_templates/release_tracking.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/f2ef01e7cd348cbbec73429e.md",
+      "kind": "official-document",
+      "bytes": 12683,
+      "sha256": "3c8e32169ac7cd63d0458b5763460cd0659f7bf1691f6ecf4fade20266ba8ac5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/.gitlab/issue_templates/release_tracking.md"
+    },
+    {
+      "path": "HACKING.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/9769a3f5504af3cd735e08f0.md",
+      "kind": "official-document",
+      "bytes": 4525,
+      "sha256": "f0260371f36bc80a4143dde664c14999dd73df62779e079efb213ad812281d0b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/HACKING.md"
+    },
+    {
+      "path": "INSTALL.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/09b140a43ebfdd8dbec31ce7.md",
+      "kind": "official-document",
+      "bytes": 1729,
+      "sha256": "9a486accadff5209352578ba81b9b387baecc5caaadcc9d0a05e5938fb2044a7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/INSTALL.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1611,
+      "sha256": "e06c13b8a117652621781c15d622bd4c62c568307954f7136955b4b656d14ec1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6210,
+      "sha256": "dfb3839b4d837c2e57882901abb9b0f0b0b54a51bbf68f18c2ecbcebf030e52e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/README.md"
+    },
+    {
+      "path": "compiler/GHC/Data/Graph/Inductive/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/f0831f2acad82a7e314a0cd6.txt",
+      "kind": "license",
+      "bytes": 1701,
+      "sha256": "cf48a60a73ab237870c6c29819bcf765ffd5336a0534ba49efcab8ab60d5ae42",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/compiler/GHC/Data/Graph/Inductive/LICENSE"
+    },
+    {
+      "path": "compiler/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/e0278990648e8d33ee4ead1f.txt",
+      "kind": "license",
+      "bytes": 1611,
+      "sha256": "e06c13b8a117652621781c15d622bd4c62c568307954f7136955b4b656d14ec1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/compiler/LICENSE"
+    },
+    {
+      "path": "docs/users_guide/10.2.1-notes.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/8501e1e72c1ce766048613b6.rst",
+      "kind": "official-document",
+      "bytes": 263,
+      "sha256": "28c39775bbf98706c5e8e2c7fa4636faf10b5e6eb8d6383de0ca5dc058c7b2c0",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/10.2.1-notes.rst"
+    },
+    {
+      "path": "docs/users_guide/bugs.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a8e419ad0d80f603a9cb6dd7.rst",
+      "kind": "official-document",
+      "bytes": 28357,
+      "sha256": "7aedc80b1e547d10f8d7839e578c30bf2822bdd736a3938aacb596441d315344",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/bugs.rst"
+    },
+    {
+      "path": "docs/users_guide/codegens.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7afad95c671430cc0099e68a.rst",
+      "kind": "official-document",
+      "bytes": 6173,
+      "sha256": "837806351e71173232eacd0db61379448da7a5feaff02551e73310b16636328c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/codegens.rst"
+    },
+    {
+      "path": "docs/users_guide/debug-info.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7a23670fe2ceb69de5ce5164.rst",
+      "kind": "official-document",
+      "bytes": 22275,
+      "sha256": "09e0418d193a109e86cef2d272be01d63e1380dd3387636d25b53e03a3f95812",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/debug-info.rst"
+    },
+    {
+      "path": "docs/users_guide/debugging.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c29416bc5307e280406b0090.rst",
+      "kind": "official-document",
+      "bytes": 42078,
+      "sha256": "cde6b66e31481fe4a3c6d65d4c4a7e542d7f56d23d3451957a948010246a07ae",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/debugging.rst"
+    },
+    {
+      "path": "docs/users_guide/editing-guide.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/5921923cfb7220cc4e4820b1.rst",
+      "kind": "official-document",
+      "bytes": 11247,
+      "sha256": "65108b99079a5d130b88ed477d11f850b72ee2cc1b377736b8ee9bdf189175b1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/editing-guide.rst"
+    },
+    {
+      "path": "docs/users_guide/eventlog-formats.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/cc9a762e310532fd74bb0dd8.rst",
+      "kind": "official-document",
+      "bytes": 30689,
+      "sha256": "0489e4aa6da1e9ca095fc4511a1866f5e5d5c48dc5e422d1bd33845df14bdce4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/eventlog-formats.rst"
+    },
+    {
+      "path": "docs/users_guide/expected-undocumented-flags.txt",
+      "localPath": "raw/ghc--ghc/e358619f1384/dfb1027da9ceb72f0865abb5.txt",
+      "kind": "official-document",
+      "bytes": 1724,
+      "sha256": "dfa5affe7c866e81c4408e8abdc44e25c2b4c30e5abd94514774de2251b93b86",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/expected-undocumented-flags.txt"
+    },
+    {
+      "path": "docs/users_guide/extending_ghc.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ffa8b04787d743da804dee5f.rst",
+      "kind": "official-document",
+      "bytes": 70626,
+      "sha256": "3ffbf725bfe9b26686eeb425020335c8e32e5fca9e8211e7944a40263cc67ece",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/extending_ghc.rst"
+    },
+    {
+      "path": "docs/users_guide/exts.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/2ecacec9fbba597d531edce6.rst",
+      "kind": "official-document",
+      "bytes": 520,
+      "sha256": "ad63d058d9913a728ca7118ac04ac72cdd84f16620c4a264126199d8a91d2b69",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/ambiguous_types.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/349539a387f88b3e41ceabb9.rst",
+      "kind": "official-document",
+      "bytes": 4657,
+      "sha256": "a271fc2fbbb58b59d4d52914a1435bd9ed743fad6c0c56feb4298b42f4c09725",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/ambiguous_types.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/applicative_do.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/29d94dc31dab84acf74ea221.rst",
+      "kind": "official-document",
+      "bytes": 7670,
+      "sha256": "2653a9daaa30c698f7f635bf2ad4ebde74bbfe7120e16f6fb6e6e2310059cf5a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/applicative_do.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/arrows.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c12d2d3190128a9a2ae27497.rst",
+      "kind": "official-document",
+      "bytes": 15428,
+      "sha256": "a765223b5b88a7229d87e7de994c8855bba9500aa71022d0a5ebdf7fc58459ae",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/arrows.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/assert.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9119555863947d275dea585a.rst",
+      "kind": "official-document",
+      "bytes": 2496,
+      "sha256": "9571adde0913967ac8b84a67c1c1a5e31ef6faffca89978b2aafe72aafd558b4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/assert.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/binary_literals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/88ce3bb4a8c6437411723b6a.rst",
+      "kind": "official-document",
+      "bytes": 763,
+      "sha256": "dfc177ffd1fd720661111485b7ade12a823ac4b1ba500b5ade263651ee90b633",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/binary_literals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/bindings.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/27bb936d22d520309d3dbb93.rst",
+      "kind": "official-document",
+      "bytes": 128,
+      "sha256": "467f6d2f35cef0638902de1aeaa1096ec1bcf366d3a595cf33a2450bf5382458",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/bindings.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/block_arguments.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9e4ef62cc0c597ffe0b453c5.rst",
+      "kind": "official-document",
+      "bytes": 3711,
+      "sha256": "1da8e715bb14193a1bbdc3416fc1003d75fadcac1c041b5ecea78f521b993da4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/block_arguments.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/callstack.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/5299b0208e44b5c4fe07bc77.rst",
+      "kind": "official-document",
+      "bytes": 4870,
+      "sha256": "ae0ead18358435d7be9408a9640f1084f1fd2b55cd249a6083f6c85c774ee844",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/callstack.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/concurrent.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/62c754e29c171a5e7684f6fc.rst",
+      "kind": "official-document",
+      "bytes": 4814,
+      "sha256": "8e23a31f946e17a16f7660bb6386a3529dd48b237833f512305e8d5bbac0accd",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/concurrent.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/constrained_class_methods.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/1782a0c2dec773246e110951.rst",
+      "kind": "official-document",
+      "bytes": 1661,
+      "sha256": "7dd6b80da5c2cf1ffacbf64eb309dacc35c7c026decdc0e72ad29acd36eeccf3",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/constrained_class_methods.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/constraint_kind.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ad702cb77e9ace3d67e84603.rst",
+      "kind": "official-document",
+      "bytes": 3175,
+      "sha256": "e358439f7e074b387a8ffba94ce443585841198d2075ce529a040924bfc021ae",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/constraint_kind.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/constraints.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/20eed96feea08176808a5641.rst",
+      "kind": "official-document",
+      "bytes": 150,
+      "sha256": "665f61579c8b9d3745413ac4fbd13530b5b7dc746d6d0581656440f969c78c6f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/constraints.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/control.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9a3014033ba5e1e334f29fab.rst",
+      "kind": "official-document",
+      "bytes": 9980,
+      "sha256": "d9b19459d22ada69dc22e1b6a0d1362e3b28c84ab86dab88917878606034f601",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/control.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/data_kinds.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c6d334a3c68f90cce7f10e20.rst",
+      "kind": "official-document",
+      "bytes": 12289,
+      "sha256": "bb03dadc2843b0ae1e60c6a211f8a94fe8f09f78796700b263b54a49b77ac532",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/data_kinds.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/datatype_contexts.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/b4b1fb029fb5d9a694581f60.rst",
+      "kind": "official-document",
+      "bytes": 659,
+      "sha256": "6056f5f38694a6c15ac2e92216decf2b3c3808b18435c30333b01eaa70e6d519",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/datatype_contexts.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/default_signatures.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9cf14d224aeb0e2c6893dfd9.rst",
+      "kind": "official-document",
+      "bytes": 8076,
+      "sha256": "4bb0a3b47be87aec2460a596d788eae090da7ae86f6912fb3098ba17295abfd0",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/default_signatures.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/defer_type_errors.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a07c1fd623f782b81790b40f.rst",
+      "kind": "official-document",
+      "bytes": 7100,
+      "sha256": "562a662fd62279d2ca10bf4af467b16377c58262f56ddaa510403374f07015ac",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/defer_type_errors.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/derive_any_class.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d7f8a9659e871768c57165ec.rst",
+      "kind": "official-document",
+      "bytes": 4819,
+      "sha256": "7358c1e7a32cb714ab8eb8047a28373cad71a00d27546b073048d85de204220a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/derive_any_class.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/deriving.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/013f07d1cbeb1d47e6b396ec.rst",
+      "kind": "official-document",
+      "bytes": 1351,
+      "sha256": "ba91bf8bb646040e827ff9f3302180d49e3e0299d8dfcbbb7385cf880caf3f9f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/deriving.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/deriving_extra.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a97d8abd3219021d7fdd43dd.rst",
+      "kind": "official-document",
+      "bytes": 22096,
+      "sha256": "5781f460ccb3418a1a1ecf05812f71b5c6edb5960b9c102f6d9c6a58463d7966",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/deriving_extra.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/deriving_inferred.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/64c5766ffc9c197c688ab3cc.rst",
+      "kind": "official-document",
+      "bytes": 1136,
+      "sha256": "e24d0f9b0139c748a16b4365c80af5915484490bab31af31daf70a60b5e2230f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/deriving_inferred.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/deriving_strategies.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/0a76219c912a6780e7fdf358.rst",
+      "kind": "official-document",
+      "bytes": 3612,
+      "sha256": "866ddffa484d3cba48d6ab87056ca7007e57a7fffe762997c159aee154fb933c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/deriving_strategies.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/deriving_via.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e3e5dfbcb6862c0495d42c20.rst",
+      "kind": "official-document",
+      "bytes": 3562,
+      "sha256": "d343b479f1c75faf6a32b06d608e136d8fcdcf62cc05bc9951f98cf780ba759d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/deriving_via.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/disambiguate_record_fields.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/8758ddcda865872374d76f7e.rst",
+      "kind": "official-document",
+      "bytes": 3111,
+      "sha256": "6b7e44fb082b13840153d402167719be8e24c0f6c9dfc3f43c8d30f5b89c2148",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/disambiguate_record_fields.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/doandifthenelse.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/304247b2411c148ee5e8b8e1.rst",
+      "kind": "official-document",
+      "bytes": 1135,
+      "sha256": "dd860efdd3611b5a983a5c6f441f1685e5011933efaf85aa3bde5164e3754aca",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/doandifthenelse.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/duplicate_record_fields.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/80f78f7da94d8fa608768d7b.rst",
+      "kind": "official-document",
+      "bytes": 2420,
+      "sha256": "1cc511c1ae15c24d9f2d2e0c6f0fa978d2c52824a9cc265d58673d999281279b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/duplicate_record_fields.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/empty_case.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/206633aa6b112a9fe9d59e42.rst",
+      "kind": "official-document",
+      "bytes": 1444,
+      "sha256": "4455d8ec361074abd6ad1277371e9ee3b8d9303fb29d021daa8a9fa0c27c6b33",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/empty_case.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/empty_data_deriving.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/82037deba02e152d85309999.rst",
+      "kind": "official-document",
+      "bytes": 1753,
+      "sha256": "47fec866758b9f8c7b39741ab3e214cf19cd3c0eaf62ac8eb47a3d125a898c3d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/empty_data_deriving.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/equality_constraints.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/01794d63479131df89ec905f.rst",
+      "kind": "official-document",
+      "bytes": 3259,
+      "sha256": "bd207f61ea85e1838b1eb58caee112c877893359415302055af2c7368e99b3d7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/equality_constraints.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/existential_quantification.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9d260b014318ec5b86447e5d.rst",
+      "kind": "official-document",
+      "bytes": 9941,
+      "sha256": "16652d1249ed7d424d95ad5da84cd9e49245c485133e24020ca741b113e40a6b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/existential_quantification.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/explicit_forall.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/cc1f5eef463212694ec8ee1b.rst",
+      "kind": "official-document",
+      "bytes": 5813,
+      "sha256": "8a46436b124df6595cbb8f141afe5ac4de1e63aac3a48dd22bead5d78f5c6f0f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/explicit_forall.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/explicit_namespaces.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/545a59f801f10c95f5df2274.rst",
+      "kind": "official-document",
+      "bytes": 7037,
+      "sha256": "c1769c5781a515dd1d2b1f9bb1955c6eff0d7063371dca477ffe02fb6495cf82",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/explicit_namespaces.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/extended_literals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ed380a0b13b2da37e8957d02.rst",
+      "kind": "official-document",
+      "bytes": 1669,
+      "sha256": "fd1790639cb02983f0f20ef578bcaddec20292dfd7581cd3110849671858c6cb",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/extended_literals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/ffi.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/16bcc4b8b48cf29cd047dfdb.rst",
+      "kind": "official-document",
+      "bytes": 50581,
+      "sha256": "883b34234302fbc74c5745a519359c15634eeb56bfb17093047ca5d09f564660",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/ffi.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/field_selectors.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/1c676b8d9e881b68ac7f0bea.rst",
+      "kind": "official-document",
+      "bytes": 3908,
+      "sha256": "661d74dfed0502622c170fbfbe5e7f3331705ae9ad61e9eed0f6395ffcd50361",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/field_selectors.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/field_selectors_and_type_applications.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a4bc6bdc22f79ef9992151a0.rst",
+      "kind": "official-document",
+      "bytes": 5509,
+      "sha256": "209e263f2bee5c6cc0bc4f0b2af5a0d4259a4b41743da47f32761ef63c488773",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/field_selectors_and_type_applications.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/flexible_contexts.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/017bd137816639a7bbc9e75f.rst",
+      "kind": "official-document",
+      "bytes": 1088,
+      "sha256": "fc494b1da3162c9e101bad14fa6f688aeeaa9222c8fdadc4d2761fbba2a53a73",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/flexible_contexts.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/functional_dependencies.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/674d3d36662f22618c7c1f45.rst",
+      "kind": "official-document",
+      "bytes": 13686,
+      "sha256": "eb86203b82063d58c592f600ec080487767b9ef9f5046e35c29f906bd5408984",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/functional_dependencies.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/gadt.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/73e830190c6a809f33fc4233.rst",
+      "kind": "official-document",
+      "bytes": 10524,
+      "sha256": "ec873a51a85159343c358e9b8d15d6e1fcca3dafdd6f32e6c591d00424ce8aea",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/gadt.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/gadt_syntax.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/077eb5771452eee321ac3e09.rst",
+      "kind": "official-document",
+      "bytes": 15130,
+      "sha256": "00439eb9cc4663dc32dbf534a82764aa3591d4edb03a1e5c58fca25f6d63938a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/gadt_syntax.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/generalised_list_comprehensions.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/fac65e3355da9b923cf9c718.rst",
+      "kind": "official-document",
+      "bytes": 4643,
+      "sha256": "5ce0c49dc4beb2015ada7ef372a0ffb4367109597f4c5874eb4ee37c2f10ad2b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/generalised_list_comprehensions.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/generics.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7766b4542eb598b6f3ddc990.rst",
+      "kind": "official-document",
+      "bytes": 10119,
+      "sha256": "c6805b02bf0fc68bff2ed03ba325223f7c82f06e8e14efc622a84c0bfe52ee23",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/generics.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/hasfield.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a01e446a2761437500b5de33.rst",
+      "kind": "official-document",
+      "bytes": 7212,
+      "sha256": "aee00a2228ca53d4547db7710abdf5d9970f7c7aa1c375b94cd59b34bf27d71b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/hasfield.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/hex_float_literals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/4eca5db49f95eed32fcc9c57.rst",
+      "kind": "official-document",
+      "bytes": 1634,
+      "sha256": "bb520c9f46452565ed5ba28f7ec91960b8184c777dc704a0fb5aeee6610068c1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/hex_float_literals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/hiding_unexported.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/22f95abdb456a2d9c250dfea.rst",
+      "kind": "official-document",
+      "bytes": 839,
+      "sha256": "b511ed954024ba7b7b5af9d75cfdcbed01df5207280c0efb2b8c4c59bd20d227",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/hiding_unexported.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/implicit_parameters.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/58ef10f60bdc55f46ddab43d.rst",
+      "kind": "official-document",
+      "bytes": 8479,
+      "sha256": "99da6557d22e7e125bf960acd2653556ea2c39775766e52069a537eb2d5fbc91",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/implicit_parameters.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/import_export.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/447d959fd5d718b672ad1698.rst",
+      "kind": "official-document",
+      "bytes": 209,
+      "sha256": "a43346ce4482834ea00cc3ae116f89bff4086eb7a644987a1d5f8944e526617d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/import_export.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/import_qualified_post.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/077c8cb4609ee795b8657705.rst",
+      "kind": "official-document",
+      "bytes": 1274,
+      "sha256": "4656bfac46cc3ca60975fbb80647680ea473000dd44c411390a547d14996a982",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/import_qualified_post.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/impredicative_types.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/1bea2b5877aab14c72b88a42.rst",
+      "kind": "official-document",
+      "bytes": 2935,
+      "sha256": "9ce9663c93549b32706bafcc8b32a5fc2195aad2d470f6e2f6c7c3202c04d29b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/impredicative_types.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/infix_tycons.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9db640735bb1bc15698c3374.rst",
+      "kind": "official-document",
+      "bytes": 1696,
+      "sha256": "18f880a72368847d4451e085edc0816f93870cc6bf667547740091842c8f9a13",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/infix_tycons.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/instances.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/518ad9f0ae32317318888609.rst",
+      "kind": "official-document",
+      "bytes": 29618,
+      "sha256": "b2bd1c3786941448b56e8ef0325816222c035349e354038ee63409ad1eef725e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/instances.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/intro.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/241fe7e61485b92cb52f3449.rst",
+      "kind": "official-document",
+      "bytes": 761,
+      "sha256": "e4e58036c56f22bf9cd3185b27d06418c714cca67db20563ab73bc4144faf1b5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/intro.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/kind_signatures.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/87145f98a215e1c7b7399050.rst",
+      "kind": "official-document",
+      "bytes": 1911,
+      "sha256": "65f18cfdb8b9256d152df32f393fdace3a31554265e8fabc0f79cd16ccfe1086",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/kind_signatures.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/lambda_case.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a2ae5f03810cbf805cd585f3.rst",
+      "kind": "official-document",
+      "bytes": 1223,
+      "sha256": "831c55c8f2d2d395f7fa9c54b9664386028d3d23ec0f5f4e8d7d28856047df6c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/lambda_case.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/let_generalisation.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/41685b66a6f53c9f78783ca1.rst",
+      "kind": "official-document",
+      "bytes": 4528,
+      "sha256": "fe233d743ada1eb182d04a7002ccea46d97ee10c60b7b38b1ee8536534fee945",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/let_generalisation.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/lexical_negation.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/6f8402a702803968fe5268cd.rst",
+      "kind": "official-document",
+      "bytes": 2526,
+      "sha256": "1e5e6ed423aad264cbc38e478087cfe584dccb78dfdb28dc82578eae9bd6df21",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/lexical_negation.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/liberal_type_synonyms.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ac73de433131294777c3adca.rst",
+      "kind": "official-document",
+      "bytes": 1720,
+      "sha256": "d6c031aa4895e9acd7e5735ff33c982c2eb469bb95a7760e4fb64b4a9964866a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/liberal_type_synonyms.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/linear_types.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/89498a32dde3aaa81eafbde8.rst",
+      "kind": "official-document",
+      "bytes": 12640,
+      "sha256": "d46c5dc77e8fd899750907d4f43cacabb9aaa4e0fab45f480d4de711e24b64f5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/linear_types.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/literals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/69309a4948292838dd0c11ac.rst",
+      "kind": "official-document",
+      "bytes": 266,
+      "sha256": "d9e83c3dbe1d2ae5959f39a56c39ea35ab14119aed15364685c65ef0a0113317",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/literals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/local_fixity_decls.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/8e99e1336516eeeeb4edbe65.rst",
+      "kind": "official-document",
+      "bytes": 1181,
+      "sha256": "cb6fbcde037ca545f9a1b10fb6a9512a965061218c7b294b0aa64b7e6906d647",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/local_fixity_decls.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/magic_hash.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/511073a58adc13e541765f74.rst",
+      "kind": "official-document",
+      "bytes": 1651,
+      "sha256": "45468c047a7c07e0ae0048e00f841d25f9921e3e5606f560cb4caa7a221b4bbe",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/magic_hash.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/misc.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/b7aa8e5aea30c9d8120479a1.rst",
+      "kind": "official-document",
+      "bytes": 151,
+      "sha256": "596d755251d42c2a7ea9b649d56a0321916d95fbe917963fba4efeef65f060ef",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/misc.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/modifiers.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/fffd1630ac68ee2a1828667e.rst",
+      "kind": "official-document",
+      "bytes": 5228,
+      "sha256": "ed29b02b47281296e4004181433ee2e263e4e9342b90b5097ae549a4637b11c1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/modifiers.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/monad_comprehensions.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f272adb1d05724c8af61372d.rst",
+      "kind": "official-document",
+      "bytes": 5931,
+      "sha256": "5a5758d0d3baa6bbf524587a79941adbf075b570ce396429606e42b078a0da77",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/monad_comprehensions.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/monomorphism.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/6353b602aadd8dc5c1dea62d.rst",
+      "kind": "official-document",
+      "bytes": 734,
+      "sha256": "bd1fa7d7f40c7ba8fed497914450e9627908cae8027d931c8580b4fc59d1e22c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/monomorphism.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/multi_param_type_classes.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/fdff4e804a02fba4af0c8f15.rst",
+      "kind": "official-document",
+      "bytes": 644,
+      "sha256": "c1f614fde1e986a385682052d0b8696d974c7d567bbe294ad3cf4cd2f17ee698",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/multi_param_type_classes.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/multiline_strings.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e24ae1714a757c4d021c0b2d.rst",
+      "kind": "official-document",
+      "bytes": 5564,
+      "sha256": "64551e0a86a00b3e9f693c8b208f4a2dffdb7add1373cab63cff1d9f51b10224",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/multiline_strings.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/multiway_if.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f4555de1c6c7f777570892a4.rst",
+      "kind": "official-document",
+      "bytes": 1663,
+      "sha256": "01d5303dc43bf3b915af691209cb46d27274cf79b31798fa08f62d06341b5122",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/multiway_if.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/named_defaults.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9fc7394f349b1b9ba3f03200.rst",
+      "kind": "official-document",
+      "bytes": 10947,
+      "sha256": "853ee2499cfd9957aece939c116fd47e561b6e3715079dd9cbfa0f1d406fb0e4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/named_defaults.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/negative_literals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/bd4b7577f9c905f5a21c3018.rst",
+      "kind": "official-document",
+      "bytes": 1534,
+      "sha256": "467077b64d7c2757fba74a145253ee465f40294e3c73e4c75ff97281fd40d7f4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/negative_literals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/newtype_deriving.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a4e70b2e58cb3b3fe0e9d5b8.rst",
+      "kind": "official-document",
+      "bytes": 13092,
+      "sha256": "e3373e37d58e94daf480a19a40752a1c605f874b59fd8c6bfdc79ecd0c70274b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/newtype_deriving.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/nk_patterns.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7897b1792d198861e746f2a8.rst",
+      "kind": "official-document",
+      "bytes": 228,
+      "sha256": "222d3c5ea9c711b332258aee4c9a36a5107f8fd499e6066b8da22f8db62cd043",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/nk_patterns.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/nullary_type_classes.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/8e361baf5e77d828c08c3eec.rst",
+      "kind": "official-document",
+      "bytes": 1410,
+      "sha256": "c4970a75c5908b4a25e3bffa636efaada28da486db310b59b320ddae784b380c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/nullary_type_classes.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/nullary_types.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/1ade42dd83ecf9f05d0aaaf0.rst",
+      "kind": "official-document",
+      "bytes": 1344,
+      "sha256": "8b206262211fb28a71cedfef03a35e7b4bae738ffecd63e54fd5d99f51f55943",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/nullary_types.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/num_decimals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d4bbc0398c5882021530e247.rst",
+      "kind": "official-document",
+      "bytes": 1357,
+      "sha256": "ae42f0f923769f2f166e5fada1aadb7444bc73439ca1a839112b5091e3d50101",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/num_decimals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/numeric_underscores.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f8f3b97ce0ff8d81deffa833.rst",
+      "kind": "official-document",
+      "bytes": 2187,
+      "sha256": "610fec03623e32d93b00b14dc5aa952f21de2c7031bce6c8e14317da1779ef70",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/numeric_underscores.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/or_patterns.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7cdd51922513ce660245b68f.rst",
+      "kind": "official-document",
+      "bytes": 3848,
+      "sha256": "f0c135c018f5a27616ee48dc0283c34ede442f93f40dbb3b16478ec1caffdd91",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/or_patterns.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/overloaded_labels.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d8245fe15d712041942ede1b.rst",
+      "kind": "official-document",
+      "bytes": 5485,
+      "sha256": "da2475042223681f4e299ca0a67f14850c5c913a3c2b3f3fd8cb4a0291ba6049",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/overloaded_labels.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/overloaded_lists.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/77bcc618b4d992ad2027028b.rst",
+      "kind": "official-document",
+      "bytes": 5619,
+      "sha256": "d8984792a6f2229a8875fb1048d51f5837ad9e120664ec6b26557ef65b411e26",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/overloaded_lists.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/overloaded_record_dot.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/37840daa223428e9ead7549c.rst",
+      "kind": "official-document",
+      "bytes": 1344,
+      "sha256": "9effd0f183b0390c367900b991635d090202519be5516896dd87ab67cdaffd98",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/overloaded_record_dot.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/overloaded_record_update.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/07f0469a2696e9f26234066e.rst",
+      "kind": "official-document",
+      "bytes": 2868,
+      "sha256": "b1d3546458e0736c347e79a4155bb73324e110a301efdb1a87102259c77ce48e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/overloaded_record_update.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/overloaded_strings.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f48f323290c7f22a6847f0d3.rst",
+      "kind": "official-document",
+      "bytes": 3018,
+      "sha256": "ceb37a1013e48c89a60d174fed3f77e9705164396aac6562039be966593c0412",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/overloaded_strings.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/package_qualified_imports.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f73b67a2d460484c149bd099.rst",
+      "kind": "official-document",
+      "bytes": 1274,
+      "sha256": "cd6c81aacba61926a4ac4651c4a5f5e537aaa044c285683c8b0e06321c20daf8",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/package_qualified_imports.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/parallel.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/94386d304d915e66ce3eefb1.rst",
+      "kind": "official-document",
+      "bytes": 986,
+      "sha256": "de6efef5484229e0232a9d98668b0927789a5d7a19280ee4df13c40ae4461617",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/parallel.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/parallel_list_comprehensions.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/53b93c2a8594028897ef852f.rst",
+      "kind": "official-document",
+      "bytes": 1578,
+      "sha256": "358b60fa87fab5e95a5b7fbf348eb77c86c1aeb0a6eb8b26fd75a8c5abd7125c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/parallel_list_comprehensions.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/partial_type_signatures.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/0870e8e95876e23c5aa9aefd.rst",
+      "kind": "official-document",
+      "bytes": 12621,
+      "sha256": "e69a9a4640f3ac4748172c6fdbaa7cc01e7734a516f08a6e111122d2514aa7ab",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/partial_type_signatures.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/pattern_guards.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f5ffecba920407af3ffb957a.rst",
+      "kind": "official-document",
+      "bytes": 651,
+      "sha256": "92b7aa930c8a47b3a50fd5a4e6916aedc85beb77cebf8d866f2d7343d360fc7c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/pattern_guards.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/pattern_synonyms.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/31f8adf8de794f43714efa17.rst",
+      "kind": "official-document",
+      "bytes": 21190,
+      "sha256": "a4f48d4ea02eabc1244e0b2c5e5ca3741caf41c58f8c53898ad4bcc147829680",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/pattern_synonyms.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/patterns.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/508e1c2eccec7af92de51a54.rst",
+      "kind": "official-document",
+      "bytes": 165,
+      "sha256": "4b31b95f71d03e9252025efe3d0b21386d94e41e012358b1fe58baa6a1f46703",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/patterns.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/poly_kinds.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/58c0434d0edd6b48d9504413.rst",
+      "kind": "official-document",
+      "bytes": 43375,
+      "sha256": "4d3c7b27f46008cea2bf322b36ae70e721ceb01acef557b239cb4294a1d6b2f7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/poly_kinds.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/pragmas.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a71659bc27d8c6e35f19f0fa.rst",
+      "kind": "official-document",
+      "bytes": 43575,
+      "sha256": "bc803dcad231e7a9f4dd6f0cb90967c504dec15eaa3a1a61795a9eee0f2ff4a7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/pragmas.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/primitives.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3b99d5dea48c5e5803b2f9ab.rst",
+      "kind": "official-document",
+      "bytes": 22043,
+      "sha256": "1f29dd081b4d945aa7c0644142b3d7156b948609c5f0a5e6d039a73767ef7748",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/primitives.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/qualified_do.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e66d5153ce6387436ca6d242.rst",
+      "kind": "official-document",
+      "bytes": 6294,
+      "sha256": "0d92a85d665a59b482c7cb6bfa8083f3e50103d5c5ada49a20d56fa171eaaeb5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/qualified_do.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/qualified_strings.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d05c56f07ec5f41d67229b03.rst",
+      "kind": "official-document",
+      "bytes": 855,
+      "sha256": "f7f2d8ad7c3ebc21e37141cccb24f9f0a8cd26d8cdb7c264747523b0b83286f5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/qualified_strings.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/quantified_constraints.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d8c5f0e552923a837458bd85.rst",
+      "kind": "official-document",
+      "bytes": 11739,
+      "sha256": "a52aed65c84fab3086d6137f417525ebdfd2defbc19f35c97f0d41f2bc5ae2a5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/quantified_constraints.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/rank_polymorphism.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ed86de8bbf7b7afcd0d97ce8.rst",
+      "kind": "official-document",
+      "bytes": 12879,
+      "sha256": "93854eb208ec87b43f4cc199a6c2e7ec9436420c7464f46943d6202562f89050",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/rank_polymorphism.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/rebindable_syntax.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f904403a281798de8c848086.rst",
+      "kind": "official-document",
+      "bytes": 8556,
+      "sha256": "a764bbd51bcbc05bda30ed465ecb486854821281ddc79848a8258bc298c39947",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/rebindable_syntax.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/record_field_resolution.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d34a523b2e2fed93f74f2f9b.rst",
+      "kind": "official-document",
+      "bytes": 2437,
+      "sha256": "a5f5cb6b12f7df739bb3ee68cf35246501b099455a2d9aa20a57073207ce6680",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/record_field_resolution.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/record_puns.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ab8a51f293b3b8b9609f7dad.rst",
+      "kind": "official-document",
+      "bytes": 1607,
+      "sha256": "f3a45680ce08ed3febaca54f379f528c0e32ec60c2ae92d976dc35ec45734462",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/record_puns.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/record_wildcards.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3042fdce395f82999cf0aed4.rst",
+      "kind": "official-document",
+      "bytes": 3599,
+      "sha256": "0b508b2233fa0cffda72ad149bbc35edf1c030d081329cbcaf366bc798fc4c51",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/record_wildcards.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/records.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/66a0579a4e4dd70162ae394d.rst",
+      "kind": "official-document",
+      "bytes": 363,
+      "sha256": "00921c6c9c05cabeab5f50c9b8e3afb4257f3ad21668ddc2bbf604cae76195f4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/records.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/recursive_do.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a45d129a66cf871817b37632.rst",
+      "kind": "official-document",
+      "bytes": 9055,
+      "sha256": "99de252658790935f80ff09a20949afb0a1cedc3d4c4d43f0fa11899bee3f547",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/recursive_do.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/relaxed_poly_rec.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/27d4e5bb6094748e28f003bd.rst",
+      "kind": "official-document",
+      "bytes": 678,
+      "sha256": "147dc12e541c2555be4e2ec0bcedae208081887a01b3420deb3496c752ea98ac",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/relaxed_poly_rec.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/representation_polymorphism.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7e9c666533ff76fff74f6365.rst",
+      "kind": "official-document",
+      "bytes": 7176,
+      "sha256": "3603c897574125d8b5446465b280784b908b6aceb749f894afd6034c32c77d5e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/representation_polymorphism.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/required_type_arguments.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f1213ee21446833af3cd46f2.rst",
+      "kind": "official-document",
+      "bytes": 20186,
+      "sha256": "e3efeb3f1030e2d97ef5eb608efdd20f8aec1da68f21857c7356cd5c95a8a522",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/required_type_arguments.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/rewrite_rules.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/7a0171cb98b6497a706ff53d.rst",
+      "kind": "official-document",
+      "bytes": 20233,
+      "sha256": "ebee0437035d04e283489426490cb5d3ebaa9958761f378e599ca0c92def3de2",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/rewrite_rules.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/roles.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/16461caed80580e8b9df655b.rst",
+      "kind": "official-document",
+      "bytes": 8891,
+      "sha256": "59207bfa023b1c0dbe6bc1716c494e0e8bbab973002a2c405583639fe0857e17",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/roles.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/safe_haskell.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/375df17c2c3790126bb9e6d5.rst",
+      "kind": "official-document",
+      "bytes": 35859,
+      "sha256": "0d05b2410418d83fe143f75945c277f55f6009c8d7f986b504de9166cda784af",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/safe_haskell.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/safe_imports.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/867f6e8771b17863b11b75fd.rst",
+      "kind": "official-document",
+      "bytes": 576,
+      "sha256": "485cf3d9b5035abb666724f62e00e31264a75822264e0b5d04b2777ae3ae39f0",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/safe_imports.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/scoped_type_variables.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/0d3b6333818a3deee3af4aba.rst",
+      "kind": "official-document",
+      "bytes": 11627,
+      "sha256": "336be0608cf70c529ff138bf12b44690bea68183c085a6f11312364153a2a4c2",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/scoped_type_variables.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/special_builtin.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/2e9d27d6bf0df220cbaee5e6.rst",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "7d367771041848c2654f5c542ffca6c7907de399065b870ac04eb9c508dd801e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/special_builtin.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/standalone_deriving.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/b19a64e4625bb28b5f14d2ec.rst",
+      "kind": "official-document",
+      "bytes": 4696,
+      "sha256": "1fa8010117d3138362d6fa1959f31cddcb9ea83562e93eb41dd577a0ad56eae7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/standalone_deriving.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/static_pointers.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c078692233fcbce87ec1a83b.rst",
+      "kind": "official-document",
+      "bytes": 4775,
+      "sha256": "656345afc090b4a8a19433f5dd89b14cf75a533ef76e3facc3f3bcd8f786d5d8",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/static_pointers.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/stm.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c8a6c96e39372abde1fcca6f.rst",
+      "kind": "official-document",
+      "bytes": 745,
+      "sha256": "f771893cfeaf787399d530daf1290c1f7b5e211ffe7ea1af7e344c1a41542590",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/stm.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/stolen_syntax.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/71384e310760cded4a35ba98.rst",
+      "kind": "official-document",
+      "bytes": 3144,
+      "sha256": "3459a1a205f21bf248c3e6b15e03d9d3de722a67efb5a4e904af8996bf7843ad",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/stolen_syntax.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/strict.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e372883c5e1b011e74ed1a4a.rst",
+      "kind": "official-document",
+      "bytes": 20294,
+      "sha256": "a1cfb26c004684b6a2194f5604fdd1c36401e1c00713d54cff8c93a99fb1ab8a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/strict.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/syntax.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ab28cb3fd3bcc1cadaeb74e5.rst",
+      "kind": "official-document",
+      "bytes": 480,
+      "sha256": "72f6e006efc860123d0d5fe9f7a2d8d73cc19ba4db6d5b7f65e51dfce2d84bca",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/syntax.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/table.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/35fee7a4140c87406d4468c6.rst",
+      "kind": "official-document",
+      "bytes": 165,
+      "sha256": "82f00d09f19d3394e28f304ae9426b185b185c284f1269da0f31f6bf1c969b6f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/table.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/template_haskell.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/89d6888d510b33b1813ca429.rst",
+      "kind": "official-document",
+      "bytes": 42292,
+      "sha256": "4c60ca0f1aa1b1d496a4e7dcf78ebd107adb26f3db7f37e7e74ba60d8799d3b0",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/template_haskell.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/traditional_record_syntax.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e55b652acfd63ade3daa8681.rst",
+      "kind": "official-document",
+      "bytes": 1250,
+      "sha256": "147a0c2e4ca3da6e919bcac45d6e1924c35fb0ea918fb330167ef4bafb0b3cd6",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/traditional_record_syntax.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/tuple_sections.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ea01fc95a449ab504b4c3a9c.rst",
+      "kind": "official-document",
+      "bytes": 992,
+      "sha256": "3020fcd32f08239635080a40a69dde048c74073e1a8b17ca898a6711fa6b2971",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/tuple_sections.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_abstractions.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e19a4ded17689252b0fae181.rst",
+      "kind": "official-document",
+      "bytes": 11669,
+      "sha256": "15919e5d80bb9757c884fe0b96544dd3f7d49ef8ea8c0c1d2322d3ec256e693c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_abstractions.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_applications.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ff013920f2f147b4efa0a944.rst",
+      "kind": "official-document",
+      "bytes": 10801,
+      "sha256": "f19d4498e38b6066217cb6f6db6d3a71e3f06a24758079cc8f471a25b9efdea3",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_applications.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_data.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/26699d2e8a40b85c3265fb9f.rst",
+      "kind": "official-document",
+      "bytes": 2310,
+      "sha256": "f6aea6da366ac09e8568de38a5236942fc2b9796493147fa61dc0ecfdeb4e04d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_data.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_defaulting.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/6a3230ee495a2c52ca6d6fb1.rst",
+      "kind": "official-document",
+      "bytes": 9591,
+      "sha256": "34f406691581c4746b7cec3d0897aec1cf3f760da0c1b93e0425ead4b6501edf",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_defaulting.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_errors.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/e1f9c3c504460d641ed593c3.rst",
+      "kind": "official-document",
+      "bytes": 2367,
+      "sha256": "b561a1ffaa583baab139e0856164c24127ac7c32ceabcf0fa285f9e182a26d9a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_errors.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_families.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/b5ac058d96d9dc5b1f0e9fd5.rst",
+      "kind": "official-document",
+      "bytes": 49504,
+      "sha256": "658643ec7514fc82e5df9eddac51d12459a7bf6c7a4b3db93c7646e475054b26",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_families.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_literals.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/09a942605530cd126e47eb45.rst",
+      "kind": "official-document",
+      "bytes": 4592,
+      "sha256": "308feaefa119633690155e4b1cb3a2089286981a91ddfc537e91b1af35fb17d7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_literals.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_operators.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d4bfdeced8091cf1e4cc2037.rst",
+      "kind": "official-document",
+      "bytes": 2242,
+      "sha256": "3c771b989e1d6bf74f50880ede9f64cab8e5078550b5bf771508bcc929ad83ac",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_operators.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/type_signatures.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3f1c772ad9d34c060c74b5b2.rst",
+      "kind": "official-document",
+      "bytes": 257,
+      "sha256": "1bec7c3d1c12bbcdcfa4408ce0bb1759ab226f2effa2f243c9d5bd2fdb3f6997",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/type_signatures.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/typeclasses.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/dc088b810be44052537ac066.rst",
+      "kind": "official-document",
+      "bytes": 564,
+      "sha256": "4b177b32ba7657d96346f4d26834f0de1aa9584cd7b18a0711926185b3b12da4",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/typeclasses.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/typed_holes.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3330b42a440a26a0afc898dc.rst",
+      "kind": "official-document",
+      "bytes": 21856,
+      "sha256": "028d3f0343ac3c03198874013aa5415afb672b85e07d7adcd96a529420f89cb6",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/typed_holes.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/types.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ba133e445df704a253e58c40.rst",
+      "kind": "official-document",
+      "bytes": 565,
+      "sha256": "11ead5f65d36937e353cde684feda34b8ad4a78935b24c51589979c6e667706e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/types.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/undecidable_super_classes.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/fe5e345af77d13202b65cace.rst",
+      "kind": "official-document",
+      "bytes": 1885,
+      "sha256": "10cc3ddbbb77a484043aab2e9604976d004a3aaee511c8b700ccda8f270bd7ed",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/undecidable_super_classes.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/unicode_syntax.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/56fe7f8577f9d751dbefb2fe.rst",
+      "kind": "official-document",
+      "bytes": 3468,
+      "sha256": "b30e6a62574f342fd5710e4d0e9bd11e1d284b2c95a1e2be0b93a3f350619275",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/unicode_syntax.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/view_patterns.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/0cff296b0c1fcac7fc71e9b4.rst",
+      "kind": "official-document",
+      "bytes": 5541,
+      "sha256": "de7163083b3a70c67fe225c61879b7f7efe3802172e23261059044f66dc07160",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/view_patterns.rst"
+    },
+    {
+      "path": "docs/users_guide/exts/whitespace.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/64d2f27da42428ce7ffe365f.rst",
+      "kind": "official-document",
+      "bytes": 1073,
+      "sha256": "0d2eb568f07c4c0895dce245a07fca4f143f7b1a706bd1b823f513d6e08c1239",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/exts/whitespace.rst"
+    },
+    {
+      "path": "docs/users_guide/flags.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/f56c05a58320183044ce3125.rst",
+      "kind": "official-document",
+      "bytes": 9990,
+      "sha256": "88dc2f5756d483c294861dda46c20b0768b057e8b6c8d516da0feda87ccf7c74",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/flags.rst"
+    },
+    {
+      "path": "docs/users_guide/ghc.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c70af122f8ae3378d3ac708f.rst",
+      "kind": "official-document",
+      "bytes": 5944,
+      "sha256": "6d9fd2390a6d0c5b9e8094b6def4232f9590a27f719e07085bbc761c56c76211",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/ghc.rst"
+    },
+    {
+      "path": "docs/users_guide/ghci.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d07b42b9fabe676e41042f86.rst",
+      "kind": "official-document",
+      "bytes": 132255,
+      "sha256": "cfe53a7246367c31a7e6e4fdb1d8844df6b9344588a3cc9e7b982f48d435b070",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/ghci.rst"
+    },
+    {
+      "path": "docs/users_guide/glossary.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/225242ab3f2d9eb73d2ed46d.rst",
+      "kind": "official-document",
+      "bytes": 611,
+      "sha256": "a76d8169a922054e60ed12b094549dca4dec797c9cbef41f3ea5bd441e4fdc9e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/glossary.rst"
+    },
+    {
+      "path": "docs/users_guide/gone_wrong.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/4e50d6c074991d34609dfbf6.rst",
+      "kind": "official-document",
+      "bytes": 5354,
+      "sha256": "8c431bbbf03cb852cfd9ac7758254c1acea6d4fc52eb05df3ad2b7a4ce52f35c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/gone_wrong.rst"
+    },
+    {
+      "path": "docs/users_guide/hints.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/9471bbcb58996d12735f8c7b.rst",
+      "kind": "official-document",
+      "bytes": 27017,
+      "sha256": "b5642f85a33f620deda56c705ab4c55648c5dc4c2823a3ff3a96cec9fc556d65",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/hints.rst"
+    },
+    {
+      "path": "docs/users_guide/index.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3c5529de6cd4561134215268.rst",
+      "kind": "official-document",
+      "bytes": 497,
+      "sha256": "1c9d9bf9344dfa1988464a4d2920a4d4adbe46fd93c9bdc3b4b4b6a5ebcbd641",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/index.rst"
+    },
+    {
+      "path": "docs/users_guide/intro.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/276e40abec2cebf8c28e5603.rst",
+      "kind": "official-document",
+      "bytes": 8488,
+      "sha256": "2d8fbdb22ca264f218c0011d4cbce9537065ab10d852db03caa4f91097f7be75",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/intro.rst"
+    },
+    {
+      "path": "docs/users_guide/javascript.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/d4b6ddfe734c143fd8fa673f.rst",
+      "kind": "official-document",
+      "bytes": 23199,
+      "sha256": "03f1e68975848e7c6fe58f60c6f2135214f8615128670187ea2e293cd2b9c7b1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/javascript.rst"
+    },
+    {
+      "path": "docs/users_guide/packages.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/0e9476fbb168197409614860.rst",
+      "kind": "official-document",
+      "bytes": 58455,
+      "sha256": "87e077fbce5a57136a34e43b6f207901129178c6f09f112caf036ff5df3e5a75",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/packages.rst"
+    },
+    {
+      "path": "docs/users_guide/phases.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/b2452780b7714d9aec0531cd.rst",
+      "kind": "official-document",
+      "bytes": 60905,
+      "sha256": "1acb4ea86617134f3f3f8ccd5c75a36d2cb38583ac6fa4618beaeeb7416be211",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/phases.rst"
+    },
+    {
+      "path": "docs/users_guide/profiling.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3da5d1af7aa3c2ccbcb9c966.rst",
+      "kind": "official-document",
+      "bytes": 80620,
+      "sha256": "4b2bb07487c072c748381d02735900f74e650b50697fc290f3b3d78109e745f3",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/profiling.rst"
+    },
+    {
+      "path": "docs/users_guide/release-notes.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/ce4e23f51ca6a56dfb0d299b.rst",
+      "kind": "official-document",
+      "bytes": 75,
+      "sha256": "c5398b3e0c37c086a1f2c95ac5250482e38455fc53f738562e4b576747adc6ad",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/release-notes.rst"
+    },
+    {
+      "path": "docs/users_guide/runghc.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/fc07a73e53d15045c5d93eb1.rst",
+      "kind": "official-document",
+      "bytes": 2175,
+      "sha256": "4804f719e925096b6e2dcf6706f7ecde5cd766d6a569ec0b02d2821ac79b122f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/runghc.rst"
+    },
+    {
+      "path": "docs/users_guide/runtime_control.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/33f5983339bb7363219d1dc3.rst",
+      "kind": "official-document",
+      "bytes": 75292,
+      "sha256": "5a67908b35d4615494c29dbf68a928d82df392ddcac19460ff494a3a3eac72dc",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/runtime_control.rst"
+    },
+    {
+      "path": "docs/users_guide/separate_compilation.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/75fdeb406dcf45245aff186e.rst",
+      "kind": "official-document",
+      "bytes": 63976,
+      "sha256": "fa1faf566dc84abc777a0253757ba5b382a1a6e2fc3fa4c2420de33832ee56d9",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/separate_compilation.rst"
+    },
+    {
+      "path": "docs/users_guide/shared_libs.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/350f57c5e443bbbcaac5223c.rst",
+      "kind": "official-document",
+      "bytes": 11309,
+      "sha256": "d8278f85fe358321e6d88943c81b4fb1fb7ff955996be5b3d7955aa16dd5e627",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/shared_libs.rst"
+    },
+    {
+      "path": "docs/users_guide/usage.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/125d98d5ed53ad7571ab8586.rst",
+      "kind": "official-document",
+      "bytes": 229,
+      "sha256": "1aef5e88482236e0cf925687d000c7be2a2c172f95076e43501f8f92035321c7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/usage.rst"
+    },
+    {
+      "path": "docs/users_guide/using-concurrent.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/aa95ff22dc8fb9b945664198.rst",
+      "kind": "official-document",
+      "bytes": 8806,
+      "sha256": "1df1f109b09d0a8838522322f9c9416315b4df5cf584e4a312f8ffc3510f7b07",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/using-concurrent.rst"
+    },
+    {
+      "path": "docs/users_guide/using-optimisation.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a3d405a74bf6d4643d915527.rst",
+      "kind": "official-document",
+      "bytes": 76239,
+      "sha256": "8879ed70669a8d4e18f5e3695597e5af99361c38b8a5a48b29bcaff62ac3c335",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/using-optimisation.rst"
+    },
+    {
+      "path": "docs/users_guide/using-warnings.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/0672d5d177ac5183d6577157.rst",
+      "kind": "official-document",
+      "bytes": 94823,
+      "sha256": "5a1fd0f603ee40586f4f00f463d1ef173d92998db673d9807fc2aa2d7833e43c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/using-warnings.rst"
+    },
+    {
+      "path": "docs/users_guide/using.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/68a0c929742fb02df2965a46.rst",
+      "kind": "official-document",
+      "bytes": 69363,
+      "sha256": "30784dc6c0816e4fada6b7b930c86a01495445591332b607b238ec9b09009e33",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/using.rst"
+    },
+    {
+      "path": "docs/users_guide/utils.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/a7b356ce786bc1caa005f671.rst",
+      "kind": "official-document",
+      "bytes": 10806,
+      "sha256": "25e4aac60db2fd2e5230f91b75aa746344efe721ddc05a9631778cf84ad0d5c7",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/utils.rst"
+    },
+    {
+      "path": "docs/users_guide/wasm.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/8668fcfbb36ce06b92afa8ed.rst",
+      "kind": "official-document",
+      "bytes": 32073,
+      "sha256": "555dd112a9eeb38dd0c7998c68cb005f6a780b1ce831ab553f1c88fad6378421",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/wasm.rst"
+    },
+    {
+      "path": "docs/users_guide/what_glasgow_exts_does.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/97d689f80d8451d78ce802da.rst",
+      "kind": "official-document",
+      "bytes": 1087,
+      "sha256": "c792d9c88923ce73b9526b2bf77e42a9d190f3936acd92a27dc948e0dc0ba52f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/what_glasgow_exts_does.rst"
+    },
+    {
+      "path": "docs/users_guide/win32-dlls.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/08113f96be90f9e5de2fe465.rst",
+      "kind": "official-document",
+      "bytes": 11130,
+      "sha256": "583f8344ac4f5813634b7f1fe2dac0b482123495467b49d529bd48a7f8fbe3be",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/docs/users_guide/win32-dlls.rst"
+    },
+    {
+      "path": "hadrian/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/94ba5228320fa9af7cb748ab.txt",
+      "kind": "license",
+      "bytes": 1075,
+      "sha256": "534949553cd43ebb4aecb87244f5c19898099300d2ea2b33858527fb98913163",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/LICENSE"
+    },
+    {
+      "path": "hadrian/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/4caa32069777ad221e1b651a.md",
+      "kind": "official-document",
+      "bytes": 16430,
+      "sha256": "311244b97d32125748a133f40a01490fdb9fcc851ba16abe3e74816c540e9816",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/README.md"
+    },
+    {
+      "path": "hadrian/bootstrap/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/ebd86526b8f1e4a9534ee56e.md",
+      "kind": "official-document",
+      "bytes": 1422,
+      "sha256": "fad49f69a49bbf5077c90b082e2e56c17715d62d8dd13668942b899922bae378",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/bootstrap/README.md"
+    },
+    {
+      "path": "hadrian/doc/cross-compile.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/af42c47e63ce5c3686f8ffd7.md",
+      "kind": "official-document",
+      "bytes": 2849,
+      "sha256": "8cd3f94418e20555a45afa2f8f616f5c8ffeba8ab9df28546bb00e00557029da",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/cross-compile.md"
+    },
+    {
+      "path": "hadrian/doc/debugging.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/890ed33baa44d87726fea7da.md",
+      "kind": "official-document",
+      "bytes": 5503,
+      "sha256": "850ff0f7f1e76de7724aaacd29382a27335388147853026e2009ceadbc764525",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/debugging.md"
+    },
+    {
+      "path": "hadrian/doc/expressions.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/b9cd032294789e705f8a901f.md",
+      "kind": "official-document",
+      "bytes": 10605,
+      "sha256": "3983dd026ed6dbbd982481909517e77628e3b09c9e095e76d51c260dfa0fe30e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/expressions.md"
+    },
+    {
+      "path": "hadrian/doc/flavours.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/3b730a05d2fd8e58720aac3f.md",
+      "kind": "official-document",
+      "bytes": 11214,
+      "sha256": "c3f37751db893f1e0639ec64ba5946a2e4ddf124f55bdabaf2b1ea5e73af0ac3",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/flavours.md"
+    },
+    {
+      "path": "hadrian/doc/make.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/1d43804ce24942386517a173.md",
+      "kind": "official-document",
+      "bytes": 5774,
+      "sha256": "08a61017aaec5719f43d0f40016a801249a52393c1b295905ec04d09bd228277",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/make.md"
+    },
+    {
+      "path": "hadrian/doc/testsuite.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/2a6b8e1d8c8ec0da47d6d755.md",
+      "kind": "official-document",
+      "bytes": 6418,
+      "sha256": "83587b8d2ed76062732d674757646f5b31cf71e666446193dadcce953d9979e9",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/testsuite.md"
+    },
+    {
+      "path": "hadrian/doc/user-settings.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/24505aa29d2b8cb98e71ad28.md",
+      "kind": "official-document",
+      "bytes": 17954,
+      "sha256": "1d8c4241469c145ec3eb424014db6935055d3528095585ae73a368763ed95853",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/user-settings.md"
+    },
+    {
+      "path": "hadrian/doc/windows.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/aae7c94c6eed8d986a7fecc6.md",
+      "kind": "official-document",
+      "bytes": 2641,
+      "sha256": "6ef763513fe2ac72feabe62472327af454f8fb603d5453a9839006c7227f60e2",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/hadrian/doc/windows.md"
+    },
+    {
+      "path": "libraries/base/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/5173ac90b3c3f41c176e2dfd.txt",
+      "kind": "license",
+      "bytes": 3881,
+      "sha256": "768c070bd0b7d820d169ee8153d5487acfc262cbbc10dfce18d05c0bb2d2800d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/base/LICENSE"
+    },
+    {
+      "path": "libraries/base/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/24693f6db2955fc76f4ac532.md",
+      "kind": "official-document",
+      "bytes": 74354,
+      "sha256": "27584b2e611d96c164af835e4996b069a6867fa6ebfc150a33b66c8eeaf54202",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/base/changelog.md"
+    },
+    {
+      "path": "libraries/ghc-bignum/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/128081f8a44630756d1872b8.txt",
+      "kind": "license",
+      "bytes": 1607,
+      "sha256": "e06de4065c35a04115f989bd4922ae9446a68c6cbd7f21a8c9703ad259e374ac",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-bignum/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-bignum/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/68f6137e99c3064273a7c995.md",
+      "kind": "official-document",
+      "bytes": 964,
+      "sha256": "7a3b06d83eec81ddbfc7c99fd11bbf8352b784887f5a5167489082c39fb68068",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-bignum/changelog.md"
+    },
+    {
+      "path": "libraries/ghc-boot-th/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/64eea6fe2d921d12404ccee3.txt",
+      "kind": "license",
+      "bytes": 1611,
+      "sha256": "e06c13b8a117652621781c15d622bd4c62c568307954f7136955b4b656d14ec1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-boot-th/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-boot-th/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/bbdca2b5fe67541171c36623.md",
+      "kind": "official-document",
+      "bytes": 70,
+      "sha256": "ff6d38390682a687eca345ec768a2741f1a10cf1478585f098151225bd01856a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-boot-th/changelog.md"
+    },
+    {
+      "path": "libraries/ghc-boot/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/5e4fa81f9b9449fa17443bf4.txt",
+      "kind": "license",
+      "bytes": 1611,
+      "sha256": "e06c13b8a117652621781c15d622bd4c62c568307954f7136955b4b656d14ec1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-boot/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-boot/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/5e68c58456476726823edb61.md",
+      "kind": "official-document",
+      "bytes": 70,
+      "sha256": "ff6d38390682a687eca345ec768a2741f1a10cf1478585f098151225bd01856a",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-boot/changelog.md"
+    },
+    {
+      "path": "libraries/ghc-compact/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/ca70d91a55756ef3a8f0c9e2.txt",
+      "kind": "license",
+      "bytes": 2074,
+      "sha256": "a312b3a9b1fb88df2e6783f38082f0b44eb5032c560ea66b2659378cc818e919",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-compact/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-compact/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/788914dc7b21a84d1a533ce5.md",
+      "kind": "official-document",
+      "bytes": 167,
+      "sha256": "304cfa9d7dc2a626ec0398664308c23b239522d6075031a762dd905a57d63a55",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-compact/README.md"
+    },
+    {
+      "path": "libraries/ghc-experimental/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/295e525e38c0de47b71a96bd.md",
+      "kind": "official-document",
+      "bytes": 1398,
+      "sha256": "a95c639866c043f99faf6ab8d2470a708d07f29df075284912e9568fd826f309",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-experimental/CHANGELOG.md"
+    },
+    {
+      "path": "libraries/ghc-experimental/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/8d4d4570751896b67789cb3b.txt",
+      "kind": "license",
+      "bytes": 1538,
+      "sha256": "ddba58f13e2723db42e745d97dec901d55c828462dde9e154334b29420e3bcdd",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-experimental/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-heap/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/dfccb2814af7019f2db2e1a1.txt",
+      "kind": "license",
+      "bytes": 1535,
+      "sha256": "8442c05ff77271f5b638d76ef761123cd1f7fb842e7d4a0235085f89bcdcc0e1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-heap/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-internal/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/969c3467b2d00caf2cd31fb9.md",
+      "kind": "official-document",
+      "bytes": 325,
+      "sha256": "217031cfb5628ffbe72c030a3f499c4f04e3881bfb70f084d29376608e38c5a5",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-internal/CHANGELOG.md"
+    },
+    {
+      "path": "libraries/ghc-internal/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/affe181c328e69a0486b0170.txt",
+      "kind": "license",
+      "bytes": 3881,
+      "sha256": "768c070bd0b7d820d169ee8153d5487acfc262cbbc10dfce18d05c0bb2d2800d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-internal/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-internal/tools/ucd2haskell/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/6d232ed1f875b0901868908a.txt",
+      "kind": "license",
+      "bytes": 1557,
+      "sha256": "29cdc35dd13d8c15bafa535d5a6e864688abc47f06879755d0a404f5759974fc",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-internal/tools/ucd2haskell/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-internal/tools/ucd2haskell/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/de7d65eb8a4f50911fd9a16b.md",
+      "kind": "official-document",
+      "bytes": 1310,
+      "sha256": "0601c879d5a3a33d0cb10cdd7bc5f3c23289d570a249727bd286baf7dd86eee8",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-internal/tools/ucd2haskell/README.md"
+    },
+    {
+      "path": "libraries/ghc-platform/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/122fa913f2a0893b5cf43b17.md",
+      "kind": "official-document",
+      "bytes": 317,
+      "sha256": "813c76ff9377106f87e677d9f92a266e7a34c07ccee0074af3e2c220fe2f8ece",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-platform/CHANGELOG.md"
+    },
+    {
+      "path": "libraries/ghc-platform/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/98bd7a6ee895486ce0381daa.txt",
+      "kind": "license",
+      "bytes": 1530,
+      "sha256": "30f6849aa751ffabd361ee55f831fd6e7189cc7839bd58a5fbc7e62e868dcbd2",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-platform/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-prim/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/7df4c18c2af3613fb85e791f.txt",
+      "kind": "license",
+      "bytes": 2863,
+      "sha256": "e17dc2656f2bdc4b5715a6a35fa4cdfa403b0e95a8d63e97366818e067fe6f6e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-prim/LICENSE"
+    },
+    {
+      "path": "libraries/ghc-prim/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/3e685316415e64d43d826c82.md",
+      "kind": "official-document",
+      "bytes": 26147,
+      "sha256": "0e0c686648fd3ad5c997e787723936a638715282c948f5cdc542c1a66c39ea15",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghc-prim/changelog.md"
+    },
+    {
+      "path": "libraries/ghci/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/d53d317615c726d8f8666846.txt",
+      "kind": "license",
+      "bytes": 1607,
+      "sha256": "ee64dac0f7046d564621adec26b8df11153b43aa79ac46c1391c573ea870b318",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghci/LICENSE"
+    },
+    {
+      "path": "libraries/ghci/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/d8651c33466cbfd5a86c627f.md",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "1bc5cb2f7021bd7af2919fba53495a6d03bb9a0ec64d13e70c1146b62c1f6e81",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/ghci/changelog.md"
+    },
+    {
+      "path": "libraries/integer-gmp/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/b5212c7a6589f49f15d6ac7a.txt",
+      "kind": "license",
+      "bytes": 1542,
+      "sha256": "dc0c6562d468ad57a2cd27a19e139da9cdd84eb41439a110817b815dcdbcedf3",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/integer-gmp/LICENSE"
+    },
+    {
+      "path": "libraries/integer-gmp/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/1eafb5f2943ed298effdc646.md",
+      "kind": "official-document",
+      "bytes": 2279,
+      "sha256": "fa31efc21bb292cf1a9c09850d6fd72b6d0028ab5d049c9ca478773f7bdcc259",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/integer-gmp/changelog.md"
+    },
+    {
+      "path": "libraries/template-haskell/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/6d8e0f6206a47455bed4c51b.txt",
+      "kind": "license",
+      "bytes": 1614,
+      "sha256": "29a12cdf7350473abfa64d71beb390216c6ad7827843726c9c3a7afab912be72",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/template-haskell/LICENSE"
+    },
+    {
+      "path": "libraries/template-haskell/changelog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/976f356663e6514cbf39adf7.md",
+      "kind": "official-document",
+      "bytes": 14627,
+      "sha256": "bfdcef1656b7b5a6e09db95cf040580d640700383f2247dbd33565a1ffb70150",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/libraries/template-haskell/changelog.md"
+    },
+    {
+      "path": "rts/linker/ELFRelocs/LICENSE-LLVM.TXT",
+      "localPath": "raw/ghc--ghc/e358619f1384/168a649799d2bd1d97d9079e.txt",
+      "kind": "license",
+      "bytes": 3192,
+      "sha256": "abd4d8794808bacb1eb6924d49efafd9ab6eef88faaaeb5d3cfa13ee3670d672",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/rts/linker/ELFRelocs/LICENSE-LLVM.TXT"
+    },
+    {
+      "path": "testsuite/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/ae666b91766e4303ae351727.txt",
+      "kind": "license",
+      "bytes": 2105,
+      "sha256": "25b9c2179a06f21b0277588d4514e7fe25978c91fe48e96d2a9ee88d503d7802",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/LICENSE"
+    },
+    {
+      "path": "testsuite/LICENSE.GPL",
+      "localPath": "raw/ghc--ghc/e358619f1384/13adee548b5c9fcdeae7eb10.gpl",
+      "kind": "license",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/LICENSE.GPL"
+    },
+    {
+      "path": "testsuite/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/2727aeb4add56a737595849a.md",
+      "kind": "official-document",
+      "bytes": 1274,
+      "sha256": "559108fff829efc31edb35a1550a775e1c43cd370a602f241f53b256219df907",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/README.md"
+    },
+    {
+      "path": "testsuite/driver/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/e0e79218e3efeef9ee736e42.md",
+      "kind": "official-document",
+      "bytes": 6883,
+      "sha256": "26c1cf75ee91f3a0d43bb0d015d16327510b9c8003ef2912fa1d9fc30ae1c7ae",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/driver/README.md"
+    },
+    {
+      "path": "testsuite/tests/backpack/cabal/T16219/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/cd4c0c35c8a119c4d020715e.txt",
+      "kind": "license",
+      "bytes": 1524,
+      "sha256": "b2cef7d6e19b476be3c109ac7d7ef4351b9a7015937cc1f6bbee1417e6d12192",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/backpack/cabal/T16219/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal05/p/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/0f8fd89f9cbec2aa35d5d68d.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal05/p/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal05/q/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/0264800e8c143238526404b5.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal05/q/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal05/r/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/4606da744c294abc8500735c.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal05/r/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal05/s/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/1f68e9edfc436e151ff2f8f6.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal05/s/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal05/t/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/d8cbd6964098ef77921acfe4.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal05/t/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal06/p-1.0/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/12af88f258ca9be4a244cfbe.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal06/p-1.0/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal06/p-1.1/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/41f4551c5b20890bb66dc61f.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal06/p-1.1/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal06/q/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/7076e1b90a5e34647ca13de9.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal06/q/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal06/r/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/136c707dc43c9679a425f056.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal06/r/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal08/p1/ChangeLog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/42e46e26e75d43e730d229e1.md",
+      "kind": "official-document",
+      "bytes": 105,
+      "sha256": "bce6ed0f881d39cd80d8039c44ce03298cd46791f7e0651206b8c185dc9a9f52",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal08/p1/ChangeLog.md"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal08/p1/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/97ede418fe5d17ca4233b5ae.txt",
+      "kind": "license",
+      "bytes": 1526,
+      "sha256": "8e6afbca16d208a6a3f5a159248b442c7043ebfef2ce69ef8622d99d064683bd",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal08/p1/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal08/p2/ChangeLog.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/0efc2d626de3b4d16286f292.md",
+      "kind": "official-document",
+      "bytes": 105,
+      "sha256": "bce6ed0f881d39cd80d8039c44ce03298cd46791f7e0651206b8c185dc9a9f52",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal08/p2/ChangeLog.md"
+    },
+    {
+      "path": "testsuite/tests/cabal/cabal08/p2/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/2b4ec8c251804490f56bf1d0.txt",
+      "kind": "license",
+      "bytes": 1526,
+      "sha256": "8e6afbca16d208a6a3f5a159248b442c7043ebfef2ce69ef8622d99d064683bd",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/cabal08/p2/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/sigcabal01/p/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/8f91c719decf7cd355e79b65.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/sigcabal01/p/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/t19518/p/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/f3bed04d8453ffd48ffee4fc.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/t19518/p/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/t19518/q/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/3f3cb2d741ea4db93b1a3000.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/t19518/q/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/t19518/r/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/6da5a6739a86191e2c5db806.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/t19518/r/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/cabal/t22333/my-exe/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/a240362bb02f1d391c84afbf.md",
+      "kind": "official-document",
+      "bytes": 109,
+      "sha256": "4d6ec2e1b5a09c314f7484c317e19710165ba0ed3502be2a916976530939caf1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/t22333/my-exe/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/cabal/t22333/my-package-a/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/af87827b7336b7ab88010368.md",
+      "kind": "official-document",
+      "bytes": 115,
+      "sha256": "e0ea67f92ae7b74265766a4fbc4f03077cb8b8d68e1066ac056dc5bc82f2b860",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/t22333/my-package-a/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/cabal/t22333/my-package-b/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/68799bef77a7180191fd887d.md",
+      "kind": "official-document",
+      "bytes": 115,
+      "sha256": "9335ddff94d2e825c751e1055a2a3c07176282024830d0c8ae68905170b681fd",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/cabal/t22333/my-package-b/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/T2057/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/955c1ee277101e8787295852.md",
+      "kind": "official-document",
+      "bytes": 904,
+      "sha256": "96092898e0960400166847692b0b3e07d1085302b9e3398f204308206b86f867",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/T2057/README.md"
+    },
+    {
+      "path": "testsuite/tests/driver/dynamicToo/dynamicTooMake/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/597409e676545fa4d96a04a6.md",
+      "kind": "official-document",
+      "bytes": 65,
+      "sha256": "465dc169883511036cf99f6961ebc091a411a144dc4c6b2abbc484ca76689997",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/dynamicToo/dynamicTooMake/README.md"
+    },
+    {
+      "path": "testsuite/tests/driver/dynamicToo/dynamicTooMake/p/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/eeefc0c85f4b17448abaee5d.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "4377688f785daf2c0ff9f6759c09bf0acb1d1978b06a92429229724af854901d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/dynamicToo/dynamicTooMake/p/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/dynamicToo/dynamicTooMake/q/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/6fcd62b62c2516624a4c7ca6.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "3718dd40fdd0b53a99d3b4f9a2ff0758c65a5cf18d6645a719f412ca1da4908f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/dynamicToo/dynamicTooMake/q/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/package-imports-t20779/p/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/d53af36710699f25d2071c16.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/package-imports-t20779/p/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/package-imports-t20779/q-1/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/ff19218db2003b6a4e29b5b7.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/package-imports-t20779/q-1/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/package-imports-t20779/q-2/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/e9979c0702c63aa8c8369c0b.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/package-imports-t20779/q-2/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/package-imports-t20779/q-3/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/e4b3b1d599be6ba4e096d736.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/package-imports-t20779/q-3/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/recompChangedPackage/q/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/101092b30866c6b636580736.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "3718dd40fdd0b53a99d3b4f9a2ff0758c65a5cf18d6645a719f412ca1da4908f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompChangedPackage/q/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompChangedPackage/q/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/e044797333e2184fd95dfc4d.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompChangedPackage/q/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/recompPluginPackage/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/508feac69c2e0175b5c981a8.md",
+      "kind": "official-document",
+      "bytes": 178,
+      "sha256": "ef8184b6891e06bb02c037250f9fc53921c7bd66d52d8e8178af53f11ca1754e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompPluginPackage/README.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompPluginPackage/p/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/0802c4e3933a302e72b16915.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "4377688f785daf2c0ff9f6759c09bf0acb1d1978b06a92429229724af854901d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompPluginPackage/p/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompPluginPackage/p/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/ff7334829f2ffa25eee61631.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "610fb9a67aa23c84d6c820f52dc2b6c3f8119e52e7dcb9dfc490127d38eb733c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompPluginPackage/p/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/recompPluginPackage/q/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/fc0d92041df0b634a09fb0d8.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "3718dd40fdd0b53a99d3b4f9a2ff0758c65a5cf18d6645a719f412ca1da4908f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompPluginPackage/q/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompPluginPackage/q/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/1beaf04f58309619fbaa20db.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompPluginPackage/q/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/recompTHpackage/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/26b42b626f5058a8da7e75fa.md",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "ddbd542404cd1a4e2caeb951906a936df6fe2fb5013567565c8133f333c79a86",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompTHpackage/README.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompTHpackage/p/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/576563197d3d35e185cd8fe4.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "4377688f785daf2c0ff9f6759c09bf0acb1d1978b06a92429229724af854901d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompTHpackage/p/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompTHpackage/p/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/193151f95c55b5fdca3ee55b.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "610fb9a67aa23c84d6c820f52dc2b6c3f8119e52e7dcb9dfc490127d38eb733c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompTHpackage/p/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/recompTHpackage/q/CHANGELOG.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/4dbc7437bac8830a7d28ee3b.md",
+      "kind": "official-document",
+      "bytes": 104,
+      "sha256": "3718dd40fdd0b53a99d3b4f9a2ff0758c65a5cf18d6645a719f412ca1da4908f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompTHpackage/q/CHANGELOG.md"
+    },
+    {
+      "path": "testsuite/tests/driver/recompTHpackage/q/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/7da037f4a68bba82fc60f17f.txt",
+      "kind": "license",
+      "bytes": 2,
+      "sha256": "4adc33bd9fe74303c344be46e5916d65182fb218e248fe80452ab3f025b06c64",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/recompTHpackage/q/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/t23724/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/2a6e1af1f638ee81243acdd7.txt",
+      "kind": "license",
+      "bytes": 1521,
+      "sha256": "2d6665a24e27c64160c5e4c6525bce8e9deac903f4006b66f3f1874308b8d582",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/t23724/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/driver/t23724/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/4a6ef6983b83ec59fd1f417a.md",
+      "kind": "official-document",
+      "bytes": 194,
+      "sha256": "d7436f289106b20e6cc3f5c2db6e17837b0b14e1e6ccd0a553fc3774fe94c53e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/driver/t23724/README.md"
+    },
+    {
+      "path": "testsuite/tests/ghc-api-browser/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/1997d2ebd822c88850120b86.md",
+      "kind": "official-document",
+      "bytes": 5176,
+      "sha256": "8bb003026db3eaa194d162d124bfce09e3ae3620651c57cd065a144e75963821",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/ghc-api-browser/README.md"
+    },
+    {
+      "path": "testsuite/tests/ghci/should_run/tc-plugin-ghci/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/3bdf595d43891e00906b53e1.txt",
+      "kind": "license",
+      "bytes": 1489,
+      "sha256": "8a584070204e7345df3e169443fe5c6d80352366240b9516ffcc7572d22e9232",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/ghci/should_run/tc-plugin-ghci/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/jsffi/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/6cefe903b19c8a2b8e59c784.md",
+      "kind": "official-document",
+      "bytes": 1520,
+      "sha256": "dcc7b85acb42032138d099fba6713706805ecbae00f32e3d2ec1d0a0ba1b74a8",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/jsffi/README.md"
+    },
+    {
+      "path": "testsuite/tests/plugins/T16104-plugin/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/cff09ad18da2e33c66f52f97.txt",
+      "kind": "license",
+      "bytes": 1489,
+      "sha256": "8a584070204e7345df3e169443fe5c6d80352366240b9516ffcc7572d22e9232",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/plugins/T16104-plugin/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/plugins/annotation-plugin/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/a3e8e1fef0edef0b39f654d0.txt",
+      "kind": "license",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/plugins/annotation-plugin/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/plugins/plugin-recomp/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/bbce95f434ef8dd5c6883f0e.txt",
+      "kind": "license",
+      "bytes": 1489,
+      "sha256": "8a584070204e7345df3e169443fe5c6d80352366240b9516ffcc7572d22e9232",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/plugins/plugin-recomp/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/plugins/rule-defining-plugin/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/f04b1a2bc0bcd2ae6fd9af15.txt",
+      "kind": "license",
+      "bytes": 1489,
+      "sha256": "8a584070204e7345df3e169443fe5c6d80352366240b9516ffcc7572d22e9232",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/plugins/rule-defining-plugin/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/plugins/shared-plugin/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/259c7147a707e96a78bae956.txt",
+      "kind": "license",
+      "bytes": 1489,
+      "sha256": "8a584070204e7345df3e169443fe5c6d80352366240b9516ffcc7572d22e9232",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/plugins/shared-plugin/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/plugins/simple-plugin/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/9214bdc7a4f3ad0e9e42b0c6.txt",
+      "kind": "license",
+      "bytes": 1489,
+      "sha256": "8a584070204e7345df3e169443fe5c6d80352366240b9516ffcc7572d22e9232",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/plugins/simple-plugin/LICENSE"
+    },
+    {
+      "path": "testsuite/tests/simplCore/T9646/readme.txt",
+      "localPath": "raw/ghc--ghc/e358619f1384/97ea70b7afba7f1fb30ecb34.txt",
+      "kind": "official-document",
+      "bytes": 3725,
+      "sha256": "5f975d571e5a0c559c3fb0bc723c88ca36891c3bb968b2fa7e0ae01ad363b3b9",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/simplCore/T9646/readme.txt"
+    },
+    {
+      "path": "testsuite/tests/wasm/should_run/control-flow/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/32d4991d0e8beb22f30d114b.md",
+      "kind": "official-document",
+      "bytes": 738,
+      "sha256": "8480cc726d32cfeaf77ebd079ee270cac129353e3ffd2cda2141cf9e4fec7110",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/testsuite/tests/wasm/should_run/control-flow/README.md"
+    },
+    {
+      "path": "utils/changelog-d/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/2e21eb083c13db117200f9ed.txt",
+      "kind": "license",
+      "bytes": 35106,
+      "sha256": "804821a9171f6eb0e0d26635922480bf479c2d646c2609f6273a85191949b8df",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/changelog-d/LICENSE"
+    },
+    {
+      "path": "utils/changelog-d/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/da988283caa075b7471ab532.md",
+      "kind": "official-document",
+      "bytes": 4370,
+      "sha256": "6ef8a9ca1022d528b1d510d0236e0e950134691d55a3e0c6c4f01b4edbcd353d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/changelog-d/README.md"
+    },
+    {
+      "path": "utils/compare_sizes/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/fa03677408d8530a97ff2163.txt",
+      "kind": "license",
+      "bytes": 1611,
+      "sha256": "e06c13b8a117652621781c15d622bd4c62c568307954f7136955b4b656d14ec1",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/compare_sizes/LICENSE"
+    },
+    {
+      "path": "utils/count-deps/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/361d2809325b6a8f84b5c3c0.md",
+      "kind": "official-document",
+      "bytes": 1608,
+      "sha256": "5318bf390cb834470f4cb668e57ececfa2a65a742229701da6d7aad5c914d14e",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/count-deps/README.md"
+    },
+    {
+      "path": "utils/haddock/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/d6ac105142f745c6ca4a30cc.txt",
+      "kind": "license",
+      "bytes": 1307,
+      "sha256": "4cd133f37f4007b0922b92edb241ce91da1240446f3637627f66a8f04491ea6c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/LICENSE"
+    },
+    {
+      "path": "utils/haddock/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/f97fd15627327a029c33f46d.md",
+      "kind": "official-document",
+      "bytes": 1352,
+      "sha256": "8c6ffeee2e7e5e128141478ac7dc5b856752f19cbd416757c59f152a88b6b665",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/README.md"
+    },
+    {
+      "path": "utils/haddock/doc/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/9aaa9439d11c465fa13fe2f5.md",
+      "kind": "official-document",
+      "bytes": 256,
+      "sha256": "ff6aa57fa338924cc89a18610ef1928ca38f79ecaf2398f4d54211b998f85092",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/README.md"
+    },
+    {
+      "path": "utils/haddock/doc/cheatsheet/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/483a3eba1d39c5de32342ff8.txt",
+      "kind": "license",
+      "bytes": 20133,
+      "sha256": "9348ddfd44da5a127c59141981954746a860ec8e03e0412cf3af7134af0f97e2",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/cheatsheet/LICENSE"
+    },
+    {
+      "path": "utils/haddock/doc/cheatsheet/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/2d4743602d1f6b1966c77d9b.md",
+      "kind": "official-document",
+      "bytes": 576,
+      "sha256": "0fa2e7bab75b5e8ca679646206de155c7fe4a3ec66fd190a6c5c70345443c758",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/cheatsheet/README.md"
+    },
+    {
+      "path": "utils/haddock/doc/cheatsheet/haddocks.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/165d4da5115e0b9007f6fb17.md",
+      "kind": "official-document",
+      "bytes": 2618,
+      "sha256": "3cdace2a260f8e4c6ff87cffa92de3df341ad7b42a1cbc1afce37d7eea54c78f",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/cheatsheet/haddocks.md"
+    },
+    {
+      "path": "utils/haddock/doc/common-errors.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/3948dd670abfde2ad6233137.rst",
+      "kind": "official-document",
+      "bytes": 496,
+      "sha256": "fc25b9793eb62fd764a6c6f55739bc8dc7186e3753d9de40924466d60b9d885b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/common-errors.rst"
+    },
+    {
+      "path": "utils/haddock/doc/diagrams/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/11a25d96ec16c8a49bf90ec5.md",
+      "kind": "official-document",
+      "bytes": 466,
+      "sha256": "a76f5230b1737eb72f1d25d249f7781b75b10ab43b5b2e2043d049d9fbe6ce35",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/diagrams/README.md"
+    },
+    {
+      "path": "utils/haddock/doc/index.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/c92fe99a8026b1252677a172.rst",
+      "kind": "official-document",
+      "bytes": 361,
+      "sha256": "7e74dd9f62e7bb7af2ab2bcf94bfac87c7533d129b048c754843fa5db8a9fc20",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/index.rst"
+    },
+    {
+      "path": "utils/haddock/doc/intro.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/b7cdefa8f8934034b43f0460.rst",
+      "kind": "official-document",
+      "bytes": 5462,
+      "sha256": "2f2f0989536afb603f1a08136cb1980b1619741ea8e87147cd694606ba282c4d",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/intro.rst"
+    },
+    {
+      "path": "utils/haddock/doc/invoking.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/4aaab3206a9398bb85f8b1a0.rst",
+      "kind": "official-document",
+      "bytes": 24329,
+      "sha256": "76444f75b72bc5ca1055a2d08688a481ca0a5027b73d3d9ef2a3415e87ff943b",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/invoking.rst"
+    },
+    {
+      "path": "utils/haddock/doc/markup.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/65a2f8f19cffa5e9434959b9.rst",
+      "kind": "official-document",
+      "bytes": 44262,
+      "sha256": "b0656f4d4237e9d256d71bd51d7908ec9363dd1137e67a24279cc5e6e13955fb",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/markup.rst"
+    },
+    {
+      "path": "utils/haddock/doc/multi-components.rst",
+      "localPath": "raw/ghc--ghc/e358619f1384/43d4a2abc9d61d4085a57009.rst",
+      "kind": "official-document",
+      "bytes": 2026,
+      "sha256": "3d9880e2dfa753a2870377f9c7ef23258e2fbc4f0e21f4f2b62a9906d37bcb18",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/multi-components.rst"
+    },
+    {
+      "path": "utils/haddock/doc/requirements.txt",
+      "localPath": "raw/ghc--ghc/e358619f1384/6dee762b3e85daebd83c3fbb.txt",
+      "kind": "official-document",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/doc/requirements.txt"
+    },
+    {
+      "path": "utils/haddock/haddock-api/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/93629eda02147cabaf548196.txt",
+      "kind": "license",
+      "bytes": 1307,
+      "sha256": "4cd133f37f4007b0922b92edb241ce91da1240446f3637627f66a8f04491ea6c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/haddock-api/LICENSE"
+    },
+    {
+      "path": "utils/haddock/haddock-api/resources/html/README.md",
+      "localPath": "raw/ghc--ghc/e358619f1384/9204322bbf4c030eacbb5215.md",
+      "kind": "official-document",
+      "bytes": 948,
+      "sha256": "d87c6a12f70a7550eba05a2e44e0c7fb9670d372f3cc44e3f927dff15f1f7998",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/haddock-api/resources/html/README.md"
+    },
+    {
+      "path": "utils/haddock/haddock-library/LICENSE",
+      "localPath": "raw/ghc--ghc/e358619f1384/028295b2c627a3564a3848e4.txt",
+      "kind": "license",
+      "bytes": 1307,
+      "sha256": "4cd133f37f4007b0922b92edb241ce91da1240446f3637627f66a8f04491ea6c",
+      "sourceUrl": "https://github.com/ghc/ghc/blob/e358619f138494a690f47aa1f9663c8f8c045617/utils/haddock/haddock-library/LICENSE"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

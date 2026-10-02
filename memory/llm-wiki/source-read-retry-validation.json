@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "bounded immutable-source read retry",
+  "cases": [
+    "EINVAL twice then valid bytes",
+    "persistent EINVAL fails after three attempts",
+    "missing source fails immediately",
+    "symlink rejected before read",
+    "invalid source layout rejected"
+  ],
+  "sourceHashVerificationUnchanged": true,
+  "formatting": "UNAVAILABLE: approved Python formatter absent; syntax and git diff check passed",
+  "rootCause": "NOT_PROVEN; observed file subsequently read with matching immutable hash"
+}

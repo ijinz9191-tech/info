@@ -1,0 +1,653 @@
+---
+title: Routing
+description: Learn how to define and use routes in Express.js applications, including route methods, route paths, parameters, typing requests and responses in TypeScript, and using Router for modular routing.
+---
+
+import Alert from '@components/primitives/Alert/Alert.astro';
+
+**路由**是指应用程序的端点（URI）如何响应客户端的请求。
+For an introduction to routing, see [Basic routing](/starter/basic-routing).
+
+你可以使用 Express `app` 对象中与 HTTP 方法对应的方法来定义路由；
+例如，`app.get()` 处理 GET 请求，`app.post` 处理 POST 请求。 For a full list,
+see [app.METHOD](/api/application#appmethod). You can also use [app.all()](/api/application#appall) to handle all HTTP methods and [app.use()](/api/application#appuse) to
+specify middleware as the callback function (See [Using middleware](/guide/using-middleware) for details).
+
+These routing methods specify a callback function (sometimes called a "handler function") that Express automatically runs when the application receives a request matching the specified route (endpoint) and HTTP method. 换句话说，应用程序会“监听”匹配指定路由和方法的请求，当检测到匹配时，就会调用指定的回调函数。
+
+事实上，路由方法可以接受多个回调函数作为参数。
+对于多个回调函数，务必在回调函数中传入`next`作为参数，然后在函数体内调用`next()`，将控制权传递给下一个回调函数。
+
+以下代码是一个非常基础的路由示例。
+
+```cjs title="index.cjs"
+const express = require('express');
+const app = express();
+
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', (req, res) => {
+  res.send('hello world');
+});
+```
+
+```mjs title="index.mjs"
+import express from 'express';
+
+const app = express();
+
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', (req, res) => {
+  res.send('hello world');
+});
+```
+
+```ts title="index.ts"
+import express, { type Express, type Request, type Response } from 'express';
+
+const app: Express = express();
+
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/', (req: Request, res: Response) => {
+  res.send('hello world');
+});
+```
+
+## Route methods
+
+路由方法源于 HTTP 方法之一，附加在 `express` 类的实例上。
+
+以下代码示例展示了为应用根路径定义的 `GET` 和 `POST` 方法路由。
+
+```js
+// GET method route
+app.get('/', (req, res) => {
+  res.send('GET request to the homepage');
+});
+
+// POST method route
+app.post('/', (req, res) => {
+  res.send('POST request to the homepage');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+// GET method route
+app.get('/', (req: Request, res: Response) => {
+  res.send('GET request to the homepage');
+});
+
+// POST method route
+app.post('/', (req: Request, res: Response) => {
+  res.send('POST request to the homepage');
+});
+```
+
+Express 支持对应于所有 HTTP 请求方法的方法：get、post 等。
+For a full list, see [app.METHOD](/api/application#appmethod).
+
+有一种特殊的路由方法 **app.all()**，用于为某一路径加载所有 HTTP 请求方法通用的中间件函数。 For example, the following handler is executed for requests to the route `"/secret"` whether using `GET`, `QUERY`, `POST`, `PUT`, `DELETE`, or any other HTTP request method supported in the [http module](https://nodejs.org/api/http.html#http_http_methods).
+
+```js
+app.all('/secret', (req, res, next) => {
+  console.log('Accessing the secret section ...');
+  next(); // pass control to the next handler
+});
+```
+
+```ts
+import { type Request, type Response, type NextFunction } from 'express';
+
+app.all('/secret', (req: Request, res: Response, next: NextFunction) => {
+  console.log('Accessing the secret section ...');
+  next(); // pass control to the next handler
+});
+```
+
+## Route paths
+
+路由路径与请求方法结合，定义了可以接收请求的端点。 路由路径可以是字符串或正则表达式。
+
+<Alert type="info">
+
+Express 使用 [path-to-regexp](https://www.npmjs.com/package/path-to-regexp) v8 匹配路由路径；有关定义路由路径的所有可用方式，请参阅 path-to-regexp 文档。
+[Express Playground Router](https://bjohansebas.github.io/playground-router/) 是一款便捷的 Express 基础路由在线测试工具，但该工具不支持路由规则匹配。
+
+</Alert>
+
+### String paths
+
+字符串路径会精确匹配请求。 点（`.`）和连字符（`-`）会按字面含义解析。
+
+<Alert type="warning">查询字符串不属于路由路径的一部分</Alert>
+
+```js
+app.get('/', (req, res) => {
+  res.send('root');
+});
+
+app.get('/about', (req, res) => {
+  res.send('about');
+});
+
+app.get('/random.text', (req, res) => {
+  res.send('random.text');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.get('/', (req: Request, res: Response) => {
+  res.send('root');
+});
+
+app.get('/about', (req: Request, res: Response) => {
+  res.send('about');
+});
+
+app.get('/random.text', (req: Request, res: Response) => {
+  res.send('random.text');
+});
+```
+
+### Wildcards
+
+通配符可以匹配前缀后的任意路径。 它们必须像路由参数一样拥有名称，并且会被捕获为**路径片段组成的数组**。
+
+```js
+app.get('/files/*filepath', (req, res) => {
+  // GET /files/images/logo.png
+  console.dir(req.params.filepath);
+  // => [ 'images', 'logo.png' ]
+  res.send(`File: ${req.params.filepath.join('/')}`);
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.get('/files/*filepath', (req: Request<{ filepath: string[] }>, res: Response) => {
+  // GET /files/images/logo.png
+  console.dir(req.params.filepath);
+  // => [ 'images', 'logo.png' ]
+  res.send(`File: ${req.params.filepath.join('/')}`);
+});
+```
+
+若要同时匹配根路径，请将通配符用花括号包裹：
+
+```js
+// Matches / , /foo , /foo/bar , etc.
+app.get('/{*splat}', (req, res) => {
+  // GET / => req.params.splat = []
+  // GET /foo/bar => req.params.splat = [ 'foo', 'bar' ]
+  res.send('ok');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+// Matches / , /foo , /foo/bar , etc.
+app.get('/{*splat}', (req: Request, res: Response) => {
+  // GET / => req.params.splat = []
+  // GET /foo/bar => req.params.splat = [ 'foo', 'bar' ]
+  res.send('ok');
+});
+```
+
+### Optional segments
+
+使用花括号在路由路径中定义可选片段。 当该片段不存在时，该参数会从 `req.params` 中省略。
+
+```js
+app.get('/:file{.:ext}', (req, res) => {
+  // GET /image.png => req.params = { file: 'image', ext: 'png' }
+  // GET /image => req.params = { file: 'image' }
+  res.send('ok');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.get('/:file{.:ext}', (req: Request, res: Response) => {
+  // GET /image.png => req.params = { file: 'image', ext: 'png' }
+  // GET /image => req.params = { file: 'image' }
+  res.send('ok');
+});
+```
+
+<Alert type="alert">
+
+字符 `?`、`+`、`*`、`[]` 和 `()` 为保留字符，不能在路由路径中用作字面字符。 如有需要，可使用`\`对其进行转义。
+
+</Alert>
+
+### Regular expressions
+
+你也可以将正则表达式用作路由路径。 当你需要更复杂的匹配逻辑时，这种方式十分实用。
+
+```js
+// Matches any path containing "a"
+app.get(/a/, (req, res) => {
+  res.send('/a/');
+});
+
+// Matches paths ending with "fly" (butterfly, dragonfly, etc.)
+app.get(/.*fly$/, (req, res) => {
+  res.send('/.*fly$/');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+// Matches any path containing "a"
+app.get(/a/, (req: Request, res: Response) => {
+  res.send('/a/');
+});
+
+// Matches paths ending with "fly" (butterfly, dragonfly, etc.)
+app.get(/.*fly$/, (req: Request, res: Response) => {
+  res.send('/.*fly$/');
+});
+```
+
+## Route parameters
+
+路由参数是命名式URL片段，用于捕获URL中对应位置所指定的值。 捕获的值会存入`req.params`对象，路径中定义的路由参数名作为该对象对应的键名。
+
+```
+Route path: /users/:userId/books/:bookId
+Request URL: http://localhost:3000/users/34/books/8989
+req.params: { "userId": "34", "bookId": "8989" }
+```
+
+若要使用路由参数定义路由，只需如下所示在路由路径中指定路由参数即可。
+
+```js
+app.get('/users/:userId/books/:bookId', (req, res) => {
+  res.send(req.params);
+});
+```
+
+In TypeScript, `@types/express` infers the parameters from the route path, so in the handler above
+`req.params.userId` and `req.params.bookId` are already typed as `string` with no extra annotation.
+Reading a name that is not in the route (such as `req.params.other`) is a type error. You only need
+to annotate the parameters when the handler is defined separately from the route, because the type
+checker can no longer see the path. In that case, pass them as the first type argument of `Request`:
+
+```ts
+import { type Request, type Response } from 'express';
+
+const sendParams = (req: Request<{ userId: string; bookId: string }>, res: Response) => {
+  res.send(req.params);
+};
+
+app.get('/users/:userId/books/:bookId', sendParams);
+```
+
+<Alert type="alert">
+
+路由参数的名称必须由“单词字符”（[A-Za-z0-9_]）组成。
+
+</Alert>
+
+由于连字符（`-`）和点号（`.`）按字面解析，因此可结合路由参数实现实用的匹配需求。
+
+```
+Route path: /flights/:from-:to
+Request URL: http://localhost:3000/flights/LAX-SFO
+req.params: { "from": "LAX", "to": "SFO" }
+```
+
+```
+Route path: /plantae/:genus.:species
+Request URL: http://localhost:3000/plantae/Prunus.persica
+req.params: { "genus": "Prunus", "species": "persica" }
+```
+
+<Alert type="alert">
+
+路由路径中不支持正则表达式字符。 请改用路径数组或正则表达式。
+See the [path route matching syntax](/guide/migrating-5#path-syntax) for more information.
+
+</Alert>
+
+## Route handlers
+
+You can provide multiple callback functions that behave like [middleware](/guide/using-middleware) to handle a request. 唯一的例外是这些回调函数可以调用 `next('route')` 来跳过剩余的路由回调。 你可以通过这种机制为路由施加前置条件，如果没有理由继续执行当前路由，则将控制权传递给后续路由。
+
+```js
+app.get('/user/:id', (req, res, next) => {
+  if (req.params.id === '0') {
+    return next('route');
+  }
+  res.send(`User ${req.params.id}`);
+});
+
+app.get('/user/:id', (req, res) => {
+  res.send('Special handler for user ID 0');
+});
+```
+
+```ts
+import { type Request, type Response, type NextFunction } from 'express';
+
+app.get('/user/:id', (req: Request, res: Response, next: NextFunction) => {
+  if (req.params.id === '0') {
+    return next('route');
+  }
+  res.send(`User ${req.params.id}`);
+});
+
+app.get('/user/:id', (req: Request, res: Response) => {
+  res.send('Special handler for user ID 0');
+});
+```
+
+在本示例中：
+
+- `GET /user/5` → 由第一个路由处理 → 返回 "User 5"
+- `GET /user/0` → 第一个路由调用 `next('route')`，跳转到下一个匹配的 `/user/:id` 路由
+
+路由处理程序可以采用函数、函数数组或二者结合的形式，如下示例所示。
+
+单个回调函数即可处理一个路由。 举个例子：
+
+```js
+app.get('/example/a', (req, res) => {
+  res.send('Hello from A!');
+});
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app.get('/example/a', (req: Request, res: Response) => {
+  res.send('Hello from A!');
+});
+```
+
+多个回调函数可以处理同一个路由（请确保你指定了 `next` 对象）。 举个例子：
+
+```js
+app.get(
+  '/example/b',
+  (req, res, next) => {
+    console.log('the response will be sent by the next function ...');
+    next();
+  },
+  (req, res) => {
+    res.send('Hello from B!');
+  }
+);
+```
+
+```ts
+import { type Request, type Response, type NextFunction } from 'express';
+
+app.get(
+  '/example/b',
+  (req: Request, res: Response, next: NextFunction) => {
+    console.log('the response will be sent by the next function ...');
+    next();
+  },
+  (req: Request, res: Response) => {
+    res.send('Hello from B!');
+  }
+);
+```
+
+一个回调函数数组可以处理一个路由。 举个例子：
+
+```js
+const cb0 = function (req, res, next) {
+  console.log('CB0');
+  next();
+};
+
+const cb1 = function (req, res, next) {
+  console.log('CB1');
+  next();
+};
+
+const cb2 = function (req, res) {
+  res.send('Hello from C!');
+};
+
+app.get('/example/c', [cb0, cb1, cb2]);
+```
+
+```ts
+import { type Request, type Response, type NextFunction } from 'express';
+
+const cb0 = function (req: Request, res: Response, next: NextFunction) {
+  console.log('CB0');
+  next();
+};
+
+const cb1 = function (req: Request, res: Response, next: NextFunction) {
+  console.log('CB1');
+  next();
+};
+
+const cb2 = function (req: Request, res: Response) {
+  res.send('Hello from C!');
+};
+
+app.get('/example/c', [cb0, cb1, cb2]);
+```
+
+独立函数与函数数组组合使用即可处理一个路由。 举个例子：
+
+```js
+const cb0 = function (req, res, next) {
+  console.log('CB0');
+  next();
+};
+
+const cb1 = function (req, res, next) {
+  console.log('CB1');
+  next();
+};
+
+app.get(
+  '/example/d',
+  [cb0, cb1],
+  (req, res, next) => {
+    console.log('the response will be sent by the next function ...');
+    next();
+  },
+  (req, res) => {
+    res.send('Hello from D!');
+  }
+);
+```
+
+```ts
+import { type Request, type Response, type NextFunction } from 'express';
+
+const cb0 = function (req: Request, res: Response, next: NextFunction) {
+  console.log('CB0');
+  next();
+};
+
+const cb1 = function (req: Request, res: Response, next: NextFunction) {
+  console.log('CB1');
+  next();
+};
+
+app.get(
+  '/example/d',
+  [cb0, cb1],
+  (req: Request, res: Response, next: NextFunction) => {
+    console.log('the response will be sent by the next function ...');
+    next();
+  },
+  (req: Request, res: Response) => {
+    res.send('Hello from D!');
+  }
+);
+```
+
+## Response methods
+
+下表中的响应对象（`res`）方法可向客户端发送响应，并终止请求-响应循环。 如果路由处理程序未调用这些方法中的任何一个，客户端请求将一直处于挂起状态。
+
+| Method                                          | 描述                                                 |
+| ----------------------------------------------- | ---------------------------------------------------- |
+| [res.download()](/api/response#resdownload)     | 提示客户端下载一个文件。                             |
+| [res.end()](/api/response#resend)               | 结束响应流程。                                       |
+| [res.json()](/api/response#resjson)             | 发送 JSON 响应。                                     |
+| [res.jsonp()](/api/response#resjsonp)           | 发送支持 JSONP 的 JSON 响应。                        |
+| [res.redirect()](/api/response#resredirect)     | 重定向请求。                                         |
+| [res.render()](/api/response#resrender)         | 渲染视图模板。                                       |
+| [res.send()](/api/response#ressend)             | 发送多种类型的响应。                                 |
+| [res.sendFile()](/api/response#ressendfile)     | 以八位字节流的形式发送文件。                         |
+| [res.sendStatus()](/api/response#ressendstatus) | 设置响应状态码，并将其字符串表示形式作为响应体发送。 |
+
+## app.route()
+
+你可以使用 `app.route()` 为路由路径创建可链式调用的路由处理程序。
+由于路径在单个位置指定，因此创建模块化路由十分有用，同时还能减少冗余和拼写错误。 For more information about routes, see: [Router() documentation](/api/router).
+
+以下是使用 `app.route()` 定义的链式路由处理程序示例。
+
+```js
+app
+  .route('/book')
+  .get((req, res) => {
+    res.send('Get a random book');
+  })
+  .post((req, res) => {
+    res.send('Add a book');
+  })
+  .put((req, res) => {
+    res.send('Update the book');
+  });
+```
+
+```ts
+import { type Request, type Response } from 'express';
+
+app
+  .route('/book')
+  .get((req: Request, res: Response) => {
+    res.send('Get a random book');
+  })
+  .post((req: Request, res: Response) => {
+    res.send('Add a book');
+  })
+  .put((req: Request, res: Response) => {
+    res.send('Update the book');
+  });
+```
+
+## express.Router
+
+使用 `express.Router` 类创建模块化、可挂载的路由处理程序。 `Router` 实例是一个完整的中间件和路由系统；因此，它通常被称为“迷你应用”。
+
+以下示例创建一个路由模块，在其中加载中间件函数、定义若干路由，并将该路由模块挂载到主应用的指定路径上。
+
+在应用目录中创建一个名为 `birds.js` 的路由文件，内容如下：
+
+```cjs title="birds.cjs"
+const express = require('express');
+const router = express.Router();
+
+// middleware that is specific to this router
+const timeLog = (req, res, next) => {
+  console.log('Time: ', Date.now());
+  next();
+};
+router.use(timeLog);
+
+// define the home page route
+router.get('/', (req, res) => {
+  res.send('Birds home page');
+});
+// define the about route
+router.get('/about', (req, res) => {
+  res.send('About birds');
+});
+
+module.exports = router;
+```
+
+```mjs title="birds.mjs"
+import express from 'express';
+
+const router = express.Router();
+
+// middleware that is specific to this router
+const timeLog = (req, res, next) => {
+  console.log('Time: ', Date.now());
+  next();
+};
+router.use(timeLog);
+
+// define the home page route
+router.get('/', (req, res) => {
+  res.send('Birds home page');
+});
+// define the about route
+router.get('/about', (req, res) => {
+  res.send('About birds');
+});
+
+export default router;
+```
+
+```ts title="birds.ts"
+import express, { type Request, type Response, type NextFunction } from 'express';
+
+const router = express.Router();
+
+// middleware that is specific to this router
+const timeLog = (req: Request, res: Response, next: NextFunction) => {
+  console.log('Time: ', Date.now());
+  next();
+};
+router.use(timeLog);
+
+// define the home page route
+router.get('/', (req: Request, res: Response) => {
+  res.send('Birds home page');
+});
+// define the about route
+router.get('/about', (req: Request, res: Response) => {
+  res.send('About birds');
+});
+
+export default router;
+```
+
+然后，在应用程序中加载路由模块：
+
+```cjs title="index.cjs"
+const birds = require('./birds');
+
+// ...
+
+app.use('/birds', birds);
+```
+
+```mjs title="index.mjs"
+import birds from './birds';
+
+// ...
+
+app.use('/birds', birds);
+```
+
+应用现在将能够处理指向 `/birds` 和 `/birds/about` 的请求，同时会调用该路由专用的 `timeLog` 中间件函数。
+
+但如果父路由 `/birds` 包含路径参数，默认情况下子路由无法访问这些参数。 To make it accessible, you will need to pass the `mergeParams` option to the Router constructor [reference](/api/application#appuse).
+
+```js
+const router = express.Router({ mergeParams: true });
+```

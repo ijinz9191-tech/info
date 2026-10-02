@@ -1,0 +1,386 @@
+{
+  "verifiedAt": "2026-10-02",
+  "status": "INGESTED",
+  "entries": [
+    [
+      "python313-timeout-shield-contracts",
+      "Python timeout·shield 경계",
+      "languages/python",
+      "3.13 문서; 로컬 검증 3.13.13 별도 report",
+      "https://docs.python.org/3.13/library/asyncio-task.html",
+      "PYTIME",
+      [
+        [
+          "shield인데 호출자 취소 발생",
+          "호출자·내부 task 상태 확인",
+          "shield는 내부 task만 보호",
+          "내부 task 참조·종료 책임 유지",
+          "호출 취소와 내부 완료 각각"
+        ],
+        [
+          "wait timeout 후 task 계속 실행",
+          "pending 반환 확인",
+          "wait는 timeout에서 취소 안 함",
+          "미완료 task의 수명 정책 지정",
+          "pending 처리·종료 확인"
+        ],
+        [
+          "timeout 안의 TimeoutError catch 미동작",
+          "context 경계 확인",
+          "CancelledError를 exit에서 변환",
+          "context 밖에서 TimeoutError 처리",
+          "cleanup·외부 catch 확인"
+        ],
+        [
+          "wait_for가 timeout보다 오래 대기",
+          "취소 cleanup 시간 확인",
+          "실제 취소 완료 기다림",
+          "cleanup 시간 포함 budget 설계",
+          "취소 완료·전체 시간 측정"
+        ]
+      ]
+    ],
+    [
+      "rook-ceph-diagnostic-evidence",
+      "Rook Ceph 상태·설정 장애 진단",
+      "cncf/rook",
+      "latest-release 문서; 역사적 예제 포함, 설치 버전 재확인",
+      "https://rook.io/docs/rook/latest-release/Troubleshooting/ceph-common-issues/",
+      "ROOK",
+      [
+        [
+          "MON만 뜨고 나머지 없음",
+          "quorum·operator 연결 확인",
+          "quorum 형성 실패",
+          "network·firewall·MTU 조사",
+          "quorum·daemon 생성"
+        ],
+        [
+          "authentication error 110",
+          "timeout·MON 상태 확인",
+          "연결 timeout이 auth처럼 표시",
+          "operator-MON 연결 조사",
+          "연결·mon_status"
+        ],
+        [
+          "PVC 계속 Pending",
+          "OSD up/in·pool replica 확인",
+          "필요 OSD 부족",
+          "원인별 OSD 구성 복구",
+          "pool 조건·PVC Bound"
+        ],
+        [
+          "OSD prepare Completed인데 OSD 없음",
+          "prepare 로그·device 선택 확인",
+          "사용 중 device 제외",
+          "device 선택 수정; 데이터 보존",
+          "device·OSD 일치"
+        ],
+        [
+          "재설치 MON keyring 불일치",
+          "기존 dataDirHostPath 확인",
+          "이전 cluster 상태 잔류",
+          "재초기화 목적·보존 요구 확인",
+          "cluster identity·quorum"
+        ],
+        [
+          "환경변수 설정 안 먹음",
+          "operator ConfigMap·로그 확인",
+          "ConfigMap 우선순위",
+          "충돌 설정 정합화",
+          "최종 설정·reconcile"
+        ],
+        [
+          "v1.6.0–1.6.7 phantom partition",
+          "버전·partition·OSD 확인",
+          "Atari 판별 문제",
+          "1.6.8 이상 경로·단계 복구 검토",
+          "복제·OSD 건강"
+        ],
+        [
+          "기존 LV mode OSD metadata 불일치",
+          "LV tag·host 변경 확인",
+          "동시 LVM 변경",
+          "동시 변경 회피·raw 전환 검토",
+          "OSD·복제 상태"
+        ]
+      ]
+    ],
+    [
+      "velero-main-troubleshooting-contracts",
+      "Velero 복구·로그·Kopia 진단",
+      "cncf/velero",
+      "main 개발 문서; 안정 릴리스에 자동 일반화 금지",
+      "https://velero.io/docs/main/troubleshooting/",
+      "VELERO",
+      [
+        [
+          "복구 후 LB DNS 변경",
+          "Service UID·LB DNS 확인",
+          "복구 UID가 새 cloud 이름 생성",
+          "CNAME 대상 갱신",
+          "실제 서비스 접근"
+        ],
+        [
+          "Admission webhook 복구 차단",
+          "API reject·mutation 확인",
+          "복구도 admission 통과",
+          "복구용 정책·item action 검토",
+          "복구 객체·정책 확인"
+        ],
+        [
+          "로그만 no such host",
+          "BSL s3Url·client DNS 확인",
+          "cluster 내부 URL 접근 불가",
+          "도달 가능한 publicUrl 구성",
+          "로그 다운로드·backup 별도"
+        ],
+        [
+          "plugin EOF를 실패로 판단",
+          "작업 최종 상태 확인",
+          "plugin 정상 종료 가능",
+          "실패와 종료 로그 구분",
+          "backup 결과 확인"
+        ],
+        [
+          "custom resource not found",
+          "필수 CRD 존재 확인",
+          "설치 CRD 누락",
+          "설치 버전에 맞게 복구",
+          "server 시작·CRD"
+        ],
+        [
+          "credentialsFile invalid keys",
+          "provider plugin 버전 확인",
+          "다중 credential 미지원",
+          "호환 plugin 검토",
+          "BSL/VSL 접근"
+        ],
+        [
+          "Kopia 지정 사용자 maintenance 오류",
+          "repository owner 확인",
+          "외부 CLI 소유권 변경",
+          "읽기 연결·owner 정합화",
+          "maintenance 성공"
+        ],
+        [
+          "metrics target 없음",
+          "enable·8085·scrape 확인",
+          "노출 또는 수집 설정 누락",
+          "지점별 설정 복구",
+          "endpoint·Prometheus target"
+        ]
+      ]
+    ],
+    [
+      "python313-sqlite-transaction-contracts",
+      "Python SQLite transaction·thread 경계",
+      "languages/python",
+      "Python 3.13; 실행 3.13.13 / SQLite 3.51.2",
+      "https://docs.python.org/3.13/library/sqlite3.html",
+      "PYSQLITE",
+      [
+        [
+          "rollback으로 insert 취소 안 됨",
+          "autocommit 값 확인",
+          "True는 이미 자동 commit",
+          "명시 transaction 정책 선택",
+          "True·False 비교"
+        ],
+        [
+          "with connection 후 connection 남음",
+          "with exit·close 호출 확인",
+          "context는 close 안 함",
+          "close 또는 closing 수명 관리",
+          "종료 후 접근 실패"
+        ],
+        [
+          "다른 thread에서 ProgrammingError",
+          "생성·사용 thread 확인",
+          "기본 check_same_thread 제한",
+          "thread별 connection 검토",
+          "thread 경계 검증"
+        ],
+        [
+          "check_same_thread False면 안전하다고 판단",
+          "SQLite threading mode·쓰기 동시성 확인",
+          "Python guard와 DB 안전성 혼동",
+          "쓰기 직렬화·정확한 mode 적용",
+          "동시성·데이터 일관성"
+        ]
+      ]
+    ],
+    [
+      "kepler-versioned-deployment-contracts",
+      "Kepler 버전별 배포와 센서 진단",
+      "cncf/kepler",
+      "0.10.0+ rewrite; main README observed 2026-10-02",
+      "https://raw.githubusercontent.com/sustainable-computing-io/kepler/main/README.md",
+      "KEPLER",
+      [
+        [
+          "배포 후 probe 실패로 CrashLoop",
+          "이미지 태그와 manifest checkout, probe 경로 비교",
+          "main manifest와 이전 이미지 혼합",
+          "동일 release 태그의 manifest와 이미지 적용",
+          "해당 버전 probe 성공과 재시작 감소 확인"
+        ],
+        [
+          "0.9 설정을 새 버전에 사용",
+          "실제 이미지 버전과 설정 형식 확인",
+          "0.10 재작성으로 구버전 계약 불일치",
+          "새 버전 설정으로 이전 계획 수립",
+          "설정 로드와 예상 지표 확인"
+        ],
+        [
+          "구버전에서 수정이 제공되지 않음",
+          "사용 태그와 archived 상태 확인",
+          "0.9 계열 유지보수 종료",
+          "0.10+ 이전 가능성 평가",
+          "버전 변경 후 해당 증상 재검증"
+        ],
+        [
+          "센서 접근 권한 지침이 서로 다름",
+          "README의 readonly proc/sys와 설치 문서 privileged 예제 대조",
+          "문서 버전 또는 배포 방식 차이 가능",
+          "선택한 release의 코드·manifest로 요구 권한 확인",
+          "최소 요구 권한에서 센서 수집 확인; 무조건 privileged 처방 금지"
+        ]
+      ]
+    ],
+    [
+      "cilium120-state-capacity-contracts",
+      "Cilium 상태·용량·클러스터 연결 진단",
+      "cncf/cilium",
+      "1.20.2 documentation; historical command outputs are examples",
+      "https://docs.cilium.io/en/stable/operations/troubleshooting/",
+      "CILIUM-CAPACITY",
+      [
+        [
+          "연결 추적 삽입 실패",
+          "CT: Map insertion failed, GC 지표",
+          "conntrack 용량 또는 GC 주기",
+          "메모리·CPU 비용 평가 후 map/GC 조정",
+          "동일 부하에서 drop과 GC 비교"
+        ],
+        [
+          "정책 map 압박",
+          "selector별 identity 수",
+          "넓은 selector의 identity 증가",
+          "최소 권한을 유지하며 selector 점검",
+          "정책 허용·차단과 map 압박 재검증"
+        ],
+        [
+          "etcd 장애 중 신규 pod 통신 실패",
+          "kvstore 모드, identity와 state 전파",
+          "신규 identity 등록/전파 의존",
+          "quorum과 agent 연결 복구",
+          "신규 endpoint 등록·통신 확인"
+        ],
+        [
+          "etcd 장애인데 기존 통신 정상",
+          "기존 endpoint와 datapath 상태",
+          "기존 datapath는 kvstore와 독립",
+          "제어 상태와 통신을 분리 진단",
+          "재시작·신규 workload도 별도 확인"
+        ],
+        [
+          "agent 반복 재시작",
+          "status, 이전 로그, quorum 오류 횟수",
+          "연속 건강 검사 실패",
+          "etcd 접근성과 heartbeat 점검",
+          "health 회복과 재시작 감소"
+        ],
+        [
+          "Hubble 일부 노드만 관측",
+          "Relay 연결 node 수",
+          "개별 agent 관측 범위 또는 Relay 누락",
+          "Relay 연결 상태 점검",
+          "대상 node flow 관측"
+        ],
+        [
+          "연결 테스트 실패",
+          "시험 namespace의 기존 정책",
+          "기존/clusterwide 정책 간섭",
+          "독립 namespace에서 정책 조건 확인",
+          "조건별 테스트 결과 비교"
+        ],
+        [
+          "ICMP 정상인데 HTTP health 실패",
+          "L3·HTTP 각 행",
+          "계층별 대상이 다름",
+          "health agent 경로 별도 조사",
+          "동일 경로의 HTTP 복구 확인"
+        ]
+      ]
+    ],
+    [
+      "linkerd-edge-protocol-contracts",
+      "Linkerd 프로토콜 감지와 우회 경계",
+      "cncf/linkerd",
+      "2-edge development documentation; stable release equivalence unverified",
+      "https://linkerd.io/2-edge/features/protocol-detection/",
+      "LINKERD",
+      [
+        [
+          "연결 시작 약 10초 지연",
+          "proxy 감지 timeout과 최초 client 송신",
+          "server-first 또는 늦은 송신",
+          "실제 프로토콜을 확인해 선언",
+          "연결 지연과 통신 검증"
+        ],
+        [
+          "HTTP 지표·routing이 없음",
+          "애플리케이션 TLS와 TCP 분류",
+          "암호화된 HTTP를 proxy가 해독 불가",
+          "TCP 관측 범위에 맞춰 진단",
+          "HTTP metrics를 보장했다고 판단하지 않음"
+        ],
+        [
+          "HTTPRoutes 정책 예상과 불일치",
+          "감지 timeout 후 TCP 처리",
+          "HTTP로 분류되지 않아 정책 미적용",
+          "프로토콜 선언과 정책 검토",
+          "허용·차단 동작 재확인"
+        ],
+        [
+          "Service 선언했는데 unmeshed client 지연",
+          "수신 pod의 opaque annotation",
+          "client proxy가 Service appProtocol 읽지 않음",
+          "수신 pod annotation 적용 검토",
+          "unmeshed 경로 별도 확인"
+        ],
+        [
+          "annotation 후 다른 포트 감지 동작 변경",
+          "기본·설정 opaque 목록 비교",
+          "설정 목록이 기본값을 대체",
+          "필요한 전체 포트 목록 검토",
+          "각 포트 통신·관측 확인"
+        ],
+        [
+          "우회 후 mesh 기능 사라짐",
+          "source skip-outbound 설정",
+          "skip은 proxy 전체 우회",
+          "opaque와 skip 요구 구별",
+          "필요 mesh 기능 유지 여부 확인"
+        ]
+      ]
+    ]
+  ],
+  "publicIssue": {
+    "id": "velero-reported-kopia-9007",
+    "title": "Velero 공개 이슈 #9007: Kopia maintenance 소유권",
+    "topic": "cncf/velero",
+    "version": "보고자 주장 v1.14.0+; 전체 릴리스 영향 독립 검증 없음",
+    "kind": "public-reported-issue-analysis",
+    "verifiedAt": "2026-10-02",
+    "sources": [
+      "https://github.com/velero-io/velero/issues/9007",
+      "https://github.com/velero-io/velero/pull/9039/files"
+    ],
+    "body": "## 공개 보고와 증거\n\n2025-06-06 공개 보고는 Kopia repository 초기 소유권과 maintenance 실행 문맥의 불일치로 지정 사용자 오류가 발생한다고 설명한다. 보고자의 모든 버전·플랫폼 영향 주장은 독립 재현으로 확인하지 않았다.\n\n## 조치와 검증 경계\n\n연결 시 읽기 전용 및 username/hostname override로 소유권 변경을 피하고, 기존 오류에는 문서의 maintenance owner 정합화 절차를 검토한다. 적용 전 실제 저장소 소유권·maintenance 문맥·백업 상태를 확인하고 적용 후 maintenance 성공과 백업 접근을 함께 검증해야 한다. 이 환경에서 실행하지 않았다.\n\n## Closed와 코드 수정 구분\n\n이슈는 Closed이며 연결 PR #9039는 2025-06-27 main에 병합됐다. Files changed를 직접 읽어 troubleshooting.md 한 파일에 안내 14줄이 추가됐음을 확인했다. 자동 복구 구현이나 특정 릴리스의 런타임 수정으로 해석하지 않는다. 문서 기반 시나리오 velero-main-troubleshooting-contracts의 Kopia 항목과 같은 장애 경로의 증거이므로 별도 신규 장애 총수에 더하지 않는다."
+  },
+  "note": "Wait for active resource merges to finish before replacing manifests; source content reviewed, operational reproduction not claimed.",
+  "resourceRefresh": "PASS_LOCAL_HASH_READBACK",
+  "nativeStorage": "UNAVAILABLE"
+}

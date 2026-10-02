@@ -1,0 +1,37 @@
+{
+  "status": "PENDING_SEMANTIC_REVIEW",
+  "reviewedAt": "2026-10-02",
+  "countPolicy": "Never add source pages or copied scenarios to independent incident totals.",
+  "knownOverlap": [
+    {
+      "existing": "TYPE-SPRING-002 / voc-public.md",
+      "current": "spring-transaction-proxy-boundaries.md",
+      "relationship": "expands existing transaction proxy diagnosis; not automatically a new incident"
+    },
+    {
+      "existing": "L2-048 / voc-languages-extra.md",
+      "current": "postgresql-isolation-retry-boundaries.md",
+      "relationship": "expands existing serialization-failure case with versioned whole-transaction retry contract"
+    },
+    {
+      "existing": "F3-013 / voc-frameworks-more.md",
+      "current": "node-eventloop-and-workerpool.md",
+      "relationship": "event-loop blocking overlaps; individual failure paths need review"
+    },
+    {
+      "existing": "vite-deployment-boundaries.md case sensitivity",
+      "current": "vite-reported-case-964.md",
+      "relationship": "reported issue evidence for existing diagnostic path; not additive independent VOC"
+    }
+  ],
+  "globalDeduplicationComplete": false,
+  "syntheticDatasetExactAudit": {
+    "checkedAt": "2026-10-02T06:09:40.087Z",
+    "examples": 218,
+    "uniqueIds": 218,
+    "exactDuplicateConversations": 0,
+    "pageSplitLeakage": false,
+    "sourceDocumentHashReadbacks": "PASS",
+    "scope": "Exact checks only; no claim of semantic deduplication or independent incident totals"
+  }
+}

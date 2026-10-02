@@ -1,0 +1,13 @@
+https://www.graalvm.org[GraalVM] is an advanced JDK with ahead-of-time Native Image compilation, to generate native executables of Micronaut applications.
+
+Any Micronaut application can be run on the GraalVM JDK, however special support has been added to Micronaut to support running Micronaut applications using https://www.graalvm.org/reference-manual/native-image/[GraalVM's `native-image` tool].
+
+Micronaut framework currently supports GraalVM version {graalVersion} and the team is improving the support in every new release. Don't hesitate to https://github.com/micronaut-projects/micronaut-core/issues[report issues] however if you find any problem.
+
+Many of Micronaut's modules and third-party libraries have been verified to work with GraalVM: HTTP server, HTTP client, Function support, Micronaut Data JDBC and JPA, Service Discovery, RabbitMQ, Views, Security, Zipkin, etc. Support for other modules is evolving and will improve over time.
+
+=== Getting Started
+
+NOTE: Only Java and Kotlin projects support using GraalVM’s `native-image` tool. Groovy relies heavily on reflection, which is only partially supported by GraalVM.
+
+To start using GraalVM, install this JDK. The easiest way to install GraalVM on Linux or Mac is to use https://sdkman.io/[SDKMAN!]. For other installation options, visit the https://www.graalvm.org/downloads/[Downloads page].

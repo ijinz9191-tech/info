@@ -1,0 +1,25 @@
+{{ $data := partial "docs/get-cli-file" . }}
+<table class="keyval">
+  <thead>
+    <tr>
+      <th>
+        Annotation
+      </th>
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range sort $data.AnnotationsReference "Name" }}
+      <tr>
+        <td>
+          <code>{{ .Name }}</code>
+        </td>
+        <td>
+          {{ .Description | markdownify }}
+        </td>
+      </tr>
+    {{ end }}
+  </tbody>
+</table>

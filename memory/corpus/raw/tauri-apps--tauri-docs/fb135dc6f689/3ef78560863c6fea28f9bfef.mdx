@@ -1,0 +1,195 @@
+---
+title: Store
+description: 持久键值存储。
+plugin: store
+i18nReady: true
+---
+
+import PluginLinks from '@components/PluginLinks.astro';
+import Compatibility from '@components/plugins/Compatibility.astro';
+
+import { Tabs, TabItem, Steps } from '@astrojs/starlight/components';
+import CommandTabs from '@components/CommandTabs.astro';
+import PluginPermissions from '@components/PluginPermissions.astro';
+
+<PluginLinks plugin={frontmatter.plugin} />
+
+这个插件提供了一个持久化的键值存储。这是在应用程序中处理状态的众多选项之一。更多信息请参见[状态管理概览](/develop/state-management/)。
+
+该存储允许你将状态持久化到文件中，可以在应用重启之间按需保存和加载。请注意，这个过程是异步的，需要在代码中进行处理。它可以在 Webview 或 Rust 中使用。
+
+## 支持的平台
+
+<Compatibility plugin={frontmatter.plugin} />
+
+## 设置
+
+安装 store 插件即可开始。
+
+<Tabs>
+    <TabItem label="自动">
+
+    使用项目的包管理器添加依赖：
+
+    <CommandTabs npm="npm run tauri add store"
+    yarn="yarn run tauri add store"
+    pnpm="pnpm tauri add store"
+    deno="deno task tauri add store"
+    bun="bun tauri add store"
+    cargo="cargo tauri add store" />
+
+    </TabItem>
+    <TabItem label="手动">
+        <Steps>
+        1. 在 `src-tauri` 文件夹中运行以下命令，将插件添加到 `Cargo.toml` 的依赖中：
+
+            ```sh frame=none
+            cargo add tauri-plugin-store
+            ```
+
+        2.  修改 `lib.rs` 以初始化插件：
+
+            ```rust title="src-tauri/src/lib.rs" ins={4}
+            #[cfg_attr(mobile, tauri::mobile_entry_point)]
+            pub fn run() {
+                tauri::Builder::default()
+                    .plugin(tauri_plugin_store::Builder::new().build())
+                    .run(tauri::generate_context!())
+                    .expect("error while running tauri application");
+            }
+            ```
+
+        3.  使用你偏好的 JavaScript 包管理器安装 JavaScript Guest 绑定：
+
+            <CommandTabs
+            npm = "npm install @tauri-apps/plugin-store"
+            yarn = "yarn add @tauri-apps/plugin-store"
+            pnpm = "pnpm add @tauri-apps/plugin-store"
+            deno = "deno add npm:@tauri-apps/plugin-store"
+            bun = "bun add @tauri-apps/plugin-store"
+            />
+        </Steps>
+    </TabItem>
+
+</Tabs>
+
+## 用法
+
+<Tabs syncKey="lang">
+<TabItem label="JavaScript">
+
+```typescript
+import { load } from '@tauri-apps/plugin-store';
+// 当使用 `"withGlobalTauri": true` 时，你可以使用
+// const { load } = window.__TAURI__.store;
+
+// 创建一个新 store 或加载现有的 store，
+// 注意，如果已经创建了该路径的 Store，则选项将被忽略
+const store = await load('store.json', { autoSave: false });
+
+// 设置一个值。
+await store.set('some-key', { value: 5 });
+
+// 获取一个值。
+const val = await store.get<{ value: number }>('some-key');
+console.log(val); // { value: 5 }
+
+// 你可以在更改后手动保存 store。
+// 否则，它会在正常退出时保存。
+// 如果你将 `autoSave` 设置为一个数字或不填，
+// 它将在防抖延迟后将更改保存到磁盘，默认为 100ms。
+await store.save();
+```
+
+</TabItem>
+<TabItem label="Rust">
+
+```rust title="src-tauri/src/lib.rs"
+use tauri::Wry;
+use tauri_plugin_store::StoreExt;
+use serde_json::json;
+
+#[cfg_attr(mobile, tauri::mobile_entry_point)]
+pub fn run() {
+    tauri::Builder::default()
+        .plugin(tauri_plugin_store::Builder::default().build())
+        .setup(|app| {
+            // 创建一个新的 store 或加载现有的 store
+            // 这也会将 store 放入应用的资源表中
+            // 因此你后续的 `store` 调用（来自 Rust 和 JS）
+            // 将复用同一个 store。
+
+            let store = app.store("store.json")?;
+
+            // 注意，值必须是 serde_json::Value 的实例，
+            // 否则，它们将与 JavaScript 绑定不兼容。
+            store.set("some-key", json!({ "value": 5 }));
+
+            // 从 store 中获取一个值。
+            let value = store.get("some-key").expect("Failed to get value from store");
+            println!("{}", value); // {"value":5}
+
+            // 从资源表中移除 store
+            store.close_resource();
+
+            Ok(())
+        })
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
+}
+```
+
+</TabItem>
+</Tabs>
+
+### LazyStore
+
+还有一个高级 JavaScript API `LazyStore`，它只在首次访问时才加载 store。
+
+```typescript
+import { LazyStore } from '@tauri-apps/plugin-store';
+
+const store = new LazyStore('settings.json');
+```
+
+## 从 v1 和 v2 beta/rc 迁移
+
+<Tabs syncKey="lang">
+<TabItem label="JavaScript">
+
+```diff
+- import { Store } from '@tauri-apps/plugin-store';
++ import { LazyStore } from '@tauri-apps/plugin-store';
+```
+
+</TabItem>
+<TabItem label="Rust">
+
+```diff
+- with_store(app.handle().clone(), stores, path, |store| {
+-     store.insert("some-key".to_string(), json!({ "value": 5 }))?;
+-     Ok(())
+- });
++ let store = app.store(path)?;
++ store.set("some-key".to_string(), json!({ "value": 5 }));
+```
+
+</TabItem>
+</Tabs>
+
+## 权限
+
+默认情况下，所有潜在危险的插件命令和作用域都被阻止，无法访问。你必须在 `capabilities` 配置中修改权限才能启用它们。
+
+有关更多信息，请参见[功能概述](/security/capabilities/)以及[使用插件权限的分步指南](/learn/security/using-plugin-permissions/)。
+
+```json title="src-tauri/capabilities/default.json" ins={4}
+{
+  "permissions": [
+    ...,
+    "store:default",
+  ]
+}
+```
+
+<PluginPermissions plugin={frontmatter.plugin} />

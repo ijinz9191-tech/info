@@ -1,0 +1,180 @@
+# agones-dev/agones
+
+Official upstream snapshot `69afff347cd83ec0211e77a8a34a4601bef3e8f5`. 131 documents; 30 code files.
+
+Topics: cncf/Orchestration & Management/Scheduling & Orchestration.
+
+## Provenance and limits
+
+Retrieved: 2026-10-01T15:14:35.995541+00:00
+
+License: UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED
+
+This overview is a deterministic index, not an LLM-generated technical summary. Raw upstream content is preserved; version applicability and solutions require review.
+
+## Files
+
+- [AGENTS.md](L2-00000.md#doc-a54ff182c7e8acf56acfd6e4) — official-document
+- [CHANGELOG.md](L2-00000.md#doc-06572a96a58dc510037d5efa) — official-document
+- [CONTRIBUTING.md](L2-00000.md#doc-eca12c0a30e25b4b46522ebf) — official-document
+- [GOVERNANCE.md](L2-00000.md#doc-b60c6a93e9f74ee52e71bf33) — official-document
+- [LICENSE](L2-00000.md#doc-c693279643b8cd5d248172d9) — license
+- [README.md](L2-00000.md#doc-b335630551682c19a781afeb) — official-document
+- [code-of-conduct.md](L2-00000.md#doc-f1a69a41a835b5265e1c58e1) — official-document
+- [docs/governance/community_membership.md](L2-00000.md#doc-adef58c09ff3d8f2279f43d3) — official-document
+- [docs/governance/release_process.md](L2-00000.md#doc-37a1da6192b06b80bd21b459) — official-document
+- [docs/governance/templates/membership.md](L2-00000.md#doc-db4d9e831372bbcbf6e22885) — official-document
+- [docs/governance/templates/patch_release_issue.md](L2-00000.md#doc-634411c36a83021dc89d049a) — official-document
+- [docs/governance/templates/release.md](L2-00000.md#doc-e42b4c52dfa71dbee860d6a2) — official-document
+- [docs/governance/templates/release_issue.md](L2-00000.md#doc-715fef8ecb6275a8674d4e74) — official-document
+- [docs/proposals/NNNN-afp-template/README.md](L2-00000.md#doc-17a073416b0c8e180de7c034) — official-document
+- [docs/proposals/README.md](L2-00000.md#doc-ab09e8640286cb2cef6bb397) — official-document
+- [examples/allocation-endpoint/README.md](L2-00000.md#doc-97b53e884c2c44c24ef90e28) — official-document
+- [examples/allocation-endpoint/client/main.go](L2-00000.md#doc-1c4e4ce4aa0fc2c9b89a9d91) — upstream-example-code
+- [examples/allocation-endpoint/server/clusterselector.go](L2-00000.md#doc-904ed0c3d0133593fb41ce78) — upstream-example-code
+- [examples/allocation-endpoint/server/main.go](L2-00000.md#doc-91710e2ae5ec26dce7ce1c4d) — upstream-example-code
+- [examples/allocator-client-csharp/Program.cs](L2-00000.md#doc-47d4a19a86a53157fb2ac31c) — upstream-example-code
+- [examples/allocator-client-csharp/README.md](L2-00000.md#doc-39da1baf749280193cdf818c) — official-document
+- [examples/allocator-client/README.md](L2-00000.md#doc-4f3cb99b169be5c452e75399) — official-document
+- [examples/allocator-client/main.go](L2-00000.md#doc-de503b883fff5a506043b5c5) — upstream-example-code
+- [examples/autoscaler-wasm/README.md](L2-00000.md#doc-e75e56cea5a76273f60368f9) — official-document
+- [examples/autoscaler-wasm/main.go](L2-00000.md#doc-90698d023c48668dc53785d6) — upstream-example-code
+- [examples/autoscaler-wasm/model.go](L2-00000.md#doc-7b86cda8c1572f3d3765dab4) — upstream-example-code
+- [examples/autoscaler-webhook/README.md](L2-00000.md#doc-24de4822dc0b6131744aeddd) — official-document
+- [examples/autoscaler-webhook/main.go](L2-00000.md#doc-ac8ca41af0322b015dd11990) — upstream-example-code
+- [examples/cpp-simple/README.md](L2-00000.md#doc-59e13dec7cd6c3f53f5abb9b) — official-document
+- [examples/crd-client/main.go](L2-00000.md#doc-2e96437f7cfd5d3979297bab) — upstream-example-code
+- [examples/custom-controller/README.md](L2-00000.md#doc-e89ae690145e62b0a6ec926a) — official-document
+- [examples/custom-controller/main.go](L2-00000.md#doc-ea37d6b5c9cede8652343315) — upstream-example-code
+- [examples/nodejs-simple/README.md](L2-00000.md#doc-ed42d1c174720f40b2716bb0) — official-document
+- [examples/nodejs-simple/src/index.js](L2-00000.md#doc-e338b2e7de9f45836a14c23b) — upstream-example-code
+- [examples/rust-simple/README.md](L2-00000.md#doc-70c8f7fb154c0e28c6f27930) — official-document
+- [examples/rust-simple/src/main.rs](L2-00000.md#doc-7d0d24511e2684a72c7ad064) — upstream-example-code
+- [examples/simple-game-server/README.md](L2-00000.md#doc-a4d547553f4aa009bdd1eae5) — official-document
+- [examples/simple-game-server/handlers.go](L2-00000.md#doc-a21a7fc40ac38d73aa0b51eb) — upstream-example-code
+- [examples/simple-game-server/main.go](L2-00000.md#doc-034e995039dc9082d3953624) — upstream-example-code
+- [examples/simple-genai-server/README.md](L2-00000.md#doc-bec296b3d8f64c2550a7ea07) — official-document
+- [examples/simple-genai-server/main.go](L2-00000.md#doc-b66032538e4eb1bc9a598f63) — upstream-example-code
+- [examples/supertuxkart/README.md](L2-00000.md#doc-adfcb102583e2d657c84ffd0) — official-document
+- [examples/supertuxkart/entrypoint.sh](L2-00000.md#doc-383406def6cfe7e8c4878363) — upstream-example-code
+- [examples/supertuxkart/main.go](L2-00000.md#doc-082be12f3cee6a693531123f) — upstream-example-code
+- [examples/supertuxkart/main_test.go](L2-00000.md#doc-f0e5504750e8255d90009aed) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/AgonesSdk.cs](L2-00000.md#doc-15f840d1e900afd96e19e128) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/model/GameServer.cs](L2-00000.md#doc-85af9b35f49e8032c36e0acb) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/model/GameServerObjectMeta.cs](L2-00000.md#doc-45fd0638dd5ad367f066b88c) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/model/GameServerSpec.cs](L2-00000.md#doc-fd49e906be69718bc16f7565) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/model/GameServerStatus.cs](L2-00000.md#doc-84e51a7d1cf0bc9af0d41c70) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/model/SpecHealth.cs](L2-00000.md#doc-9f4e3333103be406cbd03fdc) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Agones/model/StatusPort.cs](L2-00000.md#doc-51f5ee099d8552334aad1ea7) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/Editor/BatchBuild.cs](L2-00000.md#doc-fea19b3eb253cd1488aec346) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/UdpEchoClient.cs](L2-00000.md#doc-1637ee87d3ef1342004234b2) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/UdpEchoController.cs](L2-00000.md#doc-cfcadd14a450df7468772fb6) — upstream-example-code
+- [examples/unity-simple/Assets/Scripts/UdpEchoServer.cs](L2-00000.md#doc-eedca31bc431752174c82e65) — upstream-example-code
+- [examples/unity-simple/README.md](L2-00000.md#doc-18955091d31207d2f7a0d2e5) — official-document
+- [examples/xonotic/README.md](L2-00000.md#doc-376c140705954afd892d3af3) — official-document
+- [examples/xonotic/main.go](L2-00000.md#doc-8b37d2d9aa3854c28eb74a83) — upstream-example-code
+- [install/helm/agones/README.md](L2-00000.md#doc-8fdb62c2e370849865b3f5a7) — official-document
+- [proto/grpc-gateway/LICENSE.txt](L2-00000.md#doc-2f1791c8126c4123b81469df) — license
+- [sdks/README.md](L2-00000.md#doc-43fe4e2cd877cd4917a88cb0) — official-document
+- [sdks/cpp/README.md](L2-00000.md#doc-c315e7ee4e2b7cad033bf453) — official-document
+- [sdks/nodejs/README.md](L2-00000.md#doc-460219d4ac3af49f1e55d555) — official-document
+- [sdks/python/README.md](L2-00000.md#doc-855bbba911df7cc070468cda) — official-document
+- [sdks/rust/README.md](L2-00000.md#doc-548aaa89f5ddbee0c8c5d63a) — official-document
+- [sdks/rust/proto/grpc-gateway/LICENSE.txt](L2-00000.md#doc-63a3495822eb14724fc68afc) — license
+- [sdks/unity/README.md](L2-00000.md#doc-216685d83ec691131f9b95c7) — official-document
+- [site/content/en/docs/Advanced/_index.md](L2-00000.md#doc-c36ac5ce2484cfdf6c3b8cd9) — official-document
+- [site/content/en/docs/Advanced/allocator-service.md](L2-00000.md#doc-21efacd42108f93a115c3faa) — official-document
+- [site/content/en/docs/Advanced/controlling-disruption.md](L2-00000.md#doc-c3d1a01c45716f9685b09d72) — official-document
+- [site/content/en/docs/Advanced/high-availability-agones.md](L2-00000.md#doc-d8127a5e182d7ead2a78f35c) — official-document
+- [site/content/en/docs/Advanced/limiting-resources.md](L2-00000.md#doc-e6ba3c6fd305edee32583a67) — official-document
+- [site/content/en/docs/Advanced/multi-cluster-allocation.md](L2-00000.md#doc-20137d484b1a0b4509b75e72) — official-document
+- [site/content/en/docs/Advanced/out-of-cluster-dev-server.md](L2-00000.md#doc-aa0be31dc580f615486ae7ec) — official-document
+- [site/content/en/docs/Advanced/scheduling-and-autoscaling.md](L2-00000.md#doc-29857a173710eb7c6e6b775d) — official-document
+- [site/content/en/docs/Advanced/service-accounts.md](L2-00000.md#doc-45acc7150a27ec9778992982) — official-document
+- [site/content/en/docs/Advanced/system-diagram.md](L2-00000.md#doc-3022a0b706b2927863c4157b) — official-document
+- [site/content/en/docs/Contribute/_index.md](L2-00000.md#doc-55b780e874aceec84e905271) — official-document
+- [site/content/en/docs/Contribute/agones-feature-proposal.md](L2-00000.md#doc-9439ffbb7fa42607850956d6) — official-document
+- [site/content/en/docs/Contribute/documentation-editing-contribution.md](L2-00000.md#doc-a124524c2884aea120a9143f) — official-document
+- [site/content/en/docs/Examples/_index.md](L2-00000.md#doc-1cb24b3fff631e0519ea203f) — official-document
+- [site/content/en/docs/Examples/custom-controller.md](L2-00000.md#doc-bd94dac4498131147f32edda) — official-document
+- [site/content/en/docs/Examples/simple-genai-gameserver.md](L2-00000.md#doc-1b500039d5183dba2db4c3c3) — official-document
+- [site/content/en/docs/Examples/supertuxkart.md](L2-00000.md#doc-da6473d85c8cd45cdf8ee1d7) — official-document
+- [site/content/en/docs/Examples/xonotic.md](L2-00000.md#doc-06aa4e5c90b0326f57895d3f) — official-document
+- [site/content/en/docs/FAQ/_index.md](L2-00000.md#doc-cf504998ea23b39b35861beb) — official-document
+- [site/content/en/docs/Getting Started/_index.md](L2-00000.md#doc-b4a42241b0fe5767a36931f4) — official-document
+- [site/content/en/docs/Getting Started/create-fleet.md](L2-00000.md#doc-a48f0a6e5ec80f9ad9cd39fe) — official-document
+- [site/content/en/docs/Getting Started/create-fleetautoscaler.md](L2-00000.md#doc-171ded1d67245fb4d2645a30) — official-document
+- [site/content/en/docs/Getting Started/create-gameserver.md](L2-00000.md#doc-09fdf0f7278a48970264e1b5) — official-document
+- [site/content/en/docs/Getting Started/create-wasm-fleetautoscaler.md](L2-00000.md#doc-56c9a9fa11b0441d9d640b38) — official-document
+- [site/content/en/docs/Getting Started/create-webhook-fleetautoscaler.md](L2-00000.md#doc-faabb409349cd0705b5829c8) — official-document
+- [site/content/en/docs/Getting Started/edit-first-gameserver-go.md](L2-00000.md#doc-98cbdca47840a811ac08cb64) — official-document
+- [site/content/en/docs/Guides/Best Practices/_index.md](L2-00000.md#doc-0c1706c7e01c025931d02cfa) — official-document
+- [site/content/en/docs/Guides/Best Practices/gke.md](L2-00000.md#doc-acc5a25bf73370eda951782b) — official-document
+- [site/content/en/docs/Guides/Client SDKs/_index.md](L2-00000.md#doc-4ec3cd2e11c24912acc2894e) — official-document
+- [site/content/en/docs/Guides/Client SDKs/cpp.md](L2-00000.md#doc-c1e857531dedc1caa7eaa6bc) — official-document
+- [site/content/en/docs/Guides/Client SDKs/csharp.md](L2-00000.md#doc-4b841c44d20d468bd6a639fb) — official-document
+- [site/content/en/docs/Guides/Client SDKs/go.md](L2-00000.md#doc-ed1895c1a9f493ab217cb74b) — official-document
+- [site/content/en/docs/Guides/Client SDKs/local.md](L2-00000.md#doc-eb1306e184a4ffc996f2ebbe) — official-document
+- [site/content/en/docs/Guides/Client SDKs/nodejs.md](L2-00000.md#doc-fa491d5eb5527dd527601b47) — official-document
+- [site/content/en/docs/Guides/Client SDKs/python.md](L2-00000.md#doc-9be64c824da63337d7e58cf1) — official-document
+- [site/content/en/docs/Guides/Client SDKs/rest.md](L2-00000.md#doc-a7a6d87526f5a6ef7bdf4caf) — official-document
+- [site/content/en/docs/Guides/Client SDKs/rust.md](L2-00000.md#doc-fb4631b769a1b3e5d8c5f867) — official-document
+- [site/content/en/docs/Guides/Client SDKs/unity.md](L2-00000.md#doc-7dd624cc26bd32377864f665) — official-document
+- [site/content/en/docs/Guides/Client SDKs/unreal.md](L2-00000.md#doc-4e8e728de8a3634df1524a5c) — official-document
+- [site/content/en/docs/Guides/_index.md](L2-00000.md#doc-4853a0a160e634e87488f97e) — official-document
+- [site/content/en/docs/Guides/access-api.md](L2-00000.md#doc-de4bb166a590a18f3dfb3b0b) — official-document
+- [site/content/en/docs/Guides/counters-and-lists.md](L2-00000.md#doc-fc59cdcab5caa65bc2c99ab5) — official-document
+- [site/content/en/docs/Guides/feature-stages.md](L2-00000.md#doc-6a76655b1e397b2f3b9955eb) — official-document
+- [site/content/en/docs/Guides/fleet-updates.md](L2-00000.md#doc-b4862559d463970cc18aaab4) — official-document
+- [site/content/en/docs/Guides/health-checking.md](L2-00000.md#doc-d0338111171ef7757af9cee2) — official-document
+- [site/content/en/docs/Guides/local-game-server.md](L2-00000.md#doc-e30b6a35ef697e982d058fb4) — official-document
+- [site/content/en/docs/Guides/metrics.md](L2-00000.md#doc-1af24ce3a89f5204ed56fc49) — official-document
+- [site/content/en/docs/Guides/ping-service.md](L2-00000.md#doc-acc6ac5d60a1e4a857973a48) — official-document
+- [site/content/en/docs/Guides/troubleshooting.md](L2-00000.md#doc-4612756d0299e1ce4c890261) — official-document
+- [site/content/en/docs/Guides/windows-gameservers.md](L2-00000.md#doc-daa54e3721da5e56c96f46ed) — official-document
+- [site/content/en/docs/Installation/Creating Cluster/_index.md](L2-00000.md#doc-a83a622f332938df736140ac) — official-document
+- [site/content/en/docs/Installation/Creating Cluster/aks.md](L2-00000.md#doc-f5022b305e4ec6f937b670d6) — official-document
+- [site/content/en/docs/Installation/Creating Cluster/eks.md](L2-00000.md#doc-730b6d4b85a36732a325dd60) — official-document
+- [site/content/en/docs/Installation/Creating Cluster/gke.md](L2-00000.md#doc-5d42011db599f8143d9e3542) — official-document
+- [site/content/en/docs/Installation/Creating Cluster/minikube.md](L2-00000.md#doc-d5ada955ef2a2453606c7e79) — official-document
+- [site/content/en/docs/Installation/Creating Cluster/oke.md](L2-00000.md#doc-748ee01fb319b7e1ddfa8f8a) — official-document
+- [site/content/en/docs/Installation/Install Agones/_index.md](L2-00000.md#doc-522c2ae6e4bbfc67986c55b6) — official-document
+- [site/content/en/docs/Installation/Install Agones/helm.md](L2-00000.md#doc-481b1839587cfc3a359e5e82) — official-document
+- [site/content/en/docs/Installation/Install Agones/yaml.md](L2-00000.md#doc-190cc86e84bd0b44aff120cc) — official-document
+- [site/content/en/docs/Installation/Terraform/_index.md](L2-00000.md#doc-6080f3818bfc2f2523647501) — official-document
+- [site/content/en/docs/Installation/Terraform/aks.md](L2-00000.md#doc-461cfc8a591839ada441ba7e) — official-document
+- [site/content/en/docs/Installation/Terraform/eks.md](L2-00000.md#doc-bae11a45e73c8732d6f7d82f) — official-document
+- [site/content/en/docs/Installation/Terraform/gke.md](L2-00000.md#doc-363bce3c4db52dd3a82271d2) — official-document
+- [site/content/en/docs/Installation/Terraform/oke.md](L2-00000.md#doc-4a1e0dcdcc5186e56c0168ac) — official-document
+- [site/content/en/docs/Installation/_index.md](L2-00000.md#doc-25d92916234358373611c5d6) — official-document
+- [site/content/en/docs/Installation/confirm.md](L2-00000.md#doc-ca5913eff6baa5a517755dd5) — official-document
+- [site/content/en/docs/Installation/upgrading.md](L2-00000.md#doc-03f76bdef9027af27be34419) — official-document
+- [site/content/en/docs/Integration Patterns/_index.md](L2-00000.md#doc-983d950410b906db9c1577a3) — official-document
+- [site/content/en/docs/Integration Patterns/allocation-from-fleet.md](L2-00000.md#doc-0c87dc431b92ef4ae56eeae4) — official-document
+- [site/content/en/docs/Integration Patterns/canary-testing.md](L2-00000.md#doc-66d0b57580aa6bc14aa537ca) — official-document
+- [site/content/en/docs/Integration Patterns/high-density-gameservers.md](L2-00000.md#doc-adb745fb21464dbd26e477bf) — official-document
+- [site/content/en/docs/Integration Patterns/matchmaker-registration.md](L2-00000.md#doc-a582bc58ac5e58eb6f7ffd1c) — official-document
+- [site/content/en/docs/Integration Patterns/player-capacity.md](L2-00000.md#doc-6e7d23ddde4e8e4e8e009e73) — official-document
+- [site/content/en/docs/Integration Patterns/reusing-gameservers.md](L2-00000.md#doc-f46b659618bcf2cb67e10195) — official-document
+- [site/content/en/docs/Overview/_index.md](L2-00000.md#doc-808636c3c3731097ff9a725d) — official-document
+- [site/content/en/docs/Prerequisite Knowledge/_index.md](L2-00000.md#doc-9674dfc80d392f9076bb451f) — official-document
+- [site/content/en/docs/Reference/_index.md](L2-00000.md#doc-5c33450b528054f8b6ec3726) — official-document
+- [site/content/en/docs/Reference/fleet.md](L2-00000.md#doc-b5e8ee9aa6e62e95f3757074) — official-document
+- [site/content/en/docs/Reference/fleetautoscaler.md](L2-00000.md#doc-9953aed3db426d31084cbecc) — official-document
+- [site/content/en/docs/Reference/gameserver.md](L2-00000.md#doc-9fd00619d55c3dc3f887713a) — official-document
+- [site/content/en/docs/Reference/gameserverallocation.md](L2-00000.md#doc-cb2799cc614c9ad9b9d37d60) — official-document
+- [site/content/en/docs/Third Party Content/_index.md](L2-00000.md#doc-0575bf2d0b59c3f7c50ed401) — official-document
+- [site/content/en/docs/Third Party Content/articles.md](L2-00000.md#doc-3ad580966c823484dc4a6780) — official-document
+- [site/content/en/docs/Third Party Content/examples.md](L2-00000.md#doc-7ad22d7ef974842a7028f82b) — official-document
+- [site/content/en/docs/Third Party Content/libraries-tools.md](L2-00000.md#doc-5bb112baf2f6963d6073eda0) — official-document
+- [site/content/en/docs/Third Party Content/podcasts.md](L2-00000.md#doc-233595bc1962efe2aeffb9e5) — official-document
+- [site/content/en/docs/Third Party Content/videos-and-presentations.md](L2-00000.md#doc-5d4cad9903b6665e495e8bd9) — official-document
+- [site/content/en/docs/Tutorials/_index.md](L2-00000.md#doc-bbc1afc6b75e18a28140fb41) — official-document
+- [site/content/en/docs/Tutorials/simple-gameserver-cpp.md](L2-00000.md#doc-c621446c2d16061e2702c8df) — official-document
+- [site/content/en/docs/Tutorials/simple-gameserver-nodejs.md](L2-00000.md#doc-ef6f5b1eb33e7312bc4ea21d) — official-document
+- [site/content/en/docs/Tutorials/simple-gameserver-rust.md](L2-00000.md#doc-fe0f643887433f48f696364f) — official-document
+- [site/content/en/docs/_index.md](L2-00000.md#doc-0147704b9ab24885b26d032e) — official-document
+- [test/e2e/README.md](L2-00000.md#doc-7d9a55ec9712c1ccc931efe1) — official-document
+- [test/load/README.md](L2-00000.md#doc-28a4c83a96b60a7a85806808) — official-document
+- [test/load/allocation/README.md](L2-00000.md#doc-b627a6015e19d81bcedeff78) — official-document
+- [test/sdk/unity/README.md](L2-00000.md#doc-fa7fc00491e3321315b17c4c) — official-document

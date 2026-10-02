@@ -1,0 +1,192 @@
+# microsoft/TypeScript-Website
+
+Official upstream snapshot `6556b08756b766fd41d0f887174cb0b042e5f72c`. 170 documents; 0 code files.
+
+Topics: languages/typescript.
+
+## Provenance and limits
+
+Retrieved: 2026-10-01T15:23:36.943428+00:00
+
+License: UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED
+
+This overview is a deterministic index, not an LLM-generated technical summary. Raw upstream content is preserved; version applicability and solutions require review.
+
+## Files
+
+- [.changeset/README.md](L2-00000.md#doc-a34534bc93c6a37355abf0bd) — official-document
+- [LICENSE](L2-00000.md#doc-c693279643b8cd5d248172d9) — license
+- [LICENSE-CODE](L2-00000.md#doc-28ca8a7ca648529f8850831d) — license
+- [README.md](L2-00000.md#doc-b335630551682c19a781afeb) — official-document
+- [SECURITY.md](L2-00000.md#doc-f6ed156e4bf5c79168066246) — official-document
+- [docs/Converting Twoslash Code Samples.md](L2-00000.md#doc-7c493e2e4a2af0363b96193a) — official-document
+- [docs/Deprecating a page.md](L2-00000.md#doc-6fcb907622c5b6680995e4a6) — official-document
+- [docs/How i18n Works For Site Copy.md](L2-00000.md#doc-f733642645714926adc7140b) — official-document
+- [docs/New TypeScript Version.md](L2-00000.md#doc-fb0c92dcdda08da287b38610) — official-document
+- [docs/README.md](L2-00000.md#doc-0b5ca119d2be595aa307d345) — official-document
+- [docs/Setup Troubleshooting.md](L2-00000.md#doc-7bb1b7a2093dd4d2f9f86d68) — official-document
+- [docs/Something Went Wrong.md](L2-00000.md#doc-3131b0c2359ae0c06b527d63) — official-document
+- [docs/User Flows.md](L2-00000.md#doc-7939d79eb033420190cebc5e) — official-document
+- [packages/ata/CHANGELOG.md](L2-00000.md#doc-0d08447f166cdf7f38321a57) — official-document
+- [packages/ata/README.md](L2-00000.md#doc-848294d99e896163ceae0743) — official-document
+- [packages/community-meta/README.md](L2-00000.md#doc-6513ea8cb53f5f0502a1313a) — official-document
+- [packages/create-typescript-playground-plugin/CHANGELOG.md](L2-00000.md#doc-88f81129c9317ce2c85b9ecd) — official-document
+- [packages/create-typescript-playground-plugin/README.md](L2-00000.md#doc-745fad303e453ef11170adc1) — official-document
+- [packages/create-typescript-playground-plugin/template/README.md](L2-00000.md#doc-2b385b7b6de9802840b17ca9) — official-document
+- [packages/documentation/copy/en/Nightly Builds.md](L2-00000.md#doc-489c25d51c3f3b16aacd7b6b) — official-document
+- [packages/documentation/copy/en/declaration-files/By Example.md](L2-00000.md#doc-217908e37d28646f58ea1edb) — official-document
+- [packages/documentation/copy/en/declaration-files/Consumption.md](L2-00000.md#doc-3e59dd89bcc3ae82c1ae8c95) — official-document
+- [packages/documentation/copy/en/declaration-files/Deep Dive.md](L2-00000.md#doc-76d918e53d10d10d71a8e0e8) — official-document
+- [packages/documentation/copy/en/declaration-files/Do's and Don'ts.md](L2-00000.md#doc-5904e3759601e8577399bc6a) — official-document
+- [packages/documentation/copy/en/declaration-files/Introduction.md](L2-00000.md#doc-ce8f2eb32d6bdae5eaf38794) — official-document
+- [packages/documentation/copy/en/declaration-files/Library Structures.md](L2-00000.md#doc-30f0ba4a54b711f1e2f2cb06) — official-document
+- [packages/documentation/copy/en/declaration-files/Publishing.md](L2-00000.md#doc-cdcf1caa2ccf83930698f8b0) — official-document
+- [packages/documentation/copy/en/declaration-files/Templates.md](L2-00000.md#doc-0150c24d5fa764dd5f2173ca) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/global-modifying-module.d.ts.md](L2-00000.md#doc-31e61c72cc6c9e8593452f0b) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/global-plugin.d.ts.md](L2-00000.md#doc-215c4f8fea6ee110d2973be6) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/global.d.ts.md](L2-00000.md#doc-82d8bc329b81949b62f6b37a) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/module-class.d.ts.md](L2-00000.md#doc-c997e3a23e75c913c1e0cc13) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/module-function.d.ts.md](L2-00000.md#doc-9d0e066d115a9cd5451d808b) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/module-plugin.d.ts.md](L2-00000.md#doc-abf0539bca32f5513ac3a4e2) — official-document
+- [packages/documentation/copy/en/declaration-files/templates/module.d.ts.md](L2-00000.md#doc-eb04fb789368ad173633a52c) — official-document
+- [packages/documentation/copy/en/get-started/TS for Functional Programmers.md](L2-00000.md#doc-0ada8bc03d287b0e3ef7b7a9) — official-document
+- [packages/documentation/copy/en/get-started/TS for JS Programmers.md](L2-00000.md#doc-a8dd096342f82c1324cdd7ff) — official-document
+- [packages/documentation/copy/en/get-started/TS for OOPers.md](L2-00000.md#doc-2b256321c64a314d6467895f) — official-document
+- [packages/documentation/copy/en/get-started/TS for the New Programmer.md](L2-00000.md#doc-3b94ed837a64a67ee945eba1) — official-document
+- [packages/documentation/copy/en/handbook-v1/Basic Types.md](L2-00000.md#doc-6bc4858d2a6ec6b0e713a0f2) — official-document
+- [packages/documentation/copy/en/handbook-v1/Classes.md](L2-00000.md#doc-4572c4311552b5ddcc5662c4) — official-document
+- [packages/documentation/copy/en/handbook-v1/Functions.md](L2-00000.md#doc-770213418a3fd7e7a3741080) — official-document
+- [packages/documentation/copy/en/handbook-v1/Generics.md](L2-00000.md#doc-3a5ce20cb9b3ced3a245c801) — official-document
+- [packages/documentation/copy/en/handbook-v1/Interfaces.md](L2-00000.md#doc-a6245fa8059f3ddb9a9d0dcc) — official-document
+- [packages/documentation/copy/en/handbook-v1/Literal Types.md](L2-00000.md#doc-8f72cbf821017c64b61aab14) — official-document
+- [packages/documentation/copy/en/handbook-v1/Unions and Intersections.md](L2-00000.md#doc-66e9918d6c7f53ca87d7ed99) — official-document
+- [packages/documentation/copy/en/handbook-v2/Basics.md](L2-00000.md#doc-da6684e47d98d2bc1af1a21c) — official-document
+- [packages/documentation/copy/en/handbook-v2/Classes.md](L2-00000.md#doc-a9355149697943a09fd02348) — official-document
+- [packages/documentation/copy/en/handbook-v2/Everyday Types.md](L2-00000.md#doc-6183f73b9e9bfe03a0a0be4c) — official-document
+- [packages/documentation/copy/en/handbook-v2/Modules.md](L2-00000.md#doc-48d209fabcb40ed5be6cc485) — official-document
+- [packages/documentation/copy/en/handbook-v2/More on Functions.md](L2-00000.md#doc-f4c411e84ddaf6576e7639ae) — official-document
+- [packages/documentation/copy/en/handbook-v2/Narrowing.md](L2-00000.md#doc-33731f53dfaee576dc06dccf) — official-document
+- [packages/documentation/copy/en/handbook-v2/Object Types.md](L2-00000.md#doc-51a6b8db4ac0dd2d7d995082) — official-document
+- [packages/documentation/copy/en/handbook-v2/The Handbook.md](L2-00000.md#doc-36a23b0211d4964aac799275) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Declarations.md](L2-00000.md#doc-40f9c8b7f33c34d2dc460b7a) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Conditional Types.md](L2-00000.md#doc-7bb4fbecad6a520808a4910c) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Generics.md](L2-00000.md#doc-795001baba1fdd12e79670d8) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Indexed Access Types.md](L2-00000.md#doc-c51b06ac177135c5be532972) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Keyof Type Operator.md](L2-00000.md#doc-4475684f9708e81a1f64c9b4) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Mapped Types.md](L2-00000.md#doc-2a972b49facbfff0adca2122) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Template Literal Types.md](L2-00000.md#doc-49db1bc6726d538540614112) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/Typeof Type Operator.md](L2-00000.md#doc-2d574e2fc3745e4f0427fbf6) — official-document
+- [packages/documentation/copy/en/handbook-v2/Type Manipulation/_Creating Types from Types.md](L2-00000.md#doc-0aaece87be32f021167dd367) — official-document
+- [packages/documentation/copy/en/handbook-v2/Understanding Errors.md](L2-00000.md#doc-8675e03b97f415393cb0ba0d) — official-document
+- [packages/documentation/copy/en/javascript/Creating DTS files From JS.md](L2-00000.md#doc-df5c2757e9b14da42193169f) — official-document
+- [packages/documentation/copy/en/javascript/Intro to JS with TS.md](L2-00000.md#doc-1fd6fe14b9c9d0f1f9e92d28) — official-document
+- [packages/documentation/copy/en/javascript/JSDoc Reference.md](L2-00000.md#doc-6b5e3f83db606346db991617) — official-document
+- [packages/documentation/copy/en/javascript/Type Checking JavaScript Files.md](L2-00000.md#doc-b894e5371a00ce585b7daacf) — official-document
+- [packages/documentation/copy/en/modules-reference/Introduction.md](L2-00000.md#doc-9af2a7d1b72a1f32638dddcc) — official-document
+- [packages/documentation/copy/en/modules-reference/Reference.md](L2-00000.md#doc-f3d6dc49ff5526038edb86c6) — official-document
+- [packages/documentation/copy/en/modules-reference/Theory.md](L2-00000.md#doc-8eea1055a3149de964cec269) — official-document
+- [packages/documentation/copy/en/modules-reference/appendices/ESM-CJS-Interop.md](L2-00000.md#doc-7e3e2a536fada4693086894a) — official-document
+- [packages/documentation/copy/en/modules-reference/diagrams/esm-cjs-interop.md](L2-00000.md#doc-4d2a391339d602efb56b5d71) — official-document
+- [packages/documentation/copy/en/modules-reference/diagrams/theory.md](L2-00000.md#doc-2cd2661ffd83d4483db5221b) — official-document
+- [packages/documentation/copy/en/modules-reference/guides/Choosing Compiler Options.md](L2-00000.md#doc-fc7d0c0fb21f5c499b34b8d3) — official-document
+- [packages/documentation/copy/en/project-config/Compiler Options in MSBuild.md](L2-00000.md#doc-df82ee90c4de12babf9eddb4) — official-document
+- [packages/documentation/copy/en/project-config/Compiler Options.md](L2-00000.md#doc-9702d1c80b06089d00bf96e9) — official-document
+- [packages/documentation/copy/en/project-config/Configuring Watch.md](L2-00000.md#doc-004d9d1b51a436ccec9d060b) — official-document
+- [packages/documentation/copy/en/project-config/Integrating with Build Tools.md](L2-00000.md#doc-de305b6cf151bfc8575365ab) — official-document
+- [packages/documentation/copy/en/project-config/Project References.md](L2-00000.md#doc-5d5be179fc8d181ab32cc3bf) — official-document
+- [packages/documentation/copy/en/project-config/tsconfig.json.md](L2-00000.md#doc-811506e1c7d2851ddd738d69) — official-document
+- [packages/documentation/copy/en/reference/Advanced Types.md](L2-00000.md#doc-6fb7cf616d827ace934f022e) — official-document
+- [packages/documentation/copy/en/reference/Declaration Merging.md](L2-00000.md#doc-e1f6b459e880f19440e820a9) — official-document
+- [packages/documentation/copy/en/reference/Decorators.md](L2-00000.md#doc-4a58d532fa1ce743cde9eb5d) — official-document
+- [packages/documentation/copy/en/reference/Enums.md](L2-00000.md#doc-e645786f0e56c78b633f18fe) — official-document
+- [packages/documentation/copy/en/reference/Iterators and Generators.md](L2-00000.md#doc-f192354086e50d1abd7045c2) — official-document
+- [packages/documentation/copy/en/reference/JSX.md](L2-00000.md#doc-92c80583b52f3c548ecb3e3f) — official-document
+- [packages/documentation/copy/en/reference/Mixins.md](L2-00000.md#doc-117b24162d7d584a530705ac) — official-document
+- [packages/documentation/copy/en/reference/Namespaces and Modules.md](L2-00000.md#doc-753232baf61d0672a268b1ed) — official-document
+- [packages/documentation/copy/en/reference/Namespaces.md](L2-00000.md#doc-6bc845a09cdb777baa56d599) — official-document
+- [packages/documentation/copy/en/reference/Symbols.md](L2-00000.md#doc-6874274cbee2eb16c1f04042) — official-document
+- [packages/documentation/copy/en/reference/Triple-Slash Directives.md](L2-00000.md#doc-802734243cd44a403fd6b72a) — official-document
+- [packages/documentation/copy/en/reference/Type Compatibility.md](L2-00000.md#doc-5df78592bbddd75ac6890619) — official-document
+- [packages/documentation/copy/en/reference/Type Inference.md](L2-00000.md#doc-e63b30693dbd729cadc19578) — official-document
+- [packages/documentation/copy/en/reference/Utility Types.md](L2-00000.md#doc-c7c76b6984a1a755391695f2) — official-document
+- [packages/documentation/copy/en/reference/Variable Declarations.md](L2-00000.md#doc-333f828cd26f83ce8a3edcf4) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.1.md](L2-00000.md#doc-00abd80f1ac0bfa4d30396d7) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.3.md](L2-00000.md#doc-1beb22427596e45ca0d1b1eb) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.4.md](L2-00000.md#doc-3710bdf2e3db390ca2844abb) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.5.md](L2-00000.md#doc-11c7966079fc7043230789be) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.6.md](L2-00000.md#doc-6a81b16bfc7815025f14e370) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.7.md](L2-00000.md#doc-239a76519a61cf0f18e708fc) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 1.8.md](L2-00000.md#doc-09881a00245296a99d6e1ee0) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.0.md](L2-00000.md#doc-6e487955c652c91585245bb7) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.1.md](L2-00000.md#doc-e0b201207ed278da8cbc6a65) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.2.md](L2-00000.md#doc-a6196a75fa205dae5553ae0e) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.3.md](L2-00000.md#doc-7e6d811a5db5d9b972cf9527) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.4.md](L2-00000.md#doc-471a9b43446b9c07908c2dbb) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.5.md](L2-00000.md#doc-07eae4802ea528d667b0fc6e) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.6.md](L2-00000.md#doc-f56d354b8f5d570a1003f5a2) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.7.md](L2-00000.md#doc-9c18ffcc64e22a01b8f38c02) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.8.md](L2-00000.md#doc-31d40c5dfeefe90a8b7fbabb) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 2.9.md](L2-00000.md#doc-dd631926bea9d330059f1f37) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.0.md](L2-00000.md#doc-103898a6dd2584368142dcf1) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.1.md](L2-00000.md#doc-e54ef637c5ea0f8591fec4ac) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.2.md](L2-00000.md#doc-5536befe651cb79c0510e645) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.3.md](L2-00000.md#doc-f54630be945bf3884005686e) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.4.md](L2-00000.md#doc-247259d4fa084a2c548a1304) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.5.md](L2-00000.md#doc-3f0269a818661d2b9ae7ebed) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.6.md](L2-00000.md#doc-b6c5d27dbc3e9892e9ad0167) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.7.md](L2-00000.md#doc-85487ddc56eb1770a7ab6907) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.8.md](L2-00000.md#doc-daef210a58ba2676195b935c) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 3.9.md](L2-00000.md#doc-6b638ff8b8f4a40ff7314d6b) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.0.md](L2-00000.md#doc-825465868dd06816a891f8d2) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.1.md](L2-00000.md#doc-4882bab7774acf351beb29b0) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.2.md](L2-00000.md#doc-841feda8687af2f1485c1bf8) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.3.md](L2-00000.md#doc-1767dcd4035844132ac60e4a) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.4.md](L2-00000.md#doc-85dd04ac4bc3d066bbd4e174) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.5.md](L2-00000.md#doc-dabab60eb91367ace9afbede) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.6.md](L2-00000.md#doc-abe9e51f4e3767da0aaac4f5) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.7.md](L2-00000.md#doc-72efbdb91e504140275bc506) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.8.md](L2-00000.md#doc-0426be6ac4124057adad195f) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 4.9.md](L2-00000.md#doc-62bdded4ff9c0787be7a9d7f) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.0.md](L2-00000.md#doc-6fbb51a916a0a7326f20d1cd) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.1.md](L2-00000.md#doc-a93b7b3898a74dfafaa689b6) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.2.md](L2-00000.md#doc-4ddb7e20b5f158f4dd82fa74) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.3.md](L2-00000.md#doc-9c0e6c1e0c1f8c0a8168077f) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.4.md](L2-00000.md#doc-db22b5b912bc26af8667f1ba) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.5.md](L2-00000.md#doc-fd0ca7bfd06c121795d4fe07) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.6.md](L2-00000.md#doc-1d5821ee76a94954a8c64a51) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.7.md](L2-00000.md#doc-5f3f6dd667f2a100acc05adc) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.8.md](L2-00000.md#doc-ca22708fe0c452fb94439e70) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 5.9.md](L2-00000.md#doc-f39720eebe4577b177d47a8f) — official-document
+- [packages/documentation/copy/en/release-notes/TypeScript 6.0.md](L2-00000.md#doc-4815f96ed2607d961719b5f8) — official-document
+- [packages/documentation/copy/en/tutorials/ASP.NET Core.md](L2-00000.md#doc-dbbc94c8583bc209a2f2ee3b) — official-document
+- [packages/documentation/copy/en/tutorials/Angular.md](L2-00000.md#doc-5c298584d09d30fd780c3cb5) — official-document
+- [packages/documentation/copy/en/tutorials/Babel with TypeScript.md](L2-00000.md#doc-a78b00efe9f2d77d9e3d1c71) — official-document
+- [packages/documentation/copy/en/tutorials/DOM Manipulation.md](L2-00000.md#doc-e9714c49fc24434b0bbbbd3d) — official-document
+- [packages/documentation/copy/en/tutorials/Gulp.md](L2-00000.md#doc-c68f835caeda9037249bfb27) — official-document
+- [packages/documentation/copy/en/tutorials/Migrating from JavaScript.md](L2-00000.md#doc-774c7959abd171b2ebf78cd9) — official-document
+- [packages/documentation/copy/en/tutorials/React.md](L2-00000.md#doc-1ff917375005101da7289799) — official-document
+- [packages/documentation/copy/en/tutorials/TypeScript Tooling in 5 minutes.md](L2-00000.md#doc-4725095d359a75ab8204c6e3) — official-document
+- [packages/glossary/README.md](L2-00000.md#doc-26b7faed2e919467dda8f5ea) — official-document
+- [packages/playground-examples/README.md](L2-00000.md#doc-13b26c0b2e74eaa5a77dfb04) — official-document
+- [packages/playground-examples/copy/en/JavaScript/README.md](L2-00000.md#doc-1d1d888cf15db7111bd405c5) — official-document
+- [packages/playground-examples/copy/en/README.md](L2-00000.md#doc-58e68e4668074806e75913c7) — official-document
+- [packages/playground-examples/copy/en/TypeScript/README.md](L2-00000.md#doc-49f98a0629646c87fa65a0ec) — official-document
+- [packages/playground-handbook/README.md](L2-00000.md#doc-685aece9018c9e6cd1a0a74c) — official-document
+- [packages/playground-worker/README.md](L2-00000.md#doc-ab39cf56c9b477dcbffc6e95) — official-document
+- [packages/playground/README.md](L2-00000.md#doc-434ada733b6d6c8380ee5215) — official-document
+- [packages/sandbox/CHANGELOG.md](L2-00000.md#doc-518a4451339921967ebcfe2e) — official-document
+- [packages/sandbox/README.md](L2-00000.md#doc-cd31c4b6093cd28ba306aaaf) — official-document
+- [packages/ts-twoslasher/CHANGELOG.md](L2-00000.md#doc-f5a2d186e73b289b7983ea6c) — official-document
+- [packages/ts-twoslasher/LICENSE](L2-00000.md#doc-c6f9d4e5138d55c6552a44e3) — license
+- [packages/ts-twoslasher/README.md](L2-00000.md#doc-f69545637ae1971dcf41c2da) — official-document
+- [packages/ts-twoslasher/test/README.md](L2-00000.md#doc-7a18cfcba869025cbdabea74) — official-document
+- [packages/tsconfig-reference/README.md](L2-00000.md#doc-30eaecd825cd6484c069c4a5) — official-document
+- [packages/typescript-vfs/CHANGELOG.md](L2-00000.md#doc-63cf2c896f05d6889fb6685c) — official-document
+- [packages/typescript-vfs/LICENSE](L2-00000.md#doc-861cdc41c5bec047e2e0dd0c) — license
+- [packages/typescript-vfs/README.md](L2-00000.md#doc-304307f1bc117fa8faf7104c) — official-document
+- [packages/typescript6/CHANGELOG.md](L2-00000.md#doc-567fc101f33f09b5c17ec81f) — official-document
+- [packages/typescript6/LICENSE.txt](L2-00000.md#doc-095b17820da5bb3efe90b1d8) — license
+- [packages/typescript6/README.md](L2-00000.md#doc-e4b6017eccacf562cdad5786) — official-document
+- [packages/typescriptlang-org/README.md](L2-00000.md#doc-1ef349298641d2cb549b65a7) — official-document
+- [packages/typescriptlang-org/src/pages/README.md](L2-00000.md#doc-e78c486788147e240ffd6323) — official-document
+- [packages/typescriptlang-org/static/License.html](L2-00000.md#doc-092597e81c0e1081252d3d0c) — license

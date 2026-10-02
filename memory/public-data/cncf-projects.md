@@ -1,6 +1,6 @@
 # CNCF 프로젝트 오프라인 목록
 
-공식 [CNCF Landscape](https://github.com/cncf/landscape)의 커밋 `97b2e16fdf4147166df9427299998a83991b0958`에서 생성. CC BY 4.0 출처 표기. 목록은 해당 커밋의 `project` 필드를 반영하며 새 상태는 [CNCF 프로젝트 목록](https://www.cncf.io/projects/)에서 재확인한다.
+공식 [CNCF Landscape](https://github.com/cncf/landscape)의 커밋 `bc9d1b5c87904d9430fc3377938f38192bab3ad0`에서 생성. CC BY 4.0 출처 표기. 목록은 해당 커밋의 `project` 필드를 반영하며 새 상태는 [CNCF 프로젝트 목록](https://www.cncf.io/projects/)에서 재확인한다.
 
 Landscape 전체 항목은 `cncf-landscape-index.json`에 있으며 CNCF 프로젝트가 아닌 생태계 제품도 포함한다.
 

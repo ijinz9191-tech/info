@@ -1,0 +1,1409 @@
+{
+  "schemaVersion": 1,
+  "repo": "reduxjs/redux",
+  "commit": "56abca4749921d68f40cda20afd2043af9751f72",
+  "retrievedAt": "2026-10-01T15:27:31.959713+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/react"
+  ],
+  "archiveUrl": "https://codeload.github.com/reduxjs/redux/zip/56abca4749921d68f40cda20afd2043af9751f72",
+  "archiveSha256": "086f9e0452f834d54245847339c30ca79cadaa168a2684c6ca7a9ccc65d31063",
+  "archiveBytes": 15664837,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 102,
+    "code": 68,
+    "licenses": 3,
+    "bytes": 1581648
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 226,
+      "sha256": "2147acceec77b7520a1b34cd97d5be33879893f997cd756c25a849a2a9acb738",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/CHANGELOG.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 3231,
+      "sha256": "4791b1fa66cb32f3091df7b47794064c3aabada0275bca2a700aaa904681f1f6",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 5338,
+      "sha256": "c5bb45581ae38b4f613cf114cb249b7ff2a0c0fd4f1af56b53f7c087577133db",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE-logo.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/375bdd5c56b0e214ef7fb1e3.md",
+      "kind": "license",
+      "bytes": 7010,
+      "sha256": "aee8f609f067c8705cdd4612bf031a751a2403ea8def0f545fc2446c59b9fd3d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/LICENSE-logo.md"
+    },
+    {
+      "path": "LICENSE.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/4673a3aba01813b595de187a.md",
+      "kind": "license",
+      "bytes": 1086,
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/LICENSE.md"
+    },
+    {
+      "path": "PATRONS.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/036524dc879490583cff741f.md",
+      "kind": "official-document",
+      "bytes": 803,
+      "sha256": "deb0a4dad03febc480cfd5a3ee7d8a8e96a84860d8fc3d80c3510674f9b732e1",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/PATRONS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 8029,
+      "sha256": "67a4fe18c6a53e9ca5d20348a7f906dd9f7f50b8e9b8f625375a59a03f428430",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/README.md"
+    },
+    {
+      "path": "docs/FAQ.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/0bb42a85d04c8b7c9b659307.md",
+      "kind": "official-document",
+      "bytes": 8251,
+      "sha256": "8531a479da5fc7eba63c813a05ef06d099706acbd3b909e1e0d38786e68af123",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/FAQ.md"
+    },
+    {
+      "path": "docs/api/Store.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/9ce6bd31820ae18492b8457e.md",
+      "kind": "official-document",
+      "bytes": 8142,
+      "sha256": "2019e38f75e541ed029abd2a4db9cb578f02db93e942b93e7207f490c80aeceb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/Store.md"
+    },
+    {
+      "path": "docs/api/api-reference.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/7691511c175460d5d8993912.md",
+      "kind": "official-document",
+      "bytes": 1439,
+      "sha256": "b19851a97098d55a8e37e4acd4328d81f416e45b56adf47d33e82977dd0c9d90",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/api-reference.md"
+    },
+    {
+      "path": "docs/api/applyMiddleware.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/bb4b45476b18c2fe9b756863.md",
+      "kind": "official-document",
+      "bytes": 10099,
+      "sha256": "75656dcc172597cfad673a25c333f8c7a35f3809e94390e522cf927fa9df5086",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/applyMiddleware.md"
+    },
+    {
+      "path": "docs/api/bindActionCreators.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/4b6607823dd2e482db46b896.md",
+      "kind": "official-document",
+      "bytes": 3515,
+      "sha256": "ad58bda9ffb082104f4ab4f37664aa85d712f7be9512ced1b45702539bdebf4d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/bindActionCreators.md"
+    },
+    {
+      "path": "docs/api/combineReducers.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/cfe92f8848744389cadd0a58.md",
+      "kind": "official-document",
+      "bytes": 5464,
+      "sha256": "8b720c452f8b4a18b931cb1a52e191ad3d5825ddffc36994cc14d6d0b2c306dc",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/combineReducers.md"
+    },
+    {
+      "path": "docs/api/compose.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/e41404bac3f1156d3782db77.md",
+      "kind": "official-document",
+      "bytes": 1985,
+      "sha256": "b9f8945db3fe8877093a8bc921d1ff3456b2b6139bc8eaf8ba09bdc917274035",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/compose.md"
+    },
+    {
+      "path": "docs/api/createStore.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/3cfc502a110d90f8607bb99c.md",
+      "kind": "official-document",
+      "bytes": 4947,
+      "sha256": "15edde76be6492157a3da056afa1a99b077bfc1b1e7c6def94d3a46d12a04edb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/createStore.md"
+    },
+    {
+      "path": "docs/api/errors.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/238cb2f7032857c780dfadf4.mdx",
+      "kind": "official-document",
+      "bytes": 605,
+      "sha256": "1c2aa449b59d7245e506e93885881f8b0ed43e0f99c2e8af3e976cb29c29b0fa",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/errors.mdx"
+    },
+    {
+      "path": "docs/api/utils.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/fcfaddbd9020746ad861ba4b.md",
+      "kind": "official-document",
+      "bytes": 981,
+      "sha256": "34e72b4723855fb76ae0b4614fe787c99d461b0662446a415997f4871c72d7bf",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/api/utils.md"
+    },
+    {
+      "path": "docs/components/_CoreApiNote.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/87942ec4544f092a21d6c947.mdx",
+      "kind": "official-document",
+      "bytes": 597,
+      "sha256": "f064f6017e7a33467f38463253a99d4b584c2e1fc9afded81dfeadd1da73a4e5",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/components/_CoreApiNote.mdx"
+    },
+    {
+      "path": "docs/components/_FundamentalsWarning.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/9da88665286e50fd0283e05d.mdx",
+      "kind": "official-document",
+      "bytes": 922,
+      "sha256": "2e1b9c67713fc1b4acace93120c5abda1ab84555fb4ae395f58f9cab6a4bcfaf",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/components/_FundamentalsWarning.mdx"
+    },
+    {
+      "path": "docs/components/_HandWrittenReducersNote.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/82a93b6ccef9ae1e5e884f81.mdx",
+      "kind": "official-document",
+      "bytes": 225,
+      "sha256": "40630c8bbb29d8a60ad02f8fc6c2ad649aa6eb9dfae6ef6d2dbd27e2f70e0ed7",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/components/_HandWrittenReducersNote.mdx"
+    },
+    {
+      "path": "docs/faq/Actions.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/398c7320ad17dbcef8851166.md",
+      "kind": "official-document",
+      "bytes": 15807,
+      "sha256": "7bfd71394dc298a174b2d515cbce1add8740192c231480144ea67ab429a819f3",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/Actions.md"
+    },
+    {
+      "path": "docs/faq/CodeStructure.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/9629105fae2b1148ec360da9.md",
+      "kind": "official-document",
+      "bytes": 13485,
+      "sha256": "bfcf5cc6c4bdf85126d1a531dbb75c68c85e96c1ab725d9c5874120b1e7d0455",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/CodeStructure.md"
+    },
+    {
+      "path": "docs/faq/DesignDecisions.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/30dbb161a728dbc3da45fa21.md",
+      "kind": "official-document",
+      "bytes": 9565,
+      "sha256": "9cff7020faf6dc9845b94bcb71ad34088138c46d18e3d2d38cc8919fe41c6c51",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/DesignDecisions.md"
+    },
+    {
+      "path": "docs/faq/General.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/b2765d0736789e4f1a3be625.md",
+      "kind": "official-document",
+      "bytes": 8322,
+      "sha256": "49779f5e17b07d5e2ce929c96a2419add9a2966693da2a00874011afd2b773d5",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/General.md"
+    },
+    {
+      "path": "docs/faq/ImmutableData.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/d4495a0595391a3589b10f5b.md",
+      "kind": "official-document",
+      "bytes": 15634,
+      "sha256": "6049738913f3f2dbadd9d1880e53595fe564e415c50cd7d348887bd5360fc1bf",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/ImmutableData.md"
+    },
+    {
+      "path": "docs/faq/Miscellaneous.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/32bf2be96cc67700e57c6b33.md",
+      "kind": "official-document",
+      "bytes": 2788,
+      "sha256": "6035493d53e498b9375575f8d7353038cc2c3269007e6891e3eaf1dcf095af11",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/Miscellaneous.md"
+    },
+    {
+      "path": "docs/faq/OrganizingState.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/d684c89c402bd33ab036412a.md",
+      "kind": "official-document",
+      "bytes": 10110,
+      "sha256": "60cacb2839e8329e0dd56ac4a51e902c55340ee48edc6e7bf0a9aa5609984403",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/OrganizingState.md"
+    },
+    {
+      "path": "docs/faq/Performance.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/50ed17454127d4747276684d.md",
+      "kind": "official-document",
+      "bytes": 15335,
+      "sha256": "4b09d5169b00601f1894d36cd8f3e275ed4379fafb60ccf8e683a78a6cb93d4c",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/Performance.md"
+    },
+    {
+      "path": "docs/faq/ReactRedux.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/c1fb89bcf5b22248176edb22.md",
+      "kind": "official-document",
+      "bytes": 19414,
+      "sha256": "5a14cdcd0b006e170072c41253a4a9349c54913c5408eb74aa9d905cde948d29",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/ReactRedux.md"
+    },
+    {
+      "path": "docs/faq/Reducers.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/d8c8b3ca7dd56954a2963d3a.md",
+      "kind": "official-document",
+      "bytes": 5428,
+      "sha256": "26dabd7a69d3d525a1d4b874178c4fdfb0d2d218db1f2e4c132813f2a6ae6b07",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/Reducers.md"
+    },
+    {
+      "path": "docs/faq/StoreSetup.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ab6e405d32ee94b4eeb67d0f.md",
+      "kind": "official-document",
+      "bytes": 6639,
+      "sha256": "abdd14e0e925c33fb5d147045da75a2cdcd07ae872e40125e443ce7676aeaf62",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/faq/StoreSetup.md"
+    },
+    {
+      "path": "docs/introduction/CoreConcepts.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a59b5b2112a7901b39bd1eec.md",
+      "kind": "official-document",
+      "bytes": 3184,
+      "sha256": "873bcbe9451bfefc909674845c446e1f31f4902813cbee211d53cf5265832a82",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/CoreConcepts.md"
+    },
+    {
+      "path": "docs/introduction/Ecosystem.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/cf14e49ae4bad48539e2d76c.md",
+      "kind": "official-document",
+      "bytes": 14210,
+      "sha256": "a5229fcf9d069f18087373ee358e16dfbb7fccda153a6f13098a6c05715b9eea",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/Ecosystem.md"
+    },
+    {
+      "path": "docs/introduction/Examples.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/9c050b6364022c07d2cf2aad.md",
+      "kind": "official-document",
+      "bytes": 7114,
+      "sha256": "cadd437f5ab04d06c44b0624cfd1257cdd32afe84dabe8245e9e8186bfad4012",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/Examples.md"
+    },
+    {
+      "path": "docs/introduction/GettingStarted.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/af1403d88a0ea25f6aeded13.md",
+      "kind": "official-document",
+      "bytes": 12523,
+      "sha256": "96a1b35d8a0fe662ab080141b6845b6e8ab876d1c1d171bfb6c03383ed38e52f",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/GettingStarted.md"
+    },
+    {
+      "path": "docs/introduction/Installation.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/255e46f6322b49b04530716c.md",
+      "kind": "official-document",
+      "bytes": 3576,
+      "sha256": "67005b05a5cac0840a58475d3c3cba4a79dc0aef62254346855c9f8ef9418a06",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/Installation.md"
+    },
+    {
+      "path": "docs/introduction/LearningResources.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/f95e02227833769d4a586429.md",
+      "kind": "official-document",
+      "bytes": 19376,
+      "sha256": "395fd9a9990448e2b86fce31f218b257e7d27047d5bc8b638f59294945fd2d57",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/LearningResources.md"
+    },
+    {
+      "path": "docs/introduction/why-rtk-is-redux-today.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/0bcd2d7aaaafacbb685d053c.md",
+      "kind": "official-document",
+      "bytes": 15415,
+      "sha256": "ab7c923ae2f1294b04ccf91483c4932a9d916a059f312f3b6372c47eb3a0f87f",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/introduction/why-rtk-is-redux-today.md"
+    },
+    {
+      "path": "docs/style-guide/style-guide.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/32c351d5d58d49352fbcae1a.md",
+      "kind": "official-document",
+      "bytes": 46346,
+      "sha256": "a6f8fb1c47608a658815cea255efba1fe50cbcb2559fbd178268343175b785bb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/style-guide/style-guide.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-1-overview-concepts.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a9e44310ef45082f8c62ead5.md",
+      "kind": "official-document",
+      "bytes": 21749,
+      "sha256": "3d61d8f7063eeb7970ddad1dcce6c0b9387618ab8876431fad98322f4583455e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-1-overview-concepts.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-2-app-structure.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/d38d020775e46c32dfe9fd75.md",
+      "kind": "official-document",
+      "bytes": 44377,
+      "sha256": "aa45b0c917489e7b1d77f527a65f8621a5c1118ffe5d4000362b8c1fce8aadd1",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-2-app-structure.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-3-data-flow.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ece35ae39c5bd1ac76321fb0.md",
+      "kind": "official-document",
+      "bytes": 33484,
+      "sha256": "dfd44f38dc3ff9f4ae3138cf7fa028211aa562069a05df6eb82a0f2f91239095",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-3-data-flow.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-4-using-data.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a6641b2baa7d1988bb17c9c5.md",
+      "kind": "official-document",
+      "bytes": 65590,
+      "sha256": "07c320b6e61d6af0393404617de94daadc5a3f332678f3dd8c210933836ec8bb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-4-using-data.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-5-async-logic.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ed350028cb921ca14a82cdbe.md",
+      "kind": "official-document",
+      "bytes": 52767,
+      "sha256": "099755b0dd77f29d6ef463b4648d6caa43ff862fe2c4b44aea584787e67cc8fc",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-5-async-logic.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-6-performance-normalization.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/406aff0f0a15ef94765604c2.md",
+      "kind": "official-document",
+      "bytes": 74379,
+      "sha256": "2cc5c7f4ef2fd6a8a14a0de420f0607376893408c68319674ed506767d97339d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-6-performance-normalization.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-7-rtk-query-basics.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/4fa8906c810dfa32506b63c2.md",
+      "kind": "official-document",
+      "bytes": 48356,
+      "sha256": "559122f6a58062479ded3ccda07ab87ae924b8152e9cd000b53dbbf3b1c27a46",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-7-rtk-query-basics.md"
+    },
+    {
+      "path": "docs/tutorials/essentials/part-8-rtk-query-advanced.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/f8a620a1df128001cde78273.md",
+      "kind": "official-document",
+      "bytes": 81166,
+      "sha256": "ac0e19c6a4f1f84bcad75b4f40b5de47792d24491da6842af5a0d142d6a6b05a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/essentials/part-8-rtk-query-advanced.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-1-overview.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/e958359640d43af007415fdf.md",
+      "kind": "official-document",
+      "bytes": 17485,
+      "sha256": "2559ecb4444cff16497b64fc7ca99e31ce5a54a870982511726521c21bf4b6a9",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-1-overview.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-2-concepts-data-flow.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/e457f737b802e993322527cb.md",
+      "kind": "official-document",
+      "bytes": 16439,
+      "sha256": "222224109a7d342113a0771ae0ef9c07869d2a4e6df00f7832c30dd47302c88c",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-2-concepts-data-flow.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-3-state-actions-reducers.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/d0eb63b0a7d29616a8f0b27a.md",
+      "kind": "official-document",
+      "bytes": 32407,
+      "sha256": "3d1c4f40a04d15dc47185953abe28e53ccc28dc1af74c44f6a04e0d00e88c0c7",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-3-state-actions-reducers.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-4-store.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/09e44cfeeab25d841605a3c8.md",
+      "kind": "official-document",
+      "bytes": 29645,
+      "sha256": "eac2c52ed56efeb308a8927562e741bc1e5c368540b6545bdc2a6b47b65b314e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-4-store.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-5-ui-and-react.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/fc90b8d7c56f930a9c21a2ba.md",
+      "kind": "official-document",
+      "bytes": 29557,
+      "sha256": "ebdf3f974fc9b21b34f5c8437518313b61383158b2900ced9a2325799e0e46ff",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-5-ui-and-react.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-6-async-logic.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/8ba81870f02184cdd73d3e84.md",
+      "kind": "official-document",
+      "bytes": 22260,
+      "sha256": "b2a0f219b96deda3a55c210f683ee8d7ee99ceb6e08556c17cf28bc1d141fabb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-6-async-logic.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-7-standard-patterns.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ec21f2241735a55d098a7be8.md",
+      "kind": "official-document",
+      "bytes": 39021,
+      "sha256": "4828290e83963aa6560278758626a5e6887c8caa0f7dd8ad4c3116eb2bf4b54a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-7-standard-patterns.md"
+    },
+    {
+      "path": "docs/tutorials/fundamentals/part-8-modern-redux.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/b82b4eff691487ba4fda3997.md",
+      "kind": "official-document",
+      "bytes": 40108,
+      "sha256": "d87d59319ce38095ca8bea20b52bd21003b7aa18449387f79c8ca251561d455a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/fundamentals/part-8-modern-redux.md"
+    },
+    {
+      "path": "docs/tutorials/quick-start.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/2e6a4e5ae1e80a42ea32188d.md",
+      "kind": "official-document",
+      "bytes": 17539,
+      "sha256": "db536bda5d300137c2a30b1b25e164ab263de1058e1da1afe5f939e3cfeffd1e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/quick-start.md"
+    },
+    {
+      "path": "docs/tutorials/tutorials-index.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/0a1774340fa88e602fdfbc4c.md",
+      "kind": "official-document",
+      "bytes": 5441,
+      "sha256": "a697d611fe5cc3d2ead7931edcbcb6d77bf0001f2312d568a54d9bcd4cc9c9b6",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/tutorials-index.md"
+    },
+    {
+      "path": "docs/tutorials/videos.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/69d4867c4d8cb2b1da7e83f8.md",
+      "kind": "official-document",
+      "bytes": 3837,
+      "sha256": "dc91148d39f6b13965025e1f80946392c70eabf2a5ebaa53890507f1e49bf0c9",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/tutorials/videos.md"
+    },
+    {
+      "path": "docs/understanding/history-and-design/PriorArt.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/25f47e652197689c23afbade.md",
+      "kind": "official-document",
+      "bytes": 10191,
+      "sha256": "aa4ecb8e33343090e3e364cdac54eb9a6d7dbf16058bb1d7a18d2a8027fcacf6",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/understanding/history-and-design/PriorArt.md"
+    },
+    {
+      "path": "docs/understanding/history-and-design/history-of-redux.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a9783b557a65e0630d26d115.md",
+      "kind": "official-document",
+      "bytes": 7610,
+      "sha256": "82f59ebdd484642407c7924a548c05cae3826fe76fa32ed757e7b6f314d9f8dd",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/understanding/history-and-design/history-of-redux.md"
+    },
+    {
+      "path": "docs/understanding/history-and-design/middleware.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/386f7c1901017596f3f0f374.md",
+      "kind": "official-document",
+      "bytes": 18137,
+      "sha256": "e40ac40727afba84f4fe0bf4d7f472a571d05b8fa53ab11945a5582b5bf0ae1c",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/understanding/history-and-design/middleware.md"
+    },
+    {
+      "path": "docs/understanding/thinking-in-redux/Glossary.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/d55857e8cda1b2a195d83c31.md",
+      "kind": "official-document",
+      "bytes": 10181,
+      "sha256": "4d70f374d41c13afab70c85983810f40f994d25a6fe6a4cbdfe0d8fa442c4f0e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/understanding/thinking-in-redux/Glossary.md"
+    },
+    {
+      "path": "docs/understanding/thinking-in-redux/Motivation.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/6516992b4fb8c40f4f53a5f5.md",
+      "kind": "official-document",
+      "bytes": 2463,
+      "sha256": "5e35b1663f607a9bb361fb3d146342f9930179b1aebc4b3a90816a86e34058f4",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/understanding/thinking-in-redux/Motivation.md"
+    },
+    {
+      "path": "docs/understanding/thinking-in-redux/ThreePrinciples.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/df64be4a91136e33dbf505db.md",
+      "kind": "official-document",
+      "bytes": 3452,
+      "sha256": "e61aeab9b85a68f348ec218b0a7f58dd495cc1be891561ff7d0270e0553f14e1",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/understanding/thinking-in-redux/ThreePrinciples.md"
+    },
+    {
+      "path": "docs/usage/CodeSplitting.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ef3f1e18d169bf4662c8f842.md",
+      "kind": "official-document",
+      "bytes": 13882,
+      "sha256": "282ce28408418d02fd46922931701b97b37b5ac1e31fb52922202971901221a2",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/CodeSplitting.md"
+    },
+    {
+      "path": "docs/usage/ConfiguringYourStore.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/3df73a8193ed77c10ca8cd77.md",
+      "kind": "official-document",
+      "bytes": 9593,
+      "sha256": "8fe04ec402038704e7fd37a8a296e11da93cb725f2a2390e5d5bf94bdb175e39",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/ConfiguringYourStore.md"
+    },
+    {
+      "path": "docs/usage/DebuggingRedux.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/ad9065c412a929ac39712619.md",
+      "kind": "official-document",
+      "bytes": 18201,
+      "sha256": "930d08725bd639b79cfb54c3c6e48cc34154808f5217bcbfe82c7fcbd38a8c5e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/DebuggingRedux.md"
+    },
+    {
+      "path": "docs/usage/ImplementingUndoHistory.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/07c7b7e2667f72cd039edfb9.md",
+      "kind": "official-document",
+      "bytes": 16515,
+      "sha256": "d118ccdde9e5e1eab50b3656eec74d759f8986bde9e7846bd6d630fac38e3389",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/ImplementingUndoHistory.md"
+    },
+    {
+      "path": "docs/usage/IsolatingSubapps.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/9bcb2ec89a6609cab1aa9783.md",
+      "kind": "official-document",
+      "bytes": 2898,
+      "sha256": "90fae97cdb3ec3587704bc16ceea65d06db7bb0d7239c0b00e310d41243bcf77",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/IsolatingSubapps.md"
+    },
+    {
+      "path": "docs/usage/ReducingBoilerplate.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/2a11c0b0bc2cbc00d51b16d3.md",
+      "kind": "official-document",
+      "bytes": 12207,
+      "sha256": "309979a8f25ee9094b877b1f1926f96460b30a15807fb19a537de97f926ce309",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/ReducingBoilerplate.md"
+    },
+    {
+      "path": "docs/usage/ServerRendering.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a192654dfaea93f573929681.md",
+      "kind": "official-document",
+      "bytes": 17263,
+      "sha256": "602c44c7a7e83c702ab9cfa27f1adc44db435d2d09ac2a7026277a2a5c91a471",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/ServerRendering.md"
+    },
+    {
+      "path": "docs/usage/Troubleshooting.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a2493c66def10f360dfcc685.md",
+      "kind": "official-document",
+      "bytes": 10821,
+      "sha256": "23d3a273d55bc7b2229951ce5205f87e683b0a010935ac223e9d5f830e56e257",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/Troubleshooting.md"
+    },
+    {
+      "path": "docs/usage/UsageWithTypescript.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/58d1fcbf10e4d144e5dd3cfa.md",
+      "kind": "official-document",
+      "bytes": 21631,
+      "sha256": "6922e50564752cad567056b10bf646e592156bd6832ebc24436262f1d557c9c7",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/UsageWithTypescript.md"
+    },
+    {
+      "path": "docs/usage/WritingCustomMiddleware.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/7b29e8f8d69967db16bc7919.md",
+      "kind": "official-document",
+      "bytes": 9046,
+      "sha256": "d5bee7757d5d0afd68421f15ff7be86a68346fbc5f9ee9979f8411674a1e0e61",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/WritingCustomMiddleware.md"
+    },
+    {
+      "path": "docs/usage/WritingTests.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/7fa1471ac12946240eccbfb3.mdx",
+      "kind": "official-document",
+      "bytes": 43343,
+      "sha256": "118188f5cea1ee79d824eece5440044c9c44ae70d4a59b01d3389a4810443aa2",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/WritingTests.mdx"
+    },
+    {
+      "path": "docs/usage/deriving-data-selectors.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/68116b156129cb51efba142d.md",
+      "kind": "official-document",
+      "bytes": 35255,
+      "sha256": "6ef432f3955d858b5e748be933a807902e54b066dceefaae0458579f88928c34",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/deriving-data-selectors.md"
+    },
+    {
+      "path": "docs/usage/index.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/15c410571e14efe1076710d5.md",
+      "kind": "official-document",
+      "bytes": 2004,
+      "sha256": "0b0e0887f331e7a51fec37b215db2a3035b0f71b5304d9a4268551d1ded5717d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/index.md"
+    },
+    {
+      "path": "docs/usage/migrating-to-modern-redux.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/797efbde00fa714574d083bb.mdx",
+      "kind": "official-document",
+      "bytes": 41053,
+      "sha256": "8b44aa5d55808bc04c4ba75166843655f93ed9f1e593d73ea7b67a3b9023572e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/migrating-to-modern-redux.mdx"
+    },
+    {
+      "path": "docs/usage/migrations/migrating-rtk-2.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/06690f7d1cce4d868bfec36c.md",
+      "kind": "official-document",
+      "bytes": 49036,
+      "sha256": "5e2a7bec6daccf73abc410cf4017cd3a268b94d05d26e4f3e51e6b8395a652be",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/migrations/migrating-rtk-2.md"
+    },
+    {
+      "path": "docs/usage/nextjs.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/3fbdf60580383b98869ab08e.mdx",
+      "kind": "official-document",
+      "bytes": 20766,
+      "sha256": "7026b7b87d38796722bf5350d779bde950121e556ccc337826c0dbfbfffcda64",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/nextjs.mdx"
+    },
+    {
+      "path": "docs/usage/side-effects-approaches.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/f1bd45fc762ef8bed67ba149.mdx",
+      "kind": "official-document",
+      "bytes": 25148,
+      "sha256": "d05e6e4930ef9a8f7913530731b809c8c03c06900c7c08b16143629dfc73903f",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/side-effects-approaches.mdx"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/BasicReducerStructure.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/78b185ab233ee70785539581.md",
+      "kind": "official-document",
+      "bytes": 5354,
+      "sha256": "b0a831a6d263f4701ba242f89c996402c86815e93294d09b4ef7a4d20b57e62d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/BasicReducerStructure.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/BeyondCombineReducers.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/07426f691c8f37fde54cf253.md",
+      "kind": "official-document",
+      "bytes": 6571,
+      "sha256": "798bfe07a00df7ac026479603dea01d0ebe50ed2071f168fe51e05a06a69e99f",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/BeyondCombineReducers.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/ImmutableUpdatePatterns.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/34be746028b010028d4a1e02.md",
+      "kind": "official-document",
+      "bytes": 7071,
+      "sha256": "cc65e8cc72762f681046b12dc456d5389f13fd8f8cfa6e5c2f3c382567e11f0a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/ImmutableUpdatePatterns.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/InitializingState.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/b474204cffd14bd13d0c230a.md",
+      "kind": "official-document",
+      "bytes": 7278,
+      "sha256": "cbebcf4a5987c2e0ef54450ab8f3af627d4a4875216798b0cb8777b57519f483",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/InitializingState.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/NormalizingStateShape.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/6724fca8a7f6b5922ef3f603.md",
+      "kind": "official-document",
+      "bytes": 12566,
+      "sha256": "3546148b810a670fe065cf8cf2829e2efa09fef9ad33f6bdecdda8c71b7d5ea1",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/NormalizingStateShape.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/PrerequisiteConcepts.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/53e8399d38008c2e3a14a631.md",
+      "kind": "official-document",
+      "bytes": 6012,
+      "sha256": "cb397f5d0b06a798f85ffc52ba1da700de8385d4ef72d37bea94e65c74e93ab5",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/PrerequisiteConcepts.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/RefactoringReducersExample.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/363da83265f99fd5b3277629.md",
+      "kind": "official-document",
+      "bytes": 14679,
+      "sha256": "e994f12d51e7dc135dde98f0086156699bc53c430920165b2b5c0790e306f853",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/RefactoringReducersExample.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/ReusingReducerLogic.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/5e57f5b7193e5cd56e6cdae2.md",
+      "kind": "official-document",
+      "bytes": 8371,
+      "sha256": "918ab3a52fd3607c8bb4b5cff1442c5c1695ace53ce6511002fea0f8bffb746f",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/ReusingReducerLogic.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/SplittingReducerLogic.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/c04af647c1bf63e7c255006b.md",
+      "kind": "official-document",
+      "bytes": 4374,
+      "sha256": "5fc177d2ea6d94d0809750fe5046fa3e5081a36cd24dc6ef8320c51dcb5d957d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/SplittingReducerLogic.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/StructuringReducers.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/f6f22c453ffafa0a4f153d22.md",
+      "kind": "official-document",
+      "bytes": 3502,
+      "sha256": "21afdd3845350e3b222d68dd106da2b26f3d58184c822aa7cb72b77bf1b9791d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/StructuringReducers.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/UpdatingNormalizedData.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/2a420e7d633a58f605710225.md",
+      "kind": "official-document",
+      "bytes": 8389,
+      "sha256": "1ec738e6a91a7742c466a8f09868049ae09338bbabd6eb706fd117daa70620ca",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/UpdatingNormalizedData.md"
+    },
+    {
+      "path": "docs/usage/structuring-reducers/UsingCombineReducers.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/7265f08a1be952d4c1a4f48a.md",
+      "kind": "official-document",
+      "bytes": 6811,
+      "sha256": "0436ea1528d7f40df4cabfda715c498659b652cc872011f1181132b6da2f7804",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/structuring-reducers/UsingCombineReducers.md"
+    },
+    {
+      "path": "docs/usage/writing-logic-thunks.mdx",
+      "localPath": "raw/reduxjs--redux/56abca474992/4160c89fb9a8145b89def858.mdx",
+      "kind": "official-document",
+      "bytes": 26741,
+      "sha256": "1dbf927247553123667b32a9b14876ac7a7fbb9ebaef2ea0eba601da7c9e737d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/docs/usage/writing-logic-thunks.mdx"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 124,
+      "sha256": "2371f80c41c7c768b56564f7ecd5f64c9d572d92bf1771a767c6bae4cc753822",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/README.md"
+    },
+    {
+      "path": "examples/counter-ts/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/58f7e2d11a0dd58e136f1857.md",
+      "kind": "official-document",
+      "bytes": 2222,
+      "sha256": "c031f3399250af1e5ecbf35bb8b9da5e7365f276a955425147a8c69ba9920246",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/README.md"
+    },
+    {
+      "path": "examples/counter-ts/src/App.test.tsx",
+      "localPath": "raw/reduxjs--redux/56abca474992/124783614b5a346b85ec1a3b.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 364,
+      "sha256": "764d215fa99461bca4433c9f7c1c1164c3d560cd5dd231cc9c7c1b17697725f0",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/App.test.tsx"
+    },
+    {
+      "path": "examples/counter-ts/src/App.tsx",
+      "localPath": "raw/reduxjs--redux/56abca474992/a5b649a1fd7ee3071bebd390.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1446,
+      "sha256": "dec9aef31a92e61a85f513fc58fad151cdd7affc2a0eabf5a5ea9d659d66f8eb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/App.tsx"
+    },
+    {
+      "path": "examples/counter-ts/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/f5065321f3e89af02a1398f7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 318,
+      "sha256": "dc6b246d8fac28ff1fced5effedfbfd0baa0936907b66ef6e7e3911b70c45240",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/dc7d6997c6b4968f5da5c133.ts",
+      "kind": "upstream-example-code",
+      "bytes": 439,
+      "sha256": "31d5fcca744bd939fd9cab94c9b63d6b30b972e31052afcb51d74976cae52b18",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/app/store.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux/56abca474992/c2502d7be7954c1e0981f772.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1764,
+      "sha256": "d755772f77e3246c463d0b198507dea33021d27a861c2077bffd3aa76bde2ba4",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/counter-ts/src/features/counter/counterAPI.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/a94f6bfe27887a90c421122e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 211,
+      "sha256": "0872f09e0ec7cea04f7f7b681cdd9a7a633e220919bd6336d157fa138e7fbdda",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/features/counter/counterAPI.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/features/counter/counterSlice.spec.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/3679975d35deef20a007e90b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 835,
+      "sha256": "16ffb67b9bc4d56b8d30c33c5cbf2c44c3292b91ae2c29cf48844b1cab0a0df2",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/features/counter/counterSlice.spec.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/features/counter/counterSlice.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/e63b4252d399b76901c4897d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3055,
+      "sha256": "1dbf670d534b09385abd1cfceb6b9ee7ca1a114fa978dc3923da9f4ddd568732",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/features/counter/counterSlice.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/index.tsx",
+      "localPath": "raw/reduxjs--redux/56abca474992/be0533c10bbb58021e4c462c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 676,
+      "sha256": "e5428ebd529a38a87208b0b70aaaeab628e4537fb8d590210c9d4a3afe5d8ea7",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/index.tsx"
+    },
+    {
+      "path": "examples/counter-ts/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/31a8bb91bbc3832afbde9d08.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/reportWebVitals.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/df063e532bdbdc55231007e9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 416,
+      "sha256": "78cee02ad5a1331654d25c487fdeec28e1aebcaf460d66c3c2116113f94462fb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/reportWebVitals.ts"
+    },
+    {
+      "path": "examples/counter-ts/src/setupTests.ts",
+      "localPath": "raw/reduxjs--redux/56abca474992/e012f95c70cde5e9e09aab48.ts",
+      "kind": "upstream-example-code",
+      "bytes": 240,
+      "sha256": "9e76b47787082f5ca470c4c4213df2804489c57d7749b9e124150b6fd9dbd85d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-ts/src/setupTests.ts"
+    },
+    {
+      "path": "examples/counter-vanilla/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/4312d03fdf8ea577113bbbc2.md",
+      "kind": "official-document",
+      "bytes": 838,
+      "sha256": "415fed2e04a3c3b2cdf60460ef6900fe9582394e8fb784fea45e0dedee1b3a18",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter-vanilla/README.md"
+    },
+    {
+      "path": "examples/counter/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/a2f94ef0ba3feac59d357c14.md",
+      "kind": "official-document",
+      "bytes": 2219,
+      "sha256": "01acf59a3e6f783ff23fd898d611f15048caf1fbde0cb8c3e3f422953279a672",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/README.md"
+    },
+    {
+      "path": "examples/counter/src/App.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/264f97f1ee3504d642000eaf.js",
+      "kind": "upstream-example-code",
+      "bytes": 1445,
+      "sha256": "4fee51a792da976e21317726d59a7cf61d8b88b0091dc9d9fc89870177f282ea",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/App.js"
+    },
+    {
+      "path": "examples/counter/src/App.test.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/478a036e55c352a5b614f00d.js",
+      "kind": "upstream-example-code",
+      "bytes": 357,
+      "sha256": "5c87544960c38597f5c7f15e2f82460549f84cd601cd98d159a03d5c32fbb7a4",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/App.test.js"
+    },
+    {
+      "path": "examples/counter/src/app/store.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/1cd1075308e84ece4785456a.js",
+      "kind": "upstream-example-code",
+      "bytes": 199,
+      "sha256": "27cebca62176cd900889f715221a3199d60a8cf473d2b770fdd27a524d411501",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/app/store.js"
+    },
+    {
+      "path": "examples/counter/src/features/counter/Counter.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/73303823b1a99ad63eac7002.js",
+      "kind": "upstream-example-code",
+      "bytes": 1747,
+      "sha256": "432afa6d8aa4d716af78747988d054740e547d0dc684a62de152b3b9ca6a9d29",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/features/counter/Counter.js"
+    },
+    {
+      "path": "examples/counter/src/features/counter/counterAPI.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/eb7b5206ad2cca2f98949d9e.js",
+      "kind": "upstream-example-code",
+      "bytes": 193,
+      "sha256": "6a39fbdf87d29e1990060053ecada25019178c638f5c2348d2b7c3ce605a05a9",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/features/counter/counterAPI.js"
+    },
+    {
+      "path": "examples/counter/src/features/counter/counterSlice.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/0981829a9768ffe8c5819919.js",
+      "kind": "upstream-example-code",
+      "bytes": 2709,
+      "sha256": "e6620fddbce75a1028227649f7ae9a7321e97b63ca1e69613a89c1ca44e93503",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/features/counter/counterSlice.js"
+    },
+    {
+      "path": "examples/counter/src/features/counter/counterSlice.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/110f00eb2691096705cc83ad.js",
+      "kind": "upstream-example-code",
+      "bytes": 805,
+      "sha256": "24aabbfeeb0ef9b6f0be60aebd0eb047e5a14dab665528c9d9b5823ce637762d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/features/counter/counterSlice.spec.js"
+    },
+    {
+      "path": "examples/counter/src/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/a9d1b628d012f160b5bdeaf5.js",
+      "kind": "upstream-example-code",
+      "bytes": 675,
+      "sha256": "58542713d1acfd4d0545f36339ea957ed7f0dac95b69354933f8453ec9d0c3fe",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/index.js"
+    },
+    {
+      "path": "examples/counter/src/reportWebVitals.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/0b04857b7c4d88e9566c70f3.js",
+      "kind": "upstream-example-code",
+      "bytes": 354,
+      "sha256": "6dc3533b4f14ce7da96be41543d9842b79864d04e1beb5bf4a48a7a1bd986569",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/reportWebVitals.js"
+    },
+    {
+      "path": "examples/counter/src/setupTests.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/1cb1488eef8df8ea6b25619b.js",
+      "kind": "upstream-example-code",
+      "bytes": 240,
+      "sha256": "9e76b47787082f5ca470c4c4213df2804489c57d7749b9e124150b6fd9dbd85d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/counter/src/setupTests.js"
+    },
+    {
+      "path": "examples/shopping-cart/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/53b0d32d9c2390ed315fed18.md",
+      "kind": "official-document",
+      "bytes": 297,
+      "sha256": "05d0dac56053d02b8b514bb3f5268a62d1c6c7bec58bef373bcde0e507529095",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/README.md"
+    },
+    {
+      "path": "examples/shopping-cart/src/actions/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/ff2cd51e4527c536ea517d0f.js",
+      "kind": "upstream-example-code",
+      "bytes": 936,
+      "sha256": "01f2b81d850ee83971b07ce35519119b257cbd3ed52690d59c35ccab33f91e65",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/actions/index.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/api/shop.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/13d08217775fafa5f3e9127f.js",
+      "kind": "upstream-example-code",
+      "bytes": 302,
+      "sha256": "f2eb225a0318a5087064a7db7ed0d5126fa001481d82994016a7692e6d2e6b87",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/api/shop.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/Cart.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/38f6761b193ceece128eee96.js",
+      "kind": "upstream-example-code",
+      "bytes": 865,
+      "sha256": "3ea77177c16e987a3d1d938c50e7a2fc8e24bc513c68a1e785e231b7da86d8d8",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/Cart.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/Cart.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/1410d843281aae3b3c84207a.js",
+      "kind": "upstream-example-code",
+      "bytes": 1768,
+      "sha256": "c4d888448a862df7bee7853a5dcdd267564041e5836cc8d2b3f6b01d11931b3b",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/Cart.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/Product.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/cf910ca1c60345fa0f503a53.js",
+      "kind": "upstream-example-code",
+      "bytes": 331,
+      "sha256": "6782a7a3934d59f5061133906cee38623fae894af615678e98ea92458b9b1a04",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/Product.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/Product.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/27476f30c79e027f0fc5a17e.js",
+      "kind": "upstream-example-code",
+      "bytes": 732,
+      "sha256": "64348021191ad8cd72e38fb3988fd1178e5a5f9cdb44b36efe0c60505a14651a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/Product.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/ProductItem.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/c4e3d8858115f4273778af3d.js",
+      "kind": "upstream-example-code",
+      "bytes": 769,
+      "sha256": "6331bc8568a68d3cc5c7d71342c52838844aeb8bcea3d11f8a3f345eac15ab32",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/ProductItem.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/ProductItem.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/2e31037d43367449347360a2.js",
+      "kind": "upstream-example-code",
+      "bytes": 1711,
+      "sha256": "a2a6bd8fa6af809f8a18278e02f5651d2bf37faf00aa27ae30869a67de46e601",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/ProductItem.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/ProductsList.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/2464e28ef4ca66c25c17142e.js",
+      "kind": "upstream-example-code",
+      "bytes": 300,
+      "sha256": "6c7706830ca370786dc235a57c1c3f918b64ca4f91becd269a3d6cba69f43396",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/ProductsList.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/components/ProductsList.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/e545ab4320a68dd4ab8c48f6.js",
+      "kind": "upstream-example-code",
+      "bytes": 737,
+      "sha256": "8a68eae3c4384c34d515d73ee85ccbfebc84ebd6e3cb839f50b0ec75743eed5e",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/components/ProductsList.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/constants/ActionTypes.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/6d568ae693b9b7e7224d4611.js",
+      "kind": "upstream-example-code",
+      "bytes": 245,
+      "sha256": "cf8bb812d96fcb22130bfb1ca41f4ca01cb95fc10e6f80b3056e7edf581ea2fb",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/constants/ActionTypes.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/containers/App.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/e7110fc8d8b8f99535be4383.js",
+      "kind": "upstream-example-code",
+      "bytes": 287,
+      "sha256": "54d89a2dca21c7454d87224d7f79a3221e5b017251e5bf299c0032998a023ad7",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/containers/App.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/containers/CartContainer.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/5a7ea85b22756f629cf92372.js",
+      "kind": "upstream-example-code",
+      "bytes": 907,
+      "sha256": "31ae6e7e896de9bf0b6d3de5e00fb34a5dbacac11c3a5a2ceba5e2b620197b51",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/containers/CartContainer.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/containers/ProductsContainer.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/2a97152cd3502935cd83fea9.js",
+      "kind": "upstream-example-code",
+      "bytes": 1069,
+      "sha256": "cda74a22bd101ca40223913117f2c4d920b95950abdbee90ff887e031f23d503",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/containers/ProductsContainer.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/dbd29453fac3be4dc26a6424.js",
+      "kind": "upstream-example-code",
+      "bytes": 655,
+      "sha256": "faf37230cc14222652556905cadbed67d7fdf6cc45f51a2c90cd340605479690",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/index.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/reducers/cart.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/d7985fd36b798d4553fdbd1c.js",
+      "kind": "upstream-example-code",
+      "bytes": 1185,
+      "sha256": "b3085d93fe8f9565fc5e80a9c936c94679cc620996ac21c688be8a60846d731f",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/reducers/cart.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/reducers/cart.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/34fc09e0f8ac91fb79f0ca22.js",
+      "kind": "upstream-example-code",
+      "bytes": 1205,
+      "sha256": "7f94e6b8d4f3abe884227c71a94500cedf728957c0235f0ff910dbc70abda709",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/reducers/cart.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/reducers/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/74706bb1e20de3a9c68b5278.js",
+      "kind": "upstream-example-code",
+      "bytes": 740,
+      "sha256": "d3560857bf86417a2018bb57c579f07a32f016d71b69c3dc78b08a263cf6603a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/reducers/index.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/reducers/index.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/ab0877f657c8400111428f47.js",
+      "kind": "upstream-example-code",
+      "bytes": 1578,
+      "sha256": "08b44e444ac97b1e189cd156213ebd3ea0485ecc4d6783723a9a6df0898ca646",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/reducers/index.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/reducers/products.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/cc60d8c2cd578c16af1bdf93.js",
+      "kind": "upstream-example-code",
+      "bytes": 1188,
+      "sha256": "3d744f7adf0b8097b0ccfb1cbec9aec58585682c32db4cc4c8e2b3bd0918b281",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/reducers/products.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/reducers/products.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/0a036e59d9091d13d7216e20.js",
+      "kind": "upstream-example-code",
+      "bytes": 1954,
+      "sha256": "d95eaf7c9f2f75f968dbd0959425d7e9731709123206993907ecc882adaa0118",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/reducers/products.spec.js"
+    },
+    {
+      "path": "examples/shopping-cart/src/setupTests.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/e4d9642c943627e935c87e05.js",
+      "kind": "upstream-example-code",
+      "bytes": 120,
+      "sha256": "70936b88bfe21ffde5273bf5c863cdcf6ca39d6e7fd7f60fe2f2212dbcfccd95",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/shopping-cart/src/setupTests.js"
+    },
+    {
+      "path": "examples/testAll.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/71de59566cfeb6c512a5e98d.js",
+      "kind": "upstream-example-code",
+      "bytes": 1296,
+      "sha256": "ec4fba3c0fe294629971d8101144528ff2a74b21eedddb80a3d51dac5f6f7d7b",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/testAll.js"
+    },
+    {
+      "path": "examples/todos/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/5b2bff76406205a2b9a6cd34.md",
+      "kind": "official-document",
+      "bytes": 289,
+      "sha256": "a3666ea06f4f845aa62e410839f10bd3054035a83ca73a75093a3035d27975df",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/README.md"
+    },
+    {
+      "path": "examples/todos/src/actions/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/3dce4a86c2b4fcb7661ab667.js",
+      "kind": "upstream-example-code",
+      "bytes": 391,
+      "sha256": "370acc4c11b4996560163f22899236bfd385429aec2d6ea4f8f4819fe29639c0",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/actions/index.js"
+    },
+    {
+      "path": "examples/todos/src/actions/index.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/a0ee09d3aef1d9bf0907f0db.js",
+      "kind": "upstream-example-code",
+      "bytes": 618,
+      "sha256": "a7768fe9ced59c987574c8976377910a8338f8522133afdb87d4ed3adf18044d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/actions/index.spec.js"
+    },
+    {
+      "path": "examples/todos/src/components/App.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/6060a734e82b2645e697bf84.js",
+      "kind": "upstream-example-code",
+      "bytes": 275,
+      "sha256": "59c25a57bb135e04876e62797c684acbbdd25ab6d95982e54ead614119d54eee",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/components/App.js"
+    },
+    {
+      "path": "examples/todos/src/components/Footer.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/c05c67819a50761caeb1f5d6.js",
+      "kind": "upstream-example-code",
+      "bytes": 438,
+      "sha256": "fe24aeaaac906dd6a53b12652db19db3613f71d99683558bebf5635ed58aa5bf",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/components/Footer.js"
+    },
+    {
+      "path": "examples/todos/src/components/Link.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/871fee66da284bb3ddd52448.js",
+      "kind": "upstream-example-code",
+      "bytes": 399,
+      "sha256": "afda8d2b2218f8d19cbfc7fc789ee98a56e517bc16a298f5bc105c2bd78aa573",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/components/Link.js"
+    },
+    {
+      "path": "examples/todos/src/components/Todo.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/51d69d1f2da4ff5f16da2fc8.js",
+      "kind": "upstream-example-code",
+      "bytes": 399,
+      "sha256": "92e4f3a8c8d5d3270b1679169ba038c6e806ee2920d76b8bb5f028ce2992c1cd",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/components/Todo.js"
+    },
+    {
+      "path": "examples/todos/src/components/TodoList.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/72d7cf91210ecd19b3c4cb14.js",
+      "kind": "upstream-example-code",
+      "bytes": 557,
+      "sha256": "217768656923abee43a75b262a728bcb40a613e66b552ffa81eab6114db553ca",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/components/TodoList.js"
+    },
+    {
+      "path": "examples/todos/src/containers/AddTodo.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/8dddbe3c0f973559f2bdfa2a.js",
+      "kind": "upstream-example-code",
+      "bytes": 554,
+      "sha256": "ba7241fb079f573e4d947dae96b8f9f9e0e78696b3f98b88e8d2443d8156437c",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/containers/AddTodo.js"
+    },
+    {
+      "path": "examples/todos/src/containers/FilterLink.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/cb882f6303e0b7dc44cc6421.js",
+      "kind": "upstream-example-code",
+      "bytes": 419,
+      "sha256": "490d05fefea81de8d4992f8351663852383b71f1cd5764b00964c2ee83f59766",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/containers/FilterLink.js"
+    },
+    {
+      "path": "examples/todos/src/containers/VisibleTodoList.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/45b9e8538ea4e086df888ede.js",
+      "kind": "upstream-example-code",
+      "bytes": 799,
+      "sha256": "c9ac67f393db3ce4d5d142aeeda279a206dc4a6c4f0b539fb03540758eba383b",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/containers/VisibleTodoList.js"
+    },
+    {
+      "path": "examples/todos/src/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/2754bc755220735d6c9a1a34.js",
+      "kind": "upstream-example-code",
+      "bytes": 347,
+      "sha256": "1a5c723404975a32516a7d258b030cb3bf948815f8d361cec29197001a7ff8ee",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/index.js"
+    },
+    {
+      "path": "examples/todos/src/reducers/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/b34cd2617f690f4bae4b66ed.js",
+      "kind": "upstream-example-code",
+      "bytes": 183,
+      "sha256": "c4aa92bb1845047316253e7db95e6a242e8987f6e60f6c8c5be24475a0b79d03",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/reducers/index.js"
+    },
+    {
+      "path": "examples/todos/src/reducers/todos.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/73ecad9c9290b9ea255aad3a.js",
+      "kind": "upstream-example-code",
+      "bytes": 430,
+      "sha256": "ab325bc01fa191aa4e6942bf17030dbbf7a8262c47bb6e9ebb35eecb5269df74",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/reducers/todos.js"
+    },
+    {
+      "path": "examples/todos/src/reducers/todos.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/00d4dcefae615e8ac7c7363d.js",
+      "kind": "upstream-example-code",
+      "bytes": 2092,
+      "sha256": "cb260fb1ad87806cd5a6738c9b0ec678bd25046e67c0f9ac86f2a260f1cf28a7",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/reducers/todos.spec.js"
+    },
+    {
+      "path": "examples/todos/src/reducers/visibilityFilter.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/a41ebf76418ffbeaccd14438.js",
+      "kind": "upstream-example-code",
+      "bytes": 280,
+      "sha256": "0bc8f08d94a19b9de7e7ad599f41a328b1ac0de646972370235e35b92fee67ce",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/todos/src/reducers/visibilityFilter.js"
+    },
+    {
+      "path": "examples/tree-view/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/68a2e1ef0d2e9965fa5e3911.md",
+      "kind": "official-document",
+      "bytes": 293,
+      "sha256": "e7fe764b72e835a6a2dda155b0973b622dea2e1e17d58105678703796c18302b",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/README.md"
+    },
+    {
+      "path": "examples/tree-view/src/actions/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/b3a836d27c3f40f53b1a7d5a.js",
+      "kind": "upstream-example-code",
+      "bytes": 633,
+      "sha256": "3ee728d96505b7cd401e0ac0d8439066ea796eebefea2dc43c95fc3dc63e938c",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/actions/index.js"
+    },
+    {
+      "path": "examples/tree-view/src/containers/Node.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/33d2eb62b246625bcbd5b4a6.js",
+      "kind": "upstream-example-code",
+      "bytes": 1764,
+      "sha256": "b25555957bee163d2eed7fdf72a7354280552b19829b81b91d4c3ed734cbc5ed",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/containers/Node.js"
+    },
+    {
+      "path": "examples/tree-view/src/containers/Node.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/0098cb4f38df660d236172a5.js",
+      "kind": "upstream-example-code",
+      "bytes": 2660,
+      "sha256": "8ae6e211cc9fb6f747fadd13d747e035b538fe6ffdec95c71f5e4e63b5ff1d4a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/containers/Node.spec.js"
+    },
+    {
+      "path": "examples/tree-view/src/generateTree.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/de542156c0a66e281d5bd686.js",
+      "kind": "upstream-example-code",
+      "bytes": 352,
+      "sha256": "7a8e684815257c0802ca004bbcf0770ea7643b2e647a0453d1175790ac4e5557",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/generateTree.js"
+    },
+    {
+      "path": "examples/tree-view/src/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/ca8bc2cf05f4ec2515a49389.js",
+      "kind": "upstream-example-code",
+      "bytes": 425,
+      "sha256": "264ac459749065a1f76f4f289bfebed4cd695b9ab8b0fb0d64d1c1867587dee4",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/index.js"
+    },
+    {
+      "path": "examples/tree-view/src/reducers/index.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/a09e1681ab6b50964b4a4d5c.js",
+      "kind": "upstream-example-code",
+      "bytes": 1435,
+      "sha256": "01b5692ea6cb1e2bef44956734bf8f77bb1e067d5b95708642df58b8fb5a6a55",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/reducers/index.js"
+    },
+    {
+      "path": "examples/tree-view/src/reducers/index.spec.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/1b58b5563078130d66bd9b0e.js",
+      "kind": "upstream-example-code",
+      "bytes": 3297,
+      "sha256": "87530f5805189ee2bb7a9b8c52bea63322cc32d3a2508755bfc6df98c48cab27",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/reducers/index.spec.js"
+    },
+    {
+      "path": "examples/tree-view/src/setupTests.js",
+      "localPath": "raw/reduxjs--redux/56abca474992/ef38523b9c1046f7e656e6fc.js",
+      "kind": "upstream-example-code",
+      "bytes": 120,
+      "sha256": "70936b88bfe21ffde5273bf5c863cdcf6ca39d6e7fd7f60fe2f2212dbcfccd95",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/examples/tree-view/src/setupTests.js"
+    },
+    {
+      "path": "logo/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/720b6e18aad3014bf73f7706.md",
+      "kind": "official-document",
+      "bytes": 1781,
+      "sha256": "04acbb5d681f381d54a6ca75421e4600435ff12ee875f5de9f9cd2a41574159a",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/logo/README.md"
+    },
+    {
+      "path": "website/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/0eb684c3ea7be1b3de6b0b15.md",
+      "kind": "official-document",
+      "bytes": 705,
+      "sha256": "6f91f9de2d882f6914a48ea4cf7805f4106c020ecabc785bd11bc33f73520cd2",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/website/README.md"
+    },
+    {
+      "path": "website/plugins/remark-typescript-tools/LICENSE",
+      "localPath": "raw/reduxjs--redux/56abca474992/ed22386be03ac5f5e79ec99c.txt",
+      "kind": "license",
+      "bytes": 1066,
+      "sha256": "fdcec33dfa70e80e72b36939e43d2690ae4ea8b403bb3786c8370e9acafbcff6",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/website/plugins/remark-typescript-tools/LICENSE"
+    },
+    {
+      "path": "website/plugins/remark-typescript-tools/README.md",
+      "localPath": "raw/reduxjs--redux/56abca474992/7ab1b714a7f65d7a64ac7a41.md",
+      "kind": "official-document",
+      "bytes": 2351,
+      "sha256": "8209f104ec58c05680ec84aedad54e70f8ce2545200951ca47171b66f5cc5f0d",
+      "sourceUrl": "https://github.com/reduxjs/redux/blob/56abca4749921d68f40cda20afd2043af9751f72/website/plugins/remark-typescript-tools/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

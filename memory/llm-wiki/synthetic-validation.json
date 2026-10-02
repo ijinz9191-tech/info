@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-02",
+  "kind": "local-synthetic-contract-checks",
+  "productionIncidentReproduction": false,
+  "checks": [
+    {
+      "runtime": "Python 3.13.13",
+      "result": "PASS",
+      "scope": [
+        "CancelledError propagation and finally cleanup",
+        "TaskGroup sibling cancellation on ValueError"
+      ],
+      "notTested": [
+        "Python 3.14 eager start",
+        "production I/O"
+      ]
+    },
+    {
+      "runtime": "Node 24.13.1",
+      "result": "PASS",
+      "scope": [
+        "typeof null",
+        "truthy filter drops zero and empty string",
+        "nullish filter preserves them"
+      ],
+      "notTested": [
+        "TypeScript compilation"
+      ]
+    },
+    {
+      "runtime": "JDK 21.0.10",
+      "result": "PASS",
+      "scope": [
+        "Thread.ofVirtual execution",
+        "virtual-thread-per-task executor"
+      ],
+      "notTested": [
+        "pinning",
+        "JFR",
+        "throughput"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "status": "INCOMPLETE",
+  "sourcesReadThisPass": 80,
+  "synthesizedPagesThisPass": 80,
+  "sourceRepositoriesAcquired": 428,
+  "allSourceDocumentsReviewed": false,
+  "runtimeReproductionPerformed": false,
+  "nativeOpenVikingStorage": "UNAVAILABLE",
+  "modelWeightTrainingPerformed": false,
+  "commitPushDeferredUntilRequestedCompletion": false,
+  "limits": [
+    "No exhaustive coverage of every language/framework/CNCF version",
+    "No configured OpenViking endpoint/authentication in current execution environment",
+    "Target training model remains undecided"
+  ],
+  "openVikingResourceFilesPreparedThisPass": 82,
+  "wikiLint": "PASS",
+  "localQueryReadback": "PASS",
+  "wikiPath": "llm-wiki",
+  "importManifest": "openviking/verified-synthesis/manifest.json",
+  "additionalDiagnosticScenarios": 358,
+  "syntheticContractValidation": {
+    "date": "2026-10-02",
+    "kind": "local-synthetic-contract-checks",
+    "productionIncidentReproduction": false,
+    "checks": [
+      {
+        "runtime": "Python 3.13.13",
+        "result": "PASS",
+        "scope": [
+          "CancelledError propagation and finally cleanup",
+          "TaskGroup sibling cancellation on ValueError"
+        ],
+        "notTested": [
+          "Python 3.14 eager start",
+          "production I/O"
+        ]
+      },
+      {
+        "runtime": "Node 24.13.1",
+        "result": "PASS",
+        "scope": [
+          "typeof null",
+          "truthy filter drops zero and empty string",
+          "nullish filter preserves them"
+        ],
+        "notTested": [
+          "TypeScript compilation"
+        ]
+      },
+      {
+        "runtime": "JDK 21.0.10",
+        "result": "PASS",
+        "scope": [
+          "Thread.ofVirtual execution",
+          "virtual-thread-per-task executor"
+        ],
+        "notTested": [
+          "pinning",
+          "JFR",
+          "throughput"
+        ]
+      }
+    ]
+  },
+  "distinctNewIncidentCount": "NOT_ESTABLISHED",
+  "semanticDeduplication": "PENDING",
+  "reviewedOfficialPagesThisPass": 77,
+  "reviewedPublicIssuePagesThisPass": 3,
+  "syntheticInstructionDataset": {
+    "trainExamples": 322,
+    "evalExamples": 35,
+    "reviewedDocuments": 80,
+    "pageSplitLeakage": false,
+    "sourceGroupSplitLeakage": false,
+    "semanticDuplicateExamplesExcluded": [
+      "SYN-CILIUM-CAPACITY-002"
+    ],
+    "semanticCompleteness": "NOT_PROVEN"
+  },
+  "fullRawDataset": {
+    "repositories": 428,
+    "uniqueDocuments": 188679,
+    "trainChunks": 251937,
+    "evalChunks": 13306,
+    "validation": "PASS",
+    "new428thRepositoryBuild": "PASS_FULL_READBACK",
+    "validationReport": "raw-corpus-validation.json"
+  },
+  "openVikingVerifiedSynthesisRefresh": "PASS_LOCAL_HASH_READBACK",
+  "nativeImporterSupplementOption": {
+    "available": true,
+    "sourceHashCheck": "PASS_80_PAGE_82_RESOURCE_SNAPSHOT",
+    "traversalAndTamperTests": "PASS",
+    "nativeImportPerformed": false,
+    "pythonFormatting": "UNAVAILABLE",
+    "ownerHelperImportIncludesSupplement": true
+  },
+  "datasetPreparationStatus": "VERIFIED_MODEL_NEUTRAL_DATASET",
+  "ownerResourceVerification": "PASS_FULL_BASELINE_PLUS_CONTROLLED_SYNTHESIS_DELTA",
+  "publicationStatus": "VERIFIED_SNAPSHOT; publication evidence is the Git remote ref"
+}

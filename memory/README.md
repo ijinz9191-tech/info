@@ -1,11 +1,14 @@
 # 개발 지식 위키
 
-확인일: 2026-09-30. 이 폴더는 네트워크가 차단되어도 읽을 수 있는 **범용 개발 지식의 자체 요약본**이다. 특정 개인 프로젝트, 회사 자료, 에이전트 스킬 내용은 포함하지 않는다. 외부 링크는 근거와 재검증용이며, 오프라인에서는 이 폴더의 Markdown만으로 핵심 개념과 점검 절차를 읽을 수 있다.
+요약 가이드 확인일: 2026-09-30. 공개 원문·학습 데이터 확장: 2026-10-02. 이 폴더에는 네트워크가 차단되어도 읽을 수 있는 범용 개발 지식의 자체 요약과 커밋 SHA로 고정한 공개 원문·예제 코드가 있다. 특정 개인 프로젝트, 회사 자료, 사용자 스킬 내용은 포함하지 않는다. 원문별 수집 시각과 누락은 별도 장부에 기록한다.
 
 ## 찾아보기
 
 | 질문 | 문서 |
 |---|---|
+| 대량 원문·코드·장애 관련 절은 얼마나 확보했나? | [실제 수집 범위](corpus-overview.md) |
+| 모델을 정하기 전 학습용 데이터를 준비하려면? | [학습 데이터셋](training/README.md), [해시·건수 장부](training/manifest.json) |
+| 공식 원문 전체를 저장소별로 읽으려면? | [OpenViking 원문 색인](openviking/resources/official-corpus/README.md) |
 | 언어별 자료형·오류·동시성·도구는? | [언어](languages.md) |
 | 다른 언어까지 넓게 훑으려면? | [언어 확장 지도](language-atlas.md) |
 | 웹부터 임베디드·ML·인프라까지 개발 분야를 보려면? | [개발 분야 지도](domain-atlas.md) |
@@ -20,6 +23,7 @@
 | 공개 VOC 증상별 원인·조치·검증을 찾으려면? | [VOC 사례집](voc-public.md) |
 | 모든 수록 언어의 대표적인 장애 유형을 찾으려면? | [언어별 VOC](voc-languages.md) |
 | CNCF 프로젝트 분야별 대표 장애 유형을 찾으려면? | [CNCF 분야별 VOC](voc-cncf.md) |
+| 언어·CNCF·프레임워크의 추가 장애 사례를 찾으려면? | 언어 [55건](voc-languages-extra.md)·[20건](voc-languages-more.md), CNCF [27건](voc-cncf-extra.md)·[46건](voc-cncf-projects-extra.md)·[21건](voc-cncf-more.md), 프레임워크 [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[22건](voc-frameworks-deeper.md) |
 | 언어별 예외와 성능 오류는 어디서부터 찾나? | [디버깅](debugging.md) |
 | 네트워크·DB·동시성·테스트·보안의 공통 원칙은? | [시스템 기초](systems.md) |
 | 데이터베이스·스트림·분산 실패를 자세히 보려면? | [데이터와 분산 시스템](data-distributed.md) |
@@ -27,6 +31,7 @@
 | 유명 오픈소스의 코드를 어디부터 읽나? | [GitHub 코드 읽기](github-code.md) |
 | 오픈소스 설계 패턴을 오프라인에서 이해하려면? | [코드 패턴](code-patterns.md) |
 | 출처의 변경을 어떻게 확인하나? | [출처 목록](sources.json), [갱신 절차](maintenance.md) |
+| OpenViking 계층에서 사례와 CNCF 항목을 찾으려면? | [OpenViking 리소스](openviking/README.md), [생성 manifest](openviking/manifest.json) |
 | 지금 어느 범위까지 작성됐고 다음 확장은? | [범위 장부](coverage.md) |
 
 ## 사용 원칙

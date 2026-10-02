@@ -1,0 +1,126 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+
+= Servlet support
+
+The `groovy-servlet` module supports the following features:
+
+* A `GroovyServlet` class let you use Groovy scripts as Servlets (called _Groovylets_).
+* A `TemplateServlet` class which supports running Groovy's template engines to generate servlet content. A typical use case is to write Groovy Server Pages (GSPs) which are similar to Java Server Pages (JSPs) but embed Groovy code
+rather than Java code.
+* An `AbstractHttpServlet` class for defining traditional Servlets.
+* Helper classes like `ServletBinding` and `ServletCategory` which let you access some of the features offered by the `groovy-servlet` module in additional contexts.
+
+From Groovy 6, `groovy-servlet` targets Jakarta EE 11 (Servlet 6.1). It is compatible with Jakarta EE 10 (Servlet 6.0) containers as it does not use Servlet 6.1-exclusive APIs. The `javax` classifier is available for pre-Jakarta containers (e.g. Tomcat 9, Jetty 9).
+
+== Groovlets
+
+You can write (Java) Servlets in Groovy (called Groovlets).
+
+This is supported by the `GroovyServlet` class. It will automatically compile your `.groovy` source files, turn them into bytecode, load the Class and cache it until you change the source file.
+
+Here's a simple example to show you the kind of things you can do from a Groovlet.
+
+Notice the use of implicit variables to access the `session`, `output` and `request`. Also notice that this is more like a script as the code isn't wrapped with a class definition.
+
+[source,groovy]
+----
+include::../test/servlet/GroovyServletTest.groovy[tags=example,indent=0]
+----
+
+Or, do the same thing using MarkupBuilder:
+
+[source,groovy]
+----
+include::../test/servlet/GroovyServletTest.groovy[tags=example_markup_builder,indent=0]
+----
+
+== Implicit variables
+
+The following variables are ready for use in Groovlets:
+
+[options="header",cols="1,1,1a"]
+|============================================
+|variable name|bound to|note
+|request|ServletRequest|-
+|response|ServletResponse|-
+|context|ServletContext|-
+|application|ServletContext|-
+|session|getSession(false)|can be null! see <1>
+|params||a Map object
+|headers||a Map object
+|out|response.getWriter()|see <2>
+|sout|response.getOutputStream()|see <2>
+|html|new MarkupBuilder(out)|see <2>
+|json|new StreamingJsonBuilder(out)|see <2>
+|============================================
+1. The session variable is only set, if there was already a session object. See the `if (session == null)` checks in the examples above.
+2. These variables cannot be re-assigned inside a `Groovlet`. They are bound on first access, allowing to e.g. calling methods on the `response` object before using `out`.
+
+== Setting up Groovlets
+
+The traditional configuration approach for declaring new servlets is to add them to your Servlet engine configuration, e.g. you might add the following to your `web.xml`:
+[source,xml]
+------------------------------------------------------------------------------
+<servlet>
+    <servlet-name>Groovy</servlet-name>
+    <servlet-class>groovy.servlet.GroovyServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>Groovy</servlet-name>
+    <url-pattern>*.groovy</url-pattern>
+</servlet-mapping>
+------------------------------------------------------------------------------
+
+Then put the required groovy jar files into `WEB-INF/lib`.
+
+Now put the .groovy files in, say, the root directory (i.e. where you would put your html files). The `GroovyServlet` takes care of compiling the .groovy files.
+
+So for example using https://tomcat.apache.org/[Apache Tomcat] you could edit `tomcat/conf/server.xml` like this:
+[source,xml]
+------------------------------------------------------------------------------
+<Context path="/groovy" docBase="/path_to_servlet_base"/>
+------------------------------------------------------------------------------
+
+Then access it with http://localhost:8080/groovy/hello.groovy
+
+Some Servlet engines let you define Servlets programmatically, e.g. here is how you might use https://jetty.org/[Jetty] with Groovlets enabled:
+
+[source,groovy]
+----
+import groovy.servlet.GroovyServlet
+import org.eclipse.jetty.server.Server
+import org.eclipse.jetty.ee9.servlet.ServletContextHandler
+
+var server = new Server(8080)
+var handler = new ServletContextHandler(server, '/', ServletContextHandler.SESSIONS)
+handler.baseResourceAsString = 'path_to_servlet_base'
+handler.addServlet(GroovyServlet, '*.groovy')
+server.start()
+server.join()
+----
+
+== Error responses
+
+When a Groovlet fails, `GroovyServlet` returns a generic `500` response to the client by default and writes the full detail — the script path, the exception message and a stack frame — to the servlet and application logs. This keeps internal detail out of responses sent to callers.
+
+While developing, you can restore the detailed client responses by setting the `groovy.servlet.verbose.errors` system property to `true` (for example, `-Dgroovy.servlet.verbose.errors=true`), or by overriding the `isVerboseErrors()` method in a `GroovyServlet` subclass.

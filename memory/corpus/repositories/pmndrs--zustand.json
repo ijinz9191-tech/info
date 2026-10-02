@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "repo": "pmndrs/zustand",
+  "commit": "d7a5583cffd80af515f7dfb69583c95cbdc9e2ce",
+  "retrievedAt": "2026-10-01T15:26:09.853295+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/react"
+  ],
+  "archiveUrl": "https://codeload.github.com/pmndrs/zustand/zip/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce",
+  "archiveSha256": "137327d2b68006aba83a3319890a92163f225d7b0aea03a9fff0a2406b5da0be",
+  "archiveBytes": 1242017,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 45,
+    "code": 17,
+    "licenses": 1,
+    "bytes": 409719
+  },
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 4848,
+      "sha256": "8458674e83f4635a06751d4d189432319ab569d86c689490125417db0a1fc87e",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1070,
+      "sha256": "c1e6e266563517467b1bf874817d23e426f3149252bd7d42758cd697514b8417",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 17827,
+      "sha256": "3a53f23dae9f33f7b951cfc6eac1dbdb7def9c722d8f32a70d85190f47d11d5b",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/README.md"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 1201,
+      "sha256": "c824d1192584167ea6f0ee3fc6a6a8d96d500d9cf521327d4ed5daaa8c2fc1b4",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/index.md"
+    },
+    {
+      "path": "docs/learn/getting-started/comparison.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/372abf547ce8738cd5bf9ee0.md",
+      "kind": "official-document",
+      "bytes": 9947,
+      "sha256": "0445d0083e105f23d9f976f3faaf7b6d75bd0d03288208f9afe6f8441deee85d",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/getting-started/comparison.md"
+    },
+    {
+      "path": "docs/learn/getting-started/introduction.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/e1b6bf12d1886f5d2bcb191c.md",
+      "kind": "official-document",
+      "bytes": 2052,
+      "sha256": "47b4a29aab92db85204506e7ff83a9474d32597a37424ca27c85e2eab941dbaf",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/getting-started/introduction.md"
+    },
+    {
+      "path": "docs/learn/guides/advanced-typescript.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/da405a24d463c68051978a0f.md",
+      "kind": "official-document",
+      "bytes": 19663,
+      "sha256": "809c9a5d5d128d933b93c00a9c69acbed9642754c08e4b59e749d6e0d9ea3601",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/advanced-typescript.md"
+    },
+    {
+      "path": "docs/learn/guides/auto-generating-selectors.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/314a231054ac2e3ee63d779d.md",
+      "kind": "official-document",
+      "bytes": 3397,
+      "sha256": "30aa59f9da7a3a6017e3baccc1fed2054fa2a5129892326209998e2a6d653e49",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/auto-generating-selectors.md"
+    },
+    {
+      "path": "docs/learn/guides/beginner-typescript.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/31ae2884d6dcdc8c4c3bfe21.md",
+      "kind": "official-document",
+      "bytes": 10966,
+      "sha256": "14e0f6421c9b31714c5f8f47e2dba744d21fe34913c3f1f83393b6f68c654274",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/beginner-typescript.md"
+    },
+    {
+      "path": "docs/learn/guides/connect-to-state-with-url-hash.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/f487928e887a8bda4153bf24.md",
+      "kind": "official-document",
+      "bytes": 4717,
+      "sha256": "0cf318e8ffae5926123e0ef2c7e6a369dad6cc6a222c0e5daf5a1ac9274338c0",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/connect-to-state-with-url-hash.md"
+    },
+    {
+      "path": "docs/learn/guides/event-handler-in-pre-react-18.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/f1b7033a7efb92016a73fa25.md",
+      "kind": "official-document",
+      "bytes": 827,
+      "sha256": "5811456be239fc5c604c85c8a478bfabd7ed90144e3a726c8d510091f246c0a2",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/event-handler-in-pre-react-18.md"
+    },
+    {
+      "path": "docs/learn/guides/flux-inspired-practice.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/22208bdab66db40538d39459.md",
+      "kind": "official-document",
+      "bytes": 2757,
+      "sha256": "b2fdd3d8bd8a7ff8cf216850bb51bd5c3da1d901577f634c1c80aff91077b3aa",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/flux-inspired-practice.md"
+    },
+    {
+      "path": "docs/learn/guides/how-to-reset-state.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/63685ea4a8132388f8b47ada.md",
+      "kind": "official-document",
+      "bytes": 971,
+      "sha256": "7a3548e9198db3648d96f546b72a19b7fe75f4cf106af9173d050c8e7b07fe4e",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/how-to-reset-state.md"
+    },
+    {
+      "path": "docs/learn/guides/immutable-state-and-merging.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/26f93364a0049d7d0ae80190.md",
+      "kind": "official-document",
+      "bytes": 1398,
+      "sha256": "ac98f6a0f7d27223aa53ae51e07c00ac9b431b6130fe2a4b03f35fc7341ab830",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/immutable-state-and-merging.md"
+    },
+    {
+      "path": "docs/learn/guides/initialize-state-with-props.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/c9826b1642815c7089791892.md",
+      "kind": "official-document",
+      "bytes": 4046,
+      "sha256": "d2cd795d688a0f7f0341ec5cc4f95b4ce993a494aac2e953a9fb6de1eaabda07",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/initialize-state-with-props.md"
+    },
+    {
+      "path": "docs/learn/guides/maps-and-sets-usage.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/6eaa79254b4369d29bd6ad19.md",
+      "kind": "official-document",
+      "bytes": 1967,
+      "sha256": "20f428c740e8d94629accdcb91f4e02baace0a2c44b766127d6aab7bbce0f3a2",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/maps-and-sets-usage.md"
+    },
+    {
+      "path": "docs/learn/guides/nextjs.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/babcd4db378af97fd92c835c.md",
+      "kind": "official-document",
+      "bytes": 8821,
+      "sha256": "c9e70460ca6f4b43b001c12644f1aeacf9a51b4bdb247a5ae11a6d32bee089c6",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/nextjs.md"
+    },
+    {
+      "path": "docs/learn/guides/practice-with-no-store-actions.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/649c26ee6ab1beec1f90d53b.md",
+      "kind": "official-document",
+      "bytes": 1009,
+      "sha256": "321d2c59cde9168c7631b9a68168509181dc62812550dc5a64867cd9d0ec6b8d",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/practice-with-no-store-actions.md"
+    },
+    {
+      "path": "docs/learn/guides/prevent-rerenders-with-use-shallow.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0ac6732c7c1c21199101dc2e.md",
+      "kind": "official-document",
+      "bytes": 1691,
+      "sha256": "5990435ebe4a6bad9dabcd7d86d784136a59bc1840330708f370b93f1f056da0",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/prevent-rerenders-with-use-shallow.md"
+    },
+    {
+      "path": "docs/learn/guides/slices-pattern.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/64e5cac4e4394686bc037c42.md",
+      "kind": "official-document",
+      "bytes": 2999,
+      "sha256": "a2ea1113f7a1999e666208548bd5a5b37289d45db50d925ad59daa015e3af41a",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/slices-pattern.md"
+    },
+    {
+      "path": "docs/learn/guides/ssr-and-hydration.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/f2840dd45ffdac6cfeee6c9a.md",
+      "kind": "official-document",
+      "bytes": 4956,
+      "sha256": "d8a8462ade98ab1c63dc87f3f7416da1fde746d8e7cb0d4459581afe59fe770c",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/ssr-and-hydration.md"
+    },
+    {
+      "path": "docs/learn/guides/testing.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/b58184a41051c5c3a249e462.md",
+      "kind": "official-document",
+      "bytes": 21237,
+      "sha256": "023915540f028aa39d43c2b78489bf2f8e73c3f3276c302c4f479540ebc9b068",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/testing.md"
+    },
+    {
+      "path": "docs/learn/guides/tutorial-tic-tac-toe.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/2a6f52bc406483e94ac08e35.md",
+      "kind": "official-document",
+      "bytes": 41931,
+      "sha256": "aa777c904c781fbb90e1c0cf4b18ea93edb2c988c3baac3b771e66fdbf7978cd",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/tutorial-tic-tac-toe.md"
+    },
+    {
+      "path": "docs/learn/guides/updating-state.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/3b33413aa45f99db85310350.md",
+      "kind": "official-document",
+      "bytes": 3346,
+      "sha256": "2836f72579812ae32a72bdb4f27935be67dbd5f848cde2562f48cadcf0e473cb",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/guides/updating-state.md"
+    },
+    {
+      "path": "docs/learn/index.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0281bb3a5aeffa7edcd99825.md",
+      "kind": "official-document",
+      "bytes": 3202,
+      "sha256": "912d93c87543a3d26a266e6236d5ee0ce0808049874546b6052053dd487f98b9",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/learn/index.md"
+    },
+    {
+      "path": "docs/reference/apis/create-store.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/e188e8b96ad17e019f3caf5b.md",
+      "kind": "official-document",
+      "bytes": 15174,
+      "sha256": "020fc18378a86d8b7b26e1af1b3b169b6195007f7ee50d766adec5993f50635b",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/apis/create-store.md"
+    },
+    {
+      "path": "docs/reference/apis/create-with-equality-fn.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/14d11c2b8579387e32f91832.md",
+      "kind": "official-document",
+      "bytes": 17168,
+      "sha256": "e4bb4a3738f63004bbacbc84e199f0bcd51cde5115a55e30d7a35b4124e19cd5",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/apis/create-with-equality-fn.md"
+    },
+    {
+      "path": "docs/reference/apis/create.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/b8b35a63e481eacd928b875c.md",
+      "kind": "official-document",
+      "bytes": 15570,
+      "sha256": "239fbc426a5bcf847edd4039cf68cdc23ab1a098d7bd5f785efe3303374eb5a5",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/apis/create.md"
+    },
+    {
+      "path": "docs/reference/apis/shallow.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/fa4e63d8b4636b79e7d0cd61.md",
+      "kind": "official-document",
+      "bytes": 7037,
+      "sha256": "acdf95ab448110df31e63a87160bfbc7ca598b2b9048efae57f1a27d67288468",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/apis/shallow.md"
+    },
+    {
+      "path": "docs/reference/hooks/use-shallow.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/148ddc7f22890ee2f40ac35b.md",
+      "kind": "official-document",
+      "bytes": 7312,
+      "sha256": "e1031980aef05ac4c52826b600db77a89158856af4871ccf3126ff9480165c72",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/hooks/use-shallow.md"
+    },
+    {
+      "path": "docs/reference/hooks/use-store-with-equality-fn.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/c72e67f754cf02d7902ad394.md",
+      "kind": "official-document",
+      "bytes": 23769,
+      "sha256": "2fdd3c09cb0475e60a8bccf3f20775c516f3cb4247c0ada1a8b947a696aac239",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/hooks/use-store-with-equality-fn.md"
+    },
+    {
+      "path": "docs/reference/hooks/use-store.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0042719aaae08acb6ee6cded.md",
+      "kind": "official-document",
+      "bytes": 22432,
+      "sha256": "83e56cc5a81f154743bca58ce003278fe3ca9d50611723d60f0e26efd3f38968",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/hooks/use-store.md"
+    },
+    {
+      "path": "docs/reference/index.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/10ee1c712cf0123e4f9457ce.md",
+      "kind": "official-document",
+      "bytes": 2666,
+      "sha256": "67a5910a1bcb92352c223fcfec44c7209f185f5cfe86bc66dcdcda170618176b",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/index.md"
+    },
+    {
+      "path": "docs/reference/integrations/immer-middleware.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/3f99a014623e1ee6698c3dc0.md",
+      "kind": "official-document",
+      "bytes": 3099,
+      "sha256": "267d435664f8624c3e051c857715a19a58299485bc94135bd1cbf60caea1f0c5",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/integrations/immer-middleware.md"
+    },
+    {
+      "path": "docs/reference/integrations/persisting-store-data.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/204ce184d72ee5f377d245af.md",
+      "kind": "official-document",
+      "bytes": 20311,
+      "sha256": "932d23dd7b1258c919467d55cb399b18512a5d23593db44f99b1709b2a271d1f",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/integrations/persisting-store-data.md"
+    },
+    {
+      "path": "docs/reference/integrations/third-party-libraries.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/2d317ec427870c20d25573f8.md",
+      "kind": "official-document",
+      "bytes": 10199,
+      "sha256": "3592063a81b8820f2b1dbf148350939436f12553464fda0038450b899216bc8a",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/integrations/third-party-libraries.md"
+    },
+    {
+      "path": "docs/reference/middlewares/combine.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/651a00cf13386662057bd2c7.md",
+      "kind": "official-document",
+      "bytes": 2797,
+      "sha256": "6f7bbebf1660ebbc9d0af26e034e6e57f0749c259f3eccf208306eacda7c6f44",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/middlewares/combine.md"
+    },
+    {
+      "path": "docs/reference/middlewares/devtools.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/52d79b40618909afaf7c23c3.md",
+      "kind": "official-document",
+      "bytes": 9031,
+      "sha256": "6c1442bddc87a47d35e7f11557061219594dee5cbdcb822fe7d86e401b103d63",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/middlewares/devtools.md"
+    },
+    {
+      "path": "docs/reference/middlewares/immer.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/9886d7264df782f3e7dd610b.md",
+      "kind": "official-document",
+      "bytes": 5951,
+      "sha256": "04ca63ac10fec9f0d798168ed5fd8e50eeb4b94e51a9a35e595824090b6216b8",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/middlewares/immer.md"
+    },
+    {
+      "path": "docs/reference/middlewares/persist.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0f27e124e48bfeff11da02a6.md",
+      "kind": "official-document",
+      "bytes": 28685,
+      "sha256": "c064bdef802891247a3191e34bc5096fd9defc4bfb8bf7d8090bdd1f77578011",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/middlewares/persist.md"
+    },
+    {
+      "path": "docs/reference/middlewares/redux.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/b9f5169f268092ca1fe0e38e.md",
+      "kind": "official-document",
+      "bytes": 4036,
+      "sha256": "5016518adb8d258976ec850fd6d61cccd15594490d1a68c681f673a854d8e8a8",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/middlewares/redux.md"
+    },
+    {
+      "path": "docs/reference/middlewares/subscribe-with-selector.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/2241b186831eff16fbde7b92.md",
+      "kind": "official-document",
+      "bytes": 2945,
+      "sha256": "c07402712a9ade7150ba0b13b28014a8d4e4fd6a0243cd23270f9a76baf0f6ea",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/middlewares/subscribe-with-selector.md"
+    },
+    {
+      "path": "docs/reference/migrations/migrating-to-v4.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/2992f7e451e2a2c6866354fb.md",
+      "kind": "official-document",
+      "bytes": 7814,
+      "sha256": "d0d64e1f7894a6bba1485f6d9552594fbcbf06506621f1d1a184033ad485733c",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/migrations/migrating-to-v4.md"
+    },
+    {
+      "path": "docs/reference/migrations/migrating-to-v5.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0f2a28594abb8746a1879206.md",
+      "kind": "official-document",
+      "bytes": 5791,
+      "sha256": "b114967db432f2dcdcbc8d40865b11f8e089ea3d46b90deeeb429b2ae3d681fc",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/migrations/migrating-to-v5.md"
+    },
+    {
+      "path": "docs/reference/previous-versions/zustand-v3-create-context.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0baf094577a9e34c60ee4c00.md",
+      "kind": "official-document",
+      "bytes": 3162,
+      "sha256": "f59d78570cebf705f95d3fad4be6f8335dd11a21baedb0dc738c379403c549f6",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/docs/reference/previous-versions/zustand-v3-create-context.md"
+    },
+    {
+      "path": "examples/demo/eslint.config.js",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/d96808ec5b9301964952143a.js",
+      "kind": "upstream-example-code",
+      "bytes": 996,
+      "sha256": "107b37d1d6a1fbc273925bad917f4450daef2d2081634f1112ebbe5730f249f9",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/eslint.config.js"
+    },
+    {
+      "path": "examples/demo/src/App.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/db383098cb9084cf143fa330.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 766,
+      "sha256": "da99267a4d92fffbc004721eb68085c4cf50a0a5442b03b8258611e28d6a9548",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/App.jsx"
+    },
+    {
+      "path": "examples/demo/src/components/CodePreview.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/3ea8cc3d6f0d75c399e48fc7.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 1419,
+      "sha256": "9858a38c2c399963044e11b5aca52c8a72f74647512573ca308cd68460a616b2",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/components/CodePreview.jsx"
+    },
+    {
+      "path": "examples/demo/src/components/CopyButton.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/e9ed76244a83bc74260e94e9.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 1329,
+      "sha256": "602a508366e7de70ac35139d4c4879d8eb5b0b0e681f9d0503d8fd047cbdc58a",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/components/CopyButton.jsx"
+    },
+    {
+      "path": "examples/demo/src/components/Details.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/e8d4a33e0d84ed003d6a67cb.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 781,
+      "sha256": "743355e5c05232c61a6dbfbad52a469cb4340dc50081d4d2a6736817235e33d0",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/components/Details.jsx"
+    },
+    {
+      "path": "examples/demo/src/components/Fireflies.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/5fbaa69b14312df300173317.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 1695,
+      "sha256": "1690fd20a061458ba088f14d1ae919b73fffb614cdc66da057ba4e85aeee41d5",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/components/Fireflies.jsx"
+    },
+    {
+      "path": "examples/demo/src/components/Scene.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/6874466ed5b5609c3efcaf4d.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 5997,
+      "sha256": "d62d3401d6f2b563e326630b1cb22fc86b1185baceaa0e87137cde0d8366b64c",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/components/Scene.jsx"
+    },
+    {
+      "path": "examples/demo/src/components/SnippetLang.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/7283aff3385d1533f369e8b4.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 317,
+      "sha256": "f08fae1e82d5d4e1c948e152778bd7e9c4534274c8952c0e62bc355bceeca72e",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/components/SnippetLang.jsx"
+    },
+    {
+      "path": "examples/demo/src/main.jsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/2066e982208e22b30e56097a.jsx",
+      "kind": "upstream-example-code",
+      "bytes": 175,
+      "sha256": "903dbdf495fdcace8a30b7976f5f907a94e1f22fb8594afb601c37984dbee9b8",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/main.jsx"
+    },
+    {
+      "path": "examples/demo/src/materials/layerMaterial.js",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/fc46e0b19797dbce2cd9aad8.js",
+      "kind": "upstream-example-code",
+      "bytes": 1456,
+      "sha256": "771007f647878a81b266609716fbba4221cd6a64ffb353a0f68905bf1d67fda8",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/materials/layerMaterial.js"
+    },
+    {
+      "path": "examples/demo/src/resources/javascript-code.js",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/07fec12cba5f095678fb89fc.js",
+      "kind": "upstream-example-code",
+      "bytes": 329,
+      "sha256": "abf78ea969ee045a5652a6c95e032d5380316027ad346928e60ee39f8d777a9e",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/resources/javascript-code.js"
+    },
+    {
+      "path": "examples/demo/src/resources/typescript-code.js",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/68658a35c89944306c627ed1.js",
+      "kind": "upstream-example-code",
+      "bytes": 390,
+      "sha256": "e596d627958a77253c420fa1a32c5a6294d4169b32c2ee1af8c39c965e13f4d9",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/resources/typescript-code.js"
+    },
+    {
+      "path": "examples/demo/src/utils/copy-to-clipboard.js",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/8ef99a7b0a73d774911ea69c.js",
+      "kind": "upstream-example-code",
+      "bytes": 88,
+      "sha256": "c72faf73fd307934fa1b7b81e15fa1b90d41d0da1e7dcee168c1c0f61b888a02",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/src/utils/copy-to-clipboard.js"
+    },
+    {
+      "path": "examples/demo/vite.config.js",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/0325fca74203741ac04f4e02.js",
+      "kind": "upstream-example-code",
+      "bytes": 167,
+      "sha256": "d34c73094bd2dd120c329e4584baa643fe7b989c7431e68be7b599fe2bea9935",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/demo/vite.config.js"
+    },
+    {
+      "path": "examples/starter/README.md",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/50e025301d9cd28d2837090b.md",
+      "kind": "official-document",
+      "bytes": 581,
+      "sha256": "16eff91ea81ec6c066326c90b817ec8c97f06d8870c1d604cf575f2b14efd4d2",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/starter/README.md"
+    },
+    {
+      "path": "examples/starter/src/index.tsx",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/65161de3a22470eac7125bd2.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1233,
+      "sha256": "36636faa2ea5f385cb7b471db127f46c383e341d8cad256301f5679b42956d61",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/starter/src/index.tsx"
+    },
+    {
+      "path": "examples/starter/src/vite-env.d.ts",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/adfbd6376760cd1bb38d355a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/starter/src/vite-env.d.ts"
+    },
+    {
+      "path": "examples/starter/vite.config.ts",
+      "localPath": "raw/pmndrs--zustand/d7a5583cffd8/56551226e1b6f9c175cc8ee8.ts",
+      "kind": "upstream-example-code",
+      "bytes": 167,
+      "sha256": "d34c73094bd2dd120c329e4584baa643fe7b989c7431e68be7b599fe2bea9935",
+      "sourceUrl": "https://github.com/pmndrs/zustand/blob/d7a5583cffd80af515f7dfb69583c95cbdc9e2ce/examples/starter/vite.config.ts"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

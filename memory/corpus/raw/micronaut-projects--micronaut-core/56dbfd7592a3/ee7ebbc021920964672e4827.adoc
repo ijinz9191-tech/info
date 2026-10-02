@@ -1,0 +1,29 @@
+The ann:core.annotation.Introspected[] annotation can be used on any class to make it available for introspection. Simply annotate the class with ann:core.annotation.Introspected[]:
+
+snippet::io.micronaut.docs.ioc.beans.Person[tags="imports,class"]
+
+Once introspection data has been produced at compile time, retrieve it via the api:core.beans.BeanIntrospection[] API:
+
+snippet::io.micronaut.docs.ioc.beans.IntrospectionSpec[tags="usage", indent=0]
+
+<1> You can retrieve a api:core.beans.BeanIntrospection[] with the static `getIntrospection` method
+<2> Once you have a api:core.beans.BeanIntrospection[] you can instantiate a bean with the `instantiate` method.
+<3> A api:core.beans.BeanProperty[] can be retrieved from the introspection
+<4> Use the `set` method to set the property value
+<5> Use the `get` method to retrieve the property value
+
+[.lang-java.lang-groovy]
+--
+It's possible to apply the introspection to all the classes in one package. Simply create `package-info` file and annotate the package with ann:core.annotation.Introspected[].
+
+snippet::io.micronaut.docs.ioc.introspection.pck.foobar.package-info[tags="usage", indent=0]
+
+WARNING: The package should contain only classes that can be introspected.
+
+NOTE: Only classes located directly within the package are processed; subpackages are ignored.
+--
+
+[.lang-kotlin.lang-python]
+--
+NOTE: Package-level introspection requires a `package-info` declaration, which only Java and Groovy support. In Kotlin and Python, annotate each class with ann:core.annotation.Introspected[], or list the types with the `classes` member as shown in <<introspectedAnnotationOnAConfigurationClass, Use the @Introspected Annotation on a Configuration Class>>.
+--

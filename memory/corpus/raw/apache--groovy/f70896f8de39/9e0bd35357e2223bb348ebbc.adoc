@@ -1,0 +1,58 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+ifndef::xml-userguide[]
+:xml-userguide: xml-userguide.adoc
+endif::[]
+
+= StaxBuilder
+
+A Groovy builder that works with https://en.wikipedia.org/wiki/StAX[Streaming API for XML (StAX)] processors.
+
+Here is a simple example using the StAX implementation of Java to generate XML:
+
+[source,groovy]
+----
+include::../test/StaxBuilderTest.groovy[tags=stax_builder,indent=0]
+----
+
+An external library such as https://github.com/jettison-json/jettison[Jettison] can be used as follows:
+
+[source,groovy]
+----
+include::../test/StaxBuilderTest.groovy[tags=stax_builder_external_library,indent=0]
+----
+
+== Reading XML with StAX
+
+`StaxBuilder` writes XML through a user-supplied `XMLStreamWriter`. For
+*reading* XML with StAX, Groovy provides hardened entry points:
+
+* `groovy.xml.FactorySupport.createXMLInputFactory()` — returns a hardened
+  `XMLInputFactory` (DTD support disabled, external entity resolution
+  disabled). Pass `true` to allow DOCTYPE declarations.
+* `groovy.xml.XmlUtil.events(reader)` — returns a `Stream<XMLEvent>` over
+  the supplied reader. Closes the underlying reader when the stream is closed.
+* `groovy.xml.XmlUtil.streamElements(reader, localName)` — pulls each
+  matching subtree as a small DOM `Node`, suitable for streaming
+  multi-gigabyte documents without loading them into memory.
+
+See <<{xml-userguide}#xml-security,XML security>> for a worked example
+including parallel per-record processing using virtual threads.

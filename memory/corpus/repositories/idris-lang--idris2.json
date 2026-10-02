@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "repo": "idris-lang/Idris2",
+  "commit": "1c630e67c386629a0fbbc6b78a59176fde7f0a76",
+  "retrievedAt": "2026-10-01T15:38:00.298640+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/idris"
+  ],
+  "archiveUrl": "https://codeload.github.com/idris-lang/Idris2/zip/1c630e67c386629a0fbbc6b78a59176fde7f0a76",
+  "selectionSha256": "1a3531f761378795a77e7fd0de66f42b067094cbb369b02b3f3a68e6c42ed454",
+  "selection": {
+    "docRoots": [
+      "docs"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "5c3869c638627d021fb747b20099ff687187f3b2adb908d0ea22474fb0af839a",
+  "archiveBytes": 8825510,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 77,
+    "code": 3,
+    "licenses": 2,
+    "bytes": 610667
+  },
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 68734,
+      "sha256": "cc4574fad1e860997a182ac77433185a721a013a0339d154d165514a7cc02d5b",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/CHANGELOG.md"
+    },
+    {
+      "path": "CHANGELOG_NEXT.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/e1a4f3c09651fc8c642f139f.md",
+      "kind": "official-document",
+      "bytes": 6384,
+      "sha256": "990885cb640e39295b8fd218a9046d203ed5a26ab6854ac9684987f3283f70e4",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/CHANGELOG_NEXT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 9475,
+      "sha256": "3a6d240a0741906867507d52f0e42ece937d6ba76395ad9d84e37117720bcfe5",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/CONTRIBUTING.md"
+    },
+    {
+      "path": "INSTALL.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/09b140a43ebfdd8dbec31ce7.md",
+      "kind": "official-document",
+      "bytes": 7779,
+      "sha256": "7bd44c117fcce717cef6cd82478bdb8d3d5a3b5e80449fa31216880a6d8f5ca6",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/INSTALL.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1602,
+      "sha256": "6dec8feaa6386137e58e0785a633e9cd995768e00c7b4eae710f883f2b8e5c69",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5962,
+      "sha256": "c706a1eb4645843e6547a3f9e8613f5526398ea4e91105a518631595fe5cd57d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/README.md"
+    },
+    {
+      "path": "benchmark/readme.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/4295685fd38f08ae510f54fb.md",
+      "kind": "official-document",
+      "bytes": 1964,
+      "sha256": "f3368f927074ee7e1748dc39f178996628a2c81873ca7b041c741ce65f6f9c94",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/benchmark/readme.md"
+    },
+    {
+      "path": "docs/LICENSE",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/e953fee8efa1bde67856cc8c.txt",
+      "kind": "license",
+      "bytes": 387,
+      "sha256": "11799ed92cfea48cf6b4b07bfc6e6116d44d09e3b01135d1198e3a6def9207a3",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/LICENSE"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 1988,
+      "sha256": "3bdaeb91c581aa171e4f0a251f2d5d9ddd5b5167b18907de8b3bfadba331814e",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/README.md"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/2c9c11d26b09b8afde329980.txt",
+      "kind": "official-document",
+      "bytes": 848,
+      "sha256": "3a4b64b8662f51b8c4385fa0e10cdb39d25c42882fb38d866ed750652184997f",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/requirements.txt"
+    },
+    {
+      "path": "docs/source/app/exceptionsstate.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/edb995b20d28a7c5120dfe30.rst",
+      "kind": "official-document",
+      "bytes": 2832,
+      "sha256": "f6bc1fe7754a9b0f9afcef429bebab946990f8c49c7ce3ce2971439a3cd57b4a",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/app/exceptionsstate.rst"
+    },
+    {
+      "path": "docs/source/app/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/aedddc3398caca4213edaab5.rst",
+      "kind": "official-document",
+      "bytes": 2219,
+      "sha256": "f8acd725e3c7a701afa1b49b69ff976c1c63cd86842b32d6c8718874e027274d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/app/index.rst"
+    },
+    {
+      "path": "docs/source/app/interfaces.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7790eaedf59e0be8faaee602.rst",
+      "kind": "official-document",
+      "bytes": 5954,
+      "sha256": "dbf38b56299f9684e09b6beca2b525d4dff4b1cc349c87158647f6e0e9ed565c",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/app/interfaces.rst"
+    },
+    {
+      "path": "docs/source/app/introapp.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/787d42466e32311519c07005.rst",
+      "kind": "official-document",
+      "bytes": 3344,
+      "sha256": "0f3ae2a01cb64232508a82d3648b2885db5aa45b23f5080c478e1c9bf159cdee",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/app/introapp.rst"
+    },
+    {
+      "path": "docs/source/app/linear.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/79b41694c909649625ccf67d.rst",
+      "kind": "official-document",
+      "bytes": 9452,
+      "sha256": "6a82873c0d3c72a443ffd19d2e90b7cf94d814bff7370e08ddd7f0dddaf8eb99",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/app/linear.rst"
+    },
+    {
+      "path": "docs/source/backends/backend-cookbook.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/827f8cadb9e91a38e45699e8.rst",
+      "kind": "official-document",
+      "bytes": 34612,
+      "sha256": "2b137ac55cfe1d5be4b95cfee7ea27dbfde3f6818a0f4124b0922c7ed48e80a3",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/backend-cookbook.rst"
+    },
+    {
+      "path": "docs/source/backends/chez.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/6698b60802721339a52d27d5.rst",
+      "kind": "official-document",
+      "bytes": 3689,
+      "sha256": "a3b1692549ede5ed1104ddbce061448e75dea399befbe90e7b46c824203355df",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/chez.rst"
+    },
+    {
+      "path": "docs/source/backends/custom.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/297fb4c0c838138e26fbd58e.rst",
+      "kind": "official-document",
+      "bytes": 2599,
+      "sha256": "1b72c3d0f5ae5d83e081eca39607382b3c3fe82de7acf93c7a84fdb22bce5953",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/custom.rst"
+    },
+    {
+      "path": "docs/source/backends/gambit.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/eaa7a3c0235faa0dafac32ae.rst",
+      "kind": "official-document",
+      "bytes": 2245,
+      "sha256": "f9ba3ad81f85cde94291f66759fdb52e04ff18004345598c66ac276e9f2fbb65",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/gambit.rst"
+    },
+    {
+      "path": "docs/source/backends/incremental.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/b9bdef95cd0336f87df70d6e.rst",
+      "kind": "official-document",
+      "bytes": 2970,
+      "sha256": "4b737ec8489549c455217e5df1bd6698e9e7f1c1d0618c827cdcf9148917fb12",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/incremental.rst"
+    },
+    {
+      "path": "docs/source/backends/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/71330be4a6d229fea803b484.rst",
+      "kind": "official-document",
+      "bytes": 3073,
+      "sha256": "f14947f12c7082b563260845f8ac93fb23c3640494da9d0bea9ad3b119a7b1c6",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/index.rst"
+    },
+    {
+      "path": "docs/source/backends/javascript.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/ff84826a2b3f4e93ee882197.rst",
+      "kind": "official-document",
+      "bytes": 9689,
+      "sha256": "3711ec31bc5efc86b0fe82db43c9cf58003f040dca7bae29da995dff4b930b13",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/javascript.rst"
+    },
+    {
+      "path": "docs/source/backends/libraries.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/72877789bc0ef52a08cb4833.rst",
+      "kind": "official-document",
+      "bytes": 773,
+      "sha256": "8f949b41bc23e70656ea7fba5ea7f1e13329c1f29c7097e83541b1fd5e8592df",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/libraries.rst"
+    },
+    {
+      "path": "docs/source/backends/racket.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/4f1c71956236b3a36be464a1.rst",
+      "kind": "official-document",
+      "bytes": 2368,
+      "sha256": "959bbaf99e31837b34ab79f9b165b223307c4c4a7516a23c60a519bc4f310a13",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/racket.rst"
+    },
+    {
+      "path": "docs/source/backends/refc.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/59b0aabf33d6cfe580794671.rst",
+      "kind": "official-document",
+      "bytes": 3528,
+      "sha256": "73ee7a46a026b855a958029f4195d9204eec981d4ce2225bc34122075c779e6e",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/backends/refc.rst"
+    },
+    {
+      "path": "docs/source/cookbook/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/19a14ff05f495964320cb0e3.rst",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "59e6a3311db1cc43c4ed2d0677b8f79b04381d0632b51f401687901c71f2a95c",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/cookbook/index.rst"
+    },
+    {
+      "path": "docs/source/cookbook/parsing.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/4e112e4b20347349c73e229a.rst",
+      "kind": "official-document",
+      "bytes": 12251,
+      "sha256": "29336a4cb0024f820e2dd8859a6137e2a24f581c815c6cc876431341db51ac19",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/cookbook/parsing.rst"
+    },
+    {
+      "path": "docs/source/faq/faq.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/f1dffd7d60ca5951ce610734.rst",
+      "kind": "official-document",
+      "bytes": 14836,
+      "sha256": "73dc5da0c3e1c68a26a74e5e4c530553e43f4bd8e01b3ca9cddb3e6cc205de65",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/faq/faq.rst"
+    },
+    {
+      "path": "docs/source/ffi/ffi.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/6f421c98de4f0f2329ad988e.rst",
+      "kind": "official-document",
+      "bytes": 16673,
+      "sha256": "26f2fec4a7ecfab9dfc02cedced54e5ee9b064a533a0adce65400a1723ea4ea3",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/ffi/ffi.rst"
+    },
+    {
+      "path": "docs/source/ffi/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7b5d7b828e4f539070f9a8ad.rst",
+      "kind": "official-document",
+      "bytes": 1172,
+      "sha256": "f0eb540d3144baa9c92d547265c5c8c781d58f84f337c04b49025f9ab053e3c4",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/ffi/index.rst"
+    },
+    {
+      "path": "docs/source/ffi/readline.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/c21a715ae9ab518e8fcce42d.rst",
+      "kind": "official-document",
+      "bytes": 10753,
+      "sha256": "466b7490b14cb06bb7245e64799179250510f291a2ee63104e7c0e8bae2bab22",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/ffi/readline.rst"
+    },
+    {
+      "path": "docs/source/implementation/ide-protocol.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/04dcc55d27afb33d1ec2cd2b.rst",
+      "kind": "official-document",
+      "bytes": 12926,
+      "sha256": "7e92b26e2b2518c0d2b233f04d018c0970a97b298c262ef95c40eb005646a5b1",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/implementation/ide-protocol.rst"
+    },
+    {
+      "path": "docs/source/implementation/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7e1e5c715c3c5c5ba8fb4d74.rst",
+      "kind": "official-document",
+      "bytes": 703,
+      "sha256": "2770df6b92cf52a0f37090540902fcf9e35ef668c503a807f50b0a9a659649e3",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/implementation/index.rst"
+    },
+    {
+      "path": "docs/source/implementation/overview.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/6613b43bcde683131c486f4e.rst",
+      "kind": "official-document",
+      "bytes": 20418,
+      "sha256": "128bed93839b64dce5089cf661fc20009fb4b768624809dbee4aa87e6189e0be",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/implementation/overview.rst"
+    },
+    {
+      "path": "docs/source/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/4eec6cec5f6fab1548b85433.rst",
+      "kind": "official-document",
+      "bytes": 938,
+      "sha256": "7c77f29bc7b1ac1f0a219a736a648c115446b7a4df5be0c443af15a0f1877e4d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/index.rst"
+    },
+    {
+      "path": "docs/source/libraries/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/da3ca19826d422345cf4ab7b.rst",
+      "kind": "official-document",
+      "bytes": 470,
+      "sha256": "8582ed2b5f2d9e9453c1c9722f19aab3983a06d6bb7a552756ecc1e77b3d2f4c",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/libraries/index.rst"
+    },
+    {
+      "path": "docs/source/listing/idris-prompt-helloworld.txt",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/d1743aaa8df189877180da61.txt",
+      "kind": "official-document",
+      "bytes": 405,
+      "sha256": "4b7edc166c417ae850b9fe030cacd338614ec55737c24a878959f8a9efc90275",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/listing/idris-prompt-helloworld.txt"
+    },
+    {
+      "path": "docs/source/listing/idris-prompt-interp.txt",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/bb450ef4231f5395cf7bada1.txt",
+      "kind": "official-document",
+      "bytes": 341,
+      "sha256": "189fecceeb63f6bc3639aa20aa81b6c5d72b53cfcb5603d348a34bc05b86aaad",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/listing/idris-prompt-interp.txt"
+    },
+    {
+      "path": "docs/source/listing/idris-prompt-start.txt",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/464d9aebcb415ca8fa5419c4.txt",
+      "kind": "official-document",
+      "bytes": 297,
+      "sha256": "39791bfc757d2c01538619979c5ed2a90102ee7b7e6c4bbeffc8f21a24df089a",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/listing/idris-prompt-start.txt"
+    },
+    {
+      "path": "docs/source/proofs/definitional.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/3c98fdf68ef8289c89ff9db6.rst",
+      "kind": "official-document",
+      "bytes": 6756,
+      "sha256": "65ed8b8a322484c455de532c45ff61ba0c2e5ae85019a5d94ed56cbee19a97c8",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/proofs/definitional.rst"
+    },
+    {
+      "path": "docs/source/proofs/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/a2174deeee1e83d0383e465a.rst",
+      "kind": "official-document",
+      "bytes": 587,
+      "sha256": "91b397a53327bbe194fb7c7ffe7dfad379ce8f27b3567e280ef2ad4b5d3044dd",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/proofs/index.rst"
+    },
+    {
+      "path": "docs/source/proofs/inductive.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/03e566b811bffa624eccb0c4.rst",
+      "kind": "official-document",
+      "bytes": 4147,
+      "sha256": "9b4ace56d1102b5ca113f1e8ee19f594f967f41646d613b95d73714559e6041a",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/proofs/inductive.rst"
+    },
+    {
+      "path": "docs/source/proofs/patterns.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/f244be124dfe080d78a258d8.rst",
+      "kind": "official-document",
+      "bytes": 11332,
+      "sha256": "14e8e053d3ddf8c76355743d16760bf49327357e1ae093924f58a1ccf92fe9c7",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/proofs/patterns.rst"
+    },
+    {
+      "path": "docs/source/proofs/pluscomm.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/eef6d03d7657f1f2c105d01f.rst",
+      "kind": "official-document",
+      "bytes": 6082,
+      "sha256": "3b9a02f03eb01fb244d317fa6177444938db011554b167557dae25921219872e",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/proofs/pluscomm.rst"
+    },
+    {
+      "path": "docs/source/proofs/propositional.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/69796a728235f730039037c8.rst",
+      "kind": "official-document",
+      "bytes": 4427,
+      "sha256": "843d2c2cb5908b5b2407d47feed69fcf647362bb96274ae5c02eedfd4501dcde",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/proofs/propositional.rst"
+    },
+    {
+      "path": "docs/source/reference/builtins.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/c6b9b0c7a1ab4cd3e57d8b10.rst",
+      "kind": "official-document",
+      "bytes": 4332,
+      "sha256": "413f297e47db7e0812580752a0467d4d6054c6038cb080c6fbe7cc0be9c05613",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/builtins.rst"
+    },
+    {
+      "path": "docs/source/reference/debugging.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/3dd54e22611b669bdbc8b918.rst",
+      "kind": "official-document",
+      "bytes": 3033,
+      "sha256": "35c268fad3b7da79446601b7c7ebdfc15c37a8dd185de54bdba95dc551334a8d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/debugging.rst"
+    },
+    {
+      "path": "docs/source/reference/documenting.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/24928370b3cfdab33f9894e7.rst",
+      "kind": "official-document",
+      "bytes": 4724,
+      "sha256": "dbc4b01ad27c2fc8a4855673d27d57da67986160164749af54f2e3daef63243d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/documenting.rst"
+    },
+    {
+      "path": "docs/source/reference/envvars.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7582767a3a353c141edd99b9.rst",
+      "kind": "official-document",
+      "bytes": 2721,
+      "sha256": "9cdb1e947168d1b312230f02b7ef65dea58952557e3a02568565f6b57e5ce239",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/envvars.rst"
+    },
+    {
+      "path": "docs/source/reference/failing.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7e215f439e4bda89b5afbcb7.rst",
+      "kind": "official-document",
+      "bytes": 3182,
+      "sha256": "074f4188b63a0bf9dbf98d9becae435d35718c496f37b3b15e418742179a86b2",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/failing.rst"
+    },
+    {
+      "path": "docs/source/reference/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/ec4190a02b4eb89f78d09948.rst",
+      "kind": "official-document",
+      "bytes": 684,
+      "sha256": "caedb95bcc1b02d1217147ca748b8bd08d34a2520a3211ee70599df46c6ee006",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/index.rst"
+    },
+    {
+      "path": "docs/source/reference/literate.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/77fd3b489e86798dc419919d.rst",
+      "kind": "official-document",
+      "bytes": 6242,
+      "sha256": "a1f0be0ad3184728b187ef24b0c1f0b35afd4c0641ecbeb794839b1e12f776ab",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/literate.rst"
+    },
+    {
+      "path": "docs/source/reference/operators.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/31dee82a264eae1ead33c1e5.rst",
+      "kind": "official-document",
+      "bytes": 10445,
+      "sha256": "99872742cdaacd590fa401466ef08dd89280ab13dcb7377ed7b476d9f1552032",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/operators.rst"
+    },
+    {
+      "path": "docs/source/reference/overloadedlit.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/baa26da54ad47d0aa23d2679.rst",
+      "kind": "official-document",
+      "bytes": 2022,
+      "sha256": "530fad6f2e3d7c4667a84f0bda9c5d06da898cf295e54b74120e071cbb6bbac4",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/overloadedlit.rst"
+    },
+    {
+      "path": "docs/source/reference/packages.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/a282ac5a14f8bba9bb4ae679.rst",
+      "kind": "official-document",
+      "bytes": 9151,
+      "sha256": "466c9660a7a95768e1cb0dfd22d2eee6c3e37f95718f3c8cf3e5bae8e34df12d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/packages.rst"
+    },
+    {
+      "path": "docs/source/reference/pragmas.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/a15b9f8e9b9f5e937f6f122f.rst",
+      "kind": "official-document",
+      "bytes": 13791,
+      "sha256": "3e87a5fad01fdd5c78c8598222e8316772821d2d221a7c49ccbe5c6d08a3bd48",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/pragmas.rst"
+    },
+    {
+      "path": "docs/source/reference/records.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/36693529f4142dee2c443c4b.rst",
+      "kind": "official-document",
+      "bytes": 4993,
+      "sha256": "31b1defe561973ee232a00b085e7437bbe4a4a8cc709167a7010a4ee901b8d7b",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/records.rst"
+    },
+    {
+      "path": "docs/source/reference/strings.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/1bde29838919bafc5511f66b.rst",
+      "kind": "official-document",
+      "bytes": 7398,
+      "sha256": "8bc76fe83c7a6bd30c938134f753db0ab8b6ae669b6dab77b14d2c23ae29ed68",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/reference/strings.rst"
+    },
+    {
+      "path": "docs/source/tutorial/conclusions.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/3c93e471ac5389a98e2d11ca.rst",
+      "kind": "official-document",
+      "bytes": 2604,
+      "sha256": "a314dcac4b4364783d655730bc509e5c7384bf4b342e3e4ead40b8ebad438f54",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/conclusions.rst"
+    },
+    {
+      "path": "docs/source/tutorial/index.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/69698a72c13d30a7b6c1f90c.rst",
+      "kind": "official-document",
+      "bytes": 1105,
+      "sha256": "549da811593562a17491166dc5d4245c764252293ae189f3d52bb9142f79c0a1",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/index.rst"
+    },
+    {
+      "path": "docs/source/tutorial/interactive.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/34c51fe4b536e878f01b923a.rst",
+      "kind": "official-document",
+      "bytes": 8629,
+      "sha256": "1bd4a29a7fbf4f2b84f8a4c04f017ce15207d8011b186574d9316013c0ffa1d9",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/interactive.rst"
+    },
+    {
+      "path": "docs/source/tutorial/interfaces.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/b0b144552fd9c31c01fd1bd3.rst",
+      "kind": "official-document",
+      "bytes": 24943,
+      "sha256": "8168b8ec2598d78af3425fc944e43435e2128423369a9f4df341c8e61ef4d505",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/interfaces.rst"
+    },
+    {
+      "path": "docs/source/tutorial/interp.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/6ce47a486c03b48bacedd2ab.rst",
+      "kind": "official-document",
+      "bytes": 9568,
+      "sha256": "f4231a605a241b92da5c3cd10c926352a6086a60a1e1aff9272c1d1c073999b7",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/interp.rst"
+    },
+    {
+      "path": "docs/source/tutorial/introduction.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/f393f2701f0b9153923bb96b.rst",
+      "kind": "official-document",
+      "bytes": 3200,
+      "sha256": "afe5037b945b70cf73c893e2724cea1724556774f1e09b90fdf7cbddf69bbda8",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/introduction.rst"
+    },
+    {
+      "path": "docs/source/tutorial/miscellany.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7bb3f2e2e1dbbb3a7aa22b36.rst",
+      "kind": "official-document",
+      "bytes": 5385,
+      "sha256": "17fd15fd6d767e1090c18cc0277a8c0099b8192b7f8f854ea71a0efe6ccb8edc",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/miscellany.rst"
+    },
+    {
+      "path": "docs/source/tutorial/modules.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/ca2b9b52a4dcc2e6f0924e1f.rst",
+      "kind": "official-document",
+      "bytes": 11674,
+      "sha256": "85ec95ddeaff163c745c4e2e5904fdfb7d23d68da025f933bbdd17cbd89965cf",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/modules.rst"
+    },
+    {
+      "path": "docs/source/tutorial/multiplicities.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/22c2beb490ad988ce624ce90.rst",
+      "kind": "official-document",
+      "bytes": 19235,
+      "sha256": "9f01b0b07ee0716ad97a15d9f73bad4041fbf0a6cdc9be09b4214c9baa0dc25f",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/multiplicities.rst"
+    },
+    {
+      "path": "docs/source/tutorial/packages.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/fdbe0267d2fe79d8afa4ab19.rst",
+      "kind": "official-document",
+      "bytes": 3172,
+      "sha256": "fa4776f10acf5919d49fdcbeeb94d56f9a2769d79572c1b6f0e8a5461c57644c",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/packages.rst"
+    },
+    {
+      "path": "docs/source/tutorial/starting.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/f400c8db4572f4282b4686a7.rst",
+      "kind": "official-document",
+      "bytes": 4929,
+      "sha256": "78fe749d3f2a08810dec236b27e0e4139b21005722febb3e67bbfa5cdabbdf95",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/starting.rst"
+    },
+    {
+      "path": "docs/source/tutorial/theorems.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/d4cd541aa71f03165014f59d.rst",
+      "kind": "official-document",
+      "bytes": 14692,
+      "sha256": "ebb2626702fd725295ec1d6c316206f75cf86a7017024184fca65f99cd479a18",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/theorems.rst"
+    },
+    {
+      "path": "docs/source/tutorial/typesfuns.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/c9ef0690b3138f975d82b723.rst",
+      "kind": "official-document",
+      "bytes": 44080,
+      "sha256": "c801b0b0a425e1ec26eb8b476ba9c9de41757d0c6fad052b26001e8b9d3e0b35",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/typesfuns.rst"
+    },
+    {
+      "path": "docs/source/tutorial/views.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/2f9d2481fa2ed8a5f097fe4f.rst",
+      "kind": "official-document",
+      "bytes": 6717,
+      "sha256": "6c956928d615b1eb37bbb53ca7d0c480985eca7d65880b3917dcb88c66c0a79a",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/views.rst"
+    },
+    {
+      "path": "docs/source/tutorial/windows.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/7bbeaa95abeb7a0a9073774d.rst",
+      "kind": "official-document",
+      "bytes": 2164,
+      "sha256": "a470ecf7410477a25c36f5ba9b2271ef8541afd17ab89e954c04130bbcd5484e",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/tutorial/windows.rst"
+    },
+    {
+      "path": "docs/source/typedd/typedd.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/a30b8033b5c2d371c0998bbb.rst",
+      "kind": "official-document",
+      "bytes": 18103,
+      "sha256": "2ea9520ca108acff7401212352aad3ae2bd935efc9c0ad08ae1f9f24b182c4c2",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/typedd/typedd.rst"
+    },
+    {
+      "path": "docs/source/updates/updates.rst",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/5488fb69b4136aff33159b0a.rst",
+      "kind": "official-document",
+      "bytes": 29187,
+      "sha256": "09b91c322b65a74c5054b11e7711f6c0a904231621c5cf7a1626e5c8634998f7",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/docs/source/updates/updates.rst"
+    },
+    {
+      "path": "libs/test/README.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/cf11a1e7217da8e4c53cfd9b.md",
+      "kind": "official-document",
+      "bytes": 4117,
+      "sha256": "affbd714073de1c7748081b5091db0242fe929514a6b89196cee4187dc186666",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/libs/test/README.md"
+    },
+    {
+      "path": "samples/FFI-readline/readline_glue/idris_readline.c",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/ab6adfad549752bb3685c981.c",
+      "kind": "upstream-example-code",
+      "bytes": 718,
+      "sha256": "92f9f3904ffa60391711b02a873f9a4a756d8a6051a55485d060cc0506b17b9c",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/samples/FFI-readline/readline_glue/idris_readline.c"
+    },
+    {
+      "path": "samples/FFI-readline/readline_glue/idris_readline.h",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/f7fe970d7bb976121d3276ee.h",
+      "kind": "upstream-example-code",
+      "bytes": 173,
+      "sha256": "cfc92772ebfd3494ac1e670a327c6dcb733b631f12995ef4af0386d4efd66288",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/samples/FFI-readline/readline_glue/idris_readline.h"
+    },
+    {
+      "path": "samples/ffi/smallc.c",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/412a6193896219ea53a69272.c",
+      "kind": "upstream-example-code",
+      "bytes": 1140,
+      "sha256": "ebaf4747883734f3911bf241277aead116369562b65e8be2e2e8e8240c528e1e",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/samples/ffi/smallc.c"
+    },
+    {
+      "path": "support/docs/index.html",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/802aee4d2f424aabfb9054b7.html",
+      "kind": "official-document",
+      "bytes": 831,
+      "sha256": "c3e67145a0893c1af6ede845773134fbc38debe21d58f45f451a694514839018",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/support/docs/index.html"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 1093,
+      "sha256": "a1bcc7caf05c8b6844b6e6cc17cf2f8ebdd02b8b0e22f9360409ffe723b184c2",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/tests/README.md"
+    },
+    {
+      "path": "www/README.md",
+      "localPath": "raw/idris-lang--idris2/1c630e67c386/4081269171f0753fa34ee9ec.md",
+      "kind": "official-document",
+      "bytes": 338,
+      "sha256": "52cdabc15a0245973b88f48d8900aa0ab6523a497639205bbc048c45f407cf0d",
+      "sourceUrl": "https://github.com/idris-lang/Idris2/blob/1c630e67c386629a0fbbc6b78a59176fde7f0a76/www/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

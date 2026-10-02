@@ -1,0 +1,745 @@
+{
+  "schemaVersion": 1,
+  "repo": "kmesh-net/kmesh",
+  "commit": "60881fc0bcb1586b56689d252aa35c685dc1bf28",
+  "retrievedAt": "2026-10-01T15:21:43.157627+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Service Mesh"
+  ],
+  "archiveUrl": "https://codeload.github.com/kmesh-net/kmesh/zip/60881fc0bcb1586b56689d252aa35c685dc1bf28",
+  "archiveSha256": "b5fc6ab54f072318a17d91dd5efa5bc148e4b37b45631ca8cacaf2ebe8fb5b07",
+  "archiveBytes": 34047024,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 84,
+    "code": 0,
+    "licenses": 6,
+    "bytes": 433308
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 286,
+      "sha256": "8e0285253a119d060f25b3f85659071a7fedf75ae3ca7921e12f69c9eb89f848",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 7160,
+      "sha256": "6d3ee6d461af6c517247f6c82e56b5b0c486dba3af1e58a95b4468b54dcecd59",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 10767,
+      "sha256": "f41f887b04dd604250193ddd88691ecd168dacdecca2d0d6581d8840e3f0b0dc",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 856,
+      "sha256": "8f65c78d36a80bacda04cd271197590ffec0185eacc005f87757d2a480c72b81",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/MAINTAINERS.md"
+    },
+    {
+      "path": "README-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/2b8d2db04fe3277c3a06cbdf.md",
+      "kind": "official-document",
+      "bytes": 12329,
+      "sha256": "e6b90413e3587f29205123735271a8a523b8f2fe404b4bd01390080b9f2989cc",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/README-zh.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6355,
+      "sha256": "d55968e5f0f491b58879607ca9085b2be1b66e66b22c4f299625f2fd25576a41",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 185,
+      "sha256": "ed713c28ad0521c1d43bf65bc7291b78debc898a83ba9acb6732d7a23d94cc58",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/SECURITY.md"
+    },
+    {
+      "path": "bpf/COPYING",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/e42de20f588647a6f3ec78aa.txt",
+      "kind": "license",
+      "bytes": 419,
+      "sha256": "e9b09fae2713479aff765f9262a275c0150cfdc2aa9115277a7d0662e5a7e967",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/bpf/COPYING"
+    },
+    {
+      "path": "bpf/LICENSE.BSD-2-Clause",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/851a221c33edfdd30759a01d.bsd-2-clause",
+      "kind": "license",
+      "bytes": 1295,
+      "sha256": "10f5531e0bb56177709c920251edb7f5e38e2aab70cb52f041786329cea51489",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/bpf/LICENSE.BSD-2-Clause"
+    },
+    {
+      "path": "bpf/LICENSE.GPL-2.0",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/c3ce8d3389cb1b088d5d4f9f.0",
+      "kind": "license",
+      "bytes": 18007,
+      "sha256": "6f447499a466934f4b3485c2c05cbb4581f972ea46c7a26149b27d91f652d098",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/bpf/LICENSE.GPL-2.0"
+    },
+    {
+      "path": "bpf/kmesh/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/c3fb52555a95b8b30f732e3d.md",
+      "kind": "official-document",
+      "bytes": 31,
+      "sha256": "e3735d162eedc5cb27b7dac01a66d65de28b1d99291c798930ff95046368e9a9",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/bpf/kmesh/README.md"
+    },
+    {
+      "path": "deploy/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/0db16276644fc4f21eae05d7.md",
+      "kind": "official-document",
+      "bytes": 285,
+      "sha256": "f2907d64399962525d8b907d8ec2bb3555426a1c8dc294cc98983b11c1f26c12",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/deploy/README.md"
+    },
+    {
+      "path": "deploy/yaml/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/03472ab41e6b7ced8397d58e.md",
+      "kind": "official-document",
+      "bytes": 1874,
+      "sha256": "7e4e37295a1c17a8f743cd854a74ae81cf08ddd36e8cc57ee803840fea10228d",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/deploy/yaml/README.md"
+    },
+    {
+      "path": "docs/cn/zh/ebpf_unit_test_zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/dbb7156eaf3cfc93a0923572.md",
+      "kind": "official-document",
+      "bytes": 9336,
+      "sha256": "bc5fc85805adaf32bcec0e284fe7e16fbc70d108866b251405f8d391670b8060",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/ebpf_unit_test_zh.md"
+    },
+    {
+      "path": "docs/cn/zh/kmesh_commands-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/8c853d5c528c3088d8498235.md",
+      "kind": "official-document",
+      "bytes": 1645,
+      "sha256": "aa699fcb4522687bdc811d52b31cdaea1cfda24d24dbbc563ecb895a84c0b10e",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/kmesh_commands-zh.md"
+    },
+    {
+      "path": "docs/cn/zh/kmesh_compile-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/93e9eb5878084783f1dba770.md",
+      "kind": "official-document",
+      "bytes": 2190,
+      "sha256": "9fadb3a15be8a684f2cd5c4d125f5d702152af912620c9b5ed9049e1e7543570",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/kmesh_compile-zh.md"
+    },
+    {
+      "path": "docs/cn/zh/kmesh_demo-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/37a19dda2d524bfb0b269295.md",
+      "kind": "official-document",
+      "bytes": 1158,
+      "sha256": "9c7a9c9bd687b0a415b881a5030ec899377507921b5152a2ed63270a55cb5555",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/kmesh_demo-zh.md"
+    },
+    {
+      "path": "docs/cn/zh/kmesh_development_guide.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/dea518ec33ebd61d73b86426.md",
+      "kind": "official-document",
+      "bytes": 18019,
+      "sha256": "9282452aa94e8bf260ac6a6bbf624b1b11d4e0242cd965c81b75e946898c8bab",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/kmesh_development_guide.md"
+    },
+    {
+      "path": "docs/cn/zh/kmesh_kernel_compile-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/f347983795c4783e18558fb2.md",
+      "kind": "official-document",
+      "bytes": 4555,
+      "sha256": "1aab011337d11bf508928aada4c7e38647c734e8153e7ae3e61e08976978f96a",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/kmesh_kernel_compile-zh.md"
+    },
+    {
+      "path": "docs/cn/zh/kmesh_support-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/d6170a17b6bf9351cc3060b0.md",
+      "kind": "official-document",
+      "bytes": 2052,
+      "sha256": "6a4e76fc8f5e05b4b4051080cadb96bad7611478229c5c3362c900a2559f0892",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/kmesh_support-zh.md"
+    },
+    {
+      "path": "docs/cn/zh/multiple_dataplane_CN.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/4b3f7a06713456aba2e3c4a0.md",
+      "kind": "official-document",
+      "bytes": 9250,
+      "sha256": "1c60c64370a91fee4a86bd43ed5ebc6b9dda98d50653e6b3a12c5b307a35f651",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/multiple_dataplane_CN.md"
+    },
+    {
+      "path": "docs/cn/zh/xds_handle_zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/8d90e1fca6d9219d7d3a6695.md",
+      "kind": "official-document",
+      "bytes": 2432,
+      "sha256": "c4f3429fef20540d38560e2c42dc89f3e5bbe2091bab1a67ae5040e143f904de",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/cn/zh/xds_handle_zh.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/437b3e028db050f0b4019245.md",
+      "kind": "official-document",
+      "bytes": 753,
+      "sha256": "a2dddfa65fd28f0c0d4b0a8ec98f1afbbcc63b7cc393ef2cd00fd54061db7e03",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_accesslog.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/cf9b921287c2c7ecb0d2c56b.md",
+      "kind": "official-document",
+      "bytes": 431,
+      "sha256": "41d96d945673f07469a4741598020b93b4939b7ac423fe47972aa85c78d96965",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_accesslog.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_authz.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/add6992765acfd3b45b613f8.md",
+      "kind": "official-document",
+      "bytes": 553,
+      "sha256": "88bfb67e181bec82820104b08e47356952d193ce54c28d8ccb2b1be7cb6435a6",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_authz.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_authz_disable.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/23197dedbe624dfb49dc32e4.md",
+      "kind": "official-document",
+      "bytes": 400,
+      "sha256": "5385575668baee0078af150bf82261c2a42a0a7691a54abca2ee113622d19a7f",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_authz_disable.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_authz_enable.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/40793dceec2f441e6df9cd17.md",
+      "kind": "official-document",
+      "bytes": 394,
+      "sha256": "aff71d35e7a83d5d440dcfeda11ba0fecd3538d8c7c643f455d72369857bf9f3",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_authz_enable.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_authz_status.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/14fb7d80b52ce292cc03a564.md",
+      "kind": "official-document",
+      "bytes": 376,
+      "sha256": "1e3faad52f6a627f7f84be48d870a50a603da9537e080802471aaac46817730a",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_authz_status.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_dump.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/c589ef39ca99ad7ec8487928.md",
+      "kind": "official-document",
+      "bytes": 602,
+      "sha256": "d47fc188e7dd5f8a498be43e7136ebeda1bdabe018669f8887cbed862f2f3736",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_dump.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_log.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/e7f9853f8025b689fb3963c8.md",
+      "kind": "official-document",
+      "bytes": 557,
+      "sha256": "bc052d43ee37fe14fbc9a0eace61d80db06a02c9fc44f2f30713c09d4761a2a6",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_log.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_monitoring.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/aa3bddbcc0d3aa5b158e6a69.md",
+      "kind": "official-document",
+      "bytes": 1738,
+      "sha256": "acc99b5a3bc15e8c0a499e2684593945c266ab47b77178a7cec77927c701e6b4",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_monitoring.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_secret.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/909a6e22e6eec1dd79268a3c.md",
+      "kind": "official-document",
+      "bytes": 829,
+      "sha256": "62b874c552512968a7efd0176f03d3b635e63e4ffcb909d2a0d11f607b0f549b",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_secret.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_secret_create.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/bc3deb80ee64f395a4b93b8d.md",
+      "kind": "official-document",
+      "bytes": 593,
+      "sha256": "04d46274a0ce72a7dd752447c9343a6291893410068fa9cc683025f56789067b",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_secret_create.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_secret_delete.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/4f6befdc6da82de5846d4733.md",
+      "kind": "official-document",
+      "bytes": 340,
+      "sha256": "6cc3639683cc0bfb4c92ed86888f0a667ef21190145c8760a2802a1ff731a9f6",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_secret_delete.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_secret_get.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/9d26ba6fd4a361f90f1b8e24.md",
+      "kind": "official-document",
+      "bytes": 418,
+      "sha256": "63c06b1e4c30046026bab333786638311311dd1a4f8c07986547cc996a000025",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_secret_get.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_version.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/de23c0d1edcf0c37fc441805.md",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "eb4800dc5b9c978be055e33059f4395044c9ad9a077083e1bdfada74c2f818b1",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_version.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_waypoint.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/124f689c007627e094098e4e.md",
+      "kind": "official-document",
+      "bytes": 1246,
+      "sha256": "aa9a52b30ef77b7812295ef8d2ce40cfe220abd6f8009615b3a6ff4e208585ac",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_waypoint.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_waypoint_apply.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/2c64531a00b4882c1cadaadc.md",
+      "kind": "official-document",
+      "bytes": 1291,
+      "sha256": "c600bf957d1fa472a47d5357ddc776e2434d0f47e6809cc587c7fc8bf0a9ca44",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_waypoint_apply.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_waypoint_delete.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/e44076ce24cd9747870917d3.md",
+      "kind": "official-document",
+      "bytes": 1054,
+      "sha256": "81df569777fa007e2c4522f972921ee9ab7ccd54c6f4b41077c0d30e82a1abfe",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_waypoint_delete.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_waypoint_generate.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/ea14433db4a914564b3040df.md",
+      "kind": "official-document",
+      "bytes": 961,
+      "sha256": "f91e769ead138c9c3680a146a4d62954f4496cf072a7debe6c21512e10ad0e69",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_waypoint_generate.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_waypoint_list.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/35c35180e9681ff4219cf69b.md",
+      "kind": "official-document",
+      "bytes": 802,
+      "sha256": "60c2794dc1575f9a7393bc64ca6136a004091c873d76f7181c8ae1d16d226b9a",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_waypoint_list.md"
+    },
+    {
+      "path": "docs/ctl/kmeshctl_waypoint_status.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/aa155a94f355cb0ec915bf39.md",
+      "kind": "official-document",
+      "bytes": 821,
+      "sha256": "d4d5d7dc6141119da153580549d7f842441d5aa349f2ac3ee87eb45554f92332",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/ctl/kmeshctl_waypoint_status.md"
+    },
+    {
+      "path": "docs/dataplane_forward.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/7774bbc19d8cac687d474f32.md",
+      "kind": "official-document",
+      "bytes": 2343,
+      "sha256": "0af46edff656091aad99f09243167fc3aeac7e636322fc360e49ca56d7155274",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/dataplane_forward.md"
+    },
+    {
+      "path": "docs/en/Startup_process_of_eBPF_programs.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/d429707de22d2aa5053a6262.md",
+      "kind": "official-document",
+      "bytes": 3456,
+      "sha256": "13a0ef35d528a093407623c27f958420fcacb7176c3f5abb79bfc5a16359d036",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/Startup_process_of_eBPF_programs.md"
+    },
+    {
+      "path": "docs/en/kmesh_commands.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/2ffe831cd8ba8434db09b5a2.md",
+      "kind": "official-document",
+      "bytes": 1669,
+      "sha256": "02378f40c7a15ace584dceda0246b388d223dc6c1fd6fc0ce10f411262c061b1",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_commands.md"
+    },
+    {
+      "path": "docs/en/kmesh_compile.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/a47fe671586900bb30983694.md",
+      "kind": "official-document",
+      "bytes": 2728,
+      "sha256": "27b0826e1a316cfe18f26c03586985b0aaa996434058f0e5e53166dccad96f8d",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_compile.md"
+    },
+    {
+      "path": "docs/en/kmesh_demo.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/540b9d787232ce50c59569a6.md",
+      "kind": "official-document",
+      "bytes": 1323,
+      "sha256": "49abc3959b850ee14d4ec9e75ad1b8ba972b028bf8bfde2e260ad7c8235362e9",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_demo.md"
+    },
+    {
+      "path": "docs/en/kmesh_deploy_and_develop_in_kind.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/924e8f26a029988dbd748d8f.md",
+      "kind": "official-document",
+      "bytes": 4329,
+      "sha256": "f15b3debcb548ec09db47d282dba798955f4675722f3d88302de332d0c71ee1a",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_deploy_and_develop_in_kind.md"
+    },
+    {
+      "path": "docs/en/kmesh_kernel_compile.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/2e1d75be4db54f97d94f1b8d.md",
+      "kind": "official-document",
+      "bytes": 5010,
+      "sha256": "87cbe268eefc4a48fcd900f8dba5ea957abc886ce8b02f17742878d7f8fb09bb",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_kernel_compile.md"
+    },
+    {
+      "path": "docs/en/kmesh_performance.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/f4bf8e9d7205cccbae6b24fa.md",
+      "kind": "official-document",
+      "bytes": 20,
+      "sha256": "71eada32f34b14143b76e6e0001b3d8cabca08f7717e24fe7ba0f4da54ed4aa0",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_performance.md"
+    },
+    {
+      "path": "docs/en/kmesh_support.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/0f4b3e9765687ec0373eebc5.md",
+      "kind": "official-document",
+      "bytes": 2249,
+      "sha256": "e0e47b6b930bd4fbfda68d552166e9ef44dec59ea182239009a1da5a67d21995",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_support.md"
+    },
+    {
+      "path": "docs/en/kmesh_use_enhanced_kernel.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/2e4f4fd77f61114b9954f649.md",
+      "kind": "official-document",
+      "bytes": 1478,
+      "sha256": "a00c3d43a2986417611e3f0300983001985d6e8bc002a9ffc820bbcd4f6aafc2",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/kmesh_use_enhanced_kernel.md"
+    },
+    {
+      "path": "docs/en/multiple_dataplane_EN.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/bd130141c32d1d327b4b4fb6.md",
+      "kind": "official-document",
+      "bytes": 12258,
+      "sha256": "7721fb91e417e0085cd42b33d2effca9de18cff6562bc8898471dca26ab377d8",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/multiple_dataplane_EN.md"
+    },
+    {
+      "path": "docs/en/unit_test_doc.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/4f43d49bc16ae6faf7e07e4a.md",
+      "kind": "official-document",
+      "bytes": 8445,
+      "sha256": "2a9345dd4319fd9d1ee8bf970aab9ceca2be694d6c1eb18f49caa65738fa7bf9",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/unit_test_doc.md"
+    },
+    {
+      "path": "docs/en/xds_handle.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/9cc9bd4c51d59729bca348ba.md",
+      "kind": "official-document",
+      "bytes": 2397,
+      "sha256": "1819b5964785214b5f61878738d52fc180f309783dda1bd6de8160f48dac6742",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/en/xds_handle.md"
+    },
+    {
+      "path": "docs/proposal/Kmesh-daemon_upgrades_traffic_without_disruption.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/d2110c9fd683030e1d6d24d0.md",
+      "kind": "official-document",
+      "bytes": 9085,
+      "sha256": "9cd6899bda6fc0641a5e45ea70bab1dfbd58e2b3e43c79aa1289a9bd1ddecfe5",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/Kmesh-daemon_upgrades_traffic_without_disruption.md"
+    },
+    {
+      "path": "docs/proposal/Kmesh_website_automation.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/86769ec5030a2c545cd6f2be.md",
+      "kind": "official-document",
+      "bytes": 19199,
+      "sha256": "18a88146c2d5bb124701f31c994c0c00895b11e64585c7b5c83b616231678046",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/Kmesh_website_automation.md"
+    },
+    {
+      "path": "docs/proposal/bypass.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/ecd6698a4bd12361bc2a3e77.md",
+      "kind": "official-document",
+      "bytes": 5730,
+      "sha256": "714e76030853aa6f4b9d2e6593dd0d9aad0ff757666866b8c21ebf4947c69fae",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/bypass.md"
+    },
+    {
+      "path": "docs/proposal/bypass_zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/546e97dfb0cae59f5f60cf88.md",
+      "kind": "official-document",
+      "bytes": 4568,
+      "sha256": "4188a504ae1c4333cba222a098e7c8f1007e2312d4a535c7fb50fd5886499e3a",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/bypass_zh.md"
+    },
+    {
+      "path": "docs/proposal/circuit_breaker.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/31ed919438ccdc4fde0121f8.md",
+      "kind": "official-document",
+      "bytes": 15120,
+      "sha256": "48acd6009f32132d05400d40c638797c709e51a1cf392f30930784749fb1759b",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/circuit_breaker.md"
+    },
+    {
+      "path": "docs/proposal/dns_resolve.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/830c75997f5d633954fb066c.md",
+      "kind": "official-document",
+      "bytes": 8244,
+      "sha256": "fad3258f28313b6495fdbd28b2e2cba9c53547923e6a99da93c1031feafaa1c4",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/dns_resolve.md"
+    },
+    {
+      "path": "docs/proposal/dual_engine_dns.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/8ac70ade7182b329adb54717.md",
+      "kind": "official-document",
+      "bytes": 12158,
+      "sha256": "65566b79cf0229d579751d6c81c558614ba6dd140df7b906b324f949d2a8e765",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/dual_engine_dns.md"
+    },
+    {
+      "path": "docs/proposal/e2e.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/fd837ab00112bbd2aa424227.md",
+      "kind": "official-document",
+      "bytes": 7679,
+      "sha256": "f66da707ac6a17f2d7ac45579e368b244278e32c35e69ef1caf9f1b4e9704003",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/e2e.md"
+    },
+    {
+      "path": "docs/proposal/ebpf-observability.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/0ca46db148c7e1164598e81f.md",
+      "kind": "official-document",
+      "bytes": 2726,
+      "sha256": "71f06e1070aa597f2659c7f549332876e3fc0af0b53cd7c26b1c5eab73514f6e",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/ebpf-observability.md"
+    },
+    {
+      "path": "docs/proposal/ebpf_unit_test.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/40ae73397ec1063ddd0405dc.md",
+      "kind": "official-document",
+      "bytes": 10841,
+      "sha256": "fa07fb6acbdb6f9db08b65fb6f1cbbe17af6445d2e2865c9f8a48ae54c53eaf4",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/ebpf_unit_test.md"
+    },
+    {
+      "path": "docs/proposal/ebpf_unit_test_zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/bfdb6baf603ed28eb6660909.md",
+      "kind": "official-document",
+      "bytes": 9480,
+      "sha256": "8becb9b06821ed9ec4d9a8bd17bb983771e464449671039dde54e7299ba681b0",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/ebpf_unit_test_zh.md"
+    },
+    {
+      "path": "docs/proposal/ipsec_authz_e2e_test.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/795e2bba8a03d8f1349fbbf6.md",
+      "kind": "official-document",
+      "bytes": 7049,
+      "sha256": "2c42e49c6c3f7dc27582aac08e4cc4c2bfbc6ed2bcd86d29fb17408878caaf70",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/ipsec_authz_e2e_test.md"
+    },
+    {
+      "path": "docs/proposal/kmesh_headlamp_integration.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/c25359168aa5ba59ffe3915f.md",
+      "kind": "official-document",
+      "bytes": 14594,
+      "sha256": "b183ab2c43e2e8767fbcc870ec508706821c6dae61004a5b80684797eeba885d",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/kmesh_headlamp_integration.md"
+    },
+    {
+      "path": "docs/proposal/kmesh_support_encrypt.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/667d45cbe3b3b0fe9f192fc5.md",
+      "kind": "official-document",
+      "bytes": 14193,
+      "sha256": "f3655b2387ed74abc0cbf97d31e7ac1ebfe10f38d5af7d1d4cd556a698adf89c",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/kmesh_support_encrypt.md"
+    },
+    {
+      "path": "docs/proposal/kmesh_support_localityLB.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/e9ca1f78570e538fa1cb90e1.md",
+      "kind": "official-document",
+      "bytes": 6086,
+      "sha256": "4eefdb3a45f6148db4941c1856cc4eb15dd1abec165381fa7f0a0a6d52f06b28",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/kmesh_support_localityLB.md"
+    },
+    {
+      "path": "docs/proposal/kmesh_support_workload.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/78156653733f5d5f24eb7826.md",
+      "kind": "official-document",
+      "bytes": 6837,
+      "sha256": "50c65a64b80b7ebeaab4591d4fc067773ee8d18c198a06f0c6b6d2a1a7c09851",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/kmesh_support_workload.md"
+    },
+    {
+      "path": "docs/proposal/layer4_authorization.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/4756127e191853cdbd6fd92e.md",
+      "kind": "official-document",
+      "bytes": 6979,
+      "sha256": "53794353e492a551431cc9b6271f10f14e0fb9c176ca4e030d366b0b0a74c069",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/layer4_authorization.md"
+    },
+    {
+      "path": "docs/proposal/local_ratelimit.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/8ad53c30e72d5b8f3e176a81.md",
+      "kind": "official-document",
+      "bytes": 5995,
+      "sha256": "8773a3c400dcca232bf26edf05981adc5b920f33cf83e42702037e892d4f0fa9",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/local_ratelimit.md"
+    },
+    {
+      "path": "docs/proposal/map-in-map_management_enhancement-en.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/b98dd6be9cd32ab272ace62e.md",
+      "kind": "official-document",
+      "bytes": 2366,
+      "sha256": "cdb379d5aa58315e2da789743f889a75cc398726a7d8b532f243e4a1b21d0c5f",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/map-in-map_management_enhancement-en.md"
+    },
+    {
+      "path": "docs/proposal/observability.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/6c8189db6bf3152cccd24352.md",
+      "kind": "official-document",
+      "bytes": 9441,
+      "sha256": "ed8f89e39275310d6d242c7e88c3793fb1195d9730531d77f4a23c1dda5055d1",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/observability.md"
+    },
+    {
+      "path": "docs/proposal/optimizing_bpf_map_update_in_xDS_mode-en.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/75a14802e4865c4e4d3adf76.md",
+      "kind": "official-document",
+      "bytes": 5878,
+      "sha256": "74c723819a4b1c2501b4ccfc640b14d5f34a6da3841bffe5e8abd131cd95e7d7",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/optimizing_bpf_map_update_in_xDS_mode-en.md"
+    },
+    {
+      "path": "docs/proposal/performance_monitoring.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/dff188ed3859423c764ef892.md",
+      "kind": "official-document",
+      "bytes": 3075,
+      "sha256": "3fc55ef74eb0f65a6a56c02f0691a09bb87d9876b88ba5fd42cd3a0d3325e26b",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/performance_monitoring.md"
+    },
+    {
+      "path": "docs/proposal/tcp_long_connection_metrics.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/21b88c675a88d4b128e4e61d.md",
+      "kind": "official-document",
+      "bytes": 10064,
+      "sha256": "16904ce0e7605d70b88c83f779bbf7322ecf009071f1ff58068f8213104dff99",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/tcp_long_connection_metrics.md"
+    },
+    {
+      "path": "docs/proposal/template.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/012b209556ecce6d97cc49fa.md",
+      "kind": "official-document",
+      "bytes": 3646,
+      "sha256": "ddf91fd46c4e47d467cdc73eef2a16533a9c1bb94281d37ded9f52e0c740669f",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/template.md"
+    },
+    {
+      "path": "docs/proposal/tls_cert.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/4b5e81b549e596316a6ab23c.md",
+      "kind": "official-document",
+      "bytes": 7952,
+      "sha256": "6f8df0aca90b4b1a9e5d2c0fd38c1c2038ccfba42892849533638be476a72d20",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/tls_cert.md"
+    },
+    {
+      "path": "docs/proposal/tls_cert_zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/3bd549e9ceb33132427d7126.md",
+      "kind": "official-document",
+      "bytes": 6087,
+      "sha256": "e689156e20a37cd0fdd72e891be09f1c60499ec1d620341de3925c53b1f3635c",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/tls_cert_zh.md"
+    },
+    {
+      "path": "docs/proposal/ut_test.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/e3982d434beabf2a652c8485.md",
+      "kind": "official-document",
+      "bytes": 15863,
+      "sha256": "de4efa6d716b592aff417bd627f13db00d66f7c6f00333aa2f4a9ee367a22bd9",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/docs/proposal/ut_test.md"
+    },
+    {
+      "path": "hack/copyright-check.sh",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/14d8d985286021fc04e17fa7.sh",
+      "kind": "license",
+      "bytes": 3678,
+      "sha256": "7dbb089328ffdd01c1740851edf392285d73d678fece26b7461b331d912b5c6d",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/hack/copyright-check.sh"
+    },
+    {
+      "path": "hack/copyright/copyright_scan_dir.json",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/ff06be51ccf3fcae94413bb3.json",
+      "kind": "license",
+      "bytes": 264,
+      "sha256": "cf1ba5b94afc28307031a7da4d71a36e710f56859ee337cacc4e61cffd2dbf10",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/hack/copyright/copyright_scan_dir.json"
+    },
+    {
+      "path": "oncn-mda/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/ff5c52bc1bafb9762cdca667.md",
+      "kind": "official-document",
+      "bytes": 3861,
+      "sha256": "092447c092814883adc5ff651237d0aa9a671a0b6a36efb4cae6bf9800b10851",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/oncn-mda/README.md"
+    },
+    {
+      "path": "oncn-mda/docs/design.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/bac4f7581a29d0e7915727af.md",
+      "kind": "official-document",
+      "bytes": 5574,
+      "sha256": "14f3c47f9dea500be7534178b4c6ddcc1266c5e75bc5d7b9d8ada59661338d9c",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/oncn-mda/docs/design.md"
+    },
+    {
+      "path": "test/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/5de36acd90308dc62abf7855.md",
+      "kind": "official-document",
+      "bytes": 6242,
+      "sha256": "bc182898c5fe068f4a9c58b88d7e654efaadedde391cb002f8a2944b9197dce7",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/test/README.md"
+    },
+    {
+      "path": "test/e2e/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/7d9a55ec9712c1ccc931efe1.md",
+      "kind": "official-document",
+      "bytes": 600,
+      "sha256": "4f5ff7b0524d5c04e1919b4f1910fab6f4b185707a3f734aed1cb31cc730f0d7",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/test/e2e/README.md"
+    },
+    {
+      "path": "test/performance/README-zh.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/3a32a13ad3db5446912da983.md",
+      "kind": "official-document",
+      "bytes": 4593,
+      "sha256": "597cdc842c8ac0716031a24d8f950a6cd9989a4f133f41dbcb3699fc21c4a276",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/test/performance/README-zh.md"
+    },
+    {
+      "path": "test/performance/README.md",
+      "localPath": "raw/kmesh-net--kmesh/60881fc0bcb1/bea0df81e6ece5471ea1adbd.md",
+      "kind": "official-document",
+      "bytes": 4802,
+      "sha256": "ea11737606e5c90d42d2064abadf72856d06309b2dcee83ca539caa819cd143e",
+      "sourceUrl": "https://github.com/kmesh-net/kmesh/blob/60881fc0bcb1586b56689d252aa35c685dc1bf28/test/performance/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,803 @@
+{
+  "schemaVersion": 1,
+  "repo": "zsh-users/zsh",
+  "commit": "8cc5eade5ff80de1dca7bd27509eddca4f849f29",
+  "retrievedAt": "2026-10-01T15:50:31.405217+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/zsh"
+  ],
+  "archiveUrl": "https://codeload.github.com/zsh-users/zsh/zip/8cc5eade5ff80de1dca7bd27509eddca4f849f29",
+  "selectionSha256": "75273afaf3c4b75623afa50889a605c0533a2cfbcdb6f552ed91ba6382862fc4",
+  "selection": {
+    "docRoots": [
+      "Doc"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "b6dcfcf8f4f8c7b3481289b86e3afd937098dd309adf914e124be3a35d16c735",
+  "archiveBytes": 4945314,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 95,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 2969888
+  },
+  "files": [
+    {
+      "path": "Doc/META-FAQ.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/a56dab160d8a0069c8fce1e3.yo",
+      "kind": "official-document",
+      "bytes": 907,
+      "sha256": "1e5bed03ddfa0f332a9075c594834ee3bcfb9e75570e2d6fa04de466ebb12228",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/META-FAQ.yo"
+    },
+    {
+      "path": "Doc/Zsh/arith.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/bc55579b1509388d1c9aa86a.yo",
+      "kind": "official-document",
+      "bytes": 13410,
+      "sha256": "29e84ec7db2698236d7e5820afc9e780569ba7bffa2cbb4ea1044312659a772f",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/arith.yo"
+    },
+    {
+      "path": "Doc/Zsh/builtins.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/8bfd9ae8eea2bf8b1b3f5797.yo",
+      "kind": "official-document",
+      "bytes": 140262,
+      "sha256": "81f7ebf27103829c569953a8165169517fe4357a272a943d0238ed368160ea8f",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/builtins.yo"
+    },
+    {
+      "path": "Doc/Zsh/calsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/9e69d042cfa0ae28de25bab8.yo",
+      "kind": "official-document",
+      "bytes": 38762,
+      "sha256": "9fab0837d6ee61193b38a698cc7052594cae6f4e8d92ee6920f71886bb80efd6",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/calsys.yo"
+    },
+    {
+      "path": "Doc/Zsh/compat.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/0a033e4854a7f2340dc772a4.yo",
+      "kind": "official-document",
+      "bytes": 2469,
+      "sha256": "a0882d8993210e6559a29e24074f57748da64c4e6e4d7efeb3b87fe8fc1b3588",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/compat.yo"
+    },
+    {
+      "path": "Doc/Zsh/compctl.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/9e3aad38f8356e58053ba0e2.yo",
+      "kind": "official-document",
+      "bytes": 28546,
+      "sha256": "336f79811f19230b99c9b0f6da57964e8a8c78acf1f1f0dababbcc1ba63bd5a1",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/compctl.yo"
+    },
+    {
+      "path": "Doc/Zsh/compsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/2d4f43ac8723ad4bed90b32d.yo",
+      "kind": "official-document",
+      "bytes": 246983,
+      "sha256": "da4e2640a9d7a1128e14867008d6d79f4255bc851ec89b003d524958dc5ba856",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/compsys.yo"
+    },
+    {
+      "path": "Doc/Zsh/compwid.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/ce02ccc8e9de1903cddd3276.yo",
+      "kind": "official-document",
+      "bytes": 49865,
+      "sha256": "0b3942b213eb3e3e8c68a27ae394b26b7a365e9cdec3b1b33ace9338582fc8cb",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/compwid.yo"
+    },
+    {
+      "path": "Doc/Zsh/cond.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/b5f01119a0d68a2616917af4.yo",
+      "kind": "official-document",
+      "bytes": 9802,
+      "sha256": "c90747b225441b82ef80eaabd0df3b7fd441c53326437d19798b4926369b3f6b",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/cond.yo"
+    },
+    {
+      "path": "Doc/Zsh/contrib.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/074157741ac6a1d434f28e42.yo",
+      "kind": "official-document",
+      "bytes": 210757,
+      "sha256": "4cb57827dcb87b853c74c968139bb2ebe36cda356a3797c75ea345c12e81002d",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/contrib.yo"
+    },
+    {
+      "path": "Doc/Zsh/exec.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5d89fa32609dd4c583f9d4a9.yo",
+      "kind": "official-document",
+      "bytes": 1952,
+      "sha256": "57b2b1ae20bab86ebcb4105da0011e382c3e912ea6baba61c006da2c6dfb60c9",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/exec.yo"
+    },
+    {
+      "path": "Doc/Zsh/expn.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/386926b4eda4dcc0f1b01e03.yo",
+      "kind": "official-document",
+      "bytes": 140016,
+      "sha256": "814d127f82160c838688c6e9e0a32f59e5e8fa0047d89a52ddcb6a2d3673a98d",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/expn.yo"
+    },
+    {
+      "path": "Doc/Zsh/filelist.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/87092bee9cc2305c71a73a6a.yo",
+      "kind": "official-document",
+      "bytes": 389,
+      "sha256": "464c427f411d6808bc6330d9276e29fb07a80dfa4dd29f9ce91e9e9d7c293edd",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/filelist.yo"
+    },
+    {
+      "path": "Doc/Zsh/files.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/3ad2ce746149a326e20ad9b0.yo",
+      "kind": "official-document",
+      "bytes": 2728,
+      "sha256": "5a318c7ba9fd8a4aa66bd2d07f58693d9ad3f59799484be18a5c489d2cc5c100",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/files.yo"
+    },
+    {
+      "path": "Doc/Zsh/func.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/76ada7176d5df3c221541c4d.yo",
+      "kind": "official-document",
+      "bytes": 18020,
+      "sha256": "06352826397ec32378b0f53ea5c3418c93f1153499b1aa488c0a4de773877d3a",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/func.yo"
+    },
+    {
+      "path": "Doc/Zsh/grammar.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/6a204419ff23048734de2793.yo",
+      "kind": "official-document",
+      "bytes": 30215,
+      "sha256": "767386b5e62cc685be5811b9cbc9ab3aa96da1872db438d29dc0df8def1926cb",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/grammar.yo"
+    },
+    {
+      "path": "Doc/Zsh/index.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/1fed82d34e79f50169d282c8.yo",
+      "kind": "official-document",
+      "bytes": 709,
+      "sha256": "7e84ce5233f0d9c404d10da9da76fa3f2ec689a46324acbd75beaf45bd556082",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/index.yo"
+    },
+    {
+      "path": "Doc/Zsh/intro.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/dce45d05067937370b0c5eca.yo",
+      "kind": "official-document",
+      "bytes": 1897,
+      "sha256": "5ada360942538c3692c5c5bcc2015118ca35d20f7f2f4c336c051aefac8e03fe",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/intro.yo"
+    },
+    {
+      "path": "Doc/Zsh/invoke.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/7cf4aa52eee000f1f941ef7c.yo",
+      "kind": "official-document",
+      "bytes": 5037,
+      "sha256": "1b96b170ac8d408af06d91e16734a6eff981c27d98a773ffe7840dffe876dca2",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/invoke.yo"
+    },
+    {
+      "path": "Doc/Zsh/jobs.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/1f62ebe3fe70acb2a14c6b8d.yo",
+      "kind": "official-document",
+      "bytes": 6051,
+      "sha256": "57c2711b651d26b288da53446cd73328235fe6df7c7ac33cacb713b67adccc47",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/jobs.yo"
+    },
+    {
+      "path": "Doc/Zsh/manual.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/548c4162699f22d623619322.yo",
+      "kind": "official-document",
+      "bytes": 5001,
+      "sha256": "115465e58e22199f5c1fbc204b93fe7d6ca324207497e9fb6bdb29b7b2ff1894",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/manual.yo"
+    },
+    {
+      "path": "Doc/Zsh/metafaq.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/c4c13611bb704f714d03534f.yo",
+      "kind": "official-document",
+      "bytes": 3991,
+      "sha256": "1009a659364d21e00e2d5f5f81ccaaabe26ac63531c9d1a25bb25aee84480c67",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/metafaq.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_attr.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/1f8500e19f1ac50c975716dd.yo",
+      "kind": "official-document",
+      "bytes": 1715,
+      "sha256": "875dc3653842412a31e5e55eda1e9288a976fa338c758474c3a2411fa10afa62",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_attr.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_cap.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/e72539c8947f43e63836f8b3.yo",
+      "kind": "official-document",
+      "bytes": 1062,
+      "sha256": "9ef0aec3c847625394f5dbc8a649a5dbc035c6619a83b3f068caf9faf98ba055",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_cap.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_clone.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/97de80da5a20605a966260b0.yo",
+      "kind": "official-document",
+      "bytes": 1843,
+      "sha256": "4339b2a91be17d5e444866c9e678da1eb6944cbf67ee7943b3ad1a7134621e37",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_clone.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_compctl.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/12ddca68190149726c561aec.yo",
+      "kind": "official-document",
+      "bytes": 402,
+      "sha256": "4c9acb177f4f0605ba9c450aff0332bdc5bb3548e5e9aa35a055b882ce3d64b5",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_compctl.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_complete.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/12ae08c4b97b37a4adf270f3.yo",
+      "kind": "official-document",
+      "bytes": 226,
+      "sha256": "d49854759c6aa892541b64ad967a37e26a0309460a8cd1a3c33054fb896928bd",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_complete.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_complist.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/fe7d8400769af3ab5562a280.yo",
+      "kind": "official-document",
+      "bytes": 17579,
+      "sha256": "5ad998f33f25b7f89225038e57ee2d494e178505e8b7520ed1aaa8d7f48eef28",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_complist.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_computil.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/696fa7f1cb224049c756e569.yo",
+      "kind": "official-document",
+      "bytes": 4084,
+      "sha256": "5dc28cacc6c4bf03e0c8b11e1f43b5e08fd8f3da5268223f9f3080c28a389ccc",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_computil.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_curses.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/74bb74d02b0689ad422c8a51.yo",
+      "kind": "official-document",
+      "bytes": 13925,
+      "sha256": "69d89b1de7bb1576ffca5309439b789bc87c1b00209211d26b1b0340956b6779",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_curses.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_datetime.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/167d602f364afcf5eac50293.yo",
+      "kind": "official-document",
+      "bytes": 3513,
+      "sha256": "8f0b5e09cb141e62da5063b5681b87d7826c162d2a71205c98a2c86a84cd344e",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_datetime.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_db_gdbm.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/1bc2e2ad677a5032e2ee6caf.yo",
+      "kind": "official-document",
+      "bytes": 2641,
+      "sha256": "3ca9a423e931ec6ebbe4f065d5610d2a195ed2b667c4ef190a350269c9aba571",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_db_gdbm.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_deltochar.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/adb3b7372e9dff932b9edb1d.yo",
+      "kind": "official-document",
+      "bytes": 599,
+      "sha256": "d520b4ff0939238c61fb98ee211b430db78bd049b6d72dc12beecc96a88980e4",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_deltochar.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_example.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d03c2f8ff6151bd12545ed8b.yo",
+      "kind": "official-document",
+      "bytes": 432,
+      "sha256": "24bf49ba5e450a982ff5e56e06773c0b982608f78d822e775f9ebfbbffaee62a",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_example.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_files.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/34233326c990beae76a7b3fc.yo",
+      "kind": "official-document",
+      "bytes": 8663,
+      "sha256": "b721dea63d60baed1a8fd63bf1b4e30273e39d643568c849250c352b4a7c670b",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_files.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_hlgroup.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/009e1894e496daa7850e3002.yo",
+      "kind": "official-document",
+      "bytes": 945,
+      "sha256": "e18c54ba883362cfa95e17121c5180e220a93d51879aaaa9780b11f440f3f737",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_hlgroup.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_ksh93.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5b5d06d5691d65c8e5e4a49a.yo",
+      "kind": "official-document",
+      "bytes": 8729,
+      "sha256": "c5078ac11b37a500d177f92eb6c6ec542e380276dd5cd16f073246cc628b68f5",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_ksh93.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_langinfo.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/2b67406377e55c107cb4fd05.yo",
+      "kind": "official-document",
+      "bytes": 616,
+      "sha256": "55df007870f306c92bffa8ccb8ac274dadbb745e49faa8235a73cc0d2957a954",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_langinfo.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_mapfile.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d317c51fdf42f7c4d1ea189d.yo",
+      "kind": "official-document",
+      "bytes": 2716,
+      "sha256": "7d5a919e6c48be94383c2f6c96d13614b79dfa2c5c5bb5e08df36e0bb99107e5",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_mapfile.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_mathfunc.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/14dc094df7f9079cb5f4cca0.yo",
+      "kind": "official-document",
+      "bytes": 4453,
+      "sha256": "9329896ee48c822da19cfb09fc845d26fcd4330daab85774d8bb995884661056",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_mathfunc.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_nearcolor.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5c40c92799e9ed49610cb66f.yo",
+      "kind": "official-document",
+      "bytes": 1988,
+      "sha256": "451f5ddece4140683037dc94c33c0d224a072149ff858b4021c6de13a93b9fd9",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_nearcolor.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_newuser.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/6ac18b22a73cd8512b85956b.yo",
+      "kind": "official-document",
+      "bytes": 2516,
+      "sha256": "fb76ae1d679387d76ed9490a1e384117df6a90510450d7531c02c11325757b82",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_newuser.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_parameter.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/e6bd56d37602ceadc725cbe2.yo",
+      "kind": "official-document",
+      "bytes": 10644,
+      "sha256": "3edb8da7a9ca651fd3394819384321632007cf50c816141a9c9acd687c4a82bb",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_parameter.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_pcre.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/cccc6a3aed83b2040213c404.yo",
+      "kind": "official-document",
+      "bytes": 4513,
+      "sha256": "5ac166a2b026b811d86363ce5e835ae1adca39fa29ddb32099fe0368444856be",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_pcre.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_private.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/e551d7bf6288c96efa861487.yo",
+      "kind": "official-document",
+      "bytes": 5069,
+      "sha256": "a1855c035f4cbd96de6db162582c32bbdf21e726eb884ef958d92635aa9c71b7",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_private.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_random.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/46f58385cf9a535cec7a37fd.yo",
+      "kind": "official-document",
+      "bytes": 2277,
+      "sha256": "dd2c8ef8bb31919d92414d3f68b30a4f5f76801bed420904b8a6264b271ae1dd",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_random.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_regex.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/4f344e8255bdaa533ec0480c.yo",
+      "kind": "official-document",
+      "bytes": 1675,
+      "sha256": "8ff627cb36ac9d434cc0b9f18b689129ae2d3d8f4d03d5258b95c7ccfce27310",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_regex.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_sched.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/cbd932bcd43a66ef1baae9a7.yo",
+      "kind": "official-document",
+      "bytes": 3052,
+      "sha256": "03f47d2cb26e8d9119cb3ebcce6bb3c4878b53f6f0700d69e292c75a580320d3",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_sched.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_socket.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/1d998b8ec8c836a731a69ac5.yo",
+      "kind": "official-document",
+      "bytes": 3265,
+      "sha256": "997b6e44f22e02d78b0a43a4871c08d6100c344e0cec7cf638615a31ecc02fa7",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_socket.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_stat.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d85690b10b27300a5b3775ea.yo",
+      "kind": "official-document",
+      "bytes": 6250,
+      "sha256": "050377208304b7a391cac2dfee364e44a19f293a9f1c6c76fd441f33bab48774",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_stat.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_system.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/2a2894bdf3856dd81af3925f.yo",
+      "kind": "official-document",
+      "bytes": 12081,
+      "sha256": "9b5616f42e9bdb55b20b2e5d8a68351a4579a22f88d7c0ccfffca7c0e0327b6a",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_system.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_tcp.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/c6cd8b3a11fa9b22a1955e92.yo",
+      "kind": "official-document",
+      "bytes": 5798,
+      "sha256": "61ad5f2c8fb59080f371270bcf671e8dd024ba998ad31ec9dbde14ccd9daf065",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_tcp.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_termcap.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/ccb8013d732a21456e435998.yo",
+      "kind": "official-document",
+      "bytes": 531,
+      "sha256": "b570e5ad938ec2e167f33e411d1bef8b099492ac4a3882199ac4429cc3feba2e",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_termcap.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_terminfo.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/518b376aa71c7f80a65ece30.yo",
+      "kind": "official-document",
+      "bytes": 553,
+      "sha256": "16a7269f5e808bc4c3765a28898d4cadbf976ef6523a499537386aa385275440",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_terminfo.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_watch.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/ebce77ce174600a632f66609.yo",
+      "kind": "official-document",
+      "bytes": 4697,
+      "sha256": "05c82f35c10044301018c5680a3a46ba2b417dfc7f7e578c8f66d9b107e9780f",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_watch.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zftp.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/8da3a76e35e7bbf1b8b05471.yo",
+      "kind": "official-document",
+      "bytes": 20469,
+      "sha256": "7ed440fca3c5706984d131137aaf48d618877c3f43605504003e67e9b830e150",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zftp.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zle.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d12bda04960f131d7d6c4ff9.yo",
+      "kind": "official-document",
+      "bytes": 189,
+      "sha256": "a8da9391961ad354ce509b7f2d2115b63d1b08e0d72b430901024cc0350a4c88",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zle.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zleparameter.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5b20e17b1710d671176d0342.yo",
+      "kind": "official-document",
+      "bytes": 1157,
+      "sha256": "bb97a2615f3b3cacf0ed230bea98ac832232171024fdcc32d005e655197a4c5b",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zleparameter.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zprof.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/362302ffd519a7c96af58afa.yo",
+      "kind": "official-document",
+      "bytes": 3071,
+      "sha256": "3980dbd28ac3b1801bf8c8089508999274255fdd6ab60111c83212f2703e85cf",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zprof.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zpty.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/1c53874f49a06cb3ab1e7965.yo",
+      "kind": "official-document",
+      "bytes": 4863,
+      "sha256": "6d81fcdcc9770cf9f5f7a67ed89afd0b8358ff3e5f6200abcceac0bb9fafd427",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zpty.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zselect.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/227ed458f1f4d813744c1645.yo",
+      "kind": "official-document",
+      "bytes": 3398,
+      "sha256": "b6a2a7ddbd8df6c4835be1cb648cc593a3aace2f27e7ac2e4a1f96eff4dee36c",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zselect.yo"
+    },
+    {
+      "path": "Doc/Zsh/mod_zutil.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/af2a892d1b38e4369d690dae.yo",
+      "kind": "official-document",
+      "bytes": 23349,
+      "sha256": "c1cd767492c578225ea20e76f43f59781e3e6b8b94879ab76ed2c8ee01f1c86f",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/mod_zutil.yo"
+    },
+    {
+      "path": "Doc/Zsh/modules.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/4ad420ada0b7283e91c17381.yo",
+      "kind": "official-document",
+      "bytes": 581,
+      "sha256": "19c33abf98eda20b26f9ba5fe712a1dff64b6f7eba7a8f21edb7faf38892e978",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/modules.yo"
+    },
+    {
+      "path": "Doc/Zsh/options.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/9fbbc1bd04d695e7a8ab97b6.yo",
+      "kind": "official-document",
+      "bytes": 101301,
+      "sha256": "8ee52d15a088c797f651d436f9952afbdf8709590a70dde7238d0181752940b9",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/options.yo"
+    },
+    {
+      "path": "Doc/Zsh/params.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/29d46fc2c5cc47d69d0645a0.yo",
+      "kind": "official-document",
+      "bytes": 82106,
+      "sha256": "6e0ee1e0a2dead83a74e38335823df51b705495652cc5db50e02acfec4426c3c",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/params.yo"
+    },
+    {
+      "path": "Doc/Zsh/prompt.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/def69c3afdef24fbcdbee5e7.yo",
+      "kind": "official-document",
+      "bytes": 16479,
+      "sha256": "cf92f7c8a38fdc5a8e035f88e3bcd12ac238b314353d78e6a7da913d8d5fe161",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/prompt.yo"
+    },
+    {
+      "path": "Doc/Zsh/redirect.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/639434a2efdbb9db1e2db08b.yo",
+      "kind": "official-document",
+      "bytes": 13645,
+      "sha256": "8b4b56402f5270b4443424dfde09276f1b103a2f7a07622770dd012dbc754806",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/redirect.yo"
+    },
+    {
+      "path": "Doc/Zsh/roadmap.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d081de849f90592ebbd05860.yo",
+      "kind": "official-document",
+      "bytes": 7899,
+      "sha256": "a3ee99b30dcb3934af6cef74a8429407a52587c8c1a2c6838ce14c9514d7470c",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/roadmap.yo"
+    },
+    {
+      "path": "Doc/Zsh/seealso.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/0f124c50cdb2fa35ef3b72b2.yo",
+      "kind": "official-document",
+      "bytes": 660,
+      "sha256": "2bec7e9010d1f0626e48b91f9af30070a3acf4a38b8fe45498c74df79f248651",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/seealso.yo"
+    },
+    {
+      "path": "Doc/Zsh/tcpsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/36bb543ed9c5158ea52d8dd1.yo",
+      "kind": "official-document",
+      "bytes": 36369,
+      "sha256": "b3d5aa676640617654cf1af599232f2f86ff2f738dbafc2a3ec77746c4a747fa",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/tcpsys.yo"
+    },
+    {
+      "path": "Doc/Zsh/zftpsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/eef70bc07ece06b02f57ef44.yo",
+      "kind": "official-document",
+      "bytes": 30669,
+      "sha256": "be75661d0d8e89eedbacf1aa7b5fc9907b79bb6608f5e1bfcc33aa0d716ea466",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/zftpsys.yo"
+    },
+    {
+      "path": "Doc/Zsh/zle.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/a518104e8dc26bb98b4b8763.yo",
+      "kind": "official-document",
+      "bytes": 123959,
+      "sha256": "23a514a111e7c49c258852fe3d9e8136affc045e097e9c7d398a5b4667f86fe3",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/Zsh/zle.yo"
+    },
+    {
+      "path": "Doc/zmacros.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5c1744e4f26ccc5931e6f08e.yo",
+      "kind": "official-document",
+      "bytes": 871,
+      "sha256": "0ed5d3347808b4bfe2696c79883642f285bb941c818463b640cc0c3f2cef3aa0",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zmacros.yo"
+    },
+    {
+      "path": "Doc/zman.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/f5a6cea1853c5fdee529ff8d.yo",
+      "kind": "official-document",
+      "bytes": 4550,
+      "sha256": "c0d3a04cd5a3cc9997ba9fbabd6ad33bafad14135ff89e5282f4d11c7bdc513c",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zman.yo"
+    },
+    {
+      "path": "Doc/zsh.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/3e095d4ee57db3ea9170b81f.yo",
+      "kind": "official-document",
+      "bytes": 2697,
+      "sha256": "b0f81d0dc851fced064884b05cd2ac87449ba5b56c60b30a0461fea73e686e0f",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zsh.yo"
+    },
+    {
+      "path": "Doc/zshbuiltins.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/0990900d2c3d4f063dfad616.yo",
+      "kind": "official-document",
+      "bytes": 125,
+      "sha256": "b7ea795edfe29383d75d5d55dcc9f2006e1f28e083e77b424d9f6fc6f931b00e",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshbuiltins.yo"
+    },
+    {
+      "path": "Doc/zshcalsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/6db13454f390f7a1d43b0bad.yo",
+      "kind": "official-document",
+      "bytes": 117,
+      "sha256": "15cdcb8cfe984d097ccd692b353dc741f22c25af4c07147512a2b1d4b9958062",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshcalsys.yo"
+    },
+    {
+      "path": "Doc/zshcompctl.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/08953767fc4d4e2ebbbbe0ff.yo",
+      "kind": "official-document",
+      "bytes": 128,
+      "sha256": "93d96c96cfb982a53500a1d84d66505dde9c794977a0ec1dbf4bb2eaa27bf1ed",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshcompctl.yo"
+    },
+    {
+      "path": "Doc/zshcompsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/8bad989f082be87950281b18.yo",
+      "kind": "official-document",
+      "bytes": 122,
+      "sha256": "8c11d416470dc1f8ebd5369582a3ad644f694eba721897a2a7e5c85089a23366",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshcompsys.yo"
+    },
+    {
+      "path": "Doc/zshcompwid.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/0603669c1d9bf3e9a85234e9.yo",
+      "kind": "official-document",
+      "bytes": 123,
+      "sha256": "a5170629aa782169dfcbb3e3c76fa6b2a0f1c0e130216e6913239127c0e1742e",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshcompwid.yo"
+    },
+    {
+      "path": "Doc/zshcontrib.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d47d8573f7978a71e758ea2c.yo",
+      "kind": "official-document",
+      "bytes": 126,
+      "sha256": "950ab7c04b6b4e0e94e6ff32dd99959913a4e0c64853dc3b1e9e58e047b3f4c5",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshcontrib.yo"
+    },
+    {
+      "path": "Doc/zshexpn.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/e24c0ab2cddc367077dec7ea.yo",
+      "kind": "official-document",
+      "bytes": 122,
+      "sha256": "f3e711a60e87432a3a3f23dff1008e449a3dfbfdde597c750c458acc65de7f1c",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshexpn.yo"
+    },
+    {
+      "path": "Doc/zshmisc.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/b0e301ca5151c9e433d17552.yo",
+      "kind": "official-document",
+      "bytes": 308,
+      "sha256": "8d7ee683c0acaf8f525f6469b43712142ba2cb909b8af43d3b15c50a6bf9af96",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshmisc.yo"
+    },
+    {
+      "path": "Doc/zshmodules.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/d66c32abe10f6af957b67db8.yo",
+      "kind": "official-document",
+      "bytes": 121,
+      "sha256": "82cf168a8e0807c3e7c5adde9b391b0ccd35c9d46038776ff41cca3756f9c92a",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshmodules.yo"
+    },
+    {
+      "path": "Doc/zshoptions.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5232c366897dfa172a2944b3.yo",
+      "kind": "official-document",
+      "bytes": 112,
+      "sha256": "1f88e3e863cfc6a964cf6f66e640f60db6450600bd5dd63e07b658e188359c84",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshoptions.yo"
+    },
+    {
+      "path": "Doc/zshparam.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/0ff1aae4f8f9b498eab3a5fb.yo",
+      "kind": "official-document",
+      "bytes": 110,
+      "sha256": "d1b5cd9afaa3d7b914d8aee3ae51b358a261dfa8f06b318ca17e70cecfebce4e",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshparam.yo"
+    },
+    {
+      "path": "Doc/zshroadmap.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/951a1374619edf999de82351.yo",
+      "kind": "official-document",
+      "bytes": 140,
+      "sha256": "23ba1bcb15e404d0b8d8e183986db29766832af65163917cf6dcd6a64d3ac87f",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshroadmap.yo"
+    },
+    {
+      "path": "Doc/zshtcpsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/c29cdb655ce772ade15766ac.yo",
+      "kind": "official-document",
+      "bytes": 112,
+      "sha256": "e0ee69bbbbe7038a1a42b5a6388a32201eb106f1b6a416a68005992bfb454648",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshtcpsys.yo"
+    },
+    {
+      "path": "Doc/zshzftpsys.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/887d67c9f2131e78a8c72e40.yo",
+      "kind": "official-document",
+      "bytes": 124,
+      "sha256": "38699aba9fd37b5bf9fb3cb8464e279833a74ca023899b1d50af2b2e84eaf25c",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshzftpsys.yo"
+    },
+    {
+      "path": "Doc/zshzle.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/7ffe8f04dfd002881f208e51.yo",
+      "kind": "official-document",
+      "bytes": 112,
+      "sha256": "5311b07707ee944652103f8cb90d60b3c50fb48d7b623baced50c73bf6f4cbd5",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/zshzle.yo"
+    },
+    {
+      "path": "Doc/ztexi.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/f8cf4f6e002f7f365f06ae29.yo",
+      "kind": "official-document",
+      "bytes": 4987,
+      "sha256": "87866004bb31a9f6d3bfacb2b633047f284b02a97279d166e82c24abaf5a32d0",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Doc/ztexi.yo"
+    },
+    {
+      "path": "Etc/ChangeLog-3.1",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/c6830e8a812ade244189901e.1",
+      "kind": "official-document",
+      "bytes": 531936,
+      "sha256": "1fb5c2627a66b2af6ade36a1243aea67385249ff5c410bb16c195a436914f233",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Etc/ChangeLog-3.1"
+    },
+    {
+      "path": "Etc/ChangeLog-4.1",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/8993ce61a60577af965861c6.1",
+      "kind": "official-document",
+      "bytes": 181682,
+      "sha256": "1660cca5ff3ba234cc6bacc138a098954ffe92f56488c25366ae9bbada9d0f2b",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Etc/ChangeLog-4.1"
+    },
+    {
+      "path": "Etc/ChangeLog-4.3",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/e54aa1760285b28580d71f11.3",
+      "kind": "official-document",
+      "bytes": 541498,
+      "sha256": "5922798b0fda769d8c8ceccd912093eaf23a0b71fcae6d4abe0795d48c2b6183",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Etc/ChangeLog-4.3"
+    },
+    {
+      "path": "Etc/FAQ.yo",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/5bfad696ec6387951e690a82.yo",
+      "kind": "official-document",
+      "bytes": 130717,
+      "sha256": "7ec7f40ea81aa1fc550b09c2e37371b7ebf4930440ea6a0bb52e38d703a8e32a",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/Etc/FAQ.yo"
+    },
+    {
+      "path": "LICENCE",
+      "localPath": "raw/zsh-users--zsh/8cc5eade5ff8/b4668a52683f65fbc0528f65.txt",
+      "kind": "license",
+      "bytes": 1963,
+      "sha256": "d06fdf3ef9b1ec69d6b9e170b0a9516fbad3523261ff1668bde3bfea6e0ef5f5",
+      "sourceUrl": "https://github.com/zsh-users/zsh/blob/8cc5eade5ff80de1dca7bd27509eddca4f849f29/LICENCE"
+    }
+  ],
+  "omitted": [],
+  "recoveredInterruptedFiles": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

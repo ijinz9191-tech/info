@@ -1,0 +1,3185 @@
+{
+  "schemaVersion": 1,
+  "repo": "reduxjs/redux-toolkit",
+  "commit": "e7a8b318df28aaf50ced1e65cd4636b7508263b2",
+  "retrievedAt": "2026-10-01T15:27:34.555634+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/react"
+  ],
+  "archiveUrl": "https://codeload.github.com/reduxjs/redux-toolkit/zip/e7a8b318df28aaf50ced1e65cd4636b7508263b2",
+  "archiveSha256": "5190e7193277914b512a6a127b96da34617f1a71ee42b9b2112dea175b3c8816",
+  "archiveBytes": 2083003,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 80,
+    "code": 312,
+    "licenses": 3,
+    "bytes": 1277894
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 1423,
+      "sha256": "4ab8117a3f99524999fee1689e9b620ad9eff48d7b3cf763fbeb349b922a49ba",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 5253,
+      "sha256": "5fb0082efad4283c4253076ae67992a33741b2822e17d782436705402efeca39",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1069,
+      "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/LICENSE"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 4211,
+      "sha256": "629583ca2312f0dad425be830d1391cf8973648e6b3638ad6423a23085968204",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/README.md"
+    },
+    {
+      "path": "docs/api/actionCreatorMiddleware.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/82da33457ec79ef5a4d4115a.mdx",
+      "kind": "official-document",
+      "bytes": 1796,
+      "sha256": "57021b0f7ebe89cb156d8e3355ec0df9f742615c348c3df5cf26fa208f94de40",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/actionCreatorMiddleware.mdx"
+    },
+    {
+      "path": "docs/api/autoBatchEnhancer.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e56ae99971b282026d51c868.mdx",
+      "kind": "official-document",
+      "bytes": 6386,
+      "sha256": "f134659bb21f4a1121829449f72d04472ef82a69662dca75389756134130081c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/autoBatchEnhancer.mdx"
+    },
+    {
+      "path": "docs/api/codemods.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3642e9cb3619cf498f3c0522.mdx",
+      "kind": "official-document",
+      "bytes": 2520,
+      "sha256": "9293d750c8c6f31a074bccc349a14f61fc2edd44fc090e563179f27b56b140e9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/codemods.mdx"
+    },
+    {
+      "path": "docs/api/combineSlices.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/61fbaae72dc8191a77364e54.mdx",
+      "kind": "official-document",
+      "bytes": 10950,
+      "sha256": "e54ac8a219ecfbe3ef78f58f3c1feea0eb56c3023842ef8e9ae22f73b2af11a7",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/combineSlices.mdx"
+    },
+    {
+      "path": "docs/api/configureStore.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8886e0ee9236057df6f5c65e.mdx",
+      "kind": "official-document",
+      "bytes": 11919,
+      "sha256": "4b39094061b7db14e67e60c4d62d566f8849b379d76dbe46e37dcd936ce34c19",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/configureStore.mdx"
+    },
+    {
+      "path": "docs/api/createAction.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/11896f56033eaea1ecc4de19.mdx",
+      "kind": "official-document",
+      "bytes": 5354,
+      "sha256": "4a1a1da0b43777ce3e22c7b76bdc96a61b375479e3a20ce6348cd212927be602",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createAction.mdx"
+    },
+    {
+      "path": "docs/api/createAsyncThunk.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f4f2907d09215a781240ae4e.mdx",
+      "kind": "official-document",
+      "bytes": 28750,
+      "sha256": "65c391fea8026ccd726c599b6f38eb776d3cc5a0977dd96f4dd263ecfe07cda4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createAsyncThunk.mdx"
+    },
+    {
+      "path": "docs/api/createDynamicMiddleware.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dff21c8cab4ef59eafa5fb82.mdx",
+      "kind": "official-document",
+      "bytes": 5416,
+      "sha256": "ceb7f6673da0614e20e53acf5b5738d68c1ac97a5df34c8f4cc1ae227730beac",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createDynamicMiddleware.mdx"
+    },
+    {
+      "path": "docs/api/createEntityAdapter.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8e813e52e6559f9507ce4588.mdx",
+      "kind": "official-document",
+      "bytes": 19921,
+      "sha256": "acdf2e1c29f102db65066353f9a88edb53a58840aaa94b5853fb21b6410e84e0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createEntityAdapter.mdx"
+    },
+    {
+      "path": "docs/api/createListenerMiddleware.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d84e03af5eb8ba745ff6fb38.mdx",
+      "kind": "official-document",
+      "bytes": 39812,
+      "sha256": "d836327474be8822b9ac0b603b032b017060a7d0cdea8c5a463061d2cd9c6212",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createListenerMiddleware.mdx"
+    },
+    {
+      "path": "docs/api/createReducer.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/59af87788de086f91e5c6ff6.mdx",
+      "kind": "official-document",
+      "bytes": 9965,
+      "sha256": "7ebc924cc9709df4559cb32d2c0fbcff0f87e998a0b6895989e9deb48ad6a842",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createReducer.mdx"
+    },
+    {
+      "path": "docs/api/createSelector.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0792812ef7710a925c8bf346.mdx",
+      "kind": "official-document",
+      "bytes": 5616,
+      "sha256": "26b5c8d08c85784bc465a02bc5ae1636439b1c39560d46b4b0d72fadfb17f1bf",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createSelector.mdx"
+    },
+    {
+      "path": "docs/api/createSlice.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/59086c1cd2e7c4d31585116a.mdx",
+      "kind": "official-document",
+      "bytes": 22287,
+      "sha256": "0edfef1d7530dc58f53e5bd32a4978975193ee3f9b27a7e177b3700fbc770291",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/createSlice.mdx"
+    },
+    {
+      "path": "docs/api/errors.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/238cb2f7032857c780dfadf4.mdx",
+      "kind": "official-document",
+      "bytes": 701,
+      "sha256": "a57d3ebbb55b8c95f82de5dd5a00b80c03a6de21286509b07f285bc0a48ca91b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/errors.mdx"
+    },
+    {
+      "path": "docs/api/getDefaultEnhancers.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ea050896ee678281b5fb1ca5.mdx",
+      "kind": "official-document",
+      "bytes": 3424,
+      "sha256": "93a3f3644077343f52adc034242d4644f54b9928e74ed63f028e7c27e51cb5c5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/getDefaultEnhancers.mdx"
+    },
+    {
+      "path": "docs/api/getDefaultMiddleware.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1f6b04938027cf608b70bd16.mdx",
+      "kind": "official-document",
+      "bytes": 5696,
+      "sha256": "d54800dcd60a26c59bfced6e96d091df04f571cf5806bf3bf331e561e55212db",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/getDefaultMiddleware.mdx"
+    },
+    {
+      "path": "docs/api/immutabilityMiddleware.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5a3ae67537a14e3841ebef02.mdx",
+      "kind": "official-document",
+      "bytes": 3803,
+      "sha256": "153446a43e2f6f1eccbfc769ee5b0f5007925cc0af831a4e9436971372f90fe5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/immutabilityMiddleware.mdx"
+    },
+    {
+      "path": "docs/api/matching-utilities.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a758be2ed3c9fc6c2fe131bf.mdx",
+      "kind": "official-document",
+      "bytes": 10098,
+      "sha256": "e3f10ffa0f78d51cbc22fdda53d656d408fb6ca0ae377291ddb0b0f826605569",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/matching-utilities.mdx"
+    },
+    {
+      "path": "docs/api/otherExports.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/671de1b683507742aed6635d.mdx",
+      "kind": "official-document",
+      "bytes": 4548,
+      "sha256": "e8fed1c5946c104dafe80ea329dfc1df92d7dbf8b426f5c9e6190f2e56fede3e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/otherExports.mdx"
+    },
+    {
+      "path": "docs/api/serializabilityMiddleware.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/08a643c077b452b91e68b46d.mdx",
+      "kind": "official-document",
+      "bytes": 4048,
+      "sha256": "2ab149960cf65270542181bc5d4ed078fcf5cdd7c036119c2963096bc542a1b2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/api/serializabilityMiddleware.mdx"
+    },
+    {
+      "path": "docs/introduction/getting-started.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/24775395c7fba7501b2b6d0c.md",
+      "kind": "official-document",
+      "bytes": 9885,
+      "sha256": "bcc2816fe2d1b14b186ff9f8e425a0578589646b891fb4d56e6e3bc931ce90c4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/introduction/getting-started.md"
+    },
+    {
+      "path": "docs/rtk-query/api/ApiProvider.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/79df313dc00897af3556af5a.mdx",
+      "kind": "official-document",
+      "bytes": 554,
+      "sha256": "fbcc6498611d94d5702ba54cc38a1bf35fb9dd76aee6080b91107e7b2dc4953d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/ApiProvider.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/createApi.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/bd1d922db44a7c235b3763b0.mdx",
+      "kind": "official-document",
+      "bytes": 35643,
+      "sha256": "71ecd4574dd7246fedcc84b35b2a63738ca2bdc1a2daff800dfb13ef43863106",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/createApi.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/created-api/api-slice-utils.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9098061533bff13a9d4d030b.mdx",
+      "kind": "official-document",
+      "bytes": 18342,
+      "sha256": "2fde6a99fcfa49236f712f94046ceb0d01636d7d848f1008d071b72267fae696",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/created-api/api-slice-utils.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/created-api/code-splitting.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2369d67a0b665fc3e48f08b9.mdx",
+      "kind": "official-document",
+      "bytes": 4490,
+      "sha256": "c4602c086668bbf5f9112505a87726a278d43e0984a18015d46a5d7e6bd4c205",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/created-api/code-splitting.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/created-api/endpoints.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dc015fb872149f9cf8e4d3a0.mdx",
+      "kind": "official-document",
+      "bytes": 9378,
+      "sha256": "0f7717bfd8680c1fae4ba98fd41706014d7860f1c8f736f870967587eebb034b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/created-api/endpoints.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/created-api/hooks.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dcecc9b22896c522be965155.mdx",
+      "kind": "official-document",
+      "bytes": 28754,
+      "sha256": "97750fe800e6b74b39bfcdc73a1f3edc55395e46f7f4ca6652227207dbfa3ef8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/created-api/hooks.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/created-api/overview.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/57c1866130123a224ea1355f.mdx",
+      "kind": "official-document",
+      "bytes": 8233,
+      "sha256": "74ce5c2edcd3264a35ddcb25499d194aa2d0ba0622127cc9656b365d53c332fa",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/created-api/overview.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/created-api/redux-integration.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d407ce4e4efab7efbef3d286.mdx",
+      "kind": "official-document",
+      "bytes": 2295,
+      "sha256": "2d689ec294d2eb3a349079cad329d8503eefdae3f1b00903e18f023f66cfe3a7",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/created-api/redux-integration.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/fetchBaseQuery.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d45683c0e668038c02c93b86.mdx",
+      "kind": "official-document",
+      "bytes": 14051,
+      "sha256": "fcfb9b23bedcb9a1217df34224cbab5f7f7f2c2cff7da5a57c38ea86f4c40440",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/fetchBaseQuery.mdx"
+    },
+    {
+      "path": "docs/rtk-query/api/setupListeners.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3eec979ec4f001b3943979e2.mdx",
+      "kind": "official-document",
+      "bytes": 2665,
+      "sha256": "baf5eab99ea8914bddc73aa4be2efc8351139f0a1109afb630713b488275dbe5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/api/setupListeners.mdx"
+    },
+    {
+      "path": "docs/rtk-query/comparison.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0774771cb6197f3f077695a3.md",
+      "kind": "official-document",
+      "bytes": 12299,
+      "sha256": "827a53744080d0e84acd88986748eb587ebc993b586e25854b6b68cb3a6345ec",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/comparison.md"
+    },
+    {
+      "path": "docs/rtk-query/internal/buildMiddleware/invalidationByTags.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c2ea24ab2012ba92161fa9fa.mdx",
+      "kind": "official-document",
+      "bytes": 4250,
+      "sha256": "8a43312bbf0ee03dc96b86b4876e98d5c0053810c050e1673368c51cdc9eab8d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/internal/buildMiddleware/invalidationByTags.mdx"
+    },
+    {
+      "path": "docs/rtk-query/internal/buildSlice.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/214fc0ec759a5f33a2d69de4.mdx",
+      "kind": "official-document",
+      "bytes": 5336,
+      "sha256": "bb6a9a31c76ba002004c6229f89c3411270aa287f225d39b8de140cacb1143db",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/internal/buildSlice.mdx"
+    },
+    {
+      "path": "docs/rtk-query/internal/overview.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fe7f4a3fad30d28f237af208.mdx",
+      "kind": "official-document",
+      "bytes": 3163,
+      "sha256": "d5b61b6875947d0980f7c2f2ee12cf44f812bf656bc849db5f3deae95c0c95e0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/internal/overview.mdx"
+    },
+    {
+      "path": "docs/rtk-query/internal/queryThunk.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0f4d0c0419806aee04417df0.mdx",
+      "kind": "official-document",
+      "bytes": 2514,
+      "sha256": "52fe4e4a5ec27943a74ee225ea6d1a23bf675fa4f9fbd6a1e279e5871e0ffaba",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/internal/queryThunk.mdx"
+    },
+    {
+      "path": "docs/rtk-query/overview.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/58239d3125e76f3b213d97f5.md",
+      "kind": "official-document",
+      "bytes": 10560,
+      "sha256": "2d64429e615eaa6c04ac7e48c5d67a11a7a24846c21b56bfb55e27b17b8b0a15",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/overview.md"
+    },
+    {
+      "path": "docs/rtk-query/usage-with-typescript.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/adbd8e8583e9dc67bab4dbb9.mdx",
+      "kind": "official-document",
+      "bytes": 29820,
+      "sha256": "b750b41517ade69894f0f7fec72dc6445238a4c7fd868aa2106ac8021ff6591b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage-with-typescript.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/automated-refetching.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a95a094a3b92a6db0392385e.mdx",
+      "kind": "official-document",
+      "bytes": 33905,
+      "sha256": "c1b6ae663fecb8990f82645915621fcefa147c0e51e73156627de57c28a59907",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/automated-refetching.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/cache-behavior.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1bb5d89882b85d5f442341bb.mdx",
+      "kind": "official-document",
+      "bytes": 20021,
+      "sha256": "b3cff42a324bd9205a528f98bb3b503b877f86d4db83432f14068e736e19d5c6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/cache-behavior.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/code-generation.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/23481b34aa293c956743281c.mdx",
+      "kind": "official-document",
+      "bytes": 14576,
+      "sha256": "366c2ccbf4132186ad8037999e764b5a83e24a531e717fe31f8f5e8ff384153b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/code-generation.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/code-splitting.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/57de2f5356c2c10f07815c3f.mdx",
+      "kind": "official-document",
+      "bytes": 4636,
+      "sha256": "58317890dc4214e0fab7ad170fa7c62b4f38d546ef65c73c7f2b3af35c4bbe69",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/code-splitting.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/conditional-fetching.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5422a3f2d910eaaa1ee8f102.mdx",
+      "kind": "official-document",
+      "bytes": 1001,
+      "sha256": "86f34eadfc264e17e6bb576dd327353b7e1a3b7dc0731c43737230cd86fff1c1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/conditional-fetching.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/customizing-create-api.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6887a2c6d24e764e960891ad.mdx",
+      "kind": "official-document",
+      "bytes": 3512,
+      "sha256": "72c3cd0b90fccd627fbe798672dccc0799a14b111a6142217f24d2cbcb574a3c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/customizing-create-api.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/customizing-queries.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d72cf8db154a12e15db52149.mdx",
+      "kind": "official-document",
+      "bytes": 35741,
+      "sha256": "feeecb72907ee0ac0d912b52fb686fd928340555620925880929840c3c2e1c49",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/customizing-queries.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/error-handling.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/78c6ea4c3c90c76d02eb4b83.mdx",
+      "kind": "official-document",
+      "bytes": 3265,
+      "sha256": "c0de5d7ef91e17dd0c30a13aaaecd5bb8921a764962a214f93afc78dd8283a33",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/error-handling.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/examples.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/33d6a9c2433f1269f43deb7b.mdx",
+      "kind": "official-document",
+      "bytes": 5501,
+      "sha256": "1bac36373f0bb684bc2c116642e2fcf4bcb5932920940b1ff883ec8966d8d085",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/examples.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/infinite-queries.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f3d5f738418aae92a4299a26.mdx",
+      "kind": "official-document",
+      "bytes": 26858,
+      "sha256": "c4897125c940864796304602f0cf2f157cd7bb81eb4dc0ab51c37f2f6c1dd5b5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/infinite-queries.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/manual-cache-updates.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d6028dc0f4539ebde315b9f0.mdx",
+      "kind": "official-document",
+      "bytes": 10250,
+      "sha256": "9920d3ff33a01b783f2aabc8414b2824f2ee02c3e2ad68aff24d59a58df67a99",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/manual-cache-updates.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/migrating-to-rtk-query.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b34f4e03ab34a62f4a836023.mdx",
+      "kind": "official-document",
+      "bytes": 19504,
+      "sha256": "5d33ec93833c508efe5dc98b9e04fe716f6a60e5c29c6f97b735d844aa78b60d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/migrating-to-rtk-query.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/mutations.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/04b82eb670c01aeccf364d6e.mdx",
+      "kind": "official-document",
+      "bytes": 15488,
+      "sha256": "56ecb9a6f416d6906135b3622505e356034be6412555a629d48bfd0adbb7d2b8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/mutations.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/pagination.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/64ad8f2a1d94963808e946ad.mdx",
+      "kind": "official-document",
+      "bytes": 5124,
+      "sha256": "7f50f6be00808b3c943018347f9546dfafba30cae9e7489c60bed327a782f826",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/pagination.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/persistence-and-rehydration.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8f0e3611a4d0623ad12e33fb.mdx",
+      "kind": "official-document",
+      "bytes": 2670,
+      "sha256": "c8230a516faad3e2872dd3fb5e3fdf6f927dcaaaf308ed35608ab1f17f6033c2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/persistence-and-rehydration.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/polling.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e517fcbeacb7f556d4d55353.mdx",
+      "kind": "official-document",
+      "bytes": 1964,
+      "sha256": "fc3ca2d34c384823f19f8db9191c3cf9d91ee189d1ce40ae9b9fcffd82f3b80c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/polling.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/prefetching.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c28e54057d52070856543d8f.mdx",
+      "kind": "official-document",
+      "bytes": 9251,
+      "sha256": "00db4b0339e4baff03cc4fb1161cf013bf10865359eb70804d0eb979878f378b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/prefetching.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/queries.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/78247becc38d44b79680c7b8.mdx",
+      "kind": "official-document",
+      "bytes": 21687,
+      "sha256": "c68d9a9c319705185ddbda36b9042e6a0e98c23331f78514c1f4072365eb762f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/queries.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/server-side-rendering.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/26cd07f691e1c5d662f28398.mdx",
+      "kind": "official-document",
+      "bytes": 2650,
+      "sha256": "03a62639293a80ed10974894b83626be93443a4045061014edd2bb9fd5fabb71",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/server-side-rendering.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/streaming-updates.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8588cf1061c53618dc75144c.mdx",
+      "kind": "official-document",
+      "bytes": 10377,
+      "sha256": "17c8f920dddf14263408db8ebc9dad531e094ca6d8314ec2ff54b0d96bd25d38",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/streaming-updates.mdx"
+    },
+    {
+      "path": "docs/rtk-query/usage/usage-without-react-hooks.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b631ce183edcf9e0edbb4246.mdx",
+      "kind": "official-document",
+      "bytes": 6546,
+      "sha256": "d9c03bd269c28ceb05db093d63299248dd482cb6a26bea67c4832b731c6541bb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/rtk-query/usage/usage-without-react-hooks.mdx"
+    },
+    {
+      "path": "docs/tutorials/rtk-query.mdx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/63f1df47f2391b68125b9509.mdx",
+      "kind": "official-document",
+      "bytes": 11424,
+      "sha256": "890d0ef5e00ab93b20e3b6b803f41269d90abb8001e1eb04c919cdf92b53e346",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/tutorials/rtk-query.mdx"
+    },
+    {
+      "path": "docs/usage/immer-reducers.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/611a647bf729a90c6f7f141f.md",
+      "kind": "official-document",
+      "bytes": 22821,
+      "sha256": "005d7e1ef61f65a97537233639b015b7bf8a0dff6888cf831beb06574983c418",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/usage/immer-reducers.md"
+    },
+    {
+      "path": "docs/usage/usage-guide.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/745db5eee90cfceeb9eeee5e.md",
+      "kind": "official-document",
+      "bytes": 19156,
+      "sha256": "ff2ddcaa08098ba6a88bf8559639c6d7e9c7d9df37ea978fb38d6dc278ccc76d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/usage/usage-guide.md"
+    },
+    {
+      "path": "docs/usage/usage-with-typescript.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fa4b237c491823ee205e8b84.md",
+      "kind": "official-document",
+      "bytes": 29913,
+      "sha256": "a9763140a8820872c4fbb3aff2f8f7e62a82cfaf901a4d009bb6eeb61005be19",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/docs/usage/usage-with-typescript.md"
+    },
+    {
+      "path": "examples/action-listener/counter/src/components/App/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3fa9fc433c347c6b09c09d85.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1150,
+      "sha256": "f9fbe2e451770e9b19e5abfffbeeafe5c70cebc97c1046df31d8cd615c561d28",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/components/App/App.tsx"
+    },
+    {
+      "path": "examples/action-listener/counter/src/components/ChangeThemeForm/ChangeThemeForm.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f4ef66eb55044ab2e46a0a48.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2348,
+      "sha256": "9b6d8dbadff6654197ee43a39e42565d5bd51cb6bf1bb8883a6db64d547e6ab9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/components/ChangeThemeForm/ChangeThemeForm.tsx"
+    },
+    {
+      "path": "examples/action-listener/counter/src/components/Counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/42f8ed467239543a9165f2fe.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2206,
+      "sha256": "c4a5d69596077265468fc8e42315bacd630a4196bc843edf4cc561750332acda",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/components/Counter/Counter.tsx"
+    },
+    {
+      "path": "examples/action-listener/counter/src/components/CounterList/CounterList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/63d5bf486200d804f1695ac0.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 524,
+      "sha256": "a104e41635100d3b4bb977b8048a647b1367c205872130c649bca51da1f5f82f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/components/CounterList/CounterList.tsx"
+    },
+    {
+      "path": "examples/action-listener/counter/src/components/CreateCounterForm/CreateCounterForm.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/4aead93a7ad03810dcfd51f6.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1245,
+      "sha256": "0c4d1b76723b4908deb6a512d3258bf8682a84016b28b542b093385997592f5e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/components/CreateCounterForm/CreateCounterForm.tsx"
+    },
+    {
+      "path": "examples/action-listener/counter/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c733af40ea82fb67c5ab76cd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 419,
+      "sha256": "52dfeecd24b1dd67554b32a0354a74ec939e8990bf44c23eb31e8c8637bb11c5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/index.tsx"
+    },
+    {
+      "path": "examples/action-listener/counter/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3c3761e098bda2af79baf44c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/action-listener/counter/src/services/counter/listeners.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e619b8395679d4c6ccf66762.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2518,
+      "sha256": "581b8c5ce53a56c68a15f512f9071a625c20f2cdf43daf903f9b0f36de46fe94",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/services/counter/listeners.ts"
+    },
+    {
+      "path": "examples/action-listener/counter/src/services/counter/slice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/47c21e285f3e5295ecd5bea9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2362,
+      "sha256": "c9e7d92ce454084070b57764f627f60aba9a2c17bde45c0f95fe84f9b19ac4a4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/services/counter/slice.ts"
+    },
+    {
+      "path": "examples/action-listener/counter/src/services/counter/tests/listener.test.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/189bb15587ce374faee1c28b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 4190,
+      "sha256": "18d63b4a3c93c41223f6b56266ed93a4ee83a1c9d3a6b16ce5901295cdd1cb5a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/services/counter/tests/listener.test.ts"
+    },
+    {
+      "path": "examples/action-listener/counter/src/services/theme/listeners.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a0610521ddb6de5ed64783f2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 620,
+      "sha256": "376e9ba4b2bcae840165ef42cbe252dc07060f9c5352b48ba8479dad34997cb8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/services/theme/listeners.ts"
+    },
+    {
+      "path": "examples/action-listener/counter/src/services/theme/slice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/143a2bee26a41f0f84583602.ts",
+      "kind": "upstream-example-code",
+      "bytes": 511,
+      "sha256": "17b53288f05044f96bc05295f5290269908036fc3e033abef114f7b4a33088ce",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/services/theme/slice.ts"
+    },
+    {
+      "path": "examples/action-listener/counter/src/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a492bd25472fe82396652f1f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1632,
+      "sha256": "9c2f5ad9145dd12af5438f2ea26a34fce0cacb66976d8501be1299702f5a8723",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/action-listener/counter/src/store.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1a15e0525e00e5a0b08bfa7c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 243,
+      "sha256": "333c970c500bbae5cdac39f0f6955d4e90e2486a34d7f3e064a549654ba73515",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/App.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/41019943b05a17935d59acd0.md",
+      "kind": "official-document",
+      "bytes": 2006,
+      "sha256": "76942081077ce8f1f4c13a4196d28c76ff50353fcb26b952a6a9cf82e0b67506",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/README.md"
+    },
+    {
+      "path": "examples/publish-ci/expo/babel.config.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/330b31253716ed96205f3236.js",
+      "kind": "upstream-example-code",
+      "bytes": 391,
+      "sha256": "adaac220e42e1f8962d35d8ab36e454d470a251b5d81c4f79a494833be1db466",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/babel.config.js"
+    },
+    {
+      "path": "examples/publish-ci/expo/globals.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/42906d2c020f2b3eda7d36d9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 70,
+      "sha256": "5c44e6456bb4206cc33c45892d035057cb5ed6dbe2e50444b508258d6b7e56cd",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/globals.d.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/index.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c167b352c26110b4c0771fa1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 307,
+      "sha256": "4accc3f6100b1fdfb065f15564b301e0466985ae879a5ccc85acfe1e7b2a9ec9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/index.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/jest-setup.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0e16d90ed200d829ccdf6c64.ts",
+      "kind": "upstream-example-code",
+      "bytes": 158,
+      "sha256": "f9eaa64baf621b2bfda06eeacf52be68062a2cc7fa17f5c787e10e3515d8326a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/jest-setup.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/jest.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5a866bccc396799be96a7bb6.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1056,
+      "sha256": "92c505ad74874e6fe7c059441d0d1bea13a3f51d6f47dc2134a4cc2efc156f3e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/jest.config.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/metro.base.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/427f2ee9a81ce92f98cfbaa7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 194,
+      "sha256": "50f87f8fd7945b75fac6b986ae4945f50b36c57f154501b8ade29ebe2ff9f2fe",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/metro.base.config.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/metro.config.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/100f6b599292773427b6bcaa.js",
+      "kind": "upstream-example-code",
+      "bytes": 107,
+      "sha256": "bfb58cdd9ae97f8f626325847febfabe395f28f623d1782030fefe305594c705",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/metro.config.js"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/Main.test.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/21fb86b55dc3fccb51ef6ae9.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4551,
+      "sha256": "fde7bd1fab26ff9e3766c57abc66bbfa709274db5e87f2c1a0381036c92ee988",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/Main.test.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/Main.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/415c61e6cdc0af38d4aac001.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2834,
+      "sha256": "3ab902046f4fc8947802fd6fb6cd88a97c6bc109a8ae69756310a1bb7f2bfb97",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/Main.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/app/createAppSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ae33b12684b302e1f6422840.ts",
+      "kind": "upstream-example-code",
+      "bytes": 240,
+      "sha256": "d8e5b6ee319ad9cad4c70d9d59c3a943ed4578eada6379acecc15f9c9fdf79e8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/app/createAppSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/51f4982524d00f5993e25949.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2049,
+      "sha256": "f3ec3b315acb1185978bee9e9ec7ff472d9ecefbac365fd794b742094e7c9777",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/984a97d3ac61c325336c2865.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1634,
+      "sha256": "4cef5d40e95598ec24447495bddf9e797e8fd5074aa754cfe02494714933412c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/app/store.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/components/AsyncButton.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ed44d5805629ef395c1cc7b1.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1605,
+      "sha256": "d2b634cf83abc73113a17de95e18879d29afb948e17366dd9194aa864cfddfb9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/components/AsyncButton.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/components/ExternalLink.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/616949f2c832714c5e302912.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 776,
+      "sha256": "198e8d064b65fc6ebcce0c9372508873cbb1f1d0b59da0f1703e0f89110d73ea",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/components/ExternalLink.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/components/ExternalLinks.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/4695a54729f4372b84b5a9dd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1733,
+      "sha256": "e8c42c1ceeb62cf3fc5771fdb9985cb56d1d43cd11cb77f81a7840fa8943b768",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/components/ExternalLinks.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/components/Header.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/01569f9d050dd42ba6c5590e.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 875,
+      "sha256": "467623c2c25336dfb0dae7bd9de1502a4f5e11367508143d86b65862adc801a1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/components/Header.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/components/LearnReduxLinks.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3479d1d576b31c66385611d9.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2776,
+      "sha256": "68398cf79b309ee67bf30823c75ea1f6f4acf31c648a610675f43aa5e67728c7",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/components/LearnReduxLinks.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/components/Section.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e4546f36bb73fbd431dfe386.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1043,
+      "sha256": "584e3cfc056af4c0ee8692b8e68b02f19ba1498020ff72e79ec1db5c7a4f149f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/components/Section.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/constants/Colors.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3900c85d40771580ab7a4d41.ts",
+      "kind": "upstream-example-code",
+      "bytes": 307,
+      "sha256": "6cc6bffe104f686b94620f18d0d01f1cf0ad941850b046778763f975c28a6e89",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/constants/Colors.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c2e6612e9d6424a94428f5d6.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3379,
+      "sha256": "6ff29c2a165b16027774eaa97b5abd0c3e7fd147ca90c7c2c97ef398bfd99119",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/features/counter/counterAPI.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/bb77501041014f1d7b38e950.ts",
+      "kind": "upstream-example-code",
+      "bytes": 245,
+      "sha256": "b757ebbfcee434a09bb108c72267a7cf3beea6fb009577e68ed7b2b4c1903fae",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/features/counter/counterAPI.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/features/counter/counterSlice.test.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7e15c8145e137b6c489b5659.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1169,
+      "sha256": "358556d83b202b2a3d6fd8909b5bfc4001ee0f8a0a3ae86af83d12b010605f15",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/features/counter/counterSlice.test.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/features/counter/counterSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6f9bf32349220a5f16ad961d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3234,
+      "sha256": "bdd6b56572d2def7c469b495400956ad8d59c9ed1e73b526e8ea702dc931d1c3",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/features/counter/counterSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/features/quotes/Quotes.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/427640cccd537deacb663985.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3651,
+      "sha256": "089d10cfb213e56ceb7505eb78970d01af5e4f7b1e66dc0d88608de688321493",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/features/quotes/Quotes.tsx"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/features/quotes/quotesApiSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ee71cf82057569d86cd2f1b0.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1326,
+      "sha256": "a60ff05a483046af708dbc6be74d47f4f39e443d387b1f8c981fee3c4adcbfae",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/features/quotes/quotesApiSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/mocks/quotesFetchMock.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7ea4b376123cc727af1ab261.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1746,
+      "sha256": "6492677319cfb86112718b7d1d72faa278d79dfbd37efcde404dcc6446c80cde",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/mocks/quotesFetchMock.ts"
+    },
+    {
+      "path": "examples/publish-ci/expo/src/utils/test-utils.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5f3c4d1fd91e6d1665ad8a06.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2674,
+      "sha256": "12b8335329bf12cd359e1af7c4f416f02f0ea498be1a8971c3e69e30ddad9907",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/expo/src/utils/test-utils.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a27dd4a026eb276b1dd4ffc6.md",
+      "kind": "official-document",
+      "bytes": 1880,
+      "sha256": "9f9788865f2b0f50bfb857d6b670bb7cc0a1002c90252155c51ee4b5fdb61311",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/README.md"
+    },
+    {
+      "path": "examples/publish-ci/next/next.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5a32e10707ddeffcd4512373.ts",
+      "kind": "upstream-example-code",
+      "bytes": 139,
+      "sha256": "6b225e5770036bd3db58514643b89a97dfb4c6ad19fcfac77643c27e189709e8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/next.config.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/playwright.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3e8183e8e770892522c01b62.ts",
+      "kind": "upstream-example-code",
+      "bytes": 377,
+      "sha256": "7862223ba4ae520ed11b715560975c9948bd094f36e66a7c29830af5d45e8b8f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/playwright.config.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e0f97a3bcfcb278aa792019f.js",
+      "kind": "upstream-example-code",
+      "bytes": 8133,
+      "sha256": "ef2405682abf28a907ee5c0d1a3f7c5b1fcad5d6b436a7b077f16a521b51943f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app-core/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7d474c5aef03c96100efe77a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 346,
+      "sha256": "daf9ecdab2efa930573ac85011c6f10590358f079e0d7be8cb4dfd07831f0e37",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app-core/hooks.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app-core/services/post.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5474f94e10756eb759b86e14.ts",
+      "kind": "upstream-example-code",
+      "bytes": 514,
+      "sha256": "e9bd085516c28ac83cd4de9c39444df34e05f934de14326dce5dee2c55ea91c9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app-core/services/post.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app-core/services/times.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/faa12a7fb3bb526bb051c3a5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 436,
+      "sha256": "33b4462b1b642d3b97725578dafdbec25439f91af792f1db4d036e85bec3dbd0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app-core/services/times.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app-core/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b12fe3bd32e0eb018f01f23c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 634,
+      "sha256": "510a15ac93bf4bb9fd2e022f8ab7c11d3ab91dba6ce038f297c68ee4d6450d86",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app-core/store.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app/ClientApp.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ed09fa682b3f96a326d1d914.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 564,
+      "sha256": "0e532205dc01334c8262f44b7467616e74f4b4611996408265830556685f2467",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app/ClientApp.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app/MswProvider.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/cbf851e3bbd738df1dd11c9f.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 507,
+      "sha256": "b56f560fe736245c2997115dfc938974f5ac8bcb17399b7f67624e3e34a922bf",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app/MswProvider.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app/ServerApiInfo.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/46f019bbdeb4a5c16718451d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1055,
+      "sha256": "52303d0e5460c9e190780c5938c69e8e860d5e62fd13f84cbdb91cc384ff4fa0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app/ServerApiInfo.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app/StoreProvider.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6691c8f8b3b70039203e3949.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 554,
+      "sha256": "0a828bafec5f6ac4eb8f829bb96f9a34e6f0b255f1cae525d64b61cb51e1d000",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app/StoreProvider.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app/layout.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0fba10c3715fda376e5a9bc4.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 356,
+      "sha256": "6773702b0667b0cb118aba48b7683e8bc0e4d59bdae2f368800e0d1b769e8666",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app/layout.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/app/page.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ec9615480acfbdb2dc8129c5.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 283,
+      "sha256": "8ec3f14931d95c56a2b938fa158f6ebfd6fdce66b1f8f76b96d163f4e2f2eddf",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/app/page.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/77f192bb39ddeefc20bd04a1.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 999,
+      "sha256": "cb863f7e9d1a07feba67633bd9572458406ee2649b7c25533b6129d08fc24125",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/features/counter/counterAPI.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/414855d78cdcc8007e24f6be.ts",
+      "kind": "upstream-example-code",
+      "bytes": 214,
+      "sha256": "c81c26e3c32d3737461c0eda358124244ac6cab480f930e2114d444e9f8f87ac",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/features/counter/counterAPI.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/features/counter/counterSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b77f9af58ee86a17d22ec8a2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1266,
+      "sha256": "badea350389e66ba7ca051110af16fc2693ed1c182172e2967edcece31ecc2e6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/features/counter/counterSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/features/posts/Post.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fa03e23de79e8a9b6ff10963.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 572,
+      "sha256": "3184cba95204cffef85cd51ae83868191206231061c1d22b5c2324cccbd986c2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/features/posts/Post.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/features/time/TimeList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/11355c4cd12f312318d30e36.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 898,
+      "sha256": "182de63f6c99a415c0480328a721bba9d0a8b15453eac9d1a9c74ddf2e5f2b00",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/features/time/TimeList.tsx"
+    },
+    {
+      "path": "examples/publish-ci/next/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2e2351f11334d32afafb5c85.ts",
+      "kind": "upstream-example-code",
+      "bytes": 120,
+      "sha256": "0131176cde9f4d4147e99537fabb13e3c909e6e59f655267fd9a5065366243b1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/src/mocks/handlers.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/41b3fe84f4c4165988555dfd.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1444,
+      "sha256": "edba0b439652d34713bd1fbff50828d43147a69e9347afab52b5907474ae2c04",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/src/mocks/handlers.ts"
+    },
+    {
+      "path": "examples/publish-ci/next/tests/playwright/rtkq.test.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1bf01b713fcef8c68017c2ff.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1229,
+      "sha256": "05f03cc5dd283adc0d692664c615feb718a2f8566478fa3b02d70c94f45922e9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/next/tests/playwright/rtkq.test.ts"
+    },
+    {
+      "path": "examples/publish-ci/node/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d139fec12511dc88ce1d9dea.md",
+      "kind": "official-document",
+      "bytes": 1361,
+      "sha256": "4c674a370ca136c18476c681068dd3104d46a7b7a602f8174e889d561d25fe78",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/node/README.md"
+    },
+    {
+      "path": "examples/publish-ci/react-native/App.test.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ddfd5c45734f80dcf6d6b8e3.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 10024,
+      "sha256": "1d359f1d55ce7ab21c113672b647ef90b462f187dfd3f32b14fab4284ab539a6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/App.test.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f5817b5e3ab552718bcac501.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1684,
+      "sha256": "83ec5bd72dfe84850bee4f9455c4a2d11ce74f05e8c3d2e589d530172f6b66ee",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/App.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ed252c72dfebabeb284150f9.md",
+      "kind": "official-document",
+      "bytes": 3081,
+      "sha256": "03fa62a6b3c5ba79155eceb3c0591bbd1a6322391ffb0c844c8239749ea72ac3",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/README.md"
+    },
+    {
+      "path": "examples/publish-ci/react-native/android/app/src/main/java/com/reduxTemplate/MainActivity.kt",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/326b848ffe9b5e0bab7e709a.kt",
+      "kind": "upstream-example-code",
+      "bytes": 857,
+      "sha256": "c059809b881642f1a02291e0f2ea1f6a003ff5cdceca0b37d089bead9feb24b0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/android/app/src/main/java/com/reduxTemplate/MainActivity.kt"
+    },
+    {
+      "path": "examples/publish-ci/react-native/android/app/src/main/java/com/reduxTemplate/MainApplication.kt",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/80403d28da00be6da379bd1c.kt",
+      "kind": "upstream-example-code",
+      "bytes": 1667,
+      "sha256": "9ed0d04c4c22a2d800da8a932e8f0772a6b67591074aad02eea38ffe9715b269",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/android/app/src/main/java/com/reduxTemplate/MainApplication.kt"
+    },
+    {
+      "path": "examples/publish-ci/react-native/babel.config.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/12f2a600a6f745c303a69c91.js",
+      "kind": "upstream-example-code",
+      "bytes": 260,
+      "sha256": "65e3e983312874a99244f5518381849523e089f7af7764e80d980242e1e405b6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/babel.config.js"
+    },
+    {
+      "path": "examples/publish-ci/react-native/globals.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6a09997c9d2b731782ce2952.ts",
+      "kind": "upstream-example-code",
+      "bytes": 208,
+      "sha256": "d7fc27188aad14a3801dbc55b5a268cce7a05251e479364f032127fd1c58db59",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/globals.d.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/index.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/96e2fd64cbec153b8e9fd3b6.js",
+      "kind": "upstream-example-code",
+      "bytes": 305,
+      "sha256": "9cd24a008d1ee90ed987b87b02d2217a831f8dcc35283ab4cc16fc4840e9234c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/index.js"
+    },
+    {
+      "path": "examples/publish-ci/react-native/ios/reduxTemplate/AppDelegate.h",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9406773391054a887de29ef4.h",
+      "kind": "upstream-example-code",
+      "bytes": 98,
+      "sha256": "edaf898f5c460c19fdf620539434695e72069a8efd4109092c0a57f2b1f2dbef",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/ios/reduxTemplate/AppDelegate.h"
+    },
+    {
+      "path": "examples/publish-ci/react-native/jest-setup.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/55a6f883334303f4fdedcea5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 158,
+      "sha256": "f9eaa64baf621b2bfda06eeacf52be68062a2cc7fa17f5c787e10e3515d8326a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/jest-setup.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/jest.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3ab76d40057664e682fcb5a1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1059,
+      "sha256": "0855521555411121669c65e1e7536e33817e3b3afd0e59ec29717f1d109d0b1f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/jest.config.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/metro.config.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5a55bd356cc4bef6ca92c29f.js",
+      "kind": "upstream-example-code",
+      "bytes": 408,
+      "sha256": "468d21555aef059592ec30714dfd1842bbdd9068f8a9345af902e11bf48fb4d6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/metro.config.js"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/app/createAppSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/bf5cd3df9e5628706fac61f1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 240,
+      "sha256": "d8e5b6ee319ad9cad4c70d9d59c3a943ed4578eada6379acecc15f9c9fdf79e8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/app/createAppSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ce1ac45129db3c0975ff5ff5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2049,
+      "sha256": "f3ec3b315acb1185978bee9e9ec7ff472d9ecefbac365fd794b742094e7c9777",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c7932a8eac7cc45936e390ff.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1634,
+      "sha256": "4cef5d40e95598ec24447495bddf9e797e8fd5074aa754cfe02494714933412c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/app/store.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/components/AsyncButton.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/623fa7ff8d250691e636b226.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1605,
+      "sha256": "d2b634cf83abc73113a17de95e18879d29afb948e17366dd9194aa864cfddfb9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/components/AsyncButton.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/components/Header.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/4fcfc18b03db474e0418f02a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 895,
+      "sha256": "f2033c04afc164ef5e0286d5041b88e3ab8db656905b8059f768ec66f9ece90f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/components/Header.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/components/LearnReduxLinks.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6ca1f8c0316aaa43c9d4597c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2738,
+      "sha256": "6a62c76c65804f94a8e2065286bc8efa40cc8223ec336d4e52ef3a1fe3937028",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/components/LearnReduxLinks.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/components/Section.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/64e286af6a7b55088fb2eb15.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1073,
+      "sha256": "7fbf1b8d75149bbd003805fcb946a5f3c622f453d27f8dc1b7078dc00c767b85",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/components/Section.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/constants/TypedColors.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/56755c236a473c1cfe8005b9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 514,
+      "sha256": "e995bd987e5b851c8d84451ad1e0907347c50e3bf4eb22288b70ed670fd3c8a1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/constants/TypedColors.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/378a42c54d51b7deea846cc0.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3399,
+      "sha256": "49145564e4ce453bd9e7bc7f4944e4dafe6b40101ee6ff27eaafc62da7da36ef",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/features/counter/counterAPI.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/71c2162d94ca26bcd5246573.ts",
+      "kind": "upstream-example-code",
+      "bytes": 245,
+      "sha256": "b757ebbfcee434a09bb108c72267a7cf3beea6fb009577e68ed7b2b4c1903fae",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/features/counter/counterAPI.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/features/counter/counterSlice.test.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2f808ba13a68ff1fe10db791.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1169,
+      "sha256": "358556d83b202b2a3d6fd8909b5bfc4001ee0f8a0a3ae86af83d12b010605f15",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/features/counter/counterSlice.test.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/features/counter/counterSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ca8767fb88ea3d036edbab93.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3234,
+      "sha256": "bdd6b56572d2def7c469b495400956ad8d59c9ed1e73b526e8ea702dc931d1c3",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/features/counter/counterSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/features/quotes/Quotes.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1dbb7b9232643892f35fad83.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3681,
+      "sha256": "e5032637526b0d6b1ed7579466d4b27006178869b84a90609c5a6fef639a918c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/features/quotes/Quotes.tsx"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/features/quotes/quotesApiSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/08b8feccc2934b075ff00ca4.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1326,
+      "sha256": "a60ff05a483046af708dbc6be74d47f4f39e443d387b1f8c981fee3c4adcbfae",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/features/quotes/quotesApiSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/mocks/quotesFetchMock.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/07cd1290a9a10e92f6f8b029.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1746,
+      "sha256": "6492677319cfb86112718b7d1d72faa278d79dfbd37efcde404dcc6446c80cde",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/mocks/quotesFetchMock.ts"
+    },
+    {
+      "path": "examples/publish-ci/react-native/src/utils/test-utils.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5c1701a938ab53c7598d2e96.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2674,
+      "sha256": "12b8335329bf12cd359e1af7c4f416f02f0ea498be1a8971c3e69e30ddad9907",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/react-native/src/utils/test-utils.tsx"
+    },
+    {
+      "path": "examples/publish-ci/vite/playwright.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b866a25518dc599492c66e3b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 377,
+      "sha256": "7862223ba4ae520ed11b715560975c9948bd094f36e66a7c29830af5d45e8b8f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/playwright.config.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/bd9f95b21325c4307befb7a1.js",
+      "kind": "upstream-example-code",
+      "bytes": 8133,
+      "sha256": "ef2405682abf28a907ee5c0d1a3f7c5b1fcad5d6b436a7b077f16a521b51943f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/840da44614db0e7bfeeeacfd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 490,
+      "sha256": "6158b085642bfaf3b2ef4b6d7ec5dee73712e4154637e49b2598d29b077b53c1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/App.tsx"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/app-core/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/acd5a41271ad3468b3908dfc.ts",
+      "kind": "upstream-example-code",
+      "bytes": 346,
+      "sha256": "daf9ecdab2efa930573ac85011c6f10590358f079e0d7be8cb4dfd07831f0e37",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/app-core/hooks.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/app-core/services/post.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/4a9162c656373885a8599b80.ts",
+      "kind": "upstream-example-code",
+      "bytes": 514,
+      "sha256": "e9bd085516c28ac83cd4de9c39444df34e05f934de14326dce5dee2c55ea91c9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/app-core/services/post.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/app-core/services/times.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/052508ea0c8c6584318140f7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 436,
+      "sha256": "33b4462b1b642d3b97725578dafdbec25439f91af792f1db4d036e85bec3dbd0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/app-core/services/times.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/app-core/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/98ac857e908a7b7016e7375c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 592,
+      "sha256": "0941b1937332d83ebe438a5c3c9883ea5aa31747c7ba12770c2b47257c4681cf",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/app-core/store.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/375b7f36312ad3a645db49ce.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 999,
+      "sha256": "cb863f7e9d1a07feba67633bd9572458406ee2649b7c25533b6129d08fc24125",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/features/counter/counterAPI.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9f378ef26fef581a92b82914.ts",
+      "kind": "upstream-example-code",
+      "bytes": 214,
+      "sha256": "c81c26e3c32d3737461c0eda358124244ac6cab480f930e2114d444e9f8f87ac",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/features/counter/counterAPI.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/features/counter/counterSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ec52709ce3c88059e139db58.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1266,
+      "sha256": "badea350389e66ba7ca051110af16fc2693ed1c182172e2967edcece31ecc2e6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/features/counter/counterSlice.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/features/posts/Post.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f73f2b36e384a5bfffb85b78.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 572,
+      "sha256": "3184cba95204cffef85cd51ae83868191206231061c1d22b5c2324cccbd986c2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/features/posts/Post.tsx"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/features/time/TimeList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b5e11eabaad3412608f71c44.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 898,
+      "sha256": "182de63f6c99a415c0480328a721bba9d0a8b15453eac9d1a9c74ddf2e5f2b00",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/features/time/TimeList.tsx"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/main.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3fe3ba53e9eda321ca0de72d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 623,
+      "sha256": "d21fa656622abb282303af157dc91eeaf451f161cb13e781808d7f7cb1c31b8d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/main.tsx"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/72ba680a481681a8c7db4694.ts",
+      "kind": "upstream-example-code",
+      "bytes": 120,
+      "sha256": "0131176cde9f4d4147e99537fabb13e3c909e6e59f655267fd9a5065366243b1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/mocks/handlers.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/11418fdd25f6cd6e4b405f79.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1444,
+      "sha256": "edba0b439652d34713bd1fbff50828d43147a69e9347afab52b5907474ae2c04",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/mocks/handlers.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/src/vite-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7a3d2798cf993d0aff318ca7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/src/vite-env.d.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/tests/playwright/rtkq.test.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1da009fd0bc7d1c99a73233a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 999,
+      "sha256": "88e3baf2b9e382af4b0418c6bdc983a564442d5d3722004c8bf608ba1337eb71",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/tests/playwright/rtkq.test.ts"
+    },
+    {
+      "path": "examples/publish-ci/vite/vite.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d1074a68ab1ad49c05f9cfa8.ts",
+      "kind": "upstream-example-code",
+      "bytes": 200,
+      "sha256": "5fb68e1b2f97227b7c8593e843f9ef814ad9c9f3032f22551ed973630f65f913",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/publish-ci/vite/vite.config.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/908eed454ed3330675acf16f.js",
+      "kind": "upstream-example-code",
+      "bytes": 8589,
+      "sha256": "f3e880f842f5d6e42caa885cc352da7b8e5bd439a259751468c00d09c309ccd6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/authentication/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/97c24745114393094ea31cb7.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 762,
+      "sha256": "b94f5d6f70d6865cff91c372ad69f56b9e6d70310f50e06dc0b71934fc50d0ad",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/authentication/src/app/services/auth.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/96b3bacc5a82b5f5f583ab2e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1092,
+      "sha256": "efb0a5f3d59997285128665fce2d8feb1ca540cc44bf0b89e8e347b7aa3cbe1b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/app/services/auth.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3ee587be707f8198e31ba517.ts",
+      "kind": "upstream-example-code",
+      "bytes": 458,
+      "sha256": "a680017a5dd944f34ceacf143c7c07cead36f2c258ba1aed37a111e2632d5e88",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/app/store.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/features/auth/Login.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/94dc59d93426672f5725b62e.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2695,
+      "sha256": "b3af3c1af9eba5257ea8ea645a7df9f53e0f550d59a9f00e2f5ca91284637578",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/features/auth/Login.tsx"
+    },
+    {
+      "path": "examples/query/react/authentication/src/features/auth/ProtectedComponent.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dc2350e1e93fba6d30a2bf39.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 790,
+      "sha256": "d4643c1245d3afb989b487411b7d12a90617e8ca76ba52505a80a11a62493ede",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/features/auth/ProtectedComponent.tsx"
+    },
+    {
+      "path": "examples/query/react/authentication/src/features/auth/authSlice.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a321cc06be4616573ff84974.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 743,
+      "sha256": "f444c8b563e0996098b53237732f5038a526b295a873d9efec66eac25af7d0f9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/features/auth/authSlice.tsx"
+    },
+    {
+      "path": "examples/query/react/authentication/src/hooks/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e2c9bd2c6dc7d11fc98526b1.ts",
+      "kind": "upstream-example-code",
+      "bytes": 277,
+      "sha256": "85417f8c987daafae0feae0cf0f0cc90ab1e345f4443ed8886cf70de82169a1a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/hooks/store.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/hooks/useAuth.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/695fae3e3d6587d282495bd8.ts",
+      "kind": "upstream-example-code",
+      "bytes": 261,
+      "sha256": "54f724eda30af59fc5ab2d58f66adbc24d38b8b9453798ece5f6d33ebc2011ea",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/hooks/useAuth.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/075073ece77750f3564d2aaa.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 854,
+      "sha256": "e7d8d6f5b94c209eed6e4369bfd0fae0531e5b27ae80ce87e9941263d223805b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/authentication/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/42858b63694fb58b1cf05f86.ts",
+      "kind": "upstream-example-code",
+      "bytes": 120,
+      "sha256": "0131176cde9f4d4147e99537fabb13e3c909e6e59f655267fd9a5065366243b1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/mocks/handlers.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6caa713a1b330fdb675d5f39.ts",
+      "kind": "upstream-example-code",
+      "bytes": 795,
+      "sha256": "3990ecbcaed01c0a29fb90d57ef74082427d69b2b87f6bb0f5faa38a52d570bd",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/mocks/handlers.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d417a6b32cf47db1c327cbce.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/authentication/src/utils/PrivateOutlet.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/596059a08f010992e4337710.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 310,
+      "sha256": "baf215112dceb0eab90320dd6ec58ba4c2d93ed573a62c7e67fe09be01683358",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/authentication/src/utils/PrivateOutlet.tsx"
+    },
+    {
+      "path": "examples/query/react/basic/src/App.test.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/67281d2446d64a03b65db037.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1029,
+      "sha256": "221ec7660a3778ecd351016549ad359a5163b905d623fec1fc22576887db8fbb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/App.test.tsx"
+    },
+    {
+      "path": "examples/query/react/basic/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/938e869c57a4ead66eaf391c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 521,
+      "sha256": "74838288cdb179daf4c3ab88b489be0076a2d7c0cd8707de5bb5eb1f736597a1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/basic/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/131d7524dfed8e5efde36dbc.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 335,
+      "sha256": "d690bc3cb5efb4214b2b8c7b1d89cb76eeaab46886538f8156381c24a84a69cc",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/basic/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/553b6f95661654f952808bab.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/basic/src/services/pokemon.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ce9b5f51960dbb2bd0ed7f8a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 437,
+      "sha256": "5d84ac4bb566ecf758405085e4db2a4525d723048da02d35b7d64757f15739b1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/services/pokemon.ts"
+    },
+    {
+      "path": "examples/query/react/basic/src/setupTests.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0de3c71bafc49210a9564884.ts",
+      "kind": "upstream-example-code",
+      "bytes": 372,
+      "sha256": "079b68651a39c07c7f8ad8055872020745c7bcc79f6606b62659c3cf067b9018",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/setupTests.ts"
+    },
+    {
+      "path": "examples/query/react/basic/src/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/aea82cc5535b746cfc4b4bb7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 782,
+      "sha256": "3633f47c731c03807bcb1410635c77b4c10012f2403610ac193fe64b3b8c86af",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/store.ts"
+    },
+    {
+      "path": "examples/query/react/basic/src/test/server/index.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/83097b75fa136e8977de6990.ts",
+      "kind": "upstream-example-code",
+      "bytes": 143,
+      "sha256": "161bcbae8b171962cad40560d72c51540194deb790bfc3f18beddc48222f52cf",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/test/server/index.ts"
+    },
+    {
+      "path": "examples/query/react/basic/src/test/server/serverHandlers.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/017a04e826e7ec7e336e191f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 431,
+      "sha256": "7a5545ae897c38c19ed06c609811d815402c64ced0c50f689be3b6c1109b7109",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/test/server/serverHandlers.ts"
+    },
+    {
+      "path": "examples/query/react/basic/src/test/test-utils.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8bdf66947440e2fffa03b422.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1261,
+      "sha256": "fbcbceccc4c4bf8902527bd491ce6f12b851b86118326b2131fe5ce023bd1810",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/basic/src/test/test-utils.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/apollo.config.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5f99a27118123b9e66e7ddb3.js",
+      "kind": "upstream-example-code",
+      "bytes": 460,
+      "sha256": "dd381b6085dfc475758fd26308526d9aaaf542968a822a06f5b41a7f3dbac388",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/apollo.config.js"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6608a746bcb67852c729932b.js",
+      "kind": "upstream-example-code",
+      "bytes": 8589,
+      "sha256": "f3e880f842f5d6e42caa885cc352da7b8e5bd439a259751468c00d09c309ccd6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3fe20cffab0772e7d24c056a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 244,
+      "sha256": "38eb39d1a558c1c82e2456ead1ac9c876f26447905ec918b69832aa315ab18b5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/app/services/baseApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/25dc4acdd556c416f98e5e53.ts",
+      "kind": "upstream-example-code",
+      "bytes": 263,
+      "sha256": "ffb84a5ca28103914bc8853b8d0fc95f6297ed2de80909a03dccef1f3243b678",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/app/services/baseApi.ts"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/app/services/types.generated.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c49e3102b8e0eb89e2eb85f4.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2885,
+      "sha256": "e3f987bb3a3a85f8cc87b04dee21d246ef04de095c7814492b69f22fea9fc1b0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/app/services/types.generated.ts"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/features/posts/GetPost.generated.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2759f4b7989ed9b5b9bfccfd.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1110,
+      "sha256": "54966f04e7bf9a92026f0cfc25baaa59dc399e9b86f1d572d04f2aa3d0499301",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/features/posts/GetPost.generated.ts"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/features/posts/GetPosts.generated.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/acae4a15810065a25e857de9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1256,
+      "sha256": "8950572d5acb1df909172be45c5b067be07e78a7650774c4bd38ad2cc57fec42",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/features/posts/GetPosts.generated.ts"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/02397a081e6f9df55a52f9fb.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2392,
+      "sha256": "2f190165c9cd8ffe49a029b3133b18fb635c9681917957e1be5a4599a884b2c4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d16d895656e3ecbf21072468.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 797,
+      "sha256": "9fdf56f750e1e994378997b932cfbcbdaee0caa9dcf60c08de0edd24710e6451",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/398ccb8715f1ff628efc751c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 114,
+      "sha256": "5306ea93f9a38066a38bb13ecd31dc12e0341fae639c6bba4e32fdf59c693d45",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/mocks/db.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d8ea120bfcb8e38c3ec4f15b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1139,
+      "sha256": "d26903cbfa5872902ef28a8a3351a22273c2110e5e81f969ae96f71c286d8c66",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/mocks/db.ts"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/mocks/schema.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/016af4b687a6247a52ebf86e.js",
+      "kind": "upstream-example-code",
+      "bytes": 113,
+      "sha256": "75f0aa8888edb51393676b88ca93ae638dcc088fd4a712a915bf41bba57199aa",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/mocks/schema.js"
+    },
+    {
+      "path": "examples/query/react/graphql-codegen/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/30479b607fb1b06542b15a8b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql-codegen/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/graphql/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fad1f823b84708f2357fca87.js",
+      "kind": "upstream-example-code",
+      "bytes": 8599,
+      "sha256": "5819948f028dd3d224f73f70689204162a6ce93d82547929d5c43799246503e8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/graphql/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7245c4fd6566b8ee187d3f7f.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 244,
+      "sha256": "38eb39d1a558c1c82e2456ead1ac9c876f26447905ec918b69832aa315ab18b5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9d6fef59e251025f202efe36.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1644,
+      "sha256": "14f855513ee84954e4b21e8be9d49a084fd4f05eca1686fdb7a937394b30ca5f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/query/react/graphql/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/386304d5a865ebf5dfaa7eeb.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2388,
+      "sha256": "7b080cff4b452367404e6c76bcd0285829d3cc14287a0a3e413c6a4d12960187",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1f2bce21aa8dd2302707b879.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 795,
+      "sha256": "fb93d311648826131d1ec1a6339b36a493141bab9d75d83ef59f074150a1f885",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/graphql/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/25b9b16bd982ce75125351ee.ts",
+      "kind": "upstream-example-code",
+      "bytes": 114,
+      "sha256": "5306ea93f9a38066a38bb13ecd31dc12e0341fae639c6bba4e32fdf59c693d45",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/graphql/src/mocks/db.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/32daf0816e8eef54bcbdc352.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1642,
+      "sha256": "8f53662363d73b35ad789e5a6c0397cdfee714e40fdab67ebe8e7c8b3c48f099",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/mocks/db.ts"
+    },
+    {
+      "path": "examples/query/react/graphql/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/731c99fa0d3ab163cf5018f7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/graphql/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/38c5ec51b38965ad191254d9.md",
+      "kind": "official-document",
+      "bytes": 263,
+      "sha256": "01c9dae298f9d17c2cce6337a4e20ccbc9112f7648014873437b37b31e054557",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/README.md"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2128413d249cd5751fda1c4d.js",
+      "kind": "upstream-example-code",
+      "bytes": 8144,
+      "sha256": "bc1d0a921fd62f181c3e0408e4e185b8fa73dbba1867d340ae65b27cb79596a0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/caa833cdf7a69700ddfa0acd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3099,
+      "sha256": "68f732e500a884aede2e41924c8f2e82f6a0540c848a933b1e7d7748ce8997c0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/app/createAppSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/675c5fd631f57dd7ef7ed36f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 240,
+      "sha256": "1d31638a666d1f5b0646b33c29573e049db22264c10f81efcb837cfb65758807",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/app/createAppSlice.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1b429c85f1c45811b5f04cc9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 707,
+      "sha256": "f9d2dafbc73ed82cfe7e79648490b395b76c4bcdea93a3a87cb370b92924ec77",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/cda12a69fbefbe08db70e452.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1521,
+      "sha256": "313f88540e4fcc95375627b2fb2106fd2bcae462c02c0ac584feedb872dcf32b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/app/store.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/app/useIntersectionCallback.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1d1b3cc7da1ca23547b0ce53.ts",
+      "kind": "upstream-example-code",
+      "bytes": 638,
+      "sha256": "038daaa64fd42cb50e3aeaffb799e1e780aaa92647073564dc0ff5114602fc38",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/app/useIntersectionCallback.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/baseApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6768ef8ae6ad2c0bcf37f8aa.ts",
+      "kind": "upstream-example-code",
+      "bytes": 187,
+      "sha256": "a7c4334c98aee1d2d4674e2a726e4a55d59e8e752c228e09fa3fa3b102944166",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/baseApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/bidirectional-cursor-infinite-scroll/BidirectionalCursorInfScroll.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e8867e2bc4539b48cd0ffe22.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3880,
+      "sha256": "f59e616cef95753229dc9492a7e1817b6e63f1fc6bdcf128de51fbd393244d4b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/bidirectional-cursor-infinite-scroll/BidirectionalCursorInfScroll.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/bidirectional-cursor-infinite-scroll/infiniteScrollApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/26434a8bc670ab71f29f075e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2027,
+      "sha256": "bff454ccc32eaac1545149d322ff43969b2dd3ad3aff5e61e3beae4395c4d8f8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/bidirectional-cursor-infinite-scroll/infiniteScrollApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/infinite-scroll/InfiniteScrollExample.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5b61e20a96da5a56ada1bee3.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2679,
+      "sha256": "3436f1678fd963366ec5b4768de6f15f125545b3c03060517add1b7931c30bba",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/infinite-scroll/InfiniteScrollExample.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/infinite-scroll/infiniteScrollApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7108747fb82296a928f05270.ts",
+      "kind": "upstream-example-code",
+      "bytes": 857,
+      "sha256": "5a77bb80d1fa6858e67712533466beacac67aabe09d9c423fd2df5447f04da9f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/infinite-scroll/infiniteScrollApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/limit-offset/LimitOffsetExample.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/649eabd3231908f287c8d02d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3360,
+      "sha256": "0191d429e6765c677fc1730f50aeb16e20185bc52a9851e6bfd45f29efb3f6a0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/limit-offset/LimitOffsetExample.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/limit-offset/infiniteScrollApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e208f4ab70e32007d1db101d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1614,
+      "sha256": "1db92fe0f6965d3f78b665dbd875c84bac48923cc3422201025dfca12b0e01f5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/limit-offset/infiniteScrollApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/max-pages/InfiniteScrollMaxExample.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0aed73b38352327597ee3627.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2377,
+      "sha256": "69963cd9995227615de96c455bc0cda1afa6de7e4d0861f96fb3078d5b349975",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/max-pages/InfiniteScrollMaxExample.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/max-pages/infiniteScrollApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/feca339ad2ba6c8167cf30ca.ts",
+      "kind": "upstream-example-code",
+      "bytes": 805,
+      "sha256": "060e38d41e5a8beb442556cf3180c60459b5eae9fdd5ad4697d55b91c5e5683f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/max-pages/infiniteScrollApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/pagination-infinite-scroll/PaginationInfScrollExample.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ad24e35c2c09c95418e3a120.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3368,
+      "sha256": "b0065f0985d932262c7c1e5a72b48fe7cddc33859240632765b0112959dd1d62",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/pagination-infinite-scroll/PaginationInfScrollExample.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/pagination-infinite-scroll/infiniteScrollApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7b3748309f8dc510eb8a7ce6.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1564,
+      "sha256": "081107ceb3836644457efd9022f6f33e4bc76b2abc02bffa9046d80a5ee7cf54",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/pagination-infinite-scroll/infiniteScrollApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/pagination/PaginationExample.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/68aa88e98269739901f95414.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1832,
+      "sha256": "48ae845d25c22a1f55798324a1a462c3ef0f68e22c6e04dc5b18beb80ff7c1f6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/pagination/PaginationExample.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/pagination/paginationApi.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/4d96f3f42680df809a696a02.ts",
+      "kind": "upstream-example-code",
+      "bytes": 715,
+      "sha256": "0e10e20db59f2a149bd641ff40e34c420c7006eeb54169dbcb8ad376dbcabd46",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/pagination/paginationApi.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/features/rn-flatlist/FlatlistExample.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1ed0d19430916b72ddc090ad.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1321,
+      "sha256": "a23571c857f5e523dda7c878e531973a2aa0b0d91ca7dd77537f00a839cb6383",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/features/rn-flatlist/FlatlistExample.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/main.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8f82f7432d9dd9c1417fcf9d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 854,
+      "sha256": "4565bce9d6ff46dbcc3a71f62781d7f652c4d8bb03312b1a1c693fac0bd63e27",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/main.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2b4761e137df49957d219298.ts",
+      "kind": "upstream-example-code",
+      "bytes": 128,
+      "sha256": "cb932514e6d8fa237cc346a2a071a516b0955f36b79096ad54a5174f0f3a10a2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/mocks/handlers.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dcc9739e4a8f3b6690ebbe6a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 6729,
+      "sha256": "d8da6660023752a2bf33ecd0d77a543c75003436f4f7b20996b0955fedb700a1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/mocks/handlers.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/setupTests.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3e6cb9e4ce44208bf7b8a335.ts",
+      "kind": "upstream-example-code",
+      "bytes": 42,
+      "sha256": "976bf8a5d6489b64cab3841ae30ac26d9f4655f0eb0c85d747fa05c68ae3f252",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/setupTests.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/utils/test-utils.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d297524921af0e93185cabd4.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2710,
+      "sha256": "dedba179744e3998d3285bba89ba1c16983e660d038d8ca17d29690ab5d7cc72",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/utils/test-utils.tsx"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/src/vite-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/32d4df9e78caf05ea7c83cb9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/src/vite-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/infinite-queries/vite.config.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7a564651f934469f135c3e0b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 320,
+      "sha256": "466ce3d1de12e32937325407b2c06a7a7661eb1a8a7e656666d0d6ac40a4b162",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/infinite-queries/vite.config.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/331c5d76861585229b3939d4.js",
+      "kind": "upstream-example-code",
+      "bytes": 9138,
+      "sha256": "eed27b50a3f9df3d795b0320621b115abd0ffcf23e4700f921fb1323880e851d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ea773d9d1a556f0975975724.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1216,
+      "sha256": "c9e98bc42080007685067954b16abfd0b879664981c306fbdb0e8614e3e13cfd",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/app/services/api.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f85208cbecd479f2caa33b19.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1868,
+      "sha256": "4405d0146be6595a6d156b46b9fddfc21111ad631d85abc3e9f4f5cfea45e4bc",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/app/services/api.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/app/services/counter.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a0f5a34770858c653c3e9d38.ts",
+      "kind": "upstream-example-code",
+      "bytes": 871,
+      "sha256": "06d51b4b518e8293a6577127748ab32ff14c8b088ab376cc45285426baf21664",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/app/services/counter.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/app/services/post.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fef093e0e7e1fb0e64785fb3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1066,
+      "sha256": "7028f6c5b81455c2c8599db74a61b07383731169fd69aa4d6a24eebba673bd78",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/app/services/post.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/640ce880a3da49db53077373.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2320,
+      "sha256": "9c61b94117d0eacb88a98531628c0fca91e5a2fdaaa5880ae448bdb4642aa008",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/app/services/times.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/82b78b13f02809825aa2e8d3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 386,
+      "sha256": "4394c9d8947c9a019dbf8297650526d7e4f2c14e9419aaedee859335ba2a2e52",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/app/services/times.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c81a0611ba6c3a0f0369403c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 891,
+      "sha256": "4d5af12addd838578c4e427a225245715adfe546ff1af6a9cd06de1e7aec85d5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/app/store.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/auth/authSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c1fbbc9bbbe4ab2a1f3723fb.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1183,
+      "sha256": "c20aa8a7f932f52d992047c0157d5f58a5ad59945448b3fd0151bc556b1d11bd",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/auth/authSlice.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/bundleSplitting/Lazy.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/28756d37ed6096a4892fc6e4.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 197,
+      "sha256": "4ef0bffc463b9f9a260f05d49b4aa5d949708d870895d137ec99278e1f5eecb8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/bundleSplitting/Lazy.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/bundleSplitting/Post.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/88ec5a60c1c479e9f2cbcf0e.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 860,
+      "sha256": "931d69bd537be5a5f154763592899c3b19676544f0929aa463843db659d44e16",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/bundleSplitting/Post.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/bundleSplitting/PostsList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dc09c87b1e09e6b433971216.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 898,
+      "sha256": "3b73d18e9b8fb3c2500bb3e7e7d1eaeb8f38d78f4776a7013cf9cdf5248250c9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/bundleSplitting/PostsList.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/bundleSplitting/index.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c4c7b10c25038e705b9ee055.ts",
+      "kind": "upstream-example-code",
+      "bytes": 170,
+      "sha256": "e4b2d73a8d724ed646defc0d3363a9fda042235284f84fa9921f242e7b1aa7e4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/bundleSplitting/index.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/common/Container.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c11e25a4b2a8e2701921cfeb.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 210,
+      "sha256": "fb6932c15200bfe4c8b933430069b2e2a6b4004a975524629e22f3757972ef1a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/common/Container.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fe9c27481dd6030c3890f2f2.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1323,
+      "sha256": "e3a8f27dfb1fb34a107b4097c55e832821b7f2ab1f8bcf5911928f4c591eda9d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/counter/CounterList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8fb0cf2c6c6c1680a4f6a94c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 927,
+      "sha256": "064068117cf2980079ba8c1c48118717959a23a456b8b3fcf0b9201eadcb5d8d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/counter/CounterList.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/polling/PollingToggles.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f3cc73e36220004020d40b10.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1337,
+      "sha256": "1808c784d62f4ad887779123ab3f38b9f6cf35311235f0ad3ff32569ead03665",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/polling/PollingToggles.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/polling/pollingSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f05733db872339a6f2fbe12d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1343,
+      "sha256": "ed3d8835d6e7cedef3b0bce425069d4c58769719a2c222f83d0ca580fbccf29e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/polling/pollingSlice.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/posts/PostDetail.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c467f82df4fb1ec086cfe211.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3414,
+      "sha256": "76e11011e0f439e4accfe04b3ca5d7eb90c55bdbe97606ca461100dad80da6fe",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/posts/PostDetail.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/11ee05fd8e96fa241d111ff4.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3365,
+      "sha256": "dd20f1f703e044d736af8d447f513b204bafba5e799bd5eb6dd1e05d4b995b9b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/features/time/TimeList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ee58e5ed446b5a4c24ae0f79.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 6053,
+      "sha256": "ef91de9c43fdf7fb1fb87ee36a9d4f3557d4b4b65e356cee3c1ec5a0112fd4c6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/features/time/TimeList.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/761eaf72a63d9b7e6dcd5f6c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 750,
+      "sha256": "543a56f5e8da13e46eb5fc53eabd360aae3d431f1ec7653e8d157bfc9d3f739c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ab1ef5dbe8d8b5ec8966872e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 120,
+      "sha256": "0131176cde9f4d4147e99537fabb13e3c909e6e59f655267fd9a5065366243b1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/mocks/handlers.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5d3e36695f3ba6cfcdacac25.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3499,
+      "sha256": "407ef0437c0dd63e0c454e5363ec5935d465b8e9f5f825a2b9c08eaa8f12ad3b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/mocks/handlers.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/mocks/mockServer.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/cf2431b69e7700938ee3ddfe.ts",
+      "kind": "upstream-example-code",
+      "bytes": 219,
+      "sha256": "7341abc0b4016bc870cde21f6a808da37e81cbabeaf747505ca45243c8f6ffc6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/mocks/mockServer.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/mocks/setupTests.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c06ff2fe2145a8a9d2b2061d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1267,
+      "sha256": "8ee149a98bac630bf722c68c3884cc338e3bd4037be416d9b0bad24c35863a4b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/mocks/setupTests.tsx"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/93fbc0c51b1bc6f8d0e10266.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/kitchen-sink/src/setupTests.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/776cd5d2cf2f62cf0220f554.ts",
+      "kind": "upstream-example-code",
+      "bytes": 254,
+      "sha256": "20e89bf73eb954274fa4933a36c4e8b30d1144b884a768e32e23459335acb38d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/kitchen-sink/src/setupTests.ts"
+    },
+    {
+      "path": "examples/query/react/mutations/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/94e7005094e2468a642b44ea.js",
+      "kind": "upstream-example-code",
+      "bytes": 8589,
+      "sha256": "f3e880f842f5d6e42caa885cc352da7b8e5bd439a259751468c00d09c309ccd6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/mutations/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c62e1e7710e22067042c7216.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 310,
+      "sha256": "6932966b7696e1e08b853dd8646b59d84163f52d48a10d8efc303ec5d2f053c0",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/mutations/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6717d37bafe112c868751bd3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1653,
+      "sha256": "59682e52f2c4b2582a694d9ca524432f0198b9f185a857d1b6719873eeeb3e01",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/query/react/mutations/src/features/posts/PostDetail.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f0c0df94db186ac5b012fd9c.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3649,
+      "sha256": "aff35aec72c99a35c0b6ecbed8c2f5fc3c2d87cd1c9a951cbac6b2e3c415f3fb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/features/posts/PostDetail.tsx"
+    },
+    {
+      "path": "examples/query/react/mutations/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dd25ed3e97cd5083a8d9acbf.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3573,
+      "sha256": "1e183752139cb3117c5eb6ce3afa1658d20ebb6e31f6c3b1177685c6cdbac29f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/query/react/mutations/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ff466cc4090dd3b7ea6730f6.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 744,
+      "sha256": "39205b5028b78937c0e2a80e7eb1b3280a1ab3b3330ad8469f74a607298c1257",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/mutations/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e2a8d9d26917000479eb9d39.ts",
+      "kind": "upstream-example-code",
+      "bytes": 123,
+      "sha256": "c50357cc61f13238955047a0341fbe6765d2a92c981cccb19d83c7c034ad9b2d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/mutations/src/mocks/db.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9a40704f5f28b64377237291.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1435,
+      "sha256": "857cd14d3f807c6ca69f41149c1d88ace76bd31f8aeb49022e291b8472f0302f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/mocks/db.ts"
+    },
+    {
+      "path": "examples/query/react/mutations/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8e42f9e33a766afdabdd65b4.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/mutations/src/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7c1563596f6c7c8ab5d1655d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 384,
+      "sha256": "aa2c610b072e947c411669161ffaab52d59babab5aab66ab33d81168333d45df",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/mutations/src/store.ts"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5a48d31a53f12674b5d189e3.js",
+      "kind": "upstream-example-code",
+      "bytes": 8589,
+      "sha256": "f3e880f842f5d6e42caa885cc352da7b8e5bd439a259751468c00d09c309ccd6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/74a4811508d7810a4ac692e8.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 244,
+      "sha256": "3766c32168101a61c72ead2ee3ddff71d53bb934cc4d9a593da15346da02dc1b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/dd399e258b0c5f6910e4cc9f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2006,
+      "sha256": "2046d83e9ba4337b38a808f129cf652c9633d4a86ac8f13fc9693cac9a950ce1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/features/posts/PostDetail.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9c86464b192f77f529e7c6db.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3649,
+      "sha256": "aff35aec72c99a35c0b6ecbed8c2f5fc3c2d87cd1c9a951cbac6b2e3c415f3fb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/features/posts/PostDetail.tsx"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/11efae1b4dd2e7cdd990220a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4268,
+      "sha256": "9fe969bf1af31857ae7f8303ad2d8ddb5a245490f87f833c884683b023cb59c3",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2ab7795447c63a57f1ad3bbd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 777,
+      "sha256": "5d11ee604ea1d01c5d39a53e67a242654645cca4a298de2cfc5f21ec70212c5d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ddec1703e0963c0fdf2d0366.ts",
+      "kind": "upstream-example-code",
+      "bytes": 123,
+      "sha256": "c50357cc61f13238955047a0341fbe6765d2a92c981cccb19d83c7c034ad9b2d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/mocks/db.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a58c9e35a71082ef7715f6ef.ts",
+      "kind": "upstream-example-code",
+      "bytes": 889,
+      "sha256": "71863dfe97859160f8b4732ba664a76f63ad35f26c1db9655ebc7a39fd1c9737",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/mocks/db.ts"
+    },
+    {
+      "path": "examples/query/react/optimistic-update/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/146429c70d91e65d583efae3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/optimistic-update/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/query/react/prefetching/public/mockServiceWorker.js",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/95fb4f440f83b0d99a39035f.js",
+      "kind": "upstream-example-code",
+      "bytes": 8589,
+      "sha256": "f3e880f842f5d6e42caa885cc352da7b8e5bd439a259751468c00d09c309ccd6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/public/mockServiceWorker.js"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/449f7f6ba6c74424c2c206a4.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 244,
+      "sha256": "3766c32168101a61c72ead2ee3ddff71d53bb934cc4d9a593da15346da02dc1b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/App.tsx"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/4d99b09eb70451583e0889c9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 730,
+      "sha256": "4cfb9ec278eec0a91bb526dd90a949a4c6925b3366d210d0d27b72d6846fcb3a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f2c50fa198197e8fef0178e4.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2585,
+      "sha256": "9d3c8683e1c4b2b5bee7744ab7c5d1e11a90cc777b25cc429494bfd0c8b0e95a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/68db0cbd8c21a9d6426725b5.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 777,
+      "sha256": "5d11ee604ea1d01c5d39a53e67a242654645cca4a298de2cfc5f21ec70212c5d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/index.tsx"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/mocks/browser.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/517542bda327f4b92dff6a59.ts",
+      "kind": "upstream-example-code",
+      "bytes": 123,
+      "sha256": "c50357cc61f13238955047a0341fbe6765d2a92c981cccb19d83c7c034ad9b2d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/mocks/browser.ts"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/mocks/db.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9ca3f515899ece5f9fd6a1f2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1429,
+      "sha256": "e010db6232d523214c4d377a0ddee92d7226f5b8e6e37bba8b5d2a9323b02e28",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/mocks/db.ts"
+    },
+    {
+      "path": "examples/query/react/prefetching/src/react-app-env.d.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/164c6abd42b7189ebae313b5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "57eda4c4c04a1dca45c62857326882ce9cc948c4b52973c0e3c3b7e4c3fa3990",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/query/react/prefetching/src/react-app-env.d.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/075be05cd217a5af37a5a638.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1174,
+      "sha256": "b93a457908163fa7f3ac8ec4ce0bb40e0c3a6e208f1c6a032bbff890abff0f78",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/App.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/customModule.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8706e22a8df6ceddbc49dc3e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1257,
+      "sha256": "7afba38c2a2a4f54efa41dea4514afeb39f7deef41d207b02f8238ffde414bd4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/customModule.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/dynamicMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/86db89d377c7c5d044303da5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 327,
+      "sha256": "44e6d760fba0f5c6f11cfc402713fe648728f6c4ca81967011f7e3bd574f14aa",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/dynamicMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/dynamicReactMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/bb5358d2b9819a835e38c022.ts",
+      "kind": "upstream-example-code",
+      "bytes": 528,
+      "sha256": "3bb06c6470ad8de5affd244b5d5c79df0f964563ac724d16f557c0cea16fe10b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/dynamicReactMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2390058e5fdf18ff602a9f2d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 320,
+      "sha256": "3a95208228a6ac5ccdacb9cb6d2b3085c1a394bb1110dc44cccf56732651a8bb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/listenerMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c7d1c3cd5eae33ff15c002be.ts",
+      "kind": "upstream-example-code",
+      "bytes": 322,
+      "sha256": "8914e8feadd0606ed556714ca8362a6fb63d78169aae4c3723b73a1d452ab70e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/listenerMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/services/api.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d4b4869ef18ebcb382397820.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2155,
+      "sha256": "567ef94a6469dda7f2e2664a89f8d183404cd52c6faaa427db21b60a704b38a5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/services/api.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/services/counter.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a3a3f58e8903477962c44fe7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2035,
+      "sha256": "e5b0ee10ea800b681ac01b4cc46702f87d5f4d2e0649af414f460d1bdadd8e38",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/services/counter.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/services/post.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1da1574642bb44aae35aa524.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3098,
+      "sha256": "09b6dc9b44461d6ac75e13d8bebb05477a4705332564faa2d85f849a18995402",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/services/post.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ac3848ececda6ef137862f08.ts",
+      "kind": "upstream-example-code",
+      "bytes": 5665,
+      "sha256": "d4640955d2161d566208584362f96d18bf70bfeca1dc9786716082c5ae77e2d1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/services/times.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5be8847af48304b14ab2f269.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1476,
+      "sha256": "e3fe9fbe6b53b826d3b9bec37ba2df572efd70c8ce7a6b029c0716099a0f20a1",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/services/times.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/27bb1a7ec4f74b4256b92748.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1385,
+      "sha256": "2bdcb8d9e7d24feebf65d43437dc42dd65e7cf580e4d18d5601ef889fc02ee30",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/app/store.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/auth/authSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/315b73405c25fa4bd27c863e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1464,
+      "sha256": "e9efd9a09f75fa1436d88ab75f164d43c72d52c318d2e114defd424c972629fd",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/auth/authSlice.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/bundleSplitting/Lazy.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d4edfd60804efc13673e69f3.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 187,
+      "sha256": "8154debc9eaeb3367b9815f1c1508f9881e5fee8956811fa904f8a4c3ba4699f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/bundleSplitting/Lazy.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/bundleSplitting/Post.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d556323d91fe7de45b1e4574.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 628,
+      "sha256": "a5b162fea67f54a0e6bded9e63166ea686007f65e46ba8bd1cf0e84215c38fb5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/bundleSplitting/Post.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/bundleSplitting/PostsList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a848aa04303404447a4c9f6f.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 631,
+      "sha256": "b7c16c489928c32efc85c91011051936e19ced418560a06a578837c2945fc78d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/bundleSplitting/PostsList.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/bundleSplitting/index.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2dc946b37204a1ff953d47f8.ts",
+      "kind": "upstream-example-code",
+      "bytes": 170,
+      "sha256": "e4b2d73a8d724ed646defc0d3363a9fda042235284f84fa9921f242e7b1aa7e4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/bundleSplitting/index.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/common/Container.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a61a8d72a55dc0ad39d425e8.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 215,
+      "sha256": "128bcc6a7ba4aaa42b70e566a09d509058748034532f030db90a8206559c4d8c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/common/Container.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b5cec516b1008b70e8f6fd96.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1097,
+      "sha256": "62bf3fc3519a3baf1bd2d000b539b68625e7a28ca22870a4a1c4f0df325705c6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/counter/CounterList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/00f9d36e231178390b977198.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 923,
+      "sha256": "792349437de7be7fabb361c6baabed6dd591f6a595bb09c5fbca0dad94f5d244",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/counter/CounterList.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/polling/PollingToggles.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a98bb1a27c8508e878fb0ea7.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1340,
+      "sha256": "55070e9dea2bc7b878217089a10206e0fb17b0597d662af904a2f71e593f93ef",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/polling/PollingToggles.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/polling/pollingSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2177e7c72c9bf53106a31bd4.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1895,
+      "sha256": "fe97e7468b95c2128b1899c9798a58cfb4458dd888b9cbd0161910dd18917124",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/polling/pollingSlice.ts"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/posts/PostDetail.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/405070847eef833b082b4c9b.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3373,
+      "sha256": "2517bd4c29e35df4f2048df5f529e35305e83c3d38155320e7c74251cfb90b7b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/posts/PostDetail.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1b9b68521d4a65ba22c155d2.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3520,
+      "sha256": "bc124eb13f891a11caccc89ab2c024cd2bb17b6775b6021f770448aa3929196a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/features/time/TimeList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/da97fabf82e475c6a5b73315.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 6085,
+      "sha256": "2b28435c188cc0a1f908cd3114a02f059d9c461cf4dd46353b0e0e7867a3a04c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/features/time/TimeList.tsx"
+    },
+    {
+      "path": "examples/type-portability/bundler/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ab4634d0ee2c3c211e4682c0.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 605,
+      "sha256": "d2a37bb5147cea4987f23cb6a5f2febd199cb038f7825599000029450b289ed4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/bundler/src/index.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/8ce30959d049e7991ff45ab3.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1540,
+      "sha256": "1fd0fad6bcbb7bcb241f9bb0e9160d2496581fbecc4687ba5a4f2bb924a182dc",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/App.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/customModule.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a2d6dbfd40e3ff2c6d9c7c8c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1448,
+      "sha256": "2feb4d408e43a1f2ac47fd09c59d17f3cb56f7bd9983b8576c03a7d57ba969ad",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/customModule.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/dynamicMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b3ff741fce91e190697086a5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 473,
+      "sha256": "83152e3a9527fd774bd995390fa33682d194cb79876cb600e0a65621aa930b60",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/dynamicMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/dynamicReactMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/bcb75cf556ed703c178c153d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 796,
+      "sha256": "f9825424485735ed69fa741b4564aa67249cd7db07deeec3dd1e19514c798e1d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/dynamicReactMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/daca5c681d6d0100e343576e.ts",
+      "kind": "upstream-example-code",
+      "bytes": 489,
+      "sha256": "4801dbfb70eab599a52d5dd8e68c73fb5c09ee473d68c06ad5a58f69d6162186",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/listenerMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ff57d0e645e88ad017035630.ts",
+      "kind": "upstream-example-code",
+      "bytes": 471,
+      "sha256": "77d1d607d9445a8a06590a5aaf93548705263621cddd064ebe09f908d306842a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/listenerMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/services/api.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a6a455c1e5c995a645ce9161.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2519,
+      "sha256": "8ffd506b0bfd00783b4d51f7a3b803af8c3bd2cb9bb2bdc9dc71e45894df3a3e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/services/api.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/services/counter.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/82d7514462d4d7230d5fcea9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2299,
+      "sha256": "04686cb4f812433fba49dfabec591a6fa0512a3b156d8bbdee111799c8c05148",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/services/counter.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/services/post.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/3e9f3ab52475b58496acb623.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3462,
+      "sha256": "0bc98eae34fda661a895cd69dc657dba1bbb9ea621dfa71ca440dbbcbc0a8296",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/services/post.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c329c83972138d0215eab409.ts",
+      "kind": "upstream-example-code",
+      "bytes": 6272,
+      "sha256": "1c327d6976d1fdba57a489a5901377aed4029823f75eb9ea03a5b8a9868787ab",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/services/times.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/34955b14c91f4a59d8b3547b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1712,
+      "sha256": "0cdf16e11d9f2db67d29a2d2aa0eee5f6fa693d61520d77275971e0e98e35f6d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/services/times.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0373a4a6eca8322fb1ab5796.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2047,
+      "sha256": "d3e021790aafed636af4de895d8a99b1221782c70ce911686cdc8dfba1b7ade2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/app/store.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/auth/authSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/69db096e66b5c2bfbc41ef1c.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1758,
+      "sha256": "baa536bb25316fbfd3de15c2c8ebe020f213a3a4870a5d72b6b083a2044cc566",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/auth/authSlice.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/bundleSplitting/Lazy.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/a7291b6dfa88de07d6000b5b.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 358,
+      "sha256": "bba0de168a419d6664270ed981a4c435a5ac35e1b27211e51871be02051f74d8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/bundleSplitting/Lazy.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/bundleSplitting/Post.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/02c7d4d670587bb2962d02b5.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 575,
+      "sha256": "dcdadc604899a3b8f78c7deb0e9a1e32c043fdbb9c90188da46b39254a9bb314",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/bundleSplitting/Post.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/bundleSplitting/PostsList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f921e0bf2bac5e52404a2cfd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 767,
+      "sha256": "0d299fea1ea5b36e70fe09ebeafe1c0922059541c4ac4a5b767278e9eb82a1e8",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/bundleSplitting/PostsList.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/bundleSplitting/index.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b6bc944e70549f6650657f68.ts",
+      "kind": "upstream-example-code",
+      "bytes": 317,
+      "sha256": "0fec40db8f5d9b6749f6bcb80cc5714e28ac8d6f6b3f942f0b04544dec100bf5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/bundleSplitting/index.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/common/Container.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/33c6b00239b90823ed348950.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 232,
+      "sha256": "9783712f044f62558ea323d6fab667b4f487e6e4ce133cf5a5ccfa20e8268c36",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/common/Container.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/01db0af13b58736a0628dd08.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1284,
+      "sha256": "b8c2719544ea0f7f83c084663a23dbcf1ec3a8871a96a775a578b80a3c398d4f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/counter/CounterList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/250b023cdbaa0385243862b7.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1114,
+      "sha256": "a56a5783526784e1e201a42d45f2c1a2e2620be38385e7df9b198af4c598c556",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/counter/CounterList.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/polling/PollingToggles.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f941a5679ffb800c05ba6219.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1676,
+      "sha256": "b500ece1b8d148447c4a467e61321cf49f88aa76dd1ed507d6fb278f52776120",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/polling/PollingToggles.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/polling/pollingSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/601dd89476c2944e6957d6d8.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2175,
+      "sha256": "9c34ba8b7773f3d3626841f05ef89a708a30b9a5a4c6b07fa15e816e65b4b883",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/polling/pollingSlice.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/posts/PostDetail.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/9f9aa06e7bcbfb2b7d8ef29e.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3794,
+      "sha256": "2775da7722656fa1b829b6a98b4919cf4888fd31e7ad19f69794471cca35fb6b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/posts/PostDetail.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/0b09b2edf76a97d42c1b356a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4114,
+      "sha256": "c6dffe595a211c16f71e124fb0da836e8a447348275e9a202d62e9939cb20aa9",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/features/time/TimeList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1376e1b4a74d947b35f7b4f8.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 6506,
+      "sha256": "84179200e47e82a857e16dada02e37b7a2f7c9ec5cb31cd50e4508717ccdc55c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/features/time/TimeList.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-cjs/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/7c78679d23fcaff9b2eaeb8d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 771,
+      "sha256": "4ec62ce2f1ea561014f3a41fb55a941e81c50498aeccefbe3283f120f0399dfb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-cjs/src/index.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/App.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/20daff4109377dd3f1255e76.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1195,
+      "sha256": "f0fe7b3ef1fa009b12c34d29fa34ab55ea445e9d3a9fbc8b455b25c1cb803b96",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/App.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/customModule.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d5c085fef490ada19a7976a2.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1257,
+      "sha256": "7afba38c2a2a4f54efa41dea4514afeb39f7deef41d207b02f8238ffde414bd4",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/customModule.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/dynamicMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/61c753d5823552166c425324.ts",
+      "kind": "upstream-example-code",
+      "bytes": 327,
+      "sha256": "44e6d760fba0f5c6f11cfc402713fe648728f6c4ca81967011f7e3bd574f14aa",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/dynamicMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/dynamicReactMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/de14c943175d95acb5270236.ts",
+      "kind": "upstream-example-code",
+      "bytes": 531,
+      "sha256": "b89ffff169361da4814a6a1235dc1e59444e8786480cc3869064dc98a5612649",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/dynamicReactMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/hooks.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/528e253f68fc3cb66427dd4b.ts",
+      "kind": "upstream-example-code",
+      "bytes": 323,
+      "sha256": "a48bc0b14f54a1adcf2ac38e461ed74b12698befaf5c207a9648d3ed473d69bb",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/hooks.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/listenerMiddleware.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/db7c18ab3163dd913fa10f10.ts",
+      "kind": "upstream-example-code",
+      "bytes": 322,
+      "sha256": "8914e8feadd0606ed556714ca8362a6fb63d78169aae4c3723b73a1d452ab70e",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/listenerMiddleware.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/services/api.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ffdaada58923f91c822daee3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2158,
+      "sha256": "6914fb3685e2038d08c2321727721d60b2b6211ba5e215f2c8e5a5d22220ba54",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/services/api.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/services/counter.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2b38ce20325a032996fe8354.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2038,
+      "sha256": "c50d62f66b0efb8c8883056108ca65f955d8c4ef05246b415c72b0a48466832a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/services/counter.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/services/post.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/957686dcebe16af548f970e3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 3104,
+      "sha256": "e5513d56f4e22b9417b244edcce15f41c63178b6aeed86c1ebc7d986e303b116",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/services/post.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/services/posts.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ae4a569a106f4d6d3094d8a5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 5668,
+      "sha256": "8b24abff2227f84c0d3c8edf8723bef53aac06bb7856298d761712e3661f0709",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/services/posts.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/services/times.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/c9fb32c883a5e2d17fda7585.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1479,
+      "sha256": "48be50f65a6465e2504a4c5b047ec47be2adb0802707df655c483f19f3d069cf",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/services/times.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/app/store.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1730b8c9993b0049cf837d95.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1403,
+      "sha256": "580859f10f4134ea0054126774b2faa2d43cd2a6b83e010dac84be964acc4e64",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/app/store.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/auth/authSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/059907d1e98f827d43bfa9a3.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1470,
+      "sha256": "e1d418bf61ac49579cf8939cc86fff14076f272053f75b4bee92570ef3232e3a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/auth/authSlice.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/bundleSplitting/Lazy.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b291895a3c631b3650280e21.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 196,
+      "sha256": "985a0289b77ce4963d6ea068282ead5d0d946fd02326ca85472442a84494995b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/bundleSplitting/Lazy.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/bundleSplitting/Post.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/29ab1c2a1f152802b0a6f96a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 631,
+      "sha256": "4609b54aeda9e3a883d17328f2d8e3efcaf6530d5b6d65e259f3ec7b771eaee2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/bundleSplitting/Post.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/bundleSplitting/PostsList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/ad8543528c508494bb043587.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 643,
+      "sha256": "777734d3faafd655c6529e6f2ff2b5b462448837608cef53ca2b11f0dab8de80",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/bundleSplitting/PostsList.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/bundleSplitting/index.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e9852c9695fed76625613529.ts",
+      "kind": "upstream-example-code",
+      "bytes": 179,
+      "sha256": "3cdbd068be54be7a7ca57d82b8aeea85ab1f81fd6f9118aa20e24bb05324742d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/bundleSplitting/index.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/common/Container.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f4e02099db84a313bc59c7d1.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 215,
+      "sha256": "128bcc6a7ba4aaa42b70e566a09d509058748034532f030db90a8206559c4d8c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/common/Container.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/counter/Counter.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/228c320fca66241e28e38065.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1100,
+      "sha256": "4eb9c6fcdaa2189e041f3e267b47ef9bc33f8e99d796718ddb4a1ee06c1d0c6d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/counter/Counter.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/counter/CounterList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/6f5cb21dc767bc818efc318d.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 929,
+      "sha256": "fb19c2b2bbff9303ab6532585267d34963035f771d7100c540d45ea787a55cfa",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/counter/CounterList.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/polling/PollingToggles.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/b47f4847b97555ed2d5b887a.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1346,
+      "sha256": "21afa0d9a5a21c7b436c70505266843a61842c4ab4c70e22b740b6af0b657db6",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/polling/PollingToggles.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/polling/pollingSlice.ts",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/06dd42eb6d3f4531c6154b4d.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1898,
+      "sha256": "4ef4954e268fbfcf287b884482f3870e29e273bb8829b5f8ec106a79fc757dee",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/polling/pollingSlice.ts"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/posts/PostDetail.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d2f95dc2eac5c8b9c890a1f3.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3382,
+      "sha256": "136b59aa1c51c3586c0a0ddff4e7ce32b28a6053de074566a156a8d05846e964",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/posts/PostDetail.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/posts/PostsManager.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1818e741d8201d49c6009d60.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3532,
+      "sha256": "c12d9ea24e919e318c58487dd6082a14e5d4a829f096a4f9955f3263b1e6ff7b",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/posts/PostsManager.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/features/time/TimeList.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/45c120591305e82ee4037202.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 6097,
+      "sha256": "62178f3d301d4ad297f016b17e5b756c51d33ef4a27a1de88a27954b99bc7505",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/features/time/TimeList.tsx"
+    },
+    {
+      "path": "examples/type-portability/nodenext-esm/src/index.tsx",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/fb68168515759c703bc0c966.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 611,
+      "sha256": "f7464f813b4c93a8f5106129410889a14a4cf04dbd080982d5dc5123ef4208d2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/examples/type-portability/nodenext-esm/src/index.tsx"
+    },
+    {
+      "path": "packages/rtk-codemods/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1d4bc3929dcaa86ddf7e79cb.md",
+      "kind": "official-document",
+      "bytes": 935,
+      "sha256": "fc918cc5c9b8725be8cb0f6df3f5e902c1c1fc1e25b3203cad14e09edbc5a0e5",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-codemods/README.md"
+    },
+    {
+      "path": "packages/rtk-codemods/transforms/createReducerBuilder/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/97d25f8dc153349f81e1d77a.md",
+      "kind": "official-document",
+      "bytes": 3187,
+      "sha256": "ad6bc63c5755d92084f5ca0eced53b1d47f5e88192c1d2db9f49bb45c6d025c2",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-codemods/transforms/createReducerBuilder/README.md"
+    },
+    {
+      "path": "packages/rtk-codemods/transforms/createSliceBuilder/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/e14b5fe247f3dcf468bb48cf.md",
+      "kind": "official-document",
+      "bytes": 3749,
+      "sha256": "bd020bc238ed7c6ba1187c07bd4052f6e9e729e1f5f336ee250a32e444ffb40f",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-codemods/transforms/createSliceBuilder/README.md"
+    },
+    {
+      "path": "packages/rtk-codemods/transforms/createSliceReducerBuilder/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/d27303ef3487f76c78dca3b4.md",
+      "kind": "official-document",
+      "bytes": 1045,
+      "sha256": "a63c7c92592267c0ff0a900ae88b70e0a9968c5a5fb793e88604188eea65532c",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-codemods/transforms/createSliceReducerBuilder/README.md"
+    },
+    {
+      "path": "packages/rtk-query-codegen-openapi/ChangeLog.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/48dbc9c9eb5fdc0212b36b34.md",
+      "kind": "official-document",
+      "bytes": 2175,
+      "sha256": "3ddfb9017271470979a3a9cf40771adc8393ba64f2a386a15ecc1ab6db279697",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-query-codegen-openapi/ChangeLog.md"
+    },
+    {
+      "path": "packages/rtk-query-codegen-openapi/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/5ab23e757ccdaeca4112e397.md",
+      "kind": "official-document",
+      "bytes": 755,
+      "sha256": "1c0903dccf7ce470764296aeec8e61d1b4c64927bbafca94284de2c3a43b5f68",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-query-codegen-openapi/README.md"
+    },
+    {
+      "path": "packages/rtk-query-graphql-request-base-query/LICENSE",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/961ba9cc3001d3c418c21f4e.txt",
+      "kind": "license",
+      "bytes": 1067,
+      "sha256": "176c3dcdac4402ccc78386ea019ac895f1fa0cf216acd77e93a775b0bed3f36a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/rtk-query-graphql-request-base-query/LICENSE"
+    },
+    {
+      "path": "packages/toolkit/LICENSE",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/1dbbac67603feb5ba7cfb3de.txt",
+      "kind": "license",
+      "bytes": 1069,
+      "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/toolkit/LICENSE"
+    },
+    {
+      "path": "packages/toolkit/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/f9a3e60178a9c4a9b0617470.md",
+      "kind": "official-document",
+      "bytes": 8286,
+      "sha256": "ad9190021870ba6d98c4c53436d3518eaafa01ae68bfbcb21c78c08255d22fae",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/toolkit/README.md"
+    },
+    {
+      "path": "packages/toolkit/scripts/issue-triage/README-github-issue-to-markdown.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/2da4e0668b5ade5fc621efc9.md",
+      "kind": "official-document",
+      "bytes": 2828,
+      "sha256": "1dab9ab54b72a54520e4c4f78b19c9dcbe143a147dfc0589009221428abff093",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/toolkit/scripts/issue-triage/README-github-issue-to-markdown.md"
+    },
+    {
+      "path": "packages/toolkit/scripts/issue-triage/README.md",
+      "localPath": "raw/reduxjs--redux-toolkit/e7a8b318df28/19cbc80e50b47fdb09ba7e64.md",
+      "kind": "official-document",
+      "bytes": 1753,
+      "sha256": "be90e807700828b179f720ff675d65e80c44c4e044d8d8e0f05ef0ea5936dc4a",
+      "sourceUrl": "https://github.com/reduxjs/redux-toolkit/blob/e7a8b318df28aaf50ced1e65cd4636b7508263b2/packages/toolkit/scripts/issue-triage/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,41 @@
+Ddoc
+
+$(D_S $(TITLE),
+
+$(UL
+    $(LI New releases are published every $(I three) months)
+    $(LI Point releases are published unscheduled when important issues or regressions get fixed.)
+)
+
+$(P The upcoming release schedule is as follows:)
+
+    $(DIVC release-schedule,
+        $(TABLE
+            $(MINOR_RELEASE 2026-08-15, 2.113.0)
+            $(BETA_RELEASE 2026-08-15, 2.114.0)
+            $(MINOR_RELEASE 2026-09-01, 2.114.0)
+            $(BETA_RELEASE 2026-11-01, 2.115.0)
+            $(MINOR_RELEASE 2026-12-01, 2.115.0)
+            $(BETA_RELEASE 2027-02-01, 2.116.0)
+            $(MINOR_RELEASE 2027-03-01, 2.116.0)
+        )
+    )
+)
+
+Macros:
+    TITLE=D release schedule
+    MINOR_RELEASE=$(ROW minor, $1, $2, minor release)
+    BETA_RELEASE=$(ROW beta, $1, $2-beta.1, first beta for $2)
+    ROW=<tr class="release-schedule-$1">$(TDX2 $+)</tr>
+    TDX2=$(TDX $1, $+)
+    EXTRA_HEADERS=$(T style,
+        .release-schedule table {
+            margin: 0 auto;
+        }
+        .release-schedule-minor {
+            font-weight: bold;
+        }
+        .release-schedule-beta {
+            color: #5f0303;
+        }
+    )

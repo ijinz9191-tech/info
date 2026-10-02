@@ -1,0 +1,809 @@
+{
+  "schemaVersion": 1,
+  "repo": "kagent-dev/kagent",
+  "commit": "542e0a7a82f0f32d09c398f9c56319a3f617c93a",
+  "retrievedAt": "2026-10-01T15:21:08.286385+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Provisioning/Automation & Configuration"
+  ],
+  "archiveUrl": "https://codeload.github.com/kagent-dev/kagent/zip/542e0a7a82f0f32d09c398f9c56319a3f617c93a",
+  "archiveSha256": "af5efe8be877d8c275cc5ab71f71719dd067dab543b7cc9291a329b963bc14c8",
+  "archiveBytes": 6637207,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 62,
+    "code": 35,
+    "licenses": 1,
+    "bytes": 473695
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "6ebdb617a8104a7756d0cf36578ab01103dc9f07e4dc6feb751296b9c402faf7",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 12970,
+      "sha256": "36da3cdabcc8ba41c2410a157569c2c7a8d004becc6b2802fda646d2aed2e683",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 967,
+      "sha256": "3e98ec859b127ef4e0e27f120c2001284958452896ad05818f99644e5921606f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 12929,
+      "sha256": "1a3187ccfa40c613b47b4b13b39c1526aee4bab2c7e8194e3d5ef83ecb229295",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/CONTRIBUTING.md"
+    },
+    {
+      "path": "DEVELOPMENT.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/fc2a310fcfedfefb0046def6.md",
+      "kind": "official-document",
+      "bytes": 10322,
+      "sha256": "e1945089425fd2976f63b33a5adf56c733f4d812e0f1e09dd57689dadd0c4a74",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/DEVELOPMENT.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11310,
+      "sha256": "3b1ee5b1e14fda40515c18ec2f0796d632e65a20b2aca8f017c654bc26ca77bd",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 9776,
+      "sha256": "2f88039b274cb69a11e2750921cf183b31c3333a0dabbca733a40a5772a1fe82",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1594,
+      "sha256": "3d1a90a33e7486887a292c88796b53f1d4768c1baa3601db7e4c5873deea79fc",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/SECURITY.md"
+    },
+    {
+      "path": "STYLE.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/a9b19ccf73804266933b0f09.md",
+      "kind": "official-document",
+      "bytes": 16661,
+      "sha256": "01c7c48622bdfae2d7d7ff6e9edbf5eba7a3ced58cb35cf092356b4a9eca18ca",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/STYLE.md"
+    },
+    {
+      "path": "contrib/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/549baf4b2300e19b6400b465.md",
+      "kind": "official-document",
+      "bytes": 906,
+      "sha256": "c80be2b2039216b63fbde1aaa3b50841576acf8a8c44dd2eb1dad49dce6b4515",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/contrib/README.md"
+    },
+    {
+      "path": "contrib/tools/k8sgpt-mcp-server/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/2014a2b00ac0cc720596d63e.md",
+      "kind": "official-document",
+      "bytes": 2268,
+      "sha256": "c1cb5440f9bf557e52afbc91b9157257910b89692cca0de8fdbe3810d7ded8f2",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/contrib/tools/k8sgpt-mcp-server/README.md"
+    },
+    {
+      "path": "contrib/tools/server-everything/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ff89ed57a6a010049b6e1668.md",
+      "kind": "official-document",
+      "bytes": 1676,
+      "sha256": "b5ff3ca7c139867d8c92502873a6a1ad8042e73bbec9bf6069a0157a837ae085",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/contrib/tools/server-everything/README.md"
+    },
+    {
+      "path": "docs/architecture/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/92691389bf6252f222606d3e.md",
+      "kind": "official-document",
+      "bytes": 5990,
+      "sha256": "caffd28c980eede9ece1e24f8f813f2c0a7e9f63bc36539f74f12e66ea04955f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/README.md"
+    },
+    {
+      "path": "docs/architecture/a2a-gateway.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/781fa9d80498e880ab55a8c5.md",
+      "kind": "official-document",
+      "bytes": 12385,
+      "sha256": "f3a24193c4107f4382d81d09666e0b0b7126559c71ea522fdc7981f6f5631b9e",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/a2a-gateway.md"
+    },
+    {
+      "path": "docs/architecture/a2a-metadata.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/f088d91cb16699fa79fe3af6.md",
+      "kind": "official-document",
+      "bytes": 3258,
+      "sha256": "af9893faa1631e927f7c0e6c07cafeb6f3d2539133792289ce024d68d4b059e1",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/a2a-metadata.md"
+    },
+    {
+      "path": "docs/architecture/a2a-subagents.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0d0352ad168d3d8d3edc5109.md",
+      "kind": "official-document",
+      "bytes": 2287,
+      "sha256": "ae3039dc967170c78d044ced406ce58a93c7fc75db9ba80e70de5d1683192c82",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/a2a-subagents.md"
+    },
+    {
+      "path": "docs/architecture/a2a-transports.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c1240c7c77920c34e6e71e16.md",
+      "kind": "official-document",
+      "bytes": 3263,
+      "sha256": "65ce8d6d76f0e223e4d335daf22cc8ade60d23b91adc7760a947d26515e24862",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/a2a-transports.md"
+    },
+    {
+      "path": "docs/architecture/configuration-and-compilation.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/17a3c3d6b4425a83b747fd77.md",
+      "kind": "official-document",
+      "bytes": 14015,
+      "sha256": "18d5fa1a6e8423628a7c0b57bb3f3e25112ba97f021c4a43c0e4e28b9eb77876",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/configuration-and-compilation.md"
+    },
+    {
+      "path": "docs/architecture/credential-injection.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/17b684d9fe26fd577e40f4c2.md",
+      "kind": "official-document",
+      "bytes": 4501,
+      "sha256": "3855a182d2ce26513ed4fbed9f1c7067ce9672dc912290f9b64730c0e5675f4c",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/credential-injection.md"
+    },
+    {
+      "path": "docs/architecture/human-in-the-loop.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c64a38a96834dc3fa14bb702.md",
+      "kind": "official-document",
+      "bytes": 4225,
+      "sha256": "90f5cc4438150304557efe989185e3d1949f0bb040533dc6c1d65ea2454999de",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/human-in-the-loop.md"
+    },
+    {
+      "path": "docs/architecture/mcp.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/5a99c042e69016949862067f.md",
+      "kind": "official-document",
+      "bytes": 2815,
+      "sha256": "acd5bb4a940baf594deb4203bae95c1ac909c2ced1ee315c74c3f4d2d519061e",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/mcp.md"
+    },
+    {
+      "path": "docs/architecture/oidc-proxy-authentication.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/789b3f943541f82483f6f257.md",
+      "kind": "official-document",
+      "bytes": 9359,
+      "sha256": "b800e066f6b969aa745fd9874c647b3a5a994e1ffb50e2a8f2f1c4098d050ef6",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/oidc-proxy-authentication.md"
+    },
+    {
+      "path": "docs/architecture/persistence-checkpoints-and-forks.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/b832488102a174b92ef2bde9.md",
+      "kind": "official-document",
+      "bytes": 9841,
+      "sha256": "957bf84427a71bd68b47fe75d301681865cfadc4dc20c28a0c0f77b4e1b18a80",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/persistence-checkpoints-and-forks.md"
+    },
+    {
+      "path": "docs/architecture/prompt-templates.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/4da70c4523c4242fe66bdf86.md",
+      "kind": "official-document",
+      "bytes": 1155,
+      "sha256": "3b0d12ffd4cad9626878bc192f0ae3c2edbf3be95addde36ee8377495b0dce0e",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/prompt-templates.md"
+    },
+    {
+      "path": "docs/architecture/runtime-and-lifecycle.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0d7802ab93be1c563526b71c.md",
+      "kind": "official-document",
+      "bytes": 11914,
+      "sha256": "78e7943e54af40c2b50f14be86138059590c06e17664cd5dbcefde1e30fb0bef",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/runtime-and-lifecycle.md"
+    },
+    {
+      "path": "docs/architecture/sandboxes.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0e5557863987a8e08c061906.md",
+      "kind": "official-document",
+      "bytes": 19377,
+      "sha256": "0b508b0f02588d7a751cfc184718f8ed1cf1737b9349e9a074484989716194b4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/sandboxes.md"
+    },
+    {
+      "path": "docs/architecture/structured-output.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c17170fdfbe58034d614ee2a.md",
+      "kind": "official-document",
+      "bytes": 4167,
+      "sha256": "02b3d50689b2b636b0c917ecad89276babf39b991ac708b4c94933f25919e8a9",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/structured-output.md"
+    },
+    {
+      "path": "docs/architecture/telemetry-contract.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/e41451e0f5169a75ba0d7562.md",
+      "kind": "official-document",
+      "bytes": 12011,
+      "sha256": "3876e6d9326609596bcb8fe17c543d5259baf3bf040f6a8839f161364e60af69",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/telemetry-contract.md"
+    },
+    {
+      "path": "docs/architecture/telemetry.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/dad80fee2a961dbd7079f1e2.md",
+      "kind": "official-document",
+      "bytes": 20188,
+      "sha256": "a91b1351eae26459fa09bf6c83b879a961b464a03de4f34079969fa2c69936cf",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/architecture/telemetry.md"
+    },
+    {
+      "path": "docs/env.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/cb1e6361c61e7779c9d13355.md",
+      "kind": "official-document",
+      "bytes": 30966,
+      "sha256": "91b70bec18135ce1f03166e4efef819af1db5395f139b36255533329700b44f4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/env.md"
+    },
+    {
+      "path": "docs/kubernetes-api.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/fe63bd5ae0180ed0786ed234.md",
+      "kind": "official-document",
+      "bytes": 6611,
+      "sha256": "fd8a6b1acb8ce537e2cb80ba1d2dab8aacf0edc8fdf73104116579b7e0f26ffa",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/kubernetes-api.md"
+    },
+    {
+      "path": "docs/lifecycle-retries.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/50a5bae1cc1f5d9cae655e5b.md",
+      "kind": "official-document",
+      "bytes": 4524,
+      "sha256": "b8bb49411353b86ca507812b61742f72dae8c6d893d6e54aa50cc5dc9a409de3",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/lifecycle-retries.md"
+    },
+    {
+      "path": "docs/protobuf-api.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/9b3861094ff4063856162ef5.md",
+      "kind": "official-document",
+      "bytes": 9384,
+      "sha256": "2ee0e5f3f46742c8f1d7788c7c2502a9cbb659f7ca2b5cd83b9918098e31bdcf",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/docs/protobuf-api.md"
+    },
+    {
+      "path": "go/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c6fc62c6b8d55a99557d915c.md",
+      "kind": "official-document",
+      "bytes": 4695,
+      "sha256": "e1b49e4af7481fd3720d36fbb820a7bda4ddb527ebb9df0411d91a1f1cd45ee4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/README.md"
+    },
+    {
+      "path": "go/adk/examples/byo/main.go",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/f247232d631a07ccf8262084.go",
+      "kind": "upstream-example-code",
+      "bytes": 4954,
+      "sha256": "bd79f9a0987eb3dbd6e06889c46b18190242a65b781ad8342f52c71733c534d1",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/adk/examples/byo/main.go"
+    },
+    {
+      "path": "go/adk/examples/oneshot/main.go",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c64a734b5482b10c736bea00.go",
+      "kind": "upstream-example-code",
+      "bytes": 3670,
+      "sha256": "77575577f668c9bc91baeafca8fc7bdfbb9131ad7b1348e45f91014af3406fbf",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/adk/examples/oneshot/main.go"
+    },
+    {
+      "path": "go/adk/pkg/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/b6f6248917457430fe7eb99f.md",
+      "kind": "official-document",
+      "bytes": 1551,
+      "sha256": "e01f7e7bec978e408d3e6c0bc4b75a7eddfc97f0e9af77c9247c26044cb82c53",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/adk/pkg/README.md"
+    },
+    {
+      "path": "go/core/cli/internal/profiles/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/b6d62a8cc5bf435e7bad713b.md",
+      "kind": "official-document",
+      "bytes": 295,
+      "sha256": "367b24d5514793939ba7cefc5f284d2c70864324ca35e95aedce2886124076ec",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/core/cli/internal/profiles/README.md"
+    },
+    {
+      "path": "go/core/internal/database/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/91a69ed5fe14102cbd646a36.md",
+      "kind": "official-document",
+      "bytes": 5921,
+      "sha256": "030c1eca83690e0c1c9bbafe5b61fd3c006dc49ce122f35defc916ec54b4f087",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/core/internal/database/README.md"
+    },
+    {
+      "path": "go/core/test/e2e/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/192aa93d0e594e219478cf9f.md",
+      "kind": "official-document",
+      "bytes": 11862,
+      "sha256": "a8aa4cd9c09f0051a9088c3d6ebae7f17445e539b8b738a5a32d9f727a17f38e",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/core/test/e2e/README.md"
+    },
+    {
+      "path": "go/harness/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/77e059fd074e1fdeff94396d.md",
+      "kind": "official-document",
+      "bytes": 3595,
+      "sha256": "1e827c052646c8df5347be81b8f21a62f25a45c8f5d1d778807793d712deaae5",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/harness/README.md"
+    },
+    {
+      "path": "go/harness/claude/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/fad4588c362504b113f04b61.md",
+      "kind": "official-document",
+      "bytes": 6988,
+      "sha256": "1e0f554dbd85a31d991d018c481ebd061faff8c4d13d5281a45b4a8e5021e3fe",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/harness/claude/README.md"
+    },
+    {
+      "path": "go/harness/codex/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/1d787a2bed5c61140b1ea823.md",
+      "kind": "official-document",
+      "bytes": 6226,
+      "sha256": "748ac1278a28acfc0872e4ec04bcfeec9026a087d7003c786f38ce58ad99fe23",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/harness/codex/README.md"
+    },
+    {
+      "path": "go/sandbox/guest/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/d45da7e32e77d76d8d47ad7c.md",
+      "kind": "official-document",
+      "bytes": 4208,
+      "sha256": "8208de70d57e8dfc4c5e93947d9961111a5eeeea145aa92afdf40307cf8149c3",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/go/sandbox/guest/README.md"
+    },
+    {
+      "path": "helm/README-testing.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/19cb27f48de7408995656566.md",
+      "kind": "official-document",
+      "bytes": 6469,
+      "sha256": "1cf170730de13eb6e065ac24f9458cfb5cd826047bb4078c9f714f440c9b66b2",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/helm/README-testing.md"
+    },
+    {
+      "path": "helm/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ba66b531f5db27e2cb364be1.md",
+      "kind": "official-document",
+      "bytes": 5215,
+      "sha256": "7c3709e6c783c56ba087c3f6d05a36a8cf2467c42306760ee7ec97b4f18ea6a7",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/helm/README.md"
+    },
+    {
+      "path": "proto/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ae1706c4818260d41095a2f5.md",
+      "kind": "official-document",
+      "bytes": 770,
+      "sha256": "0c1f6a16665f74bffcac9fe1064e319869154cb11cdc714602da9a6c603ce113",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/proto/README.md"
+    },
+    {
+      "path": "python/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/217ed82f87b78b399e304b07.md",
+      "kind": "official-document",
+      "bytes": 2386,
+      "sha256": "36a8cc181dd5882cbd69355a8f3951edb089025d883789677606cb23574cebdc",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/README.md"
+    },
+    {
+      "path": "python/packages/kagent-adk/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/5bba907a8f9d1cf0fae6b66e.md",
+      "kind": "official-document",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-adk/README.md"
+    },
+    {
+      "path": "python/packages/kagent-adk/src/kagent/adk/tools/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/2bc779da6fae84aa5626504c.md",
+      "kind": "official-document",
+      "bytes": 7391,
+      "sha256": "71f9d8858026b9b585b33deca4e028986367cf953088991ad154bf0a23c2bc24",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-adk/src/kagent/adk/tools/README.md"
+    },
+    {
+      "path": "python/packages/kagent-core/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/9477b902244f6fd0cd13822e.md",
+      "kind": "official-document",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-core/README.md"
+    },
+    {
+      "path": "python/packages/kagent-crewai/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/09d83c66c3f2a181cd313780.md",
+      "kind": "official-document",
+      "bytes": 4917,
+      "sha256": "ee6af93ceba236a5d3d3423ea8d0618e4a14df16127f3b6d79b73851b28cf89f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-crewai/README.md"
+    },
+    {
+      "path": "python/packages/kagent-langgraph/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/47b5f4567980275c38bc49cd.md",
+      "kind": "official-document",
+      "bytes": 2531,
+      "sha256": "466e6d7cc470d4572c1e97b4bca8b82b400887e65c8b029f4208986fb2728738",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-langgraph/README.md"
+    },
+    {
+      "path": "python/packages/kagent-openai/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/7447892a8832412f10b7fed9.md",
+      "kind": "official-document",
+      "bytes": 3591,
+      "sha256": "07bcc77a7b5af610f6175bf6ef4b805f103b3064b380196e1a7e286f3031394f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-openai/README.md"
+    },
+    {
+      "path": "python/packages/kagent-skills/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/3edde6d76100e2f2157f915a.md",
+      "kind": "official-document",
+      "bytes": 170,
+      "sha256": "1a50bdb03eeece9c908c7e62eeb26c139aeea82ff6eb0a7d90468b2a49cc9e1f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/packages/kagent-skills/README.md"
+    },
+    {
+      "path": "python/samples/adk/basic/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/3d5e52453f6503a24124c475.md",
+      "kind": "official-document",
+      "bytes": 322,
+      "sha256": "6246129903869fd6e9658f503e038b0d0a46b7d112ba56e9ca026c46e6fdb83f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/adk/basic/README.md"
+    },
+    {
+      "path": "python/samples/adk/basic/basic/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/47a9dcdf1f7f15f1d2e0a511.py",
+      "kind": "upstream-example-code",
+      "bytes": 84,
+      "sha256": "abed0d4fcd35b0ecde4dbf6dd14fe5cbb0679004ca071b5c39a5680dc9e41325",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/adk/basic/basic/__init__.py"
+    },
+    {
+      "path": "python/samples/adk/basic/basic/agent.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/d212f309b0e9c004633cf28f.py",
+      "kind": "upstream-example-code",
+      "bytes": 2960,
+      "sha256": "c0c3d1f580981c9a3d9a024aad348d35b6346c169ae8b2fb1fc6adc125ba323e",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/adk/basic/basic/agent.py"
+    },
+    {
+      "path": "python/samples/adk/basic/basic/lifespan.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/b2844657afe104a9ee0eb42a.py",
+      "kind": "upstream-example-code",
+      "bytes": 249,
+      "sha256": "2569be1913bc8a00f121b53af0a819b45f2b6ef75fd79830f13851c761a0918b",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/adk/basic/basic/lifespan.py"
+    },
+    {
+      "path": "python/samples/crewai/poem_flow/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0610a41b0ae7d0d8ebfb0126.md",
+      "kind": "official-document",
+      "bytes": 2201,
+      "sha256": "1b7291508a5c1be03a642a9acde640349e6a1a91bba078be0a54ddf9b812ddd1",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/poem_flow/README.md"
+    },
+    {
+      "path": "python/samples/crewai/poem_flow/src/poem_flow/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/315e65aef329ad8d99ec6eb7.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/poem_flow/src/poem_flow/__init__.py"
+    },
+    {
+      "path": "python/samples/crewai/poem_flow/src/poem_flow/crews/poem_crew/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/5c1352deccfdaaa51ce5ee4a.py",
+      "kind": "upstream-example-code",
+      "bytes": 26,
+      "sha256": "1949bea6dbfbeb5973a60aa56021b47d5be2938b840796e7af2cdb3641710ca6",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/poem_flow/src/poem_flow/crews/poem_crew/__init__.py"
+    },
+    {
+      "path": "python/samples/crewai/poem_flow/src/poem_flow/crews/poem_crew/poem_crew.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/cb8eed7751df7ce88c4ab921.py",
+      "kind": "upstream-example-code",
+      "bytes": 1939,
+      "sha256": "422efbdb080cbb0694e33f36efa87154a28188b9b0eb8a3ebb9af69c2f50311f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/poem_flow/src/poem_flow/crews/poem_crew/poem_crew.py"
+    },
+    {
+      "path": "python/samples/crewai/poem_flow/src/poem_flow/main.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/edc28612d976ad3fa9313c30.py",
+      "kind": "upstream-example-code",
+      "bytes": 2936,
+      "sha256": "0dd3d3a6782adeccc3b8bc815b73d4fffa3d770410fcb72ed51ae37abf367ed5",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/poem_flow/src/poem_flow/main.py"
+    },
+    {
+      "path": "python/samples/crewai/research-crew/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c165e27eb215dc1d7b36772b.md",
+      "kind": "official-document",
+      "bytes": 2571,
+      "sha256": "802df3d8e76cd96472eda5c7c271e5154088912e4f9960160277e44bc0e64443",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/research-crew/README.md"
+    },
+    {
+      "path": "python/samples/crewai/research-crew/src/research_crew/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/e0e723889839c7592960bfc5.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/research-crew/src/research_crew/__init__.py"
+    },
+    {
+      "path": "python/samples/crewai/research-crew/src/research_crew/crew.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ea639019e054cdc6628fcccc.py",
+      "kind": "upstream-example-code",
+      "bytes": 1524,
+      "sha256": "33da24cbd7137a962029623c61f965938aed5bf4acf88bd6c43a36c277d3a1d6",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/research-crew/src/research_crew/crew.py"
+    },
+    {
+      "path": "python/samples/crewai/research-crew/src/research_crew/main.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/3480795934c417b51aae5adf.py",
+      "kind": "upstream-example-code",
+      "bytes": 969,
+      "sha256": "c837b25d78f4f72735f9bad7b872c8e815ff3f31dd6ec84c1f0a3a1a267166a4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/crewai/research-crew/src/research_crew/main.py"
+    },
+    {
+      "path": "python/samples/langgraph/currency/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/4690101e7b88e6ba2711387a.md",
+      "kind": "official-document",
+      "bytes": 3165,
+      "sha256": "ba64008e74146e22d390a01b9ca1c79d0184aba970b55ae5f001217bb2e18a1f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/currency/README.md"
+    },
+    {
+      "path": "python/samples/langgraph/currency/currency/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ef50c9f84fbde932c412de64.py",
+      "kind": "upstream-example-code",
+      "bytes": 20,
+      "sha256": "148d2ae36db6cc6a1363334da22ea89ea3f8c5c4f4e2b26c060454bf6f6e0068",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/currency/currency/__init__.py"
+    },
+    {
+      "path": "python/samples/langgraph/currency/currency/agent.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/c8d3f65aa97b527a6bd5184a.py",
+      "kind": "upstream-example-code",
+      "bytes": 2385,
+      "sha256": "c488f0f3b7c9679b9b60b7c1f0244cb87556d200e28c14bf700b79dffad48c26",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/currency/currency/agent.py"
+    },
+    {
+      "path": "python/samples/langgraph/currency/currency/cli.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/d87f8cc6ce431b0fbe5f7048.py",
+      "kind": "upstream-example-code",
+      "bytes": 996,
+      "sha256": "fcdaceddc9e4de28f6b92c9463b54beadc3dfae03d3fd4b9db7ac9703deb083c",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/currency/currency/cli.py"
+    },
+    {
+      "path": "python/samples/langgraph/hitl-tools/hitl_tools/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/8d7457611ac15beb503a84e0.py",
+      "kind": "upstream-example-code",
+      "bytes": 20,
+      "sha256": "148d2ae36db6cc6a1363334da22ea89ea3f8c5c4f4e2b26c060454bf6f6e0068",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/hitl-tools/hitl_tools/__init__.py"
+    },
+    {
+      "path": "python/samples/langgraph/hitl-tools/hitl_tools/agent.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0424279962c4b1fd036a10c3.py",
+      "kind": "upstream-example-code",
+      "bytes": 6026,
+      "sha256": "d3c997a1eacb848277cac1e25424e1386495f12451a51b8bdbb24995a1b6c78d",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/hitl-tools/hitl_tools/agent.py"
+    },
+    {
+      "path": "python/samples/langgraph/hitl-tools/hitl_tools/cli.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ae0116953983c2a9559ed54e.py",
+      "kind": "upstream-example-code",
+      "bytes": 953,
+      "sha256": "f702e491c5c3a676640414a5add7e1938497d0b9fff0ed9155a1ac64649e32bd",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/hitl-tools/hitl_tools/cli.py"
+    },
+    {
+      "path": "python/samples/langgraph/kebab/kebab/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/285055f8a127ffbfbf2704e7.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/kebab/kebab/__init__.py"
+    },
+    {
+      "path": "python/samples/langgraph/kebab/kebab/agent.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/66304d528e58aaa7b4aa746e.py",
+      "kind": "upstream-example-code",
+      "bytes": 893,
+      "sha256": "db03f7ab3c40af945ae347b8c903f659c5f1b86c9b200b03f79a94b259e37b71",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/kebab/kebab/agent.py"
+    },
+    {
+      "path": "python/samples/langgraph/kebab/kebab/cli.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/9e13860a54a769d73d69439d.py",
+      "kind": "upstream-example-code",
+      "bytes": 913,
+      "sha256": "a642e618e7fe36f4fc072ce89006071bbbd1d41e60c4580c52ac42875eb3e19f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/langgraph/kebab/kebab/cli.py"
+    },
+    {
+      "path": "python/samples/openai/basic_agent/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/e3f0ff172b7033d64f09bbb5.md",
+      "kind": "official-document",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/openai/basic_agent/README.md"
+    },
+    {
+      "path": "python/samples/openai/basic_agent/basic_agent/__init__.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/93accbef3018ce5a85346151.py",
+      "kind": "upstream-example-code",
+      "bytes": 87,
+      "sha256": "1b444273346917d854749268323dbec9efd6f836c555d3e00d6396cdf70e4248",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/openai/basic_agent/basic_agent/__init__.py"
+    },
+    {
+      "path": "python/samples/openai/basic_agent/basic_agent/agent.py",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0275fa74778406a5ab8b52fa.py",
+      "kind": "upstream-example-code",
+      "bytes": 3418,
+      "sha256": "9b453955cc795a3f6ff1d5a2c3b0837229ff9aebb330bc68d4a101b87bf4adef",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/python/samples/openai/basic_agent/basic_agent/agent.py"
+    },
+    {
+      "path": "scripts/setup-cluster/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/357adc5e05f7133fdc9ac96f.md",
+      "kind": "official-document",
+      "bytes": 4782,
+      "sha256": "7a684cfe9ccb073a62abcdfdb74c51b89932fb9f6918d6d80301f25bbd8a99b0",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/scripts/setup-cluster/README.md"
+    },
+    {
+      "path": "ui/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/6e8c08cff231f603dfa7a4d5.md",
+      "kind": "official-document",
+      "bytes": 4432,
+      "sha256": "8bcb8b2f43ac2bd896a3eec962e7e7abc92dfbc3c3bd1b1a391d2c2cc1da8aa3",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/README.md"
+    },
+    {
+      "path": "ui/docs/app-extensions.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/1fa2bc6c339ee0fee6f0bd07.md",
+      "kind": "official-document",
+      "bytes": 32094,
+      "sha256": "a1d250e48ffae2bb91d711f1cd988fc4e2517c2d94623854d2777756a9e905e0",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/docs/app-extensions.md"
+    },
+    {
+      "path": "ui/playwright/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ccfbe5fe0f561c348f575d44.md",
+      "kind": "official-document",
+      "bytes": 13927,
+      "sha256": "4a08b862efe8f19821d57a85f1bdd4ad051b8de76e131566aba7298d34c6d690",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/playwright/README.md"
+    },
+    {
+      "path": "ui/scripts/README.md",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/ee4c55449ae3e63badc391bc.md",
+      "kind": "official-document",
+      "bytes": 344,
+      "sha256": "eef1aff1599d8b84b7188f95da3ae48b3dc8a0680cab941c616e379f78a15a3f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/scripts/README.md"
+    },
+    {
+      "path": "ui/src/appExtensions/example/ExampleNavItem.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/0126b702f94c41f9908ea502.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2421,
+      "sha256": "fb5af474daf88d4107a9fb978e0f024bb8ae3cd2641d526282d24c16ff0d10ca",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/ExampleNavItem.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/ExamplePage.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/4da82a02e84450e33516b436.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 3363,
+      "sha256": "b47c0c825c53701f0e58dbc1adefbab2ca149ac56d4ed578ef5e50bc4f45061f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/ExamplePage.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/ExampleRailItem.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/f343ae936907fa84d9f7d7b1.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1682,
+      "sha256": "0c4f4c9e3095b7f8b1dfe98f16b4aa1f79e99e3b58d95831f0014fc052eb22e4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/ExampleRailItem.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/ExampleSlots.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/75f754e630eb4ac536092567.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4597,
+      "sha256": "82166a012fd9e761331603dc66dbe813e5832e09b9cd20988fa89e0d5f5d81d4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/ExampleSlots.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/ExampleTeamField.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/99417becba91ef103d348b59.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 1188,
+      "sha256": "e2baab4c18c1cdf0d192853f392a97dde65750df26b846ada9e7e411ecea2da2",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/ExampleTeamField.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/ExampleTenantProvider.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/d35d97eb9a18eb00e123d2bd.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 676,
+      "sha256": "bdc2dfc20d0ddc60b9c492a9b8d91440d98fb3cd4bd025d79ea12fb63b403316",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/ExampleTenantProvider.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/exampleExtension.tsx",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/f0625cfebef1879c3f329dea.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 4578,
+      "sha256": "f7ca2ea93121b5fb43eb27d9a739a7db95c4a190b634684649b6248cbe23d9e8",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/exampleExtension.tsx"
+    },
+    {
+      "path": "ui/src/appExtensions/example/exampleFormFields.ts",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/cc695345e393c6b45631859f.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1639,
+      "sha256": "b8f4316fa40c26990bfbbb89a075db23636dc6a939e8e527b98f3e63b88b4d00",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/exampleFormFields.ts"
+    },
+    {
+      "path": "ui/src/appExtensions/example/exampleTableColumns.ts",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/8523a3acdfc7a339783209f7.ts",
+      "kind": "upstream-example-code",
+      "bytes": 609,
+      "sha256": "8aa00c3398b165cd5a28a74227ec330545a9b0ead0fe8c564646b405d74e9664",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/exampleTableColumns.ts"
+    },
+    {
+      "path": "ui/src/appExtensions/example/exampleTeam.ts",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/f52095cb3b68bb4e105e91c5.ts",
+      "kind": "upstream-example-code",
+      "bytes": 1176,
+      "sha256": "675da47b230c91c53c754a136ac96b8e93bbcdc94f0cfbeca14b602d48439fc4",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/exampleTeam.ts"
+    },
+    {
+      "path": "ui/src/appExtensions/example/exampleTenant.ts",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/e84f887877835046d5c21db4.ts",
+      "kind": "upstream-example-code",
+      "bytes": 418,
+      "sha256": "358f6dfd42ac5001730b7b4e5d458350b0eebf174b86cefc82f351e1dca19f4f",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/exampleTenant.ts"
+    },
+    {
+      "path": "ui/src/appExtensions/example/paths.ts",
+      "localPath": "raw/kagent-dev--kagent/542e0a7a82f0/1d57c6ec35823336c5f77276.ts",
+      "kind": "upstream-example-code",
+      "bytes": 83,
+      "sha256": "0c03aa0496174d042b5b32f724a6da8e6dc8b6bfb0734061c9acaec8f92823c7",
+      "sourceUrl": "https://github.com/kagent-dev/kagent/blob/542e0a7a82f0f32d09c398f9c56319a3f617c93a/ui/src/appExtensions/example/paths.ts"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

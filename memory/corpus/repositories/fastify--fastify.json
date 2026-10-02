@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 1,
+  "repo": "Fastify/fastify",
+  "commit": "19d5be0daf1c0daace758efe3ea788f924ca1224",
+  "retrievedAt": "2026-10-01T15:37:04.312717+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/fastify"
+  ],
+  "archiveUrl": "https://codeload.github.com/Fastify/fastify/zip/19d5be0daf1c0daace758efe3ea788f924ca1224",
+  "selectionSha256": "d6ccf2ebc383533e171bc334c374613866cef1825f2ac46c5a29405fc6cf338c",
+  "selection": {
+    "docRoots": [
+      "docs"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "0fd41e733b4abc41f8e1462621b283a5484db9fa88a4e432da9fe7605a7410b9",
+  "archiveBytes": 741985,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 51,
+    "code": 17,
+    "licenses": 1,
+    "bytes": 700662
+  },
+  "files": [
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 142,
+      "sha256": "ed19ff9c0b21a1e90a2c1c4e13c52c183de125664dc22a6f839e805f9916fce7",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 8122,
+      "sha256": "568cec09bb396f71ddafd6a32b8e6d133506cc009dda9243bd4b73eb5e0c08c0",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/CONTRIBUTING.md"
+    },
+    {
+      "path": "EXPENSE_POLICY.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/54498584002940386ac4e962.md",
+      "kind": "official-document",
+      "bytes": 4175,
+      "sha256": "339f9248d55860b8f3b0a2f3e13c2ddcddf2714dde392889070f0eb688963416",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/EXPENSE_POLICY.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 152,
+      "sha256": "13fa498fe8fa4d876258f85d73acaa06c6f981218e11a0dc18fa830a0950fc45",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1123,
+      "sha256": "23c91863859171455a536380991b4160fee4e19e2d8dc353ecf7143cc4e53ca2",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/LICENSE"
+    },
+    {
+      "path": "PROJECT_CHARTER.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/602c3f4f44360bde3097ffd2.md",
+      "kind": "official-document",
+      "bytes": 4391,
+      "sha256": "5d7209c735691c01423307a31ae4cf9c850bfa9f36bc29d47f1a59d5dc5ac946",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/PROJECT_CHARTER.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 16389,
+      "sha256": "18a8e0e8a62fb80431d0a6495770d9e195c3afb06b17fa6464e62712ed7d256e",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 9609,
+      "sha256": "5ce57a443fd8e27da12128001c04016750da7d574fb84e5d25113c0c11547c25",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/SECURITY.md"
+    },
+    {
+      "path": "SPONSORS.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/1a4aa2b2ccfad6f9892b82c1.md",
+      "kind": "official-document",
+      "bytes": 1217,
+      "sha256": "1ed5ae9de5818c63bdb6adf3052def9411b3a86d067f68f04e51bdae908af1a8",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/SPONSORS.md"
+    },
+    {
+      "path": "docs/Guides/Benchmarking.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/7e7068e7b83c71f9b6e7e83a.md",
+      "kind": "official-document",
+      "bytes": 1742,
+      "sha256": "308ca36933c93c960af037c8fe43b814b5b90ee63a25bea89fb81a6c3fb8b157",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Benchmarking.md"
+    },
+    {
+      "path": "docs/Guides/Contributing.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/65faee896f0f048e5a4a2202.md",
+      "kind": "official-document",
+      "bytes": 7460,
+      "sha256": "34ed2eadd5841d6bd07b141e6f3e103b93addbfd740b0c1d245d0f805e12289e",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Contributing.md"
+    },
+    {
+      "path": "docs/Guides/Database.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/ea8c7ac46bf4b20765853904.md",
+      "kind": "official-document",
+      "bytes": 7845,
+      "sha256": "e7b7cb5e3f9fd123cd9cfe7ff6bfebf492ec36952e41b36f4ac50a5e91f8be88",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Database.md"
+    },
+    {
+      "path": "docs/Guides/Delay-Accepting-Requests.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/b79be85741d2f76d2dc533bc.md",
+      "kind": "official-document",
+      "bytes": 21634,
+      "sha256": "c4745092244ea0d267321449be942323d9bb0cc802c2ed8fbf35828ae6f56926",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Delay-Accepting-Requests.md"
+    },
+    {
+      "path": "docs/Guides/Detecting-When-Clients-Abort.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/d2c4e67584d5574f9e93ec9a.md",
+      "kind": "official-document",
+      "bytes": 5316,
+      "sha256": "766ce19508b8b6924a8c577e09d003fed38139c940d333d4f04b7119cc2d52c6",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Detecting-When-Clients-Abort.md"
+    },
+    {
+      "path": "docs/Guides/Ecosystem.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/3d907622a2a09cbdc2f3220e.md",
+      "kind": "official-document",
+      "bytes": 47838,
+      "sha256": "44416c9aeeca9b2105efe73247bf33486aae42e59de0974d067726bd254ef7cc",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Ecosystem.md"
+    },
+    {
+      "path": "docs/Guides/Fluent-Schema.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/8bad603fa03f891df7b1350f.md",
+      "kind": "official-document",
+      "bytes": 3547,
+      "sha256": "a3f2588133949842afa9945515ae36348359fb145d2374ea9be36cfd32afce41",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Fluent-Schema.md"
+    },
+    {
+      "path": "docs/Guides/Getting-Started.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/5c036471bc658279500f3a08.md",
+      "kind": "official-document",
+      "bytes": 16065,
+      "sha256": "dda4f3b73d3e128bf70223a33ba7edb7039958f48e7d02f2706dd1cab0f68b91",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Getting-Started.md"
+    },
+    {
+      "path": "docs/Guides/Index.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/0b39b05c540946acf179686e.md",
+      "kind": "official-document",
+      "bytes": 2324,
+      "sha256": "ee3f24e4612b6c803aef8dcc348b211ef65eeb9da056f4ee8536a6863733bfb6",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Index.md"
+    },
+    {
+      "path": "docs/Guides/Migration-Guide-V3.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/9964e4a80da0d454815c7f5c.md",
+      "kind": "official-document",
+      "bytes": 8918,
+      "sha256": "47c16db3ed70975ad7a192ac2b016238e926b0565d22e1d4002eb076e7d3b4ee",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Migration-Guide-V3.md"
+    },
+    {
+      "path": "docs/Guides/Migration-Guide-V4.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/d6bdeab58de37bf36f494294.md",
+      "kind": "official-document",
+      "bytes": 7257,
+      "sha256": "037c305a8bac1cc433c22ff68f45814629afaa3b32b13efd35595f46abccfab8",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Migration-Guide-V4.md"
+    },
+    {
+      "path": "docs/Guides/Migration-Guide-V5.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/44f6559b13d8fc083ee5bae2.md",
+      "kind": "official-document",
+      "bytes": 26732,
+      "sha256": "8526179532c756312edc522d917126eb4beb92aafb8ae26a1387b71776406a1f",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Migration-Guide-V5.md"
+    },
+    {
+      "path": "docs/Guides/Plugins-Guide.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/729ec8443ff9bbe5aa1fbe27.md",
+      "kind": "official-document",
+      "bytes": 17136,
+      "sha256": "0d1c9bfc228467d561decb512bda13a0cb5a689dd80b2cee8b9df75576fae797",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Plugins-Guide.md"
+    },
+    {
+      "path": "docs/Guides/Prototype-Poisoning.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/dcfe5a76088c35dd04e60812.md",
+      "kind": "official-document",
+      "bytes": 18309,
+      "sha256": "96fdc93e8600f5e5aa676a9f2b088706bf4c8d3261cbe1a5b15c8bc00f37d7bd",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Prototype-Poisoning.md"
+    },
+    {
+      "path": "docs/Guides/Recommendations.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/5055f77431114636d82aa962.md",
+      "kind": "official-document",
+      "bytes": 15766,
+      "sha256": "bccd49b65275f7cd96fac8ef18c3fdc6cc231b918d21c2ad12d00cac6be89ac2",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Recommendations.md"
+    },
+    {
+      "path": "docs/Guides/Serverless.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/cf16b60e9d9dcc4f6ef19545.md",
+      "kind": "official-document",
+      "bytes": 18541,
+      "sha256": "fcf59cbedfaea4b7c1b9dfde34db128edcb9d642db72c121274f7b46aab73956",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Serverless.md"
+    },
+    {
+      "path": "docs/Guides/Style-Guide.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/b624e16af84366cede970975.md",
+      "kind": "official-document",
+      "bytes": 7638,
+      "sha256": "0ff7efbebc979c37a4883e07bb6e00762006b6d8b20e5d3b33ba125a9dbea5e8",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Style-Guide.md"
+    },
+    {
+      "path": "docs/Guides/Testing.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/62ab29bb427e0756fac18cd8.md",
+      "kind": "official-document",
+      "bytes": 10915,
+      "sha256": "414acba9fff85a61faabe95f1600b4e94cdb7711a6f47f5af8e2347cf9102556",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Testing.md"
+    },
+    {
+      "path": "docs/Guides/Write-Plugin.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/d2ab7b78be2883e918ca1fd7.md",
+      "kind": "official-document",
+      "bytes": 4880,
+      "sha256": "25acecfc5154ae05a9b2b2cad1ac466bbb4ccad2a3d46dba513a38cef492e74a",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Write-Plugin.md"
+    },
+    {
+      "path": "docs/Guides/Write-Type-Provider.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/3ae4e949292a8bbc4a6832f8.md",
+      "kind": "official-document",
+      "bytes": 1417,
+      "sha256": "0dba9be117c2e4c1e77baa1afd238b79df2c958e5dafa0e47fc724c2de6f93ca",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Guides/Write-Type-Provider.md"
+    },
+    {
+      "path": "docs/Reference/ContentTypeParser.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/e5e32e264492c0f216994ec9.md",
+      "kind": "official-document",
+      "bytes": 10303,
+      "sha256": "55cb9b03869797e3f751354c473233f902fab37d5b648bb6627362b912244e02",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/ContentTypeParser.md"
+    },
+    {
+      "path": "docs/Reference/Decorators.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/cfb4b53be74e3823ac506d51.md",
+      "kind": "official-document",
+      "bytes": 11816,
+      "sha256": "434868b09a9c1f780d9e0fc263c76760a7c4c2608b77976a779ba817e10ba1ec",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Decorators.md"
+    },
+    {
+      "path": "docs/Reference/Encapsulation.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/19376432e354901f5d1d781e.md",
+      "kind": "official-document",
+      "bytes": 6663,
+      "sha256": "fd07e0f6a52a3d788858f44ca270145b56212937b7eb2cb7825a6ff718a05f5d",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Encapsulation.md"
+    },
+    {
+      "path": "docs/Reference/Errors.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/ebce353548fefa0f788d244e.md",
+      "kind": "official-document",
+      "bytes": 37149,
+      "sha256": "7ab1af0e63e6571f7cc27e639bad31928416c0324638be1b14cbc78e96c3612d",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Errors.md"
+    },
+    {
+      "path": "docs/Reference/HTTP2.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/17860a3f56e1dd747df2688d.md",
+      "kind": "official-document",
+      "bytes": 2129,
+      "sha256": "ed045b7beeb6ae902394414491d972b55bc39991515abbabb8304634fcb918ca",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/HTTP2.md"
+    },
+    {
+      "path": "docs/Reference/Hooks.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/811c8f0d845f6c5d555d4a5d.md",
+      "kind": "official-document",
+      "bytes": 29342,
+      "sha256": "98a1ee68e44aec6463892f70232f581479500347bd7c5a9f2960e87ad2f0c497",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Hooks.md"
+    },
+    {
+      "path": "docs/Reference/Index.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/0cdc3e8bbdbc8edeb1944610.md",
+      "kind": "official-document",
+      "bytes": 3672,
+      "sha256": "ae63ef226f35b70c604834291d84f608c5e29d56d9304cd0d555dee0ad265e1b",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Index.md"
+    },
+    {
+      "path": "docs/Reference/LTS.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/ba592f4114a258ade4174660.md",
+      "kind": "official-document",
+      "bytes": 4649,
+      "sha256": "ca46d71efe898957ce5c82f4f0e55f47e173eaad78d9a15d62348a51908e71f7",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/LTS.md"
+    },
+    {
+      "path": "docs/Reference/Lifecycle.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/9af8d93b9ef28151d9d56232.md",
+      "kind": "official-document",
+      "bytes": 4617,
+      "sha256": "41314b1a2513ffc6e99b4bfa70b3fe8afd2776bd6ab115425c279c73435598f1",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Lifecycle.md"
+    },
+    {
+      "path": "docs/Reference/Logging.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/1eb1d554eb92e07f269f4da6.md",
+      "kind": "official-document",
+      "bytes": 7318,
+      "sha256": "437e8d523a62b4892d5dcc3f6fcab9a6ea53f6ed98da3e64593c35205421fcc8",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Logging.md"
+    },
+    {
+      "path": "docs/Reference/Middleware.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/49330f25ad68bf3cca925643.md",
+      "kind": "official-document",
+      "bytes": 2754,
+      "sha256": "d9d249a26dd6ea6b1bc0a1aab219ee1537793d1b8f89e139d77da706eeda14c8",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Middleware.md"
+    },
+    {
+      "path": "docs/Reference/Plugins.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/0e57184b561f45927138f59a.md",
+      "kind": "official-document",
+      "bytes": 7549,
+      "sha256": "159e9700ec190e539fb78bde13ad7e79e03c3d8e9b8bb5ccb4cb8a846af0d2a0",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Plugins.md"
+    },
+    {
+      "path": "docs/Reference/Principles.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/200767059098ce69d6ef865e.md",
+      "kind": "official-document",
+      "bytes": 2559,
+      "sha256": "9c99ffbe9cfe8883e9282f3014e11540cfd472a00acfa8b4e458aedb6a165136",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Principles.md"
+    },
+    {
+      "path": "docs/Reference/Reply.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/efc7e73d03e0de6ce1bcb55a.md",
+      "kind": "official-document",
+      "bytes": 31540,
+      "sha256": "3b9d69b8ca7c1aab297f8298003034a7461bea0bf5350a988916635c14607c29",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Reply.md"
+    },
+    {
+      "path": "docs/Reference/Request.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/bb32d8107cf24006a597d804.md",
+      "kind": "official-document",
+      "bytes": 12553,
+      "sha256": "0b67b4c2fd8cb656b53f49d026c685ffaf385d1900d00185e56fb048d229a8f6",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Request.md"
+    },
+    {
+      "path": "docs/Reference/Routes.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/f26146ad506e4b690e5b6e52.md",
+      "kind": "official-document",
+      "bytes": 26868,
+      "sha256": "6d8849e9a84e390551bb31a6ef7510e7d39c2089c22c0852b639eff19adc7a02",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Routes.md"
+    },
+    {
+      "path": "docs/Reference/Server.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/951cfb20c8cab475bdc4e9cc.md",
+      "kind": "official-document",
+      "bytes": 80358,
+      "sha256": "9275bdac09d4c8eb67b4f14caddd3694a82de9c86fb71036f87f8edfa57ab24c",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Server.md"
+    },
+    {
+      "path": "docs/Reference/Type-Providers.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/c4b0f48835898727388e4ca4.md",
+      "kind": "official-document",
+      "bytes": 7650,
+      "sha256": "8be51099ca06e2b228e1515d2fc707d8ddef399070c32812a252ecf2b52e43b7",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Type-Providers.md"
+    },
+    {
+      "path": "docs/Reference/TypeScript.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/42950dbcfbf37929a9ed4313.md",
+      "kind": "official-document",
+      "bytes": 61117,
+      "sha256": "58d07bfe24710a8768a327c6db85e46095191d021e4e3e3dc4511a1e548349af",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/TypeScript.md"
+    },
+    {
+      "path": "docs/Reference/Validation-and-Serialization.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/ced71b9425e435008442edd6.md",
+      "kind": "official-document",
+      "bytes": 32696,
+      "sha256": "c6b8ada213609b58b21ed2c7e5b59a842ca1b28223ff9eda1ec82c8e6d57a49d",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Validation-and-Serialization.md"
+    },
+    {
+      "path": "docs/Reference/Warnings.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/2680decb68bd72928abd9a19.md",
+      "kind": "official-document",
+      "bytes": 3630,
+      "sha256": "08fc84ca993843b1655b7982b25d6e48a808c420fc9f900bba0191350fbf0059",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/Reference/Warnings.md"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 868,
+      "sha256": "5a9768862278c0ccdf1beea2c20227e805591faee30216c6c85d33c853563612",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/docs/index.md"
+    },
+    {
+      "path": "examples/asyncawait.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/42d6b78be9fa4eeb25fdc06d.js",
+      "kind": "upstream-example-code",
+      "bytes": 707,
+      "sha256": "fa3810878c749d584b5cf4a3ae4c973aa5e442c32ea2f846cdadfbd219dd1231",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/asyncawait.js"
+    },
+    {
+      "path": "examples/benchmark/hooks-benchmark-async-await.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/69b19f84a291f1203608718f.js",
+      "kind": "upstream-example-code",
+      "bytes": 789,
+      "sha256": "92ce9cd5e9fdaacfb9f8ebc2c5858e299502c4bb453088263eb7b6f112a05daf",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/benchmark/hooks-benchmark-async-await.js"
+    },
+    {
+      "path": "examples/benchmark/hooks-benchmark.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/0d6b2fbe3acd096753045004.js",
+      "kind": "upstream-example-code",
+      "bytes": 928,
+      "sha256": "0fb860249fb50df49bbfbd215f6668c06cede4d248d79601416950c61dfdf8eb",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/benchmark/hooks-benchmark.js"
+    },
+    {
+      "path": "examples/benchmark/parser.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/07811b1657d3fb66a9f957df.js",
+      "kind": "upstream-example-code",
+      "bytes": 1413,
+      "sha256": "a20b58fd45ef983aebddde3f4b07f19fdacbd0c0c8de5683c235b5fe102fb62c",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/benchmark/parser.js"
+    },
+    {
+      "path": "examples/benchmark/simple.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/2c5c273dc81dc1e132fcfcd6.js",
+      "kind": "upstream-example-code",
+      "bytes": 445,
+      "sha256": "2d639daa38fa85513929e8d4be591197be53a2e9f02051647d07b23899fd4cf0",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/benchmark/simple.js"
+    },
+    {
+      "path": "examples/benchmark/webstream.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/a6ccf9a91fe639c6499bac25.js",
+      "kind": "upstream-example-code",
+      "bytes": 561,
+      "sha256": "b33c6c3fed76ac3dee342755d8fdcd63af43fd41e6094c93f4f38048d6dda287",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/benchmark/webstream.js"
+    },
+    {
+      "path": "examples/hooks.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/03eef093135e0b5ce260f5c3.js",
+      "kind": "upstream-example-code",
+      "bytes": 1900,
+      "sha256": "1cf974f4a348462cf08c5ee3574a491240d23bf7024e992bbb8312ce9bc402a6",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/hooks.js"
+    },
+    {
+      "path": "examples/http2.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/a6310938b904a7e2b1529874.js",
+      "kind": "upstream-example-code",
+      "bytes": 744,
+      "sha256": "4b76d46be51cba1bfd7661ef73487cf857a8e2af121a8abc44ed7a81014bbd1a",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/http2.js"
+    },
+    {
+      "path": "examples/https.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/f71f6e71915ba9d1c607fefa.js",
+      "kind": "upstream-example-code",
+      "bytes": 729,
+      "sha256": "43c8605381e16c3c89be59cab1d02e9413f17b19a3eb62469283409cb8944329",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/https.js"
+    },
+    {
+      "path": "examples/parser.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/6ce527aae4d65ea62fc77540.js",
+      "kind": "upstream-example-code",
+      "bytes": 1713,
+      "sha256": "e983bea84c4886c1bedca332ac2a61d99ad4117c891ccf6df51f13fb3c4fc65f",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/parser.js"
+    },
+    {
+      "path": "examples/plugin.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/9db77588bd40636c527b3ca9.js",
+      "kind": "upstream-example-code",
+      "bytes": 262,
+      "sha256": "9760652223c7e217d47db1f55cae2e0d2970eb2312feeb9fc2e9a0d1adc47692",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/plugin.js"
+    },
+    {
+      "path": "examples/route-prefix.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/0ce1138c7c88c0cb6f10fc0f.js",
+      "kind": "upstream-example-code",
+      "bytes": 763,
+      "sha256": "d5a789016ec6d642a06b0a6267ff99073519d1ed3ad66740d4f08275142cf505",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/route-prefix.js"
+    },
+    {
+      "path": "examples/shared-schema.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/e6fda3e8eae00656292f8562.js",
+      "kind": "upstream-example-code",
+      "bytes": 592,
+      "sha256": "88a2f6d828b3a8a8a1ca893b99a1667d899b7428e56e4ba39b06d05696495bae",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/shared-schema.js"
+    },
+    {
+      "path": "examples/simple-stream.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/7c0d67b78fdcffb6be2d14b2.js",
+      "kind": "upstream-example-code",
+      "bytes": 385,
+      "sha256": "583b4d72d43bfcd5a9ade52be9524e25496db01353721d32179dafd3264853b5",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/simple-stream.js"
+    },
+    {
+      "path": "examples/simple.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/2793232a89bdc825a43cbc8f.js",
+      "kind": "upstream-example-code",
+      "bytes": 452,
+      "sha256": "7ba7f10a69061fbda79128d17b0561d62094f2a77cbbc066aca815390100553f",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/simple.js"
+    },
+    {
+      "path": "examples/typescript-server.ts",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/eb5de22c2fe5a5bf5da1ea85.ts",
+      "kind": "upstream-example-code",
+      "bytes": 2162,
+      "sha256": "b55428c2a50f41656b3bf3b65589ace021c753bb6a789c17938a38f29e43b09b",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/typescript-server.ts"
+    },
+    {
+      "path": "examples/use-plugin.js",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/43155c1beda2053867dce9e9.js",
+      "kind": "upstream-example-code",
+      "bytes": 441,
+      "sha256": "9adac0736d4054c61102bcf664adfc80906be24e24603aee335dee24ea752bb0",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/examples/use-plugin.js"
+    },
+    {
+      "path": "test/bundler/README.md",
+      "localPath": "raw/fastify--fastify/19d5be0daf1c/efae0994d9be60488bcc42ad.md",
+      "kind": "official-document",
+      "bytes": 1276,
+      "sha256": "b1129c5870de50bdd1e909002e6f1cf30cbc57a765aabbe42fe20ab72155b7b7",
+      "sourceUrl": "https://github.com/Fastify/fastify/blob/19d5be0daf1c0daace758efe3ea788f924ca1224/test/bundler/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

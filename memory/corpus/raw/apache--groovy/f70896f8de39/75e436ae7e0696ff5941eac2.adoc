@@ -1,0 +1,1633 @@
+//////////////////////////////////////////
+
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+
+//////////////////////////////////////////
+ifndef::reldir_groovysh[]
+:reldir_groovysh: .
+endif::[]
+
+= Groovysh, the Groovy shell
+
+== Groovy : Groovy Shell
+
+The Groovy Shell, aka. `groovysh` is a command-line application which
+allows easy access to evaluate Groovy expressions, define classes and
+run simple experiments.
+
+[[GroovyShell-Features]]
+=== Features
+
+* Rich cross-platform line editing, history and completion thanks
+to https://github.com/jline/jline3[JLine3].
+* ANSI colors (prompt, exception traces, etc).
+* Simple, yet robust, command system with online help, user alias
+support and more.
+
+[[GroovyShell-Command-lineOptionsandArguments]]
+=== Command-line Options and Arguments
+
+The shell supports several options to control various features.
+
+[source,shell]
+-----------------------------------------------------------------
+> groovysh --help
+
+Usage: groovysh [options] [...]
+The Groovy Shell, aka groovysh, is a command-line application which allows easy
+access to evaluate Groovy expressions, define classes and run simple experiments.
+  -c, --encoding=<CHARSET>   The encoding to use
+  -C, --color[=<FLAG>]       Enable or disable use of ANSI colors
+      -cp, -classpath, --classpath
+                             Specify where to find the class files - must be
+                               first argument
+  -d, --debug                Enable debug output
+  -D, --define=<name=value>  Define a system property
+  -e, --evaluate=<CODE>      Evaluate the code first when starting interactive
+                               session
+  -h, --help                 Display this help message
+      -pa, --parameters      Generate metadata for reflection on method
+                               parameter names
+      -pr, --enable-preview  Enable preview Java features (jdk12+ only) - must
+                               be after classpath but before other arguments
+  -q, --quiet                Suppress superfluous output
+  -T, --terminal=<TYPE>      Specify the terminal TYPE to use
+  -v, --verbose              Enable verbose output
+  -V, --version              Display the version
+-----------------------------------------------------------------
+
+Here is an example showing the `-q`|`--quiet` and `-e`|`--evaluate` options:
+
+image:{reldir_groovysh}/assets/img/repl_evaluate.png[Exception, width=80%]
+
+[[GroovyShell-Model]]
+=== Repl model
+
+The Groovy Shell is a Read-Eval-Print Loop (REPL) which allows you to
+interactively evaluate Groovy expressions and statements,
+define classes and other types, invoke commands, and run simple experiments.
+
+When you input a line, the shell will try to determine if the input you
+have given is a complete valid expression, statement, or definition.
+If not complete, it will prompt you for more input.
+If it is complete, it will execute the input, and print the result,
+if any, to the console. Each input you enter is executed in isolation.
+
+There are some exceptions to this conceptual model. Any import statements
+entered will be remembered and used for all subsequent evaluations.
+Similarly, with some caveats we'll discuss next, any previously defined classes, methods, and potentially variables will be available.
+
+The shell has the concept of shared variables. Given that subsequent statements
+are run in isolation, you should store any results needed for later use in shared variables.
+
+Many Groovy tutorials and examples use the `def` keyword or a type to define variables.
+Script examples might distinguish between local variables with a type and script
+binding variables where no type, nor the `def` or `var` type placeholders,
+are given. The script binding is the exact equivalent to the shell's shared variables.
+
+[[GroovyShell-InterpreterMode]]
+Because such statements are so common, the shell has a special mode
+called _interpreter mode_ which allows you to use typed variables.
+The following table summarizes the differences between the two modes:
+
+[options="header"]
+|===
+| interpreterMode | off | on
+| imports 2+| remembered
+| types 2+| available
+| methods | converted to closure shared variables | remembered
+| shared variables 2+| available
+| local variables | forgotten | remembered
+|===
+
+Conceptually, for things that are _remembered_ in the above table,
+it is as if you included the related code at the start of each of your inputs.
+
+The shell also has the concept of the "current buffer". This is the collection of all type,
+method, imports, and variable definitions. The ordering of these snippets is retained,
+which is important for the shell, since it is only executing one snippet at a time,
+it typically requires everything needed for a snippet to be pre-defined.
+This is different to a compiler which might compile multiple source files at once,
+and resolve references between types as needed.
+
+[[GroovyShell-EvaluatingExpressions]]
+=== Evaluating Expressions
+
+[[GroovyShell-SimpleExpressions]]
+==== Simple Expressions
+
+[source,jshell]
+---------------
+groovy> println "Hello"
+Hello
+---------------
+
+[[GroovyShell-EvaluationResult]]
+==== Evaluation Result
+
+When a complete expression is found, it is compiled and evaluated. The
+result of the evaluation is stored into the `_` variable.
+
+[[GroovyShell-Multi-lineExpressions]]
+==== Multi-line Expressions
+
+Multi-line/complex expressions (like closure or class definitions) may
+be defined over several lines. When the shell detects that it has a
+complete expression it will compile and evaluate it.
+
+[[GroovyShell-DefineTypes]]
+==== Defining types
+
+You can define all the normal types, e.g. a class:
+
+[source,jshell]
+---------------------
+groovy> class Foo {
+add: } >   def bar() {
+add: }}>     println "baz"
+add: }}>   }
+add: } > }
+---------------------
+
+And use it in the normal way.
+
+[source,jshell]
+---------------
+groovy> foo = new Foo()
+groovy> foo.bar()
+baz
+---------------
+
+Defined classes are known to the shell and can be used in completion:
+
+image:{reldir_groovysh}/assets/img/repl_typedef.png[Define Class, width=50%]
+
+[[GroovyShell-Variables]]
+==== Variables
+
+Shell variables are *all* untyped (i.e. no `def` or other type information).
+
+This *will* set a shell variable:
+
+[source,groovy]
+-----------
+foo = "bar"
+-----------
+
+But, this will evaluate a local variable and will *not* be saved to the shell’s environment:
+
+[source,groovy]
+---------------
+def foo = "bar"
+---------------
+
+This behavior can be changed by activating <<GroovyShell-InterpreterMode,interpreter mode>>.
+
+Variables definitions having the same name as existing definitions will replace the old definition with the new one.
+
+[[GroovyShell-Methods]]
+==== Methods
+
+Methods can be defined in the shell, and will be saved for later use.
+
+Defining a method is easy:
+
+[source,jshell]
+----------------------------------
+groovy> def hello(name) {
+add: }>   println("Hello $name")
+add: }> }
+----------------------------------
+
+And then using it is as one might expect:
+
+[source,jshell]
+--------------
+groovy> hello "Jason"
+Hello Jason
+--------------
+
+If a method definition has the same signature as an existing definition,
+the old definition will be replaced with the new one.
+
+When in _interpreterMode_, methods are remembered and given as extra statements
+when executing the next input.
+
+When not in _interpreterMode_, the shell internally creates a closure to encapsulate
+the method and stores it in the shared variables.
+In this case, variables and methods share the same namespace.
+
+[[GroovyShell-Exceptions]]
+==== Exceptions
+
+If an exception is thrown, the shell will print the exception message
+and set a special `exception` shared variable.
+
+image:{reldir_groovysh}/assets/img/repl_exceptions.png[Exception, width=80%]
+
+[[GroovyShell-Commands]]
+=== Commands
+
+The shell has a number of different commands, which provide rich access
+to the shell’s environment.
+
+Commands all have a _name_, e.g. `/help` and `/prnt`.
+Commands may also have some predefined system _aliases_, e.g. `/h`.
+Users may also create their own aliases. This section will list commands in
+alphabetical order, but you can also use the `/help` command to list
+the available commands:
+
+----------------------------------------------------------------------------------
+groovy> /help
+    /!           execute shell command
+    /alias       create command alias
+    /cat         concatenate and print FILES
+    /cd          change directory
+    /classloader display/manage Groovy classLoader data
+    /clear       clear terminal
+    /colors      view 256-color table and ANSI-styles
+    /console     launch Groovy console
+    /date        display date
+    /del         delete console variables, methods, classes and imports
+    /doc         open document on browser
+    /echo        echos a value
+    /exit        exit from app/script
+    /grab        add maven repository dependencies to classpath
+    /grep        search for PATTERN in each FILE or standard input.
+    /head        display first lines of files
+    /help        command help
+    /highlighter manage nanorc theme system
+    /history     list history of commands
+    /imports     show/delete import statements
+    /inspect     display/browse object info on terminal/object browser
+    /keymap      manipulate keymaps
+    /less        file pager
+    /load        load state/a file into the buffer
+    /ls          list files
+    /methods     show/delete methods
+    /nano        edit files
+    /pipe        create/delete pipe operator
+    /prnt        print object
+    /pwd         print working directory
+    /reset       clear the buffer
+    /save        save state/the buffer to a file
+    /setopt      set options
+    /setvar      set lineReader variable value
+    /show        list console variables
+    /slurp       slurp file or string variable context to object
+    /sort        writes sorted standard input to standard output.
+    /tail        display last lines of files
+    /ttop        display and update sorted information about threads
+    /types       show/delete types
+    /unalias     remove command alias
+    /unsetopt    unset options
+    /vars        show/delete variable declarations
+    /wc          word, line, character, and byte count
+    /widget      manipulate widgets
+----------------------------------------------------------------------------------
+
+While in the interactive shell, you can ask for help for any command to
+get more details about its syntax or function. You can use `/help <command>`
+or `<command> --help`. Here is an example of
+what happens when you ask for help for the `/help` command:
+
+------------------------------------------------------------
+groovy> /help /help
+help -  command help
+Usage: help [TOPIC...]
+  -? --help                      Displays command help
+     --groups                    Commands are grouped by registries
+  -i --info                      List commands with a short command info
+------------------------------------------------------------
+
+[[GroovyShell-alias]]
+==== `/alias`
+
+Create an alias for a commandline fragment. The fragment could be Groovy code
+or a shell command. When evaluating a commandline, the alias will be replaced
+with the fragment:
+
+image:{reldir_groovysh}/assets/img/repl_alias.png[Usage of /alias, width=75%]
+
+The `/cat` command is already available. As can be seen here, aliases
+are replaced before command selection, so with the above alias in place,
+we actually invoke `/less -F` command, which has syntax highlighting,
+instead of the builtin `/cat` which doesn't.
+
+The fragment is expected to be at the start of a line but other text may follow:
+
+image:{reldir_groovysh}/assets/img/repl_alias2.png[More /alias examples, width=60%]
+
+Aliases are persisted in a `.groovysh/aliases.json` file in the user home directory.
+
+See also the `/unalias` command, which allows aliases to be removed.
+
+[[GroovyShell-cat]]
+==== `/cat`
+
+Concatenate and print files:
+
+[source,jshell]
+----
+groovy> /cat answers.json answers.toml
+{
+    "answer": {
+        "universe":
+        42
+    }
+}
+[answer]
+universe = 42
+----
+
+See also the `/less` command, which can be used to display the contents of a file
+a page at a time with syntax highlighting.
+
+[[GroovyShell-cd]]
+==== `/cd`
+
+Change the current working directory. `groovysh` keeps track of a _current working directory_. You can view it with `/pwd` and change it with `/cd`.
+
+The `groovysh` file commands
+(`/cat`, `/less`, `/head`, `/slurp`, `/load`, `/ls`, etc.) will use the current working directory.
+
+NOTE: The JVM running `groovysh` also has its own concept of the current working directory, which is the directory in which `groovysh` was started, so `/!ls` and `/ls` may not show the same files. Using `/!cd` only changes the working directory within the context of that one shell command.
+
+There is a predefined shared variable `PWD` which can assist with invoking shell commands. So, on unix platforms, `/ls` will list the same files as `/!ls $PWD`.
+
+See also the `/pwd` command, which prints the current working directory.
+
+image:{reldir_groovysh}/assets/img/repl_cd.png[Cd, width=80%]
+
+[[GroovyShell-classloader]]
+==== `/classloader`
+
+Display and manage the Groovy classloader data.
+
+Let's `/grab` a dependency, define a class using it, and then use the `/classloader` command to see the classloader data:
+
+image:{reldir_groovysh}/assets/img/repl_classloader.png[Classloader, width=80%]
+
+[[GroovyShell-clear]]
+==== `/clear`
+
+Clears the screen.
+
+[[GroovyShell-colors]]
+==== `/colors`
+
+Displays the available colors.
+
+image:{reldir_groovysh}/assets/img/repl_colors.png[Colors, width=80%]
+
+This can be useful when configuring the console options, for example the `PRNT_COLORS`:
+
+image:{reldir_groovysh}/assets/img/repl_colors2.png[Colors for /prnt, width=90%]
+
+As this example shows, you can mix color names (like _black_ and _magenta_), theme colors (like _NUMBER_), and color numbers (like _75_).
+
+Here is an example for `HELP_COLORS`:
+
+image:{reldir_groovysh}/assets/img/repl_colors3.png[Colors for --help, width=75%]
+
+Here is an example for `LS_COLORS`:
+
+image:{reldir_groovysh}/assets/img/repl_colors4.png[Colors for --help, width=75%]
+
+See the https://github.com/jline/jline3/wiki/REPL-Console-Customization[REPL Console Customization]
+documentation for more details about such customization.
+
+[[GroovyShell-console]]
+==== `/console`
+
+Displays the current buffer in the GroovyConsole.
+
+image:{reldir_groovysh}/assets/img/repl_console.png[Console, width=80%]
+
+[[GroovyShell-date]]
+==== `/date`
+
+Groovy has numerous classes for working with dates and time.
+
+Here are some examples using the legacy date/calendar classes:
+
+[source,jshell]
+----
+groovy> println new Date()
+Tue Aug 19 14:35:22 AEST 2025
+groovy> printf '%1ta %1$tb %1$td %1$tT %1$tZ %1$tY%n', new Date()
+Tue Aug 19 14:35:22 AEST 2025
+groovy> println Calendar.instance.time
+Tue Aug 19 14:35:22 AEST 2025
+groovy> println new Date().format('dd-MMM-yyyy HH:mm')
+19-Aug-2025 14:35
+----
+
+Here are some examples using the `java.time` classes:
+
+[source,jshell]
+----
+groovy> println LocalDateTime.now()
+2025-08-19T14:17:35.383665
+groovy> println Instant.now()
+2025-08-19T04:17:35.590829Z
+groovy> printf '%1ta %1$tb %1$td %1$tT %1$tY%n', LocalDateTime.now()
+Tue Aug 19 14:47:35 2025
+groovy> println LocalDateTime.now().format('dd-MMM-yyyy HH:mm')
+19-Aug-2025 14:47
+----
+
+The `/date` command is an alternative for those familiar with the unix `date` commandL:
+
+[source,jshell]
+----
+groovy> /date -R
+Tue, 19 Aug 2025 14:17:05 +10
+groovy> /date --rfc-3339=seconds
+2025-08-19 14:17:05+10
+groovy> /date --rfc-3339=time
+Aug Tue 19 14:17:05 2025
+----
+
+[[GroovyShell-del]]
+==== `/del`
+
+Deletes objects from the shell. The command looks for any
+variable, method, type, shared data, or import with the given name and deletes it.
+
+Here we create two variables, `x` and `y`, then delete the `x` variable:
+
+image:{reldir_groovysh}/assets/img/repl_del.png[Console, width=30%]
+
+See also, the `/vars`, `/methods`, `/types`, and `/imports` commands.
+These offer a `-d`|`--delete` option to delete the respective objects
+with completion.
+
+[[GroovyShell-doc]]
+==== `/doc`
+
+Open documentation in a browser.
+
+Documentation can be found for Groovy classes like this:
+
+[source,jshell]
+----
+groovy> /doc groovy.lang.Tuple
+----
+
+For Java classes, the `/doc` command will look for the class in the JDK documentation
+as well as in the groovy-jdk if Groovy has any extensions for that class:
+
+[source,jshell]
+----
+groovy> /doc java.util.List
+----
+
+Documentation is also extensible, so you can add your own documentation
+using regex patterns. For example, if you add the following line to your `~/.groovy/groovysh_init.groovy` file:
+
+[source,groovy]
+----
+CONSOLE_OPTIONS.docs.groovy='https://groovy-lang.org/documentation.html'
+CONSOLE_OPTIONS.docs.'org/jline/.*'='https://www.javadoc.io/doc/org.jline/jline/latest/'
+----
+
+Then, the following commands will open the Groovy documentation page and the
+JLine documentation for `Terminal` respectively in your browser:
+
+[source,jshell]
+----
+groovy> /doc groovy
+groovy> /doc org.jline.terminal.Terminal
+----
+
+
+[[GroovyShell-echo]]
+==== `/echo`
+
+The `/echo` command outputs its arguments to the console. Arguments are output verbatim,
+but variable expansion is also supported.
+
+image:{reldir_groovysh}/assets/img/repl_echo.png[Echo, width=60%]
+
+See also the `/prnt` command, which is similar but may perform additional formatting
+on the output(s).
+
+[[GroovyShell-exit]]
+==== `/exit`
+
+Exit the shell.
+
+This is the *only* way to exit the shell. Well, you can still `CTRL-Z` on unix platforms,
+but things like `CTRL_C` are trapped. (See JLine3 documentation for more details.)
+
+[[GroovyShell-grab]]
+==== `/grab`
+
+Grab a dependency (Maven, Ivy, etc.) from Internet sources or cache,
+and add it to the Groovy Shell environment.
+
+[source,jshell]
+----
+groovy> /grab org.apache.commons:commons-collections4:4.5.0
+groovy> import org.apache.commons.collections4.bidimap.TreeBidiMap
+groovy> TreeBidiMap t = [apple: 'red']
+{apple=red}
+groovy> t.inverseBidiMap()
+{red=apple}
+----
+
+Completion is available. Currently, completion options are populated
+by known artifacts in the local Maven (~/.m2) and Grape (~/.groovy/grapes) repositories. In the future, completion from a remote repositories may be supported.
+
+[source,jshell]
+----
+groovy> /grab org.apache.commons:commons-<TAB>
+commons-collections4:     commons-dbcp2:            commons-lang3:
+commons-compress:         commons-digester3:        commons-math3:
+commons-configuration2:   commons-email:            commons-parent:
+commons-crypto:           commons-exec:             commons-pool2:
+commons-csv:              commons-imaging:          commons-text:
+----
+
+This command can be given at any time to add new dependencies.
+
+[[GroovyShell-grep]]
+==== `/grep`
+
+The `/grep` command searches for patterns in files or standard input.
+
+image:{reldir_groovysh}/assets/img/repl_grep.png[Grep usage, width=80%]
+
+[[GroovyShell-head]]
+==== `/head`
+
+The `/head` command displays the start of a file.
+
+[source,jshell]
+----
+groovy> /head -n2 fruit.txt
+apple
+banana
+----
+
+[[GroovyShell-highlighter]]
+==== `/highlighter`
+
+The `/highlighter` command manages the nanorc theme system. Useful options
+include `--list` (show available themes), `--view=THEME` (preview a theme),
+`--switch=THEME` (change the active theme by rewriting your user-config
+`jnanorc`), and `--refresh` (reapply highlighting after a switch).
+
+Note: `--view` and `--switch` take *full filenames including the
+`.nanorctheme` extension*, not bare theme names. `/highlighter --list`
+shows the canonical form:
+
+[source,jshell]
+----
+groovy> /highlighter --list
+/Users/<you>/.groovy:
+dark.nanorctheme
+light.nanorctheme
+groovy> /highlighter --switch=light.nanorctheme
+groovy> /highlighter --refresh
+----
+
+Theme switching operates on user-config copies of `jnanorc` (used by the
+line reader and most commands) *and* `jlessrc` (used by `/less`); if a
+file is missing, that path silently no-ops on `--switch`. So a partial
+setup with only `jnanorc` will switch the prompt highlighting but leave
+`/less` permanently on whichever theme the classpath copy of `jlessrc`
+ships with.
+
+Once you create user-config copies, JLine resolves both the `theme`
+directive and the `include *.nanorc` entries *relative to the user-config
+directory* — the classpath copies are no longer consulted. So you also
+need the per-language syntax files (`groovy.nanorc`, `java.nanorc`,
+`json.nanorc`, `xml.nanorc`, `yaml.nanorc`, etc.) in the same directory,
+or you'll see the theme palette loaded but no actual highlighting (every
+file rendered as plain text). Easiest setup is to copy the entire
+`nanorc/` resource directory in one go:
+
+[source,bash]
+----
+cp <groovysh-src>/src/main/resources/nanorc/* ~/.groovy/
+----
+
+[[GroovyShell-history]]
+==== `/history`
+
+Display, manage and recall edit-line history. The `/history` command has numerous options
+which let you list (with various options), save, read, and clear the edit-line history.
+
+----
+groovy> /history -?
+history -  list history of commands
+Usage: history [-dnrfEie] [-m match] [first] [last]
+       history -ARWI [filename]
+       history -s [old=new] [command]
+       history --clear
+       history --save
+  -? --help                      Displays command help
+     --clear                     Clear history
+     --save                      Save history
+  -m match                       If option -m is present the first argument is taken as a pattern
+                                 and only the history events matching the pattern will be shown
+  -d                             Print timestamps for each event
+  -f                             Print full time date stamps in the US format
+  -E                             Print full time date stamps in the European format
+  -i                             Print full time date stamps in ISO8601 format
+  -n                             Suppresses command numbers
+  -r                             Reverses the order of the commands
+  -A                             Appends the history out to the given file
+  -R                             Reads the history from the given file
+  -W                             Writes the history out to the given file
+  -I                             If added to -R, only the events that are not contained within the internal list are added
+                                 If added to -W or -A, only the events that are new since the last incremental operation
+                                 to the file are added
+  [first] [last]                 These optional arguments may be specified as a number or as a string. A negative number
+                                 is used as an offset to the current history event number. A string specifies the most
+                                 recent event beginning with the given string.
+  -e                             Uses the nano editor to edit the commands before executing
+  -s                             Re-executes the command without invoking an editor
+----
+
+Here is an example of using the `/history` command:
+
+image:{reldir_groovysh}/assets/img/repl_history.png[Usage of the /history command, width=70%]
+
+[[GroovyShell-import]]
+==== `import`
+
+Add a custom import which will be included for all shell evaluations.
+
+[source,jshell]
+--------------
+groovy> import java.util.concurrent.BlockingDeque
+--------------
+
+Module imports (JEP 476) are also supported, which import all exported packages from a named module:
+
+[source,jshell]
+--------------
+groovy> import module java.sql
+groovy> Connection.name
+===> java.sql.Connection
+--------------
+
+This command can be given at any time to add new imports.
+
+Completion is available and prompts a level at a time using the package structure of all known classes.
+
+[source,jshell]
+--------------
+groovy> import java.util.concurrent.<TAB>
+others
+atomic                        locks
+Classes
+AbstractExecutorService       ConcurrentSkipListMap         ForkJoinPool
+ArrayBlockingQueue            ConcurrentSkipListSet         ForkJoinTask
+...
+--------------
+
+Once an import statement has been executed, relevant classes will become available for completion:
+
+image:{reldir_groovysh}/assets/img/repl_import.png[Import, width=90%]
+
+[[GroovyShell-imports]]
+==== `/imports`
+
+You can use this to list and delete existing imports.
+
+[source,jshell]
+--------------
+groovy> /imports
+import java.util.concurrent.BlockingQueue
+--------------
+
+[[GroovyShell-img]]
+==== `/img`
+
+The `/img` command displays an image inline using JLine's terminal-graphics
+support (Sixel, Kitty, or iTerm2 protocols, auto-detected). The argument is
+either a local file path, an `http(s)://` URL, or a Groovy variable
+reference using the standard `$` syntax.
+
+[source,jshell]
+--------------
+groovy> /img chart.png
+groovy> /img --width=80 https://example.com/diagram.png
+groovy> img = new java.awt.image.BufferedImage(200, 100, 1)  // some BufferedImage
+groovy> /img $img
+--------------
+
+When the argument resolves to a Groovy value (rather than a path), `/img`
+will accept any of:
+
+* a `java.awt.image.BufferedImage` — used as-is
+* a `java.awt.image.RenderedImage` — drawn into a `BufferedImage`
+* anything with a `createBufferedImage(int, int)` method (e.g.
+  `org.jfree.chart.JFreeChart`) — duck-typed, no compile-time dependency
+* anything with a `toBufferedImage(int, int)` method (e.g. Smile's
+  `smile.plot.swing.Figure`) — duck-typed sibling for libraries that
+  follow the `to…` rather than `create…` naming convention
+* a `javax.swing.JComponent` (e.g. Smile's `Canvas` and `MultiFigurePane`) —
+  laid out and painted to a `BufferedImage` at the requested size
+
+So once you've grabbed JFreeChart you can render charts in the REPL
+without saving to a file:
+
+[source,jshell]
+--------------
+groovy> /grab org.jfree:jfreechart:1.5.6
+groovy> import org.jfree.data.category.DefaultCategoryDataset
+groovy> ds = new DefaultCategoryDataset()
+groovy> ds.addValue(3d, 'Series', 'Mon'); ds.addValue(5d, 'Series', 'Tue')
+groovy> ds.addValue(7d, 'Series', 'Wed'); ds.addValue(4d, 'Series', 'Thu')
+groovy> import org.jfree.chart.ChartFactory
+groovy> chart = ChartFactory.createBarChart('demo', 'day', 'count', ds)
+groovy> /img $chart --width=600 --height=400
+--------------
+
+image:{reldir_groovysh}/assets/img/repl_img_jfreechart.png[Using /img with JFreeChart]
+
+Smile is similar — `Figure.toBufferedImage(int, int)` matches the second
+duck-type, so a fresh `Figure` can be handed straight to `/img`. The
+following draws the classic Iris scatter plot:
+
+[source,jshell]
+--------------
+groovy> /grab com.github.haifengl:smile-io:3.1.0
+groovy> import smile.io.Read
+groovy> iris = Read.arff('iris.arff')
+groovy> import smile.plot.swing.ScatterPlot
+groovy> figure = ScatterPlot.of(iris, 'sepallength', 'sepalwidth', 'class', '*' as char).figure()
+groovy> figure.setAxisLabels('sepallength', 'sepalwidth')
+groovy> /img $figure --width=600 --height=400
+--------------
+
+image:{reldir_groovysh}/assets/img/repl_img_smile.png[Using /img with Smile]
+
+Smile's `Canvas` and `MultiFigurePane` are themselves `JComponent` subclasses,
+so the SPLOM (scatter-plot matrix) goes through the `JComponent` path with no
+extra wrapping:
+
+[source,jshell]
+--------------
+groovy> import smile.plot.swing.MultiFigurePane
+groovy> splom = MultiFigurePane.splom(iris, '*' as char, 'class')
+groovy> /img $splom --width=900 --height=900
+--------------
+
+Orson Charts gives 3D chart shapes (pie, bar, scatter, surface, …).
+`Chart3D` doesn't expose `createBufferedImage` directly, but pairs with
+`Chart3DPanel` (a `JComponent`) which reaches `/img` through the same
+JComponent path as Smile's SPLOM. Pairing that with Apache Commons CSV
+— handed a `population.csv` whose columns are `country` and `millions`
+— gives a 3D pie of the world's ten most populous countries:
+
+[source,jshell]
+--------------
+groovy> /grab org.apache.commons:commons-csv:1.14.1
+groovy> import static org.apache.commons.csv.CSVFormat.RFC4180 as CSV
+groovy> parser = CSV.builder().setHeader().setSkipHeaderRecord(true).build()
+groovy> records = parser.parse(new FileReader('population.csv'))
+groovy> /grab org.jfree:org.jfree.chart3d:2.1.1
+groovy> import module org.jfree.chart3d
+groovy> data = new StandardPieDataset3D()
+groovy> records.each { data.add(it.country, it.millions as double) }
+groovy> chart = Chart3DFactory.createPieChart('Top 10 by population (millions)', null, data)
+groovy> panel = new Chart3DPanel(chart)
+groovy> /img $panel --width=700 --height=420
+--------------
+
+image:{reldir_groovysh}/assets/img/repl_img_orson.png[Using /img with Orson Charts]
+
+XChart's `BitmapEncoder.getBufferedImage(chart)` yields a plain
+`BufferedImage`, which is the simplest path of all — assign it to a
+variable and hand it straight to `/img`. Combining that with the
+`/slurp` command (which prefers `groovy-csv`'s `CsvSlurper` and falls
+back to Apache Commons CSV) gives a declarative CSV-to-chart pipeline.
+Reading a `co2-mlo.csv` whose columns are `Year` and `Mean` (annual mean
+Mauna Loa CO2 in ppm) draws the iconic Keeling-curve line:
+
+[source,jshell]
+--------------
+groovy> /grab org.knowm.xchart:xchart:3.8.8
+groovy> rows = /slurp co2-mlo.csv
+groovy> import org.knowm.xchart.XYChartBuilder
+groovy> chart = new XYChartBuilder().title('Mauna Loa annual mean CO2').xAxisTitle('Year').yAxisTitle('CO2 (ppm)').width(600).height(400).build()
+groovy> chart.addSeries('CO2', rows.collect { it.Year as int }, rows.collect { it.Mean as double })
+groovy> import org.knowm.xchart.BitmapEncoder
+groovy> img = BitmapEncoder.getBufferedImage(chart)
+groovy> /img $img
+--------------
+
+image:{reldir_groovysh}/assets/img/repl_img_xchart.png[Using /img with XChart]
+
+The `--width` and `--height` options have two distinct meanings depending
+on the input. For raw-pixel inputs (file path, `http(s)://` URL,
+`BufferedImage`, `RenderedImage`), they control the rendered size in
+*terminal character cells*. For inputs that generate the image at the
+requested size (`createBufferedImage(int,int)`, `toBufferedImage(int,int)`,
+`JComponent`), they are *source-image pixels* — the terminal then renders
+the image at its natural fit. Aspect ratio is preserved by default
+(override with `--no-preserve-aspect-ratio`).
+
+If the active terminal doesn't speak any of the supported graphics protocols
+(common cases: macOS Terminal.app, VS Code's built-in terminal, JetBrains
+terminals, plain Windows console), `/img` prints a `[image: WxH, label]`
+summary line instead. Pass `--gui` to open a Swing window with the image
+regardless of terminal capability.
+
+The command requires the `java.desktop` module at runtime; on a JVM where
+that module is unavailable, `/img` is not registered.
+
+[[GroovyShell-inspect]]
+==== `/inspect`
+
+Display or browse object info on the terminal or object browser.
+
+image:{reldir_groovysh}/assets/img/repl_inspect.png[Usage of the /inspect command, width=80%]
+
+Using the `--gui/-g` option displays the object in Groovy's object browser:
+
+image:{reldir_groovysh}/assets/img/repl_inspect_gui.png[Usage of the /inspect command, width=80%]
+
+[[GroovyShell-less]]
+==== `/less`
+
+Display the contents of a file (usually a page at a time).
+Formatting of common file types is supported.
+
+image:{reldir_groovysh}/assets/img/repl_less.png[Usage of the /less command, width=90%]
+
+If no filename is given, the contents of the current buffer are displayed.
+
+[[GroovyShell-load]]
+==== `/load`
+
+Load a file into the buffer.
+
+If no filename is given as an argument, the current shared variables are
+loaded from the `.groovy/groovysh.ser` file in the user home directory.
+
+[[GroovyShell-ls]]
+==== `/ls`
+
+The `/ls` command lists files.
+
+[source,jshell]
+----
+groovy> /ls subprojects
+                     groovy-dateutil      groovy-swing
+..                   groovy-docgenerator  groovy-templates
+binary-compatibility groovy-ginq          groovy-test
+groovy-all           groovy-groovydoc     groovy-test-junit5
+groovy-ant           groovy-groovysh      groovy-testng
+groovy-astbuilder    groovy-jmx           groovy-toml
+groovy-binary        groovy-json          groovy-typecheckers
+groovy-bom           groovy-jsr223        groovy-xml
+groovy-cli-commons   groovy-macro         groovy-yaml
+groovy-cli-picocli   groovy-macro-library performance
+groovy-console       groovy-nio           stress
+groovy-contracts     groovy-servlet       tests-preview
+groovy-datetime      groovy-sql
+----
+
+Wildcard support is available, so you can use `/ls *.groovy` to list all Groovy files in the current directory. File patterns which involve asterisks as well as slashes can sometimes be confused with Groovy's comment syntax, so quote the pattern if in doubt:
+
+[source,jshell]
+----
+groovy> /ls '**/bu*.gradle'
+bootstrap/build.gradle                        subprojects/groovy-datetime/build.gradle      subprojects/groovy-swing/build.gradle
+build-logic/build.gradle                      subprojects/groovy-dateutil/build.gradle      subprojects/groovy-templates/build.gradle
+build.gradle                                  subprojects/groovy-docgenerator/build.gradle  subprojects/groovy-test-junit5/build.gradle
+gradle/build-scans.gradle                     subprojects/groovy-ginq/build.gradle          subprojects/groovy-test/build.gradle
+subprojects/binary-compatibility/build.gradle subprojects/groovy-groovydoc/build.gradle     subprojects/groovy-testng/build.gradle
+subprojects/groovy-all/build.gradle           subprojects/groovy-groovysh/build.gradle      subprojects/groovy-toml/build.gradle
+subprojects/groovy-ant/build.gradle           subprojects/groovy-jmx/build.gradle           subprojects/groovy-typecheckers/build.gradle
+subprojects/groovy-astbuilder/build.gradle    subprojects/groovy-json/build.gradle          subprojects/groovy-xml/build.gradle
+subprojects/groovy-binary/build.gradle        subprojects/groovy-jsr223/build.gradle        subprojects/groovy-yaml/build.gradle
+subprojects/groovy-bom/build.gradle           subprojects/groovy-macro-library/build.gradle subprojects/performance/build.gradle
+subprojects/groovy-cli-commons/build.gradle   subprojects/groovy-macro/build.gradle         subprojects/stress/build.gradle
+subprojects/groovy-cli-picocli/build.gradle   subprojects/groovy-nio/build.gradle           subprojects/tests-preview/build.gradle
+subprojects/groovy-console/build.gradle       subprojects/groovy-servlet/build.gradle
+subprojects/groovy-contracts/build.gradle     subprojects/groovy-sql/build.gradle
+----
+
+[[GroovyShell-nano]]
+==== `/nano`
+
+Edit files or the current buffer.
+
+The `/nano` command has numerous options:
+
+image:{reldir_groovysh}/assets/img/repl_nano_help.png[Help for the /nano command, width=100%]
+
+You can use the `/nano` command to edit files or the current buffer:
+
+image:{reldir_groovysh}/assets/img/repl_nano.png[Using the /nano command, width=80%]
+
+If editing the current buffer, when you exit and then save,
+the buffer will be reloaded with the edited contents.
+
+[[GroovyShell-pipe]]
+==== `/pipe`
+
+The `/pipe` command lets you create and delete custom pipe operators.
+
+There are several builtin pipe and pipe-like operators:
+
+* The _pipe and_ operator (|&&) executes the right hand side only if the execution of the left hand side succeeds
+* The _pipe or_ operator (|||) executes the right hand side only if the execution of the left hand side fails
+* The _pipe flip_ operator (|;) flips the left and right hand side expressions
+* The _output redirect_ operator (|>) redirects the output to a file
+* The _append output redirect_ operator (|>>) redirects the output by appending to a file
+
+For the pipe _and_ and _or_ operators, _succeeds_ means executing without
+throwing an exception and returning a non-null, non-empty, non-zero result,
+i.e. `true` according to _Groovy truth_.
+
+Here are some examples for _and_ and _or_:
+
+image:{reldir_groovysh}/assets/img/repl_pipe_builtin.png[usage of the builtin pipes, width=50%]
+
+Pipe operators are handled by the shell. The left and right hand sides
+will be either repl commands or code passed to the Groovy engine for execution.
+
+The pipe _flip_ operator is most commonly used with commands:
+
+[source,jshell]
+----
+groovy> /widget -l |; /prnt -s JSON
+[
+    "_autosuggest-end-of-line (_autosuggest-end-of-line)",
+    "_autosuggest-forward-char (_autosuggest-forward-char)",
+    ...
+]
+----
+
+[source,jshell]
+----
+groovy> /ls --1 subprojects |; /head -n12 |; /tail -n5
+groovy-bom
+groovy-cli-commons
+groovy-cli-picocli
+groovy-console
+groovy-contracts
+----
+
+It is less common, but it can also be used with code:
+
+[source,jshell]
+----
+groovy> 4 |; 8 -
+4
+groovy> 4 |; 8 *
+32
+groovy> 4 |; 8 /
+2
+groovy> 4 |; 8 +
+12
+groovy> 4 |; 8 %
+0
+groovy> 4 |; 8 **
+4096
+----
+
+You can also define your own custom pipe operators, defined using `/pipe [OPERATOR] [PREFIX] [POSTFIX]`,
+as these examples show:
+
+image:{reldir_groovysh}/assets/img/repl_pipe.png[usage of the /pipe command, width=70%]
+
+JLine functionality includes support for _named pipes_ and _pipe aliases_.
+
+Here is a named pipe for finding fruit with small names:
+
+[source,jshell]
+----
+groovy> /pipe smallFruit '.findAll{ it.size() <' '}'
+groovy> fruit | smallFruit 6
+[apple, date]
+----
+
+Here is a pipe alias:
+
+[source,jshell]
+----
+groovy> /alias sizes '|. it.size()'
+groovy> fruit | sizes
+[5, 6, 6, 4, 10]
+----
+
+The pipe alias always has the pipe it is aliasing at the start, `|.` in the above example.
+
+[NOTE]
+--
+Care should be taken when using named pipes along with Groovy code that uses Groovy's
+pipe operator (`|`), AKA binary OR operator, as this can lead to conflicts.
+
+Is the expression `x | y` the binary OR of two variables, or making use of a named pipe
+with name `y`?
+
+Spaces in Groovy are normally not significant, but the Groovy Shell
+is using JLine console functionality which requires spaces around the pipe operator
+before a named pipe and is bracket aware.
+So, `x| y`, `x |y`, `x|y`, and `(x | y)` will be passed to Groovy for execution.
+The Groovy Shell also passes `x | y` to Groovy if `y` is not a known named pipe.
+
+[source,jshell]
+----
+groovy> x = 4
+groovy> y = 8
+groovy> x | y
+12
+groovy> /pipe y '+1' ''
+groovy> x | y
+5
+----
+
+Getting back to how you can avoid conflicts,
+one convention you could use to avoid conflicts is to use brackets or avoid spaces
+when wanting the binary OR operator,
+and use spaces and no brackets when wanting to use a named pipe.
+
+Another alternative, is to define a custom pipe name instead of a named pipe:
+
+[source,jshell]
+----
+groovy> /pipe |smallFruit '.findAll{ it.size() <' '}'
+groovy> fruit |smallFruit 6
+[apple, date, fig, grape]
+groovy> /pipe
+smallFruit  [.findAll{ it.size() <, }]
+|smallFruit [.findAll{ it.size() <, }]
+----
+
+Here, the custom pipe named `|smallFruit`, is different to the named pipe `smallFruit`.
+The former mustn't have a space, the latter must have one.
+If you use only the first of these, you can have a convention of
+using spaces when you want a binary OR.
+--
+
+As a final example, let's use a custom pipe with the output redirection
+operators to find fruit with large names:
+
+image:{reldir_groovysh}/assets/img/repl_pipe2.png[usage of the /pipe command, width=80%]
+
+[[GroovyShell-prnt]]
+==== `/prnt`
+
+The `/prnt` command outputs its argument to the console. Both variable expansion
+and formatting are supported.
+
+image:{reldir_groovysh}/assets/img/repl_prnt.png[usage of the /prnt command, width=60%]
+
+See also the `/echo` command, which is similar but takes multiple arguments.
+It also supports variable expansion but doesn't support formatting.
+
+[[GroovyShell-pwd]]
+==== `/pwd`
+
+The `/pwd` command prints the current working directory.
+
+[source,jshell]
+----
+groovy> /pwd
+/Users/paulk/Projects/groovy
+----
+
+[[GroovyShell-reset]]
+==== `/reset`
+
+Clears the current buffer and shared variables.
+
+[[GroovyShell-save]]
+==== `/save`
+
+Saves the buffer’s contents to a file.
+
+If no filename is given as an argument, the current shared variables are
+saved into the `.groovy/groovysh.ser` file in the user home directory.
+
+[[GroovyShell-setopt]]
+==== `/setopt`
+
+Set options.
+
+----
+groovy> /setopt -?
+setopt -  set options
+Usage: setopt [-m] option ...
+setopt
+-? --help                      Displays command help
+-m                             Use pattern matching
+----
+
+If no option is given, the current set options are displayed.
+
+----
+groovy> /setopt
+disable-event-expansion
+use-forward-slash
+insert-bracket
+no-empty-word-options
+groovy>
+----
+
+See also `/unsetopt` to unset options.
+
+[[GroovyShell-setvar]]
+==== `/setvar`
+
+Set linereader variable values.
+
+----
+groovy> /setvar
+history-file: /Users/paulk/.groovy/groovysh_history
+indentation: 2
+list-max: 100
+secondary-prompt-pattern: %M%P >
+groovy>
+----
+
+[[GroovyShell-show]]
+==== `/show`
+
+Show the shared variables (the binding). These include your shared variables
+as well as a few used for configuring various shell features.
+
+image:{reldir_groovysh}/assets/img/repl_show.png[Usage of the /show command, width=60%]
+
+[[GroovyShell-slurp]]
+==== `/slurp`
+
+Slurp files to shared variables. Groovy has a bunch of slurpers for
+various formats like XML, JSON, YAML, etc. You can use those in your code
+if you like, but the `/slurp` command can be a convenience shortcut.
+It supports most of the common formats, including JSON, XML, YAML, CSV, TOML, Markdown and property files.
+
+image:{reldir_groovysh}/assets/img/repl_slurp.png[Usage of the /slurp command, width=80%]
+
+As you can see in the usage information at the end of the above image,
+you can also provide an encoding and a format. If no encoding is given,
+`UTF_8` is the default. If no format is given, the shell will try to
+determine the format from the extension of the file (if given).
+If no format or file extension is given, the `/slurp` command makes
+a rudimentary attempt to determine the format by looking at the content,
+e.g. the json format is determined in the following example:
+
+image:{reldir_groovysh}/assets/img/repl_slurp_url.png[Usage of the /slurp command with a URL, width=75%]
+
+That content-based fallback *parses*; it never evaluates. It recognises JSON
+and otherwise hands back the text unchanged, so a document cannot decide for
+itself that it should be run. Evaluating content is a separate, explicit
+request: pass `-f GROOVY`, or name a local `.groovy` file.
+
+For a URL, the extension of the URL path selects the format in the same way
+as a filename does, but only ever a data format &#8212; `GROOVY` is not inferred
+from an address, because the extension is part of the URL you typed while the
+bytes are whatever the server chooses to return.
+
+WARNING: `-f GROOVY` against a URL runs whatever that server returns, with your
+privileges, in this session. It is not a safer way to evaluate remote content
+than the old content sniffing was &#8212; it is the *authorised* way, and the
+difference is only that you chose it rather than the payload choosing for you.
+Redirects are followed, so the address you typed is not necessarily where the
+code came from; `/slurp` prints the URL it was actually served from before
+evaluating it. Treat it as you would piping a download straight into a shell, and prefer
+fetching the content first (without `-f`) so you can read it before deciding
+to run it.
+
+Although the details of the exact object returned are an implementation
+detail which may change in the future, the current behavior is as follows:
+
+[cols="1,5" options="header"]
+|===
+| Format | Notes
+| JSON | Uses JsonSlurper, returns a lazy Map.
+| TOML | Uses TomlSlurper, returns a lazy Map.
+| YAML | Uses YamlSlurper, returns a lazy Map.
+| XML | Uses XmlParser, returns a Node.
+| PROPERTIES | Returns a Properties file, which is a Map-like object.
+| CSV | Uses Apache Commons CSV if on the classpath. Assumes a header row which is used to
+create a list (the rows) of maps from column name to value.
+| MARKDOWN | Uses MarkdownSlurper from `groovy-markdown` if on the classpath. Returns a
+`MarkdownDocument` (an `Iterable<Map<String, Object>>` of structured elements). Triggered
+by `.md` and `.markdown` extensions.
+| TEXT | Reads the file as raw lines (or argument as a line).
+| GROOVY | *Evaluates* the content as a Groovy script and returns its result. Selected by `-f GROOVY`,
+or by a local `.groovy` file extension. Never selected automatically from content, nor from a URL.
+| NONE | If you want the raw text rather than parsed content.
+|===
+
+If these do change in the future, the replacement will be a compatible
+implementation, that follows the normal GPath conventions.
+
+If you want more advanced control over the slurping,
+you can use Groovy's "Slurper" classes directly, e.g. `new XmlSlurper().parseText(...)`.
+
+[[GroovyShell-sort]]
+==== `/sort`
+
+The `/sort` command sorts files or standard input.
+
+image:{reldir_groovysh}/assets/img/repl_sort.png[Deleting types, width=85%]
+
+[[GroovyShell-tail]]
+==== `/tail`
+
+The `/tail` command displays the end of a file.
+
+[source,jshell]
+----
+groovy> /tail -n2 fruit.txt
+date
+elderberry
+----
+
+[[GroovyShell-types]]
+==== `/types`
+
+Show the declared types (enums, interfaces, classes, traits, annotation definitions, and records).
+
+image:{reldir_groovysh}/assets/img/repl_types.png[Usage of the /types command, width=75%]
+
+Types can be deleted using `/types -d` (completion is available) but see also the `/del` command:
+
+image:{reldir_groovysh}/assets/img/repl_types2.png[Deleting types, width=85%]
+
+[[GroovyShell-ttop]]
+==== `/ttop`
+
+Display information about threads.
+
+image:{reldir_groovysh}/assets/img/repl_ttop.png[Usage of the /ttop command, width=75%]
+
+Various options are available:
+
+----
+groovy> /ttop --help
+ttop -  display and update sorted information about threads
+Usage: ttop [OPTIONS]
+  -? --help                   Show help
+  -o --order=ORDER            Comma separated list of sorting keys
+  -t --stats=STATS            Comma separated list of stats to display
+  -s --seconds=SECONDS        Delay between updates in seconds
+  -m --millis=MILLIS          Delay between updates in milliseconds
+  -n --nthreads=NTHREADS      Only display up to NTHREADS threads
+----
+
+[[GroovyShell-unsetopt]]
+==== `/unsetopt`
+
+Unset options.
+
+----
+groovy> /unsetopt -?
+unsetopt -  unset options
+Usage: unsetopt [-m] option ...
+       unsetopt
+  -? --help                      Displays command help
+  -m                             Use pattern matching
+----
+
+If no option is given, the current unset options are displayed.
+
+----
+groovy> /unsetopt
+complete-in-word
+complete-matcher-camelcase
+no-complete-matcher-typo
+history-verify
+no-history-ignore-space
+no-history-ignore-dups
+no-history-reduce-blanks
+no-history-beep
+no-history-incremental
+no-history-timestamped
+no-auto-group
+no-auto-menu
+no-auto-list
+auto-menu-list
+recognize-exact
+no-group
+group-persist
+case-insensitive
+list-ambiguous
+list-packed
+list-rows-first
+glob-complete
+menu-complete
+auto-fresh-line
+delay-line-wrap
+no-auto-param-slash
+no-auto-remove-slash
+insert-tab
+mouse
+disable-highlighter
+no-bracketed-paste
+erase-line-on-finish
+case-insensitive-search
+disable-undo
+groovy>
+----
+
+See also `/setopt` to set options.
+
+[[GroovyShell-wc]]
+==== `/wc`
+
+The `/wc` command displays word, line, character, and byte counts.
+
+[source,jshell]
+----
+groovy> /wc LICENSE
+     262    1754   13493 LICENSE
+----
+
+[[GroovyShell-unalias]]
+==== `/unalias`
+
+Allows aliases to be removed.
+
+image:{reldir_groovysh}/assets/img/repl_unalias.png[Usage of the /unalias command, width=60%]
+
+Removed aliases will also be removed from persistent storage.
+
+[[GroovyShell-State]]
+=== State
+
+[[GroovyShell-History]]
+==== History
+
+History is stored in the file `$HOME/.groovy/groovysh_history`.
+
+[[GroovyShell-widgets]]
+=== Widgets
+
+JLine provides a https://jline.org/docs/advanced/widgets/[powerful widget system]
+that lets you extend the functionality of its line reader.
+A number of builtin widgets are available including `end-of-line`, `beginning-of-line`, `forward-word`, `backward-word`, `kill-word`, `backward-kill-word`, `capitalize-word`, `transpose-words`, and `yank-pop`, just to name a few. You can use the `/keymap` command to see the key bindings for these widgets.
+
+Groovy also includes JLine's _tailtip_ and _autosuggest_ widget functionality.
+You can see the related widgets by using the `/widget -l` command, which lists custom widgets.
+
+[source,shell]
+----
+groovy> /widget -l
+_autosuggest-end-of-line (_autosuggest-end-of-line)
+_autosuggest-forward-char (_autosuggest-forward-char)
+_autosuggest-forward-word (_autosuggest-forward-word)
+_tailtip-accept-line (_tailtip-accept-line)
+_tailtip-backward-delete-char (_tailtip-backward-delete-char)
+_tailtip-delete-char (_tailtip-delete-char)
+_tailtip-expand-or-complete (_tailtip-expand-or-complete)
+_tailtip-kill-line (_tailtip-kill-line)
+_tailtip-kill-whole-line (_tailtip-kill-whole-line)
+_tailtip-redisplay (_tailtip-redisplay)
+_tailtip-self-insert (_tailtip-self-insert)
+autosuggest-toggle (autosuggest-toggle)
+tailtip-toggle (tailtip-toggle)
+tailtip-window (tailtip-window)
+----
+
+These are available but not enabled by default.
+You can enable them using the related _toggle_ widgets. You can see what
+https://jline.org/docs/advanced/key-bindings[key bindings]
+are associated with these widgets by using the `/keymap` command.
+
+[source,shell]
+----
+groovy> /keymap
+...
+"^[s" tailtip-toggle
+"^[v" autosuggest-toggle
+...
+----
+
+Normally, completions are shown when you hit the 'TAB' key, but with the tailtip widget enabled,
+you can see completions as you type., as well as additional usage information given in the
+tailtip window as seen here for a command:
+
+image:{reldir_groovysh}/assets/img/widget1.png[Tailtip, width=80%]
+
+And here for some code:
+
+image:{reldir_groovysh}/assets/img/widget3.png[Tailtip, width=60%]
+
+With the autosuggest widget enabled, you can see suggestions for what to type next
+as you type, based on your history, as seen here:
+
+image:{reldir_groovysh}/assets/img/widget2.png[Tailtip,width=80%]
+
+You can accept the entire suggestion or a word at a time. Both widgets can be enabled.
+
+[[GroovyShell-Embedding]]
+=== Embedding groovysh
+
+Applications that host groovysh — a domain-specific console, for
+example — should not copy `Main`. The embedding API is
+`Main.start(GroovyshOptions, String[])`, plus constructors on
+`GroovyEngine` for compile-time customizers.
+
+Do not put embedding hooks into the binding `Map` accepted by
+`Main.start(Map, String[])`. That map is only for variables visible to
+evaluated scripts.
+
+==== Compiler configuration
+
+`GroovyEngine` always evaluates with an explicit
+`CompilerConfiguration` (`CompilerConfiguration.DEFAULT` when you pass
+`null`). Use a *mutable copy* (`new CompilerConfiguration()`), not
+`CompilerConfiguration.DEFAULT`, when adding customizers. Typical embedder customizers are
+`ImportCustomizer` (star and static-star imports that would otherwise
+be prepended as snippets on every evaluation) and
+`ASTTransformationCustomizer(ThreadInterrupt)` (so Ctrl+C can stop a
+tight loop after `Main` interrupts the execute thread).
+
+[source,groovy]
+.Compile-time customizers on the engine
+----
+include::../test/EmbeddingSpecTest.groovy[tags=embed_engine_config,indent=0]
+----
+
+Subclasses that need a different `GroovyShell` can override
+`protected GroovyShell createShell(ClassLoader, Binding, CompilerConfiguration)`.
+That method is called from the constructor: do not read subclass fields
+that are assigned after `super(...)`.
+
+`GroovyEngine.getClassLoader()` is the public accessor for the engine
+class loader (the field is `protected`; Java callers cannot read it
+without a getter).
+
+[source,groovy]
+.The engine class loader
+----
+include::../test/EmbeddingSpecTest.groovy[tags=embed_classloader,indent=0]
+----
+
+==== `GroovyshOptions`
+
+`Main.start(GroovyshOptions, String[])` is the programmatic entry point
+that does not call `System.exit`. The options object is built with
+`GroovyshOptions.builder()` and is incubating in 7.0.
+
+Where a setting has an equivalent on JLine's `ShellBuilder`, it
+deliberately carries the same name and parameter type, so that a
+future move of groovysh onto `org.jline.shell` does not break this
+API.
+
+Recognized hooks:
+
+* `compilerConfiguration` / `engine` — compile-time customizers, or a
+  pre-built `GroovyEngine`. If both are set, the engine wins.
+* `bindings` / `binding(name, value)` — variables installed on the
+  engine before the REPL starts.
+* `groups` — additional JLine `CommandGroup` instances
+  (`org.jline.shell`, the undeprecated successor to `CommandRegistry`;
+  groovysh adapts them internally). They are resolved *before*
+  groovysh's own commands, so a group may override a built-in
+  command name.
+* `prompt` — `Supplier<String>` invoked on each REPL iteration
+  (default `{ 'groovy> ' }`).
+* `resultHandler` — how values are rendered, given the session
+  `Printer` (default: `printer.println(result?.toString())`).
+* `errorHandler` — how execution failures are rendered, given the
+  error and groovysh's own renderer to delegate to (default: the
+  latter). `UserInterruptException` and `EndOfFileException` stay in
+  `Main` as control flow.
+* `showBanner` — set `false` to suppress groovysh's banner so the host
+  can print its own.
+* `rightPrompt` — optional right-hand prompt.
+* `terminal` — optional JLine `Terminal`; when omitted, `Main` builds
+  one from the CLI flags.
+* `historyFile` — where to persist history; when omitted, groovysh's
+  own `groovysh_history`.
+* `onReaderReady` — called once the reader and the command registry
+  are both wired, immediately before the REPL starts, for settings the
+  builder does not model: the continuation prompt
+  (`SECONDARY_PROMPT_PATTERN`), key bindings, reader options, and
+  completion. Takes a `Consumer<LineReader>`, or a
+  `BiConsumer<LineReader, GroovySystemRegistry>` when the registry is
+  needed too. groovysh has already assigned
+  `reader.completer = registry.completer()` by then, so an embedder
+  contributing domain completion wraps it:
++
+[source,groovy]
+----
+reader.completer = new AggregateCompleter(registry.completer(), myCompleter)
+----
++
+`AggregateCompleter` merges candidates, so a completer added that way
+supplements groovysh's rather than replacing it. Assigning a completer
+of your own replaces it outright. Per-command completion needs none of
+this — it comes from `Command.completer()` on a contributed `group`.
+
+[source,groovy]
+.Embedding with `GroovyshOptions`
+----
+include::../test/EmbeddingSpecTest.groovy[tags=embed_options_hooks,indent=0]
+----
+
+`Main.start(Map, String[])` remains the binding-only overload and
+delegates to `GroovyshOptions`.
+
+==== Extra console commands
+
+`/clear`, `/pwd`, `/cd`, `/ls`, `/cat`, `/grep`, `/head`, `/tail`,
+`/wc`, `/sort`, `/date`, `/echo` and `/!` live in the public
+`ExtraConsoleCommands` class. It implements JLine's deprecated
+`org.jline.console.CommandRegistry`, as groovysh's own registries
+still do; prefer `GroovyshOptions.groups` and `org.jline.shell`
+for new embedder commands. `Main` still registers it by default.
+Embedders that build their own `SystemRegistry` can construct it
+directly. The former `Main.ExtraConsoleCommands` nested class remains
+as a deprecated subclass for Groovy callers that compiled against it.
+
+[[GroovyShell-Advanced]]
+=== Advanced Topics
+
+[[GroovyShell-ReplModelDetails]]
+==== REPL Model Details
+
+The style of coding you use in a REPL is slightly different from
+what you might use in a script. The style you use may also depend on
+whether you are using the Groovy Shell in _interpreter mode_ or not.
+
+===== Using binding (shared) variables
+
+Regardless of interpreter mode you can use shared variables:
+[source,jshell]
+----
+groovy> fruit = []
+groovy> fruit << 'peach'
+[peach]
+groovy> fruit << 'pear'
+[peach, pear]
+groovy> assert fruit == ['peach', 'pear']
+----
+
+Use the `/show` command to see the shared variables.
+
+===== Using local variables
+
+You should treat local variables as if you were using immutable data structures.
+An input which mutates a local variable will likely be undone by subsequent statements.
+
+Only in interpreter mode:
+[source,jshell]
+----
+groovy> def noFruit = []
+[]
+groovy> def oneFruit = noFruit << 'peach'
+[peach]
+groovy> def twoFruit = oneFruit << 'pear'
+[peach, pear]
+groovy> assert twoFruit == ['peach', 'pear']
+----
+
+By the time you get to the last statement, the previous three local variable
+definitions are remembered, so the assertion will pass.
+
+Avoid this (relevant to interpreter mode):
+[source,jshell]
+----
+groovy> def fruit = []
+[]
+groovy> fruit << 'peach'
+[peach]
+groovy> fruit << 'pear'
+[pear]
+groovy> assert fruit == []
+----
+The `def fruit = []` will be _remembered_ before executing each of the next three statements.
+
+==== Gotchas
+
+The Groovy Shell attempts to blend a Groovy programming environment with
+a shell-like scripting environment. Sometimes the two are at odds.
+As one example, don't try `/ls /tmp/*.txt`. The `/*` will be interpreted
+as the start of a comment. Instead, quote the argument like this `/ls '/tmp/*.txt'`.
+
+==== Platform Problems
+
+The Groovy Shell relies heavily on the JLine3 library for its platform
+support. If you have specific platform problems, please refer to the
+JLine documentation.

@@ -1,0 +1,897 @@
+{
+  "schemaVersion": 1,
+  "repo": "kai-scheduler/KAI-Scheduler",
+  "commit": "5982e4bf5559120d1fb5650ebec7fe400e85bc95",
+  "retrievedAt": "2026-10-01T15:21:11.089624+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Scheduling & Orchestration"
+  ],
+  "archiveUrl": "https://codeload.github.com/kai-scheduler/KAI-Scheduler/zip/5982e4bf5559120d1fb5650ebec7fe400e85bc95",
+  "archiveSha256": "60aad4acc984c1d44f1e51c0a0a5ed06f3f5545defe4ffc694f1c8e6d4c04dc8",
+  "archiveBytes": 3724046,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 106,
+    "code": 1,
+    "licenses": 2,
+    "bytes": 1187222
+  },
+  "files": [
+    {
+      "path": ".agents/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/3481f57a9e708fb46842655a.md",
+      "kind": "official-document",
+      "bytes": 1273,
+      "sha256": "8b225a505e984d32ae58f93cd1cc22d0727e017ab358f72a8a5b1da35242886a",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/.agents/README.md"
+    },
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 4235,
+      "sha256": "5a7e672ff91e87d313bc81f21fd158236660051007a3a0251dee79384795fe99",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/ADOPTERS.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 8771,
+      "sha256": "51017fc3d967db024c58852b7e469f97f37db0fd61250605c5f98d918757a8e2",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/AGENTS.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 63541,
+      "sha256": "3ee00b219658175bbfe67a3bb2602219843a3108c78e6beaac28d6bd81ebecc4",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/CHANGELOG.md"
+    },
+    {
+      "path": "CLA.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/4b209274264a92e4c3818b38.md",
+      "kind": "official-document",
+      "bytes": 1366,
+      "sha256": "f7ac75b443f4ca16b503241344b41aeff9503b0c30bedc2b119551d83cb0fa90",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/CLA.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 9,
+      "sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/CLAUDE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 6972,
+      "sha256": "238fa68b386cf6b9408b6a0ec35eba89c2d9eedac4baadd226d780ba74f504fe",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 6029,
+      "sha256": "0737ab442e2112d02f9c226052c21222520b9d86c35b775c9af7565e6e3c6e62",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 1150,
+      "sha256": "ffb28ebe6a231231455f161ddd22f25f22ad807bdd83b7015cf6f7da8c05c4e9",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/MAINTAINERS.md"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 279220,
+      "sha256": "1f94b77bc2a28cd464355a7cac55ddbae455edf36270ade41888e8e019af5473",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 14559,
+      "sha256": "7e6bd4da907bc157ac3b689537771dbf5f4020bd448bf3bc954a3a96a54ac0f4",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 744,
+      "sha256": "4a834416cc57ef4b766074bccdfc4e76155c44dcfea68067069c706aeb78c29f",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/SECURITY.md"
+    },
+    {
+      "path": "SUPPORT.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/c5fe610b0215b14447410625.md",
+      "kind": "official-document",
+      "bytes": 3370,
+      "sha256": "2315da4eb8468916bfef2d6023cc79dcf7bd72dc2b9a1919f4cb8340fd800429",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/SUPPORT.md"
+    },
+    {
+      "path": "cmd/fairshare-simulator/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/2e379c88110b33a666fb4ea7.md",
+      "kind": "official-document",
+      "bytes": 1603,
+      "sha256": "94c9abf181352fe715e7d812a82072a3c3ac1a89efdda98f621854fb0b2d3a83",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/cmd/fairshare-simulator/README.md"
+    },
+    {
+      "path": "cmd/time-based-fairshare-simulator/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/05e211e7e8c6f81e2115514f.md",
+      "kind": "official-document",
+      "bytes": 7589,
+      "sha256": "1077ee57c2fec0e367c52452224c57acf6c330f99dd9de6fdc9414293d58d1c6",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/cmd/time-based-fairshare-simulator/README.md"
+    },
+    {
+      "path": "cmd/time-based-fairshare-simulator/examples/plot_simple.py",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/97ef173f36567a863e82bdff.py",
+      "kind": "upstream-example-code",
+      "bytes": 1497,
+      "sha256": "1c595bc9d2ccdf71c33cc5d14d7793cc27d3de98788e4e48c950ee0207d59a7d",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/cmd/time-based-fairshare-simulator/examples/plot_simple.py"
+    },
+    {
+      "path": "code_of_conduct.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/fa698b8cfb8bf9319712cd78.md",
+      "kind": "official-document",
+      "bytes": 2302,
+      "sha256": "a2949294c4cb85e1e8f1dccad529bc6da82a2e39614f30c4988d6c86079542d8",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/code_of_conduct.md"
+    },
+    {
+      "path": "docs/background-pods/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/269c1aac158a951d0e4815d1.md",
+      "kind": "official-document",
+      "bytes": 7607,
+      "sha256": "85bf027fad1606a0a6b6736b7c5aead000f63c48eaaab02e0cfc90191dbba0d5",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/background-pods/README.md"
+    },
+    {
+      "path": "docs/batch/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/0d3ebf22ca3812f34e9397f5.md",
+      "kind": "official-document",
+      "bytes": 3508,
+      "sha256": "39c2e618645735154153ee7d4fa999b86e42558e510aff7f7b9cd7f0b17891b0",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/batch/README.md"
+    },
+    {
+      "path": "docs/developer/action-framework.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/62e416f07317efc7f492c325.md",
+      "kind": "official-document",
+      "bytes": 5523,
+      "sha256": "3030fcccf41a0b8fff3e304ac7003622e355afa9a8fcd8393827e500594d3833",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/action-framework.md"
+    },
+    {
+      "path": "docs/developer/action-victim-invariant-prefilter.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/22b74e91a774e485f4e242f2.md",
+      "kind": "official-document",
+      "bytes": 16862,
+      "sha256": "7a33ee4f8f5395af42304b9838c504cce7d204ab36b6965b088a81d42c321087",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/action-victim-invariant-prefilter.md"
+    },
+    {
+      "path": "docs/developer/binder.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/eda820deec1e0833c2aae6c2.md",
+      "kind": "official-document",
+      "bytes": 11027,
+      "sha256": "03ddf371603e80e080326fe96d450c8651f98a369d3e9a0004e487156092f9fc",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/binder.md"
+    },
+    {
+      "path": "docs/developer/building-from-source.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/4bb5541be096d0ae00d9f2ce.md",
+      "kind": "official-document",
+      "bytes": 1150,
+      "sha256": "a7534dde8100335600b49a9ae07a7ac780bd4e585b79149cf2f935c6b7f767ce",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/building-from-source.md"
+    },
+    {
+      "path": "docs/developer/designs/accounted-resource-api.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/c25caed280af1fb3e338fd3d.md",
+      "kind": "official-document",
+      "bytes": 21648,
+      "sha256": "e093bfdfb758a48ac072f4dcb03ab785d4b9c9bfce4aafe10fe8cfb593665ec5",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/accounted-resource-api.md"
+    },
+    {
+      "path": "docs/developer/designs/background-pods/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/68a7af8e382ea5ab2d6e6f34.md",
+      "kind": "official-document",
+      "bytes": 15847,
+      "sha256": "dac1395a851cb8788f0ff08b82a4d77fa43491e2b3bf3a930dbbbce38b50dadf",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/background-pods/README.md"
+    },
+    {
+      "path": "docs/developer/designs/background-pods/examples/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/c572ab67ce766a71ed00fa85.md",
+      "kind": "official-document",
+      "bytes": 4828,
+      "sha256": "e889d45d3ac049eeefe9da84b14b38fdd5773e74b17a5ed80d873ec05b6c635c",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/background-pods/examples/README.md"
+    },
+    {
+      "path": "docs/developer/designs/background-pods/examples/topology/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/280963fcd8c7d25256c3a74c.md",
+      "kind": "official-document",
+      "bytes": 3640,
+      "sha256": "942c1a8362fe5273b4e1163ad1968b2dd1de20a7bb83b6402ce93e2e0260f229",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/background-pods/examples/topology/README.md"
+    },
+    {
+      "path": "docs/developer/designs/background-pods/poc.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/0894f1e606e8f0cb4e504daf.md",
+      "kind": "official-document",
+      "bytes": 9124,
+      "sha256": "dd786d3767c3b7c447c8c483a704e832383f89a5d706df7eb0ff0710132a67cb",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/background-pods/poc.md"
+    },
+    {
+      "path": "docs/developer/designs/bindrequest-mutations/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/6db56c9e6ff0f7bf57e0179d.md",
+      "kind": "official-document",
+      "bytes": 5617,
+      "sha256": "abf886f6761aba3cb5bcaf3c4c064a8007e15c0c4fc2babd1c2db2b2e552bae2",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/bindrequest-mutations/README.md"
+    },
+    {
+      "path": "docs/developer/designs/dra-extended-resources/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/f13dbbd9bf8f0e8604f64e1a.md",
+      "kind": "official-document",
+      "bytes": 24904,
+      "sha256": "acd58795412f3b47564740e810ab493e870eab85b8d6a1f67dcba9aa425b8c52",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/dra-extended-resources/README.md"
+    },
+    {
+      "path": "docs/developer/designs/eviction-metrics/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/81758c3f788054bf1f6bc656.md",
+      "kind": "official-document",
+      "bytes": 27222,
+      "sha256": "0e9b05baa03a5b3e182af566656f2bddb6e09dc03fe37e5ff76e4b6abce4630e",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/eviction-metrics/README.md"
+    },
+    {
+      "path": "docs/developer/designs/external-podgroups/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b77ddaaf702db0f64f576f51.md",
+      "kind": "official-document",
+      "bytes": 7114,
+      "sha256": "3f7fce346edb7dcc9eb8e726ac34b12a7ed144664d9990c00f99b51f74bf20da",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/external-podgroups/README.md"
+    },
+    {
+      "path": "docs/developer/designs/gpu-resource-isolation/resource-isolation.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/15f28aa3c885c1d39e032df2.md",
+      "kind": "official-document",
+      "bytes": 3603,
+      "sha256": "6e8422f840c794c2c505cd75b8c70ec593b78ad0dcdad058991863d3eaeb209f",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/gpu-resource-isolation/resource-isolation.md"
+    },
+    {
+      "path": "docs/developer/designs/hierarchical-podgroup/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/f6f475f3ae2dbd22154fc07d.md",
+      "kind": "official-document",
+      "bytes": 18738,
+      "sha256": "989148b0af14800159fa7cc421ac9732113c6c56b240f61aded5e98004ca4ac1",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/hierarchical-podgroup/README.md"
+    },
+    {
+      "path": "docs/developer/designs/in-place-pod-resize/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/88a04a0a330ec3d549765f1b.md",
+      "kind": "official-document",
+      "bytes": 7831,
+      "sha256": "aaeca2ed9c3445796e1d7e011ca57e45fb63e18738e9d6f8c28e01d28047f0ab",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/in-place-pod-resize/README.md"
+    },
+    {
+      "path": "docs/developer/designs/k8s-workload-api/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9e8a3614d2cccf9657729403.md",
+      "kind": "official-document",
+      "bytes": 4576,
+      "sha256": "6680d9f50330e13594c6dd0df4ef24a5b360294509fcdedbed2fb0f63a485559",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/k8s-workload-api/README.md"
+    },
+    {
+      "path": "docs/developer/designs/min-runtime/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/29055414f3ba649c3743d4bf.md",
+      "kind": "official-document",
+      "bytes": 8922,
+      "sha256": "32990d64c60b900b80ecb7a1b638d03ed46d05f51aeaa260951b1baa30e3c5a8",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/min-runtime/README.md"
+    },
+    {
+      "path": "docs/developer/designs/min-subgroups/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/d38f6e47e82fff341a23ede7.md",
+      "kind": "official-document",
+      "bytes": 15490,
+      "sha256": "f2d10c7fd279b9446c79c510222f88f842774a3e3ef1a6ea94a5e4fffdd394a0",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/min-subgroups/README.md"
+    },
+    {
+      "path": "docs/developer/designs/no-code-grouping/kai-no-code-grouping.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/a14ccb286979576cc5d53ea7.md",
+      "kind": "official-document",
+      "bytes": 9868,
+      "sha256": "08d72bfb44277b00353c10683be400f039e99e5f24c11f18674cc507c7c03f6c",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/no-code-grouping/kai-no-code-grouping.md"
+    },
+    {
+      "path": "docs/developer/designs/node-sets/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/2b0232b713e28c42a33d96cf.md",
+      "kind": "official-document",
+      "bytes": 6526,
+      "sha256": "9756d0d3734f148ed9661d376408cc99952f7e772844d443a500400a9c499c42",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/node-sets/README.md"
+    },
+    {
+      "path": "docs/developer/designs/numa-placement-exporter/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/e14cfa183c1f3161f82b2790.md",
+      "kind": "official-document",
+      "bytes": 9212,
+      "sha256": "e6ca93f129fe8fb63d8ad33cb77264d73a03ec72722843a2453b678a0188420f",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/numa-placement-exporter/README.md"
+    },
+    {
+      "path": "docs/developer/designs/numa-topology/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/80495a6519873c5fbe2b7502.md",
+      "kind": "official-document",
+      "bytes": 56634,
+      "sha256": "9c83b05624246068d49cfeed024a768134819b6c175e653f744f4b433bbbb317",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/numa-topology/README.md"
+    },
+    {
+      "path": "docs/developer/designs/preemption-delay/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/c104f8a81d1f70623b85b100.md",
+      "kind": "official-document",
+      "bytes": 4998,
+      "sha256": "aa221838c82df3a9c89ab07a1d0d3d91233ae48b98c08aaa118b5e4cbde46e0d",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/preemption-delay/README.md"
+    },
+    {
+      "path": "docs/developer/designs/priority-based-fair-share.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b1d30671db70d9262c97c0a0.md",
+      "kind": "official-document",
+      "bytes": 8721,
+      "sha256": "f3ff483d31fa684834aa62770823934739a69695e7c6c8947369c1c52981c957",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/priority-based-fair-share.md"
+    },
+    {
+      "path": "docs/developer/designs/priority-based-in-quota-reclaim.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/496fc057cd123f7e77bea1e8.md",
+      "kind": "official-document",
+      "bytes": 7472,
+      "sha256": "52507914f2bbc6c18232e5843f4a8b2908f8c591efa86cc507b6cc4d5eb9b0a0",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/priority-based-in-quota-reclaim.md"
+    },
+    {
+      "path": "docs/developer/designs/priority-preemptibility-separation/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b3b5473d0bfdf6ec60640294.md",
+      "kind": "official-document",
+      "bytes": 7180,
+      "sha256": "8fffb676ebcf764de34f6a7461ac0d8951b8cbaa92bb563ffe85cd7faabb8127",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/priority-preemptibility-separation/README.md"
+    },
+    {
+      "path": "docs/developer/designs/queue-admission-gating/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9108e5fda60a14aefcdec903.md",
+      "kind": "official-document",
+      "bytes": 17005,
+      "sha256": "a5796d96bed4676274c1e6474e8763b368ea1ff1a04fda1577d0cba4b1f714a3",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/queue-admission-gating/README.md"
+    },
+    {
+      "path": "docs/developer/designs/reclaim-generator-portfolio-design.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/d1a4fba9e5d49bd382d4c4f4.md",
+      "kind": "official-document",
+      "bytes": 36377,
+      "sha256": "5adef3216a60772b07b304d9015f0c98a27efdce993be566aef009c35a563956",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/reclaim-generator-portfolio-design.md"
+    },
+    {
+      "path": "docs/developer/designs/scheduler-config-customization.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/ab6a773dadf72757b5d796dc.md",
+      "kind": "official-document",
+      "bytes": 5451,
+      "sha256": "dca31e6db372972bcb80b2f4452061a4702180fafa74b336ac0631270352898d",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/scheduler-config-customization.md"
+    },
+    {
+      "path": "docs/developer/designs/segmented-subgroups/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/113913361c116b4ab0ab0d5e.md",
+      "kind": "official-document",
+      "bytes": 11323,
+      "sha256": "dfd904c5cec69b230c51466bc976f66c71438249fb948d0b1d43ed2a00a383d9",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/segmented-subgroups/README.md"
+    },
+    {
+      "path": "docs/developer/designs/semi-preemptible/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/5489b871ae64bdce7c6f9de8.md",
+      "kind": "official-document",
+      "bytes": 19895,
+      "sha256": "e1541a84b837148bf892ad2be2424dacc3d770ea975353532485ca8607a66f5b",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/semi-preemptible/README.md"
+    },
+    {
+      "path": "docs/developer/designs/time-based-fairshare/data-fetching.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/835692c36bbad19583ca910e.md",
+      "kind": "official-document",
+      "bytes": 4499,
+      "sha256": "a3543908254d0e37c14a6978d5c04c608d8980475eeaf5af0f98b3ffc526a05b",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/time-based-fairshare/data-fetching.md"
+    },
+    {
+      "path": "docs/developer/designs/time-based-fairshare/metrics-store-requriements.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/8ab4fb6d9e27645d1a4fb3fa.md",
+      "kind": "official-document",
+      "bytes": 2809,
+      "sha256": "4ad5d02ba3f76ef41fd6e322952259f8fc3785f8f2ec66ddd2c2b4c0921300a7",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/time-based-fairshare/metrics-store-requriements.md"
+    },
+    {
+      "path": "docs/developer/designs/time-based-fairshare/time-based-fairshare.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/f7d9c87e0ee3648addd7ebda.md",
+      "kind": "official-document",
+      "bytes": 14724,
+      "sha256": "539d58c7aebec648db066f9eff11aeb207aa7dfaf170ffe19d1f814a2a849eef",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/time-based-fairshare/time-based-fairshare.md"
+    },
+    {
+      "path": "docs/developer/designs/topology-awareness/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/adb1ce637389350da9db425b.md",
+      "kind": "official-document",
+      "bytes": 15282,
+      "sha256": "50e00dc84e73ea965071bcb317dc382503f39c533a3d6e337feda9cf46a48b88",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/topology-awareness/README.md"
+    },
+    {
+      "path": "docs/developer/designs/vectorizing-resources/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/bcbe63fffeb4654c5961cc0d.md",
+      "kind": "official-document",
+      "bytes": 25369,
+      "sha256": "89b230e26112481ac19c0272b52b67909e4de13d1090bc29fc2e55e3454f9b78",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/designs/vectorizing-resources/README.md"
+    },
+    {
+      "path": "docs/developer/plugin-framework.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9bf9b49528fd3beabeea1136.md",
+      "kind": "official-document",
+      "bytes": 8497,
+      "sha256": "860af8ee9527f34a5650958fad378db732a154597c2f0d7bd07bedd5108159fe",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/plugin-framework.md"
+    },
+    {
+      "path": "docs/developer/pod-grouper.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/f0087348378d928e871dfd78.md",
+      "kind": "official-document",
+      "bytes": 11788,
+      "sha256": "5b159571944dda75f76dac1f3a55ab160451684044861a60509f2a2c41f28243",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/pod-grouper.md"
+    },
+    {
+      "path": "docs/developer/scale-tests.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9ea753403f22325a327ac999.md",
+      "kind": "official-document",
+      "bytes": 6865,
+      "sha256": "2e503f16b4acdfb2d00f15ff1b1cd00f2d57e2b5a3f4226aa53b46b5636525f7",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/scale-tests.md"
+    },
+    {
+      "path": "docs/developer/scheduler-concepts.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/a660c3eb4e02b2143db7af2b.md",
+      "kind": "official-document",
+      "bytes": 7511,
+      "sha256": "604cfaef888a05d8e0fd6dad55c259150864ce1db60209d165973d05d1ef4c19",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/developer/scheduler-concepts.md"
+    },
+    {
+      "path": "docs/dra/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/2a22bf9180fc40075c49199d.md",
+      "kind": "official-document",
+      "bytes": 2888,
+      "sha256": "bb6920010f678f2ab1655e7b767732838df039ef6e43dc6564b1e9825f3d4be4",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/dra/README.md"
+    },
+    {
+      "path": "docs/elastic/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/3a9f257f6ab90172b425a39f.md",
+      "kind": "official-document",
+      "bytes": 5671,
+      "sha256": "0fa047c4e42143cabe3c555d45693e3ee3e0957c5fdc8ca6f66081fda25242db",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/elastic/README.md"
+    },
+    {
+      "path": "docs/fairness/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/0bd729696011da0cf583bc74.md",
+      "kind": "official-document",
+      "bytes": 6390,
+      "sha256": "b5708a79bc879ebc932273882df0f42408db894763fdddceb37d16b4d6fc59d4",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/fairness/README.md"
+    },
+    {
+      "path": "docs/fips/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/7311f9fb310b6c5d08161de4.md",
+      "kind": "official-document",
+      "bytes": 3658,
+      "sha256": "5e363a6d42c05b8e46801ede7f0e38240a8b652015f55641830a6dc9acf8a5e8",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/fips/README.md"
+    },
+    {
+      "path": "docs/gitops/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b13eaa0cc1e35aa496fb32e7.md",
+      "kind": "official-document",
+      "bytes": 5933,
+      "sha256": "12732301a53b3de8b6071c6c64cc2a7998ac475817b910c5884b87d105d5c975",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gitops/README.md"
+    },
+    {
+      "path": "docs/gpu-sharing/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/162ff53f4eeddcd728f72a39.md",
+      "kind": "official-document",
+      "bytes": 15806,
+      "sha256": "cb2b43e70ebf9e0519c756319a779f6314bcb9379cce247e0bcf4f023292a723",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gpu-sharing/README.md"
+    },
+    {
+      "path": "docs/gpu-sharing/autoscaling/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/2602c88f75302df984d39e5d.md",
+      "kind": "official-document",
+      "bytes": 2476,
+      "sha256": "a10a5c81159e34c20676b13b73be4d02bef007b3192fa71cc2b7f4b97a1fafaa",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gpu-sharing/autoscaling/README.md"
+    },
+    {
+      "path": "docs/gpu-sharing/autoscaling/karpenter.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/ac625c838c351521030d1aa2.md",
+      "kind": "official-document",
+      "bytes": 3377,
+      "sha256": "1fa5b109f1380bf3593bb579e0e551dd24c7dfe2ca7a7b5cf1dc9bd7c738b4e7",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gpu-sharing/autoscaling/karpenter.md"
+    },
+    {
+      "path": "docs/gpu-sharing/hami/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/8b0c52e972158b096e479229.md",
+      "kind": "official-document",
+      "bytes": 11233,
+      "sha256": "c6b50bce4db51784432063e75c64b2d129b164ad76f4f0fccacaa239eefaecca",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gpu-sharing/hami/README.md"
+    },
+    {
+      "path": "docs/gpu-sharing/mps/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/64b53c3ee46a8b03c1b6707b.md",
+      "kind": "official-document",
+      "bytes": 2193,
+      "sha256": "081333da0e995528d4ef44a3ce466800ae627841edcfd81ea39a7256928bb15b",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gpu-sharing/mps/README.md"
+    },
+    {
+      "path": "docs/gpu-sharing/nv-fraction/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/6cb01a010d462e1b83730235.md",
+      "kind": "official-document",
+      "bytes": 5549,
+      "sha256": "97270b845902132761bb9da252972e29d531a75fc9afc1685025c5182e761345",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/gpu-sharing/nv-fraction/README.md"
+    },
+    {
+      "path": "docs/highavailability/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/a9eaf812aa14dd23e8e2ec32.md",
+      "kind": "official-document",
+      "bytes": 1427,
+      "sha256": "7b4e9a9f939d242e285da7bf0ad35f1704f6c4220169969259b6cc54cc9fd224",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/highavailability/README.md"
+    },
+    {
+      "path": "docs/in-place-resize/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9d5a7680a34f234996b592d8.md",
+      "kind": "official-document",
+      "bytes": 5315,
+      "sha256": "3df8ed9bae1c39f7662bfa3050072ad02de083f9e4e75bba22cabf58503e553d",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/in-place-resize/README.md"
+    },
+    {
+      "path": "docs/metrics/METRICS.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/836477f9ba4ec4e938d6c602.md",
+      "kind": "official-document",
+      "bytes": 11080,
+      "sha256": "b866aef95f77c4ab91521947a6e5fbddfae5dad9d2d5fec67f92420d95397438",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/metrics/METRICS.md"
+    },
+    {
+      "path": "docs/metrics/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9d396cc7f4883df14c63ebeb.md",
+      "kind": "official-document",
+      "bytes": 2331,
+      "sha256": "316d87f16305fe98f1c03ecfa1c950dc6ebb93d7dc3dd612e779884af3cb467e",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/metrics/README.md"
+    },
+    {
+      "path": "docs/migrationguides/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/9113b7cea8b0d5166af382c3.md",
+      "kind": "official-document",
+      "bytes": 2102,
+      "sha256": "c3f24d0dc4ae48c7214990eb7598750f1533567bdcdd8c839a2a78600329d44c",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/migrationguides/README.md"
+    },
+    {
+      "path": "docs/migrationguides/v0.13.0/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/bb23629bbf29c494e8a3d1c3.md",
+      "kind": "official-document",
+      "bytes": 7437,
+      "sha256": "637873d74234ed908aa06070167732b74abac996c1b7de6f895eed74606d19b7",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/migrationguides/v0.13.0/README.md"
+    },
+    {
+      "path": "docs/migrationguides/v0.14.0/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/93cd32d8f6c40be3310a2092.md",
+      "kind": "official-document",
+      "bytes": 4466,
+      "sha256": "b65dce986b7c82d85db9a61c65807edb8f2a4e52941f2fbf2bffb02da77f8177",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/migrationguides/v0.14.0/README.md"
+    },
+    {
+      "path": "docs/migrationguides/v0.6.0/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/4bc161dc1f7bb01f9aeb5058.md",
+      "kind": "official-document",
+      "bytes": 1780,
+      "sha256": "6fb6876f2507fed17a205087ef25bd2caf9b854cad2db1b546b522a9564d0baf",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/migrationguides/v0.6.0/README.md"
+    },
+    {
+      "path": "docs/numa/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b502554005c8ce97a68fad7d.md",
+      "kind": "official-document",
+      "bytes": 11625,
+      "sha256": "63be68407a5e92595ebf40578b18cd6ae859560a443b1bdf48d685777aa2d3d4",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/numa/README.md"
+    },
+    {
+      "path": "docs/operator/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/0b42ff4c3f93cfe24578efbb.md",
+      "kind": "official-document",
+      "bytes": 6153,
+      "sha256": "bc75acc75b9eca0e62501f9fe8140d4ddd0233812054f40d923b1dfe5022a80a",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/operator/README.md"
+    },
+    {
+      "path": "docs/operator/resource-sizing.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/31950a2c911b83e8b13b72f4.md",
+      "kind": "official-document",
+      "bytes": 8974,
+      "sha256": "17bf5bf96d2a533d6a81266e4a0ec22fc005577aeadcfd0c0665d29ac9e01298",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/operator/resource-sizing.md"
+    },
+    {
+      "path": "docs/operator/scheduler-config-customization.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/d0ac9629f870d2396811342c.md",
+      "kind": "official-document",
+      "bytes": 4428,
+      "sha256": "ae40b4a94ee756b9ccdee9fb54ddb59202624be132805c8f0d044aa9d66182bf",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/operator/scheduler-config-customization.md"
+    },
+    {
+      "path": "docs/operator/scheduler-memory-sizing.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/40358aafd27882b723b78a95.md",
+      "kind": "official-document",
+      "bytes": 4161,
+      "sha256": "02f5fc6974033ba9db90b82a1654426428104fbd0d0eeb61e4cd40d72c72746a",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/operator/scheduler-memory-sizing.md"
+    },
+    {
+      "path": "docs/operator/scheduling-shards.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/6589b71326e86d5fd84bfde6.md",
+      "kind": "official-document",
+      "bytes": 5958,
+      "sha256": "1f5e4b493d2ee2ec3ac7924268ecf67fbcbfe69be84dc7df190bf471d68de120",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/operator/scheduling-shards.md"
+    },
+    {
+      "path": "docs/plugins/minruntime.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/a6393f317bcb5ca3dae3a5f0.md",
+      "kind": "official-document",
+      "bytes": 5418,
+      "sha256": "66611408c74aa327b5820515eae41431ed9bfb33473d7000742b2cea428f5e13",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/plugins/minruntime.md"
+    },
+    {
+      "path": "docs/plugins/reflectjoborder.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/579c886b78800cb585a79447.md",
+      "kind": "official-document",
+      "bytes": 3291,
+      "sha256": "ab9f7678bb862128252f875ae6d0243f1a57ea6db871b05c21b77cf31133adf3",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/plugins/reflectjoborder.md"
+    },
+    {
+      "path": "docs/plugins/snapshot.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/87169c2506b258894f6d78d9.md",
+      "kind": "official-document",
+      "bytes": 4209,
+      "sha256": "95f8233c640312c5a3467cdf3a08eec8a976ac3ca25ceffbaed2736cf4339baf",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/plugins/snapshot.md"
+    },
+    {
+      "path": "docs/preemption-delay/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/63992f2302e838b9188e227a.md",
+      "kind": "official-document",
+      "bytes": 2224,
+      "sha256": "b47b273c955a0196d6dc24ad1fadd3aae43e7a14f7559b6385b2e9887a92d474",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/preemption-delay/README.md"
+    },
+    {
+      "path": "docs/priority/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/7f931a66077a262343453620.md",
+      "kind": "official-document",
+      "bytes": 3512,
+      "sha256": "1716fade9f12d9bd02ed21b599f744165618feb1c1196a5a94a3466d862991b8",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/priority/README.md"
+    },
+    {
+      "path": "docs/queues/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/b4d1033406df30c707fbe6e9.md",
+      "kind": "official-document",
+      "bytes": 3780,
+      "sha256": "2e47638ce43a6110a4422a257350763b27020c07a907da7b2b03b67928850ff3",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/queues/README.md"
+    },
+    {
+      "path": "docs/quickstart/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/5704c017007867b80abc9a5e.md",
+      "kind": "official-document",
+      "bytes": 3111,
+      "sha256": "4aca988b622edb73542ad137edffc7a6532fa226c595cde07786707b8888073e",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/quickstart/README.md"
+    },
+    {
+      "path": "docs/scheduling-deep-dive/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/4ae11579d5ae2f6cbac14534.md",
+      "kind": "official-document",
+      "bytes": 14106,
+      "sha256": "13db2a445bda3bed9437a57d70b8cf8b1a5720708804feaacbb02a64e22604b0",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/scheduling-deep-dive/README.md"
+    },
+    {
+      "path": "docs/selectivemonitoring/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/ea4821ad1937af340b06fcb2.md",
+      "kind": "official-document",
+      "bytes": 3119,
+      "sha256": "32c8089d74518b7039624c947aab32f31cab4d3217dfb96e6935370dca120e22",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/selectivemonitoring/README.md"
+    },
+    {
+      "path": "docs/staleness-grace-period/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/a8ffde24aa661d2bb5c3e1e3.md",
+      "kind": "official-document",
+      "bytes": 2579,
+      "sha256": "203e3e88810c5e4cd6db3f9fd2401e8df8a955821522aa4d1895b8225ba6e276",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/staleness-grace-period/README.md"
+    },
+    {
+      "path": "docs/time-based-fairshare/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/0ac7199e86e6cb3476904425.md",
+      "kind": "official-document",
+      "bytes": 9469,
+      "sha256": "a00d07e50b081f04c9eada8db0828972b852c579bf546ff7009c4d4bc15010c5",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/time-based-fairshare/README.md"
+    },
+    {
+      "path": "docs/topology/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/7736e99ff41ec47b33149dbb.md",
+      "kind": "official-document",
+      "bytes": 7158,
+      "sha256": "1b2e997bd9e449469e58ca8ed1fce8a476ddd800a846efc41b3bba10ebb150e9",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/topology/README.md"
+    },
+    {
+      "path": "docs/topology/multilevel.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/7d5e63f59463e35155c0a5a6.md",
+      "kind": "official-document",
+      "bytes": 7231,
+      "sha256": "8be6443bad436f2f7f00efdd6c7fda76bea0edfecc8003969cbb64cac9b8324a",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/topology/multilevel.md"
+    },
+    {
+      "path": "docs/topology/segments.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/fc7d734522b7237e1806d9b3.md",
+      "kind": "official-document",
+      "bytes": 10680,
+      "sha256": "b02d4fc6bc7eaf12a836ebff3a552a1269f3a22e9923f719a6c62fb36a0cbacf",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/docs/topology/segments.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 554,
+      "sha256": "c47371ddaa9e63932fb9fabb5ecd0633c0aa295a96c436e91767d00952947958",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/README.md"
+    },
+    {
+      "path": "examples/batch/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/bab0e6774fc6adac8d7884a2.md",
+      "kind": "official-document",
+      "bytes": 982,
+      "sha256": "b5ee45f2b6876949447ee0f04c60393e233bc1491cd0c50e02010965229b417e",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/batch/README.md"
+    },
+    {
+      "path": "examples/quickstart/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/5d176b8a174dbf132271a4bf.md",
+      "kind": "official-document",
+      "bytes": 2635,
+      "sha256": "0ffebc6fce6016870c06759247d46f8e89c3dade19b77f40a162849920a95b9a",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/quickstart/README.md"
+    },
+    {
+      "path": "examples/ray/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/1d8bf6710c89d818dbeae488.md",
+      "kind": "official-document",
+      "bytes": 5705,
+      "sha256": "d8180405b95ab490c8b35c43c43b7fbfa1bceb3629db5103bb45a37c36d6b96d",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/ray/README.md"
+    },
+    {
+      "path": "examples/semi-preemptible/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/ed800dfb6bbbb21e11301877.md",
+      "kind": "official-document",
+      "bytes": 1531,
+      "sha256": "a1ac71c9b568654322ddf9be58b43f0067e814e5ac2e8f3ce83f57c6e228eb71",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/semi-preemptible/README.md"
+    },
+    {
+      "path": "examples/staleness-grace-period/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/c5428d1cb3ccc80ac17400b9.md",
+      "kind": "official-document",
+      "bytes": 2289,
+      "sha256": "903adca5f6e9dd93b7dab327b38f66bda69206dcd6a961cfb579c07f7e2593f5",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/staleness-grace-period/README.md"
+    },
+    {
+      "path": "examples/time-based-fairshare/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/4bf2200fdd33ae12949c62bd.md",
+      "kind": "official-document",
+      "bytes": 5860,
+      "sha256": "5704a3c0e616d29ab62ffe305493da8789bddf2527384ea0f74df8a47a5649f5",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/time-based-fairshare/README.md"
+    },
+    {
+      "path": "examples/time-based-fairshare/two-queue-oscillation/README.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/45cf38c9898138ff211c0946.md",
+      "kind": "official-document",
+      "bytes": 4165,
+      "sha256": "5215e7dcc8081027ef1a0c949408462e9d20b770d71517d3fb5a60436df3afe3",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/examples/time-based-fairshare/two-queue-oscillation/README.md"
+    },
+    {
+      "path": "roadmap.md",
+      "localPath": "raw/kai-scheduler--kai-scheduler/5982e4bf5559/51abe96bc493857fdfba599c.md",
+      "kind": "official-document",
+      "bytes": 2828,
+      "sha256": "09b16046f57cd6b3c65855e13fa8919655d1a228d7a9d5c5005d899e4b81784f",
+      "sourceUrl": "https://github.com/kai-scheduler/KAI-Scheduler/blob/5982e4bf5559120d1fb5650ebec7fe400e85bc95/roadmap.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

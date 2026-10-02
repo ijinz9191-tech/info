@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-02T06:07:14.918Z",
+  "status": "PASS",
+  "python": "3.13.13",
+  "sqlite": "3.51.2",
+  "kind": "local-synthetic-contract-checks",
+  "sourceUrl": "https://docs.python.org/3.13/library/sqlite3.html",
+  "checks": [
+    "autocommit False rollback removes pending insert",
+    "connection context manager commits but does not close",
+    "default check_same_thread rejects other thread",
+    "autocommit True rollback does not undo committed statement"
+  ],
+  "productionIncidentReproduction": false,
+  "coverage": "In-memory database only; no file locking, concurrent writes or production restore test"
+}

@@ -1,0 +1,1433 @@
+{
+  "schemaVersion": 1,
+  "repo": "JuliaLang/julia",
+  "commit": "6f29b2218ff62703f8e0e5bc91e8f7453bde33ac",
+  "retrievedAt": "2026-10-01T15:20:55.933879+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/julia"
+  ],
+  "archiveUrl": "https://codeload.github.com/JuliaLang/julia/zip/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac",
+  "archiveSha256": "d636aaca8f9d9bb36fbaba7a1fc7df809a14a3717e4602ef546e235a3fff1278",
+  "archiveBytes": 11806237,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 168,
+    "code": 0,
+    "licenses": 8,
+    "bytes": 2421211
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 6725,
+      "sha256": "ad151b2f2d40fb35e0cefa6a3705d0854a95ef17cefceaa143d6757550dcb945",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 128,
+      "sha256": "9416253caa16113602c60fa00a3639ea3ec2c3ff953662bbcd505ccdaa3ba46a",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/CLAUDE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 8121,
+      "sha256": "ffc8f50ef9a9fc5160e71cb60b069ca52b97244995849a12aa865f9ef200e427",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/CONTRIBUTING.md"
+    },
+    {
+      "path": "Compiler/LICENSE.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a297463c943a5f36db52d5a5.md",
+      "kind": "license",
+      "bytes": 1322,
+      "sha256": "530c9708d6384d395542622212853bcb00ee73656c86b2039c32d957a8857e26",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/Compiler/LICENSE.md"
+    },
+    {
+      "path": "Compiler/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/faf734277d517fb6b54dee5d.md",
+      "kind": "official-document",
+      "bytes": 1586,
+      "sha256": "0d42e7e01aa9ffbceff69b706dbb4b68d76107aa8341b059709e40ce11eb4f50",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/Compiler/README.md"
+    },
+    {
+      "path": "HISTORY.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/648afe3d986261d8f2015b2b.md",
+      "kind": "official-document",
+      "bytes": 429238,
+      "sha256": "2edcd94c85ba4df8e3018c1a8e90867e86c68ad437d7f982bed141509d8bbd0b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/HISTORY.md"
+    },
+    {
+      "path": "JuliaLowering/LICENSE",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ec7b1a09223b1a4d28eaf963.txt",
+      "kind": "license",
+      "bytes": 1082,
+      "sha256": "033f73a1af1a4c2797a4efa31423bb372086fb92ebb42ba70b334e0c9ddac22f",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaLowering/LICENSE"
+    },
+    {
+      "path": "JuliaLowering/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f39ab7f6189fe6bbf801c0ea.md",
+      "kind": "official-document",
+      "bytes": 10190,
+      "sha256": "968d4047fee15dff48fe52832d0bcfa247da0d62fb83c3498514ceb8d7d56ba3",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaLowering/README.md"
+    },
+    {
+      "path": "JuliaSyntax/LICENSE.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/8770620339c137a837763860.md",
+      "kind": "license",
+      "bytes": 2428,
+      "sha256": "09df3cdb4962c55bc36d69318497e00a6c027251c5db81453f9bfa49917f8660",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/LICENSE.md"
+    },
+    {
+      "path": "JuliaSyntax/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/57e450f0d74ad0960190c76a.md",
+      "kind": "official-document",
+      "bytes": 2311,
+      "sha256": "7ed1232e1840f9c238dad50067859598ed0311672a527825b4e21d9aa666a566",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/README.md"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/api.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/859f06142f88bb37183be42b.md",
+      "kind": "official-document",
+      "bytes": 4137,
+      "sha256": "06d65842cf86539c83e68c0fb2395cc193a0a5b91fdc7fa7741d9e35627939d5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/docs/src/api.md"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/design.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/bdfcfcd72035e23f56a44038.md",
+      "kind": "official-document",
+      "bytes": 38927,
+      "sha256": "5ab29b78cd50ac77668b203a672e02b228f99e1aca13a9a97ae492c7b4ddb789",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/docs/src/design.md"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/howto.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/2a9a8d5bc7a9eb0001eb6a19.md",
+      "kind": "official-document",
+      "bytes": 1348,
+      "sha256": "682c317c22e621831252783bf399e14aff3cf13a77189f5df3aa92a2d45f5f30",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/docs/src/howto.md"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5ec1cd0d38041486a6bff8f1.md",
+      "kind": "official-document",
+      "bytes": 2602,
+      "sha256": "5e2244863a6f0f9e648c79082674226028c18f77028b1206ad91023210c71633",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/docs/src/index.md"
+    },
+    {
+      "path": "JuliaSyntax/docs/src/reference.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9360d17c466c2a2d2aa652f7.md",
+      "kind": "official-document",
+      "bytes": 15485,
+      "sha256": "07010e61e765795dbeb91a554a51c5f95643750b8ef4f7fd3e4addfb5859d728",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/JuliaSyntax/docs/src/reference.md"
+    },
+    {
+      "path": "LICENSE.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4673a3aba01813b595de187a.md",
+      "kind": "license",
+      "bytes": 1321,
+      "sha256": "590d71f5c9696d9a93bdace9183cde676a617e841e0862f3b59f8c9f428cfe82",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/LICENSE.md"
+    },
+    {
+      "path": "NEWS.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/51920e95310ebfbc1ae31709.md",
+      "kind": "official-document",
+      "bytes": 23360,
+      "sha256": "361ff125be27dfe7c78de2bd5ed9bd50a1df4816666f1f453eaac18e7f858e9b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/NEWS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 8301,
+      "sha256": "917d955497a6cdfcdc9d22dda17b2955ad220d27067a406990b7f44421b5ca47",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/README.md"
+    },
+    {
+      "path": "THIRDPARTY.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b88fee05f682602e73b992ea.md",
+      "kind": "official-document",
+      "bytes": 5407,
+      "sha256": "7028c525d1a25e31c6c684ade567b3f6f1e408636c65c2d787fc8304e69df777",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/THIRDPARTY.md"
+    },
+    {
+      "path": "base/ryu/LICENSE.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/fafb1c989e13854bb89874a2.md",
+      "kind": "license",
+      "bytes": 1529,
+      "sha256": "098d01c10b957cb97145bd01615c6b9f100d775ea7b12dd487650b062b17059d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/base/ryu/LICENSE.md"
+    },
+    {
+      "path": "cli/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a60fd8fcc968f85dd5030519.md",
+      "kind": "official-document",
+      "bytes": 4188,
+      "sha256": "57c6d6590c25907a3460b38af8cd62b56ecb58ba09a7406748915dee1bb75532",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/cli/README.md"
+    },
+    {
+      "path": "contrib/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/549baf4b2300e19b6400b465.md",
+      "kind": "official-document",
+      "bytes": 2990,
+      "sha256": "3cab25ad6587e2aff8ca6f965ba57291eec964aad329dd74c03296fa542846ed",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/contrib/README.md"
+    },
+    {
+      "path": "contrib/mac/app/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/09548f3e648e5a4f9cded448.md",
+      "kind": "official-document",
+      "bytes": 1493,
+      "sha256": "22a4549b6a1d0f45ec44dda3d666928e2dc526b87e1ab3d7f91292c40d9f2a06",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/contrib/mac/app/README.md"
+    },
+    {
+      "path": "contrib/mac/frameworkapp/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/66ec5bb493a88379e38f9466.md",
+      "kind": "official-document",
+      "bytes": 1337,
+      "sha256": "c08151a9d9248a803d7e10aa48ac9f9df1cbfacc7d7efd5bf6b6330af9ab1070",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/contrib/mac/frameworkapp/README.md"
+    },
+    {
+      "path": "contrib/optimized/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9828bbcdaab4d64ae1aa2458.md",
+      "kind": "official-document",
+      "bytes": 4608,
+      "sha256": "aac732efd623d7ca3742d05d29c6b6b3c82f3d256a22ca3e4043ab7154c59399",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/contrib/optimized/README.md"
+    },
+    {
+      "path": "doc/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a0842ea73f3a116eff7958fb.md",
+      "kind": "official-document",
+      "bytes": 1426,
+      "sha256": "59c1b3680583a8c53e50c06e545be7b71452635da1994d51a3129c8979736c00",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/README.md"
+    },
+    {
+      "path": "doc/src/base/arrays.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/2edf8c1015857a22fdbd6c68.md",
+      "kind": "official-document",
+      "bytes": 4774,
+      "sha256": "e0d4aea98dbc9b2fe7fddf504e63255c84d3bcbaf5948c27993c7b0fafa2827e",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/arrays.md"
+    },
+    {
+      "path": "doc/src/base/base.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/8bda77d98d22d54be5f700e9.md",
+      "kind": "official-document",
+      "bytes": 9883,
+      "sha256": "2470091c9e953470ae2f14a2d1d3b41b5575316d3a2218b529baf8224400ed8d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/base.md"
+    },
+    {
+      "path": "doc/src/base/c.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c81888c6f2da7046d9da1492.md",
+      "kind": "official-document",
+      "bytes": 985,
+      "sha256": "56462df8120015dc39245a587b74199a7736dc98fc8ba498c8b5df5beda2c8ed",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/c.md"
+    },
+    {
+      "path": "doc/src/base/collections.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/58bceebf48ca82dd5b4cf419.md",
+      "kind": "official-document",
+      "bytes": 6214,
+      "sha256": "13127122dd80c6eead6120698ee83993dcf3d9d9a7f25f3aaa63d9b161cfae4c",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/collections.md"
+    },
+    {
+      "path": "doc/src/base/constants.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/83b4f01582d381b3935004d6.md",
+      "kind": "official-document",
+      "bytes": 395,
+      "sha256": "59f935024a01fe4ddca810081bca7757726d03e0b98742bf1405e81ad717d939",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/constants.md"
+    },
+    {
+      "path": "doc/src/base/file.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4d6bfe4cd442e8b26e78271e.md",
+      "kind": "official-document",
+      "bytes": 1709,
+      "sha256": "0dded7572456d89611fc9e9217b0c69ccb0511b8079a5976ec5801371dbd1781",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/file.md"
+    },
+    {
+      "path": "doc/src/base/io-network.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/e3df628c98e92289772c54de.md",
+      "kind": "official-document",
+      "bytes": 4351,
+      "sha256": "a6c36fc764ff2d88165aef7b425aade611c8f1ddc3c24c05109e41ff51f9fd44",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/io-network.md"
+    },
+    {
+      "path": "doc/src/base/iterators.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ebb7327930dd663d766164cb.md",
+      "kind": "official-document",
+      "bytes": 761,
+      "sha256": "472f47c8035fe18062b215b2d75f44a62e7b7cdf4d8bbec67bcb91855d576380",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/iterators.md"
+    },
+    {
+      "path": "doc/src/base/libc.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4bfd2d1db46c54644dd72978.md",
+      "kind": "official-document",
+      "bytes": 438,
+      "sha256": "61cceee02098601363489800f91b7f8528894984499cf1ae44bc43a98adb500f",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/libc.md"
+    },
+    {
+      "path": "doc/src/base/math.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/8c15b56af562f6fdafd955a8.md",
+      "kind": "official-document",
+      "bytes": 5034,
+      "sha256": "a2a953be6eb9ac5beb1a8d5263a06d2f1c4ef3afc5c07a8c70e5b4a4bebde6d4",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/math.md"
+    },
+    {
+      "path": "doc/src/base/multi-threading.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ca9d4a5e7340e4467f0baa6a.md",
+      "kind": "official-document",
+      "bytes": 2434,
+      "sha256": "90cee4b06c2f04872e5beee9019494e9fb0bd089b9a00fe5b53e0e5edf2cda54",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/multi-threading.md"
+    },
+    {
+      "path": "doc/src/base/numbers.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5d3374b448b2f57034bd44cc.md",
+      "kind": "official-document",
+      "bytes": 3211,
+      "sha256": "ba993252b076e95c841e670523a03e0159e75111333cc1973c6bf53618e8e8a4",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/numbers.md"
+    },
+    {
+      "path": "doc/src/base/parallel.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/594feedaaaa57140d08da4ae.md",
+      "kind": "official-document",
+      "bytes": 5056,
+      "sha256": "fe7f04e67c8b6acca52c0c69fceb51a87478b26cc70935b85be0347a3ec6be41",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/parallel.md"
+    },
+    {
+      "path": "doc/src/base/punctuation.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/06dac30f89662fa44a7d1939.md",
+      "kind": "official-document",
+      "bytes": 7463,
+      "sha256": "5b5a2132eb1f098069a1eb510445e54071e3a8b51991930a6bfcd62e903bf2a3",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/punctuation.md"
+    },
+    {
+      "path": "doc/src/base/reflection.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a0d573d54db9998ad0733319.md",
+      "kind": "official-document",
+      "bytes": 5668,
+      "sha256": "3bf45c777c069d86778fd8b156da253b57f6d01cbb07ef1d0e985dad9bc5e5f8",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/reflection.md"
+    },
+    {
+      "path": "doc/src/base/scopedvalues.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/7df71754d7cf7dd92b3c5a61.md",
+      "kind": "official-document",
+      "bytes": 8984,
+      "sha256": "fa6026e81ec4e7bacafa613b3a98ebe9cfd4e29b50698cdce889edd4e94bd122",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/scopedvalues.md"
+    },
+    {
+      "path": "doc/src/base/simd-types.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/8ad3553d0ec81bd31c8ac0f9.md",
+      "kind": "official-document",
+      "bytes": 1017,
+      "sha256": "f0359ac62f12a02bbd832ba21c8b4edee4d409d5cfcc71f64fc21d9c452cd9e0",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/simd-types.md"
+    },
+    {
+      "path": "doc/src/base/sort.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/0c1d92492ba44ee6b3724456.md",
+      "kind": "official-document",
+      "bytes": 5105,
+      "sha256": "d5b7fa4d278d879357a218616f1f3def97c9d29f58969ad4eba6fe019aa13751",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/sort.md"
+    },
+    {
+      "path": "doc/src/base/stacktraces.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c95ea5322d8aff40d0386bed.md",
+      "kind": "official-document",
+      "bytes": 311,
+      "sha256": "d5a6106afebf40a2477322c5510cbc6b1ca86caa2964e2832e71192ddf9f1c94",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/stacktraces.md"
+    },
+    {
+      "path": "doc/src/base/strings.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/66247584a10c5f6ca477decb.md",
+      "kind": "official-document",
+      "bytes": 4420,
+      "sha256": "488f7aba30309c9c2ba997c931dc660bd952e9c42d8b9bcd5fe17fd2e6d505f2",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/base/strings.md"
+    },
+    {
+      "path": "doc/src/devdocs/EscapeAnalysis.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/2f7572ccfa10fece7915b9e3.md",
+      "kind": "official-document",
+      "bytes": 20831,
+      "sha256": "a887c1ef138e086a2b2340dc67dd666f64da1e7879df602bd9c645a73ce427aa",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/EscapeAnalysis.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/8a184cdc49a732c74420663e.md",
+      "kind": "official-document",
+      "bytes": 1435,
+      "sha256": "cdeb07f7e227a09653eb7ca7b19530b4635ec1ba89c865ab7761e8bbf1634539",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/README.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/1e0ec72d58e524f87e469432.md",
+      "kind": "official-document",
+      "bytes": 4314,
+      "sha256": "8e4a99dc6f122ce970e99b023fe1916f2906b6b1c545d5ffa98da4b040f8d213",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/buildkite-logs/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/6d02e8edfffd805f13da9eb7.md",
+      "kind": "official-document",
+      "bytes": 2324,
+      "sha256": "3015f37b288bb3309cc7a97df23d596f96379f178f092dca9769e6b1d64d6c82",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/c-static-analysis/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/ci-timing/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/36fe690925b74e2ce1dad0b4.md",
+      "kind": "official-document",
+      "bytes": 1477,
+      "sha256": "8245a480489173d7452f042dfcc7390b77ff25797d7590885b6572bd45c62467",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/ci-timing/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/compiler-jl/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/81596187113e58f93f96d3b3.md",
+      "kind": "official-document",
+      "bytes": 3626,
+      "sha256": "55ccc8af6496f5707ed2bb31d8cc9c0723bb6326e332ff915d5f96857eeecaff",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/compiler-jl/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/doctests/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/10ffd47d4608111706b47589.md",
+      "kind": "official-document",
+      "bytes": 1254,
+      "sha256": "3435d0a6dc2f86912f760926fb0a2997309f2cc37bd858f7ff4f63ffcd2409da",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/doctests/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/external-deps/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/928f2b7576754d3ecfef5c6c.md",
+      "kind": "official-document",
+      "bytes": 1298,
+      "sha256": "7a2a920663309c89ab130d0c56a892103ef14db586054081e111b9f307823ea6",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/external-deps/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/e9860dda7da0bb36c99f5a85.md",
+      "kind": "official-document",
+      "bytes": 2596,
+      "sha256": "9543d796cbac0e2329ab24c8070e09237db2eaeea20c084fcb280d32a81ef929",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/julia-syntax-lowering/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/agents/skills/test-changes/SKILL.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4f5acc2375d572f822e8f4c9.md",
+      "kind": "official-document",
+      "bytes": 885,
+      "sha256": "c15ec60eda212bd67850ccbe30f4bc4ca73fd01bae307a2d45e7465eb11c4713",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/agents/skills/test-changes/SKILL.md"
+    },
+    {
+      "path": "doc/src/devdocs/aot.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c94c74f80ec358caefc489c4.md",
+      "kind": "official-document",
+      "bytes": 11380,
+      "sha256": "26344bd7648ab7c41cef509c8de5f8e45fadcf302e17e6f0ee1adc1278f667d3",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/aot.md"
+    },
+    {
+      "path": "doc/src/devdocs/ast.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a393f16b6d87900aa6470210.md",
+      "kind": "official-document",
+      "bytes": 34586,
+      "sha256": "8b2e1a3faddae5f24bc66bcda1cd3a7e348bebfd8b2d464cb7e97ef6558d15fa",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/ast.md"
+    },
+    {
+      "path": "doc/src/devdocs/backtraces.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/8fa001e01a9af5e0350265cd.md",
+      "kind": "official-document",
+      "bytes": 5220,
+      "sha256": "b68e92a18a54644d8a7dfb46cbcb1b0d07a3fa5b72d20fc44faab89608245da3",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/backtraces.md"
+    },
+    {
+      "path": "doc/src/devdocs/boundscheck.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5ba4406a4d21eacfda89d2de.md",
+      "kind": "official-document",
+      "bytes": 5473,
+      "sha256": "71c2641fb870d9e6c5e3afc45c53e3b3e7c05eb60daa4de4bd6e8192a8fcffe6",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/boundscheck.md"
+    },
+    {
+      "path": "doc/src/devdocs/builtins.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/de29cceb79d7e6cdeb304292.md",
+      "kind": "official-document",
+      "bytes": 5889,
+      "sha256": "fb37c384ba18fae0027a12eb8d7d3a1c7b990cef8e6880885b64ccfc7012be14",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/builtins.md"
+    },
+    {
+      "path": "doc/src/devdocs/callconv.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/2913628368ddaf859b807c2c.md",
+      "kind": "official-document",
+      "bytes": 1647,
+      "sha256": "8546443a8f57d816cb048d37d26dba9baad7e2d23f6819d087067a8f64ba776f",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/callconv.md"
+    },
+    {
+      "path": "doc/src/devdocs/cartesian.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/cf149540756c7456d34d03fd.md",
+      "kind": "official-document",
+      "bytes": 4233,
+      "sha256": "1116156a6917d1cad974ad8ac4072405719dec0b7ef144915ba3070890df33b6",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/cartesian.md"
+    },
+    {
+      "path": "doc/src/devdocs/compiler.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9513103314ded70547cad526.md",
+      "kind": "official-document",
+      "bytes": 4924,
+      "sha256": "664da79b4e362a9937c60f7b5269d8a24b55b7e6ee2acb42ec96ab546826d24a",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/compiler.md"
+    },
+    {
+      "path": "doc/src/devdocs/compiler_changes.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9b3efbc68b38a12fa7e349a3.md",
+      "kind": "official-document",
+      "bytes": 3853,
+      "sha256": "c264ea9ecbfe8265e67241c711aa55c01de60dc1b074b93fdfa6e200039ee0d7",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/compiler_changes.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/aiagents.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a9d2f760649bc124d6820ffc.md",
+      "kind": "official-document",
+      "bytes": 1534,
+      "sha256": "5d327ffc053764ca017244a9806729501ad09497f718a8164733b11746e0bf87",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/aiagents.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/code-changes.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ff24ec50783fd0319655c165.md",
+      "kind": "official-document",
+      "bytes": 6512,
+      "sha256": "6aa98a4c300155333d307952302d4a4fdde3992e063eb66fbdd0ff191f0cce55",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/code-changes.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/documentation.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/e49515655bb16d7562550d9a.md",
+      "kind": "official-document",
+      "bytes": 4151,
+      "sha256": "21145a7b56c7eea420ef26098dac30180309ca90144fdbbeeaf9e5446c6c3491",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/documentation.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/formatting.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/14158e215813eaba4afdd741.md",
+      "kind": "official-document",
+      "bytes": 1038,
+      "sha256": "0275daa3424aa5a10c2194fd29adb25aa9de5ece38d9e3f1e5ee652cae97bb7c",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/formatting.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/git-workflow.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/599d11216752d6c013b76dfd.md",
+      "kind": "official-document",
+      "bytes": 1899,
+      "sha256": "0ec3aa517c434b9bc297ae226cbe0d7710ccca4e05173408a918e487ee27f3e6",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/git-workflow.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/jldoctests.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ab5428c06690328eb186435b.md",
+      "kind": "official-document",
+      "bytes": 4546,
+      "sha256": "bf87ca9474ada03d46e9e5e9103f4b142b726f194d814e93b7b5e38be9ebf437",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/jldoctests.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/patch-releases.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/370ce2816916e96b3221e865.md",
+      "kind": "official-document",
+      "bytes": 3991,
+      "sha256": "7a2635d8ae8ddf0dd00fca79bac071806df24a4508711760747bb9a0ea9aad43",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/patch-releases.md"
+    },
+    {
+      "path": "doc/src/devdocs/contributing/tests.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4569a1b7755e40e94544ae38.md",
+      "kind": "official-document",
+      "bytes": 1729,
+      "sha256": "c27832ad97cb0314429a0abf5eb5688186d7154e16561d2a6f4ce1f178b8592e",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/contributing/tests.md"
+    },
+    {
+      "path": "doc/src/devdocs/debuggingtips.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/7432628795d8af393a56ba48.md",
+      "kind": "official-document",
+      "bytes": 10192,
+      "sha256": "3d98f20373cb44995192c1ea6f8fdcbe794dd11223b520ae352d85509b56788e",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/debuggingtips.md"
+    },
+    {
+      "path": "doc/src/devdocs/diagnostics.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f97cfe6daa9f406c5079102e.md",
+      "kind": "official-document",
+      "bytes": 2094,
+      "sha256": "ef66e988c701525630ba7022ded6b2ff1ebbe1c454991187c6a8e6ef3df5c23c",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/diagnostics.md"
+    },
+    {
+      "path": "doc/src/devdocs/eval.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/1fb7eda97d97486e103ce017.md",
+      "kind": "official-document",
+      "bytes": 11363,
+      "sha256": "caf34021c230b083b6f5420175c41edddd84316da4ab7cbfdf45fbf1c1e44164",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/eval.md"
+    },
+    {
+      "path": "doc/src/devdocs/external_profilers.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/57b102aefb8167653df7055c.md",
+      "kind": "official-document",
+      "bytes": 8566,
+      "sha256": "a6b3dcf8e233aa5dfae4e06164e4c7426cb11ddec93a480c0e21ea9e5f23f5a6",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/external_profilers.md"
+    },
+    {
+      "path": "doc/src/devdocs/functions.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/e2b55f3c562ed2bc40886df8.md",
+      "kind": "official-document",
+      "bytes": 9585,
+      "sha256": "d6c1f6d6796d727b127c48eee8a9f6ca36587fdd99ce19e3cc2710a027827fc7",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/functions.md"
+    },
+    {
+      "path": "doc/src/devdocs/gc-debug.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/2159efed2e1622db939aa64d.md",
+      "kind": "official-document",
+      "bytes": 6627,
+      "sha256": "82ee0c4dfef9fbde9aaed7d38ad3df707d25ab917c6b0b5ddc9ad20983a990fe",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/gc-debug.md"
+    },
+    {
+      "path": "doc/src/devdocs/gc-mmtk.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5e910c25d27d91161e54821a.md",
+      "kind": "official-document",
+      "bytes": 3507,
+      "sha256": "dfa90a817107ba2261d09ef37a425025162c62866487eda452542ef2fe7d966b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/gc-mmtk.md"
+    },
+    {
+      "path": "doc/src/devdocs/gc-sa.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/e7eb0f1477286cc45d02ac78.md",
+      "kind": "official-document",
+      "bytes": 14802,
+      "sha256": "b2bd6b18be592f9db9e29f419b3f9720799aa2b8514728e07da27121e10dbcfd",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/gc-sa.md"
+    },
+    {
+      "path": "doc/src/devdocs/gc.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/82423d5820e0497a1705a545.md",
+      "kind": "official-document",
+      "bytes": 7955,
+      "sha256": "921ce7b3c5af73b9b6b8f7745aef33c7a06869ae9b9f9621d8687e7938827a60",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/gc.md"
+    },
+    {
+      "path": "doc/src/devdocs/inference.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/537f6e6903e1afb8acf6b241.md",
+      "kind": "official-document",
+      "bytes": 5747,
+      "sha256": "2347d98518c123f8542d1cb757b7f9c0c2eda76baf62cb38f3a95271792989fa",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/inference.md"
+    },
+    {
+      "path": "doc/src/devdocs/init.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/69108c596e71882d8631ce97.md",
+      "kind": "official-document",
+      "bytes": 13974,
+      "sha256": "eeddce266aed0f924d1dd564014f813b001d2e933191439047d9b9cbf3079e2d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/init.md"
+    },
+    {
+      "path": "doc/src/devdocs/isbitsunionarrays.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a619a40704308d4828dff673.md",
+      "kind": "official-document",
+      "bytes": 3336,
+      "sha256": "5ba454eeca43ef4d2a715331f39908a83ebb51023ce71ce249e188edc3c276ac",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/isbitsunionarrays.md"
+    },
+    {
+      "path": "doc/src/devdocs/jit.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a355fea25afdff41dc686d4a.md",
+      "kind": "official-document",
+      "bytes": 12959,
+      "sha256": "2a16c326061ca36dbdaa35ae24048c330dfadccf8c228d49e5afb75e07595a21",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/jit.md"
+    },
+    {
+      "path": "doc/src/devdocs/llvm-passes.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c5412b645006a4ad15b52391.md",
+      "kind": "official-document",
+      "bytes": 10853,
+      "sha256": "83914ab567c924e2783fb9a46be8925df322d6790021a8a82e645b163b28a6e5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/llvm-passes.md"
+    },
+    {
+      "path": "doc/src/devdocs/llvm.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/06f68f9bfb181dd015a5df8b.md",
+      "kind": "official-document",
+      "bytes": 22937,
+      "sha256": "b0549a2c91fad8526fc49b8410cc3ecbc0f735db835694353709259f840aa1ee",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/llvm.md"
+    },
+    {
+      "path": "doc/src/devdocs/locks.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/6419847deda9fbfd2b020bc2.md",
+      "kind": "official-document",
+      "bytes": 9344,
+      "sha256": "d239a820e7776c04b96cb99af3f12cffd36fc430572f6d33f536dbbb1feff44b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/locks.md"
+    },
+    {
+      "path": "doc/src/devdocs/meta.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/918a111062671b9ec8f7df8e.md",
+      "kind": "official-document",
+      "bytes": 1713,
+      "sha256": "acac82b3ccc33a8fbc07eb5fa2452646a64b119a64277e3ce414d4120feb3f74",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/meta.md"
+    },
+    {
+      "path": "doc/src/devdocs/object.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/2a4822867e8d86a5a2921c12.md",
+      "kind": "official-document",
+      "bytes": 7313,
+      "sha256": "a2e68e2670ec9c09c51c37369efc3fd901f1982bf5a3aa7cda1165007a756d88",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/object.md"
+    },
+    {
+      "path": "doc/src/devdocs/offset-arrays.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/6fa96d2b4e06ec3085b4b0f2.md",
+      "kind": "official-document",
+      "bytes": 10350,
+      "sha256": "59c55c94dc3473cebbde61c5ff95313c8ed3754b1472d79abdbec3c38691e64b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/offset-arrays.md"
+    },
+    {
+      "path": "doc/src/devdocs/pkgimg.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f1c18ad7203c3d335de52198.md",
+      "kind": "official-document",
+      "bytes": 5345,
+      "sha256": "6800ba6dd826d18a7ab1313800a51d00f828c0e8566cc74c7c48a8fb897bf1ee",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/pkgimg.md"
+    },
+    {
+      "path": "doc/src/devdocs/precompile_hang.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b3732e0560f9acbd636082e1.md",
+      "kind": "official-document",
+      "bytes": 5399,
+      "sha256": "8ae68cd267a62290f26d05b5bb7465bd7a7785269d4f07d8ce95626bef164857",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/precompile_hang.md"
+    },
+    {
+      "path": "doc/src/devdocs/probes.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/73992b6002335effd2a08970.md",
+      "kind": "official-document",
+      "bytes": 11347,
+      "sha256": "1aedf203794f74de54be56f3d297086a65b195509d6c002dd3dac725e8919671",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/probes.md"
+    },
+    {
+      "path": "doc/src/devdocs/require.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b5b6fd84362d551467d7325c.md",
+      "kind": "official-document",
+      "bytes": 823,
+      "sha256": "60809ec232719007283e174ccb12c3a09651a853667d259e73e0a5c0a21a625b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/require.md"
+    },
+    {
+      "path": "doc/src/devdocs/sanitizers.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/3c375bee20be5adb4e53c4c7.md",
+      "kind": "official-document",
+      "bytes": 5447,
+      "sha256": "e7e40aaa0008b9ee79b6f8c881677a27b4493d4895158454d9d004125a5ddae5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/sanitizers.md"
+    },
+    {
+      "path": "doc/src/devdocs/scheduler-wakeup.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/6aea4b9d1423277ace801d81.md",
+      "kind": "official-document",
+      "bytes": 4424,
+      "sha256": "57fcc726642d731d5db952fce77e3ae819105c1baba4842bde05d391f5436c56",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/scheduler-wakeup.md"
+    },
+    {
+      "path": "doc/src/devdocs/ssair.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a0dea44ea973019f4c86b873.md",
+      "kind": "official-document",
+      "bytes": 12495,
+      "sha256": "2ba5e14ce9507831d039bc7e4f1090753ee46a08b2975e08f3f3847c938bd152",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/ssair.md"
+    },
+    {
+      "path": "doc/src/devdocs/stdio.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/dffbad8433540a6f5ecec24a.md",
+      "kind": "official-document",
+      "bytes": 4322,
+      "sha256": "a2033a91dfd867b24fb0d765e25868e3f83bd3932e290cf8ac5149e35630b604",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/stdio.md"
+    },
+    {
+      "path": "doc/src/devdocs/subarrays.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b12d2a45385d854977f6ec83.md",
+      "kind": "official-document",
+      "bytes": 10479,
+      "sha256": "1f96c5aa8829a850839a25342d878c2f499c327770fb382a9daf050c932f19af",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/subarrays.md"
+    },
+    {
+      "path": "doc/src/devdocs/sysimg.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5fdf75a4f773fb906504e0ef.md",
+      "kind": "official-document",
+      "bytes": 13140,
+      "sha256": "8be0b35ade2e1db6dd35803175fa2bc8fe905770ace4e5c44aafae90d40e6b26",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/sysimg.md"
+    },
+    {
+      "path": "doc/src/devdocs/types.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/861ce3e6a556fdce190422e6.md",
+      "kind": "official-document",
+      "bytes": 19877,
+      "sha256": "46d3edb72ed7f3b760adf1a7b1d619320a424141d7935463823069a034105c63",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/types.md"
+    },
+    {
+      "path": "doc/src/devdocs/ub.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/cad50cf26296590b1937056f.md",
+      "kind": "official-document",
+      "bytes": 7474,
+      "sha256": "37efc45b6e96106f8296eef13803db1f06fd70f8e2ac0fbad608d78b15ab7af8",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/ub.md"
+    },
+    {
+      "path": "doc/src/devdocs/valgrind.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a8de3fcf3ffe87c3fc66c866.md",
+      "kind": "official-document",
+      "bytes": 4330,
+      "sha256": "97cfac0bb75c64409c7d381b11fcd9cb134f814bd07ec244870ffecb998624a5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/devdocs/valgrind.md"
+    },
+    {
+      "path": "doc/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/289499d902f5507cf306c320.md",
+      "kind": "official-document",
+      "bytes": 7567,
+      "sha256": "4fe200dac8fc2d15436536b62a58dd7c362f42661c8075d1a5e73087fc523468",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/index.md"
+    },
+    {
+      "path": "doc/src/manual/arrays.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/48381cc8e38c6cf0400eb48c.md",
+      "kind": "official-document",
+      "bytes": 48862,
+      "sha256": "5297dc0b828c658e69b88bf098e75a0f3c8d753b296ba2b5b12b3249fdf18643",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/arrays.md"
+    },
+    {
+      "path": "doc/src/manual/asynchronous-programming.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/64c88cfd502fa9cb6a26d532.md",
+      "kind": "official-document",
+      "bytes": 14705,
+      "sha256": "26def5d2ba966baab0e24359046df8d236f46fdc8da27219e152636a95ede150",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/asynchronous-programming.md"
+    },
+    {
+      "path": "doc/src/manual/calling-c-and-fortran-code.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/34369a758392e0eb32618c1c.md",
+      "kind": "official-document",
+      "bytes": 66002,
+      "sha256": "bea2a2853fd9b416964e74de6c91434c790887b9f3e6e14e5129558fca54a583",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/calling-c-and-fortran-code.md"
+    },
+    {
+      "path": "doc/src/manual/code-loading.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/19fa9cf1cb7b8abd05eb3a08.md",
+      "kind": "official-document",
+      "bytes": 38550,
+      "sha256": "be5cca1e3e96bd000fd4f4286da87f361b020c6e91d68cfc962beb2ba3579572",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/code-loading.md"
+    },
+    {
+      "path": "doc/src/manual/command-line-interface.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/13226b5257c7f20f65574085.md",
+      "kind": "official-document",
+      "bytes": 16276,
+      "sha256": "d4b48e27f97001cada192bfb8153a26c60bad464cdb99d6ac612b85cdd1f65f5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/command-line-interface.md"
+    },
+    {
+      "path": "doc/src/manual/complex-and-rational-numbers.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/68f309ad045fbb99b3e80060.md",
+      "kind": "official-document",
+      "bytes": 7116,
+      "sha256": "f2ef8622f09fecf90d0c2e8a91fca1e5b35f0685704624e09fea82860a0bdd0f",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/complex-and-rational-numbers.md"
+    },
+    {
+      "path": "doc/src/manual/constructors.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f0f2fe9d2aede6251afcb209.md",
+      "kind": "official-document",
+      "bytes": 25620,
+      "sha256": "66e5b9221c7366d9531d908d4755abc6467f1f5b7bcae9f6e1ee28b237823d73",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/constructors.md"
+    },
+    {
+      "path": "doc/src/manual/control-flow.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/60c2e3fc03a735666ce72b79.md",
+      "kind": "official-document",
+      "bytes": 29566,
+      "sha256": "ee7846936ab9151dbb16404fd8a83d9516e40811b0cfb9dc13f4c3cddeca98fd",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/control-flow.md"
+    },
+    {
+      "path": "doc/src/manual/conversion-and-promotion.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/df5dccfa2b7c288d66f5be3e.md",
+      "kind": "official-document",
+      "bytes": 18155,
+      "sha256": "d00985f4894b692b5fd14e6ee10274a00adb4551c1e0677d78c8f9842b9d3852",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/conversion-and-promotion.md"
+    },
+    {
+      "path": "doc/src/manual/distributed-computing.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5d289cf721dde9fb179910c2.md",
+      "kind": "official-document",
+      "bytes": 63512,
+      "sha256": "25815ce293f59e9e2645fd7dcbbace13823fad4e02df1c08e6ba763bd5213bf3",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/distributed-computing.md"
+    },
+    {
+      "path": "doc/src/manual/documentation.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/37e34afa8298ac23ba6c1599.md",
+      "kind": "official-document",
+      "bytes": 20498,
+      "sha256": "b77f6f1b7a17aca2ac2b3056692ad65d458fb091149b457e15a60a364a797845",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/documentation.md"
+    },
+    {
+      "path": "doc/src/manual/embedding.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c0ac4a5a41e0795cf5f057c4.md",
+      "kind": "official-document",
+      "bytes": 27094,
+      "sha256": "1fa6f62bc380b971a757b9a7585231ce245a3e0bcc4fb427ee40a8b238123839",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/embedding.md"
+    },
+    {
+      "path": "doc/src/manual/emoji-input.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/7fff91247ddfc8f6eea7784a.md",
+      "kind": "official-document",
+      "bytes": 992,
+      "sha256": "56c3f5944af67d00ba320fe3061dd591cdf07f2d45f4e78cb66c08a86fce06eb",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/emoji-input.md"
+    },
+    {
+      "path": "doc/src/manual/environment-variables.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/444d4d21a2cd39de6c88f174.md",
+      "kind": "official-document",
+      "bytes": 27913,
+      "sha256": "73d8d0be70121453274634b10c0c5747f29c0383c3d142e0eef258086bc917b5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/environment-variables.md"
+    },
+    {
+      "path": "doc/src/manual/faq.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/3591da1fafe13d9fcae96e5b.md",
+      "kind": "official-document",
+      "bytes": 50572,
+      "sha256": "2d2516b17d60c6a702b5c7204111926257f20e94edbcdb821249e2aad023de68",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/faq.md"
+    },
+    {
+      "path": "doc/src/manual/functions.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9a3b3bbb6c6d2b2bc3c029d6.md",
+      "kind": "official-document",
+      "bytes": 40847,
+      "sha256": "7e57a98b5478ca587d5f04ddeffb9b764bf964fa2120a04973d8b481c74ef68b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/functions.md"
+    },
+    {
+      "path": "doc/src/manual/getting-started.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/630cc4ba42ef04109b2c9968.md",
+      "kind": "official-document",
+      "bytes": 3126,
+      "sha256": "50caee76e2fcc0b1ccc112508564e9ce12947c9da0dcdf6125cc0e349466f30d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/getting-started.md"
+    },
+    {
+      "path": "doc/src/manual/handling-operating-system-variation.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/475e1996ebb0ca2336125f9b.md",
+      "kind": "official-document",
+      "bytes": 1197,
+      "sha256": "47300ec58886e8cb5505574aed99b88dbf9dea81141afe13ad84ad563b1599ce",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/handling-operating-system-variation.md"
+    },
+    {
+      "path": "doc/src/manual/installation.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f0b2b72aea4b9e3bb26c32b4.md",
+      "kind": "official-document",
+      "bytes": 4907,
+      "sha256": "2b1c366f4fb9c47924d4add45be08b0883e12292e5c0b4b78478eae3741b78a8",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/installation.md"
+    },
+    {
+      "path": "doc/src/manual/integers-and-floating-point-numbers.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/885de7c820e61b105a9d4281.md",
+      "kind": "official-document",
+      "bytes": 26721,
+      "sha256": "f69f5903352c1ad54a29aa159ddb2f74c57f1e86ae07179fb0c7c9850bca5414",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/integers-and-floating-point-numbers.md"
+    },
+    {
+      "path": "doc/src/manual/interfaces.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f7164005c91058bbacdf095d.md",
+      "kind": "official-document",
+      "bytes": 44209,
+      "sha256": "b0ad5d88ba8c32fee2762d1316004d9cc4a4fb3c6c6ed9dbe4cd72347d9b6adb",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/interfaces.md"
+    },
+    {
+      "path": "doc/src/manual/mathematical-operations.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c54ba1c68eb48a4f13c59eb5.md",
+      "kind": "official-document",
+      "bytes": 32948,
+      "sha256": "b80db5dc39e9c2702a7c33290b7cf600c7b7e59342f4d7e7d6969402c5f5cca8",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/mathematical-operations.md"
+    },
+    {
+      "path": "doc/src/manual/memory-management.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9f41cd5a604c36f4ed81477d.md",
+      "kind": "official-document",
+      "bytes": 6686,
+      "sha256": "df9ee60df306252a8758da209a7a9952570d6bbb764d65c841c1c306934e223a",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/memory-management.md"
+    },
+    {
+      "path": "doc/src/manual/metaprogramming.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/540d63fc9d491b813009d8c5.md",
+      "kind": "official-document",
+      "bytes": 52249,
+      "sha256": "dffdcd3390cca5f877b5c09b96c6e6fe6fbfecb0847de46f4ef09ac93f22d1d1",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/metaprogramming.md"
+    },
+    {
+      "path": "doc/src/manual/methods.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/7070a425be1a39a794ebf9c9.md",
+      "kind": "official-document",
+      "bytes": 46053,
+      "sha256": "803738d6165d56141417f0d5c5590a5c6bcb417ea2ff8a49e94090f20628ca1f",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/methods.md"
+    },
+    {
+      "path": "doc/src/manual/missing.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/acc7eb4a6cb98248786d9d6d.md",
+      "kind": "official-document",
+      "bytes": 12454,
+      "sha256": "08262fe86e660045cf3e37be604452c423faba5020c7209441dfd0de45e984b7",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/missing.md"
+    },
+    {
+      "path": "doc/src/manual/modules.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5cdca60c8387f4caad1e1fe3.md",
+      "kind": "official-document",
+      "bytes": 32276,
+      "sha256": "617122eaf6d0c78de995d4f0cb146da8b9b5a4be80c19b6e915099410ab4e5c1",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/modules.md"
+    },
+    {
+      "path": "doc/src/manual/multi-threading.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c4c8bd8054ce76d22a2f841d.md",
+      "kind": "official-document",
+      "bytes": 25384,
+      "sha256": "83efcfa4e52c9d4c38eea65219e7d6337b99fbcfb96f1ab788964e7e87888bb5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/multi-threading.md"
+    },
+    {
+      "path": "doc/src/manual/networking-and-streams.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/dc294cfde6a28ff713327d28.md",
+      "kind": "official-document",
+      "bytes": 15056,
+      "sha256": "c5fd55cb56f9f26ddb98d2fbc0ce7fe26e728b16bc38602ff68fa01c211b3035",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/networking-and-streams.md"
+    },
+    {
+      "path": "doc/src/manual/noteworthy-differences.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b35c6198b6f9c4867e6fda0a.md",
+      "kind": "official-document",
+      "bytes": 45145,
+      "sha256": "385b3eda160e296cf7d28921be2dcaad69d4b43339ec02e5388087cdf1583b51",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/noteworthy-differences.md"
+    },
+    {
+      "path": "doc/src/manual/parallel-computing.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b664419289d86e057b0dd417.md",
+      "kind": "official-document",
+      "bytes": 2135,
+      "sha256": "70e9258db6e8de797705712e1dc4a749159e82472f0e9f70144675d7441c2f65",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/parallel-computing.md"
+    },
+    {
+      "path": "doc/src/manual/performance-tips.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f011556c2d9157162aaeb58a.md",
+      "kind": "official-document",
+      "bytes": 77902,
+      "sha256": "3a51ac987b47d2fbd9ad82bf46b58d3fd3a12f70696526b004b371106e1c76e4",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/performance-tips.md"
+    },
+    {
+      "path": "doc/src/manual/profile.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5daf211b5059d9eebb3cea99.md",
+      "kind": "official-document",
+      "bytes": 31033,
+      "sha256": "75ddcb592d5550d820da90cbdad1e7082b56616b68a21dfcdb64d9d37c611a56",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/profile.md"
+    },
+    {
+      "path": "doc/src/manual/running-external-programs.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/9e049eaa9c6d47cadf0357eb.md",
+      "kind": "official-document",
+      "bytes": 13713,
+      "sha256": "ac42ad9eae82209d5f581aa17e59e354b18049f72204c851377e0d2d52c9958f",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/running-external-programs.md"
+    },
+    {
+      "path": "doc/src/manual/stacktraces.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/92fa052f540b7742fdda87e0.md",
+      "kind": "official-document",
+      "bytes": 10345,
+      "sha256": "5eaa1f677461b12f44218267d7f52829bd6c9f4f2b605c40000b48a5624194bc",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/stacktraces.md"
+    },
+    {
+      "path": "doc/src/manual/strings.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/824a874f6e67d0c617f98c9a.md",
+      "kind": "official-document",
+      "bytes": 44819,
+      "sha256": "f4c3067d860a71afda6840155904a8db49a405e548ddd5f75d1b5e6341ea6452",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/strings.md"
+    },
+    {
+      "path": "doc/src/manual/style-guide.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ec04ad384c133e9858008d39.md",
+      "kind": "official-document",
+      "bytes": 17920,
+      "sha256": "3c8927ae32066b86b9d881ee3f45a41edf589dc5f3327d6a72d4ab5d19f09e95",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/style-guide.md"
+    },
+    {
+      "path": "doc/src/manual/types.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ff6fac0d94f573935b4028de.md",
+      "kind": "official-document",
+      "bytes": 69493,
+      "sha256": "ad9c40a5bf01c8dac3a5f7cc5ab8eb0600af4b39f2999584e0cdf3feb703e18d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/types.md"
+    },
+    {
+      "path": "doc/src/manual/unicode-input.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/0bf7ddd1ae0236eed42c6c25.md",
+      "kind": "official-document",
+      "bytes": 976,
+      "sha256": "c0879a2320daafcc9752259d005cc4d026cc22cb033f7fa6bb82bc45cae42424",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/unicode-input.md"
+    },
+    {
+      "path": "doc/src/manual/variables-and-scoping.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/ca32896128107592a4ebf106.md",
+      "kind": "official-document",
+      "bytes": 32034,
+      "sha256": "4c3e680e42dd16919e3e20ef9408848ce00adb6563d2357ba7aa2d992ed30796",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/variables-and-scoping.md"
+    },
+    {
+      "path": "doc/src/manual/variables.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5c69145f4e99642d31372b24.md",
+      "kind": "official-document",
+      "bytes": 9956,
+      "sha256": "9c49cc6d1d11677f917e34db4cf7c0a70b4c3545298b0d3685ff669e27a7ebe4",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/variables.md"
+    },
+    {
+      "path": "doc/src/manual/workflow-tips.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4af504692ece5850e26a1b3c.md",
+      "kind": "official-document",
+      "bytes": 4368,
+      "sha256": "c189443491048b10cff513634ac5eabb1f3bbdf616c9671f4ca7690b5c87c67c",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/workflow-tips.md"
+    },
+    {
+      "path": "doc/src/manual/worldage.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/064558cdbc490f04e5dcd53e.md",
+      "kind": "official-document",
+      "bytes": 10149,
+      "sha256": "0d97a01beca6c6b2b6b9198b7f6530daa83cedd6945c10a37258f048cbcd2cdd",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/doc/src/manual/worldage.md"
+    },
+    {
+      "path": "src/flisp/LICENSE",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/25309114fe9bcc05b3a7e2d6.txt",
+      "kind": "license",
+      "bytes": 1498,
+      "sha256": "36938527e9b8b7d0d75f0da7292968facb65e1f0eaa6fb2448ec1ace17c74e19",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/src/flisp/LICENSE"
+    },
+    {
+      "path": "src/mig/README.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/4b76b91966fa98b6137cbd1d.md",
+      "kind": "official-document",
+      "bytes": 515,
+      "sha256": "2d0f7abebfd60bc49f669f2c01401657a1a4f44f6c116f714360bc21e044a6b5",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/src/mig/README.md"
+    },
+    {
+      "path": "stdlib/Artifacts/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f8393995df3fa542264c6f45.md",
+      "kind": "official-document",
+      "bytes": 773,
+      "sha256": "67d8527da4556846ab28961aa8afa43fcb219e389a08b9473cb554b906e2f4ae",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Artifacts/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Base64/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/710dea5f5260f81b93f502f1.md",
+      "kind": "official-document",
+      "bytes": 2519,
+      "sha256": "b58560117d375337f6f15dee092046253733f95c1450c09feb9c68e419d39464",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Base64/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/CRC32c/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/044b351fdd498eb5e38c27af.md",
+      "kind": "official-document",
+      "bytes": 244,
+      "sha256": "abc13b21ede77c4a0f18a3d69472574daa4f1e8af4a8553e3b97751d0796cd23",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/CRC32c/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Dates/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/f84044f3a8a57ae2d4c3c471.md",
+      "kind": "official-document",
+      "bytes": 30204,
+      "sha256": "861d2e2901304af046af5f01496174c68d309b9ba2bd2cd2c60f84c0a65b2c80",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Dates/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/FileWatching/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/cc8a3ce8e5795dc8b2a010e4.md",
+      "kind": "official-document",
+      "bytes": 721,
+      "sha256": "0a5287c7fffe0ee4f10633562508be9ae262905401bbf9dd9ab93645598d3cfc",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/FileWatching/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Future/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/d94cc61b294a3c31b3fcc995.md",
+      "kind": "official-document",
+      "bytes": 305,
+      "sha256": "239d88933ddd91e3cce3ba0da79ea5c6fed2b82cdf47cf536dc460948a4e0a49",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Future/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/InteractiveUtils/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/0457232a722e2fccd58e67d9.md",
+      "kind": "official-document",
+      "bytes": 1236,
+      "sha256": "d91733cabeaa7a5bc57a3af749f92865d97a533491352dd602ae5bdfdf5cfdab",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/InteractiveUtils/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/LibGit2/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5b7ac2ad27c392c1d65de511.md",
+      "kind": "official-document",
+      "bytes": 3750,
+      "sha256": "85e63ef34abe9bbcfe451fe1333b8d0518d706ce86daee10ebed7636e34463be",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/LibGit2/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Libdl/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/a9a54e230faf5acb32a2aa7f.md",
+      "kind": "official-document",
+      "bytes": 451,
+      "sha256": "e27ea382a25fef8fc70fc4aa226b931c2b0d4f25af766c866b60382063f3da47",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Libdl/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Logging/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/bb1b5d8838f907ba90dc309b.md",
+      "kind": "official-document",
+      "bytes": 13502,
+      "sha256": "fafff176916ce3bee8bde22b760f2cb9df7a65f6bd076ed138e0e4bb00c0ec0d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Logging/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Markdown/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/0facb70eb91bbf1d27e5494a.md",
+      "kind": "official-document",
+      "bytes": 13734,
+      "sha256": "312500dae383ca09c55efeff330a2dafd930bbde152c9bb1dcd56658d75abdac",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Markdown/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Mmap/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/3619087b03335acf6481f41e.md",
+      "kind": "official-document",
+      "bytes": 237,
+      "sha256": "fe4628e283e62419e55624f63d369b1de91c12d8e926697c8c13e5e24d786837",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Mmap/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Printf/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/b8f39591f562bb44e31447e7.md",
+      "kind": "official-document",
+      "bytes": 373,
+      "sha256": "889c25ea4b85deef737f7ab0f6ec9163e91645263d7862580fa4ab8a66a3e302",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Printf/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Profile/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/fa48e3849f253618fb295909.md",
+      "kind": "official-document",
+      "bytes": 5250,
+      "sha256": "d9e1073c186ca1d9a41277143be1430db1f7c24999426ed53d29ced48f74bb2b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Profile/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/REPL/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/33b6d5bb34c62b8e230c4aa5.md",
+      "kind": "official-document",
+      "bytes": 42463,
+      "sha256": "78a5b805d15c81918a9d295af8af1c74b3500bca47e769b9a3ab573696be7ff2",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/REPL/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/REPL/src/TerminalMenus/LICENSE.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/7ba30b69055e8550cad19ae4.md",
+      "kind": "license",
+      "bytes": 1165,
+      "sha256": "2f30cb93cc071ac2dab62ab9da544736328a0f299497f8caefea0cf5e35bb03e",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/REPL/src/TerminalMenus/LICENSE.md"
+    },
+    {
+      "path": "stdlib/Random/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/701d46f194c20664f9c17b68.md",
+      "kind": "official-document",
+      "bytes": 18530,
+      "sha256": "45b1bbafaebfca55893b937b636bb25804725daeee23ea749cfb81b663ccd1c2",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Random/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Serialization/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c885811ec1126ad1c8c8bf1f.md",
+      "kind": "official-document",
+      "bytes": 536,
+      "sha256": "057f6eb4041d762d59072cabe8431e20095ea1b599b86e05a1049f805da16497",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Serialization/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/SharedArrays/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/5355591dbe1440e52ae4bf05.md",
+      "kind": "official-document",
+      "bytes": 467,
+      "sha256": "6a5cf6575cc6217df912c7fb841385ded519195ede2901123b5b2a91bf91e93d",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/SharedArrays/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Sockets/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/3fbb0756a1564deca615eec9.md",
+      "kind": "official-document",
+      "bytes": 684,
+      "sha256": "b2f649425f90a7e5a9cc7e12ede3d9ee9c6d29459256594991b0371c4f151679",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Sockets/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/TOML/LICENSE",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/cd2f6874d821268d1c6deb3c.txt",
+      "kind": "license",
+      "bytes": 1132,
+      "sha256": "76c364e599ccecb6a7e1c45aba2304589a01014851cf07a124f3d28c6858ab05",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/TOML/LICENSE"
+    },
+    {
+      "path": "stdlib/TOML/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/c099e9517a79bfec3c96b8c2.md",
+      "kind": "official-document",
+      "bytes": 4877,
+      "sha256": "252031107043f7048a5b8c89a53e5653da7f863903911121246016fc4d1e3d22",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/TOML/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Test/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/7e13a5b2c6daf1b88dfa9f3b.md",
+      "kind": "official-document",
+      "bytes": 17683,
+      "sha256": "090fb51124a00788b635e578846449c0e22e7ea054044904e0e46e953c56df5b",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Test/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/UUIDs/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/30f4d3b8bb3bc8895e1bf7e8.md",
+      "kind": "official-document",
+      "bytes": 193,
+      "sha256": "02740d6609c860b621de2cb404ac760c61e2269727796c8abf1ea753d8b54c95",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/UUIDs/docs/src/index.md"
+    },
+    {
+      "path": "stdlib/Unicode/docs/src/index.md",
+      "localPath": "raw/julialang--julia/6f29b2218ff6/e36087971dee5956b4390b63.md",
+      "kind": "official-document",
+      "bytes": 501,
+      "sha256": "881863ede51f34786668e084960ce52f2fe31d088e0f409a084fde2196d1d211",
+      "sourceUrl": "https://github.com/JuliaLang/julia/blob/6f29b2218ff62703f8e0e5bc91e8f7453bde33ac/stdlib/Unicode/docs/src/index.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

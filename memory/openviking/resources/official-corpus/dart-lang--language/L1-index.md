@@ -1,0 +1,185 @@
+# dart-lang/language
+
+Official upstream snapshot `bebad8c4492a8800edf2d37adda1159b43d6ae82`. 168 documents; 0 code files.
+
+Topics: languages/dart.
+
+## Provenance and limits
+
+Retrieved: 2026-10-01T15:16:34.919080+00:00
+
+License: UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED
+
+This overview is a deterministic index, not an LLM-generated technical summary. Raw upstream content is preserved; version applicability and solutions require review.
+
+## Files
+
+- [LICENSE](L2-00000.md#doc-c693279643b8cd5d248172d9) — license
+- [README.md](L2-00000.md#doc-b335630551682c19a781afeb) — official-document
+- [accepted/2.0/sound-type-system.md](L2-00000.md#doc-9b3f4ca789bfa02eb920b128) — official-document
+- [accepted/2.1/int-literal-as-double-value/feature-specification.md](L2-00000.md#doc-43d4438449acc9c6102ff527) — official-document
+- [accepted/2.1/super-mixins/feature-specification.md](L2-00000.md#doc-d4101b6de6ca9de818bc2a53) — official-document
+- [accepted/2.1/super-mixins/implementation-plan.md](L2-00000.md#doc-7568e8dc89b9fedc5d9cccbb) — official-document
+- [accepted/2.1/super-mixins/mixin-inference.md](L2-00000.md#doc-03af1267ba17e406239791ae) — official-document
+- [accepted/2.12/abstract-external-fields/feature-specification.md](L2-00000.md#doc-5974bd2448fa5739b32ee9aa) — official-document
+- [accepted/2.12/abstract-external-fields/implementation-plan.md](L2-00000.md#doc-29fa3901786babbd54333aae) — official-document
+- [accepted/2.12/nnbd/feature-specification.md](L2-00000.md#doc-754e2470ed430da6a5e9db8b) — official-document
+- [accepted/2.12/nnbd/number-operation-typing.md](L2-00000.md#doc-8930c0d8f7b51ed728ffb4eb) — official-document
+- [accepted/2.12/nnbd/roadmap.md](L2-00000.md#doc-05a9adeb1e9c2b624c1e786d) — official-document
+- [accepted/2.13/nonfunction-type-aliases/feature-specification.md](L2-00000.md#doc-e9f602afcf5831e0f32faed1) — official-document
+- [accepted/2.13/nonfunction-type-aliases/implementation-plan.md](L2-00000.md#doc-b0f64bfbeb2907d8953766e0) — official-document
+- [accepted/2.14/small-features-21Q1/feature-specification.md](L2-00000.md#doc-a76b887a905dd2fe0b05ac0a) — official-document
+- [accepted/2.14/small-features-21Q1/implementation-plan.md](L2-00000.md#doc-7c8831d87b3c8923ba52f4fc) — official-document
+- [accepted/2.14/triple-shift-operator/feature-specification.md](L2-00000.md#doc-b3194b99c7572fa12e8bd70e) — official-document
+- [accepted/2.14/triple-shift-operator/implementation-plan.md](L2-00000.md#doc-e2bd93aee27016874c81ddbc) — official-document
+- [accepted/2.15/constructor-tearoffs/faq.md](L2-00000.md#doc-663c92a2551fc6c774bdb17f) — official-document
+- [accepted/2.15/constructor-tearoffs/feature-specification.md](L2-00000.md#doc-1333af34cb922396bb7f7684) — official-document
+- [accepted/2.15/constructor-tearoffs/test-plan.md](L2-00000.md#doc-77be7cdaef14fba377f952e5) — official-document
+- [accepted/2.17/1847-finalization-registry/proposal.md](L2-00000.md#doc-fced71ae34239682bf76a3cc) — official-document
+- [accepted/2.17/enhanced-enums/feature-specification.md](L2-00000.md#doc-d02e7cb58c652df7934c7bca) — official-document
+- [accepted/2.17/named-arguments-anywhere/feature-specification.md](L2-00000.md#doc-ad77b48660c232f9c627f116) — official-document
+- [accepted/2.17/super-parameters/feature-specification.md](L2-00000.md#doc-69a96ecd50eb0353ca3fc9d4) — official-document
+- [accepted/2.18/horizontal-inference/feature-specification.md](L2-00000.md#doc-160b923a99486645ae032352) — official-document
+- [accepted/2.19/unnamed-libraries/feature-specification.md](L2-00000.md#doc-3ebef030c329244090976ff7) — official-document
+- [accepted/2.2/set-literals/feature-specification.md](L2-00000.md#doc-f4c877021a8078ac0214fe43) — official-document
+- [accepted/2.2/set-literals/implementation-plan.md](L2-00000.md#doc-8e0a633ed9d4e8fdf0966005) — official-document
+- [accepted/2.3/control-flow-collections/feature-specification.md](L2-00000.md#doc-a234cf60500f1a6c83c9f3b6) — official-document
+- [accepted/2.3/control-flow-collections/implementation-plan.md](L2-00000.md#doc-38063168e64f6fb21f006399) — official-document
+- [accepted/2.3/spread-collections/feature-specification.md](L2-00000.md#doc-cfe1bb495c50639877fc610e) — official-document
+- [accepted/2.3/spread-collections/implementation-plan.md](L2-00000.md#doc-d99a7cbd1a061d4c4fd30ee4) — official-document
+- [accepted/2.3/spread-collections/performance.md](L2-00000.md#doc-1471f1efb4cd15265bd43c48) — official-document
+- [accepted/2.3/unified-collections/feature-specification.md](L2-00000.md#doc-13b2ad35a91037e31a2615f4) — official-document
+- [accepted/2.5/constant-update-2018/feature-specification.md](L2-00000.md#doc-8396c77acb2b6687d988fa0a) — official-document
+- [accepted/2.5/constant-update-2018/implementation-plan.md](L2-00000.md#doc-100f0a7f88cfb8b396e0b1e4) — official-document
+- [accepted/2.5/contravariant-superinterface-2018/feature-specification.md](L2-00000.md#doc-03eb3446e217d088b3f96ffb) — official-document
+- [accepted/2.5/contravariant-superinterface-2018/implementation-plan.md](L2-00000.md#doc-53e920ae420a94f481483d7e) — official-document
+- [accepted/2.7/static-extension-methods/feature-specification.md](L2-00000.md#doc-5d4b8a72ddd3f2f8377cf477) — official-document
+- [accepted/2.7/static-extension-methods/implementation-plan.md](L2-00000.md#doc-2cf713a88c370119c9630277) — official-document
+- [accepted/2.7/static-extension-methods/old/feature-specification-draft14.md](L2-00000.md#doc-f12889ef0c710b2764d2c502) — official-document
+- [accepted/2.7/static-extension-methods/old/lrn-static-extension-survey.md](L2-00000.md#doc-fe9c23f516eae134ee486470) — official-document
+- [accepted/2.7/static-extension-methods/old/lrn-strawman.md](L2-00000.md#doc-eb901bdd0de32c0227116274) — official-document
+- [accepted/2.8/language-versioning/feature-specification.md](L2-00000.md#doc-6be3712532c30aa1731c0822) — official-document
+- [accepted/2.8/language-versioning/implementation-plan.md](L2-00000.md#doc-c34077ec90449a9a0fa80f8c) — official-document
+- [accepted/2.8/language-versioning/package-config-file-v2.md](L2-00000.md#doc-266c67a4ec6233387171ac27) — official-document
+- [accepted/3.0/class-modifiers/feature-specification.md](L2-00000.md#doc-45ef1d850c5e44b82817aee6) — official-document
+- [accepted/3.0/patterns/exhaustiveness.md](L2-00000.md#doc-5986680f07f11f176738ae93) — official-document
+- [accepted/3.0/patterns/exhaustiveness_prototype/README.md](L2-00000.md#doc-a0ac99925a7c73994b5ca0bc) — official-document
+- [accepted/3.0/patterns/feature-specification.md](L2-00000.md#doc-2250f86de0da3222cf920148) — official-document
+- [accepted/3.0/records/feature-specification.md](L2-00000.md#doc-1919f9eb27fe64b19feda5ae) — official-document
+- [accepted/3.10/dot-shorthands/feature-specification.md](L2-00000.md#doc-f8b2df2bee886a6a34b10252) — official-document
+- [accepted/3.12/private-named-parameters/feature-specification.md](L2-00000.md#doc-0e14b8499a14a185da5c02ef) — official-document
+- [accepted/3.13/primary-constructors/feature-specification.md](L2-00000.md#doc-2293508b94edf5b5b6362ced) — official-document
+- [accepted/3.3/extension-types/feature-specification.md](L2-00000.md#doc-4b5f79234d2135d4f1abf849) — official-document
+- [accepted/3.6/digit-separators/feature-specification.md](L2-00000.md#doc-8b1f22b2b5a447cbb9127065) — official-document
+- [accepted/3.7/inference-using-bounds/design-document.md](L2-00000.md#doc-8c484326201fb61f9fd633f3) — official-document
+- [accepted/3.7/wildcard-variables/feature-specification.md](L2-00000.md#doc-8bf6cc491952a44b2aa9a3b8) — official-document
+- [accepted/3.8/null-aware-elements/feature-specification.md](L2-00000.md#doc-d1f2163788d17e6790b3d7f4) — official-document
+- [accepted/README.md](L2-00000.md#doc-0c7ffa95ba33132f00f87faf) — official-document
+- [accepted/future-releases/0323-null-aware-elements/feature-specification.md](L2-00000.md#doc-c2161b2a275deed36cb52cac) — official-document
+- [accepted/future-releases/0546-patterns/exhaustiveness.md](L2-00000.md#doc-1730aa40b2459144bb7a16e6) — official-document
+- [accepted/future-releases/0546-patterns/feature-specification.md](L2-00000.md#doc-10c9d35e2513431f6e769fcd) — official-document
+- [accepted/future-releases/0546-patterns/goals-and-constraints.md](L2-00000.md#doc-47fc69dd4ce93aa7eb8ff81d) — official-document
+- [accepted/future-releases/0546-patterns/why-two-kinds-of-patterns.md](L2-00000.md#doc-b058c996d17ca0ae85cd5d14) — official-document
+- [accepted/future-releases/2509-private-named-parameters/feature-specification.md](L2-00000.md#doc-a582fea6e1fc7cdbb3de66fd) — official-document
+- [accepted/future-releases/async-star-behavior/feature-specification.md](L2-00000.md#doc-99f981e5ddf0d867113d9775) — official-document
+- [accepted/future-releases/async-star-behavior/implementation-plan.md](L2-00000.md#doc-d6ca4c25ef34da5dad6a32fa) — official-document
+- [accepted/future-releases/class-modifiers/feature-specification.md](L2-00000.md#doc-8c05fd6efcb96dabc6135bed) — official-document
+- [accepted/future-releases/digit-separators/feature-specification.md](L2-00000.md#doc-36b7818d09aa32b4fe8b82ed) — official-document
+- [accepted/future-releases/extension-types/feature-specification.md](L2-00000.md#doc-6cef4003057a3f9c23897b5d) — official-document
+- [accepted/future-releases/parts-with-imports/feature-specification.md](L2-00000.md#doc-5d10a098e7eabcb8b9d4437b) — official-document
+- [accepted/future-releases/primary-constructors/feature-specification.md](L2-00000.md#doc-3abad7729eead74616adb2d5) — official-document
+- [accepted/future-releases/records/records-feature-specification.md](L2-00000.md#doc-154af97e50aa62f3d8946ef9) — official-document
+- [accepted/future-releases/unquoted-imports/feature-specification.md](L2-00000.md#doc-7ef7332c75da21c48c151ed9) — official-document
+- [accepted/future-releases/wildcard-variables/feature-specification.md](L2-00000.md#doc-1734da996f14a30c6ef465f9) — official-document
+- [archive/README.md](L2-00000.md#doc-92f96b37e66919d4365f2496) — official-document
+- [archive/newsletter/README.md](L2-00000.md#doc-6b62821047c0e28f1a50b160) — official-document
+- [doc/life_of_a_language_feature.md](L2-00000.md#doc-767478b442360463b572538c) — official-document
+- [resources/README.md](L2-00000.md#doc-056d3c1d53b6a7de6e316bb9) — official-document
+- [resources/String Class Issues.md](L2-00000.md#doc-07e47f17aab711eb289060f9) — official-document
+- [resources/backgroundhow-other-languages-manage-breakage.md](L2-00000.md#doc-ad4e72054051b6b95df95845) — official-document
+- [resources/bazel/module-structure.md](L2-00000.md#doc-c7b6cb050df242863d199f31) — official-document
+- [resources/class-capabilities/class-capabilities.md](L2-00000.md#doc-e6db9fc5e5bc057265825207) — official-document
+- [resources/instance-initialization-analysis.md](L2-00000.md#doc-3f8842034b3f6f924441f20b) — official-document
+- [resources/old-non-nullable-types.md](L2-00000.md#doc-2cb30c6d66fa8801115b9e93) — official-document
+- [resources/optional-semicolons-prototype.md](L2-00000.md#doc-6a1493e1c08adb9559db778c) — official-document
+- [resources/type-system/flow-analysis.md](L2-00000.md#doc-a1a4ae6002cebb2c33b000b0) — official-document
+- [resources/type-system/inference.md](L2-00000.md#doc-b63d5bbee8f372d092f36b96) — official-document
+- [resources/type-system/normalization.md](L2-00000.md#doc-ff4f3de26bd032f9a5ac22ce) — official-document
+- [resources/type-system/strict-casts.md](L2-00000.md#doc-b0ad8d9852773953691b34cd) — official-document
+- [resources/type-system/strict-inference.md](L2-00000.md#doc-f82d85c323b0d26229235366) — official-document
+- [resources/type-system/strict-raw-types.md](L2-00000.md#doc-2be13e14dc5ac5c0625e21da) — official-document
+- [resources/type-system/subtyping.md](L2-00000.md#doc-b377f9d9825e86db361a7caa) — official-document
+- [resources/type-system/upper-lower-bounds.md](L2-00000.md#doc-e5a867153b34645cb6ebe548) — official-document
+- [resources/warnings.md](L2-00000.md#doc-858c3af97a4e5a0e5f941da2) — official-document
+- [tools/corpus/README.md](L2-00000.md#doc-0625ca00c8b3dd3ff8f619cf) — official-document
+- [working/0015-infer-required/feature-specification.md](L2-00000.md#doc-ac916c94332010a23e43e65c) — official-document
+- [working/0093 - Gradual Language Change Migration/0094 - Per Library Language Version Selection/strawman.md](L2-00000.md#doc-1187490a24f345298fa811e0) — official-document
+- [working/0107 - implicit-constructors/feature-brainstorm.md](L2-00000.md#doc-85d0f1c04cc4e23c424b3802) — official-document
+- [working/0107 - implicit-constructors/feature-specification.md](L2-00000.md#doc-9501fc0eb2e1b9d6f1c8d79c) — official-document
+- [working/0125-static-immutability/feature-specification.md](L2-00000.md#doc-2bb65535ba5be84be7dc86dc) — official-document
+- [working/0158 - Enhanced Enum/feature_specification.md](L2-00000.md#doc-647fa77b5ea830adb62a8049) — official-document
+- [working/0158 - Enhanced Enum/proposal.md](L2-00000.md#doc-3ec428f22a4dce680426df07) — official-document
+- [working/0260-anonymous-methods/feature-specification.md](L2-00000.md#doc-866ae2f4c7944f1db05e62d8) — official-document
+- [working/0323-null-aware-elements/feature-specification.md](L2-00000.md#doc-7943bed07ef2ba64726c71e0) — official-document
+- [working/0524-variance/feature-specification.md](L2-00000.md#doc-eb9b46552ecc6565f9c426aa) — official-document
+- [working/0546-patterns/exhaustiveness.md](L2-00000.md#doc-3db2dbb0613595ea9e9a591f) — official-document
+- [working/0546-patterns/goals-and-constraints.md](L2-00000.md#doc-55cf13bc5ebfb81892c9ebb8) — official-document
+- [working/0546-patterns/patterns-feature-specification.md](L2-00000.md#doc-4f7dd83d44f89cec4e2925d0) — official-document
+- [working/0546-patterns/why-two-kinds-of-patterns.md](L2-00000.md#doc-d7025438676f0a3b1d40dfc3) — official-document
+- [working/0649 - Import shorthand/proposal.md](L2-00000.md#doc-a7fa5a2fd37f61616f80ac72) — official-document
+- [working/0698 - Enhanced Default Constructors/proposal.md](L2-00000.md#doc-1bfd59e1638bed41df802c4c) — official-document
+- [working/0723-static-extensions/feature-specification-variant1.md](L2-00000.md#doc-4551afa0e020e5aa0a168ab5) — official-document
+- [working/0723-static-extensions/feature-specification.md](L2-00000.md#doc-8be83ba88055c90a60e35b63) — official-document
+- [working/0731 - horizontal inference/feature-specification.md](L2-00000.md#doc-e16c7624d4150eb0d4a85080) — official-document
+- [working/0884/interface_default_methods_proposal.md](L2-00000.md#doc-15735455fd6fc458948f1f41) — official-document
+- [working/1113 - null-asserting compound assignment/proposal.md](L2-00000.md#doc-03cdbd2ae22e24612ce5bec0) — official-document
+- [working/1426-extension-types/feature-specification-inline-classes.md](L2-00000.md#doc-d122a61ab7574ce795ab3f73) — official-document
+- [working/1426-extension-types/feature-specification-views.md](L2-00000.md#doc-02a9062bfa4a1f578aa05113) — official-document
+- [working/1426-extension-types/feature-specification.md](L2-00000.md#doc-e04a930917e00f2dc9138605) — official-document
+- [working/1610 - override/proposal.md](L2-00000.md#doc-ba7abd499d848cdf9f1f3526) — official-document
+- [working/1661 - unawaited futures/proposal.md](L2-00000.md#doc-77e623978c1b08f0b569da14) — official-document
+- [working/1855 - super parameters/package_evaluation.md](L2-00000.md#doc-4ae6ceff3c62ba409f23c938) — official-document
+- [working/1855 - super parameters/proposal.md](L2-00000.md#doc-e700291f77bb87bdf1d7d57e) — official-document
+- [working/2364 - primary constructors/feature-specification.md](L2-00000.md#doc-f95951eca167638e987aca65) — official-document
+- [working/2509-private-named-parameters/feature-specification.md](L2-00000.md#doc-2282711790fbc4c9758a19ec) — official-document
+- [working/2936 - Unresolved constants/proposal.md](L2-00000.md#doc-5eb141c863bb84212ac7fde8) — official-document
+- [working/3102 - implied-name/feature-specification.md](L2-00000.md#doc-5b193b7af5e2a43565324771) — official-document
+- [working/333 - shared memory multithreading/proposal.md](L2-00000.md#doc-48a62b1b4c658f597b33c2a3) — official-document
+- [working/333 - shared memory multithreading/shared_native_memory.md](L2-00000.md#doc-0e2ec8a393ebd3ec0fb32edd) — official-document
+- [working/3616 - enum value shorthand/proposal-lrhn.md](L2-00000.md#doc-6cb476451dcf18080ee613d8) — official-document
+- [working/3616 - enum value shorthand/proposal-simple-lrhn.md](L2-00000.md#doc-047e4537c932f16f50ec8dcb) — official-document
+- [working/4200-metaobjects/feature-specification.md](L2-00000.md#doc-cc8997dd37e5e534ac8ce387) — official-document
+- [working/4213-generic-constructors/feature-specification.md](L2-00000.md#doc-16a6c7e0f31d2d19b879af01) — official-document
+- [working/4271 - static enough metaprogramming/proposal.md](L2-00000.md#doc-d6bb9e0927149108d1019970) — official-document
+- [working/README.md](L2-00000.md#doc-99be138151788c81b13f111a) — official-document
+- [working/augmentation-libraries/feature-specification.md](L2-00000.md#doc-163b9e368f5b01b786df0607) — official-document
+- [working/augmentation-libraries/parts_with_imports.md](L2-00000.md#doc-4d8166303d7f4bc1b982f77a) — official-document
+- [working/augmentations/feature-specification.md](L2-00000.md#doc-9088621b6c6f336cd95ca4c7) — official-document
+- [working/base-interface-final/feature-specification.md](L2-00000.md#doc-409256e699bbd5716639607a) — official-document
+- [working/declaring-constructors/feature-specification.md](L2-00000.md#doc-c135483316a7f6c2a742680a) — official-document
+- [working/deprecation_compatibility/proposal.md](L2-00000.md#doc-86575c725fa45e27131d77dd) — official-document
+- [working/digit-separators/feature-specification.md](L2-00000.md#doc-64df826d224e5eb82355b59c) — official-document
+- [working/enhanced-constructors/feature-specification.md](L2-00000.md#doc-f148ca04e9e980422b2b1ed9) — official-document
+- [working/extension_structs/overview.md](L2-00000.md#doc-ca02287dfdfe1dee482df269) — official-document
+- [working/field-promotion/proposals-overview.md](L2-00000.md#doc-3fc599c36bad7c524e047a8d) — official-document
+- [working/macros/aspect-macros.md](L2-00000.md#doc-e2cf2a998ea2e466bceeef9a) — official-document
+- [working/macros/feature-specification.md](L2-00000.md#doc-0d45d412a06ec2f758d89d3e) — official-document
+- [working/macros/host-notes.md](L2-00000.md#doc-bf949e09959b118bfae8ca4f) — official-document
+- [working/macros/motivation.md](L2-00000.md#doc-d47bf399aed0ea323e0cb866) — official-document
+- [working/modules/feature-specification.md](L2-00000.md#doc-0e314a52a59b17589f1f51e1) — official-document
+- [working/modules/motivation.md](L2-00000.md#doc-300d14b8915e3b56b96fcf58) — official-document
+- [working/modules/private-imports.md](L2-00000.md#doc-1b384b578f88062d6f784bc5) — official-document
+- [working/parts-with-imports/feature-specification.md](L2-00000.md#doc-eecf74a8c0b5273e5725d3c1) — official-document
+- [working/reflected-imports/feature-specification.md](L2-00000.md#doc-149db829a7b381fd6fa37435) — official-document
+- [working/remove-old-function-syntax/feature-specification.md](L2-00000.md#doc-afab7adf5ab6101a7843ac4b) — official-document
+- [working/sealed-types/feature-specification.md](L2-00000.md#doc-f4d292e2f744e3a84daa4388) — official-document
+- [working/simpler-parameters/feature-specification.md](L2-00000.md#doc-1a1238d843deb4dd0dd178fc) — official-document
+- [working/single-combinators/feature-specification.md](L2-00000.md#doc-1d6dcb66198da14eeeaa3a25) — official-document
+- [working/specification/compositional semantics.md](L2-00000.md#doc-8b47bffdf4d63cf5ed0a632a) — official-document
+- [working/static wrapper types/feature-specification.md](L2-00000.md#doc-1f669748e3ff99ce011427ff) — official-document
+- [working/tagged-strings/alternative-generalized-feature-specification.md](L2-00000.md#doc-51e517bfd0c232d10debef80) — official-document
+- [working/tagged-strings/feature-specification.md](L2-00000.md#doc-a1963ba12224e970244bd0aa) — official-document
+- [working/union-types/nominative-union-types.md](L2-00000.md#doc-3e4cf9f9141e46242f14cf73) — official-document
+- [working/unquoted-imports/feature-specification.md](L2-00000.md#doc-0e540a4a8d19e7643e952c51) — official-document
+- [working/value-classes/feature-specification.md](L2-00000.md#doc-fb3b4d808601e378755d05e0) — official-document
+- [working/wildcards/feature-specification.md](L2-00000.md#doc-4e850423d5a90b96b5403fde) — official-document

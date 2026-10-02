@@ -1,6 +1,6 @@
 # CNCF 전 범위 지도와 운영 진단
 
-확인일: 2026-09-30. [CNCF Landscape 원본](public-data/cncf-landscape.yml)을 공식 저장소의 커밋 `97b2e16fdf4147166df9427299998a83991b0958`로 고정해 오프라인에 보관했다. [전체 검색용 색인](public-data/cncf-landscape-index.json)은 2,425개 Landscape 항목, [CNCF 프로젝트 목록](public-data/cncf-projects.md)은 그중 `project` 필드가 있는 255개를 담는다. Landscape에는 CNCF 프로젝트가 아닌 제품·서비스도 있으므로 두 숫자를 혼동하지 않는다. 성숙도 표시는 **스냅샷 당시** 값이다. 최신 상태는 [CNCF 프로젝트 목록](https://www.cncf.io/projects/)과 [Lifecycle](https://contribute.cncf.io/projects/lifecycle/)에서 확인한다.
+Landscape 원문 수집: 2026-10-02. 아래 개념 설명 확인일: 2026-09-30. [CNCF Landscape 원본](public-data/cncf-landscape.yml)을 공식 저장소의 커밋 `bc9d1b5c87904d9430fc3377938f38192bab3ad0`로 고정해 오프라인에 보관했다. [전체 검색용 색인](public-data/cncf-landscape-index.json)은 2,427개 Landscape 항목, [CNCF 프로젝트 목록](public-data/cncf-projects.md)은 그중 `project` 필드가 있는 255개를 담는다. Landscape에는 CNCF 프로젝트가 아닌 제품·서비스도 있으므로 두 숫자를 혼동하지 않는다. 성숙도 표시는 **스냅샷 당시** 값이다. 최신 상태는 [CNCF 프로젝트 목록](https://www.cncf.io/projects/)과 [Lifecycle](https://contribute.cncf.io/projects/lifecycle/)에서 확인한다. 프로젝트별 원문 수집과 빠진 원천은 [대량 원문 범위](corpus-overview.md)에 기록한다.
 
 ## Landscape를 읽는 순서
 

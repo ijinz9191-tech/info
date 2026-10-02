@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "repo": "vitejs/vite",
+  "commit": "10033218d239c927cdc375970b5741cce408e81b",
+  "retrievedAt": "2026-10-01T15:45:26.854198+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/web-build"
+  ],
+  "archiveUrl": "https://codeload.github.com/vitejs/vite/zip/10033218d239c927cdc375970b5741cce408e81b",
+  "selectionSha256": "a61f752eab1a865fa9de2c7afd82e735d67064c04281796dbeb701d5bc5c3dfc",
+  "selection": {
+    "docRoots": [
+      "docs"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "e83656d332fd7bdbfdfe3c7a5aa303fc98dee1f6b25cd3ac7070563d214e43b3",
+  "archiveBytes": 14202448,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 77,
+    "code": 0,
+    "licenses": 7,
+    "bytes": 1287488
+  },
+  "files": [
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/vitejs--vite/10033218d239/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 23249,
+      "sha256": "3d56eb2a4a34bfa5731e7388f46e2ed750969cc0a12ca3071a1c3b34ce1fe8a1",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/vitejs--vite/10033218d239/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1101,
+      "sha256": "692057af3d664cbb79ac38293eb50aa3c4987f8182e2a440136e59e08f1b4a54",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 3416,
+      "sha256": "588718673f32a3691b8e75b93fb4c2f8e8bc9a6dc0bf61794ba7b6c006594111",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/README.md"
+    },
+    {
+      "path": "docs/acknowledgements.md",
+      "localPath": "raw/vitejs--vite/10033218d239/91afc6898177816e204242e6.md",
+      "kind": "official-document",
+      "bytes": 6177,
+      "sha256": "935f829014063bb65988b4e513f274f0df66a30d75c2b4b79fedad2a5adb0475",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/acknowledgements.md"
+    },
+    {
+      "path": "docs/blog.md",
+      "localPath": "raw/vitejs--vite/10033218d239/a06d91d981e119c7fa6c7a98.md",
+      "kind": "official-document",
+      "bytes": 191,
+      "sha256": "0c6c4debd05c8d99c9b539254e0017fd1c0e772265f0993d4c2e2d59683e95d3",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite2.md",
+      "localPath": "raw/vitejs--vite/10033218d239/98a70c7d6953a072d2226309.md",
+      "kind": "official-document",
+      "bytes": 5895,
+      "sha256": "f9d2217c2a2a97f24ce4902baa74264166d4bdcbff947124380cb01d14296674",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite2.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite3.md",
+      "localPath": "raw/vitejs--vite/10033218d239/f8cf34e9c6339f480540c6ee.md",
+      "kind": "official-document",
+      "bytes": 20712,
+      "sha256": "60e2e415a301ac16228869081f827aa0b062d058b9ac22f5402dec0349e01029",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite3.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite4-3.md",
+      "localPath": "raw/vitejs--vite/10033218d239/ec65f81760b8a21e28c8e21a.md",
+      "kind": "official-document",
+      "bytes": 4565,
+      "sha256": "8eb97acd5a6f91ed67e64746f777880556e303017a088e7224627d863f88e468",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite4-3.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite4.md",
+      "localPath": "raw/vitejs--vite/10033218d239/ed9406b3685db5c68626b739.md",
+      "kind": "official-document",
+      "bytes": 12039,
+      "sha256": "20db7a539c595db59f65f3fb992097c8b308f671b891fb940da32c27edfcfec4",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite4.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite5-1.md",
+      "localPath": "raw/vitejs--vite/10033218d239/56dc71307aa166d7984e5a84.md",
+      "kind": "official-document",
+      "bytes": 11085,
+      "sha256": "3b2ed60c854259e52ad244a4eb09478380de006fc1f30f327eead8abadb80c2e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite5-1.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite5.md",
+      "localPath": "raw/vitejs--vite/10033218d239/de7785f86d8aea5ca0143940.md",
+      "kind": "official-document",
+      "bytes": 10526,
+      "sha256": "3b5a18922eb1eebfbd4458ac87d336a570b6151e4b066cd4208aa08b0a982c41",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite5.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite6.md",
+      "localPath": "raw/vitejs--vite/10033218d239/24214777214655585cedbca9.md",
+      "kind": "official-document",
+      "bytes": 11639,
+      "sha256": "52dc60b10b623ec40ebdae7b8030e1750727fa695b1cc2de8f69b2d939db6c6f",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite6.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite7.md",
+      "localPath": "raw/vitejs--vite/10033218d239/30ed2542b88b4d6ac9bbad62.md",
+      "kind": "official-document",
+      "bytes": 8697,
+      "sha256": "3e4abe329a5e230fc4e63c46b2ace6aaca2bb1ea2e4cd08ded0ef2032bcfe3c7",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite7.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite8-1.md",
+      "localPath": "raw/vitejs--vite/10033218d239/3da451dcfe47ba16223520d0.md",
+      "kind": "official-document",
+      "bytes": 10384,
+      "sha256": "6332ed62ec37a6a5faff0ba1b16ca534194f60adc55f9dde23f442151d09f844",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite8-1.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite8-beta.md",
+      "localPath": "raw/vitejs--vite/10033218d239/03e9a1f20fa0f0687dfec3c9.md",
+      "kind": "official-document",
+      "bytes": 9002,
+      "sha256": "b3be617cc07ab72bb6ee58ad92efde45efbd0a427f2283d6d68c57f3df7c6150",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite8-beta.md"
+    },
+    {
+      "path": "docs/blog/announcing-vite8.md",
+      "localPath": "raw/vitejs--vite/10033218d239/4c6187faced566976b3956a4.md",
+      "kind": "official-document",
+      "bytes": 15353,
+      "sha256": "4ea4895543e362e2424a8e97e3f7742db100d754eef1e04cd0f0b02ac8569a2e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/announcing-vite8.md"
+    },
+    {
+      "path": "docs/blog/cloudflare-supports-vite.md",
+      "localPath": "raw/vitejs--vite/10033218d239/50cb8aa1a0b7690b2d46f388.md",
+      "kind": "official-document",
+      "bytes": 4046,
+      "sha256": "a4a23ddc1ff0d76aefec54daf618050d31d56a4b9743997d2f8ad7f10195a2cd",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/blog/cloudflare-supports-vite.md"
+    },
+    {
+      "path": "docs/changes/hotupdate-hook.md",
+      "localPath": "raw/vitejs--vite/10033218d239/4ef508415c999a595d3a57bd.md",
+      "kind": "official-document",
+      "bytes": 3529,
+      "sha256": "b00e4ebb57da7e852c781e7e9fce8e2341a20bf0fa53bf85ebe4c7f18ec9857f",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/changes/hotupdate-hook.md"
+    },
+    {
+      "path": "docs/changes/index.md",
+      "localPath": "raw/vitejs--vite/10033218d239/a0839b1dedac244ba144fc21.md",
+      "kind": "official-document",
+      "bytes": 1517,
+      "sha256": "ebfb34118d47505a2cd09f72712d5be8825bb4b13cc370c4671e7a899eb294a0",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/changes/index.md"
+    },
+    {
+      "path": "docs/changes/per-environment-apis.md",
+      "localPath": "raw/vitejs--vite/10033218d239/7a91d9a1aa4aefdc8a437af5.md",
+      "kind": "official-document",
+      "bytes": 2255,
+      "sha256": "8a3ece80742bd3818e842ee4390699298e6e79df921635655c55240064caf8a3",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/changes/per-environment-apis.md"
+    },
+    {
+      "path": "docs/changes/shared-plugins-during-build.md",
+      "localPath": "raw/vitejs--vite/10033218d239/a2ce39d4a6527511973fc1b4.md",
+      "kind": "official-document",
+      "bytes": 2247,
+      "sha256": "b785bea5547b66d019067cee167789552bb5ff7df7a9017ac82f0ea05817e6d8",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/changes/shared-plugins-during-build.md"
+    },
+    {
+      "path": "docs/changes/ssr-using-modulerunner.md",
+      "localPath": "raw/vitejs--vite/10033218d239/5c02213d4415cfb8909d7c34.md",
+      "kind": "official-document",
+      "bytes": 1264,
+      "sha256": "e1efa94a92d5e3bdf9642a25f73ce55b19107dcd0d646b0708c06db7d494a62e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/changes/ssr-using-modulerunner.md"
+    },
+    {
+      "path": "docs/changes/this-environment-in-hooks.md",
+      "localPath": "raw/vitejs--vite/10033218d239/b31c62a315a69921e032a38f.md",
+      "kind": "official-document",
+      "bytes": 2375,
+      "sha256": "2e9a8533bb7972462c4e20d4d271b8745cd74b50112caf1aa89cfa9b71b7e125",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/changes/this-environment-in-hooks.md"
+    },
+    {
+      "path": "docs/config/build-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/1fbe67e41f9795a9a441b242.md",
+      "kind": "official-document",
+      "bytes": 17328,
+      "sha256": "5e30ebe7cc8650a43f75faf4853fff5d09db2c15d6c5ab78b804e9cbb54577e6",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/build-options.md"
+    },
+    {
+      "path": "docs/config/dep-optimization-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/3a622036c6755fcc3897e92e.md",
+      "kind": "official-document",
+      "bytes": 6117,
+      "sha256": "e9713345b023ae833a29aedce3ce05bd7560fa5f162746cf45696be735b66b3d",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/dep-optimization-options.md"
+    },
+    {
+      "path": "docs/config/index.md",
+      "localPath": "raw/vitejs--vite/10033218d239/f7d4a01431aa2057a8d0c4ff.md",
+      "kind": "official-document",
+      "bytes": 7228,
+      "sha256": "d2073afce24e4a376cd757e24a24e0d3ce7f3ccf5a2dab4b1ecaaed56f7ad7e3",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/index.md"
+    },
+    {
+      "path": "docs/config/preview-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/3e2530046f547ea3707785d7.md",
+      "kind": "official-document",
+      "bytes": 3123,
+      "sha256": "a5f2ca329739bbb48e669ed3c2e2736afe699d77a89dc9bcf197a42cbfffa3a1",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/preview-options.md"
+    },
+    {
+      "path": "docs/config/server-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/8ff2c95ceb1f69cc253c7f80.md",
+      "kind": "official-document",
+      "bytes": 20895,
+      "sha256": "7105368fa565a16e1bb99e8c8f58372101c3a98a1cec9453749bd5fefc7f2e6c",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/server-options.md"
+    },
+    {
+      "path": "docs/config/shared-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/383f1742681453dbe031bc12.md",
+      "kind": "official-document",
+      "bytes": 24748,
+      "sha256": "296f796b560de2cd0cb46eb298f113b383d4e3c7566b53256a6fcfe735429356",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/shared-options.md"
+    },
+    {
+      "path": "docs/config/ssr-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/5a3d42620df2c6b17e25f440.md",
+      "kind": "official-document",
+      "bytes": 3241,
+      "sha256": "867f89b9b0eaee53cbcbaf740ab30cf45a20f10e089017d00c298120cc39a835",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/ssr-options.md"
+    },
+    {
+      "path": "docs/config/worker-options.md",
+      "localPath": "raw/vitejs--vite/10033218d239/384f9b92bc93049fad526f49.md",
+      "kind": "official-document",
+      "bytes": 975,
+      "sha256": "fa9a0cf7f17d861f07022c5d795621692b7741b9d4f89dd76656c1a8e6c6a614",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/config/worker-options.md"
+    },
+    {
+      "path": "docs/guide/api-environment-frameworks.md",
+      "localPath": "raw/vitejs--vite/10033218d239/7eca97f5558b61f9e13cbf79.md",
+      "kind": "official-document",
+      "bytes": 15878,
+      "sha256": "e054cf368dfb680206ff4fc84349073187ad1f23addccda8b61e31a4cbf42738",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-environment-frameworks.md"
+    },
+    {
+      "path": "docs/guide/api-environment-instances.md",
+      "localPath": "raw/vitejs--vite/10033218d239/fe3ba3e1860b18d464d22e3e.md",
+      "kind": "official-document",
+      "bytes": 10784,
+      "sha256": "3d9f34bdbcd683af016ffba4d08b69a8e757cc998ac542bdd058691570d8ff26",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-environment-instances.md"
+    },
+    {
+      "path": "docs/guide/api-environment-plugins.md",
+      "localPath": "raw/vitejs--vite/10033218d239/3c4480abaa227bd7a1cd344a.md",
+      "kind": "official-document",
+      "bytes": 14767,
+      "sha256": "b6b230a419222c5ccfb0882cd7ec3ddf50eced2f3784dacbe98f14e102aa29ee",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-environment-plugins.md"
+    },
+    {
+      "path": "docs/guide/api-environment-runtimes.md",
+      "localPath": "raw/vitejs--vite/10033218d239/c3b4ecf4cdce6a6b298a0fb5.md",
+      "kind": "official-document",
+      "bytes": 17383,
+      "sha256": "1bb590fcd53cbf64e5667f0ae284a67762d746f76076f1d539485cc90177607f",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-environment-runtimes.md"
+    },
+    {
+      "path": "docs/guide/api-environment.md",
+      "localPath": "raw/vitejs--vite/10033218d239/10abced5fc2da9930ed8a779.md",
+      "kind": "official-document",
+      "bytes": 9039,
+      "sha256": "8a6c1a9680bb589d408b40fb614d879b1234c6a063e09f2c30f5f0eaf400acc9",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-environment.md"
+    },
+    {
+      "path": "docs/guide/api-hmr.md",
+      "localPath": "raw/vitejs--vite/10033218d239/7246c58cd8d8d1910d926ac6.md",
+      "kind": "official-document",
+      "bytes": 9447,
+      "sha256": "94fe42e1a837dc6df9cab54d13378c957c6fb9e61748e0f4a06941c0489afcae",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-hmr.md"
+    },
+    {
+      "path": "docs/guide/api-javascript.md",
+      "localPath": "raw/vitejs--vite/10033218d239/1c723426e8efff8a7043a830.md",
+      "kind": "official-document",
+      "bytes": 13693,
+      "sha256": "7361496bcbbf9dbbcd486a7fa435b0745bdc63e13087c2f9ebd0c56cd4b8b40b",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-javascript.md"
+    },
+    {
+      "path": "docs/guide/api-plugin.md",
+      "localPath": "raw/vitejs--vite/10033218d239/4f815d9b4fc689178afacaef.md",
+      "kind": "official-document",
+      "bytes": 31890,
+      "sha256": "0dc57694477c03bd6db40dc091328121f3aeddf35ba59d0a1bce23526fd303eb",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/api-plugin.md"
+    },
+    {
+      "path": "docs/guide/assets.md",
+      "localPath": "raw/vitejs--vite/10033218d239/0af6701d19ec71378bc882ce.md",
+      "kind": "official-document",
+      "bytes": 6547,
+      "sha256": "ea9464ea42d19e99eb61dba2d3ee5f3a826c53fccb61cfcf308ee46aac87db8b",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/assets.md"
+    },
+    {
+      "path": "docs/guide/backend-integration.md",
+      "localPath": "raw/vitejs--vite/10033218d239/151688206c6feece63b3488e.md",
+      "kind": "official-document",
+      "bytes": 11139,
+      "sha256": "848094863cab1431735b6032a46a9ba4ff29f9f98bfd65de288d714612c7250c",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/backend-integration.md"
+    },
+    {
+      "path": "docs/guide/build.md",
+      "localPath": "raw/vitejs--vite/10033218d239/4a49b457ff0fce4106126171.md",
+      "kind": "official-document",
+      "bytes": 14211,
+      "sha256": "4b0f5c4807d4b4f428536d765d878d6f690047bb928868546e8b282c217dd4cb",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/build.md"
+    },
+    {
+      "path": "docs/guide/cli.md",
+      "localPath": "raw/vitejs--vite/10033218d239/cbefb9b26fc7c601d23a1ccf.md",
+      "kind": "official-document",
+      "bytes": 16510,
+      "sha256": "aba31a8154c0020b01640661b4ff70d398dfa5ccb1e1489debd0c8ec9a6c1595",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/cli.md"
+    },
+    {
+      "path": "docs/guide/dep-pre-bundling.md",
+      "localPath": "raw/vitejs--vite/10033218d239/e4a00066223b65cc982172d1.md",
+      "kind": "official-document",
+      "bytes": 5651,
+      "sha256": "2dd56afbdc5f168ec9cbfff1c94f249b61e64a870901378a49f9987f12ed47a1",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/dep-pre-bundling.md"
+    },
+    {
+      "path": "docs/guide/env-and-mode.md",
+      "localPath": "raw/vitejs--vite/10033218d239/7286887bcd9afe25bd2e21bd.md",
+      "kind": "official-document",
+      "bytes": 10856,
+      "sha256": "945fa3bdeba86b0fff142fb462effeb4ff2f2cb3ecdbe8c08ab32e959a4b1f31",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/env-and-mode.md"
+    },
+    {
+      "path": "docs/guide/features.md",
+      "localPath": "raw/vitejs--vite/10033218d239/f4ae8101ad2153be3871b70a.md",
+      "kind": "official-document",
+      "bytes": 39739,
+      "sha256": "8d819b6a9f3a793c08f3081eb05e363580b29bb215d58ab0b7b93bfe264e7fc0",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/features.md"
+    },
+    {
+      "path": "docs/guide/index.md",
+      "localPath": "raw/vitejs--vite/10033218d239/a9f09e5fd39208124b216a0c.md",
+      "kind": "official-document",
+      "bytes": 11552,
+      "sha256": "6a66574988783e1057b1d73ee4ed23a02e5f0e67b041ac4105fb930b5431194a",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/index.md"
+    },
+    {
+      "path": "docs/guide/migration.md",
+      "localPath": "raw/vitejs--vite/10033218d239/93c9f7e5380e402192ad1543.md",
+      "kind": "official-document",
+      "bytes": 21426,
+      "sha256": "d1b2c3f07dcd1d0e93dd1c5794a6d4b58a2582ff2b7f8a910de858990d820a5e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/migration.md"
+    },
+    {
+      "path": "docs/guide/performance.md",
+      "localPath": "raw/vitejs--vite/10033218d239/ce2d643df386b8bafaec897b.md",
+      "kind": "official-document",
+      "bytes": 8184,
+      "sha256": "f5d24cf88d2c6c6e3100dea5307d9afaf1ad5fe709f2499d65bf01695aab5578",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/performance.md"
+    },
+    {
+      "path": "docs/guide/philosophy.md",
+      "localPath": "raw/vitejs--vite/10033218d239/366c79020bddfd17cb6b14ec.md",
+      "kind": "official-document",
+      "bytes": 3575,
+      "sha256": "6d3f6734745aeb7d684b4ae7a527fb95a6bbbae43567f464c6ba8fbba551701e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/philosophy.md"
+    },
+    {
+      "path": "docs/guide/ssr.md",
+      "localPath": "raw/vitejs--vite/10033218d239/c29661faa9bb2914879f58ee.md",
+      "kind": "official-document",
+      "bytes": 14663,
+      "sha256": "29bf580051e0e8a2fb32cdb9da90178d2271d48fa2383c3b5761382e741ea101",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/ssr.md"
+    },
+    {
+      "path": "docs/guide/static-deploy.md",
+      "localPath": "raw/vitejs--vite/10033218d239/c69d8561bb84d553db266ce4.md",
+      "kind": "official-document",
+      "bytes": 14478,
+      "sha256": "233ded1015bc47d93fc98a973f9c113d9205f210a80320a4455bc1fbed5561c9",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/static-deploy.md"
+    },
+    {
+      "path": "docs/guide/troubleshooting.md",
+      "localPath": "raw/vitejs--vite/10033218d239/591755fcd41dbf3ede4a850f.md",
+      "kind": "official-document",
+      "bytes": 16073,
+      "sha256": "7c2299f619ad280b90cd5f2f01539aa90ee06d9e7daf97cc990f8101d04a8d99",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/troubleshooting.md"
+    },
+    {
+      "path": "docs/guide/using-plugins.md",
+      "localPath": "raw/vitejs--vite/10033218d239/40e78ded277ca9d25b4c10f4.md",
+      "kind": "official-document",
+      "bytes": 3285,
+      "sha256": "c6849a091e5e182332df7e865b10cb4867b51fcf3d77c3faf9da4a7b9f92cc50",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/using-plugins.md"
+    },
+    {
+      "path": "docs/guide/why.md",
+      "localPath": "raw/vitejs--vite/10033218d239/86536b61da9bf712c13e0cfa.md",
+      "kind": "official-document",
+      "bytes": 6878,
+      "sha256": "f79d6041a8ece428273933b41c6c64d0ec74cb0727cdb244337db7424cfd6455",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/guide/why.md"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/vitejs--vite/10033218d239/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 186,
+      "sha256": "2e806eccee4b51edee787f93e27fed8712096fd3292ede0a32b98d978e9743bf",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/index.md"
+    },
+    {
+      "path": "docs/live.md",
+      "localPath": "raw/vitejs--vite/10033218d239/3e9bd0eee46c2ef495617ec0.md",
+      "kind": "official-document",
+      "bytes": 1154,
+      "sha256": "733874a1f0ae3500fa9a492eb051479b8510f36876841d1b27ba893c357feb67",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/live.md"
+    },
+    {
+      "path": "docs/plugins/index.md",
+      "localPath": "raw/vitejs--vite/10033218d239/1b41e93cd9dfd0200bce0c16.md",
+      "kind": "official-document",
+      "bytes": 2810,
+      "sha256": "5c603d4f1dd6286f935761f29dda879124317bc83590486232936e7e109d05d4",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/plugins/index.md"
+    },
+    {
+      "path": "docs/releases.md",
+      "localPath": "raw/vitejs--vite/10033218d239/ddff4241c2f41c415cbf4ff2.md",
+      "kind": "official-document",
+      "bytes": 4366,
+      "sha256": "f7ef667a13548dd49e67e5cd4fae770b5e27d15f20df28f196f9e6f5fec5d903",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/releases.md"
+    },
+    {
+      "path": "docs/team.md",
+      "localPath": "raw/vitejs--vite/10033218d239/a35b5d62867541194537dab9.md",
+      "kind": "official-document",
+      "bytes": 1322,
+      "sha256": "6b866ae46341c14abf7c838bcf94437c790ad29498d4c8351b55ea9ccae4e1f7",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/docs/team.md"
+    },
+    {
+      "path": "packages/create-vite/CHANGELOG.md",
+      "localPath": "raw/vitejs--vite/10033218d239/0f51ae463d5e72361c7653b0.md",
+      "kind": "official-document",
+      "bytes": 140186,
+      "sha256": "98713e671af8cbca314dfadd3ae5e111c0921859bd1c80bd76b1bc2d2d2f18b7",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/CHANGELOG.md"
+    },
+    {
+      "path": "packages/create-vite/LICENSE",
+      "localPath": "raw/vitejs--vite/10033218d239/f7a233987aa82cddc030dfac.txt",
+      "kind": "license",
+      "bytes": 27776,
+      "sha256": "40eacd0fc5e5af7ca0be0c226b94bd838537a496db95e508722de2cf9f2112d2",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/LICENSE"
+    },
+    {
+      "path": "packages/create-vite/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/db130799092d797a8cee5918.md",
+      "kind": "official-document",
+      "bytes": 1958,
+      "sha256": "d1bb6f21709aaf9afd746f6c57d8c36f415f902eba5a076a037dab0df56a8d84",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-qwik-ts/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/9a2063bc0cc32bb04465641a.md",
+      "kind": "official-document",
+      "bytes": 997,
+      "sha256": "87b7ec694e39fc90871b71c492a7bddbd3754ac3747fedc38a3cbdf77052f680",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-qwik-ts/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-qwik/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/03507097f8480d3f8d5606ae.md",
+      "kind": "official-document",
+      "bytes": 997,
+      "sha256": "87b7ec694e39fc90871b71c492a7bddbd3754ac3747fedc38a3cbdf77052f680",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-qwik/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-react-ts/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/8800b5b2a8d6c5cbec96ad14.md",
+      "kind": "official-document",
+      "bytes": 1278,
+      "sha256": "fa8aac78b8be1993010b57f41000a243ecba006f6731513fe4ec91e788bf2517",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-react-ts/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-react/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/098ba7bedbb05f2a080701d2.md",
+      "kind": "official-document",
+      "bytes": 1009,
+      "sha256": "1f8fa46483b514305f44e34a47e85e88428c3a667c9494e1583628ef18d7bc79",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-react/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-solid-ts/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/d57893588db27426236e2599.md",
+      "kind": "official-document",
+      "bytes": 810,
+      "sha256": "f511af08a528ca822ad537c8111d2b5c420f669074bbf591ebad3d77647fb0f0",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-solid-ts/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-solid/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/36016409c5565526f7b72104.md",
+      "kind": "official-document",
+      "bytes": 810,
+      "sha256": "f511af08a528ca822ad537c8111d2b5c420f669074bbf591ebad3d77647fb0f0",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-solid/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-svelte-ts/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/75b7cee7a50f3c3dfaac6f2b.md",
+      "kind": "official-document",
+      "bytes": 3082,
+      "sha256": "2846a9d94ccb90e4ac8016686f7137ebb08480aed2e2f6f9f185a28ce0016469",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-svelte-ts/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-svelte/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/505d43a771e12d810cce4ac1.md",
+      "kind": "official-document",
+      "bytes": 2565,
+      "sha256": "b85ed7fc880451281fe069239ab260c47fa386a378a94b957a830c63f4d96047",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-svelte/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-vue-ts/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/0075634b94123d7c22b40e40.md",
+      "kind": "official-document",
+      "bytes": 442,
+      "sha256": "7cdf486b009cc44709f0b33e45f2a2007f37e5f46ac98fe2aab46c8129318929",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-vue-ts/README.md"
+    },
+    {
+      "path": "packages/create-vite/template-vue/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/4f280bbfac11be13e9f7c293.md",
+      "kind": "official-document",
+      "bytes": 385,
+      "sha256": "309627dbb136135f84b9e5d12c06b4261b9b1f8cb169f8cdb8023f867b7a4165",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/create-vite/template-vue/README.md"
+    },
+    {
+      "path": "packages/plugin-legacy/CHANGELOG.md",
+      "localPath": "raw/vitejs--vite/10033218d239/7d54c6e86d60d1defd4f29a7.md",
+      "kind": "official-document",
+      "bytes": 91885,
+      "sha256": "5ad1563157d5a743eff97e5bd3920d124c0b7e458505a1299d508f9d64b8e331",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/plugin-legacy/CHANGELOG.md"
+    },
+    {
+      "path": "packages/plugin-legacy/LICENSE",
+      "localPath": "raw/vitejs--vite/10033218d239/f5e453216213fc075e9a9f6e.txt",
+      "kind": "license",
+      "bytes": 1101,
+      "sha256": "692057af3d664cbb79ac38293eb50aa3c4987f8182e2a440136e59e08f1b4a54",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/plugin-legacy/LICENSE"
+    },
+    {
+      "path": "packages/plugin-legacy/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/2eff5b0ac53e802d6282dda3.md",
+      "kind": "official-document",
+      "bytes": 9965,
+      "sha256": "79bcd6d0f132a42a5190a45ae67148a5dcd36bd21f69ade9ef269beff33eb56e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/plugin-legacy/README.md"
+    },
+    {
+      "path": "packages/vite/CHANGELOG.md",
+      "localPath": "raw/vitejs--vite/10033218d239/eb0f64f469c37edd8f553605.md",
+      "kind": "official-document",
+      "bytes": 291660,
+      "sha256": "d32f7764203e29973bcadad903beecf1e624f9d24c9ddd772ea7531010d31518",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/vite/CHANGELOG.md"
+    },
+    {
+      "path": "packages/vite/LICENSE.md",
+      "localPath": "raw/vitejs--vite/10033218d239/05c4274bac167e4cdf92dd65.md",
+      "kind": "license",
+      "bytes": 108786,
+      "sha256": "a47172e44a86a7e2cd1c16282341f7726ec60caafe3a6166fe3e0602005b6fa6",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/vite/LICENSE.md"
+    },
+    {
+      "path": "packages/vite/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/e81f1324c970ad9468fac4be.md",
+      "kind": "official-document",
+      "bytes": 1179,
+      "sha256": "01cebf4365cd21396688c4dcb0dc8d360ccbafb3a36735d3849c5d8efd3cd060",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/vite/README.md"
+    },
+    {
+      "path": "packages/vite/src/node/__tests__/plugins/__snapshots__/license.spec.ts.snap",
+      "localPath": "raw/vitejs--vite/10033218d239/f4da6c22fda3c2e176e475bb.snap",
+      "kind": "license",
+      "bytes": 1117,
+      "sha256": "5aa6e4d17b0255dd1485f5a4d421e320d7e3a0b3da7912c945d3caa18c386808",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/vite/src/node/__tests__/plugins/__snapshots__/license.spec.ts.snap"
+    },
+    {
+      "path": "packages/vite/src/node/__tests__/plugins/license.spec.ts",
+      "localPath": "raw/vitejs--vite/10033218d239/9703f362882dd56c494376e6.ts",
+      "kind": "license",
+      "bytes": 1136,
+      "sha256": "1690e340265d17c4f4a8cf8b657ffdf01257c3c050a7bddf744efa943201ee13",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/vite/src/node/__tests__/plugins/license.spec.ts"
+    },
+    {
+      "path": "packages/vite/src/node/plugins/license.ts",
+      "localPath": "raw/vitejs--vite/10033218d239/e1fb60b28a090f9cf75193c6.ts",
+      "kind": "license",
+      "bytes": 4203,
+      "sha256": "241afa814893d40766c2fcfe594c735bb469b1ab0b3e3155aa3cab98c356c0ef",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/packages/vite/src/node/plugins/license.ts"
+    },
+    {
+      "path": "playground/ssr/src/circular-dep-init/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/7cb3afb668a54197c37dd552.md",
+      "kind": "official-document",
+      "bytes": 100,
+      "sha256": "f353d328272899123ac078cef694ab52eb7805c8e55c236c1fbd65e790b66a9e",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/playground/ssr/src/circular-dep-init/README.md"
+    },
+    {
+      "path": "playground/ssr/src/forked-deadlock/README.md",
+      "localPath": "raw/vitejs--vite/10033218d239/d804c8fe45a7274c19d0f884.md",
+      "kind": "official-document",
+      "bytes": 1656,
+      "sha256": "533925815e4858559f9b9034d4b4d9dda814d313a24fd95ca56347e7a0625661",
+      "sourceUrl": "https://github.com/vitejs/vite/blob/10033218d239c927cdc375970b5741cce408e81b/playground/ssr/src/forked-deadlock/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

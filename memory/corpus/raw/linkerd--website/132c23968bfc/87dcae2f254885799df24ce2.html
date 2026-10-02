@@ -1,0 +1,9 @@
+{{ $data := partial "docs/get-cli-file" . }}
+{{ range where $data.CLIReference "Name" (.Get 0) }}
+  {{ with .Example }}
+    <h4>
+      Examples
+    </h4>
+    {{ highlight (replaceRE "(?m)^[ ]{2}" "" .) "bash" }}
+  {{ end }}
+{{ end }}

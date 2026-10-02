@@ -1,0 +1,1425 @@
+{
+  "schemaVersion": 1,
+  "repo": "apache/kafka",
+  "commit": "99b940733a9f6bc409457dba7108f08421d81e42",
+  "retrievedAt": "2026-10-01T15:14:45.015881+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "data/kafka"
+  ],
+  "archiveUrl": "https://codeload.github.com/apache/kafka/zip/99b940733a9f6bc409457dba7108f08421d81e42",
+  "archiveSha256": "fbb13c1c700219fc10ed019b6aa41d8e9bbf85af12af996aa7cc377476ddeb31",
+  "archiveBytes": 23604742,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 132,
+    "code": 22,
+    "licenses": 21,
+    "bytes": 1975242
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 9708,
+      "sha256": "06584363c754716d03738d93fcc4b23569c77bc492bef9a36780fcf685a28086",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/AGENTS.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 1414,
+      "sha256": "11a2edd95d71808a257f035604f0d7070f02204db53665c6666a11c5f03eea89",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/apache--kafka/99b940733a9f/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/LICENSE"
+    },
+    {
+      "path": "LICENSE-binary",
+      "localPath": "raw/apache--kafka/99b940733a9f/a74b4a65ab1f4aed61344787.txt",
+      "kind": "license",
+      "bytes": 14677,
+      "sha256": "2fa9489836c22d5c435a3d2f4cb842df7ebde73867b5fe94bf290633d3e070cf",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/LICENSE-binary"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/apache--kafka/99b940733a9f/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 707,
+      "sha256": "e10a1d2b5812b6eeac08ec087512bbf649739ca23cb7ee610702acb976f42936",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/NOTICE"
+    },
+    {
+      "path": "NOTICE-binary",
+      "localPath": "raw/apache--kafka/99b940733a9f/60c143e95fbc9a363ea19960.txt",
+      "kind": "license",
+      "bytes": 26169,
+      "sha256": "685a40de2dc7aab6c5a67d16b1363a7dbe7301b40e7ad604e1495b0fde5a8b93",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/NOTICE-binary"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 14713,
+      "sha256": "5550c38ce0519656f04aab69250ae7cdff499040bcb67c95bfb34f1b0dfc7e9a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1741,
+      "sha256": "3ba7add9152a52a2f4654e8ef879c59f9ce2effea47124efa24ff63753ccf011",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/SECURITY.md"
+    },
+    {
+      "path": "api-checker/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/58040f4fcbbee4b384156b34.md",
+      "kind": "official-document",
+      "bytes": 4980,
+      "sha256": "ca08637151cdee56b95acda8850c6ab17c96a58778b8b768ae71a4e0e308e069",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/api-checker/README.md"
+    },
+    {
+      "path": "clients/src/main/resources/common/message/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/dadefeef224c75653f9b2f90.md",
+      "kind": "official-document",
+      "bytes": 13304,
+      "sha256": "58994d0414a40330f14a9172e362b5af337751ef74e8b073733b4f6df7582102",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/clients/src/main/resources/common/message/README.md"
+    },
+    {
+      "path": "committer-tools/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ba822dcc221618206b9f8068.md",
+      "kind": "official-document",
+      "bytes": 2726,
+      "sha256": "c0652feaf866e6d1198e62221cc2790064227ad165ddbf806862cce78377a7ca",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/committer-tools/README.md"
+    },
+    {
+      "path": "docker/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/da8fcbe728a9172b578e5d75.md",
+      "kind": "official-document",
+      "bytes": 13864,
+      "sha256": "a9e5a8a6c6509f01be22be055fb73be7d922f736cc3d4c6360bc405de866ef9d",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docker/README.md"
+    },
+    {
+      "path": "docker/examples/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/2ea6f1a3cb75a3c53bea1cc6.md",
+      "kind": "official-document",
+      "bytes": 20232,
+      "sha256": "2ce824e0f9895ed8a7e3361d00ca87d39ccc575de58c08a2074db8c567f7f69a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docker/examples/README.md"
+    },
+    {
+      "path": "docker/native/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/730ad30cfc6bcacf94572fb7.md",
+      "kind": "official-document",
+      "bytes": 3096,
+      "sha256": "b2474f85b309c12d353808e794f0611da7e2fa878183a6be02086ed278ce88ff",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docker/native/README.md"
+    },
+    {
+      "path": "docs/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c842590019e88255dcb723f9.md",
+      "kind": "official-document",
+      "bytes": 926,
+      "sha256": "74c6bced08fc8a3aafb6006b614c676188ccb52fc08c811761cf4fa4382a8e0c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/_index.md"
+    },
+    {
+      "path": "docs/apis/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/7d9e5c39dbe7767cf1e14faf.md",
+      "kind": "official-document",
+      "bytes": 6072,
+      "sha256": "b04a56f343512bbb88391e5ee6b62fd8253b76544d5bc1771e8e0c5215e4e7ea",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/apis/_index.md"
+    },
+    {
+      "path": "docs/apis/internal-api-checker.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/28cbdab08528df60e60f2057.md",
+      "kind": "official-document",
+      "bytes": 7989,
+      "sha256": "6889563292a9d8cb99e32c1813df5dd238cb2b2eb85d7112aee333da1d345a9a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/apis/internal-api-checker.md"
+    },
+    {
+      "path": "docs/configuration/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/0c72602bc8db88bc09dca6c8.md",
+      "kind": "official-document",
+      "bytes": 983,
+      "sha256": "d8e0ee475d5ea2b035cac4e6f94b8b07ea2afe956ca397aefde31739c8cb5452",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/_index.md"
+    },
+    {
+      "path": "docs/configuration/admin-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ea717b4f218793733857e9f7.md",
+      "kind": "official-document",
+      "bytes": 1067,
+      "sha256": "11bd4205361cb75a67a29f11134ffc1d74a626da4dddb159b0500b96054a90f4",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/admin-configs.md"
+    },
+    {
+      "path": "docs/configuration/broker-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b271cf118cfcc4d15ad45052.md",
+      "kind": "official-document",
+      "bytes": 9407,
+      "sha256": "0f3a907b54eaa9201b88a14563260d6066960a8c964bfac82ff93bd7e8f0c4ed",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/broker-configs.md"
+    },
+    {
+      "path": "docs/configuration/configuration-providers.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/9af49c4c9990a8a553d9a12d.md",
+      "kind": "official-document",
+      "bytes": 7043,
+      "sha256": "695556847c807b85f700a4fe13928ed838887b4f094b8daa0f337ae42788a278",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/configuration-providers.md"
+    },
+    {
+      "path": "docs/configuration/consumer-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/35f09e883c07073c9e15a8e1.md",
+      "kind": "official-document",
+      "bytes": 1101,
+      "sha256": "03f06caa02f18e547efe351a24f299b7cebde62e3292634a628fcab889c97323",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/consumer-configs.md"
+    },
+    {
+      "path": "docs/configuration/group-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ec9b1b015225f0314a79ab8c.md",
+      "kind": "official-document",
+      "bytes": 1072,
+      "sha256": "892d10588d5ccea82582282d0b9428080f0cf821920782d2e37697fd5242f757",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/group-configs.md"
+    },
+    {
+      "path": "docs/configuration/kafka-connect-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/64b7a3e3096ae30c2f370046.md",
+      "kind": "official-document",
+      "bytes": 1378,
+      "sha256": "bc284e5848fbe404587f8e4117b7dd8a18e22a40db80e7eb9627e9f12ab60c34",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/kafka-connect-configs.md"
+    },
+    {
+      "path": "docs/configuration/kafka-streams-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/793a698718ace3754fa975e1.md",
+      "kind": "official-document",
+      "bytes": 1067,
+      "sha256": "bff97ba530d86da09b1ed4974e705c7733f33e8d2f485c8c244c4623f7c3df81",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/kafka-streams-configs.md"
+    },
+    {
+      "path": "docs/configuration/mirrormaker-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/f989afd623b9889fd5c8cb47.md",
+      "kind": "official-document",
+      "bytes": 1873,
+      "sha256": "5eec7b915f33c2c68117ecbd5a7c95751a661ac3c01ec4f43571894889febe0a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/mirrormaker-configs.md"
+    },
+    {
+      "path": "docs/configuration/producer-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/678c1dbf4b7cc88a2a01a3a7.md",
+      "kind": "official-document",
+      "bytes": 1044,
+      "sha256": "7b14676d8e8c272c19b613b25d3c338c8a334529782bdcc3e8f215fea285abbe",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/producer-configs.md"
+    },
+    {
+      "path": "docs/configuration/system-properties.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/1c0bdd2d38a981fb33dd2ba5.md",
+      "kind": "official-document",
+      "bytes": 6258,
+      "sha256": "1ce149e1653596472c351e8c77edd3b3597e6f2dfb827a7687490b91d3a0cce8",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/system-properties.md"
+    },
+    {
+      "path": "docs/configuration/tiered-storage-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6d1e05ffcbb10f4185fc466e.md",
+      "kind": "official-document",
+      "bytes": 2238,
+      "sha256": "0dfb7d4d0d9e4f2edad4d56e5808d091213ed61bb0a49217310ac052d4bf0e91",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/tiered-storage-configs.md"
+    },
+    {
+      "path": "docs/configuration/topic-configs.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5e444f4c77b3c3afb94034a9.md",
+      "kind": "official-document",
+      "bytes": 2471,
+      "sha256": "721b47b922bec4321fd7210b9b4ab1a4f01dc3e4ab32fa5dc964a03b1745ce05",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/configuration/topic-configs.md"
+    },
+    {
+      "path": "docs/design/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/7879f5385b149a684bc2cbad.md",
+      "kind": "official-document",
+      "bytes": 947,
+      "sha256": "eecae6fecf5092d1a6e1765612fae82e315efef051df7472c138f5c837e2050c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/design/_index.md"
+    },
+    {
+      "path": "docs/design/design.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/2a4d67f366fcd15163ebd17b.md",
+      "kind": "official-document",
+      "bytes": 77321,
+      "sha256": "60410c9c0e3b9f031a5da5b7241b0114345fdec15c72c6908d9e89424b8c6e6c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/design/design.md"
+    },
+    {
+      "path": "docs/design/protocol.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b24505b8066a52ca1ad4318d.md",
+      "kind": "official-document",
+      "bytes": 20548,
+      "sha256": "b906f08000b5da48b466345dc5339298b3d48cff4a2d76ccb449fccddc475851",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/design/protocol.md"
+    },
+    {
+      "path": "docs/documentation/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/116b6d36717540298548404f.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/_index.md"
+    },
+    {
+      "path": "docs/documentation/legacy-redirect.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/d521bf5b7b8dbeceac0e028e.md",
+      "kind": "official-document",
+      "bytes": 916,
+      "sha256": "d4582d6d04463ee8bcaf16eb33e2afa474c7fc82493feda36ec4f71f106e6ddf",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/legacy-redirect.md"
+    },
+    {
+      "path": "docs/documentation/streams/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c60ebb49e073ea8d0da6d0aa.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/_index.md"
+    },
+    {
+      "path": "docs/documentation/streams/architecture.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/64e247335e9e33758e071866.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/architecture.md"
+    },
+    {
+      "path": "docs/documentation/streams/core-concepts.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5030e38091414377a9ce70c8.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/core-concepts.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/4b5c5da5a5f2db8c507b5627.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/_index.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/app-reset-tool.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ef65655faff7f5197648ceda.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/app-reset-tool.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/config-streams.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/e35a8b4ef1e87d526b279d6e.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/config-streams.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/datatypes.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ff502458ed0bf69fa3c9581e.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/datatypes.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/dsl-api.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/9eba4369f99ef06278b32e10.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/dsl-api.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/dsl-topology-naming.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6d6aafb1cd2b768d7bdd789c.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/dsl-topology-naming.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/interactive-queries.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/12c8e3644d3eac74bb04c845.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/interactive-queries.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/kafka-streams-group-sh.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/615ab39834d176bba1820063.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/kafka-streams-group-sh.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/manage-topics.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5d2296afbf601cf241cc990e.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/manage-topics.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/memory-mgmt.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/789f0e74a71ad40c86f54b23.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/memory-mgmt.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/processor-api.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c54c3b7c59108ec75e1a2144.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/processor-api.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/running-app.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/e534be65091a1795a10370ac.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/running-app.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/security.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/0e2e20994d234af31ad8f036.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/security.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/streams-rebalance-protocol.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/646a435c1807c0ee84371947.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/streams-rebalance-protocol.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/testing.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/cf4986eec509553fb903f9ae.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/testing.md"
+    },
+    {
+      "path": "docs/documentation/streams/developer-guide/write-streams-app.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5397c67cfed8888a1b1babf6.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/developer-guide/write-streams-app.md"
+    },
+    {
+      "path": "docs/documentation/streams/introduction.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/4e20efe5d15b70374535ddc8.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/introduction.md"
+    },
+    {
+      "path": "docs/documentation/streams/quickstart.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6bebc8668f73d409d8d82034.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/quickstart.md"
+    },
+    {
+      "path": "docs/documentation/streams/tutorial.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6498479b80d2f474fb8f7942.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/tutorial.md"
+    },
+    {
+      "path": "docs/documentation/streams/upgrade-guide.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ae41b5410a7c18b51d3ee2bc.md",
+      "kind": "official-document",
+      "bytes": 879,
+      "sha256": "800a8c9d084628992d60cdbde1c7df9d1426f02eb43a3980bb3aeadaf6a59406",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/documentation/streams/upgrade-guide.md"
+    },
+    {
+      "path": "docs/getting-started/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/4369de20767a72f00e221e1f.md",
+      "kind": "official-document",
+      "bytes": 1041,
+      "sha256": "11b7708a24355d83d2e14f84110a7140bd0e1e6043d0aeb7a8acb4ee18732bcc",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/_index.md"
+    },
+    {
+      "path": "docs/getting-started/compatibility.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c14051e52d5f35c76ecf14cc.md",
+      "kind": "official-document",
+      "bytes": 4998,
+      "sha256": "3d3829a6a9028ff4b23a6174f8a5298de3d6163d88c0eae50e7321050609218a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/compatibility.md"
+    },
+    {
+      "path": "docs/getting-started/docker.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/fe045d13606f4c3cb54007d6.md",
+      "kind": "official-document",
+      "bytes": 2597,
+      "sha256": "0973744c68d9bfcfb448e311a4fecc811bd2f14aae1b4ab61bb154c932f0c266",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/docker.md"
+    },
+    {
+      "path": "docs/getting-started/ecosystem.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/29f8b1c35c2013c29e6a8c54.md",
+      "kind": "official-document",
+      "bytes": 1230,
+      "sha256": "f752f589b707ac8ce17e335928df6b3bcb4683471f3778b9c40796349dcbeb46",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/ecosystem.md"
+    },
+    {
+      "path": "docs/getting-started/introduction.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/405fd1e282f47481e0634606.md",
+      "kind": "official-document",
+      "bytes": 11053,
+      "sha256": "4d1e964464348e8d529a7a76b95b60ec25498428e7aaf3f9d3889b9d07b7247e",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/introduction.md"
+    },
+    {
+      "path": "docs/getting-started/quickstart.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c82da606fcd93ea4a7bae7c6.md",
+      "kind": "official-document",
+      "bytes": 12142,
+      "sha256": "1e6146151cff258101180938fff7ddbc56c922236b51718156b688e7890ca3e1",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/quickstart.md"
+    },
+    {
+      "path": "docs/getting-started/upgrade.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c5e3efa4452ee71b23760612.md",
+      "kind": "official-document",
+      "bytes": 70354,
+      "sha256": "6242ccf2ca21952ac6db1c1639a73c45e40f8cc35dcde85df1dab952a99d9e0c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/upgrade.md"
+    },
+    {
+      "path": "docs/getting-started/uses.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6f4e3fc27d9374ee6d48dec0.md",
+      "kind": "official-document",
+      "bytes": 5356,
+      "sha256": "41c26ac735703f26f631ddff0227fb65f33e00566fd791347ad4b69cc9818140",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/uses.md"
+    },
+    {
+      "path": "docs/getting-started/zk2kraft.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/054a5738d2fda61228705f08.md",
+      "kind": "official-document",
+      "bytes": 13650,
+      "sha256": "3b708eff18b2e1589b1b5f0df5d464a5b0ef3847b47629086c411f1a50647826",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/getting-started/zk2kraft.md"
+    },
+    {
+      "path": "docs/implementation/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/98436a5d62133d03460a70c1.md",
+      "kind": "official-document",
+      "bytes": 996,
+      "sha256": "82db57e2eedb7e351a7d8ea460ae8f249a9e7b6f461173f041bd34a345014c1d",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/implementation/_index.md"
+    },
+    {
+      "path": "docs/implementation/distribution.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/a65f50a838d86520b1cf4b32.md",
+      "kind": "official-document",
+      "bytes": 3123,
+      "sha256": "a5a1f00b67d4c4935426ad0101eefff9e548049930a794d6c1464fdb8e0cb8d3",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/implementation/distribution.md"
+    },
+    {
+      "path": "docs/implementation/log.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5eecac52ec4139049a1c8b4b.md",
+      "kind": "official-document",
+      "bytes": 7758,
+      "sha256": "bd3170c009421f584d4f056c9569c214e8f0392e4335064bd5b73d2f7eca2228",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/implementation/log.md"
+    },
+    {
+      "path": "docs/implementation/message-format.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c407fc15d0e1c3c65a72e306.md",
+      "kind": "official-document",
+      "bytes": 6305,
+      "sha256": "d6ed60af87c6ab50b271e8d161b04a2ab28d212d57351c80de4b5dfa85d52c4c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/implementation/message-format.md"
+    },
+    {
+      "path": "docs/implementation/messages.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/2ac7a425a7bdff774d1ca40c.md",
+      "kind": "official-document",
+      "bytes": 1622,
+      "sha256": "9a71a80ccffae5c80121574c5d46db728a4f80d4c8521df43f71a8e85710188c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/implementation/messages.md"
+    },
+    {
+      "path": "docs/implementation/network-layer.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ce420508a5d2cc5365a84e9b.md",
+      "kind": "official-document",
+      "bytes": 1730,
+      "sha256": "d46b34a114547e0cdce7b34de4696eaabc3935555f259c95a78fedd34dd2c96b",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/implementation/network-layer.md"
+    },
+    {
+      "path": "docs/kafka-connect/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/e91db29a5dbba88b5d4fa25c.md",
+      "kind": "official-document",
+      "bytes": 970,
+      "sha256": "29316666e380f2d235f7f071505acf1ac051210e4dce28e822eaf395f0a68774",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/kafka-connect/_index.md"
+    },
+    {
+      "path": "docs/kafka-connect/administration.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b6e93409a034027a0d9bdf86.md",
+      "kind": "official-document",
+      "bytes": 8386,
+      "sha256": "6cd38bbdb9800ea98f82c0593390f79c815bca96eb91bcf7df50d8a28b57ae13",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/kafka-connect/administration.md"
+    },
+    {
+      "path": "docs/kafka-connect/connector-development-guide.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c82eac003074565a673e1697.md",
+      "kind": "official-document",
+      "bytes": 29564,
+      "sha256": "3942065ee94ffff3c174df12be6418cdc42f49e9fe39f1ffa9ab8d6be40d99f8",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/kafka-connect/connector-development-guide.md"
+    },
+    {
+      "path": "docs/kafka-connect/overview.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6804279279e44ccd6f1f6f62.md",
+      "kind": "official-document",
+      "bytes": 2599,
+      "sha256": "a19f69fde94f5aa06baf3abaf1e4f991394ab372a1e6fcffb3007d1c6c90bd82",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/kafka-connect/overview.md"
+    },
+    {
+      "path": "docs/kafka-connect/user-guide.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/315419f48eaf6d8457b6eaf9.md",
+      "kind": "official-document",
+      "bytes": 46224,
+      "sha256": "3f2928fc31d1ea10ed3e3c4a2313a4cd0008c45609aa61d99c185865787c5495",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/kafka-connect/user-guide.md"
+    },
+    {
+      "path": "docs/operations/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/eb68c6335cc4ad84f7b845f7.md",
+      "kind": "official-document",
+      "bytes": 965,
+      "sha256": "c4be908e4dcd039563a14e994c42e6331ce01f481bea07eb92488e2354fdf86f",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/_index.md"
+    },
+    {
+      "path": "docs/operations/basic-kafka-operations.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/369ddfdb978da7b426d1fed9.md",
+      "kind": "official-document",
+      "bytes": 51910,
+      "sha256": "81b2b59617362660383f86e2089cfacea95d79ec9efda9c42584c93c214e7864",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/basic-kafka-operations.md"
+    },
+    {
+      "path": "docs/operations/consumer-rebalance-protocol.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/d8ffc6c674a2e96d9d7fa68e.md",
+      "kind": "official-document",
+      "bytes": 6324,
+      "sha256": "9695cb016fa49d74f18f7d6ee9c8e50c476e9026be54cc3103080519060a5a9b",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/consumer-rebalance-protocol.md"
+    },
+    {
+      "path": "docs/operations/datacenters.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/30e000823a54b1eafdc0e3e8.md",
+      "kind": "official-document",
+      "bytes": 2873,
+      "sha256": "cb2c90f431224a5a24ae70a74fd680f740d526ba8cc4d9d9b8644dd5328847e0",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/datacenters.md"
+    },
+    {
+      "path": "docs/operations/eligible-leader-replicas.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/1a985b3bc621f6a60cfa5525.md",
+      "kind": "official-document",
+      "bytes": 3109,
+      "sha256": "68eee5ae2dbbecddae48a49cdfc3ed44df135a059a1096ce5b4ac9927857285f",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/eligible-leader-replicas.md"
+    },
+    {
+      "path": "docs/operations/geo-replication-(cross-cluster-data-mirroring).md",
+      "localPath": "raw/apache--kafka/99b940733a9f/911c332d39cc34380ae32db1.md",
+      "kind": "official-document",
+      "bytes": 26362,
+      "sha256": "19a55ee6ebe047ce093d479238b43abf3cdafc46f768ecb3f9fdf84c0f3deb2e",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/geo-replication-(cross-cluster-data-mirroring).md"
+    },
+    {
+      "path": "docs/operations/hardware-and-os.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/1d39817a10ff1c187f43c52e.md",
+      "kind": "official-document",
+      "bytes": 15153,
+      "sha256": "85231550acf47bf0e01e76c8d9c5104cf47d2443d0653e054baf8299e00f4d36",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/hardware-and-os.md"
+    },
+    {
+      "path": "docs/operations/java-version.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/31f2ae415891bae071229366.md",
+      "kind": "official-document",
+      "bytes": 2238,
+      "sha256": "b54dc5dc9d8fb8fab69b6e32ffd75e8ed6eba8cfb44184afa3a359d13072f8f6",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/java-version.md"
+    },
+    {
+      "path": "docs/operations/kraft.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/1984ed5562729d6cea90dc55.md",
+      "kind": "official-document",
+      "bytes": 18022,
+      "sha256": "7bcd77fe02492f7ea4f9cddc66ff523057845e53c258859f3c6c66cd00c66936",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/kraft.md"
+    },
+    {
+      "path": "docs/operations/monitoring.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/1646d3380fb5c92ec41482a9.md",
+      "kind": "official-document",
+      "bytes": 144511,
+      "sha256": "763a82393fd0472f9bf911ac298d1d71805c0d757bb97f3307f3d07df532970a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/monitoring.md"
+    },
+    {
+      "path": "docs/operations/multi-tenancy.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/6e77fc903e70980189949510.md",
+      "kind": "official-document",
+      "bytes": 12382,
+      "sha256": "35e17b7f4fd0842b3f8faf6fc89d4a366cfac031b9e54a78bba595d851da65e9",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/multi-tenancy.md"
+    },
+    {
+      "path": "docs/operations/tiered-storage.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/0aa90e10e0a61a1d4590fea1.md",
+      "kind": "official-document",
+      "bytes": 10689,
+      "sha256": "d2069033bd5cd04c1452952a8f628f75a35e75c43486eaf660d0ea0e2f09b473",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/tiered-storage.md"
+    },
+    {
+      "path": "docs/operations/transaction-protocol.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/3a93d69ffc75ab61f4f1fc32.md",
+      "kind": "official-document",
+      "bytes": 3917,
+      "sha256": "50312cac99d7735f665239f3942f2005e40aa4b3e4e5e22a2041c7fc05b389da",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/operations/transaction-protocol.md"
+    },
+    {
+      "path": "docs/security/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/df4cfbb10b924b54167324b3.md",
+      "kind": "official-document",
+      "bytes": 973,
+      "sha256": "55505bc19f69607b26f7dfd96a13acf90c0151c71beb3860d83c58c52a716f69",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/_index.md"
+    },
+    {
+      "path": "docs/security/authentication-using-sasl.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c65645b92fa16c5133d0d076.md",
+      "kind": "official-document",
+      "bytes": 49688,
+      "sha256": "35da3459d2e76aca69a2596059848ef709b35f059fafea23e5398263ccbe3c68",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/authentication-using-sasl.md"
+    },
+    {
+      "path": "docs/security/authorization-and-acls.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/a7f77da022da698f2a9358ad.md",
+      "kind": "official-document",
+      "bytes": 41405,
+      "sha256": "80da5bb4748a913000faa0631998bd88c1454fa9e9500d59a205655b47158960",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/authorization-and-acls.md"
+    },
+    {
+      "path": "docs/security/encryption-and-authentication-using-ssl.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/838ab95f2bb8a698134935f6.md",
+      "kind": "official-document",
+      "bytes": 24921,
+      "sha256": "5537ed07d15a03ff89697019cb9c1a2e312e93ec5f8fffa803f19ab5b65579b9",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/encryption-and-authentication-using-ssl.md"
+    },
+    {
+      "path": "docs/security/incorporating-security-features-in-a-running-cluster.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/298f133c5eca15e0e437628d.md",
+      "kind": "official-document",
+      "bytes": 4142,
+      "sha256": "430bafff5be40b8e2a2a6f0f90624a0550e187fcdb493c0b4a8aad4bba6adf1c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/incorporating-security-features-in-a-running-cluster.md"
+    },
+    {
+      "path": "docs/security/listener-configuration.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/18c6ea083354ec2c95708cd9.md",
+      "kind": "official-document",
+      "bytes": 7306,
+      "sha256": "1ee500a76d861e31477c65838f1ba772a126562179e8224947f4982713afe793",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/listener-configuration.md"
+    },
+    {
+      "path": "docs/security/security-model-connect.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/507fc75256b85c8c4ce5efba.md",
+      "kind": "official-document",
+      "bytes": 10202,
+      "sha256": "b103590acb0756ea9956ad8bd01587180372bea23778c2e952abff86b4a1cd7e",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/security-model-connect.md"
+    },
+    {
+      "path": "docs/security/security-model-streams.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5d56f86d5f1e2def8a644832.md",
+      "kind": "official-document",
+      "bytes": 2730,
+      "sha256": "58d700d1dde54f1fc0ee5e89d607fcf42a92e5ff0c1ad7e31f58e07ab5036652",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/security-model-streams.md"
+    },
+    {
+      "path": "docs/security/security-model.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b1478e33ace91199d20e5c08.md",
+      "kind": "official-document",
+      "bytes": 15499,
+      "sha256": "8ba0b096726fb086c1d283ab65406992a23138439382dec33324729ac259d1c9",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/security-model.md"
+    },
+    {
+      "path": "docs/security/security-overview.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/002b5ee02e2c4ab8c769c9c8.md",
+      "kind": "official-document",
+      "bytes": 2112,
+      "sha256": "6dc5c207c0723f8dfde72a9ad7614afbf321aca4e5af41ec763d231381883385",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/security/security-overview.md"
+    },
+    {
+      "path": "docs/streams/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/8bd47f6c3b0bc6744b512409.md",
+      "kind": "official-document",
+      "bytes": 984,
+      "sha256": "0201f8c8b7264d32ea78f0ca73dc3ca3f23f1ea386eff5fc2397e4d592fa91ac",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/_index.md"
+    },
+    {
+      "path": "docs/streams/architecture.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/f8fbe4fe382cc6a5839e618b.md",
+      "kind": "official-document",
+      "bytes": 11602,
+      "sha256": "1e34cd31d60d68e51377b174eab99d25f610707f164db9df786bf0a8d039fd5b",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/architecture.md"
+    },
+    {
+      "path": "docs/streams/core-concepts.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/332b0997d60d90174da4033f.md",
+      "kind": "official-document",
+      "bytes": 25118,
+      "sha256": "40eeab92d4e512a87418c52333f442704ff4bc3a38994cb542f04c6f2a4a89ef",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/core-concepts.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/_index.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/f98397f5ea4b452d04fd84d2.md",
+      "kind": "official-document",
+      "bytes": 1019,
+      "sha256": "f120f3186138a8b5f56e09b8ccad358edfaee5e7f3184b82c33d66752bad90d1",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/_index.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/app-reset-tool.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/290c9b310985231382f53943.md",
+      "kind": "official-document",
+      "bytes": 8411,
+      "sha256": "6140fff33303b7d3a83ca84d11156635edf7b2db6342724d4d71847a323e3251",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/app-reset-tool.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/config-streams.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/bb1d1456757ac16458338721.md",
+      "kind": "official-document",
+      "bytes": 79869,
+      "sha256": "fb6cdffb69b7229067f227dbfc3430e3d7427b46e05692724f7238cbc1af874c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/config-streams.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/datatypes.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b966cffc0be6e661706c7499.md",
+      "kind": "official-document",
+      "bytes": 12100,
+      "sha256": "e6fd70efa884d3603d03b88612bfeae3dae2f1d50b950e6a683c8c1d4228bc0d",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/datatypes.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/dsl-api.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c691f1e70385054ad3be6f09.md",
+      "kind": "official-document",
+      "bytes": 197654,
+      "sha256": "9aea45026ec649e7346f6d8544de70c0f07cd3dac25b8896ca4b340b0ece9129",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/dsl-api.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/dsl-topology-naming.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/fa91e65d51ab2df73bf3c000.md",
+      "kind": "official-document",
+      "bytes": 13581,
+      "sha256": "11e1c6d9adb6bb2239cc91462629cd41b2065b1c4598466067250e83ad0a21ec",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/dsl-topology-naming.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/interactive-queries.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/dd0c13ab31f7a8f9a105c981.md",
+      "kind": "official-document",
+      "bytes": 63306,
+      "sha256": "397c1bf568f1477302b9de49975b364dc44df4ed0ec6c5297a02502c20597eeb",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/interactive-queries.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/kafka-streams-group-sh.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/56633194fe2a598b655b1aba.md",
+      "kind": "official-document",
+      "bytes": 10631,
+      "sha256": "9b94096a05fc3c985a11e2c945593980679eeec60c679ffc4da14fff28aca928",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/kafka-streams-group-sh.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/manage-topics.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/0dbba5b1229b1fd7c07401e0.md",
+      "kind": "official-document",
+      "bytes": 4359,
+      "sha256": "23e49ce1dc320eb350ceaea56d9c3504f4c231e4b0aba33c1007be8e78d3f2ff",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/manage-topics.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/memory-mgmt.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/7f4c44dd720b59231f39c684.md",
+      "kind": "official-document",
+      "bytes": 19867,
+      "sha256": "ff5ed97b21040c9801123b61c1c9579c12ec49cc37f4f580e5e2f1cdcd50d6d5",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/memory-mgmt.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/processor-api.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5034121b10aa1cb760713f95.md",
+      "kind": "official-document",
+      "bytes": 38175,
+      "sha256": "94e5b8232412466e183d8b99b64ee3f75c98b53eaf1eaf6c49408e6cb177651a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/processor-api.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/running-app.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c738ca8fcc9eb1826ab4a93b.md",
+      "kind": "official-document",
+      "bytes": 17688,
+      "sha256": "0e5bae13b126b849610896a2246d2ca2075afe6d4f26508008e2ad546e64693a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/running-app.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/scala-migration.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/262257e10dd82524bf0c542c.md",
+      "kind": "official-document",
+      "bytes": 3697,
+      "sha256": "13c94888ff25cb5097e07955e7940fc527f8426725a9d70a76ccc86596e09220",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/scala-migration.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/security.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/3bc212eb99059c7731c3a9ef.md",
+      "kind": "official-document",
+      "bytes": 10350,
+      "sha256": "2f628908e891a8a2fbf65ab517866d9bfb5c25582d655f978db75c3fa730ecbe",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/security.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/streams-rebalance-protocol.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c67df426163a64eb496ff4f0.md",
+      "kind": "official-document",
+      "bytes": 23228,
+      "sha256": "4164767d64204fc9e37a51b3d4ccf584130bd06f601c4dd1432b935836ab1203",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/streams-rebalance-protocol.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/testing.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/86949bb86cf5babfb695f9fa.md",
+      "kind": "official-document",
+      "bytes": 14363,
+      "sha256": "92933781bc8bfd61f15a199eab9c37faddff7878d9ff642a132156b2b58e73b7",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/testing.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/topology-description-plugin.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/5ff80c6cd63b5de9a1b4208e.md",
+      "kind": "official-document",
+      "bytes": 19535,
+      "sha256": "74c748a378724c1167b4578d5a5c9e360820de2db0e8d3e466d6cef3abd6aa3d",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/topology-description-plugin.md"
+    },
+    {
+      "path": "docs/streams/developer-guide/write-streams-app.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/cdf92619021341e6e13851a7.md",
+      "kind": "official-document",
+      "bytes": 7898,
+      "sha256": "fb803e75e60c0ad0729f6b6c2b32a3d9577bf684254d76eb6628982ad85ece45",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/developer-guide/write-streams-app.md"
+    },
+    {
+      "path": "docs/streams/introduction.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/a2bd6ae7a6d8badb51ed3499.md",
+      "kind": "official-document",
+      "bytes": 5594,
+      "sha256": "a56b88559d9d49863b8ff9e4553e4d5014ae223dec559b78bee1beb2baa76dca",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/introduction.md"
+    },
+    {
+      "path": "docs/streams/quickstart.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b65bdbd2d628a2135f917c15.md",
+      "kind": "official-document",
+      "bytes": 14152,
+      "sha256": "de53aa0ca5ec7dd1fd736eba7994764f7d2426c99001bc147da18163f1585e86",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/quickstart.md"
+    },
+    {
+      "path": "docs/streams/tutorial.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/ef9e2986e789522c164b2e6c.md",
+      "kind": "official-document",
+      "bytes": 25268,
+      "sha256": "3c59e256b4f4841e3c186d0d0608c6e231e5a7b13a68cfd046022a48405a83b0",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/tutorial.md"
+    },
+    {
+      "path": "docs/streams/upgrade-guide.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/c6a44417bd530006e203b803.md",
+      "kind": "official-document",
+      "bytes": 96574,
+      "sha256": "0d22a83ab42697cec4002ca7920e99053a44ec8d7fb59c1739c811b77f1335a2",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/docs/streams/upgrade-guide.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 611,
+      "sha256": "e8048dd6515b466296ee4092bd59656cb38f267b475c894a556b42ff98e1bc76",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/README.md"
+    },
+    {
+      "path": "examples/bin/exactly-once-demo.sh",
+      "localPath": "raw/apache--kafka/99b940733a9f/a2bf480e4b0d6ba51af6b904.sh",
+      "kind": "upstream-example-code",
+      "bytes": 981,
+      "sha256": "ef003ca084363dae817aecd14164ca32128167c39799cfd9507f92074572bba3",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/bin/exactly-once-demo.sh"
+    },
+    {
+      "path": "examples/bin/java-producer-consumer-demo.sh",
+      "localPath": "raw/apache--kafka/99b940733a9f/526a5ff5549a8e5be3016287.sh",
+      "kind": "upstream-example-code",
+      "bytes": 987,
+      "sha256": "8f37b44bf218a019675eec98d042cdcd16cde1f9fe5f7af8f931496bb8ff8892",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/bin/java-producer-consumer-demo.sh"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/Consumer.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/e552d634fb515b417cacd750.java",
+      "kind": "upstream-example-code",
+      "bytes": 8582,
+      "sha256": "b067783ee37fc722549b42d6abe6338bcdc74e3c576cd59c872121193429e2f7",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/Consumer.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/fac21f513c1c47165e3e2ce9.java",
+      "kind": "upstream-example-code",
+      "bytes": 12188,
+      "sha256": "8573cda74d98c67e02cc7aac246b9181d0ca1ec553a24610d464bfbbe4ac100d",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/KafkaConsumerProducerDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/a4f1fab206837ed677e209c2.java",
+      "kind": "upstream-example-code",
+      "bytes": 3251,
+      "sha256": "0dc7c0d2603524cf324cfbd3455ce286be6fec84c3f138cd99c0efdc53415b55",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/KafkaConsumerProducerDemo.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/1681f8a7d04afad68ddc1f10.java",
+      "kind": "upstream-example-code",
+      "bytes": 6061,
+      "sha256": "df59bc8510e3c9a15de3f553b55d240f2290fc072fba1fa24ac425befb24cb95",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/KafkaProperties.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/6703eb687178d793c8bce30a.java",
+      "kind": "upstream-example-code",
+      "bytes": 960,
+      "sha256": "e83907fffaed19b9e8626c129722341d5ab8edd4607a6215ce2e3a06d1366867",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/KafkaProperties.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/Producer.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/399f25620975c61cee4ccc5e.java",
+      "kind": "upstream-example-code",
+      "bytes": 8472,
+      "sha256": "d2f620256f7a907b189a23547dba00bded531900a4de05ae80a51c044a711aad",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/Producer.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/TransactionalClientDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/3c0421bc964d0eb606ee50a2.java",
+      "kind": "upstream-example-code",
+      "bytes": 10768,
+      "sha256": "0026b98e4e45454b0a22c9f26468dae23e5c48b720493c9b5722b6cb1aff77c2",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/TransactionalClientDemo.java"
+    },
+    {
+      "path": "examples/src/main/java/kafka/examples/Utils.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/81112d7bba59ef23c5fbf469.java",
+      "kind": "upstream-example-code",
+      "bytes": 4721,
+      "sha256": "87f86f1af37aed92b3e54ecf90835eda91263b3b741259c0ffcfb4499f226869",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/examples/src/main/java/kafka/examples/Utils.java"
+    },
+    {
+      "path": "gradle/LICENSE.json",
+      "localPath": "raw/apache--kafka/99b940733a9f/5f79c12f9bceddaba8c511b9.json",
+      "kind": "license",
+      "bytes": 793,
+      "sha256": "8fc4b6b91c7a4236c56c95554ed42c05eda75813f445bbfef2bbc51fe475dcb5",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/gradle/LICENSE.json"
+    },
+    {
+      "path": "gradle/wrapper/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/935f8425a61c388a0435f5f1.md",
+      "kind": "official-document",
+      "bytes": 1360,
+      "sha256": "6a4882ffa10cc9308f82749da599e46b4d3fd6e2df508c2612fa3b3a6d41fdf7",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/gradle/wrapper/README.md"
+    },
+    {
+      "path": "jmh-benchmarks/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/af7680a70693c1bd442c7035.md",
+      "kind": "official-document",
+      "bytes": 6047,
+      "sha256": "8c5a9606bdf7b09a64681a142a8744cba22c63863fe88a388c79b272947957a9",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/jmh-benchmarks/README.md"
+    },
+    {
+      "path": "licenses/CDDL+GPL-1.1",
+      "localPath": "raw/apache--kafka/99b940733a9f/a6621078d389151aa0452824.1",
+      "kind": "license",
+      "bytes": 39396,
+      "sha256": "9622cd4b5992f4de5014fba23d272ecb4dac6333923a267c5885f2f75cda5ee1",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/CDDL+GPL-1.1"
+    },
+    {
+      "path": "licenses/argparse-MIT",
+      "localPath": "raw/apache--kafka/99b940733a9f/c1714e022af541b280366b36.txt",
+      "kind": "license",
+      "bytes": 1135,
+      "sha256": "ed5c233195f64fdf80da63bd47b5963167d908d15c98de57ef8c8066f131e1fb",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/argparse-MIT"
+    },
+    {
+      "path": "licenses/classgraph-MIT",
+      "localPath": "raw/apache--kafka/99b940733a9f/be90256d08bfed4c909d34a9.txt",
+      "kind": "license",
+      "bytes": 1080,
+      "sha256": "61a97f61665a630c2f9766396756c2aa88624f1ac01ac3970757d07942192c0c",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/classgraph-MIT"
+    },
+    {
+      "path": "licenses/eclipse-distribution-license-1.0",
+      "localPath": "raw/apache--kafka/99b940733a9f/a49a58b217989a39e4e69a13.0",
+      "kind": "license",
+      "bytes": 1555,
+      "sha256": "ea2c49e057a647aa2805dd6f4fc50eaff41c3397828cd23d2f289b039b31fef0",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/eclipse-distribution-license-1.0"
+    },
+    {
+      "path": "licenses/eclipse-public-license-2.0",
+      "localPath": "raw/apache--kafka/99b940733a9f/a09a36b4ddf7d99bf9a89e50.0",
+      "kind": "license",
+      "bytes": 14135,
+      "sha256": "e1618cb1f2ef8ecf69322a751c68ca327fac3ed5f1e4bd851dc9c31e73fb4bb7",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/eclipse-public-license-2.0"
+    },
+    {
+      "path": "licenses/hdrHistogram-BSD-2-clause",
+      "localPath": "raw/apache--kafka/99b940733a9f/6c92e172d76ad8b8f0ea2cf2.txt",
+      "kind": "license",
+      "bytes": 2173,
+      "sha256": "ba550515c77c9e6f8b6a400381eacd3c47569297f8f27884801a95dff5309483",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/hdrHistogram-BSD-2-clause"
+    },
+    {
+      "path": "licenses/jline-BSD-3-clause",
+      "localPath": "raw/apache--kafka/99b940733a9f/1a1d2bae325aa31d002165c4.txt",
+      "kind": "license",
+      "bytes": 1529,
+      "sha256": "7d9ca7d4eb3a2534869e7823b81b299321d49ceb3d169d11b995513fabd9fc7e",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/jline-BSD-3-clause"
+    },
+    {
+      "path": "licenses/jopt-simple-MIT",
+      "localPath": "raw/apache--kafka/99b940733a9f/b0db716c1fd89fefbf5f0608.txt",
+      "kind": "license",
+      "bytes": 1109,
+      "sha256": "53c4671b11d31a29f6542a5f0aa7d8b89a4d5197851e246c596766644d847382",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/jopt-simple-MIT"
+    },
+    {
+      "path": "licenses/jsr305-BSD-3-clause",
+      "localPath": "raw/apache--kafka/99b940733a9f/9ec7368a19b188c4295047e5.txt",
+      "kind": "license",
+      "bytes": 1586,
+      "sha256": "8036a9c5b09797c95afc2a86459b00448bae7b8a89bac6fd1dd0e241a56efda8",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/jsr305-BSD-3-clause"
+    },
+    {
+      "path": "licenses/mock-oauth2-server-MIT",
+      "localPath": "raw/apache--kafka/99b940733a9f/881170261dcf67fd7c986176.txt",
+      "kind": "license",
+      "bytes": 1146,
+      "sha256": "5dd0add6a34979073a0d50cfc2bbb2720aa171c2da5192c025055ac94b0a9dc2",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/mock-oauth2-server-MIT"
+    },
+    {
+      "path": "licenses/paranamer-BSD-3-clause",
+      "localPath": "raw/apache--kafka/99b940733a9f/32ef25ba99feaa63f265944a.txt",
+      "kind": "license",
+      "bytes": 1733,
+      "sha256": "ecbe48344d455015d93fa33eb9c310dfb1bca47d454eca84808c436c1c332aa0",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/paranamer-BSD-3-clause"
+    },
+    {
+      "path": "licenses/pcollections-MIT",
+      "localPath": "raw/apache--kafka/99b940733a9f/6d2416f5751dad50cd227a66.txt",
+      "kind": "license",
+      "bytes": 1304,
+      "sha256": "076ea19fc322f2a69e330ee6027a79c2741426e70b86e55cc09ce71305688213",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/pcollections-MIT"
+    },
+    {
+      "path": "licenses/protobuf-java-BSD-3-clause",
+      "localPath": "raw/apache--kafka/99b940733a9f/3e3e1e90f5f4342909a862f9.txt",
+      "kind": "license",
+      "bytes": 1519,
+      "sha256": "42e972d1d5bd3c02caa548c08ad0ea27f722bfb753802fc9effbcd723ad8a5cc",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/protobuf-java-BSD-3-clause"
+    },
+    {
+      "path": "licenses/re2j-GO",
+      "localPath": "raw/apache--kafka/99b940733a9f/061879a0e620ed2a67f2253a.txt",
+      "kind": "license",
+      "bytes": 1617,
+      "sha256": "26a6133577cc8e48d7c002ac4d4a554786e7c0e1732e10f2db205e5e494c411b",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/re2j-GO"
+    },
+    {
+      "path": "licenses/slf4j-MIT",
+      "localPath": "raw/apache--kafka/99b940733a9f/bbd68375a9f004a337d3c9c0.txt",
+      "kind": "license",
+      "bytes": 1135,
+      "sha256": "899cb2e2f92e74ec969e477503c6442fb50bec5d523bc87dc40bad3419113c3b",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/slf4j-MIT"
+    },
+    {
+      "path": "licenses/zstd-jni-BSD-2-clause",
+      "localPath": "raw/apache--kafka/99b940733a9f/6280eade49c12e339d47469e.txt",
+      "kind": "license",
+      "bytes": 1360,
+      "sha256": "c6a6a8926f2f1732603e4b75779a5f6ce79238eb79bc36dcc5b7feb509bc6cd9",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/licenses/zstd-jni-BSD-2-clause"
+    },
+    {
+      "path": "raft/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/b172b57bf7bcf4e710e34fad.md",
+      "kind": "official-document",
+      "bytes": 2145,
+      "sha256": "06fa79abe92e81a4275c47c297d10d800d99beb61c8fa08b0384bab17b3c78b5",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/raft/README.md"
+    },
+    {
+      "path": "release/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/117e4d23e1c4e40eddf25227.md",
+      "kind": "official-document",
+      "bytes": 2696,
+      "sha256": "72517da9516f1ef2e9d4223c248c5d03d927426fa4754ade647d3c4670c3503a",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/release/README.md"
+    },
+    {
+      "path": "storage/src/test/java/org/apache/kafka/tiered/storage/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/d76ef13f324f9285f1d4ea69.md",
+      "kind": "official-document",
+      "bytes": 1081,
+      "sha256": "c8fd60e4ec0fcd803c1e8f74f64107ce1ff53508092a6f2d6edd9c794ad3b895",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/storage/src/test/java/org/apache/kafka/tiered/storage/README.md"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/e79c5764807a856f29354b90.java",
+      "kind": "upstream-example-code",
+      "bytes": 1927,
+      "sha256": "b0f6ebe627d95e52fc273ca873f1c2f77db45787d9b1440e2c654e0c134722bd",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/fa972daa44dc7ada89b0c9b0.java",
+      "kind": "upstream-example-code",
+      "bytes": 10480,
+      "sha256": "819729f265ad9f82cd47d1e33b892da1d99143b3b57e3b16f8145f46b1aff439",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewUntypedDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/fbe1f526686367037bb042cb.java",
+      "kind": "upstream-example-code",
+      "bytes": 7352,
+      "sha256": "2f050948add143d2df73487175eb00d35c0bd7e418e177d57ec6ab70efe9fbef",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewUntypedDemo.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/399ab57dede72b96a7d3b02f.java",
+      "kind": "upstream-example-code",
+      "bytes": 3215,
+      "sha256": "29d32b0bce130bb603ca3aa2c9a523d6d68e0496219e90920b5842babe413ba1",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/pipe/PipeDemo.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/temperature/TemperatureDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/ca2a11c33a7c8c40635c7369.java",
+      "kind": "upstream-example-code",
+      "bytes": 5889,
+      "sha256": "734b22c7e74354609f334ea88343720ba364e1bc9ca80aad98f5ed1cd3b45550",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/temperature/TemperatureDemo.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/3914e757a1473077d68fd605.java",
+      "kind": "upstream-example-code",
+      "bytes": 5083,
+      "sha256": "aed61d1682337c9a6c8dd977511a13768075c91ec045dd3f61d8f33673b25ad6",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/286de1c95060727018aeabdc.java",
+      "kind": "upstream-example-code",
+      "bytes": 6595,
+      "sha256": "a482720313d86189c06c4cb7329d07fb5f84409dfc539ebb82ebcb0d0aa79164",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java"
+    },
+    {
+      "path": "streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/2237e70af290244f5fd40d08.java",
+      "kind": "upstream-example-code",
+      "bytes": 7441,
+      "sha256": "487594b9ed9477dfc26f82988a4a4b089eeacca7b440d0b9a2adf2afc971783b",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerDemo.java"
+    },
+    {
+      "path": "streams/examples/src/test/java/org/apache/kafka/streams/examples/docs/DeveloperGuideTesting.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/2a0b3355ba254ab045e64a63.java",
+      "kind": "upstream-example-code",
+      "bytes": 7452,
+      "sha256": "5cdf72f4df4fff0829c04a9d11b94960ed42a192cef4a59c7ebc90210de2495f",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/test/java/org/apache/kafka/streams/examples/docs/DeveloperGuideTesting.java"
+    },
+    {
+      "path": "streams/examples/src/test/java/org/apache/kafka/streams/examples/wordcount/WordCountDemoTest.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/852173e18b57cd6c61718bd3.java",
+      "kind": "upstream-example-code",
+      "bytes": 5081,
+      "sha256": "f4a11ee264f7786f85449faa08edf3f904fb06c7187271c9fec7e95c30417603",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/test/java/org/apache/kafka/streams/examples/wordcount/WordCountDemoTest.java"
+    },
+    {
+      "path": "streams/examples/src/test/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorTest.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/51598bec495c3354efaa185a.java",
+      "kind": "upstream-example-code",
+      "bytes": 3334,
+      "sha256": "d27517304939e0341ca8b418f71011fc93ca4a1d7ffb70aa22f3b53bd0819658",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/test/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorTest.java"
+    },
+    {
+      "path": "streams/examples/src/test/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerTest.java",
+      "localPath": "raw/apache--kafka/99b940733a9f/fb5e79e5347012bb4a32ab95.java",
+      "kind": "upstream-example-code",
+      "bytes": 4484,
+      "sha256": "39d4b2c24e52614cbae1ad8e0e0b0a3126fd3cded6cd394fd22690fb61949d90",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/streams/examples/src/test/java/org/apache/kafka/streams/examples/wordcount/WordCountTransformerTest.java"
+    },
+    {
+      "path": "test-common/test-common-internal-api/src/main/java/org/apache/kafka/common/test/api/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/10247d8d8f9b2dfb967f91c3.md",
+      "kind": "official-document",
+      "bytes": 6206,
+      "sha256": "0c12a3cb4d1ad9e23ef62d5d0ffe16a110e9940f56269d454aab86e5469629c1",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/test-common/test-common-internal-api/src/main/java/org/apache/kafka/common/test/api/README.md"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 14310,
+      "sha256": "5ea7f680814aa003dbcff6baf5b39ab9bddc5eabd5241ce8d541695783ee5298",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/tests/README.md"
+    },
+    {
+      "path": "trogdor/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/df98e691e80d0cf43d5a2fbe.md",
+      "kind": "official-document",
+      "bytes": 9392,
+      "sha256": "81321ad7a22284d1f824bbe35107b92ae039851db8ffb466df32b13f54a362d8",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/trogdor/README.md"
+    },
+    {
+      "path": "vagrant/README.md",
+      "localPath": "raw/apache--kafka/99b940733a9f/72ec17600bd8bd2ebafecf0f.md",
+      "kind": "official-document",
+      "bytes": 6125,
+      "sha256": "7c7f7e4eaab8ef1f18c60eb09d4b01318e25a1653c78ae7ea6182704d029b739",
+      "sourceUrl": "https://github.com/apache/kafka/blob/99b940733a9f6bc409457dba7108f08421d81e42/vagrant/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

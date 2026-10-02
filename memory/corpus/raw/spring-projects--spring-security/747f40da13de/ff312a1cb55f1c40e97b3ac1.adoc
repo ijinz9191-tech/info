@@ -1,0 +1,130 @@
+[[crypto]]
+= Spring Security Crypto Module
+
+[[spring-security-crypto-introduction]]
+The Spring Security Crypto module provides support for symmetric encryption, key generation, and password encoding.
+The code is distributed as part of the core module but has no dependencies on any other Spring Security (or Spring) code.
+
+
+[[spring-security-crypto-encryption]]
+== Encryptors
+Spring Security provides javadoc:org.springframework.security.crypto.encrypt.AesGcmBytesEncryptor[] and javadoc:org.springframework.security.crypto.encrypt.AesCbcBytesEncryptor[] for constructing symmetric encryptors.
+These can be used to encrypt data in raw `byte[]` form.
+You can also construct javadoc:org.springframework.security.crypto.encrypt.TextEncryptor[] instances to encrypt text strings.
+Encryptors are thread-safe.
+
+[NOTE]
+====
+Both `BytesEncryptor` and `TextEncryptor` are interfaces. `BytesEncryptor` has multiple implementations.
+====
+
+[[spring-security-crypto-encryption-bytes]]
+=== BytesEncryptor
+Use `AesGcmBytesEncryptor` to construct a BytesEncryptor with authenticated encryption:
+
+.BytesEncryptor
+include-code::./CryptoEncryptionTests[tag=bytes-encryptor,indent=0]
+
+`AesGcmBytesEncryptor` uses 256-bit AES encryption with Galois Counter Mode (GCM), providing https://en.wikipedia.org/wiki/Authenticated_encryption[authenticated encryption] (AEAD).
+It derives the secret key using PKCS #5's PBKDF2 (Password-Based Key Derivation Function #2).
+The password used to generate the SecretKey should be kept in a secure place and not be shared.
+The salt is used to prevent dictionary attacks against the key in the event your encrypted data is compromised.
+A 16-byte random initialization vector is also applied so each encrypted message is unique.
+
+The provided salt should be in hex-encoded String form, be random, and be at least 8 bytes in length.
+You can generate such a salt by using a `KeyGenerator`:
+
+.Generating a key
+include-code::./CryptoEncryptionTests[tag=generate-salt,indent=0]
+
+Users who require CBC mode may use `AesCbcBytesEncryptor`:
+
+.AesCbcBytesEncryptor
+include-code::./CryptoEncryptionTests[tag=aes-cbc-bytes-encryptor,indent=0]
+
+This mode is not https://en.wikipedia.org/wiki/Authenticated_encryption[authenticated] and does not provide any
+guarantees about the authenticity of the data.
+For a more secure alternative, users should prefer `AesGcmBytesEncryptor`.
+
+[[spring-security-crypto-encryption-text]]
+=== TextEncryptor
+Use `AesCbcBytesEncryptor` to encrypt text data:
+
+.TextEncryptor
+include-code::./CryptoEncryptionTests[tag=aes-cbc-bytes-encryptor,indent=0]
+
+`AesCbcBytesEncryptor` encrypts data as raw bytes.
+You can hex-encode the result for easy storage on the filesystem or in the database.
+
+NOTE: Queryable text encryption (encrypting such that the same plaintext always produces the same ciphertext) is no longer recommended, as it relies on a fixed initialization vector and does not provide adequate security.
+Instead, look to your data store for a mechanism to query encrypted data.
+
+[[spring-security-crypto-keygenerators]]
+== Key Generators
+The javadoc:org.springframework.security.crypto.keygen.KeyGenerators[] class provides a number of convenience factory methods for constructing different types of key generators.
+By using this class, you can create a javadoc:org.springframework.security.crypto.keygen.BytesKeyGenerator[] to generate `byte[]` keys.
+You can also construct a javadoc:org.springframework.security.crypto.keygen.StringKeyGenerator[] to generate string keys.
+`KeyGenerators` is a thread-safe class.
+
+=== BytesKeyGenerator
+You can use the `KeyGenerators.secureRandom` factory methods to generate a `BytesKeyGenerator` backed by a `SecureRandom` instance:
+
+.BytesKeyGenerator
+include-code::./CryptoKeyGeneratorTests[tag=bytes-key-generator,indent=0]
+
+The default key length is 8 bytes.
+A `KeyGenerators.secureRandom` variant provides control over the key length:
+
+.KeyGenerators.secureRandom
+include-code::./CryptoKeyGeneratorTests[tag=bytes-key-generator-custom-length,indent=0]
+
+Use the `KeyGenerators.shared` factory method to construct a BytesKeyGenerator that always returns the same key on every invocation:
+
+.KeyGenerators.shared
+include-code::./CryptoKeyGeneratorTests[tag=bytes-key-generator-shared,indent=0]
+
+=== StringKeyGenerator
+You can use the `KeyGenerators.string` factory method to construct an 8-byte, `SecureRandom` `KeyGenerator` that hex-encodes each key as a `String`:
+
+.StringKeyGenerator
+include-code::./CryptoKeyGeneratorTests[tag=string-key-generator,indent=0]
+
+[[spring-security-crypto-passwordencoders]]
+== Password Encoding
+The password package of the `spring-security-crypto` module provides support for encoding passwords.
+`PasswordEncoder` is the central service interface and has the following signature:
+
+[source,java]
+----
+public interface PasswordEncoder {
+	String encode(CharSequence rawPassword);
+
+	boolean matches(CharSequence rawPassword, String encodedPassword);
+
+	default boolean upgradeEncoding(String encodedPassword) {
+		return false;
+	}
+}
+----
+
+The `matches` method returns true if the `rawPassword`, once encoded, equals the `encodedPassword`.
+This method is designed to support password-based authentication schemes.
+
+The `BCryptPasswordEncoder` implementation uses the widely supported "`bcrypt`" algorithm to hash the passwords.
+Bcrypt uses a random 16-byte salt value and is a deliberately slow algorithm, to hinder password crackers.
+You can tune the amount of work it does by using the `strength` parameter, which takes a value from 4 to 31.
+The higher the value, the more work has to be done to calculate the hash.
+The default value is `10`.
+You can change this value in your deployed system without affecting existing passwords, as the value is also stored in the encoded hash.
+The following example uses the `BCryptPasswordEncoder`:
+
+.BCryptPasswordEncoder
+include-code::./CryptoPasswordEncodingTests[tag=bcrypt,indent=0]
+
+The `Pbkdf2PasswordEncoder` implementation uses PBKDF2 algorithm to hash the passwords.
+To defeat password cracking, PBKDF2 is a deliberately slow algorithm and should be tuned to take about .5 seconds to verify a password on your system.
+The following system uses the `Pbkdf2PasswordEncoder`:
+
+
+.Pbkdf2PasswordEncoder
+include-code::./CryptoPasswordEncodingTests[tag=pbkdf2,indent=0]

@@ -1,0 +1,624 @@
+{
+  "schemaVersion": 1,
+  "repo": "WasmEdge/WasmEdge",
+  "commit": "c10b3dfd494bb14a1a406e7a278058a6921509e2",
+  "retrievedAt": "2026-10-01T15:46:48.224360+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Runtime/Container Runtime"
+  ],
+  "archiveUrl": "https://codeload.github.com/WasmEdge/WasmEdge/zip/c10b3dfd494bb14a1a406e7a278058a6921509e2",
+  "selectionSha256": "2bd14b479063bb470e67b42edc6535a54cb1f8d100790fb3ae04e9510106410e",
+  "selection": {
+    "docRoots": [],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "819d86a61e2b29d6fbe41a0c683b956030c75789515ea87da6182ba7167a7407",
+  "archiveBytes": 4629818,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 44,
+    "code": 27,
+    "licenses": 3,
+    "bytes": 519854
+  },
+  "files": [
+    {
+      "path": ".CurrentChangelog.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/9611235dcadc3c4971b43195.md",
+      "kind": "official-document",
+      "bytes": 18024,
+      "sha256": "c936eae9547a561085e566e8538c722d2529e1c0c54f5d1350c6b8c14b4841e1",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/.CurrentChangelog.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 17699,
+      "sha256": "571c9aa297d70ebdc2a5914701ad87f1c4b865350d3bae773410513efa04743b",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 11,
+      "sha256": "bb52eddf561c40f5ecadf1f1ae92b520dcf7ac7ee6b09fc6a7c814d39613ee5d",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/CLAUDE.md"
+    },
+    {
+      "path": "Changelog.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/c275fec9c453c2a42515bc5a.md",
+      "kind": "official-document",
+      "bytes": 177471,
+      "sha256": "db96b5fec015cbd191e86541ef7498d9c1baf09e0f5ca5d2316c05a0c448d838",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/Changelog.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/LICENSE"
+    },
+    {
+      "path": "LICENSE.spdx",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/b61c1e30f58e77dcae73f613.spdx",
+      "kind": "license",
+      "bytes": 1968,
+      "sha256": "b4cbb66cdd63b0b846b84ba1339995d2f7f16572fd14d47e2adc04c5764165e9",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/LICENSE.spdx"
+    },
+    {
+      "path": "README-ja.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/6323ab8bbdb204fef907b113.md",
+      "kind": "official-document",
+      "bytes": 11154,
+      "sha256": "9f0932058a2f1169e3c49150298c81f3b0e7e442a0ccc8bf165ccd4f1ddd88c2",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/README-ja.md"
+    },
+    {
+      "path": "README-zh-TW.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/9c74e1b621460e2f7dc86c1d.md",
+      "kind": "official-document",
+      "bytes": 6859,
+      "sha256": "d354428a99ea2bae387ea41ffeee8fc987a4ca8ec4debb024f1b3a247149bd9b",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/README-zh-TW.md"
+    },
+    {
+      "path": "README-zh.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/2b8d2db04fe3277c3a06cbdf.md",
+      "kind": "official-document",
+      "bytes": 7710,
+      "sha256": "a81c6b46aaefe7019f46fc1f30b5d9c1e8ade825e7006a4e9122e3a52dc203be",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/README-zh.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 8956,
+      "sha256": "c75c58eb372f2d3e8f9f8c7e1aabac2370c130deac13aaf66ba33034b6b9c88d",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 2162,
+      "sha256": "b71aeb036156c80eaee4a5a8d29a62732c9414be6de582dc1e59ed7938149381",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/SECURITY.md"
+    },
+    {
+      "path": "bindings/java/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/8b02c6e9306eafce480fa76b.md",
+      "kind": "official-document",
+      "bytes": 653,
+      "sha256": "bf01b30f7deb49fd442fad67cdf2f1372efbd30412e0669af5c75c4312926f9d",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/bindings/java/README.md"
+    },
+    {
+      "path": "bindings/rust/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/69e653e571e722f2cfb434f9.md",
+      "kind": "official-document",
+      "bytes": 2710,
+      "sha256": "207665a565ad261c1ceb6d5f86da2f742b65b2fba0f6e6462e7d7fd8163d4a71",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/bindings/rust/README.md"
+    },
+    {
+      "path": "bindings/rust/wasmedge-macro/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/ec11494166a60272752e48b8.md",
+      "kind": "official-document",
+      "bytes": 464,
+      "sha256": "6e9364b187d7398ee4345c95cb2267ee6046154947d0f17a86783ea3de0ff389",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/bindings/rust/wasmedge-macro/README.md"
+    },
+    {
+      "path": "bindings/rust/wasmedge-sdk/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/6b8869c2c2f89d28ebb04038.md",
+      "kind": "official-document",
+      "bytes": 394,
+      "sha256": "8cc6bcd29eeb0be88b6048dfe36aaed410e414ed24ace91a4eeaaa7e24bf17c0",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/bindings/rust/wasmedge-sdk/README.md"
+    },
+    {
+      "path": "bindings/rust/wasmedge-sys/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/56e612d6fd200527d9b9a205.md",
+      "kind": "official-document",
+      "bytes": 931,
+      "sha256": "0a8f43ec497d30fc417acf8c475040af60bf0d44bdb059a761ea7a6e3a69acd7",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/bindings/rust/wasmedge-sys/README.md"
+    },
+    {
+      "path": "bindings/rust/wasmedge-types/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/6fdfefadcbadf1f2c5bb2867.md",
+      "kind": "official-document",
+      "bytes": 469,
+      "sha256": "b9f1da68bce92e00b1d8cc3d4ad279c9c0902bdf5c32075d52470a2cbd05c417",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/bindings/rust/wasmedge-types/README.md"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/5f540ea627655d624f299275.md",
+      "kind": "official-document",
+      "bytes": 2291,
+      "sha256": "b3cebbb37deb4ca7241569d076318c7d3a1ad3e8751a2bc4dd81fafca3533376",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/4c6b93aa75d5affde60dc384.md",
+      "kind": "official-document",
+      "bytes": 3097,
+      "sha256": "99271c5d12b762910b19e2297cdc42f37d6029e5da34c5ce9eb458b613d3a1b3",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/CONTRIBUTING.md"
+    },
+    {
+      "path": "docs/CONTRIBUTOR_LADDER.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/d89a65c94eb1ef1188ccbc37.md",
+      "kind": "official-document",
+      "bytes": 9958,
+      "sha256": "917fe7565dfaa019bcd1025ce179e43c622128531f17fb018f849dd18abf7f82",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/CONTRIBUTOR_LADDER.md"
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/48bbc8ba35fcc52b1081d53a.md",
+      "kind": "official-document",
+      "bytes": 7510,
+      "sha256": "b03cc8c1e0d9ed96963fbd7ca57ce8b7ca6c7c8cf709217b943c75dbd45b33e4",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/GOVERNANCE.md"
+    },
+    {
+      "path": "docs/OWNER.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/8b2d5ccecf4e5e66e2c52d88.md",
+      "kind": "official-document",
+      "bytes": 3032,
+      "sha256": "23576c1d9a39d0a887a27588e5816a98c3bc67a8151828f4fab1257507d90923",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/OWNER.md"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/0d96796e2b2a475d618f2865.md",
+      "kind": "official-document",
+      "bytes": 16229,
+      "sha256": "e195a8a126d26abda53c3cae5af251a79efd570d82ae7eceab2d01d378f2674b",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/ROADMAP.md"
+    },
+    {
+      "path": "docs/SECURITY_CONTACTS.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/04e2672571a654a4eb0e4d09.md",
+      "kind": "official-document",
+      "bytes": 613,
+      "sha256": "db44f69cd34e0a4fa8768687d81e72ab7a675f9f29f938538c26e194853786b4",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/SECURITY_CONTACTS.md"
+    },
+    {
+      "path": "docs/ecosystem.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/b8d37cfb7f6501ae57faa359.md",
+      "kind": "official-document",
+      "bytes": 2253,
+      "sha256": "6b35dc4f7c46b633ff69d159a5c98ac46e24023baa88d23d0a804a644aae02ca",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/ecosystem.md"
+    },
+    {
+      "path": "docs/embargo-policy.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/0b1430cf8f371ab31a9a5e98.md",
+      "kind": "official-document",
+      "bytes": 1319,
+      "sha256": "db3a95c26334295a1431cbbca5ee2c5fb765395ad96ab1ac2b7765755d4a85d5",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/embargo-policy.md"
+    },
+    {
+      "path": "docs/mentorship-policy.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/44319ae821e687ea154d84f7.md",
+      "kind": "official-document",
+      "bytes": 2501,
+      "sha256": "44fcaffdac8886778d38726935091ff0291d2a964b3e3aaec0b9b36f9153f152",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/mentorship-policy.md"
+    },
+    {
+      "path": "docs/self-assessment.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/8b7322eed631d4123189b5d6.md",
+      "kind": "official-document",
+      "bytes": 11471,
+      "sha256": "c9be21a9253220cb15c830766555b7cfdaac6856c451a702de734a12f1a8f86f",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/self-assessment.md"
+    },
+    {
+      "path": "docs/technical-review.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/7c7996092716fc8a019af0e3.md",
+      "kind": "official-document",
+      "bytes": 28042,
+      "sha256": "94dd9c7549b2314969494c0736b8c05ac1e53f8fbb735d4310b7a3c38b7aa267",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/docs/technical-review.md"
+    },
+    {
+      "path": "examples/android/app/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/2a2905aa4c6ae324e9282576.md",
+      "kind": "official-document",
+      "bytes": 957,
+      "sha256": "ced73d57e3667cbe71a08e941562b3899dfc34acb46ba472dac02fbd7040cd89",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/android/app/README.md"
+    },
+    {
+      "path": "examples/android/app/app/src/main/java/org/wasmedge/example_app/MainActivity.kt",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/930a30c434948ab842d6cad3.kt",
+      "kind": "upstream-example-code",
+      "bytes": 1230,
+      "sha256": "de842c9edeae655affafc11cb7ca9974025517cb97b1bd773aad41908db66844",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/android/app/app/src/main/java/org/wasmedge/example_app/MainActivity.kt"
+    },
+    {
+      "path": "examples/android/app/lib/src/main/cpp/wasmedge_lib.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/452b14db7d5f0e10471ab902.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 1204,
+      "sha256": "08bcbd2edabd9cdd585fc757c2b9c1a577666ade50321dc43d8e9c36e0d07e16",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/android/app/lib/src/main/cpp/wasmedge_lib.cpp"
+    },
+    {
+      "path": "examples/android/app/lib/src/main/java/org/wasmedge/native_lib/NativeLib.kt",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/e39f87f93d096ca2509e1ee8.kt",
+      "kind": "upstream-example-code",
+      "bytes": 502,
+      "sha256": "1b1e5660f4bf763fe9a94760e860541aaaf1d9d67ac9d88fea83759e093b4610",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/android/app/lib/src/main/java/org/wasmedge/native_lib/NativeLib.kt"
+    },
+    {
+      "path": "examples/android/standalone/build_for_android.sh",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/ed90c6b4444f6cd14e34fcbc.sh",
+      "kind": "upstream-example-code",
+      "bytes": 715,
+      "sha256": "759c2f35ca71de8f81e407741a9b444a31237b43babcfeaffde0976edafc2a74",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/android/standalone/build_for_android.sh"
+    },
+    {
+      "path": "examples/capi/host_functions/parse_json/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/35506446ea9b5995677f6c1d.md",
+      "kind": "official-document",
+      "bytes": 744,
+      "sha256": "65bd6dfac044bbc08e54307a018f0fa0d247d28d6c6916a8c4884ed8b3ea6cc3",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/host_functions/parse_json/README.md"
+    },
+    {
+      "path": "examples/capi/host_functions/parse_json/host_function.c",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/fbd6ce9afbf33a0897cb56c2.c",
+      "kind": "upstream-example-code",
+      "bytes": 2419,
+      "sha256": "26b0aeae7d213610910b260978d402203384f8cc4b849efdbcbfffa60ee53d76",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/host_functions/parse_json/host_function.c"
+    },
+    {
+      "path": "examples/capi/mandelbrot-set-in-threads/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/d41ebe7a32c7919a2bbfa6a2.md",
+      "kind": "official-document",
+      "bytes": 12144,
+      "sha256": "e8188e90b985646540912bafabfe518a486598a21c8f2c7cb7a2bec173bd7d85",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/mandelbrot-set-in-threads/README.md"
+    },
+    {
+      "path": "examples/capi/mandelbrot-set-in-threads/convert.js",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/0e024d044f09a102f5d69353.js",
+      "kind": "upstream-example-code",
+      "bytes": 498,
+      "sha256": "82759e0e614a500a453bae3d638a7e9c4115bf02205413dc52cedeb61cd12b1e",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/mandelbrot-set-in-threads/convert.js"
+    },
+    {
+      "path": "examples/capi/mandelbrot-set-in-threads/main.js",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/b301a3bb7a2897db8fa7673e.js",
+      "kind": "upstream-example-code",
+      "bytes": 1096,
+      "sha256": "fe84a08a7406dd4650ab071168e2b491237c5145abc11072ab773fba624e023a",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/mandelbrot-set-in-threads/main.js"
+    },
+    {
+      "path": "examples/capi/mandelbrot-set-in-threads/mandelbrot.c",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/73538a67eeca4fb4ef73867a.c",
+      "kind": "upstream-example-code",
+      "bytes": 2806,
+      "sha256": "b7af312cf04742063f510452dcc6d69e34adee1711aacf1df9f1ecbe6bbc2840",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/mandelbrot-set-in-threads/mandelbrot.c"
+    },
+    {
+      "path": "examples/capi/mandelbrot-set-in-threads/worker.js",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/d276b5faf26985c8cfa9d67f.js",
+      "kind": "upstream-example-code",
+      "bytes": 532,
+      "sha256": "8cf5a8bc9cfa52d44b5751d89c1a404f5dd3f1f0089d422e140add77bac7035f",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/mandelbrot-set-in-threads/worker.js"
+    },
+    {
+      "path": "examples/capi/unix_domain_socket/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/41da9a728a542838e5de50d2.md",
+      "kind": "official-document",
+      "bytes": 1692,
+      "sha256": "e4e02cb317de41201f6cd3e684eaa5cf8dcb438d23bda0e9e9e18d16783beaf1",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/unix_domain_socket/README.md"
+    },
+    {
+      "path": "examples/capi/unix_domain_socket/client.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/2ab362c6160b92662b80045b.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 1517,
+      "sha256": "a179d10d1de28f11f2fa058d0a6f61b271e0d64c08aa8ea292cc81148bab9858",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/unix_domain_socket/client.cpp"
+    },
+    {
+      "path": "examples/capi/unix_domain_socket/server.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/d5fe3bbd9c516ab8fa9f1719.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 1514,
+      "sha256": "fdfc5b98111d60f5230a2f2a2ce2e8f086d23c986495a8596ba7cc9497a796bc",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/unix_domain_socket/server.cpp"
+    },
+    {
+      "path": "examples/capi/unix_domain_socket/wrapper.h",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/72bdafb4cfd5487f28c2de32.h",
+      "kind": "upstream-example-code",
+      "bytes": 2960,
+      "sha256": "04abf67b2cdb36577904746e1a56467d7866ed644314eb05938e15935a53e7fe",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/unix_domain_socket/wrapper.h"
+    },
+    {
+      "path": "examples/capi/wasi-env/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/00992289ca0d10254e0971a0.md",
+      "kind": "official-document",
+      "bytes": 2754,
+      "sha256": "32acb3a15d9913d4967074b1ed5734bbf093e51fbc266928c58ea0c7e60e72cf",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/wasi-env/README.md"
+    },
+    {
+      "path": "examples/capi/wasi-env/rust/src/lib.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/4b3b3457a538b7f1fb72ea99.rs",
+      "kind": "upstream-example-code",
+      "bytes": 278,
+      "sha256": "2339acfa3ed4cf107df2a3f38a0ac9975e60a07b45ab3230157af727df1c17b0",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/wasi-env/rust/src/lib.rs"
+    },
+    {
+      "path": "examples/capi/wasi-env/set_wasi_env.c",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/366ada50989e33268c259479.c",
+      "kind": "upstream-example-code",
+      "bytes": 2747,
+      "sha256": "59a860f2d7f2d4b25a3d956545da20f6ce3c25b79ece74023eea3fb93ccfadb1",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/capi/wasi-env/set_wasi_env.c"
+    },
+    {
+      "path": "examples/embed_cxx/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/1f03640ceac98c4db2207678.md",
+      "kind": "official-document",
+      "bytes": 582,
+      "sha256": "0a0f3150fede572190415559c149e7e2e1d0c234ab0e059ef1be2289b0412b94",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/embed_cxx/README.md"
+    },
+    {
+      "path": "examples/embed_cxx/main.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/64d632a61e130fc968554eca.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 1884,
+      "sha256": "4e7b86ab1e5642711399cf83bc22f81b63cb1e513c4b88f5766c859e36862f5c",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/embed_cxx/main.cpp"
+    },
+    {
+      "path": "examples/embed_cxx/script/fibonacci.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/a592f9e0d866524877beb02d.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 126,
+      "sha256": "71fbc77d7e0fe02a8ab469cd7a9cca5da2e0e629d2a7b6d15a7c836a93905d61",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/embed_cxx/script/fibonacci.cpp"
+    },
+    {
+      "path": "examples/embed_cxx/script/fibonacci.h",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/243c8004eda7db80a3ca517f.h",
+      "kind": "upstream-example-code",
+      "bytes": 236,
+      "sha256": "4f528ad4b2849ab34e45c445d2c2f9bae71140e50ee6065b2b0518e6b353eee3",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/embed_cxx/script/fibonacci.h"
+    },
+    {
+      "path": "examples/js/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/bc9cbb440bda3fb28a844d52.md",
+      "kind": "official-document",
+      "bytes": 2649,
+      "sha256": "90e1d93ccdea152c7876cf46c0eb95075dfc6bb0b03c09929ddb9f6525f617ad",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/js/README.md"
+    },
+    {
+      "path": "examples/js/hello.js",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/730b24e26364d7b3a8fe9bff.js",
+      "kind": "upstream-example-code",
+      "bytes": 44,
+      "sha256": "a203c65282bbfb0516004a28fbf4fe0770543cac98bb2e9b08ac65ea8c28955e",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/js/hello.js"
+    },
+    {
+      "path": "examples/js/repl.js",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/86bc218dd76b189088ee2627.js",
+      "kind": "upstream-example-code",
+      "bytes": 49154,
+      "sha256": "cd0fad7f33487cf580c9f6c406b4c37dc4e22c8e814e2c20c188b48e9f98796c",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/js/repl.js"
+    },
+    {
+      "path": "examples/plugin/get-string/getstring.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/b2cbf951c3eae3fd46c9adc0.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 3151,
+      "sha256": "06a835dcdda246b40fbc483ddcb209ad6ebce9319ebe626a3fc3260b9b5648b5",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/get-string/getstring.cpp"
+    },
+    {
+      "path": "examples/plugin/wasi-crypto-signature/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/7948c46f2cc1eb2bdccd9d8d.md",
+      "kind": "official-document",
+      "bytes": 1720,
+      "sha256": "9a4cb0fefd3c548dfb726bd01a0405046ecc6b7c7b478243a089ec5008743bf2",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-crypto-signature/README.md"
+    },
+    {
+      "path": "examples/plugin/wasi-crypto-signature/src/lib.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/175fb7e9e3bf3cd75348651f.rs",
+      "kind": "upstream-example-code",
+      "bytes": 465,
+      "sha256": "32c3cbdf5d3283462c3b8b78ff247c252aa5b9cde3d97381229d08da0c326cce",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-crypto-signature/src/lib.rs"
+    },
+    {
+      "path": "examples/plugin/wasi-crypto-signature/src/main.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/4f3c866a2c92df1b3ffe0fbe.rs",
+      "kind": "upstream-example-code",
+      "bytes": 802,
+      "sha256": "66a66557b9b9ce96bd219bc069a8b136f6947bba332d0114896fbab8fab09e2a",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-crypto-signature/src/main.rs"
+    },
+    {
+      "path": "examples/plugin/wasi-crypto-signature/src/signatures.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/4dd0a6c81312c9fdad868438.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2647,
+      "sha256": "288169497f53859cf5a76ff88452a9a5d446ba94b255376a7f83ed915b159293",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-crypto-signature/src/signatures.rs"
+    },
+    {
+      "path": "examples/plugin/wasi-logging/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/2027458ccb802409464d4d6d.md",
+      "kind": "official-document",
+      "bytes": 4499,
+      "sha256": "f2c068a5a7846dbf77c1380cb41dd6bbbf331686325718b541f37c382cc76023",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-logging/README.md"
+    },
+    {
+      "path": "examples/plugin/wasi-logging/src/lib.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/35228c0ae4835825a48b3cc0.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1089,
+      "sha256": "86993117f97538472dfce6594c2336333ff656a272b784376450a5249d22a101",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-logging/src/lib.rs"
+    },
+    {
+      "path": "examples/plugin/wasi-logging/src/main.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/b0b5c686491b0ce1b4315822.rs",
+      "kind": "upstream-example-code",
+      "bytes": 90,
+      "sha256": "b20b0cce9d4f8159d9fdd40bb2afafd1670772d7a9e94212de421e2049d03925",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasi-logging/src/main.rs"
+    },
+    {
+      "path": "examples/plugin/wasmedge-zlib/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/8a7bd461331c6f3cb91aa5ac.md",
+      "kind": "official-document",
+      "bytes": 5075,
+      "sha256": "e71c230e5dba9854184e3412be6c060ff65ea71b0e05ef8515b2931aa8768036",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasmedge-zlib/README.md"
+    },
+    {
+      "path": "examples/plugin/wasmedge-zlib/main.cpp",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/98412f6076a9e79660d4db3c.cpp",
+      "kind": "upstream-example-code",
+      "bytes": 11385,
+      "sha256": "499168cee12a71169f44342117b4503227f1d7e4e6ab0c0e28460f5ebe109208",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/plugin/wasmedge-zlib/main.cpp"
+    },
+    {
+      "path": "examples/wasm/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/41cf2b5269ac34fbc5067a6a.md",
+      "kind": "official-document",
+      "bytes": 2159,
+      "sha256": "ef11fa1f0df4428f45f5442b05ae126a845bafe5de7db23463e56147ba180d10",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/wasm/README.md"
+    },
+    {
+      "path": "examples/wasm/hello/src/main.rs",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/fc83e86b4a76e6c56dd9ce37.rs",
+      "kind": "upstream-example-code",
+      "bytes": 124,
+      "sha256": "1c3258df87c15523a4968e4c7b90ce86d074fa7d870532f6b13f427b3a34b0ff",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/examples/wasm/hello/src/main.rs"
+    },
+    {
+      "path": "plugins/wasi_http/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/8eac7e21fb5357af75c2cd7b.md",
+      "kind": "official-document",
+      "bytes": 185,
+      "sha256": "6daceabf06c7152c9b5abc9117f95a128bb563cbc0f563b6a7ba810221933274",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/plugins/wasi_http/README.md"
+    },
+    {
+      "path": "plugins/wasi_nn/DESIGN.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/79f7a1f55d629632ef12a63c.md",
+      "kind": "official-document",
+      "bytes": 7347,
+      "sha256": "f1678ef7d7058479a364abbc2d06b41d76a396a5b237cfd7d24b811b5f95c631",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/plugins/wasi_nn/DESIGN.md"
+    },
+    {
+      "path": "plugins/wasi_poll/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/0949976c7df6b38fea51728f.md",
+      "kind": "official-document",
+      "bytes": 102,
+      "sha256": "6ef8b4b530c2a13c874ad507340697d2d93b2aea46e56ec4412765557d1998b4",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/plugins/wasi_poll/README.md"
+    },
+    {
+      "path": "plugins/wasm_bpf/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/e80e755ded531c6ecf2c1b26.md",
+      "kind": "official-document",
+      "bytes": 3855,
+      "sha256": "4fabc385cacb7f7d4f7fa7c779c2eaaa5c034f3300e92d8fe2c574cb539afe4c",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/plugins/wasm_bpf/README.md"
+    },
+    {
+      "path": "test/plugins/wasm_bpf/assets/README.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/64bae3ab2975dc176366cef4.md",
+      "kind": "official-document",
+      "bytes": 585,
+      "sha256": "e7b40b37090d25b3dde2c0653da01f781d3a7aa3618088965d88e701cd669941",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/test/plugins/wasm_bpf/assets/README.md"
+    },
+    {
+      "path": "thirdparty/blake3/LICENSE",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/02872759b509c4846c2fcd6a.txt",
+      "kind": "license",
+      "bytes": 18691,
+      "sha256": "6a94bedb8b707ed97f6e310d0d015ab14e0683ffa0a612b02958581b9cc9fc0e",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/thirdparty/blake3/LICENSE"
+    },
+    {
+      "path": "utils/ohos/README-zh.md",
+      "localPath": "raw/wasmedge--wasmedge/c10b3dfd494b/2bfdd8714c6c56f88ffe72fc.md",
+      "kind": "official-document",
+      "bytes": 5591,
+      "sha256": "8733998069321729c735cb718b2c57e72f1696bdbfba672824a8124f6337aae8",
+      "sourceUrl": "https://github.com/WasmEdge/WasmEdge/blob/c10b3dfd494bb14a1a406e7a278058a6921509e2/utils/ohos/README-zh.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

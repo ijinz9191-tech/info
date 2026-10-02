@@ -1,0 +1,21 @@
+Almost the entire codebase here is under the following
+license terms:
+
+SPDX-License-Identifier: GPL-2.0-or-later OR Apache-2.0
+
+There are two exceptions which have different licenses.
+First, some code derived from erofs is: GPL-2.0-only OR Apache-2.0
+In practice, the intersection here means that the codebase
+as a whole should be treated as if it's under `GPL-2.0-only OR Apache-2.0`.
+
+The second exception is there are small bits of code which are simply
+SPDX-License-Identifier: LGPL-2.1-or-later
+
+The following files correspond to each component license:
+
+ - LICENSE.Apache-2.0: Apache-2.0
+ - COPYING.GPL-2.0-only: GPL-2.0-only
+ - COPYING.GPL-2.0-or-later: GPL-2.0-or-later
+ - COPYING.LGPL-2.1-or-later: LGPL-2.1-or-later
+
+ 

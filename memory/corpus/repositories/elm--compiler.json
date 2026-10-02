@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "repo": "elm/compiler",
+  "commit": "321ff2f21986b6e719bf0e7463288f04fe713b17",
+  "retrievedAt": "2026-10-01T15:36:51.155493+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "languages/elm"
+  ],
+  "archiveUrl": "https://codeload.github.com/elm/compiler/zip/321ff2f21986b6e719bf0e7463288f04fe713b17",
+  "selectionSha256": "ff6d7aa4432dc2bfc74015aa85436193ed96f5310ac102832708c8ccb73ca679",
+  "selection": {
+    "docRoots": [
+      "docs",
+      "hints"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "90ae7469e6a3b3039907f32d0eb3c8a8f04a8d0fb998a48c1da2f002cd8c7fd3",
+  "archiveBytes": 632778,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 37,
+    "code": 0,
+    "licenses": 1,
+    "bytes": 132386
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/elm--compiler/321ff2f21986/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 1467,
+      "sha256": "22bd883c0b78625bb39a21b96d38ddcb8469863b51718b8bda1ce46441f5bfce",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 614,
+      "sha256": "6cc5cdda522431e25468437e96c1f8b726bb88bbdb0f83bf43e3a5b0439ea11d",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/README.md"
+    },
+    {
+      "path": "docs/elm.json/application.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/c3d681cb9c2bd1ab8ce6b6df.md",
+      "kind": "official-document",
+      "bytes": 2064,
+      "sha256": "e9a9794986ae18b4c304803ca464eed8a35ef5b0871c34b2f009eceae8a5b593",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/elm.json/application.md"
+    },
+    {
+      "path": "docs/elm.json/package.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/e215131d1d7d80f51efac0fd.md",
+      "kind": "official-document",
+      "bytes": 3326,
+      "sha256": "14146df31081bee55b68161481bf387f88c595a6f6c0058ab3f570493760f33d",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/elm.json/package.md"
+    },
+    {
+      "path": "docs/upgrade-instructions/0.16.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/e69a9c738f605b94f4d9f2ef.md",
+      "kind": "official-document",
+      "bytes": 5519,
+      "sha256": "5b63c37e642bbdc30330c3533246886916fc830327e31eda1f81fa2e4b8365a3",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/upgrade-instructions/0.16.md"
+    },
+    {
+      "path": "docs/upgrade-instructions/0.17.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/4d13222b936c20d04f67842c.md",
+      "kind": "official-document",
+      "bytes": 8996,
+      "sha256": "b892cdc19bb6322a188afed18c1c20e20441bf52722be5c3515b2832f35f3f32",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/upgrade-instructions/0.17.md"
+    },
+    {
+      "path": "docs/upgrade-instructions/0.18.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/3489ec82c7ccbb7547ac18db.md",
+      "kind": "official-document",
+      "bytes": 6706,
+      "sha256": "06067b20268a71aa2261caa996409e4e1ba1d28db832b620d35cafff3bff4079",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/upgrade-instructions/0.18.md"
+    },
+    {
+      "path": "docs/upgrade-instructions/0.19.0.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/3d2e78e4da6e19bd315d45e3.md",
+      "kind": "official-document",
+      "bytes": 7504,
+      "sha256": "ad001cc1ef08efce20f97d8416bc383b4922b68070b7f87b9926b83130f1667b",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/upgrade-instructions/0.19.0.md"
+    },
+    {
+      "path": "docs/upgrade-instructions/0.19.1.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/ad006a75c92a76538057dabb.md",
+      "kind": "official-document",
+      "bytes": 2443,
+      "sha256": "9081435089eb185b035c0237b83ce98f280ebadefa6c65729eb15f212eb89cd2",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/upgrade-instructions/0.19.1.md"
+    },
+    {
+      "path": "docs/upgrade-instructions/earlier.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/34b363efa10c74cba2557f90.md",
+      "kind": "official-document",
+      "bytes": 14994,
+      "sha256": "2a48621e2b84191b039b77a49ce22000d43345b56d6fb635a3523507a3805e99",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/docs/upgrade-instructions/earlier.md"
+    },
+    {
+      "path": "hints/bad-recursion.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/aee26b79fe363423a1715b24.md",
+      "kind": "official-document",
+      "bytes": 6830,
+      "sha256": "addce843e712054a6d3574c9fde4a29ef19f85da6c4a4f3742f8797a716c2b38",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/bad-recursion.md"
+    },
+    {
+      "path": "hints/comparing-custom-types.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/b504fe18bca4e610a75ac463.md",
+      "kind": "official-document",
+      "bytes": 3342,
+      "sha256": "ac05d4abe9661b1807e6e9ad2403f2c670d8cf35579f3cca53ed515646d6db79",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/comparing-custom-types.md"
+    },
+    {
+      "path": "hints/comparing-records.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/d0f4a01a5ed3d7aa4bf0eff6.md",
+      "kind": "official-document",
+      "bytes": 3335,
+      "sha256": "7dc51c474d8dcddf441a50ecaf7bd84136a288ca26b2d4f46465501e8fc127c6",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/comparing-records.md"
+    },
+    {
+      "path": "hints/implicit-casts.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/5a1678d2c94d1f427cf64207.md",
+      "kind": "official-document",
+      "bytes": 3190,
+      "sha256": "2ba671fbc0a5ecacb13f896584325995f6caa899120aa0f6750b1dac988d11a2",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/implicit-casts.md"
+    },
+    {
+      "path": "hints/import-cycles.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/a209cfb17f8f8a39b3c223e8.md",
+      "kind": "official-document",
+      "bytes": 7331,
+      "sha256": "5afaf4c8513285f4e2a66a8603835faacc86d0fb58b2d37750d8cd35468e777f",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/import-cycles.md"
+    },
+    {
+      "path": "hints/imports.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/ec227345267c3deea5e23cce.md",
+      "kind": "official-document",
+      "bytes": 5486,
+      "sha256": "eb8b242a8852c2a885ffef13f886b593119d8598b3f4d10de77a3b82180ae556",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/imports.md"
+    },
+    {
+      "path": "hints/infinite-type.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/9585c036d1bca4f510f65020.md",
+      "kind": "official-document",
+      "bytes": 2241,
+      "sha256": "82b5a050e6cd124a1dfdaf59aaa84d85fbf5765fad25278658573c2cf31c097a",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/infinite-type.md"
+    },
+    {
+      "path": "hints/init.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/cdb12308e18154d047410fa9.md",
+      "kind": "official-document",
+      "bytes": 3722,
+      "sha256": "fb68553e05f76d60d9073de8d9e8576958964a24f91d8b5979d2490b668c37ac",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/init.md"
+    },
+    {
+      "path": "hints/missing-patterns.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/8e0125013cea78c2e256a6d8.md",
+      "kind": "official-document",
+      "bytes": 4033,
+      "sha256": "495753621c9bffc0968fcd4a5bc2c85d557084fc3778c0c81e39080e2e83dccf",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/missing-patterns.md"
+    },
+    {
+      "path": "hints/optimize.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/3bdb80091624ac808a1ee463.md",
+      "kind": "official-document",
+      "bytes": 2825,
+      "sha256": "dd32b299837114bc0dc6275a9a2f79ed601d9773e4d3217c60b29737be60ca2b",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/optimize.md"
+    },
+    {
+      "path": "hints/port-modules.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/e8127a2b6ffc26f37aef63dd.md",
+      "kind": "official-document",
+      "bytes": 3049,
+      "sha256": "bd243ceab15cfff71180d5d93dcd9913b88c1179bd3c06a81b7d72aaa372a75e",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/port-modules.md"
+    },
+    {
+      "path": "hints/recursive-alias.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/a7e56525713fa32a3f887079.md",
+      "kind": "official-document",
+      "bytes": 4358,
+      "sha256": "49f9657e8b6fe7fc2929a56d5e1e9945560469826c9590cbb38285f6f371a676",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/recursive-alias.md"
+    },
+    {
+      "path": "hints/repl.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/bc695ecfc569c00b41f667b2.md",
+      "kind": "official-document",
+      "bytes": 1462,
+      "sha256": "b34f75f075a93ef47fc40dedd323d3e87c881c334b6a0aae88ecb9e0aa8bc2f6",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/repl.md"
+    },
+    {
+      "path": "hints/shadowing.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/b54ccf53061b74ad783653f3.md",
+      "kind": "official-document",
+      "bytes": 3393,
+      "sha256": "ce0931a2f592cb07634a774f94c33c30df12bfd83aee88e0e6525e543e470411",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/shadowing.md"
+    },
+    {
+      "path": "hints/tuples.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/20446195171bffc0d079139f.md",
+      "kind": "official-document",
+      "bytes": 952,
+      "sha256": "cb3076b4a630205bcd556910ed8a2e52a906edb86f43b6ead6fe10c4814061cf",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/tuples.md"
+    },
+    {
+      "path": "hints/type-annotations.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/f6c63ffe2f8f9af0359c997b.md",
+      "kind": "official-document",
+      "bytes": 2710,
+      "sha256": "2ece44dff8a6a66e3057d1f90981b030b446ff9acf48ba6524be8e8ed0b71741",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/hints/type-annotations.md"
+    },
+    {
+      "path": "installers/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/2c722cb8ce27c0ebd8cd345d.md",
+      "kind": "official-document",
+      "bytes": 1488,
+      "sha256": "a35389bad8298f7b47f68ca97c1bf7478d28450db7afcdfa2c5f36abd070cd91",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/README.md"
+    },
+    {
+      "path": "installers/linux/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/e71ff0fc555f1e1338d4e49a.md",
+      "kind": "official-document",
+      "bytes": 3578,
+      "sha256": "8e03c230a46910952ad864d018765e457db1dceca65494385ccb30701f1691fb",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/linux/README.md"
+    },
+    {
+      "path": "installers/mac/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/1c9424c3014a9d900446e30b.md",
+      "kind": "official-document",
+      "bytes": 3631,
+      "sha256": "d26c154d1afb6f976bb7e299ed1a0fac3a33b6388b1933b52acf30b44be4f48a",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/mac/README.md"
+    },
+    {
+      "path": "installers/npm/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/3119aa32ea4704422cbbbee8.md",
+      "kind": "official-document",
+      "bytes": 2046,
+      "sha256": "de612b7289a00d95ae9fce2604030f9808a2e7ae73c7cad1936fd10be4790744",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/README.md"
+    },
+    {
+      "path": "installers/npm/packages/darwin_arm64/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/371f7fa974e414705181b399.md",
+      "kind": "official-document",
+      "bytes": 411,
+      "sha256": "1f87f3a67773249382bb2ffc668cfe9153bc4a4c97f84e20eab7fefc944039a4",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/packages/darwin_arm64/README.md"
+    },
+    {
+      "path": "installers/npm/packages/darwin_x64/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/a4b8d9409cca6af4c91d4216.md",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "008e886f417233e35905798600a6af8dda39bf71738829dcc883be2e47e9df8c",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/packages/darwin_x64/README.md"
+    },
+    {
+      "path": "installers/npm/packages/linux_arm64/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/c2b818aa9131209c4d66d2bf.md",
+      "kind": "official-document",
+      "bytes": 411,
+      "sha256": "a7c26eb2149894b5d4e90b4a0f11b9a0b0f09de370f4e8782dee17a093da468a",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/packages/linux_arm64/README.md"
+    },
+    {
+      "path": "installers/npm/packages/linux_x64/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/5dcd0d1dccc7fde19a3c3104.md",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "f30a5769af4ec6c2a46db6709ec0f370d24b0ae0abf5a69d5f17f3b65c10b2c3",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/packages/linux_x64/README.md"
+    },
+    {
+      "path": "installers/npm/packages/win32_x64/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/6aae76893dcf9730eb4feb8b.md",
+      "kind": "official-document",
+      "bytes": 411,
+      "sha256": "6731e47bfb733e4005679feb5d53bed55df7679b20053d913bb6acff9830cd12",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/packages/win32_x64/README.md"
+    },
+    {
+      "path": "installers/npm/troubleshooting.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/760f6e05aa6a77d9889e6252.md",
+      "kind": "official-document",
+      "bytes": 3320,
+      "sha256": "5a4e049ba9e1a791d72758f9ac5007d76fab0a95cfba879bf2f49bb2d3c58f7e",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/npm/troubleshooting.md"
+    },
+    {
+      "path": "installers/win/README.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/b5bf9f1ff5aa9f54f3c15b21.md",
+      "kind": "official-document",
+      "bytes": 790,
+      "sha256": "91ac45883ada67b3de13003ab5d9d965287fa5390e29e72eb5327cbe4399035f",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/installers/win/README.md"
+    },
+    {
+      "path": "roadmap.md",
+      "localPath": "raw/elm--compiler/321ff2f21986/51abe96bc493857fdfba599c.md",
+      "kind": "official-document",
+      "bytes": 3590,
+      "sha256": "46ef08a6b478fd44fa5d39c8e80c373c97f44b3a73d1586c93227a3176cad3e2",
+      "sourceUrl": "https://github.com/elm/compiler/blob/321ff2f21986b6e719bf0e7463288f04fe713b17/roadmap.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

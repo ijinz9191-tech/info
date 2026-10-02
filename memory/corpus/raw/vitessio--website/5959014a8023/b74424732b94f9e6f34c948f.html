@@ -1,0 +1,41 @@
+{{ define "title" }}
+The Vitess Docs | {{ .Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="docs-wrapper">
+  <div class="docs-sidebar is-hidden-touch">
+    {{ partial "docs/sidebar.html" . }}
+  </div>
+
+  <div class="docs-article">
+    {{ partial "navbar.html" . }}
+
+    <article class="docs-content">
+      {{ partial "docs/header.html" . }}
+    
+      <div class="content">
+        {{ .Content }}
+        <hr style="margin-top:2rem;margin-bottom:2rem;border:none;border-top: 0.1rem solid darkgrey;width:100%;"/>
+        {{ partial "docs/next-prev-navigation.html" . }}
+      </div>
+    </article>    
+
+    {{ partial "docs/footer.html" . }}
+  </div>
+
+  {{ if and .TableOfContents (not .Params.notoc) }}
+  <div class="docs-toc is-hidden-touch">
+    <div class="docs-toc-container">
+      <span class="docs-toc-title">
+        {{ .Title }}
+      </span>
+  
+      <div class="docs-toc-menu">
+        {{ .TableOfContents }}
+      </div>   
+    </div>
+  </div>
+  {{ end }}  
+</div>
+{{ end }}

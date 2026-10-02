@@ -1,0 +1,448 @@
+/*
+Copyright 2023 The Radius Authors.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+*/
+
+package samples
+
+import (
+	"bytes"
+	"context"
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+	"time"
+
+	clikubernetes "github.com/radius-project/radius/pkg/cli/kubernetes"
+	"github.com/radius-project/radius/pkg/kubernetes"
+	"github.com/radius-project/radius/test/rp"
+	"github.com/radius-project/radius/test/step"
+	"github.com/radius-project/radius/test/testutil"
+	"github.com/radius-project/radius/test/validation"
+
+	"github.com/stretchr/testify/require"
+	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
+)
+
+const (
+	remotePort   = 3000
+	retryTimeout = 1 * time.Minute
+	retryBackoff = 1 * time.Second
+
+	// attemptTimeout bounds a single readiness attempt (port-forward setup plus the
+	// HTTP probe) so that a pod which accepts a connection but never responds cannot
+	// stall the retry loop past retryTimeout.
+	attemptTimeout = 10 * time.Second
+
+	// noDatabaseMessage is returned by the demo app's list endpoint when it runs
+	// without a configured database. The modernized sample (radius-project/samples#2645)
+	// removed the inline redis resource from app.bicep, so the app stores todo items in
+	// memory and surfaces this message in every list response.
+	noDatabaseMessage = "No database is configured, items will be stored in memory."
+)
+
+var samplesRepoAbsPath, samplesRepoEnvVarSet = os.LookupEnv("RADIUS_SAMPLES_REPO_ROOT")
+
+// Test process must run with RADIUS_SAMPLES_REPO_ROOT env var set to samples repo absolute path
+// You can set the variables used by vscode codelens (e.g. 'debug test', 'run test') using 'go.testEnvVars' in vscode settings.json
+// Ex: export PROJECT_RADIUS_SAMPLES_REPO_ABS_PATH=/home/uname/src/samples
+func Test_FirstApplicationSample(t *testing.T) {
+	if !samplesRepoEnvVarSet {
+		t.Skipf("Skip samples test execution, to enable you must set env var PROJECT_RADIUS_SAMPLES_REPO_ABS_PATH to the absolute path of the radius-project/samples repository")
+	}
+
+	cwd, err := os.Getwd()
+	require.NoError(t, err)
+	relPathSamplesRepo, err := filepath.Rel(cwd, samplesRepoAbsPath)
+	require.NoError(t, err)
+	template := filepath.Join(relPathSamplesRepo, "samples/demo/app.bicep")
+	// The modernized sample (radius-project/samples#2645) names both the application
+	// and the container demo-${environmentName}, which resolves to demo-tutorial for the
+	// "tutorial" environment. The recipe-driven Radius.Compute/containers pod lands in the
+	// environment's Kubernetes namespace ("tutorial").
+	appName := "demo-tutorial"
+	appNamespace := "tutorial"
+
+	test := rp.NewRPTest(t, appName, []rp.TestStep{
+		{
+			Executor:                               step.NewDeployExecutor("testdata/tutorial-environment.bicep"),
+			SkipKubernetesOutputResourceValidation: true,
+			SkipObjectValidation:                   true,
+		},
+		{
+			// The modernized sample has no "application" parameter; it derives the app name
+			// from the environment, so only --environment is passed.
+			Executor: step.NewDeployExecutor(template).WithEnvironment("tutorial"),
+			RPResources: &validation.RPResourceSet{
+				Resources: []validation.RPResource{
+					{
+						Name: appName,
+						Type: validation.CoreApplicationsResource,
+					},
+					{
+						Name: appName,
+						Type: validation.ComputeContainersResource,
+						App:  appName,
+					},
+					{
+						// The environment-deploy step skips validation and has no RPResources,
+						// so include the fixed-name tutorial environment here to validate it and
+						// ensure the cleanup loop deletes it after the application.
+						Name: "tutorial",
+						Type: validation.CoreEnvironmentsResource,
+					},
+				},
+			},
+			PostStepVerify: func(ctx context.Context, t *testing.T, ct rp.RPTest) {
+				// Kubernetes pod readiness does not guarantee the application is already
+				// listening on remotePort, so retry a lightweight, idempotent readiness
+				// probe across a bounded window with a backoff between attempts instead
+				// of exhausting all attempts within milliseconds of each other.
+				// See https://github.com/radius-project/radius/issues/12935.
+				//
+				// testWithPortForward itself is not idempotent: it creates a todo item
+				// and only deletes it at the end, so retrying it directly can leave a
+				// leftover item that fails the next attempt's empty-list assertion.
+				// Run it once, only after the readiness probe confirms the pod is up.
+				selector := fmt.Sprintf("%s=%s", kubernetes.LabelRadiusResource, appName)
+
+				deadline := time.Now().Add(retryTimeout)
+				var lastErr error
+			retryLoop:
+				for attempt := 1; time.Now().Before(deadline); attempt++ {
+					t.Logf("Waiting for pod readiness via portforward (attempt %d)", attempt)
+					attemptCtx, cancel := context.WithTimeout(ctx, attemptTimeout)
+					lastErr = waitForPodReady(t, attemptCtx, ct, appNamespace, selector, remotePort)
+					cancel()
+					if lastErr == nil {
+						break
+					}
+
+					t.Logf("Pod not ready yet: %s", lastErr)
+					select {
+					case <-ctx.Done():
+						lastErr = ctx.Err()
+						break retryLoop
+					case <-time.After(retryBackoff):
+					}
+				}
+				require.NoError(t, lastErr, "pod did not become ready via portforward after retrying for %s", retryTimeout)
+
+				require.NoError(t, testWithPortForward(t, ctx, ct, appNamespace, selector, remotePort))
+			},
+			// TODO: validation of k8s resources blocked by https://github.com/radius-project/radius/issues/4689
+			K8sOutputResources: []unstructured.Unstructured{},
+			K8sObjects: &validation.K8sObjectSet{
+				Namespaces: map[string][]validation.K8sObject{
+					appNamespace: {
+						validation.NewK8sPodForResource(appName, appName),
+					},
+				},
+			},
+		},
+	})
+
+	// Radius.Core/environments rejects a Kubernetes namespace that does not already
+	// exist. RPTest.CreateInitialResources only ensures the namespace named after the
+	// test (demo-tutorial), so the environment's "tutorial" namespace must be created
+	// here before the steps run, mirroring NewPreviewEnvPreSetup.
+	test.PreSetup = func(ctx context.Context, t *testing.T, ct rp.RPTest) {
+		nsClient, err := rp.DeploymentTargetK8sClient(ct.Options)
+		require.NoError(t, err)
+		require.NoError(t, clikubernetes.EnsureNamespace(ctx, nsClient, appNamespace))
+	}
+
+	test.Test(t)
+}
+
+// waitForPodReady opens a port-forward session and issues a single idempotent GET
+// against the base URL to confirm the application is listening on remotePort. Unlike
+// testWithPortForward, it performs no writes, so it is safe to call repeatedly.
+func waitForPodReady(t *testing.T, ctx context.Context, at rp.RPTest, namespace string, container string, remotePort int) error {
+	stopChan := make(chan struct{})
+	portChan := make(chan int)
+	errorChan := make(chan error)
+
+	go testutil.ExposePod(t, ctx, at.Options.K8sClient, at.Options.K8sConfig, namespace, container, remotePort, stopChan, portChan, errorChan)
+	defer close(stopChan)
+
+	select {
+	case <-ctx.Done():
+		return ctx.Err()
+	case err := <-errorChan:
+		return fmt.Errorf("portforward failed with error: %s", err)
+	case localPort := <-portChan:
+		baseURL := fmt.Sprintf("http://localhost:%d", localPort)
+		t.Logf("Portforward session active at %s", baseURL)
+
+		_, err := sendGetRequest(ctx, "hostname", baseURL, "", 200)
+		return err
+	}
+}
+
+func testWithPortForward(t *testing.T, ctx context.Context, at rp.RPTest, namespace string, container string, remotePort int) error {
+	// stopChan will close the port-forward connection on close
+	stopChan := make(chan struct{})
+
+	// portChan will be populated with the assigned port once the port-forward connection is opened on it
+	portChan := make(chan int)
+
+	// errorChan will contain any errors created from initializing the port-forwarding session
+	errorChan := make(chan error)
+
+	go testutil.ExposePod(t, ctx, at.Options.K8sClient, at.Options.K8sConfig, namespace, container, remotePort, stopChan, portChan, errorChan)
+	defer close(stopChan)
+
+	select {
+	case <-ctx.Done():
+		return ctx.Err()
+	case err := <-errorChan:
+		return fmt.Errorf("portforward failed with error: %s", err)
+	case localPort := <-portChan:
+		baseURL := fmt.Sprintf("http://localhost:%d", localPort)
+		t.Logf("Portforward session active at %s", baseURL)
+		hostname := "localhost"
+
+		// Test base endpoint, i.e., base URL returns a 200
+		_, err := sendGetRequest(ctx, "hostname", baseURL, "", 200)
+		if err != nil {
+			return err
+		}
+
+		// Test GET /api/todos (list)
+		listResponse, err := sendGetRequest(ctx, hostname, baseURL, "api/todos", 200)
+		if err != nil {
+			return err
+		}
+
+		defer listResponse.Body.Close()
+		listResponseBody, err := io.ReadAll(listResponse.Body)
+		if err != nil {
+			return err
+		}
+
+		var actualListResponseBody map[string]any
+		err = json.Unmarshal(listResponseBody, &actualListResponseBody)
+		if err != nil {
+			return err
+		}
+
+		expectedListResponseBody := map[string]any{
+			"items":   []any{},
+			"message": noDatabaseMessage,
+		}
+		require.Equal(t, expectedListResponseBody, actualListResponseBody)
+
+		// Test POST /api/todos (create)
+		createRequestBody := map[string]string{
+			"title": "My TODO Item",
+		}
+		createRequestBodyBytes, err := json.Marshal(createRequestBody)
+		if err != nil {
+			return err
+		}
+
+		createResponse, err := sendPostRequest(ctx, hostname, baseURL, "api/todos", &createRequestBodyBytes, 200)
+		if err != nil {
+			return err
+		}
+
+		defer createResponse.Body.Close()
+		createResponseBody, err := io.ReadAll(createResponse.Body)
+		if err != nil {
+			return err
+		}
+
+		var createdItem map[string]any
+		err = json.Unmarshal(createResponseBody, &createdItem)
+		if err != nil {
+			return err
+		}
+
+		require.Equal(t, "My TODO Item", createdItem["title"])
+
+		// Set generated Id for use later
+		itemId := createdItem["id"]
+
+		// Test GET /api/todos (list)
+		listResponse, err = sendGetRequest(ctx, hostname, baseURL, "api/todos", 200)
+		if err != nil {
+			return err
+		}
+
+		defer listResponse.Body.Close()
+		listResponseBody, err = io.ReadAll(listResponse.Body)
+		if err != nil {
+			return err
+		}
+
+		err = json.Unmarshal(listResponseBody, &actualListResponseBody)
+		if err != nil {
+			return err
+		}
+
+		expectedListResponseBody = map[string]any{
+			"items": []any{
+				createdItem,
+			},
+			"message": noDatabaseMessage,
+		}
+		require.Equal(t, expectedListResponseBody, actualListResponseBody)
+
+		// Test GET /api/todos/:id (get)
+		getResponse, err := sendGetRequest(ctx, hostname, baseURL, fmt.Sprintf("api/todos/%s", itemId), 200)
+		if err != nil {
+			return err
+		}
+
+		defer getResponse.Body.Close()
+		getResponseBody, err := io.ReadAll(getResponse.Body)
+		if err != nil {
+			return err
+		}
+
+		var actualGetResponseBody map[string]any
+		err = json.Unmarshal(getResponseBody, &actualGetResponseBody)
+		if err != nil {
+			return err
+		}
+
+		expectedGetResponseBody := createdItem
+		require.Equal(t, expectedGetResponseBody, actualGetResponseBody)
+
+		// Test PUT /api/todos/:id (update)
+		updateRequestBody := map[string]any{
+			"id":    createdItem["id"],
+			"_id":   createdItem["_id"],
+			"title": createdItem["title"],
+			"done":  "true",
+		}
+		updateRequestBodyBytes, err := json.Marshal(updateRequestBody)
+		if err != nil {
+			return err
+		}
+
+		_, err = sendPutRequest(ctx, hostname, baseURL, fmt.Sprintf("api/todos/%s", itemId), &updateRequestBodyBytes, 200)
+		if err != nil {
+			return err
+		}
+
+		// Test DELETE /api/todos/:id (delete)
+		_, err = sendDeleteRequest(ctx, hostname, baseURL, fmt.Sprintf("api/todos/%s", itemId), 204)
+		if err != nil {
+			return err
+		}
+
+		// Test GET /api/todos (list)
+		listResponse, err = sendGetRequest(ctx, hostname, baseURL, "api/todos", 200)
+		if err != nil {
+			return err
+		}
+
+		defer listResponse.Body.Close()
+		listResponseBody, err = io.ReadAll(listResponse.Body)
+		if err != nil {
+			return err
+		}
+
+		err = json.Unmarshal(listResponseBody, &actualListResponseBody)
+		if err != nil {
+			return err
+		}
+
+		expectedListResponseBody = map[string]any{
+			"items":   []any{},
+			"message": noDatabaseMessage,
+		}
+		require.Equal(t, expectedListResponseBody, actualListResponseBody)
+
+		// All of the requests were successful
+		t.Logf("All requests encountered the correct status code")
+		return nil
+	}
+}
+
+func sendRequest(req *http.Request, expectedStatusCode int) (*http.Response, error) {
+	res, err := http.DefaultClient.Do(req)
+	if err != nil {
+		return nil, err
+	}
+
+	if res.StatusCode != expectedStatusCode {
+		return nil, fmt.Errorf("expected status code %d, got %d", expectedStatusCode, res.StatusCode)
+	}
+
+	return res, nil
+}
+
+func sendGetRequest(ctx context.Context, hostname, baseURL, path string, expectedStatusCode int) (*http.Response, error) {
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, getURLPath(baseURL, path), nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Host = hostname
+
+	return sendRequest(req, expectedStatusCode)
+}
+
+func sendPostRequest(ctx context.Context, hostname, baseURL, path string, body *[]byte, expectedStatusCode int) (*http.Response, error) {
+	if body == nil {
+		return nil, fmt.Errorf("body cannot be nil")
+	}
+
+	bodyReader := bytes.NewReader(*body)
+	req, err := http.NewRequestWithContext(ctx, http.MethodPost, getURLPath(baseURL, path), bodyReader)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	req.Host = hostname
+
+	return sendRequest(req, expectedStatusCode)
+}
+
+func sendPutRequest(ctx context.Context, hostname, baseURL, path string, body *[]byte, expectedStatusCode int) (*http.Response, error) {
+	if body == nil {
+		return nil, fmt.Errorf("body cannot be nil")
+	}
+
+	bodyReader := bytes.NewReader(*body)
+	req, err := http.NewRequestWithContext(ctx, http.MethodPut, getURLPath(baseURL, path), bodyReader)
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	req.Host = hostname
+
+	return sendRequest(req, expectedStatusCode)
+}
+
+func sendDeleteRequest(ctx context.Context, hostname, baseURL, path string, expectedStatusCode int) (*http.Response, error) {
+	req, err := http.NewRequestWithContext(ctx, http.MethodDelete, getURLPath(baseURL, path), nil)
+	if err != nil {
+		return nil, err
+	}
+	req.Host = hostname
+
+	return sendRequest(req, expectedStatusCode)
+}
+
+func getURLPath(baseURL, path string) string {
+	return strings.TrimSuffix(baseURL, "/") + "/" + strings.TrimPrefix(path, "/")
+}

@@ -1,0 +1,1953 @@
+{
+  "schemaVersion": 1,
+  "repo": "remix-run/react-router",
+  "commit": "a6090382ed467b5a2d46c8de1a13b331f14959f8",
+  "retrievedAt": "2026-10-01T15:27:34.421933+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "frameworks/react"
+  ],
+  "archiveUrl": "https://codeload.github.com/remix-run/react-router/zip/a6090382ed467b5a2d46c8de1a13b331f14959f8",
+  "archiveSha256": "7b2ccf2b039d3724c583ba8055b873d2a30ad691bda3b1a7d590d8a8da52869b",
+  "archiveBytes": 2698698,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 235,
+    "code": 5,
+    "licenses": 1,
+    "bytes": 1547286
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 7415,
+      "sha256": "26d0b881712baa894359226ec8ff92d9344bcd8eb3278cfe88b0845ea1886b24",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/AGENTS.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 250593,
+      "sha256": "86e695d301ebfc8778dd57b0acef0df3c35b8837fa80b21edd1064bf1fb0325f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/CHANGELOG.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 988,
+      "sha256": "311c8a3c4e53529d4ce7ee5c40b88e29527b5ceb0fc071493c872645f22b9e7c",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/CLAUDE.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 3586,
+      "sha256": "c846d356a1435997cb0a028a7886ca1f43fc01ec1d94b147312762960027c127",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 72,
+      "sha256": "6688dd6e7de3e332a32cca7e7ed6b8925c5741467a0a99a59566a3cee59a058f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/CONTRIBUTING.md"
+    },
+    {
+      "path": "DEVELOPMENT.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fc2a310fcfedfefb0046def6.md",
+      "kind": "official-document",
+      "bytes": 2858,
+      "sha256": "ed35ba84447385829e475b1553bbbbddb6df719c4fd63d5da41785ed75cc9966",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/DEVELOPMENT.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 37437,
+      "sha256": "6b022f33a5506b7bc13a1ed481b32b27458105604f111f3fe443f67e977436f4",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/GOVERNANCE.md"
+    },
+    {
+      "path": "LICENSE.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/4673a3aba01813b595de187a.md",
+      "kind": "license",
+      "bytes": 1161,
+      "sha256": "77c9ee6a9c5d5782fb0c50b50d101189116314c14f7df0a1b0d385fc96a7ba49",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/LICENSE.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 1515,
+      "sha256": "57cfa683a095d541eb7f9d218ab09d4c437e67b78c994be7675673e4e8124dc9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 2064,
+      "sha256": "de544bc7363609b42716b329c7eb1580fbdd74b59fa85d43fbf50a0e03b21fd5",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/SECURITY.md"
+    },
+    {
+      "path": "docs/api/components/Await.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9dcba68acc925c2245b66666.md",
+      "kind": "official-document",
+      "bytes": 3876,
+      "sha256": "ab7d44ac5929c0d9b8f44e2823f1549418c156935406e5567e69e912b210ca22",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Await.md"
+    },
+    {
+      "path": "docs/api/components/Form.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/5372a4a472524ea955246a0c.md",
+      "kind": "official-document",
+      "bytes": 5415,
+      "sha256": "9ab12f4e714aad7b3d7b64761ea52ef77f4dfc911a200153b75c95a9bafb6be5",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Form.md"
+    },
+    {
+      "path": "docs/api/components/Link.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7dc876ca724d59f3904e6b2f.md",
+      "kind": "official-document",
+      "bytes": 7399,
+      "sha256": "f1cc188fc8c450e2ba1e808d6d62b202b0ff695677e90529272da9707c581e26",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Link.md"
+    },
+    {
+      "path": "docs/api/components/Links.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/58d9dbe447a74e2d49d5dc8a.md",
+      "kind": "official-document",
+      "bytes": 1689,
+      "sha256": "0b6fe1b7ed89131f96217a7cde1566c7e0f29a97f9c8ca8c053c1f424fb39b9b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Links.md"
+    },
+    {
+      "path": "docs/api/components/Meta.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/85cb1a38027775e872320d41.md",
+      "kind": "official-document",
+      "bytes": 1088,
+      "sha256": "7831a2416ef5c878cffd07ee3cd655fa7aeef21a29bcd27591934d81b25d3d1f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Meta.md"
+    },
+    {
+      "path": "docs/api/components/NavLink.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a232349fa6d2e3e3f1fbfafb.md",
+      "kind": "official-document",
+      "bytes": 8848,
+      "sha256": "62ee318917337c0f3f4412a5e417a86364aef7751559fb5eb12c3778ab6cb0fa",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/NavLink.md"
+    },
+    {
+      "path": "docs/api/components/Navigate.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7fcdfaea4a52c73e4b5ad8e2.md",
+      "kind": "official-document",
+      "bytes": 1659,
+      "sha256": "221bf0bf806f7240dd75a519ed5a1c408c3d6b38ca048308d08ec70d4d8ec937",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Navigate.md"
+    },
+    {
+      "path": "docs/api/components/Outlet.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1397e784ab3261bcaa15cf86.md",
+      "kind": "official-document",
+      "bytes": 1198,
+      "sha256": "6063cf1d9c36831875fc43f1b19cf4bc1fa204b82e3cf64c1a22afff75440c00",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Outlet.md"
+    },
+    {
+      "path": "docs/api/components/PrefetchPageLinks.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c15b3b26f6bcd3e2dca45d5a.md",
+      "kind": "official-document",
+      "bytes": 1769,
+      "sha256": "329c878c32c1028ca55f05436b2704852da76c493bd8755cc6a546cfe1f32260",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/PrefetchPageLinks.md"
+    },
+    {
+      "path": "docs/api/components/Route.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1cc797fa2e6aaa6750c6bbb9.md",
+      "kind": "official-document",
+      "bytes": 3324,
+      "sha256": "56f86e92ef4539c5ef19cc717d9eb7da9f3200b61451b584c3ce2a9a898fbd58",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Route.md"
+    },
+    {
+      "path": "docs/api/components/Routes.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0e57fa2be332a6cd822068d0.md",
+      "kind": "official-document",
+      "bytes": 1463,
+      "sha256": "7f304c9ca10ffaa707daf0f52c73c90bc7e1925b2ec7aa8ec63189ef515560eb",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Routes.md"
+    },
+    {
+      "path": "docs/api/components/Scripts.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/457c5bd451faf7ea0db64d0e.md",
+      "kind": "official-document",
+      "bytes": 1526,
+      "sha256": "7755ed7cc7584946f09a4e49406c79dcb85b2d1f3df2da54bdb305d2010c97e2",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/Scripts.md"
+    },
+    {
+      "path": "docs/api/components/ScrollRestoration.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7eda91c8a19e777003c535c8.md",
+      "kind": "official-document",
+      "bytes": 2546,
+      "sha256": "e1c21e7f8d94f0d00cf6931394820e899c45238eca5d8bab4051685311a23b48",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/ScrollRestoration.md"
+    },
+    {
+      "path": "docs/api/components/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/5874a0386cd510c87a42852b.md",
+      "kind": "official-document",
+      "bytes": 35,
+      "sha256": "8f9a1e92d8360edce007b304b0cf6ba5c34880a32813ec94b36be8af9fa98ba0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/components/index.md"
+    },
+    {
+      "path": "docs/api/data-routers/RouterProvider.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b885ade2c3eb2218b86ef9a2.md",
+      "kind": "official-document",
+      "bytes": 4116,
+      "sha256": "cf6e4547581c139c418306a4cd398d7e7ac8427a59839f0bd7326912dce16a1e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/RouterProvider.md"
+    },
+    {
+      "path": "docs/api/data-routers/StaticRouterProvider.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/06adbe5adc38394f9e6b8975.md",
+      "kind": "official-document",
+      "bytes": 2139,
+      "sha256": "589537aa2ce6f348d4dfdc060b86422c5645f192346c887f52f892e16545698d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/StaticRouterProvider.md"
+    },
+    {
+      "path": "docs/api/data-routers/createBrowserRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/980bb815b79975601c02e8d2.md",
+      "kind": "official-document",
+      "bytes": 16873,
+      "sha256": "07632c5787f158a120d06502b7ad2ffbb5a6329d786abaa48383a05e8f0eb400",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/createBrowserRouter.md"
+    },
+    {
+      "path": "docs/api/data-routers/createHashRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/13d08353fb2fa81bfb3adcd0.md",
+      "kind": "official-document",
+      "bytes": 16747,
+      "sha256": "838e1df950450dafa109f6795f8fc47c669e598338fc5414a2199aa4cdce5d09",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/createHashRouter.md"
+    },
+    {
+      "path": "docs/api/data-routers/createMemoryRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8a7d7dba05554b4116901334.md",
+      "kind": "official-document",
+      "bytes": 4488,
+      "sha256": "2cea1fbef3279998e1e031dadacff238edfd53689c8feac193a8bfedfe71eb4e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/createMemoryRouter.md"
+    },
+    {
+      "path": "docs/api/data-routers/createStaticHandler.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f2c03df734eda8b2a1229f9c.md",
+      "kind": "official-document",
+      "bytes": 1560,
+      "sha256": "5210bbc13141ea7b3d453233cd09f099614a232e37cb643e6eaeb83304a68610",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/createStaticHandler.md"
+    },
+    {
+      "path": "docs/api/data-routers/createStaticRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1b89f7f47bcde67e9d4ded70.md",
+      "kind": "official-document",
+      "bytes": 2116,
+      "sha256": "8be3e7986c227a5d40ab75bf7dfd1a58c8588a9297aa765ad0702f10ffe0d8c9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/createStaticRouter.md"
+    },
+    {
+      "path": "docs/api/data-routers/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d2018fd6893fd895d99ec957.md",
+      "kind": "official-document",
+      "bytes": 37,
+      "sha256": "d2ae527af33c5e4b18b4286a90a11ccd528cca02bdb72977b63543ba5f6f7f93",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/index.md"
+    },
+    {
+      "path": "docs/api/data-routers/preloadRoutePattern.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d2874cef320daa9007590720.md",
+      "kind": "official-document",
+      "bytes": 1339,
+      "sha256": "b09d65cc22849c1b5f36572e2f7142c8a8c4afe194e51ba0eb863b2c34188013",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/data-routers/preloadRoutePattern.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/BrowserRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/97d91df5bfaa7636e0f2be8a.md",
+      "kind": "official-document",
+      "bytes": 1791,
+      "sha256": "2d9b0450ce8b8ce3080ec5b0583ea8f980d0cd730b98dd2fb0436c7a78999631",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/BrowserRouter.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/HashRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fc600b467c51b499d0c53bfb.md",
+      "kind": "official-document",
+      "bytes": 1811,
+      "sha256": "c17ed8bc2de838f442ee6994f99203897585255f37198759f1d983c7d0dc3208",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/HashRouter.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/HistoryRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1a126a82a242a6e6b0518fe8.md",
+      "kind": "official-document",
+      "bytes": 2147,
+      "sha256": "52c50c8b2c820939c8cf2b8bc8f82f6f34491806e2f2a270be282660d289650e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/HistoryRouter.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/MemoryRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/80d5c85b43302d7fdeb2ca0e.md",
+      "kind": "official-document",
+      "bytes": 1776,
+      "sha256": "11ce787c401d999cb55e1ba46c49053e7940cd1d4ce8bb011bae845bfb4009e1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/MemoryRouter.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/Router.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/85fbd26ea086b2059a79b377.md",
+      "kind": "official-document",
+      "bytes": 2669,
+      "sha256": "1310a267997b8449d5f3b37d4a170e0a6d07d2294a9db4d57985812c5d476a0a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/Router.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/StaticRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f45ab647dd1e66961b86675b.md",
+      "kind": "official-document",
+      "bytes": 1213,
+      "sha256": "40610bba79d9b803de21854dab3e932061ffba9aeb0fab8cdb832f51ecca95fd",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/StaticRouter.md"
+    },
+    {
+      "path": "docs/api/declarative-routers/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9fdb4e1c02991514f2f58ee9.md",
+      "kind": "official-document",
+      "bytes": 44,
+      "sha256": "eb4875d048c58be45daada8e40fb086a3d3dd8664d58a987b4792e17ec218a76",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/declarative-routers/index.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/client-modules.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/ef0476fed260ae4a0705ba62.md",
+      "kind": "official-document",
+      "bytes": 2899,
+      "sha256": "af4aac74031d7af6988c3aeaaada9c1f9cc2fd55e334697b830435b557a56433",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/client-modules.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/entry.client.tsx.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/709fd0ff952f05423ea272aa.md",
+      "kind": "official-document",
+      "bytes": 1058,
+      "sha256": "b71b2a810da4399482053695e538358bdb470c1c37ade42e8a0b698405020de4",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/entry.client.tsx.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/entry.server.tsx.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7746bfe1a535e08784943e6c.md",
+      "kind": "official-document",
+      "bytes": 6761,
+      "sha256": "69f62ab0facb6155809687684172d2aa6e51a54532698b6a0fd72f0baacdab2e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/entry.server.tsx.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2ca11bdde9d525960ed259df.md",
+      "kind": "official-document",
+      "bytes": 46,
+      "sha256": "2535ccd2853955b1d45ce92045d69122d788216a6220ba13aa90493170f98e06",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/index.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/react-router.config.ts.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/584c7ad2a03678039c66251f.md",
+      "kind": "official-document",
+      "bytes": 6430,
+      "sha256": "ea21b14ef9bae8c1d1928b1e14f472c32669d82e077ad8fbbb9fd9a2f89c1393",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/react-router.config.ts.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/root.tsx.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/17bae14ba28da66dfefa9e14.md",
+      "kind": "official-document",
+      "bytes": 6472,
+      "sha256": "6246568ecb5ce5f3a4b55181e8a71d66cefb0981dae514d53e3aff04e580f1c3",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/root.tsx.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/routes.ts.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/72a9fd30d62ba9d48b137b29.md",
+      "kind": "official-document",
+      "bytes": 2346,
+      "sha256": "b30d6b57b1f0a72feb36a4441e6b21308ad62191418254de9124c374ddf724a6",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/routes.ts.md"
+    },
+    {
+      "path": "docs/api/framework-conventions/server-modules.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7319fcbb9b615855533820f9.md",
+      "kind": "official-document",
+      "bytes": 3671,
+      "sha256": "876154d32c4c882cbc226415b30a69f35c9f20c8aeb845a2f66bd80c543ee408",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-conventions/server-modules.md"
+    },
+    {
+      "path": "docs/api/framework-routers/HydratedRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9e934f0da4d11c363493466b.md",
+      "kind": "official-document",
+      "bytes": 1848,
+      "sha256": "f5645e29094cef94fe758ce7bf5789e13a85fd709bf186e0191e9d2f528650eb",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-routers/HydratedRouter.md"
+    },
+    {
+      "path": "docs/api/framework-routers/ServerRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/777881ee7e3495ec9ebac9ec.md",
+      "kind": "official-document",
+      "bytes": 1421,
+      "sha256": "588a812580869b30f9c71d0a3db2c39de3592e7cd1189028f917c6a23cb06975",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-routers/ServerRouter.md"
+    },
+    {
+      "path": "docs/api/framework-routers/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b9478aa598843c14736010de.md",
+      "kind": "official-document",
+      "bytes": 42,
+      "sha256": "df5d22283c902d5b3c1adaddc179e9f4eb94ccde833d61697447fe8b9fea2a7b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/framework-routers/index.md"
+    },
+    {
+      "path": "docs/api/hooks/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f298c21fb7fb97fcf9e1c233.md",
+      "kind": "official-document",
+      "bytes": 30,
+      "sha256": "9ed422dc33b71f170d7ebad9ebf77e709d62b3c2cdc007d753077cce8798978c",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/index.md"
+    },
+    {
+      "path": "docs/api/hooks/useActionData.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f30d3b6fce4ef19879fc9f2b.md",
+      "kind": "official-document",
+      "bytes": 1479,
+      "sha256": "41a3f8584f4234d2b258f93b1ab962dea5f005b55239e834c03bd1d5c5a863ed",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useActionData.md"
+    },
+    {
+      "path": "docs/api/hooks/useAsyncError.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8efb4bfcec811a4520010eb8.md",
+      "kind": "official-document",
+      "bytes": 1105,
+      "sha256": "fe87af5d95bd33d6ffb264c76b699acf43bf50ba3cd04856f6ccc76653d404b7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useAsyncError.md"
+    },
+    {
+      "path": "docs/api/hooks/useAsyncValue.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a3f540e7ac72965a2b85a28d.md",
+      "kind": "official-document",
+      "bytes": 977,
+      "sha256": "e29a1949557ab6bb3f8526f9d6e1bcff197f0f01c26a2f9fc650c96f529472ae",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useAsyncValue.md"
+    },
+    {
+      "path": "docs/api/hooks/useBeforeUnload.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/48a48ca98b28ba274bba2188.md",
+      "kind": "official-document",
+      "bytes": 1189,
+      "sha256": "f81d78f93626b065862e705403516c3a727701dcaa035031588d91f1d9a67071",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useBeforeUnload.md"
+    },
+    {
+      "path": "docs/api/hooks/useBlocker.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/607269f81323eb4a2e3d678d.md",
+      "kind": "official-document",
+      "bytes": 3963,
+      "sha256": "a5a886c6c07bde44ee74fe24e0f108fdb79f9d442a2f495164d7c7d9ca8e013a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useBlocker.md"
+    },
+    {
+      "path": "docs/api/hooks/useFetcher.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b6859f48fee1426cf402edbd.md",
+      "kind": "official-document",
+      "bytes": 2410,
+      "sha256": "4f70743b9da379349f38002a8840a36dbe7228d684e0d8a8c892d821d1b8a970",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useFetcher.md"
+    },
+    {
+      "path": "docs/api/hooks/useFetchers.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d464d6dadb75f250c64abec0.md",
+      "kind": "official-document",
+      "bytes": 1255,
+      "sha256": "11e8c01d2b04d6ba1042e36f23b39aae8d47414fa7fa4f2f3a1dfba73e9633c2",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useFetchers.md"
+    },
+    {
+      "path": "docs/api/hooks/useFormAction.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b87ccbf18c9e664dc6f7e2c0.md",
+      "kind": "official-document",
+      "bytes": 1770,
+      "sha256": "a960e64e91d25e0d79b280ab7eb02cd1e6ec7477899af41bb0f44da28f9d6caa",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useFormAction.md"
+    },
+    {
+      "path": "docs/api/hooks/useHref.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/52d59e41ef6217a60ad827b9.md",
+      "kind": "official-document",
+      "bytes": 1202,
+      "sha256": "d461ad1be32ea1efdbfae04629b96dd9ff40c851ffe850f556fc9b0b2ec5ae8a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useHref.md"
+    },
+    {
+      "path": "docs/api/hooks/useInRouterContext.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3dca48207f4949cee889d5dd.md",
+      "kind": "official-document",
+      "bytes": 933,
+      "sha256": "5f13a3cd41744a0dddada88c0a9b5e5d7acdd6b4a7eb0e6883d66a0bf9610197",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useInRouterContext.md"
+    },
+    {
+      "path": "docs/api/hooks/useLinkClickHandler.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c584759af2e0357736deb010.md",
+      "kind": "official-document",
+      "bytes": 3280,
+      "sha256": "2c26a8ccf2801d98fa921300e4fb428e4ec61f1924d4a8567f24dd369432e1af",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useLinkClickHandler.md"
+    },
+    {
+      "path": "docs/api/hooks/useLoaderData.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/acda7f3914a9fa0e14eba787.md",
+      "kind": "official-document",
+      "bytes": 1226,
+      "sha256": "9b534c254d1e25d49584ad0260ff8b58db18616144bf328514eee6449648d96e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useLoaderData.md"
+    },
+    {
+      "path": "docs/api/hooks/useLocation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/ea564b0cd8aecba73bc1e6e2.md",
+      "kind": "official-document",
+      "bytes": 1208,
+      "sha256": "59504b20933f12991c974aafab9ecdf43602ebc37f43c8dd00cf8800f7dcdfbf",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useLocation.md"
+    },
+    {
+      "path": "docs/api/hooks/useMatch.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e7b164603e4a2872827c11fa.md",
+      "kind": "official-document",
+      "bytes": 1192,
+      "sha256": "7bd88e4265f51a7db26265826dc6ad5f41ed1b06ff63edb47b6d1bc6e2a1a780",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useMatch.md"
+    },
+    {
+      "path": "docs/api/hooks/useMatches.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/5e1d76175a5159c567141677.md",
+      "kind": "official-document",
+      "bytes": 1948,
+      "sha256": "e975580e171ea42611589457d42557ee859130535246db44d934fdad56532cf1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useMatches.md"
+    },
+    {
+      "path": "docs/api/hooks/useNavigate.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a629c49d40384ed2c470eeb8.md",
+      "kind": "official-document",
+      "bytes": 5956,
+      "sha256": "9f977d96a791e7b4e388d24c07e444c0fa377907a011d50834899e79265612bb",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useNavigate.md"
+    },
+    {
+      "path": "docs/api/hooks/useNavigation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/617c888e188db09d3f2e884d.md",
+      "kind": "official-document",
+      "bytes": 1272,
+      "sha256": "1e86d40cd72408f904611abf48c01c2b4e59eae72982a352ee1a81952bff1a64",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useNavigation.md"
+    },
+    {
+      "path": "docs/api/hooks/useNavigationType.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d22b17f989af1bda52ab88a7.md",
+      "kind": "official-document",
+      "bytes": 1179,
+      "sha256": "facc516f1f262af853f49d3a799aa4e0927bd38ec1bee4ae7a5fb9c0059f88ef",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useNavigationType.md"
+    },
+    {
+      "path": "docs/api/hooks/useOutlet.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/902fb8917374b1d13b22a88a.md",
+      "kind": "official-document",
+      "bytes": 949,
+      "sha256": "d29680226ceb03091ff8554da060e016102b4ceeeef411d228c21c97a1638d00",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useOutlet.md"
+    },
+    {
+      "path": "docs/api/hooks/useOutletContext.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b4adca78b38832efeaec7ff6.md",
+      "kind": "official-document",
+      "bytes": 2600,
+      "sha256": "0d93c04a232bab2644b16b9ae251ecec8d7b1367afbc8f8341d5abcc5ff8d777",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useOutletContext.md"
+    },
+    {
+      "path": "docs/api/hooks/useParams.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cf57e1d84bad8301c0bddf1b.md",
+      "kind": "official-document",
+      "bytes": 2617,
+      "sha256": "b9305b828d2fbef89dac42324fb6affc2b93cc7fe873695c48f9e35739352be9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useParams.md"
+    },
+    {
+      "path": "docs/api/hooks/usePrompt.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8b2f42e47ce8302d833b45f6.md",
+      "kind": "official-document",
+      "bytes": 2416,
+      "sha256": "8a4bf941dcc4d9f7136a497938d49ecc3b8c51306d1cc89e982031a35e0fc141",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/usePrompt.md"
+    },
+    {
+      "path": "docs/api/hooks/useResolvedPath.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/aea2ef75763a53f52d978b0e.md",
+      "kind": "official-document",
+      "bytes": 1660,
+      "sha256": "841f5f0bd9e274af825afd8bac9b5ee29dae906fdc5f5c963b3bd963903d09bd",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useResolvedPath.md"
+    },
+    {
+      "path": "docs/api/hooks/useRevalidator.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/41d694cbcbb60f78c13efbca.md",
+      "kind": "official-document",
+      "bytes": 1665,
+      "sha256": "d666b3b9a61e1a44bdf7dcacd6df7a28047cf111e4512a040de2e84747496598",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useRevalidator.md"
+    },
+    {
+      "path": "docs/api/hooks/useRouteError.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/95eb73eb25416128f8102026.md",
+      "kind": "official-document",
+      "bytes": 1196,
+      "sha256": "d635e248d71ee95c29d194bc038b8640436fdb53904025807b7516e1368f277a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useRouteError.md"
+    },
+    {
+      "path": "docs/api/hooks/useRouteLoaderData.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/593933d6779c921551e8cd20.md",
+      "kind": "official-document",
+      "bytes": 1739,
+      "sha256": "8bc2510589a6033174a0139d02244764722f8c890e458a0b7184c94a7b391319",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useRouteLoaderData.md"
+    },
+    {
+      "path": "docs/api/hooks/useRouterState.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b281834b2b1a3b5b4c34b029.md",
+      "kind": "official-document",
+      "bytes": 2603,
+      "sha256": "7a1ca9c29087fd8f07f8c675e13731bd01744f1f04c953f656dd6b5c9f9b00ce",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useRouterState.md"
+    },
+    {
+      "path": "docs/api/hooks/useRoutes.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/de65a3f9932293a59b212f4e.md",
+      "kind": "official-document",
+      "bytes": 1903,
+      "sha256": "17eb1efaba80d6b2d5f7db45e24488e42f1ae9be41a13581dc6cefcb6a1ecb13",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useRoutes.md"
+    },
+    {
+      "path": "docs/api/hooks/useSearchParams.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/afd8bf2cee0bb6d75d0fdf06.md",
+      "kind": "official-document",
+      "bytes": 3477,
+      "sha256": "b708dbc224257fba2625e6b7aad6898a6f4fda6f56de0a9de183c322f2430aef",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useSearchParams.md"
+    },
+    {
+      "path": "docs/api/hooks/useSubmit.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7cffeb31ffe57340de9d3256.md",
+      "kind": "official-document",
+      "bytes": 1255,
+      "sha256": "f4bfb4197d82e5403b91e105ca0ecc6a4b6db2ba9791e25c11c2978139692928",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useSubmit.md"
+    },
+    {
+      "path": "docs/api/hooks/useViewTransitionState.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/400d0a212e16148405e303a3.md",
+      "kind": "official-document",
+      "bytes": 2288,
+      "sha256": "505fe0e1602ab92c0412dbab73898d085e1cfe51ab4f4e81aa178a8385d98131",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/hooks/useViewTransitionState.md"
+    },
+    {
+      "path": "docs/api/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/363e82493e2e04f41b234969.md",
+      "kind": "official-document",
+      "bytes": 28,
+      "sha256": "eb41ba82c04c5b07b6bdb4ef84d9e007956e253a584f62b68b34f36e9ecfdc63",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/index.md"
+    },
+    {
+      "path": "docs/api/other-api/adapter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/998c02746fdfbdf9c2d58136.md",
+      "kind": "official-document",
+      "bytes": 6905,
+      "sha256": "4c95b7ad80cdd874f8f980d3794e8a3984be68128c9b4f0012b61f7c7903afd6",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/other-api/adapter.md"
+    },
+    {
+      "path": "docs/api/other-api/dev.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/496d83d59f6eb2b90465cd6d.md",
+      "kind": "official-document",
+      "bytes": 8779,
+      "sha256": "2dca7d43a2c9c71db63c5f0e829045b6ac400be2871ee2d5957e48cb26611939",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/other-api/dev.md"
+    },
+    {
+      "path": "docs/api/other-api/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/5c48fef2c569acae6bdb2f2b.md",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "0c4f9e422748b7a2d487de6557a0c08d6437175c42387549dda6886dcac9cd4c",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/other-api/index.md"
+    },
+    {
+      "path": "docs/api/other-api/serve.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/4630a88b579d72c64db87250.md",
+      "kind": "official-document",
+      "bytes": 4459,
+      "sha256": "bfc45a110feee0cb03a783b225631db16cfd566b9df1b7a784f923fd80cec983",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/other-api/serve.md"
+    },
+    {
+      "path": "docs/api/rsc/RSCHydratedRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/bfb22b05538c59d68e8c9368.md",
+      "kind": "official-document",
+      "bytes": 2531,
+      "sha256": "24d51cd4c932ca76b77194d21d214a7de7db9bab2e47617a8ab44574be9af9f4",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/RSCHydratedRouter.md"
+    },
+    {
+      "path": "docs/api/rsc/RSCStaticRouter.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/78d4a5b179752b151e1005e6.md",
+      "kind": "official-document",
+      "bytes": 2355,
+      "sha256": "0cec0005d422f4ee93cc18629c0ddbbff988f1614416e6f70bb7e607a873f1c7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/RSCStaticRouter.md"
+    },
+    {
+      "path": "docs/api/rsc/createCallServer.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/6ac06de47238888d79b28de2.md",
+      "kind": "official-document",
+      "bytes": 2210,
+      "sha256": "ad75e4c13991458db0917564f1d81122ea7b33069f3a6edf913b8590a772f423",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/createCallServer.md"
+    },
+    {
+      "path": "docs/api/rsc/getRSCStream.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/622265d6c3c1f6c49b328d97.md",
+      "kind": "official-document",
+      "bytes": 1783,
+      "sha256": "7fcbd98a24866ae6f19793b5bc05511d5d39ff809315016a0fb96f813d1653e0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/getRSCStream.md"
+    },
+    {
+      "path": "docs/api/rsc/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fdbdebbe9e2440989961b77f.md",
+      "kind": "official-document",
+      "bytes": 39,
+      "sha256": "85a8f58c9c156be49234ccc985d569a24eec92852ee56b6a7e12926273160776",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/index.md"
+    },
+    {
+      "path": "docs/api/rsc/matchRSCServerRequest.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/075a268afb829edab6c2462f.md",
+      "kind": "official-document",
+      "bytes": 5807,
+      "sha256": "1d564e45e4d760adf10b18cc09386a67e46fe2ccefb93e7a4da225d84008b22b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/matchRSCServerRequest.md"
+    },
+    {
+      "path": "docs/api/rsc/routeRSCServerRequest.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/4c42f50865274aa7a1674f3f.md",
+      "kind": "official-document",
+      "bytes": 3661,
+      "sha256": "cbbcc9c85b9dd04f6820f418cc8b734b1d3d3ef2725779ea8da55c63faa0a583",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/rsc/routeRSCServerRequest.md"
+    },
+    {
+      "path": "docs/api/utils/IsCookieFunction.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b14d7391e42bf0ca80bdaae6.md",
+      "kind": "official-document",
+      "bytes": 1026,
+      "sha256": "36b73b49775e682e6f680569936398f82503cc25d7cd13c4e5fc154106842f0a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/IsCookieFunction.md"
+    },
+    {
+      "path": "docs/api/utils/IsSessionFunction.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9e2a13c62c1548436d783029.md",
+      "kind": "official-document",
+      "bytes": 1036,
+      "sha256": "4a36e3880724fb12296ddbbca571e9a7b1514b9cd95372c576093c91eefe56d6",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/IsSessionFunction.md"
+    },
+    {
+      "path": "docs/api/utils/RouterContextProvider.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/bb316f60471858625d6be03a.md",
+      "kind": "official-document",
+      "bytes": 1092,
+      "sha256": "d10b510a55efd4939bd6cc9dc6ac316caab3bc555a1986ad03aa39f1a36abf4f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/RouterContextProvider.md"
+    },
+    {
+      "path": "docs/api/utils/createContext.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/98e226d1cc3f34da7b5e9301.md",
+      "kind": "official-document",
+      "bytes": 2597,
+      "sha256": "fb9af1d8b9f3470ed924a9b3706c824c4359d8669b70c3cd2863d66446f22283",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createContext.md"
+    },
+    {
+      "path": "docs/api/utils/createCookie.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e0ed0857ac8197d523ea4d1b.md",
+      "kind": "official-document",
+      "bytes": 913,
+      "sha256": "29bf2c7c31c5f9578b31e514b35144279185e5400990a39a1b47d72e4768a2d9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createCookie.md"
+    },
+    {
+      "path": "docs/api/utils/createCookieSessionStorage.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cc071e3275c0fb1caffe4dfa.md",
+      "kind": "official-document",
+      "bytes": 1448,
+      "sha256": "ee3553fb2761ebe20d23d14c55856a73b4c4994e52c0f4b3d8efe39b9d947825",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createCookieSessionStorage.md"
+    },
+    {
+      "path": "docs/api/utils/createMemorySessionStorage.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1775d94c26a84cf041b59b4f.md",
+      "kind": "official-document",
+      "bytes": 1271,
+      "sha256": "1ff15c79bb39a6648fba376b711a85b708d87756dcc5a8222d51bea197731033",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createMemorySessionStorage.md"
+    },
+    {
+      "path": "docs/api/utils/createPath.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cd96c406a0cebdd43cedffc7.md",
+      "kind": "official-document",
+      "bytes": 886,
+      "sha256": "19c0340b39814b33d924855a9c68af83b48c6359af9c952c72397d48fb33b3ca",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createPath.md"
+    },
+    {
+      "path": "docs/api/utils/createRoutesFromElements.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2e189ce09e3d105e94842aad.md",
+      "kind": "official-document",
+      "bytes": 1514,
+      "sha256": "6aaafb8a3816656f8dfb2b6e569e9168047df54c7698060009ad069eae0e4918",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createRoutesFromElements.md"
+    },
+    {
+      "path": "docs/api/utils/createRoutesStub.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/ee4014b3dc9a161ce59c6e68.md",
+      "kind": "official-document",
+      "bytes": 1238,
+      "sha256": "f7c06dff925c7991fd9ff8cc93c6a04215177492d80297ade59e15474419e225",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createRoutesStub.md"
+    },
+    {
+      "path": "docs/api/utils/createSearchParams.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f68129f328437854e208d31e.md",
+      "kind": "official-document",
+      "bytes": 1390,
+      "sha256": "f538e548394ab7ca2e8066470f1ced097589ee0749413ce98bf40b950c7abbab",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/createSearchParams.md"
+    },
+    {
+      "path": "docs/api/utils/data.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b6d23dd8104f0886efd036a3.md",
+      "kind": "official-document",
+      "bytes": 1321,
+      "sha256": "50d4908d14c2eaaf862547238427fb206b78571866b7d7ad462bc25bec49966a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/data.md"
+    },
+    {
+      "path": "docs/api/utils/generatePath.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/49ffddba666d22fed1c9c860.md",
+      "kind": "official-document",
+      "bytes": 1776,
+      "sha256": "5b28deb77b2294bbe9e7150a34b2fe25daa5cb19664436d8205c71b352abec84",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/generatePath.md"
+    },
+    {
+      "path": "docs/api/utils/href.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/040b91759763a7bb40d930c3.md",
+      "kind": "official-document",
+      "bytes": 1540,
+      "sha256": "71ca28e8fc480172d046e7a6fe64c57996c007230e5afbedf551166ac93d378d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/href.md"
+    },
+    {
+      "path": "docs/api/utils/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0567c884f4afbb9a9f22b8d7.md",
+      "kind": "official-document",
+      "bytes": 30,
+      "sha256": "6be5e4da50eee27e453531e70724561b0671fb1f5f877473e546b535e8b129d0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/index.md"
+    },
+    {
+      "path": "docs/api/utils/isCookie.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3e4e0767116d83e8813dfc8d.md",
+      "kind": "official-document",
+      "bytes": 904,
+      "sha256": "9b030433b9afa917d9bf28681c035ae17104605b9304306b2c215da72063345b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/isCookie.md"
+    },
+    {
+      "path": "docs/api/utils/isRouteErrorResponse.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/dbd591ed8a112081e9e61295.md",
+      "kind": "official-document",
+      "bytes": 1631,
+      "sha256": "c839bf183b6074dc4480f224c01d5c76a21e9b8fa63a4a763ba88711084e7ffd",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/isRouteErrorResponse.md"
+    },
+    {
+      "path": "docs/api/utils/isSession.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1c02acd0cdb9f5319221cd48.md",
+      "kind": "official-document",
+      "bytes": 912,
+      "sha256": "716b7ee2c5149f3b0ba6e7d1ee385d0aa1e9c081371fab8e98f6b358baac1f49",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/isSession.md"
+    },
+    {
+      "path": "docs/api/utils/matchPath.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f0a4dc59dbb51a633c8a56a2.md",
+      "kind": "official-document",
+      "bytes": 1304,
+      "sha256": "b0561d8cb05b0d9c814a5c48b2402b2191c3b71c5739b5df5a288ccb09d8e73f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/matchPath.md"
+    },
+    {
+      "path": "docs/api/utils/matchRoutes.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f43f2566f726abf6047db8f5.md",
+      "kind": "official-document",
+      "bytes": 1546,
+      "sha256": "0cafe5215e70cc615de39921de6991a87ca3342dc439d02666758553bdac44e7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/matchRoutes.md"
+    },
+    {
+      "path": "docs/api/utils/parsePath.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b82c749f13a9725bd63d45be.md",
+      "kind": "official-document",
+      "bytes": 843,
+      "sha256": "26f135a28b616e6dec65b2b6c37e6fbf7128a0bf76816b243a891255ffdd2646",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/parsePath.md"
+    },
+    {
+      "path": "docs/api/utils/redirect.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c2bda02492b1d5262a9a2b93.md",
+      "kind": "official-document",
+      "bytes": 1533,
+      "sha256": "cbc242c45b1b9ee0134fcb3e8db6c588c8785dbf5df8d3fcb98e29af933ed77f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/redirect.md"
+    },
+    {
+      "path": "docs/api/utils/redirectDocument.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/05b8fa5b9bd4101b259eeb56.md",
+      "kind": "official-document",
+      "bytes": 1793,
+      "sha256": "d1c1e43fa69b5edcad14105e1532d1559d093a36a1f385e7780bf8028dc76a5f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/redirectDocument.md"
+    },
+    {
+      "path": "docs/api/utils/renderMatches.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/63559d2addcaa8e71424dd2b.md",
+      "kind": "official-document",
+      "bytes": 1002,
+      "sha256": "d6439068cdfa1ada9eb3c58e729f8948a0016ad971572e5bbd132668d8ac3a7e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/renderMatches.md"
+    },
+    {
+      "path": "docs/api/utils/replace.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/60357d2b6205eb15cd7625a7.md",
+      "kind": "official-document",
+      "bytes": 1571,
+      "sha256": "05cb095f75a51a0f28f5ad8ab5257f44b76b8b7ba48a3a95b9a75f167335adb1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/replace.md"
+    },
+    {
+      "path": "docs/api/utils/resolvePath.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/012b5eeed663b4dfad5e2b9e.md",
+      "kind": "official-document",
+      "bytes": 1168,
+      "sha256": "245f85c839000a2a7aaec5c345c5ec7230ad46575b3c45879ef7cc42c4c1e191",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/api/utils/resolvePath.md"
+    },
+    {
+      "path": "docs/community/api-development-strategy.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0a7e45f143408cd9149dac90.md",
+      "kind": "official-document",
+      "bytes": 2275,
+      "sha256": "eea0bc4fb3e1da549ac248fb737d16191df6d8b7e523ebaf0dccad7db55eba7a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/community/api-development-strategy.md"
+    },
+    {
+      "path": "docs/community/contributing.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e47c48e8f0317724062520e8.md",
+      "kind": "official-document",
+      "bytes": 7029,
+      "sha256": "f620f91f44bc37b3fb59769449bee84dee6e7720ccc037568efc67b2ac184e2e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/community/contributing.md"
+    },
+    {
+      "path": "docs/community/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/ec7faf031141dbb6f8ecd9e3.md",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "a5707fdbd23cf9cf92dd1004c574561ccacbb7523765cc11816eb45bec0a0e82",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/community/index.md"
+    },
+    {
+      "path": "docs/elements.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/ef20c77a77d5b9b229d9f077.md",
+      "kind": "official-document",
+      "bytes": 5557,
+      "sha256": "c3adea75766b7333f75263a84805a11ec85dd176910495cd43bb1a56a82988a5",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/elements.md"
+    },
+    {
+      "path": "docs/explanation/backend-for-frontend.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d32d6dfbc614049cd1c4538b.md",
+      "kind": "official-document",
+      "bytes": 2336,
+      "sha256": "0467f084a4f271801166c2e86f408dcb9dd416feda8b3418bcc2d27fa38c343e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/backend-for-frontend.md"
+    },
+    {
+      "path": "docs/explanation/code-splitting.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/45134efd4faab1ef9baf7e86.md",
+      "kind": "official-document",
+      "bytes": 2568,
+      "sha256": "93f51fc03e7e780b71f85669f900ab1fe2914cad736de1005939d11e4ce4449e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/code-splitting.md"
+    },
+    {
+      "path": "docs/explanation/concurrency.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fb51548bf44db1ede6a352d8.md",
+      "kind": "official-document",
+      "bytes": 7603,
+      "sha256": "0b73885ee2600eda30151103a2849f7490530d527f0019c39d181e257cb1ce41",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/concurrency.md"
+    },
+    {
+      "path": "docs/explanation/form-vs-fetcher.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/36b70b94aa7082c21d70751d.md",
+      "kind": "official-document",
+      "bytes": 11630,
+      "sha256": "a931c4c46fcfc078e0dd5db08bf163ab992c77740b21528e6a10c20ffd2df56d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/form-vs-fetcher.md"
+    },
+    {
+      "path": "docs/explanation/hot-module-replacement.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9cb308671f8e53d69797af19.md",
+      "kind": "official-document",
+      "bytes": 4919,
+      "sha256": "dd87b3f97d7f7f3674bb38cfa1ced5e1c70029a6b9a2fa091719cbae09503b96",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/hot-module-replacement.md"
+    },
+    {
+      "path": "docs/explanation/hydration.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/af34608c5b3ecedb619b731a.md",
+      "kind": "official-document",
+      "bytes": 1216,
+      "sha256": "e82394712e6554df0b267e2dea59f828268454c3a4eb179f5b17ac42cdc05cba",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/hydration.md"
+    },
+    {
+      "path": "docs/explanation/index-query-param.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/20382b6acdba1e162cd0b0e2.md",
+      "kind": "official-document",
+      "bytes": 2656,
+      "sha256": "49ec1763f95f2251450c14b4d19b6b2e0fb163a0913b0b0e8b883b0d1eb13a5b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/index-query-param.md"
+    },
+    {
+      "path": "docs/explanation/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cce67a10cacf325832f22a34.md",
+      "kind": "official-document",
+      "bytes": 37,
+      "sha256": "783a831303405a7dec455fc4970e583d9f1524076cf03f2dafb71c3eb4e8e1af",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/index.md"
+    },
+    {
+      "path": "docs/explanation/lazy-route-discovery.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1cfb631d06ed4073480c34d4.md",
+      "kind": "official-document",
+      "bytes": 3323,
+      "sha256": "9db869215889f17c3bcd2ec9c33f11e47b3fed706413b41354f182386ef92057",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/lazy-route-discovery.md"
+    },
+    {
+      "path": "docs/explanation/location.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c36323d0213e07b9a2436664.md",
+      "kind": "official-document",
+      "bytes": 194,
+      "sha256": "d83b67966b30f4dbf5df8cabb09854091438187593ae83be663bf839a9f40052",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/location.md"
+    },
+    {
+      "path": "docs/explanation/progressive-enhancement.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7d904c1be25206cbe6cdb514.md",
+      "kind": "official-document",
+      "bytes": 6305,
+      "sha256": "fef14768b6f12d60cc88ea99280fe4e80ab5ea4d7c972db79960145b91383fd1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/progressive-enhancement.md"
+    },
+    {
+      "path": "docs/explanation/race-conditions.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e5849b390d3bf93dc70933e8.md",
+      "kind": "official-document",
+      "bytes": 3797,
+      "sha256": "b92aba4b278eb2f6fcb9421f119417539c7105aab92f98ecdb04e10edce304d9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/race-conditions.md"
+    },
+    {
+      "path": "docs/explanation/react-transitions.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9e589eca917847801ea0e9e4.md",
+      "kind": "official-document",
+      "bytes": 8731,
+      "sha256": "d880c0c2898cee806fc62248f1376ff7708be9471e533c4b03b3c4213cc452f7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/react-transitions.md"
+    },
+    {
+      "path": "docs/explanation/route-matching.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a1942ba7d6a9a2547a3a1eac.md",
+      "kind": "official-document",
+      "bytes": 139,
+      "sha256": "beaefa99bf9259679adad43964b673c89f893dfb84dcdeac4c2409175a3e01cb",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/route-matching.md"
+    },
+    {
+      "path": "docs/explanation/server-client-execution.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d3ceae3630dcebd9ada84a96.md",
+      "kind": "official-document",
+      "bytes": 61,
+      "sha256": "96ceda80e2f27f984954cd56e553ec42e96dc41921cbd81bca69119b79d3b706",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/server-client-execution.md"
+    },
+    {
+      "path": "docs/explanation/sessions-and-cookies.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0a48ebc66112c59d050f03fe.md",
+      "kind": "official-document",
+      "bytes": 19146,
+      "sha256": "e9c594fbce1d1a07b17b3697bcded28585b8f1f22042c4a46d414e286505d049",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/sessions-and-cookies.md"
+    },
+    {
+      "path": "docs/explanation/special-files.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/13af21b8c44edff655b6cd83.md",
+      "kind": "official-document",
+      "bytes": 939,
+      "sha256": "d212481b2c38f25d62b38d26598684c64071ef8e6a4601ec15f12ac844a4f6b1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/special-files.md"
+    },
+    {
+      "path": "docs/explanation/state-management.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a88cdab566704bbc4015e8c9.md",
+      "kind": "official-document",
+      "bytes": 18632,
+      "sha256": "6e46d53861798957d6ecf93d612d74feded8b8b3a499d89ec1ac3bf17aa44a0a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/state-management.md"
+    },
+    {
+      "path": "docs/explanation/styling.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/04fa8b95381a08435a78ee4d.md",
+      "kind": "official-document",
+      "bytes": 2614,
+      "sha256": "e495246f0a939f84bc999edf8e73b2effdbcaf3ac416e1bb54928c8b88e2d420",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/styling.md"
+    },
+    {
+      "path": "docs/explanation/type-safety.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3e6d3cc1bfe8d5e002a2de71.md",
+      "kind": "official-document",
+      "bytes": 2418,
+      "sha256": "7879c030a71ed7664a573da0204cf7de778b040fe18f5dcf7f8f44556fd1cdd7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/explanation/type-safety.md"
+    },
+    {
+      "path": "docs/how-to/accessibility.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3e3ebc6733b3bd7dcda38001.md",
+      "kind": "official-document",
+      "bytes": 2522,
+      "sha256": "94efe75459d35417386d997b9d7c8ea7f82b2fabe95d291aceda14c7c48c7fa9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/accessibility.md"
+    },
+    {
+      "path": "docs/how-to/client-data.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/4f61f77ae6d968ea544dd0ca.md",
+      "kind": "official-document",
+      "bytes": 5809,
+      "sha256": "e95562cf20f910a360f0bdee31da1da1e207ac41b53df59c670c8d2aa4d1a01e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/client-data.md"
+    },
+    {
+      "path": "docs/how-to/data-strategy.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/22862b9f2bf8db7b0bf55d96.md",
+      "kind": "official-document",
+      "bytes": 11266,
+      "sha256": "bf945ae340196bf8a604407cb90cf8657e52f61b30d1dc619ee1d8e053c02c55",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/data-strategy.md"
+    },
+    {
+      "path": "docs/how-to/error-boundary.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9e87a7fe4d5db7f1634cc1ac.md",
+      "kind": "official-document",
+      "bytes": 5997,
+      "sha256": "afd6b2b94c74077f913242b24016d2c61b490e4e0b21fcffe9e11c2b140a7ce0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/error-boundary.md"
+    },
+    {
+      "path": "docs/how-to/error-reporting.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9d245750349aff971389ace0.md",
+      "kind": "official-document",
+      "bytes": 3565,
+      "sha256": "ada8725fb3b09ab886c1599a7b749b7841ac15f9d3388aed4bbcb38456e4e613",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/error-reporting.md"
+    },
+    {
+      "path": "docs/how-to/fetchers.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/6bb0c101a91d791c4e14683b.md",
+      "kind": "official-document",
+      "bytes": 7828,
+      "sha256": "fecb9a80d7c6311e592a6f945afbc9ce42c9bf65cf4ef68bc74e32dd5980cc8c",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/fetchers.md"
+    },
+    {
+      "path": "docs/how-to/file-route-conventions.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/880067b5b6b534f5f6828644.md",
+      "kind": "official-document",
+      "bytes": 16567,
+      "sha256": "b3d23b9ea796ada05be290ebc21ca92ad1040211dd77695637a85a25255d7c11",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/file-route-conventions.md"
+    },
+    {
+      "path": "docs/how-to/file-uploads.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9a5f2c215114ab39f1f0770f.md",
+      "kind": "official-document",
+      "bytes": 5590,
+      "sha256": "ca1b151978fda8cf00cdd62828376a01382577eea8e498128a8c54cdb0559fbd",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/file-uploads.md"
+    },
+    {
+      "path": "docs/how-to/form-validation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1e75674f30522b282ea97c92.md",
+      "kind": "official-document",
+      "bytes": 3505,
+      "sha256": "f2752726c4a73c3e25c60818e45652c5e61b46f1d62918bdf9c47015e2d88eb7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/form-validation.md"
+    },
+    {
+      "path": "docs/how-to/headers.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9d4e56773662e1407b461929.md",
+      "kind": "official-document",
+      "bytes": 4135,
+      "sha256": "b3981f5227f5158264ce203d9b14ec2d08a0232b9d066496b9d786505dc4ff3e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/headers.md"
+    },
+    {
+      "path": "docs/how-to/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a62277b14aab6742697a72eb.md",
+      "kind": "official-document",
+      "bytes": 32,
+      "sha256": "85115c3b20c39b663c0ad75171d10860342e7d3300eb6e0efacbc3535a252ffe",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/index.md"
+    },
+    {
+      "path": "docs/how-to/instrumentation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/67e06241468c485da12c307e.md",
+      "kind": "official-document",
+      "bytes": 18427,
+      "sha256": "e387463de3cb53109dc5aa22559008f82f3a6a1f228c11eca97a2d595953f8d3",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/instrumentation.md"
+    },
+    {
+      "path": "docs/how-to/meta.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/607fa3fe54f8e746ac3acb8f.md",
+      "kind": "official-document",
+      "bytes": 1095,
+      "sha256": "915f2b9368abfaaca7a2aec9b13da88288fe144ad19a25d0435001662eaf3516",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/meta.md"
+    },
+    {
+      "path": "docs/how-to/middleware.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1e97652350d194e92402b072.md",
+      "kind": "official-document",
+      "bytes": 22845,
+      "sha256": "b0767dc5efcced23206b72bee7aaba4412d115df97adc391fb5177652c947399",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/middleware.md"
+    },
+    {
+      "path": "docs/how-to/navigation-blocking.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2b0a0a36a66cecb57d5dd61b.md",
+      "kind": "official-document",
+      "bytes": 5747,
+      "sha256": "ccadef179660f63b593a320d93c0c39462243fe00ab3baa092ca117ea3271e14",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/navigation-blocking.md"
+    },
+    {
+      "path": "docs/how-to/optimize-revalidation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d10c42ee95ea13069f762eda.md",
+      "kind": "official-document",
+      "bytes": 5621,
+      "sha256": "fa940d5332ce9bf96341099dda7f1eede6a42ed1a9bf4c71bda41e645c8850b6",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/optimize-revalidation.md"
+    },
+    {
+      "path": "docs/how-to/pre-rendering.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2f735c4146711919e6e1d142.md",
+      "kind": "official-document",
+      "bytes": 8883,
+      "sha256": "311066a6ffed9251b07c621d2d9f3fcb79f5aea346732f9de2213fb56432b313",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/pre-rendering.md"
+    },
+    {
+      "path": "docs/how-to/presets.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a4fb8fb462ef1b9fecc57935.md",
+      "kind": "official-document",
+      "bytes": 3051,
+      "sha256": "c7e285d5bb6fe927daab64332c01ac05bbe8693e4dba5f8d3ddf067d217dcd71",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/presets.md"
+    },
+    {
+      "path": "docs/how-to/react-server-components.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a99b10ddcb705b229afd6fe7.md",
+      "kind": "official-document",
+      "bytes": 32072,
+      "sha256": "bbb05cfa87036ff80c013fff22b7860ca57fac9c40930540fe2c82b3cb6a2130",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/react-server-components.md"
+    },
+    {
+      "path": "docs/how-to/resource-routes.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2f6a1c3170cfc13a88968aad.md",
+      "kind": "official-document",
+      "bytes": 4583,
+      "sha256": "8c3e1d5dcd387686a18df8d592081908babeba954ba5732b42134db348d4c080",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/resource-routes.md"
+    },
+    {
+      "path": "docs/how-to/route-module-type-safety.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3a7d7c5cdcc23e1bdee6695c.md",
+      "kind": "official-document",
+      "bytes": 3139,
+      "sha256": "8731681b5f2a65e582eabb200ffbf0c0f6f2f7758cce093fff0b1e30f2f54853",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/route-module-type-safety.md"
+    },
+    {
+      "path": "docs/how-to/search-params.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/5c79f730cd5e353d935c7879.md",
+      "kind": "official-document",
+      "bytes": 48,
+      "sha256": "a1ccf1320eb9def3b1344cd5faf955b93a019f28b70db7a90aa0be78d6bf032d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/search-params.md"
+    },
+    {
+      "path": "docs/how-to/security.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cc8776de1ece40475c1ff918.md",
+      "kind": "official-document",
+      "bytes": 2127,
+      "sha256": "1362f18680df737c1c308b0b743ad23dceb4da2e38fb756b8314ea248ccd191f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/security.md"
+    },
+    {
+      "path": "docs/how-to/server-bundles.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fb61dd9a06052cc1dcb201a7.md",
+      "kind": "official-document",
+      "bytes": 3428,
+      "sha256": "0e14c20394688014d345cddd122401b39041d364ed64640fbe3947ddc822778c",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/server-bundles.md"
+    },
+    {
+      "path": "docs/how-to/spa.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1cd3657737e40119137d75ce.md",
+      "kind": "official-document",
+      "bytes": 4869,
+      "sha256": "04e07689af162800f011e5ed09879fb28bd8c0f29e0e8226b29dddcb80a8cc15",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/spa.md"
+    },
+    {
+      "path": "docs/how-to/status.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e1dc9b3400f8181cea01f71b.md",
+      "kind": "official-document",
+      "bytes": 1527,
+      "sha256": "90059e2b21037e3602c300fa2646b9f8b6608067c14ed9b46fa6ee52b4745952",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/status.md"
+    },
+    {
+      "path": "docs/how-to/suspense.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/387f84394412d13d4c49ac53.md",
+      "kind": "official-document",
+      "bytes": 4056,
+      "sha256": "cc6af913ef83fd7f56b1d175b524c236bee3037ddaec51c4e7e6830e1c6b2166",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/suspense.md"
+    },
+    {
+      "path": "docs/how-to/using-handle.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cb6b77003e5677f19a3640ba.md",
+      "kind": "official-document",
+      "bytes": 3170,
+      "sha256": "720735192ab0c2d7128b221cd1084af3959ce539764d393d67981b41fc4aa606",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/using-handle.md"
+    },
+    {
+      "path": "docs/how-to/view-transitions.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e653d23f88f2d1b34d9f054d.md",
+      "kind": "official-document",
+      "bytes": 9554,
+      "sha256": "600c46bd9ea3a5c84f5cb664e5e7d13a548df332f65085620507c66be2db676e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/view-transitions.md"
+    },
+    {
+      "path": "docs/how-to/webhook.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fcc1a5bfb8aa6157b5e3a09e.md",
+      "kind": "official-document",
+      "bytes": 1224,
+      "sha256": "45c6e3ba655c8b9f14db2ea5357ef6b1c4c38ad1994db1a4b1894680212e6003",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/how-to/webhook.md"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 970,
+      "sha256": "b559541c666eaf06d2d4fe48c675721996b96774a8b1874d5cbed0610c453705",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/index.md"
+    },
+    {
+      "path": "docs/start/data/actions.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8ea66b534ac7324d38875737.md",
+      "kind": "official-document",
+      "bytes": 3352,
+      "sha256": "efbaaa0aa969b027787ae4f6a228b9c404222cfb258024c15c5b05fb056944b8",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/actions.md"
+    },
+    {
+      "path": "docs/start/data/custom.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b18e1661b5c7182a3e306d6e.md",
+      "kind": "official-document",
+      "bytes": 5102,
+      "sha256": "27c4f7dcabe66119123ba3b9f92fdb1fe40e1b6f88143f87dbcf0a28965cc226",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/custom.md"
+    },
+    {
+      "path": "docs/start/data/data-loading.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f0df2689df160776b42e0af2.md",
+      "kind": "official-document",
+      "bytes": 723,
+      "sha256": "49726268c7ff493252e328e0f41e91082984734b7cd91effb258ea1aba9bec07",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/data-loading.md"
+    },
+    {
+      "path": "docs/start/data/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e41304093e13c59c22f9ba40.md",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "459d1ed605ae39d854fb00d0c86cf04b957d8c29b9aa8d8f6747a4562c657f61",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/index.md"
+    },
+    {
+      "path": "docs/start/data/installation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/773b9c55e852da52e74920f6.md",
+      "kind": "official-document",
+      "bytes": 1207,
+      "sha256": "a1a352f65e201896f2633adc7256cff06075b36afa0550fd8b544862ed019992",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/installation.md"
+    },
+    {
+      "path": "docs/start/data/navigating.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/1b3af4b8681ed6c1caa60000.md",
+      "kind": "official-document",
+      "bytes": 225,
+      "sha256": "260ed93b588b8df0375dfbb29a6047a1df03c0a78d7c4655f14ffd85f1bfa044",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/navigating.md"
+    },
+    {
+      "path": "docs/start/data/pending-ui.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2d125ab3744c1250e6d10238.md",
+      "kind": "official-document",
+      "bytes": 214,
+      "sha256": "8085b4101a8e6aec823eb4a817cc552504cc5460bf2483cd7d0ee74eba766e7b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/pending-ui.md"
+    },
+    {
+      "path": "docs/start/data/route-object.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8bde56eeba235f327f0fbc2b.md",
+      "kind": "official-document",
+      "bytes": 6418,
+      "sha256": "392bb3746639f4c5497c235fc58124d540a8e1382d99ae291cbdb5e554e88cb0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/route-object.md"
+    },
+    {
+      "path": "docs/start/data/routing.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3ac48d5929bc8be84b14fef9.md",
+      "kind": "official-document",
+      "bytes": 6198,
+      "sha256": "7166a79c9181dbf643bdf26fbeba74f5858f12e69d0f9165a1cd53e6a96540df",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/routing.md"
+    },
+    {
+      "path": "docs/start/data/testing.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c2066c6e0dad8dbbd0038f1f.md",
+      "kind": "official-document",
+      "bytes": 163,
+      "sha256": "2c6903bb5ab97f7969f6c2b7cb7f49bc1ac310078003d6fc77108244e27faec4",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/data/testing.md"
+    },
+    {
+      "path": "docs/start/declarative/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fee7a6f794159cc03805e82c.md",
+      "kind": "official-document",
+      "bytes": 41,
+      "sha256": "506f63354f856702beb9a62f783888922ebc5e37a67fa1ce7ae78bf34f06cff0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/declarative/index.md"
+    },
+    {
+      "path": "docs/start/declarative/installation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/256eeed07d37b8783e4f8d19.md",
+      "kind": "official-document",
+      "bytes": 749,
+      "sha256": "2a25bbd91a4e129973ae86fb3392e900eae655f0234e37d5b259ec2e9bef5cd9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/declarative/installation.md"
+    },
+    {
+      "path": "docs/start/declarative/navigating.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b808c51aca71e63ada4138db.md",
+      "kind": "official-document",
+      "bytes": 2526,
+      "sha256": "7ca6487eb1900490c0c814d7cd0723f203df85d479146fdb9471bd8fcc521732",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/declarative/navigating.md"
+    },
+    {
+      "path": "docs/start/declarative/routing.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/37afc8fcd55226da548979dc.md",
+      "kind": "official-document",
+      "bytes": 5703,
+      "sha256": "30cb5818d45b77cc815981fca9a5843b074061c35081f36cd13c04fc8effe4c4",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/declarative/routing.md"
+    },
+    {
+      "path": "docs/start/declarative/url-values.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/5642ae0d04f3c7baee6fa642.md",
+      "kind": "official-document",
+      "bytes": 1380,
+      "sha256": "591085cde6cc4fd3a5fcf248ad99912951d734854611dcdb215a21b2b441cf7b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/declarative/url-values.md"
+    },
+    {
+      "path": "docs/start/framework/actions.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/069a0ef376bc1011fc09712f.md",
+      "kind": "official-document",
+      "bytes": 4543,
+      "sha256": "82e1936b27f604a6f7c9553d187e73ceb8348add9b307504696905a478e10d14",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/actions.md"
+    },
+    {
+      "path": "docs/start/framework/data-loading.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a2a692bda5100b1806157a95.md",
+      "kind": "official-document",
+      "bytes": 5612,
+      "sha256": "f0e4f455782b61969e164eb6c5b3a8ba409b2de4319d2df6ba72b7398c35ad43",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/data-loading.md"
+    },
+    {
+      "path": "docs/start/framework/deploying.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f303a464ca264a30e9dd86f2.md",
+      "kind": "official-document",
+      "bytes": 3087,
+      "sha256": "529565388ae8567c6a2e6efd06048a3000bef794f639c3a47514fb86791afefe",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/deploying.md"
+    },
+    {
+      "path": "docs/start/framework/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c4b94f0156ddd7a1e8666252.md",
+      "kind": "official-document",
+      "bytes": 39,
+      "sha256": "08024a58fd45d2c9265ff5d949dadc10874eaf1477744e2d489ad530291ad148",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/index.md"
+    },
+    {
+      "path": "docs/start/framework/installation.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b3d032903a6363e9dbd71183.md",
+      "kind": "official-document",
+      "bytes": 984,
+      "sha256": "a7a7f85bb5b5b3a6c9857f2f645f6cef5f2d30f7860f1ce5d98fefd27d837b17",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/installation.md"
+    },
+    {
+      "path": "docs/start/framework/navigating.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0309baf370cc2480020152fe.md",
+      "kind": "official-document",
+      "bytes": 3806,
+      "sha256": "46896147a18379372e56cdd1442bfa3dbf90f5689ee2a6ec5db481fce67bdbfe",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/navigating.md"
+    },
+    {
+      "path": "docs/start/framework/pending-ui.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/968e76bc6124dae3c7f8a9a5.md",
+      "kind": "official-document",
+      "bytes": 3418,
+      "sha256": "c199ba34ae04f524e275ab912d393105bc3d093dffd57cd5237a0bc3af834abc",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/pending-ui.md"
+    },
+    {
+      "path": "docs/start/framework/rendering.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8e761030756da02281bc4cba.md",
+      "kind": "official-document",
+      "bytes": 1631,
+      "sha256": "e22345a81c6defb1f9bfecb6e89cda9856303f51e92dbf4a509cdbfd7b45f266",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/rendering.md"
+    },
+    {
+      "path": "docs/start/framework/route-module.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/79923016376b470f5b72e331.md",
+      "kind": "official-document",
+      "bytes": 15337,
+      "sha256": "677cbba09f58f04a6c303c4f7be11207e745763e5d8058578f4c3a60825535ad",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/route-module.md"
+    },
+    {
+      "path": "docs/start/framework/routing.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2cbadc007a34457dec7852ac.md",
+      "kind": "official-document",
+      "bytes": 9041,
+      "sha256": "fa4bcc1d0507b5641d8988765f54f0bbc0095b38f02fdc26fb72aba68253d9f8",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/routing.md"
+    },
+    {
+      "path": "docs/start/framework/testing.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/21f84642cd78b5def127f917.md",
+      "kind": "official-document",
+      "bytes": 5019,
+      "sha256": "e458b7714aa19b6f1f4dda83de85565e545320253b3de68d29098b3a5aeb3856",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/framework/testing.md"
+    },
+    {
+      "path": "docs/start/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/671f7b8e423fe23f9ff14468.md",
+      "kind": "official-document",
+      "bytes": 40,
+      "sha256": "e687d4a798bf147247f402621121fe18e8e11e40325aadc4879d38bda139c7fa",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/index.md"
+    },
+    {
+      "path": "docs/start/modes.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d9cafae9c028a9ed95ee9091.md",
+      "kind": "official-document",
+      "bytes": 8965,
+      "sha256": "476cfe3c8f769fa7a20ae1b488587b6b9c27079e63edbeb915c11d179eeab93d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/start/modes.md"
+    },
+    {
+      "path": "docs/tutorials/address-book.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a475cdd83cbd07ba705bc81b.md",
+      "kind": "official-document",
+      "bytes": 63576,
+      "sha256": "9196b8550eec2eb30c091415a6cccae57059e901f6de4488cec982e303a97309",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/tutorials/address-book.md"
+    },
+    {
+      "path": "docs/tutorials/advanced-data-fetching.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7cd7555c2a954112aaf0f3f9.md",
+      "kind": "official-document",
+      "bytes": 184,
+      "sha256": "02bfbee2d509756c90cd12bb4956ad83b934d0556d5b8284ff9de47fa88c13dc",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/tutorials/advanced-data-fetching.md"
+    },
+    {
+      "path": "docs/tutorials/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c98a453215f3174fd6bd12ea.md",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "1d3e1ca1ebc28e439fb5918347667916a694cb5aaaa78263de4a5a54d762841d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/tutorials/index.md"
+    },
+    {
+      "path": "docs/tutorials/quickstart.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b61115e8b9dc0177f1f94266.md",
+      "kind": "official-document",
+      "bytes": 9398,
+      "sha256": "133082d70a5487d57720dde4b155969276daad0cbc9b980b3319ec8d976d33b9",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/tutorials/quickstart.md"
+    },
+    {
+      "path": "docs/upgrading/component-routes.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/aa29848cceb75b28c33b486a.md",
+      "kind": "official-document",
+      "bytes": 9562,
+      "sha256": "9987da6f24811db93b939b61b64f9036116654db7329d5bb256c91fb7c1449eb",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/upgrading/component-routes.md"
+    },
+    {
+      "path": "docs/upgrading/future.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/cc20d9897315926d15d9753c.md",
+      "kind": "official-document",
+      "bytes": 6744,
+      "sha256": "26a6a64aee10ca6158013620913102538a2234e34779405a56a7184f380e15b5",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/upgrading/future.md"
+    },
+    {
+      "path": "docs/upgrading/index.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/9b878b1fa3977efa6d2db241.md",
+      "kind": "official-document",
+      "bytes": 34,
+      "sha256": "612c1c7119d51258e4633af2abe991533be3ffcae7d7ba23fda887ac1d490219",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/upgrading/index.md"
+    },
+    {
+      "path": "docs/upgrading/router-provider.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0d22f1a63725466a63564e17.md",
+      "kind": "official-document",
+      "bytes": 11603,
+      "sha256": "9cd56d5b48d1c471f99332e80227eeee292ff4b61f5ef7bb4451d4df1c8bac4d",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/upgrading/router-provider.md"
+    },
+    {
+      "path": "docs/upgrading/v7.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/7e79656aaf9087e78de2a3cd.md",
+      "kind": "official-document",
+      "bytes": 14269,
+      "sha256": "eb6500a4e834d059fe2d799a3f1ca32fb2395ad97055677e88b82c88272204a7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/docs/upgrading/v7.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 200,
+      "sha256": "3bbee933592ca001c3fe1e372b51558568565c033203f4070d36611673a2784f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/examples/README.md"
+    },
+    {
+      "path": "integration/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/380cfd6c30f4632a0d4d3765.md",
+      "kind": "official-document",
+      "bytes": 409,
+      "sha256": "39f1dcfdff20d935353622e6d43c75890a307641dce050b01ad1da97adcd65fa",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/integration/CHANGELOG.md"
+    },
+    {
+      "path": "packages/create-react-router/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/272a998c5ddbf480ef833ebb.md",
+      "kind": "official-document",
+      "bytes": 3779,
+      "sha256": "7e42b031faea5c3750c91e20b8b619dd5ce5c0f7731dacdb3ad2518027a9b43f",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/create-react-router/CHANGELOG.md"
+    },
+    {
+      "path": "packages/create-react-router/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8ef3b8ce26afb3b88adb491e.md",
+      "kind": "official-document",
+      "bytes": 66,
+      "sha256": "d00166064307ea6f28b34e1bb88f73ba49348d6f78b64b5d8cc000959af4cbb0",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/create-react-router/README.md"
+    },
+    {
+      "path": "packages/react-router-architect/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/6cf33996252371f15f04ae39.md",
+      "kind": "official-document",
+      "bytes": 11911,
+      "sha256": "1f457a8c19db251f38807714d1e5f2b2077f77efc3d310b3bcd1302da650b3d3",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-architect/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-architect/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/b02eb640f03710bd58cd47cc.md",
+      "kind": "official-document",
+      "bytes": 121,
+      "sha256": "6ba097bb068374dcd722381230f7c729b7e29b94b9908a7209a5bff3f14787fd",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-architect/README.md"
+    },
+    {
+      "path": "packages/react-router-cloudflare/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/30b7c6d46b5adff81c013fd1.md",
+      "kind": "official-document",
+      "bytes": 9213,
+      "sha256": "c68f2f348fb67b718af6423acb280a97ccf4d379852a93abf94c34d371ac1f66",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-cloudflare/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-cloudflare/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/f1913901bd042a41e4982f04.md",
+      "kind": "official-document",
+      "bytes": 126,
+      "sha256": "3390434791bfbd2b14de53690b5c346e042fe7be5d55dd3178b6b2b1ad8afd9a",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-cloudflare/README.md"
+    },
+    {
+      "path": "packages/react-router-dev/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/8409ce0ca8a8e2517103b295.md",
+      "kind": "official-document",
+      "bytes": 164938,
+      "sha256": "3a026b5f6a1f1efeaec7424e4e7242db0f717f4e6682b02a73d0e2fc0639329c",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-dev/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-dev/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3eb24bb2b78fdf809c129466.md",
+      "kind": "official-document",
+      "bytes": 196,
+      "sha256": "abe704cfb65829898025573e10f36be131dbef70add1a538ad7e639a08222f7b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-dev/README.md"
+    },
+    {
+      "path": "packages/react-router-express/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/54ca4019b5bbe378233c9493.md",
+      "kind": "official-document",
+      "bytes": 19228,
+      "sha256": "5d4ae453e569cb047d350a50c7433e3a2d7ff80a36b525456da2b96016b4e0b1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-express/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-express/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/0857bfdabe4c7b10a1a596d4.md",
+      "kind": "official-document",
+      "bytes": 119,
+      "sha256": "ab90492354e1ebfa33ddf698d3581497d9b5336ef5c04597135e30775c6a5846",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-express/README.md"
+    },
+    {
+      "path": "packages/react-router-fs-routes/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3feacbf243cc422cd06eb433.md",
+      "kind": "official-document",
+      "bytes": 6675,
+      "sha256": "37cbae50487917daf894dcd1c1500e0a41a81280bce1ff4206dfde72d05b8450",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-fs-routes/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-fs-routes/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/09f4a0bf2c9a1326ab200212.md",
+      "kind": "official-document",
+      "bytes": 96,
+      "sha256": "b311dd5214001cacc4457efa8ea5f1883ab875228e28b7e58217926ba4c54143",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-fs-routes/README.md"
+    },
+    {
+      "path": "packages/react-router-node/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/28f3be528ec058e7b7933ac1.md",
+      "kind": "official-document",
+      "bytes": 27818,
+      "sha256": "10a1018e803fe9c39b761f4bd88c0c59978a8bcc6a0a6a30ffedd73c5d9d46f7",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-node/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-node/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/2512eb767ac81a6599fb4cc1.md",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "136f0046ee40ea604371df92054ad21e79c736abed317d44fc60def997ed7292",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-node/README.md"
+    },
+    {
+      "path": "packages/react-router-remix-routes-option-adapter/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/3f7d9d455a53423413a23c4c.md",
+      "kind": "official-document",
+      "bytes": 6370,
+      "sha256": "bd9b47143596a5ca1c1057ccf91515d046070834cae35f66657a2db6cb366b2b",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-remix-routes-option-adapter/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-remix-routes-option-adapter/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d468963f1a8a3ef0828c8a4c.md",
+      "kind": "official-document",
+      "bytes": 203,
+      "sha256": "4e22ac8b9e5e6d7b78eb5868b383b7a8004f0e0bac8b618fefde0cbaa122084e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-remix-routes-option-adapter/README.md"
+    },
+    {
+      "path": "packages/react-router-serve/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/d63ab840f4be557d8236f380.md",
+      "kind": "official-document",
+      "bytes": 26312,
+      "sha256": "0cc5c758ab88dbd982f41d79fa096dc200aa54a2ac2ac65f2f86addb3eef9968",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-serve/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router-serve/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/c1faad07fce31ec2f1d8de4e.md",
+      "kind": "official-document",
+      "bytes": 87,
+      "sha256": "09bc1fe33258edbb1073c13d5b0e6b1dad36e7a12439ee3c7b0dc6ca09b7d91e",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router-serve/README.md"
+    },
+    {
+      "path": "packages/react-router/CHANGELOG.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/fee0116f5c691b92a9ef7df7.md",
+      "kind": "official-document",
+      "bytes": 153753,
+      "sha256": "9a1c71f70ef76f3d654e4fff5184a6ed3964e3951ee165e1fe620e1b09734c31",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router/CHANGELOG.md"
+    },
+    {
+      "path": "packages/react-router/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/a80bdc900ee7e46991b21e19.md",
+      "kind": "official-document",
+      "bytes": 114,
+      "sha256": "3e91f66667ae658a6719a99508e2e99bf5c3ef5bc6387fcef9512a7aded068d8",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/packages/react-router/README.md"
+    },
+    {
+      "path": "tutorials/address-book/README.md",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/794f31162affc2e8e47a9898.md",
+      "kind": "official-document",
+      "bytes": 617,
+      "sha256": "af925fe1d68a4d20ccc8f6fb6937590c12f41a724b9c01b9d224b7f6f5578681",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/tutorials/address-book/README.md"
+    },
+    {
+      "path": "tutorials/address-book/app/data.ts",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/e474d929236409ad1ac83ac9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 8330,
+      "sha256": "f94595d2668fd60e5ab85f02076b2d1de56f5e6a0360056465937721ab9d94f6",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/tutorials/address-book/app/data.ts"
+    },
+    {
+      "path": "tutorials/address-book/app/root.tsx",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/753f4f41ce39e6b71912edda.tsx",
+      "kind": "upstream-example-code",
+      "bytes": 2577,
+      "sha256": "d71832a6163ee43683066834e55f3f220f80057bcf52e8deb50b5dd7459e4014",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/tutorials/address-book/app/root.tsx"
+    },
+    {
+      "path": "tutorials/address-book/app/routes.ts",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/398eada0033d4b5e80f1eb9a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 103,
+      "sha256": "8538f67e31d35550f7429db8ec590db627d572dd2ab32471b38f12c4eb45ac37",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/tutorials/address-book/app/routes.ts"
+    },
+    {
+      "path": "tutorials/address-book/react-router.config.ts",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/41ebfd913e02f63edffde81a.ts",
+      "kind": "upstream-example-code",
+      "bytes": 108,
+      "sha256": "f6fc1a65ba88e38fae241059c713b6b934f9b922de708dec4d7bf8037cd692e1",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/tutorials/address-book/react-router.config.ts"
+    },
+    {
+      "path": "tutorials/address-book/vite.config.ts",
+      "localPath": "raw/remix-run--react-router/a6090382ed46/6d6046c0323e2036b0d0e5b9.ts",
+      "kind": "upstream-example-code",
+      "bytes": 154,
+      "sha256": "cf7425961c9bde238d98875f6926ed63a82d655ee1eedde5d052875196a87fd5",
+      "sourceUrl": "https://github.com/remix-run/react-router/blob/a6090382ed467b5a2d46c8de1a13b331f14959f8/tutorials/address-book/vite.config.ts"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

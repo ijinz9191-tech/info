@@ -1,0 +1,1657 @@
+{
+  "schemaVersion": 1,
+  "repo": "cubeFS/cubefs",
+  "commit": "ca5609b0af9108ef2eda825827e2f43fba65f596",
+  "retrievedAt": "2026-10-01T15:16:30.860259+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Runtime/Cloud Native Storage"
+  ],
+  "archiveUrl": "https://codeload.github.com/cubeFS/cubefs/zip/ca5609b0af9108ef2eda825827e2f43fba65f596",
+  "archiveSha256": "bfc21911590e70439373a9c25d3e872ac0339f783cdc4579f84bb3dcfebd513e",
+  "archiveBytes": 58276741,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 143,
+    "code": 39,
+    "licenses": 22,
+    "bytes": 2657972
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 5591,
+      "sha256": "8c3ca021b99fb479d35e588fd9b4872e215c87717a0613f675a896fe465719ba",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/ADOPTERS.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 107133,
+      "sha256": "2a8c6d23e54d82c734b0b28da77fa1f2080955aa94bd2378fe9bd956326f6ac8",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/CHANGELOG.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 138,
+      "sha256": "ff31cdce3dcd7ff2920135f9a9f126e3f796c926c6998eee59d8fd30165e92d5",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 6150,
+      "sha256": "bf529a19c573f0bb92d29b2f20f7d3d2b0730f3b25bd56986337659c16421c52",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/CONTRIBUTING.md"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b60c6a93e9f74ee52e71bf33.md",
+      "kind": "official-document",
+      "bytes": 22772,
+      "sha256": "5fec45f17b1c51cfe37c0c339c8f334d7c187c5c19d8bb79ebb1e46269fa8074",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/GOVERNANCE.md"
+    },
+    {
+      "path": "GOVERNANCE_CN.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/a2d3cf8ee58466908b667d19.md",
+      "kind": "official-document",
+      "bytes": 18338,
+      "sha256": "65aceca2bcc5d249cb6da0e704189cbdd6c4bca0b4bac8e22bb29d422e6361f9",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/GOVERNANCE_CN.md"
+    },
+    {
+      "path": "HELM.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/bfbe41e3c9bd81c912968ef0.md",
+      "kind": "official-document",
+      "bytes": 1695,
+      "sha256": "fdc0468b5ed0c535a3e18b80f620b64be7872e7eea1a0f1ed3df3128b2b7af3f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/HELM.md"
+    },
+    {
+      "path": "INSTALL.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/09b140a43ebfdd8dbec31ce7.md",
+      "kind": "official-document",
+      "bytes": 4133,
+      "sha256": "857c02355a23860818250b64692c8faa95ff45f7108c371d9af6c4915a8d25af",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/INSTALL.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11352,
+      "sha256": "20b2a384c46a0a0a1c839e8481fb6f260026c8b3048139cd0f35c863ef5493df",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/LICENSE"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/39da3bd6270d44ea37b6ed50.md",
+      "kind": "official-document",
+      "bytes": 9794,
+      "sha256": "4669c0d3f72f3c0af2dd9bb957a57775b278052f0a63d9d1e89ac39d35d9d987",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/MAINTAINERS.md"
+    },
+    {
+      "path": "NOTICE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/dfb14fbb9e7d095209ec4cfd.txt",
+      "kind": "license",
+      "bytes": 695,
+      "sha256": "27e55337f2c40062012eb07bcbfa1cb47315bd2e57ba7ede3f9f12a8cf232eff",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/NOTICE"
+    },
+    {
+      "path": "OWNERS.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/403b96de276ed29c25c2559e.md",
+      "kind": "official-document",
+      "bytes": 99,
+      "sha256": "ea6a0b0093b7609c06d88ed3cdd523cfc1ea80585f193798bbbe20fafb0da797",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/OWNERS.md"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 7127,
+      "sha256": "55e22d60382ab14115dc72253c5c6c51ee6e4710dca3b6dbf68da4e5670d4876",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/README.md"
+    },
+    {
+      "path": "RELEASE.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/2b1b69303b927a484e02c7fa.md",
+      "kind": "official-document",
+      "bytes": 2737,
+      "sha256": "177d591704a9fedac38ba97dcc5379b129882393c3d22e5f11199ee49f1b4295",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/RELEASE.md"
+    },
+    {
+      "path": "ROADMAP.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/683343bdf93f55ed3cada861.md",
+      "kind": "official-document",
+      "bytes": 1052,
+      "sha256": "62b11ce91f59094f94e42d91c3fe81def66b81fdccc553a45635e2be491461f1",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/ROADMAP.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 2391,
+      "sha256": "fd0d4e3bf97dc51bb7bc9a2f79e22165ae06bbcb137f3d7c4cf86bcef671e87a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/SECURITY.md"
+    },
+    {
+      "path": "UPDATE.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/cc684c7cbd5f294cb300154b.md",
+      "kind": "official-document",
+      "bytes": 3030,
+      "sha256": "d07a244d6e21ad3aa3300bc0d6b54e19f8d479fcfb188b10e1a23676674a5f67",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/UPDATE.md"
+    },
+    {
+      "path": "blobstore/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/fd432c4a05209dd2dcedd4a2.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/LICENSE"
+    },
+    {
+      "path": "blobstore/common/rpc/example/app.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f947543ec6ca695c06e6d8e4.go",
+      "kind": "upstream-example-code",
+      "bytes": 10999,
+      "sha256": "daa88c0f3d4a8015d4499e348e0a03e2a1b40591d7da0c7fc1e1f5e6ed55cf7c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc/example/app.go"
+    },
+    {
+      "path": "blobstore/common/rpc/example/client.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/31b6789ce25262f0ed413bbc.go",
+      "kind": "upstream-example-code",
+      "bytes": 2722,
+      "sha256": "11252c2cc68fab2b4bdb9dc0436eed20152ff2c1518474928442bd9309fbc8f0",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc/example/client.go"
+    },
+    {
+      "path": "blobstore/common/rpc/example/file.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/674f75a73ff81161d3935dd4.go",
+      "kind": "upstream-example-code",
+      "bytes": 2665,
+      "sha256": "928e6126caa6ae377b0a153209bc1979baaf691440c1f7d4345c52b43ac13d72",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc/example/file.go"
+    },
+    {
+      "path": "blobstore/common/rpc/example/main/main.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e1e98b8d0f7182cb67b50895.go",
+      "kind": "upstream-example-code",
+      "bytes": 2676,
+      "sha256": "70cf8f69f3f6848b0cc426ec16c05d60c912a4aa3dc68d13b44d63b358c04c9c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc/example/main/main.go"
+    },
+    {
+      "path": "blobstore/common/rpc/example/service.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/56ce6529afd86cd0173a5747.go",
+      "kind": "upstream-example-code",
+      "bytes": 3883,
+      "sha256": "fb664f6bbda3f0a1d5364a08e0ed2bde761f67be10bddc6a95c9157a89f97db7",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc/example/service.go"
+    },
+    {
+      "path": "blobstore/common/rpc2/example/client.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d501f86c1677bb1f6397f58f.go",
+      "kind": "upstream-example-code",
+      "bytes": 2714,
+      "sha256": "dc5434e0a7f0c3cbbf68ed5695515faba020d895473de90758be2740c647ba96",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc2/example/client.go"
+    },
+    {
+      "path": "blobstore/common/rpc2/example/main.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/81d48e5e7d6c248af0657f8e.go",
+      "kind": "upstream-example-code",
+      "bytes": 424,
+      "sha256": "635c3bda911f32da2991e32c3f1e461f189da299ab2a8ecabb0d8fe0b0976859",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc2/example/main.go"
+    },
+    {
+      "path": "blobstore/common/rpc2/example/server.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f4cdec7166b104f0c148aa54.go",
+      "kind": "upstream-example-code",
+      "bytes": 4133,
+      "sha256": "d80a505c35653fb5241a3f60a66c6fb8298c9dfe5cf78ed6e4847a3b6b4aa116",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc2/example/server.go"
+    },
+    {
+      "path": "blobstore/common/rpc2/example/stream.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/dcb52c46799b19c6abcbf743.go",
+      "kind": "upstream-example-code",
+      "bytes": 1414,
+      "sha256": "fc434b5474a5113821c26d633c1b9de6b39ca24d44d3a500d64cab443db8bd5f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc2/example/stream.go"
+    },
+    {
+      "path": "blobstore/common/rpc2/transport/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/4f33a23f749f8ab286c4e7d4.txt",
+      "kind": "license",
+      "bytes": 1071,
+      "sha256": "d3dc71253c64844d5f9a29f7b247e4e44db6dc049492d370ce43c399a0b54d75",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc2/transport/LICENSE"
+    },
+    {
+      "path": "blobstore/common/rpc2/transport/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/23cb0ad95ad292fdf7287c52.md",
+      "kind": "official-document",
+      "bytes": 279,
+      "sha256": "181c754431502f107ffd35d0c66751452402ea2d4bd390d13836a5713155ebea",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/blobstore/common/rpc2/transport/README.md"
+    },
+    {
+      "path": "depends/Readme.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/1fbc706d546ea4f00b005ec2.md",
+      "kind": "official-document",
+      "bytes": 4819,
+      "sha256": "275afb59f1dc1dd8b7f319727ff6dfec36064c4323029e65c1687cb845aac67a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/Readme.md"
+    },
+    {
+      "path": "depends/bazil.org/fuse/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b0d361745e85312e6ffaf2aa.txt",
+      "kind": "license",
+      "bytes": 4164,
+      "sha256": "3ae4709113f578057857b865b3d30ffdcc0b8fa2d864bb3d0a0064b3600ddeca",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/LICENSE"
+    },
+    {
+      "path": "depends/bazil.org/fuse/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/2141fd138901aba4c57872f8.md",
+      "kind": "official-document",
+      "bytes": 622,
+      "sha256": "fa7bb761c696632209529a5080cba6b562588b323f63b6f3515a8f5702822a3d",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/README.md"
+    },
+    {
+      "path": "depends/bazil.org/fuse/doc/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/96f5f7a0d6a56775da6d7778.md",
+      "kind": "official-document",
+      "bytes": 171,
+      "sha256": "1a8d1d4cdabf2d1be4d70d7e8f41ac7ee2abe8303bc22e6508c39f59cb98c9af",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/doc/README.md"
+    },
+    {
+      "path": "depends/bazil.org/fuse/doc/mount-sequence.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b778fd7d30bd546f3cecce53.md",
+      "kind": "official-document",
+      "bytes": 898,
+      "sha256": "fd05223860f161c3c9c191418c0388b5cf2b5e2c2b8b6400d73194af2c24b7fc",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/doc/mount-sequence.md"
+    },
+    {
+      "path": "depends/bazil.org/fuse/doc/writing-docs.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/27e27326ce4a34d7e5f64bed.md",
+      "kind": "official-document",
+      "bytes": 514,
+      "sha256": "1fd61f84cfe250c70b43c13addd2bb07b892231f7f2e57457aec2913f680932a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/doc/writing-docs.md"
+    },
+    {
+      "path": "depends/bazil.org/fuse/examples/clockfs/clockfs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/534b5f5e7d7d9d841dc2f1ad.go",
+      "kind": "upstream-example-code",
+      "bytes": 4094,
+      "sha256": "b8e33e64220118161a83c7948efa1cc51bb4fd494381d8dfdb5f518e86859256",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/examples/clockfs/clockfs.go"
+    },
+    {
+      "path": "depends/bazil.org/fuse/examples/hellofs/hello.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/6704117bfb032be42202239d.go",
+      "kind": "upstream-example-code",
+      "bytes": 1969,
+      "sha256": "318620167d3940a802e77db5f59f57f8d5bdda313b8e1c5e7937a672966fceff",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/bazil.org/fuse/examples/hellofs/hello.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/5d9537fe4d968d700b56a409.txt",
+      "kind": "license",
+      "bytes": 15670,
+      "sha256": "3aed2bd602fac28a41d9078641e04f7fa4847249b667b8d177f7f8117a6e3cdb",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/LICENSE"
+    },
+    {
+      "path": "depends/jacobsa/fuse/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/864db2a470cfdf0cbc383609.md",
+      "kind": "official-document",
+      "bytes": 1201,
+      "sha256": "65d2e39fecaff48d50b1b1a8314307bceb47631a7520fd0089dc3f2fc455575d",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/README.md"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/cachingfs/caching_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ba8fe3c07178d4e8ff84608f.go",
+      "kind": "upstream-example-code",
+      "bytes": 8497,
+      "sha256": "a9b01ea8550aa08dfa63771fec7508e71ad6c295f09f8747972e1b8e8bbed775",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/cachingfs/caching_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/cachingfs/caching_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8968ef323fd1e315d742a0b4.go",
+      "kind": "upstream-example-code",
+      "bytes": 20086,
+      "sha256": "41744b0979ff8efb90acebea73baab9219aebf5e9b796ea5fed925241ccb346f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/cachingfs/caching_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/dynamicfs/dynamic_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e69223ebc514dca9c144d1fc.go",
+      "kind": "upstream-example-code",
+      "bytes": 6177,
+      "sha256": "c49769e47bd769c176fa831ea4df9e07bfac005ebe50664512f543b226ca65cf",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/dynamicfs/dynamic_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/dynamicfs/dynamic_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/54f0da18ee373f0801e8710d.go",
+      "kind": "upstream-example-code",
+      "bytes": 4605,
+      "sha256": "e8ddd50898d89d00205de27c1b7cd0e6d67f8d8f126a1d57a0da2fe3bdd2e258",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/dynamicfs/dynamic_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/errorfs/error_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/732017f95d3895cabed8b60e.go",
+      "kind": "upstream-example-code",
+      "bytes": 4463,
+      "sha256": "92f508863a70219cba1e2000cd554d6f0ffa94d3d58ed3718fa67ebb3c666895",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/errorfs/error_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/errorfs/error_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ca6b27ab9c1a31ee61a3bb9c.go",
+      "kind": "upstream-example-code",
+      "bytes": 2751,
+      "sha256": "06e1f8d6c64e5a40e952119baf0e9594d45014affc49739fd8facb1236fa463a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/errorfs/error_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/flushfs/flush_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f1e30bf8bfdffe4e742e6fbc.go",
+      "kind": "upstream-example-code",
+      "bytes": 6793,
+      "sha256": "2d823aaa9d31c26b1182280591c8a6a9153f8a542c4afbd6104217d7b2bc573c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/flushfs/flush_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/flushfs/flush_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/1a48143b86ad7da9fb59ea5d.go",
+      "kind": "upstream-example-code",
+      "bytes": 24154,
+      "sha256": "210088533a60ab62c1140da45b7582bcfe018fe1f478228d96fd8f61189fbd34",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/flushfs/flush_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/forgetfs/forget_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b4b9944af9eb58311acb6fa6.go",
+      "kind": "upstream-example-code",
+      "bytes": 8844,
+      "sha256": "20c9ef575987e918ffb8502b36d3a02ba6965932e6d2ec444a430de32cd67899",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/forgetfs/forget_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/forgetfs/forget_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/382a5bc2f58fcd7c1ba1cafa.go",
+      "kind": "upstream-example-code",
+      "bytes": 3838,
+      "sha256": "5ea4c7c367a04f3ccea6d1487c4df2b7d11c43abb34b7ac4ca8af80eb141b788",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/forgetfs/forget_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/hellofs/hello_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/27a07cfe3cc10775fb93557c.go",
+      "kind": "upstream-example-code",
+      "bytes": 5054,
+      "sha256": "ecefffcebbc69aefa2785471c744f73be0dc1f2e5d26be042f40c6d6fd7878fb",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/hellofs/hello_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/hellofs/hello_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c0935d3ed365c5b6f39d8307.go",
+      "kind": "upstream-example-code",
+      "bytes": 5748,
+      "sha256": "f80845fda811edad03cfc7f444a7c92bfeae702f6596a4becf8c01940909a948",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/hellofs/hello_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/in_process.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b02f5c9a6f285c025cfc5e37.go",
+      "kind": "upstream-example-code",
+      "bytes": 3700,
+      "sha256": "5bb460eb4a28d127977249b5a4e49f4aa7348fb5e8acd4e64ffc38a0b45c6ec9",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/in_process.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/interruptfs/interrupt_fs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/2ff4566bbd974137807c383d.go",
+      "kind": "upstream-example-code",
+      "bytes": 4462,
+      "sha256": "cca69f5a65b6c4efa20587b0088e74108f6a06f2118179255d577fff286592bc",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/interruptfs/interrupt_fs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/interruptfs/interrupt_fs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/3b6d06f6496c6bb8ae071577.go",
+      "kind": "upstream-example-code",
+      "bytes": 3945,
+      "sha256": "e71fb6abe7b7ab1141088d234437be1fe2c54cef0a8f362ab6316341e7143820",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/interruptfs/interrupt_fs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/memfs/inode.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/037acce0eb67beeb1eb9dddd.go",
+      "kind": "upstream-example-code",
+      "bytes": 8894,
+      "sha256": "f0e146169faca3ba1a48273aeebd458e7fab8077d5e19b9fed70bdcf77b0f173",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/memfs/inode.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/memfs/memfs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f6a345684444a1919a05ec55.go",
+      "kind": "upstream-example-code",
+      "bytes": 17213,
+      "sha256": "15d30570ccd3fb1ec4a181324f179b510e35513f8f76d2aec5e595c26b2b29a4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/memfs/memfs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/memfs/memfs_go18_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f50e8cdf22b0f8ab1b6f1dbf.go",
+      "kind": "upstream-example-code",
+      "bytes": 79,
+      "sha256": "ea0bc7edf618e2e3827944af2558c392ed72d2e10d7ff0d1cee940988b15fa01",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/memfs/memfs_go18_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/memfs/memfs_others_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/dfca477551cc9a5554045da8.go",
+      "kind": "upstream-example-code",
+      "bytes": 82,
+      "sha256": "3836886fdbd2e4e448125ebf13a7fb3546a03f67de8792c999ef48077ebc6bd4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/memfs/memfs_others_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/memfs/memfs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/653ea0ad44cccf4c8c634428.go",
+      "kind": "upstream-example-code",
+      "bytes": 46422,
+      "sha256": "16405fa0edeb786d6fc8b67f3b89f907751bc10f3d9e77b791c778e54d2f547f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/memfs/memfs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/memfs/posix_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c554b8ed80b11a7c4fa05f83.go",
+      "kind": "upstream-example-code",
+      "bytes": 10753,
+      "sha256": "54ab0b8b8396125d65d92c03db43a3eef2cccf1abd74b6c81eaf3315f113d458",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/memfs/posix_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/mount_sample/mount.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f50c1848b800a05c4ed34d72.go",
+      "kind": "upstream-example-code",
+      "bytes": 3938,
+      "sha256": "e21ab746425929099fb0ca94947df7679902aaa47b5c2349cbb26a2b7c72bf68",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/mount_sample/mount.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/statfs/statfs.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0fa689cb7eec069dd7d80771.go",
+      "kind": "upstream-example-code",
+      "bytes": 4371,
+      "sha256": "a261e2fe423bb04978296d9268c29714f025b45ebe50c1b51f29d70512bee6e4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/statfs/statfs.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/statfs/statfs_darwin_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ccfdd82f98b1cb92c7070763.go",
+      "kind": "upstream-example-code",
+      "bytes": 5467,
+      "sha256": "68ddf85675b2df61003229b9805f9004444f15b6d101cdec5a7c7d7dd0517008",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/statfs/statfs_darwin_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/statfs/statfs_linux_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0b03fb1a824007e08004f585.go",
+      "kind": "upstream-example-code",
+      "bytes": 3619,
+      "sha256": "624b1574d03d2a168f1d3774d762603a0b95678450f61c1371febae1216618f8",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/statfs/statfs_linux_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/statfs/statfs_test.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d74f1d40f2770eca50284223.go",
+      "kind": "upstream-example-code",
+      "bytes": 5776,
+      "sha256": "35534b32f7b4a7f3fc1366dfdc4341a246736521c3058d846375cbb5c087c599",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/statfs/statfs_test.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/subprocess.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/06b72c91f40847f1ff1be6a0.go",
+      "kind": "upstream-example-code",
+      "bytes": 8576,
+      "sha256": "c116cbc5c84f839b2bb2b20a37e2cb0027bc150106160a2464965129904b60d0",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/subprocess.go"
+    },
+    {
+      "path": "depends/jacobsa/fuse/samples/unmount.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f91c234854b00128e243dabc.go",
+      "kind": "upstream-example-code",
+      "bytes": 1339,
+      "sha256": "11e156e1d3634d39804aa3e538bb86d346e6e94de9c44883a5dbf1c67b95dc35",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/jacobsa/fuse/samples/unmount.go"
+    },
+    {
+      "path": "depends/spf13/cobra/LICENSE.txt",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/56a5b6a26f0e80bd0fe74ffb.txt",
+      "kind": "license",
+      "bytes": 10140,
+      "sha256": "5e3400b93bbb099e83e52bab885e7441750673c21f97988ca3f1240639b63283",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/LICENSE.txt"
+    },
+    {
+      "path": "depends/spf13/cobra/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/829eeb0d607bc89694410fe7.md",
+      "kind": "official-document",
+      "bytes": 24375,
+      "sha256": "da5c5db84700c9c0fd647e0721f316547ab7b3bb6013988e09d97fd8f8caa3dd",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/README.md"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7e70f8ae6f71b81c16dee04c.md",
+      "kind": "official-document",
+      "bytes": 3149,
+      "sha256": "0da7ed5148d90339d459dc711dcd089a39572286de3bef09a6d6bd7af469168b",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/README.md"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_agpl.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/3d47fef295cc734323968620.go",
+      "kind": "license",
+      "bytes": 35362,
+      "sha256": "f10e9af7ae0bbe8806003f3fe3f02e6ed0b907c9f87aa5fa55416a670735a43c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_agpl.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_apache_2.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ca3f80497477d8567c612974.go",
+      "kind": "license",
+      "bytes": 12768,
+      "sha256": "39a6c83364c3090bcd342e7e0b015d03b268ed6b81a565741324e7eebc723456",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_apache_2.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_bsd_clause_2.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/bff78b2d4f177160142a1363.go",
+      "kind": "license",
+      "bytes": 3475,
+      "sha256": "a2acdc0cbb9da2f890df4dafc4fdfd66a1a99ed7ca18f3304b148fb4bf592f65",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_bsd_clause_2.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_bsd_clause_3.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e4e23ba7de9fd07dd08f3414.go",
+      "kind": "license",
+      "bytes": 3814,
+      "sha256": "5bbe347e9b8ff91211ef4859a163894b25b41eef19f02708e1f6cbb9c14e4e1d",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_bsd_clause_3.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_gpl_2.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f713ce6d22e8ae2201706572.go",
+      "kind": "license",
+      "bytes": 19577,
+      "sha256": "8d0ac0fb28f5e450d8539f434082073129bd81a3bb5a2e27e02978e1c4a42dad",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_gpl_2.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_gpl_3.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/2a5a77e927ea23096f5fd096.go",
+      "kind": "license",
+      "bytes": 36643,
+      "sha256": "73a2ca3e57f2e0d43f903384afd1f9f9fe54345920656a015f9411d163b9bd71",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_gpl_3.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_lgpl.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b4de3381d57980b3786e5304.go",
+      "kind": "license",
+      "bytes": 8492,
+      "sha256": "3a99ad1de8a893b9e4f1b2ea3a6ccce0b91175de3a38b9d5f3a87e3ba174e7d7",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_lgpl.go"
+    },
+    {
+      "path": "depends/spf13/cobra/cobra/cmd/license_mit.go",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/2f6a5a2a888e252762a2855c.go",
+      "kind": "license",
+      "bytes": 2911,
+      "sha256": "a7ccbbdc34400e69548fa275b8ba5bcd146550d21dc6ef1277ec122cb5c5c688",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/cobra/cmd/license_mit.go"
+    },
+    {
+      "path": "depends/spf13/cobra/doc/man_docs.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e1d17c8efd3d1c6c62b12d27.md",
+      "kind": "official-document",
+      "bytes": 519,
+      "sha256": "388e7e8bfb35e6e8db980b5f920c5cf65e76e07d66750a00d0bc2d97f04314e3",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/doc/man_docs.md"
+    },
+    {
+      "path": "depends/spf13/cobra/doc/md_docs.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/55d016be77f1c6e7afbcbae5.md",
+      "kind": "official-document",
+      "bytes": 2808,
+      "sha256": "8aaf799cea71ac9674824cdbfd119b9a5cfd421957cb8864387c7e46681fd945",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/doc/md_docs.md"
+    },
+    {
+      "path": "depends/spf13/cobra/doc/rest_docs.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c2490e00344749fb611237cd.md",
+      "kind": "official-document",
+      "bytes": 2917,
+      "sha256": "6a634cf3001335c655ab767b247f94ebb3aad372b9dc73d8b3b70a8ba49077af",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/doc/rest_docs.md"
+    },
+    {
+      "path": "depends/spf13/cobra/doc/yaml_docs.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/4809e68060925999dedd615c.md",
+      "kind": "official-document",
+      "bytes": 2702,
+      "sha256": "269c92f35fdbbf9591ad189ee89e4785724072ba6cc94a2807058c79d9f9b502",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/cobra/doc/yaml_docs.md"
+    },
+    {
+      "path": "depends/spf13/pflag/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/48c86f9049a46941a8cce2af.txt",
+      "kind": "license",
+      "bytes": 1531,
+      "sha256": "b8514c577c1c4b46cee454d5a882b15fa411e72c5bd7f801f241591789fce61a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/pflag/LICENSE"
+    },
+    {
+      "path": "depends/spf13/pflag/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/72d9c9e5b534d2847699804d.md",
+      "kind": "official-document",
+      "bytes": 9756,
+      "sha256": "df4e544fb189f8223e9670a5319da27e98ad1a31d591e3b097ed932ac4376d56",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/spf13/pflag/README.md"
+    },
+    {
+      "path": "depends/tiglabs/raft/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e3f7357e9465a54387749bf3.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/tiglabs/raft/LICENSE"
+    },
+    {
+      "path": "depends/tiglabs/raft/NOTICE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c75a28fa8cb181844c733897.txt",
+      "kind": "license",
+      "bytes": 178,
+      "sha256": "6d8157ea1aeb2dd31b7d7d1225fbb9b1cedcd8758887763e354e0cc50c2ebe0e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/tiglabs/raft/NOTICE"
+    },
+    {
+      "path": "depends/tiglabs/raft/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8a7070ffeedab8ff2616ad26.md",
+      "kind": "official-document",
+      "bytes": 756,
+      "sha256": "4d5d1e9459f402907428cfcbac99fa79cc2d07b19727304249cf9e285b7c7b98",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/tiglabs/raft/README.md"
+    },
+    {
+      "path": "depends/tiglabs/raft/etcd/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0e65ceedd43eaf6f1dbde1c9.txt",
+      "kind": "license",
+      "bytes": 566,
+      "sha256": "ced2260572cd50e88b16619aec8f3a2ef421e8ad39d2bcaacd62e217e4d43ff4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/tiglabs/raft/etcd/LICENSE"
+    },
+    {
+      "path": "depends/tiglabs/raft/etcd/NOTICE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/346a377d633b18c7c5fa7e7e.txt",
+      "kind": "license",
+      "bytes": 126,
+      "sha256": "dccd26c6fd9c296daf44d0bc56bb4efc566edd4880381b3331c9a63e6e471338",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/tiglabs/raft/etcd/NOTICE"
+    },
+    {
+      "path": "depends/xtaci/smux/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/10eb16fab7ec76e6eac7be20.txt",
+      "kind": "license",
+      "bytes": 1071,
+      "sha256": "d3dc71253c64844d5f9a29f7b247e4e44db6dc049492d370ce43c399a0b54d75",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/xtaci/smux/LICENSE"
+    },
+    {
+      "path": "depends/xtaci/smux/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/466e6e0245f6345cf17b929e.md",
+      "kind": "official-document",
+      "bytes": 3697,
+      "sha256": "761ddef6c714216fe4d10346a311f89cdeee1686d9efab5c18060eb61e2bd6b4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/depends/xtaci/smux/README.md"
+    },
+    {
+      "path": "docs-zh/source/overview/architecture.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/5e7ec6bb7e9b8fa7bfa52d7c.md",
+      "kind": "official-document",
+      "bytes": 2155,
+      "sha256": "5b899e44a9b20be9084a13725f789debad582db85efdc263a7998610f38cc52e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs-zh/source/overview/architecture.md"
+    },
+    {
+      "path": "docs/createNodeSetWithSpecifiedNodes.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7c765f2e9716925d783e26d6.md",
+      "kind": "official-document",
+      "bytes": 6758,
+      "sha256": "1780a4afccc5f26ab52a1672bae82470f88c6af986ac5b5ff2ea26cad055f3ea",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/createNodeSetWithSpecifiedNodes.md"
+    },
+    {
+      "path": "docs/source/community/article.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/24c3de22e220225a33f8d830.md",
+      "kind": "official-document",
+      "bytes": 5491,
+      "sha256": "1c7e89c555fc13fd548a89c3cffc01af004a7cb602fa8210099d0bcba25ded8e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/community/article.md"
+    },
+    {
+      "path": "docs/source/community/overview.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/41bcdb682dca2e5ceadee093.md",
+      "kind": "official-document",
+      "bytes": 2616,
+      "sha256": "cb71bed2aa6de9523510d39d9a6c73c3884da2559dd867caa34c5035370114b2",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/community/overview.md"
+    },
+    {
+      "path": "docs/source/deploy/env.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/13149edab01bce33c5d23d34.md",
+      "kind": "official-document",
+      "bytes": 3907,
+      "sha256": "53d8cab33300b61b3a8f9651b7dce2c46ba6236a051d09dea54288b8069b7f7f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/deploy/env.md"
+    },
+    {
+      "path": "docs/source/deploy/k8s.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/6091a8cccf978f07f9fc0f3a.md",
+      "kind": "official-document",
+      "bytes": 6600,
+      "sha256": "288069bd7264c99fdf1b2712aa786fb438f1d44a274ee90d4e7f17c9ea55996a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/deploy/k8s.md"
+    },
+    {
+      "path": "docs/source/deploy/upgrade.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/cf1b1ae8f1b20c0e02b671c0.md",
+      "kind": "official-document",
+      "bytes": 3635,
+      "sha256": "9c1fb5279f1dc2001365a66a05a7102334f3fb7a08530ad746b41faf2b94b7a6",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/deploy/upgrade.md"
+    },
+    {
+      "path": "docs/source/deploy/yum.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e96b073647d4f438a57f0c5d.md",
+      "kind": "official-document",
+      "bytes": 15023,
+      "sha256": "1a5dc10f575e36d636ebf7759dd53739968ca6ff606778d01bbd6d1c63420e71",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/deploy/yum.md"
+    },
+    {
+      "path": "docs/source/design/authnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/19551bb68e33e6609b9a5296.md",
+      "kind": "official-document",
+      "bytes": 6271,
+      "sha256": "63e6340bdf2f01f37c3fcfec340bb7728fab4b21221f75b7723007b9bac88d6e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/authnode.md"
+    },
+    {
+      "path": "docs/source/design/blobstore.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ea08ccb39b39b4d807bcbc19.md",
+      "kind": "official-document",
+      "bytes": 21548,
+      "sha256": "f24fc56b73cfd42e506a2fedae1e0efcdcd74df8982b339786f43aa9b00d7251",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/blobstore.md"
+    },
+    {
+      "path": "docs/source/design/client.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d8bb7ea9437c1159caa4bcc5.md",
+      "kind": "official-document",
+      "bytes": 5401,
+      "sha256": "e9ea6b4e8ca8a1d4f69492f1635be5fbabb78cbd5087afc0b03e1c67934b1a09",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/client.md"
+    },
+    {
+      "path": "docs/source/design/datanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0a4098b493d824cf69e1ac71.md",
+      "kind": "official-document",
+      "bytes": 7959,
+      "sha256": "27881e972bccf6cffe14c9ee563655176ee705a225a0a9bf4d4f06f0f13b5b9f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/datanode.md"
+    },
+    {
+      "path": "docs/source/design/kernelclient.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/232b90d70ae3e55595680cfb.md",
+      "kind": "official-document",
+      "bytes": 1268183,
+      "sha256": "16da523a43876a52a46a6ad756d6b35d17e4334a0e954f5ce2140514194ca377",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/kernelclient.md"
+    },
+    {
+      "path": "docs/source/design/lcnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/848c162e8e01b17e4858382f.md",
+      "kind": "official-document",
+      "bytes": 5047,
+      "sha256": "bc974d5e7d24f1463b1733afe9682d60df0da6544920f2ebf98d20930af52f0e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/lcnode.md"
+    },
+    {
+      "path": "docs/source/design/master.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/eb32fa687a98092288db85ad.md",
+      "kind": "official-document",
+      "bytes": 2727,
+      "sha256": "c65d272da7c767cd1cbc404f87ea4a532cb5dedec8036b7b6e2bd47de034a98d",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/master.md"
+    },
+    {
+      "path": "docs/source/design/metanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/617fd9e6681ba37cd1a05e0d.md",
+      "kind": "official-document",
+      "bytes": 2783,
+      "sha256": "33cb09874025ca99685a1ff4c1bc4a5a50e313645118cc45102eef37a0aa5a8e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/metanode.md"
+    },
+    {
+      "path": "docs/source/design/objectnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/78737e7f2f544e359d386769.md",
+      "kind": "official-document",
+      "bytes": 4300,
+      "sha256": "89b385009b201f4d45f7dfd21da5d2dc6ecffb4bb8e392235e83723fb8a772cb",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/design/objectnode.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/blobstore/access.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0f4bd1a38a5eba473d093fda.md",
+      "kind": "official-document",
+      "bytes": 792,
+      "sha256": "cf8e5a9b70c8decdd279d9af5b6406b05a0fa658de4b65f676dd2adad20039ba",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/blobstore/access.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/blobstore/base.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ff6a52183a3eac753308c30b.md",
+      "kind": "official-document",
+      "bytes": 1790,
+      "sha256": "f853176325800d97376b5e07c35d2473e72d82736c7cc0c43a18611f8879c215",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/blobstore/base.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/blobstore/blobnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/29913cfa8de236e5d04b0bfc.md",
+      "kind": "official-document",
+      "bytes": 1573,
+      "sha256": "41bcdfbec026583934a120f950c41388c8b7b011c400d7ab797a969fb45344fb",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/blobstore/blobnode.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/blobstore/cm.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f5bce19dc754a7e936ee9b3f.md",
+      "kind": "official-document",
+      "bytes": 8213,
+      "sha256": "40abd699061400dea21f423f50ebeb369191b68d97ccb28f771720b6e50cf6a4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/blobstore/cm.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/blobstore/scheduler.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c2ce7b811e956b171d2983b3.md",
+      "kind": "official-document",
+      "bytes": 8571,
+      "sha256": "dd810352df694b037fff97df2187d858cd7b363521b71d1f27a4a8c690dd2490",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/blobstore/scheduler.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/cluster.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/831159f8beace31ebfd3878b.md",
+      "kind": "official-document",
+      "bytes": 5346,
+      "sha256": "70d7de879e50980668e05f51da0c96146d14583cee233ce448e9d332f37d1e90",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/cluster.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/data-partition.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/920ebe8e4ec0bfadd74a7026.md",
+      "kind": "official-document",
+      "bytes": 2027,
+      "sha256": "9c7b89631c43b7b5bd70ab3d3306b9792d8441cc4b2ab4afba27a1c8eb6d6aca",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/data-partition.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/datanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/cf3f69e21473bc3a54d36669.md",
+      "kind": "official-document",
+      "bytes": 6619,
+      "sha256": "779253d17e6fe5a2a0b676716a82e8431a9905b71fa4d2ecbcc47a564d7f3a37",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/datanode.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/failureDomain.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ea0679ae69b4c094acb0029e.md",
+      "kind": "official-document",
+      "bytes": 3648,
+      "sha256": "39e6566a3a9602314a1f128ebbd1b46d88c27aadf1640f51158067ef2f24748c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/failureDomain.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/management.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/61d058485d1e3cc52e78b04d.md",
+      "kind": "official-document",
+      "bytes": 1487,
+      "sha256": "a065999faba7ce9e69cb44ca3e7eb0cdaae196993cbdb7e02f8f6486f130097e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/management.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/meta-partition.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7385abd74779341c704fae99.md",
+      "kind": "official-document",
+      "bytes": 1962,
+      "sha256": "d036f920194328284f6e262f3b0af7f90f3a3c4e6c856c637af90e33b6b8c4a4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/meta-partition.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/metanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8e6471387257f895500b9df2.md",
+      "kind": "official-document",
+      "bytes": 6256,
+      "sha256": "9e28a1bc6e8344e7e712e86db1c620e859d1520991db5eea644c906e5f28d6ea",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/metanode.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/user.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/56f2adffe8a83745b4740639.md",
+      "kind": "official-document",
+      "bytes": 8812,
+      "sha256": "c64fe549978aa830c422f6562127841f5287e3b2404007ffb7b60933814b477d",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/user.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/master/volume.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d9950b7200659a9e70886c76.md",
+      "kind": "official-document",
+      "bytes": 21070,
+      "sha256": "905913b14dfce41f7e751d51819d99aeac8c6a16726a7db1f3e878c03f6a1a07",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/master/volume.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/metanode/dentry.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/86c8d55e55711602db23266e.md",
+      "kind": "official-document",
+      "bytes": 959,
+      "sha256": "ef3de0816f8b0169ba96a5b976b3c62a7cf938107f3f2a3362e8d972fae1a914",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/metanode/dentry.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/metanode/inode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/58addab901cef7b66807dc82.md",
+      "kind": "official-document",
+      "bytes": 1218,
+      "sha256": "8bd4b2bf27abf2511c6198a05182abfda030d3c1c8a1fcbac33d0232df44d04a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/metanode/inode.md"
+    },
+    {
+      "path": "docs/source/dev-guide/admin-api/metanode/partition.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/df36bbd0a93bd767f4d2cf59.md",
+      "kind": "official-document",
+      "bytes": 634,
+      "sha256": "253dfa7f8602fb49c8b037f28ad9bbc88380e18475b09169761776013624771b",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/admin-api/metanode/partition.md"
+    },
+    {
+      "path": "docs/source/dev-guide/code.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/4b737bd9cc59578ba7564163.md",
+      "kind": "official-document",
+      "bytes": 17512,
+      "sha256": "510c53d066acc4037f3510b31abf219cf7ad606023c455f5f3588cc7629096a9",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/code.md"
+    },
+    {
+      "path": "docs/source/dev-guide/sdk.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/801b5fb19f5498d0497dc47c.md",
+      "kind": "official-document",
+      "bytes": 11245,
+      "sha256": "cc7c38056f827539a01023ca202190b08ae3c755efbac691edc43ddbe54e45d3",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/dev-guide/sdk.md"
+    },
+    {
+      "path": "docs/source/ecology/grafana.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0a15e9beb74768e97f1942d6.md",
+      "kind": "official-document",
+      "bytes": 4885,
+      "sha256": "799dcb4fc7de97930a72800c74ed608a3194dae505647308e189062cd9a93d58",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ecology/grafana.md"
+    },
+    {
+      "path": "docs/source/ecology/hadoop.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/a422221a8689a7e3ec151cab.md",
+      "kind": "official-document",
+      "bytes": 8508,
+      "sha256": "ca6a6b681a083f9ff1a0e54058f7d822892ad46b8a566001952a852a1388b7f8",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ecology/hadoop.md"
+    },
+    {
+      "path": "docs/source/ecology/k8s.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/01a39c9e8f3c4ccb99ace269.md",
+      "kind": "official-document",
+      "bytes": 13290,
+      "sha256": "3b9bae07571a1f2f50a85080aabb10655183a1eac33bf0935cfe130aea936889",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ecology/k8s.md"
+    },
+    {
+      "path": "docs/source/ecology/prometheus.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/f15d4f9656c16494dfd8309f.md",
+      "kind": "official-document",
+      "bytes": 29494,
+      "sha256": "b9902db1cf694ac9319cfe0a2138a1f88e8d8d09f4785af314430b60382029c1",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ecology/prometheus.md"
+    },
+    {
+      "path": "docs/source/evaluation/env.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/989dad47ad00a221ca1662b3.md",
+      "kind": "official-document",
+      "bytes": 2742,
+      "sha256": "cb03984adbdcbeccbd2837f32ad1712f58f8cfccf613993e7f44b7cafe2bb1b6",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/evaluation/env.md"
+    },
+    {
+      "path": "docs/source/evaluation/fuse.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/2190cb81af9c346aa9c7e093.md",
+      "kind": "official-document",
+      "bytes": 1360,
+      "sha256": "5c3f4993196e132a717896627c7e60ff245e23f7a8436e9fc1a6f9b46eb7a6e6",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/evaluation/fuse.md"
+    },
+    {
+      "path": "docs/source/evaluation/io.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e03e6b4c55d2631d88eb3af8.md",
+      "kind": "official-document",
+      "bytes": 7825,
+      "sha256": "1c1f2abc8f63d344b39a84ff8c3a975e972a601ace9624ac5da9fe9c5ab24a64",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/evaluation/io.md"
+    },
+    {
+      "path": "docs/source/evaluation/meta.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0f9c183a0389104914450e3a.md",
+      "kind": "official-document",
+      "bytes": 3857,
+      "sha256": "f4ebbd81e1dc760ea116d346a0229aa61952732af49ffecc6bf6ea98c7194c5f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/evaluation/meta.md"
+    },
+    {
+      "path": "docs/source/evaluation/tiny.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/518249e59c4f3247665aaaf2.md",
+      "kind": "official-document",
+      "bytes": 1472,
+      "sha256": "62e5d2c123346e2e7011ab016db08525ab967d33ab3ec4bd14c53b45de45b3fd",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/evaluation/tiny.md"
+    },
+    {
+      "path": "docs/source/faq/build.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/3829a89bdc3ab0a881180e87.md",
+      "kind": "official-document",
+      "bytes": 4453,
+      "sha256": "72fd545cbb98c8f442b0ee65236418123a6a57af5a7dbac2d5339a5ae1dc573c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/faq/build.md"
+    },
+    {
+      "path": "docs/source/faq/development.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d3ee135acb416ca8ef52e2ad.md",
+      "kind": "official-document",
+      "bytes": 490,
+      "sha256": "3608c9959b06a6fd76d32036cf92e28bdcface6c6f3f3799e4c86d3152a79144",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/faq/development.md"
+    },
+    {
+      "path": "docs/source/faq/fuse.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/5d3f678c9404e63626c12435.md",
+      "kind": "official-document",
+      "bytes": 3703,
+      "sha256": "7d873f61f900f5d18c04903c22eeebeec775666fcdb0964ed8116680aa4c8376",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/faq/fuse.md"
+    },
+    {
+      "path": "docs/source/faq/kafka.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/1cab662c96953751a711c032.md",
+      "kind": "official-document",
+      "bytes": 5275,
+      "sha256": "aef9344562dedeb1363d33a02912ec01eff7f9713849768dacb49df96699152e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/faq/kafka.md"
+    },
+    {
+      "path": "docs/source/faq/troubleshoot/case.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/548b6f1ce6ec00ff794f95ef.md",
+      "kind": "official-document",
+      "bytes": 19215,
+      "sha256": "29d5ed2ed149c20e0dfa338ffbb1e91ed1b97c8f4408548f7973e3882475cb87",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/faq/troubleshoot/case.md"
+    },
+    {
+      "path": "docs/source/faq/troubleshoot/strategy.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8adc35b38f8af431b3a0f3c0.md",
+      "kind": "official-document",
+      "bytes": 7329,
+      "sha256": "792cd40b91c03a3a572bc540576bdc67b4077573fd5cfd3734a5ba5009d66395",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/faq/troubleshoot/strategy.md"
+    },
+    {
+      "path": "docs/source/feature/aheadread.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/6782e110e7963b433bee0781.md",
+      "kind": "official-document",
+      "bytes": 2405,
+      "sha256": "04d45755b848418651fc10ca11f3e79aa68df3381c732c45ed6cafdf4373c003",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/aheadread.md"
+    },
+    {
+      "path": "docs/source/feature/autofs.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d4cff675f1453d05b19582f2.md",
+      "kind": "official-document",
+      "bytes": 4929,
+      "sha256": "11d156bc7a6be549243026744ae72dec642ffedc092881285103a6636c7fbe2e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/autofs.md"
+    },
+    {
+      "path": "docs/source/feature/cache.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8e65d573d1ed889ad37ca571.md",
+      "kind": "official-document",
+      "bytes": 3469,
+      "sha256": "ce799da3f03d71ed143b7f24c8f0f58fc8fb65b062fc0d60ec0cb4cb0390dccd",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/cache.md"
+    },
+    {
+      "path": "docs/source/feature/flash.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/6157c9c1ec2dcd5bba13a006.md",
+      "kind": "official-document",
+      "bytes": 5593,
+      "sha256": "be3a06bff6e231ac86e75fcef8c36e031160b2c66e5c951f5fbbd54cc4a5d337",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/flash.md"
+    },
+    {
+      "path": "docs/source/feature/hybridcloud.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/45161d46e35e6f70eaf9298f.md",
+      "kind": "official-document",
+      "bytes": 8292,
+      "sha256": "9639728d7baedf9ec138bba9f77e74328bfd5fe82279d4c1bb8a02989400a7e0",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/hybridcloud.md"
+    },
+    {
+      "path": "docs/source/feature/qos.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0910c8f5af4cd7a9d4a4db64.md",
+      "kind": "official-document",
+      "bytes": 7469,
+      "sha256": "17497016ee11f48d4fb0bf8e46260af6aa07fccdcf149e5a6ca67443fec93b9f",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/qos.md"
+    },
+    {
+      "path": "docs/source/feature/quota.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/18ad169ec826d8ee15a00ad1.md",
+      "kind": "official-document",
+      "bytes": 1682,
+      "sha256": "8cebc82e593d26ebdb8ad42fde7116d870f3d078e8d50fbd3d34544fa4fafaa6",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/quota.md"
+    },
+    {
+      "path": "docs/source/feature/trash.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8b51c21a2761a0141e532926.md",
+      "kind": "official-document",
+      "bytes": 2560,
+      "sha256": "8cb7c7f14baa074d1626358b2de177039925965853e4e5b75dab74d82424a42b",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/feature/trash.md"
+    },
+    {
+      "path": "docs/source/ops/auto-ops.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/d7264ad6ad51794e654135ed.md",
+      "kind": "official-document",
+      "bytes": 26465,
+      "sha256": "557c7fbe7df066dffe24ceb773215124f2f2ec13dbe3a26c3a25b360c362deac",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/auto-ops.md"
+    },
+    {
+      "path": "docs/source/ops/capacity.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7831a2d9705929390d1f15e7.md",
+      "kind": "official-document",
+      "bytes": 2068,
+      "sha256": "d14b60083d3761ff9f8406ce75c36c620247d71929e00f71ffc957aad15a0f45",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/capacity.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/access.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/054d08045eab8e4047799363.md",
+      "kind": "official-document",
+      "bytes": 13794,
+      "sha256": "d940c3124084c215c2b89d6a5b708cd3ae222bd5227fc2eb521228da9e1fa467",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/access.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/base.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ee4d05563b44e110b981e3a6.md",
+      "kind": "official-document",
+      "bytes": 2105,
+      "sha256": "863ee551d2d6d2203e0164820560b3c2b02f69cac7d4e4d768150c740ca8615e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/base.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/blobnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c6babeebadeb5a8fcb5f7e9a.md",
+      "kind": "official-document",
+      "bytes": 9677,
+      "sha256": "a559c5bfae7f9475403d1331439bed79460af4cc6c91ca465ff9adbbf914233a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/blobnode.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/cm.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/df09241b08fcb15b5e7191f1.md",
+      "kind": "official-document",
+      "bytes": 11191,
+      "sha256": "69fc7ccc3a1e1d88f100973f18f9cdde5400bc042c4df046da9e282c5fcbcd6a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/cm.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/proxy.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c1e6ea0706a4261924bf3c1e.md",
+      "kind": "official-document",
+      "bytes": 5534,
+      "sha256": "6346bdf4b265c840de7719e0be1831aa02974f60c7c670796860fd0bffffcf21",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/proxy.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/rpc.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7b712309b7f9158ccbfc8add.md",
+      "kind": "official-document",
+      "bytes": 2244,
+      "sha256": "c1ee94ce931886a8394fdad96488871192b3de09ec3cf1463368f1d6dd039657",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/rpc.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/rpc2.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/19d46c7fcc1aa44b5817e72e.md",
+      "kind": "official-document",
+      "bytes": 2634,
+      "sha256": "b035dd9680e57bfdab85cba661a8d2f35094419e14c1335af2dbc43c93394baf",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/rpc2.md"
+    },
+    {
+      "path": "docs/source/ops/configs/blobstore/scheduler.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b8e79a1e94825da24930708f.md",
+      "kind": "official-document",
+      "bytes": 13645,
+      "sha256": "6fc1283fcc02e19bc451212881e843efe09c0211eb92c5431069cf7227d5bbce",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/blobstore/scheduler.md"
+    },
+    {
+      "path": "docs/source/ops/configs/client.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8d50be7a8e0e9332fdb48dbd.md",
+      "kind": "official-document",
+      "bytes": 7461,
+      "sha256": "573b3254a7c2a116ae6153238b27ee3fe8acbc35772efcbd0c2b2ec147d85aaa",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/client.md"
+    },
+    {
+      "path": "docs/source/ops/configs/config.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0871ff3ee78483670a9d7775.md",
+      "kind": "official-document",
+      "bytes": 3277,
+      "sha256": "c491e64a2ea9a44565e694350a7e5adba68ac842fbe2c7b8bc1fc91336e2b15a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/config.md"
+    },
+    {
+      "path": "docs/source/ops/configs/datanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/074f132a59b87a7c840b908e.md",
+      "kind": "official-document",
+      "bytes": 6272,
+      "sha256": "dfa6c7502b2ad192378747dcca2157ca7695c614a8713ed7801b988b454679ca",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/datanode.md"
+    },
+    {
+      "path": "docs/source/ops/configs/flashnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/24f3a61629272fa79f2c6adb.md",
+      "kind": "official-document",
+      "bytes": 2663,
+      "sha256": "9419c84e08edcebe3fefa6f1ce98c3c0638c938126385c5936019e0897bd03c5",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/flashnode.md"
+    },
+    {
+      "path": "docs/source/ops/configs/lcnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/333977d61dace338d82604a2.md",
+      "kind": "official-document",
+      "bytes": 1898,
+      "sha256": "c3e3f4539f0045ba3e1427e529633bf92da271f8e27013b3ecf5231a331810d2",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/lcnode.md"
+    },
+    {
+      "path": "docs/source/ops/configs/master.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/41918021021956c4b0efa010.md",
+      "kind": "official-document",
+      "bytes": 10758,
+      "sha256": "2a4b9627a47706a7e6d11e93cfebfc00cc6b0d46661736a584c8e6cddea102d4",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/master.md"
+    },
+    {
+      "path": "docs/source/ops/configs/metanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/1b7458356de9c97451f14b7a.md",
+      "kind": "official-document",
+      "bytes": 5987,
+      "sha256": "cddb93ffc7ee318131d6c4a30a99027b416659205d4a5ba91362d9c9a8a9b27a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/metanode.md"
+    },
+    {
+      "path": "docs/source/ops/configs/objectnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c3c8869356e0c54c54e6f725.md",
+      "kind": "official-document",
+      "bytes": 2045,
+      "sha256": "858a8308db5ac61096402e6d09a57bd9b17173db4f005114b7c471ee87be2a4e",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/configs/objectnode.md"
+    },
+    {
+      "path": "docs/source/ops/fsck.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/636dcb87c52d3041c0e5c40b.md",
+      "kind": "official-document",
+      "bytes": 3669,
+      "sha256": "81a08f35efa1daa59421204746c5e72379ea4979544e1092a3622d4774c6653a",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/fsck.md"
+    },
+    {
+      "path": "docs/source/ops/log.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e54974c698b6201620106d59.md",
+      "kind": "official-document",
+      "bytes": 5810,
+      "sha256": "173984f375413a6ea9fa1df3c205415ca5143f590ad36929519d977df74b2ed9",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/log.md"
+    },
+    {
+      "path": "docs/source/ops/zone.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8231579d72270ece895c22a8.md",
+      "kind": "official-document",
+      "bytes": 2096,
+      "sha256": "6dc00bf02fb51561650da19d4b9df6bdff8ee6602701844249e89c1090f1da3b",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/ops/zone.md"
+    },
+    {
+      "path": "docs/source/overview/architecture.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b4697546e43b76b58eee36b4.md",
+      "kind": "official-document",
+      "bytes": 2251,
+      "sha256": "545b0d2228569ae1bd195c2c8db2d0a1add513b66d4a63ac4f8c81a1a03f3c0c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/overview/architecture.md"
+    },
+    {
+      "path": "docs/source/overview/introduction.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/1dde35c509486f8dd61730d0.md",
+      "kind": "official-document",
+      "bytes": 5805,
+      "sha256": "91d6601ad6705e950d0e0e6b9568c3cf1294e77b42719af83b10abc05bb29c19",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/overview/introduction.md"
+    },
+    {
+      "path": "docs/source/quickstart/cluster-deploy.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b9789589cd58a2a9ba2ac828.md",
+      "kind": "official-document",
+      "bytes": 6898,
+      "sha256": "151fc6a9164c68111a45dd007257d36e07a58c6369f941bde2ffa300387df1f1",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/quickstart/cluster-deploy.md"
+    },
+    {
+      "path": "docs/source/quickstart/requirement.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/11552decca213fc7b06e2a04.md",
+      "kind": "official-document",
+      "bytes": 947,
+      "sha256": "3eb3100b0a72a23df8028faabf0befc041259d8d0775e1e2850aeaae00ee0cb6",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/quickstart/requirement.md"
+    },
+    {
+      "path": "docs/source/quickstart/single-deploy.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/e3751afa0c48b611fdf28df6.md",
+      "kind": "official-document",
+      "bytes": 19324,
+      "sha256": "8ec3cdf164d2d4b98f9b0b0696ec4063e3f273cc03d68f7ba42ff9be531e3eeb",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/quickstart/single-deploy.md"
+    },
+    {
+      "path": "docs/source/quickstart/verify.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7c8c72742c688dd7ef2cc326.md",
+      "kind": "official-document",
+      "bytes": 3412,
+      "sha256": "34473bb972ef3c01da7fc011e1f5a8cb8055513ae988bcb5278f10a14e03a6cc",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/quickstart/verify.md"
+    },
+    {
+      "path": "docs/source/security/security_practice.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0fb380833d4c0fad81b95abb.md",
+      "kind": "official-document",
+      "bytes": 17929,
+      "sha256": "0f84fa6ca61468418e21102951173641fcb6965365a8ebe2c3124b69976f1e13",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/security/security_practice.md"
+    },
+    {
+      "path": "docs/source/user-guide/authnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/3a3937d70fd88d1f9766748b.md",
+      "kind": "official-document",
+      "bytes": 15584,
+      "sha256": "a096df4e6e1c89b0be4defaec4923cc55f49c5fd08a5a0e5a4071a7d8c366f62",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/authnode.md"
+    },
+    {
+      "path": "docs/source/user-guide/bench/blobstore_bench.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/31ef680ece3c7a38c772e227.md",
+      "kind": "official-document",
+      "bytes": 11144,
+      "sha256": "edc1841762cc4ad3c3ec7c2c8ac9cdb35fb32d2c9f1d939042120bb3e0ab92b3",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/bench/blobstore_bench.md"
+    },
+    {
+      "path": "docs/source/user-guide/blobstore.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/9bee3baa7e2544ec7c6eed5f.md",
+      "kind": "official-document",
+      "bytes": 13309,
+      "sha256": "95dad7927506a04a019fec2025d3ec92520821941e80b158848a445e41e37eeb",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/blobstore.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/blobstore-cli.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/6e27cc26ddf3d88af6f6f967.md",
+      "kind": "official-document",
+      "bytes": 5640,
+      "sha256": "007fe3b7099b54de4357f13288886379c1ecf0faa5ce865dd2e5e416217549ca",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/blobstore-cli.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/cluster.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/285a6376406d8cbae20671c3.md",
+      "kind": "official-document",
+      "bytes": 1873,
+      "sha256": "eb0a214bb0b8cedc25e321c2036c481232cf439431ecb8b24fd4aab9de3e2cd8",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/cluster.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/config.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ffe42bd8cdecc234e3d4996d.md",
+      "kind": "official-document",
+      "bytes": 383,
+      "sha256": "23311734663f2813ba6b3f712a0e11f96b097fecddc929876674c0a9d4b657df",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/config.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/datanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/3b52caeb352b5221190c49e2.md",
+      "kind": "official-document",
+      "bytes": 723,
+      "sha256": "f70921c5df6dc5e5de342ed212c23b7d7d31623800e756583e150056419cc996",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/datanode.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/datapartition.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0f6b4209663d96cabada537e.md",
+      "kind": "official-document",
+      "bytes": 927,
+      "sha256": "8dfff1817fe6117e2e361b481d5282c5e0b5a0d9c49e62a80c148206852409b3",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/datapartition.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/flashnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/a2c3f17f20d60b8bb89c2704.md",
+      "kind": "official-document",
+      "bytes": 1260,
+      "sha256": "0844b8feed844f027d54b374abe5312e183c62e2531c2b4b602a50556aa36cd2",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/flashnode.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/metanode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/70f2f927bd45d2eb70d07442.md",
+      "kind": "official-document",
+      "bytes": 726,
+      "sha256": "9c26c381274c739702e9148debf8b410e815d2dbb2756a2dd5895cc8dc038ace",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/metanode.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/metapartition.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0c48d2b449eadc8cd5375e23.md",
+      "kind": "official-document",
+      "bytes": 819,
+      "sha256": "50983212e0467f9183dd469713b59f5defb334be2367ed79244d7709363dd327",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/metapartition.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/nodeset.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/702ec2a7e7cdc9be0b0dac4e.md",
+      "kind": "official-document",
+      "bytes": 462,
+      "sha256": "582dbb29c6890c43689c3c7fad1e6287ae00fcfeda347f08d2e90b5bbdf2cb17",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/nodeset.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/overview.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/9312bb6afb0b1bf11e21c1a2.md",
+      "kind": "official-document",
+      "bytes": 1686,
+      "sha256": "5b1796aa8b693726c994994b9cf47551cf3ac02d433514df94b9b8a21ab3d4c0",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/overview.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/quota.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/8a0061f42c88a51ff934be24.md",
+      "kind": "official-document",
+      "bytes": 3646,
+      "sha256": "ba69c7cbba6ff77623e6c16eba229b6e92777369b7b957ed57b7db73ab78e399",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/quota.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/user.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/470b8841814780665f2ca2f7.md",
+      "kind": "official-document",
+      "bytes": 1741,
+      "sha256": "7652eacda0b69d2f228d7291c50f3f679a7a84a11d4fde62e47b2207bb793b63",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/user.md"
+    },
+    {
+      "path": "docs/source/user-guide/cli/volume.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7e7e11b01fa28a5fb7b8ad63.md",
+      "kind": "official-document",
+      "bytes": 11500,
+      "sha256": "059388ddb9b829652be7ad4b940d1004ef6652c66b8f799bb3a3e503084a8c5d",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/cli/volume.md"
+    },
+    {
+      "path": "docs/source/user-guide/file.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/22cb197aa5cbe75fd4840e83.md",
+      "kind": "official-document",
+      "bytes": 8555,
+      "sha256": "7c061e097c75cc03203c68dd3ac3e834ccd228f5acfda56900b8fdea50a99be6",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/file.md"
+    },
+    {
+      "path": "docs/source/user-guide/flashnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/75078016aded5aa241b36aa2.md",
+      "kind": "official-document",
+      "bytes": 7771,
+      "sha256": "183d5afc750b549b2011fb2b00f1fa043453b4d235de4ca170b763ab79658ab3",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/flashnode.md"
+    },
+    {
+      "path": "docs/source/user-guide/gui.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/7d31408cc7d066844cf5fc69.md",
+      "kind": "official-document",
+      "bytes": 7,
+      "sha256": "924687b74a9c79656326a2ad4d08ff2c298eb72776b793385d508a32f0b5f9b8",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/gui.md"
+    },
+    {
+      "path": "docs/source/user-guide/objectnode.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/b600c60cda5d006dba792dce.md",
+      "kind": "official-document",
+      "bytes": 14086,
+      "sha256": "5dbf78bc0a238ed7c80081583822fe5ed3d3b993caac32707fc0131cca3bb413",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/objectnode.md"
+    },
+    {
+      "path": "docs/source/user-guide/volume.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ff37c3af59f6fdc7f4f23e3e.md",
+      "kind": "official-document",
+      "bytes": 2903,
+      "sha256": "e5d94885a5710c64eb3f54c95e5f6918c9aa4e5c604c09add4b28f4fda9cfea7",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/user-guide/volume.md"
+    },
+    {
+      "path": "docs/source/version/plan.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/c5f5c56284bd7def6cea59d1.md",
+      "kind": "official-document",
+      "bytes": 175,
+      "sha256": "fc8f9bc2b0722569c4ab159a5d7b482537f8657113f410364a867137bfed9e38",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/docs/source/version/plan.md"
+    },
+    {
+      "path": "java/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/0c997611c3c5fb9fa0641cb8.md",
+      "kind": "official-document",
+      "bytes": 1162,
+      "sha256": "60bee4d16f9265c338715ab3f6cd5dc1e1c0c6fdcd48d4c7025ef69efb4d148c",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/java/README.md"
+    },
+    {
+      "path": "tool/autofs/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/34911e0c8d4fd5bb539af6c0.md",
+      "kind": "official-document",
+      "bytes": 760,
+      "sha256": "f068d557926694ecf9641006d73f4df3a0f255ec3d2e17acb6f742c43168b50b",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/tool/autofs/README.md"
+    },
+    {
+      "path": "util/btree/LICENSE",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/ce70ef6a8c8259f4f539b594.txt",
+      "kind": "license",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/util/btree/LICENSE"
+    },
+    {
+      "path": "util/btree/README.md",
+      "localPath": "raw/cubefs--cubefs/ca5609b0af91/6d538ccf8f8ff22e16e91ff0.md",
+      "kind": "official-document",
+      "bytes": 456,
+      "sha256": "4e864ffc77559e9f2fd12379302d5e33714ba6ce937fdd22ca1cb3f810e881ea",
+      "sourceUrl": "https://github.com/cubeFS/cubefs/blob/ca5609b0af9108ef2eda825827e2f43fba65f596/util/btree/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

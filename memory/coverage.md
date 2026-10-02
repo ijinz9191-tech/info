@@ -12,8 +12,8 @@
 | 보안·빌드·CI/CD·테스트·운영 | [보안과 도구](security-tooling.md)의 경계와 절차 | 표준·도구 버전별 실습 및 취약점 패턴 |
 | 알고리즘·이벤트·장애·GitHub 코드 | 기존 주제별 문서와 [코드 읽기](github-code.md) | 분야별 사례와 커밋 고정 코드 분석 |
 | React·Spring Boot | [React 심화](react-deep-dive.md), [Spring Boot 심화](spring-boot-deep-dive.md)의 설계·진단 및 공개 이슈 | 버전별 API·실제 재현 프로젝트와 회귀 테스트 |
-| CNCF 전체 | [고정 Landscape](cncf-deep-dive.md)의 2,425개 항목 색인과 255개 프로젝트 목록 | 프로젝트별 공식 문서·운영 사례의 단계적 심화 |
-| VOC | [언어별 대표 사례](voc-languages.md) 55개, [CNCF 분야별 대표 사례](voc-cncf.md) 27개, [공개 사례집](voc-public.md)의 실제 이슈와 문서 기반 유형 | 각 언어의 추가 오류 유형과 CNCF 255개 프로젝트별 버전·재현·회귀 테스트 심화 |
+| CNCF 전체 | [고정 Landscape](cncf-deep-dive.md)의 2,427개 항목 색인과 255개 프로젝트 목록, [프로젝트별 공개 원문 수집](corpus-overview.md) | 원문 누락 보완, 프로젝트별 운영 재현과 버전 검증 |
+| VOC | **언어 130건**: [기존 55건](voc-languages.md)·[추가 55건](voc-languages-extra.md)·[추가 20건](voc-languages-more.md). **CNCF 121건**: [기존 27건](voc-cncf.md)·[분야 추가 27건](voc-cncf-extra.md)·[프로젝트 46건](voc-cncf-projects-extra.md)·[프로젝트 21건](voc-cncf-more.md). **프레임워크 122건**: [33건](voc-frameworks-extra.md)·[67건](voc-frameworks-more.md)·[22건](voc-frameworks-deeper.md). 합계 373건이며 기존 [공개 사례집](voc-public.md)은 별도 | CNCF 255개 프로젝트와 언어·프레임워크의 버전별 재현·회귀 테스트를 계속 누적. 100건은 최소 점검선일 뿐 갱신을 중단하는 상한이 아님 |
 
 ## 다음 주제 선정 규칙
 
@@ -23,4 +23,8 @@
 4. 링크만 추가한 항목은 **색인**, 직접 설명과 검증 절차가 있는 항목은 **가이드**로 표시한다.
 5. 최신 여부를 자동 확인한 결과와 사람이 원문을 읽고 내용을 갱신한 결과를 구별한다.
 
-이 폴더에는 특정 개인 프로젝트, 회사 문서, 사용자 스킬 원문/요약을 넣지 않는다. 공개 기술 자료를 자체 설명으로 정리한다.
+이 폴더에는 특정 개인 프로젝트, 회사 문서, 사용자 스킬 원문/요약을 넣지 않는다. 공개 기술 자료의 자체 설명과 공개 업스트림 원문을 보관한다. 대량 데이터셋의 실제 건수·출처·미확보 원천은 [별도 범위](corpus-overview.md)와 [학습 장부](training/manifest.json)를 따른다. 원문 확보와 모델의 가중치 학습은 별도 상태다.
+
+## OpenViking 저장 상태
+
+[OpenViking 리소스 원본](openviking/README.md)에 사례 373건과 CNCF Landscape 항목 2,427개를 재구성했다. 생성 파일 수와 해시는 [manifest](openviking/manifest.json)를 따른다. 별도 로컬 서버에서 소규모 표본의 저장·읽기·검색을 확인했던 기록이 있으나 이전 전체 가져오기는 완료 확인이 없다. task 완료, 대표 원문 읽기, 검색 및 점 파일의 네이티브 L0/L1 반영은 미검증이다. 새 [공식 원문 리소스](openviking/resources/official-corpus/README.md)는 별도 `viking://resources/official-corpus/` 가져오기 원본이며 네이티브 저장은 수행하지 않았다.

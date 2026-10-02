@@ -1,0 +1,2073 @@
+{
+  "schemaVersion": 1,
+  "repo": "huggingface/peft",
+  "commit": "9146289afe5451dad60a27061597face3d206f33",
+  "retrievedAt": "2026-10-01T15:20:19.186362+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "ml/peft"
+  ],
+  "archiveUrl": "https://codeload.github.com/huggingface/peft/zip/9146289afe5451dad60a27061597face3d206f33",
+  "archiveSha256": "10c374dd586b6c780e82d8d96fad7b121fdc57f298f714532a2e7f928cb2aa03",
+  "archiveBytes": 12419990,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 140,
+    "code": 115,
+    "licenses": 1,
+    "bytes": 1865736
+  },
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 13,
+      "sha256": "13285a5fd29ed8e73d122d3630397ada4bcda9971d5dd88d968ac9156114d762",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 13,
+      "sha256": "13285a5fd29ed8e73d122d3630397ada4bcda9971d5dd88d968ac9156114d762",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/CLAUDE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 44,
+      "sha256": "1f800dd3f929d53fb543e2d77afa732f0bcb31d93a61e8aecb1dc1848b791e31",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/huggingface--peft/9146289afe54/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 12244,
+      "sha256": "65958fdf047de668cb2abd1c34dace3082d46680b98ae781b8bd2db38486e13e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 7002,
+      "sha256": "8a0a463bb96e9b38e1be6a2e9872275c29086619ecc8ab7fcb47cf7426db6e52",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/SECURITY.md"
+    },
+    {
+      "path": "docker/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/da8fcbe728a9172b578e5d75.md",
+      "kind": "official-document",
+      "bytes": 327,
+      "sha256": "bf01418bc6187da09e3cbca4ff1312037c5c14e63e0b1e17867d52c7f1539642",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docker/README.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 10429,
+      "sha256": "a919e5a3adcef08b0cba95eaa044bc6693a8fccfd76aec462fefd27989dafd2f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/README.md"
+    },
+    {
+      "path": "docs/source/accelerate/deepspeed.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/c09bf1758a3c03b707d7a1dd.md",
+      "kind": "official-document",
+      "bytes": 22845,
+      "sha256": "b0277800628dee0e2d8e1b243f0b767cf6f7ddb5ced317385e5002037eccec73",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/accelerate/deepspeed.md"
+    },
+    {
+      "path": "docs/source/accelerate/fsdp.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/fb48347c6e26f33d837cae65.md",
+      "kind": "official-document",
+      "bytes": 13402,
+      "sha256": "8e1452b5ac38cdc4b1793d9585a0e9468aa938f2edd29fbd05ccaaacbddad134",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/accelerate/fsdp.md"
+    },
+    {
+      "path": "docs/source/developer_guides/checkpoint.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/503ca2cca54385a3dcb21ef9.md",
+      "kind": "official-document",
+      "bytes": 13951,
+      "sha256": "9fff92a556da5c5ae28eaa2e3f645a89d7b9382986c1b043a8f6ceacb286d6c2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/checkpoint.md"
+    },
+    {
+      "path": "docs/source/developer_guides/contributing.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/1f800dd3f929d53fb543e2d7.md",
+      "kind": "official-document",
+      "bytes": 14245,
+      "sha256": "fa185aa0464cd445aefac96a2c2d6bddec9cb9a9da53354408daa8af88ca4fda",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/contributing.md"
+    },
+    {
+      "path": "docs/source/developer_guides/custom_models.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/b214a413d628f80bc5b2629d.md",
+      "kind": "official-document",
+      "bytes": 15675,
+      "sha256": "d6ed646aa7ffb9650b04b9e1a4f85526cedb83a02b5099ec9d28076b882c8b98",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/custom_models.md"
+    },
+    {
+      "path": "docs/source/developer_guides/low_level_api.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/175b528efcbb27d34ea9f154.md",
+      "kind": "official-document",
+      "bytes": 8738,
+      "sha256": "4763f7c02c2f7feab4bf17c9f6ee103e24a045dc681990d1321e4cae09622d55",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/low_level_api.md"
+    },
+    {
+      "path": "docs/source/developer_guides/memory_efficient_training.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/61196dae8007850eb0fac96a.md",
+      "kind": "official-document",
+      "bytes": 5537,
+      "sha256": "ff1d514ae036df6d6761c006e009edfa47712a0e1a0046eca02ffbe4b9cbf428",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/memory_efficient_training.md"
+    },
+    {
+      "path": "docs/source/developer_guides/mixed_models.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/431a200e6d08953dbbd6019f.md",
+      "kind": "official-document",
+      "bytes": 2782,
+      "sha256": "e5390ad771d52f32e2871fa19c6c5457789acb5779e98e8324cbe4bc4679e58b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/mixed_models.md"
+    },
+    {
+      "path": "docs/source/developer_guides/model_merging.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/e618dbfc73b2f0f9afb567b9.md",
+      "kind": "official-document",
+      "bytes": 8503,
+      "sha256": "456fdbb618fc270ba8d91c7551c7de36febc26dad75e1c5540cf9ce9ba6562ba",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/model_merging.md"
+    },
+    {
+      "path": "docs/source/developer_guides/quantization.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/0daa692a3168f5eb48ad70db.md",
+      "kind": "official-document",
+      "bytes": 17562,
+      "sha256": "e9425bb1f20db3e8f0ba37a24c6559a688cb8d7a5571e06ddb65b70373e46aa9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/quantization.md"
+    },
+    {
+      "path": "docs/source/developer_guides/torch_compile.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6685721fe0564831c1c5e588.md",
+      "kind": "official-document",
+      "bytes": 3601,
+      "sha256": "969c0cb894a1cec54ae5b3cddbe8eafbd46fadc313f84a4a047e16cc83af8796",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/torch_compile.md"
+    },
+    {
+      "path": "docs/source/developer_guides/troubleshooting.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/eb98d6e2edc91b2bb39cfd24.md",
+      "kind": "official-document",
+      "bytes": 30471,
+      "sha256": "945919b88b6f4081ecf40e9de003fbceeb94561c3b62d1423f89bae77f50196e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/developer_guides/troubleshooting.md"
+    },
+    {
+      "path": "docs/source/guides/peft_integrations.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/19894d32c624aba4079e5bf9.md",
+      "kind": "official-document",
+      "bytes": 7340,
+      "sha256": "0a6e2817aded09278e81a24c4ce92799d189fbec1e76840fdfc42bf48c2b6fcc",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/guides/peft_integrations.md"
+    },
+    {
+      "path": "docs/source/guides/peft_model_config.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/29c20803ab642ceebe01e547.md",
+      "kind": "official-document",
+      "bytes": 8096,
+      "sha256": "01ff9fd1b6c4b1ef271e9c6741afa9e3922161fee96765ff5e4ffd6db60a8070",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/guides/peft_model_config.md"
+    },
+    {
+      "path": "docs/source/index.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/fe2f3439fff0648f2185e11c.md",
+      "kind": "official-document",
+      "bytes": 3191,
+      "sha256": "c5162c86cfd79ecb8035be29c1e5af4f54a694690f56e68dc22a86a007701a38",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/index.md"
+    },
+    {
+      "path": "docs/source/install.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/047f01a00fd82db14d4d07e1.md",
+      "kind": "official-document",
+      "bytes": 2337,
+      "sha256": "4bde392737c7a22f8df38a1729ddba2404a3771b22b9d1fb13ad83aa60c95669",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/install.md"
+    },
+    {
+      "path": "docs/source/methods/overview.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/91556a5e254094e3ff5ca57e.md",
+      "kind": "official-document",
+      "bytes": 7362,
+      "sha256": "71c41d8284c6c93df1f751f6346930a66fbe0083eab8d994e51f460bcf6d60a2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/methods/overview.md"
+    },
+    {
+      "path": "docs/source/package_reference/adalora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/cae12cce089c29d9ca35760b.md",
+      "kind": "official-document",
+      "bytes": 6038,
+      "sha256": "51d0729d991257a70f28dfae09e169f320130e448b8f325b70844b5828f4a310",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/adalora.md"
+    },
+    {
+      "path": "docs/source/package_reference/adamss.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/18ebc9860943ce7ac240efc2.md",
+      "kind": "official-document",
+      "bytes": 3455,
+      "sha256": "3487969300d87ed0893c7fa8581da62b4828cad64e9fac3f86143bf51d53aba1",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/adamss.md"
+    },
+    {
+      "path": "docs/source/package_reference/adapter_utils.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/274a19c5c93af553e89c53bb.md",
+      "kind": "official-document",
+      "bytes": 1276,
+      "sha256": "03c512c7945202f2f0da2a6b14b7872e34eae2d3a949fc268f1eaf673753bd0d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/adapter_utils.md"
+    },
+    {
+      "path": "docs/source/package_reference/auto_class.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/0c736a8d006ec206e7ea19a0.md",
+      "kind": "official-document",
+      "bytes": 1688,
+      "sha256": "2ddd4bafdec492c83d67de8756e6b9b80950a69882bd9f26411e09db24a36da4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/auto_class.md"
+    },
+    {
+      "path": "docs/source/package_reference/beft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/d9a4b5a8e703c75b31f2b488.md",
+      "kind": "official-document",
+      "bytes": 3096,
+      "sha256": "a373d5ceb8b5de393f48503d3321736cc96e99fb89439bc2fbdadc2e138458bc",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/beft.md"
+    },
+    {
+      "path": "docs/source/package_reference/boft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f48cb3f691f78de8929258c5.md",
+      "kind": "official-document",
+      "bytes": 6486,
+      "sha256": "90810902fa8a7e457b511fd9a82b0f33da1fa2a184df71b74c9267d3cdaaa5af",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/boft.md"
+    },
+    {
+      "path": "docs/source/package_reference/c3a.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/1ee315374433cfc1470fd580.md",
+      "kind": "official-document",
+      "bytes": 3149,
+      "sha256": "eac21a35c55136a62d4a467979a78fdc9c5704acd1ad7cb036ba9fcd00827112",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/c3a.md"
+    },
+    {
+      "path": "docs/source/package_reference/cartridges.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a1c44e1147aefbd18810728f.md",
+      "kind": "official-document",
+      "bytes": 4309,
+      "sha256": "577a5f7c9a1f6d1e1a6b6eb9ff63b50e622850fa042ce4ce0fc98f43f807bae6",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/cartridges.md"
+    },
+    {
+      "path": "docs/source/package_reference/config.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/c34de538e8b295e33df11300.md",
+      "kind": "official-document",
+      "bytes": 905,
+      "sha256": "339607870bde113c63ed36994078a297f2183151d2592e91983919beff2d9957",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/config.md"
+    },
+    {
+      "path": "docs/source/package_reference/cpt.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/38cfda27e83b7a881dca25d4.md",
+      "kind": "official-document",
+      "bytes": 3870,
+      "sha256": "0eb3b3a42df0aed63ebd24099434caf1c10cf5a2affdc301e2f07390827fa7df",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/cpt.md"
+    },
+    {
+      "path": "docs/source/package_reference/deft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a0a34cdc604e467261f79078.md",
+      "kind": "official-document",
+      "bytes": 4825,
+      "sha256": "1bd2784297766734cbabc22a0ce905f646c73f0d825437c65cd203f752722375",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/deft.md"
+    },
+    {
+      "path": "docs/source/package_reference/delora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/45acb476cba94569246b37fb.md",
+      "kind": "official-document",
+      "bytes": 3303,
+      "sha256": "542c32553f493933ed0a3a6df9b14aa21cf3f84f56f4f4a4cd89ff083273dcd9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/delora.md"
+    },
+    {
+      "path": "docs/source/package_reference/errors.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/dfdebac7f31ec32026fd6bca.md",
+      "kind": "official-document",
+      "bytes": 95,
+      "sha256": "1290dbb0acf7737a7482894dbc8f9893118bc3b9b8a29b55ec787fa9cdfb8a51",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/errors.md"
+    },
+    {
+      "path": "docs/source/package_reference/fourierft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f8d11c01ce913e667c432a70.md",
+      "kind": "official-document",
+      "bytes": 2875,
+      "sha256": "d2221759d5f3bb678a365b33a43d88fd60e52546a28179a8d36207e03d4b08f0",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/fourierft.md"
+    },
+    {
+      "path": "docs/source/package_reference/frod.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/954c30ec95e7240fa3ef9ac5.md",
+      "kind": "official-document",
+      "bytes": 3437,
+      "sha256": "e1adc6f0f56a2cc200cc0d826d206a422349521e07080a427434f3893ae9289e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/frod.md"
+    },
+    {
+      "path": "docs/source/package_reference/functional.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/cecefee82ccd7ac433d9939c.md",
+      "kind": "official-document",
+      "bytes": 1190,
+      "sha256": "70f9cf0a84599d8fcc5e6fe479dc23be8b48affe73ceb76c9088819dbc05fa58",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/functional.md"
+    },
+    {
+      "path": "docs/source/package_reference/glora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/9c7fa2950a42be6bf183a0fc.md",
+      "kind": "official-document",
+      "bytes": 4798,
+      "sha256": "e988e4ed709f01239836b97eadfcabc24d9c8d5c14d52e7dddfa73340418bdad",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/glora.md"
+    },
+    {
+      "path": "docs/source/package_reference/gralora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/d47e77b7b3ed46d8d206bed7.md",
+      "kind": "official-document",
+      "bytes": 2917,
+      "sha256": "2392ff1f64b799c864749585a4cc9cf0b2e910851ce339cd86076688f35754bb",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/gralora.md"
+    },
+    {
+      "path": "docs/source/package_reference/helpers.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/982a1c076e3115c518fa947f.md",
+      "kind": "official-document",
+      "bytes": 1439,
+      "sha256": "5e58fcc99f4941074a66c5456f617c9e0fc16be1e18e32ebb2b22f0ab5d50773",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/helpers.md"
+    },
+    {
+      "path": "docs/source/package_reference/hira.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6ad6d3c93a3a8685942e443c.md",
+      "kind": "official-document",
+      "bytes": 3019,
+      "sha256": "b6d5980fedf72c1b5c9a0693340552f803299ba9358b0b055cc9bfb228dd768d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/hira.md"
+    },
+    {
+      "path": "docs/source/package_reference/hotswap.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/5871ced8cc6d97be8ceffac6.md",
+      "kind": "official-document",
+      "bytes": 3382,
+      "sha256": "08ab2c1f30696d61876a8da1fa22a2d600032a8edd77cae3ed9f4540b6153b15",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/hotswap.md"
+    },
+    {
+      "path": "docs/source/package_reference/hra.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/432c03a6242a099a991bbe7d.md",
+      "kind": "official-document",
+      "bytes": 3965,
+      "sha256": "5b40df7b4f451fd8099b147e224ac9be5528b70220d48cec04409a2aa22422fe",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/hra.md"
+    },
+    {
+      "path": "docs/source/package_reference/ia3.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/01d593b3f9a33e61f89252cd.md",
+      "kind": "official-document",
+      "bytes": 6395,
+      "sha256": "5ea5e6d03731728e23dc8582db2b5c9c399e475af47b43051ceea7ceb86bb703",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/ia3.md"
+    },
+    {
+      "path": "docs/source/package_reference/layernorm_tuning.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2972e0d160247b5542fb6717.md",
+      "kind": "official-document",
+      "bytes": 3034,
+      "sha256": "af37f4bcb35ab739316327fbae5a054ff3b9ff3117d001a7d9c4c6ecbdd0bdcd",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/layernorm_tuning.md"
+    },
+    {
+      "path": "docs/source/package_reference/lily.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/19363e455813a064fd987bbd.md",
+      "kind": "official-document",
+      "bytes": 3544,
+      "sha256": "38d21516c03bf637f4ec2e38b6d207f2f1cbd19409d0b9534eb6b28b57ebe659",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lily.md"
+    },
+    {
+      "path": "docs/source/package_reference/llama_adapter.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f24ceb0caa4a8b41ccfc89af.md",
+      "kind": "official-document",
+      "bytes": 2996,
+      "sha256": "e7ee7dfd8958a47c910d3443d644d9a46f181843fbcdc28a5e944f841f6dda45",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/llama_adapter.md"
+    },
+    {
+      "path": "docs/source/package_reference/loha.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/fab1b7b3218c92dfc0e0d678.md",
+      "kind": "official-document",
+      "bytes": 5271,
+      "sha256": "9140775e3e9269284aa677ebb1c10ca479a171f8c00de921ddf9e10a2b862bb6",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/loha.md"
+    },
+    {
+      "path": "docs/source/package_reference/lokr.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/320af3b9f0616ab12fdda37b.md",
+      "kind": "official-document",
+      "bytes": 3769,
+      "sha256": "f70386169e127fe349d5dadd8a29909f71b3350e1e52749662bf230c409b3ac0",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lokr.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/746d5c8de0dbb9582ccc7cdc.md",
+      "kind": "official-document",
+      "bytes": 72190,
+      "sha256": "62fc0499c9a249a0e5a96e74efcd606da6109065188161532ca2bc7f678c5832",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora_conversion.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/e2b7f4ec87c6c1c60cc7fd63.md",
+      "kind": "official-document",
+      "bytes": 12193,
+      "sha256": "2afa6b3f45cffd25479ebf4dbe30a9b959e5f33ea846a56490d494053253a953",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora_conversion.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora_variant_bdlora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2345b1cc3f3e6c591cac0508.md",
+      "kind": "official-document",
+      "bytes": 2318,
+      "sha256": "47a7efef610a663a869a6c35da278da6c22fe7e137a7a79a6cedba762120189b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora_variant_bdlora.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora_variant_dora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2a1ed6fbad866a135e45de38.md",
+      "kind": "official-document",
+      "bytes": 4165,
+      "sha256": "4cb03cbdc861f9bcd4fd37d8da475d32a886acbbd706dfb7d3dab2a83cecd58a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora_variant_dora.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora_variant_kasa.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/99c2dffabe310fee6cfd56c1.md",
+      "kind": "official-document",
+      "bytes": 4052,
+      "sha256": "c3e8aa7e01dcea3ab98bd5dae3dbbf217c78ee198baf373d52b9542222e89ecd",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora_variant_kasa.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora_variant_monteclora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/24b48c0b7c39ef411690a809.md",
+      "kind": "official-document",
+      "bytes": 3146,
+      "sha256": "8f6e54df6580c0ad24643e75e7764f3282a46481410a37d467ddb5c51ea6f997",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora_variant_monteclora.md"
+    },
+    {
+      "path": "docs/source/package_reference/lora_variant_velora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/8d5bdbee6bbb98f976c16d0d.md",
+      "kind": "official-document",
+      "bytes": 2603,
+      "sha256": "cdb5effc1b4836c11dbb744b4b42bebb6e3bcab2f7b504f910624a7086b07d38",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/lora_variant_velora.md"
+    },
+    {
+      "path": "docs/source/package_reference/merge_utils.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2dbc09868a9b1a15f7fe25a7.md",
+      "kind": "official-document",
+      "bytes": 1217,
+      "sha256": "94054192755d2466eae532e84ea4420e379a3e153cd9b2ecec8754c37fe119f7",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/merge_utils.md"
+    },
+    {
+      "path": "docs/source/package_reference/miss.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/276e1fe771e73f31c534c7d2.md",
+      "kind": "official-document",
+      "bytes": 5020,
+      "sha256": "f51331ce43cfb88a89491d0d281a787924b653d02dc2abf7e1a3a93907ea8a12",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/miss.md"
+    },
+    {
+      "path": "docs/source/package_reference/multitask_prompt_tuning.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a732a236991ea9e3f0124dab.md",
+      "kind": "official-document",
+      "bytes": 3692,
+      "sha256": "4a1b819d2db2418981b9e8d2f1346def7d951723c002270ebd4cc29a7a538c7f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/multitask_prompt_tuning.md"
+    },
+    {
+      "path": "docs/source/package_reference/oft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f757ef138aefb9af8bd8b6e3.md",
+      "kind": "official-document",
+      "bytes": 5682,
+      "sha256": "b582c3f53826bc56f0f5751497b772419ae76b3233d1884aa49e4d82f70df5d5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/oft.md"
+    },
+    {
+      "path": "docs/source/package_reference/osf.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/542658d63a4970cd7f27a362.md",
+      "kind": "official-document",
+      "bytes": 10516,
+      "sha256": "f4723255ed894e9c663b7c8c388946ab5a9f5eebde0eaa850a04de56cea5425b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/osf.md"
+    },
+    {
+      "path": "docs/source/package_reference/p_tuning.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f26413b624f10f6083c8f7e3.md",
+      "kind": "official-document",
+      "bytes": 4000,
+      "sha256": "1c8941422bd2f8faff41ab8ad8ad4a9415231c1da54d201260f10930d1f7cd31",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/p_tuning.md"
+    },
+    {
+      "path": "docs/source/package_reference/peanut.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/00400eab6c55c84b8b81f8af.md",
+      "kind": "official-document",
+      "bytes": 3673,
+      "sha256": "07d56b7adf5d89fc2f92f4b3ff69c7650703a38696857a893fd754544b33f81f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/peanut.md"
+    },
+    {
+      "path": "docs/source/package_reference/peft_model.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/784488533146746f8c61e6c4.md",
+      "kind": "official-document",
+      "bytes": 1886,
+      "sha256": "374c2007b3a191217a9d9952ee37c8cfd2f3aaeac849e41644143a6fa3f9cbd9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/peft_model.md"
+    },
+    {
+      "path": "docs/source/package_reference/peft_types.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6ce459acc96a028ae61037a9.md",
+      "kind": "official-document",
+      "bytes": 975,
+      "sha256": "a3f37223419947ac2d8fa5e47184de215cd86b80d5aeb2069c82755c3abc574a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/peft_types.md"
+    },
+    {
+      "path": "docs/source/package_reference/poly.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/1dc2be1992be5ba85bba8edf.md",
+      "kind": "official-document",
+      "bytes": 4807,
+      "sha256": "580d0522605cc4056fed87cf9e285b6d2793d7dc9b79bb8dcb01f52999b1ccf8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/poly.md"
+    },
+    {
+      "path": "docs/source/package_reference/prefix_tuning.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/8f1fafd1924554121a0a54e0.md",
+      "kind": "official-document",
+      "bytes": 6388,
+      "sha256": "2177a5415f52804c019db617cdb495bc0aafbd298c92d0d19d276a9d884c63d8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/prefix_tuning.md"
+    },
+    {
+      "path": "docs/source/package_reference/prompt_tuning.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f214427dee6c6d5fdb630fb7.md",
+      "kind": "official-document",
+      "bytes": 4147,
+      "sha256": "17ea6fa89a27ed9b3ee795c4bc7f40aaa3b3f8e6c0b5283fb9af798a78fdb583",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/prompt_tuning.md"
+    },
+    {
+      "path": "docs/source/package_reference/psoft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/82114dd3e54952aaf2ee06a3.md",
+      "kind": "official-document",
+      "bytes": 7180,
+      "sha256": "6b049e034de6b4aabda4935047146c0f8fa0742c7183719fd4a4c5ee86e9596f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/psoft.md"
+    },
+    {
+      "path": "docs/source/package_reference/pvera.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/810fe3955831196d3386e238.md",
+      "kind": "official-document",
+      "bytes": 4036,
+      "sha256": "3e34d8ae1737904e12006995c26e1b61b1e1eb9111bb1162782491648859038e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/pvera.md"
+    },
+    {
+      "path": "docs/source/package_reference/randlora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/9abfea1d60acde7166e7255f.md",
+      "kind": "official-document",
+      "bytes": 6327,
+      "sha256": "ecb30f8b3e0cd968d5fb73471c86b3e40d283418f62d4193a000b8ce744919ad",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/randlora.md"
+    },
+    {
+      "path": "docs/source/package_reference/road.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/5525c1211ad3247ecea2b79f.md",
+      "kind": "official-document",
+      "bytes": 2582,
+      "sha256": "754942efd3003ad381c8fe2d439ff9fc42a26c174c224e1ce1034ccef044d7c8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/road.md"
+    },
+    {
+      "path": "docs/source/package_reference/shadow.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/ee1fa984b8bc241f1ba944c1.md",
+      "kind": "official-document",
+      "bytes": 7685,
+      "sha256": "1a2235319e6a9523ddc65614880957b2248227752c63f92866751c7ad738890f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/shadow.md"
+    },
+    {
+      "path": "docs/source/package_reference/shira.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/df21ae366a875dafd6be9293.md",
+      "kind": "official-document",
+      "bytes": 3512,
+      "sha256": "daf472981af765f62b38f9428c766476073fe175a41a2640426916e36a7f63c2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/shira.md"
+    },
+    {
+      "path": "docs/source/package_reference/supertuning.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/8810db4db51050988ff19474.md",
+      "kind": "official-document",
+      "bytes": 3227,
+      "sha256": "60891eeb5780dba5cd751077d98b2498601103266eb22be6c0d5039f72a4a0f3",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/supertuning.md"
+    },
+    {
+      "path": "docs/source/package_reference/tinylora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2bdff3b5f13d630d42408e95.md",
+      "kind": "official-document",
+      "bytes": 4025,
+      "sha256": "52bd08b0f3736c46bdd0263c5a593bc14bb19d22b2823ef676d3a6b28767f53a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/tinylora.md"
+    },
+    {
+      "path": "docs/source/package_reference/trainable_tokens.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/02fde139a4fe12642a9ff507.md",
+      "kind": "official-document",
+      "bytes": 3124,
+      "sha256": "26f59afa4979d72da45ba95a5d2ffb741fe1105bcf1606d6ad47782f300172ed",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/trainable_tokens.md"
+    },
+    {
+      "path": "docs/source/package_reference/tuners.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/91f1b94d5b17353d9e83f72c.md",
+      "kind": "official-document",
+      "bytes": 1300,
+      "sha256": "abc58262a3712c00ac89bd4f444bcbc585b9366789bffe2b01dbdc4449ea3070",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/tuners.md"
+    },
+    {
+      "path": "docs/source/package_reference/unilora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6947d13f39cb1106331b2631.md",
+      "kind": "official-document",
+      "bytes": 3127,
+      "sha256": "349a1c810c3068e5a1f9438bcd338ad2a49cf7685231f31f87cccbe003e53573",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/unilora.md"
+    },
+    {
+      "path": "docs/source/package_reference/vblora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/3407f3fedab8f3da4f4a9deb.md",
+      "kind": "official-document",
+      "bytes": 3765,
+      "sha256": "4f976aa8c7bf5d2b2a91993adf6e09a460ec5b0a56c2204a3254a8fcbd336437",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/vblora.md"
+    },
+    {
+      "path": "docs/source/package_reference/vera.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/76961e821d6a60022bfb855b.md",
+      "kind": "official-document",
+      "bytes": 6209,
+      "sha256": "70f189a8aeb57b9ee2688a77f124823b409b8c3f7d597677b61af04287a13b43",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/vera.md"
+    },
+    {
+      "path": "docs/source/package_reference/warnings.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f17495bda2c098898728cc88.md",
+      "kind": "official-document",
+      "bytes": 53,
+      "sha256": "9c8b806a36a6cb9316bde03f23a6d4db5f68dbd8ca0758854ffff5173ec9b488",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/warnings.md"
+    },
+    {
+      "path": "docs/source/package_reference/waveft.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/d7c53b14cb4d4bdbe756dcd9.md",
+      "kind": "official-document",
+      "bytes": 2696,
+      "sha256": "562685d7d0db091c9144c13bd41702e59f7f4dff627830270865551d20daf6c4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/waveft.md"
+    },
+    {
+      "path": "docs/source/package_reference/xlora.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f88800891d9dcccfb9510229.md",
+      "kind": "official-document",
+      "bytes": 6665,
+      "sha256": "cac164eb261bdfb10066eddd5da6b9b5e5e7b71fe4d5e000996c2d4fff396ced",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/package_reference/xlora.md"
+    },
+    {
+      "path": "docs/source/quicktour.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2eb2533971102453168f0665.md",
+      "kind": "official-document",
+      "bytes": 12793,
+      "sha256": "213c720211b7b8916493cd544f7ec8b87fd21daad01ca3b9dbf41e8ff8256d9c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/docs/source/quicktour.md"
+    },
+    {
+      "path": "examples/KappaTune/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/94b2c0e9638b3a50e65c9aa9.md",
+      "kind": "official-document",
+      "bytes": 18071,
+      "sha256": "529fd9d38f87446086d39ca968b7aecb7185770e51afc8551831e4f5e94f371c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/KappaTune/README.md"
+    },
+    {
+      "path": "examples/KappaTune/experiments_kappatune_peft.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/3ca5c5f632745cb263dab4ec.py",
+      "kind": "upstream-example-code",
+      "bytes": 5630,
+      "sha256": "17b784fe4da5b767d676685d2f5fde2ba32448e41edc0ca9438ccc001f12ad6f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/KappaTune/experiments_kappatune_peft.py"
+    },
+    {
+      "path": "examples/adamss_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/14704bb6ac78eb199b147bfa.md",
+      "kind": "official-document",
+      "bytes": 7057,
+      "sha256": "153c0ae9ecfff5998df4cedbe8eafc84ec0232a9bc1dfb591ccab10460a450da",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/adamss_finetuning/README.md"
+    },
+    {
+      "path": "examples/adamss_finetuning/glue_adamss_asa_example.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/3db5a9a829bc007211dc5dca.py",
+      "kind": "upstream-example-code",
+      "bytes": 14842,
+      "sha256": "62678c022b20a59fc2b32ca3d8b5735ab9c1f30f211fa622f1bbf281d45a9516",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/adamss_finetuning/glue_adamss_asa_example.py"
+    },
+    {
+      "path": "examples/adamss_finetuning/glue_adamss_asa_manual_example.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/fa9b826fe3817290008295c1.py",
+      "kind": "upstream-example-code",
+      "bytes": 16414,
+      "sha256": "b7739cdbdf2459c1eb45627edcf71411eef6e57f5803ba4c338154d12214cd5d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/adamss_finetuning/glue_adamss_asa_manual_example.py"
+    },
+    {
+      "path": "examples/adamss_finetuning/image_classification_adamss_asa.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a122b88d616edc91f4e9a983.py",
+      "kind": "upstream-example-code",
+      "bytes": 16916,
+      "sha256": "11f0174e1638f6c37ddd8a82403a3e98a729629cec8f5403be4531e41fec8ff4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/adamss_finetuning/image_classification_adamss_asa.py"
+    },
+    {
+      "path": "examples/adamss_finetuning/test_adamss_quick.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/23f189054f5d30d53406f104.py",
+      "kind": "upstream-example-code",
+      "bytes": 4411,
+      "sha256": "66aade5724d2471b37398c2a2066373243a1e5be19f6f6fef2a899f346ad463d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/adamss_finetuning/test_adamss_quick.py"
+    },
+    {
+      "path": "examples/alora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/3a17aed9142bda1da2044ec7.md",
+      "kind": "official-document",
+      "bytes": 3030,
+      "sha256": "33f0948600c27659413481caf903e6f54c26dc5202c45a8182ada44f87ee8126",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/alora_finetuning/README.md"
+    },
+    {
+      "path": "examples/alora_finetuning/alora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/d05c73c1052c5127e8842aa9.py",
+      "kind": "upstream-example-code",
+      "bytes": 9580,
+      "sha256": "4ca81443b4a45b5ad8cb795cf33c482a13fe0d2762965592541ef029d336616b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/alora_finetuning/alora_finetuning.py"
+    },
+    {
+      "path": "examples/arrow_multitask/arrow_phi3_mini.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/ce572b00366755b58248cdfa.py",
+      "kind": "upstream-example-code",
+      "bytes": 14372,
+      "sha256": "4f22c0ec4edfc3887174d817f9a09e92d96d632bbe84e6abba6cb620e7cb368c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/arrow_multitask/arrow_phi3_mini.py"
+    },
+    {
+      "path": "examples/astra_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/7639b44978eec07c2ea7954a.md",
+      "kind": "official-document",
+      "bytes": 5372,
+      "sha256": "d076d7184b94035f1a1d972bc79246928e3e1c52b4495d06644c42bb34043f6b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/astra_finetuning/README.md"
+    },
+    {
+      "path": "examples/astra_finetuning/astra_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a625749b1bf83a27f6363014.py",
+      "kind": "upstream-example-code",
+      "bytes": 10335,
+      "sha256": "bd68a6cc7c3c8f044d2dd74f51e6775a4ac8694d138672030f01bb6880705adb",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/astra_finetuning/astra_finetuning.py"
+    },
+    {
+      "path": "examples/astra_finetuning/datautils.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/2cd1cfcf89cfc9fd9a3db546.py",
+      "kind": "upstream-example-code",
+      "bytes": 9049,
+      "sha256": "72cb53f96e46c17000762f5e500109c37be6e046313423ea9d10373346a0034c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/astra_finetuning/datautils.py"
+    },
+    {
+      "path": "examples/astra_finetuning/preprocess.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a87f65e3699c9e69c2baa272.py",
+      "kind": "upstream-example-code",
+      "bytes": 3925,
+      "sha256": "cc0a34acf4280104ba533a6a93ab089726fff3969fe4944ffa0f9cb270fc71b8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/astra_finetuning/preprocess.py"
+    },
+    {
+      "path": "examples/bdlora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/9ec4a6859982f27861dd9ed3.md",
+      "kind": "official-document",
+      "bytes": 1481,
+      "sha256": "7a4d43eda7bffc2a5f76c441cee0f960554b24b08185d3adafd024f346877ae5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/bdlora_finetuning/README.md"
+    },
+    {
+      "path": "examples/bdlora_finetuning/chat.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/b4576c0702569a032b89349e.py",
+      "kind": "upstream-example-code",
+      "bytes": 1908,
+      "sha256": "3c81892725b6d36d0e5f73ff611410120613018f8b5c6b6247d4fef600d96e45",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/bdlora_finetuning/chat.py"
+    },
+    {
+      "path": "examples/beft_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/5ae61efe4363d38b41d326fb.md",
+      "kind": "official-document",
+      "bytes": 1350,
+      "sha256": "b50868b94877485632840839b7cc1bbe90efa1a592bad40f0e3d40b9440bbfed",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/beft_finetuning/README.md"
+    },
+    {
+      "path": "examples/beft_finetuning/beft_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/074957e2362e7b86c36393fa.py",
+      "kind": "upstream-example-code",
+      "bytes": 3961,
+      "sha256": "8cdb2bf3d5d201090d0bd51f966adc9ead0dd847bea21475de042f1074735898",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/beft_finetuning/beft_finetuning.py"
+    },
+    {
+      "path": "examples/boft_controlnet/__init__.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/df8716d17c11ed24451e24fc.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/__init__.py"
+    },
+    {
+      "path": "examples/boft_controlnet/eval.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/e9e7ed012bea9c94a6bbcd5e.py",
+      "kind": "upstream-example-code",
+      "bytes": 7308,
+      "sha256": "3bc36e9b3f10810b87217899ae751f010288ae9f3a3351c18bf166dbb7d12a47",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/eval.py"
+    },
+    {
+      "path": "examples/boft_controlnet/eval.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/1e45f4c522edee481e641f50.sh",
+      "kind": "upstream-example-code",
+      "bytes": 833,
+      "sha256": "2019c6308a07045cdebaa142d42df4dbaa135debf3e4d0b63bc22dd14ae2217e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/eval.sh"
+    },
+    {
+      "path": "examples/boft_controlnet/test_controlnet.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/1719a32c6ec47f03867f246e.py",
+      "kind": "upstream-example-code",
+      "bytes": 4493,
+      "sha256": "1e1cce28c8a92a7950dc265d8f37729bcbde6df58a494a7fe38a807e75e20262",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/test_controlnet.py"
+    },
+    {
+      "path": "examples/boft_controlnet/test_controlnet.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/d89b4aa8ecfcbd2d57282f15.sh",
+      "kind": "upstream-example-code",
+      "bytes": 859,
+      "sha256": "6bb31ba45a91032b2e6437878b2acf107419c7a979dc7f74129ff1df17453015",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/test_controlnet.sh"
+    },
+    {
+      "path": "examples/boft_controlnet/train_controlnet.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/9f68a509e6457103c411e682.py",
+      "kind": "upstream-example-code",
+      "bytes": 22902,
+      "sha256": "b77a6145ff717feed8d521059bea7f2fc35086d54df1ef1fc2d4aac14a4a0140",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/train_controlnet.py"
+    },
+    {
+      "path": "examples/boft_controlnet/train_controlnet.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/b2b2c0826118d5f2c6074791.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1286,
+      "sha256": "2d6500801694981c3bbc97ab976f885780670e3fd9a25ed0b5017d820d39800d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/train_controlnet.sh"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/__init__.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/5702d650913098f806f47e22.py",
+      "kind": "upstream-example-code",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/__init__.py"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/args_loader.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/004aad44853815675da3a517.py",
+      "kind": "upstream-example-code",
+      "bytes": 17829,
+      "sha256": "75efb49e628da30649b50e3e06550c8f6feac3b1d335c7cd15098a1b6e0cb526",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/args_loader.py"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/dataset.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/066f87343c58fef12a4a62d0.py",
+      "kind": "upstream-example-code",
+      "bytes": 7735,
+      "sha256": "ca956e259c3b743c59e404d8f54d1fae13f60723500add37a9215fd9c31576b7",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/dataset.py"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/light_controlnet.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/bca06da2c321aff5547520f8.py",
+      "kind": "upstream-example-code",
+      "bytes": 10916,
+      "sha256": "327daaa7b2f6ad4e8bd0697574260675dd40c9ee2eccd3b9a4e31251824e07e8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/light_controlnet.py"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/pipeline_controlnet.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/701000cd048b22f09d6430a6.py",
+      "kind": "upstream-example-code",
+      "bytes": 22647,
+      "sha256": "4556c00f58eaff84cc646ed35ef7c6e1355a34eb2b6a14358f3da537c89281ab",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/pipeline_controlnet.py"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/tracemalloc.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/c9d51d7382f598fff94dabd1.py",
+      "kind": "upstream-example-code",
+      "bytes": 2025,
+      "sha256": "d6a9dc645706afe45488b691b0d0e8e7768fa2f2c1ae47510c5d83fe14e83b50",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/tracemalloc.py"
+    },
+    {
+      "path": "examples/boft_controlnet/utils/unet_2d_condition.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/5a49fba6cf31727ea824b268.py",
+      "kind": "upstream-example-code",
+      "bytes": 13377,
+      "sha256": "9f68d6980b3bbe034098cc93400d1fec966c995f3f1f9e2c858161564cb4d182",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_controlnet/utils/unet_2d_condition.py"
+    },
+    {
+      "path": "examples/boft_dreambooth/__init__.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/108e1cef691b8fe96237aca1.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/__init__.py"
+    },
+    {
+      "path": "examples/boft_dreambooth/train_dreambooth.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/0c9918165348494b9683d482.py",
+      "kind": "upstream-example-code",
+      "bytes": 28185,
+      "sha256": "e3900526c8854f3067ddbdda748b6e19cb5cf171da7ea1a4ba81270def1ad30d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/train_dreambooth.py"
+    },
+    {
+      "path": "examples/boft_dreambooth/train_dreambooth.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/f32b25c1e5f4c49779472a0e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 8044,
+      "sha256": "88dadfe5096b719dbb2f1df24a3a02ff80a0e60b283579d81b90e0dd1951e7ae",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/train_dreambooth.sh"
+    },
+    {
+      "path": "examples/boft_dreambooth/utils/__init__.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/4101efa48153c92a16147f20.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/utils/__init__.py"
+    },
+    {
+      "path": "examples/boft_dreambooth/utils/args_loader.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/d580744bf00fed70941d4bb6.py",
+      "kind": "upstream-example-code",
+      "bytes": 14139,
+      "sha256": "8e3091e6c2f9ade40bdde64a632bba199881cbab6cbdd70635c63d5375214e11",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/utils/args_loader.py"
+    },
+    {
+      "path": "examples/boft_dreambooth/utils/dataset.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/837a4990813f26b74491f8d2.py",
+      "kind": "upstream-example-code",
+      "bytes": 4402,
+      "sha256": "628e6d078f1a9109e33c84b671b12e5a9e70eaff8cad6715ef1459668083019d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/utils/dataset.py"
+    },
+    {
+      "path": "examples/boft_dreambooth/utils/tracemalloc.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/874d1293e17e6c1c31a4b482.py",
+      "kind": "upstream-example-code",
+      "bytes": 2025,
+      "sha256": "d6a9dc645706afe45488b691b0d0e8e7768fa2f2c1ae47510c5d83fe14e83b50",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/boft_dreambooth/utils/tracemalloc.py"
+    },
+    {
+      "path": "examples/cartridge_self_study/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f7fb616ae2496bc6c1a38b50.md",
+      "kind": "official-document",
+      "bytes": 3332,
+      "sha256": "94f6412cafd7c60831eaa9ee66decaf0c0dc921ce081bd9a4909d2668a5a68a6",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/cartridge_self_study/README.md"
+    },
+    {
+      "path": "examples/cartridge_self_study/arxiv_synthesize.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/40be2297a3885c75fd9e5968.py",
+      "kind": "upstream-example-code",
+      "bytes": 3423,
+      "sha256": "dcb9dc96132a4cc6ca900b5d5f25c23be9b00bb18f976e29c69499e63b39a607",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/cartridge_self_study/arxiv_synthesize.py"
+    },
+    {
+      "path": "examples/cartridge_self_study/arxiv_train.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/68c4808b2ee3c2377de195c8.py",
+      "kind": "upstream-example-code",
+      "bytes": 4212,
+      "sha256": "7ba439b45263376b40a8e69acd1d568dfe848cc5f2954653eb8f236fb9803786",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/cartridge_self_study/arxiv_train.py"
+    },
+    {
+      "path": "examples/cartridge_self_study/synthesize.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/6f8db6e498287b4b65607d0f.py",
+      "kind": "upstream-example-code",
+      "bytes": 12515,
+      "sha256": "7ec5f692dfbd163e53532a65dee01a64cf95acb07bf2bd7657b98450a6d50f2a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/cartridge_self_study/synthesize.py"
+    },
+    {
+      "path": "examples/cartridge_self_study/train_distill.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/4c523efbf1ea22e6e542436a.py",
+      "kind": "upstream-example-code",
+      "bytes": 8737,
+      "sha256": "4c339fe001cbe2996fa6ac5352f05aa6e6b658df8dd45b58367818854335e7c9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/cartridge_self_study/train_distill.py"
+    },
+    {
+      "path": "examples/causal_language_modeling/peft_lora_clm_accelerate_ds_zero3_offload.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/190b439afca80d203f63dbf2.py",
+      "kind": "upstream-example-code",
+      "bytes": 16046,
+      "sha256": "fb2bee16dc14acc0eba66235dc0603dca182b5bc727f9ae88590579d9fe52101",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/causal_language_modeling/peft_lora_clm_accelerate_ds_zero3_offload.py"
+    },
+    {
+      "path": "examples/conditional_generation/peft_adalora_seq2seq.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/16e5835800a00231b9ea4677.py",
+      "kind": "upstream-example-code",
+      "bytes": 5739,
+      "sha256": "027027645e5cb9080f1f755ce525f928cc7c9cfb57196a0d459c0b20efb3d8d6",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/conditional_generation/peft_adalora_seq2seq.py"
+    },
+    {
+      "path": "examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/bde83527459e074a06108441.py",
+      "kind": "upstream-example-code",
+      "bytes": 13573,
+      "sha256": "6dbf34b911637d6ec23cf03dd7638503f37034ab9072619989bc05d5e1beafc5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/conditional_generation/peft_lora_seq2seq_accelerate_ds_zero3_offload.py"
+    },
+    {
+      "path": "examples/conditional_generation/peft_lora_seq2seq_accelerate_fsdp.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/8af735428ef647c78e939287.py",
+      "kind": "upstream-example-code",
+      "bytes": 5713,
+      "sha256": "05a0d79cf2f2f0c0d2df9e3a8671aed8aab76d725d683586822d115e330f1aea",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/conditional_generation/peft_lora_seq2seq_accelerate_fsdp.py"
+    },
+    {
+      "path": "examples/corda_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/8d945eafba8f17af27605a3b.md",
+      "kind": "official-document",
+      "bytes": 12849,
+      "sha256": "302f8d9811e3064e5ab3758ac01e9faaca9868ccea7804c66c8a500ad3ac4436",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/corda_finetuning/README.md"
+    },
+    {
+      "path": "examples/corda_finetuning/corda_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/4532f0bd7c7c51f656edaecf.py",
+      "kind": "upstream-example-code",
+      "bytes": 10335,
+      "sha256": "a19831d01ca27fc2ffb82a5225f2e3b7cb729cab24188db1424f25bedf0f64a0",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/corda_finetuning/corda_finetuning.py"
+    },
+    {
+      "path": "examples/corda_finetuning/datautils.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/4ae037a331d18890ef67ef46.py",
+      "kind": "upstream-example-code",
+      "bytes": 9049,
+      "sha256": "7c33413c696c97aee421351ab1bfa1c9207d232caa6a13d900970b03e50f431b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/corda_finetuning/datautils.py"
+    },
+    {
+      "path": "examples/corda_finetuning/preprocess.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/f974dbf9d1f307065b004c88.py",
+      "kind": "upstream-example-code",
+      "bytes": 4627,
+      "sha256": "e67a27487c7fa02de76e1e47665b44141a48997b95485df732ac21d3a4593190",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/corda_finetuning/preprocess.py"
+    },
+    {
+      "path": "examples/cpt_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/dd06ed80d83433fc5176434b.md",
+      "kind": "official-document",
+      "bytes": 4867,
+      "sha256": "8ffaa376f9e0c337483f3e46536194e2feff359e649fa6a70f53a7a63f983db4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/cpt_finetuning/README.md"
+    },
+    {
+      "path": "examples/deft_dreambooth/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/1dd9c85a02c9a152ebc66ade.md",
+      "kind": "official-document",
+      "bytes": 2514,
+      "sha256": "2446ac1c4db1f7a1179cee1df35a859c8ca4edcb7cb50bd661ae071e2cab02be",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/deft_dreambooth/README.md"
+    },
+    {
+      "path": "examples/deft_dreambooth/train_dreambooth.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/ea0db894538132faaa924a5a.py",
+      "kind": "upstream-example-code",
+      "bytes": 45794,
+      "sha256": "5c8f7776414c79276be6bb36d0d7ed1a2d1524685282a9848660582ecfe4fa35",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/deft_dreambooth/train_dreambooth.py"
+    },
+    {
+      "path": "examples/deft_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/ead1b3a513c846823314cfd9.md",
+      "kind": "official-document",
+      "bytes": 3800,
+      "sha256": "b69a098882e102a8429b79904655677fd761ca680d408ddee7351dda23af4bfc",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/deft_finetuning/README.md"
+    },
+    {
+      "path": "examples/deft_finetuning/deft_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/4e2ac8554ca2dd72f5906e30.py",
+      "kind": "upstream-example-code",
+      "bytes": 7020,
+      "sha256": "fb0ebf62fe31a881bcde05709aeffe2ba967e75bf69a3c373e9809d57fe11944",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/deft_finetuning/deft_finetuning.py"
+    },
+    {
+      "path": "examples/delora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2bf6fea378dff3f54f237996.md",
+      "kind": "official-document",
+      "bytes": 4361,
+      "sha256": "c74de1b25088bcc2046d76875ac1ac7a540a3490ded69a2a86d1296735ca796d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/delora_finetuning/README.md"
+    },
+    {
+      "path": "examples/delora_finetuning/delora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/0668fda90f7d6e04df8eedc2.py",
+      "kind": "upstream-example-code",
+      "bytes": 6689,
+      "sha256": "ce692a9e1bc521931c897fb3356a491e582abf3ec5045c065f59546a5a91759f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/delora_finetuning/delora_finetuning.py"
+    },
+    {
+      "path": "examples/dora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a7c63988d8cd37e9b1086714.md",
+      "kind": "official-document",
+      "bytes": 4392,
+      "sha256": "556b414c8c30b6e66ae4edfa6158e142afaea9b4998d1b88a6ddd226b035e152",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/dora_finetuning/README.md"
+    },
+    {
+      "path": "examples/dora_finetuning/dora-caching.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/6c916971f4f8cf9134239868.py",
+      "kind": "upstream-example-code",
+      "bytes": 4789,
+      "sha256": "c0ed4811e72d498b6ee62f4af6484fadf4c5f29fa7e2521df10c0c68ed100aaf",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/dora_finetuning/dora-caching.py"
+    },
+    {
+      "path": "examples/dora_finetuning/dora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/2848d07b4bc98d4cf76aa541.py",
+      "kind": "upstream-example-code",
+      "bytes": 7595,
+      "sha256": "cb99facc3300ba452bea41cdd7c94feda4e91f17c6f88dc84a12389265ef03b2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/dora_finetuning/dora_finetuning.py"
+    },
+    {
+      "path": "examples/ephemeral_gpu_offloading/load_with_dora.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a31dfcae28330feb3e461f40.py",
+      "kind": "upstream-example-code",
+      "bytes": 4524,
+      "sha256": "daafda94d54f214cdd4843833d875f4b8c6df36714b39bd7bc59f33125279dfc",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/ephemeral_gpu_offloading/load_with_dora.py"
+    },
+    {
+      "path": "examples/eva_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/564a7b397c97afed62417054.md",
+      "kind": "official-document",
+      "bytes": 9851,
+      "sha256": "ddc0ae38a0e96da086f1cd4237f402f90f5f2be4d446073ec02fcb2fe82c8c1e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/eva_finetuning/README.md"
+    },
+    {
+      "path": "examples/eva_finetuning/eva_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a9f78dc4a6d43d57bb422be6.py",
+      "kind": "upstream-example-code",
+      "bytes": 2893,
+      "sha256": "4d064bd457ec64e96a620457fa1fc96d1da1593269fbb6ec457d9285795b7947",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/eva_finetuning/eva_finetuning.py"
+    },
+    {
+      "path": "examples/eva_finetuning/eva_finetuning_multi_accelerator.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/b5fbc865f25cbfc162b09c82.py",
+      "kind": "upstream-example-code",
+      "bytes": 4004,
+      "sha256": "2f3edd8fd9db6ad38c8ece6f265c9873138527fd18f96c9d4a7ecdaabeaf61ab",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/eva_finetuning/eva_finetuning_multi_accelerator.py"
+    },
+    {
+      "path": "examples/eva_finetuning/utils.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/13824faed11fa2e330336677.py",
+      "kind": "upstream-example-code",
+      "bytes": 3513,
+      "sha256": "824d829191dfb640c7e27d2822e15100c17602c466d4a2f402f469c7fea4d466",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/eva_finetuning/utils.py"
+    },
+    {
+      "path": "examples/feature_extraction/peft_lora_embedding_semantic_search.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/0a2966b5aad9cea94193daa0.py",
+      "kind": "upstream-example-code",
+      "bytes": 20972,
+      "sha256": "ec97b6bc193f814019cb6e682079287d903c7a2598f2ba5187c02975dd0bc7e8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/feature_extraction/peft_lora_embedding_semantic_search.py"
+    },
+    {
+      "path": "examples/fp4_finetuning/finetune_fp4_opt_bnb_peft.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/c93f0fff5503f66fa3ad2ea9.py",
+      "kind": "upstream-example-code",
+      "bytes": 6663,
+      "sha256": "a88fb8d6a656e7abd20e07070a7f7659a9bfd6219ffa6812e0969e7e16dfd4e9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/fp4_finetuning/finetune_fp4_opt_bnb_peft.py"
+    },
+    {
+      "path": "examples/frod_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/697c16b37d1083a42a48ff9b.md",
+      "kind": "official-document",
+      "bytes": 1170,
+      "sha256": "3a1d377fb39a90a00b157c27474a623d78c4c417709bf3986e08240d70273d5e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/frod_finetuning/README.md"
+    },
+    {
+      "path": "examples/frod_finetuning/frod_image_classification.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/659ba17a1cbc650e63e0f911.py",
+      "kind": "upstream-example-code",
+      "bytes": 6635,
+      "sha256": "1a9854bfb86fc23a57a8d0505091b64b72751d6b99d2d64b55deaeaf4f00f832",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/frod_finetuning/frod_image_classification.py"
+    },
+    {
+      "path": "examples/frod_finetuning/frod_text_classification.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/68a0aea54abe363275c67e98.py",
+      "kind": "upstream-example-code",
+      "bytes": 4625,
+      "sha256": "91fcc8c070db66e0266574c66f14589c2bfbc420a5291cf5e06cc02737de3e8c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/frod_finetuning/frod_text_classification.py"
+    },
+    {
+      "path": "examples/glora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f82fdd8e7e096f7fa693f53b.md",
+      "kind": "official-document",
+      "bytes": 999,
+      "sha256": "d59dd702fd7ea3fe0a670dbf40c2a09eaa734669a7739af20cd3db3ae257e93d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/glora_finetuning/README.md"
+    },
+    {
+      "path": "examples/glora_finetuning/glora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/0c8d7d2664119d63eeaf8f56.py",
+      "kind": "upstream-example-code",
+      "bytes": 7981,
+      "sha256": "c41ac506e30c7c3ff6793c65a468de3316efbb065ce251e00fdf072f783b552a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/glora_finetuning/glora_finetuning.py"
+    },
+    {
+      "path": "examples/gralora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/f3460c5b277576bba6886ff6.md",
+      "kind": "official-document",
+      "bytes": 2816,
+      "sha256": "44d5f838deda3a266c0a311c8ad7ca964a348a4193de36a3e55b34dbc04dfccb",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/gralora_finetuning/README.md"
+    },
+    {
+      "path": "examples/gralora_finetuning/gralora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/e401acf6fbafa343da171ad2.py",
+      "kind": "upstream-example-code",
+      "bytes": 6819,
+      "sha256": "6b8c1aee83492cdf694bef3141e9b0a155f3366b014656e76aec3d6d851a17ee",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/gralora_finetuning/gralora_finetuning.py"
+    },
+    {
+      "path": "examples/hira_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/606625efaf1fb7646fb06834.md",
+      "kind": "official-document",
+      "bytes": 867,
+      "sha256": "92fdf68d531ff2dfe653cacf218f66052b6734fc795d36ddc833ce2d032b6d91",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hira_finetuning/README.md"
+    },
+    {
+      "path": "examples/hira_finetuning/hira_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/2ee35e2016b45b3cdefecfcc.py",
+      "kind": "upstream-example-code",
+      "bytes": 7512,
+      "sha256": "44487571ee22d8dd8e75df4c07633d348490363bd9b53a338b9794196c059b5e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hira_finetuning/hira_finetuning.py"
+    },
+    {
+      "path": "examples/hra_dreambooth/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/bbe8f302e40139038ae12288.md",
+      "kind": "official-document",
+      "bytes": 4614,
+      "sha256": "20091dcbe18798eb810e63976fa1382f731070207ba58a4c7c28946ffab6618d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/README.md"
+    },
+    {
+      "path": "examples/hra_dreambooth/train_dreambooth.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/814109ff4350d3d9c7d95a45.py",
+      "kind": "upstream-example-code",
+      "bytes": 27836,
+      "sha256": "8f76d1ef3e58d04cca9f20e211b131d64a2eea8c0b3c98ac669c3a352de47762",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/train_dreambooth.py"
+    },
+    {
+      "path": "examples/hra_dreambooth/train_dreambooth.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/6f4ef19e8c3186ce4e87003a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 7738,
+      "sha256": "a80ba040baeb894df6b1d930db8165f2dbe85410b83ccc8efaa1e719dbec4a27",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/train_dreambooth.sh"
+    },
+    {
+      "path": "examples/hra_dreambooth/utils/__init__.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/0c7f372d8b659f621c8f2c5a.py",
+      "kind": "upstream-example-code",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/utils/__init__.py"
+    },
+    {
+      "path": "examples/hra_dreambooth/utils/args_loader.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/eebed48fdd77c817106ff87a.py",
+      "kind": "upstream-example-code",
+      "bytes": 14361,
+      "sha256": "b3452044cccd74cdbfe8558adecfebbc5dd39d555c185643d6ea61ca95214da5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/utils/args_loader.py"
+    },
+    {
+      "path": "examples/hra_dreambooth/utils/dataset.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/6c78afa0812db59e9ae26f24.py",
+      "kind": "upstream-example-code",
+      "bytes": 4515,
+      "sha256": "9c705a74356ceceeab63a4623cca7d30ae6d824e47d83c4b5c930d7d3580c802",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/utils/dataset.py"
+    },
+    {
+      "path": "examples/hra_dreambooth/utils/tracemalloc.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/e810e5945da85ee8ac67c34e.py",
+      "kind": "upstream-example-code",
+      "bytes": 2138,
+      "sha256": "57824f3596eac8ad945ab0b8bf54948bf01ca43c0b82e885914b80a28ac8ccd5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/hra_dreambooth/utils/tracemalloc.py"
+    },
+    {
+      "path": "examples/image_classification/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/96815b3fd0a3a29785c82399.md",
+      "kind": "official-document",
+      "bytes": 1476,
+      "sha256": "b6f1f4b62f916cb991ae0d9e355dbaa73824ce5c55479adfceee4c5bd18a1059",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/image_classification/README.md"
+    },
+    {
+      "path": "examples/int8_training/fine_tune_blip2_int8.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/e2c3cc292fc06717b8ef1d33.py",
+      "kind": "upstream-example-code",
+      "bytes": 3545,
+      "sha256": "1cdcd4a702bc25982c31a73c3a9a14af6da3616b54d35ce10d93f9968d087bee",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/int8_training/fine_tune_blip2_int8.py"
+    },
+    {
+      "path": "examples/int8_training/peft_adalora_whisper_large_training.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/80361f588fe636881627f4f5.py",
+      "kind": "upstream-example-code",
+      "bytes": 32932,
+      "sha256": "724cabf9a9145c5d62cc8502c7bfd2f20f4a93c132d32d10b33e987a1d3ea156",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/int8_training/peft_adalora_whisper_large_training.py"
+    },
+    {
+      "path": "examples/int8_training/run_adalora_whisper_int8.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/45916afb1df06f905d60ff90.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1125,
+      "sha256": "04882b61a33445a951000e0e8513fdf2a8438bcb7a2773bc8bee7f18df59f4ed",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/int8_training/run_adalora_whisper_int8.sh"
+    },
+    {
+      "path": "examples/kasa_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/03d53e653abcf36d8a7628c5.md",
+      "kind": "official-document",
+      "bytes": 4677,
+      "sha256": "f36db8da4fab4555a9db84c601517be0ca985aca6ca3f1656a5d30649282ca4d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/kasa_finetuning/README.md"
+    },
+    {
+      "path": "examples/kasa_finetuning/kasa_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/116a5fb203129d30ed5e3cf2.py",
+      "kind": "upstream-example-code",
+      "bytes": 4046,
+      "sha256": "ff0d51acefa652f0064d100d881a3179c0ce0131f627ce74ad648bdd20b2f605",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/kasa_finetuning/kasa_finetuning.py"
+    },
+    {
+      "path": "examples/lily_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/27f4172ce1d04299e74d6e67.md",
+      "kind": "official-document",
+      "bytes": 5085,
+      "sha256": "5c6e791a1a9e9c7483ffbaa8a6cdb66f3741bd0b3a2346f708a7b89868dc76f5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lily_finetuning/README.md"
+    },
+    {
+      "path": "examples/lily_finetuning/lily_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/4c3dec4aefe9e2f265ecc651.py",
+      "kind": "upstream-example-code",
+      "bytes": 6673,
+      "sha256": "e88fa1aaeb4f16382e71a1b7f18750519ff3799a7b48b60b052b3d4a5ac71517",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lily_finetuning/lily_finetuning.py"
+    },
+    {
+      "path": "examples/loftq_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/26afd792df3bd9afaa8f44af.md",
+      "kind": "official-document",
+      "bytes": 4896,
+      "sha256": "5b1b36be63946f86044bb36266d9a666a8d1f04552e7473b6743645f1223b51d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/loftq_finetuning/README.md"
+    },
+    {
+      "path": "examples/loftq_finetuning/int8_correction.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/f1a0f718ed2ee50114d8fb51.py",
+      "kind": "upstream-example-code",
+      "bytes": 11330,
+      "sha256": "e1b1cd515f2ecaf3f44bd2d79c76393d4a2191889e38badbad6adc333e5fe59b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/loftq_finetuning/int8_correction.py"
+    },
+    {
+      "path": "examples/loftq_finetuning/quantize_save_load.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/1cabdbee54442759eff9835c.py",
+      "kind": "upstream-example-code",
+      "bytes": 6624,
+      "sha256": "bd8bd12a4e22a2f4226f3b3b0f7f3a20232614d9a5f86e411ad6618d56802b4d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/loftq_finetuning/quantize_save_load.py"
+    },
+    {
+      "path": "examples/loftq_finetuning/train_gsm8k_llama.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/193fa8b2aeb50273f2ae09ef.py",
+      "kind": "upstream-example-code",
+      "bytes": 34898,
+      "sha256": "35951643130f8f428ebafd9f2ecaaeda452723ebc7bc3a06d5ba5d03c590b7fd",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/loftq_finetuning/train_gsm8k_llama.py"
+    },
+    {
+      "path": "examples/lora_dreambooth/convert_kohya_ss_sd_lora_to_peft.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/0228318c4615d929dc93db17.py",
+      "kind": "upstream-example-code",
+      "bytes": 6632,
+      "sha256": "4fdfae9cfff6f750791ec461f3f9becf29a2d57de178f1e5eaba41a009d96798",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_dreambooth/convert_kohya_ss_sd_lora_to_peft.py"
+    },
+    {
+      "path": "examples/lora_dreambooth/convert_peft_sd_lora_to_kohya_ss.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a1e4f31257b58ec127a807d7.py",
+      "kind": "upstream-example-code",
+      "bytes": 3625,
+      "sha256": "9fae4b5426093e290fb7bccd23bba467a1680927b12a058198e7492e99191f7d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_dreambooth/convert_peft_sd_lora_to_kohya_ss.py"
+    },
+    {
+      "path": "examples/lora_dreambooth/train_dreambooth.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/44a396f0ed4e7eb87d218871.py",
+      "kind": "upstream-example-code",
+      "bytes": 45899,
+      "sha256": "ae3fa39e56361ca34b9ac61c9d70d7387440995539edabf325881b43bed74920",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_dreambooth/train_dreambooth.py"
+    },
+    {
+      "path": "examples/lora_finetuning_transformer_engine/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/1a523671f3af1b86f8fb9b0f.md",
+      "kind": "official-document",
+      "bytes": 3652,
+      "sha256": "70bf687011e203f8b15e694a2d15805bf3d4311ffa1af99c05fbf83f9e5d2d6d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_finetuning_transformer_engine/README.md"
+    },
+    {
+      "path": "examples/lora_finetuning_transformer_engine/lora_finetuning_te.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/d95b587505a0fa7bc607c02d.py",
+      "kind": "upstream-example-code",
+      "bytes": 12037,
+      "sha256": "06e37b77ee0eda34692b106dfc1505ea1e85d2a762548dd9d65a3248ae656679",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_finetuning_transformer_engine/lora_finetuning_te.py"
+    },
+    {
+      "path": "examples/lora_ga_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/db4fdb0f0f0b4702c5213ddf.md",
+      "kind": "official-document",
+      "bytes": 10197,
+      "sha256": "aefd3d155b83d26c0dedde2014ac8c240835292a6b2a6c6465eb5800778b7f33",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_ga_finetuning/README.md"
+    },
+    {
+      "path": "examples/lora_ga_finetuning/lora_ga_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/28cf72fe8091ca14f0bf72c8.py",
+      "kind": "upstream-example-code",
+      "bytes": 9674,
+      "sha256": "30b33e14ec67cd4e68fca6dbb4072801b85f2db9c4b16e47d1851f4125c7fe4d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lora_ga_finetuning/lora_ga_finetuning.py"
+    },
+    {
+      "path": "examples/lorafa_finetune/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a94164415989ac3ea47f9388.md",
+      "kind": "official-document",
+      "bytes": 6344,
+      "sha256": "922b8f578764d1820255e8a6dc73fa662353994648553994357a2a77eada132a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lorafa_finetune/README.md"
+    },
+    {
+      "path": "examples/lorafa_finetune/lorafa_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/705340da651606f8ba3f2460.py",
+      "kind": "upstream-example-code",
+      "bytes": 8009,
+      "sha256": "7d99ff2047d5ed4d49e905b3c26faeda204ec582e3e49a25bec48d338328852c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/lorafa_finetune/lorafa_finetuning.py"
+    },
+    {
+      "path": "examples/mica_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/903fb0af4424d76e26ceab22.md",
+      "kind": "official-document",
+      "bytes": 4293,
+      "sha256": "36a20fa2eb89b3cdfeb04c3e2cc85cab874ae0f3c90fbcd1f841171d10bfd2dc",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/mica_finetuning/README.md"
+    },
+    {
+      "path": "examples/mica_finetuning/mica_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/56cf669ca7272741af0ce5b7.py",
+      "kind": "upstream-example-code",
+      "bytes": 3019,
+      "sha256": "61c644fbaebc7f15dfb5684b24074954d76dc84ca77b80fb0fb11a9a88ae9ed7",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/mica_finetuning/mica_finetuning.py"
+    },
+    {
+      "path": "examples/miss_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/ce84b4f61c9a8a2c402deb1c.md",
+      "kind": "official-document",
+      "bytes": 3324,
+      "sha256": "628155d5b7a56fbb0cb715d866303f8193465e5bce574369a519dcf7d7dd16c2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/miss_finetuning/README.md"
+    },
+    {
+      "path": "examples/miss_finetuning/miss_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/dcf4a1d88ff34391f9021dff.py",
+      "kind": "upstream-example-code",
+      "bytes": 4095,
+      "sha256": "4522788340824b4b8ad0d1a1f2a4ff313447a898de71ab92ee08b8bd42750770",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/miss_finetuning/miss_finetuning.py"
+    },
+    {
+      "path": "examples/monteclora_finetuning/sequence_classification_finetune_monteclora.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/72a96c96b27f87f366fba9ac.py",
+      "kind": "upstream-example-code",
+      "bytes": 7796,
+      "sha256": "c735e7c29409d0ae0f338bd8b67a058287fcb352d3e84614796b764f10e3d887",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/monteclora_finetuning/sequence_classification_finetune_monteclora.py"
+    },
+    {
+      "path": "examples/multilayer_perceptron/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/3a56df891f1d3d6ed79fea00.md",
+      "kind": "official-document",
+      "bytes": 635,
+      "sha256": "a4c6dba09d67e232c55e5bc0e295c941e4e067a77ba858a00eb4438c8cfe9d33",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/multilayer_perceptron/README.md"
+    },
+    {
+      "path": "examples/oft_dreambooth/train_dreambooth.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/6e69f825fb3b7f5d0d2641e2.py",
+      "kind": "upstream-example-code",
+      "bytes": 46035,
+      "sha256": "ec9a311d1bed498208657e906ce15a399565345667f9a959d526e77bd7357db9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/oft_dreambooth/train_dreambooth.py"
+    },
+    {
+      "path": "examples/olora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/e8b31093127560664332d1af.md",
+      "kind": "official-document",
+      "bytes": 4438,
+      "sha256": "c7c273d388d42e22ac5a641b338221827660cea4e1830f456613b1237d24891c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/olora_finetuning/README.md"
+    },
+    {
+      "path": "examples/olora_finetuning/olora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/f563d89d321eeeb5941ad675.py",
+      "kind": "upstream-example-code",
+      "bytes": 7116,
+      "sha256": "320cdec89fc2babbb00db8d2e92fd895a55d7c9f9543e09ad5598cc8c687f8cb",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/olora_finetuning/olora_finetuning.py"
+    },
+    {
+      "path": "examples/orthogonal_subspace_learning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/0571d1d47ec020092b7e9134.md",
+      "kind": "official-document",
+      "bytes": 10249,
+      "sha256": "03ceb60a9dd593d75bd1f0db99b036e523c54c748a6fa21319afeffd1d736478",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/orthogonal_subspace_learning/README.md"
+    },
+    {
+      "path": "examples/orthogonal_subspace_learning/osf_continual_learning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/08cf6b5433528af119d166ba.py",
+      "kind": "upstream-example-code",
+      "bytes": 24752,
+      "sha256": "88b1c9f093967f6d2cb4814556596640bba7fd2b913f6b881d307c0bbe4832ca",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/orthogonal_subspace_learning/osf_continual_learning.py"
+    },
+    {
+      "path": "examples/orthogonal_subspace_learning/utils.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/f828f99e2125db973b602273.py",
+      "kind": "upstream-example-code",
+      "bytes": 9993,
+      "sha256": "12d83e172aa8aadbc04044a6540306b4afd687888b4a0080a9169a632557db01",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/orthogonal_subspace_learning/utils.py"
+    },
+    {
+      "path": "examples/peanut_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/ec30d168b611d246caa706ff.md",
+      "kind": "official-document",
+      "bytes": 4230,
+      "sha256": "4fb3f111289c77c55ba699ef3d7edd51711019fb26b10e46dead52228b227fe8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/peanut_finetuning/README.md"
+    },
+    {
+      "path": "examples/peanut_finetuning/peanut_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/8a448dae61ecf329ad85b848.py",
+      "kind": "upstream-example-code",
+      "bytes": 7215,
+      "sha256": "a99508b9ecc9e915f7e566e213725b81352c6cb83985540ad91a73aec2cf9fc5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/peanut_finetuning/peanut_finetuning.py"
+    },
+    {
+      "path": "examples/pissa_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/2967dc4a33e24d45d35ec071.md",
+      "kind": "official-document",
+      "bytes": 6552,
+      "sha256": "8d1388b5597983a9a66d11f77d661036cb0f9d2d485e35b5a675d25a3b13cb66",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/pissa_finetuning/README.md"
+    },
+    {
+      "path": "examples/pissa_finetuning/pissa_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/73685c141e4b3518c7b7bb94.py",
+      "kind": "upstream-example-code",
+      "bytes": 6265,
+      "sha256": "d905a39f27584d11f323dbb695d6cb836fe81aec9519189f934ead59f631a8ae",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/pissa_finetuning/pissa_finetuning.py"
+    },
+    {
+      "path": "examples/pissa_finetuning/preprocess.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/76520d96b61451c09ae7e4d7.py",
+      "kind": "upstream-example-code",
+      "bytes": 2592,
+      "sha256": "dc1f9431ad6621fd2dcc3c5046429aa02fee50581547dc382b555fed7146b4f5",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/pissa_finetuning/preprocess.py"
+    },
+    {
+      "path": "examples/psoft_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/39da05baa6ddd8e93129c0aa.md",
+      "kind": "official-document",
+      "bytes": 3420,
+      "sha256": "e427bd0769e4f01f22e33044c1c1f6d96c60588d1bc2e9e27e767da9572c1baf",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/psoft_finetuning/README.md"
+    },
+    {
+      "path": "examples/psoft_finetuning/psoft_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/e9082bbdcefe6cc1b5d208b1.py",
+      "kind": "upstream-example-code",
+      "bytes": 7037,
+      "sha256": "b59235d0d4570c7c8dd88418098c2e90911a997fe8741b7e0b72fcf38011f781",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/psoft_finetuning/psoft_finetuning.py"
+    },
+    {
+      "path": "examples/pvera/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/c760698f7733356cb9fdd934.md",
+      "kind": "official-document",
+      "bytes": 633,
+      "sha256": "9dd27f8194eaffccc0bc1b1e40d475b26ea692f5b925c5f53a9258dac7805399",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/pvera/README.md"
+    },
+    {
+      "path": "examples/pvera/confidence_interval_generation.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/6a2f56e28b0b1adf23a6f693.py",
+      "kind": "upstream-example-code",
+      "bytes": 2920,
+      "sha256": "764d8be700c5370240391f7761d0c4007b64e6bf52fe53efea5fcf31831547cc",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/pvera/confidence_interval_generation.py"
+    },
+    {
+      "path": "examples/qalora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6e8694feed4e98d9caf8f6a1.md",
+      "kind": "official-document",
+      "bytes": 5812,
+      "sha256": "7da03b8e6bc2e78b7c8a75815705e7049691117a4a72c62c84eae7f09835c67e",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/qalora_finetuning/README.md"
+    },
+    {
+      "path": "examples/qalora_finetuning/qalora_gptq_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/a4d274d094b8af12f456bd9a.py",
+      "kind": "upstream-example-code",
+      "bytes": 12499,
+      "sha256": "4eb5086fd72c3d61160112ff6d48da8a837c6cf31fd422947db7504a75a9f107",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/qalora_finetuning/qalora_gptq_finetuning.py"
+    },
+    {
+      "path": "examples/randlora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/850c41f2d705040faece5e4f.md",
+      "kind": "official-document",
+      "bytes": 6363,
+      "sha256": "80c1c5d2815fd44a88d6ca27311c2796152cb6a93761e63f5780889fcfcbe89c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/randlora_finetuning/README.md"
+    },
+    {
+      "path": "examples/randlora_finetuning/randlora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/659ad1653b111f3a418dac0e.py",
+      "kind": "upstream-example-code",
+      "bytes": 8731,
+      "sha256": "c5d91ef3878ccb230cd0c2bee93d1a3522a2f97d9063d9b0afd1e9cd18c399be",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/randlora_finetuning/randlora_finetuning.py"
+    },
+    {
+      "path": "examples/road_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/b8fbaf1455755323a6bfa2bb.md",
+      "kind": "official-document",
+      "bytes": 2913,
+      "sha256": "709ab2bf13e7f1bb0c460fb197beb7eb7e9ef815cafd452934264a98adda43d8",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/road_finetuning/README.md"
+    },
+    {
+      "path": "examples/road_finetuning/road_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/58d4b1ab638083a3be8177cf.py",
+      "kind": "upstream-example-code",
+      "bytes": 7309,
+      "sha256": "965a31fa4736a41c9a1e6e0a4c4f7aa9cefebbab93a9d17c1996c03dddcfb5a9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/road_finetuning/road_finetuning.py"
+    },
+    {
+      "path": "examples/semantic_segmentation/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/5ef53bf12943d08826054ef8.md",
+      "kind": "official-document",
+      "bytes": 904,
+      "sha256": "b80671a7c348df018c489d76cff1b6d09e237989ca91f5f467a32546a354d133",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/semantic_segmentation/README.md"
+    },
+    {
+      "path": "examples/sequence_classification/peft_no_lora_accelerate.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/5b46d59221aec4a7c29877e8.py",
+      "kind": "upstream-example-code",
+      "bytes": 7927,
+      "sha256": "d13d05d7a7441d7b863a8bb51a3b4c013c1209a77488e118624538b4e18bbc25",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sequence_classification/peft_no_lora_accelerate.py"
+    },
+    {
+      "path": "examples/sft/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/0f9fdaf9694f7ddaa6d9bd04.md",
+      "kind": "official-document",
+      "bytes": 3531,
+      "sha256": "3018c456a1d184e1f15df0fb6a553ca40d6ac5f9bd6c7f05b37dfb8d4507f754",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/README.md"
+    },
+    {
+      "path": "examples/sft/run_peft.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/6479eac487a7480d64cab947.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1085,
+      "sha256": "0520a46d3f3752f11af1f4f8134f908130d44deaae52e20b60c04f0eb6fb9dc3",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft.sh"
+    },
+    {
+      "path": "examples/sft/run_peft_deepspeed.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/42fc2d607505ae2dba435418.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1091,
+      "sha256": "133af8fada1539668b8ee913a44f9d34e513394dec5f896a595899b00e89f8e7",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft_deepspeed.sh"
+    },
+    {
+      "path": "examples/sft/run_peft_fsdp.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/0a0723ee9de74877d39d8ac8.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1080,
+      "sha256": "6c07a07070097107cd7a0bdf9e2f9e2d3455f4866bde0359a5ae08ba591140f4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft_fsdp.sh"
+    },
+    {
+      "path": "examples/sft/run_peft_fsdp_gptq.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/e48ce6b8dcafacacd46524f8.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1076,
+      "sha256": "3a74794d9d111cd37c6c8543ce8e3bc3bac78dc8c4bd549c754a24f27d645e61",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft_fsdp_gptq.sh"
+    },
+    {
+      "path": "examples/sft/run_peft_multigpu.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/775f78378465026743e38b23.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1127,
+      "sha256": "3ed255d67c3f12daad42198da89341c77aa2792269450e9497ff1c117c259828",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft_multigpu.sh"
+    },
+    {
+      "path": "examples/sft/run_peft_qlora_deepspeed_stage3.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/f1cfcc3215c8e9accaf42450.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1200,
+      "sha256": "d7ad6abe06df8c97f715157ee6a89239d790c67713cdb475fc2cb6ae3b6f4bb0",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft_qlora_deepspeed_stage3.sh"
+    },
+    {
+      "path": "examples/sft/run_peft_qlora_fsdp.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/65855514ae70b996f2e101bf.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1191,
+      "sha256": "c0d994792b825e6e6748ea2585dd4d8f26f56cc2cf875e6c5716daeadaafa645",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_peft_qlora_fsdp.sh"
+    },
+    {
+      "path": "examples/sft/run_unsloth_peft.sh",
+      "localPath": "raw/huggingface--peft/9146289afe54/9443f6d89bce85a4b288d561.sh",
+      "kind": "upstream-example-code",
+      "bytes": 1159,
+      "sha256": "978627ce7e34c3bdab91358059270a6b43075f8dbf105af02318cb53786631d2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/run_unsloth_peft.sh"
+    },
+    {
+      "path": "examples/sft/train.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/b53d29f7f3650b49e15bea15.py",
+      "kind": "upstream-example-code",
+      "bytes": 5645,
+      "sha256": "555ef8a02be3a68b97359253c4e2ab8685f71535cab0aea26937fd6c294e4ac4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/train.py"
+    },
+    {
+      "path": "examples/sft/utils.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/d6af19940aa2eb924112e9f6.py",
+      "kind": "upstream-example-code",
+      "bytes": 8896,
+      "sha256": "d7be043001deeb7c1aa2e277527b82e873a4f0b757ace509a7c3798d159cfa19",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/sft/utils.py"
+    },
+    {
+      "path": "examples/shadow_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/1e6bc5c0b64891c410a0e3fb.md",
+      "kind": "official-document",
+      "bytes": 2087,
+      "sha256": "b6e743cebee61601665b95f02397d8c9ee5c56326eea3ea515ed05c972bd434b",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/shadow_finetuning/README.md"
+    },
+    {
+      "path": "examples/shadow_finetuning/shadow_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/af6b4ed17a31e96f806fbceb.py",
+      "kind": "upstream-example-code",
+      "bytes": 6036,
+      "sha256": "2e7ae20fc1a3cee80adf3b8436e133e90fa78dc0aaa429b08a22ab1a7d07adc4",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/shadow_finetuning/shadow_finetuning.py"
+    },
+    {
+      "path": "examples/shira_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/039b8793e9df4b2942c27276.md",
+      "kind": "official-document",
+      "bytes": 3636,
+      "sha256": "976e7d7734ee814d6690ff56582ac33778e4d108e2f6243db58cf17e08c0b99c",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/shira_finetuning/README.md"
+    },
+    {
+      "path": "examples/shira_finetuning/shira_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/eee124b8de6757916194b5f0.py",
+      "kind": "upstream-example-code",
+      "bytes": 8405,
+      "sha256": "6f74db0e419a09eec4b376a847cdc036a297a0050fc08845e67be94271534d75",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/shira_finetuning/shira_finetuning.py"
+    },
+    {
+      "path": "examples/stable_diffusion/convert_sd_adapter_to_peft.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/50d76cb13eaa98afb44dc5cb.py",
+      "kind": "upstream-example-code",
+      "bytes": 22319,
+      "sha256": "51128ce939567552fc0a2336d5de042b39e48253bc72e0c8b2efd9c3507a6ab9",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/stable_diffusion/convert_sd_adapter_to_peft.py"
+    },
+    {
+      "path": "examples/stable_diffusion/inc_flux_lora_hpu.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/dd707513db3751d350174f2c.py",
+      "kind": "upstream-example-code",
+      "bytes": 2247,
+      "sha256": "f5dd242c3215743d55b0bbb3ee7a60e7660f0fe59397e80b93bee09b51962135",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/stable_diffusion/inc_flux_lora_hpu.py"
+    },
+    {
+      "path": "examples/stable_diffusion/train_dreambooth.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/1c65c81efb8912fad3d90e00.py",
+      "kind": "upstream-example-code",
+      "bytes": 51698,
+      "sha256": "436fd07d11b125c024bf50b037bf0c946807090f503aad2eec7372afeebe034a",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/stable_diffusion/train_dreambooth.py"
+    },
+    {
+      "path": "examples/supertuning_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/088bfd070ac51c700a284401.md",
+      "kind": "official-document",
+      "bytes": 3948,
+      "sha256": "a12cb36cd6dbb0d2c250ea1d09d17d636ca56e63baf2313a0971e8fdf27de55f",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/supertuning_finetuning/README.md"
+    },
+    {
+      "path": "examples/supertuning_finetuning/supertuning_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/675bf1c1f32d3d50aa0e4ada.py",
+      "kind": "upstream-example-code",
+      "bytes": 7100,
+      "sha256": "a3f76a6caf1106f28fb2646510111a8253e5a319904b1273195b2a3e81d4f4b2",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/supertuning_finetuning/supertuning_finetuning.py"
+    },
+    {
+      "path": "examples/unilora_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/064b5f90676c503253131490.md",
+      "kind": "official-document",
+      "bytes": 2461,
+      "sha256": "078de2b82c355744a6600099e0bb0f3f42a6bb86c8a2b43949752bc689275053",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/unilora_finetuning/README.md"
+    },
+    {
+      "path": "examples/unilora_finetuning/unilora_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/e3842a5dde79578fac8a554c.py",
+      "kind": "upstream-example-code",
+      "bytes": 4845,
+      "sha256": "8212c855596ec4450e1efc1a022ebce2c73a5aa706dd593e6a731f5dd9b313e0",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/unilora_finetuning/unilora_finetuning.py"
+    },
+    {
+      "path": "examples/waveft_finetuning/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/d360b84ab9953b2227698a90.md",
+      "kind": "official-document",
+      "bytes": 2746,
+      "sha256": "16a41280bf3cf3e7bd79974ac12a682ea916b0e7ad1463088e23a3ae246e7827",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/waveft_finetuning/README.md"
+    },
+    {
+      "path": "examples/waveft_finetuning/waveft_finetuning.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/38bb431767f37992b0c76fe7.py",
+      "kind": "upstream-example-code",
+      "bytes": 6810,
+      "sha256": "899066524223ba8493733ba7c579cde07cfa29c4632610817fa64c27cc0f18cf",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/waveft_finetuning/waveft_finetuning.py"
+    },
+    {
+      "path": "examples/xlora/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/003604e1d3810541f7815238.md",
+      "kind": "official-document",
+      "bytes": 1010,
+      "sha256": "6b475192a0a659745142bf31d011db96f644c90e60420fa30a11a2ff5235ca57",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/xlora/README.md"
+    },
+    {
+      "path": "examples/xlora/xlora_inference_mistralrs.py",
+      "localPath": "raw/huggingface--peft/9146289afe54/edfc69179771f8f24c611051.py",
+      "kind": "upstream-example-code",
+      "bytes": 905,
+      "sha256": "84a5e8dbbdc90ced89dea3b4ba93f7dfa848b0df9c7099c7ae5caf6da011e0a6",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/examples/xlora/xlora_inference_mistralrs.py"
+    },
+    {
+      "path": "method_comparison/MetaMathQA/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/92c08a85b7bfff8bda57d45f.md",
+      "kind": "official-document",
+      "bytes": 12972,
+      "sha256": "504e2ee5aa5dfe2beaa449316d4a1b21dc39936bfe756f4f1a57de3e2029951d",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/method_comparison/MetaMathQA/README.md"
+    },
+    {
+      "path": "method_comparison/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/a1a65d021c1d227b916d4818.md",
+      "kind": "official-document",
+      "bytes": 9768,
+      "sha256": "d08141e6d423e435a54c5fd993edd991ab1d97bc604a191b4735ca596d8df367",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/method_comparison/README.md"
+    },
+    {
+      "path": "method_comparison/image-gen/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/e4303dc907550546e5fd3522.md",
+      "kind": "official-document",
+      "bytes": 4537,
+      "sha256": "b0a922b4f8b7903d0d759e12e149a34a5866568e8860ff3c489084f04d1661a6",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/method_comparison/image-gen/README.md"
+    },
+    {
+      "path": "method_comparison/peft-shop/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/6eee0dce993475d4b4f4a154.md",
+      "kind": "official-document",
+      "bytes": 3026,
+      "sha256": "54a7664f10b51d43c9af0a51cc33237edaedf5c727bd970b7fb66b1b9a2758fa",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/method_comparison/peft-shop/README.md"
+    },
+    {
+      "path": "method_comparison/text_generation_benchmark/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/cfa0c559a4efa74da3c17b9d.md",
+      "kind": "official-document",
+      "bytes": 6856,
+      "sha256": "d02187e98cbda77b5a9963b0d3ff1c4477b7850dfdc645fa62801bb7c7d46db3",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/method_comparison/text_generation_benchmark/README.md"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/huggingface--peft/9146289afe54/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 8504,
+      "sha256": "2183f094c8fc5b4529308ba85940fd91cb7b04fd4231fd3d0ae53907dc610c16",
+      "sourceUrl": "https://github.com/huggingface/peft/blob/9146289afe5451dad60a27061597face3d206f33/tests/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

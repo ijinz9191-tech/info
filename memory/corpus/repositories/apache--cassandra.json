@@ -1,0 +1,2586 @@
+{
+  "schemaVersion": 1,
+  "repo": "apache/cassandra",
+  "commit": "5a8779681ef2174ef838ae607f57b9d21fd0f641",
+  "retrievedAt": "2026-10-01T15:35:27.330479+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "data/cassandra"
+  ],
+  "archiveUrl": "https://codeload.github.com/apache/cassandra/zip/5a8779681ef2174ef838ae607f57b9d21fd0f641",
+  "selectionSha256": "1d679e06b8b8e3853ac2a40dfb63a5ee719b2645e9b7b8c53d98bdbdbeece60d",
+  "selection": {
+    "docRoots": [
+      "doc"
+    ],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "da9fae0bfbbc8a650cb0d3322e44fb0c45f081c393618771d99c87f86e59c40c",
+  "archiveBytes": 37543008,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 256,
+    "code": 58,
+    "licenses": 5,
+    "bytes": 1833921
+  },
+  "files": [
+    {
+      "path": ".build/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/62e4940c49e965a99599f396.md",
+      "kind": "official-document",
+      "bytes": 6838,
+      "sha256": "301b1eca94fbca05241f942f7180a0661b115a5e653ba29db79be1eae42b54ac",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/.build/README.md"
+    },
+    {
+      "path": ".build/run-ci.d/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/480674dde0a8c0398d0fd873.md",
+      "kind": "official-document",
+      "bytes": 4359,
+      "sha256": "8e2d5180af3b058aedb15861129dde9806ac58721ab00d58250c2358cf873cf6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/.build/run-ci.d/README.md"
+    },
+    {
+      "path": ".circleci/license.yml",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ba8210840301bd349f741f86.yml",
+      "kind": "license",
+      "bytes": 789,
+      "sha256": "e8c3b88aca1c17be022b098f18beaf238523406c54a5c126bbbc0421ff43e354",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/.circleci/license.yml"
+    },
+    {
+      "path": ".circleci/readme.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/bac3a4a2bbeacb51b8f29f5d.md",
+      "kind": "official-document",
+      "bytes": 10053,
+      "sha256": "5cff3974fc5027c2ae351cb7f56ca9570bd7584a8a6a1874b40463c602d4a292",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/.circleci/readme.md"
+    },
+    {
+      "path": ".claude/skills/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/61ce213437a6c6af69246fef.md",
+      "kind": "official-document",
+      "bytes": 11529,
+      "sha256": "faad50a376c6a1faa0fd7054bd069fe651690e7f2019516e9bb3fc35332af2d7",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/.claude/skills/README.md"
+    },
+    {
+      "path": ".jenkins/k8s/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4094a308452d68f409456ec8.md",
+      "kind": "official-document",
+      "bytes": 7548,
+      "sha256": "d08a69bdc83618fa06c7d8a1d5dca0467d751aeb2456cd8843e26087c26b8fa9",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/.jenkins/k8s/README.md"
+    },
+    {
+      "path": "AGENTS.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a54ff182c7e8acf56acfd6e4.md",
+      "kind": "official-document",
+      "bytes": 4438,
+      "sha256": "0b85b0512f3493a4777acbba3f64ec780ff71190adbe8854a46e8bbc0720e370",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/AGENTS.md"
+    },
+    {
+      "path": "CLAUDE.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6ebdb617a8104a7756d0cf36.md",
+      "kind": "official-document",
+      "bytes": 10,
+      "sha256": "954ec5dad7eaf581ad4bfa090369b244ac0120b43722ef2efff5ba89fc52046f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/CLAUDE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 7368,
+      "sha256": "fc4a912457f91a4da1f699d5efdf1d3c02cc0072a7f98f46ce1ff40b7bd5927e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d0ed4cc3fb70489fe51c7e0a.txt",
+      "kind": "license",
+      "bytes": 13647,
+      "sha256": "ef565c3595763df99ed295c421c04178798400493bdadc730525b7ffad38f801",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/LICENSE.txt"
+    },
+    {
+      "path": "NOTICE.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b810ebe4ffda4293c79d2920.txt",
+      "kind": "license",
+      "bytes": 345,
+      "sha256": "13aafa793016f2d070949921d1c0800507eec29b66e592d95cf1cc3b20a9f755",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/NOTICE.txt"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 675,
+      "sha256": "7f8bf254b3cb04df1052641b94213264397a8cf8ebcdacec31bc40f2883ce166",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/SECURITY.md"
+    },
+    {
+      "path": "TESTING.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4da5f2fd7bc2f11672282410.md",
+      "kind": "official-document",
+      "bytes": 18011,
+      "sha256": "5131a2b3ed01ec3ccebb501ac76ef1c9f636ff3cf14900069f644dd69b145b82",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/TESTING.md"
+    },
+    {
+      "path": "conf/README.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a3544179f30017ad2f0267eb.txt",
+      "kind": "official-document",
+      "bytes": 291,
+      "sha256": "69b1eb8704c591bd41ec10daea2c720135c5461334cc50810f6a4067f335ea6e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/conf/README.txt"
+    },
+    {
+      "path": "conf/triggers/README.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f779bed856a41ae002ff8f35.txt",
+      "kind": "official-document",
+      "bytes": 61,
+      "sha256": "2c29e3cb4991590490fc59fd79562d86538a00d0818cd49b790d817f3b827ef1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/conf/triggers/README.txt"
+    },
+    {
+      "path": "debian/copyright",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/248a3ad2376574c96e7b8fc7.txt",
+      "kind": "license",
+      "bytes": 403,
+      "sha256": "6bd5bafd8703ef21684cee460c8ede671ce57e24c6c3b1e935290f9e88f24c8f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/debian/copyright"
+    },
+    {
+      "path": "doc/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a0842ea73f3a116eff7958fb.md",
+      "kind": "official-document",
+      "bytes": 2872,
+      "sha256": "e2b71001bc9e5e783fc1d55bb24d64b0179f7c38b89d7666b7ef08bb39c21b27",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/README.md"
+    },
+    {
+      "path": "doc/SASI.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/783233124c883520803a6a13.md",
+      "kind": "official-document",
+      "bytes": 45935,
+      "sha256": "a57ea958d6e469f5f6a0b488c1126b114abbbc97060cc30034ae1a230ad3e245",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/SASI.md"
+    },
+    {
+      "path": "doc/modules/ROOT/nav.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1fb22b372031bc3cb208876a.adoc",
+      "kind": "official-document",
+      "bytes": 1039,
+      "sha256": "a2594576c2f4073f6fe8b47554ae41e85ef8b5c4551c26bf69cbf6639c49653b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/ROOT/nav.adoc"
+    },
+    {
+      "path": "doc/modules/ROOT/pages/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5aa060da859b8ad181318e2f.adoc",
+      "kind": "official-document",
+      "bytes": 2643,
+      "sha256": "dd1052a364168a614c40a1cad8c673abf3aaa0497abd5c665a13d9c0956379de",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/ROOT/pages/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/assets/images/generatetokens.rst",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6a2f03ca4895e5d98dfae1cb.rst",
+      "kind": "official-document",
+      "bytes": 3593,
+      "sha256": "aa1c468942e9ead915d3b78db9d2e44ce6831e087e05af9f3c80c41763a151ae",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/assets/images/generatetokens.rst"
+    },
+    {
+      "path": "doc/modules/cassandra/assets/license_compliance.rst",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/12b8b35128e0d7fd8c02e1ad.rst",
+      "kind": "license",
+      "bytes": 1923,
+      "sha256": "6b7d9dce29dd5011bf5d023433cf8c1c25b7310402868584802f2fce85573cf2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/assets/license_compliance.rst"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/add_repo_keys.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/76feeeabe95d7c1361e098b2.sh",
+      "kind": "upstream-example-code",
+      "bytes": 93,
+      "sha256": "bdf4139ee299ccd39662192befc12566f6ef6893957a9ed4fe6473aeee324898",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/add_repo_keys.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/apt-get_cass.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/bdcf8a4ad9243a66def2a83d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 33,
+      "sha256": "cfb6baa4cf287fe7936a49723fe1ebd009410c395eabdb06f428855f0fa07a45",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/apt-get_cass.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/apt-get_update.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7b34c8f0d7833e7410ad4e92.sh",
+      "kind": "upstream-example-code",
+      "bytes": 22,
+      "sha256": "daf9ae70271fd8e3d5cd984613b3b90036abc741fecefa2881261aaad5bed67f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/apt-get_update.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/check_backups.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/bea8cff6741f72f054e6eba4.sh",
+      "kind": "upstream-example-code",
+      "bytes": 91,
+      "sha256": "e6d09834439bcee51065a1467a935a79d02e02dc360f7c48e3b39426f5b96ba5",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/check_backups.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/cqlsh_localhost.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ea91f3f47411c4988e9bf8fa.sh",
+      "kind": "upstream-example-code",
+      "bytes": 22,
+      "sha256": "b2664e0e3ab5893dac3ebecbe1e398c76006cda0a141e8270e9956dcffe72531",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/cqlsh_localhost.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/curl_install.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/47c2174cc284494db9c4b64d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 104,
+      "sha256": "3dcacf45d479b8fed2210affc4a849c9e667bd26ad27fc624ab24db2096a3c92",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/curl_install.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/curl_verify_sha.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d49566c5b8592dfc294077ae.sh",
+      "kind": "upstream-example-code",
+      "bytes": 96,
+      "sha256": "9310380eaace02409f1267ad5c75e411a4ce9f915649600fccd11959cfb94798",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/curl_verify_sha.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker-kill-and-remove.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/10aaae6ab39c2c32d8367001.sh",
+      "kind": "upstream-example-code",
+      "bytes": 49,
+      "sha256": "906ba37e0edeca7fc18996d0c947fa6acf18a3397cec73d60c06cb6624649ca8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker-kill-and-remove.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker-network-run.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5e10fa942104b661c04ae70a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 119,
+      "sha256": "f4646b2de974bdd42de27f602821bc8d0a65e7725433ea63bc6e069682f7b4bb",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker-network-run.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker-run-cqlsh-load-data.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/18c8ecf4fa666638990c252a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 161,
+      "sha256": "f1ba78d594465c3f5c1dee348240c4fbab450ba9c7da95ba0555ef87a84ae3a4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker-run-cqlsh-load-data.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker-run-cqlsh-quickstart.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c776109c25e4ec6e09579928.sh",
+      "kind": "upstream-example-code",
+      "bytes": 103,
+      "sha256": "304258d26e20c60d578c6a693779da958c397b19d3c3fd2e93bf3489263c020b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker-run-cqlsh-quickstart.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker_cqlsh.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9e3139695b3af9875847ea83.sh",
+      "kind": "upstream-example-code",
+      "bytes": 35,
+      "sha256": "bf5d806f95162894e43adc7187c97bca2e0733385772a6265942f9897dd206b2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker_cqlsh.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker_pull.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ec00ef20d097e0ecba3e59b3.sh",
+      "kind": "upstream-example-code",
+      "bytes": 29,
+      "sha256": "b7afc84724baa0e7bf5e21615985df0ab43ccf2245e0e75b8ba69dd4d55e99f0",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker_pull.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/docker_run.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c168437c32319ac2090c7122.sh",
+      "kind": "upstream-example-code",
+      "bytes": 48,
+      "sha256": "b1ca3487c425cdbba2f38309d89db708e4d2c2d780595667e94b4473adb94504",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/docker_run.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/find_backups.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b8f8fddc0345c33c10f0ef3d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 21,
+      "sha256": "8893e3ba04603b444f2549af02ce3f53a7e4473db9b601b7a9b6864de509b89a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/find_backups.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/find_snapshots.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/68b574212907550ca09d5567.sh",
+      "kind": "upstream-example-code",
+      "bytes": 23,
+      "sha256": "8e0031e320c90968d814f66d67be764ac276ee80279e7d0dd83e28cb84c513bd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/find_snapshots.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/find_sstables.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3b5dcb8d3fdc54d579e6943e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 79,
+      "sha256": "7bea566eda0611706eb7955cd1080ab6074ed0bec76d38af8e1054c94a52c93c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/find_sstables.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/find_two_snapshots.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a59b1ead4d9e6b3ead8969aa.sh",
+      "kind": "upstream-example-code",
+      "bytes": 103,
+      "sha256": "bb3fe22f4ca05bfbc43e7000a2277ab6dcd420b65a9daa6a7dfa136525ed1df1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/find_two_snapshots.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/flush_and_check.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a5fb2df32a67a849bd5ce9df.sh",
+      "kind": "upstream-example-code",
+      "bytes": 122,
+      "sha256": "a3d9173740bfbcaaf848d0e552413a44027f80201e4a24ea1e9d2e07310060af",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/flush_and_check.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/get_deb_package.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e39b26d748157767c324ea7d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 219,
+      "sha256": "a5f2a2b599fb198904eeec77b21f190b26b5ad98cf5cd6b57af406ef02c06a72",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/get_deb_package.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/java_verify.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/543448340bd17e21fd81ac28.sh",
+      "kind": "upstream-example-code",
+      "bytes": 16,
+      "sha256": "e9b959bb65f524c63635fd26a915b579787a78b04c6234fc5a41eeb99b9cbe3a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/java_verify.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_clearsnapshot.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/69762de4b977750f50556059.sh",
+      "kind": "upstream-example-code",
+      "bytes": 49,
+      "sha256": "6341c86e8c03e93ef8170e5ab38141fc257b5719eaaa1b14311085f6477ddcca",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_clearsnapshot.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_clearsnapshot_all.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/dee1c8d9dccf944f3daa9b1d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 43,
+      "sha256": "f309bdc0234227e85c94e4138363f30b9dce53c4bc3eba51408636aeb7c3214e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_clearsnapshot_all.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_flush.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3d1d29e6c7c59db55870bb9e.sh",
+      "kind": "upstream-example-code",
+      "bytes": 113,
+      "sha256": "0d8ac5841c25dde4194a50968f877951e1c3e9cb83e274ceac0f64eb0ebb96e2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_flush.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_flush_table.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9d8b82344ce9882d788d7242.sh",
+      "kind": "upstream-example-code",
+      "bytes": 31,
+      "sha256": "96636678d238233c59143924a17c256d30656b65cd8af1a932b46de380194424",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_flush_table.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_list_snapshots.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ca4fc8c840891ee97869dfce.sh",
+      "kind": "upstream-example-code",
+      "bytes": 25,
+      "sha256": "f767d8644c5a4f3f752e195ef127650ea9fa232ee49b3b9fc11a08d79ccc05b3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_list_snapshots.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_snapshot.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a24c5984d52857cca2b7320b.sh",
+      "kind": "upstream-example-code",
+      "bytes": 25,
+      "sha256": "8d7c034a5c77ed0f007784eedf047460fa87ec66a5d1c7cf360645fbd12d0956",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_snapshot.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_status.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/48934b78b68bb82389288b63.sh",
+      "kind": "upstream-example-code",
+      "bytes": 22,
+      "sha256": "e8ff5345db480f879e74b1db5aacb6154c304d6780d2c48d606aa96682537b03",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_status.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/nodetool_status_nobin.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3f161d320f441a32ef53f136.sh",
+      "kind": "upstream-example-code",
+      "bytes": 18,
+      "sha256": "5267f4e76d8009bafb8f66c78641be4a4eb2cbb26e6b14ec050fe632d9de32bc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/nodetool_status_nobin.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/run_cqlsh.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/da30b0175667e30cfbd29d6d.sh",
+      "kind": "upstream-example-code",
+      "bytes": 12,
+      "sha256": "b23cdea4664ccbc2dac3af776e5c7b939f7217bad045c728f7f07105daf7f9ca",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/run_cqlsh.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/run_cqlsh_nobin.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/982ed26f8c6c821395c898db.sh",
+      "kind": "upstream-example-code",
+      "bytes": 8,
+      "sha256": "62b03dfc7396af664569f5e8ee8477789f23a5d2003b1a47a9db98b2da606630",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/run_cqlsh_nobin.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_backup2.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9c12f1204584f876b5f13cb7.sh",
+      "kind": "upstream-example-code",
+      "bytes": 53,
+      "sha256": "ea04e69d2a9fc399c2b0993d91210ad6677b784deb766da55aeb945298f1450b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_backup2.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_both_backups.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2a74cea875c99e460373a42a.sh",
+      "kind": "upstream-example-code",
+      "bytes": 70,
+      "sha256": "e37b479cd73a7170b7f551ec02106951e13b3daa0af92e2996a03d2684f64175",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_both_backups.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_files.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/412f4ced230f6df127edb986.sh",
+      "kind": "upstream-example-code",
+      "bytes": 25,
+      "sha256": "5396ded9c44208dd6960d75224a2ff61d6475de45b6cc6789cabe2b09fc2adc1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_files.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_mult_ks.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c9b9f923c3c3a8151741367f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 83,
+      "sha256": "fcd6fc06b9a0bc99b3dc83a2395a9c12f600675921459fcde13b577ab6730bfd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_mult_ks.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_mult_tables.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/afe97e843b1fc5b1f42980bb.sh",
+      "kind": "upstream-example-code",
+      "bytes": 77,
+      "sha256": "105dfae70584008c66aaad43f5f9b12b3aa0fcf7af5c3fabd23c81eafd6434e9",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_mult_tables.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_mult_tables_again.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/99123ecdb4d6c057ab16df54.sh",
+      "kind": "upstream-example-code",
+      "bytes": 80,
+      "sha256": "cc6f9700e4abf0ecab9b9b8a1c7ce1488b3a187eb4cd42cfb7e98c54b23a54bd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_mult_tables_again.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_one_table.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8e12c5bc493d2fbefc7d04cf.sh",
+      "kind": "upstream-example-code",
+      "bytes": 62,
+      "sha256": "7fc201b6d3f439d03c79c51331c7895dae1999724a23c2e01a64383450cc91f2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_one_table.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/snapshot_one_table2.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a4fa8ada1b64a71f080af02f.sh",
+      "kind": "upstream-example-code",
+      "bytes": 69,
+      "sha256": "eb6bea3f46c5f0e84d34878b38cca975e0c889b719845d3e665a5742131087dc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/snapshot_one_table2.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/start_tarball.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/cc1c2f1643d0a69cdd153aba.sh",
+      "kind": "upstream-example-code",
+      "bytes": 46,
+      "sha256": "0b670456cdd0e1329fc3298e11f4a0878a7b274ce304b132e96351c968c8a8f6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/start_tarball.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/tail_syslog.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f325302bfb0a8a932a52c6b1.sh",
+      "kind": "upstream-example-code",
+      "bytes": 26,
+      "sha256": "bbb7ffcbdd5d659d45f86c7aa1d02cfd4636974ea75c88b7d14eb3058a7abd3c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/tail_syslog.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/tail_syslog_package.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e91efd06edf6ec3f1bbcd872.sh",
+      "kind": "upstream-example-code",
+      "bytes": 40,
+      "sha256": "a57d57d15eb62f2238aebc16921a471bde77614c64ac8a901ae1ce157e846e28",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/tail_syslog_package.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/tarball.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/79c9d4bc08b7630445173934.sh",
+      "kind": "upstream-example-code",
+      "bytes": 45,
+      "sha256": "2beefd44920327abe7b00c44eb561eb3f7672822d4011a6091e5615ccc50e7ba",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/tarball.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/verify_gpg.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b3014614f43dd1c0014335ce.sh",
+      "kind": "upstream-example-code",
+      "bytes": 58,
+      "sha256": "84537fae767267660a9f0b97b76742e5d78ea8c67b665d251c8d31a0d9217e15",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/verify_gpg.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/yum_cass.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ad52dfa2b4ea2267f0ad7c4c.sh",
+      "kind": "upstream-example-code",
+      "bytes": 29,
+      "sha256": "bf5e6fe2d954f2878e9efe9940323410052082810d75263ad00fef161b50b04d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/yum_cass.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/yum_start.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3afdf24492046ec727ade512.sh",
+      "kind": "upstream-example-code",
+      "bytes": 31,
+      "sha256": "9b2c72c53da6a102b84601381aa4b99c96cdfe8deb1d7bd7659212b035c5e248",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/yum_start.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/BASH/yum_update.sh",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c21023e9f314d91391543db2.sh",
+      "kind": "upstream-example-code",
+      "bytes": 18,
+      "sha256": "8e58d9322c20cd32f5568df62fb00a4cbfa0f3963ee3cc4f799643baa5a67597",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/BASH/yum_update.sh"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/JAVA/udf_imports.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a02612b7301814e1da91b089.java",
+      "kind": "upstream-example-code",
+      "bytes": 279,
+      "sha256": "c3f1f5424266a65c646e557a4d8df9396dfae9066c44b8de24e9829cc1520460",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/JAVA/udf_imports.java"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/JAVA/udfcontext.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c7c1354ba1ffadd5a69aced4.java",
+      "kind": "upstream-example-code",
+      "bytes": 378,
+      "sha256": "389cd36749cfcd53bf0c8231cc65bab0349fef858aa9944f6cf5cfc05bbf046b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/JAVA/udfcontext.java"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/TEXT/normalized-embedding-vectors.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8f03980a5edd5e2b9e4a4740.txt",
+      "kind": "official-document",
+      "bytes": 92,
+      "sha256": "c016a0d150a116520451f104f462774d5e43b3abc72e53410fe83c8761c17869",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/TEXT/normalized-embedding-vectors.txt"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/TEXT/original-embedding-vectors.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/df13c351936697ebd2d05bf9.txt",
+      "kind": "official-document",
+      "bytes": 88,
+      "sha256": "887c343c42685734105d65433f5f6c18c6921747f9542c69a171c527ba82fa4c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/TEXT/original-embedding-vectors.txt"
+    },
+    {
+      "path": "doc/modules/cassandra/examples/TEXT/tarball_install_dirs.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/fbd18bd2f38b2ce4bca1647a.txt",
+      "kind": "official-document",
+      "bytes": 156,
+      "sha256": "c87bcd5d95c66df5519cdcba1a21903033e50fe624444501b9494e3b43aea958",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/examples/TEXT/tarball_install_dirs.txt"
+    },
+    {
+      "path": "doc/modules/cassandra/nav.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f5ac1a3fa235363ccbeb5a17.adoc",
+      "kind": "official-document",
+      "bytes": 8158,
+      "sha256": "db3e888368a9b86b23ceddd065d790f1cd7a8ff88c4a82bd7037deb87c39825d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/nav.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/accord-architecture.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c0b9c36e456b86d8cd1add8f.adoc",
+      "kind": "official-document",
+      "bytes": 17814,
+      "sha256": "a2ddd110e8ab1f4f6628b9c2823a3417d69f8cd9d2c7b77c681cbcf254a94447",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/accord-architecture.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/accord.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4eba8c9601999d5f515c314a.adoc",
+      "kind": "official-document",
+      "bytes": 267,
+      "sha256": "4c7d5241f89fbec687bd9f7492d8aaa54b88f1ddb769b6dca7e09745aac9d9a9",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/accord.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/cql-on-accord.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/97878db69e746f760f4c48e2.adoc",
+      "kind": "official-document",
+      "bytes": 35625,
+      "sha256": "d722ed8c3e6562ef336da711461873a45b826eff1e1a003bbadd074cebfcd380",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/cql-on-accord.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/dynamo.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1189c0d31f05ec9dad30ddfa.adoc",
+      "kind": "official-document",
+      "bytes": 26561,
+      "sha256": "cf06d9156e211e81bf2530c33806d1ffc6a8ac1440c28669750f65d4e1760bb4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/dynamo.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/guarantees.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e74b77939dce1d2b26713a6c.adoc",
+      "kind": "official-document",
+      "bytes": 4704,
+      "sha256": "8e5a30d02c66b6820679b273414b7e00ad164e705d75f21e1159af66e6928bc0",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/guarantees.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/81990af1084ba498a3846c59.adoc",
+      "kind": "official-document",
+      "bytes": 372,
+      "sha256": "11aa38c83a1da4591d2096c7c413e7b488dd844b2e0fc2f922b366dc490f7de8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/messaging.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/96cb28b31590359ae86c2220.adoc",
+      "kind": "official-document",
+      "bytes": 15392,
+      "sha256": "8d6522b96801bf8581d1e9e91496d6e7f87888b75515ba11b016cd6a6cb7a1a2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/messaging.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/overview.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/611536baaefa10d6a794e3aa.adoc",
+      "kind": "official-document",
+      "bytes": 4477,
+      "sha256": "adf2c5b2eca3018ea9e17ac58bf1220ac697dd7658bf285515ccb03ffc21189a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/overview.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/storage-engine.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/92c8378726272ca2366fee63.adoc",
+      "kind": "official-document",
+      "bytes": 18505,
+      "sha256": "bc2b48e966c68b99e5e66fcc14d32e6492d5bf4d0fce50ad962f0543a5f960cd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/storage-engine.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/architecture/streaming.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0a87478f7ac46fcb8e3f4b43.adoc",
+      "kind": "official-document",
+      "bytes": 8316,
+      "sha256": "111dbfc99f0927433b4a6b5ef62ab750a3bc4b68fe9df85e564c565c4a521292",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/architecture/streaming.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/SASI.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/09c38a2496f89e6818f108f8.adoc",
+      "kind": "official-document",
+      "bytes": 44907,
+      "sha256": "fa3389b3814b98e66619d8ed70b571b37628bf5cd7330e4fd4daee7d840dbb26",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/SASI.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/appendices.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/12fa9443080329a215a6c32e.adoc",
+      "kind": "official-document",
+      "bytes": 3751,
+      "sha256": "3e1f2bf79cd63d8ca8f677cc7b7cc8c937340976d7c9d5cc83289290b1c90af6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/appendices.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/batch/batch-good-example.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/dc0c07db258cc8bc68cac9a5.adoc",
+      "kind": "official-document",
+      "bytes": 4171,
+      "sha256": "4fbcf3cd1918013915585dd962834551ec1205c296e2e20f9787e19dad98c613",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/batch/batch-good-example.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/changes.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f857cf7c99fe8e533221d3c1.adoc",
+      "kind": "official-document",
+      "bytes": 9255,
+      "sha256": "0008be5d1a6606a90ebe8b39f72dcfd5a6189c183c8690848c3c4814592cd2e1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/changes.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/collections/collection-create.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0d1270207e4d9acdaf6e21fa.adoc",
+      "kind": "official-document",
+      "bytes": 1691,
+      "sha256": "fdea0732afb1f65cfba5bd625dd93c15b163f50b7f2018731441e9682f8c8a45",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/collections/collection-create.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/collections/collections-overview.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/18cf54a68d0f2ce82b5e586b.adoc",
+      "kind": "official-document",
+      "bytes": 1269,
+      "sha256": "14c20abc320456b1c6ce55fb59de193a855f3254b1b6d97ac7c3a70a0b7b0990",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/collections/collections-overview.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/collections/list.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1c34bb6211ed1f924f146809.adoc",
+      "kind": "official-document",
+      "bytes": 1323,
+      "sha256": "ba7a72bae59ac84e499f27310c687933f647f4ba36b1d85dbfac9d0248f086af",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/collections/list.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/collections/map.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d939e844f3c22196a0b8ed18.adoc",
+      "kind": "official-document",
+      "bytes": 1226,
+      "sha256": "156ea4d0b7bde824e89e492923275fc336cd954e47ce9c1b2df5fae472a4a2f1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/collections/map.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/collections/set.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a81b3e2a306ca7f1753760af.adoc",
+      "kind": "official-document",
+      "bytes": 1070,
+      "sha256": "27251b574a1ded7394225f0b4f25894e4b257a48d52a821e03e5b53a1da002fc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/collections/set.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/constraints.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b64e433d018a25089e2f6d7a.adoc",
+      "kind": "official-document",
+      "bytes": 10190,
+      "sha256": "e64c3d6b33362e683f9fc16c6328532271cd0e4d50b74fd05f063d726b7c409b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/constraints.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/counter-column.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/78109bf4bb80c4d6aabacae6.adoc",
+      "kind": "official-document",
+      "bytes": 1190,
+      "sha256": "9818bb600dbd97460cd5406a46ab6596a774cb7ecb86c53c0a34069e42bcd344",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/counter-column.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/cql_singlefile.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/90e7f45e4ea4937d7a52422d.adoc",
+      "kind": "official-document",
+      "bytes": 99173,
+      "sha256": "c0d73577089d1acccfc70e3d022723acbeb0477de351f3a0d244b4dc2cac6c7e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/cql_singlefile.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/create-custom-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/bbd636d5f88fff6f85219fff.adoc",
+      "kind": "official-document",
+      "bytes": 11196,
+      "sha256": "ceb340d689f1ff3dc9b2943afa160b552713017e4c619b6a911199c65b998f85",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/create-custom-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/create-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4370e7195ccd51f636fde442.adoc",
+      "kind": "official-document",
+      "bytes": 6248,
+      "sha256": "c2158d28e7ad8e4ad11e6714ab3b2f7ac9ee5527fefee814e82630eb1bf4f099",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/create-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/ddl.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8c64db0703395d1cc20cb58c.adoc",
+      "kind": "official-document",
+      "bytes": 37001,
+      "sha256": "f2f972cc2e3e4ceae95cd7ad1c1002c8567f2a0dfadc8dd5ab989e9329a15456",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/ddl.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/definitions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0ee7d90981f71d0785039a11.adoc",
+      "kind": "official-document",
+      "bytes": 7866,
+      "sha256": "08ccaf1d27ce4d8a996befeec0a0f3fb9444e5ba9cbe5e5964641264657e9206",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/definitions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/dml.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b2a4a44333db9205fc7c591b.adoc",
+      "kind": "official-document",
+      "bytes": 23225,
+      "sha256": "83572f848d63323aa8882d962a56a9e9ec4463bd6434476373f9de9f13691606",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/dml.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/drop-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6a31d44e4791cb5ae2b1012f.adoc",
+      "kind": "official-document",
+      "bytes": 552,
+      "sha256": "e956cedec426ab44dc2e7a513fc6be3b82e128226ec563b7fbc30aef7d74cd16",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/drop-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/dynamic-data-masking.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/32503007611a20cefed4e3e3.adoc",
+      "kind": "official-document",
+      "bytes": 6976,
+      "sha256": "262555128e20812ce2f596733387bc59c8037222e7ffe09e08b29c559bceb93c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/dynamic-data-masking.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/functions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4122c5017e655088dd6e3c40.adoc",
+      "kind": "official-document",
+      "bytes": 29439,
+      "sha256": "49ca1bda5e0f8f9fd3ad3b89c37e7450d3f27b028182ec1a38825988b7c9e488",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/functions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/25daa1d2e6b8f166759ca2b8.adoc",
+      "kind": "official-document",
+      "bytes": 1524,
+      "sha256": "8edd5da95a743e4aef41dee4b8bb132f59befec1619a340ae6e054042e972657",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexes.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c89c231069db1ae71e1663a7.adoc",
+      "kind": "official-document",
+      "bytes": 2199,
+      "sha256": "e19466fe18917f125e8cd229c723444d79628b4b97a6a04620395cc902e12574",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexes.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-concepts.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/645771cc2a671bdc6b13df18.adoc",
+      "kind": "official-document",
+      "bytes": 1061,
+      "sha256": "dfd26a69b3ed283c1f8f26d1b0e434ebd89d52aedb3e73053b15fffd6bb7ab01",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-concepts.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-overview.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1edeb4d797b3acd49238964f.adoc",
+      "kind": "official-document",
+      "bytes": 974,
+      "sha256": "18e160f32263181c52321c8ee339f3b180d81f475ccc5db75f48dd54cd0fdd75",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-overview.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-when-to-use.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/72057c411e0462b6e748381a.adoc",
+      "kind": "official-document",
+      "bytes": 3248,
+      "sha256": "52c7ed697f43ffcb4be0cd121d4b5bbcd116bc86315292658e20cbd37ee4741d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-when-to-use.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-working-with.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/47f7280f5c3300726865c17d.adoc",
+      "kind": "official-document",
+      "bytes": 508,
+      "sha256": "7330b32bb369727ab329f206dba0df3f2a56cfbfcbce5ad2f65ce96d27229a80",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/2i-working-with.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-alter.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/93b4656d2550784f476103e3.adoc",
+      "kind": "official-document",
+      "bytes": 240,
+      "sha256": "b502dbc69a0b13e50f71f7ece13f87f3fc192c503d70798daf08dbd32459be9a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-alter.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-check.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/01f84e9220ee7263d715bcb0.adoc",
+      "kind": "official-document",
+      "bytes": 283,
+      "sha256": "e4a8049b362a5701e0382e034f7f9bebad15cb3ae1b12b48777ddfb11221b899",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-check.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-create-on-collection.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8bf993fa16669326fa33e445.adoc",
+      "kind": "official-document",
+      "bytes": 4141,
+      "sha256": "9902ad6ddce5a4f1f382a84ae69cb43ff0b80bfaf344a71ac0aee47844bf8568",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-create-on-collection.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-create.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f00fd84b1834dd1448a1749d.adoc",
+      "kind": "official-document",
+      "bytes": 6691,
+      "sha256": "bc01ea6345e862b9160a04a146df8cd2b69c451d8da6ad991f5e5c0781942cab",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-create.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-drop.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9aa679e9a0f7715b02859401.adoc",
+      "kind": "official-document",
+      "bytes": 124,
+      "sha256": "6e66f3a919d36c8a6e975ddaafd4b5129b947dd24cc2b3ebd0781bb18f75e2fe",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-drop.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-query.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/69bad1b4aba14adb606a7aac.adoc",
+      "kind": "official-document",
+      "bytes": 73,
+      "sha256": "0d1e1a5c4f69f03e3d4be311c389e7faba790c390eb6c7f069555a06f977d17c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/_2i-query.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/2i/operations/2i-build.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/fddfb334aa3c9abfd4dcbc28.adoc",
+      "kind": "official-document",
+      "bytes": 728,
+      "sha256": "090181eec8144f35b2fd0c9ad89fb62aa87f0aaba0dc82900b4a3b4f2b93115b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/2i/operations/2i-build.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/indexing-concepts.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7eb0960b93d5ea34234e48a0.adoc",
+      "kind": "official-document",
+      "bytes": 1866,
+      "sha256": "9d15febd42e98ffa065d9e469d0caca75038d4cd97e66f3318afbf9545a9910b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/indexing-concepts.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/.index-table.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7d9d331bda31a8e36119b081.adoc",
+      "kind": "official-document",
+      "bytes": 1692,
+      "sha256": "77595fd170625c15716b2be4b7df927db3f03cb7aa076923591527b99ae42ebd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/.index-table.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_collections-list.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5739c8083b569a78aa4458a1.adoc",
+      "kind": "official-document",
+      "bytes": 1058,
+      "sha256": "c16bbe7be4b7952fbc740739718d8ebc9e60981fc43d36b957011efaac547649",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_collections-list.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_collections-map.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/51fa1c9b98e13f9675ad3bcb.adoc",
+      "kind": "official-document",
+      "bytes": 1691,
+      "sha256": "988ba7e070b5716975175adfe4700eabf9538fb9f8285d220c0777accba7c59b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_collections-map.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_collections-set.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/39cff22dd79d9909d8599bb7.adoc",
+      "kind": "official-document",
+      "bytes": 662,
+      "sha256": "53d903fe4407f36d3c9167e261b8eee478b3869113558a30ed843d8a1361e6b3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_collections-set.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_composite-partition-key-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6d8579bf5900dbdaae03ec90.adoc",
+      "kind": "official-document",
+      "bytes": 1764,
+      "sha256": "801868df6f51db537fcc312be557564386c476a12f9716a9ab37a0ec306d59e3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_composite-partition-key-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_multiple-index-match-with-and.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/57e5ea211653fa2cc4a3ceb1.adoc",
+      "kind": "official-document",
+      "bytes": 750,
+      "sha256": "a881027c25cea69bfcd609c1e1d65e61fd36a4aefe537bfe09676b6f9393d48a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_multiple-index-match-with-and.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_multiple-index-match-with-in.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/39c9a0613707a9b87be647e3.adoc",
+      "kind": "official-document",
+      "bytes": 731,
+      "sha256": "7ab155732941d12be0b25b5e5812eb7812ee463686e877c845fff2dc2fca9524",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_multiple-index-match-with-in.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_multiple-index-match-with-or.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c3ec5c80d0ff5900e84cf49d.adoc",
+      "kind": "official-document",
+      "bytes": 728,
+      "sha256": "5672dfc7d60ab1661ee64f3674ecf5350be54c730436ac6c411bdc453a6d828f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_multiple-index-match-with-or.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-alter.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/29a9649c3f5a96317c9aaf27.adoc",
+      "kind": "official-document",
+      "bytes": 509,
+      "sha256": "0e10a3738fced8f9894600b717239686e1b50af667863cb468c3f2d0037d9552",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-alter.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-check.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c24d5269d0bec15b1b9787c8.adoc",
+      "kind": "official-document",
+      "bytes": 317,
+      "sha256": "4cee8c4fd3918c764d23a5cfb376686b9e677eb6350eef71d1ed23bcd1ed247b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-check.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-create.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6b52a68f5132c889696e02d8.adoc",
+      "kind": "official-document",
+      "bytes": 2411,
+      "sha256": "07ebb2be089ea6f5613c9bdf3df121a110683db8a56d206e1ad29939f8976d19",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-create.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-drop.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/17e54a74e5963c0614a3e608.adoc",
+      "kind": "official-document",
+      "bytes": 258,
+      "sha256": "1653dc6be6ce454c757391028a6641baf713109cd19485f4e2fb69beed0da273",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_sai-drop.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_single-index-match.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4780e5ab86a58cabe5b647c6.adoc",
+      "kind": "official-document",
+      "bytes": 1270,
+      "sha256": "4bec47215be45d472078102aa442fca864b0ff1fe237065463d06b6d621da9cb",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_single-index-match.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_single-index-with-case-sensitive.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5587bc0cc38a7ba66aa2767a.adoc",
+      "kind": "official-document",
+      "bytes": 1248,
+      "sha256": "77d4124190c0cc8dae09255d55aae450385097f5802e8429ea393a5f917df1a9",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_single-index-with-case-sensitive.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_user-defined-type-match.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/021ab19580d455cdcc4822ba.adoc",
+      "kind": "official-document",
+      "bytes": 831,
+      "sha256": "a1a9759d19c7b658f07306aad6b6f613cae650136d339791533a7c9af0269e18",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_user-defined-type-match.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/_vector-search.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b8a7f2f25625cd4cab07d6ea.adoc",
+      "kind": "official-document",
+      "bytes": 316,
+      "sha256": "c0439a83cbe5d51b127a4101fa67861a8f9563e795068a81504b7dffadfd33b2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/_vector-search.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/collections.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8500262ecd91d2d93f749717.adoc",
+      "kind": "official-document",
+      "bytes": 1685,
+      "sha256": "f8ddaa51952b5ae1691955e29ad52b6a1302d8ef7c27b2d30b841fcc569dce90",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/collections.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/operations/configuring.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7de98757ab17b0a5b9cb8a9f.adoc",
+      "kind": "official-document",
+      "bytes": 4035,
+      "sha256": "cfe00437dfb0d6b23b632ab55036638f833db039194f4001e9a8bfb6207f7a86",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/operations/configuring.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/operations/monitoring.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/144a96df6276a95d49097e01.adoc",
+      "kind": "official-document",
+      "bytes": 8437,
+      "sha256": "88ab58e718458f01915bece21ef9a0707b4bdbc026a3119d0e1fc8429e4ca064",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/operations/monitoring.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/operations/sai-operations.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3fe9aa9dffca2f86742d942a.adoc",
+      "kind": "official-document",
+      "bytes": 286,
+      "sha256": "6b45f509ec64f1a167045880ba035b75317b987c2b3b2b97a444de5e03382bbb",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/operations/sai-operations.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-concepts.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/259ff714409852321084e14e.adoc",
+      "kind": "official-document",
+      "bytes": 2845,
+      "sha256": "60c1ea7fc99c88b490695a7b8df71805542ddc632acc0c37e0e8ce5b3e6994bd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-concepts.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-faq.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2e4a410fc755b15c0e3fe489.adoc",
+      "kind": "official-document",
+      "bytes": 18296,
+      "sha256": "1d10ebddbadd1cc72f3cd80f4a81bdc00bd26b448c08177ae1c84147041b812a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-faq.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-overview.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/566375d69cce7d5c7ff4f88b.adoc",
+      "kind": "official-document",
+      "bytes": 1326,
+      "sha256": "cb950cc98faafbcda17e3e90b4921ac81396fce3f00289cdab57cefe5a778bc6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-overview.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-query.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5666bcf9ca31ba3eccafe9aa.adoc",
+      "kind": "official-document",
+      "bytes": 1964,
+      "sha256": "b97ea7aedf45217c48688dd6711655ec9ab035caaf0c944cab428ded0605332e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-query.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-read-write-paths.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b37675f13a1a2b91611becfd.adoc",
+      "kind": "official-document",
+      "bytes": 15458,
+      "sha256": "596f146c6d89e99a4c3e8cc62a346bde1dd7fc64e8f242df810778f4d2957ce8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-read-write-paths.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-working-with.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d48454ed4c2d45d7f600a414.adoc",
+      "kind": "official-document",
+      "bytes": 481,
+      "sha256": "d9068cae6e81526a14cab2a9cb414315b49361fdcea6d6d495058db284dfdff2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/indexing/sai/sai-working-with.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/json.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0f1ce11da92c08e3a0dc5946.adoc",
+      "kind": "official-document",
+      "bytes": 5389,
+      "sha256": "af7ebd54f4cd84fce7f8c4fd799faa7feaea3616c75cacde741ca584272d07fd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/json.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/mvs.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/bcbb6abb623f808a3bb66b63.adoc",
+      "kind": "official-document",
+      "bytes": 5398,
+      "sha256": "991307349f747c981e9be4395a8108c30365cf0b841e2540dda92b1b667103e9",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/mvs.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/operators.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d05a142566fbc95043fecc5d.adoc",
+      "kind": "official-document",
+      "bytes": 2047,
+      "sha256": "918ca3224ff37143487bf32bec10716a71290c87c40e37d80f6d7cfe4c7629b8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/operators.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/security.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/21dbd1eeda25f371fdbfd446.adoc",
+      "kind": "official-document",
+      "bytes": 23698,
+      "sha256": "6965b0f1f3e21a703d8c16236a2f50fac2c88deab8ab7acac33e79a7dc8962b1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/security.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/transactions-examples.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1c62449c34ea7ada93c2c9c5.adoc",
+      "kind": "official-document",
+      "bytes": 16369,
+      "sha256": "f21c1ef86b28997f44252c40efd700782dee7364cc4813b7e843b97b690f937e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/transactions-examples.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/transactions-migration.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/dec8102882228fe4132693f4.adoc",
+      "kind": "official-document",
+      "bytes": 8366,
+      "sha256": "80401c0a5b6c4a5bf3bce340113b02981cc62b7741b1783ec1d655ff67b76939",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/transactions-migration.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/transactions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/618d4f4d8042a9aa5fe8940b.adoc",
+      "kind": "official-document",
+      "bytes": 14583,
+      "sha256": "cbbef5e2309459f173f4f5f31145b730b428215bc0000fbf9bcccc81cdd78f81",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/transactions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/triggers.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c870d26b8eab01e4a4ced03b.adoc",
+      "kind": "official-document",
+      "bytes": 1435,
+      "sha256": "1bf5109f4663ebdec599ebef06349799a4be4b7dca82d825225cbaf459b6b98d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/triggers.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/cql/types.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/22b54e0039e79270040311c5.adoc",
+      "kind": "official-document",
+      "bytes": 19660,
+      "sha256": "3bbc987d0e25fb2ed9c0c10f3c9e6194dacec6a25eaadbcda8aaf109649b0e7d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/cql/types.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_conceptual.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/81dbe407ef6646ddc376e43d.adoc",
+      "kind": "official-document",
+      "bytes": 2267,
+      "sha256": "c6d91851731d56d31334ee036460aac7bfc38f996c109b76227aea76c866b37a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_conceptual.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_logical.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3008ef88aab5c7e904858f01.adoc",
+      "kind": "official-document",
+      "bytes": 9902,
+      "sha256": "d3e832ec203618b3bc2317397d0e5a8490bb77b3e8791feb01f23ceb65ff045c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_logical.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_physical.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/92e444229f3ba3f70f6d53fe.adoc",
+      "kind": "official-document",
+      "bytes": 4667,
+      "sha256": "c7de7337ebf41cce4eda8d26bfa6442ce437dc7da02d2ab533b821d28e4f99b5",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_physical.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_queries.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/84ffbbad377c5477117b4995.adoc",
+      "kind": "official-document",
+      "bytes": 3139,
+      "sha256": "32944431268744ca75414d6c8d7d112f8c920a9ab20df244c3278d2c38962ce2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_queries.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_rdbms.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a2fcadea3c8de5ff55890dcb.adoc",
+      "kind": "official-document",
+      "bytes": 7521,
+      "sha256": "e63c05c924a09c73ccb8f83bece4804c524720c00fcd7309efa2a4f179f2d1db",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_rdbms.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_refining.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2ec08700a62cfca0ae1a5855.adoc",
+      "kind": "official-document",
+      "bytes": 9523,
+      "sha256": "390ed9116879d94aa1dc7b32cc9b8fdc770a24a840a02b40f0331ae3d7006aa1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_refining.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_schema.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/137a127a4da04f38aef6b31c.adoc",
+      "kind": "official-document",
+      "bytes": 3540,
+      "sha256": "b43c13f3dff178eef2a4689bae3470b2a626f3cd951608dbe8730a833ffcbf03",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_schema.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/data-modeling_tools.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9820cf7c106c451d4b699b21.adoc",
+      "kind": "official-document",
+      "bytes": 2481,
+      "sha256": "36fd0df52d720bcb8b25fc18a87fdd7472311500f51646a77df4505eb2e41983",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/data-modeling_tools.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7db78524b8cec7b7df57aa51.adoc",
+      "kind": "official-document",
+      "bytes": 708,
+      "sha256": "c9c0694d57ffdc17856bc73b8c21dba81bedd56f85620c4106f2dc01b5a86337",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/data-modeling/intro.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2c1a7ce5641b54a453fc29fc.adoc",
+      "kind": "official-document",
+      "bytes": 8733,
+      "sha256": "8a94b50d4b20adc7a23f22332e2d757bc8e654138beead7be215c6f9fbbc15a3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/data-modeling/intro.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/developing/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5f8d40b80520ee66f84db754.adoc",
+      "kind": "official-document",
+      "bytes": 184,
+      "sha256": "4055319b09ecd37ebd1011ad48ddd6cb0d826e1cbe0f382a0ad93ec969885192",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/developing/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/cassandra-quickstart.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ee3f4cb896e1eedae9432b71.adoc",
+      "kind": "official-document",
+      "bytes": 2804,
+      "sha256": "4df9093f2d53b76518b58cd847543403fbaf4850b1febc1f8cf4da57a0f4b001",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/cassandra-quickstart.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/configuring.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5e6f887181a1989e470b29bd.adoc",
+      "kind": "official-document",
+      "bytes": 3398,
+      "sha256": "9f666664c01049465c4c6658bf851b95c7191319a2dd20bc416f9ca4483222a5",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/configuring.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/drivers.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d70553ae56f245bb4ad4369c.adoc",
+      "kind": "official-document",
+      "bytes": 1904,
+      "sha256": "284b939e7a7607c83e35be75f379b2de021a0f02c072c8cc2a753ba1a7afbe73",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/drivers.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5fd126c1a4cc096c9b7d7244.adoc",
+      "kind": "official-document",
+      "bytes": 1939,
+      "sha256": "c35d1025df613bec435e8db9c2ce13a1ee6b89db7bd924457c08d49d371c646f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/mtlsauthenticators.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f0b04821902f81295b05d655.adoc",
+      "kind": "official-document",
+      "bytes": 8223,
+      "sha256": "ed30dd2c9248e138782ce648dcc9015192a3d8a5a91bad138e5d49310a9c738e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/mtlsauthenticators.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/production.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ea55f5e77001e747d3b1ad8a.adoc",
+      "kind": "official-document",
+      "bytes": 6578,
+      "sha256": "47299986903d919a5a733476bb6cf19fe9b6160896d3218db18c8c6b378b087c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/production.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/querying.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3cc7ec185049952d30b5437f.adoc",
+      "kind": "official-document",
+      "bytes": 1233,
+      "sha256": "e97b8a5f56d501211b9b6c7e350785d8e6a98cf034d31ec29d350b03dac6e02e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/querying.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/sai-quickstart.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8e8a95606d83746203d3169b.adoc",
+      "kind": "official-document",
+      "bytes": 4572,
+      "sha256": "38d569f3c33fa87f9a324cff063118088a72279e91660e4bf129d8e943629da5",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/sai-quickstart.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/getting-started/vector-search-quickstart.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/baf72a7d57c44f6ddebf3676.adoc",
+      "kind": "official-document",
+      "bytes": 2033,
+      "sha256": "3cd6ac0521ec81431651a03deb34242580ba30a711f39fe4da59f6fb2a19e97a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/getting-started/vector-search-quickstart.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/installing/installing.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/68e9bde2d02a4421eb2f8a78.adoc",
+      "kind": "official-document",
+      "bytes": 7469,
+      "sha256": "919d4340f705d762cbd0e2e5819af1c1b2c30ecb11c9c7aa4c0e727cbfcf1a42",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/installing/installing.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/integrating/plugins/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9a3c3e2a04f004cbeeb23954.adoc",
+      "kind": "official-document",
+      "bytes": 1067,
+      "sha256": "9bb60a829212bfdb92a846b5056eadff0c4aa80b01b1722e50a1fbec1d780d70",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/integrating/plugins/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/cass_cl_archive_file.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/83e611a122ed4077cbab5ae1.adoc",
+      "kind": "official-document",
+      "bytes": 1710,
+      "sha256": "9f8d1273d204a7eea31da6df96e5d1f3766583801c33e5b425e4aa814773b4d1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/cass_cl_archive_file.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/cass_env_sh_file.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6cd6ef6c1603976377dfda04.adoc",
+      "kind": "official-document",
+      "bytes": 4622,
+      "sha256": "55877ba36179a4e7f7b5fa046f8f59ac9a7786e7c2833caccf00b1df8c326fa0",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/cass_env_sh_file.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/cass_jvm_options_file.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c0459e6909b4f18197d87e28.adoc",
+      "kind": "official-document",
+      "bytes": 887,
+      "sha256": "ddfdd0ffd53e72f75b6b81b3ba4f9ef6b91b14d2c0368293aaaf8a0be8968739",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/cass_jvm_options_file.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/cass_logback_xml_file.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/865c4328c237452214e5b27c.adoc",
+      "kind": "official-document",
+      "bytes": 10568,
+      "sha256": "2f2882534fecf3c4aaf163bf24df2ef57eea7d002bf3098457cd4329a3e75c0a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/cass_logback_xml_file.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/cass_rackdc_file.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/64537c45d91204e2c932fcfe.adoc",
+      "kind": "official-document",
+      "bytes": 2349,
+      "sha256": "808b230dd78582e528da71ff2db8f75d319866942ea586b68a80c82a2fe4b833",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/cass_rackdc_file.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/cass_topo_file.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/55d1355b620f410094b26834.adoc",
+      "kind": "official-document",
+      "bytes": 1315,
+      "sha256": "ddd88277897d8ac949dda224ab911363ccc3460a5c496d6a982ca9fac47fd32a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/cass_topo_file.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/configuration.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/57b76dd00d2e97b87f83f702.adoc",
+      "kind": "official-document",
+      "bytes": 13893,
+      "sha256": "c1c3218221d3c2016a995d1cbea22c0b2e73b9bcaa288fea5eb287b0916fc44e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/configuration.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/configuration/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0d339202078fe57ab555262e.adoc",
+      "kind": "official-document",
+      "bytes": 705,
+      "sha256": "11a3df34ada7d37c25a5092048cc167bf77e595ea9cf6666c3be58d6cb484925",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/configuration/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/cfc9e53a4bbbb6f0f8b4863c.adoc",
+      "kind": "official-document",
+      "bytes": 129,
+      "sha256": "29200d02f0458e27b0aaabf93593ceb372f5b58174dc3297b126a78711af5bd2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/async-profiler.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/374bb067d80842cd2ebd903b.adoc",
+      "kind": "official-document",
+      "bytes": 4977,
+      "sha256": "670c81bb54c9c6b59463abeb0a59782774edda64ade88e6ecf546cf24abfa1a3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/async-profiler.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/audit_logging.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3dde284cbdec1bc65b10e4bd.adoc",
+      "kind": "official-document",
+      "bytes": 8626,
+      "sha256": "14d9951fc96463bb6d7a03130cdb5e1b1bad81e07bb8ea4be6c908f34b5e5ca6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/audit_logging.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/auditlogging.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f95f96891099af593b3bc063.adoc",
+      "kind": "official-document",
+      "bytes": 23904,
+      "sha256": "7eb6a877c8f683efadaf6f2a9854862aecc72043cd2daa6f51d01debe33a7323",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/auditlogging.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/auto_repair.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/834c30b5365769546f56dc89.adoc",
+      "kind": "official-document",
+      "bytes": 25683,
+      "sha256": "7c1bad0389317f2d49f113fc7aafd20d3c0b34810447a83391277c42d590984f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/auto_repair.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/backups.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0597af21a5dd2681fda11d2f.adoc",
+      "kind": "official-document",
+      "bytes": 15095,
+      "sha256": "5e39ccee7793ed029ef2da95201b341333eecd4e712fc784b6dd18c4b153d55a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/backups.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/bloom_filters.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/56f9ff32b6f5d19aa42f16bd.adoc",
+      "kind": "official-document",
+      "bytes": 3007,
+      "sha256": "8582c28aba3e3ec34c01aeb2dcd8463995d443a5280ae624fbbf2894b3c0c357",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/bloom_filters.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/bulk_loading.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1da86afaa2b8a2d72b91c1ca.adoc",
+      "kind": "official-document",
+      "bytes": 26740,
+      "sha256": "66339ea3d10a456a2b7709e1ddff76d85bc0b131b445ea6580c842e53d66c1fe",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/bulk_loading.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/cdc.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/90827c2ccca124ab7d30c1d0.adoc",
+      "kind": "official-document",
+      "bytes": 4218,
+      "sha256": "6ec6739e52311d507219f296ffe78525e4060f30ce9511bc5014d3c859ada2bc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/cdc.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/63f1b8198049426fd7d0381d.adoc",
+      "kind": "official-document",
+      "bytes": 525,
+      "sha256": "b17c66ac592f49092c8e3326c80fb9a12e1eb6ef26901c2096be90a994940171",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/lcs.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/117130dc13aa7dd3a8dfdff0.adoc",
+      "kind": "official-document",
+      "bytes": 4927,
+      "sha256": "1b35649481488f1064e6b61d4008efa604378c8bf82d47963c7ed88a3204725f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/lcs.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/overview.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4679829034d0030bf416317a.adoc",
+      "kind": "official-document",
+      "bytes": 12987,
+      "sha256": "d92f51a529ee979a30a4106961227238c3a467c115c81b33be6cd316ce1bd4bc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/overview.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/stcs.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2f0b5e6eadff75976c6fcb8c.adoc",
+      "kind": "official-document",
+      "bytes": 5037,
+      "sha256": "dfe9aca090d16623a0f2a68b1956170a46a61f6242bff7c631358b9e6b1de2df",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/stcs.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/tombstones.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f9ea7f5ee98845f37fe150f8.adoc",
+      "kind": "official-document",
+      "bytes": 8778,
+      "sha256": "a2aec7f7d95fda941d29776c504f26816ed24d03a023a43fe63b1d3a3cef2bc4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/tombstones.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/twcs.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/697dce811669011fa1ee8b5b.adoc",
+      "kind": "official-document",
+      "bytes": 5704,
+      "sha256": "5aabd65ce1e5db052262f3e6763c047046b2e3af4945ee2ca6d688da17d40fc3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/twcs.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compaction/ucs.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e51cf4405fe919fc6ff61ee8.adoc",
+      "kind": "official-document",
+      "bytes": 39554,
+      "sha256": "79c6325db29d00a28d8d94aa289580198f7b653e62d3bb9eabb5b62d0b53f364",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compaction/ucs.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/compression.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ae0f438b50c06482cfcee095.adoc",
+      "kind": "official-document",
+      "bytes": 21448,
+      "sha256": "2675495c6fd6850941fc52d666a5a4ee572d87401d6142b78a906bbc595dfbbf",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/compression.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/denylisting_partitions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3795d0a7895dadc1c011c658.adoc",
+      "kind": "official-document",
+      "bytes": 6541,
+      "sha256": "a5b91c11c1ebc95b5a04ef62dedf8c169f4fdeb8c47b855800fe71c3a721e4dd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/denylisting_partitions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/fqllogging.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8ee9733444d41141377b994c.adoc",
+      "kind": "official-document",
+      "bytes": 20908,
+      "sha256": "ed0ea01ef2ce88bcc6c4e587ee7073865dcb90be7890b7322f941dc7c6b07bee",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/fqllogging.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/hardware.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9b47c89846ff9d6a0ef96502.adoc",
+      "kind": "official-document",
+      "bytes": 4819,
+      "sha256": "2816c9d62584e1d41b642e539a1751a0a3461b064a710a0dd23345499a9f78a3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/hardware.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/hints.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/733b72f5010e900473421443.adoc",
+      "kind": "official-document",
+      "bytes": 10317,
+      "sha256": "7880b6a47cded1f56ab51b7b2f5d2ed6952414cb4c5c95430b8283da8dbf467b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/hints.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d56f1479ba1f23a7aed0ea3f.adoc",
+      "kind": "official-document",
+      "bytes": 1483,
+      "sha256": "fd5a39ec989c91eb3ebfe78d8037c1b628b1de322d3313170db70ee5e2e6370b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/logging.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f59868900ad9d1df311d604e.adoc",
+      "kind": "official-document",
+      "bytes": 223,
+      "sha256": "66bff606b62345f4ab6eec19b76318245b86482f290af0c2a6a00055cebd6588",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/logging.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/metrics.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/74b838a4e55d0782ed813b50.adoc",
+      "kind": "official-document",
+      "bytes": 39265,
+      "sha256": "b7a1329bab1d45a8199d7f72dd6beb35b87cb666c74aba67c6901e38377f2da1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/metrics.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/onboarding-to-accord.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5246731525d01d25ab24d18d.adoc",
+      "kind": "official-document",
+      "bytes": 18647,
+      "sha256": "09a6beccb92d224248cba56971aca15e79fd14a4f574f620f69631e38d98cc68",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/onboarding-to-accord.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/password_validation.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3eb8d77ab3ef43d4b50391f4.adoc",
+      "kind": "official-document",
+      "bytes": 15956,
+      "sha256": "7482d8295af08a76037daae3f05e5a05e27d7c4aa05619feea26a61d6ad1d200",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/password_validation.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/read_repair.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/934d37edec243bcaf2564126.adoc",
+      "kind": "official-document",
+      "bytes": 12209,
+      "sha256": "57d358568286779ab79dd726ed8ac5539e35134cac432afe3319a63202aa5760",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/read_repair.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/repair.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3d00d647892b1c8b1d222b80.adoc",
+      "kind": "official-document",
+      "bytes": 8532,
+      "sha256": "7fb847307b04e0050d8332a07da9bf504a6f42b9b3a17dd5f63341be407d0196",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/repair.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/role_name_generation.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/66995ea6747c6670322de84a.adoc",
+      "kind": "official-document",
+      "bytes": 5579,
+      "sha256": "47608c20df1136de197f49a4012ffbb7446137f03a5f336beee34849a1bdc6a4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/role_name_generation.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/security.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7fd834acc726feac4b75b9c4.adoc",
+      "kind": "official-document",
+      "bytes": 31194,
+      "sha256": "355dc25145c12c1859f4ee46d2befe6471e76d25ee0465db4c8b0374b477ed21",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/security.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/snitch.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1ff006d8f78c42940a126234.adoc",
+      "kind": "official-document",
+      "bytes": 3565,
+      "sha256": "9ce7a52b46037c6aec25cb1ad1533f4838140304b906ff26f2aadca9a54dfb10",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/snitch.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/topo_changes.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/fa41aa9b22484f4e27689b00.adoc",
+      "kind": "official-document",
+      "bytes": 5821,
+      "sha256": "3f5b568bb4794a3b53a0df68df58af0d5346237048e09d50e0848d4d9d057dcf",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/topo_changes.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/transientreplication.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/cfb87ecbaa91e20efe792f16.adoc",
+      "kind": "official-document",
+      "bytes": 8452,
+      "sha256": "2ab2c0094b5b86b41c75641d0ddfcef5fe7136f38fe34a4e296bda45e28370b4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/transientreplication.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/operating/virtualtables.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f303d504839325edcb03a0b1.adoc",
+      "kind": "official-document",
+      "bytes": 31420,
+      "sha256": "a5de40e3262ea1536541dd55a7c3d5dfc284012181aa1e4e3aeb9bf15133b313",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/operating/virtualtables.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/cqlsh.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2929e95bf8fcba81248584a9.adoc",
+      "kind": "official-document",
+      "bytes": 18248,
+      "sha256": "db605a57e3f72ca892850a2e1bbe5f4857f96b3d07743f01a5044d3c9cb88030",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/cqlsh.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/35a1d6ab5fdb2a2e0e1bc99b.adoc",
+      "kind": "official-document",
+      "bytes": 283,
+      "sha256": "2f74aa72df5653b65ac9f138c2518f998a43a88caeefadf9e9eb08d005532dbf",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c273e833970d4a34ccf58006.adoc",
+      "kind": "official-document",
+      "bytes": 1259,
+      "sha256": "cafce3445a17454b949e3452725dd981e039f61ac250cd0d618083203d5bf3c8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstabledump.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f3311e891d5c8efc977b1f05.adoc",
+      "kind": "official-document",
+      "bytes": 8448,
+      "sha256": "652893212a87b42b5e2c628a0f1974dc0f7bbb1b7b8b16f4adb3ecb23e2677b8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstabledump.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstableexpiredblockers.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8950e5d6643a26aadb8885f0.adoc",
+      "kind": "official-document",
+      "bytes": 2034,
+      "sha256": "00dba19f60346c382c17d92df8604e4accfc7a4c2feb5f263d11cd8a6fc40775",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstableexpiredblockers.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstablelevelreset.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0ba0b045eb381f44713eda3c.adoc",
+      "kind": "official-document",
+      "bytes": 1925,
+      "sha256": "f9b020c5de6ce4dcff97d3666bb9dad2440b040ea36edf1d91cc11bdf49b0a5a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstablelevelreset.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstableloader.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/feacb2e809f0604dec5d53e2.adoc",
+      "kind": "official-document",
+      "bytes": 16523,
+      "sha256": "f5102f5546a0b27948e9c11299fb7281b68cfbb3a6e9210d33748d36378961ea",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstableloader.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstablemetadata.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/71b21ba017f42879a32f4bcf.adoc",
+      "kind": "official-document",
+      "bytes": 14527,
+      "sha256": "77a5c09f451a198e60a472d8ef7226cff6a9885c018028f206f0434ea230c06f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstablemetadata.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstableofflinerelevel.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/8bff01b89d8c241909381206.adoc",
+      "kind": "official-document",
+      "bytes": 2550,
+      "sha256": "6960ccf58a7f9a0b0f7b3a95fc973f83fdb19e78a818291dbbfdb359c8503e30",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstableofflinerelevel.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstablepartitions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c63963848481ada2f19aad0e.adoc",
+      "kind": "official-document",
+      "bytes": 11177,
+      "sha256": "cd1d3c263fb133dc01553fa4d8fa1f34549302b8c2e183a38a2c16a2b145ec65",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstablepartitions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstablerepairedset.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2f1b404b6e42ee18b66d7285.adoc",
+      "kind": "official-document",
+      "bytes": 2701,
+      "sha256": "01481290cae94376d9eb0362fc9d5f125032431b14a1f455fe8de0c4e36b0c42",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstablerepairedset.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstablescrub.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/55b4bf32931fe7b601f992e8.adoc",
+      "kind": "official-document",
+      "bytes": 3357,
+      "sha256": "76f91670f8e4be35e95113e7c24de0748243ba8454b8929ff8cb6c90870ddeee",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstablescrub.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstablesplit.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/40f7ecbcfaa42c2a01cef2dc.adoc",
+      "kind": "official-document",
+      "bytes": 2725,
+      "sha256": "9539ef2f1dc5404b0a34edf7f989e971ccb54c6f37ed874c4ce1eef8788f13d8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstablesplit.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstableupgrade.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b9c91bc046a598d9a8a63cd1.adoc",
+      "kind": "official-document",
+      "bytes": 6647,
+      "sha256": "d032fde69eaa6d483c04546f612589cd152b95dc9d8172ad6c38eef091e64c31",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstableupgrade.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstableutil.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/dcbe57c841cbb81bccaf3772.adoc",
+      "kind": "official-document",
+      "bytes": 4405,
+      "sha256": "169e16be0343194e04186ed35b87172fb64421e7a584775c94a79056ef76e4d7",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstableutil.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/managing/tools/sstable/sstableverify.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/fedb4b116d87d0ee628a2c0b.adoc",
+      "kind": "official-document",
+      "bytes": 5265,
+      "sha256": "f502ef257118c9102e791e915e1f6a9f371005bcb8e447aff4d57870886513ae",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/managing/tools/sstable/sstableverify.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/new/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d18d553254f44b0010f44b03.adoc",
+      "kind": "official-document",
+      "bytes": 3810,
+      "sha256": "d90ebfba85b2e4ed318ccf30e2bedeed3d1e942aafb2e8f9005f290a35e97acc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/new/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/overview/faq/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/487460a450973a995a76d2af.adoc",
+      "kind": "official-document",
+      "bytes": 12225,
+      "sha256": "6eebcbbbaa10c4d9b26d13785076d428fa96c1dae17ccd20f65f1082b56f58e7",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/overview/faq/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/overview/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9f06f4078ebbf95d0ee40338.adoc",
+      "kind": "official-document",
+      "bytes": 80,
+      "sha256": "1a131b24acc232ddad4fc50b1d79d3295948d328b55bc5ddac3a803405f036bd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/overview/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/overview/terminology.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6ed581e5c743165b1e5e30bf.adoc",
+      "kind": "official-document",
+      "bytes": 81,
+      "sha256": "b5362b49d6832f712df62a38ef9edcaa7caaf6d4b2d0b6127f48a356b5c60c74",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/overview/terminology.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/alter-table.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ad7dac9787d7c184c5d69a78.adoc",
+      "kind": "official-document",
+      "bytes": 11404,
+      "sha256": "5294ae5d61a79300d0f4445c7f714880a9f042ff9c6de2de5885075c6103b8e9",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/alter-table.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/commands-toc.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e85fc696037e91a61563fad9.adoc",
+      "kind": "official-document",
+      "bytes": 5088,
+      "sha256": "5179b536fc29c1252797b30b7b95681a5e8a1f72859c7515deb001b71421033e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/commands-toc.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/compact-subproperties.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9177c6a7f8e8b9776f7ec805.adoc",
+      "kind": "official-document",
+      "bytes": 11451,
+      "sha256": "ef65aeb0886d780fa91dbae8a54d74895d5ceec6e77c05cb7bc6b0e18804b56f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/compact-subproperties.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/create-custom-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/216b8d338c1c3e41f9908a53.adoc",
+      "kind": "official-document",
+      "bytes": 11228,
+      "sha256": "073d116e537155075a81e788033ef4b38991acc0047a8250edf40221fd19664a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/create-custom-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/create-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ae0976b5f447861f977556ea.adoc",
+      "kind": "official-document",
+      "bytes": 12291,
+      "sha256": "1bacc810fa2f396dd90d5bb79c0fbe74cce52013c76f122252ad19f959683229",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/create-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/create-table-examples.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d46d95571024c4e3affafb25.adoc",
+      "kind": "official-document",
+      "bytes": 3785,
+      "sha256": "8477805867082d85071b8da9c2c4388a467313e079a75e06b2f9877e3acdc517",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/create-table-examples.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/create-table.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/41e0eaecce3b8c95755a9480.adoc",
+      "kind": "official-document",
+      "bytes": 2872,
+      "sha256": "e92388e742b4c714db595b28bae23c3821a89b0f5539ae9fd3838f61c3107c97",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/create-table.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/drop-index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6166becd51617f487601a3ed.adoc",
+      "kind": "official-document",
+      "bytes": 640,
+      "sha256": "5a92878ba8ffd5dbc39074bfb9597616e6dd80511e6890be0493b0ec7a85cccc",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/drop-index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/cql-commands/drop-table.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/640b4a3ef651af9adc6081f0.adoc",
+      "kind": "official-document",
+      "bytes": 1552,
+      "sha256": "ca19c17678ad0ba374ffaebaa63d1d0e753dc5aacda65e12516a797d607cdc18",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/cql-commands/drop-table.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/90eed5d90e3cc39e1b8034e8.adoc",
+      "kind": "official-document",
+      "bytes": 475,
+      "sha256": "70a64eae74816b7dffe5dabe2aaf7cd7f89770b291675dd209b4c0ccfc2c5862",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/java17.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/277f53fe8ce039eaf7544b16.adoc",
+      "kind": "official-document",
+      "bytes": 5746,
+      "sha256": "91730b2693fb67bf65602cc3caf2c3bee9e7c00005c9b60751ee6bac26d7f741",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/java17.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/sai-virtual-table-indexes.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/dd13d8b117877c7f5cff0bbf.adoc",
+      "kind": "official-document",
+      "bytes": 8634,
+      "sha256": "9a5bef3e792cb0863e3a61d27190f71cf302f1bb4345701329326c3dde548741",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/sai-virtual-table-indexes.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/security-model.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1a6a94aa3ba9d941cad87d67.adoc",
+      "kind": "official-document",
+      "bytes": 38555,
+      "sha256": "6b2eee9c33d51aa98519a89f18172d6ece67ce2485798e3efdf80ba18fabff35",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/security-model.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/static.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/fd8441a15a31823df103233e.adoc",
+      "kind": "official-document",
+      "bytes": 1644,
+      "sha256": "cd759cbaf2957cfd5342036773433ff3a0740c12571cbeda2e3ed4555fdd9d18",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/static.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/reference/vector-data-type.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/732829354b4fff7004b45a40.adoc",
+      "kind": "official-document",
+      "bytes": 1593,
+      "sha256": "40fe833e0659da7872977b5efc2405fc70a082ef8e94bff4544884d34b3f62a6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/reference/vector-data-type.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/tooling/cassandra-stress.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a45e0039944336169afda17b.adoc",
+      "kind": "official-document",
+      "bytes": 9006,
+      "sha256": "aa45eaca2316730d1412c063fd81b236fd59b3a762202f4e38096c1bccd0b907",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/tooling/cassandra-stress.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/tooling/generate-tokens.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d21b9e96e6a6e9fa88913b55.adoc",
+      "kind": "official-document",
+      "bytes": 2497,
+      "sha256": "f2ca3418ffcf2579d96b80a65be8b62b2f8000286b5c4714fe551133283ac388",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/tooling/generate-tokens.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/tooling/hash-password.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/2fd619870955a541e6cf9df1.adoc",
+      "kind": "official-document",
+      "bytes": 955,
+      "sha256": "b5260258a27f7424fb3eae15b91ce45a4fa91a031986d7dc5f0c486c96396fe4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/tooling/hash-password.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/tooling/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7948689af464ec0dfe026f90.adoc",
+      "kind": "official-document",
+      "bytes": 136,
+      "sha256": "669933b6d256d224b732ecf29d600fbb3de56308b1e35103985d00632c1df31e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/tooling/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/troubleshooting/finding_nodes.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1c50453356e562800586e101.adoc",
+      "kind": "official-document",
+      "bytes": 7116,
+      "sha256": "3af5ccc7419cfde1abf7cacfd7bddba2c6997fad96cdac9d239aba1dd925f983",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/troubleshooting/finding_nodes.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/troubleshooting/index.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/555e14c7c52a531c0ee014e5.adoc",
+      "kind": "official-document",
+      "bytes": 985,
+      "sha256": "4dfa9702d2a715902b947132d044075967f800b5f8b6562f3808344cc515859f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/troubleshooting/index.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/troubleshooting/reading_logs.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/844a9379c0b4dc342e9a3d2f.adoc",
+      "kind": "official-document",
+      "bytes": 12912,
+      "sha256": "7fd9b6e6ff33d0549a9da5a09ef0bfd31bad90911f96c0026369294473228d1c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/troubleshooting/reading_logs.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/troubleshooting/use_nodetool.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/be66873de646615eb963293f.adoc",
+      "kind": "official-document",
+      "bytes": 15155,
+      "sha256": "388677ba98491d88832020ee1509a4f0845848b11e4261f19a9cd31a6db971fd",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/troubleshooting/use_nodetool.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/troubleshooting/use_tools.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/faf63f62acbd979bc6a10a6d.adoc",
+      "kind": "official-document",
+      "bytes": 27560,
+      "sha256": "ffc324b70df260083a989538695d64182331dd248abb3484e1ea9576a43243e2",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/troubleshooting/use_tools.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/_create-vector-index-cycling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6da85583ee5eb2d28fc906ad.adoc",
+      "kind": "official-document",
+      "bytes": 636,
+      "sha256": "cc236db6f7fb01b4ea2df0142bdac0750d88552652e9b2c0c3b7296ffcf7f500",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/_create-vector-index-cycling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/_create-vector-keyspace-cycling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e6ef0f620b3b3ba4f92aae1f.adoc",
+      "kind": "official-document",
+      "bytes": 261,
+      "sha256": "af80ad3af620538947fd52ec8dad986b561e9e0c33383999484715c1c80180db",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/_create-vector-keyspace-cycling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/_create-vector-table-cycling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ce3638dbc0e8abe5170574e6.adoc",
+      "kind": "official-document",
+      "bytes": 441,
+      "sha256": "99ab9ad03615da9944ccfad0d745a24f46400928e7703a7a81060f8c04a83f4c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/_create-vector-table-cycling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/_load-vector-data-cycling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/a12be397f8734c7c1974d2dc.adoc",
+      "kind": "official-document",
+      "bytes": 202,
+      "sha256": "274471cd5a371386e537469b0b5ded91b97b5fc213218e5c6c87b94ac50f8442",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/_load-vector-data-cycling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/_query-vector-data-cycling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c4d9595dd4a0209e7bac02f3.adoc",
+      "kind": "official-document",
+      "bytes": 1145,
+      "sha256": "8c549ba043a18d16a2494243d50dadde1431c0a43a3666ef0b42c5cd4b08614f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/_query-vector-data-cycling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/_use-vector-keyspace-cycling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/af77671c9e000d87a0c8c4db.adoc",
+      "kind": "official-document",
+      "bytes": 254,
+      "sha256": "1a3bf5bdb8cdc749525f223454fcf5cf097a044c23017b584961b49b5f62f9d6",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/_use-vector-keyspace-cycling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/concepts.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7c9b8160752490fdbe15ac09.adoc",
+      "kind": "official-document",
+      "bytes": 3939,
+      "sha256": "d80aeb191aaba7837c387dd80b3c85b2343ae75a689a41bba6369344cbd93ec8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/concepts.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/data-modeling.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/1323fb46521f46190c107cc7.adoc",
+      "kind": "official-document",
+      "bytes": 11993,
+      "sha256": "d6fc41bee3580973fbea90feba5699912bd25ba3406744feb30c893d24134c1d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/data-modeling.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/overview.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e79b895c048c69be9c94ed21.adoc",
+      "kind": "official-document",
+      "bytes": 1504,
+      "sha256": "ca4806142969774f692f0d1e04835459ddaafb71ca6f024e30f22e80ee7ffe0d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/overview.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/quickstarts.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/06635ac78a8c9d2d89f48104.adoc",
+      "kind": "official-document",
+      "bytes": 161,
+      "sha256": "2665126b148e768e9316692e8315e0b2c37b7b4bde2d8fb639a5f4dd43fa16b3",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/quickstarts.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/pages/vector-search/vector-search-working-with.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4d2cbfe5d55ba06c486d7d8e.adoc",
+      "kind": "official-document",
+      "bytes": 386,
+      "sha256": "11b61d649a9d7fb5fc17320cf0d06874680274d88d188eaf1272643d51c4251f",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/pages/vector-search/vector-search-working-with.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/cluster-order.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/50990de52c12124b7455faa2.adoc",
+      "kind": "official-document",
+      "bytes": 537,
+      "sha256": "019a1dfc322fbb09c263b06cd357715c0ff58e7a90460eaed35cf12a1f205201",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/cluster-order.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/compact-subproperties.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e524382fa540ee00338990eb.adoc",
+      "kind": "official-document",
+      "bytes": 9082,
+      "sha256": "5a80c8816a75c8a87d62e39608f58ab791ca41e7f067f56e3bd527b87c818ff7",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/compact-subproperties.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/compaction-strategies.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ff138f918e2ae970471ddd16.adoc",
+      "kind": "official-document",
+      "bytes": 250,
+      "sha256": "ea05a157beb74a20841bba1680490f636642a96cfc850f83f5eb2023ef8bb98e",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/compaction-strategies.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/compress-subproperties.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3437a148925f9976b3f5a37e.adoc",
+      "kind": "official-document",
+      "bytes": 2769,
+      "sha256": "2e36cabfed02117ebe9e572a1d2135c91f92698b8e9a317a751031d9417d1080",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/compress-subproperties.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/cql-syntax-legend.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ad84aeedc21fcc2d6872afaa.adoc",
+      "kind": "official-document",
+      "bytes": 1673,
+      "sha256": "9bfe91339307257e2b69d41200f2ef0c15b528c936f5a4068a2de1e465c378be",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/cql-syntax-legend.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/default-compaction-strategy.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/76392698c1abc42022578f3a.adoc",
+      "kind": "official-document",
+      "bytes": 168,
+      "sha256": "1d9dba858c808d5c508c54a030ba25d048cf250fabeffbc40c9263749d900934",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/default-compaction-strategy.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/index-naming.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/399306a6d609ffe8d737c646.adoc",
+      "kind": "official-document",
+      "bytes": 176,
+      "sha256": "874916c459c38d994d6f0a113533a7ee1a30fd144a529a024bdabea73b77814c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/index-naming.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/java_version.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/97611c70fe9c3327fe1fd0a2.adoc",
+      "kind": "official-document",
+      "bytes": 284,
+      "sha256": "7f512606915e4b07430bbc7904b4936fa743b8f682db46d343f6ce1a21ce906d",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/java_version.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/masking_functions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6b580f86da0a11cda2b5e9cb.adoc",
+      "kind": "official-document",
+      "bytes": 2805,
+      "sha256": "75196a3d480819a120b49d5535d83eaccdcf81e8039245579636006a4cd1db45",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/masking_functions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/nodetool_and_cqlsh.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/7330856ed9a4e204077debb3.adoc",
+      "kind": "official-document",
+      "bytes": 462,
+      "sha256": "0d8a516c0b199c90b56e92b5fbb26b455449e4fcec9396b6bce4b6451876c6b7",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/nodetool_and_cqlsh.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/nodetool_and_cqlsh_nobin.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/0cbab0e114328e6cfaf04a50.adoc",
+      "kind": "official-document",
+      "bytes": 474,
+      "sha256": "dd021beff2f93f0071a41c89cb0751e62b4ddca248bf4d7a4ae68b1fb8626d68",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/nodetool_and_cqlsh_nobin.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/package_versions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/9310f648b0f8c2135ae72f2c.adoc",
+      "kind": "official-document",
+      "bytes": 319,
+      "sha256": "5965a5e04810539c9b21e248e79a5853b1995922bf897875423c0ab80bb7d5c4",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/package_versions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/primary-key-column.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ea2ddf80598273f8ea90e341.adoc",
+      "kind": "official-document",
+      "bytes": 1716,
+      "sha256": "33453f2853f01eed447a6695464e0f6194b3e60d83d9d4be65612b4038c8a01b",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/primary-key-column.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/.config-limits.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/42293133c630cf632ff0b835.adoc",
+      "kind": "official-document",
+      "bytes": 500,
+      "sha256": "0e922fc34e493e55509e71fcf87c8306f73caeb67dd8f039f636cf943966a019",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/.config-limits.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/collections-note.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d9836c6bfd26f25ed6b53605.adoc",
+      "kind": "official-document",
+      "bytes": 239,
+      "sha256": "f8d840970acd8bad2aa08931ca1c064e2998a5a55cbf614a3959ca4bc0fe6efe",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/collections-note.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/notSupportedOperators.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/aab267eec4a0ab953655fcf6.adoc",
+      "kind": "official-document",
+      "bytes": 194,
+      "sha256": "257d8242f44545915c8b2ee17554325c7e5459ccae346478054a19d09f551507",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/notSupportedOperators.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/query-vector-data.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/b3f28eabb66e4fd2d58c28dd.adoc",
+      "kind": "official-document",
+      "bytes": 505,
+      "sha256": "64bf864280507d1ca3d807c6bc440add5449d5dbe21818f9ea8c84f49a288b76",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/query-vector-data.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/queryable-paragraph.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/133ffdb8e2832ccb7588e468.adoc",
+      "kind": "official-document",
+      "bytes": 529,
+      "sha256": "4ed8f6f6feed95117d28daa217888ab8d599fdaa3daa0882b0ffbe46f5206bad",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/queryable-paragraph.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/sai-only-select.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6415c68e3c9634804f01401f.adoc",
+      "kind": "official-document",
+      "bytes": 95,
+      "sha256": "150466f9a7645988450602aa2082886115ef0dc42dcd949140db717c30c21cd1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/sai-only-select.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/support-databases.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/cec13977c031768c397f352b.adoc",
+      "kind": "official-document",
+      "bytes": 53,
+      "sha256": "01ba765e11c28fed219b430a7c275686fd010b0caebbcce584155be2cd4ac9bf",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/support-databases.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/sai/supported-query-operators-list.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/736947acb843d11b9f37980d.adoc",
+      "kind": "official-document",
+      "bytes": 304,
+      "sha256": "b310733e098776097570492edaf4722bd12e4e8209c8e5ac83d33209bffb93a5",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/sai/supported-query-operators-list.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/single-partition-batch-note.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3550982e4690d226c64bb04c.adoc",
+      "kind": "official-document",
+      "bytes": 668,
+      "sha256": "3805ac46c67ad7c07cb116341a722db920abfc01eef9072ea720cc0c373ce244",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/single-partition-batch-note.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/table-column-definitions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/31d0de24220d6d7ef855946c.adoc",
+      "kind": "official-document",
+      "bytes": 1714,
+      "sha256": "585fa3bfd9ac2d1592a58e3817943acf82fa90054bcf73ef9b9072fb16b4ce79",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/table-column-definitions.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/table-properties.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/db5be3523f00d5ac30dbe189.adoc",
+      "kind": "official-document",
+      "bytes": 8152,
+      "sha256": "8d83c97ddf9972c47d0a8dbe8b0855a6d9a24fa16d7d7c9641526f28c98c93c0",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/table-properties.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/tail_syslog.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/996a638441d1cd0fafefa825.adoc",
+      "kind": "official-document",
+      "bytes": 332,
+      "sha256": "86c1258f5092cc40e9b0dcba73459de3639cd59e1ae6203452e6d473d1b43f2c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/tail_syslog.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/ucs-recommend.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d30e1e0e1699ac0e67017ce1.adoc",
+      "kind": "official-document",
+      "bytes": 193,
+      "sha256": "163f8181d14a51165b7cf9b96d4de81fe7e7ff54304a4b1187bb5257b594e845",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/ucs-recommend.adoc"
+    },
+    {
+      "path": "doc/modules/cassandra/partials/vector-search/vector_functions.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c51a7ef5ed7282f8a8a1210e.adoc",
+      "kind": "official-document",
+      "bytes": 1155,
+      "sha256": "c0fe8ca8a5e3b136c27e36eb6fb18b2cf56a482f0885ff9721f4e38f17301ee5",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/doc/modules/cassandra/partials/vector-search/vector_functions.adoc"
+    },
+    {
+      "path": "examples/constraints/README.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/d6e8754d8326be6063d9d592.adoc",
+      "kind": "official-document",
+      "bytes": 2042,
+      "sha256": "13f807df9cecb1fee466242c68d0317a544f9407078cdb5c7a09be1fd6bf10ac",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/constraints/README.adoc"
+    },
+    {
+      "path": "examples/constraints/src/org/apache/cassandra/cql3/constraints/CustomConstraintsProvider.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/01bdfcc4ca4ff906c8340e2f.java",
+      "kind": "upstream-example-code",
+      "bytes": 4047,
+      "sha256": "9a7cbd22bdc52f8dca7a1be99f1ac417a67a08c5d875c5d3c51a6b3682b99777",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/constraints/src/org/apache/cassandra/cql3/constraints/CustomConstraintsProvider.java"
+    },
+    {
+      "path": "examples/ssl-factory/README.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/04587c5ec894763a364ca378.adoc",
+      "kind": "official-document",
+      "bytes": 498,
+      "sha256": "1228b7350eac8b649ad65413ee6cd0d5a97c4747b3cd04729a6bd6a5f1808994",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/ssl-factory/README.adoc"
+    },
+    {
+      "path": "examples/ssl-factory/src/org/apache/cassandra/security/KubernetesSecretsPEMSslContextFactory.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c22a65b507dfad5c04f45510.java",
+      "kind": "upstream-example-code",
+      "bytes": 7639,
+      "sha256": "3767cad5d125deabc2a38a029f6c2b106d2ada79004fcb9e9e8caacccef32e55",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/ssl-factory/src/org/apache/cassandra/security/KubernetesSecretsPEMSslContextFactory.java"
+    },
+    {
+      "path": "examples/ssl-factory/src/org/apache/cassandra/security/KubernetesSecretsSslContextFactory.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/f45b6642f2f6eb7b81bda224.java",
+      "kind": "upstream-example-code",
+      "bytes": 13796,
+      "sha256": "d7c37ae0eb2abf495ca2dae7acb89c11998e5356f1f39db09a88a3e10d64aaa7",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/ssl-factory/src/org/apache/cassandra/security/KubernetesSecretsSslContextFactory.java"
+    },
+    {
+      "path": "examples/ssl-factory/test/unit/org/apache/cassandra/security/KubernetesSecretsPEMSslContextFactoryTest.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/c4cf2144b983d39dccaa6ec4.java",
+      "kind": "upstream-example-code",
+      "bytes": 16310,
+      "sha256": "5186ad7e51ca341fdc08fcc75ba65d2b7e71c77d552b2984c67b1f2d9036e4c0",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/ssl-factory/test/unit/org/apache/cassandra/security/KubernetesSecretsPEMSslContextFactoryTest.java"
+    },
+    {
+      "path": "examples/ssl-factory/test/unit/org/apache/cassandra/security/KubernetesSecretsSslContextFactoryTest.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/836d961cea745da3e0ad0f3a.java",
+      "kind": "upstream-example-code",
+      "bytes": 13739,
+      "sha256": "6ef457d873266a6f30581f8dc8ff82b152b86a1ee175990cf9286c62b8c911cf",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/ssl-factory/test/unit/org/apache/cassandra/security/KubernetesSecretsSslContextFactoryTest.java"
+    },
+    {
+      "path": "examples/startup-checks/README.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/6f386e0500ee3140626c5f7b.adoc",
+      "kind": "official-document",
+      "bytes": 1549,
+      "sha256": "344b4b47d2f23214332eea35cbfb5e4bd7f450b3fe5a7b48791721df4df0b8d8",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/startup-checks/README.adoc"
+    },
+    {
+      "path": "examples/startup-checks/src/org/apache/cassandra/service/checks/MyCustomStartupCheck.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/084cb804a33774563a51e94b.java",
+      "kind": "upstream-example-code",
+      "bytes": 2464,
+      "sha256": "f8a0024d2c9a65dbd638b81059d7f0bba66131501925a723968c5079f111c629",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/startup-checks/src/org/apache/cassandra/service/checks/MyCustomStartupCheck.java"
+    },
+    {
+      "path": "examples/triggers/README.adoc",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/61e4d97ae2b999a036e5b18e.adoc",
+      "kind": "official-document",
+      "bytes": 1619,
+      "sha256": "20ea9c5e4386adf34b13ca4c9622ef901283179d1e8a85c86f08602b9d68522c",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/triggers/README.adoc"
+    },
+    {
+      "path": "examples/triggers/src/org/apache/cassandra/triggers/AuditTrigger.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/faef70494da05e4812f2a0c0.java",
+      "kind": "upstream-example-code",
+      "bytes": 2896,
+      "sha256": "0ca5ddac21a5e153860de86c22c19323cdf7573158450f051b449d4a067211f1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/examples/triggers/src/org/apache/cassandra/triggers/AuditTrigger.java"
+    },
+    {
+      "path": "formalise/accord/execution/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/5b207c5fbd651138ebf005b0.md",
+      "kind": "official-document",
+      "bytes": 33508,
+      "sha256": "4f4a5fc5ececfe057062a378ddde4ba8b13b8b4c1f4e866e3bb86151f71ffef1",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/formalise/accord/execution/README.md"
+    },
+    {
+      "path": "formalise/accord/execution/tla/examples/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/169771be620451e57d295d81.md",
+      "kind": "official-document",
+      "bytes": 898,
+      "sha256": "cf42da8504ceffcd8eb0e907b4b6117fc0213590d6b97d3de752dac367d1579a",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/formalise/accord/execution/tla/examples/README.md"
+    },
+    {
+      "path": "redhat/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/708b43128dd52ddb9f090172.md",
+      "kind": "official-document",
+      "bytes": 1838,
+      "sha256": "36905961df269d6cb744967cd3f5b60cd5317837f0b2c7be00bc50c06a51dddf",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/redhat/README.md"
+    },
+    {
+      "path": "src/java/org/apache/cassandra/index/sai/README.md",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/4fd5d89c6cb28625f6fe63a0.md",
+      "kind": "official-document",
+      "bytes": 4163,
+      "sha256": "359ab6b87409e2c2f610ca7313435f48556f211cf179228e97400176739dbc08",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/src/java/org/apache/cassandra/index/sai/README.md"
+    },
+    {
+      "path": "test/conf/triggers/README.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/ae7f3dca5190ef6fa9cd1749.txt",
+      "kind": "official-document",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/test/conf/triggers/README.txt"
+    },
+    {
+      "path": "test/distributed/org/apache/cassandra/fuzz/harry/examples/RangeTombstoneBurnTest.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/58e0e1aeb24fa22d2c318661.java",
+      "kind": "upstream-example-code",
+      "bytes": 7222,
+      "sha256": "29e27149442c2daaa67e35b7d668ae61b15dfec4b507a1efc9c21de6b430b598",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/test/distributed/org/apache/cassandra/fuzz/harry/examples/RangeTombstoneBurnTest.java"
+    },
+    {
+      "path": "test/distributed/org/apache/cassandra/fuzz/harry/examples/RepairBurnTest.java",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/3f7325ebbd79904f9b578ffa.java",
+      "kind": "upstream-example-code",
+      "bytes": 3597,
+      "sha256": "dc4f0b249423f8f5757120ca24ef1e0e66537cf634f36bd98e7b8edf5286fd48",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/test/distributed/org/apache/cassandra/fuzz/harry/examples/RepairBurnTest.java"
+    },
+    {
+      "path": "tools/stress/README.txt",
+      "localPath": "raw/apache--cassandra/5a8779681ef2/e8046534f658d4a5e9b296ae.txt",
+      "kind": "official-document",
+      "bytes": 399,
+      "sha256": "28f7c32bf3991c76ad24cd8b2b1f6e5783ce2ab08813a3815fd008674e38b899",
+      "sourceUrl": "https://github.com/apache/cassandra/blob/5a8779681ef2174ef838ae607f57b9d21fd0f641/tools/stress/README.txt"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

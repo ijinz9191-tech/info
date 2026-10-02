@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "repo": "kubevirt/kubevirt",
+  "commit": "635f26f3945628165586c719977cfde364769a33",
+  "retrievedAt": "2026-10-01T15:22:38.313245+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/App Definition and Development/Application Definition & Image Build"
+  ],
+  "archiveUrl": "https://codeload.github.com/kubevirt/kubevirt/zip/635f26f3945628165586c719977cfde364769a33",
+  "archiveSha256": "9f7eb8729102838a0381f27de029ffd6f2a9d4254b951689c4d14e0970a1ee49",
+  "archiveBytes": 32537087,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 93,
+    "code": 0,
+    "licenses": 2,
+    "bytes": 526172
+  },
+  "files": [
+    {
+      "path": "ADOPTERS.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/12e0a48d6c5f2a58f4caa284.md",
+      "kind": "official-document",
+      "bytes": 13540,
+      "sha256": "04e02640f26bff86dacef72837cc52378650b6d1cf158bff9d4f5cd79e3130f8",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/ADOPTERS.md"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/ffdbe3a1e7ee93cacfc080b6.md",
+      "kind": "official-document",
+      "bytes": 3354,
+      "sha256": "5c37d437a942f757bc6782e8e4867482471bee46ca4a4eaf4c8163f93d2343bd",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/CODE_OF_CONDUCT.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 7620,
+      "sha256": "1d21e2533393ea17f31a043d473c2d2633091cb429a621e5fc12a1114325c107",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/CONTRIBUTING.md"
+    },
+    {
+      "path": "FAQ.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/c7bd425fd98aad1f9fef2009.md",
+      "kind": "official-document",
+      "bytes": 2021,
+      "sha256": "9f1939a84f457e4aafa9a9716f50c3ca7dda8252ca3d337a9430f06b4d34d114",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/FAQ.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11351,
+      "sha256": "5febf914b9f9eed690207764788b0660d5a6ceefdf6f9fb2d8e47bdac3ffefa3",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6698,
+      "sha256": "681d91797a85c19e74dff7727e41d1950dbfaf01a9b9d8c5024b815dece5e2cc",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1712,
+      "sha256": "808056be8989f1207c2acfc0df908df995a14b0c7adb5ae87df90733224e2528",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/SECURITY.md"
+    },
+    {
+      "path": "api/openapi-spec/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/61628a5b79395222eb4a3e08.md",
+      "kind": "official-document",
+      "bytes": 148,
+      "sha256": "198e8ae5b7dc5d97e40f83ddbccbbc0b3344f97ce99ee98233bb7190f05a2840",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/api/openapi-spec/README.md"
+    },
+    {
+      "path": "cmd/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/247f23c648b1f73d51f7b0fa.md",
+      "kind": "official-document",
+      "bytes": 222,
+      "sha256": "58db8ef656bcb8020b1010d94a13a4a749a5aba558d0320c420f02e15f9a33f1",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/cmd/README.md"
+    },
+    {
+      "path": "cmd/container-disk-v2alpha/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/67057011eba12339f2869c36.md",
+      "kind": "official-document",
+      "bytes": 1707,
+      "sha256": "55b57a021620fa51b3185b03251747bc2eb423e6ebd9f0dbf2028ba01f4943ed",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/cmd/container-disk-v2alpha/README.md"
+    },
+    {
+      "path": "cmd/sidecars/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/0e70b244a19d2911a66ca256.md",
+      "kind": "official-document",
+      "bytes": 11129,
+      "sha256": "1ecfae8231598639a7fe0a3f99fa3a3f67badc1a6b7370222d303d84ca63e7f3",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/cmd/sidecars/README.md"
+    },
+    {
+      "path": "cmd/sidecars/disk-mutation/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/1267414061b4e19f2551a2ba.md",
+      "kind": "official-document",
+      "bytes": 351,
+      "sha256": "be701f2773a79fb0d83b54390d6f2cc9ea008d69a16e1fe8d2a7beae27bed0e4",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/cmd/sidecars/disk-mutation/README.md"
+    },
+    {
+      "path": "cmd/sidecars/network-passt-binding/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8c558e8663c5720bca3e7e9d.md",
+      "kind": "official-document",
+      "bytes": 953,
+      "sha256": "5ef5840810993e478aa551f0c75aaa4b365585ea0fbb550b5b1c3fba9f657117",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/cmd/sidecars/network-passt-binding/README.md"
+    },
+    {
+      "path": "cmd/sidecars/smbios/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/0aa50aeb02859eb93f3fee29.md",
+      "kind": "official-document",
+      "bytes": 777,
+      "sha256": "b3b24fbc5e7db88791ca819d20fb37747aeec2bb6b83997e696e3638a045e9ae",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/cmd/sidecars/smbios/README.md"
+    },
+    {
+      "path": "docs/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/0b5ca119d2be595aa307d345.md",
+      "kind": "official-document",
+      "bytes": 3248,
+      "sha256": "4d6b89a9da3a6dc798d098bc753567038b42e2dd8691c160fe6e1969656d1f2d",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/README.md"
+    },
+    {
+      "path": "docs/api/design_guidelines.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/ed1897aa85abceb88d0ea13e.md",
+      "kind": "official-document",
+      "bytes": 50743,
+      "sha256": "e6c2b2e1cdd7422a31f4151db6bceec8c8b83bd6a63cd6f0bdf6831f885fba19",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/api/design_guidelines.md"
+    },
+    {
+      "path": "docs/architecture.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/140eef3ba41bdcf401d50740.md",
+      "kind": "official-document",
+      "bytes": 5558,
+      "sha256": "b5985486008c70b9b64a751b63c2b7948f13fea650ce05cd3af4ffc92a17ebfa",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/architecture.md"
+    },
+    {
+      "path": "docs/backup-restore-integration.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/cc02601c5ae50587acbc720c.md",
+      "kind": "official-document",
+      "bytes": 15136,
+      "sha256": "a399c0448e27da09a45db5fbd323647a5b9ae9ad382d403abb0616873c31919c",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/backup-restore-integration.md"
+    },
+    {
+      "path": "docs/build-the-builder.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/80ce625d9f2f69760fab5c60.md",
+      "kind": "official-document",
+      "bytes": 6940,
+      "sha256": "71397c2554db9360819f4a848be4d07beada8daffaee0e32fa0251d89c61f952",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/build-the-builder.md"
+    },
+    {
+      "path": "docs/cgroup-v1-deprecation.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/06c5960b7917026e60305c07.md",
+      "kind": "official-document",
+      "bytes": 2031,
+      "sha256": "f6435fa940045c81b3bc3f2dc11b29913f90828d4f9cd774faf56a250042137a",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/cgroup-v1-deprecation.md"
+    },
+    {
+      "path": "docs/cloud-init.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/ff5461caa6ca5242b0c19ac6.md",
+      "kind": "official-document",
+      "bytes": 5582,
+      "sha256": "a496a23a99f25294a1bae6e04893109893b5531bb4020b6864913c42b500bb0e",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/cloud-init.md"
+    },
+    {
+      "path": "docs/coding-conventions.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/b177b19b972992453ad09a78.md",
+      "kind": "official-document",
+      "bytes": 11977,
+      "sha256": "1954d7c11255c074875421a5e436a051ebdcd1142b326d900c240e12fccfff89",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/coding-conventions.md"
+    },
+    {
+      "path": "docs/commit-message-guidelines.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/60f76b6773e6668bfca1bdc6.md",
+      "kind": "official-document",
+      "bytes": 3606,
+      "sha256": "b4462f4ae59d270c5fac8b49e55fe229031b6ffa3d083c674b3779e111bfe4c9",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/commit-message-guidelines.md"
+    },
+    {
+      "path": "docs/components.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/fda682790775754c55628569.md",
+      "kind": "official-document",
+      "bytes": 9187,
+      "sha256": "49c9c3add75353155549eeef69eccea83e4bdad909a6517e76379d2b042139ba",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/components.md"
+    },
+    {
+      "path": "docs/conformance.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/013a891077210c9a4659c928.md",
+      "kind": "official-document",
+      "bytes": 4812,
+      "sha256": "a5b1bd58f962fd78d4cb52d3d807635ab8a507f858d4b466033258946bd5d2da",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/conformance.md"
+    },
+    {
+      "path": "docs/container-empty-disks.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/f88c23df1e1c49dd2e3f8c18.md",
+      "kind": "official-document",
+      "bytes": 2187,
+      "sha256": "44e03c3c1a34afae8e4c23cc6110d4043408e96a4c97cb9651e700e3fbdc775a",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/container-empty-disks.md"
+    },
+    {
+      "path": "docs/container-register-disks.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/df45ac28e544ecb8a105bdbc.md",
+      "kind": "official-document",
+      "bytes": 3989,
+      "sha256": "7b1f37a55936481367856fd28fe24bbcc9e85f5ca0d3381e146fb9fd73507c22",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/container-register-disks.md"
+    },
+    {
+      "path": "docs/containerpath-volumes.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8566df01ceecea3924a53884.md",
+      "kind": "official-document",
+      "bytes": 7045,
+      "sha256": "5fa2ee0786f1f6545c0729235aa4ba90619d871c25bb92503f8bfda5f6f7dae7",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/containerpath-volumes.md"
+    },
+    {
+      "path": "docs/custom-rpms.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/48df3071e598902804af4bad.md",
+      "kind": "official-document",
+      "bytes": 3370,
+      "sha256": "fab14dd9e188386487ab4aaa01c9ee2bebd91b310af56834d537fe11a5205746",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/custom-rpms.md"
+    },
+    {
+      "path": "docs/debugging.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/6019563fa28fa370cdbd0814.md",
+      "kind": "official-document",
+      "bytes": 7237,
+      "sha256": "15e996dbadada0a58ff47710380119033c033fd7aafd24ee891ea27ee24885f6",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/debugging.md"
+    },
+    {
+      "path": "docs/deprecation.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8643a6bd412b94d3754ee992.md",
+      "kind": "official-document",
+      "bytes": 2495,
+      "sha256": "396b3411737b51349cbfd48462df795d1279d4f1283585cddb9c4230493571bd",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/deprecation.md"
+    },
+    {
+      "path": "docs/devel/host-devices-and-device-plugins.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/67271d049d8f928cc194afe7.md",
+      "kind": "official-document",
+      "bytes": 2813,
+      "sha256": "7a23e3b3bff81a3119531345920eda151f55893263420caa79f400ae31674266",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/devel/host-devices-and-device-plugins.md"
+    },
+    {
+      "path": "docs/devel/migration-premigration-hooks.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/aa403056a14021b9e5f50e81.md",
+      "kind": "official-document",
+      "bytes": 4025,
+      "sha256": "59416ddf86e2fb886ee56060cc9e18d784679987100227fb020251c39f875c57",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/devel/migration-premigration-hooks.md"
+    },
+    {
+      "path": "docs/devel/olm-integration.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/211d3759f47e7a91c6995ae0.md",
+      "kind": "official-document",
+      "bytes": 7172,
+      "sha256": "d5664380e237e2406347264216c4f1cf204af65ffdbf1d82c41442dd9aa84ed1",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/devel/olm-integration.md"
+    },
+    {
+      "path": "docs/devel/virtual-machine.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8189b5ea57d33c2ab684d343.md",
+      "kind": "official-document",
+      "bytes": 11861,
+      "sha256": "efd6f881ae8da8d2a80eaf88f44a6a86a0e584e12cc7c0e418b7865dbbbcde5e",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/devel/virtual-machine.md"
+    },
+    {
+      "path": "docs/devel/vm-monitoring.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/d3006bb7afbde61365808dd4.md",
+      "kind": "official-document",
+      "bytes": 4188,
+      "sha256": "09ed9b95f58f0a96b96a966b6a7238dab08a4fcd88d7d44c546333264d80df01",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/devel/vm-monitoring.md"
+    },
+    {
+      "path": "docs/discard-passthrough.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/a057467bd0411a8c1a8049e4.md",
+      "kind": "official-document",
+      "bytes": 2184,
+      "sha256": "7bb812427aae5fa0daa5f4861929830f9a8becce9766565ad49e694a20c0f946",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/discard-passthrough.md"
+    },
+    {
+      "path": "docs/disk-expansion.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/c214244a028394534e1db1c7.md",
+      "kind": "official-document",
+      "bytes": 482,
+      "sha256": "c329679eb79f08c16d2cc58a87daddb20b828e0c0218e1fff26a8a9802e3ece2",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/disk-expansion.md"
+    },
+    {
+      "path": "docs/env-providers.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/2b550c5d9377453367bb8dcb.md",
+      "kind": "official-document",
+      "bytes": 1728,
+      "sha256": "da204f4f7e612ed937cb755bd4831a42972bb65167cb643d2f681cc05b4e7b41",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/env-providers.md"
+    },
+    {
+      "path": "docs/filesystem-pv-disks.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/1f12512bb686ac2b7de94fc9.md",
+      "kind": "official-document",
+      "bytes": 3085,
+      "sha256": "5307295c16d5c8839dc2dfa8dc6bded97a122c38391cc489187f2b085954bfa0",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/filesystem-pv-disks.md"
+    },
+    {
+      "path": "docs/fossa.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/d1b10d8eb9699a4207928270.md",
+      "kind": "official-document",
+      "bytes": 1476,
+      "sha256": "bb9376fe23eef01826371fda576ce5f25b988ba7dd1093802c4249ddadc85f85",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/fossa.md"
+    },
+    {
+      "path": "docs/freeze.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/aa48fedc4ba00041dc31644d.md",
+      "kind": "official-document",
+      "bytes": 2908,
+      "sha256": "f9f47de03cbf2386d6115909fbc28b1094062db2aff5972f0f13ef5fe26a635c",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/freeze.md"
+    },
+    {
+      "path": "docs/getting-started.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/31bcba2ccafa41d46fbbd6d1.md",
+      "kind": "official-document",
+      "bytes": 11872,
+      "sha256": "623c788b8938b3b87671bd40a8d1ea5414062b446194f77eb028a1446c86d0d2",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/getting-started.md"
+    },
+    {
+      "path": "docs/gosec.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/f6db4211affb835fb9db2d23.md",
+      "kind": "official-document",
+      "bytes": 3501,
+      "sha256": "cb5fd5f9c9dca640fc520f5bcf3cdc19100e6693e7bb46452808e7b0a9261be3",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/gosec.md"
+    },
+    {
+      "path": "docs/graceful-shutdown.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/4708ba90445bee7a2107061c.md",
+      "kind": "official-document",
+      "bytes": 4987,
+      "sha256": "381aca4c973a4045ab476a7502620a5077d4656a7df538d2ed393bf7467679ca",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/graceful-shutdown.md"
+    },
+    {
+      "path": "docs/handling-eviction-requests.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/e14e34bbbff127f004b7250e.md",
+      "kind": "official-document",
+      "bytes": 12351,
+      "sha256": "92517708c84e3c6891cbf424748be049d66e3915d5ea499d705f94b1c0d63349",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/handling-eviction-requests.md"
+    },
+    {
+      "path": "docs/kubernetes-compatibility.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/805c1571826e3895dc507381.md",
+      "kind": "official-document",
+      "bytes": 2703,
+      "sha256": "efdab23ecb80a8fe6582a71c405d51d68e1db80b148ff9cdfa2ed69e7ec5d401",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/kubernetes-compatibility.md"
+    },
+    {
+      "path": "docs/local-custom-files.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/9381a34ce5eabbf86580c854.md",
+      "kind": "official-document",
+      "bytes": 2718,
+      "sha256": "8ae1e403e9d3a5b897405f4045b7849dea80098f80b80c9127d241e26055be15",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/local-custom-files.md"
+    },
+    {
+      "path": "docs/localstorage-disks.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/f70e4155bf20136cc2b435c3.md",
+      "kind": "official-document",
+      "bytes": 6649,
+      "sha256": "5afa6d5672a5dbaa91d604f4c85a58ce807411f32af1b8c40aed7859bab98ee8",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/localstorage-disks.md"
+    },
+    {
+      "path": "docs/logging.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/1a5e57d66b08bec5a71860d6.md",
+      "kind": "official-document",
+      "bytes": 1649,
+      "sha256": "e1effaa7bde34e4fd066df1ae224894043c4a1680f7969aac1a358d353d928b2",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/logging.md"
+    },
+    {
+      "path": "docs/network/network-binding-mechanisms.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/d542d9b114988b6ac0ce07e3.md",
+      "kind": "official-document",
+      "bytes": 13360,
+      "sha256": "8e8136d8234bc8e05be92c0562fff3245a8f11a084fedb3c31eda413e98d26e6",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/network/network-binding-mechanisms.md"
+    },
+    {
+      "path": "docs/network/network-binding-plugin.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/7274fd6aca3fe7ccdde1538d.md",
+      "kind": "official-document",
+      "bytes": 20911,
+      "sha256": "8f0e65b8037bcb364ab1bf5fa762d06e9a35eae43207d63c571634aa4b3554e7",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/network/network-binding-plugin.md"
+    },
+    {
+      "path": "docs/network/ordinal-naming-scheme-upgrade.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/b2e640199b7fbe28a5777fbf.md",
+      "kind": "official-document",
+      "bytes": 2029,
+      "sha256": "ef3819ba836bce8fc671d44e0184742f8673ed852b873c2af41fb3f5f0896540",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/network/ordinal-naming-scheme-upgrade.md"
+    },
+    {
+      "path": "docs/network/sriov.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/228e26c40788afb9777d7e48.md",
+      "kind": "official-document",
+      "bytes": 9202,
+      "sha256": "9078c2c9c61895b29b16bed7f121e7746d6c812fa9816635079efaf26b529cc4",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/network/sriov.md"
+    },
+    {
+      "path": "docs/observability/metrics.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/fee8d84eb3fa824026b461d0.md",
+      "kind": "official-document",
+      "bytes": 25228,
+      "sha256": "b9d33f0676ad523e3b5d2e36b2e7aac01b0fc0201dfa7d5e5bb80a77a5f1db70",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/observability/metrics.md"
+    },
+    {
+      "path": "docs/observability/monitoring-guidelines.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8854216c62c3344feb40b15f.md",
+      "kind": "official-document",
+      "bytes": 4115,
+      "sha256": "8b4f19f21c656316858cef294250bef6ad380ed02773ec0320269d4919d7a6bb",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/observability/monitoring-guidelines.md"
+    },
+    {
+      "path": "docs/pci-topology.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/aafa373e568a6c17b47d3fc2.md",
+      "kind": "official-document",
+      "bytes": 8594,
+      "sha256": "ce0016287fe6211fd00cab20a40bb157bb5c673a19297ba6bc3ff3b3759d1e49",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/pci-topology.md"
+    },
+    {
+      "path": "docs/perf-scale-benchmarks.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8c3c4fefc6249ab945b0d68c.md",
+      "kind": "official-document",
+      "bytes": 8140,
+      "sha256": "490a4d90a655e5400b06b3b6d7dc26fdb9814dc4ad11e5b83a7cbffce2c71886",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/perf-scale-benchmarks.md"
+    },
+    {
+      "path": "docs/probes.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/b159bf2f2a9bc33c311e1463.md",
+      "kind": "official-document",
+      "bytes": 6687,
+      "sha256": "1a049f26386ee4c58a1a1b6566ce1e9dbf8ec1113f363810d97da3647ff4541e",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/probes.md"
+    },
+    {
+      "path": "docs/quarantine.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/4ff5f85030a93d12b9e79297.md",
+      "kind": "official-document",
+      "bytes": 11107,
+      "sha256": "51bb435e56a75cbd6deca30916e82d6905b1e0f7b08a8ca0d4a84cac52b120a4",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/quarantine.md"
+    },
+    {
+      "path": "docs/rdp.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8ea784cec106d0d603811083.md",
+      "kind": "official-document",
+      "bytes": 601,
+      "sha256": "c731081d2804050ce3e3a9636eb664dadfa4d81d0fd2cb0c811ed0569a189839",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/rdp.md"
+    },
+    {
+      "path": "docs/release-branch-backporting.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/373fac4930c51c3cf6f482b2.md",
+      "kind": "official-document",
+      "bytes": 3236,
+      "sha256": "e903cfcd2cf2e5af236632577a8bb75af2fe6227f079d1fa40803eae17f4ce7c",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/release-branch-backporting.md"
+    },
+    {
+      "path": "docs/release-procedure.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/e3320cf793111444adc8e050.md",
+      "kind": "official-document",
+      "bytes": 10344,
+      "sha256": "adf9ff1ed51aea7cd9b6b4c6db23158194eda1a3383ad07d0feceb7f8c39d52b",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/release-procedure.md"
+    },
+    {
+      "path": "docs/release.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/87479ac9ea16cec5ceafce00.md",
+      "kind": "official-document",
+      "bytes": 10670,
+      "sha256": "661edecd0a6f08cd00f2376d8b7dba861efedd2cdcbea819bb21b6b003d0f783",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/release.md"
+    },
+    {
+      "path": "docs/replica-sets.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/623b1917bf23bfca0cfb906b.md",
+      "kind": "official-document",
+      "bytes": 5846,
+      "sha256": "de642a924ee485a1c8aaa2b88fe1f852adc20442dbbdb33ed4e5403376a9c8e2",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/replica-sets.md"
+    },
+    {
+      "path": "docs/reviewer-guide.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/6ef43543014a53579f11baf0.md",
+      "kind": "official-document",
+      "bytes": 8595,
+      "sha256": "93cbbe9b19416620d735653aaa6245974aeaa1c4ba0b5179773a34573b9b9431",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/reviewer-guide.md"
+    },
+    {
+      "path": "docs/software-emulation.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/59ead0614a4670a750c93cd4.md",
+      "kind": "official-document",
+      "bytes": 1644,
+      "sha256": "8d4d53fa8ad865d38a6ffc03bd51a2406608f742c2e2e1de8765be976df22a92",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/software-emulation.md"
+    },
+    {
+      "path": "docs/update-go-version.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/4fb91daa28dc6a07ce7dba95.md",
+      "kind": "official-document",
+      "bytes": 2652,
+      "sha256": "2809a6fd22a4ead97c7d646f63be766752166fe735e8204f123774c8939f575c",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/update-go-version.md"
+    },
+    {
+      "path": "docs/update-k8s-dependencies.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/c7d43c1cf391662cef5b89d8.md",
+      "kind": "official-document",
+      "bytes": 851,
+      "sha256": "c1aa8efd49abb5804cfdae79da1b38cfa5b0d8b2faf89212575685e38910b017",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/update-k8s-dependencies.md"
+    },
+    {
+      "path": "docs/updates.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/8b25122518ddc6cd3f4febac.md",
+      "kind": "official-document",
+      "bytes": 4405,
+      "sha256": "48cc97b8e7798b706325fab789f4ec41c0310d47cfeff406ce5503d24bd9e665",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/updates.md"
+    },
+    {
+      "path": "docs/updating-dependencies.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/239d842db248236a96e77231.md",
+      "kind": "official-document",
+      "bytes": 4039,
+      "sha256": "e1a10176d447b67333b7894ced3bbca68a2eac9a0a077f82c5ebbc6a17a7bbdf",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/updating-dependencies.md"
+    },
+    {
+      "path": "docs/vm-configuration.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/162afa7a0ed2363d0dc2313f.md",
+      "kind": "official-document",
+      "bytes": 20158,
+      "sha256": "07de22d63f41bc358d1d6b16ce8ce2bfeab27bce907db72329ddfa1f9a13dac0",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/vm-configuration.md"
+    },
+    {
+      "path": "docs/vm-presets.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/995d5c88055d2c88c51dee8f.md",
+      "kind": "official-document",
+      "bytes": 7602,
+      "sha256": "fa8042f36b8deb1f85bfc19e0d0b2fa9bc8ba4b2e2f3e8896dd6e2c0ed6bcaad",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/docs/vm-presets.md"
+    },
+    {
+      "path": "hack/license-header-check.sh",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/2a58d251a728ba01fdf7c79a.sh",
+      "kind": "license",
+      "bytes": 3174,
+      "sha256": "c7eb83f198589aec60f357393b9b1ea8407488ba4b27b7cbbf5e78f61463e429",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/hack/license-header-check.sh"
+    },
+    {
+      "path": "kubevirtci/cluster-up/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/cb77a41d289e41d31e855399.md",
+      "kind": "official-document",
+      "bytes": 1013,
+      "sha256": "09ba6514700be91a1236f2481ab0904b0336c868ec488601722a6df8e965ed8c",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/README_VGPU.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/d3bbce7fa8f6d73244de813e.md",
+      "kind": "official-document",
+      "bytes": 1477,
+      "sha256": "48d2503dfe1ff69d29ddb17650c08eca34dfe3833f2c76e813ccfb798b50be68",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/README_VGPU.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/kind-1.35/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/e356161879b186448a661e94.md",
+      "kind": "official-document",
+      "bytes": 1526,
+      "sha256": "07c10c5bf94d58f8118804b49f51cab5c4f143ab99f53e9987e9bce2eacf7c93",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/kind-1.35/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/kind-1.36/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/07385b4853bae89effbf9222.md",
+      "kind": "official-document",
+      "bytes": 1520,
+      "sha256": "e7404c78176f5084ac8db0b681236def89385091123a2726f3b9fa31f9d6a874",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/kind-1.36/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/kind-1.37/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/4fe45fbbf7534d3496edec82.md",
+      "kind": "official-document",
+      "bytes": 1520,
+      "sha256": "612bbd6087534abe73d5d764c1d0265ef5c616642644ea0fafb735729d2ef7bf",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/kind-1.37/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/kind-dra/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/cdbb89cdd43394875d7905b6.md",
+      "kind": "official-document",
+      "bytes": 1540,
+      "sha256": "65cf019fcd8e6d34357c1912df82bd93431cea9fcbf07d2c5fcb07ca8c46c1e4",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/kind-dra/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/kind-ovn/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/82495453382d9484171eebc8.md",
+      "kind": "official-document",
+      "bytes": 767,
+      "sha256": "a6082bb40741fa5e5c1e985b0f1c7f487c58982222e3c3ea0f4451acc4ca96f4",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/kind-ovn/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/kind/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/35c8a416e73bae5cba35751c.md",
+      "kind": "official-document",
+      "bytes": 886,
+      "sha256": "5f26cd58e9428850e4fff81a52ce76396f1739382a306879d29edbab29897045",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/kind/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/minikube/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/562e6766c4a8a53210024c41.md",
+      "kind": "official-document",
+      "bytes": 1346,
+      "sha256": "69e011ebe4c577010ed821ea8f0d9fabb97a8c52c04d3b2bda596641f0f97f9f",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/minikube/README.md"
+    },
+    {
+      "path": "kubevirtci/cluster-up/cluster/vfio-gpu/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/1972f4fe67ee86828c9e3767.md",
+      "kind": "official-document",
+      "bytes": 4505,
+      "sha256": "f7389780ebc45fdbdc4c2358a88a9bc0069fff7aa0946dc30b2ea4b3cb04a878",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/kubevirtci/cluster-up/cluster/vfio-gpu/README.md"
+    },
+    {
+      "path": "pkg/libvmi/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/02197edca24f7eaa31a4f8b9.md",
+      "kind": "official-document",
+      "bytes": 3275,
+      "sha256": "c32d29a396a20db4fbc9f66ee99f2e69b936ce9724799c09c001a70a34a8fe2b",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/pkg/libvmi/README.md"
+    },
+    {
+      "path": "staging/src/kubevirt.io/api/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/2c7592b6fa2604fe8ab3f8d9.md",
+      "kind": "official-document",
+      "bytes": 2226,
+      "sha256": "d5b4c9f3660cf6fa02a84fd485f038b81aaf47f2a1938117bb69ec8860deef0d",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/staging/src/kubevirt.io/api/README.md"
+    },
+    {
+      "path": "staging/src/kubevirt.io/client-go/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/dc256d84707c889ef3546c61.md",
+      "kind": "official-document",
+      "bytes": 1139,
+      "sha256": "ba2e9712b559442300303bbce6fff6d46f13d7f35736003084e1497639dc650b",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/staging/src/kubevirt.io/client-go/README.md"
+    },
+    {
+      "path": "tests/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/dacac2ebf9792f0d23c0f922.md",
+      "kind": "official-document",
+      "bytes": 6357,
+      "sha256": "14436482f6d1a2f1581483c35ec36b5be473d6956798b33c7d40d4f1d1e535e1",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tests/README.md"
+    },
+    {
+      "path": "tests/libvmifact/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/195da65858dd83a7bcc09176.md",
+      "kind": "official-document",
+      "bytes": 2145,
+      "sha256": "b7391214d39140f01c425ede260b5dbf9b76d796881f7a1c3c4c06b6c52b0771",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tests/libvmifact/README.md"
+    },
+    {
+      "path": "tests/performance/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/cf5d29e1a795746315acacd5.md",
+      "kind": "official-document",
+      "bytes": 1506,
+      "sha256": "789ede390bdd998d3a56faa58c981345a42a0917dd67f6b2586773f8dd0e627f",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tests/performance/README.md"
+    },
+    {
+      "path": "tools/feature-gate-report/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/5616fdfd63a434e040980047.md",
+      "kind": "official-document",
+      "bytes": 764,
+      "sha256": "b95044d82e12b6f4e001fb05027aff81b177b90289196eb0b37eefbdff232e94",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tools/feature-gate-report/README.md"
+    },
+    {
+      "path": "tools/gosec/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/3b1ae9f8aec16f995cdd6ce5.md",
+      "kind": "official-document",
+      "bytes": 164,
+      "sha256": "817f1529606d618fb9e706420492e40196dcb556540fd2ceaf7edd35511bc474",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tools/gosec/README.md"
+    },
+    {
+      "path": "tools/junit-merger/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/ca713490c92e7eccaf559f71.md",
+      "kind": "official-document",
+      "bytes": 565,
+      "sha256": "e4e8bc563c5af3dde40f98d80d3681e3be6a37a27e1a905c75c37730a27aa6e9",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tools/junit-merger/README.md"
+    },
+    {
+      "path": "tools/perfscale-load-generator/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/a3cc309c619048cf2ef67191.md",
+      "kind": "official-document",
+      "bytes": 2587,
+      "sha256": "9ab260fe649ce08892de6ac944763817a949ebd377f47b1379c40ed652f8249e",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tools/perfscale-load-generator/README.md"
+    },
+    {
+      "path": "tools/vmlog-checker/README.md",
+      "localPath": "raw/kubevirt--kubevirt/635f26f39456/cb241ab980bab6bf74a34af2.md",
+      "kind": "official-document",
+      "bytes": 1076,
+      "sha256": "85eb50a8f65c6c9c553163426d812efbd5b74ea1cb9ae55af5ff8d39a2cc44c2",
+      "sourceUrl": "https://github.com/kubevirt/kubevirt/blob/635f26f3945628165586c719977cfde364769a33/tools/vmlog-checker/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

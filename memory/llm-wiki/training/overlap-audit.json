@@ -1,0 +1,42 @@
+{
+  "verifiedAt": "2026-10-02",
+  "examples": 357,
+  "exactDuplicateConversations": 0,
+  "duplicateIds": 0,
+  "sourceReadbacks": "PASS",
+  "artifactHashReadbacks": "PASS",
+  "splitGroupLeakage": false,
+  "lexicalCandidatesReviewed": 4,
+  "decisions": [
+    {
+      "ids": [
+        "SYN-ASAN-003",
+        "SYN-UBSAN-004"
+      ],
+      "decision": "Shared symbolization concept with different sanitizer contracts; retained same split group."
+    },
+    {
+      "ids": [
+        "SYN-CILIUM-003",
+        "SYN-CILIUM-CAPACITY-002"
+      ],
+      "decision": "Same source and policy map pressure diagnosis; latter excluded from dataset."
+    },
+    {
+      "ids": [
+        "SYN-PYSQLITE-001",
+        "SYN-SYN-SA-001"
+      ],
+      "decision": "Different causes: autocommit vs inactive Session after flush failure; retained within transaction group."
+    },
+    {
+      "ids": [
+        "SYN-SYN-SA-006",
+        "SYN-DJANGO-001"
+      ],
+      "decision": "Related broken transaction/savepoint family; different framework contracts retained within one split."
+    }
+  ],
+  "semanticCompleteness": "NOT_PROVEN",
+  "actualIncidentTotal": "NOT_ESTABLISHED"
+}

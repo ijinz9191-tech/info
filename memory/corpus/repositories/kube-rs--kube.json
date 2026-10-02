@@ -1,0 +1,505 @@
+{
+  "schemaVersion": 1,
+  "repo": "kube-rs/kube",
+  "commit": "a9789ece01c31101a3564c09faf896841c37c1f9",
+  "retrievedAt": "2026-10-01T15:22:01.534342+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Orchestration & Management/Scheduling & Orchestration"
+  ],
+  "archiveUrl": "https://codeload.github.com/kube-rs/kube/zip/a9789ece01c31101a3564c09faf896841c37c1f9",
+  "archiveSha256": "f4e1c5ec0296becd7e4c80225fe9f8ac21ff7fae3fd86276d04cde771e58dbc8",
+  "archiveBytes": 576308,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 11,
+    "code": 48,
+    "licenses": 1,
+    "bytes": 371438
+  },
+  "files": [
+    {
+      "path": ".devcontainer/README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/0f9548cbce10dbdef0b86d78.md",
+      "kind": "official-document",
+      "bytes": 1664,
+      "sha256": "46e8d653e4a1702b89d2074aecccf4f12d339b48f0107f570170e5627a34c1ec",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/.devcontainer/README.md"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/06572a96a58dc510037d5efa.md",
+      "kind": "official-document",
+      "bytes": 169984,
+      "sha256": "d07c2fe6621d925187bfeb949503b63d66c87654a9f3217217d36f057aae1337",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/CHANGELOG.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/eca12c0a30e25b4b46522ebf.md",
+      "kind": "official-document",
+      "bytes": 8061,
+      "sha256": "05a0630dc979b231814ed750a012927c2c268a4d14e2aeb36da4c7852ba2ab48",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/CONTRIBUTING.md"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 11351,
+      "sha256": "ed80bd7cef632e261d2d4e5d4dc96ea900429825fd6076008e7ebffd962466b9",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 8672,
+      "sha256": "f2778b57b8afd944ebbe21414ddb7198b82960ec60adbeaaf3d120a9316ec93b",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/README.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/f6ed156e4bf5c79168066246.md",
+      "kind": "official-document",
+      "bytes": 1649,
+      "sha256": "3f88a0d6e89cbeb18cd634dfeb772a5050457c3f19d3ab295d3dce8560494228",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/SECURITY.md"
+    },
+    {
+      "path": "code-of-conduct.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/f1a69a41a835b5265e1c58e1.md",
+      "kind": "official-document",
+      "bytes": 140,
+      "sha256": "e133b4dacffd046293df661b1ed339e90db77c7eb983b65ddbbb469fb6a71b41",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/code-of-conduct.md"
+    },
+    {
+      "path": "e2e/README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/d9770bfbd9e3f53581cb5603.md",
+      "kind": "official-document",
+      "bytes": 1686,
+      "sha256": "99622bc6d6c80b3c98198f959e3396b29de9f11f808af269ed88f1435a301509",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/e2e/README.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 6151,
+      "sha256": "b4faf14564e655205c6be2b2939d38486eab03c59c3f8d083956d160ab903f2f",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/README.md"
+    },
+    {
+      "path": "examples/admission_controller.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/898b8416b5fc77c69b5e2baf.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3952,
+      "sha256": "495776a99a29819ea1c0726574fc755e33b76f55c64aec3adb922e34d6b4e3c1",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/admission_controller.rs"
+    },
+    {
+      "path": "examples/admission_setup.sh",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/dbdfe98d10f4b16167c07131.sh",
+      "kind": "upstream-example-code",
+      "bytes": 2118,
+      "sha256": "9472ce47a9209c62555c3971f4ea947655d6762ac370940c7bcaec72b32771b9",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/admission_setup.sh"
+    },
+    {
+      "path": "examples/cert_check.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/7e0e3b6d7d965dfd4ae45fb6.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2578,
+      "sha256": "fb815c7558426e2b942dcda6579b86c4660e92644e54d3eef54678c819907dab",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/cert_check.rs"
+    },
+    {
+      "path": "examples/configmapgen_controller.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/a4035f22dfb0b28537bbec49.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4367,
+      "sha256": "68e83d4de70deffda88b71f12f9c4b0800292e8fcb8311ed4bab426587c3fafc",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/configmapgen_controller.rs"
+    },
+    {
+      "path": "examples/crd_api.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/bc9ddf13a1bc3f6116db2246.rs",
+      "kind": "upstream-example-code",
+      "bytes": 8498,
+      "sha256": "6426185046c034761c88816644df5aff61fc9ba4ca572cb2822f60716e0a4145",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_api.rs"
+    },
+    {
+      "path": "examples/crd_apply.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/e57112b12f4be0af0dabe835.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2829,
+      "sha256": "8746d884e3ce7a4380efe32e8223b844f220347ebb371fcd3749a15c5ca54f66",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_apply.rs"
+    },
+    {
+      "path": "examples/crd_derive.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/445615cd6d66ba69552707c9.rs",
+      "kind": "upstream-example-code",
+      "bytes": 8236,
+      "sha256": "2db1e9abb5b8b36dc873e87be01147a4865f0f1a6ff87325e060e974d20e1562",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_derive.rs"
+    },
+    {
+      "path": "examples/crd_derive_cel.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/4e1bac4422a4f4b9c3236f1a.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2847,
+      "sha256": "a6af567d16a568768b9f205e05e2170b90bcd0ef00c87b8a47006698da996533",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_derive_cel.rs"
+    },
+    {
+      "path": "examples/crd_derive_custom_schema.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/dd581d8f4cb8daa56f21df3f.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1797,
+      "sha256": "b3c9e4c9eaad269c1af2d3c470be8a80ccff6339ddb5196f7fabd9416d8a5d19",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_derive_custom_schema.rs"
+    },
+    {
+      "path": "examples/crd_derive_multi.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/c79738af19368ac6edc92bcd.rs",
+      "kind": "upstream-example-code",
+      "bytes": 5377,
+      "sha256": "dcaee62fce8e08a8422b40957794571437c933f3c727eb22438f05c58ff5d07d",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_derive_multi.rs"
+    },
+    {
+      "path": "examples/crd_derive_no_schema.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/4fbf4673a8318cba45f6051a.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2244,
+      "sha256": "6b23209e9c4474295d11ac2895199a40263d00cc586f8f80aae77e50cff6d247",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_derive_no_schema.rs"
+    },
+    {
+      "path": "examples/crd_derive_schema.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/e4b6e33a00044936ddb0c7a5.rs",
+      "kind": "upstream-example-code",
+      "bytes": 17079,
+      "sha256": "0e1b7ea97308f6055f343b974e93ab45bd66b0c5b1e7565c698b139dbd73855c",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_derive_schema.rs"
+    },
+    {
+      "path": "examples/crd_reflector.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/779b1462e341dabebb37e99e.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2390,
+      "sha256": "85da580f0458f2eb7e92072e2cc7e9376284b0451de825b165f855dcd85355f4",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/crd_reflector.rs"
+    },
+    {
+      "path": "examples/custom_client.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/3f490bad6c4ca7e0e16f45f7.rs",
+      "kind": "upstream-example-code",
+      "bytes": 891,
+      "sha256": "9f92b32941582b255b34bc2ebbfd8f043d4207a55831429554f5ea44fd0f043c",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/custom_client.rs"
+    },
+    {
+      "path": "examples/custom_client_retry.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/44036bddcfc4c4fd7bad9934.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1698,
+      "sha256": "99070c680e6fac58daa7311ccfe431b047d632b18f4911a605c56816301c4fe1",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/custom_client_retry.rs"
+    },
+    {
+      "path": "examples/custom_client_tls.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/ff97440a42f75215a8c7f48a.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1593,
+      "sha256": "abe227557877bbbaafff9ebdd84305087526664cafc58aa84bb0c528c99013c3",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/custom_client_tls.rs"
+    },
+    {
+      "path": "examples/custom_client_trace.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/2820a80baf936bb00266f01a.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2914,
+      "sha256": "a8febd76209eb8fd05402c8fd7b3b85886bce33cdd9fffef997086231d26ae6c",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/custom_client_trace.rs"
+    },
+    {
+      "path": "examples/dynamic_api.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/7e9c956023f4a45b99047e69.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1183,
+      "sha256": "e8e433b6a91a20efb15e24b1ffec397a7c2d84a9963453181ddcb818bf2e1237",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/dynamic_api.rs"
+    },
+    {
+      "path": "examples/dynamic_jsonpath.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/5d5ba69dc4286efca18a0a84.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1107,
+      "sha256": "03b1932d9df16b587d679f20d369fbd2052e9aec83f08e4ce9d1a3c7618af806",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/dynamic_jsonpath.rs"
+    },
+    {
+      "path": "examples/dynamic_pod.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/0ab02a263acab9c7c0568329.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1102,
+      "sha256": "8c2dc4f79bdb71be971efbd95e86d3cfc6a6ec87e315938a1d177541d4ee4405",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/dynamic_pod.rs"
+    },
+    {
+      "path": "examples/dynamic_watcher.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/7773426b1875dca6a114d4f6.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1586,
+      "sha256": "519f4335a9f06a454eb609cd896e149f35907fefefcb996edc2549139b48ed8d",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/dynamic_watcher.rs"
+    },
+    {
+      "path": "examples/errorbounded_configmap_watcher.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/e4d394396210a9f4a0d52114.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1711,
+      "sha256": "5475acaf073bb4245642020ee53ca6dc2dabdc2be1d143737ee12ad7a385eb5d",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/errorbounded_configmap_watcher.rs"
+    },
+    {
+      "path": "examples/event_watcher.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/fc2e47b2d3150418a61d95fb.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3044,
+      "sha256": "3c4057b817b6d26a167ade02c31bf08e545f0dc74f3732e8928f49f31de22455",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/event_watcher.rs"
+    },
+    {
+      "path": "examples/job_api.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/a25583c30f61db1eea5edc78.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1456,
+      "sha256": "5fceceed410f8e4ca3068458ca05caabee55151b673873ec0702cf2d78d0b37b",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/job_api.rs"
+    },
+    {
+      "path": "examples/kubectl.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/8624a73a259e50f57811c3d7.rs",
+      "kind": "upstream-example-code",
+      "bytes": 9658,
+      "sha256": "27ff496bf7c2ba76791179f697d8d8e22ed31de98b85bacf3f48e72fb6c9dd30",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/kubectl.rs"
+    },
+    {
+      "path": "examples/log_stream.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/88c9834c06ef031cd320d7e2.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1511,
+      "sha256": "14e3d1a47dfd602ffaad11e7936b5e5d1dd3db57a96685044e0202f07f24e24e",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/log_stream.rs"
+    },
+    {
+      "path": "examples/multi_watcher.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/5bf3f251f4e57b9e5dae4496.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1755,
+      "sha256": "21f5b4a62865ebb5da5387bd8feb4270a29e8d97b976b5cc074adf84d2e5378f",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/multi_watcher.rs"
+    },
+    {
+      "path": "examples/node_reflector.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/3986be4189a4336fe4172358.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1659,
+      "sha256": "5062683d7eff3e93aae796dc1574441e485df71b816fdf9d7e0fcddb5f6bd018",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/node_reflector.rs"
+    },
+    {
+      "path": "examples/node_watcher.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/5d3d702f3be8a0915bf061b4.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2259,
+      "sha256": "64358bbe9e787a26b563c353da6373343ba61c53c3e08b066cbb90bf061fde98",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/node_watcher.rs"
+    },
+    {
+      "path": "examples/pod_api.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/7640f1be633c0fc2695e7a9d.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2697,
+      "sha256": "ffb52409ec361551232e4f90af422caa984e4afdf0941682f9581dfaea36fcb1",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_api.rs"
+    },
+    {
+      "path": "examples/pod_attach.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/8e718c51dd2f780c9fd87b70.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3800,
+      "sha256": "b6440cd44fe0bbd039c55c13c4a5cdc22b2ab639f7abd4d361735b6cf647acbc",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_attach.rs"
+    },
+    {
+      "path": "examples/pod_cp.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/4bccbd0a48c1a85deec467f2.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3105,
+      "sha256": "76c51f41387c179f76f5b52f22e8524927ad3383bb77f2987a4c8e2796c6cc3f",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_cp.rs"
+    },
+    {
+      "path": "examples/pod_evict.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/47a8bf0819a48cf74d726bdf.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1876,
+      "sha256": "99ef17176ec624e7de565e32c32799f79257cd350a6f314b745b66f2a929d769",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_evict.rs"
+    },
+    {
+      "path": "examples/pod_exec.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/15bcb8ca61e753607fe4e02b.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4248,
+      "sha256": "c2e1914b45fc28aec44c3cd70bda2df547c75105a3cc726916d836321c7b2037",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_exec.rs"
+    },
+    {
+      "path": "examples/pod_log_kubelet_debug.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/7e779a02446356d73caafbb7.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2646,
+      "sha256": "c4d87d03d4bdad3c910179c15aa8e9fddcebed7d08e5ef64d6829ad6519eaf45",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_log_kubelet_debug.rs"
+    },
+    {
+      "path": "examples/pod_paged.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/dd3889f78059d7109784171c.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1328,
+      "sha256": "fdb4ba4fe64c63f112515c8f12d09742f3cd8955aa7f5c0051c8cd9468431f08",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_paged.rs"
+    },
+    {
+      "path": "examples/pod_portforward.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/afe5afc0619999e2754a3f25.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2088,
+      "sha256": "829500266aa1bece60c65675c5332962f738f5ec32a4641dd5e82daae473a71d",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_portforward.rs"
+    },
+    {
+      "path": "examples/pod_portforward_bind.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/9fe83c42a886689440287910.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3398,
+      "sha256": "4f902e26b8d57688cab673beae705494474834b598eb9472b5270145d1e6ffcd",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_portforward_bind.rs"
+    },
+    {
+      "path": "examples/pod_portforward_hyper_http.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/d4218dc593f5f2eed1197ede.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2407,
+      "sha256": "2f808a2a9582fd1ddad984281b3468e253c9f7455ac208ca925152a3f7b6a0ac",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_portforward_hyper_http.rs"
+    },
+    {
+      "path": "examples/pod_reflector.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/d69b35a931b554f26520cb96.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1748,
+      "sha256": "3bd73f48c420fe78d11ce06e3bf4f9c2fb5765b73671aa4ece538a7e2f8b01e5",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_reflector.rs"
+    },
+    {
+      "path": "examples/pod_resize.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/e33271cf9ce029536c84e775.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4205,
+      "sha256": "65348fab26ef58723757495c1dfce78169bf97e544622e489e3a5abe5bc1d0c6",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_resize.rs"
+    },
+    {
+      "path": "examples/pod_shell.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/e0cd39a62161a582e86305f7.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3091,
+      "sha256": "901bca8049b79665a90e167f7931f60c6b744c87f38160faee36e6a0a7a3534a",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_shell.rs"
+    },
+    {
+      "path": "examples/pod_shell_crossterm.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/eb28abf7e437773747036e03.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4760,
+      "sha256": "a503b0e0bddc5c8bdd826cd7c364a43590a55fe0fdd807097e2f18da1f36bbc1",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_shell_crossterm.rs"
+    },
+    {
+      "path": "examples/pod_watcher.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/1f8bc2f28d6374861c5a4980.rs",
+      "kind": "upstream-example-code",
+      "bytes": 1754,
+      "sha256": "f488b2be878303c66a61034c2a88ea45efbccd1f2a0d35d4cee2e43ea100cfb3",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/pod_watcher.rs"
+    },
+    {
+      "path": "examples/request_raw.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/3c6bb5cb62e53e76a3913f11.rs",
+      "kind": "upstream-example-code",
+      "bytes": 7023,
+      "sha256": "c456cb2b57439fce4337a6c6dfd8ef64a9de627598ce871b1ff0f0d200d317f4",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/request_raw.rs"
+    },
+    {
+      "path": "examples/secret_reflector.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/4610da08b91932993fdb4e0c.rs",
+      "kind": "upstream-example-code",
+      "bytes": 2230,
+      "sha256": "fe699872a84d605ef94b4c16991db7f15c1f4577c2e85292b653066ba79a3a2d",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/secret_reflector.rs"
+    },
+    {
+      "path": "examples/secret_syncer.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/3b6d90986d363f41caee60ae.rs",
+      "kind": "upstream-example-code",
+      "bytes": 3739,
+      "sha256": "063af0bb2492317f85a36830c0afd368a5b7b09556f9145ce966ed615985e7ad",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/secret_syncer.rs"
+    },
+    {
+      "path": "examples/shared_stream_controllers.rs",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/8981554ccd80dd6b1a3e808d.rs",
+      "kind": "upstream-example-code",
+      "bytes": 4400,
+      "sha256": "0065085416978dd8b5001cc042c7d3f8f6f5e869d4a98d36eba4d6df4b6233de",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/examples/shared_stream_controllers.rs"
+    },
+    {
+      "path": "kube-client/README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/804ced01cd62a2129506d2f1.md",
+      "kind": "official-document",
+      "bytes": 1005,
+      "sha256": "5ad7386257c598ba2bfb874eefe5e53c918c94343f828238d2c58b95903e8bfe",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/kube-client/README.md"
+    },
+    {
+      "path": "kube-core/README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/4987f6fb34e768be2d0859fb.md",
+      "kind": "official-document",
+      "bytes": 587,
+      "sha256": "dc76551014df1ac1a2fdb267023dcd7fa87e2b967983fd14cce947c8b1aeca7e",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/kube-core/README.md"
+    },
+    {
+      "path": "kube-derive/README.md",
+      "localPath": "raw/kube-rs--kube/a9789ece01c3/a66b066775f43d3ef8020ffb.md",
+      "kind": "official-document",
+      "bytes": 506,
+      "sha256": "1bf58683fdb9c197666ff6befeaa37b5c5202a7ea58622abbc2b39c7b2093a0f",
+      "sourceUrl": "https://github.com/kube-rs/kube/blob/a9789ece01c31101a3564c09faf896841c37c1f9/kube-derive/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

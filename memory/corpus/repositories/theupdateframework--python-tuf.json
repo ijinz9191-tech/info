@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "repo": "theupdateframework/python-tuf",
+  "commit": "1db152642ec023448a9dde7f199ddd63e920a108",
+  "retrievedAt": "2026-10-01T15:43:20.003928+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "cncf/Provisioning/Security & Compliance"
+  ],
+  "archiveUrl": "https://codeload.github.com/theupdateframework/python-tuf/zip/1db152642ec023448a9dde7f199ddd63e920a108",
+  "selectionSha256": "dedd09195df8f27718a1fe095a8f5892399976a84341839174a4956f9a99b7a9",
+  "selection": {
+    "docRoots": [],
+    "codePaths": [],
+    "allCode": false
+  },
+  "archiveSha256": "18f20e65535b80b50cadfbef149343d7e781dbb753927154677804aec7457714",
+  "archiveBytes": 376591,
+  "transport": "codeload-zip",
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 48,
+    "code": 5,
+    "licenses": 2,
+    "bytes": 191783
+  },
+  "files": [
+    {
+      "path": "LICENSE",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 9694,
+      "sha256": "d3174ad63e721d4c9dccb8ad4320848992d314369bc46319720b5802c9153fe9",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/LICENSE"
+    },
+    {
+      "path": "LICENSE-MIT",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/421f8eecf75a1acdd7907667.txt",
+      "kind": "license",
+      "bytes": 1086,
+      "sha256": "ad52fe92b0d21a9b3733b484eb6f865e83855f4a6f9b9b8812b9012dc4587d27",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/LICENSE-MIT"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 6595,
+      "sha256": "c16c27d3891076c1e239ea84cffc600dcf25669e2c44f4a36f3fb85e31b6535c",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/README.md"
+    },
+    {
+      "path": "docs/1.0.0-ANNOUNCEMENT.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/7e89b76d6172aa4c4d71d90b.md",
+      "kind": "official-document",
+      "bytes": 2145,
+      "sha256": "62aa79868b74719b31b5bf772de6b984b474fd5f3e9aebd34ace23c7462583d7",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/1.0.0-ANNOUNCEMENT.md"
+    },
+    {
+      "path": "docs/CHANGELOG.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/2bfab3db5cc1baf4c6d3ff6b.md",
+      "kind": "official-document",
+      "bytes": 34609,
+      "sha256": "0cad0823a20e82910209d02b852bb97a7842a287204d90fead077f98eda61197",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/CHANGELOG.md"
+    },
+    {
+      "path": "docs/CODE-OF-CONDUCT.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/28c66fb62bf55ac0117ea75b.md",
+      "kind": "official-document",
+      "bytes": 174,
+      "sha256": "f38bdb8be3275d7520f21ed512ef354e1ae93ef8fc26358eea7c153db809276c",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/CODE-OF-CONDUCT.md"
+    },
+    {
+      "path": "docs/CONTRIBUTING.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/f4d33108e0c8fec5f7ef378e.rst",
+      "kind": "official-document",
+      "bytes": 2135,
+      "sha256": "4539739cdcfa3a7709ba40c16a28e9858b5ef4bbe0f97da8ab74b7eb9b4999ea",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/CONTRIBUTING.rst"
+    },
+    {
+      "path": "docs/GOVERNANCE.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/48bbc8ba35fcc52b1081d53a.md",
+      "kind": "official-document",
+      "bytes": 2561,
+      "sha256": "9edb3d847014da2bdf6212e6fba7d482a0cf45ed68e9595dd5261d6b9a775cf1",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/GOVERNANCE.md"
+    },
+    {
+      "path": "docs/INSTALLATION.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/195ad5b25fadf32d22037dc6.rst",
+      "kind": "official-document",
+      "bytes": 4369,
+      "sha256": "172a12528cbbebd0b7cd4c4a4f20f231d8651f0d65489b66fa26339f1b790250",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/INSTALLATION.rst"
+    },
+    {
+      "path": "docs/MAINTAINERS.txt",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/f1697a7f439ea91094a340f8.txt",
+      "kind": "official-document",
+      "bytes": 1023,
+      "sha256": "f5e7783c2f0c9377997ec88ca2328ba3ac2e36cef2ece413a19f8e96e9d01dfa",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/MAINTAINERS.txt"
+    },
+    {
+      "path": "docs/RELEASE.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/9c4ae3b5f6675180493e9a1a.md",
+      "kind": "official-document",
+      "bytes": 2580,
+      "sha256": "0e2b27c9bc6027fe83fa48b13e1dbdb2e298ad8cbd797c2d097251b0cb98d008",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/RELEASE.md"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/2605206b7e64be69186fabc8.md",
+      "kind": "official-document",
+      "bytes": 728,
+      "sha256": "b354815fb84d8e6d2532b6884d9cb5713d052286553e43fe7b08e050cd22a54d",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/SECURITY.md"
+    },
+    {
+      "path": "docs/_posts/2022-02-21-release-1-0-0.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/5c70c77c6f18535c5a193a99.md",
+      "kind": "official-document",
+      "bytes": 2549,
+      "sha256": "29524043484992e2f13334ca0f1b086c92f0d20dfb4136f97d0d8764b8ee9144",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/_posts/2022-02-21-release-1-0-0.md"
+    },
+    {
+      "path": "docs/_posts/2022-05-04-ngclient-design.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/830cfec19e5be3fe5d0a5eae.md",
+      "kind": "official-document",
+      "bytes": 4701,
+      "sha256": "904cfc88f19870eb5b7556c1c4bb663767f95e02e0d4590dc2c2cb611eb77284",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/_posts/2022-05-04-ngclient-design.md"
+    },
+    {
+      "path": "docs/_posts/2022-06-15-testing-ngclient.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/f74a2234654775b3f6bf15dc.md",
+      "kind": "official-document",
+      "bytes": 8357,
+      "sha256": "28b91202adf7b65ca384e3b7922bb5c3f34a119116d849b3bccb8638d12df336",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/_posts/2022-06-15-testing-ngclient.md"
+    },
+    {
+      "path": "docs/_posts/2022-10-21-python-tuf-security-assessment.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/39fcb3e0abb83af3e41a8391.md",
+      "kind": "official-document",
+      "bytes": 5039,
+      "sha256": "0e69b934f57e189e987d6d0471b0ff80d44f22ff5e70a863e6dd2d6703ffefa3",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/_posts/2022-10-21-python-tuf-security-assessment.md"
+    },
+    {
+      "path": "docs/_posts/2023-01-24-securesystemslib-signer-api.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/8abe12182f4a0a47edfa8e1e.md",
+      "kind": "official-document",
+      "bytes": 5484,
+      "sha256": "8e98acd23eefb9640a255d3597b196d0f77873e11eada117765b478cfe39b625",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/_posts/2023-01-24-securesystemslib-signer-api.md"
+    },
+    {
+      "path": "docs/adr/0000-use-markdown-architectural-decision-records.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/4e296879901e4b8d1fbc1443.md",
+      "kind": "official-document",
+      "bytes": 772,
+      "sha256": "c71c97c36383cc975415eed03a53519185a0b77bedf113e7ace64ba0ef5e1c53",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0000-use-markdown-architectural-decision-records.md"
+    },
+    {
+      "path": "docs/adr/0001-python-version-3-6-plus.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/88410f97ca9f6a2e13f863fb.md",
+      "kind": "official-document",
+      "bytes": 1672,
+      "sha256": "c45ae50d7d08c48f890cb67af05590c7e29c2f0914c9fc07578e134a0eefee62",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0001-python-version-3-6-plus.md"
+    },
+    {
+      "path": "docs/adr/0002-pre-1-0-deprecation-strategy.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/c0c8d290ba9411443e4380b6.md",
+      "kind": "official-document",
+      "bytes": 1898,
+      "sha256": "a892a7bf320be1899552d8fbf2b1a49b05c96e6a186447a3c9376f637921937c",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0002-pre-1-0-deprecation-strategy.md"
+    },
+    {
+      "path": "docs/adr/0003-where-to-develop-TUF-1-0-0.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/ee89872d246ee2778a09645b.md",
+      "kind": "official-document",
+      "bytes": 2073,
+      "sha256": "ab89a1fe4521d4845b4634d1b64aef4960d90da1dc4d16aaebfe9e00a1e0b781",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0003-where-to-develop-TUF-1-0-0.md"
+    },
+    {
+      "path": "docs/adr/0004-extent-of-OOP-in-metadata-model.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/f63b99edfdc55813d1b06c86.md",
+      "kind": "official-document",
+      "bytes": 1892,
+      "sha256": "b179c23b545d39247404b6d4955a0ad1cdc1742101a648734ae8ca3d14416aba",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0004-extent-of-OOP-in-metadata-model.md"
+    },
+    {
+      "path": "docs/adr/0005-use-google-python-style-guide.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/db62e1a6e366710675d1f52f.md",
+      "kind": "official-document",
+      "bytes": 1989,
+      "sha256": "1ade23f79ae5a84164f28ec796baf4a656da39c3943b6eeba499d4be5baeb647",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0005-use-google-python-style-guide.md"
+    },
+    {
+      "path": "docs/adr/0006-where-to-implemenent-model-serialization.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/e29ede7b722105e47d49d3f0.md",
+      "kind": "official-document",
+      "bytes": 6404,
+      "sha256": "2fa5dbf75b27ad38d8b0696611c4fa2c44623b4f5e8140d3b9778c4e8bda7bee",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0006-where-to-implemenent-model-serialization.md"
+    },
+    {
+      "path": "docs/adr/0008-accept-unrecognised-fields.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/84ccde23fdcaa9ed58165c9a.md",
+      "kind": "official-document",
+      "bytes": 2675,
+      "sha256": "8aa29add0929c035f0b5d4d99a74db4ee0454b1f8051cd3814e8354dd84cd1db",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0008-accept-unrecognised-fields.md"
+    },
+    {
+      "path": "docs/adr/0009-what-is-a-reference-implementation.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/de61a038e90cc3a31cee3d8f.md",
+      "kind": "official-document",
+      "bytes": 2792,
+      "sha256": "eaaac7690d0fc6dfc2f7281210187e1e39952012d8bcd3a0d92236df06bd0ddd",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0009-what-is-a-reference-implementation.md"
+    },
+    {
+      "path": "docs/adr/0010-repository-library-design.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/3822ed0d1a8aeb5a9cf59887.md",
+      "kind": "official-document",
+      "bytes": 6232,
+      "sha256": "5380da2894ddff806dba4e4087e7577fe74c74fafc6f0d14366efa0edfd5d6ad",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/0010-repository-library-design.md"
+    },
+    {
+      "path": "docs/adr/index.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/a2209ef13bde8abaeb681dc5.md",
+      "kind": "official-document",
+      "bytes": 1521,
+      "sha256": "1ebb62bffe3ac24373270de8e41d05a62494481e905610e4479b193f3d2e0573",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/index.md"
+    },
+    {
+      "path": "docs/adr/template.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/ba197fceb74f4c0c55e54451.md",
+      "kind": "official-document",
+      "bytes": 2238,
+      "sha256": "5196ea504242b2614dbadf98bb2b215d74c3b043a2e4eed14df8f43bcd2bae13",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/adr/template.md"
+    },
+    {
+      "path": "docs/api/api-reference.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/565247bc8d622b5af2af68a4.rst",
+      "kind": "official-document",
+      "bytes": 1310,
+      "sha256": "911647ddaa2991fe65dfe8a7f1a612556956a6e41fcfbbc2ac9530df3d14b238",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/api-reference.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.metadata.metadata.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/0ec9fcda007ee6c4f7982670.rst",
+      "kind": "official-document",
+      "bytes": 91,
+      "sha256": "fe650d4e4cd3f74487a87529e5722624401715305f36bb27b948cc3a330e0f68",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.metadata.metadata.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.metadata.root.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/1df3dd829d5d73120615072f.rst",
+      "kind": "official-document",
+      "bytes": 83,
+      "sha256": "e8ffbf91e829b0c67cca0814c370620a8322decd11bc4e56088dde89c1712afe",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.metadata.root.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.metadata.snapshot.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/e8b12bfa0c1f5f03b9dfc306.rst",
+      "kind": "official-document",
+      "bytes": 91,
+      "sha256": "7dc3396bb6d3e49fca02d0e60d9d3315fc232b20cda385cd49c1d11c182177cb",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.metadata.snapshot.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.metadata.supporting.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/dff40fec683b37720b648191.rst",
+      "kind": "official-document",
+      "bytes": 716,
+      "sha256": "8c156f687befe92e36d7d25409742db7c3ff0c89c24bef8a46754bdb14190076",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.metadata.supporting.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.metadata.targets.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/16cd26e01785afad2e9ab7c3.rst",
+      "kind": "official-document",
+      "bytes": 89,
+      "sha256": "c69ba725ba72e510c2fc4056fdff0ddbc098671d83d973046cec3b7f89f72a5b",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.metadata.targets.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.metadata.timestamp.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/4085ffc0ef84dbc8b9137337.rst",
+      "kind": "official-document",
+      "bytes": 93,
+      "sha256": "76f6e0a403a52bebdfec63f03ed6adc94eb27951582c2d457081bae540a9c643",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.metadata.timestamp.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/5c38daba5983feec2f05ba4d.rst",
+      "kind": "official-document",
+      "bytes": 344,
+      "sha256": "d41438f6e55b8fe405e3ef9510476bce2c9429e06ccb77e3db0cd7976e16c7d5",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.rst"
+    },
+    {
+      "path": "docs/api/tuf.api.serialization.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/3338ea063e88abef458519e2.rst",
+      "kind": "official-document",
+      "bytes": 199,
+      "sha256": "c18bd1a76329c2e1e478c62e2d81ef78cb6a9d218d290f3c3580371fbe83071b",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.api.serialization.rst"
+    },
+    {
+      "path": "docs/api/tuf.ngclient.config.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/0e836833face57debe81cdc0.rst",
+      "kind": "official-document",
+      "bytes": 84,
+      "sha256": "01e171bb815785a48566f46bad9f071ccdb89e50025d730c2bfde282e6574caa",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.ngclient.config.rst"
+    },
+    {
+      "path": "docs/api/tuf.ngclient.fetcher.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/76d4044d6da0c960269e523b.rst",
+      "kind": "official-document",
+      "bytes": 184,
+      "sha256": "421a55ed4f7e0023179add154a6a5b60b632b0875cc132a1da5a5595fd722841",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.ngclient.fetcher.rst"
+    },
+    {
+      "path": "docs/api/tuf.ngclient.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/a652d3292a9208f6a315e84f.rst",
+      "kind": "official-document",
+      "bytes": 545,
+      "sha256": "d46f0608f36fa7d79852a504cdc432ebe5af99a4d94b80ecfbaf0d8b7ae99e8c",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.ngclient.rst"
+    },
+    {
+      "path": "docs/api/tuf.ngclient.updater.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/3806d66530a3590e984f9893.rst",
+      "kind": "official-document",
+      "bytes": 56,
+      "sha256": "58b3b8c340cbe53a45e785b3949f3ea4ca5d8ce25ddc57c8e8c714d056312a2f",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/api/tuf.ngclient.updater.rst"
+    },
+    {
+      "path": "docs/index.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/b4d68dc855d0f9476d3f2ee3.md",
+      "kind": "official-document",
+      "bytes": 303,
+      "sha256": "6cc42dd4ec8fd89a07c8cef026a37939a52d7f1ef9735332d07bf3db6effd3a3",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/index.md"
+    },
+    {
+      "path": "docs/index.rst",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/8d068e8797e88947c320f79e.rst",
+      "kind": "official-document",
+      "bytes": 769,
+      "sha256": "6fc67ab1109a01ab1e65f5100cb0e6f4b53e8048d3934fed212313e822799238",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/index.rst"
+    },
+    {
+      "path": "docs/repository-library-design.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/d89029fd6939748203058d2a.md",
+      "kind": "official-document",
+      "bytes": 11688,
+      "sha256": "d26a7396c2fe371056ad8264413fffcfd51ff93ef1fc0eed78f3f8ed5f8ee75b",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/docs/repository-library-design.md"
+    },
+    {
+      "path": "examples/README.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/49aaa2819e35a856818ecec8.md",
+      "kind": "official-document",
+      "bytes": 141,
+      "sha256": "0a4ca706e90707fc8a67ede058a55ecfce9233d744c6c1e0db141b0202f62697",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/README.md"
+    },
+    {
+      "path": "examples/client/README.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/173f8eb2fffda99f811a49f3.md",
+      "kind": "official-document",
+      "bytes": 1380,
+      "sha256": "3f7b06d83dedf0916e8bc20cdcf901dbadfff56dd537b4bfb0d4f183c1c2be75",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/client/README.md"
+    },
+    {
+      "path": "examples/manual_repo/basic_repo.py",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/65c7311f24ff709f92aa30e9.py",
+      "kind": "upstream-example-code",
+      "bytes": 14629,
+      "sha256": "a3246f1e73f7b5b7e4c9df47c726bb1765bb655879d5e49e6ed88fcffb41f330",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/manual_repo/basic_repo.py"
+    },
+    {
+      "path": "examples/manual_repo/hashed_bin_delegation.py",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/9b2c89d95e9c1a3d46a3c86e.py",
+      "kind": "upstream-example-code",
+      "bytes": 8900,
+      "sha256": "5534258b231a7c6b7c9775aabc39cd58e941bd1fe041fc5b343dd2f6c252c9e8",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/manual_repo/hashed_bin_delegation.py"
+    },
+    {
+      "path": "examples/manual_repo/succinct_hash_bin_delegations.py",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/3cf4be247dd51d3ed55736c1.py",
+      "kind": "upstream-example-code",
+      "bytes": 6531,
+      "sha256": "575399b0c1f500a47505f542d9a8929281bbd5c908bf345f3d03f11711e010eb",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/manual_repo/succinct_hash_bin_delegations.py"
+    },
+    {
+      "path": "examples/repository/README.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/3f708cbbb4bd070e663cae45.md",
+      "kind": "official-document",
+      "bytes": 1053,
+      "sha256": "d234178a6f3a7654633e4cb3f570ea6a0175c3d7f6ab987ee0d5b2ce39e84542",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/repository/README.md"
+    },
+    {
+      "path": "examples/repository/_simplerepo.py",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/bfe6cfa01df6a8efeb32ff87.py",
+      "kind": "upstream-example-code",
+      "bytes": 8651,
+      "sha256": "b7da82cb7d98025f9ecac130137bb803a24b5cf006cfc191437e6eeeb9d15779",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/repository/_simplerepo.py"
+    },
+    {
+      "path": "examples/uploader/README.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/5858e32047d872d347209b16.md",
+      "kind": "official-document",
+      "bytes": 1722,
+      "sha256": "1500817e8a3be47bc88d1b096d67bab416da1b8413399915d2b07e1fbd0b97f2",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/uploader/README.md"
+    },
+    {
+      "path": "examples/uploader/_localrepo.py",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/7eac88b819e913599f22fa04.py",
+      "kind": "upstream-example-code",
+      "bytes": 5172,
+      "sha256": "68eb8925beae63184cbc4a1550e55a2ff21c3f827e28ff66615d369b9887e36d",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/examples/uploader/_localrepo.py"
+    },
+    {
+      "path": "tuf/ngclient/README.md",
+      "localPath": "raw/theupdateframework--python-tuf/1db152642ec0/0b7b9137042ce5aed62e1bc2.md",
+      "kind": "official-document",
+      "bytes": 972,
+      "sha256": "3d4e6d9852b3e7e4c4885fcb16fe244ce80d24b3e42cc02ead09d9b77d6f6a53",
+      "sourceUrl": "https://github.com/theupdateframework/python-tuf/blob/1db152642ec023448a9dde7f199ddd63e920a108/tuf/ngclient/README.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}

@@ -1,0 +1,841 @@
+{
+  "schemaVersion": 1,
+  "repo": "redis/redis-doc",
+  "commit": "1044224477fceacc5af56a636b0a7495d19e533c",
+  "retrievedAt": "2026-10-01T15:27:27.896984+00:00",
+  "status": "ACQUIRED",
+  "topics": [
+    "data/redis"
+  ],
+  "archiveUrl": "https://codeload.github.com/redis/redis-doc/zip/1044224477fceacc5af56a636b0a7495d19e533c",
+  "archiveSha256": "d3bca52e7d23326df72ce335c3190f409b9a735219f7923562a4ad958195f7cf",
+  "archiveBytes": 1831782,
+  "licenseState": "UPSTREAM_NOTICES_CAPTURED_PER_FILE_REVIEW_REQUIRED",
+  "counts": {
+    "documents": 99,
+    "code": 0,
+    "licenses": 3,
+    "bytes": 1485714
+  },
+  "files": [
+    {
+      "path": "COPYRIGHT",
+      "localPath": "raw/redis--redis-doc/1044224477fc/84a6545219ce16450a3936aa.txt",
+      "kind": "license",
+      "bytes": 672,
+      "sha256": "aed3bd278b37d1b80bc9a1c3f6ff23e725c401700c1666fb40c5a6f1912d4315",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/COPYRIGHT"
+    },
+    {
+      "path": "LICENSE",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c693279643b8cd5d248172d9.txt",
+      "kind": "license",
+      "bytes": 15997,
+      "sha256": "0eccccc963cdb872c72cc613a23d722312e85f3b8deb0a00d6094954d2d3d66e",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/b335630551682c19a781afeb.md",
+      "kind": "official-document",
+      "bytes": 5539,
+      "sha256": "9c570e20424804ee72ead3ce7485226e04f03c101e46545e7f74b883435088f3",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/README.md"
+    },
+    {
+      "path": "_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/24a58f36acf9c9bcdfbf07d9.md",
+      "kind": "official-document",
+      "bytes": 571,
+      "sha256": "3a26c034031d892f01a47abc0617f070d01aa0b0604f35756c8cc59eb00a3ef9",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/_index.md"
+    },
+    {
+      "path": "docs/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c842590019e88255dcb723f9.md",
+      "kind": "official-document",
+      "bytes": 187,
+      "sha256": "73016be33b53c80e1827e541ff1483d2e8bb75a43351a1ba810adce49e96d832",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/_index.md"
+    },
+    {
+      "path": "docs/about/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/af5fde379c5a1e8a48e8ffd4.md",
+      "kind": "official-document",
+      "bytes": 3044,
+      "sha256": "4323ecfd68783277023e74033f1e9006469e695478cb0dd75588d9a42f805266",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/about/_index.md"
+    },
+    {
+      "path": "docs/about/license.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/a23be567ca8cfd6c7dadf212.md",
+      "kind": "license",
+      "bytes": 6978,
+      "sha256": "3a9ab672cbe1b14854a7a29db68723573b5229af442493837b823fcf24ffc027",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/about/license.md"
+    },
+    {
+      "path": "docs/about/releases.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/591dc09bc144de901d9646ff.md",
+      "kind": "official-document",
+      "bytes": 5309,
+      "sha256": "b2c58616cd85586e3bfe1c9afb17d8fa18456d90719d1947f972e0e7ec5f3a67",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/about/releases.md"
+    },
+    {
+      "path": "docs/about/users.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/08d4ab7f1c3898ea4f71844d.md",
+      "kind": "official-document",
+      "bytes": 795,
+      "sha256": "bd8bd60f2600b2f429b3a73f6151efe4507b862ba29d63cc86daccc52cf3ed44",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/about/users.md"
+    },
+    {
+      "path": "docs/connect/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3a1450c47e8139888ad97e73.md",
+      "kind": "official-document",
+      "bytes": 1607,
+      "sha256": "a40e5e0b6c89a985ce936856458dbc0869ca469b77f89f7bfc4c86bd85c0be99",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/_index.md"
+    },
+    {
+      "path": "docs/connect/cli.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/624bbf4837567107ab4a25c5.md",
+      "kind": "official-document",
+      "bytes": 32635,
+      "sha256": "c8b7d882c2d17956db4b042b298602ac3106b7de60eb481a05bc026ae9af0ff9",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/cli.md"
+    },
+    {
+      "path": "docs/connect/clients/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/be26b7cbc9bbb317da459c2c.md",
+      "kind": "official-document",
+      "bytes": 1318,
+      "sha256": "7b6b70f53159d3e17623ec50ef61ed372185c6626e6ab7191d1ea989e0e9fee3",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/_index.md"
+    },
+    {
+      "path": "docs/connect/clients/dotnet.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3ecd017b6334bbb48d9356db.md",
+      "kind": "official-document",
+      "bytes": 7269,
+      "sha256": "58d5b1135c4e1ce3dfe1de8698cfa1401b6b54e556e96d10003b4494a80d8a1d",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/dotnet.md"
+    },
+    {
+      "path": "docs/connect/clients/go.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/0df6b3e32832710327393302.md",
+      "kind": "official-document",
+      "bytes": 4204,
+      "sha256": "437168cf4fe98cee0794392ee9004a0cd01c89a0a139b664bb8afda56c8a1844",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/go.md"
+    },
+    {
+      "path": "docs/connect/clients/java/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/4034e6ba4593d3fa611f0381.md",
+      "kind": "official-document",
+      "bytes": 338,
+      "sha256": "4f63230e2bf691c6f7c7157c34f2d960260f1f47a835420b3652bf63ea42f484",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/java/_index.md"
+    },
+    {
+      "path": "docs/connect/clients/java/jedis.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/7decc4e2175418af34d80813.md",
+      "kind": "official-document",
+      "bytes": 12222,
+      "sha256": "cbaf9c2f803fe69be06bc17626dbeeebaeab9044318109a5df28fa07a214a186",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/java/jedis.md"
+    },
+    {
+      "path": "docs/connect/clients/java/lettuce.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/56e1554d526a01e9479b87e4.md",
+      "kind": "official-document",
+      "bytes": 8780,
+      "sha256": "4904af9bf3e1610b149e0d0bfb51ade488cf3fb207f2fb30db825fdf424305d1",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/java/lettuce.md"
+    },
+    {
+      "path": "docs/connect/clients/nodejs.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/b302fe3ba3dd2388bae28efe.md",
+      "kind": "official-document",
+      "bytes": 7013,
+      "sha256": "8e71b5110b6e7e790a993136f94847f9b504195207b1bbd02875f5fde3c1f009",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/nodejs.md"
+    },
+    {
+      "path": "docs/connect/clients/python.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/6c0f2bd3cdd698dd651d9cac.md",
+      "kind": "official-document",
+      "bytes": 6376,
+      "sha256": "a4763ac0c2371023bf22ebc1b20a7c5f0804678bdb7deb423252b566f7a08e7c",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/connect/clients/python.md"
+    },
+    {
+      "path": "docs/data-types/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/2f6e3ae4324bd3839fedab97.md",
+      "kind": "official-document",
+      "bytes": 4836,
+      "sha256": "8a1da9bea6310a6bccb050da9a19dc17e8fedd02b67647facf4bd3a62f21e574",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/_index.md"
+    },
+    {
+      "path": "docs/data-types/bitfields.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/45fe4eabec8ae0c8bb4d09e7.md",
+      "kind": "official-document",
+      "bytes": 1792,
+      "sha256": "fae64f13fca24e4eb57adc8d86371cac6512fd4a5996bfef7512f562c1334552",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/bitfields.md"
+    },
+    {
+      "path": "docs/data-types/bitmaps.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/eee40773cc329d7dcbaf524d.md",
+      "kind": "official-document",
+      "bytes": 4986,
+      "sha256": "4c268b5d1e218e12d4b4c091899bb3f2cefe8511439eb3de0cd354fc8322ea31",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/bitmaps.md"
+    },
+    {
+      "path": "docs/data-types/geospatial.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/ac3352178f87d75d3efba3e7.md",
+      "kind": "official-document",
+      "bytes": 1734,
+      "sha256": "4fac401eedce311acf0a9982c9e30d82034a49077253f044d927b916ff974814",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/geospatial.md"
+    },
+    {
+      "path": "docs/data-types/hashes.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/a8d449f6788e4243ce21725b.md",
+      "kind": "official-document",
+      "bytes": 3107,
+      "sha256": "6dcddfb44422c96ce5b40c9f358afba088f7059cfb56ac7a642eee4117e15668",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/hashes.md"
+    },
+    {
+      "path": "docs/data-types/lists.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/cd2f4654089c6dc4cf4568c6.md",
+      "kind": "official-document",
+      "bytes": 15484,
+      "sha256": "75556d7d4ba3ab3b22697c488ee4992f3ee22a022c2ddd2b865455bed61aaa6e",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/lists.md"
+    },
+    {
+      "path": "docs/data-types/probabilistic/hyperloglogs.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/d87cdacb6b6f039a2efe4145.md",
+      "kind": "official-document",
+      "bytes": 4467,
+      "sha256": "4bb561469a2387f4a6cab9b372862f9edbc242296e3527f2227c5562770e2bb6",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/probabilistic/hyperloglogs.md"
+    },
+    {
+      "path": "docs/data-types/sets.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/dac9aa63107f36ab9b6c7458.md",
+      "kind": "official-document",
+      "bytes": 6401,
+      "sha256": "00cf4b9e49e27f8715f3483876f2dd3bd2f771f99d61cea01748f55b5d5ff7ea",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/sets.md"
+    },
+    {
+      "path": "docs/data-types/sorted-sets.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/6d9deb87e5a1d5ef8eb59a39.md",
+      "kind": "official-document",
+      "bytes": 9789,
+      "sha256": "ede275f3beb9f89ce198d4312a341e20169c1d1ece9de846d1dd9559e127776c",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/sorted-sets.md"
+    },
+    {
+      "path": "docs/data-types/streams.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3ecf26c829b6b9fecc9d0e2b.md",
+      "kind": "official-document",
+      "bytes": 62541,
+      "sha256": "7976bbcc08839ac9974cd68b811ce63d3bd517d0791b3c269cf8e05fe7d668b9",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/streams.md"
+    },
+    {
+      "path": "docs/data-types/strings.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/9e67b60e92cb9ca11a8c2598.md",
+      "kind": "official-document",
+      "bytes": 5104,
+      "sha256": "dde6fe2b188f406b08296ed33a314e3aef83f8ddd2198b1c76cb76e39be746ee",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/data-types/strings.md"
+    },
+    {
+      "path": "docs/get-started/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/214a225a0249c6a781741391.md",
+      "kind": "official-document",
+      "bytes": 696,
+      "sha256": "27d23db92b045b5536cf148d3e963f12242f8c631f7c0e8aabca2bb7340b8f49",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/get-started/_index.md"
+    },
+    {
+      "path": "docs/get-started/data-store.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/22011677f43596801cd58c92.md",
+      "kind": "official-document",
+      "bytes": 4100,
+      "sha256": "27e2b2e71d8e7eab694ee07afc70bb5cafc32868d936f52c24379deb716c932e",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/get-started/data-store.md"
+    },
+    {
+      "path": "docs/get-started/faq.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/fbbbfdd665fc3da3cc95aa33.md",
+      "kind": "official-document",
+      "bytes": 9559,
+      "sha256": "b85885e8b9295b149f5a28e532738c844bfedd819592cebc9cc61a1c01818ad7",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/get-started/faq.md"
+    },
+    {
+      "path": "docs/install/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/8ff3dcba7bbec8163f1d3589.md",
+      "kind": "official-document",
+      "bytes": 793,
+      "sha256": "33800abe05628a587a0f613aab7290f12948233e840acd0eb7888cfd586862f7",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/_index.md"
+    },
+    {
+      "path": "docs/install/install-redis/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3a899e5882ffef539d957cf6.md",
+      "kind": "official-document",
+      "bytes": 9737,
+      "sha256": "1f85d5c2b4acb2e56630b34e4714b48bab70a18868c1663a334eeea9b1816dca",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redis/_index.md"
+    },
+    {
+      "path": "docs/install/install-redis/install-redis-from-source.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/2bdb0a34344d42def2bd11ab.md",
+      "kind": "official-document",
+      "bytes": 1999,
+      "sha256": "dbe6e9f548f27e3c97c3892d52b7de7f2dcdc532f765d3e279a2c740565f23fe",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redis/install-redis-from-source.md"
+    },
+    {
+      "path": "docs/install/install-redis/install-redis-on-linux.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/b227818a7fc3e96544d2a6fd.md",
+      "kind": "official-document",
+      "bytes": 1641,
+      "sha256": "8d07e02ea04cf85be1bd1faba76adf435e2dcc82fc7cab64df95213ebdcb0854",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redis/install-redis-on-linux.md"
+    },
+    {
+      "path": "docs/install/install-redis/install-redis-on-mac-os.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/8af8e40c29d8681720d47343.md",
+      "kind": "official-document",
+      "bytes": 2423,
+      "sha256": "a2a201df4f814ed2a8d2203c6c28abec89cd0b19d12f68b315d18104f8fde29f",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redis/install-redis-on-mac-os.md"
+    },
+    {
+      "path": "docs/install/install-redis/install-redis-on-windows.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/63259bd1986ed83dce6a9ae8.md",
+      "kind": "official-document",
+      "bytes": 1956,
+      "sha256": "1ea5e89c56a1a4f086b7b8b882cab5c1c7079c9c0768c700dfcf6e6214ae1045",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redis/install-redis-on-windows.md"
+    },
+    {
+      "path": "docs/install/install-redisinsight/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/b085983398f46ad3fddc5ffa.md",
+      "kind": "official-document",
+      "bytes": 280,
+      "sha256": "0dab4214d624d53c97e97f696e19066155e22bb6db312dce5832f72e0313e0ce",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redisinsight/_index.md"
+    },
+    {
+      "path": "docs/install/install-redisinsight/env-variables.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/88d4c280d1756d5aa8f1be87.md",
+      "kind": "official-document",
+      "bytes": 2108,
+      "sha256": "98d8cabbf06fc98de2b97b20088e987e6d11a735d187b40182c9c179348598a6",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redisinsight/env-variables.md"
+    },
+    {
+      "path": "docs/install/install-redisinsight/install-on-aws.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3493a454e3fb103a8c7e5242.md",
+      "kind": "official-document",
+      "bytes": 4003,
+      "sha256": "851badb1cd66a7d90c1e091b4f6198510f2a7276fdc5ca9e9374c1b25ebb32e0",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redisinsight/install-on-aws.md"
+    },
+    {
+      "path": "docs/install/install-redisinsight/install-on-docker.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/2c500b5e16ca04d9b071dd86.md",
+      "kind": "official-document",
+      "bytes": 1371,
+      "sha256": "e2bcc33f94a2e208bb21714fdcd11bb13f8841ce62a8f2bc9d5d1472df1dded8",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redisinsight/install-on-docker.md"
+    },
+    {
+      "path": "docs/install/install-redisinsight/install-on-k8s.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/30bdccd3f1e5a18b73b54d99.md",
+      "kind": "official-document",
+      "bytes": 9519,
+      "sha256": "c62941122cf3e2f77f5a60a8c1768697f4dc36b6462c85caa1180f467ff67e0d",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/install/install-redisinsight/install-on-k8s.md"
+    },
+    {
+      "path": "docs/interact/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/20a4febd4400b3f73fc3246e.md",
+      "kind": "official-document",
+      "bytes": 223,
+      "sha256": "444138d0be093db8aaca04b442d6c1acd85f156bf8a965ac6091017ad8f4b4e0",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/_index.md"
+    },
+    {
+      "path": "docs/interact/programmability/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/20813e4890f933212f6ec9c3.md",
+      "kind": "official-document",
+      "bytes": 8062,
+      "sha256": "26a69418e01a7755f230638a32c54373a98f80b92115f4271f09f00363409abe",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/programmability/_index.md"
+    },
+    {
+      "path": "docs/interact/programmability/eval-intro.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/4bcbf89849a0e7a98f09d39b.md",
+      "kind": "official-document",
+      "bytes": 26350,
+      "sha256": "4fd4a749661c5185d2268013cd65c234e9901c0b7ce8c37584d7713bc5557831",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/programmability/eval-intro.md"
+    },
+    {
+      "path": "docs/interact/programmability/functions-intro.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/86e31e2265775a59130ff53f.md",
+      "kind": "official-document",
+      "bytes": 21313,
+      "sha256": "b860d36e345d4697ba01193ec3c0207a5f8add2a54b5c5dcc10541a7cd7308ce",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/programmability/functions-intro.md"
+    },
+    {
+      "path": "docs/interact/programmability/lua-api.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/0cf3626c60064e04b4e6f79c.md",
+      "kind": "official-document",
+      "bytes": 40468,
+      "sha256": "3a97fc19b2329e0f2251d5a84a1781f308dc5dce5fccb6d32d8c1eb32ed5d589",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/programmability/lua-api.md"
+    },
+    {
+      "path": "docs/interact/programmability/lua-debugging.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/cbb7e80002fd8f96adbfc2c8.md",
+      "kind": "official-document",
+      "bytes": 12353,
+      "sha256": "a96601ac8d345f5af36355729bc8e505565ab5818f15a32dfd1522acc6998c3a",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/programmability/lua-debugging.md"
+    },
+    {
+      "path": "docs/interact/pubsub.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/0e1a529f7b4cf9a8c4362831.md",
+      "kind": "official-document",
+      "bytes": 8330,
+      "sha256": "e86c0b6342ca51898bb6eabfb9d973709487c4c7cbc82b20fb08c47b52c81fe9",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/pubsub.md"
+    },
+    {
+      "path": "docs/interact/transactions.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/f5954b7dac5a21baa5991a14.md",
+      "kind": "official-document",
+      "bytes": 9816,
+      "sha256": "c299e64717ed8987d585c7c489d762f987ad1363c8a62b64cc7e6960ce531866",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/interact/transactions.md"
+    },
+    {
+      "path": "docs/management/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/7a6fa4e17e1aa695ec31e7fa.md",
+      "kind": "official-document",
+      "bytes": 114,
+      "sha256": "f100faf8a1757bab623013dc4d6e9fee0c711463b69f979aad7529a168ba8764",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/_index.md"
+    },
+    {
+      "path": "docs/management/admin.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/9927be722a257ebca21d0da6.md",
+      "kind": "official-document",
+      "bytes": 6517,
+      "sha256": "efc49bd9fa566a16d314054211cef2b7b38c9911858f952a08d76239af180ab8",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/admin.md"
+    },
+    {
+      "path": "docs/management/config-file.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/4ce3cf5f5d3a460a99c498e5.md",
+      "kind": "official-document",
+      "bytes": 320,
+      "sha256": "4dd3d4e3f4eecfa9b1b2a97aae000ba518848bb55dd471e4458c88fc52f25133",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/config-file.md"
+    },
+    {
+      "path": "docs/management/config.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/1dbf04d461398db5b6589485.md",
+      "kind": "official-document",
+      "bytes": 4915,
+      "sha256": "84576cdc8012ad651d7224d4cf44568d016fc3c5bd65c945d7ef3d334048f331",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/config.md"
+    },
+    {
+      "path": "docs/management/debugging.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/31b7ab44d3e228a215962267.md",
+      "kind": "official-document",
+      "bytes": 8377,
+      "sha256": "39a67aa71fe78ae92e140349d5677f14141cd32895183121f13782d9b2dcf556",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/debugging.md"
+    },
+    {
+      "path": "docs/management/optimization/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/53112456fccf13b1353162e9.md",
+      "kind": "official-document",
+      "bytes": 195,
+      "sha256": "5fc395a70b94837bd33a2aa5dde72082905ee95e72e1ade97e8aa01bd3573f54",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/optimization/_index.md"
+    },
+    {
+      "path": "docs/management/optimization/benchmarks/index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/5be1fe27b7e0cbd1d1f5942a.md",
+      "kind": "official-document",
+      "bytes": 16794,
+      "sha256": "de76399cc3fd534aa5f5769e921d814b9b297f8ee035aa19c9d54c8306a7994f",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/optimization/benchmarks/index.md"
+    },
+    {
+      "path": "docs/management/optimization/cpu-profiling.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/ba11651bac42cce42bb4793a.md",
+      "kind": "official-document",
+      "bytes": 12010,
+      "sha256": "5382c88d7f632abe1fe2f1ff33c9a64201c03440505e779c6d8c42e7ace6d3d4",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/optimization/cpu-profiling.md"
+    },
+    {
+      "path": "docs/management/optimization/latency-monitor.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/446d5aa2c0b2320053431187.md",
+      "kind": "official-document",
+      "bytes": 6246,
+      "sha256": "a6b332eb1a5f3041a0a5d609366162d35220dc30a5f841977d37b2fb3d62ee93",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/optimization/latency-monitor.md"
+    },
+    {
+      "path": "docs/management/optimization/latency.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/75d04b7fdaf1e5390100ba51.md",
+      "kind": "official-document",
+      "bytes": 32719,
+      "sha256": "4a4c90f9419ffb03595e01dd9ea3eddbc9cf30b3c83cd6c3cc511582867cc2e2",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/optimization/latency.md"
+    },
+    {
+      "path": "docs/management/optimization/memory-optimization.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/6e0a25b878000e78392a40e0.md",
+      "kind": "official-document",
+      "bytes": 11912,
+      "sha256": "375922248ac9ba553d12d495b33e6c36a7087ab5d129470468c9ca805a660a58",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/optimization/memory-optimization.md"
+    },
+    {
+      "path": "docs/management/persistence.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/04a4e07b7b41571e45f8188f.md",
+      "kind": "official-document",
+      "bytes": 23230,
+      "sha256": "c03ac0ca0d3751a0d491deddf8c6577468d363dbdac0f61f7e9369e4d86d44b9",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/persistence.md"
+    },
+    {
+      "path": "docs/management/replication.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3fb78bbd97f9cbcfc02ddc47.md",
+      "kind": "official-document",
+      "bytes": 25274,
+      "sha256": "3d39a43def6b2088e28868bbe7f0ce49f36592b9706d21217734e8f48f82bef0",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/replication.md"
+    },
+    {
+      "path": "docs/management/scaling.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c7157e041b0f880430f1e374.md",
+      "kind": "official-document",
+      "bytes": 50936,
+      "sha256": "88ed9bb62096194cd7a01f392e5d418478861b3c6ec6045d70e61f208fe7f69b",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/scaling.md"
+    },
+    {
+      "path": "docs/management/security/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c16a68b8e3ed954d00969da4.md",
+      "kind": "official-document",
+      "bytes": 11978,
+      "sha256": "701a45211103fc26dc49e83c9ad0aabc1cfd8a77b67bf9c5979cfced1074b455",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/security/_index.md"
+    },
+    {
+      "path": "docs/management/security/acl.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/8b7c724fe1262d89a43b12f1.md",
+      "kind": "official-document",
+      "bytes": 31471,
+      "sha256": "bedc179a4d174a733cd40e7d8cf503330224cc4ec7bfa6b7c3fb9d8b22a6dd3d",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/security/acl.md"
+    },
+    {
+      "path": "docs/management/security/encryption.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/e20b6a81e70ec0d2f2182137.md",
+      "kind": "official-document",
+      "bytes": 4294,
+      "sha256": "e930b0b5a1a5cc5bccfe6117bdc6770ebf548525940dc0061a2339f68fdd2d0e",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/security/encryption.md"
+    },
+    {
+      "path": "docs/management/sentinel.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/a678da7243e91570fac2f4b0.md",
+      "kind": "official-document",
+      "bytes": 73523,
+      "sha256": "0383783acaeed57b633530c3e19d8b3e1df4c93a7a71f84e9e16d329f5f0fae0",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/sentinel.md"
+    },
+    {
+      "path": "docs/management/troubleshooting.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/f97413a77345d075ceae6289.md",
+      "kind": "official-document",
+      "bytes": 2474,
+      "sha256": "7e65ae335f6caa5eef1977be2fe3091572b1f32c3e4b012d37162988114fcb30",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/management/troubleshooting.md"
+    },
+    {
+      "path": "docs/manual/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/4c8a2f69ae0e3d22d07c1fbc.md",
+      "kind": "official-document",
+      "bytes": 103,
+      "sha256": "aa07b7526a78c23b34eb74c6778f99e740d6c71ef64fae654f16ab5a1b8e9266",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/_index.md"
+    },
+    {
+      "path": "docs/manual/client-side-caching.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/79d83c78c76495f0e9b48131.md",
+      "kind": "official-document",
+      "bytes": 19599,
+      "sha256": "d0646130ab63c0130aabb510112bc96fc8eec807a67580905808c154384d01d8",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/client-side-caching.md"
+    },
+    {
+      "path": "docs/manual/keyspace-notifications.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/97ac8327734b48de20bd6ab0.md",
+      "kind": "official-document",
+      "bytes": 11627,
+      "sha256": "f801b61bd4cb8ae59826a7734a81ceeab16e728e4c37ade22676539263d81ffe",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/keyspace-notifications.md"
+    },
+    {
+      "path": "docs/manual/keyspace.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/6875ae7c6d2de818737cec8e.md",
+      "kind": "official-document",
+      "bytes": 5978,
+      "sha256": "eeae6144da0e30c2f5383aa7b97ac2f2421c1acfdc95ed5bc973d6d063ea1ec3",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/keyspace.md"
+    },
+    {
+      "path": "docs/manual/patterns/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/9e8843993b6b5637de2a1421.md",
+      "kind": "official-document",
+      "bytes": 275,
+      "sha256": "d41ef8d0a355f115aec52c3b3ea7bf794fd4482b28c6069d721df7ec207442ce",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/patterns/_index.md"
+    },
+    {
+      "path": "docs/manual/patterns/bulk-loading.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/7d75308cf2dbfa54c53c29ed.md",
+      "kind": "official-document",
+      "bytes": 5488,
+      "sha256": "0b199c596a00beb0fba0cefda852560f1dcb4f4cfa6db0c461709913cd9d0e0d",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/patterns/bulk-loading.md"
+    },
+    {
+      "path": "docs/manual/patterns/distributed-locks.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/bd7ab92065863f3bbab0f1e9.md",
+      "kind": "official-document",
+      "bytes": 20515,
+      "sha256": "3205d85e3f2de441f6213b97593eb34890a3817ffe6af41069f55624bbd94e76",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/patterns/distributed-locks.md"
+    },
+    {
+      "path": "docs/manual/patterns/indexes/index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/d05120c9ab69e14e6cbf0555.md",
+      "kind": "official-document",
+      "bytes": 32428,
+      "sha256": "aa1e78a1edaea4758551d1e8b46b40ad16eb1c026657fc2a79f3d8eea4606143",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/patterns/indexes/index.md"
+    },
+    {
+      "path": "docs/manual/patterns/twitter-clone.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/1feeeab34b043e1a7d3a7239.md",
+      "kind": "official-document",
+      "bytes": 26734,
+      "sha256": "d620bfa5e4ff280df226ae354f6ef8d0da7434b611e9ed8856f655842d9a92d3",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/patterns/twitter-clone.md"
+    },
+    {
+      "path": "docs/manual/pipelining/index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/387e98c3b4d8b68797d43965.md",
+      "kind": "official-document",
+      "bytes": 8100,
+      "sha256": "cc9806a12d911f6e6f1f1fe463e95045125adcea487562191f9a2cbf73c63acf",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/manual/pipelining/index.md"
+    },
+    {
+      "path": "docs/reference/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/52433e295b56f40d4b12ba58.md",
+      "kind": "official-document",
+      "bytes": 110,
+      "sha256": "96b9ad3a5d8d6bf20ed9449efc06a45bc1f98b817954ac1e1502afac82ea7ae9",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/_index.md"
+    },
+    {
+      "path": "docs/reference/arm.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/747081e01b01db8e2b7197af.md",
+      "kind": "official-document",
+      "bytes": 4007,
+      "sha256": "35546f27c84fceca60dae481403baa1e7cc63ba9e16e34cfb9753e5fe85df6f4",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/arm.md"
+    },
+    {
+      "path": "docs/reference/clients.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/00523a4dd2f766aa9bca532e.md",
+      "kind": "official-document",
+      "bytes": 12803,
+      "sha256": "b2b68a4d20154713ba517ada29556e0d30c63542e78d395741c2e9b29898892c",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/clients.md"
+    },
+    {
+      "path": "docs/reference/cluster-spec.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c9f82c67065c128bea48abf1.md",
+      "kind": "official-document",
+      "bytes": 82825,
+      "sha256": "ee699f989355919f70598a5c24d4bd7096ba6c1e74bd921a7af2fe3cd8094601",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/cluster-spec.md"
+    },
+    {
+      "path": "docs/reference/command-arguments.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/ba1ac0dcf97b177ce9355ffe.md",
+      "kind": "official-document",
+      "bytes": 6369,
+      "sha256": "1716f6349de605dbc8bf7a68fe590f77acbb432db2863068c4761129cf47808f",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/command-arguments.md"
+    },
+    {
+      "path": "docs/reference/command-tips.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/8ae4d47af569f717e618493d.md",
+      "kind": "official-document",
+      "bytes": 6677,
+      "sha256": "3f0be66585587fa6a7dca60f6b29ce41270205d6a7b0f92a396e51c8c077c417",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/command-tips.md"
+    },
+    {
+      "path": "docs/reference/eviction/index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/846aa68fc66ef432779581cd.md",
+      "kind": "official-document",
+      "bytes": 11315,
+      "sha256": "24292eef62cc1cd80bbc9563c05270e81b9937df7329de3d52269b687204d7df",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/eviction/index.md"
+    },
+    {
+      "path": "docs/reference/gopher.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/98d382d21e6c33564fcecdef.md",
+      "kind": "official-document",
+      "bytes": 2455,
+      "sha256": "065697efd1ff00d4ed69c6fc722ec5359a5f26b4aa51fbb7fdcdcec73efd0232",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/gopher.md"
+    },
+    {
+      "path": "docs/reference/internals/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/897606abd11857d201f23ce8.md",
+      "kind": "official-document",
+      "bytes": 377,
+      "sha256": "3cc70ea2772cdf7bb9b795ed10f75560b155283b3e0a007a96c171bf6649c52a",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/internals/_index.md"
+    },
+    {
+      "path": "docs/reference/internals/internals-rediseventlib.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/84601b55958274e3d7ec3e5c.md",
+      "kind": "official-document",
+      "bytes": 8398,
+      "sha256": "54eaf3e7b0e6a5e6ab5cdb706f65a98b4565419c42e3c3522df22ce12baf014a",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/internals/internals-rediseventlib.md"
+    },
+    {
+      "path": "docs/reference/internals/internals-sds.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/3552b5da3505d64bbf3b20e8.md",
+      "kind": "official-document",
+      "bytes": 3448,
+      "sha256": "3b50e0e81e1f0bf388a516d66ee022ef76bd1ad6841d2f0fea9633677f3440a8",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/internals/internals-sds.md"
+    },
+    {
+      "path": "docs/reference/internals/internals-vm.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/4e236b7f20fc40e57f68598e.md",
+      "kind": "official-document",
+      "bytes": 26220,
+      "sha256": "193a49f813e70995e89a04c33ded4f74d9aa655035e5180ce97b536de2f675b3",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/internals/internals-vm.md"
+    },
+    {
+      "path": "docs/reference/internals/rdd.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/23e8fce22410f8aecba779da.md",
+      "kind": "official-document",
+      "bytes": 3498,
+      "sha256": "c5a8926b5eb26a2564ab9b91e20a15886d54c3fe65554500af2a4717be49230b",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/internals/rdd.md"
+    },
+    {
+      "path": "docs/reference/key-specs.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c45153202749e25f061828c7.md",
+      "kind": "official-document",
+      "bytes": 11396,
+      "sha256": "d5e78cd6900755762ee73164749e996c5c9f345c82451529a6f194133d8b5b89",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/key-specs.md"
+    },
+    {
+      "path": "docs/reference/modules/_index.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/2b3af5bc25a1ee9d87c8569b.md",
+      "kind": "official-document",
+      "bytes": 37589,
+      "sha256": "e2a4812a4f3f83122cc0b8fbf55af7959696447ee52ba75423ae396cc7f1264f",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/modules/_index.md"
+    },
+    {
+      "path": "docs/reference/modules/modules-api-ref.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/25e29f5f34640015990ccde1.md",
+      "kind": "official-document",
+      "bytes": 322427,
+      "sha256": "0e8d39891be2be175f772d6d6df5f00c1c135fd15ff35a596f8bfa37855dc912",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/modules/modules-api-ref.md"
+    },
+    {
+      "path": "docs/reference/modules/modules-blocking-ops.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/d6a4fbfe366b9fc36edf1cc2.md",
+      "kind": "official-document",
+      "bytes": 11180,
+      "sha256": "68817c076d845c1aa6e7fcf10ddf74bd9956029fa8b3c058dfb1ecfd66401a85",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/modules/modules-blocking-ops.md"
+    },
+    {
+      "path": "docs/reference/modules/modules-native-types.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/e00ef019d8c432753e6eefe9.md",
+      "kind": "official-document",
+      "bytes": 18266,
+      "sha256": "71077afbaa3facc6ac706eeb39fc155f47de075a710ce4fc3f42a59eac788ca3",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/modules/modules-native-types.md"
+    },
+    {
+      "path": "docs/reference/protocol-spec.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/ee14c223e7feac40713634d7.md",
+      "kind": "official-document",
+      "bytes": 30041,
+      "sha256": "5d26e4a337c035dae1c31cac3e91aa16ac027e4385a637113a194313e9f529c0",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/protocol-spec.md"
+    },
+    {
+      "path": "docs/reference/sentinel-clients.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/c832a72c19193e6c2f11f729.md",
+      "kind": "official-document",
+      "bytes": 8932,
+      "sha256": "20f29f169eb5e1b2eff34f62bc19fd7025a2da81a9d8c8b49fddfcad749f074f",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/sentinel-clients.md"
+    },
+    {
+      "path": "docs/reference/signals.md",
+      "localPath": "raw/redis--redis-doc/1044224477fc/b0f9e140b566ea1d8634000f.md",
+      "kind": "official-document",
+      "bytes": 5040,
+      "sha256": "feca830084619a5f7e021a7d0bb0e83620ce666005a97dbf58c96ea58156afa6",
+      "sourceUrl": "https://github.com/redis/redis-doc/blob/1044224477fceacc5af56a636b0a7495d19e533c/docs/reference/signals.md"
+    }
+  ],
+  "omitted": [],
+  "claimVerification": "source bytes acquired; technical claims and behavior not independently executed",
+  "trustedInstructions": false
+}
